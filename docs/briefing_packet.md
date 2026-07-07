@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-07T08:28:55.196892+00:00
+- Generated: 2026-07-07T11:58:17.939908+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 306
-- Total clusters raw: 150
-- Total clusters in packet: 59
-- Dropped low score: 91
+- Total items in window: 304
+- Total clusters raw: 147
+- Total clusters in packet: 58
+- Dropped low score: 89
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -85,6 +85,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -95,31 +100,26 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -129,47 +129,52 @@
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 7
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - In window count: 6
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 2
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 10
+  - Item count: 40
   - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -180,23 +185,13 @@
   - Status: ok
   - Item count: 50
   - In window count: 7
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -210,6 +205,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -220,26 +220,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 30
+  - In window count: 2
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -250,11 +245,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 2
+  - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -265,46 +265,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 20
   - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -315,6 +310,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -330,11 +335,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 30
+  - In window count: 19
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -350,36 +355,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 19
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 20
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 50
+  - In window count: 20
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -390,13 +390,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -424,22 +424,22 @@
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 4
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+  - In window count: 3
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 0
+  - In window count: 22
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
-  - In window count: 23
+  - In window count: 0
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -473,30 +473,33 @@
 
 ## Affinity groups (themes)
 
-### Linux kernel active exploitation
+### ransomware extortion targeting Linux kernel
 - Anchor signal: Linux kernel
 - Theme key: linux-kernel
-- Cluster count: 8
-- Article count: 8
-- Cohesion: 0.222
+- Cluster count: 10
+- Article count: 11
+- Cohesion: 0.232
 - Shared strong signals: Linux kernel
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: ransomware_extortion, active_exploitation
   - affected_industries: government
-  - affected_products: Linux kernel, OpenAI/ChatGPT
-  - urgency_signals: actively_exploited
-- Cluster IDs: f497a96858, 8b4ae517ee, 9e3f402183, 63e5e50e1d, cad05b2d4e, 87ef22349e, b22f1632fb, a56bf79002
+  - affected_products: Linux kernel
+  - urgency_signals: poc_available
+- Cluster IDs: f497a96858, 8b4ae517ee, 9e3f402183, 63e5e50e1d, cad05b2d4e, 28e99059c0, 8a6b3f83cd, a56bf79002, b22f1632fb, 87ef22349e
 - Links:
   - https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html
   - https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
   - https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
   - https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-  - https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
-  - https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
+  - https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/
+  - https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
+  - https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/
   - https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
+  - https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
+  - https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
 
 ### ransomware extortion targeting Citrix
 - Anchor signal: Citrix
@@ -569,27 +572,29 @@
   - https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
   - https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
 
-### Microsoft SharePoint active exploitation
-- Anchor signal: Microsoft SharePoint
-- Theme key: microsoft-sharepoint
+### Scattered Spider targeting Linux kernel
+- Anchor signal: Scattered Spider
+- Theme key: scattered-spider
 - Cluster count: 4
 - Article count: 5
-- Cohesion: 0.225
-- Shared strong signals: Microsoft SharePoint
+- Cohesion: 0.459
+- Shared strong signals: Scattered Spider
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security
-  - affected_industries: government, financial_services
-  - affected_products: Microsoft SharePoint
-  - urgency_signals: actively_exploited, poc_available
-- Cluster IDs: 26d1b14830, 63e5e50e1d, 7dc61d54d0, 8a6b3f83cd
+  - threat_categories: ransomware_extortion, data_breach, supply_chain, apt_espionage, ai_security
+  - actor_attribution: Scattered Spider
+  - affected_industries: financial_services, government
+  - affected_products: Linux kernel
+  - cve_ids: CVE-2026-46242
+  - urgency_signals: poc_available, zero_day
+- Cluster IDs: 63e5e50e1d, 28e99059c0, 8a6b3f83cd, 31e5b2aa9f
 - Links:
-  - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
-  - https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
   - https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/
-  - https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/
+  - https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/
+  - https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
   - https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/
+  - https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
 
 ### Palo Alto Networks active exploitation
 - Anchor signal: Palo Alto Networks
@@ -610,27 +615,6 @@
   - https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/
   - https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
   - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-
-### ransomware extortion targeting Apple iOS/macOS
-- Anchor signal: Apple iOS/macOS
-- Theme key: apple-ios-macos
-- Cluster count: 3
-- Article count: 5
-- Cohesion: 0.2
-- Shared strong signals: Apple iOS/macOS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, supply_chain, web_shell_backdoor
-  - affected_industries: financial_services, government
-  - affected_products: Apple iOS/macOS
-- Cluster IDs: de6119ec2c, 8a6b3f83cd, 083a4a03d5
-- Links:
-  - https://isc.sans.edu/diary/rss/33114
-  - https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html
-  - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
-  - https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/
-  - https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/
 
 ### Kubernetes vulnerability activity
 - Anchor signal: Kubernetes
@@ -724,17 +708,36 @@
   - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
   - https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/
 
+### ransomware extortion targeting Salesforce
+- Anchor signal: Salesforce
+- Theme key: salesforce
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Salesforce
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+  - affected_products: Salesforce
+  - urgency_signals: zero_day
+- Cluster IDs: 57ef1249ed, f2b3bd6ba4
+- Links:
+  - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
+  - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+
 ## Forward signals
 
 ### Novelty
 - Novel cves: 6
-  - CVE-2024-12356 (first seen via The Hacker News at 2026-07-07T05:16:51+00:00, cluster 8b4ae517ee)
-  - CVE-2026-40138 (first seen via The Hacker News at 2026-07-07T05:16:51+00:00, cluster 8b4ae517ee)
-  - CVE-2026-40139 (first seen via The Hacker News at 2026-07-07T05:16:51+00:00, cluster 8b4ae517ee)
-  - CVE-2026-40140 (first seen via The Hacker News at 2026-07-07T05:16:51+00:00, cluster 8b4ae517ee)
-  - CVE-2026-40141 (first seen via The Hacker News at 2026-07-07T05:16:51+00:00, cluster 8b4ae517ee)
-  - CVE-2026-11405 (first seen via The Hacker News at 2026-07-07T06:40:47+00:00, cluster b22f1632fb)
-- Novel actors: 0
+  - CVE-2020-22653 (first seen via Cisco Talos at 2026-07-07T10:00:05+00:00, cluster f6a2962dc9)
+  - CVE-2020-22658 (first seen via Cisco Talos at 2026-07-07T10:00:05+00:00, cluster f6a2962dc9)
+  - CVE-2023-25717 (first seen via Cisco Talos at 2026-07-07T10:00:05+00:00, cluster f6a2962dc9)
+  - CVE-2025-2492 (first seen via Cisco Talos at 2026-07-07T10:00:05+00:00, cluster f6a2962dc9)
+  - CVE-2024-42009 (first seen via The Hacker News at 2026-07-07T09:10:51+00:00, cluster 23a808f8c8)
+  - CVE-2025-49113 (first seen via The Hacker News at 2026-07-07T09:10:51+00:00, cluster 23a808f8c8)
+- Novel actors: 1
+  - UNC5174 (first seen via The Hacker News at 2026-07-07T09:10:51+00:00, cluster 23a808f8c8)
 - Novel products: 0
 
 ### Velocity bursts (0)
@@ -758,7 +761,12 @@
 - Pair: CVE-2026-46817 + Mustang Panda (cluster f497a96858, first observation: True)
 - Pair: CVE-2026-46817 + Linux kernel (cluster f497a96858, first observation: True)
 
-### Drift (3)
+### Drift (4)
+- **Scattered Spider** (cluster 63e5e50e1d)
+  - New industries: education
+  - New products: Anthropic/Claude, Linux kernel
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: AWS, Apple iOS/macOS, Microsoft SharePoint
 - **ShinyHunters** (cluster 57ef1249ed)
   - New industries: (none)
   - New products: AWS, Salesforce
@@ -780,9 +788,9 @@
 - cve_ids: CVE-2026-20245 (weeks observed: 5, cluster f2b3bd6ba4)
 - actor_attribution: Silent Ransom Group (weeks observed: 5, cluster d7f247f4ee)
 - actor_attribution: TeamPCP (weeks observed: 4, cluster f851217332)
+- actor_attribution: Scattered Spider (weeks observed: 4, cluster 63e5e50e1d)
 - cve_ids: CVE-2026-35273 (weeks observed: 4, cluster 57ef1249ed)
 - actor_attribution: MuddyWater (weeks observed: 4, cluster 3ee1d54d9d)
-- actor_attribution: Scattered Spider (weeks observed: 4, cluster 31e5b2aa9f)
 - cve_ids: CVE-2026-33017 (weeks observed: 3, cluster aadab8aa23)
 - cve_ids: CVE-2026-45659 (weeks observed: 3, cluster 26d1b14830)
 - cve_ids: CVE-2026-48558 (weeks observed: 3, cluster 083a4a03d5)
@@ -843,13 +851,13 @@ Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can
   - Link: https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html
   - Summary: Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthenticated remote code execution (RCE) vulnerability in Langflow, indicating threat actors are scanning and targeting exposed artificial intelligence (AI)
 
-### Cluster e9c83acbdf — score 33
+### Cluster 8261a14578 — score 33
 
 - Title: Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more
 - Source: Rapid7 (offensive_vulnerability_research)
 - Published: 2026-07-03T22:11:22+00:00
-- Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/
-- Fetch status: fetch_failed:HTTPError
+- Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -870,12 +878,18 @@ Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can
 It's Time to Upgrade Your SMB Session This week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load the module with use windows/manage/smb_to_meterpreter and specify the session number they wish to upgrade. This functionality is also available with the command sessions -u <session_id> . This work is part of an overarching effort to enable a variety of session types to be upgraded to Meterpreter when possible. New module content (3) Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution Author: tmrswrr Type: Exploit Pull request: #21491 contributed by capture0x Path: windows/misc/peyara_remote_mouse_rce Description: Adds an exploit module for Peyara Remote Mouse v1.0.1 unauthenticated RCE. Linux Execute Command Authors: bcoles bcoles@gmail.com and modexp Type: Payload (Single) Pull request: #21239 contributed by bcoles Path: linux/loongarch64/exec Description: Adds a new linux/loonga
 ```
 
+#### Full body
+
+```
+Back to Blog Products and Tools Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more Jack Heysel Jul 3, 2026 | Last updated on Jul 7, 2026 | 2 min read It's Time to Upgrade Your SMB Session This week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load the module with use windows/manage/smb_to_meterpreter and specify the session number they wish to upgrade. This functionality is also available with the command sessions -u <session_id> . This work is part of an overarching effort to enable a variety of session types to be upgraded to Meterpreter when possible. New module content (3) Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution Author: tmrswrr Type: Exploit Pull request: #21491 contributed by capture0x Path: windows/misc/peyara_remote_mouse_rce Description: Adds an exploit module for Peyara Remote Mouse v1.0.1 unauthenticated RCE. Linux Execute Command Authors: bcoles [email protected] and modexp Type: Payload (Single) Pull request: #21239 contributed by bcoles Path: linux/loongarch64/exec Description: Adds a new linux/loongarch64/exec command payload. SMB to Meterpreter Upgrade via PsExec Author: Dean Welch Type: Post Pull request: #21581 contributed by dwelch-r7 Path: windows/manage/smb_to_meterpreter Description: Adds the ability to upgrade authenticated SMB sessions to Meterpreter sessions using PsExec techniques. Enhancements and features (1) #21527 from zeroSteiner - Adds authentication support to the MCP server's HTTP transport by default. Bugs fixed (2) #21618 from zeroSteiner - Fixes a crash when running the scanner/discovery/udp_sweep module on Windows environments. #21624 from adfoster-r7 - Fixes a bug with SSH session's debug information showing the incorrect value localuser @ instead of ssh_user @ ssh_ip . Documentation You can find the latest Metasploit documentation on our docsite at docs.metasploit.com . Get it As always, you can update to the latest Metasploit Framework with msfupdate and you can get more details on the changes since the last blog post from GitHub: Pull Requests 6.4.141...6.4.142 Full diff 6.4.141...6.4.142 If you are a git user, you can clone the Metasploit Framework repo (master branch) for the latest. To install fresh without using git, you can use the open-source-only Nightly Installers or the commercial edition Metasploit Pro Article Tags Metasploit Metasploit Weekly Wrapup Jack Heysel Author Posts
+```
+
 #### Corroborating sources (1)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more
   - Published: 2026-07-03T22:11:22+00:00
-  - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/
+  - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026
   - Summary: It's Time to Upgrade Your SMB Session This week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load the module with use windows/manage/smb_to_meterpreter and specify the session number they wish to upgrade. This functionality is also available with the command sessions -u <session_id> . This work is part of an overarching effort to enable a variety of session types to be upgraded to Meterpreter when possible. New module content (3) Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution Author: tmrswrr Type: Exploit Pull request: #21491 contributed by capture0x Path: windows/misc/peyara_remote_mouse_rce Description: Adds an exploit module for Peyara Remote Mouse v1.0.1 unauthenticated RCE. Linux Execute Command Authors: bcoles bcoles@gmail.com and modexp Type: Payload (Single) Pull request: #21239 contributed by bcoles Path: linux/loongarch64/exec Description: Adds a new linux/loonga
 
 ### Cluster 3e07d24a57 — score 29
@@ -1486,7 +1500,7 @@ Threat Intelligence Google’s Continued Disruption of Malicious Residential Pro
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, ddos, vulnerability_disclosure, active_exploitation
 - affected_industries: government
-- affected_products: Anthropic/Claude, Palo Alto Networks, Citrix
+- affected_products: Palo Alto Networks, Citrix, Anthropic/Claude
 - cve_ids: CVE-2026-8451, CVE-2026-3055
 - urgency_signals: actively_exploited, preauth_unauth
 - content_type: news_report
@@ -1501,7 +1515,7 @@ The bulletin includes six NetScaler issues, but attention is centered on a high-
 #### Full body
 
 ```
-Advertisement Subscribe to our daily newsletter. Subscribe Close Citrix published a security bulletin Tuesday disclosing six vulnerabilities in NetScaler ADC and NetScaler Gateway appliances, including a high-severity memory disclosure flaw that researchers say belongs to a vulnerability class first identified in the 2023 incident known as CitrixBleed . The company rated the overall bulletin severity as high and assigned CVSS scores ranging from 6.9 to 8.8 across the six CVEs. Citrix said customers should install the updated builds and, in one case, manually adjust a configuration parameter even after patching. The most closely scrutinized of the vulnerabilities, CVE-2026-8451 , was discovered by researchers at watchTowr , a cybersecurity firm that has published several prior analyses of issues in NetScaler products. According to a technical writeup the firm released alongside Tuesday’s disclosure, the vulnerability stems from how NetScaler parses SAML authentication requests when an appliance is configured as a SAML identity provider, a deployment mode commonly used for single sign-on. WatchTowr researcher Aliz Hammond wrote that the firm found the flaw in late March while reproducing a separate vulnerability, CVE-2026-3055, that Citrix disclosed earlier this year. That March flaw was added to CISA’s Known Exploited Vulnerabilities catalog after researchers and the agency confirmed active exploitation within days of disclosure. The new flaw shares a root cause with the March bug: both involve out-of-bounds memory reads triggered by malformed SAML requests sent to NetScaler’s authentication endpoints. Advertisement “Referencing what we wrote previously, because it is demonstrably evergreen: ‘However, what should be of concern is the bigger picture – the trend, which is very clearly suggesting that memory management continues to appear fragile within Citrix NetScaler appliances, to the extent that even accidentally misconfiguring an appliance can lead to the disclosure of leaked memory,’” Hammond wrote in the report. The bulletin also discloses five additional vulnerabilities affecting different NetScaler subsystems. Two involve memory overflow conditions that could cause denial-of-service outcomes. A separate flaw could allow unauthenticated arbitrary file reads on appliances where management access is exposed on certain network interfaces. Another concerns memory overread triggered through TCP timestamp handling. The sixth involves a denial-of-service condition tied to malformed HTTP/2 requests, which requires an additional manual configuration change to fully fix, since the relevant timeout parameter defaults to a value that leaves the underlying condition unaddressed unless administrators set it explicitly. Along with Hammond, the bulletin credits Michael Tucker of the XOR team at JPMorgan Chase and Maxim Suhanov for finding the vulnerabilities. The NetScaler product line has accumulated more than 20 entries in CISA ’s KEV catalog over the past three years, including multiple flaws that have been weaponized in ransomware campaigns. As of Tuesday, the latest vulnerability had not joined that list — neither the vendor bulletin nor watchTowr’s writeup cited confirmed exploitation at the time of disclosure. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) (Getty Images) Palo Alto Networks headquarters in Silicon Valley; Palo Alto Networks, Inc. is an American multinational cyber security company. (Getty Images) Latest Podcasts When iPhone exploits turn into commodities How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Zero days, zero order: The chaos reshaping vulnerability disclosure Government US lifting export control restrictions on Anthropic’s Mythos, Fable Trump budget boss Russell Vought open to re-staffing CISA DHS to u
+Advertisement Subscribe to our daily newsletter. Subscribe Close Citrix published a security bulletin Tuesday disclosing six vulnerabilities in NetScaler ADC and NetScaler Gateway appliances, including a high-severity memory disclosure flaw that researchers say belongs to a vulnerability class first identified in the 2023 incident known as CitrixBleed . The company rated the overall bulletin severity as high and assigned CVSS scores ranging from 6.9 to 8.8 across the six CVEs. Citrix said customers should install the updated builds and, in one case, manually adjust a configuration parameter even after patching. The most closely scrutinized of the vulnerabilities, CVE-2026-8451 , was discovered by researchers at watchTowr , a cybersecurity firm that has published several prior analyses of issues in NetScaler products. According to a technical writeup the firm released alongside Tuesday’s disclosure, the vulnerability stems from how NetScaler parses SAML authentication requests when an appliance is configured as a SAML identity provider, a deployment mode commonly used for single sign-on. WatchTowr researcher Aliz Hammond wrote that the firm found the flaw in late March while reproducing a separate vulnerability, CVE-2026-3055, that Citrix disclosed earlier this year. That March flaw was added to CISA’s Known Exploited Vulnerabilities catalog after researchers and the agency confirmed active exploitation within days of disclosure. The new flaw shares a root cause with the March bug: both involve out-of-bounds memory reads triggered by malformed SAML requests sent to NetScaler’s authentication endpoints. Advertisement “Referencing what we wrote previously, because it is demonstrably evergreen: ‘However, what should be of concern is the bigger picture – the trend, which is very clearly suggesting that memory management continues to appear fragile within Citrix NetScaler appliances, to the extent that even accidentally misconfiguring an appliance can lead to the disclosure of leaked memory,’” Hammond wrote in the report. The bulletin also discloses five additional vulnerabilities affecting different NetScaler subsystems. Two involve memory overflow conditions that could cause denial-of-service outcomes. A separate flaw could allow unauthenticated arbitrary file reads on appliances where management access is exposed on certain network interfaces. Another concerns memory overread triggered through TCP timestamp handling. The sixth involves a denial-of-service condition tied to malformed HTTP/2 requests, which requires an additional manual configuration change to fully fix, since the relevant timeout parameter defaults to a value that leaves the underlying condition unaddressed unless administrators set it explicitly. Along with Hammond, the bulletin credits Michael Tucker of the XOR team at JPMorgan Chase and Maxim Suhanov for finding the vulnerabilities. The NetScaler product line has accumulated more than 20 entries in CISA ’s KEV catalog over the past three years, including multiple flaws that have been weaponized in ransomware campaigns. As of Tuesday, the latest vulnerability had not joined that list — neither the vendor bulletin nor watchTowr’s writeup cited confirmed exploitation at the time of disclosure. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) (Getty Images) Palo Alto Networks headquarters in Silicon Valley; Palo Alto Networks, Inc. is an American multinational cyber security company. (Getty Images) Latest Podcasts When iPhone exploits turn into commodities How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Zero days, zero order: The chaos reshaping vulnerability disclosure Government Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Trump budge
 ```
 
 #### Corroborating sources (1)
@@ -1511,52 +1525,6 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close Citrix publishe
   - Published: 2026-06-30T21:46:38+00:00
   - Link: https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
   - Summary: The bulletin includes six NetScaler issues, but attention is centered on a high-severity flaw with similarities to earlier actively exploited bugs. The post Citrix patches a new NetScaler flaw with echoes of CitrixBleed appeared first on CyberScoop .
-
-### Cluster de6119ec2c — score 15
-
-- Title: June 2026 Apple Updates, (Tue, Jun 30th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-30T09:31:27+00:00
-- Link: https://isc.sans.edu/diary/rss/33114
-- Fetch status: fetch_failed:HTTPError
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Apple iOS/macOS
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_1_government, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Apple released updates for iOS/iPadOS, macOS, and Safari on Monday. There have been no updates for other Apple operating systems (visionOS, watchOS, tvOS). Usually, Apple updates all products at the same time.
-```
-
-#### Corroborating sources (3)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: June 2026 Apple Updates, (Tue, Jun 30th)
-  - Published: 2026-06-30T09:31:27+00:00
-  - Link: https://isc.sans.edu/diary/rss/33114
-  - Summary: Apple released updates for iOS/iPadOS, macOS, and Safari on Monday. There have been no updates for other Apple operating systems (visionOS, watchOS, tvOS). Usually, Apple updates all products at the same time.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS
-  - Published: 2026-07-06T08:13:33+00:00
-  - Link: https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html
-  - Summary: Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments. According to LevelBlue, the cross-platform malware is advertised under a malware-as-a-service (MaaS) model, costing anywhere between $150 for one month to $1,200 for lifetime access. Other subscription tiers include $300 for
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: ClickFix Now Cybercriminals' Favorite Malware Delivery Technique
-  - Published: 2026-06-30T12:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
-  - Summary: ReliaQuest report warns of a surge in ClickFix social engineering attacks against Windows and macOS users
 
 ### Cluster 8b4ae517ee — score 14
 
@@ -1655,53 +1623,6 @@ Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clus
   - Link: https://orca.security/resources/blog/kubernetes-admission-controller/
   - Summary: Most Kubernetes security teams already have an admission controller: OPA/Gatekeeper, Kyverno, a custom webhook. Real work, producing real enforcement. But it’s completely disconnected from everything else they know about their environment. Whether Orca has flagged a cluster as exposed or an image has a critical CVE—none of this context reaches the policy engine. The admission […]
 
-### Cluster dfea83e3cb — score 13
-
-- Title: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-06T21:17:42+00:00
-- Link: https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_products: Citrix
-- cve_ids: CVE-2026-8451
-- urgency_signals: poc_available, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_products: Citrix
-- cve_ids: CVE-2026-8451
-- urgency_signals: zero_day, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).
-```
-
-#### Full body
-
-```
-Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News CitrixBleed-ing Again? NetScaler Vulnerability Under Attack Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC). Rob Wright , Senior News Director , Dark Reading July 6, 2026 3 Min Read Source: Justin Sullivan via Getty Images Another NetScaler security vulnerability in the vein of the infamous "CitrixBleed" flaw has come under attack, which could leak risky corporate information. Citrix on June 30 took the wraps off CVE-2026-8451, the memory overread vulnerability in the company's Netscaler product line that received a CVSS score of 8.8. The high-severity flaw affects Citrix NetScaler Application Delivery Controller (ADC) and NetScaler Gateway devices that are configured as a SAML identity provider (IDP). CVE-2026-8451 is caused by insufficient input validation, which allows a remote threat actor to send requests to the IDP appliance and trigger a memory overread that leaks sensitive data. Experts have noted the flaw is reminiscent of CitrixBleed (CVE 2023-4966), a critical zero-day vulnerability that came under widespread exploitation following its disclosure in late 2023. And like CitrixBleed and its successors , CVE-2026-8451 has also attracted the attention of threat actors. At least one vendor has reported attacks against the latest NetScaler vulnerability, following the publication of a proof-of-concept (PoC) exploit. Related: Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them. Another NetScaler Flaw Under Attack? Researchers at WatchTowr discovered CVE-2026-8451 in March and reported their findings to Citrix. WatchTowr Labs published full technical details of the flaw, which XML parser, and a PoC exploit on the same day Citrix disclosed and patched the flaw. The following day, cybersecurity vendor Lupovis reported a coordinated scanning campaign targeting NetScaler devices that began less than 24 hours later. Based on activity from the company's decoy infrastructure, a single threat actor tied to a malicious IP address deployed an exploitation payload for CVE-2026-8451, Lupovis confirmed. In a post on social media platform X on July 3, the vendor said it has "seen a lot more exploitation." According to Lupovis's blog post , the scanning activity originated from 146.70.139[.]154, which is hosted on M247, a global VPN and hosting provider "commonly observed in opportunistic scanning campaigns." In the blog post, Xavier Bellekens, co-founder and CEO of Lupovis, stressed that what the vendor observed was not generic scanning activity but a specific exploit payload for CVE-2026-8451. He also tied the threat activity to WatchTowr's PoC. "This is the watchTowr overread variant designed to flood NetScaler’s XML parser with whitespace, forcing it to read past the buffer boundary into adjacent memory," Bellekens wrote. "The structure matches the CVE-2026-8451 Detection Artifact Generator published by watchTowr on 30 June 2026." Related: And the Winner in Dominant Malware Delivery? ClickFix Dark Reading contacted Citrix regarding the exploitation report, but the company did not respond by press time. Corporate Risks Posed by CVE-2026-8451 In a threat advisory last week, cloud security vendor Aviatrix noted that a threat actor could exploit the memory-disclosure flaw to gain initial access to a NetScaler SAML IDP appliance and use the leaked memory contents to escalate privileges, move laterally in a victim's network and exfiltrate additional sensitive data. Aviatrix researchers also noted CVE-2026-8451's similarities to the CitrixBleed attacks, and urged organizations to take action. "The disclosure underscores ongoing challenges in securing critical network infrastructure," the vendor said in the advisory. "Organizations relying on NetScaler appliances should promptly apply the provided patches and review their configurat
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack
-  - Published: 2026-07-06T21:17:42+00:00
-  - Link: https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
-  - Summary: Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).
-
 ### Cluster 9e3f402183 — score 13
 
 - Title: Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure
@@ -1748,6 +1669,53 @@ Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure �
   - Published: 2026-07-06T16:28:59+00:00
   - Link: https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
   - Summary: Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the "X-WEBAUTH-USER" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated
+
+### Cluster f6a2962dc9 — score 12
+
+- Title: UAT-7810 continues building ORB networks using new malware
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-07T10:00:05+00:00
+- Link: https://blog.talosintelligence.com/uat-7810/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
+```
+
+#### Full body
+
+```
+UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = "C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: UAT-7810 continues building ORB networks using new malware
+  - Published: 2026-07-07T10:00:05+00:00
+  - Link: https://blog.talosintelligence.com/uat-7810/
+  - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
 
 ### Cluster db017396fb — score 12
 
@@ -1802,19 +1770,21 @@ Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure �
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- actor_attribution: Scattered Spider
 - affected_industries: education, financial_services, government
-- affected_products: Anthropic/Claude, Linux kernel, Microsoft SharePoint
+- affected_products: Anthropic/Claude, Linux kernel
 - cve_ids: CVE-2026-43074, CVE-2026-46242
-- urgency_signals: actively_exploited, poc_available, zero_day
+- urgency_signals: poc_available, zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, apt_espionage, ai_security, active_exploitation
+- actor_attribution: Scattered Spider
 - affected_industries: financial_services, government, education
-- affected_products: Microsoft SharePoint, Linux kernel, Anthropic/Claude
+- affected_products: Linux kernel, Anthropic/Claude
 - cve_ids: CVE-2026-46242, CVE-2026-43074
-- urgency_signals: actively_exploited, zero_day, poc_available
+- urgency_signals: zero_day, poc_available
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
@@ -1827,7 +1797,7 @@ Organizations are urged to patch after proof-of-concept code makes the Linux roo
 #### Full body
 
 ```
-Technical details and proof-of-concept (PoC) code targeting a recent Linux kernel vulnerability that could allow unprivileged processes to gain root privileges on desktops, servers, and Android phones are now public. The security defect, tracked as CVE-2026-46242 (CVSS score of 7.8) and referred to as Bad Epoll , is described as a race-condition use-after-free bug in epoll , the Linux kernel’s I/O event notification facility. Instead of asking programs to poll many file descriptors one by one, the Linux kernel maintains an epoll instance with an interest list and a ready list of file descriptors and return descriptors. Bad Epoll is a close-vs-close race condition in epoll’s file-release path that leads to use-after-free. If one eventpoll list of file descriptors monitors another and the two are closed simultaneously, one frees an object while the other continues to write to it. The flaw was discovered by Jaeyoung Chung of Seoul National University’s Computer Security Lab, who reported it to Google kernelCTF as a zero-day submission. Advertisement. Scroll to continue reading. Bad Epoll was introduced in 2023 in a commit that also introduced CVE-2026-43074 , another race condition in the epoll code that was found by Anthropic’s Mythos. Mythos likely missed it because, with CVE-2026-43074 fixed, Bad Epoll doesn’t trigger KASAN (Kernel Address Sanitizer), the Linux kernel’s dynamic memory error detector. “Bad Epoll was hard to fix, too. The maintainers’ first patch did not fully fix the issue, and a correct patch landed only two months after the bug was first reported. That is a long time for a kernel that usually handles security issues with urgency,” the researcher notes. Chung has published a PoC exploit that triggers Bad Epoll to leak kernel memory and hijack an indirect call to control the CPU’s instruction pointer register and obtain root privileges via a Return-Oriented Programming (ROP) chain. Linux distributions based on kernel version 6.4 or newer are affected by the vulnerability. Bad Epoll was also confirmed on Pixel 10 devices, which are running kernel version 6.6. Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Latest News Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks The Shift Toward Business-Aligned Risk Management Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year
+Technical details and proof-of-concept (PoC) code targeting a recent Linux kernel vulnerability that could allow unprivileged processes to gain root privileges on desktops, servers, and Android phones are now public. The security defect, tracked as CVE-2026-46242 (CVSS score of 7.8) and referred to as Bad Epoll , is described as a race-condition use-after-free bug in epoll , the Linux kernel’s I/O event notification facility. Instead of asking programs to poll many file descriptors one by one, the Linux kernel maintains an epoll instance with an interest list and a ready list of file descriptors and return descriptors. Bad Epoll is a close-vs-close race condition in epoll’s file-release path that leads to use-after-free. If one eventpoll list of file descriptors monitors another and the two are closed simultaneously, one frees an object while the other continues to write to it. The flaw was discovered by Jaeyoung Chung of Seoul National University’s Computer Security Lab, who reported it to Google kernelCTF as a zero-day submission. Advertisement. Scroll to continue reading. Bad Epoll was introduced in 2023 in a commit that also introduced CVE-2026-43074 , another race condition in the epoll code that was found by Anthropic’s Mythos. Mythos likely missed it because, with CVE-2026-43074 fixed, Bad Epoll doesn’t trigger KASAN (Kernel Address Sanitizer), the Linux kernel’s dynamic memory error detector. “Bad Epoll was hard to fix, too. The maintainers’ first patch did not fully fix the issue, and a correct patch landed only two months after the bug was first reported. That is a long time for a kernel that usually handles security issues with urgency,” the researcher notes. Chung has published a PoC exploit that triggers Bad Epoll to leak kernel memory and hijack an indirect call to control the CPU’s instruction pointer register and obtain root privileges via a Return-Oriented Programming (ROP) chain. Linux distributions based on kernel version 6.4 or newer are affected by the vulnerability. Bad Epoll was also confirmed on Pixel 10 devices, which are running kernel version 6.6. Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability Latest News Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks The Shift Toward Business-Aligned Risk Management Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This
 ```
 
 #### Corroborating sources (1)
@@ -1838,52 +1808,52 @@ Technical details and proof-of-concept (PoC) code targeting a recent Linux kerne
   - Link: https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/
   - Summary: Organizations are urged to patch after proof-of-concept code makes the Linux root escalation flaw easier to exploit. The post Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability appeared first on SecurityWeek .
 
-### Cluster 4541afab04 — score 12
+### Cluster dfea83e3cb — score 12
 
-- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T07:20:51+00:00
-- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+- Title: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-06T21:17:42+00:00
+- Link: https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: Palo Alto Networks
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_industries: financial_services, government, healthcare
-- affected_products: Android, Palo Alto Networks, npm
-- urgency_signals: actively_exploited
-- content_type: news_report
+- threat_categories: zero_day
+- affected_products: Citrix
+- cve_ids: CVE-2026-8451
+- urgency_signals: poc_available, zero_day
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_industries: healthcare, financial_services, government
-- affected_products: npm, Android, Palo Alto Networks
-- urgency_signals: actively_exploited
-- content_type: news_report
+- threat_categories: zero_day
+- affected_products: Citrix
+- cve_ids: CVE-2026-8451
+- urgency_signals: zero_day, poc_available
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).
 ```
 
 #### Full body
 
 ```
-Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
+Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News CitrixBleed-ing Again? NetScaler Vulnerability Under Attack Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC). Rob Wright , Senior News Director , Dark Reading July 6, 2026 3 Min Read Source: Justin Sullivan via Getty Images Another NetScaler security vulnerability in the vein of the infamous "CitrixBleed" flaw has come under attack, which could leak risky corporate information. Citrix on June 30 took the wraps off CVE-2026-8451, the memory overread vulnerability in the company's Netscaler product line that received a CVSS score of 8.8. The high-severity flaw affects Citrix NetScaler Application Delivery Controller (ADC) and NetScaler Gateway devices that are configured as a SAML identity provider (IDP). CVE-2026-8451 is caused by insufficient input validation, which allows a remote threat actor to send requests to the IDP appliance and trigger a memory overread that leaks sensitive data. Experts have noted the flaw is reminiscent of CitrixBleed (CVE 2023-4966), a critical zero-day vulnerability that came under widespread exploitation following its disclosure in late 2023. And like CitrixBleed and its successors , CVE-2026-8451 has also attracted the attention of threat actors. At least one vendor has reported attacks against the latest NetScaler vulnerability, following the publication of a proof-of-concept (PoC) exploit. Related: Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them. Another NetScaler Flaw Under Attack? Researchers at WatchTowr discovered CVE-2026-8451 in March and reported their findings to Citrix. WatchTowr Labs published full technical details of the flaw, which XML parser, and a PoC exploit on the same day Citrix disclosed and patched the flaw. The following day, cybersecurity vendor Lupovis reported a coordinated scanning campaign targeting NetScaler devices that began less than 24 hours later. Based on activity from the company's decoy infrastructure, a single threat actor tied to a malicious IP address deployed an exploitation payload for CVE-2026-8451, Lupovis confirmed. In a post on social media platform X on July 3, the vendor said it has "seen a lot more exploitation." According to Lupovis's blog post , the scanning activity originated from 146.70.139[.]154, which is hosted on M247, a global VPN and hosting provider "commonly observed in opportunistic scanning campaigns." In the blog post, Xavier Bellekens, co-founder and CEO of Lupovis, stressed that what the vendor observed was not generic scanning activity but a specific exploit payload for CVE-2026-8451. He also tied the threat activity to WatchTowr's PoC. "This is the watchTowr overread variant designed to flood NetScaler’s XML parser with whitespace, forcing it to read past the buffer boundary into adjacent memory," Bellekens wrote. "The structure matches the CVE-2026-8451 Detection Artifact Generator published by watchTowr on 30 June 2026." Related: And the Winner in Dominant Malware Delivery? ClickFix Dark Reading contacted Citrix regarding the exploitation report, but the company did not respond by press time. Corporate Risks Posed by CVE-2026-8451 In a threat advisory last week, cloud security vendor Aviatrix noted that a threat actor could exploit the memory-disclosure flaw to gain initial access to a NetScaler SAML IDP appliance and use the leaked memory contents to escalate privileges, move laterally in a victim's network and exfiltrate additional sensitive data. Aviatrix researchers also noted CVE-2026-8451's similarities to the CitrixBleed attacks, and urged organizations to take action. "The disclosure underscores ongoing challenges in securing critical network infrastructure," the vendor said in the advisory. "Organizations relying on NetScaler appliances should promptly apply the provided patches and review their configurat
 ```
 
 #### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-  - Published: 2026-07-01T07:20:51+00:00
-  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack
+  - Published: 2026-07-06T21:17:42+00:00
+  - Link: https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
+  - Summary: Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).
 
 ### Cluster 57ef1249ed — score 12
 
@@ -1935,6 +1905,53 @@ Infosecurity Magazine Home » News » Nissan Discloses Employee Data Breach Link
   - Published: 2026-06-30T16:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
   - Summary: Nissan says employees' data was stolen via the Oracle PeopleSoft zero-day campaign
+
+### Cluster 4541afab04 — score 12
+
+- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-01T07:20:51+00:00
+- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Palo Alto Networks
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_industries: financial_services, government, healthcare
+- affected_products: Android, Palo Alto Networks, npm
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_industries: healthcare, financial_services, government
+- affected_products: npm, Android, Palo Alto Networks
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+```
+
+#### Full body
+
+```
+Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+  - Published: 2026-07-01T07:20:51+00:00
+  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
 
 ### Cluster 3ee1d54d9d — score 11
 
@@ -2031,49 +2048,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July �
   - Published: 2026-07-06T12:01:54+00:00
   - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
   - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 40eaf074fe — score 11
-
-- Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-06T09:00:43+00:00
-- Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
-```
-
-#### Full body
-
-```
-Table of Contents Core steps of Device Authorization Grant Analysis of a Device Code Phishing attack Adaptation of the attack method How to defend against Device Code Phishing attacks Authors Roman Dedenok One of the most common pieces of anti-phishing advice is to double-check the website’s domain name before providing your credentials. Typically, a fraudulent domain stands out to the trained eye, differing from the official URL by at least a few characters. Recently, however, we encountered a campaign where attackers instruct victims to input data directly into a legitimate, trusted corporate site: the Microsoft Identity Platform , which supports an OAuth 2.0 specification known as the Device Authorization Grant . This specific protocol extension was designed to simplify the login experience for smart TVs, IoT hardware, printers, and other input-constrained devices that lack a full browser or keyboard. It allows users to use a nearby smartphone or PC for authorizing these devices to access their accounts. To complete the process, the user enters a one-time code on a designated authentication page. The Microsoft Identity Platform returns this code along with a link to enter it in response to a request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode ; hence, an attack scenario exploiting this mechanism is called Device Code Phishing. In this post, we break down how the Device Authorization Grant specification (also known as the Device Authorization Grant Flow or Device Code Flow) works, analyze real-world attacks leveraging this technology, and outline effective strategies to defend against Device Code Phishing. Core steps of Device Authorization Grant 1. Requesting the authorization code When a user launches an app on a client device, such as a streaming app on a Smart TV, the app detects that it is unauthenticated and sends a POST request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode . This request includes the client_id (the unique identifier of the app registered in Microsoft Entra ID / Azure AD) and the scope (the requested access permissions). In response, the application receives several parameters: device_code (a secret code for internal use), user_code (a short code displayed to the end-user), verification_uri (the login URL the user needs to visit), expires_in (the code’s lifespan), and interval (how frequently the app should poll the server). 2. Displaying the code to the user The device displays both the user_code and the verification_uri to the user, instructing them to complete authentication on another device. For instance, a smart TV will display the code and URL — often rendering the verification_uri as a QR code — so the user can access it via their smartphone. 3. Entering the code and confirming access By scanning the QR code with a smartphone camera or manually typing out the address, the user navigates to the verification_uri (such as https://microsoft.com/devicelogin ) and enters the user_code . 4. Polling the server The device (smart TV) begins polling the server to check the authorization status — essentially verifying whether the user has approved the access request. It does this by sending a POST request to the token endpoint: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token . The request passes the grant_type parameter with the value urn:ietf:params:oauth:grant-type:device_code , indicating the use of the Device Authorization Grant method. This signals to the authorization server exactly which authentication method is being used to request access tokens. The server waits for the user to enter the user_code on their secondary device and approve access to their resources or data. Until that approval happens, the server responds with an error code like authorization_pending (keep waiting) or slow_down (reduce the polling frequency). 5. Issuing access tokens Once the user successfully approves the application’s request, the server responds to the ap
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
-  - Published: 2026-07-06T09:00:43+00:00
-  - Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
-  - Summary: The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
 
 ### Cluster 19a671449e — score 11
 
@@ -2288,54 +2262,48 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
   - Summary: MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
 
-### Cluster f2b3bd6ba4 — score 10
+### Cluster 40eaf074fe — score 10
 
-- Title: 22nd June – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-01T11:29:38+00:00
-- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+- Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-06T09:00:43+00:00
+- Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
-- urgency_signals: preauth_unauth, zero_day
+- threat_categories: phishing_social_eng
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
-- urgency_signals: zero_day, preauth_unauth
+- threat_categories: phishing_social_eng
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
 ```
 
 #### Full body
 
 ```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
+Table of Contents Core steps of Device Authorization Grant Analysis of a Device Code Phishing attack Adaptation of the attack method How to defend against Device Code Phishing attacks Authors Roman Dedenok One of the most common pieces of anti-phishing advice is to double-check the website’s domain name before providing your credentials. Typically, a fraudulent domain stands out to the trained eye, differing from the official URL by at least a few characters. Recently, however, we encountered a campaign where attackers instruct victims to input data directly into a legitimate, trusted corporate site: the Microsoft Identity Platform , which supports an OAuth 2.0 specification known as the Device Authorization Grant . This specific protocol extension was designed to simplify the login experience for smart TVs, IoT hardware, printers, and other input-constrained devices that lack a full browser or keyboard. It allows users to use a nearby smartphone or PC for authorizing these devices to access their accounts. To complete the process, the user enters a one-time code on a designated authentication page. The Microsoft Identity Platform returns this code along with a link to enter it in response to a request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode ; hence, an attack scenario exploiting this mechanism is called Device Code Phishing. In this post, we break down how the Device Authorization Grant specification (also known as the Device Authorization Grant Flow or Device Code Flow) works, analyze real-world attacks leveraging this technology, and outline effective strategies to defend against Device Code Phishing. Core steps of Device Authorization Grant 1. Requesting the authorization code When a user launches an app on a client device, such as a streaming app on a Smart TV, the app detects that it is unauthenticated and sends a POST request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode . This request includes the client_id (the unique identifier of the app registered in Microsoft Entra ID / Azure AD) and the scope (the requested access permissions). In response, the application receives several parameters: device_code (a secret code for internal use), user_code (a short code displayed to the end-user), verification_uri (the login URL the user needs to visit), expires_in (the code’s lifespan), and interval (how frequently the app should poll the server). 2. Displaying the code to the user The device displays both the user_code and the verification_uri to the user, instructing them to complete authentication on another device. For instance, a smart TV will display the code and URL — often rendering the verification_uri as a QR code — so the user can access it via their smartphone. 3. Entering the code and confirming access By scanning the QR code with a smartphone camera or manually typing out the address, the user navigates to the verification_uri (such as https://microsoft.com/devicelogin ) and enters the user_code . 4. Polling the server The device (smart TV) begins polling the server to check the authorization status — essentially verifying whether the user has approved the access request. It does this by sending a POST request to the token endpoint: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token . The request passes the grant_type parameter with the value urn:ietf:params:oauth:grant-type:device_code , indicating the use of the Device Authorization Grant method. This signals to the authorization server exactly which authentication method is being used to request access tokens. The server waits for the user to enter the user_code on their secondary device and approve access to their resources or data. Until that approval happens, the server responds with an error code like authorization_pending (keep waiting) or slow_down (reduce the polling frequency). 5. Issuing access tokens Once the user successfully approves the application’s request, the server responds to the ap
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: 22nd June – Threat Intelligence Report
-  - Published: 2026-07-01T11:29:38+00:00
-  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
+  - Published: 2026-07-06T09:00:43+00:00
+  - Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
+  - Summary: The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
 
 ### Cluster 3b18efdb51 — score 10
 
@@ -2466,46 +2434,54 @@ Table of Contents OpenClaw skills OpenClaw vulnerabilities Malicious skills Auth
   - Link: https://securelist.com/openclaw-security/120484/
   - Summary: Researching OpenClaw vulnerabilities, malicious skills, and other security issues with the popular agent, and providing tips on how to mitigate them.
 
-### Cluster 5d507d7678 — score 10
+### Cluster f2b3bd6ba4 — score 10
 
-- Title: ToddyCat: your hidden email assistant. Part 2
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-06-30T10:00:13+00:00
-- Link: https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/
+- Title: 22nd June – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-01T11:29:38+00:00
+- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
+- urgency_signals: preauth_unauth, zero_day
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: apt_espionage
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
+- urgency_signals: zero_day, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-An in-depth analysis of Umbrij, a new tool used by the ToddyCat APT group to compromise corporate email communications in Gmail. The attack targeted OAuth authorization tokens, allowing threat actors to gain access to Google services.
+For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
 ```
 
 #### Full body
 
 ```
-Table of Contents Introduction Umbrij Execution Environment preparation Acquiring the authorization code Results Detection DLL sideloading Browser launch Revoking third-party access Risk mitigation Takeaways Indicators of compromise Authors Andrey Gunkin Introduction We continue to share details on the malicious techniques and toolsets used by the ToddyCat APT group. In the first part of this report , we examined the group’s attacks aimed at stealing data from browsers, as well as from local and cloud email services. The methods used in that campaign indicated that ToddyCat was attempting to access corporate correspondence while evading monitoring tools. However, all of the group’s methods we described previously are effectively detected by EPP and EDR solutions. The attackers continued their search for ways to bypass security solutions and developed a new tool to gain access to a victim’s cloud account via the Google API. Armed with this tool, the group automated all stages of the attack and managed to remain undetected by monitoring systems. In this part of the report, we break down the mechanics of this new attack and analyze the tool that was used to automate it. We’ll also discuss how to detect and defend against this threat. Umbrij In this campaign, the attackers focused their attention on corporate email communications hosted on Gmail, targeting access compromise via APIs. Because the Google API relies on the OAuth 2.0 protocol for authorization, applications can use an OAuth token to access requested email resources. To acquire this token, the threat actors developed a tool called Umbrij and used it to connect to the browser’s management console in headless mode via a remote debugging port. Through a series of requests, they obtained an OAuth authorization code, which they subsequently exchanged for an access token to reach the target resources via the API. We have dubbed this technique Shadow Token via Remote Debug (STRD). This attack is viable on Chromium-based browsers. If the user has not logged out of their Gmail account, the browser maintains an active session. The attackers exploit this: they launch the browser, connect via the remote debugging port to take control, and send a request to the Gmail service to grant access to the Google account resources within the context of the user’s saved session. During our investigation of this attack, we discovered several versions of the Umbrij tool. These versions included a variety of helper functions designed for debugging, as well as for searching and selecting user accounts within the browser, among other tasks. Kaspersky solutions detect this tool with the following verdicts: HEUR:Trojan-PSW.MSIL.Umbrij.gen, HEUR:Trojan.MSIL.Agent.gen, HEUR:Trojan-PSW.MSIL.Agent.gen. Execution The Umbrij tool was discovered during a proactive threat hunting operation: a scheduled task, KasperskyEndpointSecurityEDRAvp, was running on a user host, launching a digitally signed file. Kaspersky solutions do not create scheduled tasks with that name; the attackers were attempting to masquerade their malicious activity as a legitimate process. The signed file then used the DLL sideloading technique to load the malicious tool. Umbrij execution events within Kaspersky Managed Detection and Response Throughout our observation period, we identified the following legitimate files vulnerable to the DLL sideloading technique that were used to launch Umbrij: BDSubWiz.exe: a component of the Submission Wizard in Bitdefender ConnectAgent, which is used to support connection features and interaction with other Bitdefender services or agents. This file insecurely loads a file named log.dll. VSTestVideoRecorder.exe: a component of the video-recording tool used for testing with Visual Studio (VS Test). This executable insecurely loads a file named Microsoft.VisualStudio.QualityTools.VideoRecorderEngine.dll. GoogleDesktop.exe: the discontinued Google Desktop Search application for indexing files and perfo
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
 ```
 
 #### Corroborating sources (1)
 
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: ToddyCat: your hidden email assistant. Part 2
-  - Published: 2026-06-30T10:00:13+00:00
-  - Link: https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/
-  - Summary: An in-depth analysis of Umbrij, a new tool used by the ToddyCat APT group to compromise corporate email communications in Gmail. The attack targeted OAuth authorization tokens, allowing threat actors to gain access to Google services.
+- **Check Point Research** (threat_research_primary)
+  - Title: 22nd June – Threat Intelligence Report
+  - Published: 2026-07-01T11:29:38+00:00
+  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 5bbda948e4 — score 10
 
@@ -2589,95 +2565,61 @@ Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams 
   - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
   - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
 
-### Cluster 84ad484b78 — score 10
+### Cluster 28e99059c0 — score 10
 
-- Title: Shipping post-quantum cryptography to Python
-- Source: Trail of Bits (offensive_vulnerability_research)
-- Published: 2026-06-30T11:00:00+00:00
-- Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
-```
-
-#### Full body
-
-```
-Page content Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That transition cannot happen only at the policy layer. Every application that signs packages, validates certificates, establishes secure channels, or protects long-lived secrets depends on cryptographic libraries. If those libraries do not expose post-quantum algorithms, the software stack cannot migrate. Almost every Python program that touches cryptography goes through pyca/cryptography . It’s currently the eleventh most-downloaded package on PyPI , pulling 1.2 billion downloads in the last month alone. The pyca/cryptography package handles the cryptographic operations of projects like Ansible, Certbot (the Let’s Encrypt client), Apache Airflow, paramiko (the Python-only SSH client), and many others . If pyca/cryptography doesn’t ship post-quantum primitives, the Python ecosystem can’t begin to migrate. Post-quantum support is now one pip install away As of cryptography>=48 , support for post quantum algorithms is just a pip install away. The version 48 release includes our Rust bindings for ML-KEM and ML-DSA, the cross binding API and tests, and support for AWS-LC as a cryptographic backend. It also includes work from pyca/cryptography’s maintainers to support the other cryptographic backends. Sadly, this is not enough for a post-quantum migration drop-in swap. These primitives have different size, performance, and integration tradeoffs than the classical algorithms they replace. PQ algorithm tradeoffs Post-quantum primitives keep the same security strength, but they change the size of the data on the wire. Public keys, signatures, and ciphertexts are often 1–2 orders of magnitude larger than the classical values they replace. The operations are also more complex and therefore slower, but on modern hardware they are still imperceptible for regular use, and are likely to get faster with improved hardware and algorithms. For signatures , here’s how the classical primitive (Ed25519) compares to its post-quantum equivalent (ML-DSA-65): Algorithm Public key Private key Output Ed25519 32 B 32 B 64 B sig ML-DSA-65 1,952 B 32 B 3,309 B sig And for key exchange and encryption , here’s how X25519 compares to its post-quantum equivalent (ML-KEM-768): Algorithm Public key Private key Output X25519 32 B 32 B 32 B shared ML-KEM-768 1,184 B 64 B 1,088 B ciphertext If you maintain a protocol or wire format that hardcodes Ed25519-sized signatures or X25519-sized public keys, the post-quantum migration involves more than a primitive swap. The surrounding fields, length prefixes, and chunking assumptions need to grow with it. Using ML-DSA ( FIPS 204 ): Quantum-resistant signatures ML-DSA is the lattice-based signature scheme that replaces RSA, ECDSA, and Ed25519. The Python API mirrors the existing asymmetric primitives: from cryptography.hazmat.primitives.asymmetric import mldsa private_key = mldsa . MLDSA65PrivateKey . generate () public_key = private_key . public_key () signature = private_key . sign ( b "message" ) public_key . verify ( signature ,
-```
-
-#### Corroborating sources (1)
-
-- **Trail of Bits** (offensive_vulnerability_research)
-  - Title: Shipping post-quantum cryptography to Python
-  - Published: 2026-06-30T11:00:00+00:00
-  - Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
-  - Summary: Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
-
-### Cluster 7dc61d54d0 — score 10
-
-- Title: Medtronic Data Breach Impacts 3.8 Million People
+- Title: Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems
 - Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-03T10:00:00+00:00
-- Link: https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/
+- Published: 2026-07-07T10:00:00+00:00
+- Link: https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: ShinyHunters
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Linux kernel
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, healthcare, manufacturing_industrial
-- affected_products: Microsoft SharePoint
-- urgency_signals: actively_exploited, poc_available
-- content_type: incident_report
+- threat_categories: active_exploitation, ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain, zero_day
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services, government
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-46242, CVE-2026-53359
+- urgency_signals: poc_available, zero_day
+- content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach, apt_espionage, ai_security, active_exploitation
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare, financial_services, government, manufacturing_industrial
-- affected_products: Microsoft SharePoint
-- urgency_signals: actively_exploited, poc_available
-- content_type: incident_report
+- threat_categories: ransomware_extortion, supply_chain, zero_day, data_breach, apt_espionage, ai_security, active_exploitation
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services, government
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-53359
+- urgency_signals: zero_day, poc_available
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-In April, ShinyHunters accessed the company’s corporate IT systems and stole patients’ personal and medical information. The post Medtronic Data Breach Impacts 3.8 Million People appeared first on SecurityWeek .
+The 16-year-old Januscape flaw affects Linux's KVM hypervisor, allowing attackers to escape virtual machines and potentially execute code on the underlying host. The post Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Medical technology giant Medtronic is notifying more than 3.8 million individuals that their personal and medical information was compromised in a recent data breach. The incident occurred in April 2026, when the infamous extortion group ShinyHunters accessed the company’s corporate IT systems. Medtronic confirmed the attack in late April, noting that its products and manufacturing and distribution operations were not affected. ShinyHunters had added the company to its Tor-based leak site on April 17, claiming the theft of over 9 million records of personal information, and terabytes of corporate data. The group has since removed Medtronic from the website, which suggests that the company might have paid a ransom to recover the stolen information. This week, the medical technology titan started sending written notification letters to the affected individuals, confirming that the hackers stole patients’ personal and medical information, including names, contact details, dates of birth, Social Security numbers, and health-related details. Advertisement. Scroll to continue reading. “We have no evidence that any of that information was posted publicly or exposed on the internet,” reads a copy of the company’s notification letter ( PDF ) submitted to the California Attorney General’s Office. Medtronic told the Indiana Attorney General’s Office that 3,834,294 individuals were affected by the incident. The company is providing them with 24 months of free credit monitoring, dark web monitoring, and identity theft restoration services. “Medtronic has implemented additional safeguards and continues to work with third-party cybersecurity experts to identify opportunities to further strengthen the security of its systems. Medtronic has also worked with law enforcement and is notifying relevant regulatory authorities,” the company said. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Related: Xsolis Data Breach Affects 1.4 Million Individuals Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Latest News Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks The Shift Toward Business-Aligned Risk Management Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Agentic AI Used to Conduct Ransomware Attack via Langflow Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit
+A newly disclosed Linux kernel vulnerability can be exploited to escape virtual machines (VMs) and execute code on the underlying host, security researchers warn. Tracked as CVE-2026-53359 and referred to as Januscape , the security defect impacts the shadow MMU code in Linux Kernel-based Virtual Machine (KVM) hypervisor. The guest-to-host vulnerability poses a major threat to multi-tenant x86 public clouds running untrusted guests and exposing nested virtualization. It is known to be the first KVM exploit that can be triggered on both Intel and AMD architectures. The flaw was discovered by security researcher Hyunwoo Kim (@v4bel), who demonstrated it as a zero-day in Google kvmCTF , the bug bounty program that works like a CTF event and offers up to $250,000 for full VM escape weaknesses. According to Kim, the vulnerability is a use-after-free vulnerability that can be triggered from the VM to corrupt the shadow page state of the host’s kernel. Successful exploitation of Januscape, the researcher explains, can lead to the full compromise of the host on which the VM is running. Advertisement. Scroll to continue reading. “For example, an attacker who has rented just a single instance on a public cloud could panic the host kernel to take down every other tenant VM on the same physical machine (DoS), or run code with root privilege on the host to take over the host and all the guests on it (RCE),” Kim explains. On certain Linux distributions, such as Red Hat Enterprise Linux (RHEL), the security defect can be exploited by unprivileged users to escalate their privileges to root. Januscape’s exploitation requires root privileges on the guest machine, which is typically available by default when a user is allocated a VM instance on a public cloud. If root access is not available, an attacker could chain the flaw with a privilege escalation bug, such as Dirty Frag, Kim says. CVE-2026-53359 stayed dormant in the Linux kernel for 16 years. It was patched in mainline on June 19, when commit 81ccda30b4e8 was merged. Related: Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Related: ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access Related: Organizations Warned of Exploited Linux Kernel Vulnerability Related: 19-Year-Old Linux Kernel Vulnerability Exposes Systems to Root Access Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability Latest News Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks The Shift Toward Business-Aligned Risk Management Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live web
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Medtronic Data Breach Impacts 3.8 Million People
-  - Published: 2026-07-03T10:00:00+00:00
-  - Link: https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/
-  - Summary: In April, ShinyHunters accessed the company’s corporate IT systems and stole patients’ personal and medical information. The post Medtronic Data Breach Impacts 3.8 Million People appeared first on SecurityWeek .
+  - Title: Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems
+  - Published: 2026-07-07T10:00:00+00:00
+  - Link: https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/
+  - Summary: The 16-year-old Januscape flaw affects Linux's KVM hypervisor, allowing attackers to escape virtual machines and potentially execute code on the underlying host. The post Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
+  - Published: 2026-07-03T19:40:01+00:00
+  - Link: https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
+  - Summary: A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug. The AI caught one flaw and missed
 
 ### Cluster 5811e9602e — score 10
 
@@ -2848,53 +2790,6 @@ Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulner
   - Published: 2026-07-06T16:36:50+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
   - Summary: An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.
-
-### Cluster 87ef22349e — score 9
-
-- Title: New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-06T08:50:54+00:00
-- Link: https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, ransomware_extortion
-- affected_industries: education
-- affected_products: Linux kernel, OpenAI/ChatGPT
-- urgency_signals: actively_exploited
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage, active_exploitation
-- affected_industries: education
-- affected_products: Linux kernel, OpenAI/ChatGPT
-- urgency_signals: actively_exploited
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it
-```
-
-#### Full body
-
-```
-New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions  Swati Khandelwal  Jul 06, 2026 Cyber Espionage / Endpoint Security Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix , tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it is a way for stolen data to get out, not a way in. In the researchers' tests, TrojPix hit a peak throughput of 8.1 Mbps and reached as far as 208 meters, the two measured separately rather than together. Most air-gap covert channels crawl along at bits or kilobits per second; at 8.1 megabits, roughly a megabyte a second, TrojPix could move a 100 MB file in under two minutes. That turns the threat from leaking a password into moving whole files while the monitor looks switched off. Real-world range is another matter: a receiver still has to fight through walls, shielding, and noise. The method, which the researchers call imperceptible pixel modulation , needs no administrator rights and no hardware changes, they say; user-level malware that can draw to the screen is enough. They describe two ways to hide the traffic. One fakes a powered-off display, keeping the screen dark while it transmits. The other buries the signal in whatever is already on screen, so ordinary-looking content carries the payload. The team reports it is working across nine monitor brands and fifteen video cables, so the result is not tied to one setup. Turning a video cable into a covert transmitter is not new. It traces back to the decades-old study of compromising emanations, known as TEMPEST, and more recently to work like TEMPEST-LoRa (CCS 2025), which used the same trick to reach off-the-shelf LoRa radios, a common long-range wireless standard. That one topped out at 87.5 meters, or 21.6 kbps. TrojPix's peak throughput is hundreds of times higher, though the two use different receivers under different conditions, so the numbers are not a head-to-head comparison. These emission channels remain lab work. The air-gap attacks that have surfaced in the wild, from Stuxnet to Agent.BTZ, crossed the gap on USB drives, not over radio; TrojPix and its kind show what is possible, not what has been caught. Another screen-based channel, PIXHELL, which The Hacker News covered in 2024 , made the display itself emit sound to leak data from an air-gapped PC. Others have pulled data off Ethernet with a planted hardware implant , the kind of hardware change TrojPix avoids. You cannot patch away the emission itself. The countermeasures are physical and preventive: run video over fiber-optic links, which carry no such signal, rather than copper; shield cables and rooms where the data warrants it, as TEMPEST-rated facilities already do; and above all, keep malware off the machine in the first place, since without that foothold, TrojPix has nothing to send. Once an attacker is inside, a channel this fast can move the data out in the time the screen sits dark. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Covert Channel , cyber espionage , data exfiltration , endpoint security , hardware security , Malware , Physical Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards FBI
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
-  - Published: 2026-07-06T08:50:54+00:00
-  - Link: https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
-  - Summary: Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it
 
 ### Cluster ce59bc14b1 — score 9
 
@@ -3122,17 +3017,19 @@ Security & Identity Shift into high gear with agents: Securing the software-defi
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
+- actor_attribution: Scattered Spider
 - affected_industries: financial_services, government
-- affected_products: Apple iOS/macOS, GitHub, Microsoft SharePoint
-- urgency_signals: actively_exploited, poc_available
+- affected_products: Apple iOS/macOS, GitHub, Linux kernel
+- urgency_signals: poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security, web_shell_backdoor, active_exploitation
+- actor_attribution: Scattered Spider
 - affected_industries: financial_services, government
-- affected_products: GitHub, Microsoft SharePoint, Apple iOS/macOS
-- urgency_signals: actively_exploited, poc_available
+- affected_products: GitHub, Apple iOS/macOS, Linux kernel
+- urgency_signals: poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3145,7 +3042,7 @@ The PolinRider campaign has compromised more than 100 legitimate open source pac
 #### Full body
 
 ```
-North Korean hackers are targeting open source software developers with a backdoor and an information stealer as part of a broad supply chain campaign, Socket reports. Referred to as PolinRider , the campaign has been ongoing since December 2025, using compromised GitHub repositories injected with JavaScript loaders leading to the DEV#POPPER remote access trojan (RAT) and the OmniStealer information stealer. Associated with the broader Contagious Interview operation, which includes tactics also seen in the DeceptiveDevelopment , Operation Dream Job , and ClickFake Interview campaigns, PolinRider is targeting developers across NPM, Packagist, Go modules, and Chrome extensions. To date, Socket has identified 162 malicious release artifacts across 108 unique packages, with more expected to emerge as the campaign continues. As part of the attacks, the threat actor compromises maintainer accounts to tamper with legitimate repositories and push infected packages. Additionally, the attackers rely on Git history rewriting to make the malicious changes appear older. The compromised repositories contain obfuscated JavaScript loaders that connect to the blockchain and public remote procedure call (RPC) infrastructure to retrieve encrypted payloads. Advertisement. Scroll to continue reading. Among the incidents associated with PolinRider, Socket identified the compromise of Xpos587, a GitHub account that maintains several repositories that were modified on June 23 during a small timeframe. Recently, the campaign expanded to Packagist, where multiple packages under the sevenspan namespace were compromised. The attackers hid the malicious loaders in configuration files that were not identified during the cleanup operation. “Teams that installed any affected package or extension version should treat the installation environment as potentially compromised until reviewed. Because PolinRider targets developer environments and may expose package registry, source code, cloud, and CI/CD credentials, remediation should be performed from a clean machine, not from the potentially infected host,” Socket notes. Related: North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Related: North Korean Hackers Use AppleScript, ClickFix in Fresh macOS Attacks Related: $290 Million Kelp DAO Crypto Heist Blamed on North Korea Related: North Korean Hackers Target High-Profile Node.js Maintainers Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Latest News Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks The Shift Toward Business-Aligned Risk Management Armored Likho APT Targeting Government, Electric Power Entities Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And Wha
+North Korean hackers are targeting open source software developers with a backdoor and an information stealer as part of a broad supply chain campaign, Socket reports. Referred to as PolinRider , the campaign has been ongoing since December 2025, using compromised GitHub repositories injected with JavaScript loaders leading to the DEV#POPPER remote access trojan (RAT) and the OmniStealer information stealer. Associated with the broader Contagious Interview operation, which includes tactics also seen in the DeceptiveDevelopment , Operation Dream Job , and ClickFake Interview campaigns, PolinRider is targeting developers across NPM, Packagist, Go modules, and Chrome extensions. To date, Socket has identified 162 malicious release artifacts across 108 unique packages, with more expected to emerge as the campaign continues. As part of the attacks, the threat actor compromises maintainer accounts to tamper with legitimate repositories and push infected packages. Additionally, the attackers rely on Git history rewriting to make the malicious changes appear older. The compromised repositories contain obfuscated JavaScript loaders that connect to the blockchain and public remote procedure call (RPC) infrastructure to retrieve encrypted payloads. Advertisement. Scroll to continue reading. Among the incidents associated with PolinRider, Socket identified the compromise of Xpos587, a GitHub account that maintains several repositories that were modified on June 23 during a small timeframe. Recently, the campaign expanded to Packagist, where multiple packages under the sevenspan namespace were compromised. The attackers hid the malicious loaders in configuration files that were not identified during the cleanup operation. “Teams that installed any affected package or extension version should treat the installation environment as potentially compromised until reviewed. Because PolinRider targets developer environments and may expose package registry, source code, cloud, and CI/CD credentials, remediation should be performed from a clean machine, not from the potentially infected host,” Socket notes. Related: North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Related: North Korean Hackers Use AppleScript, ClickFix in Fresh macOS Attacks Related: $290 Million Kelp DAO Crypto Heist Blamed on North Korea Related: North Korean Hackers Target High-Profile Node.js Maintainers Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability Latest News Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks The Shift Toward Business-Aligned Risk Management Armored Likho APT Targeting Government, Electric Power Entities Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (An
 ```
 
 #### Corroborating sources (1)
@@ -3239,147 +3136,6 @@ Vulnerable and outdated software components are one of the most common issues en
   - Published: 2026-07-01T14:00:00+00:00
   - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
   - Summary: Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
-
-### Cluster b22f1632fb — score 8
-
-- Title: CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-07T06:40:47+00:00
-- Link: https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-11405
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_industries: government, manufacturing_industrial
-- affected_products: Linux kernel, OpenAI/ChatGPT
-- cve_ids: CVE-2026-11405, CVE-2026-46817, CVE-2026-55200
-- urgency_signals: actively_exploited, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, web_shell_backdoor, active_exploitation
-- actor_attribution: Mustang Panda
-- affected_industries: government, manufacturing_industrial
-- affected_products: Linux kernel, OpenAI/ChatGPT
-- cve_ids: CVE-2026-11405, CVE-2026-55200, CVE-2026-46817
-- urgency_signals: actively_exploited, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. "An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process
-```
-
-#### Full body
-
-```
-CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware  Ravie Lakshmanan  Jul 07, 2026 Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. "An attacker can exploit this vulnerability, tracked as CVE-2026-11405 , to bypass the password verification process and obtain full administrative control without valid credentials," the CERT/CC said in an alert. The vulnerability impacts multiple versions of the firmware - US_FH1201V1.0BR_V1.2.0.14(408)_EN_TD US_W15EV1.0br_V15.11.0.5(1068_1567_841)_EN_TDE US_AC10V1.0re_V15.03.06.46_multi_TDE01 US_AC5V1.0RTL_V15.03.06.48_multi_TDE01 US_AC6V2.0RTL_V15.03.06.51_multi_T The backdoor functionality is present within the "login()" function of the "/bin/httpd" web server binary. While the method initially follows a normal authentication path using MD5-based password verification, it activates an alternate code path if the authentication fails. Specifically, this involves calling "GetValue("sys.rzadmin.password")" to fetch an alternate password value from the device configuration, and performing a direct plaintext comparison between the user-supplied password and the configuration-stored value. Should these values match, the application grants admin-level access (role=2) and creates a valid session with elevated privileges. "The associated ["rzadmin"] username is not validated, so any provided username will succeed when paired with the backdoor password," the CERT/CC said. "This backdoor authentication mechanism is not documented or visible through any administrative interface." Successful exploitation of this standard username validation override allows full administrative access to the device's web interface regardless of the administrator account credentials. It can permit an attacker to make unauthorized remote modification of settings, disable security features, or reconfigure the device, potentially leading to a complete device takeover. The vulnerability, reported by an anonymous researcher, remains unpatched as of writing. The Hacker News has contacted Tenda for comment, and we will update the story if we hear back. In the interim, users are advised to disable remote management on the device and change the default LAN IP address to prevent bad actors from reaching it and reduce opportunistic discovery by automated scanners that target known default IP ranges. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Authentication Security , device security , Firmware Security , iot security , network security , router security , Vulnerability , Web Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts ⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild New BioShocking Attack Tricks AI Browsers Into L
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
-  - Published: 2026-07-07T06:40:47+00:00
-  - Link: https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
-  - Summary: Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. "An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process
-
-### Cluster d7f247f4ee — score 8
-
-- Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-04T12:47:53+00:00
-- Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- actor_attribution: Silent Ransom Group
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- actor_attribution: Silent Ransom Group
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
-```
-
-#### Full body
-
-```
-U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case  Swati Khandelwal  Jul 04, 2026 Cyber Extortion / Threat Intelligence A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC , built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos , but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single machine: no encryptor, no locker, no demand for a decryption key. The threat was simpler. Steal the files, then charge the victim not to publish them. Krishnan does not name the victim, but the chat points to Union County, Ohio. The proof-of-theft files carry names like Union.xlsx, 1 union co psi template.doc, and a final archive called union.rar. The victim calls itself a small county with limited resources. The attacker leans on one folder in particular, marked "prosecutors office," warning that leaking it would help criminals dodge charges. The clues fit a real case. In May 2025, Union County, Ohio, said it detected ransomware on its network and later notified 45,487 residents and staff that their data had been taken, affecting most of the county of roughly 70,000. The stolen records ran from Social Security and financial details to fingerprints and passport numbers. Neither the county nor Kairos has confirmed the connection. But if it holds, a county government paid about $1 million it never publicly disclosed. The Hacker News has contacted the Union County Commissioners' Office for comment. This story will be updated with any response. The negotiation ran for about a month. Kairos opened at $3 million and claimed it was holding more than 2 terabytes of data, some 1.6 million files. The county started at $100,000, crept up to $255,000, then $430,000. Kairos dropped to $2 million, then set a hard final number: $1 million, pay by Friday, or the files go public. The payment on-chain: about 9.44 BTC lands in the Kairos-linked wallet. It used the usual levers: a countdown timer, tight deadlines, and threats to dump the most sensitive folders first. The county paid on June 13, 2025, ten times its first offer. The payment was roughly 9.44 bitcoin, worth about $1 million at the time. Krishnan traced the money from there. Within hours, it was split in two and pushed through a chain of wallets toward deposit addresses tied to the crypto exchanges Bybit, OKX, and a Russian service called BELQI. That kind of tracing hands investigators leads, not names. And the money bought nothing solid. Kairos sent over a "proof of deletion" file, but a list of file names shows only that the attacker once had the files, not that the originals were wiped. Paying to make stolen data disappear is an act of faith, and the receipt is written by the thief. Union County called what happened to it ransomware, the word everyone reaches for, but in the Kairos case, nothing was locked. That is the real shift: much of what still gets called ransomware now skips encryption and uses the stolen data itself as the pressure point. Sophos reported in 2025 that only about half of ransomware attacks still involve any encryption, the lowest rate in six years. Some crews have dropped it entirely. Silent Ransom Group , a Conti offshoot, has spent years running pure data-theft extortion against U.S. law and finance firms with no encryptor at all. The Kairos chat fits a familiar negotiation pattern, too. When Black Basta's internal chats leaked in February 2025, an analysis of the messages turned up a deal that ran from a $1.5 million demand to a $100,000 counter to a $1 million payment, almost the same arc. Those chats, and the Conti leaks before them in 2022, are how researchers now reconstruct the way these bargains actually get struck. Kairos itself has gone quiet. The leak site is down, and its last known victim showed up in June 2026. Bu
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
-  - Published: 2026-07-04T12:47:53+00:00
-  - Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
-  - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
-
-### Cluster ae77ed43fa — score 8
-
-- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-30T17:46:07+00:00
-- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: Azure, Microsoft/Copilot
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: Azure, Microsoft/Copilot
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
-```
-
-#### Full body
-
-```
-Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data  Swati Khandelwal  Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now triggers an action. Against a reader, an attack changes the output. Against an agent, it changes what the software actually does. These agents reach business systems through MCP, the Model Context Protocol , an open protocol that lets an AI call outside tools the way an app calls an API. Microsoft calls it the fastest-growing part of the agentic AI supply chain, which makes it an expanding attack surface. How the attack works Every MCP tool ships with a description: a few lines of plain text that tell the agent what the tool does and when to use it. The agent reads that text to decide how to act. That is the whole weakness. The description is just words, and words can carry instructions. Microsoft walks through it with an invoice example, built to show the pattern rather than report a named victim. A finance team stands up an agent to handle vendor invoices. It connects to three tools, including a third-party "invoice enrichment" service that was approved for use but never given a real security review. Then the attacker updates that third-party tool. The name and the visible summary stay the same. Buried in the description, dressed up as formatting notes, is a hidden order: grab the last thirty unpaid invoices and attach them to the next call. MCP picks up description changes on the fly. In setups without a re-approval trigger, the poisoned version goes live with no extra review. After that, an analyst asks a routine question about a supplier. The agent follows the hidden order, collects the invoices and sends them along as part of a normal-looking request. The tool returns a clean answer and quietly copies the stolen data to a server the attacker controls. The analyst sees nothing wrong. Each move the agent makes is legitimate on its own. The tool was approved. The data query ran with the analyst's own permissions. The outbound call went to a server that was allowed when it was added. The weakness is not in any one system. It lives in what Microsoft calls "the trust boundary between them." The deeper problem is that MCP mixes instructions and data in the same place. A tool's description lives in the agent's working memory right next to its real orders, so editing that description can steer the agent as effectively as rewriting its system prompt. The agent has no reliable way to tell an honest instruction from a malicious one slipped in by whoever maintains the tool. Microsoft notes this is not a bug in Copilot itself. It is a trust gap opened up by plugging in outside tools. What defenders should do Microsoft's advice, stripped to plain terms: Treat every connected tool as part of your supply chain. Keep a list of approved tool publishers, turn off "allow all," and let an agent use only the specific tools it needs. Treat a tool's description like a system prompt. Review changes to it the way you would review a code cha
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-  - Published: 2026-06-30T17:46:07+00:00
-  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
 
 ### Cluster a56bf79002 — score 8
 
@@ -3525,3 +3281,238 @@ Infosecurity Magazine Home » News » Critical SimpleHelp Vulnerability Exploite
   - Published: 2026-06-30T15:34:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/
   - Summary: Attackers exploited a critical SimpleHelp RMM bug to deploy TaskWeaver and Djinn Stealer malware
+
+### Cluster 23a808f8c8 — score 8
+
+- Title: Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-07T09:10:51+00:00
+- Link: https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2024-42009
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, web_shell_backdoor
+- actor_attribution: UNC5174
+- affected_industries: education
+- cve_ids: CVE-2024-42009, CVE-2025-49113
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, web_shell_backdoor
+- actor_attribution: UNC5174
+- affected_industries: education
+- cve_ids: CVE-2024-42009, CVE-2025-49113
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,
+```
+
+#### Full body
+
+```
+Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities  Ravie Lakshmanan  Jul 07, 2026 Email Security / Vulnerability A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials, followed by either the deployment of a web shell for persistent access or a known post-exploitation tool called VShell . The emerging threat cluster is being tracked by Proofpoint under the moniker UNK_MassTraction . It was first detected in May 2026, specifically focusing on administrators and professors in departments with either national security ties or entities studying astrophysics and particle physics. "The emails targeting university departments used both compromised senders, as well as abused domains vulnerable to spoofing due to lax DMARC policy to send the emails," the enterprise security company wrote in a technical report shared with The Hacker News, adding the use of generic lures indicates a "larger targeting swath" beyond its visibility. While the nature of the cross-site scripting (XSS) exploit is such that it only requires the recipient to open the email in the Roundcube client in order to obtain access to the mail server, it's assessed that the targeted departments were singled out because they were all running versions of Roundcube susceptible to N-day security flaws. This indicates that the threat actor likely carried out preparatory reconnaissance into these targets to gather information about their environments prior to sending phishing emails that trigger an exploit for CVE-2024-42009 and execute arbitrary JavaScript code in the context of the victim's web browser. "The actor is likely abusing Roundcube servers as a pivot point to enter target networks, and the operators have deliberately crafted their infection chain to avoid detection," Proofpoint researchers Greg Lesnewich and Mark Kelly said. The payload delivered following the exploitation of the XSS flaw, codenamed IceCube, is designed to siphon credential information stored in the browser along with two-factor authentication (2FA) and cookies. It also carries out reconnaissance of its own to collect information about the browser language, screen size, and form field values. screen size, and form field values. The harvested information is sent to an external system by means of an HTTP POST request. In the next step, IceCube leverages the session's CSRF token to weaponize a second post-authenticated remote code execution flaw in Roundcube - CVE-2025-49113 (CVSS score: 9.9) - with the goal of obtaining a foothold in the mail server and dropping VShell or a web shell dubbed SquareShell in memory. The web shell, deployed by means of a PHP gadget shell command, is remotely reachable at the endpoint "plugins/newmail_notifier/mail_preview.php" and enables arbitrary code execution. However, if the web shell installation fails for some reason, the attack chain falls back to an alternate mechanism in which a shell script is executed via the Roundcube vulnerability to ultimately deliver VShell . The secondary method is said to have been introduced in June 2026, when previously the attack chain would simply exit upon failing to deploy SquareShell. The shell script acts as a conduit for an ELF loader referred to as SNOWLIGHT and has been put to use in other intrusions orchestrated by Chinese adversaries. The use of both SNOWLIGHT and VShell has been linked to a China-linked cluster tracked as UNC5174 in the past. This suggests that the shell script is possibly shared by multiple China-nexus clusters in a private capacity, similar to ShadowPad and other tools. The script's main responsibility is to fetch a version of SNOWLIGHT that's
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities
+  - Published: 2026-07-07T09:10:51+00:00
+  - Link: https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html
+  - Summary: A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,
+
+### Cluster b22f1632fb — score 8
+
+- Title: CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-07T06:40:47+00:00
+- Link: https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-11405
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ransomware_extortion, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_industries: government, manufacturing_industrial
+- affected_products: Linux kernel, OpenAI/ChatGPT
+- cve_ids: CVE-2026-11405, CVE-2026-46817, CVE-2026-55200
+- urgency_signals: actively_exploited, no_patch_yet, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, web_shell_backdoor, active_exploitation
+- actor_attribution: Mustang Panda
+- affected_industries: government, manufacturing_industrial
+- affected_products: Linux kernel, OpenAI/ChatGPT
+- cve_ids: CVE-2026-11405, CVE-2026-55200, CVE-2026-46817
+- urgency_signals: actively_exploited, no_patch_yet, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. "An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process
+```
+
+#### Full body
+
+```
+CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware  Ravie Lakshmanan  Jul 07, 2026 Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. "An attacker can exploit this vulnerability, tracked as CVE-2026-11405 , to bypass the password verification process and obtain full administrative control without valid credentials," the CERT/CC said in an alert. The vulnerability impacts multiple versions of the firmware - US_FH1201V1.0BR_V1.2.0.14(408)_EN_TD US_W15EV1.0br_V15.11.0.5(1068_1567_841)_EN_TDE US_AC10V1.0re_V15.03.06.46_multi_TDE01 US_AC5V1.0RTL_V15.03.06.48_multi_TDE01 US_AC6V2.0RTL_V15.03.06.51_multi_T The backdoor functionality is present within the "login()" function of the "/bin/httpd" web server binary. While the method initially follows a normal authentication path using MD5-based password verification, it activates an alternate code path if the authentication fails. Specifically, this involves calling "GetValue("sys.rzadmin.password")" to fetch an alternate password value from the device configuration, and performing a direct plaintext comparison between the user-supplied password and the configuration-stored value. Should these values match, the application grants admin-level access (role=2) and creates a valid session with elevated privileges. "The associated ["rzadmin"] username is not validated, so any provided username will succeed when paired with the backdoor password," the CERT/CC said. "This backdoor authentication mechanism is not documented or visible through any administrative interface." Successful exploitation of this standard username validation override allows full administrative access to the device's web interface regardless of the administrator account credentials. It can permit an attacker to make unauthorized remote modification of settings, disable security features, or reconfigure the device, potentially leading to a complete device takeover. The vulnerability, reported by an anonymous researcher, remains unpatched as of writing. The Hacker News has contacted Tenda for comment, and we will update the story if we hear back. In the interim, users are advised to disable remote management on the device and change the default LAN IP address to prevent bad actors from reaching it and reduce opportunistic discovery by automated scanners that target known default IP ranges. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Authentication Security , device security , Firmware Security , iot security , network security , router security , Vulnerability , Web Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts ⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild New BioShocking Attack Tricks AI Browsers Into L
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
+  - Published: 2026-07-07T06:40:47+00:00
+  - Link: https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
+  - Summary: Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. "An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process
+
+### Cluster 87ef22349e — score 8
+
+- Title: New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-06T08:50:54+00:00
+- Link: https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, ransomware_extortion
+- affected_industries: education
+- affected_products: Linux kernel, OpenAI/ChatGPT
+- urgency_signals: actively_exploited
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, apt_espionage, active_exploitation
+- affected_industries: education
+- affected_products: Linux kernel, OpenAI/ChatGPT
+- urgency_signals: actively_exploited
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it
+```
+
+#### Full body
+
+```
+New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions  Swati Khandelwal  Jul 06, 2026 Cyber Espionage / Endpoint Security Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix , tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it is a way for stolen data to get out, not a way in. In the researchers' tests, TrojPix hit a peak throughput of 8.1 Mbps and reached as far as 208 meters, the two measured separately rather than together. Most air-gap covert channels crawl along at bits or kilobits per second; at 8.1 megabits, roughly a megabyte a second, TrojPix could move a 100 MB file in under two minutes. That turns the threat from leaking a password into moving whole files while the monitor looks switched off. Real-world range is another matter: a receiver still has to fight through walls, shielding, and noise. The method, which the researchers call imperceptible pixel modulation , needs no administrator rights and no hardware changes, they say; user-level malware that can draw to the screen is enough. They describe two ways to hide the traffic. One fakes a powered-off display, keeping the screen dark while it transmits. The other buries the signal in whatever is already on screen, so ordinary-looking content carries the payload. The team reports it is working across nine monitor brands and fifteen video cables, so the result is not tied to one setup. Turning a video cable into a covert transmitter is not new. It traces back to the decades-old study of compromising emanations, known as TEMPEST, and more recently to work like TEMPEST-LoRa (CCS 2025), which used the same trick to reach off-the-shelf LoRa radios, a common long-range wireless standard. That one topped out at 87.5 meters, or 21.6 kbps. TrojPix's peak throughput is hundreds of times higher, though the two use different receivers under different conditions, so the numbers are not a head-to-head comparison. These emission channels remain lab work. The air-gap attacks that have surfaced in the wild, from Stuxnet to Agent.BTZ, crossed the gap on USB drives, not over radio; TrojPix and its kind show what is possible, not what has been caught. Another screen-based channel, PIXHELL, which The Hacker News covered in 2024 , made the display itself emit sound to leak data from an air-gapped PC. Others have pulled data off Ethernet with a planted hardware implant , the kind of hardware change TrojPix avoids. You cannot patch away the emission itself. The countermeasures are physical and preventive: run video over fiber-optic links, which carry no such signal, rather than copper; shield cables and rooms where the data warrants it, as TEMPEST-rated facilities already do; and above all, keep malware off the machine in the first place, since without that foothold, TrojPix has nothing to send. Once an attacker is inside, a channel this fast can move the data out in the time the screen sits dark. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Covert Channel , cyber espionage , data exfiltration , endpoint security , hardware security , Malware , Physical Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards FBI
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
+  - Published: 2026-07-06T08:50:54+00:00
+  - Link: https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
+  - Summary: Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it
+
+### Cluster d7f247f4ee — score 8
+
+- Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-04T12:47:53+00:00
+- Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- actor_attribution: Silent Ransom Group
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- actor_attribution: Silent Ransom Group
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
+```
+
+#### Full body
+
+```
+U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case  Swati Khandelwal  Jul 04, 2026 Cyber Extortion / Threat Intelligence A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC , built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos , but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single machine: no encryptor, no locker, no demand for a decryption key. The threat was simpler. Steal the files, then charge the victim not to publish them. Krishnan does not name the victim, but the chat points to Union County, Ohio. The proof-of-theft files carry names like Union.xlsx, 1 union co psi template.doc, and a final archive called union.rar. The victim calls itself a small county with limited resources. The attacker leans on one folder in particular, marked "prosecutors office," warning that leaking it would help criminals dodge charges. The clues fit a real case. In May 2025, Union County, Ohio, said it detected ransomware on its network and later notified 45,487 residents and staff that their data had been taken, affecting most of the county of roughly 70,000. The stolen records ran from Social Security and financial details to fingerprints and passport numbers. Neither the county nor Kairos has confirmed the connection. But if it holds, a county government paid about $1 million it never publicly disclosed. The Hacker News has contacted the Union County Commissioners' Office for comment. This story will be updated with any response. The negotiation ran for about a month. Kairos opened at $3 million and claimed it was holding more than 2 terabytes of data, some 1.6 million files. The county started at $100,000, crept up to $255,000, then $430,000. Kairos dropped to $2 million, then set a hard final number: $1 million, pay by Friday, or the files go public. The payment on-chain: about 9.44 BTC lands in the Kairos-linked wallet. It used the usual levers: a countdown timer, tight deadlines, and threats to dump the most sensitive folders first. The county paid on June 13, 2025, ten times its first offer. The payment was roughly 9.44 bitcoin, worth about $1 million at the time. Krishnan traced the money from there. Within hours, it was split in two and pushed through a chain of wallets toward deposit addresses tied to the crypto exchanges Bybit, OKX, and a Russian service called BELQI. That kind of tracing hands investigators leads, not names. And the money bought nothing solid. Kairos sent over a "proof of deletion" file, but a list of file names shows only that the attacker once had the files, not that the originals were wiped. Paying to make stolen data disappear is an act of faith, and the receipt is written by the thief. Union County called what happened to it ransomware, the word everyone reaches for, but in the Kairos case, nothing was locked. That is the real shift: much of what still gets called ransomware now skips encryption and uses the stolen data itself as the pressure point. Sophos reported in 2025 that only about half of ransomware attacks still involve any encryption, the lowest rate in six years. Some crews have dropped it entirely. Silent Ransom Group , a Conti offshoot, has spent years running pure data-theft extortion against U.S. law and finance firms with no encryptor at all. The Kairos chat fits a familiar negotiation pattern, too. When Black Basta's internal chats leaked in February 2025, an analysis of the messages turned up a deal that ran from a $1.5 million demand to a $100,000 counter to a $1 million payment, almost the same arc. Those chats, and the Conti leaks before them in 2022, are how researchers now reconstruct the way these bargains actually get struck. Kairos itself has gone quiet. The leak site is down, and its last known victim showed up in June 2026. Bu
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+  - Published: 2026-07-04T12:47:53+00:00
+  - Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
+  - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
+
+### Cluster ae77ed43fa — score 8
+
+- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-30T17:46:07+00:00
+- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Azure, Microsoft/Copilot
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Azure, Microsoft/Copilot
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+```
+
+#### Full body
+
+```
+Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data  Swati Khandelwal  Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now triggers an action. Against a reader, an attack changes the output. Against an agent, it changes what the software actually does. These agents reach business systems through MCP, the Model Context Protocol , an open protocol that lets an AI call outside tools the way an app calls an API. Microsoft calls it the fastest-growing part of the agentic AI supply chain, which makes it an expanding attack surface. How the attack works Every MCP tool ships with a description: a few lines of plain text that tell the agent what the tool does and when to use it. The agent reads that text to decide how to act. That is the whole weakness. The description is just words, and words can carry instructions. Microsoft walks through it with an invoice example, built to show the pattern rather than report a named victim. A finance team stands up an agent to handle vendor invoices. It connects to three tools, including a third-party "invoice enrichment" service that was approved for use but never given a real security review. Then the attacker updates that third-party tool. The name and the visible summary stay the same. Buried in the description, dressed up as formatting notes, is a hidden order: grab the last thirty unpaid invoices and attach them to the next call. MCP picks up description changes on the fly. In setups without a re-approval trigger, the poisoned version goes live with no extra review. After that, an analyst asks a routine question about a supplier. The agent follows the hidden order, collects the invoices and sends them along as part of a normal-looking request. The tool returns a clean answer and quietly copies the stolen data to a server the attacker controls. The analyst sees nothing wrong. Each move the agent makes is legitimate on its own. The tool was approved. The data query ran with the analyst's own permissions. The outbound call went to a server that was allowed when it was added. The weakness is not in any one system. It lives in what Microsoft calls "the trust boundary between them." The deeper problem is that MCP mixes instructions and data in the same place. A tool's description lives in the agent's working memory right next to its real orders, so editing that description can steer the agent as effectively as rewriting its system prompt. The agent has no reliable way to tell an honest instruction from a malicious one slipped in by whoever maintains the tool. Microsoft notes this is not a bug in Copilot itself. It is a trust gap opened up by plugging in outside tools. What defenders should do Microsoft's advice, stripped to plain terms: Treat every connected tool as part of your supply chain. Keep a list of approved tool publishers, turn off "allow all," and let an agent use only the specific tools it needs. Treat a tool's description like a system prompt. Review changes to it the way you would review a code cha
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+  - Published: 2026-06-30T17:46:07+00:00
+  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
