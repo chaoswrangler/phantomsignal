@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-06T22:19:41.756975+00:00
+- Generated: 2026-07-07T00:15:20.935266+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 308
+- Total items in window: 306
 - Total clusters raw: 145
 - Total clusters in packet: 59
 - Dropped low score: 86
@@ -70,56 +70,56 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -130,28 +130,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 4
+  - Item count: 20
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -160,21 +155,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 1
+  - Item count: 10
+  - In window count: 2
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -185,6 +180,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 7
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -225,21 +225,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,16 +260,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -285,16 +285,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -305,38 +310,23 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 19
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 18
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -345,23 +335,18 @@
   - Status: ok
   - Item count: 30
   - In window count: 19
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 15
+  - In window count: 15
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 21
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -370,6 +355,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 20
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -400,28 +400,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,31 +410,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 23
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
   - In window count: 0
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 10
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -487,15 +487,15 @@
   - affected_industries: government
   - affected_products: Linux kernel
   - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: f497a96858, 9e3f402183, 63e5e50e1d, cad05b2d4e, 87ef22349e, eeda86ce1d, a56bf79002
+- Cluster IDs: f497a96858, 9e3f402183, 63e5e50e1d, cad05b2d4e, 87ef22349e, a56bf79002, eeda86ce1d
 - Links:
   - https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html
   - https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
   - https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
   - https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
-  - https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
   - https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
+  - https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
 
 ### ransomware extortion targeting Citrix
 - Anchor signal: Citrix
@@ -521,6 +521,31 @@
   - https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
   - https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html
+
+### Android active exploitation
+- Anchor signal: Android
+- Theme key: android
+- Cluster count: 5
+- Article count: 8
+- Cohesion: 0.215
+- Shared strong signals: Android
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, active_exploitation
+  - affected_industries: financial_services, government
+  - affected_products: Android, OpenAI/ChatGPT
+  - urgency_signals: actively_exploited
+- Cluster IDs: 93502a2013, 3ee1d54d9d, 4541afab04, cad05b2d4e, 5bbda948e4
+- Links:
+  - https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/
+  - https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/
+  - https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
+  - https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/
+  - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
+  - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+  - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
+  - https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
 
 ### CVE-2025-3248 exploitation activity
 - Anchor signal: CVE-2025-3248
@@ -565,40 +590,18 @@
   - https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/
   - https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/
 
-### ransomware extortion targeting Android
-- Anchor signal: Android
-- Theme key: android
-- Cluster count: 4
-- Article count: 7
-- Cohesion: 0.213
-- Shared strong signals: Android
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, credential_theft
-  - affected_industries: financial_services, government
-  - affected_products: Android, OpenAI/ChatGPT
-- Cluster IDs: 93502a2013, 3ee1d54d9d, cad05b2d4e, 5bbda948e4
-- Links:
-  - https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/
-  - https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/
-  - https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
-  - https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/
-  - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
-  - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-  - https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
-
 ### Palo Alto Networks active exploitation
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
 - Cluster count: 3
 - Article count: 3
-- Cohesion: 0.352
+- Cohesion: 0.22
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: phishing_social_eng, active_exploitation
+  - affected_industries: government
   - affected_products: Palo Alto Networks
   - urgency_signals: actively_exploited
 - Cluster IDs: e4a3ada988, 5b50b4b7b2, 4541afab04
@@ -817,7 +820,7 @@ A critical vulnerability (CVE-2026-33017, CVSS 9.8) was disclosed affecting Lang
 #### Full body
 
 ```
-Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-33017 , CVSS 9.8) was disclosed affecting Langflow, a widely used open-source AI application builder, allowing attackers to execute arbitrary code on the server via a single unauthenticated HTTP request. Due to the potential for full system compromise, data theft, and lateral movement across enterprise networks, immediate patching is required. About CVE-2026-33017 The issue originates from Langflow’s public flow-building API endpoint (/api/v1/build_public_tmp/{flow_id}/flow), where a lack of input sanitization and sandboxing for user-supplied flow definitions leads to arbitrary Python code execution on the server. By sending a specially crafted POST request containing malicious Python code in a node definition, attackers can gain full remote code execution without any authentication or user interaction, potentially compromising the entire host and any connected cloud infrastructure . An active campaign exploiting this vulnerability was observed by Trend Micro researchers over a 19-day window in spring 2026. Attackers weaponized the flaw within 20 hours of the advisory’s publication, before any public proof-of-concept existed. The attack chain delivers “lambsys,” a Go-based binary that kills 39 rival cryptominer processes, disables security controls including AppArmor, SELinux, UFW, and iptables, wipes system logs, and deploys a customized XMRig Monero miner with geo-aware pool selection. The malware also harvests environment variables, .env files, database credentials, and API keys from compromised hosts. Affected Systems The following components are affected: Langflow, all versions up to and including 1.8.2. Langflow has over 145,000 GitHub stars and is widely deployed in AI/ML pipeline infrastructure across enterprise and cloud environments, particularly when flow-building endpoints are exposed to the internet. Approximately 7,000 Langflow servers were found internet-accessible at the time of discovery. Other frameworks or services relying on Langflow as a backend may also be impacted. Users should upgrade to Langflow version 1.9.0 or later immediately. Notably, version 1.8.2 was widely reported as patched but remains vulnerable according to JFrog Security Research. Organizations that cannot deploy 1.9.0 immediately should install the nightly build (1.9.0.dev18 or later) as an interim fix. All API keys, database credentials, and SSH keys on any previously exposed instances should be rotated, and teams should monitor for outbound connections to 83.142.209[.]214 and the presence of the “lambsys” binary or unexpected cron entries. Risk Impact At the time of writing, working exploits are actively used in the wild, and the vulnerability has been added to CISA’s Known Exploited Vulnerabilities catalog with a federal remediation deadline. No authentication is required to exploit this issue. The severity and ease of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to execute arbitrary code on the server, steal credentials and sensitive data from environment variables and configuration files, and laterally move through enterprise networks using harvested SSH keys, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable Langflow versions, understand their exposure in context , including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help Related articles Product Info Close the Gap Between Kubern
+Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-33017 , CVSS 9.8) was disclosed affecting Langflow, a widely used open-source AI application builder, allowing attackers to execute arbitrary code on the server via a single unauthenticated HTTP request. Due to the potential for full system compromise, data theft, and lateral movement across enterprise networks, immediate patching is required. About CVE-2026-33017 The issue originates from Langflow’s public flow-building API endpoint (/api/v1/build_public_tmp/{flow_id}/flow), where a lack of input sanitization and sandboxing for user-supplied flow definitions leads to arbitrary Python code execution on the server. By sending a specially crafted POST request containing malicious Python code in a node definition, attackers can gain full remote code execution without any authentication or user interaction, potentially compromising the entire host and any connected cloud infrastructure . An active campaign exploiting this vulnerability was observed by Trend Micro researchers over a 19-day window in spring 2026. Attackers weaponized the flaw within 20 hours of the advisory’s publication, before any public proof-of-concept existed. The attack chain delivers “lambsys,” a Go-based binary that kills 39 rival cryptominer processes, disables security controls including AppArmor, SELinux, UFW, and iptables, wipes system logs, and deploys a customized XMRig Monero miner with geo-aware pool selection. The malware also harvests environment variables, .env files, database credentials, and API keys from compromised hosts. Affected Systems The following components are affected: Langflow, all versions up to and including 1.8.2. Langflow has over 145,000 GitHub stars and is widely deployed in AI/ML pipeline infrastructure across enterprise and cloud environments, particularly when flow-building endpoints are exposed to the internet. Approximately 7,000 Langflow servers were found internet-accessible at the time of discovery. Other frameworks or services relying on Langflow as a backend may also be impacted. Users should upgrade to Langflow version 1.9.0 or later immediately. Notably, version 1.8.2 was widely reported as patched but remains vulnerable according to JFrog Security Research. Organizations that cannot deploy 1.9.0 immediately should install the nightly build (1.9.0.dev18 or later) as an interim fix. All API keys, database credentials, and SSH keys on any previously exposed instances should be rotated, and teams should monitor for outbound connections to 83.142.209[.]214 and the presence of the “lambsys” binary or unexpected cron entries. Risk Impact At the time of writing, working exploits are actively used in the wild, and the vulnerability has been added to CISA’s Known Exploited Vulnerabilities catalog with a federal remediation deadline. No authentication is required to exploit this issue. The severity and ease of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to execute arbitrary code on the server, steal credentials and sensitive data from environment variables and configuration files, and laterally move through enterprise networks using harvested SSH keys, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable Langflow versions, understand their exposure in context , including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help Related articles Cloud Security Learning GDPR Cloud Compli
 ```
 
 #### Corroborating sources (2)
@@ -1415,7 +1418,7 @@ Back to Blog Security Operations Formalizing Red Teaming Offensive Methodology a
 - Source: Google Cloud Threat Intelligence (threat_research_primary)
 - Published: 2026-07-02T14:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/
-- Fetch status: ok
+- Fetch status: fetch_failed:ConnectionError
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: (none)
@@ -1432,12 +1435,6 @@ Back to Blog Security Operations Formalizing Red Teaming Offensive Methodology a
 
 ```
 Background Today, in coordination with the FBI, Lumen, and others, Google took action against the NetNut residential proxy network, also known as Popa. This action builds on our disruption of the IPIDEA proxy network that took place in January 2026, and is a continuation of Google’s objective to dismantle malicious residential proxy networks. Actions Taken As a part of this disruption we took the following actions: Disabled Google accounts and associated Google services used by NetNut for malware command and control (C2), which directly violates Google’s Terms of Service and Acceptable Use Policy. Shared technical intelligence on NetNut software development kits (SDKs) and backend C2 infrastructure with platform providers, law enforcement, and research firms to help drive ecosystem-wide awareness and enforcement. We ensured Google Play Protect , Android’s built-in security protection, automatically warned users and disabled applications known to incorporate NetNut SDKs, and the system
-```
-
-#### Full body
-
-```
-Threat Intelligence Google’s Continued Disruption of Malicious Residential Proxy Networks July 2, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Background Today, in coordination with the FBI, Lumen, and others, Google took action against the NetNut residential proxy network, also known as Popa. This action builds on our disruption of the IPIDEA proxy network that took place in January 2026, and is a continuation of Google’s objective to dismantle malicious residential proxy networks. Actions Taken As a part of this disruption we took the following actions: Disabled Google accounts and associated Google services used by NetNut for malware command and control (C2), which directly violates Google’s Terms of Service and Acceptable Use Policy. Shared technical intelligence on NetNut software development kits (SDKs) and backend C2 infrastructure with platform providers, law enforcement, and research firms to help drive ecosystem-wide awareness and enforcement. We ensured Google Play Protect , Android’s built-in security protection, automatically warned users and disabled applications known to incorporate NetNut SDKs, and the system will continue to protect users against future install attempts. These efforts to help keep the broader digital ecosystem safe supplement the protections we have to safeguard Android users on certified devices. We believe our coordinated actions have caused significant degradation to NetNut’s proxy network and its business operations, reducing the available pool of devices for the proxy operator by millions . In addition to selling access to the network under the NetNut brand, NetNut has a robust reseller program that allows whitelabeling of its network. Google has high confidence that many popular residential proxy brands are in fact whitelabeling the NetNut botnet. While we expect this disruption to have a larger ripple effect across the residential proxy ecosystem, observations after the disruption of IPIDEA proved that individual networks can appear resilient. What we have observed is that when faced with the degradation of their own botnet, proxy operators begin buying capacity from their competitors, effectively becoming a reseller. We recognize that creating a lasting disruption in this fluid ecosystem means we must scale our efforts to target the infrastructure of several interconnected providers. We will continue to observe the composition of the NetNut network and map out how its peers adapt to this action. Why it Matters NetNut is among the largest and most popular residential proxy networks. Estimating the size of residential proxy networks is extremely challenging, but Google Threat Intelligence Group (GTIG) estimates the size of the NetNut network to be at least 2 million devices, distributed across the world. Public reporting by KrebsOnSecurity and others, confirmed by Google, illustrates that NetNut populates its botnet by distributing SDKs for devices commonly found in homes, such as smart TVs and streaming boxes. GTIG has also identified NetNut botnet plugin components for large-scale botnets such as Badbox 2.0. Residential proxy networks sell the ability to route traffic through IP addresses owned by internet service providers (ISPs), allowing attackers to mask malicious activity by hijacking these IP addresses. A robust residential proxy network requires controlling millions of residential IP addresses to sell to customers for use. To accomplish this, operators need code running on home devices to enroll them into the malicious network as exit nodes. Home devices become part of proxy networks either because they are pre-installed with malware before purchase or because users unknowingly download applications containing hidden proxy code. This creates serious risks for unsuspecting device owners, as their home IP addresses can be used by attackers as a launchpad for hacking and other unauth
 ```
 
 #### Corroborating sources (2)
@@ -1795,53 +1792,6 @@ CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
   - Summary: Key Points Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore, an Iran-nexus APT group primarily targeting Israeli organizations, with a focus on IT providers, and government sectors. Cavern Manticore is an Iran MOIS (Ministry of Intelligence and Security)-linked actor, with links to the OilRig […] The post Cavern Manticore: Exposing Iran-Linked Modular C2 Framework appeared first on Check Point Research .
 
-### Cluster cad05b2d4e — score 12
-
-- Title: 6th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-06T12:01:54+00:00
-- Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
-- affected_industries: aviation_defense, financial_services, legal_professional, manufacturing_industrial
-- affected_products: Android, Citrix, Linux kernel
-- cve_ids: CVE-2026-46242, CVE-2026-46817, CVE-2026-8037, CVE-2026-8451
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
-- affected_industries: financial_services, manufacturing_industrial, aviation_defense, legal_professional
-- affected_products: Linux kernel, Citrix, Android
-- cve_ids: CVE-2026-46817, CVE-2026-46242, CVE-2026-8451, CVE-2026-8037
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July – Threat Intelligence Report July 6, 2026 https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/ For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found ransomware on portions of its server environment and is assessing whether personal data was accessed or exfiltrated. Indra Group, a Spanish defense, aerospace, and technology contractor and NATO cyber coalition member, has confirmed a ransomware attack affecting one subsidiary. The Gentlemen ransomware gang threatened to leak allegedly stolen data, while Indra said the incident was contained and that service continuity was maintained. Check Point Threat Emulation and Harmony Endpoint provide protection against this threat Nidec, a Japanese electric motor and industrial manufacturer, has disclosed a ransomware attack affecting the network of its Taiwanese subsidiary, Nidec Chaun Choung Technology. BlackField group claimed responsibility and alleged theft of more than two terabytes of corporate data, including employee, financial, procurement, manufacturing, legal, and IT records. US insurance firm Aflac has disclosed a data breach affecting its Japan operations after attackers accessed its policyholder portal between June 15 and June 25. Personal and financial data of nearly 4.4 million customers was exposed, including policyholder information and premium payment account details. AI THREATS Check Point Research has demonstrated a browser-native ransomware technique generated by a large language model that abuses Chrome’s File System Access API. A fake image-enhancement page convinces users to grant folder access, then reads, exfiltrates, and encrypts photos inside the browser on Android and Windows. Researchers examined shell command injection weaknesses in open-source AI coding agents, finding that 10 out of 11 popular tools failed to block obfuscated destructive commands. Simple rewrites bypassed filters and enabled destructive actions, including file deletion, while only the Continue agent properly parsed commands. Researchers warned that attackers are exploiting LLM phantom squatting by registering AI-generated domains to hijack traffic and deliver phishing. They recorded 250,000 hallucinated domains and subsequent registrations, including an AI-built phishing kit, Montana Empire, using a postal-service domain for credential theft. VULNERABILITIES AND PATCHES Oracle E-Business Suite is affected by CVE-2026-46817, a critical remote code execution flaw reportedly exploited against about 950 internet-exposed instances worldwide. Successful exploitation can give attackers control over ERP systems. Check Point IPS provides protection against this threat (Oracle E-Business Suite Authentication Bypass (CVE-2026-46817)) Linux kernel maintainers patched CVE-2026-46242, a Bad Epoll privilege escalation flaw affecting Linux servers, desktops, and Android devices. The race-condition use-after-free vulnerability allows an unprivileged local user to gain root access, and a public exploit demonstrated reliable exploitation against vulnerable systems. Citrix has addressed CVE-2026-8451, a NetScaler ADC and NetScaler Gateway memory disclosure flaw affecting SAML Identity Provider configurations. Active exploitation was observed less than 24 hours after disclosure, with attacks able to leak session tokens from vulnerable appliances. Check Point IPS provides protection against this threat (Citrix NetScaler Out Of Bounds Read (CVE-2026-8451)) Progress has addressed CVE-2026-8037, a critical OS command injection flaw in Kemp LoadMaster load balancers with a CVSS score of 9.6. Exploitation attempts began
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 6th July – Threat Intelligence Report
-  - Published: 2026-07-06T12:01:54+00:00
-  - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-  - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster 19a671449e — score 12
 
 - Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
@@ -1966,45 +1916,6 @@ Back to Blog Security Operations A Day With Your Vector Command Red Team Pod Tre
   - Published: 2026-07-01T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion
 
-### Cluster 4541afab04 — score 12
-
-- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T07:20:51+00:00
-- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Palo Alto Networks
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_products: Palo Alto Networks
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_products: Palo Alto Networks
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-  - Published: 2026-07-01T07:20:51+00:00
-  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
-
 ### Cluster 57ef1249ed — score 12
 
 - Title: Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day
@@ -2055,6 +1966,100 @@ Infosecurity Magazine Home » News » Nissan Discloses Employee Data Breach Link
   - Published: 2026-06-30T16:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
   - Summary: Nissan says employees' data was stolen via the Oracle PeopleSoft zero-day campaign
+
+### Cluster 4541afab04 — score 12
+
+- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-01T07:20:51+00:00
+- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Palo Alto Networks
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_industries: financial_services, government, healthcare
+- affected_products: Android, Palo Alto Networks, npm
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_industries: healthcare, financial_services, government
+- affected_products: npm, Android, Palo Alto Networks
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+```
+
+#### Full body
+
+```
+Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+  - Published: 2026-07-01T07:20:51+00:00
+  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+
+### Cluster cad05b2d4e — score 11
+
+- Title: 6th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-06T12:01:54+00:00
+- Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
+- affected_industries: aviation_defense, financial_services, legal_professional, manufacturing_industrial
+- affected_products: Android, Citrix, Linux kernel
+- cve_ids: CVE-2026-46242, CVE-2026-46817, CVE-2026-8037, CVE-2026-8451
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
+- affected_industries: financial_services, manufacturing_industrial, aviation_defense, legal_professional
+- affected_products: Linux kernel, Citrix, Android
+- cve_ids: CVE-2026-46817, CVE-2026-46242, CVE-2026-8451, CVE-2026-8037
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July – Threat Intelligence Report July 6, 2026 https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/ For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found ransomware on portions of its server environment and is assessing whether personal data was accessed or exfiltrated. Indra Group, a Spanish defense, aerospace, and technology contractor and NATO cyber coalition member, has confirmed a ransomware attack affecting one subsidiary. The Gentlemen ransomware gang threatened to leak allegedly stolen data, while Indra said the incident was contained and that service continuity was maintained. Check Point Threat Emulation and Harmony Endpoint provide protection against this threat Nidec, a Japanese electric motor and industrial manufacturer, has disclosed a ransomware attack affecting the network of its Taiwanese subsidiary, Nidec Chaun Choung Technology. BlackField group claimed responsibility and alleged theft of more than two terabytes of corporate data, including employee, financial, procurement, manufacturing, legal, and IT records. US insurance firm Aflac has disclosed a data breach affecting its Japan operations after attackers accessed its policyholder portal between June 15 and June 25. Personal and financial data of nearly 4.4 million customers was exposed, including policyholder information and premium payment account details. AI THREATS Check Point Research has demonstrated a browser-native ransomware technique generated by a large language model that abuses Chrome’s File System Access API. A fake image-enhancement page convinces users to grant folder access, then reads, exfiltrates, and encrypts photos inside the browser on Android and Windows. Researchers examined shell command injection weaknesses in open-source AI coding agents, finding that 10 out of 11 popular tools failed to block obfuscated destructive commands. Simple rewrites bypassed filters and enabled destructive actions, including file deletion, while only the Continue agent properly parsed commands. Researchers warned that attackers are exploiting LLM phantom squatting by registering AI-generated domains to hijack traffic and deliver phishing. They recorded 250,000 hallucinated domains and subsequent registrations, including an AI-built phishing kit, Montana Empire, using a postal-service domain for credential theft. VULNERABILITIES AND PATCHES Oracle E-Business Suite is affected by CVE-2026-46817, a critical remote code execution flaw reportedly exploited against about 950 internet-exposed instances worldwide. Successful exploitation can give attackers control over ERP systems. Check Point IPS provides protection against this threat (Oracle E-Business Suite Authentication Bypass (CVE-2026-46817)) Linux kernel maintainers patched CVE-2026-46242, a Bad Epoll privilege escalation flaw affecting Linux servers, desktops, and Android devices. The race-condition use-after-free vulnerability allows an unprivileged local user to gain root access, and a public exploit demonstrated reliable exploitation against vulnerable systems. Citrix has addressed CVE-2026-8451, a NetScaler ADC and NetScaler Gateway memory disclosure flaw affecting SAML Identity Provider configurations. Active exploitation was observed less than 24 hours after disclosure, with attacks able to leak session tokens from vulnerable appliances. Check Point IPS provides protection against this threat (Citrix NetScaler Out Of Bounds Read (CVE-2026-8451)) Progress has addressed CVE-2026-8037, a critical OS command injection flaw in Kemp LoadMaster load balancers with a CVSS score of 9.6. Exploitation attempts began
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 6th July – Threat Intelligence Report
+  - Published: 2026-07-06T12:01:54+00:00
+  - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
+  - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 40eaf074fe — score 11
 
@@ -2490,45 +2495,6 @@ Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Ins
   - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
   - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 
-### Cluster fbb9c91ae0 — score 10
-
-- Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-07-01T15:26:27+00:00
-- Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
-```
-
-#### Full body
-
-```
-Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
-  - Published: 2026-07-01T15:26:27+00:00
-  - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
-  - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
-
 ### Cluster 84ad484b78 — score 10
 
 - Title: Shipping post-quantum cryptography to Python
@@ -2569,6 +2535,45 @@ Page content Post-quantum cryptography is now one pip-install away for the entir
   - Published: 2026-06-30T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
   - Summary: Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
+
+### Cluster fbb9c91ae0 — score 10
+
+- Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-07-01T15:26:27+00:00
+- Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
+```
+
+#### Full body
+
+```
+Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
+  - Published: 2026-07-01T15:26:27+00:00
+  - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
+  - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
 
 ### Cluster 7dc61d54d0 — score 10
 
@@ -3227,143 +3232,6 @@ Vulnerable and outdated software components are one of the most common issues en
   - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
   - Summary: Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
 
-### Cluster eeda86ce1d — score 8
-
-- Title: 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-06T17:37:01+00:00
-- Link: https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-53359
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-43284, CVE-2026-43500, CVE-2026-46316, CVE-2026-53359
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-53359, CVE-2026-43284, CVE-2026-43500, CVE-2026-46316
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit
-```
-
-#### Full body
-
-```
-16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems  Swati Khandelwal  Jul 06, 2026 Linux / Vulnerability A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed ' Januscape ' and tracked as CVE-2026-53359 , the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit turns the same bug into full host code execution. Security researcher Hyunwoo Kim (@v4bel) found and reported the bug. He described Januscape as the first guest-to-host exploit triggerable on both Intel and AMD, to the best of public knowledge. The flaw went unnoticed for roughly 16 years. According to Kim, the exploit was used as a zero-day submission in Google's kvmCTF , the controlled KVM vulnerability reward program that offers up to $250,000 for full guest-to-host escapes. How It Works To run a virtual machine, KVM keeps its own private set of page tables that mirror the guest's memory layout. When it needs one of these tracking pages, it looks for an existing one to reuse. The problem: it matched them by memory address alone and ignored what type of tracking page it was grabbing. Two different types can share the same address but do completely different jobs, so KVM would sometimes reuse the wrong kind. That mix-up scrambles KVM's internal records of which page belongs where, and once those records are wrong, something has to give. Most of the time, the kernel notices the mess and shuts itself down on the spot to avoid doing damage. That crash is what the public demonstration triggers: a guest can knock over the whole host, taking every other VM on that machine down with it. The rarer, worse case happens when the freed tracking page gets handed out for another use before the kernel cleans up. The cleanup then scribbles a value into memory it no longer owns. An attacker only controls where that write lands, not what gets written, but even that limited foothold can be worked up into running code on the host. The flaw behaves the same on Intel and AMD chips; only the final, hardest step of turning it into full control takes different work on each. Who Is Affected The vulnerable code has been present since commit 2032a93d66fa in August 2010 (kernel 2.6.36 era) and was fixed by commit 81ccda30b4e8 , merged into mainline on June 19, 2026. The attack requires two things from the guest side: root inside the VM, a common condition on rented cloud instances, and nested virtualization exposed by the host. Even on hosts that run hardware EPT or NPT by default, nested virtualization forces KVM back through the legacy shadow MMU, which is where the bug sits. The exploit needs no cooperation from QEMU or any userspace VMM. It is purely an in-kernel KVM bug. The practical concern is any x86 environment that hosts untrusted guests with nested virtualization enabled. An attacker who rents a single such instance can panic the host, taking down every other tenant VM on the same physical machine. Kim said the withheld full exploit runs code as root on the host, which would expose other guests on the same machine to that root access. On distributions like RHEL, where /dev/kvm is world-writable (0666), Kim noted the same bug could also serve as a local privilege escalation to root, though the guest-to-host path is the higher-impact use. A Busy Few Months for One Researcher Januscape is Kim's third Linux kernel exploit disclosure in roughly two months. In May 2026, he disclosed Dirty Frag ( CVE-2026-43284 / CVE-2026-43500 ), a page-cache write vulnerability chain that delivers deterministic root on most major distributions, extending the same bug class as Dirty Pipe and Copy Fail. In June, he published ITScape (CVE-2026-46316), the first publicly demonstrated guest-to-host escape on KVM/arm64, exploiting a race condit
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems
-  - Published: 2026-07-06T17:37:01+00:00
-  - Link: https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
-  - Summary: A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit
-
-### Cluster d7f247f4ee — score 8
-
-- Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-04T12:47:53+00:00
-- Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- actor_attribution: Silent Ransom Group
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- actor_attribution: Silent Ransom Group
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
-```
-
-#### Full body
-
-```
-U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case  Swati Khandelwal  Jul 04, 2026 Cyber Extortion / Threat Intelligence A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC , built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos , but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single machine: no encryptor, no locker, no demand for a decryption key. The threat was simpler. Steal the files, then charge the victim not to publish them. Krishnan does not name the victim, but the chat points to Union County, Ohio. The proof-of-theft files carry names like Union.xlsx, 1 union co psi template.doc, and a final archive called union.rar. The victim calls itself a small county with limited resources. The attacker leans on one folder in particular, marked "prosecutors office," warning that leaking it would help criminals dodge charges. The clues fit a real case. In May 2025, Union County, Ohio, said it detected ransomware on its network and later notified 45,487 residents and staff that their data had been taken, affecting most of the county of roughly 70,000. The stolen records ran from Social Security and financial details to fingerprints and passport numbers. Neither the county nor Kairos has confirmed the connection. But if it holds, a county government paid about $1 million it never publicly disclosed. The Hacker News has contacted the Union County Commissioners' Office for comment. This story will be updated with any response. The negotiation ran for about a month. Kairos opened at $3 million and claimed it was holding more than 2 terabytes of data, some 1.6 million files. The county started at $100,000, crept up to $255,000, then $430,000. Kairos dropped to $2 million, then set a hard final number: $1 million, pay by Friday, or the files go public. The payment on-chain: about 9.44 BTC lands in the Kairos-linked wallet. It used the usual levers: a countdown timer, tight deadlines, and threats to dump the most sensitive folders first. The county paid on June 13, 2025, ten times its first offer. The payment was roughly 9.44 bitcoin, worth about $1 million at the time. Krishnan traced the money from there. Within hours, it was split in two and pushed through a chain of wallets toward deposit addresses tied to the crypto exchanges Bybit, OKX, and a Russian service called BELQI. That kind of tracing hands investigators leads, not names. And the money bought nothing solid. Kairos sent over a "proof of deletion" file, but a list of file names shows only that the attacker once had the files, not that the originals were wiped. Paying to make stolen data disappear is an act of faith, and the receipt is written by the thief. Union County called what happened to it ransomware, the word everyone reaches for, but in the Kairos case, nothing was locked. That is the real shift: much of what still gets called ransomware now skips encryption and uses the stolen data itself as the pressure point. Sophos reported in 2025 that only about half of ransomware attacks still involve any encryption, the lowest rate in six years. Some crews have dropped it entirely. Silent Ransom Group , a Conti offshoot, has spent years running pure data-theft extortion against U.S. law and finance firms with no encryptor at all. The Kairos chat fits a familiar negotiation pattern, too. When Black Basta's internal chats leaked in February 2025, an analysis of the messages turned up a deal that ran from a $1.5 million demand to a $100,000 counter to a $1 million payment, almost the same arc. Those chats, and the Conti leaks before them in 2022, are how researchers now reconstruct the way these bargains actually get struck. Kairos itself has gone quiet. The leak site is down, and its last known victim showed up in June 2026. Bu
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
-  - Published: 2026-07-04T12:47:53+00:00
-  - Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
-  - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
-
-### Cluster ae77ed43fa — score 8
-
-- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-30T17:46:07+00:00
-- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: Azure, Microsoft/Copilot
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: Azure, Microsoft/Copilot
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
-```
-
-#### Full body
-
-```
-Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data  Swati Khandelwal  Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now triggers an action. Against a reader, an attack changes the output. Against an agent, it changes what the software actually does. These agents reach business systems through MCP, the Model Context Protocol , an open protocol that lets an AI call outside tools the way an app calls an API. Microsoft calls it the fastest-growing part of the agentic AI supply chain, which makes it an expanding attack surface. How the attack works Every MCP tool ships with a description: a few lines of plain text that tell the agent what the tool does and when to use it. The agent reads that text to decide how to act. That is the whole weakness. The description is just words, and words can carry instructions. Microsoft walks through it with an invoice example, built to show the pattern rather than report a named victim. A finance team stands up an agent to handle vendor invoices. It connects to three tools, including a third-party "invoice enrichment" service that was approved for use but never given a real security review. Then the attacker updates that third-party tool. The name and the visible summary stay the same. Buried in the description, dressed up as formatting notes, is a hidden order: grab the last thirty unpaid invoices and attach them to the next call. MCP picks up description changes on the fly. In setups without a re-approval trigger, the poisoned version goes live with no extra review. After that, an analyst asks a routine question about a supplier. The agent follows the hidden order, collects the invoices and sends them along as part of a normal-looking request. The tool returns a clean answer and quietly copies the stolen data to a server the attacker controls. The analyst sees nothing wrong. Each move the agent makes is legitimate on its own. The tool was approved. The data query ran with the analyst's own permissions. The outbound call went to a server that was allowed when it was added. The weakness is not in any one system. It lives in what Microsoft calls "the trust boundary between them." The deeper problem is that MCP mixes instructions and data in the same place. A tool's description lives in the agent's working memory right next to its real orders, so editing that description can steer the agent as effectively as rewriting its system prompt. The agent has no reliable way to tell an honest instruction from a malicious one slipped in by whoever maintains the tool. Microsoft notes this is not a bug in Copilot itself. It is a trust gap opened up by plugging in outside tools. What defenders should do Microsoft's advice, stripped to plain terms: Treat every connected tool as part of your supply chain. Keep a list of approved tool publishers, turn off "allow all," and let an agent use only the specific tools it needs. Treat a tool's description like a system prompt. Review changes to it the way you would review a code cha
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-  - Published: 2026-06-30T17:46:07+00:00
-  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
-
 ### Cluster a56bf79002 — score 8
 
 - Title: Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits
@@ -3508,3 +3376,140 @@ Infosecurity Magazine Home » News » Critical SimpleHelp Vulnerability Exploite
   - Published: 2026-06-30T15:34:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/
   - Summary: Attackers exploited a critical SimpleHelp RMM bug to deploy TaskWeaver and Djinn Stealer malware
+
+### Cluster eeda86ce1d — score 8
+
+- Title: 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-06T17:37:01+00:00
+- Link: https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-53359
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-43284, CVE-2026-43500, CVE-2026-46316, CVE-2026-53359
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-53359, CVE-2026-43284, CVE-2026-43500, CVE-2026-46316
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit
+```
+
+#### Full body
+
+```
+16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems  Swati Khandelwal  Jul 06, 2026 Linux / Vulnerability A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed ' Januscape ' and tracked as CVE-2026-53359 , the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit turns the same bug into full host code execution. Security researcher Hyunwoo Kim (@v4bel) found and reported the bug. He described Januscape as the first guest-to-host exploit triggerable on both Intel and AMD, to the best of public knowledge. The flaw went unnoticed for roughly 16 years. According to Kim, the exploit was used as a zero-day submission in Google's kvmCTF , the controlled KVM vulnerability reward program that offers up to $250,000 for full guest-to-host escapes. How It Works To run a virtual machine, KVM keeps its own private set of page tables that mirror the guest's memory layout. When it needs one of these tracking pages, it looks for an existing one to reuse. The problem: it matched them by memory address alone and ignored what type of tracking page it was grabbing. Two different types can share the same address but do completely different jobs, so KVM would sometimes reuse the wrong kind. That mix-up scrambles KVM's internal records of which page belongs where, and once those records are wrong, something has to give. Most of the time, the kernel notices the mess and shuts itself down on the spot to avoid doing damage. That crash is what the public demonstration triggers: a guest can knock over the whole host, taking every other VM on that machine down with it. The rarer, worse case happens when the freed tracking page gets handed out for another use before the kernel cleans up. The cleanup then scribbles a value into memory it no longer owns. An attacker only controls where that write lands, not what gets written, but even that limited foothold can be worked up into running code on the host. The flaw behaves the same on Intel and AMD chips; only the final, hardest step of turning it into full control takes different work on each. Who Is Affected The vulnerable code has been present since commit 2032a93d66fa in August 2010 (kernel 2.6.36 era) and was fixed by commit 81ccda30b4e8 , merged into mainline on June 19, 2026. The attack requires two things from the guest side: root inside the VM, a common condition on rented cloud instances, and nested virtualization exposed by the host. Even on hosts that run hardware EPT or NPT by default, nested virtualization forces KVM back through the legacy shadow MMU, which is where the bug sits. The exploit needs no cooperation from QEMU or any userspace VMM. It is purely an in-kernel KVM bug. The practical concern is any x86 environment that hosts untrusted guests with nested virtualization enabled. An attacker who rents a single such instance can panic the host, taking down every other tenant VM on the same physical machine. Kim said the withheld full exploit runs code as root on the host, which would expose other guests on the same machine to that root access. On distributions like RHEL, where /dev/kvm is world-writable (0666), Kim noted the same bug could also serve as a local privilege escalation to root, though the guest-to-host path is the higher-impact use. A Busy Few Months for One Researcher Januscape is Kim's third Linux kernel exploit disclosure in roughly two months. In May 2026, he disclosed Dirty Frag ( CVE-2026-43284 / CVE-2026-43500 ), a page-cache write vulnerability chain that delivers deterministic root on most major distributions, extending the same bug class as Dirty Pipe and Copy Fail. In June, he published ITScape (CVE-2026-46316), the first publicly demonstrated guest-to-host escape on KVM/arm64, exploiting a race condit
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems
+  - Published: 2026-07-06T17:37:01+00:00
+  - Link: https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
+  - Summary: A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit
+
+### Cluster d7f247f4ee — score 8
+
+- Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-04T12:47:53+00:00
+- Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- actor_attribution: Silent Ransom Group
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- actor_attribution: Silent Ransom Group
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
+```
+
+#### Full body
+
+```
+U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case  Swati Khandelwal  Jul 04, 2026 Cyber Extortion / Threat Intelligence A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC , built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos , but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single machine: no encryptor, no locker, no demand for a decryption key. The threat was simpler. Steal the files, then charge the victim not to publish them. Krishnan does not name the victim, but the chat points to Union County, Ohio. The proof-of-theft files carry names like Union.xlsx, 1 union co psi template.doc, and a final archive called union.rar. The victim calls itself a small county with limited resources. The attacker leans on one folder in particular, marked "prosecutors office," warning that leaking it would help criminals dodge charges. The clues fit a real case. In May 2025, Union County, Ohio, said it detected ransomware on its network and later notified 45,487 residents and staff that their data had been taken, affecting most of the county of roughly 70,000. The stolen records ran from Social Security and financial details to fingerprints and passport numbers. Neither the county nor Kairos has confirmed the connection. But if it holds, a county government paid about $1 million it never publicly disclosed. The Hacker News has contacted the Union County Commissioners' Office for comment. This story will be updated with any response. The negotiation ran for about a month. Kairos opened at $3 million and claimed it was holding more than 2 terabytes of data, some 1.6 million files. The county started at $100,000, crept up to $255,000, then $430,000. Kairos dropped to $2 million, then set a hard final number: $1 million, pay by Friday, or the files go public. The payment on-chain: about 9.44 BTC lands in the Kairos-linked wallet. It used the usual levers: a countdown timer, tight deadlines, and threats to dump the most sensitive folders first. The county paid on June 13, 2025, ten times its first offer. The payment was roughly 9.44 bitcoin, worth about $1 million at the time. Krishnan traced the money from there. Within hours, it was split in two and pushed through a chain of wallets toward deposit addresses tied to the crypto exchanges Bybit, OKX, and a Russian service called BELQI. That kind of tracing hands investigators leads, not names. And the money bought nothing solid. Kairos sent over a "proof of deletion" file, but a list of file names shows only that the attacker once had the files, not that the originals were wiped. Paying to make stolen data disappear is an act of faith, and the receipt is written by the thief. Union County called what happened to it ransomware, the word everyone reaches for, but in the Kairos case, nothing was locked. That is the real shift: much of what still gets called ransomware now skips encryption and uses the stolen data itself as the pressure point. Sophos reported in 2025 that only about half of ransomware attacks still involve any encryption, the lowest rate in six years. Some crews have dropped it entirely. Silent Ransom Group , a Conti offshoot, has spent years running pure data-theft extortion against U.S. law and finance firms with no encryptor at all. The Kairos chat fits a familiar negotiation pattern, too. When Black Basta's internal chats leaked in February 2025, an analysis of the messages turned up a deal that ran from a $1.5 million demand to a $100,000 counter to a $1 million payment, almost the same arc. Those chats, and the Conti leaks before them in 2022, are how researchers now reconstruct the way these bargains actually get struck. Kairos itself has gone quiet. The leak site is down, and its last known victim showed up in June 2026. Bu
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+  - Published: 2026-07-04T12:47:53+00:00
+  - Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
+  - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
+
+### Cluster ae77ed43fa — score 8
+
+- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-30T17:46:07+00:00
+- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Azure, Microsoft/Copilot
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Azure, Microsoft/Copilot
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+```
+
+#### Full body
+
+```
+Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data  Swati Khandelwal  Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now triggers an action. Against a reader, an attack changes the output. Against an agent, it changes what the software actually does. These agents reach business systems through MCP, the Model Context Protocol , an open protocol that lets an AI call outside tools the way an app calls an API. Microsoft calls it the fastest-growing part of the agentic AI supply chain, which makes it an expanding attack surface. How the attack works Every MCP tool ships with a description: a few lines of plain text that tell the agent what the tool does and when to use it. The agent reads that text to decide how to act. That is the whole weakness. The description is just words, and words can carry instructions. Microsoft walks through it with an invoice example, built to show the pattern rather than report a named victim. A finance team stands up an agent to handle vendor invoices. It connects to three tools, including a third-party "invoice enrichment" service that was approved for use but never given a real security review. Then the attacker updates that third-party tool. The name and the visible summary stay the same. Buried in the description, dressed up as formatting notes, is a hidden order: grab the last thirty unpaid invoices and attach them to the next call. MCP picks up description changes on the fly. In setups without a re-approval trigger, the poisoned version goes live with no extra review. After that, an analyst asks a routine question about a supplier. The agent follows the hidden order, collects the invoices and sends them along as part of a normal-looking request. The tool returns a clean answer and quietly copies the stolen data to a server the attacker controls. The analyst sees nothing wrong. Each move the agent makes is legitimate on its own. The tool was approved. The data query ran with the analyst's own permissions. The outbound call went to a server that was allowed when it was added. The weakness is not in any one system. It lives in what Microsoft calls "the trust boundary between them." The deeper problem is that MCP mixes instructions and data in the same place. A tool's description lives in the agent's working memory right next to its real orders, so editing that description can steer the agent as effectively as rewriting its system prompt. The agent has no reliable way to tell an honest instruction from a malicious one slipped in by whoever maintains the tool. Microsoft notes this is not a bug in Copilot itself. It is a trust gap opened up by plugging in outside tools. What defenders should do Microsoft's advice, stripped to plain terms: Treat every connected tool as part of your supply chain. Keep a list of approved tool publishers, turn off "allow all," and let an agent use only the specific tools it needs. Treat a tool's description like a system prompt. Review changes to it the way you would review a code cha
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+  - Published: 2026-06-30T17:46:07+00:00
+  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its

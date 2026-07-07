@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-07-06T22:19:41.767127+00:00",
+  "generated_at": "2026-07-07T00:15:20.948437+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -18,12 +11,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -32,19 +25,33 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -53,13 +60,6 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -67,12 +67,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -88,12 +88,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -102,13 +102,6 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
@@ -116,8 +109,8 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
@@ -130,13 +123,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
@@ -144,12 +130,19 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -164,6 +157,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 7
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 1
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -221,12 +221,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 2
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -235,12 +249,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 100,
+      "in_window_count": 1
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -255,20 +269,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -305,6 +305,13 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -312,12 +319,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 0
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -333,19 +340,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 19
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -354,29 +361,8 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
@@ -389,12 +375,12 @@
       "item_count": 30,
       "in_window_count": 19
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 15,
+      "in_window_count": 15
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -403,15 +389,8 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -423,6 +402,27 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 20
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -466,36 +466,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -508,6 +480,13 @@
       "item_count": 20,
       "in_window_count": 4
     },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -515,11 +494,32 @@
       "item_count": 100,
       "in_window_count": 23
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Reddit r/netsec": {
@@ -529,19 +529,19 @@
       "item_count": 25,
       "in_window_count": 10
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -715,8 +715,8 @@
         "63e5e50e1d",
         "cad05b2d4e",
         "87ef22349e",
-        "eeda86ce1d",
-        "a56bf79002"
+        "a56bf79002",
+        "eeda86ce1d"
       ],
       "links": [
         "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
@@ -724,8 +724,8 @@
         "https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/",
         "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
         "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-        "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-        "https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/"
+        "https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/",
+        "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html"
       ]
     },
     {
@@ -780,6 +780,55 @@
         "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack",
         "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
         "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html"
+      ]
+    },
+    {
+      "label": "Android active exploitation",
+      "anchor_signal": "Android",
+      "theme_key": "android",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "phishing_social_eng",
+          "credential_theft",
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Android",
+          "OpenAI/ChatGPT"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 5,
+      "article_count": 8,
+      "cohesion": 0.215,
+      "shared_strong_signals": [
+        "Android"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "93502a2013",
+        "3ee1d54d9d",
+        "4541afab04",
+        "cad05b2d4e",
+        "5bbda948e4"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/",
+        "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/",
+        "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+        "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
+        "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/",
+        "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+        "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
+        "https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat"
       ]
     },
     {
@@ -869,49 +918,6 @@
       ]
     },
     {
-      "label": "ransomware extortion targeting Android",
-      "anchor_signal": "Android",
-      "theme_key": "android",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng",
-          "credential_theft"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Android",
-          "OpenAI/ChatGPT"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 7,
-      "cohesion": 0.213,
-      "shared_strong_signals": [
-        "Android"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "93502a2013",
-        "3ee1d54d9d",
-        "cad05b2d4e",
-        "5bbda948e4"
-      ],
-      "links": [
-        "https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/",
-        "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/",
-        "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
-        "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-        "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/",
-        "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
-        "https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat"
-      ]
-    },
-    {
       "label": "Palo Alto Networks active exploitation",
       "anchor_signal": "Palo Alto Networks",
       "theme_key": "palo-alto-networks",
@@ -919,6 +925,9 @@
         "threat_categories": [
           "phishing_social_eng",
           "active_exploitation"
+        ],
+        "affected_industries": [
+          "government"
         ],
         "affected_products": [
           "Palo Alto Networks"
@@ -929,7 +938,7 @@
       },
       "cluster_count": 3,
       "article_count": 3,
-      "cohesion": 0.352,
+      "cohesion": 0.22,
       "shared_strong_signals": [
         "Palo Alto Networks"
       ],
@@ -2400,7 +2409,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Check Point Research",
@@ -2451,7 +2460,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July – Threat Intelligence Report July 6, 2026 https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/ For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found ransomware on portions of its server environment and is assessing whether personal data was accessed or exfiltrated. Indra Group, a Spanish defense, aerospace, and technology contractor and NATO cyber coalition member, has confirmed a ransomware attack affecting one subsidiary. The Gentlemen ransomware gang threatened to leak allegedly stolen data, while Indra said the incident was contained and that service continuity was maintained. Check Point Threat Emulation and Harmony Endpoint provide protection against this threat Nidec, a Japanese electric motor and industrial manufacturer, has disclosed a ransomware attack affecting the network of its Taiwanese subsidiary, Nidec Chaun Choung Technology. BlackField group claimed responsibility and alleged theft of more than two terabytes of corporate data, including employee, financial, procurement, manufacturing, legal, and IT records. US insurance firm Aflac has disclosed a data breach affecting its Japan operations after attackers accessed its policyholder portal between June 15 and June 25. Personal and financial data of nearly 4.4 million customers was exposed, including policyholder information and premium payment account details. AI THREATS Check Point Research has demonstrated a browser-native ransomware technique generated by a large language model that abuses Chrome’s File System Access API. A fake image-enhancement page convinces users to grant folder access, then reads, exfiltrates, and encrypts photos inside the browser on Android and Windows. Researchers examined shell command injection weaknesses in open-source AI coding agents, finding that 10 out of 11 popular tools failed to block obfuscated destructive commands. Simple rewrites bypassed filters and enabled destructive actions, including file deletion, while only the Continue agent properly parsed commands. Researchers warned that attackers are exploiting LLM phantom squatting by registering AI-generated domains to hijack traffic and deliver phishing. They recorded 250,000 hallucinated domains and subsequent registrations, including an AI-built phishing kit, Montana Empire, using a postal-service domain for credential theft. VULNERABILITIES AND PATCHES Oracle E-Business Suite is affected by CVE-2026-46817, a critical remote code execution flaw reportedly exploited against about 950 internet-exposed instances worldwide. Successful exploitation can give attackers control over ERP systems. Check Point IPS provides protection against this threat (Oracle E-Business Suite Authentication Bypass (CVE-2026-46817)) Linux kernel maintainers patched CVE-2026-46242, a Bad Epoll privilege escalation flaw affecting Linux servers, desktops, and Android devices. The race-condition use-after-free vulnerability allows an unprivileged local user to gain root access, and a public exploit demonstrated reliable exploitation against vulnerable systems. Citrix has addressed CVE-2026-8451, a NetScaler ADC and NetScaler Gateway memory disclosure flaw affecting SAML Identity Provider configurations. Active exploitation was observed less than 24 hours after disclosure, with attacks able to leak session tokens from vulnerable appliances. Check Point IPS provides protection against this threat (Citrix NetScaler Out Of Bounds Read (CVE-2026-8451)) Progress has addressed CVE-2026-8037, a critical OS command injection flaw in Kemp LoadMaster load balancers with a CVSS score of 9.6. Exploitation attempts began ",
       "fetch_status": "ok"
     },
@@ -2481,7 +2490,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2513,7 +2522,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2546,7 +2555,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Kaspersky Securelist",
@@ -4291,8 +4300,8 @@
         }
       },
       "score": 10,
-      "full_body": "Threat Intelligence Google’s Continued Disruption of Malicious Residential Proxy Networks July 2, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Background Today, in coordination with the FBI, Lumen, and others, Google took action against the NetNut residential proxy network, also known as Popa. This action builds on our disruption of the IPIDEA proxy network that took place in January 2026, and is a continuation of Google’s objective to dismantle malicious residential proxy networks. Actions Taken As a part of this disruption we took the following actions: Disabled Google accounts and associated Google services used by NetNut for malware command and control (C2), which directly violates Google’s Terms of Service and Acceptable Use Policy. Shared technical intelligence on NetNut software development kits (SDKs) and backend C2 infrastructure with platform providers, law enforcement, and research firms to help drive ecosystem-wide awareness and enforcement. We ensured Google Play Protect , Android’s built-in security protection, automatically warned users and disabled applications known to incorporate NetNut SDKs, and the system will continue to protect users against future install attempts. These efforts to help keep the broader digital ecosystem safe supplement the protections we have to safeguard Android users on certified devices. We believe our coordinated actions have caused significant degradation to NetNut’s proxy network and its business operations, reducing the available pool of devices for the proxy operator by millions . In addition to selling access to the network under the NetNut brand, NetNut has a robust reseller program that allows whitelabeling of its network. Google has high confidence that many popular residential proxy brands are in fact whitelabeling the NetNut botnet. While we expect this disruption to have a larger ripple effect across the residential proxy ecosystem, observations after the disruption of IPIDEA proved that individual networks can appear resilient. What we have observed is that when faced with the degradation of their own botnet, proxy operators begin buying capacity from their competitors, effectively becoming a reseller. We recognize that creating a lasting disruption in this fluid ecosystem means we must scale our efforts to target the infrastructure of several interconnected providers. We will continue to observe the composition of the NetNut network and map out how its peers adapt to this action. Why it Matters NetNut is among the largest and most popular residential proxy networks. Estimating the size of residential proxy networks is extremely challenging, but Google Threat Intelligence Group (GTIG) estimates the size of the NetNut network to be at least 2 million devices, distributed across the world. Public reporting by KrebsOnSecurity and others, confirmed by Google, illustrates that NetNut populates its botnet by distributing SDKs for devices commonly found in homes, such as smart TVs and streaming boxes. GTIG has also identified NetNut botnet plugin components for large-scale botnets such as Badbox 2.0. Residential proxy networks sell the ability to route traffic through IP addresses owned by internet service providers (ISPs), allowing attackers to mask malicious activity by hijacking these IP addresses. A robust residential proxy network requires controlling millions of residential IP addresses to sell to customers for use. To accomplish this, operators need code running on home devices to enroll them into the malicious network as exit nodes. Home devices become part of proxy networks either because they are pre-installed with malware before purchase or because users unknowingly download applications containing hidden proxy code. This creates serious risks for unsuspecting device owners, as their home IP addresses can be used by attackers as a launchpad for hacking and other unauth",
-      "fetch_status": "ok"
+      "full_body": "",
+      "fetch_status": "fetch_failed:ConnectionError"
     },
     {
       "source": "Google Cloud Security",
@@ -5132,7 +5141,7 @@
         }
       },
       "score": 43,
-      "full_body": "Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-33017 , CVSS 9.8) was disclosed affecting Langflow, a widely used open-source AI application builder, allowing attackers to execute arbitrary code on the server via a single unauthenticated HTTP request. Due to the potential for full system compromise, data theft, and lateral movement across enterprise networks, immediate patching is required. About CVE-2026-33017 The issue originates from Langflow’s public flow-building API endpoint (/api/v1/build_public_tmp/{flow_id}/flow), where a lack of input sanitization and sandboxing for user-supplied flow definitions leads to arbitrary Python code execution on the server. By sending a specially crafted POST request containing malicious Python code in a node definition, attackers can gain full remote code execution without any authentication or user interaction, potentially compromising the entire host and any connected cloud infrastructure . An active campaign exploiting this vulnerability was observed by Trend Micro researchers over a 19-day window in spring 2026. Attackers weaponized the flaw within 20 hours of the advisory’s publication, before any public proof-of-concept existed. The attack chain delivers “lambsys,” a Go-based binary that kills 39 rival cryptominer processes, disables security controls including AppArmor, SELinux, UFW, and iptables, wipes system logs, and deploys a customized XMRig Monero miner with geo-aware pool selection. The malware also harvests environment variables, .env files, database credentials, and API keys from compromised hosts. Affected Systems The following components are affected: Langflow, all versions up to and including 1.8.2. Langflow has over 145,000 GitHub stars and is widely deployed in AI/ML pipeline infrastructure across enterprise and cloud environments, particularly when flow-building endpoints are exposed to the internet. Approximately 7,000 Langflow servers were found internet-accessible at the time of discovery. Other frameworks or services relying on Langflow as a backend may also be impacted. Users should upgrade to Langflow version 1.9.0 or later immediately. Notably, version 1.8.2 was widely reported as patched but remains vulnerable according to JFrog Security Research. Organizations that cannot deploy 1.9.0 immediately should install the nightly build (1.9.0.dev18 or later) as an interim fix. All API keys, database credentials, and SSH keys on any previously exposed instances should be rotated, and teams should monitor for outbound connections to 83.142.209[.]214 and the presence of the “lambsys” binary or unexpected cron entries. Risk Impact At the time of writing, working exploits are actively used in the wild, and the vulnerability has been added to CISA’s Known Exploited Vulnerabilities catalog with a federal remediation deadline. No authentication is required to exploit this issue. The severity and ease of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to execute arbitrary code on the server, steal credentials and sensitive data from environment variables and configuration files, and laterally move through enterprise networks using harvested SSH keys, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable Langflow versions, understand their exposure in context , including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help Related articles Product Info Close the Gap Between Kubern",
+      "full_body": "Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-33017 , CVSS 9.8) was disclosed affecting Langflow, a widely used open-source AI application builder, allowing attackers to execute arbitrary code on the server via a single unauthenticated HTTP request. Due to the potential for full system compromise, data theft, and lateral movement across enterprise networks, immediate patching is required. About CVE-2026-33017 The issue originates from Langflow’s public flow-building API endpoint (/api/v1/build_public_tmp/{flow_id}/flow), where a lack of input sanitization and sandboxing for user-supplied flow definitions leads to arbitrary Python code execution on the server. By sending a specially crafted POST request containing malicious Python code in a node definition, attackers can gain full remote code execution without any authentication or user interaction, potentially compromising the entire host and any connected cloud infrastructure . An active campaign exploiting this vulnerability was observed by Trend Micro researchers over a 19-day window in spring 2026. Attackers weaponized the flaw within 20 hours of the advisory’s publication, before any public proof-of-concept existed. The attack chain delivers “lambsys,” a Go-based binary that kills 39 rival cryptominer processes, disables security controls including AppArmor, SELinux, UFW, and iptables, wipes system logs, and deploys a customized XMRig Monero miner with geo-aware pool selection. The malware also harvests environment variables, .env files, database credentials, and API keys from compromised hosts. Affected Systems The following components are affected: Langflow, all versions up to and including 1.8.2. Langflow has over 145,000 GitHub stars and is widely deployed in AI/ML pipeline infrastructure across enterprise and cloud environments, particularly when flow-building endpoints are exposed to the internet. Approximately 7,000 Langflow servers were found internet-accessible at the time of discovery. Other frameworks or services relying on Langflow as a backend may also be impacted. Users should upgrade to Langflow version 1.9.0 or later immediately. Notably, version 1.8.2 was widely reported as patched but remains vulnerable according to JFrog Security Research. Organizations that cannot deploy 1.9.0 immediately should install the nightly build (1.9.0.dev18 or later) as an interim fix. All API keys, database credentials, and SSH keys on any previously exposed instances should be rotated, and teams should monitor for outbound connections to 83.142.209[.]214 and the presence of the “lambsys” binary or unexpected cron entries. Risk Impact At the time of writing, working exploits are actively used in the wild, and the vulnerability has been added to CISA’s Known Exploited Vulnerabilities catalog with a federal remediation deadline. No authentication is required to exploit this issue. The severity and ease of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to execute arbitrary code on the server, steal credentials and sensitive data from environment variables and configuration files, and laterally move through enterprise networks using harvested SSH keys, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable Langflow versions, understand their exposure in context , including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help Related articles Cloud Security Learning GDPR Cloud Compli",
       "fetch_status": "ok"
     },
     {
@@ -6071,8 +6080,14 @@
           "active_exploitation"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "healthcare",
+          "financial_services",
+          "government"
+        ],
         "affected_products": [
+          "npm",
+          "Android",
           "Palo Alto Networks"
         ],
         "tools_used": [],
@@ -6084,6 +6099,8 @@
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
+          "npm": "target",
+          "Android": "target",
           "Palo Alto Networks": "target"
         },
         "weak_tags": {
@@ -6091,7 +6108,7 @@
         }
       },
       "score": 12,
-      "full_body": "",
+      "full_body": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's \"creativity\" setting only produced more invented domains. As Unit 42's researchers put it, the vector \"exploits a structural property of LLM architectures that remains inherently unpatchable.\" Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l",
       "fetch_status": "ok"
     },
     {
@@ -7473,6 +7490,87 @@
       "score": 4
     },
     {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "HTML table extractor",
+      "link": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
+      "published": "2026-06-29T23:38:21+00:00",
+      "summary": "Tool: HTML table extractor Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON. Try it out by selecting everything on the Wikipedia List of cities and towns in the San Francisco Bay Area page and pasting it directly into the tool: On a similar note, I recently rebuilt my Rich text to markdown tool to add support for tables and generally improve the UI. Update : It turns out Wikipedia has an open CORS API for retrieving the full rendered HTML content of any page - demo here - so I had Codex add the ability to search Wikipedia for a page and then automatically import and display any tables from that page. Tags: html , tools , wikipedia , cors",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Supercharging the agentic era with Spanner’s multi-model architecture",
+      "link": "https://cloud.google.com/blog/products/databases/the-power-of-multi-model-spanner-for-the-agentic-era/",
+      "published": "2026-06-29T23:00:00+00:00",
+      "summary": "In the agentic era, the role of the database has fundamentally changed. It is no longer a passive repository; it’s a critical context engine designed to ground generative AI apps, models and power autonomous workflows. To do this effectively, databases must move beyond fragmented architectures and embrace a unified, multi-model foundation, facilitating deep reasoning and transforming static data into a system of action. Spanner is leading this charge, and as a foundational pillar of Google’s Agentic Data Cloud , the industry is taking notice. In the 2025 Gartner® Critical Capabilities for Operational Cloud Database Management Systems report , Google (Spanner) ranked #1 in the Lightweight Transactions Use Case for the second consecutive year — in our opinion proving it is the most efficient engine for modern microservices and event-driven architectures. Gartner® Operational Cloud DBMS use cases: #1 in Lightweight Transactions 4.9 / 5.0 for Transactional Consistency 4.6 / 5.0 for AI/Mach",
+      "author": "Vaibhav Govil",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Dark Reading",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "NIST Enrichment Reductions Impact CVE Coverage, Accuracy",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/nist-enrichment-reductions-cve-coverage-accuracy",
+      "published": "2026-06-29T22:46:45+00:00",
+      "summary": "The National Institute of Standards and Technology (NIST) scaled back the number of CVEs it selects for in-depth analysis, but the move has produced mixed results, according to researchers.",
+      "author": "Rob Wright",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -7881,31 +7979,27 @@
       "title": "Cloud CISO Perspectives: How Google Cloud Security uses AI internally",
       "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-cloud-security-uses-ai-internally/",
       "published": "2026-06-29T16:00:00+00:00",
-      "summary": "Welcome to the second Cloud CISO Perspectives for June 2026. Today, we’re discussing how we use AI to chart a path to autonomous software development lifecycle security. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7fbfb6036160>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> Cloud CISO Perspectives: Our path to autonomous SDLC security By Chris Betz, CISO, and Ruchi Shah, senior director, Security Engineering, Google Cloud Chris Betz, CISO, G",
+      "summary": "Welcome to the second Cloud CISO Perspectives for June 2026. Today, we’re discussing how we use AI to chart a path to autonomous software development lifecycle security. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7fc2519fae50>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> Cloud CISO Perspectives: Our path to autonomous SDLC security By Chris Betz, CISO, and Ruchi Shah, senior director, Security Engineering, Google Cloud Chris Betz, CISO, G",
       "author": "Ruchi Shah",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Google Cloud"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
-        "content_type": "low_signal",
+        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {
-          "Google Cloud": "mention"
+          "Google Cloud": "target"
         },
         "weak_tags": {
-          "products": [
-            [
-              "Google Cloud",
-              "mention",
-              0.25
-            ]
-          ]
+          "products": []
         }
       }
     },
@@ -9962,33 +10056,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "datasette-export-database 0.3a2",
-      "link": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
-      "published": "2026-06-25T17:21:09+00:00",
-      "summary": "Release: datasette-export-database 0.3a2 An embarrassingly tiny release. The pyproject.toml had pinned to datasette==1.0a27 , inadvertently making this plugin incompatible with all other Datasette versions. It's now datasette>=1.0a27 instead. Tags: datasette",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -19255,33 +19322,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "May 2026 CVE Landscape",
-      "link": "https://www.recordedfuture.com/blog/may-2026-cve-landscape",
-      "published": "2026-06-08T00:00:00+00:00",
-      "summary": "In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -19302,6 +19342,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "May 2026 CVE Landscape",
+      "link": "https://www.recordedfuture.com/blog/may-2026-cve-landscape",
+      "published": "2026-06-08T00:00:00+00:00",
+      "summary": "In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -19485,33 +19552,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
-      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
-      "published": "2026-06-05T00:00:00+00:00",
-      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -19539,6 +19579,33 @@
         "role_map": {
           "WordPress": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
+      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
+      "published": "2026-06-05T00:00:00+00:00",
+      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -24230,33 +24297,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
-      "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
-      "published": "2026-05-21T00:00:00+00:00",
-      "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -24387,6 +24427,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
+      "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
+      "published": "2026-05-21T00:00:00+00:00",
+      "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -25975,33 +26042,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "April 2026 CVE Landscape",
-      "link": "https://www.recordedfuture.com/blog/april-cve-landscape",
-      "published": "2026-05-15T00:00:00+00:00",
-      "summary": "In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -26051,6 +26091,33 @@
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "April 2026 CVE Landscape",
+      "link": "https://www.recordedfuture.com/blog/april-cve-landscape",
+      "published": "2026-05-15T00:00:00+00:00",
+      "summary": "In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -37201,7 +37268,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fbfb78b7b20>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fc5c86bd790>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
