@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-08T14:30:07.544939+00:00",
+  "generated_at": "2026-07-08T16:44:51.496991+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 77,
-  "total_items_in_window": 318,
-  "total_clusters_raw": 147,
-  "total_clusters_in_packet": 58,
-  "dropped_low_score": 89,
+  "total_items_in_window": 296,
+  "total_clusters_raw": 135,
+  "total_clusters_in_packet": 55,
+  "dropped_low_score": 80,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,6 +81,27 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -88,18 +109,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "item_count": 25,
       "in_window_count": 0
     },
     "Check Point Research": {
@@ -109,12 +123,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -123,12 +137,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 1
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -136,20 +150,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -172,13 +172,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
@@ -193,13 +186,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
@@ -207,19 +193,19 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
       "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 19
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -235,8 +221,29 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 19
+    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -248,13 +255,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -284,19 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 5
+      "in_window_count": 4
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -305,6 +298,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
+    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -312,19 +312,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -375,18 +375,18 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 0
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "OpenSSF Blog": {
@@ -396,12 +396,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 15
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -410,6 +410,13 @@
       "item_count": 10,
       "in_window_count": 3
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -417,19 +424,26 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 17
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 18
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -445,13 +459,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 18
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -459,19 +466,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 17
+      "in_window_count": 15
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,6 +487,13 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -494,12 +501,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -508,8 +515,8 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -529,11 +536,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Graham Cluley": {
@@ -543,19 +557,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -564,11 +571,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 0,
+      "item_count": 100,
       "in_window_count": 0
     },
     "Infosecurity Magazine": {
@@ -576,21 +583,14 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 21
+      "in_window_count": 22
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 9
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -702,6 +702,178 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "14c6bae9ae",
+      "priority_score": 33,
+      "member_count": 3,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "CVE-2026-48282"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-48282"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "critical_cvss"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Maximum-Severity Adobe ColdFusion Flaw Exploited Within Hours of Disclosure",
+        "link": "https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/",
+        "published": "2026-07-08T14:47:46+00:00",
+        "summary": "A critical vulnerability (CVE-2026-48282, CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the […]",
+        "full_body": "A critical vulnerability ( CVE-2026-48282 , CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the RDS FILEIO endpoint at /CFIDE/main/ide.cfm?ACTION=FILEIO, where insufficient path validation leads to arbitrary file write on the underlying file system. By sending a specially crafted HTTP request, attackers can upload a CFML webshell containing <cfexecute> tags, potentially gaining full remote code execution as the ColdFusion service account (NT AUTHORITY\\SYSTEM on Windows). No authentication is required to exploit this issue when RDS authentication is disabled. Adobe addressed this flaw on June 30, 2026 as part of security bulletin APSB26-68, which resolved 11 ColdFusion vulnerabilities total, seven of which carried a CVSS score of 10.0. Users should upgrade to ColdFusion 2025 Update 10 or ColdFusion 2023 Update 21 immediately. Organizations that have not yet patched should also disable RDS unless strictly required, block external access to /CFIDE/administrator and RDS endpoints via WAF or firewall rules, and hunt for unauthorized .cfm, .cfc, .cfml, or .jsp files in the ColdFusion web root. Affected Systems The following components are affected: Adobe ColdFusion 2025, update 9 and earlier, and Adobe ColdFusion 2023, update 20 and earlier. These components are deployed across enterprise web application stacks, including government, financial, and healthcare organizations, particularly when RDS is enabled and RDS authentication is left in its default disabled state. Other applications relying on ColdFusion as a backend runtime may also be impacted. Risk Impact At the time of writing, a detailed technical analysis from WatchTowr is publicly available and serves as a functional exploitation guide. KEVIntel honeypots detected active exploitation within two hours of that analysis going public, and both the Canadian Centre for Cyber Security and the Centre for Cybersecurity Belgium have issued alerts. Shadowserver tracks approximately 750 to 800 internet-facing ColdFusion instances, though the actual vulnerable subset depends on RDS configuration. Regardless, the maximum severity score, the lack of authentication requirements, and the speed of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to deploy webshells for persistent access, execute arbitrary commands on the underlying operating system, and pivot laterally through the network, leading to service disruption, data exposure, or full infrastructure compromise. Organizations should also rotate credentials on any ColdFusion server that was internet-facing since the June 30 disclosure date. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Adobe ColdFusion, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Related articles Webinar Recap Webinar Recap: Beyond the Perimeter: Mastering 3rd Party & Software Risk Jul 08, 2026 Webinar Recap Cloud Security LIVE 2026 Recap: What Security Practitioners Are Actually Doing With AI Jul 08, 2026 Cloud Security Learning Best CWPP Tools in 2026: The Cloud Workload Protection Platform Buyer's Guide Jul 07, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data in accordance with Orca Securit",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach",
+            "web_shell_backdoor",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-48282"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Maximum-Severity Adobe ColdFusion Flaw Exploited Within Hours of Disclosure",
+          "link": "https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/",
+          "published": "2026-07-08T14:47:46+00:00",
+          "summary": "A critical vulnerability (CVE-2026-48282, CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the […]",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach",
+              "web_shell_backdoor",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-48282"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+          "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+          "published": "2026-07-08T05:33:12+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-48282"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Adobe ColdFusion Vulnerability Exploited in Attacks",
+          "link": "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/",
+          "published": "2026-07-07T12:38:34+00:00",
+          "summary": "Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion that carries a CVSS score of 10/10. The post Critical Adobe ColdFusion Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-48282"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -1050,170 +1222,6 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4c776d45d6",
-      "priority_score": 20,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "CVE-2026-48282"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "cryptojacking",
-          "web_shell_backdoor",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-33017",
-          "CVE-2026-48282",
-          "CVE-2026-48908",
-          "CVE-2026-55255",
-          "CVE-2026-56290"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
-        "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-        "published": "2026-07-08T05:33:12+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the",
-        "full_body": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV  Ravie Lakshmanan  Jul 08, 2026 AI Security / Vulnerability The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the current user. CVE-2026-56290 (CVSS score: 10.0) - An improper access control vulnerability in Joomlack Page Builder that could allow for remote code execution via unauthenticated arbitrary file upload. CVE-2026-55255 (CVSS score: 6.1) - An authorization bypass through a user-controlled key vulnerability in Langflow that could allow an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request. CVE-2026-48908 (CVSS score: 10.0) - An unrestricted upload of a file with a dangerous type vulnerability in JoomShaper SP Page Builder that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code. It's worth noting that exploitation of CVE-2026-48282 was observed within hours of public disclosure, with Ryan Dewhurst, security researcher and founder of KEVIntel, telling The Hacker News that an attempt was recorded from an IP address geolocated to India (\"103.207.14[.]220\"). CVE-2026-48908, on the other hand, is said to have been exploited as a zero-day to upload a PHP file by means of an HTTP POST request to the \"index.php?option=com_sppagebuilder&task=asset.uploadCustomIcon\" endpoint, followed by the appearance of a new Super User account, per mySites.guru . Users of SP Page Builder are advised to update to version 6.6.2 or later. The Joomla and WordPress site manager service has also recorded exploitation efforts aimed at CVE-2026-56290 as of June 27, 2026, to deliver a web shell on susceptible sites. The issue has been addressed in Page Builder CK version 3.6.0. \"The first confirmed web shell we caught sat at /media/com_pagebuilderck/gfonts/bhup.php, an uploader shell keyed on a $_POST['_upl'] field,\" mySites.guru explained . \"Because the flaw lets the attacker pick the destination folder, a planted file could be anywhere, not just the obvious upload directories, so look for stray PHP files under /media/com_pagebuilderck/ first and then more widely under /images, /media, /templates, and /administrator.\" As for CVE-2026-55255, Sysdig revealed late last month that it observed a lone operator (\"45.207.216[.]55\") weaponizing the vulnerability along with CVE-2026-33017, an unauthenticated remote code execution flaw in Langflow, as part of a sustained campaign that lasted between June 22 and June 25, 2026. \"On June 25, 2026, the operator (45.207.216[.]55) returned to an internet-exposed Langflow instance they had first probed three days before and ran a tight, methodical session: application/auth reconnaissance → flow enumeration → the CVE-2026-55255 IDOR → a sustained loop of the CVE-2026-33017 RCE with outbound connection attempts,\" Sysdig's Michael Clark said. The activity is assessed to be opportunistic and financially motivated. The exploitation of CVE-2026-33017 is followed by the deployment of payloads designed to fetch a second-stage downloader responsible for delivering additional malware. This attack chain is consistent with botnet and cryptojacking attacks. That said, the exact nature of the final payload is unknown. The cloud security company has described CVE-2026-55255 as a case of cross-tenant insecure direct object reference (IDOR), which the threat actor exploited to steal large language model (LLM) provider keys and AWS keys. \"AI orchestration platforms are a trove of credentials in their own right, and this operator clearly knew it,\" Sysdig said. \"The RCE went after the host, while the IDOR",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "cryptojacking",
-            "web_shell_backdoor",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "WordPress",
-            "AWS"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-48282",
-            "CVE-2026-56290",
-            "CVE-2026-55255",
-            "CVE-2026-48908",
-            "CVE-2026-33017"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "WordPress": "target",
-            "AWS": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
-          "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-          "published": "2026-07-08T05:33:12+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "cryptojacking",
-              "web_shell_backdoor",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress",
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-48282",
-              "CVE-2026-56290",
-              "CVE-2026-55255",
-              "CVE-2026-48908",
-              "CVE-2026-33017"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target",
-              "AWS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Adobe ColdFusion Vulnerability Exploited in Attacks",
-          "link": "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/",
-          "published": "2026-07-07T12:38:34+00:00",
-          "summary": "Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion that carries a CVSS score of 10/10. The post Critical Adobe ColdFusion Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-48282"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -1812,227 +1820,6 @@
       ]
     },
     {
-      "cluster_id": "26eda5e0a9",
-      "priority_score": 17,
-      "member_count": 5,
-      "corroborating_source_count": 5,
-      "strong_signals": [
-        "GitHub"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "incident_report",
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows",
-        "link": "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows",
-        "published": "2026-07-07T15:24:30+00:00",
-        "summary": "The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.",
-        "full_body": "Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed \"GitLost\" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: Chinese LLMs Broaden the Gap Between Attackers & Defenders \"GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems,\" Sasi Levi, security research lead at Noma, wrote in the report. \"The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input.\" This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on \"issues.assigned\" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: When Too Much Security Data Becomes the Risk \"In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused,\" Levi wrote. \"This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data.\" Indeed, the vulnerability demonstrates that threat actors only \"need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property,\" Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to Noma. Natu",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth",
-            "poc_available"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows",
-          "link": "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows",
-          "published": "2026-07-07T15:24:30+00:00",
-          "summary": "The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth",
-              "poc_available"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "GitHub Security Lab",
-          "cohort": "offensive_vulnerability_research",
-          "title": "6 security settings every GitHub maintainer should enable this week",
-          "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
-          "published": "2026-07-01T15:59:29+00:00",
-          "summary": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post 6 security settings every GitHub maintainer should enable this week appeared first on The GitHub Blog .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection",
-          "link": "https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/",
-          "published": "2026-07-08T10:30:55+00:00",
-          "summary": "Researchers show how attackers can use a crafted public GitHub Issue to trick AI-powered workflows into exposing data from private repositories without authentication. The post Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-          "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-          "published": "2026-07-02T07:24:23+00:00",
-          "summary": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositories on GitHub that claim to exploit hot new CVEs. Run one, and it quietly lifts your saved passwords, browser cookies, and files, then hands the attacker a shell on your machine. YesWeHack and",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
-          "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
-          "published": "2026-07-07T14:01:11+00:00",
-          "summary": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their CI/CD workflows. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "8b38cd09cc",
       "priority_score": 16,
       "member_count": 1,
@@ -2134,8 +1921,8 @@
     {
       "cluster_id": "87e2639a3b",
       "priority_score": 16,
-      "member_count": 12,
-      "corroborating_source_count": 8,
+      "member_count": 9,
+      "corroborating_source_count": 6,
       "strong_signals": [
         "Anthropic/Claude"
       ],
@@ -2150,7 +1937,6 @@
         ],
         "affected_products": [
           "Anthropic/Claude",
-          "Google Cloud",
           "Linux kernel",
           "OpenAI/ChatGPT"
         ],
@@ -2165,8 +1951,7 @@
           "tier_1_offensive_research",
           "tier_2_operator",
           "tier_3_analysis",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -2257,41 +2042,6 @@
             },
             "weak_tags": {
               "products": []
-            }
-          }
-        },
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Get started with the Claude apps gateway for Google Cloud",
-          "link": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-claude-apps-gateway-for-google-cloud/",
-          "published": "2026-07-01T16:00:00+00:00",
-          "summary": "Anthropic's agentic coding tool Claude Code has worked with Google Cloud for a while now. An individual developer could easily point CLAUDE_CODE_USE_VERTEX=1 at a Google Cloud (GCP) project, grant the role roles/aiplatform.user , and inference stays inside your Google Cloud perimeter. That flow works great when it’s just you, or a handful of engineers. But rolling it out across an organization forces you to deal with enterprise friction: you have to manage per-developer cloud credentials, push a managed-settings.json to every laptop over MDM, and not be verified with zero per-developer usage attribution or easily enforceable spend caps. The Claude apps gateway closes that gap. It is a self-hosted service, shipped with the same claude binary, that sits directly between your local Claude Code clients and Google Cloud. This post breaks down exactly why you should run it and what a secure deployment looks like on Google Cloud. (Note: If you want to jump straight to the code, the full walkt",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "Google Cloud": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Google Cloud",
-                  "mention",
-                  0.3
-                ]
-              ]
             }
           }
         },
@@ -2407,34 +2157,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "20 open-source cyber tools worth watching, and the AI security category is getting crowded fast",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uqobf7/20_opensource_cyber_tools_worth_watching_and_the/",
-          "published": "2026-07-08T10:05:48+00:00",
-          "summary": "Help Net Security put together a useful roundup of 20 newer open-source cybersecurity tools. https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/ What stood out to me is how many of them are now built around AI security, not just traditional vuln scanning. Some interesting ones from the list: AIMap: finds exposed Ollama, MCP, and AI inference endpoints Agent Beacon: telemetry for AI coding agents like Claude Code, Codex CLI, Cursor, etc. Agent Threat Rules: detection format for AI agent security threats OWASP Agent Memory Guard: protects agent memory from poisoned or malicious instructions Pipelock: network enforcement layer for AI agents Praxen: checks whether an agent actually follows its declared policy Kiji Privacy Proxy: masks PII before prompts reach external AI services DockSec, Nika, Rustinel, Sandyaa, Vigolium, OpenHack, and others cover containers, SAST, endpoint detection, and vulnerability research I’d also add a few related AI security tool",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Anthropic/Claude": "target"
             },
@@ -2638,190 +2360,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "9e3f402183",
-      "priority_score": 14,
-      "member_count": 3,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "CVE-2026-20896",
-        "Docker",
-        "Gitea"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Docker",
-          "Gitea",
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20896"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-        "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-        "published": "2026-07-06T16:28:59+00:00",
-        "summary": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated",
-        "full_body": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure  Ravie Lakshmanan  Jul 06, 2026 Vulnerability / DevOps Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig . The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated access. In a statement shared with The Hacker News via email, security researcher Ali Mustafa (@rz1027), who is credited with discovering and reporting the flaw, said the Gitea Docker images shipped an \"app.ini\" template that hard-codes \"REVERSE_PROXY_TRUSTED_PROXIES = *\" by default. The \" app.ini \" file is a core configuration file for managing server parameters, database connections, security behavior, and application settings. \"With reverse-proxy login enabled, that wildcard trusts every source IP, so anyone who could reach the port could send an X-WEBAUTH-USER header and be authenticated as any user, with no password and no token,\" Mustafa explained. \"With auto-registration on, an admin username gives admin.\" It's worth noting that the documented safe value for the \"REVERSE_PROXY_TRUSTED_PROXIES\" internal variable is \"127.0.0.0/8,::1/128,\" meaning only localhost, aka the loopback interface, is allowed as a trusted proxy server. However, the official Docker image doesn't use this default, hard-coding \"*\" instead. In other words, the allowlist check is as good as not having it. Thus, when an admin sets \"ENABLE_REVERSE_PROXY_AUTHENTICATION = true\" to put Gitea behind an authenticating reverse proxy and leaves the \"REVERSE_PROXY_TRUSTED_PROXIES\" setting to its default value, it allows a X-WEBAUTH-USER custom HTTP header from any source IP that can reach the container. \"Any process that can reach the Gitea container's HTTP port directly – not through the intended authenticating proxy – can impersonate any user whose login name is known or guessable,\" according to Gitea's advisory. \"Admin accounts (admin, gitea_admin, etc.) are the obvious targets.\" The vulnerability affects Gitea Docker images versions before and including 1.26.2. It has been addressed in version 1.26.3 released late last month, with the \"*\" wildcard now removed and reverse-proxy authentication made opt-in. Cloud security company Sysdig has since revealed it detected the first in-the-wild exploitation attempt 13 days after public disclosure of the vulnerability. There are about 6,200 internet-facing Gitea instances. \"So far, the activities have been related to initial investigation by the threat actor,\" Michael Clark, senior director of threat research at Sysdig, told The Hacker News. \"While we saw the first action from an IP from the ProtonVPN service, 159.26.98[.]241, it has not so far progressed to any exploitation or attack progress. We think this is because we have seen this one early before it has had the chance to develop beyond that initial phase.\" Given the severity of the issue, it's essential that users apply the fixes as soon as possible for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Cloud security , Container Security , DevOps , Threat Intelligence , Vulnerability , Web Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews GPT-5.6 Sol With Restricted Access and Str",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Gitea",
-            "Docker",
-            "Linux kernel"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-20896"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Gitea": "target",
-            "Docker": "target",
-            "Linux kernel": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-          "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-          "published": "2026-07-06T16:28:59+00:00",
-          "summary": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Gitea",
-              "Docker",
-              "Linux kernel"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-20896"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gitea": "target",
-              "Docker": "target",
-              "Linux kernel": "target",
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Gitea Flaw Under Active Exploitation, Researchers Warn",
-          "link": "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/",
-          "published": "2026-07-07T17:17:19+00:00",
-          "summary": "Attackers are exploiting the critical Gitea vulnerability CVE-2026-20896 to bypass authentication with a single HTTP header and access vulnerable repositories and secrets. The post Critical Gitea Flaw Under Active Exploitation, Researchers Warn appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Gitea"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-20896"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gitea": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Critical Gitea Flaw Under Active Exploitation, Researchers Warn",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uqjlrj/critical_gitea_flaw_under_active_exploitation/",
-          "published": "2026-07-08T05:34:50+00:00",
-          "summary": "Attackers are exploiting the critical Gitea vulnerability CVE-2026-20896 to bypass authentication with a single HTTP header and access vulnerable repositories and secrets. https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/ submitted by /u/sunychoudhary [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Gitea"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-20896"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Gitea": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -3496,6 +3034,413 @@
               "Linux kernel": "target",
               "OpenAI/ChatGPT": "target",
               "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "9e3f402183",
+      "priority_score": 12,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-20896",
+        "Docker",
+        "Gitea"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Docker",
+          "Gitea",
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-20896"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+        "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+        "published": "2026-07-06T16:28:59+00:00",
+        "summary": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated",
+        "full_body": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure  Ravie Lakshmanan  Jul 06, 2026 Vulnerability / DevOps Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig . The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated access. In a statement shared with The Hacker News via email, security researcher Ali Mustafa (@rz1027), who is credited with discovering and reporting the flaw, said the Gitea Docker images shipped an \"app.ini\" template that hard-codes \"REVERSE_PROXY_TRUSTED_PROXIES = *\" by default. The \" app.ini \" file is a core configuration file for managing server parameters, database connections, security behavior, and application settings. \"With reverse-proxy login enabled, that wildcard trusts every source IP, so anyone who could reach the port could send an X-WEBAUTH-USER header and be authenticated as any user, with no password and no token,\" Mustafa explained. \"With auto-registration on, an admin username gives admin.\" It's worth noting that the documented safe value for the \"REVERSE_PROXY_TRUSTED_PROXIES\" internal variable is \"127.0.0.0/8,::1/128,\" meaning only localhost, aka the loopback interface, is allowed as a trusted proxy server. However, the official Docker image doesn't use this default, hard-coding \"*\" instead. In other words, the allowlist check is as good as not having it. Thus, when an admin sets \"ENABLE_REVERSE_PROXY_AUTHENTICATION = true\" to put Gitea behind an authenticating reverse proxy and leaves the \"REVERSE_PROXY_TRUSTED_PROXIES\" setting to its default value, it allows a X-WEBAUTH-USER custom HTTP header from any source IP that can reach the container. \"Any process that can reach the Gitea container's HTTP port directly – not through the intended authenticating proxy – can impersonate any user whose login name is known or guessable,\" according to Gitea's advisory. \"Admin accounts (admin, gitea_admin, etc.) are the obvious targets.\" The vulnerability affects Gitea Docker images versions before and including 1.26.2. It has been addressed in version 1.26.3 released late last month, with the \"*\" wildcard now removed and reverse-proxy authentication made opt-in. Cloud security company Sysdig has since revealed it detected the first in-the-wild exploitation attempt 13 days after public disclosure of the vulnerability. There are about 6,200 internet-facing Gitea instances. \"So far, the activities have been related to initial investigation by the threat actor,\" Michael Clark, senior director of threat research at Sysdig, told The Hacker News. \"While we saw the first action from an IP from the ProtonVPN service, 159.26.98[.]241, it has not so far progressed to any exploitation or attack progress. We think this is because we have seen this one early before it has had the chance to develop beyond that initial phase.\" Given the severity of the issue, it's essential that users apply the fixes as soon as possible for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Cloud security , Container Security , DevOps , Threat Intelligence , Vulnerability , Web Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews GPT-5.6 Sol With Restricted Access and Str",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Gitea",
+            "Docker",
+            "Linux kernel"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-20896"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Gitea": "target",
+            "Docker": "target",
+            "Linux kernel": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+          "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+          "published": "2026-07-06T16:28:59+00:00",
+          "summary": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Gitea",
+              "Docker",
+              "Linux kernel"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-20896"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gitea": "target",
+              "Docker": "target",
+              "Linux kernel": "target",
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Gitea Flaw Under Active Exploitation, Researchers Warn",
+          "link": "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/",
+          "published": "2026-07-07T17:17:19+00:00",
+          "summary": "Attackers are exploiting the critical Gitea vulnerability CVE-2026-20896 to bypass authentication with a single HTTP header and access vulnerable repositories and secrets. The post Critical Gitea Flaw Under Active Exploitation, Researchers Warn appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Gitea"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-20896"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gitea": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "074b08d25f",
+      "priority_score": 12,
+      "member_count": 5,
+      "corroborating_source_count": 5,
+      "strong_signals": [
+        "GitHub"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security",
+          "apt_espionage",
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "GitHub",
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "incident_report",
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection",
+        "link": "https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/",
+        "published": "2026-07-08T10:30:55+00:00",
+        "summary": "Researchers show how attackers can use a crafted public GitHub Issue to trick AI-powered workflows into exposing data from private repositories without authentication. The post Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection appeared first on SecurityWeek .",
+        "full_body": "A critical prompt injection vulnerability in GitHub Agentic Workflows could allow unauthenticated attackers to leak private repository data, Noma Labs warns. GitHub Agentic Workflows allows users to write workflows in natural language using markdown files that an AI agent will use as GitHub Actions, thus automating the interaction with code repositories. Because of the security defect, named GitLost , unauthenticated attackers can hide indirect prompts in crafted GitHub Issues posted on the public repositories of an organization that also maintains private repositories, and the AI agent will follow the instructions. Noma Labs discovered that a GitHub Agentic Workflow was configured to trigger on issues.assigned events, read the title and body of the GitHub Issue, and post a comment in response. The workflow, the company says, runs with read access to both public and private repositories that the organization maintains. “To exploit this vulnerability, the attacker needed no coding skills, access, or credentials. All that was needed was to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup and wait,” Noma explains. Advertisement. Scroll to continue reading. The cybersecurity firm confirmed that a crafted GitHub Issue containing a plausible-looking request from sales leadership could be used to instruct the agent to fetch the contents of Readme.md files from both public and private repositories and post them as a public comment. While GitHub has guardrails in place to prevent this type of attack, the protections failed because the security researchers tested techniques with variations and eventually triggered the behavior by adding the keyword “additionally”. According to Noma, to agentic AI, indirect prompt injections are the equivalent of SQL injections in web applications, and require a systematic defense strategy. “GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems. The agent’s context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input,” Noma says. The cybersecurity firm responsibly disclosed its findings to GitHub and recommends that organizations treat all user-controlled content as untrusted, restrict agent permissions to the minimum required, restrict what agents can post publicly, and sanitize user input before it is passed to the AI agents. Related: CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Related: Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Related: Agentic AI Used to Conduct Ransomware Attack via Langflow Related: Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joo",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach",
+            "apt_espionage",
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [
+            "GitHub",
+            "Linux kernel",
+            "Anthropic/Claude"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "GitHub": "target",
+            "Linux kernel": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection",
+          "link": "https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/",
+          "published": "2026-07-08T10:30:55+00:00",
+          "summary": "Researchers show how attackers can use a crafted public GitHub Issue to trick AI-powered workflows into exposing data from private repositories without authentication. The post Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach",
+              "apt_espionage",
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [
+              "GitHub",
+              "Linux kernel",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target",
+              "Linux kernel": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows",
+          "link": "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows",
+          "published": "2026-07-07T15:24:30+00:00",
+          "summary": "The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+          "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+          "published": "2026-07-02T07:24:23+00:00",
+          "summary": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositories on GitHub that claim to exploit hot new CVEs. Run one, and it quietly lifts your saved passwords, browser cookies, and files, then hands the attacker a shell on your machine. YesWeHack and",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix (\"Additionally\") bypassed the threat-detection guardrail",
+          "link": "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
+          "published": "2026-07-07T15:16:22+00:00",
+          "summary": "Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why \"filter the injection\" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what ",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
+          "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+          "published": "2026-07-07T14:01:11+00:00",
+          "summary": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their CI/CD workflows. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -4925,81 +4870,6 @@
       ]
     },
     {
-      "cluster_id": "fbb9c91ae0",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "5 Myths About AI in the SOC Security Teams Need to Rethink",
-        "link": "https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths",
-        "published": "2026-07-01T15:26:27+00:00",
-        "summary": "AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t",
-        "full_body": "Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "5 Myths About AI in the SOC Security Teams Need to Rethink",
-          "link": "https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths",
-          "published": "2026-07-01T15:26:27+00:00",
-          "summary": "AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "7e7722a71b",
       "priority_score": 10,
       "member_count": 1,
@@ -5194,8 +5064,8 @@
     {
       "cluster_id": "04664daaad",
       "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "Ubiquiti UniFi"
       ],
@@ -5224,6 +5094,7 @@
           "actively_exploited"
         ],
         "content_type": [
+          "news_report",
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
@@ -5310,6 +5181,243 @@
             "role_map": {
               "Ubiquiti UniFi": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+          "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+          "published": "2026-07-08T14:38:05+00:00",
+          "summary": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Ubiquiti UniFi"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-50746"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Ubiquiti UniFi": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "62c5b45d14",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security",
+          "apt_espionage",
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "GitHub",
+          "Gitea",
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Accenture Confirms Data Breach After Hacker Claims Source Code Theft",
+        "link": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
+        "published": "2026-07-08T16:09:15+00:00",
+        "summary": "The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek .",
+        "full_body": "Professional services giant Accenture confirmed a data breach after a hacker claimed the theft of internal source code from the company. The incident came to light this week, when a threat actor boasted on the hacker forum PwnForums about compromising Accenture and stealing 35 gigabytes of data. According to the hacker, the information, including Azure access keys and tokens, configuration files, RSA and SSH keys, and source code, was exfiltrated from Accenture earlier this month. The threat actor, who was trying to sell the allegedly stolen data, posted as proof-of-possession a screenshot depicting a private Azure DevOps repository apparently hosted on an accenture.com domain. Responding to a SecurityWeek inquiry, Accenture confirmed the attack, but refrained from providing additional details on the matter. “We are aware of this isolated matter, and we have remediated its source. There is no impact to Accenture operations and service delivery,” an Accenture spokesperson said. Advertisement. Scroll to continue reading. It is unclear how the data was exfiltrated, whether any personal information was compromised, and how the hacker gained access to Accenture’s environment. According to Corsica Technologies CISO Ross Filipek, the incident raises concerns because the allegedly stolen data could be used as a playbook for future attacks, based on code vulnerabilities, credentials, and infrastructure information that threat actors can extract. “Accenture is a familiar target because of where it sits in the business ecosystem. Large consulting and services firms often sit close to the systems that help major companies run, from cloud environments and identity tools to codebases and transformation projects,” Filipek said. “That doesn’t mean every incident creates direct client risk, but it explains why attackers keep looking for a foothold. One successful compromise can offer clues about how enterprise systems are built, how teams authenticate, and where trusted connections exist,” he added. Accenture, which recently announced it was taking a majority stake in Dragos , last year confirmed that a former employee was charged over concealing security issues in her employer’s cloud products that were non-compliant with US government requirements. Related: Medtronic Data Breach Impacts 3.8 Million People Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Canadian Electricity Provider London Hydro Discloses Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection County Government Reportedly Paid $1 Million to Cyber Extortion Group Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, tre",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach",
+            "apt_espionage",
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [
+            "Linux kernel",
+            "GitHub",
+            "Gitea"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Linux kernel": "target",
+            "GitHub": "target",
+            "Gitea": "target",
+            "Anthropic/Claude": "target",
+            "Azure": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Accenture Confirms Data Breach After Hacker Claims Source Code Theft",
+          "link": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
+          "published": "2026-07-08T16:09:15+00:00",
+          "summary": "The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach",
+              "apt_espionage",
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [
+              "Linux kernel",
+              "GitHub",
+              "Gitea"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Linux kernel": "target",
+              "GitHub": "target",
+              "Gitea": "target",
+              "Anthropic/Claude": "target",
+              "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "152995b5e9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Black Hills Information Security",
+        "cohort": "detection_response_operations",
+        "title": "Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage",
+        "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
+        "published": "2026-07-08T14:00:00+00:00",
+        "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
+        "full_body": "8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Black Hills Information Security",
+          "cohort": "detection_response_operations",
+          "title": "Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage",
+          "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
+          "published": "2026-07-08T14:00:00+00:00",
+          "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5417,81 +5525,6 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "152995b5e9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Black Hills Information Security",
-        "cohort": "detection_response_operations",
-        "title": "Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage",
-        "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
-        "published": "2026-07-08T14:00:00+00:00",
-        "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
-        "full_body": "8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Black Hills Information Security",
-          "cohort": "detection_response_operations",
-          "title": "Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage",
-          "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
-          "published": "2026-07-08T14:00:00+00:00",
-          "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5627,7 +5660,7 @@
         "link": "https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/",
         "published": "2026-07-07T17:31:54+00:00",
         "summary": "The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .",
-        "full_body": "A government entity in the US reportedly paid a $1 million ransom to the Kairos cyber extortion group to prevent the public dissemination of information stolen in a May 2025 intrusion, Ransom-ISAC reports. A leaked negotiation transcript shows that the extortion group demanded $3 million in cryptocurrency from the victim organization, but eventually settled for $1 million. Kairos claimed to have stolen over 2 terabytes of data, or approximately 1.6 million files, after accessing the victim’s environment in a brute-force attack. During the three-week negotiation, the victim increased its offer from $100,000 to $430,000, but eventually accepted a hard deadline and the $1 million ransom, which was paid in Bitcoin on June 13. The attackers pressured the victim with public exposure, while maintaining control of deadlines and proof-of-access artifacts. “The affected entity’s responses are consistent with an organization buying time while legal, leadership, financial, and communications decisions were coordinated,” Ransom-ISAC notes. Advertisement. Scroll to continue reading. The anti-ransomware organization notes that the incident was an extortion attack and did not involve file-encrypting ransomware. The attackers’ proof-of-deletion appears selective, not comprehensive, but the listings they provided are consistent with a real file-server scrape. According to Ransom-ISAC, the provided proof of deletion could have been generated by erasing a copy of the data, and no mechanism to independently verify the deletion was provided. Ransom-ISAC did not name the affected organization, but the negotiation transcript identifies it as “a small county with very limited resources.” The affected government body reportedly appears to be Union County, Ohio. In September, the county notified (PDF) 45,487 individuals that their personal information was stolen in a ransomware attack in May 2025. The affected information included names, dates of birth, driver’s license/state ID numbers, passport numbers, Social Security numbers, financial account details, fingerprint information, medical information, and payment card details. SecurityWeek has emailed Union County for a statement on the matter and will update this article if the county responds. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Latest News Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with ",
+        "full_body": "A government entity in the US reportedly paid a $1 million ransom to the Kairos cyber extortion group to prevent the public dissemination of information stolen in a May 2025 intrusion, Ransom-ISAC reports. A leaked negotiation transcript shows that the extortion group demanded $3 million in cryptocurrency from the victim organization, but eventually settled for $1 million. Kairos claimed to have stolen over 2 terabytes of data, or approximately 1.6 million files, after accessing the victim’s environment in a brute-force attack. During the three-week negotiation, the victim increased its offer from $100,000 to $430,000, but eventually accepted a hard deadline and the $1 million ransom, which was paid in Bitcoin on June 13. The attackers pressured the victim with public exposure, while maintaining control of deadlines and proof-of-access artifacts. “The affected entity’s responses are consistent with an organization buying time while legal, leadership, financial, and communications decisions were coordinated,” Ransom-ISAC notes. Advertisement. Scroll to continue reading. The anti-ransomware organization notes that the incident was an extortion attack and did not involve file-encrypting ransomware. The attackers’ proof-of-deletion appears selective, not comprehensive, but the listings they provided are consistent with a real file-server scrape. According to Ransom-ISAC, the provided proof of deletion could have been generated by erasing a copy of the data, and no mechanism to independently verify the deletion was provided. Ransom-ISAC did not name the affected organization, but the negotiation transcript identifies it as “a small county with very limited resources.” The affected government body reportedly appears to be Union County, Ohio. In September, the county notified (PDF) 45,487 individuals that their personal information was stolen in a ransomware attack in May 2025. The affected information included names, dates of birth, driver’s license/state ID numbers, passport numbers, Social Security numbers, financial account details, fingerprint information, medical information, and payment card details. SecurityWeek has emailed Union County for a statement on the matter and will update this article if the county responds. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and t",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -5854,7 +5887,7 @@
     {
       "cluster_id": "551c9fa70a",
       "priority_score": 9,
-      "member_count": 4,
+      "member_count": 3,
       "corroborating_source_count": 3,
       "strong_signals": [
         "Google Cloud"
@@ -5863,7 +5896,6 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [
-          "government",
           "manufacturing_industrial"
         ],
         "affected_products": [
@@ -6267,178 +6299,6 @@
               "Kubernetes": "target",
               "Microsoft Defender": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d53451304c",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Kubernetes"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Orca Security Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "CWPP vs EDR: Why Endpoint Detection Can’t Secure Your Cloud Workloads",
-        "link": "https://orca.security/resources/blog/cwpp-vs-edr/",
-        "published": "2026-07-07T16:38:53+00:00",
-        "summary": "Key Takeaways If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The […]",
-        "full_body": "Table of contents Key Takeaways CWPP vs EDR at a glance (quick answer) EDR in brief: detection and response for endpoints What is CWPP (Cloud Workload Protection Platform)? CWPP vs EDR: the key differences Security focus: endpoints vs cloud workloads Deployment model: agent-based vs agentless / cloud-native Lifecycle coverage: runtime-only vs build-plus-runtime (with vuln mgmt + config) Environment fit: persistent devices vs ephemeral/containerized/serverless Can EDR protect cloud workloads, and do you need both? Why endpoint EDR agents struggle with containers and Kubernetes Why serverless functions leave EDR blind The agent-deployment and coverage-gap problem at cloud scale Where EDR, CDR, and CWPP converge EDR vs CDR: endpoint detection vs cloud detection How this fits the broader stack (XDR and CNAPP) How Orca secures cloud workloads without agents Frequently asked questions about CWPP vs. EDR Key Takeaways EDR secures endpoints (laptops, servers, and workstations) with an agent on each device; a CWPP secures cloud workloads (VMs, containers, Kubernetes, and serverless functions) across build and runtime. They defend different attack surfaces, so CWPP vs EDR is really a question of where your risk lives. An EDR agent can run on a cloud VM, but it cannot reliably reach a container that lives for seconds, a function with no host to install on, or an autoscaled fleet that spawns faster than any agent enrolls. Deployment is the sharpest line. EDR is agent-based; CWPP is agent-based or, increasingly, agentless. CWPP also does what EDR does not: vulnerability management and configuration hardening across the build pipeline, not just runtime detection. Most organizations need both. EDR covers user endpoints and corporate devices; CWPP covers cloud workloads. One does not replace the other. Orca delivers CWPP agentlessly through SideScanning™, reaching the ephemeral and serverless workloads endpoint agents miss and tying each workload risk to the attack path it actually opens. If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The two tools defend different attack surfaces, which is why comparing CWPP vs EDR is really a question about where your risk lives. That gap opens widest where cloud compute breaks the endpoint model: short-lived containers, autoscaled VMs, and serverless functions no agent can reliably reach. This guide gives you a side-by-side comparison of CWPP and EDR. It explains whether your EDR can protect cloud workloads, why most teams run both, and where cloud detection and response (CDR) fits alongside them. CWPP vs EDR at a glance (quick answer) EDR detects and responds to threats on endpoints using an agent; CWPP protects cloud workloads across their full lifecycle, increasingly agentlessly. EDR is not a substitute for CWPP in the cloud, because its agent-based model was built for persistent devices, not ephemeral cloud compute. Dimension EDR CWPP Primary focus Detecting and responding to threats on endpoints Protecting cloud workloads across their lifecycle What it protects Laptops, desktops, servers, workstations VMs, containers, Kubernetes, serverless functions Deployment model Agent-based (an agent on every endpoint) Agent-based or agentless (increasingly agentless) Lifecycle coverage Runtime detection and response Build and runtime Best-fit environment Persistent, human-operated devices Ephemeral, autoscaled, containerized cloud compute The rest of this guide works through each of these lines, then answers the question the table cannot: whether you can point your existing EDR at the cloud and call it covered. EDR in brief: detection and response for endpoints EDR, or endpoint detection and response , is agent-based software that monitors",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Kubernetes"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Kubernetes": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Orca Security Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "CWPP vs EDR: Why Endpoint Detection Can’t Secure Your Cloud Workloads",
-          "link": "https://orca.security/resources/blog/cwpp-vs-edr/",
-          "published": "2026-07-07T16:38:53+00:00",
-          "summary": "Key Takeaways If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The […]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Kubernetes"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Kubernetes": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "059e247516",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Security",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM",
-        "link": "https://cloud.google.com/blog/products/identity-security/drive-proactive-security-prioritize-risks-with-google-threat-intelligence-and-wiz-asm/",
-        "published": "2026-07-07T16:00:00+00:00",
-        "summary": "Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive secu",
-        "full_body": "Security & Identity Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM July 7, 2026 Megan DeBlois Product Manager, Google Threat Intelligence Alon Weiss Director, Product Management, Wiz Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive security strategy. In addition to detecting your exploitable exposures, you gain insight into which of those exposures are being actively targeted by adversaries. We will continue to build towards native integration that will feed exposure data directly into the Google Threat Intelligence correlation engine. This automated connection will help you focus on the exposures adversaries are targeting in the wild, and use our real-time threat intelligence to prioritize remediation efforts and threat hunting activities. Building a proactive security strategy Google Threat Intelligence provides global visibility into how adversaries operate, tracking their infrastructure and campaign activity in real time. Wiz ASM maps your external attack surface across cloud, AI, software-as-a-service (SaaS), and on-premises environments to reveal exposed assets like domains, IPs, and APIs. It scans for exploitable vulnerabilities, misconfigurations, and default credentials to validate exploitability. It also scans for and validates exposed secrets and sensitive data. At the same time, the Wiz Red Agent scans exposures with AI to uncover complex, logic-driven vulnerabilities by reasoning about applications behavior. The power of this combination lies in the ability to prioritize and hunt with confidence: Prioritize based on real-world activity : With the incoming integration, exposure data feeds into the Google Threat Intelligence engine. This helps you spot the exposures that adversaries are currently exploiting, allowing your team to focus remediation efforts where they are needed most. Understand attacker behavior : When a critical risk is flagged, we plan to provide behavior-based guidance alongside the alert. This details how an attacker typically acts after exploiting a vulnerability, using specific host commands or malware, giving your defenders the context they need to hunt for active footprints inside your network. Discover complex vulnerabilities : The Wiz Red Agent uses AI to scan for logic-driven vulnerabilities, such as authentication bypasses, business logic flaws, and multi-step attack chains, helping you uncover risks that traditional scanners often miss. Get started with proactive defense This combined approach is designed to help you streamline your security posture by reducing the noise and focusing on the signals that represent real danger to your organization. To get started with Google Threat Intelligence and Wiz ASM today, contact your Google sales representative . Posted in Security & Identity AI & Machine Learning Related articles Security & Identity Meet the 33 cybersecurity startups joining the Gemini Startup Forum By Sandra Joyce • 9-min",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM",
-          "link": "https://cloud.google.com/blog/products/identity-security/drive-proactive-security-prioritize-risks-with-google-threat-intelligence-and-wiz-asm/",
-          "published": "2026-07-07T16:00:00+00:00",
-          "summary": "Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive secu",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7202,87 +7062,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "3c9ea29e26",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/cybersecurity",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Telco giant KDDI says data breach affects over 12 million people",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1uqrkln/telco_giant_kddi_says_data_breach_affects_over_12/",
-        "published": "2026-07-08T12:42:59+00:00",
-        "summary": "submitted by /u/Doug24 [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Telco giant KDDI says data breach affects over 12 million people",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uqrkln/telco_giant_kddi_says_data_breach_affects_over_12/",
-          "published": "2026-07-08T12:42:59+00:00",
-          "summary": "submitted by /u/Doug24 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -7293,35 +7072,48 @@
       "dominant_features": {
         "threat_categories": [
           "ransomware_extortion",
-          "active_exploitation"
+          "data_breach",
+          "apt_espionage"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
         ],
         "affected_products": [
-          "Linux kernel"
+          "Linux kernel",
+          "GitHub"
         ]
       },
-      "cluster_count": 7,
-      "article_count": 9,
-      "cohesion": 0.208,
+      "cluster_count": 9,
+      "article_count": 14,
+      "cohesion": 0.243,
       "shared_strong_signals": [
         "Linux kernel"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "9e3f402183",
         "8b4ae517ee",
+        "9e3f402183",
+        "074b08d25f",
         "cad05b2d4e",
+        "62c5b45d14",
         "7c88582199",
         "99486124ff",
         "87ef22349e",
         "a56bf79002"
       ],
       "links": [
+        "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
         "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
         "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/",
-        "https://www.reddit.com/r/cybersecurity/comments/1uqjlrj/critical_gitea_flaw_under_active_exploitation/",
-        "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+        "https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/",
+        "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows",
+        "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+        "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
+        "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
         "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
+        "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
         "https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/",
         "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
         "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
@@ -7329,9 +7121,9 @@
       ]
     },
     {
-      "label": "CVE-2026-33017 exploitation activity",
-      "anchor_signal": "CVE-2026-33017",
-      "theme_key": "cve-2026-33017",
+      "label": "CVE-2026-48282 exploitation activity",
+      "anchor_signal": "CVE-2026-48282",
+      "theme_key": "cve-2026-48282",
       "dominant_features": {
         "threat_categories": [
           "active_exploitation"
@@ -7340,104 +7132,28 @@
           "government"
         ],
         "cve_ids": [
-          "CVE-2026-33017",
-          "CVE-2026-55255"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
+          "CVE-2026-48282"
         ]
       },
       "cluster_count": 3,
-      "article_count": 4,
-      "cohesion": 0.275,
+      "article_count": 5,
+      "cohesion": 0.222,
       "shared_strong_signals": [
-        "CVE-2026-33017"
+        "CVE-2026-48282"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "50e57176eb",
-        "a8aada2f40",
-        "4c776d45d6"
+        "14c6bae9ae",
+        "9abaf78b04",
+        "8b38cd09cc"
       ],
       "links": [
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
-        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
+        "https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/",
         "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-        "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/"
-      ]
-    },
-    {
-      "label": "CVE-2026-55255 exploitation activity",
-      "anchor_signal": "CVE-2026-55255",
-      "theme_key": "cve-2026-55255",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "cve_ids": [
-          "CVE-2026-33017",
-          "CVE-2026-55255"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 4,
-      "cohesion": 0.275,
-      "shared_strong_signals": [
-        "CVE-2026-55255"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "50e57176eb",
-        "a8aada2f40",
-        "4c776d45d6"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
-        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
-        "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-        "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/"
-      ]
-    },
-    {
-      "label": "Kubernetes vulnerability activity",
-      "anchor_signal": "Kubernetes",
-      "theme_key": "kubernetes",
-      "dominant_features": {
-        "affected_products": [
-          "Kubernetes"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 7,
-      "cohesion": 0.249,
-      "shared_strong_signals": [
-        "Kubernetes"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "f851217332",
-        "df28d0fe5c",
-        "689a007fbb",
-        "d53451304c"
-      ],
-      "links": [
-        "https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns",
-        "https://www.infosecurity-magazine.com/news/industrialized-cyberattacks/",
-        "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-        "https://orca.security/resources/blog/cloud-workload-protection-best-practices/",
-        "https://orca.security/resources/blog/best-cwpp-tools/",
-        "https://orca.security/resources/blog/cwpp-vs-edr/"
+        "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
+        "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/"
       ]
     },
     {
@@ -7460,7 +7176,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "cohesion": 0.355,
       "shared_strong_signals": [
         "Ubiquiti UniFi"
@@ -7475,44 +7191,8 @@
       "links": [
         "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
         "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
-        "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/"
-      ]
-    },
-    {
-      "label": "CVE-2026-48282 exploitation activity",
-      "anchor_signal": "CVE-2026-48282",
-      "theme_key": "cve-2026-48282",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation",
-          "zero_day"
-        ],
-        "cve_ids": [
-          "CVE-2026-48282"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 4,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "CVE-2026-48282"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "4c776d45d6",
-        "9abaf78b04",
-        "8b38cd09cc"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-        "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
-        "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/"
+        "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
+        "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html"
       ]
     },
     {
@@ -7544,6 +7224,108 @@
         "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
         "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
         "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack"
+      ]
+    },
+    {
+      "label": "Kubernetes vulnerability activity",
+      "anchor_signal": "Kubernetes",
+      "theme_key": "kubernetes",
+      "dominant_features": {
+        "affected_products": [
+          "Kubernetes"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 6,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Kubernetes"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "f851217332",
+        "df28d0fe5c",
+        "689a007fbb"
+      ],
+      "links": [
+        "https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns",
+        "https://www.infosecurity-magazine.com/news/industrialized-cyberattacks/",
+        "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+        "https://orca.security/resources/blog/cloud-workload-protection-best-practices/",
+        "https://orca.security/resources/blog/best-cwpp-tools/"
+      ]
+    },
+    {
+      "label": "CVE-2026-33017 exploitation activity",
+      "anchor_signal": "CVE-2026-33017",
+      "theme_key": "cve-2026-33017",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "cve_ids": [
+          "CVE-2026-33017",
+          "CVE-2026-55255"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.386,
+      "shared_strong_signals": [
+        "CVE-2026-33017"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "50e57176eb",
+        "a8aada2f40"
+      ],
+      "links": [
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/"
+      ]
+    },
+    {
+      "label": "CVE-2026-55255 exploitation activity",
+      "anchor_signal": "CVE-2026-55255",
+      "theme_key": "cve-2026-55255",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "cve_ids": [
+          "CVE-2026-33017",
+          "CVE-2026-55255"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.386,
+      "shared_strong_signals": [
+        "CVE-2026-55255"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "50e57176eb",
+        "a8aada2f40"
+      ],
+      "links": [
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/"
       ]
     },
     {
@@ -7630,36 +7412,6 @@
       ]
     },
     {
-      "label": "WordPress vulnerability activity",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
-      "dominant_features": {
-        "affected_products": [
-          "WordPress"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "WordPress"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "4c776d45d6",
-        "1d65faccbc"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-        "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/",
-        "https://www.exploit-db.com/exploits/52619"
-      ]
-    },
-    {
       "label": "ransomware extortion targeting Microsoft SharePoint",
       "anchor_signal": "Microsoft SharePoint",
       "theme_key": "microsoft-sharepoint",
@@ -7722,6 +7474,32 @@
         "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/",
         "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/"
       ]
+    },
+    {
+      "label": "CVE-2026-46242 exploitation activity",
+      "anchor_signal": "CVE-2026-46242",
+      "theme_key": "cve-2026-46242",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-46242"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "CVE-2026-46242"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "cad05b2d4e",
+        "076461d2d8"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
+        "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html"
+      ]
     }
   ],
   "forward_signals": {
@@ -7730,7 +7508,15 @@
       "actors": [],
       "products": []
     },
-    "velocity": [],
+    "velocity": [
+      {
+        "cluster_id": "074b08d25f",
+        "title": "Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection",
+        "sources_in_window": 3,
+        "window_hours": 1.4,
+        "cohort_count": 2
+      }
+    ],
     "leading_edge": [],
     "convergence": [
       {
@@ -7754,58 +7540,58 @@
         "first_observation": true
       },
       {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-33017 + AWS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-33017 + WordPress",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-48282 + AWS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-48282 + WordPress",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-48908 + AWS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-48908 + WordPress",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-55255 + AWS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-55255 + WordPress",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-56290 + AWS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "4c776d45d6",
-        "pair": "CVE-2026-56290 + WordPress",
+        "cluster_id": "f851217332",
+        "pair": "CVE-2025-55182 + TeamPCP",
         "first_observation": true
       },
       {
         "cluster_id": "f851217332",
-        "pair": "CVE-2025-55182 + TeamPCP",
+        "pair": "CVE-2025-55182 + Kubernetes",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "6a5eaa4b15",
+        "pair": "CVE-2026-35616 + Fortinet",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "1d65faccbc",
+        "pair": "CVE-2024-25600 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "9abaf78b04",
+        "pair": "CVE-2026-34621 + Microsoft SharePoint",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "9abaf78b04",
+        "pair": "CVE-2026-34621 + Ubiquiti UniFi",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "9abaf78b04",
+        "pair": "CVE-2026-48282 + Microsoft SharePoint",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "9abaf78b04",
+        "pair": "CVE-2026-48282 + Ubiquiti UniFi",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "df28d0fe5c",
+        "pair": "CVE-2024-31989 + Kubernetes",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "df28d0fe5c",
+        "pair": "CVE-2025-55190 + Kubernetes",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "df28d0fe5c",
+        "pair": "CVE-2026-42880 + Kubernetes",
         "first_observation": true
       }
     ],
@@ -7904,15 +7690,6 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": [
-      {
-        "cluster_id": "9e3f402183",
-        "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-        "primary_source": "The Hacker News",
-        "strong_signals": [
-          "CVE-2026-20896"
-        ]
-      }
-    ]
+    "tier_inversion": []
   }
 }
