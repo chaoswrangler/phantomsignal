@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-08T16:44:51.496991+00:00
+- Generated: 2026-07-08T18:23:17.642717+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 296
-- Total clusters raw: 135
-- Total clusters in packet: 55
-- Dropped low score: 80
+- Total items in window: 299
+- Total clusters raw: 137
+- Total clusters in packet: 58
+- Dropped low score: 79
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,38 +80,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 2
@@ -120,31 +110,41 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
+  - In window count: 5
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -155,11 +155,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 40
-  - In window count: 0
+  - Item count: 50
+  - In window count: 1
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -170,33 +170,28 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 19
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,20 +200,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 2
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
@@ -230,31 +230,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -270,15 +270,15 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
@@ -300,95 +300,95 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 15
+  - In window count: 14
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 5
+  - In window count: 5
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 18
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 100
   - In window count: 0
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 15
+  - In window count: 16
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
@@ -405,11 +405,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -430,6 +425,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 9
+  - In window count: 10
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -582,6 +582,25 @@
   - https://orca.security/resources/blog/cloud-workload-protection-best-practices/
   - https://orca.security/resources/blog/best-cwpp-tools/
 
+### CVE-2026-55255 exploitation activity
+- Anchor signal: CVE-2026-55255
+- Theme key: cve-2026-55255
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.386
+- Shared strong signals: CVE-2026-55255
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_industries: government
+  - cve_ids: CVE-2026-33017, CVE-2026-55255
+  - urgency_signals: actively_exploited
+- Cluster IDs: 50e57176eb, a8aada2f40
+- Links:
+  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
+  - https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/
+
 ### CVE-2026-33017 exploitation activity
 - Anchor signal: CVE-2026-33017
 - Theme key: cve-2026-33017
@@ -601,24 +620,39 @@
   - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
   - https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/
 
-### CVE-2026-55255 exploitation activity
-- Anchor signal: CVE-2026-55255
-- Theme key: cve-2026-55255
+### CVE-2026-48313 exploitation activity
+- Anchor signal: CVE-2026-48313
+- Theme key: cve-2026-48313
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.386
-- Shared strong signals: CVE-2026-55255
+- Cohesion: 0.281
+- Shared strong signals: CVE-2026-48313
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
-  - affected_industries: government
-  - cve_ids: CVE-2026-33017, CVE-2026-55255
-  - urgency_signals: actively_exploited
-- Cluster IDs: 50e57176eb, a8aada2f40
+  - cve_ids: CVE-2026-48283, CVE-2026-48313
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 8e87b71464, 843dce4060
 - Links:
-  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
-  - https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
+
+### CVE-2026-48283 exploitation activity
+- Anchor signal: CVE-2026-48283
+- Theme key: cve-2026-48283
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.281
+- Shared strong signals: CVE-2026-48283
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-48283, CVE-2026-48313
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 8e87b71464, 843dce4060
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
 
 ### ransomware extortion targeting Citrix
 - Anchor signal: Citrix
@@ -677,44 +711,11 @@
   - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
   - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
 
-### ransomware extortion targeting Android
-- Anchor signal: Android
-- Theme key: android
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Android
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion
-  - affected_industries: financial_services
-  - affected_products: Android
-- Cluster IDs: 3ee1d54d9d, cad05b2d4e
-- Links:
-  - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
-  - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-
-### CVE-2026-46242 exploitation activity
-- Anchor signal: CVE-2026-46242
-- Theme key: cve-2026-46242
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: CVE-2026-46242
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-46242
-- Cluster IDs: cad05b2d4e, 076461d2d8
-- Links:
-  - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-  - https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2026-9181 (first seen via Horizon3 Attack Research at 2026-07-08T17:00:06+00:00, cluster 8e87b71464)
 - Novel actors: 0
 - Novel products: 0
 
@@ -734,7 +735,6 @@
 - Pair: CVE-2026-55255 + Ubiquiti UniFi (cluster 50e57176eb, first observation: True)
 - Pair: CVE-2025-55182 + TeamPCP (cluster f851217332, first observation: True)
 - Pair: CVE-2025-55182 + Kubernetes (cluster f851217332, first observation: True)
-- Pair: CVE-2026-35616 + Fortinet (cluster 6a5eaa4b15, first observation: True)
 - Pair: CVE-2024-25600 + WordPress (cluster 1d65faccbc, first observation: True)
 - Pair: CVE-2026-34621 + Microsoft SharePoint (cluster 9abaf78b04, first observation: True)
 - Pair: CVE-2026-34621 + Ubiquiti UniFi (cluster 9abaf78b04, first observation: True)
@@ -743,18 +743,14 @@
 - Pair: CVE-2024-31989 + Kubernetes (cluster df28d0fe5c, first observation: True)
 - Pair: CVE-2025-55190 + Kubernetes (cluster df28d0fe5c, first observation: True)
 - Pair: CVE-2026-42880 + Kubernetes (cluster df28d0fe5c, first observation: True)
+- Pair: CVE-2025-11371 + Microsoft SharePoint (cluster 26d1b14830, first observation: True)
 
-### Drift (3)
+### Drift (2)
 - **MuddyWater** (cluster 3ee1d54d9d)
   - New industries: (none)
   - New products: OpenAI/ChatGPT
   - Prior top industries: critical_infrastructure, financial_services, government
   - Prior top products: Android, Apple iOS/macOS, Ivanti
-- **ShinyHunters** (cluster 203ebf4d39)
-  - New industries: critical_infrastructure, telecommunications
-  - New products: (none)
-  - Prior top industries: education, financial_services, government
-  - Prior top products: Anthropic/Claude, Azure, npm
 - **Silent Ransom Group** (cluster d7f247f4ee)
   - New industries: government
   - New products: (none)
@@ -762,8 +758,8 @@
   - Prior top products: OpenAI/ChatGPT, SolarWinds, WordPress
 
 ### Persistence (6)
-- actor_attribution: ShinyHunters (weeks observed: 6, cluster 203ebf4d39)
 - actor_attribution: Silent Ransom Group (weeks observed: 5, cluster d7f247f4ee)
+- cve_ids: CVE-2026-20230 (weeks observed: 4, cluster 8e87b71464)
 - cve_ids: CVE-2026-33017 (weeks observed: 4, cluster 50e57176eb)
 - actor_attribution: TeamPCP (weeks observed: 4, cluster f851217332)
 - actor_attribution: MuddyWater (weeks observed: 4, cluster 3ee1d54d9d)
@@ -871,6 +867,49 @@ A critical vulnerability ( CVE-2026-48282 , CVSS 10.0) was disclosed affecting A
   - Link: https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/
   - Summary: Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion that carries a CVSS score of 10/10. The post Critical Adobe ColdFusion Vulnerability Exploited in Attacks appeared first on SecurityWeek .
 
+### Cluster 8e87b71464 — score 25
+
+- Title: CVE-2026-9181 | Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-08T17:00:06+00:00
+- Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-9181
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-20230, CVE-2026-47729, CVE-2026-48283, CVE-2026-48313, CVE-2026-9181
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-9181, CVE-2026-48283, CVE-2026-48313, CVE-2026-20230, CVE-2026-47729
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CVE-2026-9181 is a critical path traversal vulnerability affecting Esri ArcGIS Server that could allow unauthenticated attackers to access sensitive files. Validate exposure with NodeZero® Rapid Response.
+```
+
+#### Full body
+
+```
+CVE-2026-9181 Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability CVE-2026-9181 is a critical pre-authentication path traversal vulnerability affecting Esri ArcGIS Server 12.0 and prior. The vulnerability exists in the ArcGIS Server REST Uploads resource, where insufficient validation of crafted path parameters allows an unauthenticated remote attacker to traverse outside the intended directory boundary. Successful exploitation could allow an attacker to access sensitive files on the ArcGIS Server system without requiring valid credentials. The vulnerability has a CVSS v3.1 base score of 9.8 (Critical) . Technical Details CVE-2026-9181 is a path traversal vulnerability (CWE-22) within the ArcGIS Server REST Uploads resource. By supplying a crafted itemName parameter, an attacker can bypass path validation and traverse outside the intended upload directory. Successful exploitation could allow an unauthenticated attacker to access sensitive files on the ArcGIS Server system. The vulnerability is remotely exploitable over the network, requires no authentication, and requires no user interaction. Vendor: Esri Product: ArcGIS Server Vulnerability Class: Path Traversal (CWE-22) Authentication Required: None Attack Vector: Network CVSS v3.1 Base Score: 9.8 (Critical) Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether exploitation is possible. Patch immediately: Apply the ArcGIS Server Security 2026 Update 2 Patch or the vendor-recommended mitigation. Re-run the test: Confirm the vulnerability is no longer exploitable after remediation. Affected Versions & Patch Affected ArcGIS Server 12.0 and prior Fixed Esri recommends customers running the following supported releases install the ArcGIS Server Security 2026 Update 2 Patch : ArcGIS Server 12.0 ArcGIS Server 11.5 ArcGIS Server 11.4 ArcGIS Server 11.3 ArcGIS Server 11.1 Mitigations Apply the ArcGIS Server Security 2026 Update 2 Patch as soon as possible. The security update is cumulative and does not require previous ArcGIS Server security patches to be installed. If immediate patching is not possible, Esri recommends implementing the Web Application Firewall (WAF) guidance described in the ArcGIS Enterprise Hardening Guide until the security update can be applied. Timeline May 27, 2026: Esri published the May 2026 ArcGIS Security Bulletin describing CVE-2026-9181. May 27, 2026: Esri released the ArcGIS Server Security 2026 Update 2 Patch. May 27, 2026: Esri recommended ArcGIS Enterprise customers apply the security update within two weeks to reduce exposure. July 8, 2026: Horizon3.ai Rapid Response test. References Esri May 2026 ArcGIS Security Bulletin ArcGIS Server Security 2026 Update 2 Patch CVE.org Record: CVE-2026-9181 NIST National Vulnerability Database: CVE-2026-9181 Read about other CVEs CVE-2026-48283 / CVE-2026-48313 CVE-2026-48283 / CVE-2026-48313: Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities Read more CVE-2026-20230 CVE-2026-20230 is a critical server-side request forgery vulnerability affecting Cisco Unified CM. Successful exploitation may lead to root-level compromise, and… Read more CVE-2026-47729 CVE-2026-47729 (Squidbleed) can expose credentials, cookies, API keys, and session tokens from memory in vulnerable Squid proxy deployments. Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your security risks by autonomously finding exploitable weaknesses in your network, giving you detailed guidance around how to priortize and fix the
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CVE-2026-9181 | Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
+  - Published: 2026-07-08T17:00:06+00:00
+  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
+  - Summary: CVE-2026-9181 is a critical path traversal vulnerability affecting Esri ArcGIS Server that could allow unauthenticated attackers to access sensitive files. Validate exposure with NodeZero® Rapid Response.
+
 ### Cluster 50e57176eb — score 21
 
 - Title: CISA orders feds to prioritize patching Langflow auth bypass flaw
@@ -967,7 +1006,7 @@ Zeljka Zorz , Editor-in-Chief, Help Net Security July 8, 2026 Share Attackers us
   - Link: https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/
   - Summary: The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks after the Sysdig Threat Research Team observed it being actively targeted. CVE-2026-55255 exploited Langflow is an open-source visual framework for building AI agents and workflows, widely used by individual developers, enterprises, and service providers. CVE-2026-55255 … More → The post Attackers using Langflow flaw for credential harvesting (CVE-2026-55255) appeared first on Help Net Security .
 
-### Cluster 843dce4060 — score 20
+### Cluster 843dce4060 — score 19
 
 - Title: CVE-2026-48283 / CVE-2026-48313 | Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
 - Source: Horizon3 Attack Research (offensive_vulnerability_research)
@@ -1067,65 +1106,6 @@ Vect and TeamPCP partner for ransomware campaigns Credentials harvested through 
   - Published: 2026-07-03T11:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/industrialized-cyberattacks/
   - Summary: Researchers warn that collaboration could lead to “unprecedented” ransomware attacks, as FBI also issues warning
-
-### Cluster 6a5eaa4b15 — score 18
-
-- Title: FortiBleed Campaign Harvests 110M+ Credentials, Fuels Ransomware Operations
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-07-02T20:55:24+00:00
-- Link: https://orca.security/resources/blog/fortibleed-credential-theft-vulnerability/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: CVE-2026-35616, Fortinet
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, ransomware_extortion, web_shell_backdoor, zero_day
-- affected_industries: manufacturing_industrial
-- affected_products: Fortinet
-- cve_ids: CVE-2026-35616
-- urgency_signals: actively_exploited, critical_cvss, zero_day
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, zero_day, web_shell_backdoor, active_exploitation
-- affected_industries: manufacturing_industrial
-- affected_products: Fortinet
-- cve_ids: CVE-2026-35616
-- urgency_signals: actively_exploited, zero_day, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-A critical credential-harvesting campaign dubbed “FortiBleed” has been exposed, systematically targeting over 430,000 FortiGate firewalls worldwide and exploiting CVE-2026-35616 (CVSS 9.1) in FortiClient EMS, enabling attackers to gain admin access, deploy packet sniffers, and fuel ransomware operations at scale. Due to the massive scope and active exploitation, immediate patching and credential rotation are required. Users […]
-```
-
-#### Full body
-
-```
-A critical credential-harvesting campaign dubbed “FortiBleed” has been exposed, systematically targeting over 430,000 FortiGate firewalls worldwide and exploiting CVE-2026-35616 (CVSS 9.1) in FortiClient EMS, enabling attackers to gain admin access, deploy packet sniffers, and fuel ransomware operations at scale. Due to the massive scope and active exploitation, immediate patching and credential rotation are required. Users should upgrade FortiClient EMS to version 7.4.7 or later, or apply the out-of-band hotfix for 7.4.5 and 7.4.6. All credentials on FortiGate-managed infrastructure should be rotated immediately, including VPN, RADIUS, NTLM, Kerberos, and admin accounts. Organizations should audit FortiGate admin accounts for the unauthorized “adminin” backdoor account, restrict FortiClient EMS port 8013 to trusted IP ranges, enable MFA on all FortiGate administrative interfaces, and hunt for FortigateSniffer indicators of compromise. Known C2 infrastructure (83.138.53.110 and associated Tor exit nodes) should be blocked. About FortiBleed The operation, attributed to a Russian-speaking initial access broker (IAB), scanned the entire internet-facing FortiGate attack surface and achieved admin-level access on 409 targets, with 354 suffering full domain compromise. The attackers deployed a custom Golang packet sniffer called “FortigateSniffer” on approximately 12,000 devices, abusing FortiOS’s native diagnose sniffer packet command to passively intercept authentication traffic across 24 protocols. This approach allowed the operators to harvest RADIUS, NTLM, and Kerberos credentials at scale, amassing over 110 million credentials without triggering traditional intrusion detection. SOCRadar’s Threat Research Unit directly linked the FortiBleed operation to the INC Ransom and Lynx ransomware-as-a-service (RaaS) groups. An operator with access to FortiBleed infrastructure was discovered actively logged into both INC and Lynx ransomware negotiation panels, and victim data overlapped between the campaigns. At least 12 confirmed ransomware deployments with hundreds of encrypted endpoints resulted from FortiBleed-sourced initial access. About CVE-2026-35616 In parallel, CVE-2026-35616 (CVSS 9.1), an improper access control flaw in Fortinet FortiClient EMS versions 7.4.5 and 7.4.6, is being actively exploited in the wild. Arctic Wolf observed attackers exploiting this vulnerability to modify remote access profiles, inject malicious PowerShell into VPN configuration scripts, and deploy the EKZ Stealer infostealer (disguised as “FortiEndpoint_Patch.exe”) across managed endpoint fleets. EKZ Stealer extracts credentials from Chrome, Edge, and Firefox, including bypassing Chromium’s encrypted password storage. CISA added CVE-2026-35616 to its Known Exploited Vulnerabilities catalog on April 6, 2026. No authentication is required to exploit this issue. Affected Systems The following components are affected: FortiGate firewalls (all internet-facing deployments) and FortiClient EMS versions 7.4.5 through 7.4.6. These components are widely deployed across enterprise environments, particularly in manufacturing, technology, and logistics sectors in LATAM and APAC. Organizations using FortiGate-managed VPN or remote access infrastructure are at heightened risk, as credentials may have been passively captured via the sniffer component. Investigators also assess the threat actors may possess an undisclosed Nextcloud zero-day, and SOCRadar discovered artifacts indicating potential targeting of Citrix remote access infrastructure. Risk Impact At the time of writing, FortiBleed is confirmed as an active campaign with at least 12 ransomware deployments traced back to its access brokering, and CVE-2026-35616 has been added to CISA’s KEV catalog confirming active exploitation. The severity, scale, and direct link to ransomware operations make this threat exceptionally high risk, especially for organizations with internet-facing Fortinet infrastructure. Succ
-```
-
-#### Corroborating sources (3)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: FortiBleed Campaign Harvests 110M+ Credentials, Fuels Ransomware Operations
-  - Published: 2026-07-02T20:55:24+00:00
-  - Link: https://orca.security/resources/blog/fortibleed-credential-theft-vulnerability/
-  - Summary: A critical credential-harvesting campaign dubbed “FortiBleed” has been exposed, systematically targeting over 430,000 FortiGate firewalls worldwide and exploiting CVE-2026-35616 (CVSS 9.1) in FortiClient EMS, enabling attackers to gain admin access, deploy packet sniffers, and fuel ransomware operations at scale. Due to the massive scope and active exploitation, immediate patching and credential rotation are required. Users […]
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
-  - Published: 2026-07-02T19:11:33+00:00
-  - Link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
-  - Summary: After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations
-  - Published: 2026-07-02T08:00:49+00:00
-  - Link: https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html
-  - Summary: The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. "An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment
 
 ### Cluster 1d65faccbc — score 17
 
@@ -1271,8 +1251,8 @@ We’re back, melting - we’ve tried shouting, screaming, and throwing things a
 - Published: 2026-07-02T13:32:24+00:00
 - Link: https://www.rapid7.com/blog/post/so-red-teaming-offensive-methodology-multi-agent-ai-architecture
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 6
+- Member count: 10
+- Corroborating source count: 7
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
@@ -1300,7 +1280,7 @@ Threat actors are integrating AI into their exploit chains, accelerating reconna
 Back to Blog Security Operations Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture Jacob Steadman Jul 2, 2026 | Last updated on Jul 2, 2026 | 9 min read DISCOVER VECTOR COMMAND Threat actors are integrating AI into their exploit chains, accelerating reconnaissance, automating vulnerability discovery, and scaling social engineering in ways that compress the timeline between initial access and impact. The barrier to sophisticated offensive operations is dropping fast. Rapid7's Red Team is doing the same. Over the past year we formalized our approach into a structured multi-agent system that follows our penetration testing methodology end-to-end from scoping an engagement to validating findings to generating reports. We built it as a production system, not a proof of concept, and the process of designing and operating it taught us as much about defending against AI-enhanced attacks as it did about conducting them. The system also proved its value as part of Anthropic's Project Glasswing initiative . Glasswing is a program that gives leading security companies early access to frontier cyber models before they reach wider availability, enabling security research that stays ahead of malicious adoption. We infused our red team architecture with Claude Mythos, applying it across penetration testing, vulnerability research, and red team operations. The combination of our formalized multi-agent architecture with a frontier-class model produced exceptional results in vulnerability analysis and exploit chain development. This validated both the architecture's design and the importance of getting these capabilities into defenders' hands first. This post covers the architecture, the key design decisions, and what we learned along the way. Why Rapid7's Red Team built a multi-agent system Penetration testing is labor-intensive by nature as a significant portion of any engagement is spent on structured, repeatable work like enumerating attack surfaces, tracing data flows through source code, checking security headers, documenting findings in a consistent format. The actual judgement — deciding what to test next, assessing exploitability, understanding business impact — remains deeply human. The opportunity was straightforward: offload the mechanical work to AI agents while maintaining human insight at decision points where it matters most. Those decision points are where engagements succeed or fail: scoping what's in and out of bounds, choosing which attack paths to pursue based on business context, assessing whether a vulnerability is genuinely exploitable in a given environment, deciding when a finding is significant enough to escalate, and interpreting results in ways that translate to actionable risks. None of that is mechanical, it requires experience, judgement, and context that models routinely get wrong. And as an internal security team, we don't just report vulnerabilities, we're accountable for coverage. If something ships with an exploitable flaw we missed, that's on us. The bar for confidence is high, and that's why humans stay in the loop at every point that matters. We also had a secondary motivation. Building a system that follows a structured offensive methodology gives us direct architectural insight into how AI agents behave in adversarial contexts including the capabilities, the limitations, and the failure modes. That understanding now informs how we assess and secure Rapid7's own AI-powered products. The architecture: Orchestration, not autonomy The system isn't a single monolithic agent but a team of specialist agents coordinated by an orchestrator that mirrors how human red teams operate. The orchestrator doesn't test anything. It assesses the current state of the engagement, determines what needs to happen next, routes work to the appropriate specialist, and processes the results. Specialist agents handle enumeration, code review, dynamic testing, and reporting.Each with defined inputs, outp
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (7)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture
@@ -1322,6 +1302,11 @@ Back to Blog Security Operations Formalizing Red Teaming Offensive Methodology a
   - Published: 2026-07-06T05:40:08+00:00
   - Link: https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
   - Summary: Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger . The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to table.foreign_keys and hence needed to land for the 4.0 stable release. sqlite-utils also now follows SQLite's convention for case insensitive column names, which turned out to touch a bunch of different places at once . Tags: projects , sqlite , sqlite-utils , annotated-release-notes , gpt , claude-mythos-fable
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers
+  - Published: 2026-07-08T17:02:12+00:00
+  - Link: https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html
+  - Summary: Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack. Decrypting browser credentials, listing what sits in Windows' credential store,
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: EU official’s phone infected with Pegasus
   - Published: 2026-07-06T04:21:28+00:00
@@ -1517,6 +1502,45 @@ SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation  Ra
   - Published: 2026-07-02T05:46:45+00:00
   - Link: https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue
+
+### Cluster 9814bfc594 — score 12
+
+- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-08T17:20:21+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+```
+
+#### Full body
+
+```
+Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+  - Published: 2026-07-08T17:20:21+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
 
 ### Cluster f0cefbafc4 — score 12
 
@@ -2479,7 +2503,6 @@ Page content We’re running Patch the Planet , an ongoing collaboration with Op
 
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach, zero_day
-- actor_attribution: ShinyHunters
 - affected_industries: critical_infrastructure, telecommunications
 - urgency_signals: zero_day
 - content_type: incident_report
@@ -2487,7 +2510,6 @@ Page content We’re running Patch the Planet , an ongoing collaboration with Op
 
 #### Primary article taxonomy
 - threat_categories: zero_day, data_breach
-- actor_attribution: ShinyHunters
 - affected_industries: critical_infrastructure, telecommunications
 - urgency_signals: zero_day
 - content_type: incident_report
@@ -2502,7 +2524,7 @@ Japanese telecommunications giant KDDI says that millions of people had their em
 #### Full body
 
 ```
-Telco giant KDDI says data breach affects over 12 million people By Sergiu Gatlan July 8, 2026 07:24 AM 0 Japanese telecommunications giant KDDI revealed that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. KDDI is the second-largest mobile telecommunications provider in Japan, with 45,000 employees and annual revenue of $32.4 billion. The company disclosed last month that it blocked the attackers' access and implemented defensive measures after discovering the incident on June 17, and revealed that the breach impacted the STNet, JCOM, Chubu Telecommunications C, NIFTY Corporation, and BIGLOBE ISP operators. KDDI added that the incident may have exposed the email addresses and passwords of up to 14,22 million current and former customers, as well as those belonging to inactive accounts. It also noted that some passwords were stored in hashed and/or encrypted form (making them harder to use for account hijacking), but did not specify how many accounts had passwords stored in plaintext or what type of encryption was used. In a July 6 update, KDDI revealed that the attackers breached the platform on May 16 after exploiting a zero-day vulnerability in a third-party software. "As a result of our investigation, as of June 17, 2026, the date of our confirmation, this vulnerability was not recognized by the software vendor," KDDI said . "The software vendor has reported this vulnerability to public authorities and is working toward disclosing the information." Over 12 million email addresses exposed The telecom giant is now working to secure affected email accounts after attackers gained access to the email addresses of 12,233,087 people and the passwords of 7,616,173 others. "We are currently working to change the passwords of affected customers' email accounts. To date, many customers, primarily those who regularly use email services, have already changed their passwords," it said. "In addition, to ensure the security of customers who do not frequently use email services, we are working to have ISP providers complete mandatory password changes within one or two days." Since the attack, KDDI has also deployed Endpoint Detection and Response (EDR) software to help detect future breach attempts and said that, on June 23, a forensic audit confirmed that the exploited vulnerability had been addressed and that the systems aren't affected by other security issues. KDDI also notified Japan's Personal Information Protection Commission and the Ministry of Internal Affairs and Communications after discovering the breach, and is currently working with affected ISPs to implement security measures to mitigate the risks arising from this exposure. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Insurance giant Aflac discloses data breach after subsidiary hack Data breach exposes up to 14.2 million email logins at six ISPs Japanese energy firm loses drive with data of 10.9 million clients Accenture confirms breach after hacker offers stolen data for sale Medtronic notifies customers impacted by ShinyHunters data breach
+Telco giant KDDI says data breach affects over 12 million people By Sergiu Gatlan July 8, 2026 07:24 AM 0 Japanese telecommunications giant KDDI revealed that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. KDDI is the second-largest mobile telecommunications provider in Japan, with 45,000 employees and annual revenue of $32.4 billion. The company disclosed last month that it blocked the attackers' access and implemented defensive measures after discovering the incident on June 17, and revealed that the breach impacted the STNet, JCOM, Chubu Telecommunications C, NIFTY Corporation, and BIGLOBE ISP operators. KDDI added that the incident may have exposed the email addresses and passwords of up to 14,22 million current and former customers, as well as those belonging to inactive accounts. It also noted that some passwords were stored in hashed and/or encrypted form (making them harder to use for account hijacking), but did not specify how many accounts had passwords stored in plaintext or what type of encryption was used. In a July 6 update, KDDI revealed that the attackers breached the platform on May 16 after exploiting a zero-day vulnerability in a third-party software. "As a result of our investigation, as of June 17, 2026, the date of our confirmation, this vulnerability was not recognized by the software vendor," KDDI said . "The software vendor has reported this vulnerability to public authorities and is working toward disclosing the information." Over 12 million email addresses exposed The telecom giant is now working to secure affected email accounts after attackers gained access to the email addresses of 12,233,087 people and the passwords of 7,616,173 others. "We are currently working to change the passwords of affected customers' email accounts. To date, many customers, primarily those who regularly use email services, have already changed their passwords," it said. "In addition, to ensure the security of customers who do not frequently use email services, we are working to have ISP providers complete mandatory password changes within one or two days." Since the attack, KDDI has also deployed Endpoint Detection and Response (EDR) software to help detect future breach attempts and said that, on June 23, a forensic audit confirmed that the exploited vulnerability had been addressed and that the systems aren't affected by other security issues. KDDI also notified Japan's Personal Information Protection Commission and the Ministry of Internal Affairs and Communications after discovering the breach, and is currently working with affected ISPs to implement security measures to mitigate the risks arising from this exposure. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Insurance giant Aflac discloses data breach after subsidiary hack Data breach exposes up to 14.2 million email logins at six ISPs Japanese energy firm loses drive with data of 10.9 million clients Accenture confirms breach after hacker offers stolen data for sale 3 Ways AI Powers Service Desk Attacks and How to Prevent Them
 ```
 
 #### Corroborating sources (1)
@@ -2698,6 +2720,92 @@ Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Device
   - Link: https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
   - Summary: Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on
 
+### Cluster b0672554e3 — score 9
+
+- Title: Best ASPM Tools in 2026: The Application Security Posture Management Buyer’s Guide
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-08T17:40:00+00:00
+- Link: https://orca.security/resources/blog/best-aspm-tools/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: cloud_abuse
+- affected_industries: government, retail_ecommerce
+- tools_used: Atlassian Jira
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: cloud_abuse
+- affected_industries: government, retail_ecommerce
+- tools_used: Atlassian Jira
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is ASPM (Application Security Posture Management)? How ASPM differs from a pile of standalone AppSec scanners Why ASPM Tools Matter: Tool Sprawl, Alert Noise & Unprovable Risk What ASPM Tools Do: Core Capabilities Aggregate & normalize findings across the SDLC (SAST, SCA, DAST, secrets, IaC, containers) Correlate & deduplicate to a single application risk view Reachability- & exploitability-based risk prioritization (not just alert counts) Code-to-cloud correlation & attack-path context Remediation workflows, ownership routing & developer feedback (PR/IDE/ticketing) Policy, governance & compliance reporting What to Look For in ASPM Tools and Vendors Agentless vs. agent/pipeline-heavy deployment & time-to-value Breadth of native scanners vs. orchestration-only (does it test, or just ingest?) Reachability / exploitability analysis & prioritization quality Code-to-cloud (runtime & multi-cloud) context Developer experience & workflow integrations (CI/CD, IDE, Jira, SIEM) Coverage of AI-generated code & LLM/AI components The 10 Best ASPM Tools in 2026 Orca Security: agentless, CNAPP-native ASPM with code-to-cloud attack-path context Wiz Cycode Snyk Checkmarx One Apiiro OX Security Legit Security Endor Labs Palo Alto Prisma Cloud / Cortex Cloud ASPM Tools Compared: Side-by-Side ASPM vs. Adjacent Categories (Quick Reference) ASPM vs. AST (SAST/SCA/DAST) ASPM vs. ASOC ASPM vs. CSPM ASPM vs. CNAPP Who Needs ASPM? Use Cases by Team How to Choose the Right ASPM Solution How Orca Approaches ASPM Frequently Asked Questions about ASPM Tools Key Takeaways An Application Security Posture Management (ASPM) tool unifies findings from every AppSec scanner you run, correlates them to what is actually deployed, and ranks the risks an attacker could reach, so triage stops being a guessing game. The “best ASPM tools” market is noisy, and most roundups pad the list with single-function SAST or SCA products. A curated, current shortlist matters more than a long one. ASPM tools separate on two axes: whether they only ingest other scanners’ output or add native testing and cloud context, and whether they prioritize by reachability or by raw alert counts. Read the criteria before the rankings. Judging every vendor against one rubric is the difference between a buying decision and ten marketing pages. Orca delivers agentless ASPM through SideScanning™, correlating application findings to the running, internet-exposed workloads and sensitive data around them, so a code-level risk surfaces with its full code-to-cloud attack path attached. A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An application security posture management (ASPM) platform closes that gap. It ingests every scanner’s output, deduplicates and correlates the findings to a single application, and ranks them by what is reachable and exposed. The catch is the market. Search for the best ASPM tools and you get a wall of near-identical listicles, many padding the count with legacy point scanners that test one thing and unify nothing. Underneath the noise, the tools that win in 2026 separate on two things: whether they add real context to the alerts they collect, and whether they connect a code-level finding to the deployed, reachable asset it affects. This guide gives you the criteria that differentiate ASPM tools, a current ranking of the ten best options for 2026, a side-by-side comparison table, use cases by team, and decision guidance by org profile. Criteria come first, on purpose, so you weigh every vendor against one rubric instead of ten sales pages. What Is ASPM (Application Security Posture Management)? Application Security Pos
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Best ASPM Tools in 2026: The Application Security Posture Management Buyer’s Guide
+  - Published: 2026-07-08T17:40:00+00:00
+  - Link: https://orca.security/resources/blog/best-aspm-tools/
+  - Summary: Key Takeaways A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An […]
+
+### Cluster 80836199e6 — score 9
+
+- Title: Best CSPM Tools in 2026: The Cloud Security Posture Management Buyer’s Guide
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-08T17:30:00+00:00
+- Link: https://orca.security/resources/blog/best-cspm-tools/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Google Cloud, Microsoft Defender, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Palo Alto Networks, Google Cloud, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is CSPM (Cloud Security Posture Management)? What Are CSPM Tools? How CSPM works Why CSPM Tools Matter in 2026 Where CSPM fits vs. CWPP, CIEM, DSPM, and CNAPP What to Look For in CSPM Tools and Vendors Agentless vs. agent-based coverage & deployment speed Context-aware risk prioritization & attack-path analysis Multi-cloud & platform coverage Misconfiguration detection accuracy + compliance framework coverage Automated remediation & DevSecOps / IaC (shift-left) integration Integrations & workflow fit The 10 Best CSPM Tools in 2026 Orca Security: agentless CSPM with unified attack-path context Wiz Palo Alto Networks: Prisma Cloud (Cortex Cloud) Microsoft Defender for Cloud CrowdStrike Falcon Cloud Security Check Point CloudGuard Trend Micro (Trend Vision One: Cloud Security) SentinelOne Singularity Cloud Security Aqua Security Tenable Cloud Security CSPM Tools Compared: Side-by-Side Open-Source CSPM Tools (and Their Limits) How to Choose the Right CSPM Solution How Orca Approaches Cloud Security Posture Management Frequently Asked Questions about CSPM Tools Key Takeaways A CSPM tool continuously discovers cloud resources, checks them against security and compliance policy, and flags the misconfigurations that expose data, so posture drift gets caught before an attacker finds it. The “best CSPM tools” SERP is loud and repetitive. Most roundups rank the publisher first and pad the list with acquired, rebranded, or defunct products, so a current and accurate shortlist beats a long one. CSPM tools separate on two axes: agentless versus agent-based coverage, and context-aware attack-path prioritization versus a flat wall of severity alerts. Read the criteria before the rankings. Judging every vendor against one rubric is the difference between a buying decision and ten marketing pages. Orca delivers agentless CSPM through SideScanning™ across AWS, Azure, and Google Cloud with nothing to deploy, and ties each misconfiguration to the vulnerabilities, identities, and data around it so the reachable risks surface first. Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud security posture management (CSPM) tool exists to close that gap: it continuously discovers cloud resources, measures them against security and compliance policy, and surfaces the misconfigurations that leave data reachable. The catch is the market. Search for the best CSPM tools and you get a wall of near-identical listicles, most ranking the publisher first and padding the count with products that no longer stand alone. Underneath the noise, the tools that win in 2026 separate on two things: broad, agentless coverage that onboards a whole estate without installing software, and context-aware, attack-path prioritization that turns a flood of alerts into a short, ranked action list. This guide gives you the criteria that differentiate CSPM tools, a current ranking of the ten best options for 2026, a side-by-side comparison table, a look at open-source tools, and how the list was built. Criteria come first, on purpose, so you weigh every vendor against one rubric. What Is CSPM (Cloud Security Posture Management)? CSPM, or cloud security posture management, is a category of tooling that continuously monitors cloud environments for misconfigurations, policy violations, and compliance gaps, then helps teams fix them. It watches the cloud control plane, the configuration of your accounts, services, and resources, rather than the workloads running inside them. Configuration is where most self-inflicted cloud risk lives. A storage bucket set to public, a security group open to the internet, an unencrypted database, a disabled audit log, or an over-permissive access policy are all con
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Best CSPM Tools in 2026: The Cloud Security Posture Management Buyer’s Guide
+  - Published: 2026-07-08T17:30:00+00:00
+  - Link: https://orca.security/resources/blog/best-cspm-tools/
+  - Summary: Key Takeaways Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud […]
+
 ### Cluster 269da98edf — score 9
 
 - Title: Wiz ASM for any environment, any risk, everywhere
@@ -2738,53 +2846,6 @@ Wiz Pricing Get a demo Get a demo Modern web applications are running everywhere
   - Published: 2026-07-08T12:19:24+00:00
   - Link: https://www.wiz.io/blog/wiz-asm-auto-recon
   - Summary: Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.
-
-### Cluster 7c88582199 — score 9
-
-- Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-07T17:31:54+00:00
-- Link: https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain
-- affected_industries: financial_services, government, healthcare, legal_professional
-- affected_products: GitHub, Gitea, Linux kernel
-- urgency_signals: poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security
-- affected_industries: healthcare, financial_services, government, legal_professional
-- affected_products: Linux kernel, GitHub, Gitea
-- urgency_signals: poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-A government entity in the US reportedly paid a $1 million ransom to the Kairos cyber extortion group to prevent the public dissemination of information stolen in a May 2025 intrusion, Ransom-ISAC reports. A leaked negotiation transcript shows that the extortion group demanded $3 million in cryptocurrency from the victim organization, but eventually settled for $1 million. Kairos claimed to have stolen over 2 terabytes of data, or approximately 1.6 million files, after accessing the victim’s environment in a brute-force attack. During the three-week negotiation, the victim increased its offer from $100,000 to $430,000, but eventually accepted a hard deadline and the $1 million ransom, which was paid in Bitcoin on June 13. The attackers pressured the victim with public exposure, while maintaining control of deadlines and proof-of-access artifacts. “The affected entity’s responses are consistent with an organization buying time while legal, leadership, financial, and communications decisions were coordinated,” Ransom-ISAC notes. Advertisement. Scroll to continue reading. The anti-ransomware organization notes that the incident was an extortion attack and did not involve file-encrypting ransomware. The attackers’ proof-of-deletion appears selective, not comprehensive, but the listings they provided are consistent with a real file-server scrape. According to Ransom-ISAC, the provided proof of deletion could have been generated by erasing a copy of the data, and no mechanism to independently verify the deletion was provided. Ransom-ISAC did not name the affected organization, but the negotiation transcript identifies it as “a small county with very limited resources.” The affected government body reportedly appears to be Union County, Ohio. In September, the county notified (PDF) 45,487 individuals that their personal information was stolen in a ransomware attack in May 2025. The affected information included names, dates of birth, driver’s license/state ID numbers, passport numbers, Social Security numbers, financial account details, fingerprint information, medical information, and payment card details. SecurityWeek has emailed Union County for a statement on the matter and will update this article if the county responds. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and t
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
-  - Published: 2026-07-07T17:31:54+00:00
-  - Link: https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
-  - Summary: The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .
 
 ### Cluster ce59bc14b1 — score 9
 
@@ -2886,45 +2947,6 @@ Security & Identity Shift into high gear with agents: Securing the software-defi
   - Link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
   - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it
 
-### Cluster 73959b5e1a — score 8
-
-- Title: When AI agents look like attackers: what behavioral telemetry tells us
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-07-07T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
-```
-
-#### Full body
-
-```
-When AI agents look like attackers: what behavioral telemetry tells us An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries Written by Sophos X-Ops Threat Research Share This Link Copied AI coding agents (Claude Code, Cursor, Codex, and others built on skill packs such as GStack) are showing up in customer environments. They write code, install dependencies, automate browser tasks, and troubleshoot failures by trying alternative approaches. From the perspective of an endpoint behavioral engine, some of that activity is indistinguishable from typical activity seen on customer networks – or, in some cases, from actions that might be undertaken by an active adversary. This blog examines real telemetry from the Sophos CIXA behavioral engine on Windows to show where, and why, AI agents are triggering detection rules. The intent is not to call the activity malicious. It is to show that existing behavioral protections are working exactly as designed, and to illustrate the detection-engineering challenges ahead as agentic AI adoption accelerates. Telemetry overview The chart below shows the distribution of blocking rule hits over a seven-day period in June 2026, broken down by MITRE ATT&CK tactic and measured by unique machine count. Tactics related to Credential Access and Execution (respectively, the ninth and fourth tactic categories in the ATT&CK matrix) dominate. Note the presence of a non-ATT&CK bucket we call “Disrupt.” Figure 1: Blocking rule hits (by MITRE tactic) downstream of AI agents, measured by unique machine count The "Disrupt" bucket – not part of the official ATT&CK categories, but a useful catchall we are about to explain – represents AAP (Adaptive Attack Protection) rules, meaning devices where AAP engaged and blocked activity associated with AI agents. Every AAP hit we examined involved low-reputation executables the agents were trying to run. None appeared malicious, but all had low global reputation scores in SophosLabs telemetry. Switching to silent (non-blocking) rule hits gives a broader view of the activity AI agents perform that the behavioral engine considers worth tracking and grouping. Figure 2: Silent rule hits (by MITRE tactic) downstream of AI agents, measured by unique machine count The silent distribution is more spread out, with evasion and C2 categories prominent. This reflects agents performing network calls, spawning child processes, and using command-line patterns that overlap with adversary tradecraft. Credential access Moving back to the two largest ATT&CK categories we saw in our blocking-rule dataset, Credential Access rules account for the largest share of hits. The breakdown of specific rules is shown in Figure 3. Figure 3: Blocking credential-access rules downstream of AI agents, measured by unique machine count Creds_3b drives the bulk of these hits. This rule fires on the HMPA CookieGuard signal, which identifies processes using the Data Protection API (DPAPI) to decrypt browser credentials. GStack /browse and Creds_3b GStack is a widely adopted AI agent skill pack. One of its built-in skills, /browse, connects the agent to a Chromium daemon for browser automation. The Creds_3b telemetry shows that this skill chain uses PowerShell to decrypt sensitive browser data. The example in Figure 4 shows GStack /browse invoked by Claude Code. Figure 4: Activity tree showing the GStack /browse skill chain, from bash through browse.exe, node.exe, and into PowerShell The PowerShell command line confirms what the rule detected: powershell -NoProfile -Command "Add-Type -AssemblyName System.Security; $stdin = [Console]::In.ReadToEnd().Trim(); $bytes = [System.Convert]::FromBase64String($stdin); $dec = [System.Security.Cryptography.ProtectedData]::Unprotect($bytes, $null, [System.Security.Cryptography.DataProtectionScope]::CurrentUser); Write-Output ([System.Convert]::ToBase64String($dec))" In context, this is almost certainly benign: the agent is automati
-```
-
-#### Corroborating sources (1)
-
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: When AI agents look like attackers: what behavioral telemetry tells us
-  - Published: 2026-07-07T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
-  - Summary: <p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
-
 ### Cluster 5e0e552a1f — score 8
 
 - Title: Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3
@@ -2965,6 +2987,45 @@ Elastic's InfoSec team built AI agents on Elastic Workflows that investigate eve
   - Published: 2026-07-02T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows
   - Summary: Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.
+
+### Cluster 73959b5e1a — score 8
+
+- Title: When AI agents look like attackers: what behavioral telemetry tells us
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-07-07T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+<p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
+```
+
+#### Full body
+
+```
+When AI agents look like attackers: what behavioral telemetry tells us An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries Written by Sophos X-Ops Threat Research Share This Link Copied AI coding agents (Claude Code, Cursor, Codex, and others built on skill packs such as GStack) are showing up in customer environments. They write code, install dependencies, automate browser tasks, and troubleshoot failures by trying alternative approaches. From the perspective of an endpoint behavioral engine, some of that activity is indistinguishable from typical activity seen on customer networks – or, in some cases, from actions that might be undertaken by an active adversary. This blog examines real telemetry from the Sophos CIXA behavioral engine on Windows to show where, and why, AI agents are triggering detection rules. The intent is not to call the activity malicious. It is to show that existing behavioral protections are working exactly as designed, and to illustrate the detection-engineering challenges ahead as agentic AI adoption accelerates. Telemetry overview The chart below shows the distribution of blocking rule hits over a seven-day period in June 2026, broken down by MITRE ATT&CK tactic and measured by unique machine count. Tactics related to Credential Access and Execution (respectively, the ninth and fourth tactic categories in the ATT&CK matrix) dominate. Note the presence of a non-ATT&CK bucket we call “Disrupt.” Figure 1: Blocking rule hits (by MITRE tactic) downstream of AI agents, measured by unique machine count The "Disrupt" bucket – not part of the official ATT&CK categories, but a useful catchall we are about to explain – represents AAP (Adaptive Attack Protection) rules, meaning devices where AAP engaged and blocked activity associated with AI agents. Every AAP hit we examined involved low-reputation executables the agents were trying to run. None appeared malicious, but all had low global reputation scores in SophosLabs telemetry. Switching to silent (non-blocking) rule hits gives a broader view of the activity AI agents perform that the behavioral engine considers worth tracking and grouping. Figure 2: Silent rule hits (by MITRE tactic) downstream of AI agents, measured by unique machine count The silent distribution is more spread out, with evasion and C2 categories prominent. This reflects agents performing network calls, spawning child processes, and using command-line patterns that overlap with adversary tradecraft. Credential access Moving back to the two largest ATT&CK categories we saw in our blocking-rule dataset, Credential Access rules account for the largest share of hits. The breakdown of specific rules is shown in Figure 3. Figure 3: Blocking credential-access rules downstream of AI agents, measured by unique machine count Creds_3b drives the bulk of these hits. This rule fires on the HMPA CookieGuard signal, which identifies processes using the Data Protection API (DPAPI) to decrypt browser credentials. GStack /browse and Creds_3b GStack is a widely adopted AI agent skill pack. One of its built-in skills, /browse, connects the agent to a Chromium daemon for browser automation. The Creds_3b telemetry shows that this skill chain uses PowerShell to decrypt sensitive browser data. The example in Figure 4 shows GStack /browse invoked by Claude Code. Figure 4: Activity tree showing the GStack /browse skill chain, from bash through browse.exe, node.exe, and into PowerShell The PowerShell command line confirms what the rule detected: powershell -NoProfile -Command "Add-Type -AssemblyName System.Security; $stdin = [Console]::In.ReadToEnd().Trim(); $bytes = [System.Convert]::FromBase64String($stdin); $dec = [System.Security.Cryptography.ProtectedData]::Unprotect($bytes, $null, [System.Security.Cryptography.DataProtectionScope]::CurrentUser); Write-Output ([System.Convert]::ToBase64String($dec))" In context, this is almost certainly benign: the agent is automati
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: When AI agents look like attackers: what behavioral telemetry tells us
+  - Published: 2026-07-07T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
+  - Summary: <p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
 
 ### Cluster 689a007fbb — score 8
 
@@ -3007,6 +3068,53 @@ Table of contents Key Takeaways What Is a CWPP (Cloud Workload Protection Platfo
   - Link: https://orca.security/resources/blog/best-cwpp-tools/
   - Summary: Key Takeaways CWPP tools protect the workloads where your code actually runs, and where breaches actually land. That matters because cloud workloads no longer sit still: they spin up and tear down in minutes, span multiple clouds, and multiply faster than security teams can deploy and maintain agents. That shift is why the CWPP market […]
 
+### Cluster 7c88582199 — score 8
+
+- Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-07T17:31:54+00:00
+- Link: https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain
+- affected_industries: financial_services, government, healthcare, legal_professional
+- affected_products: GitHub, Gitea, Linux kernel
+- urgency_signals: poc_available
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security
+- affected_industries: healthcare, financial_services, government, legal_professional
+- affected_products: Linux kernel, GitHub, Gitea
+- urgency_signals: poc_available
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A government entity in the US reportedly paid a $1 million ransom to the Kairos cyber extortion group to prevent the public dissemination of information stolen in a May 2025 intrusion, Ransom-ISAC reports. A leaked negotiation transcript shows that the extortion group demanded $3 million in cryptocurrency from the victim organization, but eventually settled for $1 million. Kairos claimed to have stolen over 2 terabytes of data, or approximately 1.6 million files, after accessing the victim’s environment in a brute-force attack. During the three-week negotiation, the victim increased its offer from $100,000 to $430,000, but eventually accepted a hard deadline and the $1 million ransom, which was paid in Bitcoin on June 13. The attackers pressured the victim with public exposure, while maintaining control of deadlines and proof-of-access artifacts. “The affected entity’s responses are consistent with an organization buying time while legal, leadership, financial, and communications decisions were coordinated,” Ransom-ISAC notes. Advertisement. Scroll to continue reading. The anti-ransomware organization notes that the incident was an extortion attack and did not involve file-encrypting ransomware. The attackers’ proof-of-deletion appears selective, not comprehensive, but the listings they provided are consistent with a real file-server scrape. According to Ransom-ISAC, the provided proof of deletion could have been generated by erasing a copy of the data, and no mechanism to independently verify the deletion was provided. Ransom-ISAC did not name the affected organization, but the negotiation transcript identifies it as “a small county with very limited resources.” The affected government body reportedly appears to be Union County, Ohio. In September, the county notified (PDF) 45,487 individuals that their personal information was stolen in a ransomware attack in May 2025. The affected information included names, dates of birth, driver’s license/state ID numbers, passport numbers, Social Security numbers, financial account details, fingerprint information, medical information, and payment card details. SecurityWeek has emailed Union County for a statement on the matter and will update this article if the county responds. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and t
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
+  - Published: 2026-07-07T17:31:54+00:00
+  - Link: https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
+  - Summary: The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .
+
 ### Cluster e90c682b86 — score 8
 
 - Title: JadePuffer: The First Complete LLM-Driven Ransomware Attack
@@ -3020,7 +3128,6 @@ Table of contents Key Takeaways What Is a CWPP (Cloud Workload Protection Platfo
 
 #### Cluster taxonomy (union across members)
 - threat_categories: credential_theft, ransomware_extortion
-- affected_industries: critical_infrastructure
 - cve_ids: CVE-2025-3248
 - urgency_signals: preauth_unauth
 - content_type: incident_report
@@ -3028,7 +3135,6 @@ Table of contents Key Takeaways What Is a CWPP (Cloud Workload Protection Platfo
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, credential_theft
-- affected_industries: critical_infrastructure
 - cve_ids: CVE-2025-3248
 - urgency_signals: preauth_unauth
 - content_type: incident_report
@@ -3043,7 +3149,7 @@ An "agentic threat actor" successfully exploited a Langflow flaw to steal data f
 #### Full body
 
 ```
-Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulnerabilities & Threats News JadePuffer: The First Complete LLM-Driven Ransomware Attack An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems. Elizabeth Montalbano , Contributing Writer July 6, 2026 4 Min Read Source: Boy Wirat via Getty Images The first documented case of an end-to-end ransomware operation executed autonomously by a large language model (LLM) has successfully performed extortion without a human operator, ushering in a new era in cyberattacks that has long been expected by security experts. Researchers at Sysdig discovered a campaign run by an " agentic threat actor" (ATA) they call JadePuffer, which exploited a flaw in an Internet-facing Langflow deployment and then pivoted to a production database server to run an adaptive and fully automated ransomware campaign, according to a recent report . The attack unfolded across two distinct targets. First, JadePuffer exploited CVE-2025-3248 , an unauthenticated remote code execution (RCE) vulnerability affecting Langflow, which is an open source tool for building AI applications. Then JadePuffer breached its intended target: a separate Internet-exposed production server running a MySQL database and an Alibaba Nacos configuration service, according to Sysdig. Next, JadePuffer enumerated the database contents, exfiltrated selected data, deleted the database, and left an extortion note demanding payment in exchange for the stolen information. Related: Big Brand Jobs Scam Targets Marketing Pros' Google Accounts During the attack, the machine compromised during initial access was used in the compromise of the final target, with all payloads delivered as Base64-encoded Python through the Langflow RCE endpoint. JadePuffer Unsophisticated, Yet Adaptable None of JadePuffer's specific attack techniques were novel or sophisticated, says Johan Edholm, co-founder of Detectify, who calls the attack "more evolution than invention." "Exploiting an exposed service, harvesting credentials, moving laterally, abusing default configurations, and destroying databases are all familiar parts of the playbook," he tells Dark Reading. What's remarkable, however, is that these tactics were strung together by an AI model into a complete ransomware operation against an organization's exposed Internet-facing infrastructure, according to Sysdig. This is unlike traditional ransomware , which relies on prewritten scripts or operator intervention during key stages of an intrusion. The most striking aspect was that "JadePuffer's own payloads were self-narrating," Michael Clark, Sysdig's director of threat research, wrote in the report. "They contained natural language reasoning, target prioritization, and the kind of detailed annotations that human operators don't often write but LLM-generated code produces reflexively." Sysdig observed an operation that adapted in real time, re-attempting failed steps within refined parameters in such a way that the attack went from a failed login to a working fix in 31 seconds, according to the post. ‍ Related: 'BusySnake' Infostealer Slithers Into Critical Infrastructure Networks AI-Driven Ransomware Was Inevitable Indeed, JadePuffer demonstrates how AI agents are evolving from productivity tools into autonomous offensive capabilities, representing a paradigm shift in how extortion-based attacks are carried out, according to Clark. "An LLM agent can chain reconnaissance, credential theft, lateral movement, persistence, and destruction without the operator possessing deep expertise in any one step," he wrote. "Tradecraft that once implied a capable human now implies a capable model." Since the introduction of LLMs, security experts have predicted that ransomware and other cyberattacks would inevitably be entirely generated by AI . In fact, last August, security researchers believed they discovered the first
+Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulnerabilities & Threats News JadePuffer: The First Complete LLM-Driven Ransomware Attack An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems. Elizabeth Montalbano , Contributing Writer July 6, 2026 4 Min Read Source: Boy Wirat via Getty Images The first documented case of an end-to-end ransomware operation executed autonomously by a large language model (LLM) has successfully performed extortion without a human operator, ushering in a new era in cyberattacks that has long been expected by security experts. Researchers at Sysdig discovered a campaign run by an " agentic threat actor" (ATA) they call JadePuffer, which exploited a flaw in an Internet-facing Langflow deployment and then pivoted to a production database server to run an adaptive and fully automated ransomware campaign, according to a recent report . The attack unfolded across two distinct targets. First, JadePuffer exploited CVE-2025-3248 , an unauthenticated remote code execution (RCE) vulnerability affecting Langflow, which is an open source tool for building AI applications. Then JadePuffer breached its intended target: a separate Internet-exposed production server running a MySQL database and an Alibaba Nacos configuration service, according to Sysdig. Next, JadePuffer enumerated the database contents, exfiltrated selected data, deleted the database, and left an extortion note demanding payment in exchange for the stolen information. Related: Vidar Infostealer Hammers SMBs via Malvertising Campaign During the attack, the machine compromised during initial access was used in the compromise of the final target, with all payloads delivered as Base64-encoded Python through the Langflow RCE endpoint. JadePuffer Unsophisticated, Yet Adaptable None of JadePuffer's specific attack techniques were novel or sophisticated, says Johan Edholm, co-founder of Detectify, who calls the attack "more evolution than invention." "Exploiting an exposed service, harvesting credentials, moving laterally, abusing default configurations, and destroying databases are all familiar parts of the playbook," he tells Dark Reading. What's remarkable, however, is that these tactics were strung together by an AI model into a complete ransomware operation against an organization's exposed Internet-facing infrastructure, according to Sysdig. This is unlike traditional ransomware , which relies on prewritten scripts or operator intervention during key stages of an intrusion. The most striking aspect was that "JadePuffer's own payloads were self-narrating," Michael Clark, Sysdig's director of threat research, wrote in the report. "They contained natural language reasoning, target prioritization, and the kind of detailed annotations that human operators don't often write but LLM-generated code produces reflexively." Sysdig observed an operation that adapted in real time, re-attempting failed steps within refined parameters in such a way that the attack went from a failed login to a working fix in 31 seconds, according to the post. ‍ Related: Big Brand Jobs Scam Targets Marketing Pros' Google Accounts AI-Driven Ransomware Was Inevitable Indeed, JadePuffer demonstrates how AI agents are evolving from productivity tools into autonomous offensive capabilities, representing a paradigm shift in how extortion-based attacks are carried out, according to Clark. "An LLM agent can chain reconnaissance, credential theft, lateral movement, persistence, and destruction without the operator possessing deep expertise in any one step," he wrote. "Tradecraft that once implied a capable human now implies a capable model." Since the introduction of LLMs, security experts have predicted that ransomware and other cyberattacks would inevitably be entirely generated by AI . In fact, last August, security researchers believed they discovered the first AI-driven ran
 ```
 
 #### Corroborating sources (1)
@@ -3054,50 +3160,55 @@ Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulner
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
   - Summary: An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.
 
-### Cluster 076461d2d8 — score 8
+### Cluster 8a5bcf1285 — score 8
 
-- Title: 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-08T06:16:44+00:00
-- Link: https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+- Title: FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-02T19:11:33+00:00
+- Link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-43499
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Fortinet
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-10702, CVE-2026-31431, CVE-2026-43499, CVE-2026-46242, CVE-2026-53166
-- urgency_signals: actively_exploited
+- threat_categories: credential_theft, ransomware_extortion, zero_day
+- affected_products: Fortinet
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-43499, CVE-2026-53166, CVE-2026-46242, CVE-2026-31431, CVE-2026-10702
-- urgency_signals: actively_exploited
+- threat_categories: ransomware_extortion, credential_theft, zero_day
+- affected_products: Fortinet
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network
+After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.
 ```
 
 #### Full body
 
 ```
-15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros  Swati Khandelwal  Jul 08, 2026 Vulnerability / Cloud Security Researchers at Nebula Security have disclosed GhostLock ( CVE-2026-43499 ), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network access; ordinary threading calls from any local program are enough. Nebula turned it into a working root exploit that is 97% reliable in its testing and also escapes containers, and says Google awarded the team $92,337 through its kernelCTF bug-bounty program. No one is known to be exploiting it in the wild, but Nebula has published working exploit code , so anyone can now run it. Patching is the priority. How the bug works The kernel has a system for keeping an urgent task from getting stuck behind a trivial one. Part of it is a cleanup step that tidies up after a task once it stops waiting. Normally, that works fine. But in one rare case, where a lock operation hits a dead end and has to back out, the cleanup runs at the wrong moment and wipes the wrong task's record. That mistake leaves the kernel holding a "note" that points at a scrap of memory it has already thrown away and reused. Trusting that stale pointer is the whole bug, the kind of slip known as a use-after-free. From there, Nebula's team chained a few clever steps to turn that small mistake into full control, ending by tricking the kernel into running their own code as the all-powerful "root" user. On their test machine, it took about five seconds. The flaw has been in Linux since 2011 and was fixed in April, with distributions now rolling out the patch ( 3bfdc63936dd ). It affects nearly every Linux build and scores 7.8 out of 10 (high, not critical) because an attacker needs to already be logged in to the machine. Nebula found it with VEGA, its AI-driven bug-hunting tool. What to do Install your distribution's current kernel, not just the first patched build. The original fix introduced a separate crash bug (CVE-2026-53166), and the cleanup for that was still settling upstream in early July, so early builds may lack the final version. There is no complete workaround, since the operations that trigger it are routine for any local process. Availability is uneven so far. Ubuntu, for example, had patched its newest release and some cloud kernels, but as of early July still listed 24.04, 22.04, and 20.04 LTS as vulnerable or in progress. Check your distribution's advisory and confirm the fixed package version rather than assuming one is waiting. Two build options, RANDOMIZE_KSTACK_OFFSET and STATIC_USERMODE_HELPER, make this exploit harder, but they are mitigations, not fixes. Patch shared and multi-tenant machines first, cloud servers, containers, and CI runners, where an attacker is most likely to find the local foothold this bug needs. Not the only kernel-to-root bug this year GhostLock joins a run of 2026 Linux privilege-escalation bugs, several of which share a detail: an automated tool found them. VEGA found GhostLock; days earlier, researchers disclosed Bad Epoll (CVE-2026-46242), a close cousin that also turns an unprivileged user into root. It was proven through kernelCTF and, unusually for this class of bug, works on Android. Bad Epoll sits in the same stretch of code where Anthropic's Mythos model was credited with a related flaw. What they share is old, heavily used kernel machinery that few had reread in years, until automated tools started combing it. Futex priority inheritance dates to 2011. The class is not theoretical: another 2026 bug, Copy Fail (CVE-2026-31431), is already on CISA's list of vulnerabilities seen in real-world attacks. GhostLock is also the second half of a chain Nebula calls IonStack . The first half, CVE-2026-10702, is
+Threat Intelligence Cyber Risk Vulnerabilities & Threats Cyberattacks & Data Breaches News FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug. Rob Wright , Senior News Director , Dark Reading July 2, 2026 4 Min Read Source: Just_Super via Getty Images UPDATE The initial access broker (IAB) operation behind the credential-harvesting FortiBleed campaign is working in concert with ransomware actors, indicating the victims of the massive operation are now facing an even greater threat. Research published by SOCRadar this week connects FortiBleed actors with two ransomware-as-a-service (RaaS) gangs, Inc Ransom and Lynx. SOCRadar researchers discovered an operator behind the campaign's infrastructure that was actively logged into the ransom negotiation panels for both groups, and "engaging directly with ransom demands." "Finding a single operator working both panels, using infrastructure traceable back to FortiBleed, is the clearest evidence yet that FortiGate credentials harvested through this campaign are being handed off, or used directly, for ransomware deployment," according to the SOCRadar blog post . The connection to ransomware gangs marks the latest development in this saga. The attacks against insecure Fortinet FortiGate firewalls were initially discovered last month by security consultant Volodymyr "Bob" Diachenko. SOCRadar then later found that the attacks were part of a global campaign it dubbed "FortiBleed," which had compromised thousands of devices and used a Golang-based sniffer to turn firewalls into credential stealers . Related: Safe Events Start With Threat Intel & Digital Security The initial-access campaign targeted 430,000 FortiGate devices across the globe. SOCRadar said the FortiBleed sniffer is currently installed on approximately 12,000 FortiGate firewalls, though previous research indicated the IAB had credentials for more than 30,000 devices. Ransomware Attacks Next Up for FortiBleed Victims? SOCRadar's findings stemmed from an "operational security lapse" in the FortiBleed campaign's infrastructure, which allowed researchers to gain access to the IAB operation's internal files, logs, and operational documentation. In addition to the FortiBleed operator's activity, SOCRadar's Threat Research Unit (STRU) found an Inc-linked open directory that contained datasets with overlapping victims. The STRU also discovered an internal tracking document that contained the campaign's list of FortiGate targets , including data about which credentials were used, which networks were accessed, and whether ransomware was deployed. The STRU found that threat actors had achieved admin-level access on 409 targets. "On 354 of those, the actor completed the full attack chain: VPN compromise, access to the domain controller, and domain admin," according to the vendor. "STRU has confirmed at least 12 ransomware deployments stemming from this access, with hundreds of endpoints encrypted across affected organizations." Related: China-Linked Group Targets Southeast Asia Critical Systems SOCRadar chief information security officer (CISO) Ensar Seker tells Dark Reading that while the company has not yet seen widespread ransomware deployment directly tied to FortiBleed attacks, "access to perimeter security devices can create a clear pathway for ransomware groups, so organizations should treat exposure as a serious pre-ransomware intrusion risk." To date, he says most of the activity we have observed is "more consistent with credential theft, victim profiling, access brokering, and data theft-extortion risk," with SOCRadar's current assessment being that the IAB group is separate from the Inc and Lynx RaaS gangs, who are likely paying for the access. "The evidence points to an access-supply layer where compromised Fortinet environments and related victim data are
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
+  - Published: 2026-07-02T19:11:33+00:00
+  - Link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
+  - Summary: After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros
-  - Published: 2026-07-08T06:16:44+00:00
-  - Link: https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
-  - Summary: Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network
+  - Title: FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations
+  - Published: 2026-07-02T08:00:49+00:00
+  - Link: https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html
+  - Summary: The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. "An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment
 
 ### Cluster 9799cce73c — score 8
 
