@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-08T18:23:17.642717+00:00
+- Generated: 2026-07-08T20:25:33.445232+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 299
+- Total items in window: 298
 - Total clusters raw: 137
 - Total clusters in packet: 58
 - Dropped low score: 79
@@ -80,6 +80,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -89,19 +99,9 @@
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+  - In window count: 3
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 2
@@ -115,26 +115,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -160,11 +160,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -180,16 +175,16 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 19
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -200,6 +195,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -210,21 +210,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 20
+  - In window count: 2
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -235,21 +230,16 @@
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -260,93 +250,103 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 14
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 18
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 19
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -359,27 +359,17 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 16
+  - In window count: 15
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -390,23 +380,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,13 +410,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -429,11 +419,21 @@
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
-  - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+  - In window count: 49
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
-  - Item count: 100
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
   - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
@@ -516,13 +516,13 @@
   - threat_categories: active_exploitation
   - affected_industries: government
   - cve_ids: CVE-2026-48282
-- Cluster IDs: 14c6bae9ae, 9abaf78b04, 8b38cd09cc
+- Cluster IDs: 14c6bae9ae, 8b38cd09cc, 9abaf78b04
 - Links:
   - https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/
   - https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
   - https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/
-  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
   - https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/
+  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
 
 ### Ubiquiti UniFi active exploitation
 - Anchor signal: Ubiquiti UniFi
@@ -567,39 +567,19 @@
 - Anchor signal: Kubernetes
 - Theme key: kubernetes
 - Cluster count: 3
-- Article count: 6
-- Cohesion: 0.2
+- Article count: 5
+- Cohesion: 0.247
 - Shared strong signals: Kubernetes
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - affected_products: Kubernetes
-- Cluster IDs: f851217332, df28d0fe5c, 689a007fbb
+- Cluster IDs: f851217332, 689a007fbb, 273a217a16
 - Links:
   - https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns
   - https://www.infosecurity-magazine.com/news/industrialized-cyberattacks/
-  - https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
-  - https://orca.security/resources/blog/cloud-workload-protection-best-practices/
   - https://orca.security/resources/blog/best-cwpp-tools/
-
-### CVE-2026-55255 exploitation activity
-- Anchor signal: CVE-2026-55255
-- Theme key: cve-2026-55255
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.386
-- Shared strong signals: CVE-2026-55255
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_industries: government
-  - cve_ids: CVE-2026-33017, CVE-2026-55255
-  - urgency_signals: actively_exploited
-- Cluster IDs: 50e57176eb, a8aada2f40
-- Links:
-  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
-  - https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/
+  - https://orca.security/resources/blog/cloud-workload-protection-best-practices/
 
 ### CVE-2026-33017 exploitation activity
 - Anchor signal: CVE-2026-33017
@@ -620,13 +600,32 @@
   - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
   - https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/
 
-### CVE-2026-48313 exploitation activity
-- Anchor signal: CVE-2026-48313
-- Theme key: cve-2026-48313
+### CVE-2026-55255 exploitation activity
+- Anchor signal: CVE-2026-55255
+- Theme key: cve-2026-55255
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.386
+- Shared strong signals: CVE-2026-55255
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_industries: government
+  - cve_ids: CVE-2026-33017, CVE-2026-55255
+  - urgency_signals: actively_exploited
+- Cluster IDs: 50e57176eb, a8aada2f40
+- Links:
+  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
+  - https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/
+
+### CVE-2026-48283 exploitation activity
+- Anchor signal: CVE-2026-48283
+- Theme key: cve-2026-48283
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48313
+- Shared strong signals: CVE-2026-48283
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -637,13 +636,13 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
 
-### CVE-2026-48283 exploitation activity
-- Anchor signal: CVE-2026-48283
-- Theme key: cve-2026-48283
+### CVE-2026-48313 exploitation activity
+- Anchor signal: CVE-2026-48313
+- Theme key: cve-2026-48313
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48283
+- Shared strong signals: CVE-2026-48313
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -688,10 +687,10 @@
   - affected_products: Cisco
   - cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
   - urgency_signals: no_patch_yet
-- Cluster IDs: b422f525d6, f6a2962dc9
+- Cluster IDs: f6a2962dc9, b422f525d6
 - Links:
-  - https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
   - https://blog.talosintelligence.com/uat-7810/
+  - https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
 
 ### ransomware extortion targeting Microsoft SharePoint
 - Anchor signal: Microsoft SharePoint
@@ -714,8 +713,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-9181 (first seen via Horizon3 Attack Research at 2026-07-08T17:00:06+00:00, cluster 8e87b71464)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -740,10 +738,10 @@
 - Pair: CVE-2026-34621 + Ubiquiti UniFi (cluster 9abaf78b04, first observation: True)
 - Pair: CVE-2026-48282 + Microsoft SharePoint (cluster 9abaf78b04, first observation: True)
 - Pair: CVE-2026-48282 + Ubiquiti UniFi (cluster 9abaf78b04, first observation: True)
-- Pair: CVE-2024-31989 + Kubernetes (cluster df28d0fe5c, first observation: True)
-- Pair: CVE-2025-55190 + Kubernetes (cluster df28d0fe5c, first observation: True)
-- Pair: CVE-2026-42880 + Kubernetes (cluster df28d0fe5c, first observation: True)
 - Pair: CVE-2025-11371 + Microsoft SharePoint (cluster 26d1b14830, first observation: True)
+- Pair: CVE-2024-12356 + Anthropic/Claude (cluster 8b4ae517ee, first observation: True)
+- Pair: CVE-2024-12356 + Linux kernel (cluster 8b4ae517ee, first observation: True)
+- Pair: CVE-2024-12356 + OpenAI/ChatGPT (cluster 8b4ae517ee, first observation: True)
 
 ### Drift (2)
 - **MuddyWater** (cluster 3ee1d54d9d)
@@ -757,12 +755,13 @@
   - Prior top industries: critical_infrastructure, financial_services, legal_professional
   - Prior top products: OpenAI/ChatGPT, SolarWinds, WordPress
 
-### Persistence (6)
+### Persistence (7)
+- cve_ids: CVE-2026-20230 (weeks observed: 5, cluster 8e87b71464)
 - actor_attribution: Silent Ransom Group (weeks observed: 5, cluster d7f247f4ee)
-- cve_ids: CVE-2026-20230 (weeks observed: 4, cluster 8e87b71464)
 - cve_ids: CVE-2026-33017 (weeks observed: 4, cluster 50e57176eb)
 - actor_attribution: TeamPCP (weeks observed: 4, cluster f851217332)
 - actor_attribution: MuddyWater (weeks observed: 4, cluster 3ee1d54d9d)
+- cve_ids: CVE-2026-47729 (weeks observed: 3, cluster 8e87b71464)
 - cve_ids: CVE-2026-45659 (weeks observed: 3, cluster 26d1b14830)
 
 ### Tier inversion (0)
@@ -846,7 +845,7 @@ A critical vulnerability (CVE-2026-48282, CVSS 10.0) was disclosed affecting Ado
 #### Full body
 
 ```
-A critical vulnerability ( CVE-2026-48282 , CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the RDS FILEIO endpoint at /CFIDE/main/ide.cfm?ACTION=FILEIO, where insufficient path validation leads to arbitrary file write on the underlying file system. By sending a specially crafted HTTP request, attackers can upload a CFML webshell containing <cfexecute> tags, potentially gaining full remote code execution as the ColdFusion service account (NT AUTHORITY\SYSTEM on Windows). No authentication is required to exploit this issue when RDS authentication is disabled. Adobe addressed this flaw on June 30, 2026 as part of security bulletin APSB26-68, which resolved 11 ColdFusion vulnerabilities total, seven of which carried a CVSS score of 10.0. Users should upgrade to ColdFusion 2025 Update 10 or ColdFusion 2023 Update 21 immediately. Organizations that have not yet patched should also disable RDS unless strictly required, block external access to /CFIDE/administrator and RDS endpoints via WAF or firewall rules, and hunt for unauthorized .cfm, .cfc, .cfml, or .jsp files in the ColdFusion web root. Affected Systems The following components are affected: Adobe ColdFusion 2025, update 9 and earlier, and Adobe ColdFusion 2023, update 20 and earlier. These components are deployed across enterprise web application stacks, including government, financial, and healthcare organizations, particularly when RDS is enabled and RDS authentication is left in its default disabled state. Other applications relying on ColdFusion as a backend runtime may also be impacted. Risk Impact At the time of writing, a detailed technical analysis from WatchTowr is publicly available and serves as a functional exploitation guide. KEVIntel honeypots detected active exploitation within two hours of that analysis going public, and both the Canadian Centre for Cyber Security and the Centre for Cybersecurity Belgium have issued alerts. Shadowserver tracks approximately 750 to 800 internet-facing ColdFusion instances, though the actual vulnerable subset depends on RDS configuration. Regardless, the maximum severity score, the lack of authentication requirements, and the speed of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to deploy webshells for persistent access, execute arbitrary commands on the underlying operating system, and pivot laterally through the network, leading to service disruption, data exposure, or full infrastructure compromise. Organizations should also rotate credentials on any ColdFusion server that was internet-facing since the June 30 disclosure date. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Adobe ColdFusion, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Related articles Webinar Recap Webinar Recap: Beyond the Perimeter: Mastering 3rd Party & Software Risk Jul 08, 2026 Webinar Recap Cloud Security LIVE 2026 Recap: What Security Practitioners Are Actually Doing With AI Jul 08, 2026 Cloud Security Learning Best CWPP Tools in 2026: The Cloud Workload Protection Platform Buyer's Guide Jul 07, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data in accordance with Orca Securit
+A critical vulnerability ( CVE-2026-48282 , CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the RDS FILEIO endpoint at /CFIDE/main/ide.cfm?ACTION=FILEIO, where insufficient path validation leads to arbitrary file write on the underlying file system. By sending a specially crafted HTTP request, attackers can upload a CFML webshell containing <cfexecute> tags, potentially gaining full remote code execution as the ColdFusion service account (NT AUTHORITY\SYSTEM on Windows). No authentication is required to exploit this issue when RDS authentication is disabled. Adobe addressed this flaw on June 30, 2026 as part of security bulletin APSB26-68, which resolved 11 ColdFusion vulnerabilities total, seven of which carried a CVSS score of 10.0. Users should upgrade to ColdFusion 2025 Update 10 or ColdFusion 2023 Update 21 immediately. Organizations that have not yet patched should also disable RDS unless strictly required, block external access to /CFIDE/administrator and RDS endpoints via WAF or firewall rules, and hunt for unauthorized .cfm, .cfc, .cfml, or .jsp files in the ColdFusion web root. Affected Systems The following components are affected: Adobe ColdFusion 2025, update 9 and earlier, and Adobe ColdFusion 2023, update 20 and earlier. These components are deployed across enterprise web application stacks, including government, financial, and healthcare organizations, particularly when RDS is enabled and RDS authentication is left in its default disabled state. Other applications relying on ColdFusion as a backend runtime may also be impacted. Risk Impact At the time of writing, a detailed technical analysis from WatchTowr is publicly available and serves as a functional exploitation guide. KEVIntel honeypots detected active exploitation within two hours of that analysis going public, and both the Canadian Centre for Cyber Security and the Centre for Cybersecurity Belgium have issued alerts. Shadowserver tracks approximately 750 to 800 internet-facing ColdFusion instances, though the actual vulnerable subset depends on RDS configuration. Regardless, the maximum severity score, the lack of authentication requirements, and the speed of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to deploy webshells for persistent access, execute arbitrary commands on the underlying operating system, and pivot laterally through the network, leading to service disruption, data exposure, or full infrastructure compromise. Organizations should also rotate credentials on any ColdFusion server that was internet-facing since the June 30 disclosure date. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Adobe ColdFusion, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning Best ASPM Tools in 2026: The Application Security Posture Management Buyer's Guide Jul 08, 2026 Cloud Security Learning Best CSPM Tools in 2026: The Cloud Security Posture Management Buyer's Guide Jul 08, 2026 Webinar Recap Webinar Recap: Beyond the Perimeter: Mastering 3rd Party & Software Risk Jul 08, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data in accordance with Orca Se
 ```
 
 #### Corroborating sources (3)
@@ -1152,7 +1151,50 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Link: https://www.exploit-db.com/exploits/52619
   - Summary: WordPress Bricks Builder Theme - RCE
 
-### Cluster 9abaf78b04 — score 17
+### Cluster 8b38cd09cc — score 16
+
+- Title: It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)
+- Source: watchTowr Labs (offensive_vulnerability_research)
+- Published: 2026-07-02T16:38:28+00:00
+- Link: https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- cve_ids: CVE-2026-48276, CVE-2026-48277, CVE-2026-48281, CVE-2026-48282, CVE-2026-48316
+- content_type: threat_research
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- cve_ids: CVE-2026-48276, CVE-2026-48277, CVE-2026-48281, CVE-2026-48316, CVE-2026-48282
+- content_type: threat_research
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+We’re back, melting - we’ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not mentioned..), we’ve struggled to have confidence
+```
+
+#### Full body
+
+```
+We’re back, melting - we’ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not mentioned..), we’ve struggled to have confidence in our attribution of “vulnerability <> specific CVE ID”. We’ve performed some informed, uninformed, random guesses - but as usual, please resist the urge to send us emails explaining how awful/wrong we are. We know some of you can’t resist, so please rest assured that we do read them, print them, and frame our favorites each month. Like the individual who emailed us 5 times to tell us that they were older than Telnet. Given that Telnet is newer than SSH (which we replied to tell you (your follow-up emails were caught by our spam filter, sorry)), we knew you were lying to us. As always, watchTowr clients gain industry-first access to our research days before publication to validate their exposure, accompanied by Active Defense capabilities to autonomously mitigate exposure. This research is a glimpse into the capabilities that power our Preemptive Exposure Management solution and get organizations ahead of inevitable in-the-wild exploitation: the watchTowr Platform. What Is An Adobe ColdFusion? Adobe ColdFusion is a rapid web application development platform built around its own scripting language, ColdFusion Markup Language (CFML), which lets developers build dynamic, data-driven websites and applications with relatively little code. It runs on a Java-based server engine that sits between web servers and backend resources - databases, file systems, APIs, and email servers - translating CFML tags and functions into executable logic that generates web content on the fly. What Are We Looking At Today? Well, in typical fashion, on June 30 Adobe released a security advisory covering numerous CVEs affecting Adobe ColdFusion. The following versions were listed as affected (basically, everything..): ColdFusion 2025 (Update 9 and below) ColdFusion 2023 (Update 20 and below) Per the advisory, and repeated here for verbosity, the following vulnerabilities have been resolved: Arbitrary Code Execution - CVE-2026-48276 Arbitrary Code Execution - CVE-2026-48277 Arbitrary Code Execution - CVE-2026-48281 Arbitrary Code Execution - CVE-2026-48316 Arbitrary Code Execution - CVE-2026-48282 Arbitrary Code Execution - CVE-2026-48283 Arbitrary File System Read - CVE-2026-48313 Privilege Escalation - CVE-2026-48315 Arbitrary Code Execution - CVE-2026-48307 Security Feature Bypass - CVE-2026-48285 Privilege Escalation - CVE-2026-48314 Setting The Scene To fuel our analysis today, we compared the following versions following our normal ‘what the hell has changed’ process: 2025.0.0.331385 (Vulnerable) 2025.0.0.331899 (Different) Arbitrary File Write & Read (And More.. CVE-2026-48282 & CVE-2026-48313 (maybe)) For those of you unaware, this isn’t Adobe’s first security advisory. In fact, history shows us that the RDS feature of ColdFusion has been a main character many times, with many of the most recent security patches being focused on resolving vulnerabilities within the RDS module. For those unfamiliar with it, RDS (Remote Development Services) is a ColdFusion feature that allows a developer's IDE, historically ColdFusion Builder, Dreamweaver, or the Eclipse plugin, to interact with a running ColdFusion server. It can browse the filesystem, execute database queries, and assist with debugging, all over HTTP. Under the hood, it is essentially a small RPC protocol. Warning: RDS is not enabled by default. To reach the vulnerability described in this post, RDS must be enabled and, based on our testing, authentication must also be disabled (?) The above is how you do this, and in fairness, Adobe does point out the obvious - not ideal to disable authentication. Now, every RDS request is sent as an HTTP POST to /CFIDE/main/ide.cfm , with an ACTION query parameter selecting the requested oper
+```
+
+#### Corroborating sources (1)
+
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - Title: It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)
+  - Published: 2026-07-02T16:38:28+00:00
+  - Link: https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/
+  - Summary: We’re back, melting - we’ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not mentioned..), we’ve struggled to have confidence
+
+### Cluster 9abaf78b04 — score 16
 
 - Title: CISA orders feds to patch max severity ColdFusion flaw by Friday
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1200,49 +1242,6 @@ CISA orders feds to patch max severity ColdFusion flaw by Friday By Sergiu Gatla
   - Published: 2026-07-08T07:16:55+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]
-
-### Cluster 8b38cd09cc — score 16
-
-- Title: It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)
-- Source: watchTowr Labs (offensive_vulnerability_research)
-- Published: 2026-07-02T16:38:28+00:00
-- Link: https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-48276, CVE-2026-48277, CVE-2026-48281, CVE-2026-48282, CVE-2026-48316
-- content_type: threat_research
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-48276, CVE-2026-48277, CVE-2026-48281, CVE-2026-48316, CVE-2026-48282
-- content_type: threat_research
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-We’re back, melting - we’ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not mentioned..), we’ve struggled to have confidence
-```
-
-#### Full body
-
-```
-We’re back, melting - we’ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not mentioned..), we’ve struggled to have confidence in our attribution of “vulnerability <> specific CVE ID”. We’ve performed some informed, uninformed, random guesses - but as usual, please resist the urge to send us emails explaining how awful/wrong we are. We know some of you can’t resist, so please rest assured that we do read them, print them, and frame our favorites each month. Like the individual who emailed us 5 times to tell us that they were older than Telnet. Given that Telnet is newer than SSH (which we replied to tell you (your follow-up emails were caught by our spam filter, sorry)), we knew you were lying to us. As always, watchTowr clients gain industry-first access to our research days before publication to validate their exposure, accompanied by Active Defense capabilities to autonomously mitigate exposure. This research is a glimpse into the capabilities that power our Preemptive Exposure Management solution and get organizations ahead of inevitable in-the-wild exploitation: the watchTowr Platform. What Is An Adobe ColdFusion? Adobe ColdFusion is a rapid web application development platform built around its own scripting language, ColdFusion Markup Language (CFML), which lets developers build dynamic, data-driven websites and applications with relatively little code. It runs on a Java-based server engine that sits between web servers and backend resources - databases, file systems, APIs, and email servers - translating CFML tags and functions into executable logic that generates web content on the fly. What Are We Looking At Today? Well, in typical fashion, on June 30 Adobe released a security advisory covering numerous CVEs affecting Adobe ColdFusion. The following versions were listed as affected (basically, everything..): ColdFusion 2025 (Update 9 and below) ColdFusion 2023 (Update 20 and below) Per the advisory, and repeated here for verbosity, the following vulnerabilities have been resolved: Arbitrary Code Execution - CVE-2026-48276 Arbitrary Code Execution - CVE-2026-48277 Arbitrary Code Execution - CVE-2026-48281 Arbitrary Code Execution - CVE-2026-48316 Arbitrary Code Execution - CVE-2026-48282 Arbitrary Code Execution - CVE-2026-48283 Arbitrary File System Read - CVE-2026-48313 Privilege Escalation - CVE-2026-48315 Arbitrary Code Execution - CVE-2026-48307 Security Feature Bypass - CVE-2026-48285 Privilege Escalation - CVE-2026-48314 Setting The Scene To fuel our analysis today, we compared the following versions following our normal ‘what the hell has changed’ process: 2025.0.0.331385 (Vulnerable) 2025.0.0.331899 (Different) Arbitrary File Write & Read (And More.. CVE-2026-48282 & CVE-2026-48313 (maybe)) For those of you unaware, this isn’t Adobe’s first security advisory. In fact, history shows us that the RDS feature of ColdFusion has been a main character many times, with many of the most recent security patches being focused on resolving vulnerabilities within the RDS module. For those unfamiliar with it, RDS (Remote Development Services) is a ColdFusion feature that allows a developer's IDE, historically ColdFusion Builder, Dreamweaver, or the Eclipse plugin, to interact with a running ColdFusion server. It can browse the filesystem, execute database queries, and assist with debugging, all over HTTP. Under the hood, it is essentially a small RPC protocol. Warning: RDS is not enabled by default. To reach the vulnerability described in this post, RDS must be enabled and, based on our testing, authentication must also be disabled (?) The above is how you do this, and in fairness, Adobe does point out the obvious - not ideal to disable authentication. Now, every RDS request is sent as an HTTP POST to /CFIDE/main/ide.cfm , with an ACTION query parameter selecting the requested oper
-```
-
-#### Corroborating sources (1)
-
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - Title: It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)
-  - Published: 2026-07-02T16:38:28+00:00
-  - Link: https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/
-  - Summary: We’re back, melting - we’ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not mentioned..), we’ve struggled to have confidence
 
 ### Cluster 87e2639a3b — score 16
 
@@ -1405,56 +1404,6 @@ Threat Intelligence Google’s Continued Disruption of Malicious Residential Pro
   - Published: 2026-07-02T14:00:00+00:00
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/
   - Summary: Background Today, in coordination with the FBI, Lumen, and others, Google took action against the NetNut residential proxy network, also known as Popa. This action builds on our disruption of the IPIDEA proxy network that took place in January 2026, and is a continuation of Google’s objective to dismantle malicious residential proxy networks. Actions Taken As a part of this disruption we took the following actions: Disabled Google accounts and associated Google services used by NetNut for malware command and control (C2), which directly violates Google’s Terms of Service and Acceptable Use Policy. Shared technical intelligence on NetNut software development kits (SDKs) and backend C2 infrastructure with platform providers, law enforcement, and research firms to help drive ecosystem-wide awareness and enforcement. We ensured Google Play Protect , Android’s built-in security protection, automatically warned users and disabled applications known to incorporate NetNut SDKs, and the system
-
-### Cluster df28d0fe5c — score 14
-
-- Title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T19:40:06+00:00
-- Link: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Kubernetes
-
-#### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- cve_ids: CVE-2024-31989, CVE-2025-55190, CVE-2026-42880
-- urgency_signals: no_patch_yet, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Kubernetes
-- cve_ids: CVE-2024-31989, CVE-2025-55190, CVE-2026-42880
-- urgency_signals: preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in
-```
-
-#### Full body
-
-```
-Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters  Swati Khandelwal  Jul 01, 2026 Kubernetes / Server Security Argo CD , a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv , which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in January 2025; roughly eighteen months later, it remains unpatched, so it published the details to warn users. The bug sits in repo-server, the Argo CD component that reads Git repositories and builds Kubernetes manifests, the files that define what the cluster deploys. Its internal gRPC service has no authentication; anyone who can reach it can send a crafted request to run a command. Synacktiv demonstrated the attack against Argo CD v2.13.3 and reports no patched release; it did not publish a full list of affected versions. The technique abuses kustomize , a standard tool Argo CD runs to turn repository files into manifests. Kustomize has a --helm-command option that points to the helm binary it should call. Synacktiv found that an unauthenticated request to the repo-server's GenerateManifest service can set that option to a script instead, pulled from an attacker-controlled Git repository. When kustomize runs, it executes the script rather than helm. But "internal" does not mean isolated by default. Argo CD ships Kubernetes network policies that wall the repo-server off from everything except its own components. Synacktiv found the Helm chart, a common way to install Argo CD, leaves those policies off by default , with networkPolicy.create set to false. In that setup, an attacker who compromises a single pod in the cluster can reach the repo-server and trigger the bug. Running code on the repo-server is not the end of it. Synacktiv used that access to read the cluster's Redis password from an environment variable, connect to Argo CD's Redis cache, and poison the stored deployment data. On the next automatic sync, Argo CD deployed an attacker-supplied workload. That step revives CVE-2024-31989 , a 2024 flaw Cycode found where Argo CD's Redis had no password, letting any pod in the cluster poison the deployment cache. Argo CD fixed that by adding a Redis password, but the cache itself is still not signed, so stealing the password back reopens the same attack. What to do There is no patched version, so the defense is network isolation. Turn on Kubernetes network policies so only Argo CD's own components can reach the repo-server and Redis ports. Argo CD provides the policy files; Helm users have to enable them because the chart leaves them off. Check what is active with: kubectl get networkpolicy -A. A healthy install shows one network policy per component, including the repo-server and Redis. If those policies are missing, the repo-server and Redis ports are reachable from the rest of the cluster. Synacktiv built a tool, argo-cdown, that automates the full attack. It is holding the tool back for now to give defenders time to lock down their network policies, and says it will publish it on GitHub later so administrators can test their own deployments. This is not Argo CD's first exposure of its own internals. In September 2025, it patched CVE-2025-55190 , where an API token with only basic read access could pull back a project's Git repository credentials, a flaw that The Hacker News flagged at the time . In May 2026, another bug, CVE-2026-42880 , allowed read-only users to read plaintext Kubernetes secrets. The pattern is hard to miss: Argo CD concentrates cluster access and repository secrets, and its internal surfaces keep handing them out, to an unauthenticated request in one bug and a low-privilege token in the next. Until a patch ships, treating the cluster network as hostile is the onl
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
-  - Published: 2026-07-01T19:40:06+00:00
-  - Link: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
-  - Summary: Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Cloud Workload Protection Best Practices: How to Secure Cloud Workloads in 2026
-  - Published: 2026-07-07T20:40:00+00:00
-  - Link: https://orca.security/resources/blog/cloud-workload-protection-best-practices/
-  - Summary: Key Takeaways Cloud workloads, your virtual machines, containers, Kubernetes pods, and serverless functions, are where code runs and where breaches land. Securing them well is not a single control you buy once. It is a continuous discipline that runs across the whole lifecycle of a workload, from the image built in a pipeline to the […]
 
 ### Cluster 26d1b14830 — score 13
 
@@ -1837,39 +1786,6 @@ A critical prompt injection vulnerability in GitHub Agentic Workflows could allo
   - Link: https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/
   - Summary: ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their CI/CD workflows. [...]
 
-### Cluster 2ab29cfc79 — score 11
-
-- Title: My Stack Simulator, (Wed, Jul 8th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-08T08:09:03+00:00
-- Link: https://isc.sans.edu/diary/rss/33138
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and you can only take one away from the top too. Programs use this same "last in, first out" principle to keep track of what they&#;x26;#;39;re doing. Every time a function is called, the program pushes a new plate onto the stack containing things like local variables and the address to return to once the function finishes. When the function is done, that plate is popped off the top, and execution resumes exactly where it left off. This simple mechanism is what allows programs to call functions within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten with unexpected data, becomes a favorite target for attackers looking to hijack a pr
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: My Stack Simulator, (Wed, Jul 8th)
-  - Published: 2026-07-08T08:09:03+00:00
-  - Link: https://isc.sans.edu/diary/rss/33138
-  - Summary: The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and you can only take one away from the top too. Programs use this same "last in, first out" principle to keep track of what they&#;x26;#;39;re doing. Every time a function is called, the program pushes a new plate onto the stack containing things like local variables and the address to return to once the function finishes. When the function is done, that plate is popped off the top, and execution resumes exactly where it left off. This simple mechanism is what allows programs to call functions within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten with unexpected data, becomes a favorite target for attackers looking to hijack a pr
-
 ### Cluster caac5571c6 — score 11
 
 - Title: The Threat Isn’t the Frontier Model
@@ -1912,55 +1828,6 @@ The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vib
   - Published: 2026-07-08T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
   - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
-
-### Cluster b422f525d6 — score 11
-
-- Title: Chinese hackers develop LONGLEASH malware to expand ORB network
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-07T18:52:19+00:00
-- Link: https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- affected_industries: critical_infrastructure, healthcare
-- affected_products: Cisco
-- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
-- urgency_signals: no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- affected_industries: healthcare, critical_infrastructure
-- affected_products: Cisco
-- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
-- urgency_signals: no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. [...]
-```
-
-#### Full body
-
-```
-Chinese hackers develop LONGLEASH malware to expand ORB network By Bill Toulas July 7, 2026 02:52 PM 0 Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. According to Cisco Talos researchers, the ORB network serves as a secure relay infrastructure for other China-aligned advanced persistent threats (APTs), including UAT-5918. This type of infrastructure, which was previously documented by Google Mandiant , allows threat actors to proxy their network traffic through regional devices, making it appear to originate from legitimate local infrastructure to evade detection and complicate attribution. The Talos analysts have identified new malware in the campaign, including LONGLEASH, a new version of the previously documented SHORTLEASH backdoor, DOGLEASH, a Linux backdoor, JARLEASH, an administrative tool, and LEASHTEST, a testing utility. The researchers report that UAT-7810 primarily exploits known (n-day) vulnerabilities to gain initial access, including CVE-2020-22653, CVE-2020-22658, and CVE-2023-25717 in Ruckus routers, as well as CVE-2025-2492 in ASUS AiCloud routers. LONGLEASH malware The newly discovered LONGLEASH malware is an upgraded version of SHORTLEASH, first documented by SecurityScorecard in 2025, that significantly expands its capabilities. The malware builds on the previous version, which supported command-and-control (C2) communications, web server hosting, network tunnel management, and operation as both a C2 server and client. In addition to those, Talos researchers have now also observed the following capabilities: Reverse shell HTTP, DNS, SOCKS, TCP, ICMP, and UDP proxying with traffic redirection SMTP client/server functionality TLS and PKI support Self-removal for when tampering or other suspicious activity is detected Ability to act as an intermediate C2 server, forwarding commands and data between infected nodes DOGLEASH, JARLEASH, and LEASHTEST Apart from LONGLEASH, the researchers have also discovered DOGLEASH, a lightweight Linux backdoor deployed via web shell scripts. Upon launch, it opens a listening TCP port and authenticates incoming requests using a hardcoded password, supporting shell command execution, file access and modification, OS information retrieval, and arbitrary code execution directly in the host's memory. JARLEASH is a Java-based administrative tool that provides web-based file management and includes FTP, SFTP, and Netcat server functionality. Finally, the threat actors have developed LEASHTEST, which can be used to verify whether an MIPS IoT device can perform functions related to malware operations, likely to help refine LONGLEASH’s MIPS support. Cisco Talos concludes that UAT-7810 continues to expand its ORB infrastructure, actively replacing or extending SHORTLEASH with the more capable LONGLEASH while broadening its toolkit with new malware. A complete list of the indicators of compromise (IoCs) linked to UAT-7810 activity and the latest toolset is available at the bottom of Cisco Talos’ report. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Windows version of SprySOCKS Linux malware used to attack govt orgs Chinese hackers breach REDCap servers, steal medical research China-linked JDY botnet expands targeting of U.S. military networks Chinese hackers target telcos with new Linux, Windows malware New ChocoPoC malware targets researchers via trojanized PoC exploits
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Chinese hackers develop LONGLEASH malware to expand ORB network
-  - Published: 2026-07-07T18:52:19+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
-  - Summary: Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. [...]
 
 ### Cluster dfea83e3cb — score 11
 
@@ -2095,6 +1962,86 @@ AI Research Context Engineering | Compaction & Agent Memory for Automated Malwar
   - Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
   - Summary: Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
 
+### Cluster f6a2962dc9 — score 10
+
+- Title: UAT-7810 continues building ORB networks using new malware
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-07T10:00:05+00:00
+- Link: https://blog.talosintelligence.com/uat-7810/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
+```
+
+#### Full body
+
+```
+UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = "C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: UAT-7810 continues building ORB networks using new malware
+  - Published: 2026-07-07T10:00:05+00:00
+  - Link: https://blog.talosintelligence.com/uat-7810/
+  - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
+
+### Cluster 2ab29cfc79 — score 10
+
+- Title: My Stack Simulator, (Wed, Jul 8th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-08T08:09:03+00:00
+- Link: https://isc.sans.edu/diary/rss/33138
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and you can only take one away from the top too. Programs use this same "last in, first out" principle to keep track of what they&#;x26;#;39;re doing. Every time a function is called, the program pushes a new plate onto the stack containing things like local variables and the address to return to once the function finishes. When the function is done, that plate is popped off the top, and execution resumes exactly where it left off. This simple mechanism is what allows programs to call functions within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten with unexpected data, becomes a favorite target for attackers looking to hijack a pr
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: My Stack Simulator, (Wed, Jul 8th)
+  - Published: 2026-07-08T08:09:03+00:00
+  - Link: https://isc.sans.edu/diary/rss/33138
+  - Summary: The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and you can only take one away from the top too. Programs use this same "last in, first out" principle to keep track of what they&#;x26;#;39;re doing. Every time a function is called, the program pushes a new plate onto the stack containing things like local variables and the address to return to once the function finishes. When the function is done, that plate is popped off the top, and execution resumes exactly where it left off. This simple mechanism is what allows programs to call functions within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten with unexpected data, becomes a favorite target for attackers looking to hijack a pr
+
 ### Cluster 3ee1d54d9d — score 10
 
 - Title: Cavern Manticore: Exposing Iran-Linked Modular C2 Framework
@@ -2190,53 +2137,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July �
   - Published: 2026-07-06T12:01:54+00:00
   - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
   - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster f6a2962dc9 — score 10
-
-- Title: UAT-7810 continues building ORB networks using new malware
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-07T10:00:05+00:00
-- Link: https://blog.talosintelligence.com/uat-7810/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_products: Cisco
-- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_products: Cisco
-- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
-```
-
-#### Full body
-
-```
-UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = "C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: UAT-7810 continues building ORB networks using new malware
-  - Published: 2026-07-07T10:00:05+00:00
-  - Link: https://blog.talosintelligence.com/uat-7810/
-  - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
 
 ### Cluster 40eaf074fe — score 10
 
@@ -2535,59 +2435,54 @@ Telco giant KDDI says data breach affects over 12 million people By Sergiu Gatla
   - Link: https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/
   - Summary: Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. [...]
 
-### Cluster 04664daaad — score 10
+### Cluster b422f525d6 — score 10
 
-- Title: Ubiquiti warns of new max severity UniFi OS vulnerability
+- Title: Chinese hackers develop LONGLEASH malware to expand ORB network
 - Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-08T08:15:20+00:00
-- Link: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
+- Published: 2026-07-07T18:52:19+00:00
+- Link: https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Ubiquiti UniFi
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage
-- affected_industries: government
-- affected_products: Ubiquiti UniFi
-- cve_ids: CVE-2026-50746, CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402
-- urgency_signals: actively_exploited
-- content_type: news_report, vulnerability_disclosure
+- threat_categories: web_shell_backdoor
+- affected_industries: critical_infrastructure, healthcare
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet, poc_available
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: apt_espionage, active_exploitation
-- affected_industries: government
-- affected_products: Ubiquiti UniFi
-- cve_ids: CVE-2026-50746, CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
+- threat_categories: web_shell_backdoor
+- affected_industries: healthcare, critical_infrastructure
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet, poc_available
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
+Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. [...]
 ```
 
 #### Full body
 
 ```
-Ubiquiti warns of new max severity UniFi OS vulnerability By Sergiu Gatlan July 8, 2026 04:15 AM 0 Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw tracked as CVE-2026-50746 that can be exploited in command injection attacks. The CVE-2026-50746 vulnerability affects UniFi Connect Application (versions 3.4.16 and earlier), a management software suite that Ubiquiti customers can use to automate and manage commercial building operations (including smart LED lighting systems and electric vehicle chargers) via a single interface. "A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi Connect Application to execute a Command Injection on the host device," Ubiquiti explained. The company advised users to update the impacted UniFi Connect app to version 3.4.20 or later to secure their systems against potential attacks. On Thursday, Ubiquiti patched six more critical-severity security issues (CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402, CVE-2026-55115, CVE-2026-55116) in the UniFi Talk, UniFi Access, and UniFi Protect applications, in the company's UniFi OS Server, and across a wide range of Ubiquiti routers, gateways, NAS, and surveillance systems. Ubiquiti has yet to disclose whether any of these vulnerabilities were exploited in the wild before being addressed, but shared that six of them can be exploited in low-complexity attacks that don't require user interaction. Threat intelligence company Censys now tracks over 100,000 UniFi OS instances exposed online, most of them (nearly 50,000 IP addresses) found in the United States. However, there are no details on how many have already been secured against these security flaws or are honeypots. ​Additionally, Censys data also includes historical scan results and may not accurately reflect the number of systems currently exposed on the Internet. Internet-exposed UniFi OS instances (Censys) State-sponsored threat groups and cybercrime hacking groups have often targeted Ubiquiti products in recent years, hijacking them to build botnets designed to conceal malicious activity. For instance, in February 2024, the FBI dismantled Moobot , a botnet of Ubiquiti Edge OS routers used by Russia's Main Intelligence Directorate of the General Staff (GRU) to proxy malicious traffic in cyberespionage attacks. Four years earlier, in April 2022, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) also added a critical command injection flaw (CVE-2010-5330) in Ubiquiti AirOS to its catalog of actively exploited flaws and ordered government agencies to patch their devices within three weeks. More recently, in June, CISA warned that hackers were actively exploiting three max-severity UniFi OS flaws that had been patched one month earlier and mandated that agencies secure their systems within three days. Bishop Fox later demonstrated that the vulnerabilities could be chained to achieve remote code execution with elevated privileges and released a free detection script to help defenders discover vulnerable instances in their environments. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA warns of max severity Ubiquiti flaws exploited in attacks Ubiquiti patches three max severity UniFi OS vulnerabilities Critical UniFi OS bug lets hackers gain root without authentication CISA orders feds to prioritize patching Langflow auth bypass flaw Critical Langflow RCE flaw exploited to hack AI app servers
+Chinese hackers develop LONGLEASH malware to expand ORB network By Bill Toulas July 7, 2026 02:52 PM 0 Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. According to Cisco Talos researchers, the ORB network serves as a secure relay infrastructure for other China-aligned advanced persistent threats (APTs), including UAT-5918. This type of infrastructure, which was previously documented by Google Mandiant , allows threat actors to proxy their network traffic through regional devices, making it appear to originate from legitimate local infrastructure to evade detection and complicate attribution. The Talos analysts have identified new malware in the campaign, including LONGLEASH, a new version of the previously documented SHORTLEASH backdoor, DOGLEASH, a Linux backdoor, JARLEASH, an administrative tool, and LEASHTEST, a testing utility. The researchers report that UAT-7810 primarily exploits known (n-day) vulnerabilities to gain initial access, including CVE-2020-22653, CVE-2020-22658, and CVE-2023-25717 in Ruckus routers, as well as CVE-2025-2492 in ASUS AiCloud routers. LONGLEASH malware The newly discovered LONGLEASH malware is an upgraded version of SHORTLEASH, first documented by SecurityScorecard in 2025, that significantly expands its capabilities. The malware builds on the previous version, which supported command-and-control (C2) communications, web server hosting, network tunnel management, and operation as both a C2 server and client. In addition to those, Talos researchers have now also observed the following capabilities: Reverse shell HTTP, DNS, SOCKS, TCP, ICMP, and UDP proxying with traffic redirection SMTP client/server functionality TLS and PKI support Self-removal for when tampering or other suspicious activity is detected Ability to act as an intermediate C2 server, forwarding commands and data between infected nodes DOGLEASH, JARLEASH, and LEASHTEST Apart from LONGLEASH, the researchers have also discovered DOGLEASH, a lightweight Linux backdoor deployed via web shell scripts. Upon launch, it opens a listening TCP port and authenticates incoming requests using a hardcoded password, supporting shell command execution, file access and modification, OS information retrieval, and arbitrary code execution directly in the host's memory. JARLEASH is a Java-based administrative tool that provides web-based file management and includes FTP, SFTP, and Netcat server functionality. Finally, the threat actors have developed LEASHTEST, which can be used to verify whether an MIPS IoT device can perform functions related to malware operations, likely to help refine LONGLEASH’s MIPS support. Cisco Talos concludes that UAT-7810 continues to expand its ORB infrastructure, actively replacing or extending SHORTLEASH with the more capable LONGLEASH while broadening its toolkit with new malware. A complete list of the indicators of compromise (IoCs) linked to UAT-7810 activity and the latest toolset is available at the bottom of Cisco Talos’ report. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Windows version of SprySOCKS Linux malware used to attack govt orgs Chinese hackers breach REDCap servers, steal medical research China-linked JDY botnet expands targeting of U.S. military networks Chinese hackers target telcos with new Linux, Windows malware New ChocoPoC malware targets researchers via trojanized PoC exploits
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
 - **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Ubiquiti warns of new max severity UniFi OS vulnerability
-  - Published: 2026-07-08T08:15:20+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
-  - Summary: Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS
-  - Published: 2026-07-08T14:38:05+00:00
-  - Link: https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html
-  - Summary: Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker
+  - Title: Chinese hackers develop LONGLEASH malware to expand ORB network
+  - Published: 2026-07-07T18:52:19+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
+  - Summary: Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. [...]
 
 ### Cluster 62c5b45d14 — score 10
 
@@ -2847,6 +2742,60 @@ Wiz Pricing Get a demo Get a demo Modern web applications are running everywhere
   - Link: https://www.wiz.io/blog/wiz-asm-auto-recon
   - Summary: Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.
 
+### Cluster 04664daaad — score 9
+
+- Title: Ubiquiti warns of new max severity UniFi OS vulnerability
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-08T08:15:20+00:00
+- Link: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Ubiquiti UniFi
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage
+- affected_industries: government
+- affected_products: Ubiquiti UniFi
+- cve_ids: CVE-2026-50746, CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402
+- urgency_signals: actively_exploited
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, active_exploitation
+- affected_industries: government
+- affected_products: Ubiquiti UniFi
+- cve_ids: CVE-2026-50746, CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402
+- urgency_signals: actively_exploited
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
+```
+
+#### Full body
+
+```
+Ubiquiti warns of new max severity UniFi OS vulnerability By Sergiu Gatlan July 8, 2026 04:15 AM 0 Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw tracked as CVE-2026-50746 that can be exploited in command injection attacks. The CVE-2026-50746 vulnerability affects UniFi Connect Application (versions 3.4.16 and earlier), a management software suite that Ubiquiti customers can use to automate and manage commercial building operations (including smart LED lighting systems and electric vehicle chargers) via a single interface. "A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi Connect Application to execute a Command Injection on the host device," Ubiquiti explained. The company advised users to update the impacted UniFi Connect app to version 3.4.20 or later to secure their systems against potential attacks. On Thursday, Ubiquiti patched six more critical-severity security issues (CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402, CVE-2026-55115, CVE-2026-55116) in the UniFi Talk, UniFi Access, and UniFi Protect applications, in the company's UniFi OS Server, and across a wide range of Ubiquiti routers, gateways, NAS, and surveillance systems. Ubiquiti has yet to disclose whether any of these vulnerabilities were exploited in the wild before being addressed, but shared that six of them can be exploited in low-complexity attacks that don't require user interaction. Threat intelligence company Censys now tracks over 100,000 UniFi OS instances exposed online, most of them (nearly 50,000 IP addresses) found in the United States. However, there are no details on how many have already been secured against these security flaws or are honeypots. ​Additionally, Censys data also includes historical scan results and may not accurately reflect the number of systems currently exposed on the Internet. Internet-exposed UniFi OS instances (Censys) State-sponsored threat groups and cybercrime hacking groups have often targeted Ubiquiti products in recent years, hijacking them to build botnets designed to conceal malicious activity. For instance, in February 2024, the FBI dismantled Moobot , a botnet of Ubiquiti Edge OS routers used by Russia's Main Intelligence Directorate of the General Staff (GRU) to proxy malicious traffic in cyberespionage attacks. Four years earlier, in April 2022, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) also added a critical command injection flaw (CVE-2010-5330) in Ubiquiti AirOS to its catalog of actively exploited flaws and ordered government agencies to patch their devices within three weeks. More recently, in June, CISA warned that hackers were actively exploiting three max-severity UniFi OS flaws that had been patched one month earlier and mandated that agencies secure their systems within three days. Bishop Fox later demonstrated that the vulnerabilities could be chained to achieve remote code execution with elevated privileges and released a free detection script to help defenders discover vulnerable instances in their environments. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA warns of max severity Ubiquiti flaws exploited in attacks Ubiquiti patches three max severity UniFi OS vulnerabilities Critical UniFi OS bug lets hackers gain root without authentication Hackers exploit Roundcube flaw to spy on academic researchers CISA orders feds to prioritize patching Langflow auth bypass flaw
+```
+
+#### Corroborating sources (2)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Ubiquiti warns of new max severity UniFi OS vulnerability
+  - Published: 2026-07-08T08:15:20+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
+  - Summary: Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS
+  - Published: 2026-07-08T14:38:05+00:00
+  - Link: https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html
+  - Summary: Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker
+
 ### Cluster ce59bc14b1 — score 9
 
 - Title: Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials
@@ -2947,6 +2896,45 @@ Security & Identity Shift into high gear with agents: Securing the software-defi
   - Link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
   - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it
 
+### Cluster 73959b5e1a — score 8
+
+- Title: When AI agents look like attackers: what behavioral telemetry tells us
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-07-07T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+<p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
+```
+
+#### Full body
+
+```
+When AI agents look like attackers: what behavioral telemetry tells us An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries Written by Sophos X-Ops Threat Research Share This Link Copied AI coding agents (Claude Code, Cursor, Codex, and others built on skill packs such as GStack) are showing up in customer environments. They write code, install dependencies, automate browser tasks, and troubleshoot failures by trying alternative approaches. From the perspective of an endpoint behavioral engine, some of that activity is indistinguishable from typical activity seen on customer networks – or, in some cases, from actions that might be undertaken by an active adversary. This blog examines real telemetry from the Sophos CIXA behavioral engine on Windows to show where, and why, AI agents are triggering detection rules. The intent is not to call the activity malicious. It is to show that existing behavioral protections are working exactly as designed, and to illustrate the detection-engineering challenges ahead as agentic AI adoption accelerates. Telemetry overview The chart below shows the distribution of blocking rule hits over a seven-day period in June 2026, broken down by MITRE ATT&CK tactic and measured by unique machine count. Tactics related to Credential Access and Execution (respectively, the ninth and fourth tactic categories in the ATT&CK matrix) dominate. Note the presence of a non-ATT&CK bucket we call “Disrupt.” Figure 1: Blocking rule hits (by MITRE tactic) downstream of AI agents, measured by unique machine count The "Disrupt" bucket – not part of the official ATT&CK categories, but a useful catchall we are about to explain – represents AAP (Adaptive Attack Protection) rules, meaning devices where AAP engaged and blocked activity associated with AI agents. Every AAP hit we examined involved low-reputation executables the agents were trying to run. None appeared malicious, but all had low global reputation scores in SophosLabs telemetry. Switching to silent (non-blocking) rule hits gives a broader view of the activity AI agents perform that the behavioral engine considers worth tracking and grouping. Figure 2: Silent rule hits (by MITRE tactic) downstream of AI agents, measured by unique machine count The silent distribution is more spread out, with evasion and C2 categories prominent. This reflects agents performing network calls, spawning child processes, and using command-line patterns that overlap with adversary tradecraft. Credential access Moving back to the two largest ATT&CK categories we saw in our blocking-rule dataset, Credential Access rules account for the largest share of hits. The breakdown of specific rules is shown in Figure 3. Figure 3: Blocking credential-access rules downstream of AI agents, measured by unique machine count Creds_3b drives the bulk of these hits. This rule fires on the HMPA CookieGuard signal, which identifies processes using the Data Protection API (DPAPI) to decrypt browser credentials. GStack /browse and Creds_3b GStack is a widely adopted AI agent skill pack. One of its built-in skills, /browse, connects the agent to a Chromium daemon for browser automation. The Creds_3b telemetry shows that this skill chain uses PowerShell to decrypt sensitive browser data. The example in Figure 4 shows GStack /browse invoked by Claude Code. Figure 4: Activity tree showing the GStack /browse skill chain, from bash through browse.exe, node.exe, and into PowerShell The PowerShell command line confirms what the rule detected: powershell -NoProfile -Command "Add-Type -AssemblyName System.Security; $stdin = [Console]::In.ReadToEnd().Trim(); $bytes = [System.Convert]::FromBase64String($stdin); $dec = [System.Security.Cryptography.ProtectedData]::Unprotect($bytes, $null, [System.Security.Cryptography.DataProtectionScope]::CurrentUser); Write-Output ([System.Convert]::ToBase64String($dec))" In context, this is almost certainly benign: the agent is automati
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: When AI agents look like attackers: what behavioral telemetry tells us
+  - Published: 2026-07-07T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
+  - Summary: <p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
+
 ### Cluster 5e0e552a1f — score 8
 
 - Title: Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3
@@ -2988,45 +2976,6 @@ Elastic's InfoSec team built AI agents on Elastic Workflows that investigate eve
   - Link: https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows
   - Summary: Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.
 
-### Cluster 73959b5e1a — score 8
-
-- Title: When AI agents look like attackers: what behavioral telemetry tells us
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-07-07T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
-```
-
-#### Full body
-
-```
-When AI agents look like attackers: what behavioral telemetry tells us An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries Written by Sophos X-Ops Threat Research Share This Link Copied AI coding agents (Claude Code, Cursor, Codex, and others built on skill packs such as GStack) are showing up in customer environments. They write code, install dependencies, automate browser tasks, and troubleshoot failures by trying alternative approaches. From the perspective of an endpoint behavioral engine, some of that activity is indistinguishable from typical activity seen on customer networks – or, in some cases, from actions that might be undertaken by an active adversary. This blog examines real telemetry from the Sophos CIXA behavioral engine on Windows to show where, and why, AI agents are triggering detection rules. The intent is not to call the activity malicious. It is to show that existing behavioral protections are working exactly as designed, and to illustrate the detection-engineering challenges ahead as agentic AI adoption accelerates. Telemetry overview The chart below shows the distribution of blocking rule hits over a seven-day period in June 2026, broken down by MITRE ATT&CK tactic and measured by unique machine count. Tactics related to Credential Access and Execution (respectively, the ninth and fourth tactic categories in the ATT&CK matrix) dominate. Note the presence of a non-ATT&CK bucket we call “Disrupt.” Figure 1: Blocking rule hits (by MITRE tactic) downstream of AI agents, measured by unique machine count The "Disrupt" bucket – not part of the official ATT&CK categories, but a useful catchall we are about to explain – represents AAP (Adaptive Attack Protection) rules, meaning devices where AAP engaged and blocked activity associated with AI agents. Every AAP hit we examined involved low-reputation executables the agents were trying to run. None appeared malicious, but all had low global reputation scores in SophosLabs telemetry. Switching to silent (non-blocking) rule hits gives a broader view of the activity AI agents perform that the behavioral engine considers worth tracking and grouping. Figure 2: Silent rule hits (by MITRE tactic) downstream of AI agents, measured by unique machine count The silent distribution is more spread out, with evasion and C2 categories prominent. This reflects agents performing network calls, spawning child processes, and using command-line patterns that overlap with adversary tradecraft. Credential access Moving back to the two largest ATT&CK categories we saw in our blocking-rule dataset, Credential Access rules account for the largest share of hits. The breakdown of specific rules is shown in Figure 3. Figure 3: Blocking credential-access rules downstream of AI agents, measured by unique machine count Creds_3b drives the bulk of these hits. This rule fires on the HMPA CookieGuard signal, which identifies processes using the Data Protection API (DPAPI) to decrypt browser credentials. GStack /browse and Creds_3b GStack is a widely adopted AI agent skill pack. One of its built-in skills, /browse, connects the agent to a Chromium daemon for browser automation. The Creds_3b telemetry shows that this skill chain uses PowerShell to decrypt sensitive browser data. The example in Figure 4 shows GStack /browse invoked by Claude Code. Figure 4: Activity tree showing the GStack /browse skill chain, from bash through browse.exe, node.exe, and into PowerShell The PowerShell command line confirms what the rule detected: powershell -NoProfile -Command "Add-Type -AssemblyName System.Security; $stdin = [Console]::In.ReadToEnd().Trim(); $bytes = [System.Convert]::FromBase64String($stdin); $dec = [System.Security.Cryptography.ProtectedData]::Unprotect($bytes, $null, [System.Security.Cryptography.DataProtectionScope]::CurrentUser); Write-Output ([System.Convert]::ToBase64String($dec))" In context, this is almost certainly benign: the agent is automati
-```
-
-#### Corroborating sources (1)
-
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: When AI agents look like attackers: what behavioral telemetry tells us
-  - Published: 2026-07-07T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
-  - Summary: <p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
-
 ### Cluster 689a007fbb — score 8
 
 - Title: Best CWPP Tools in 2026: The Cloud Workload Protection Platform Buyer’s Guide
@@ -3067,6 +3016,47 @@ Table of contents Key Takeaways What Is a CWPP (Cloud Workload Protection Platfo
   - Published: 2026-07-07T20:40:00+00:00
   - Link: https://orca.security/resources/blog/best-cwpp-tools/
   - Summary: Key Takeaways CWPP tools protect the workloads where your code actually runs, and where breaches actually land. That matters because cloud workloads no longer sit still: they spin up and tear down in minutes, span multiple clouds, and multiply faster than security teams can deploy and maintain agents. That shift is why the CWPP market […]
+
+### Cluster 273a217a16 — score 8
+
+- Title: Cloud Workload Protection Best Practices: How to Secure Cloud Workloads in 2026
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-07T20:40:00+00:00
+- Link: https://orca.security/resources/blog/cloud-workload-protection-best-practices/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 1
+- Strong signals: Kubernetes
+
+#### Cluster taxonomy (union across members)
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways Cloud workloads, your virtual machines, containers, Kubernetes pods, and serverless functions, are where code runs and where breaches land. Securing them well is not a single control you buy once. It is a continuous discipline that runs across the whole lifecycle of a workload, from the image built in a pipeline to the […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is Cloud Workload Security? What is a cloud workload? Cloud workload security vs. CWPP vs. CSPM: the 30-second version Why Securing Cloud Workloads Is Harder in the Cloud Top Security Risks & Attack Vectors for Cloud Workloads Cloud Workload Protection Best Practices 1. Establish continuous, agentless visibility across every workload 2. Shift left: scan container images & Infrastructure as Code in the build pipeline (CI/CD) 3. Prioritize risk-based, context-aware vulnerability management (not raw CVSS) 4. Enforce least privilege for human and non-human identities 5. Apply Zero Trust segmentation & microsegmentation to contain lateral movement 6. Secure containers & Kubernetes from build to runtime 7. Add runtime threat detection & response (behavioral, real-time) 8. Automate compliance and configuration hardening (CIS Benchmarks) 9. Centralize monitoring, logging & incident response Mapping the Best Practices to the Workload Lifecycle Common Cloud Workload Security Mistakes to Avoid How Orca Secures Cloud Workloads Frequently Asked Questions about Cloud Workload Security Key Takeaways Securing cloud workloads is a lifecycle discipline, not a one-time scan. The work spans build (scan images and Infrastructure as Code), deploy (harden configuration and least privilege), and runtime (detect threats on live workloads). Continuous, agentless visibility is the foundation every other practice depends on. You cannot protect a workload your tooling never enrolled, and agents miss the ephemeral and serverless workloads that appear and vanish in minutes. Vulnerability prioritization only works with context. A flat CVE list ranked by CVSS wastes a team’s time; ranking by attack path (which risk is actually reachable and what it exposes) is what makes remediation tractable. The mistakes that undo a workload program are relying on agents alone, treating every CVE equally, ignoring short-lived workloads, and stitching siloed tools with no shared context. Orca applies these practices agentlessly through SideScanning™, correlating vulnerabilities, malware, misconfigurations, and identity into one context graph so teams fix the workload risks that actually open a path to data. Cloud workloads, your virtual machines, containers, Kubernetes pods, and serverless functions, are where code runs and where breaches land. Securing them well is not a single control you buy once. It is a continuous discipline that runs across the whole lifecycle of a workload, from the image built in a pipeline to the function executing in production. The cloud makes that harder than the data center ever did. Workloads are ephemeral, so the thing you scanned an hour ago may be gone. They are multi-cloud, so the picture is fragmented across providers. And they multiply faster than any team can install an agent on each one. A best-practices program has to account for all of that. This guide defines cloud workload security, lays out the real risks and attack vectors, and gives you a cloud-native set of best practices ordered across the build, deploy, and runtime lifecycle. Continuous, agentless visibility runs underneath all of it, because you can’t protect what you can’t see. This piece is about the practices, not the purchase. Teams ready to compare platforms should evaluate CWPP tools separately. What Is Cloud Workload Security? Cloud workload security is the practice of protecting the workloads that run in a cloud environment, virtual machines, containers, Kubernetes, and serverless functions, against vulnerabilities, misconfigurations, malware, and runtime threats across their lifecycle. It is the discipline; a Cloud Workload Protection Platform (CWPP) is the tool category built to deliver it. The job has two halves. Before a workload runs, you find and fix what is wrong with it: known vulnerabilities in its packages, secrets baked into its image, and configurations that violate a hardening standard. Once it runs, you watch it for t
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Cloud Workload Protection Best Practices: How to Secure Cloud Workloads in 2026
+  - Published: 2026-07-07T20:40:00+00:00
+  - Link: https://orca.security/resources/blog/cloud-workload-protection-best-practices/
+  - Summary: Key Takeaways Cloud workloads, your virtual machines, containers, Kubernetes pods, and serverless functions, are where code runs and where breaches land. Securing them well is not a single control you buy once. It is a continuous discipline that runs across the whole lifecycle of a workload, from the image built in a pipeline to the […]
 
 ### Cluster 7c88582199 — score 8
 
