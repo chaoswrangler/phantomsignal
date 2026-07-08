@@ -6,9 +6,61 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 08 Jul 2026 03:26:46 +0000</lastBuildDate>
+<lastBuildDate>Wed, 08 Jul 2026 06:34:42 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros</title>
+<link>https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html</link>
+<description><![CDATA[Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network<br/><br/><em>Tags: CVE-2026-43499 · CVE-2026-53166 · CVE-2026-46242 · CVE-2026-31431 · CVE-2026-10702 · active_exploitation</em>]]></description>
+<pubDate>Wed, 08 Jul 2026 06:16:44 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-43499</category>
+<category>CVE-2026-53166</category>
+<category>CVE-2026-46242</category>
+<category>CVE-2026-31431</category>
+</item>
+<item>
+<title>CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV</title>
+<link>https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html</link>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the<br/><br/><em>Tags: CVE-2026-48282 · active_exploitation</em>]]></description>
+<pubDate>Wed, 08 Jul 2026 05:33:12 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-48282</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>20 open-source cybersecurity tools to keep your team ready for anything</title>
+<link>https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/</link>
+<description><![CDATA[AI is changing how security teams find vulnerabilities, analyze code, test applications, and protect infrastructure. Developers are building tools to secure AI systems themselves, from coding agents and memory protection to model exposure discovery. This roundup covers recent open-source releases for vulnerability research, application security testing, container security, endpoint protection, AI security, and penetration testing. AIMap: Open-source tool finds and tests exposed AI endpoints Public-facing Ollama servers, MCP endpoints, and inference proxies have multiplied across … More → The post 20 open-source cybersecurity tools to keep your team ready for anything appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 08 Jul 2026 05:30:52 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Risky Bulletin: DHS IG investigates forced CISA reassignments</title>
+<link>https://risky.biz/RBNEWS587/</link>
+<description><![CDATA[The DHS inspector general will investigate forced CISA reassignments, Canada hacked a ransomware gang, Taiwan charges two executives with helping Chinese hackers, and new vulnerabilities can disable Hoymiles solar panels.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Wed, 08 Jul 2026 05:27:06 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS587/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>How to implement a continuous offensive security testing program</title>
+<link>https://www.helpnetsecurity.com/2026/07/08/picus-continuous-offensive-security-testing-program/</link>
+<description><![CDATA[The hard part was never finding the exposure. It was deciding what to do about it: whether to patch, mitigate, monitor, or accept, and banking that that decision would still hold tomorrow. A penetration test answers this question for the day it runs, then quietly expires. The environment shifts, a control drifts, a new technique lands, and the report now describes a network that no longer exists. That gap, between finding an exposure and trusting … More → The post How to implement a continuous offensive security testing program appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 08 Jul 2026 04:30:31 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/08/picus-continuous-offensive-security-testing-program/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Accenture confirms breach after hacker offers stolen data for sale</title>
 <link>https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/</link>
@@ -507,24 +559,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>Researchers make the case for a cybersecurity AI scientist</title>
-<link>https://www.helpnetsecurity.com/2026/07/07/cybersecurity-ai-scientist-research/</link>
-<description><![CDATA[Autonomous AI agents have started doing real security work. Language-model agents probe software for flaws, run penetration tests, and chain together attack steps that once needed a human operator. Research about security has stayed slower and more manual, built around expert scarcity and hand-designed experiments. A team at the Chinese Academy of Sciences wants to close that gap. In a recent paper, they define what they term the Cybersecurity AI Scientist. They describe a research … More → The post Researchers make the case for a cybersecurity AI scientist appeared first on Help Net Security .]]></description>
-<pubDate>Tue, 07 Jul 2026 06:30:18 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/07/cybersecurity-ai-scientist-research/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Your company already adopted AI and nobody is governing access</title>
-<link>https://www.helpnetsecurity.com/2026/07/07/ai-attack-surface-video/</link>
-<description><![CDATA[In this Help Net Security video, Antoine Berton, CTO at Elba Security, breaks down the AI attack surface. Your company already adopted AI, and every adoption creates access that nobody governs. A quick click on a Friday afternoon connects a free AI tool to your Google Workspace, with no ticket and no security review. Berton maps five places where exposure lands, from standing OAuth grants and copilots that inherit human permissions to agent credentials stored … More → The post Your company already adopted AI and nobody is governing access appeared first on Help Net Security .]]></description>
-<pubDate>Tue, 07 Jul 2026 05:30:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/07/ai-attack-surface-video/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA</title>
 <link>https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html</link>
 <description><![CDATA[BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the<br/><br/><em>Tags: Linux kernel · OpenAI/ChatGPT · Anthropic/Claude · CVE-2026-40138 · CVE-2026-40139 · CVE-2026-40140 · CVE-2026-40141 · CVE-2024-12356</em>]]></description>
@@ -558,7 +592,7 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>2607_agents_vs_telemetry</title>
+<title>When AI agents look like attackers: what behavioral telemetry tells us</title>
 <link>https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry</link>
 <description><![CDATA[&lt;p&gt;An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries&lt;/p&gt; Categories: Threat Research]]></description>
 <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
@@ -1746,19 +1780,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware</title>
-<link>https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html</link>
-<description><![CDATA[Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks&apos; Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is<br/><br/><em>Tags: npm · Android · Palo Alto Networks · phishing_social_eng · active_exploitation</em>]]></description>
-<pubDate>Wed, 01 Jul 2026 07:20:51 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>npm</category>
-<category>Android</category>
-<category>Palo Alto Networks</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>Risky Bulletin: Researcher drops giant cache of zero-days</title>
 <link>https://risky.biz/RBNEWS584/</link>
 <description><![CDATA[An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider.<br/><br/><em>Tags: zero_day</em>]]></description>
@@ -1777,6 +1798,15 @@
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>Unmasking the crawls with Attribution Business Insights</title>
+<link>https://blog.cloudflare.com/attribution-business-insights/</link>
+<description><![CDATA[Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.]]></description>
+<pubDate>Wed, 01 Jul 2026 06:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/attribution-business-insights/</guid>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)</title>
@@ -8688,6 +8718,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -8696,15 +8735,6 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
-</item>
-<item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -11723,7 +11753,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f97c1b3dd60&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f1ce49eb730&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -12304,9 +12334,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>C&apos;est officiel : Wiz rejoint Google</title>
+<title>It’s Official: Wiz Joins Google</title>
 <link>https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</link>
-<description><![CDATA[Bienvenue dans une nouvelle ère de la sécurité du cloud et de l&apos;IA.]]></description>
+<description><![CDATA[Welcoming a new era of Cloud and AI Security.]]></description>
 <pubDate>Wed, 11 Mar 2026 12:41:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -12375,15 +12405,6 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/greynoise-google-secops-integration</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Between Two Nerds: An internet blackout won&apos;t stop NSA in Iran</title>
-<link>https://risky.biz/BTN157/</link>
-<description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq talk about why an internet shutdown won’t stop US cyber operations in Iran. This episode is also available on Youtube.]]></description>
-<pubDate>Mon, 09 Mar 2026 19:36:38 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/BTN157/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Cybersecurity Incident Response at Thermo Fisher: How the Ransomware Landscape Has Evolved</title>
@@ -20485,7 +20506,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20495,7 +20516,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20504,7 +20525,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20513,7 +20534,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20522,7 +20543,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20531,7 +20552,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20540,7 +20561,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20549,7 +20570,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20558,7 +20579,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20567,7 +20588,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 03:26:46 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 06:34:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

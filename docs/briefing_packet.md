@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-08T03:26:46.680382+00:00
+- Generated: 2026-07-08T06:34:42.108054+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 302
+- Total items in window: 301
 - Total clusters raw: 136
-- Total clusters in packet: 56
-- Dropped low score: 80
+- Total clusters in packet: 55
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,46 +80,41 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 3
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 15
-  - In window count: 4
+  - Item count: 25
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -130,11 +125,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 6
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -150,11 +155,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 50
+  - In window count: 15
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -165,41 +175,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 15
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -210,6 +205,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -240,43 +240,38 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
@@ -285,6 +280,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -295,11 +300,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -309,16 +319,6 @@
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
@@ -330,21 +330,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -355,6 +350,11 @@
   - Status: ok
   - Item count: 30
   - In window count: 18
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -365,6 +365,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -374,11 +379,6 @@
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
   - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
@@ -395,36 +395,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 100
+  - In window count: 22
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -435,31 +435,31 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 100
-  - In window count: 22
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 10
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 5
+  - In window count: 6
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -473,20 +473,20 @@
 
 ## Affinity groups (themes)
 
-### ransomware extortion targeting Linux kernel
+### Linux kernel exploitation (CVE-2026-46242)
 - Anchor signal: Linux kernel
 - Theme key: linux-kernel
-- Cluster count: 9
+- Cluster count: 10
 - Article count: 12
 - Cohesion: 0.215
 - Shared strong signals: Linux kernel
-- Member CVEs: (none)
+- Member CVEs: CVE-2026-46242
 - Also targets: (none)
 - Dominant features:
   - threat_categories: ransomware_extortion, active_exploitation
   - affected_industries: government
   - affected_products: Linux kernel
-- Cluster IDs: f497a96858, 8b4ae517ee, 9e3f402183, cad05b2d4e, 7c88582199, 28e99059c0, 99486124ff, 87ef22349e, a56bf79002
+- Cluster IDs: f497a96858, 8b4ae517ee, 9e3f402183, cad05b2d4e, 7c88582199, 28e99059c0, 99486124ff, a56bf79002, 076461d2d8, 87ef22349e
 - Links:
   - https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html
   - https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
@@ -498,8 +498,9 @@
   - https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
   - https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/
   - https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html
-  - https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
   - https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
+  - https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+  - https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
 
 ### Kubernetes vulnerability activity
 - Anchor signal: Kubernetes
@@ -521,27 +522,25 @@
   - https://orca.security/resources/blog/best-cwpp-tools/
   - https://orca.security/resources/blog/cwpp-vs-edr/
 
-### Android active exploitation
+### ransomware extortion targeting Android
 - Anchor signal: Android
 - Theme key: android
-- Cluster count: 4
-- Article count: 7
-- Cohesion: 0.222
+- Cluster count: 3
+- Article count: 6
+- Cohesion: 0.227
 - Shared strong signals: Android
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, active_exploitation
-  - affected_industries: financial_services, government
+  - threat_categories: ransomware_extortion, phishing_social_eng, credential_theft
+  - affected_industries: financial_services
   - affected_products: Android, OpenAI/ChatGPT
-  - urgency_signals: actively_exploited
-- Cluster IDs: 93502a2013, 4541afab04, 3ee1d54d9d, cad05b2d4e
+- Cluster IDs: 93502a2013, 3ee1d54d9d, cad05b2d4e
 - Links:
   - https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/
   - https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/
   - https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
   - https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/
-  - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
   - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
 
@@ -592,7 +591,7 @@
 - Anchor signal: CVE-2026-48282
 - Theme key: cve-2026-48282
 - Cluster count: 2
-- Article count: 4
+- Article count: 5
 - Cohesion: 0.357
 - Shared strong signals: CVE-2026-48282
 - Member CVEs: (none)
@@ -603,6 +602,7 @@
 - Cluster IDs: f66609ed81, 8b38cd09cc
 - Links:
   - https://www.helpnetsecurity.com/2026/07/07/adobe-coldfusion-cve-2026-48282-exploitation-detected/
+  - https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
   - https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/
   - https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/
   - https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/
@@ -660,26 +660,13 @@
   - https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
   - https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
 
-### Palo Alto Networks vulnerability activity
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Palo Alto Networks
-- Cluster IDs: 4541afab04, 689a007fbb
-- Links:
-  - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  - https://orca.security/resources/blog/best-cwpp-tools/
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 3
+  - CVE-2026-10702 (first seen via The Hacker News at 2026-07-08T06:16:44+00:00, cluster 076461d2d8)
+  - CVE-2026-43499 (first seen via The Hacker News at 2026-07-08T06:16:44+00:00, cluster 076461d2d8)
+  - CVE-2026-53166 (first seen via The Hacker News at 2026-07-08T06:16:44+00:00, cluster 076461d2d8)
 - Novel actors: 0
 - Novel products: 0
 
@@ -779,7 +766,7 @@ Back to Blog Products and Tools Weekly Metasploit Update: Modules for SMB-to-Met
   - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026
   - Summary: It's Time to Upgrade Your SMB Session This week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load the module with use windows/manage/smb_to_meterpreter and specify the session number they wish to upgrade. This functionality is also available with the command sessions -u <session_id> . This work is part of an overarching effort to enable a variety of session types to be upgraded to Meterpreter when possible. New module content (3) Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution Author: tmrswrr Type: Exploit Pull request: #21491 contributed by capture0x Path: windows/misc/peyara_remote_mouse_rce Description: Adds an exploit module for Peyara Remote Mouse v1.0.1 unauthenticated RCE. Linux Execute Command Authors: bcoles bcoles@gmail.com and modexp Type: Payload (Single) Pull request: #21239 contributed by bcoles Path: linux/loongarch64/exec Description: Adds a new linux/loonga
 
-### Cluster 843dce4060 — score 21
+### Cluster 843dce4060 — score 20
 
 - Title: CVE-2026-48283 / CVE-2026-48313 | Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
 - Source: Horizon3 Attack Research (offensive_vulnerability_research)
@@ -833,8 +820,8 @@ CVE-2026-48283 / CVE-2026-48313 Adobe ColdFusion Pre-Authentication Unrestricted
 - Published: 2026-07-07T12:03:10+00:00
 - Link: https://www.helpnetsecurity.com/2026/07/07/adobe-coldfusion-cve-2026-48282-exploitation-detected/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: CVE-2026-48282
 
 #### Cluster taxonomy (union across members)
@@ -863,13 +850,18 @@ CVE-2026-48282, one of the maximum severity vulnerabilities patched in Adobe Col
 Zeljka Zorz , Editor-in-Chief, Help Net Security July 7, 2026 Share Attackers exploit critical Adobe ColdFusion vulnerability (CVE-2026-48282) CVE-2026-48282, one of the maximum severity vulnerabilities patched in Adobe ColdFusion on June 30, 2026, has been targeted by attackers in the wild. Exploitation attempts were detected on July 2, through the honeypot sensors of cybersecurity threat-intelligence service KEVIntel, mere minutes after watchTowr researchers published a technical analysis of this and other ColdFusion flaws recently fixed by Adobe. What makes CVE-2026-48282 dangerous Adobe ColdFusion is a widely used development platform for building and deploying enterprise-grade websites and web applications. It’s usually run on Windows or Linux servers. Seven days ago, Adobe disclosed that it had released patches for CVE-2026-48282 and nine other critical vulnerabilities affecting ColdFusion. CVE-2026-48282’s description, CVSS score and vector indicate that this path traversal vulnerability may allow remote, unauthenticated attackers to achieve arbitrary code execution by sending a specially crafted HTTP request to upload a malicious file to a web-accessible location. “The attacker accesses the uploaded file directly via the web server, triggering execution of arbitrary code in the context of the current user, and can then escalate to further compromise the host,” the Centre for Cybersecurity Belgium noted . WatchTowr’s write-up explained that the vulnerability is found in ColdFusion’s Remote Development Services (RDS) feature “that allows a developer’s IDE, historically ColdFusion Builder, Dreamweaver, or the Eclipse plugin, to interact with a running ColdFusion server.” According to them, the IDE “can browse the filesystem, execute database queries, and assist with debugging, all over HTTP.” Resecurity researchers said they are also tracking the exploitation of this vulnerability, and they have released additional details that can help both defenders and attackers. Exploitation conditions and recommended fixes Vulnerabilities in Adobe ColdFusion are regularly exploited by attackers. To successfully leverage CVE-2026-48282, attackers must target ColdFusion servers on which RDS is enabled (and it’s not, by default), and authentication for it is disabled. The Shadowserver Foundation is currently tracking around 750 internet-facing ColdFusion servers, but it’s unknown how many of these still run a vulnerable ColdFusion version or whether they have RDS enabled. Admins are advised to upgrade to ColdFusion 2025 update 10 or ColdFusion 2023 Update 21, and if their servers are or were internet-facing in the last week, to hunt for indicators of compromise such as unauthorized files within ColdFusion’s web root and /CFIDE/ directories. Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about Adobe Adobe ColdFusion exploit KEVIntel PoC Resecurity Shadowserver vulnerability WatchTowr Share
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Attackers exploit critical Adobe ColdFusion vulnerability (CVE-2026-48282)
   - Published: 2026-07-07T12:03:10+00:00
   - Link: https://www.helpnetsecurity.com/2026/07/07/adobe-coldfusion-cve-2026-48282-exploitation-detected/
   - Summary: CVE-2026-48282, one of the maximum severity vulnerabilities patched in Adobe ColdFusion on June 30, 2026, has been targeted by attackers in the wild. Exploitation attempts were detected on July 2, through the honeypot sensors of cybersecurity threat-intelligence service KEVIntel, mere minutes after watchTowr researchers published a technical analysis of this and other ColdFusion flaws recently fixed by Adobe. What makes CVE-2026-48282 dangerous Adobe ColdFusion is a widely used development platform for building and deploying enterprise-grade … More → The post Attackers exploit critical Adobe ColdFusion vulnerability (CVE-2026-48282) appeared first on Help Net Security .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV
+  - Published: 2026-07-08T05:33:12+00:00
+  - Link: https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: Critical Adobe ColdFusion Vulnerability Exploited in Attacks
   - Published: 2026-07-07T12:38:34+00:00
@@ -1574,53 +1566,6 @@ Cloudflare proudly joins the UK government's Cyber Resilience Pledge 2026-07-07 
   - Link: https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/
   - Summary: The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.
 
-### Cluster 8b4ae517ee — score 13
-
-- Title: BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-07T05:16:51+00:00
-- Link: https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-40138
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, ransomware_extortion
-- affected_products: Anthropic/Claude, Linux kernel, OpenAI/ChatGPT
-- cve_ids: CVE-2024-12356, CVE-2026-40138, CVE-2026-40139, CVE-2026-40140, CVE-2026-40141
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, ddos, active_exploitation
-- affected_products: Linux kernel, OpenAI/ChatGPT, Anthropic/Claude
-- cve_ids: CVE-2026-40138, CVE-2026-40139, CVE-2026-40140, CVE-2026-40141, CVE-2024-12356
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the
-```
-
-#### Full body
-
-```
-BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA  Ravie Lakshmanan  Jul 07, 2026 Vulnerability / Enterprise Security BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust Remote Support and Privileged Remote Access stemming from improper validation of authentication data that could allow a network-positioned attacker to bypass access controls and gain unauthorized access to the appliance, including accounts with elevated privileges. CVE-2026-40139 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust Remote Support stemming from improper processing of authentication requests that could allow an unauthenticated remote attacker to bypass access controls and gain unauthorized access to the appliance, including accounts with elevated privileges. CVE-2026-40140 (CVSS score: 8.7) - A pre-authentication vulnerability in the network communication subsystem stemming from insufficient validation of client-supplied input that could allow an unauthenticated remote attacker to trigger a denial-of-service condition, affecting appliance availability. CVE-2026-40141 (CVSS score: 8.5) - A vulnerability exists in a web application component of BeyondTrust Remote Support and Privileged Remote Access stemming from insufficient validation of user-supplied input that could allow an authenticated attacker with limited privileges to access unintended resources or data beyond their authorization scope. It's worth noting that the successful exploitation of CVE-2026-40138 and CVE-2026-40139 hinges on a specific authentication configuration being enabled. In the case of CVE-2026-40141, exploitation, should it occur, is restricted to accounts with specific permissions. BeyondTrust said all the identified internally as part of ongoing security assessments, with assistance using publicly available artificial intelligence (AI) models like Anthropic Claude Opus 4.8 and its own proprietary research tooling. "The most severe vulnerabilities may allow an unauthenticated remote attacker to bypass access controls and gain unauthorized access to the appliance under specific configurations," it said. "Additional vulnerabilities may allow service disruption, unintended data access, and, under distinct configurations, elevated access by an authenticated user that may impact system integrity." The issues have been addressed in the following versions - Remote Support RS 25.3.2 or lower (Fixed in RS 25.3.3 and above) Privileged Remote Access PRA 25.3.2 or lower (Fixed in PRA 25.3.3 and above) BeyondTrust makes no mention of the vulnerabilities being exploited in the wild. However, security flaws in RS and PRA products ( CVE-2024-12356 and CVE-2026-1731 ) have come under repeated exploitation in the past to deploy web shells and backdoors, making it essential that users move quickly to apply the fixes. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  AI Security , Authentication Security , denial of service , enterprise security , Patch Management , Vulnerability , Web Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
-  - Published: 2026-07-07T05:16:51+00:00
-  - Link: https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
-  - Summary: BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the
-
 ### Cluster b422f525d6 — score 12
 
 - Title: Chinese hackers develop LONGLEASH malware to expand ORB network
@@ -1669,6 +1614,53 @@ Chinese hackers develop LONGLEASH malware to expand ORB network By Bill Toulas J
   - Published: 2026-07-07T18:52:19+00:00
   - Link: https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
   - Summary: Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. [...]
+
+### Cluster 8b4ae517ee — score 12
+
+- Title: BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-07T05:16:51+00:00
+- Link: https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-40138
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos, ransomware_extortion
+- affected_products: Anthropic/Claude, Linux kernel, OpenAI/ChatGPT
+- cve_ids: CVE-2024-12356, CVE-2026-40138, CVE-2026-40139, CVE-2026-40140, CVE-2026-40141
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, ddos, active_exploitation
+- affected_products: Linux kernel, OpenAI/ChatGPT, Anthropic/Claude
+- cve_ids: CVE-2026-40138, CVE-2026-40139, CVE-2026-40140, CVE-2026-40141, CVE-2024-12356
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the
+```
+
+#### Full body
+
+```
+BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA  Ravie Lakshmanan  Jul 07, 2026 Vulnerability / Enterprise Security BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust Remote Support and Privileged Remote Access stemming from improper validation of authentication data that could allow a network-positioned attacker to bypass access controls and gain unauthorized access to the appliance, including accounts with elevated privileges. CVE-2026-40139 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust Remote Support stemming from improper processing of authentication requests that could allow an unauthenticated remote attacker to bypass access controls and gain unauthorized access to the appliance, including accounts with elevated privileges. CVE-2026-40140 (CVSS score: 8.7) - A pre-authentication vulnerability in the network communication subsystem stemming from insufficient validation of client-supplied input that could allow an unauthenticated remote attacker to trigger a denial-of-service condition, affecting appliance availability. CVE-2026-40141 (CVSS score: 8.5) - A vulnerability exists in a web application component of BeyondTrust Remote Support and Privileged Remote Access stemming from insufficient validation of user-supplied input that could allow an authenticated attacker with limited privileges to access unintended resources or data beyond their authorization scope. It's worth noting that the successful exploitation of CVE-2026-40138 and CVE-2026-40139 hinges on a specific authentication configuration being enabled. In the case of CVE-2026-40141, exploitation, should it occur, is restricted to accounts with specific permissions. BeyondTrust said all the identified internally as part of ongoing security assessments, with assistance using publicly available artificial intelligence (AI) models like Anthropic Claude Opus 4.8 and its own proprietary research tooling. "The most severe vulnerabilities may allow an unauthenticated remote attacker to bypass access controls and gain unauthorized access to the appliance under specific configurations," it said. "Additional vulnerabilities may allow service disruption, unintended data access, and, under distinct configurations, elevated access by an authenticated user that may impact system integrity." The issues have been addressed in the following versions - Remote Support RS 25.3.2 or lower (Fixed in RS 25.3.3 and above) Privileged Remote Access PRA 25.3.2 or lower (Fixed in PRA 25.3.3 and above) BeyondTrust makes no mention of the vulnerabilities being exploited in the wild. However, security flaws in RS and PRA products ( CVE-2024-12356 and CVE-2026-1731 ) have come under repeated exploitation in the past to deploy web shells and backdoors, making it essential that users move quickly to apply the fixes. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  AI Security , Authentication Security , denial of service , enterprise security , Patch Management , Vulnerability , Web Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
+  - Published: 2026-07-07T05:16:51+00:00
+  - Link: https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
+  - Summary: BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the
 
 ### Cluster 9e3f402183 — score 12
 
@@ -1721,53 +1713,6 @@ Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure �
   - Published: 2026-07-07T17:17:19+00:00
   - Link: https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/
   - Summary: Attackers are exploiting the critical Gitea vulnerability CVE-2026-20896 to bypass authentication with a single HTTP header and access vulnerable repositories and secrets. The post Critical Gitea Flaw Under Active Exploitation, Researchers Warn appeared first on SecurityWeek .
-
-### Cluster 4541afab04 — score 12
-
-- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T07:20:51+00:00
-- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Palo Alto Networks
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_industries: financial_services, government, healthcare
-- affected_products: Android, Palo Alto Networks, npm
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_industries: healthcare, financial_services, government
-- affected_products: npm, Android, Palo Alto Networks
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
-```
-
-#### Full body
-
-```
-Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-  - Published: 2026-07-01T07:20:51+00:00
-  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
 
 ### Cluster f6a2962dc9 — score 11
 
@@ -2428,55 +2373,6 @@ Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams 
   - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
   - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
 
-### Cluster 7c88582199 — score 10
-
-- Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-07T17:31:54+00:00
-- Link: https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services, government, healthcare, legal_professional
-- affected_products: Anthropic/Claude, Gitea, Linux kernel
-- urgency_signals: poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security
-- actor_attribution: Scattered Spider
-- affected_industries: healthcare, financial_services, government, legal_professional
-- affected_products: Linux kernel, Gitea, Anthropic/Claude
-- urgency_signals: poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-A government entity in the US reportedly paid a $1 million ransom to the Kairos cyber extortion group to prevent the public dissemination of information stolen in a May 2025 intrusion, Ransom-ISAC reports. A leaked negotiation transcript shows that the extortion group demanded $3 million in cryptocurrency from the victim organization, but eventually settled for $1 million. Kairos claimed to have stolen over 2 terabytes of data, or approximately 1.6 million files, after accessing the victim’s environment in a brute-force attack. During the three-week negotiation, the victim increased its offer from $100,000 to $430,000, but eventually accepted a hard deadline and the $1 million ransom, which was paid in Bitcoin on June 13. The attackers pressured the victim with public exposure, while maintaining control of deadlines and proof-of-access artifacts. “The affected entity’s responses are consistent with an organization buying time while legal, leadership, financial, and communications decisions were coordinated,” Ransom-ISAC notes. Advertisement. Scroll to continue reading. The anti-ransomware organization notes that the incident was an extortion attack and did not involve file-encrypting ransomware. The attackers’ proof-of-deletion appears selective, not comprehensive, but the listings they provided are consistent with a real file-server scrape. According to Ransom-ISAC, the provided proof of deletion could have been generated by erasing a copy of the data, and no mechanism to independently verify the deletion was provided. Ransom-ISAC did not name the affected organization, but the negotiation transcript identifies it as “a small county with very limited resources.” The affected government body reportedly appears to be Union County, Ohio. In September, the county notified (PDF) 45,487 individuals that their personal information was stolen in a ransomware attack in May 2025. The affected information included names, dates of birth, driver’s license/state ID numbers, passport numbers, Social Security numbers, financial account details, fingerprint information, medical information, and payment card details. SecurityWeek has emailed Union County for a statement on the matter and will update this article if the county responds. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Latest News Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks CISO Conversations: Tarah Wheeler, Cybersecurity Leader, Thought Leader and Original Thinker Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
-  - Published: 2026-07-07T17:31:54+00:00
-  - Link: https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
-  - Summary: The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .
-
 ### Cluster 5811e9602e — score 10
 
 - Title: Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
@@ -2565,43 +2461,6 @@ Risky Bulletin Podcast July 01, 2026 Risky Bulletin: Researcher drops giant cach
   - Link: https://risky.biz/RBNEWS584/
   - Summary: An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider.
 
-### Cluster e3e5c74bb1 — score 9
-
-- Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-01T05:10:20+00:00
-- Link: https://isc.sans.edu/diary/rss/33118
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
-  - Published: 2026-07-01T05:10:20+00:00
-  - Link: https://isc.sans.edu/diary/rss/33118
-  - Summary: This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
-
 ### Cluster 689a007fbb — score 9
 
 - Title: Best CWPP Tools in 2026: The Cloud Workload Protection Platform Buyer’s Guide
@@ -2643,89 +2502,54 @@ Table of contents Key Takeaways What Is a CWPP (Cloud Workload Protection Platfo
   - Link: https://orca.security/resources/blog/best-cwpp-tools/
   - Summary: Key Takeaways CWPP tools protect the workloads where your code actually runs, and where breaches actually land. That matters because cloud workloads no longer sit still: they spin up and tear down in minutes, span multiple clouds, and multiply faster than security teams can deploy and maintain agents. That shift is why the CWPP market […]
 
-### Cluster d53451304c — score 9
+### Cluster 7c88582199 — score 9
 
-- Title: CWPP vs EDR: Why Endpoint Detection Can’t Secure Your Cloud Workloads
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-07-07T16:38:53+00:00
-- Link: https://orca.security/resources/blog/cwpp-vs-edr/
+- Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-07T17:31:54+00:00
+- Link: https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services, government, healthcare, legal_professional
+- affected_products: Anthropic/Claude, Gitea, Linux kernel
+- urgency_signals: poc_available
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security
+- actor_attribution: Scattered Spider
+- affected_industries: healthcare, financial_services, government, legal_professional
+- affected_products: Linux kernel, Gitea, Anthropic/Claude
+- urgency_signals: poc_available
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Key Takeaways If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The […]
+The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Table of contents Key Takeaways CWPP vs EDR at a glance (quick answer) EDR in brief: detection and response for endpoints What is CWPP (Cloud Workload Protection Platform)? CWPP vs EDR: the key differences Security focus: endpoints vs cloud workloads Deployment model: agent-based vs agentless / cloud-native Lifecycle coverage: runtime-only vs build-plus-runtime (with vuln mgmt + config) Environment fit: persistent devices vs ephemeral/containerized/serverless Can EDR protect cloud workloads, and do you need both? Why endpoint EDR agents struggle with containers and Kubernetes Why serverless functions leave EDR blind The agent-deployment and coverage-gap problem at cloud scale Where EDR, CDR, and CWPP converge EDR vs CDR: endpoint detection vs cloud detection How this fits the broader stack (XDR and CNAPP) How Orca secures cloud workloads without agents Frequently asked questions about CWPP vs. EDR Key Takeaways EDR secures endpoints (laptops, servers, and workstations) with an agent on each device; a CWPP secures cloud workloads (VMs, containers, Kubernetes, and serverless functions) across build and runtime. They defend different attack surfaces, so CWPP vs EDR is really a question of where your risk lives. An EDR agent can run on a cloud VM, but it cannot reliably reach a container that lives for seconds, a function with no host to install on, or an autoscaled fleet that spawns faster than any agent enrolls. Deployment is the sharpest line. EDR is agent-based; CWPP is agent-based or, increasingly, agentless. CWPP also does what EDR does not: vulnerability management and configuration hardening across the build pipeline, not just runtime detection. Most organizations need both. EDR covers user endpoints and corporate devices; CWPP covers cloud workloads. One does not replace the other. Orca delivers CWPP agentlessly through SideScanning™, reaching the ephemeral and serverless workloads endpoint agents miss and tying each workload risk to the attack path it actually opens. If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The two tools defend different attack surfaces, which is why comparing CWPP vs EDR is really a question about where your risk lives. That gap opens widest where cloud compute breaks the endpoint model: short-lived containers, autoscaled VMs, and serverless functions no agent can reliably reach. This guide gives you a side-by-side comparison of CWPP and EDR. It explains whether your EDR can protect cloud workloads, why most teams run both, and where cloud detection and response (CDR) fits alongside them. CWPP vs EDR at a glance (quick answer) EDR detects and responds to threats on endpoints using an agent; CWPP protects cloud workloads across their full lifecycle, increasingly agentlessly. EDR is not a substitute for CWPP in the cloud, because its agent-based model was built for persistent devices, not ephemeral cloud compute. Dimension EDR CWPP Primary focus Detecting and responding to threats on endpoints Protecting cloud workloads across their lifecycle What it protects Laptops, desktops, servers, workstations VMs, containers, Kubernetes, serverless functions Deployment model Agent-based (an agent on every endpoint) Agent-based or agentless (increasingly agentless) Lifecycle coverage Runtime detection and response Build and runtime Best-fit environment Persistent, human-operated devices Ephemeral, autoscaled, containerized cloud compute The rest of this guide works through each of these lines, then answers the question the table cannot: whether you can point your existing EDR at the cloud and call it covered. EDR in brief: detection and response for endpoints EDR, or endpoint detection and response , is agent-based software that monitors
+A government entity in the US reportedly paid a $1 million ransom to the Kairos cyber extortion group to prevent the public dissemination of information stolen in a May 2025 intrusion, Ransom-ISAC reports. A leaked negotiation transcript shows that the extortion group demanded $3 million in cryptocurrency from the victim organization, but eventually settled for $1 million. Kairos claimed to have stolen over 2 terabytes of data, or approximately 1.6 million files, after accessing the victim’s environment in a brute-force attack. During the three-week negotiation, the victim increased its offer from $100,000 to $430,000, but eventually accepted a hard deadline and the $1 million ransom, which was paid in Bitcoin on June 13. The attackers pressured the victim with public exposure, while maintaining control of deadlines and proof-of-access artifacts. “The affected entity’s responses are consistent with an organization buying time while legal, leadership, financial, and communications decisions were coordinated,” Ransom-ISAC notes. Advertisement. Scroll to continue reading. The anti-ransomware organization notes that the incident was an extortion attack and did not involve file-encrypting ransomware. The attackers’ proof-of-deletion appears selective, not comprehensive, but the listings they provided are consistent with a real file-server scrape. According to Ransom-ISAC, the provided proof of deletion could have been generated by erasing a copy of the data, and no mechanism to independently verify the deletion was provided. Ransom-ISAC did not name the affected organization, but the negotiation transcript identifies it as “a small county with very limited resources.” The affected government body reportedly appears to be Union County, Ohio. In September, the county notified (PDF) 45,487 individuals that their personal information was stolen in a ransomware attack in May 2025. The affected information included names, dates of birth, driver’s license/state ID numbers, passport numbers, Social Security numbers, financial account details, fingerprint information, medical information, and payment card details. SecurityWeek has emailed Union County for a statement on the matter and will update this article if the county responds. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Latest News Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks CISO Conversations: Tarah Wheeler, Cybersecurity Leader, Thought Leader and Original Thinker Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and
 ```
 
 #### Corroborating sources (1)
 
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: CWPP vs EDR: Why Endpoint Detection Can’t Secure Your Cloud Workloads
-  - Published: 2026-07-07T16:38:53+00:00
-  - Link: https://orca.security/resources/blog/cwpp-vs-edr/
-  - Summary: Key Takeaways If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The […]
-
-### Cluster 059e247516 — score 9
-
-- Title: Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-07T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/identity-security/drive-proactive-security-prioritize-risks-with-google-threat-intelligence-and-wiz-asm/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive secu
-```
-
-#### Full body
-
-```
-Security & Identity Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM July 7, 2026 Megan DeBlois Product Manager, Google Threat Intelligence Alon Weiss Director, Product Management, Wiz Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive security strategy. In addition to detecting your exploitable exposures, you gain insight into which of those exposures are being actively targeted by adversaries. We will continue to build towards native integration that will feed exposure data directly into the Google Threat Intelligence correlation engine. This automated connection will help you focus on the exposures adversaries are targeting in the wild, and use our real-time threat intelligence to prioritize remediation efforts and threat hunting activities. Building a proactive security strategy Google Threat Intelligence provides global visibility into how adversaries operate, tracking their infrastructure and campaign activity in real time. Wiz ASM maps your external attack surface across cloud, AI, software-as-a-service (SaaS), and on-premises environments to reveal exposed assets like domains, IPs, and APIs. It scans for exploitable vulnerabilities, misconfigurations, and default credentials to validate exploitability. It also scans for and validates exposed secrets and sensitive data. At the same time, the Wiz Red Agent scans exposures with AI to uncover complex, logic-driven vulnerabilities by reasoning about applications behavior. The power of this combination lies in the ability to prioritize and hunt with confidence: Prioritize based on real-world activity : With the incoming integration, exposure data feeds into the Google Threat Intelligence engine. This helps you spot the exposures that adversaries are currently exploiting, allowing your team to focus remediation efforts where they are needed most. Understand attacker behavior : When a critical risk is flagged, we plan to provide behavior-based guidance alongside the alert. This details how an attacker typically acts after exploiting a vulnerability, using specific host commands or malware, giving your defenders the context they need to hunt for active footprints inside your network. Discover complex vulnerabilities : The Wiz Red Agent uses AI to scan for logic-driven vulnerabilities, such as authentication bypasses, business logic flaws, and multi-step attack chains, helping you uncover risks that traditional scanners often miss. Get started with proactive defense This combined approach is designed to help you streamline your security posture by reducing the noise and focusing on the signals that represent real danger to your organization. To get started with Google Threat Intelligence and Wiz ASM today, contact your Google sales representative . Posted in Security & Identity AI & Machine Learning Related articles Security & Identity Shift into high gear with agents: Securing the software-defined vehicle By Florian Haubner
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM
-  - Published: 2026-07-07T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/drive-proactive-security-prioritize-risks-with-google-threat-intelligence-and-wiz-asm/
-  - Summary: Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive secu
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
+  - Published: 2026-07-07T17:31:54+00:00
+  - Link: https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
+  - Summary: The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data. The post County Government Reportedly Paid $1 Million to Cyber Extortion Group appeared first on SecurityWeek .
 
 ### Cluster 28e99059c0 — score 9
 
@@ -2969,9 +2793,9 @@ Security & Identity Shift into high gear with agents: Securing the software-defi
   - Link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
   - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it
 
-### Cluster a724efa43f — score 8
+### Cluster 73959b5e1a — score 8
 
-- Title: 2607_agents_vs_telemetry
+- Title: When AI agents look like attackers: what behavioral telemetry tells us
 - Source: Sophos X-Ops (detection_response_operations)
 - Published: 2026-07-07T00:00:00+00:00
 - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
@@ -3003,7 +2827,7 @@ When AI agents look like attackers: what behavioral telemetry tells us An X-Ops 
 #### Corroborating sources (1)
 
 - **Sophos X-Ops** (detection_response_operations)
-  - Title: 2607_agents_vs_telemetry
+  - Title: When AI agents look like attackers: what behavioral telemetry tells us
   - Published: 2026-07-07T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
   - Summary: <p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
@@ -3048,6 +2872,90 @@ Elastic's InfoSec team built AI agents on Elastic Workflows that investigate eve
   - Published: 2026-07-02T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows
   - Summary: Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.
+
+### Cluster d53451304c — score 8
+
+- Title: CWPP vs EDR: Why Endpoint Detection Can’t Secure Your Cloud Workloads
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-07T16:38:53+00:00
+- Link: https://orca.security/resources/blog/cwpp-vs-edr/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways CWPP vs EDR at a glance (quick answer) EDR in brief: detection and response for endpoints What is CWPP (Cloud Workload Protection Platform)? CWPP vs EDR: the key differences Security focus: endpoints vs cloud workloads Deployment model: agent-based vs agentless / cloud-native Lifecycle coverage: runtime-only vs build-plus-runtime (with vuln mgmt + config) Environment fit: persistent devices vs ephemeral/containerized/serverless Can EDR protect cloud workloads, and do you need both? Why endpoint EDR agents struggle with containers and Kubernetes Why serverless functions leave EDR blind The agent-deployment and coverage-gap problem at cloud scale Where EDR, CDR, and CWPP converge EDR vs CDR: endpoint detection vs cloud detection How this fits the broader stack (XDR and CNAPP) How Orca secures cloud workloads without agents Frequently asked questions about CWPP vs. EDR Key Takeaways EDR secures endpoints (laptops, servers, and workstations) with an agent on each device; a CWPP secures cloud workloads (VMs, containers, Kubernetes, and serverless functions) across build and runtime. They defend different attack surfaces, so CWPP vs EDR is really a question of where your risk lives. An EDR agent can run on a cloud VM, but it cannot reliably reach a container that lives for seconds, a function with no host to install on, or an autoscaled fleet that spawns faster than any agent enrolls. Deployment is the sharpest line. EDR is agent-based; CWPP is agent-based or, increasingly, agentless. CWPP also does what EDR does not: vulnerability management and configuration hardening across the build pipeline, not just runtime detection. Most organizations need both. EDR covers user endpoints and corporate devices; CWPP covers cloud workloads. One does not replace the other. Orca delivers CWPP agentlessly through SideScanning™, reaching the ephemeral and serverless workloads endpoint agents miss and tying each workload risk to the attack path it actually opens. If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The two tools defend different attack surfaces, which is why comparing CWPP vs EDR is really a question about where your risk lives. That gap opens widest where cloud compute breaks the endpoint model: short-lived containers, autoscaled VMs, and serverless functions no agent can reliably reach. This guide gives you a side-by-side comparison of CWPP and EDR. It explains whether your EDR can protect cloud workloads, why most teams run both, and where cloud detection and response (CDR) fits alongside them. CWPP vs EDR at a glance (quick answer) EDR detects and responds to threats on endpoints using an agent; CWPP protects cloud workloads across their full lifecycle, increasingly agentlessly. EDR is not a substitute for CWPP in the cloud, because its agent-based model was built for persistent devices, not ephemeral cloud compute. Dimension EDR CWPP Primary focus Detecting and responding to threats on endpoints Protecting cloud workloads across their lifecycle What it protects Laptops, desktops, servers, workstations VMs, containers, Kubernetes, serverless functions Deployment model Agent-based (an agent on every endpoint) Agent-based or agentless (increasingly agentless) Lifecycle coverage Runtime detection and response Build and runtime Best-fit environment Persistent, human-operated devices Ephemeral, autoscaled, containerized cloud compute The rest of this guide works through each of these lines, then answers the question the table cannot: whether you can point your existing EDR at the cloud and call it covered. EDR in brief: detection and response for endpoints EDR, or endpoint detection and response , is agent-based software that monitors
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: CWPP vs EDR: Why Endpoint Detection Can’t Secure Your Cloud Workloads
+  - Published: 2026-07-07T16:38:53+00:00
+  - Link: https://orca.security/resources/blog/cwpp-vs-edr/
+  - Summary: Key Takeaways If your team already runs EDR across its servers and laptops, it is fair to assume that protection follows your workloads into the cloud. It does not. EDR secures endpoints with an agent installed on each device; a CWPP secures cloud workloads across their build-and-runtime lifecycle, increasingly without any agent at all. The […]
+
+### Cluster 059e247516 — score 8
+
+- Title: Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-07T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/identity-security/drive-proactive-security-prioritize-risks-with-google-threat-intelligence-and-wiz-asm/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive secu
+```
+
+#### Full body
+
+```
+Security & Identity Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM July 7, 2026 Megan DeBlois Product Manager, Google Threat Intelligence Alon Weiss Director, Product Management, Wiz Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive security strategy. In addition to detecting your exploitable exposures, you gain insight into which of those exposures are being actively targeted by adversaries. We will continue to build towards native integration that will feed exposure data directly into the Google Threat Intelligence correlation engine. This automated connection will help you focus on the exposures adversaries are targeting in the wild, and use our real-time threat intelligence to prioritize remediation efforts and threat hunting activities. Building a proactive security strategy Google Threat Intelligence provides global visibility into how adversaries operate, tracking their infrastructure and campaign activity in real time. Wiz ASM maps your external attack surface across cloud, AI, software-as-a-service (SaaS), and on-premises environments to reveal exposed assets like domains, IPs, and APIs. It scans for exploitable vulnerabilities, misconfigurations, and default credentials to validate exploitability. It also scans for and validates exposed secrets and sensitive data. At the same time, the Wiz Red Agent scans exposures with AI to uncover complex, logic-driven vulnerabilities by reasoning about applications behavior. The power of this combination lies in the ability to prioritize and hunt with confidence: Prioritize based on real-world activity : With the incoming integration, exposure data feeds into the Google Threat Intelligence engine. This helps you spot the exposures that adversaries are currently exploiting, allowing your team to focus remediation efforts where they are needed most. Understand attacker behavior : When a critical risk is flagged, we plan to provide behavior-based guidance alongside the alert. This details how an attacker typically acts after exploiting a vulnerability, using specific host commands or malware, giving your defenders the context they need to hunt for active footprints inside your network. Discover complex vulnerabilities : The Wiz Red Agent uses AI to scan for logic-driven vulnerabilities, such as authentication bypasses, business logic flaws, and multi-step attack chains, helping you uncover risks that traditional scanners often miss. Get started with proactive defense This combined approach is designed to help you streamline your security posture by reducing the noise and focusing on the signals that represent real danger to your organization. To get started with Google Threat Intelligence and Wiz ASM today, contact your Google sales representative . Posted in Security & Identity AI & Machine Learning Related articles Security & Identity Shift into high gear with agents: Securing the software-defined vehicle By Florian Haubner
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM
+  - Published: 2026-07-07T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/drive-proactive-security-prioritize-risks-with-google-threat-intelligence-and-wiz-asm/
+  - Summary: Being more proactive continues to be a leading goal for security organizations. As AI accelerates the pace of vulnerability discovery and exploitation, organizations will rely on the personalization of their security investments to help prioritize their defenses. To help you be more proactive by matching your real-world exposures with real-time adversary activity, we’ve begun integration efforts between Google Threat Intelligence and Wiz Attack Surface Management (ASM). By connecting exposure and validated exploitable risks directly to real-time threat intelligence, we can help you detect and prioritize external-facing exploitable issues and uncover logic-driven vulnerabilities with AI scanning at the speed needed for today’s defenses. This allows you to shift to a strategy that prioritizes actions based on the real-world threats that pose the greatest risks to your organization. Combining these two perspectives on threats can help you move from reactive maintenance to a proactive secu
 
 ### Cluster e90c682b86 — score 8
 
@@ -3134,6 +3042,145 @@ Vulnerable and outdated software components are one of the most common issues en
   - Published: 2026-07-01T14:00:00+00:00
   - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
   - Summary: Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
+
+### Cluster a56bf79002 — score 8
+
+- Title: Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-07-02T12:51:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure, zero_day
+- affected_industries: government
+- affected_products: GitHub, Gogs, Linux kernel
+- cve_ids: CVE-2026-55200, CVE-2026-58049, CVE-2026-58050
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure
+- affected_industries: government
+- affected_products: GitHub, Linux kernel, Gogs
+- cve_ids: CVE-2026-55200, CVE-2026-58049, CVE-2026-58050
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Infosecurity spoke with the researcher who dumped over 30 proof-of-concept exploits without disclosing the vulnerabilities first
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits News 2 July 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn A pseudonymous security researcher has released over 30 proof-of-concept exploits for zero-day vulnerabilities in open-source projects without disclosing them to the maintainers first. The dump, called ‘ Exploitarium ,’ was shared publicly on GitHub by an individual going by name ‘bikini’ and ‘ashdfrkl’ on Discord. First published on June 27, the repository initially included around 15 exploits, before the researcher updated it over the next few days with new entries. It affects several open-source projects, including the Linux kernel, Libssh2, FFmpeg, Gogs, Gitea, Ghidra, 7-Zip, MyBB, PHP, OpenVPN, the VLC player and more. The 'Exploitarium' repository on GitHub. Source: Infosecurity Magazine In the ‘Exploitarium’ repository on GitHub, the researcher claimed they automated the entire fuzzing process using AI, specifically OpenAI models and tools. One of the most widely used methods to find vulnerabilities, fuzzing is an automated software testing technique that inputs random, invalid or unexpected data into a computer program to detect crashes, memory leaks and security flaws. However, the main reason this exploit dump sparked debate within the cybersecurity community is the apparent lack of coordinated vulnerability disclosure (CVD). CVD is the industry-standard practice of privately alerting developers to a security flaw first, giving them a window of time to patch the issue before details are made public. On GitHub, the researcher explicitly invited others to file CVEs themselves and framed the work as an effort to bring people into the field. Speaking to Infosecurity on Discord, the researcher confirmed they did not inform any of the maintainers of the publication. While they have been through a CVD process in the past, they decided against it this time. “I think it's the best way for people to learn and become allured into the field. It's a lot less interesting and informative if someone has to read a write up that's not applicable by today's security standards,” the researcher known as bikini said. “It also raises the barrier to entry making someone go back and install outdated software to test on.” Some Exploits Linked to Disclosed CVEs Some vulnerabilities have since been publicly disclosed and some of them have been patched by maintainers. One of them, CVE-2026-55200 , represents a severe pre-authentication remote code execution (RCE) vulnerability affecting libssh2, a widely used client-side C library implementing the SSH2 protocol, with a CVSS severity score of 9.2. Exploitation involves transmitting specially crafted SSH packets containing oversized packet_length values to manipulate heap memory, ultimately enabling remote code execution. While bikini dropped the exploit on GitHub, the vulnerability was publicly disclosed by VulnCheck through formal channels with credit to a different cybersecurity researcher Tristan Madani (also known as @TristanInSec) for reporting it to them. It has now been addressed with a fix already integrated into the libssh2 mainline development branch, though maintainers are still finalizing a formal release that includes the patch. Speaking to Infosecurity , Ethan Andrews, a cybersecurity analyst and detection engineer at Federal Signal Corporation, said CVE-2026-55200 has been “independently verified.” He noted that it is the “most severe” vulnerability that has come out of the dump and is experiencing active exploitation. Aside from CVE-2026-55200, bikini’s ‘Exploitarium’ GitHub repository mentioned that 12 issues have now received CVE identifiers: CVE-2026-58049: Memory corruption (heap write/read) in FFmpeg's RASC video decoder CVE-2026-58050: Heap buffer overflow in lib
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits
+  - Published: 2026-07-02T12:51:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
+  - Summary: Infosecurity spoke with the researcher who dumped over 30 proof-of-concept exploits without disclosing the vulnerabilities first
+
+### Cluster 31e5b2aa9f — score 8
+
+- Title: Insurance Giant Aflac Discloses Data Breach Impacting Millions
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-07-01T09:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services, government, healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- actor_attribution: Scattered Spider
+- affected_industries: healthcare, financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Aflac Japan has notified regulators that policy details and personal and banking information have been compromised
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Insurance Giant Aflac Discloses Data Breach Impacting Millions Insurance Giant Aflac Discloses Data Breach Impacting Millions News 1 July 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster US insurer Aflac has disclosed a major data breach after hackers managed to access highly sensitive personal and financial information. The company’s Aflac Japan subsidiary discovered the intrusion on June 25, it said in a filing with the SEC yesterday (June 30). It explained that an “unauthorized third party” had accessed certain systems between June 15 and June 25. “Although the investigation remains ongoing, Aflac Japan has determined that certain impacted files contain policy and coverage details, personal information, and bank account information,” it revealed. “This incident is limited to systems in Japan, the company’s systems related to its US business were not accessed by the unauthorized third-party. At this time, the full scope and potential ultimate impact on the company are not known.” Read more on insurance sector breaches: Third-Party Breach Impacts Majority of Allianz Life US Customers. A statement posted on Aflac Japan’s website revealed that the incident impacted the firm’s customer portal. “Please note that some systems are currently shut down to prevent the spread of unauthorized access,” it said (via Google Translate). “However, inquiries and procedures, including claims for insurance benefits and other payments, are being handled as usual through our call center and other channels.” Among the services currently out of action are reservations for medical check-ups and health screening, and the firm’s AI support concierge. According to local reports , personal and financial information on nearly 4.4 million customers has been compromised. This includes information about the premium payment accounts of around 230,000 customers. Another Scattered Spider Attack? This isn’t the first time Aflac Japan has suffered at the hands of threat actors. In 2023, Aflac Japan customers’ details were stolen and put up for sale after a third-party US contractor was reportedly breached. A year ago, the firm suffered another data breach which was claimed to be part of a wider campaign targeting US insurers thought to be the work of the Scattered Spider group. Joshua Roback, principal security solution architect at Swimlane, said the latest compromise could also be linked to the notorious extortion group. “Large insurers are sprawling ecosystems of subsidiaries, support teams, legacy platforms and regional workflows. That gives threat actors more places to test access, reuse lessons from prior campaigns and search for the fastest path back to valuable data,” he said. “The answer is not just more alerts. Security teams need connected workflows that can turn a signal in one part of the business into action everywhere else. Agentic AI and automation can help prioritize the riskiest activity, trigger containment steps and keep remediation moving before attackers get comfortable.” Aflac Japan has notified the relevant authorities and claimed that “no misuse of the information related to this incident has been confirmed.” Image credit: yu_photo / Shutterstock.com You may also like Millions of Insurance Customers Compromised Via Supplier News 13 January 2023 Phishing Alert as Erie Insurance Reveals Cyber “Event” News 12 June 2025 Over 80% of UK Firms Don’t Have Specialist Cyber Insurance News 5 February 2020 Global Firms Under-Insured Despite Breach Concerns News 5 November 2019 Why Cyber Insurance Works Opinion 4 April 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice New Iran-Nexus Hacking Group Targets Israel Government and IT Sectors News 6 July 2026 1 NCA Issues Warning to Parents As Shared Child Photos Exploited by AI Tools News 6 July 2026 2 Warning Over “Industrialized” Cyber-Attacks After Ransomware Gang Partners With
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Insurance Giant Aflac Discloses Data Breach Impacting Millions
+  - Published: 2026-07-01T09:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
+  - Summary: Aflac Japan has notified regulators that policy details and personal and banking information have been compromised
+
+### Cluster 076461d2d8 — score 8
+
+- Title: 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-08T06:16:44+00:00
+- Link: https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-43499
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- cve_ids: CVE-2026-10702, CVE-2026-31431, CVE-2026-43499, CVE-2026-46242, CVE-2026-53166
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- cve_ids: CVE-2026-43499, CVE-2026-53166, CVE-2026-46242, CVE-2026-31431, CVE-2026-10702
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network
+```
+
+#### Full body
+
+```
+15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros  Swati Khandelwal  Jul 08, 2026 Vulnerability / Cloud Security Researchers at Nebula Security have disclosed GhostLock ( CVE-2026-43499 ), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network access; ordinary threading calls from any local program are enough. Nebula turned it into a working root exploit that is 97% reliable in its testing and also escapes containers, and says Google awarded the team $92,337 through its kernelCTF bug-bounty program. No one is known to be exploiting it in the wild, but Nebula has published working exploit code , so anyone can now run it. Patching is the priority. How the bug works The kernel has a system for keeping an urgent task from getting stuck behind a trivial one. Part of it is a cleanup step that tidies up after a task once it stops waiting. Normally, that works fine. But in one rare case, where a lock operation hits a dead end and has to back out, the cleanup runs at the wrong moment and wipes the wrong task's record. That mistake leaves the kernel holding a "note" that points at a scrap of memory it has already thrown away and reused. Trusting that stale pointer is the whole bug, the kind of slip known as a use-after-free. From there, Nebula's team chained a few clever steps to turn that small mistake into full control, ending by tricking the kernel into running their own code as the all-powerful "root" user. On their test machine, it took about five seconds. The flaw has been in Linux since 2011 and was fixed in April, with distributions now rolling out the patch ( 3bfdc63936dd ). It affects nearly every Linux build and scores 7.8 out of 10 (high, not critical) because an attacker needs to already be logged in to the machine. Nebula found it with VEGA, its AI-driven bug-hunting tool. What to do Install your distribution's current kernel, not just the first patched build. The original fix introduced a separate crash bug (CVE-2026-53166), and the cleanup for that was still settling upstream in early July, so early builds may lack the final version. There is no complete workaround, since the operations that trigger it are routine for any local process. Availability is uneven so far. Ubuntu, for example, had patched its newest release and some cloud kernels, but as of early July still listed 24.04, 22.04, and 20.04 LTS as vulnerable or in progress. Check your distribution's advisory and confirm the fixed package version rather than assuming one is waiting. Two build options, RANDOMIZE_KSTACK_OFFSET and STATIC_USERMODE_HELPER, make this exploit harder, but they are mitigations, not fixes. Patch shared and multi-tenant machines first, cloud servers, containers, and CI runners, where an attacker is most likely to find the local foothold this bug needs. Not the only kernel-to-root bug this year GhostLock joins a run of 2026 Linux privilege-escalation bugs, several of which share a detail: an automated tool found them. VEGA found GhostLock; days earlier, researchers disclosed Bad Epoll (CVE-2026-46242), a close cousin that also turns an unprivileged user into root. It was proven through kernelCTF and, unusually for this class of bug, works on Android. Bad Epoll sits in the same stretch of code where Anthropic's Mythos model was credited with a related flaw. What they share is old, heavily used kernel machinery that few had reread in years, until automated tools started combing it. Futex priority inheritance dates to 2011. The class is not theoretical: another 2026 bug, Copy Fail (CVE-2026-31431), is already on CISA's list of vulnerabilities seen in real-world attacks. GhostLock is also the second half of a chain Nebula calls IonStack . The first half, CVE-2026-10702, is
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros
+  - Published: 2026-07-08T06:16:44+00:00
+  - Link: https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+  - Summary: Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network
 
 ### Cluster 1d8061d357 — score 8
 
@@ -3273,97 +3320,3 @@ U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case  S
   - Published: 2026-07-04T12:47:53+00:00
   - Link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
   - Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single
-
-### Cluster a56bf79002 — score 8
-
-- Title: Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-07-02T12:51:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure, zero_day
-- affected_industries: government
-- affected_products: GitHub, Gogs, Linux kernel
-- cve_ids: CVE-2026-55200, CVE-2026-58049, CVE-2026-58050
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, vulnerability_disclosure
-- affected_industries: government
-- affected_products: GitHub, Linux kernel, Gogs
-- cve_ids: CVE-2026-55200, CVE-2026-58049, CVE-2026-58050
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Infosecurity spoke with the researcher who dumped over 30 proof-of-concept exploits without disclosing the vulnerabilities first
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits News 2 July 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn A pseudonymous security researcher has released over 30 proof-of-concept exploits for zero-day vulnerabilities in open-source projects without disclosing them to the maintainers first. The dump, called ‘ Exploitarium ,’ was shared publicly on GitHub by an individual going by name ‘bikini’ and ‘ashdfrkl’ on Discord. First published on June 27, the repository initially included around 15 exploits, before the researcher updated it over the next few days with new entries. It affects several open-source projects, including the Linux kernel, Libssh2, FFmpeg, Gogs, Gitea, Ghidra, 7-Zip, MyBB, PHP, OpenVPN, the VLC player and more. The 'Exploitarium' repository on GitHub. Source: Infosecurity Magazine In the ‘Exploitarium’ repository on GitHub, the researcher claimed they automated the entire fuzzing process using AI, specifically OpenAI models and tools. One of the most widely used methods to find vulnerabilities, fuzzing is an automated software testing technique that inputs random, invalid or unexpected data into a computer program to detect crashes, memory leaks and security flaws. However, the main reason this exploit dump sparked debate within the cybersecurity community is the apparent lack of coordinated vulnerability disclosure (CVD). CVD is the industry-standard practice of privately alerting developers to a security flaw first, giving them a window of time to patch the issue before details are made public. On GitHub, the researcher explicitly invited others to file CVEs themselves and framed the work as an effort to bring people into the field. Speaking to Infosecurity on Discord, the researcher confirmed they did not inform any of the maintainers of the publication. While they have been through a CVD process in the past, they decided against it this time. “I think it's the best way for people to learn and become allured into the field. It's a lot less interesting and informative if someone has to read a write up that's not applicable by today's security standards,” the researcher known as bikini said. “It also raises the barrier to entry making someone go back and install outdated software to test on.” Some Exploits Linked to Disclosed CVEs Some vulnerabilities have since been publicly disclosed and some of them have been patched by maintainers. One of them, CVE-2026-55200 , represents a severe pre-authentication remote code execution (RCE) vulnerability affecting libssh2, a widely used client-side C library implementing the SSH2 protocol, with a CVSS severity score of 9.2. Exploitation involves transmitting specially crafted SSH packets containing oversized packet_length values to manipulate heap memory, ultimately enabling remote code execution. While bikini dropped the exploit on GitHub, the vulnerability was publicly disclosed by VulnCheck through formal channels with credit to a different cybersecurity researcher Tristan Madani (also known as @TristanInSec) for reporting it to them. It has now been addressed with a fix already integrated into the libssh2 mainline development branch, though maintainers are still finalizing a formal release that includes the patch. Speaking to Infosecurity , Ethan Andrews, a cybersecurity analyst and detection engineer at Federal Signal Corporation, said CVE-2026-55200 has been “independently verified.” He noted that it is the “most severe” vulnerability that has come out of the dump and is experiencing active exploitation. Aside from CVE-2026-55200, bikini’s ‘Exploitarium’ GitHub repository mentioned that 12 issues have now received CVE identifiers: CVE-2026-58049: Memory corruption (heap write/read) in FFmpeg's RASC video decoder CVE-2026-58050: Heap buffer overflow in lib
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits
-  - Published: 2026-07-02T12:51:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
-  - Summary: Infosecurity spoke with the researcher who dumped over 30 proof-of-concept exploits without disclosing the vulnerabilities first
-
-### Cluster 31e5b2aa9f — score 8
-
-- Title: Insurance Giant Aflac Discloses Data Breach Impacting Millions
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-07-01T09:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services, government, healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- actor_attribution: Scattered Spider
-- affected_industries: healthcare, financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Aflac Japan has notified regulators that policy details and personal and banking information have been compromised
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Insurance Giant Aflac Discloses Data Breach Impacting Millions Insurance Giant Aflac Discloses Data Breach Impacting Millions News 1 July 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster US insurer Aflac has disclosed a major data breach after hackers managed to access highly sensitive personal and financial information. The company’s Aflac Japan subsidiary discovered the intrusion on June 25, it said in a filing with the SEC yesterday (June 30). It explained that an “unauthorized third party” had accessed certain systems between June 15 and June 25. “Although the investigation remains ongoing, Aflac Japan has determined that certain impacted files contain policy and coverage details, personal information, and bank account information,” it revealed. “This incident is limited to systems in Japan, the company’s systems related to its US business were not accessed by the unauthorized third-party. At this time, the full scope and potential ultimate impact on the company are not known.” Read more on insurance sector breaches: Third-Party Breach Impacts Majority of Allianz Life US Customers. A statement posted on Aflac Japan’s website revealed that the incident impacted the firm’s customer portal. “Please note that some systems are currently shut down to prevent the spread of unauthorized access,” it said (via Google Translate). “However, inquiries and procedures, including claims for insurance benefits and other payments, are being handled as usual through our call center and other channels.” Among the services currently out of action are reservations for medical check-ups and health screening, and the firm’s AI support concierge. According to local reports , personal and financial information on nearly 4.4 million customers has been compromised. This includes information about the premium payment accounts of around 230,000 customers. Another Scattered Spider Attack? This isn’t the first time Aflac Japan has suffered at the hands of threat actors. In 2023, Aflac Japan customers’ details were stolen and put up for sale after a third-party US contractor was reportedly breached. A year ago, the firm suffered another data breach which was claimed to be part of a wider campaign targeting US insurers thought to be the work of the Scattered Spider group. Joshua Roback, principal security solution architect at Swimlane, said the latest compromise could also be linked to the notorious extortion group. “Large insurers are sprawling ecosystems of subsidiaries, support teams, legacy platforms and regional workflows. That gives threat actors more places to test access, reuse lessons from prior campaigns and search for the fastest path back to valuable data,” he said. “The answer is not just more alerts. Security teams need connected workflows that can turn a signal in one part of the business into action everywhere else. Agentic AI and automation can help prioritize the riskiest activity, trigger containment steps and keep remediation moving before attackers get comfortable.” Aflac Japan has notified the relevant authorities and claimed that “no misuse of the information related to this incident has been confirmed.” Image credit: yu_photo / Shutterstock.com You may also like Millions of Insurance Customers Compromised Via Supplier News 13 January 2023 Phishing Alert as Erie Insurance Reveals Cyber “Event” News 12 June 2025 Over 80% of UK Firms Don’t Have Specialist Cyber Insurance News 5 February 2020 Global Firms Under-Insured Despite Breach Concerns News 5 November 2019 Why Cyber Insurance Works Opinion 4 April 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice New Iran-Nexus Hacking Group Targets Israel Government and IT Sectors News 6 July 2026 1 NCA Issues Warning to Parents As Shared Child Photos Exploited by AI Tools News 6 July 2026 2 Warning Over “Industrialized” Cyber-Attacks After Ransomware Gang Partners With
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Insurance Giant Aflac Discloses Data Breach Impacting Millions
-  - Published: 2026-07-01T09:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
-  - Summary: Aflac Japan has notified regulators that policy details and personal and banking information have been compromised
