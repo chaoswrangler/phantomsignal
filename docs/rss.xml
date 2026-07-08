@@ -6,9 +6,28 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 08 Jul 2026 20:25:33 +0000</lastBuildDate>
+<lastBuildDate>Wed, 08 Jul 2026 22:13:25 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Mount Royal University confirms breach as hackers claim attack</title>
+<link>https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/</link>
+<description><![CDATA[Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university&apos;s network. [...]]]></description>
+<pubDate>Wed, 08 Jul 2026 21:26:59 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours</title>
+<link>https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment</link>
+<description><![CDATA[The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.<br/><br/><em>Tags: AWS</em>]]></description>
+<pubDate>Wed, 08 Jul 2026 20:32:22 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>AWS</category>
+</item>
 <item>
 <title>Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials</title>
 <link>https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/</link>
@@ -531,6 +550,16 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>Well Crap NinjaOne is going the way of Dell</title>
+<link>https://www.reddit.com/r/msp/comments/1uq85bf/well_crap_ninjaone_is_going_the_way_of_dell/</link>
+<description><![CDATA[FINAL UPDATE: (TLDR) 24 hours later. I wanted to give an update on this event for the r/MSP community. Ive had numerous NinjaOne people reach out to me about this, including a C-Level exec to discuss this. It has been repeated to me NinjaONE does not poach their MSP clients. Period. They take this very seriously and truly believe the MSP’s are a valuable asset to them. The consensus is a single sales rep made an oopise. My philosophy in life is sometimes, shit happens. It how a business responds to mistakes is what important. And for me NinjaOne has been outstanding! Their effort on their part has solidified my faith in their company and support. Some general responses to the comments. --Im leaving this post up as a representation of how awesome NinjaOne has been to this. I see this event as a positive thing. --No, I was not being Phished, or scammed. The details, and the tone of the call informed me it was an inhouse sales person. Plus they never asked me to go buy any Amazon Gift car<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Tue, 07 Jul 2026 21:08:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/msp/comments/1uq85bf/well_crap_ninjaone_is_going_the_way_of_dell/</guid>
+<source url="https://www.reddit.com/r/msp/.rss">Reddit r/msp</source>
+<category>reddit_practitioner_osint</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
 <title>Big Brand Jobs Scam Targets Marketing Pros&apos; Google Accounts</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts</link>
 <description><![CDATA[The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -543,14 +572,11 @@
 <item>
 <title>Best CWPP Tools in 2026: The Cloud Workload Protection Platform Buyer’s Guide</title>
 <link>https://orca.security/resources/blog/best-cwpp-tools/</link>
-<description><![CDATA[Key Takeaways CWPP tools protect the workloads where your code actually runs, and where breaches actually land. That matters because cloud workloads no longer sit still: they spin up and tear down in minutes, span multiple clouds, and multiply faster than security teams can deploy and maintain agents. That shift is why the CWPP market […]<br/><br/><em>Tags: Palo Alto Networks · Kubernetes · Microsoft Defender</em>]]></description>
+<description><![CDATA[Key Takeaways CWPP tools protect the workloads where your code actually runs, and where breaches actually land. That matters because cloud workloads no longer sit still: they spin up and tear down in minutes, span multiple clouds, and multiply faster than security teams can deploy and maintain agents. That shift is why the CWPP market […]]]></description>
 <pubDate>Tue, 07 Jul 2026 20:40:00 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/best-cwpp-tools/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>Palo Alto Networks</category>
-<category>Kubernetes</category>
-<category>Microsoft Defender</category>
 </item>
 <item>
 <title>Cloud Workload Protection Best Practices: How to Secure Cloud Workloads in 2026</title>
@@ -813,16 +839,6 @@
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-48282</category>
-</item>
-<item>
-<title>Webinar tomorrow: Why modern email attacks require a new approach to defense</title>
-<link>https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/</link>
-<description><![CDATA[Tomorrow&apos;s webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover attacks while reducing alert fatigue through automated investigation and response workflows. [...]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Tue, 07 Jul 2026 12:12:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>What Changes When Your Software Supply Chain Includes AI Writing Your Code?</title>
@@ -1564,6 +1580,16 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>A Small Unglamorous Data Breach Class Action</title>
+<link>https://www.reddit.com/r/msp/comments/1ulhza6/a_small_unglamorous_data_breach_class_action/</link>
+<description><![CDATA[Here&apos;s a quick video for the week. This claim is important to understand for a few reasons: This is a steel company; not a professional services firm. No allegation of loss of client data. It was all employee data. As far as I&apos;m aware, the steel industry doesn&apos;t have any specific cybersecurity rules to follow. Only ~5k records were taken. That&apos;s tiny compared to what I deal with on a regular basis . The class action was filed 20 days after the company confirmed their compromise. That means plaintiff&apos;s attorneys are watching publicly available disclosures. Technically speaking, it looks like they filed a class action. But - and this is important - the class was certified as a settlement class meaning it was negotiated jointly. There was never a contested certification battle. The steel company went straight from failing to have the motion dismissed to settlement talks. My guess is that their cyber insurer looked at a protracted legal battle and decided it wasn&apos;t worth the expenditure. N<br/><br/><em>Tags: data_breach</em>]]></description>
+<pubDate>Thu, 02 Jul 2026 13:15:14 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/msp/comments/1ulhza6/a_small_unglamorous_data_breach_class_action/</guid>
+<source url="https://www.reddit.com/r/msp/.rss">Reddit r/msp</source>
+<category>reddit_practitioner_osint</category>
+<category>data_breach</category>
+</item>
+<item>
 <title>ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API</title>
 <link>https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html</link>
 <description><![CDATA[The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that&apos;s designed to gain surreptitious access to a victim&apos;s email correspondence via the Google API. &quot;In this campaign, the attackers focused their attention on corporate email communications hosted on Gmail, targeting access compromise via APIs,&quot; Kaspersky said in a detailed report published this week. &quot;]]></description>
@@ -1716,6 +1742,15 @@
 <category>ai_security</category>
 </item>
 <item>
+<title>Architecture project management apps</title>
+<link>https://www.reddit.com/r/msp/comments/1ukz29b/architecture_project_management_apps/</link>
+<description><![CDATA[We have an architecture firm (15 people) who is a long-time Newforma Project Center customer, and they’re unhappy with the app and its cloud-based replacement (Konekt) that they did an extended eval of. They think it’s time move on, but a lot of their colleagues are using it, and they don’t have a wider frame of reference. Our other architecture customer is smaller (4 users) and just uses Microsoft Project and a lot of manual effort. Monograph looks great to me since it’s architect-focused, integrates with QuickBooks Online (which they use for billing and accounting), and it has an external collaborator component built-in like Newforma’s Info Exchange. What are everyone’s architecture customers using (good or bad), and has anyone found an app that can import Newforma projects so they can keep their prior work easily accessible? Thanks! submitted by /u/IllustriousRaccoon25 [link] [comments]]]></description>
+<pubDate>Wed, 01 Jul 2026 21:43:24 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/msp/comments/1ukz29b/architecture_project_management_apps/</guid>
+<source url="https://www.reddit.com/r/msp/.rss">Reddit r/msp</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Crafty Phishing Campaigns Auto-Adapt to Victim&apos;s Device, OS</title>
 <link>https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os</link>
 <description><![CDATA[Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -1724,6 +1759,15 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>OFAC Updates ISIS-Khorasan Sanctions with Over 100 Cryptocurrency Wallets</title>
+<link>https://www.chainalysis.com/blog/isis-designation-crypto-addresses-july-2026/</link>
+<description><![CDATA[Summary OFAC updated its ISIS Khorasan (ISIS-K) designation to include 134 cryptocurrency wallet addresses (131 on TRON and 3 on… The post OFAC Updates ISIS-Khorasan Sanctions with Over 100 Cryptocurrency Wallets appeared first on Chainalysis .]]></description>
+<pubDate>Wed, 01 Jul 2026 20:26:45 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/isis-designation-crypto-addresses-july-2026/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>And the Winner in Dominant Malware Delivery? ClickFix</title>
@@ -1772,6 +1816,15 @@
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Google/Gemini</category>
+</item>
+<item>
+<title>Ingram Micro Issues</title>
+<link>https://www.reddit.com/r/msp/comments/1ukugh9/ingram_micro_issues/</link>
+<description><![CDATA[Hi all- HELP. We recently ordered a new laptop from Ingram Micro, device arrives and is registered to some random “Axiom” company’s auto pilot when booting. I’ve reached out to Ingram to return the device and it was denied. Escalated the claim and still not looking good. What are our options? submitted by /u/runner9595 [link] [comments]]]></description>
+<pubDate>Wed, 01 Jul 2026 18:52:10 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/msp/comments/1ukugh9/ingram_micro_issues/</guid>
+<source url="https://www.reddit.com/r/msp/.rss">Reddit r/msp</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>AlloyDB AI Functions - now with revolutionary performance boosts and cost savings</title>
@@ -3673,16 +3726,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Apple&apos;s MacOS Gap Lets Users Disable Security Tools</title>
-<link>https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools</link>
-<description><![CDATA[Attackers can exploit the issue to disable security and integrated browser tools without needing administrator privileges or kernel exploits.<br/><br/><em>Tags: Apple iOS/macOS</em>]]></description>
-<pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>Apple iOS/macOS</category>
-</item>
-<item>
 <title>Iran-Linked MuddyWater Poses as Ransomware Gang to Mask Cyber Espionage</title>
 <link>https://www.infosecurity-magazine.com/news/iranlinked-muddywater-poses-as/</link>
 <description><![CDATA[An NCC Group report warns state-backed hackers are attempting to hide activity by posing as ransomware groups and deploying commercially available malware<br/><br/><em>Tags: MuddyWater · ransomware_extortion · apt_espionage</em>]]></description>
@@ -3801,16 +3844,6 @@
 <category>Apple iOS/macOS</category>
 <category>ai_security</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>Scope of Salesforce Attacks Expands as Icarus Leaks Data</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data</link>
-<description><![CDATA[More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers&apos; Salesforce data.<br/><br/><em>Tags: Salesforce</em>]]></description>
-<pubDate>Tue, 23 Jun 2026 20:44:09 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>Salesforce</category>
 </item>
 <item>
 <title>Bridging the Gap Between Code and Research: Why SCORED ’26 Matters for Open Source Security</title>
@@ -6055,15 +6088,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>May 2026 CVE Landscape</title>
-<link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
-<description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
-<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/may-2026-cve-landscape</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
 <link>https://www.exploit-db.com/exploits/52610</link>
 <description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
@@ -6071,6 +6095,15 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>May 2026 CVE Landscape</title>
+<link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
+<description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
+<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/may-2026-cve-landscape</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>The “Skyway” to OSS Security: OpenSSF Community Day North America 2026 Recap</title>
@@ -6132,15 +6165,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
-<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
-<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection</title>
 <link>https://www.exploit-db.com/exploits/52609</link>
 <description><![CDATA[WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection<br/><br/><em>Tags: WordPress</em>]]></description>
@@ -6149,6 +6173,15 @@
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
+</item>
+<item>
+<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
+<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
+<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Amazon Cognito unlocks advanced capabilities with next-generation infrastructure</title>
@@ -9689,15 +9722,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Passkeys are more secure than traditional ways to log in</title>
-<link>https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in</link>
-<description><![CDATA[Passkeys offer a more usable, secure replacement for passwords and are already supported by most modern devices.]]></description>
-<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>NCSC: Leave passwords in the past - passkeys are the future</title>
 <link>https://www.ncsc.gov.uk/news/ncsc-leave-passwords-in-the-past-passkeys-are-the-future</link>
 <description><![CDATA[Passkeys are the more secure and user-friendly login method and should be the default authentication option for consumers.]]></description>
@@ -9739,6 +9763,15 @@
 <description><![CDATA[Explaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it]]></description>
 <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Passkeys are more secure than traditional ways to log in</title>
+<link>https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in</link>
+<description><![CDATA[Passkeys offer a more usable, secure replacement for passwords and are already supported by most modern devices.]]></description>
+<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -11765,7 +11798,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f35ac38c340&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fd7dc358a30&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20471,7 +20504,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20481,7 +20514,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20490,7 +20523,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20499,7 +20532,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20508,7 +20541,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20517,7 +20550,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20526,7 +20559,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20535,7 +20568,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20544,7 +20577,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20553,7 +20586,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 08 Jul 2026 20:25:33 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 22:13:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
