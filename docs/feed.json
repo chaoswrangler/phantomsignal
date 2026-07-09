@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-08T22:13:25.725633+00:00",
+  "generated_at": "2026-07-09T00:18:08.446806+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2303,
+  "total_items": 2278,
   "feed_status": {
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -18,20 +18,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
@@ -46,12 +32,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -60,11 +53,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 1
     },
     "Check Point Research": {
@@ -81,19 +74,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -102,19 +95,19 @@
       "item_count": 10,
       "in_window_count": 7
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 5
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -123,18 +116,11 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -144,19 +130,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 19
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -165,12 +158,12 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 40,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -179,12 +172,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -200,19 +193,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 1
+    },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -256,19 +256,19 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -277,12 +277,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -291,19 +291,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -312,12 +305,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -325,20 +318,6 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -354,6 +333,27 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -367,6 +367,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -394,14 +401,7 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 19
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 21
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -417,19 +417,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 5
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -445,12 +445,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 1
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 49
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -473,13 +480,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
@@ -487,19 +487,26 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 49
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -508,11 +515,11 @@
       "item_count": 100,
       "in_window_count": 22
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 0,
       "in_window_count": 0
     },
     "Reddit r/netsec": {
@@ -535,13 +542,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -686,22 +686,15 @@
       "theme_key": "linux-kernel",
       "dominant_features": {
         "threat_categories": [
-          "ransomware_extortion",
-          "data_breach",
-          "apt_espionage"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
+          "ransomware_extortion"
         ],
         "affected_products": [
-          "Linux kernel",
-          "GitHub"
+          "Linux kernel"
         ]
       },
-      "cluster_count": 9,
-      "article_count": 14,
-      "cohesion": 0.243,
+      "cluster_count": 8,
+      "article_count": 9,
+      "cohesion": 0.227,
       "shared_strong_signals": [
         "Linux kernel"
       ],
@@ -710,7 +703,6 @@
       "cluster_ids": [
         "8b4ae517ee",
         "9e3f402183",
-        "074b08d25f",
         "cad05b2d4e",
         "62c5b45d14",
         "7c88582199",
@@ -722,11 +714,6 @@
         "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
         "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
         "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/",
-        "https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/",
-        "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows",
-        "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-        "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
-        "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
         "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
         "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
         "https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/",
@@ -842,42 +829,6 @@
       ]
     },
     {
-      "label": "CVE-2026-33017 exploitation activity",
-      "anchor_signal": "CVE-2026-33017",
-      "theme_key": "cve-2026-33017",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "cve_ids": [
-          "CVE-2026-33017",
-          "CVE-2026-55255"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.386,
-      "shared_strong_signals": [
-        "CVE-2026-33017"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "a8aada2f40",
-        "50e57176eb"
-      ],
-      "links": [
-        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/"
-      ]
-    },
-    {
       "label": "CVE-2026-55255 exploitation activity",
       "anchor_signal": "CVE-2026-55255",
       "theme_key": "cve-2026-55255",
@@ -914,33 +865,39 @@
       ]
     },
     {
-      "label": "CVE-2026-48283 exploitation activity",
-      "anchor_signal": "CVE-2026-48283",
-      "theme_key": "cve-2026-48283",
+      "label": "CVE-2026-33017 exploitation activity",
+      "anchor_signal": "CVE-2026-33017",
+      "theme_key": "cve-2026-33017",
       "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government"
+        ],
         "cve_ids": [
-          "CVE-2026-48283",
-          "CVE-2026-48313"
+          "CVE-2026-33017",
+          "CVE-2026-55255"
         ],
         "urgency_signals": [
-          "preauth_unauth"
+          "actively_exploited"
         ]
       },
       "cluster_count": 2,
       "article_count": 2,
-      "cohesion": 0.281,
+      "cohesion": 0.386,
       "shared_strong_signals": [
-        "CVE-2026-48283"
+        "CVE-2026-33017"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "8e87b71464",
-        "843dce4060"
+        "a8aada2f40",
+        "50e57176eb"
       ],
       "links": [
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/"
+        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/"
       ]
     },
     {
@@ -961,6 +918,36 @@
       "cohesion": 0.281,
       "shared_strong_signals": [
         "CVE-2026-48313"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "8e87b71464",
+        "843dce4060"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/"
+      ]
+    },
+    {
+      "label": "CVE-2026-48283 exploitation activity",
+      "anchor_signal": "CVE-2026-48283",
+      "theme_key": "cve-2026-48283",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-48283",
+          "CVE-2026-48313"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.281,
+      "shared_strong_signals": [
+        "CVE-2026-48283"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1129,8 +1116,8 @@
     },
     "velocity": [
       {
-        "cluster_id": "074b08d25f",
-        "title": "Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection",
+        "cluster_id": "26eda5e0a9",
+        "title": "'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows",
         "sources_in_window": 3,
         "window_hours": 1.4,
         "cohort_count": 2
@@ -1156,16 +1143,6 @@
       {
         "cluster_id": "50e57176eb",
         "pair": "CVE-2026-55255 + Ubiquiti UniFi",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "f851217332",
-        "pair": "CVE-2025-55182 + TeamPCP",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "f851217332",
-        "pair": "CVE-2025-55182 + Kubernetes",
         "first_observation": true
       },
       {
@@ -1211,6 +1188,16 @@
       {
         "cluster_id": "8b4ae517ee",
         "pair": "CVE-2024-12356 + OpenAI/ChatGPT",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "8b4ae517ee",
+        "pair": "CVE-2026-40138 + Anthropic/Claude",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "8b4ae517ee",
+        "pair": "CVE-2026-40138 + Linux kernel",
         "first_observation": true
       }
     ],
@@ -1273,12 +1260,6 @@
       },
       {
         "axis": "actor_attribution",
-        "value": "TeamPCP",
-        "cluster_id": "f851217332",
-        "weeks_observed": 4
-      },
-      {
-        "axis": "actor_attribution",
         "value": "MuddyWater",
         "cluster_id": "3ee1d54d9d",
         "weeks_observed": 4
@@ -1299,6 +1280,38 @@
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Smashing Security podcast #475: JadePuffer – the AI that ran a ransomware attack all by itself",
+      "link": "https://grahamcluley.com/smashing-security-podcast-475/",
+      "published": "2026-07-08T23:19:18+00:00",
+      "summary": "A 15-year-old boy asked a chatbot for help - and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, \"JadePuffer\". What does this tell us about the future of cybersecurity? Also, Apple's \"Hide My Email\" feature turns out to hide rather less than it promises - despite Apple knowing it has a problem for over a year. All this and more in this episode of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose.",
+      "author": "Graham Cluley",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 11,
+      "full_body": "Graham Cluley @ 12:19 am, July 9, 2026 @grahamcluley.com / grahamcluley A 15-year-old boy asked a chatbot for help – and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, “JadePuffer”. What does this tell us about the future of cybersecurity? Also, Apple’s “Hide My Email” feature turns out to hide rather less than it promises – despite Apple knowing it has a problem for over a year. All this and more in this episode of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose. Smashing Security #475 JadePuffer - the AI that ran a ransomware attack all by itself ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. ZOE ROSE We need an LLM that says, here's how to do it. And don't forget to consider these things. Unknown No, no, we don't need that actually, Zoe. We don't need any help for the criminals in covering up the tracks. Interesting. Interesting that you should suggest that. Smashing Security, episode 475. Darknet Puffer, the AI that ran a ransomware attack all by itself. With Graham Cluley and special guest Zoe Rose. Hello, hello, and welcome to Smashing Security episode 475. My name's Graham Cluley. ZOE ROSE And I'm Zoe Rose. GRAHAM CLULEY Hello, Zoe. Welcome back to the show. It's been a while since you've been on. How are you doing? ZOE ROSE Well, usually when I join, something massive has happened. GRAHAM CLULEY Right. ZOE ROSE At the moment, I have not acquired another child or a pet. GRAHAM CLULEY So, well done. ZOE ROSE Yeah. GRAHAM CLULEY So for those who don't know Zoe, what are you? I mean, people who haven't heard of you before, what do you do exactly? ZOE ROSE That's a good question. What do I do? I work in security and pretend I know what I'm talking about half the time. GRAHAM CLULEY Oh, okay. It seems fair enough. And you work for a big company? ZOE ROSE I have a bloody long title now, actually. That's the change. That's what's new. My title has massively increased. GRAHAM CLULEY Okay, give us your title. Let's hear it. ZOE ROSE All right. It is C-Cert, which if you know what that stands for, it has more words, but we'll just stick to some letters. Security Operations Development Manager. GRAHAM CLULEY Wow. ZOE ROSE Yeah. GRAHAM CLULEY Security Operations Development Manager, like SODOM, is basically what you're saying. Unknown Yeah, sure. GRAHAM CLULEY Interesting. Well, before we kick off, let's thank this week's wonderful sponsors, Arctic Wolf, NordLayer, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security, we're not going to be talking about how a Greek politician investigating spyware had his own mobile phone hacked. You'll hear no discussion of how a US Department of Homeland Security information sharing database has been accessed by hackers. And we won't even mention how hackers are using a fake World Cup t-shirt offer to spread malware. So Zoe, what are you going to be talking about this week? ZOE ROSE I'm going to talk about Apple's Hide My Email isn't actually as hidden as it sounds like. GRAHAM CLULEY And I'm going to be telling the tale of how a 15-year-old with a chatbot became a cybercriminal and what happens when the AI just does the whole job itself. All this and much more coming up on this episode of Smashing Security. JOE Graham, am I right in thinking that Arctic Wolf are sponsoring the show this week? GRAHAM CLULEY You are right, Joe. They've just published a new report, 2026 State of the Cybersecurity Attack Surface, and they analysed over 800,000 real IT assets to find out how exposed organisations actually are. JOE And I'm guessing everything is hunky-dory. GRAHAM CLULEY No, not so much. The reality is they found 1 in 3 IT asset",
+      "fetch_status": "ok"
+    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -2288,7 +2301,11 @@
           "zero_day"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "government",
+          "telecommunications",
+          "education"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -2304,8 +2321,8 @@
         }
       },
       "score": 12,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
+      "full_body": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo",
+      "fetch_status": "ok"
     },
     {
       "source": "Infosecurity Magazine",
@@ -2425,7 +2442,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2455,7 +2472,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2489,7 +2506,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -2525,7 +2542,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "Telco giant KDDI says data breach affects over 12 million people By Sergiu Gatlan July 8, 2026 07:24 AM 0 Japanese telecommunications giant KDDI revealed that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. KDDI is the second-largest mobile telecommunications provider in Japan, with 45,000 employees and annual revenue of $32.4 billion. The company disclosed last month that it blocked the attackers' access and implemented defensive measures after discovering the incident on June 17, and revealed that the breach impacted the STNet, JCOM, Chubu Telecommunications C, NIFTY Corporation, and BIGLOBE ISP operators. KDDI added that the incident may have exposed the email addresses and passwords of up to 14,22 million current and former customers, as well as those belonging to inactive accounts. It also noted that some passwords were stored in hashed and/or encrypted form (making them harder to use for account hijacking), but did not specify how many accounts had passwords stored in plaintext or what type of encryption was used. In a July 6 update, KDDI revealed that the attackers breached the platform on May 16 after exploiting a zero-day vulnerability in a third-party software. \"As a result of our investigation, as of June 17, 2026, the date of our confirmation, this vulnerability was not recognized by the software vendor,\" KDDI said . \"The software vendor has reported this vulnerability to public authorities and is working toward disclosing the information.\" Over 12 million email addresses exposed The telecom giant is now working to secure affected email accounts after attackers gained access to the email addresses of 12,233,087 people and the passwords of 7,616,173 others. \"We are currently working to change the passwords of affected customers' email accounts. To date, many customers, primarily those who regularly use email services, have already changed their passwords,\" it said. \"In addition, to ensure the security of customers who do not frequently use email services, we are working to have ISP providers complete mandatory password changes within one or two days.\" Since the attack, KDDI has also deployed Endpoint Detection and Response (EDR) software to help detect future breach attempts and said that, on June 23, a forensic audit confirmed that the exploited vulnerability had been addressed and that the systems aren't affected by other security issues. KDDI also notified Japan's Personal Information Protection Commission and the Ministry of Internal Affairs and Communications after discovering the breach, and is currently working with affected ISPs to implement security measures to mitigate the risks arising from this exposure. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Insurance giant Aflac discloses data breach after subsidiary hack Data breach exposes up to 14.2 million email logins at six ISPs Japanese energy firm loses drive with data of 10.9 million clients Accenture confirms breach after hacker offers stolen data for sale 3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
       "fetch_status": "ok"
     },
@@ -2559,7 +2576,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2589,7 +2606,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2603,43 +2620,27 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "data_breach",
-          "apt_espionage",
           "ai_security"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
+        "affected_industries": [],
         "affected_products": [
-          "GitHub",
-          "Linux kernel",
-          "Anthropic/Claude"
+          "GitHub"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth",
-          "poc_available"
-        ],
+        "urgency_signals": [],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "GitHub": "target",
-          "Linux kernel": "target",
-          "Anthropic/Claude": "target"
+          "GitHub": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 10,
-      "full_body": "A critical prompt injection vulnerability in GitHub Agentic Workflows could allow unauthenticated attackers to leak private repository data, Noma Labs warns. GitHub Agentic Workflows allows users to write workflows in natural language using markdown files that an AI agent will use as GitHub Actions, thus automating the interaction with code repositories. Because of the security defect, named GitLost , unauthenticated attackers can hide indirect prompts in crafted GitHub Issues posted on the public repositories of an organization that also maintains private repositories, and the AI agent will follow the instructions. Noma Labs discovered that a GitHub Agentic Workflow was configured to trigger on issues.assigned events, read the title and body of the GitHub Issue, and post a comment in response. The workflow, the company says, runs with read access to both public and private repositories that the organization maintains. “To exploit this vulnerability, the attacker needed no coding skills, access, or credentials. All that was needed was to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup and wait,” Noma explains. Advertisement. Scroll to continue reading. The cybersecurity firm confirmed that a crafted GitHub Issue containing a plausible-looking request from sales leadership could be used to instruct the agent to fetch the contents of Readme.md files from both public and private repositories and post them as a public comment. While GitHub has guardrails in place to prevent this type of attack, the protections failed because the security researchers tested techniques with variations and eventually triggered the behavior by adding the keyword “additionally”. According to Noma, to agentic AI, indirect prompt injections are the equivalent of SQL injections in web applications, and require a systematic defense strategy. “GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems. The agent’s context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input,” Noma says. The cybersecurity firm responsibly disclosed its findings to GitHub and recommends that organizations treat all user-controlled content as untrusted, restrict agent permissions to the minimum required, restrict what agents can post publicly, and sanitize user input before it is passed to the AI agents. Related: CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Related: Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Related: Agentic AI Used to Conduct Ransomware Attack via Langflow Related: Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joo",
-      "fetch_status": "ok"
+      "score": 9
     },
     {
       "source": "BleepingComputer",
@@ -3015,7 +3016,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l",
       "fetch_status": "ok"
     },
@@ -3074,36 +3075,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "Reddit r/msp",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Well Crap NinjaOne is going the way of Dell",
-      "link": "https://www.reddit.com/r/msp/comments/1uq85bf/well_crap_ninjaone_is_going_the_way_of_dell/",
-      "published": "2026-07-07T21:08:48+00:00",
-      "summary": "FINAL UPDATE: (TLDR) 24 hours later. I wanted to give an update on this event for the r/MSP community. Ive had numerous NinjaOne people reach out to me about this, including a C-Level exec to discuss this. It has been repeated to me NinjaONE does not poach their MSP clients. Period. They take this very seriously and truly believe the MSP’s are a valuable asset to them. The consensus is a single sales rep made an oopise. My philosophy in life is sometimes, shit happens. It how a business responds to mistakes is what important. And for me NinjaOne has been outstanding! Their effort on their part has solidified my faith in their company and support. Some general responses to the comments. --Im leaving this post up as a representation of how awesome NinjaOne has been to this. I see this event as a positive thing. --No, I was not being Phished, or scammed. The details, and the tone of the call informed me it was an inhouse sales person. Plus they never asked me to go buy any Amazon Gift car",
-      "author": "/u/mrstrike",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
     },
     {
       "source": "Dark Reading",
@@ -3596,7 +3567,9 @@
       "author": "Elizabeth Montalbano",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "ai_security"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
@@ -3606,7 +3579,8 @@
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "preauth_unauth"
+          "preauth_unauth",
+          "poc_available"
         ],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
@@ -3617,7 +3591,9 @@
           "products": []
         }
       },
-      "score": 10
+      "score": 10,
+      "full_body": "Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed \"GitLost\" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: Mexico's New Cyber Plan Faces Its First Real Test \"GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems,\" Sasi Levi, security research lead at Noma, wrote in the report. \"The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input.\" This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on \"issues.assigned\" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Chinese LLMs Broaden the Gap Between Attackers & Defenders \"In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused,\" Levi wrote. \"This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data.\" Indeed, the vulnerability demonstrates that threat actors only \"need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property,\" Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to Noma.",
+      "fetch_status": "ok"
     },
     {
       "source": "Reddit r/netsec",
@@ -6434,38 +6410,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Reddit r/msp",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "A Small Unglamorous Data Breach Class Action",
-      "link": "https://www.reddit.com/r/msp/comments/1ulhza6/a_small_unglamorous_data_breach_class_action/",
-      "published": "2026-07-02T13:15:14+00:00",
-      "summary": "Here's a quick video for the week. This claim is important to understand for a few reasons: This is a steel company; not a professional services firm. No allegation of loss of client data. It was all employee data. As far as I'm aware, the steel industry doesn't have any specific cybersecurity rules to follow. Only ~5k records were taken. That's tiny compared to what I deal with on a regular basis . The class action was filed 20 days after the company confirmed their compromise. That means plaintiff's attorneys are watching publicly available disclosures. Technically speaking, it looks like they filed a class action. But - and this is important - the class was certified as a settlement class meaning it was negotiated jointly. There was never a contested certification battle. The steel company went straight from failing to have the motion dismissed to settlement talks. My guess is that their cyber insurer looked at a protracted legal battle and decided it wasn't worth the expenditure. N",
-      "author": "/u/Joe_Cyber",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 6
-    },
-    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -6883,59 +6827,6 @@
       "score": 5
     },
     {
-      "source": "Sophos X-Ops",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Vect and TeamPCP partner for ransomware campaigns",
-      "link": "https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns",
-      "published": "2026-07-02T00:00:00+00:00",
-      "summary": "Credentials harvested through supply chain compromises enable large‑scale ransomware deployment Categories: Threat Research Tags: Vect, TeamPCP, Ransomware",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "data_breach"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [
-          "healthcare",
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Kubernetes"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-55182"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "Kubernetes": "target",
-          "GitHub": "mention"
-        },
-        "weak_tags": {
-          "products": [
-            [
-              "GitHub",
-              "mention",
-              0.26
-            ]
-          ]
-        }
-      },
-      "score": 16,
-      "full_body": "Vect and TeamPCP partner for ransomware campaigns Credentials harvested through supply chain compromises enable large‑scale ransomware deployment Written by Sophos Counter Threat Unit Research Team Threat Research Vect TeamPCP Ransomware Share This Link Copied Counter Threat Unit™ (CTU) researchers investigated two interconnected threat groups known as Vect and TeamPCP. The two groups announced a formal operational partnership in late March 2026 to combine TeamPCP’s credential harvesting and data theft capabilities with Vect’s ransomware deployment infrastructure in a widespread campaign involving supply chain attacks and the extortion of multiple organizations. Vect evolution The Vect ransomware-as-a-service (RaaS) operation first appeared on December 31, 2025, when an account operating under the group's name posted an affiliate recruitment advertisement on Rehub, a prominent Russian-language cybercrime forum. Vect claimed its first victims in January 2026 and then launched Vect 2.0 one month later. The launch of the new version coincided with an affiliate recruitment effort, and Vect claimed on X (formerly Twitter) that they had recruited 60 affiliates, attacked 154 organizations, and received “tens of successful payments” within two months. Vect has demonstrated a willingness to collaborate with other cybercriminals to expand operations. In March, the group announced partnerships with BreachForums and TeamPCP (see Figure 1). Despite declaring that the more than 300,000 BreachForums members would each receive a Vect affiliation key, the number who would actually launch ransomware attacks on Vect’s behalf would likely be substantially lower. TeamPCP (also known as PCPcat, ShellForce, and DeadCatx3) appears to be made up of individuals previously affiliated with The Com , a global confederation of primarily English-speaking cybercriminals. Two victims listed on the Vect data leak site were labeled as victims of the \"LiteLLM/Trivy Campaign (TeamPCP).\" Figure 1: Vect announcing partnerships with BreachForums and TeamPCP TeamPCP evolution TeamPCP first gained notoriety in December 2025 in connection with the mass exploitation of the React2Shell vulnerability ( CVE-2025-55182 ), a critical (CVSS of 10.0) pre-authentication remote code execution flaw in React Server Components. TeamPCP deployed a worm-driven campaign that leveraged exposed Docker APIs, Kubernetes clusters, Ray dashboards, and Redis servers in conjunction with React2Shell exploitation. The campaign impacted organizations in Canada, Serbia, South Korea, the UAE, and the United States, with victims spanning technology, finance, healthcare, and government sectors. A notable operational signature during this phase was the use of outbound port 666 for almost all network activity. From March through May 2026, TeamPCP made headlines for a series of high-profile supply chain attacks. Figure 2 shows a timeline of attributed attacks. Figure 2: TeamPCP supply chain attacks from March through May 2026 The first of these attacks was on Trivy, an open-source vulnerability scanner that is made by Aqua Security and used by thousands of organizations worldwide. The threat actors reportedly gained a foothold in late February by stealing login credentials from Trivy's development systems. Aqua Security discovered and attempted to mitigate that compromise on March 1, but the cleanup was incomplete and allowed the attackers to quietly retain access. On March 19, they struck at scale — simultaneously tampering with the core Trivy scanner program and its associated automation tools on GitHub and triggering the publication of a poisoned version of the software to official channels. Organizations that downloaded what appeared to be a legitimate security update were actually installing malware. The malicious version silently harvested passwords, cloud credentials, and other sensitive secrets from the systems it ran on, then transmitted that stolen data to attacker-controlled servers. It cont",
-      "fetch_status": "ok"
-    },
-    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -6944,11 +6835,9 @@
       "published": "2026-07-02T00:00:00+00:00",
       "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -6962,20 +6851,49 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 8,
-      "full_body": "2 July 2026 • Aaron Jewitt Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3 Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it. 14 min read Generative AI , Detection Engineering This is Part 1 of the Inside Elastic InfoSec's Agentic SOC series. Part 2: choosing the right agent architecture for a 5× cost reduction Elastic's InfoSec team built an agentic SOC that triages every alert before an analyst opens it. A 30-minute manual investigation now finishes in under 3 minutes: deterministic ES|QL queries close obvious false positives at zero token cost, specialized AI agents investigate the rest across endpoint, cloud, and SaaS domains, and a Final Review agent writes the verdict to a Kibana case. The whole pipeline runs on Elastic's native stack ( Workflows , Agent Builder , the Elastic Inference Service , and Kibana Cases ) with no third-party orchestrator, and inference routed only to providers documented with zero data retention. AI-assisted attacks have compressed the timeline from initial access to exfiltration from days to hours, and traditional manual alert triage cannot keep pace. Hiring more analysts does not scale with alert volume. The Agentic SOC pattern fixes this gap: automate the investigation work that does not require human judgment so analysts can focus on the alerts that do. Note that we use a workflow as our Agentic SOC orchestration layer instead of an Agent. We chose to use a workflow for orchestration instead of an Agent because of the scale we are operating at. A workflow is deterministic, fast, and does not consume tokens. When you are triaging tens of thousands of alerts per month, this can make a huge difference in costs and performance. For a security team processing sensitive alert data, the inference layer's data handling matters. The Elastic Inference Service routes requests to trusted third-party model providers that operate with zero data retention and do not use inputs to train models. Per-model data retention and training-data status are documented on the EIS supported-models page so customers can verify the status of the specific model their pipeline uses. For airgapped or highly sensitive environments, the same pipeline can run against a model hosted on your own infrastructure. At Elastic, our InfoSec team operates as \"Customer Zero.\" We run the newest versions of Elastic Security in our production environment, often before they are released publicly. Our fleet spans thousands of laptops, servers, and cloud workloads across a globally distributed workforce. We are the first and most demanding user of every feature we ship, including the Workflows and Agent Builder platforms. Our Agentic SOC journey started with a single Agent Builder triage agent in Elastic Security 9.2. It handled workstation alerts well, where the investigation pattern is consistent, but we found that SaaS provider logs and Higher-Order threshold alerts required a more specialized methodology. That gap drove our move to domain-specific agents. Alert triage with Workflows and ES|QL: closing alerts without AI The principle behind this first step is simple: any check that can be resolved by a query should be a query, not an LLM call. ES|QL queries are deterministic, auditable, fast, and cost nothing in tokens. An LLM call is non-deterministic, slower, more expensive, and introduces failure modes (hallucinated facts, prompt injection, inconsistent reasoning across runs) that a query does not have. Most false-positive patterns in a mature SOC are well understood and can be expressed in code, so spending tokens to reason about them is a wasted cost. The LLM is the right tool for the alerts where the data is genuinely ambiguous, not for the ones a query can close cleanly. This builds on the approach we described in our earlier automated SIEM investigation post using Tines, where many of these same triage ",
-      "fetch_status": "ok"
+      }
     },
     {
-      "source": "Reddit r/msp",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Architecture project management apps",
-      "link": "https://www.reddit.com/r/msp/comments/1ukz29b/architecture_project_management_apps/",
-      "published": "2026-07-01T21:43:24+00:00",
-      "summary": "We have an architecture firm (15 people) who is a long-time Newforma Project Center customer, and they’re unhappy with the app and its cloud-based replacement (Konekt) that they did an extended eval of. They think it’s time move on, but a lot of their colleagues are using it, and they don’t have a wider frame of reference. Our other architecture customer is smaller (4 users) and just uses Microsoft Project and a lot of manual effort. Monograph looks great to me since it’s architect-focused, integrates with QuickBooks Online (which they use for billing and accounting), and it has an external collaborator component built-in like Newforma’s Info Exchange. What are everyone’s architecture customers using (good or bad), and has anyone found an app that can import Newforma projects so they can keep their prior work easily accessible? Thanks! submitted by /u/IllustriousRaccoon25 [link] [comments]",
-      "author": "/u/IllustriousRaccoon25",
+      "source": "Sophos X-Ops",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Vect and TeamPCP partner for ransomware campaigns",
+      "link": "https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns",
+      "published": "2026-07-02T00:00:00+00:00",
+      "summary": "Credentials harvested through supply chain compromises enable large‑scale ransomware deployment Categories: Threat Research Tags: Vect, TeamPCP, Ransomware",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "TeamPCP"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Smashing Security podcast #474: Polymarket can predict the future. So how did it miss this hack?",
+      "link": "https://grahamcluley.com/smashing-security-podcast-474/",
+      "published": "2026-07-01T23:12:11+00:00",
+      "summary": "Polymarket has built an entire business on predicting the future. So how did it manage to spectacularly fail to predict its own hack? Plus, the Google engineer with a million-dollar secret, and the curious case of the airport hairdryer. Meanwhile, \"FortiBleed\" sees 75,000 Fortinet firewalls thrown wide open - and the real damage is going to roll on for years. All this and more in episode 474 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Quentyn Taylor.",
+      "author": "Graham Cluley",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
@@ -6987,7 +6905,7 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
+        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -7197,33 +7115,6 @@
         "role_map": {
           "Google/Gemini": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/msp",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Ingram Micro Issues",
-      "link": "https://www.reddit.com/r/msp/comments/1ukugh9/ingram_micro_issues/",
-      "published": "2026-07-01T18:52:10+00:00",
-      "summary": "Hi all- HELP. We recently ordered a new laptop from Ingram Micro, device arrives and is registered to some random “Axiom” company’s auto pilot when booting. I’ve reached out to Ingram to return the device and it was denied. Escalated the claim and still not looking good. What are our options? submitted by /u/runner9595 [link] [comments]",
-      "author": "/u/runner9595",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -10607,62 +10498,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "Quoting Jon Udell",
-      "link": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
-      "published": "2026-06-28T21:57:41+00:00",
-      "summary": "Human Agent in the loop I dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join the team. An agent-assisted process need not be a black box that takes in prompts and emits features. [...] Let’s do agentic software development like that. Not as a loop we’ve been excluded from, instead as one we invite agents into. — Jon Udell , “Doctor, it hurts when agents create unreviewable PRs.” “Don’t do that.” Tags: jon-udell , coding-agents , generative-ai , agentic-engineering , ai , llms",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "Hack Your Summer",
-      "link": "https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything",
-      "published": "2026-06-28T19:26:11+00:00",
-      "summary": "Hack Your Summer I learned about this initiative from DJ Patil this morning: It’s a 4-week, high-velocity production sprint for undergraduate students, graduate students, and recent graduates who want to build something real this summer. You’ll learn how to identify a project, make steady progress, get support from mentors and peers, and create tangible, public-facing work you can actually show future employers. Hack Your Summer is partly a reaction to the internship crisis facing US college students this year. There are way fewer available internships than usual, as companies have reduced their hiring ambitions and teams have less capacity to coach interns. Hack Your Summer provides an alternative path for the many students who didn't catch one of those rare internships. A second (free) cohort starts on July 13th, and the deadline for students to apply is July 8th. They're also accepting volunteers to help mentor the students. Tags: careers",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -21560,13 +21395,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Pointing a Cursor at evading detection",
-      "link": "https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection",
+      "title": "From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence",
+      "link": "https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence",
       "published": "2026-06-02T00:00:00+00:00",
-      "summary": "AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR",
+      "summary": "Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -21587,13 +21422,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence",
-      "link": "https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence",
+      "title": "Pointing a Cursor at evading detection",
+      "link": "https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection",
       "published": "2026-06-02T00:00:00+00:00",
-      "summary": "Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.",
+      "summary": "AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -22849,35 +22684,6 @@
           "AWS": "target",
           "Anthropic/Claude": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
-      "published": "2026-05-28T13:39:39+00:00",
-      "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -27381,13 +27187,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Inside the lethal trifecta: Blast radius reduction in AI agent deployments",
-      "link": "https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments",
+      "title": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
+      "link": "https://www.elastic.co/security-labs/elastic-security-mcp-app",
       "published": "2026-05-12T00:00:00+00:00",
-      "summary": "<p>Seven things security teams can start doing today to reduce risk</p> Categories: Threat Research Tags: AI, CISO, risk",
+      "summary": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -27408,13 +27214,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
-      "link": "https://www.elastic.co/security-labs/elastic-security-mcp-app",
+      "title": "Inside the lethal trifecta: Blast radius reduction in AI agent deployments",
+      "link": "https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments",
       "published": "2026-05-12T00:00:00+00:00",
-      "summary": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
+      "summary": "<p>Seven things security teams can start doing today to reduce risk</p> Categories: Threat Research Tags: AI, CISO, risk",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -28429,6 +28235,35 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
+      "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
+      "published": "2026-05-07T00:00:00+00:00",
+      "summary": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -28456,35 +28291,6 @@
         "role_map": {
           "Anthropic/Claude": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
-      "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
-      "published": "2026-05-07T00:00:00+00:00",
-      "summary": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -29600,6 +29406,33 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
+      "link": "https://www.elastic.co/security-labs/dfir-osquery-elastic-security",
+      "published": "2026-05-01T00:00:00+00:00",
+      "summary": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -29623,33 +29456,6 @@
           "poc_available"
         ],
         "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
-      "link": "https://www.elastic.co/security-labs/dfir-osquery-elastic-security",
-      "published": "2026-05-01T00:00:00+00:00",
-      "summary": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -37305,7 +37111,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fd7dc358a30>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fd7e81d5c10>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
@@ -39085,10 +38891,10 @@
       "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "Es ist offiziell: Wiz wird Teil von Google",
+      "title": "It’s Official: Wiz Joins Google",
       "link": "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz",
       "published": "2026-03-11T12:41:21+00:00",
-      "summary": "Wir begrüßen eine neue Ära der Cloud- und KI-Sicherheit.",
+      "summary": "Welcoming a new era of Cloud and AI Security.",
       "author": "Assaf Rappaport",
       "in_window": false,
       "taxonomy": {
