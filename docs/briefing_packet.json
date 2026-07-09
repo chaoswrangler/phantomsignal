@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-09T00:18:08.434857+00:00",
+  "generated_at": "2026-07-09T04:59:40.711734+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 77,
   "total_items_in_window": 298,
-  "total_clusters_raw": 137,
-  "total_clusters_in_packet": 55,
-  "dropped_low_score": 82,
+  "total_clusters_raw": 138,
+  "total_clusters_in_packet": 54,
+  "dropped_low_score": 84,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,6 +74,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -81,11 +88,11 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -95,20 +102,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -116,19 +109,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -151,12 +137,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 8
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -165,12 +165,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
+      "item_count": 50,
+      "in_window_count": 1
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -179,33 +179,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -214,12 +200,19 @@
       "item_count": 50,
       "in_window_count": 19
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 10,
       "in_window_count": 1
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -228,8 +221,8 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -241,6 +234,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -254,7 +254,7 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -263,18 +263,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 1
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "SpecterOps": {
@@ -319,19 +319,19 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -340,12 +340,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -354,19 +354,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -375,11 +368,18 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Google Cloud Security": {
@@ -389,18 +389,11 @@
       "item_count": 20,
       "in_window_count": 14
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Chainalysis": {
@@ -410,19 +403,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 0
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,6 +417,27 @@
       "item_count": 15,
       "in_window_count": 15
     },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -438,8 +445,15 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 21
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -451,20 +465,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 21
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -479,6 +479,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -501,27 +508,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 49
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -543,13 +529,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -557,12 +536,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -571,6 +550,27 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -578,11 +578,11 @@
       "item_count": 100,
       "in_window_count": 22
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 0,
+      "item_count": 100,
       "in_window_count": 0
     },
     "Reddit r/netsec": {
@@ -712,7 +712,7 @@
     },
     {
       "cluster_id": "14c6bae9ae",
-      "priority_score": 33,
+      "priority_score": 32,
       "member_count": 3,
       "corroborating_source_count": 3,
       "strong_signals": [
@@ -984,116 +984,6 @@
       ]
     },
     {
-      "cluster_id": "a8aada2f40",
-      "priority_score": 21,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-55255"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-33017",
-          "CVE-2026-55255"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Help Net Security",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Attackers using Langflow flaw for credential harvesting (CVE-2026-55255)",
-        "link": "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
-        "published": "2026-07-08T14:03:04+00:00",
-        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks after the Sysdig Threat Research Team observed it being actively targeted. CVE-2026-55255 exploited Langflow is an open-source visual framework for building AI agents and workflows, widely used by individual developers, enterprises, and service providers. CVE-2026-55255 … More → The post Attackers using Langflow flaw for credential harvesting (CVE-2026-55255) appeared first on Help Net Security .",
-        "full_body": "Zeljka Zorz , Editor-in-Chief, Help Net Security July 8, 2026 Share Attackers using Langflow flaw for credential harvesting (CVE-2026-55255) The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks after the Sysdig Threat Research Team observed it being actively targeted. CVE-2026-55255 exploited Langflow is an open-source visual framework for building AI agents and workflows, widely used by individual developers, enterprises, and service providers. CVE-2026-55255 is an insecure direct object reference (IDOR) vulnerability in Langflow’s /api/v1/responses endpoint. In versions prior to 1.9.2, an authenticated attacker can execute any flow belonging to another user simply by supplying that flow’s ID in a request. The endpoint accepts a client-supplied flow identifier but never checks that the requesting user actually owns or is authorized to invoke it. Sysdig’s Threat Research Team, which first observed CVE-2026-55255 being exploited in the wild on June 25, watched a single operator run both it and CVE-2026-33017 – a code injection vulnerability that could lead to unauthenticated remote code execution – against the same instance in the same week. “The operator poured sustained effort into [CVE-2026-33017] and treated [CVE-2026-55255] as a two-request afterthought, only adding it to their toolset to cover more exploitation possibilities,” the researchers noted. Because Langflow flows routinely embed API keys, credentials, and integrations with external systems, hijacking another user’s flow can cascade into cross-tenant data exposure and secret theft. Sysdig observed the operator injecting a “leak api keys” prompt into hijacked flows to get at the embedded credentials. “On a single self-hosted instance, there is nothing the Langflow IDOR vulnerability (CVE-2026-55255) can do that its RCE vulnerability (CVE-2026-33017) can’t do,” the researchers noted, but the IDOR vulnerability can come in handy in multi-tenant / managed SaaS environment. The RCE can’t, by itself, defeat the isolation between the sandboxed workers of each tenant, but the IDOR can cross the tenant boundary at the application layer, riding the platform’s own “blessed” execution path to run the victim’s flow with the victim’s credentials, they explained . Sysdig assessed the actor as opportunistic and financially motivated. Their broader objective was code execution via CVE-2026-33017 and second-stage implant delivery, but they also used the IDOR (CVE-2026-55255) to harvest embedded secrets: LLM provider keys, cloud credentials, and database secrets. Federal agencies have until July 10 to patch CISA has ordered US federal civilian agencies to mitigate CVE-2026-55255 on their systems by July 10, 2026. Defenders should also check for the presence of indicators of compromise, as outlined by Sysdig and SentinelOne . CVE-2026-33017 was added to the Known Exploited Vulnerabilities catalog on March 25, 2026, so the agencies should have already addressed it by now. Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about AI CISA enterprise exploit SentinelOne Sysdig vulnerability Share",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-55255",
-            "CVE-2026-33017"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Attackers using Langflow flaw for credential harvesting (CVE-2026-55255)",
-          "link": "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
-          "published": "2026-07-08T14:03:04+00:00",
-          "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks after the Sysdig Threat Research Team observed it being actively targeted. CVE-2026-55255 exploited Langflow is an open-source visual framework for building AI agents and workflows, widely used by individual developers, enterprises, and service providers. CVE-2026-55255 … More → The post Attackers using Langflow flaw for credential harvesting (CVE-2026-55255) appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-55255",
-              "CVE-2026-33017"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "50e57176eb",
       "priority_score": 20,
       "member_count": 1,
@@ -1207,6 +1097,116 @@
             "role_map": {
               "Ubiquiti UniFi": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a8aada2f40",
+      "priority_score": 20,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-55255"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-33017",
+          "CVE-2026-55255"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Help Net Security",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Attackers using Langflow flaw for credential harvesting (CVE-2026-55255)",
+        "link": "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
+        "published": "2026-07-08T14:03:04+00:00",
+        "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks after the Sysdig Threat Research Team observed it being actively targeted. CVE-2026-55255 exploited Langflow is an open-source visual framework for building AI agents and workflows, widely used by individual developers, enterprises, and service providers. CVE-2026-55255 … More → The post Attackers using Langflow flaw for credential harvesting (CVE-2026-55255) appeared first on Help Net Security .",
+        "full_body": "Zeljka Zorz , Editor-in-Chief, Help Net Security July 8, 2026 Share Attackers using Langflow flaw for credential harvesting (CVE-2026-55255) The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks after the Sysdig Threat Research Team observed it being actively targeted. CVE-2026-55255 exploited Langflow is an open-source visual framework for building AI agents and workflows, widely used by individual developers, enterprises, and service providers. CVE-2026-55255 is an insecure direct object reference (IDOR) vulnerability in Langflow’s /api/v1/responses endpoint. In versions prior to 1.9.2, an authenticated attacker can execute any flow belonging to another user simply by supplying that flow’s ID in a request. The endpoint accepts a client-supplied flow identifier but never checks that the requesting user actually owns or is authorized to invoke it. Sysdig’s Threat Research Team, which first observed CVE-2026-55255 being exploited in the wild on June 25, watched a single operator run both it and CVE-2026-33017 – a code injection vulnerability that could lead to unauthenticated remote code execution – against the same instance in the same week. “The operator poured sustained effort into [CVE-2026-33017] and treated [CVE-2026-55255] as a two-request afterthought, only adding it to their toolset to cover more exploitation possibilities,” the researchers noted. Because Langflow flows routinely embed API keys, credentials, and integrations with external systems, hijacking another user’s flow can cascade into cross-tenant data exposure and secret theft. Sysdig observed the operator injecting a “leak api keys” prompt into hijacked flows to get at the embedded credentials. “On a single self-hosted instance, there is nothing the Langflow IDOR vulnerability (CVE-2026-55255) can do that its RCE vulnerability (CVE-2026-33017) can’t do,” the researchers noted, but the IDOR vulnerability can come in handy in multi-tenant / managed SaaS environment. The RCE can’t, by itself, defeat the isolation between the sandboxed workers of each tenant, but the IDOR can cross the tenant boundary at the application layer, riding the platform’s own “blessed” execution path to run the victim’s flow with the victim’s credentials, they explained . Sysdig assessed the actor as opportunistic and financially motivated. Their broader objective was code execution via CVE-2026-33017 and second-stage implant delivery, but they also used the IDOR (CVE-2026-55255) to harvest embedded secrets: LLM provider keys, cloud credentials, and database secrets. Federal agencies have until July 10 to patch CISA has ordered US federal civilian agencies to mitigate CVE-2026-55255 on their systems by July 10, 2026. Defenders should also check for the presence of indicators of compromise, as outlined by Sysdig and SentinelOne . CVE-2026-33017 was added to the Known Exploited Vulnerabilities catalog on March 25, 2026, so the agencies should have already addressed it by now. Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about AI CISA enterprise exploit SentinelOne Sysdig vulnerability Share",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-55255",
+            "CVE-2026-33017"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Attackers using Langflow flaw for credential harvesting (CVE-2026-55255)",
+          "link": "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
+          "published": "2026-07-08T14:03:04+00:00",
+          "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks after the Sysdig Threat Research Team observed it being actively targeted. CVE-2026-55255 exploited Langflow is an open-source visual framework for building AI agents and workflows, widely used by individual developers, enterprises, and service providers. CVE-2026-55255 … More → The post Attackers using Langflow flaw for credential harvesting (CVE-2026-55255) appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-55255",
+              "CVE-2026-33017"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -2138,115 +2138,6 @@
       ]
     },
     {
-      "cluster_id": "26d1b14830",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-45659",
-        "Microsoft SharePoint"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Microsoft SharePoint"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-11371",
-          "CVE-2026-45659"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
-        "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-        "published": "2026-07-02T05:46:45+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue",
-        "full_body": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation  Ravie Lakshmanan  Jul 02, 2026 Vulnerability / Threat Intelligence The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue was addressed by Microsoft in May 2026 for SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Enterprise Server 2016. Microsoft noted that any authenticated attacker could trigger the vulnerability, and that it does not require admin or other elevated privileges. In a network-based attack, an authenticated attacker with a minimum of Site Member permissions (PR:L) could leverage it to execute code remotely on the SharePoint Server. \"Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network,\" CISA said . According to the Windows maker's advisory, the flaw has been tagged with an \"Exploitation Less Likely\" assessment. It's currently not known how the vulnerability is being exploited, who is behind the activity, and what the end goals of these efforts are. In light of active exploitation, Federal Civilian Executive Branch (FCEB) agencies are advised to apply the fixes by July 4, 2026. Microsoft Uncovers Parallel Threat Activity from 2 Clusters Late last month, Microsoft revealed that a routine ransomware investigation uncovered two unrelated attackers operating simultaneously within the same network, while adopting deliberate techniques to establish persistent access and complicate incident response efforts. One set of attacks has been attributed to Storm-2603 , a threat actor known for deploying Warlock ransomware often by exploiting known vulnerabilities in on-premises SharePoint servers since mid-2025 . \"In this case, initial access was likely attempted through a separate vulnerability, with requests for files like win.ini and web.config, indicating probing for local file inclusion,\" Microsoft said. Evidence points to it being CVE-2025-11371 (CVSS score: 9.1), a critical flaw impacting Gladinet Triofox. Upon gaining initial access, the threat actor is said to have deployed tools like Velociraptor to blend malicious activity with trusted administrative behavior, as well as established multiple remote access channels through Cloudflare tunneling, Zoho Assist, and Secure Shell (SSH) connections configured through Visual Studio Code. The attack also escalated privileges by creating new local and domain administrator accounts, while a vulnerable driver (\"NSecKrnl.sys\") acted as a conduit for tampering with endpoint security protections to help reduce their visibility. In tandem, Microsoft said it uncovered signs of a second, unrelated threat actor co-existing in the same environment using DLL side-loading and custom backdoors, thereby making attribution more challenging. Further investigation uncovered that the attackers had moved laterally beyond the first network and into a second organization, which confirmed they had been compromised by the same ransomware activity attributed to Storm-2603. \"Together, these overlapping activity streams enabled sustained access while masking the full scope of the intrusion,\" the Microsoft Incident Response team said. \"The blend of known ransomware tactics and hidden techniques allowed the threat actors to establish deep and lasting access.\" \"What may appear to be a single ransomware incident can quickly expand into something more complex-spanning organizations, blending tactics, and even involving multiple threat actors operating in parallel. For security teams, the implication is clear: isolated signals rarely tell the full story.\" Found this",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "Microsoft SharePoint"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-45659",
-            "CVE-2025-11371"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Microsoft SharePoint": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
-          "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-          "published": "2026-07-02T05:46:45+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Microsoft SharePoint"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-45659",
-              "CVE-2025-11371"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft SharePoint": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "9814bfc594",
       "priority_score": 12,
       "member_count": 1,
@@ -2302,81 +2193,6 @@
           "link": "https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/",
           "published": "2026-07-08T17:20:21+00:00",
           "summary": "Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f0cefbafc4",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
-        "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
-        "published": "2026-07-08T13:00:00+00:00",
-        "summary": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the cleare",
-        "full_body": "Back to Blog Detection and Response Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back? Emma Burdett Jul 2, 2026 | Last updated on Jul 2, 2026 | 5 min read DISCOVER RAPID7 MDR The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the clearest findings is that security operations are increasingly collaborative. According to the survey, 57% of respondents operate in a hybrid internal and MDR model. That reflects a reality many teams know well: internal expertise remains essential, but external support can help extend coverage, add specialist knowledge, and support faster response when internal resources are stretched. This hybrid model also speaks to the complexity security teams are managing. Modern environments span cloud, identity, endpoints, applications, third parties, and expanding attack surfaces. Keeping watch across all of it requires more than tooling alone. It requires the right mix of people, process, visibility, and support. At the same time, many organizations are still working to connect the dots across their security ecosystem. Two-thirds of respondents said their security capabilities are only partially integrated. For analysts, partial integration often means more manual work: switching between tools, stitching together context, and making decisions with an incomplete picture. When teams are jumping between systems, manually stitching together context, or working from incomplete data, it becomes harder to act at the speed modern threats demand. The survey also showed that only 10% of respondents describe their organization as “highly proactive” in predicting and preventing threats, which points to the reality of where many teams are today. The ambition is there, but becoming truly preemptive takes time, integration, and operational maturity. Most organizations are still balancing the day-to-day demands of reactive response with the longer-term work of building a more proactive security model. Confidence levels tell a similar story. 59% of respondents said they are only somewhat confident in their organization’s ability to prevent attacks before impact. Security teams understand what is at stake, but many still lack full confidence that they can consistently stop threats before they affect the business. AI is a priority, but trust matters AI was, of course, another major theme in the survey. Interest is high, especially when it comes to improving efficiency, accelerating triage, and helping teams manage growing volumes of data and alerts, but adoption is still developing. 52% of respondents said AI is in early-stage exploration within their security operations. AI has clear potential in the SOC and across security operations, from summarizing investigations to enriching alerts, supporting prioritization, and helping analysts move faster. But security teams have to be deliberate about how they apply it. In high-pressure environments where accuracy, context, and accountability matter, AI needs to earn trust. The survey results show that trust is still a key consideration",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
-          "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
-          "published": "2026-07-08T13:00:00+00:00",
-          "summary": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the cleare",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2493,105 +2309,6 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce7170bd38",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "government",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Krebs on Security",
-        "cohort": "practitioner_analysis",
-        "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-        "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-        "published": "2026-07-08T12:31:39+00:00",
-        "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
-        "full_body": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "telecommunications",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Krebs on Security",
-          "cohort": "practitioner_analysis",
-          "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-          "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-          "published": "2026-07-08T12:31:39+00:00",
-          "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "telecommunications",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -3113,6 +2830,81 @@
       ]
     },
     {
+      "cluster_id": "f0cefbafc4",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
+        "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
+        "published": "2026-07-08T13:00:00+00:00",
+        "summary": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the cleare",
+        "full_body": "Back to Blog Detection and Response Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back? Emma Burdett Jul 2, 2026 | Last updated on Jul 2, 2026 | 5 min read DISCOVER RAPID7 MDR The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the clearest findings is that security operations are increasingly collaborative. According to the survey, 57% of respondents operate in a hybrid internal and MDR model. That reflects a reality many teams know well: internal expertise remains essential, but external support can help extend coverage, add specialist knowledge, and support faster response when internal resources are stretched. This hybrid model also speaks to the complexity security teams are managing. Modern environments span cloud, identity, endpoints, applications, third parties, and expanding attack surfaces. Keeping watch across all of it requires more than tooling alone. It requires the right mix of people, process, visibility, and support. At the same time, many organizations are still working to connect the dots across their security ecosystem. Two-thirds of respondents said their security capabilities are only partially integrated. For analysts, partial integration often means more manual work: switching between tools, stitching together context, and making decisions with an incomplete picture. When teams are jumping between systems, manually stitching together context, or working from incomplete data, it becomes harder to act at the speed modern threats demand. The survey also showed that only 10% of respondents describe their organization as “highly proactive” in predicting and preventing threats, which points to the reality of where many teams are today. The ambition is there, but becoming truly preemptive takes time, integration, and operational maturity. Most organizations are still balancing the day-to-day demands of reactive response with the longer-term work of building a more proactive security model. Confidence levels tell a similar story. 59% of respondents said they are only somewhat confident in their organization’s ability to prevent attacks before impact. Security teams understand what is at stake, but many still lack full confidence that they can consistently stop threats before they affect the business. AI is a priority, but trust matters AI was, of course, another major theme in the survey. Interest is high, especially when it comes to improving efficiency, accelerating triage, and helping teams manage growing volumes of data and alerts, but adoption is still developing. 52% of respondents said AI is in early-stage exploration within their security operations. AI has clear potential in the SOC and across security operations, from summarizing investigations to enriching alerts, supporting prioritization, and helping analysts move faster. But security teams have to be deliberate about how they apply it. In high-pressure environments where accuracy, context, and accountability matter, AI needs to earn trust. The survey results show that trust is still a key consideration",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
+          "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
+          "published": "2026-07-08T13:00:00+00:00",
+          "summary": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the cleare",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "dfea83e3cb",
       "priority_score": 11,
       "member_count": 1,
@@ -3227,6 +3019,105 @@
                   0.64
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce7170bd38",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "government",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Krebs on Security",
+        "cohort": "practitioner_analysis",
+        "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+        "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+        "published": "2026-07-08T12:31:39+00:00",
+        "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
+        "full_body": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "telecommunications",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Krebs on Security",
+          "cohort": "practitioner_analysis",
+          "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+          "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+          "published": "2026-07-08T12:31:39+00:00",
+          "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "telecommunications",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -3359,7 +3250,7 @@
         "link": "https://grahamcluley.com/smashing-security-podcast-475/",
         "published": "2026-07-08T23:19:18+00:00",
         "summary": "A 15-year-old boy asked a chatbot for help - and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, \"JadePuffer\". What does this tell us about the future of cybersecurity? Also, Apple's \"Hide My Email\" feature turns out to hide rather less than it promises - despite Apple knowing it has a problem for over a year. All this and more in this episode of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose.",
-        "full_body": "Graham Cluley @ 12:19 am, July 9, 2026 @grahamcluley.com / grahamcluley A 15-year-old boy asked a chatbot for help – and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, “JadePuffer”. What does this tell us about the future of cybersecurity? Also, Apple’s “Hide My Email” feature turns out to hide rather less than it promises – despite Apple knowing it has a problem for over a year. All this and more in this episode of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose. Smashing Security #475 JadePuffer - the AI that ran a ransomware attack all by itself ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. ZOE ROSE We need an LLM that says, here's how to do it. And don't forget to consider these things. Unknown No, no, we don't need that actually, Zoe. We don't need any help for the criminals in covering up the tracks. Interesting. Interesting that you should suggest that. Smashing Security, episode 475. Darknet Puffer, the AI that ran a ransomware attack all by itself. With Graham Cluley and special guest Zoe Rose. Hello, hello, and welcome to Smashing Security episode 475. My name's Graham Cluley. ZOE ROSE And I'm Zoe Rose. GRAHAM CLULEY Hello, Zoe. Welcome back to the show. It's been a while since you've been on. How are you doing? ZOE ROSE Well, usually when I join, something massive has happened. GRAHAM CLULEY Right. ZOE ROSE At the moment, I have not acquired another child or a pet. GRAHAM CLULEY So, well done. ZOE ROSE Yeah. GRAHAM CLULEY So for those who don't know Zoe, what are you? I mean, people who haven't heard of you before, what do you do exactly? ZOE ROSE That's a good question. What do I do? I work in security and pretend I know what I'm talking about half the time. GRAHAM CLULEY Oh, okay. It seems fair enough. And you work for a big company? ZOE ROSE I have a bloody long title now, actually. That's the change. That's what's new. My title has massively increased. GRAHAM CLULEY Okay, give us your title. Let's hear it. ZOE ROSE All right. It is C-Cert, which if you know what that stands for, it has more words, but we'll just stick to some letters. Security Operations Development Manager. GRAHAM CLULEY Wow. ZOE ROSE Yeah. GRAHAM CLULEY Security Operations Development Manager, like SODOM, is basically what you're saying. Unknown Yeah, sure. GRAHAM CLULEY Interesting. Well, before we kick off, let's thank this week's wonderful sponsors, Arctic Wolf, NordLayer, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security, we're not going to be talking about how a Greek politician investigating spyware had his own mobile phone hacked. You'll hear no discussion of how a US Department of Homeland Security information sharing database has been accessed by hackers. And we won't even mention how hackers are using a fake World Cup t-shirt offer to spread malware. So Zoe, what are you going to be talking about this week? ZOE ROSE I'm going to talk about Apple's Hide My Email isn't actually as hidden as it sounds like. GRAHAM CLULEY And I'm going to be telling the tale of how a 15-year-old with a chatbot became a cybercriminal and what happens when the AI just does the whole job itself. All this and much more coming up on this episode of Smashing Security. JOE Graham, am I right in thinking that Arctic Wolf are sponsoring the show this week? GRAHAM CLULEY You are right, Joe. They've just published a new report, 2026 State of the Cybersecurity Attack Surface, and they analysed over 800,000 real IT assets to find out how exposed organisations actually are. JOE And I'm guessing everything is hunky-dory. GRAHAM CLULEY No, not so much. The reality is they found 1 in 3 IT asset",
+        "full_body": "Graham Cluley @ 12:19 am, July 9, 2026 @grahamcluley.com / grahamcluley A 15-year-old boy asked a chatbot for help – and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, “JadePuffer”. What does this tell us about the future of cybersecurity? Also, Apple’s “Hide My Email” feature turns out to hide rather less than it promises – despite Apple knowing it has a problem for over a year. All this and more in this episode of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose. Smashing Security #475 JadePuffer - the AI that ran a ransomware attack all by itself ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. ZOE ROSE We need an LLM that says, here's how to do it. And don't forget to consider these things. Unknown No, no, we don't need that actually, Zoe. We don't need any help for the criminals in covering up the tracks. Interesting. Interesting that you should suggest that. Smashing Security, episode 475. JadePuffer, the AI that ran a ransomware attack all by itself. With Graham Cluley and special guest Zoe Rose. Hello, hello, and welcome to Smashing Security episode 475. My name's Graham Cluley. ZOE ROSE And I'm Zoe Rose. GRAHAM CLULEY Hello, Zoe. Welcome back to the show. It's been a while since you've been on. How are you doing? ZOE ROSE Well, usually when I join, something massive has happened. GRAHAM CLULEY Right. ZOE ROSE At the moment, I have not acquired another child or a pet. GRAHAM CLULEY So, well done. ZOE ROSE Yeah. GRAHAM CLULEY So for those who don't know Zoe, what are you? I mean, people who haven't heard of you before, what do you do exactly? ZOE ROSE That's a good question. What do I do? I work in security and pretend I know what I'm talking about half the time. GRAHAM CLULEY Oh, okay. It seems fair enough. And you work for a big company? ZOE ROSE I have a bloody long title now, actually. That's the change. That's what's new. My title has massively increased. GRAHAM CLULEY Okay, give us your title. Let's hear it. ZOE ROSE All right. It is C-Cert, which if you know what that stands for, it has more words, but we'll just stick to some letters. Security Operations Development Manager. GRAHAM CLULEY Wow. ZOE ROSE Yeah. GRAHAM CLULEY Security Operations Development Manager, like SODOM, is basically what you're saying. Unknown Yeah, sure. GRAHAM CLULEY Interesting. Well, before we kick off, let's thank this week's wonderful sponsors, Arctic Wolf, NordLayer, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security, we're not going to be talking about how a Greek politician investigating spyware had his own mobile phone hacked. You'll hear no discussion of how a US Department of Homeland Security information sharing database has been accessed by hackers. And we won't even mention how hackers are using a fake World Cup t-shirt offer to spread malware. So Zoe, what are you going to be talking about this week? ZOE ROSE I'm going to talk about Apple's Hide My Email isn't actually as hidden as it sounds like. GRAHAM CLULEY And I'm going to be telling the tale of how a 15-year-old with a chatbot became a cybercriminal and what happens when the AI just does the whole job itself. All this and much more coming up on this episode of Smashing Security. JOE Graham, am I right in thinking that Arctic Wolf are sponsoring the show this week? GRAHAM CLULEY You are right, Joe. They've just published a new report, 2026 State of the Cybersecurity Attack Surface, and they analysed over 800,000 real IT assets to find out how exposed organisations actually are. JOE And I'm guessing everything is hunky-dory. GRAHAM CLULEY No, not so much. The reality is they found 1 in 3 IT assets is",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -3486,6 +3377,121 @@
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
               "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f6a2962dc9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2020-22653",
+          "CVE-2020-22658",
+          "CVE-2023-25717",
+          "CVE-2025-2492"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "UAT-7810 continues building ORB networks using new malware",
+        "link": "https://blog.talosintelligence.com/uat-7810/",
+        "published": "2026-07-07T10:00:05+00:00",
+        "summary": "Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.",
+        "full_body": "UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = \"C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit\" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2020-22653",
+            "CVE-2020-22658",
+            "CVE-2023-25717",
+            "CVE-2025-2492"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "UAT-7810 continues building ORB networks using new malware",
+          "link": "https://blog.talosintelligence.com/uat-7810/",
+          "published": "2026-07-07T10:00:05+00:00",
+          "summary": "Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2020-22653",
+              "CVE-2020-22658",
+              "CVE-2023-25717",
+              "CVE-2025-2492"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
             },
             "weak_tags": {
               "products": []
@@ -3749,121 +3755,6 @@
               "Linux kernel": "target",
               "Citrix": "target",
               "Android": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f6a2962dc9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2020-22653",
-          "CVE-2020-22658",
-          "CVE-2023-25717",
-          "CVE-2025-2492"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "UAT-7810 continues building ORB networks using new malware",
-        "link": "https://blog.talosintelligence.com/uat-7810/",
-        "published": "2026-07-07T10:00:05+00:00",
-        "summary": "Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.",
-        "full_body": "UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = \"C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit\" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2020-22653",
-            "CVE-2020-22658",
-            "CVE-2023-25717",
-            "CVE-2025-2492"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "UAT-7810 continues building ORB networks using new malware",
-          "link": "https://blog.talosintelligence.com/uat-7810/",
-          "published": "2026-07-07T10:00:05+00:00",
-          "summary": "Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2020-22653",
-              "CVE-2020-22658",
-              "CVE-2023-25717",
-              "CVE-2025-2492"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
             },
             "weak_tags": {
               "products": []
@@ -4138,6 +4029,99 @@
       ]
     },
     {
+      "cluster_id": "caac5571c6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "The Threat Isn’t the Frontier Model",
+        "link": "https://www.recordedfuture.com/blog/build-defensive-ai-agents",
+        "published": "2026-07-08T00:00:00+00:00",
+        "summary": "The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.",
+        "full_body": "The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "The Threat Isn’t the Frontier Model",
+          "link": "https://www.recordedfuture.com/blog/build-defensive-ai-agents",
+          "published": "2026-07-08T00:00:00+00:00",
+          "summary": "The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "19a671449e",
       "priority_score": 10,
       "member_count": 1,
@@ -4310,99 +4294,6 @@
                   0.29
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "caac5571c6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "The Threat Isn’t the Frontier Model",
-        "link": "https://www.recordedfuture.com/blog/build-defensive-ai-agents",
-        "published": "2026-07-08T00:00:00+00:00",
-        "summary": "The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.",
-        "full_body": "The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "The Threat Isn’t the Frontier Model",
-          "link": "https://www.recordedfuture.com/blog/build-defensive-ai-agents",
-          "published": "2026-07-08T00:00:00+00:00",
-          "summary": "The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -4603,8 +4494,7 @@
         ],
         "attack_techniques": [],
         "urgency_signals": [
-          "no_patch_yet",
-          "poc_available"
+          "no_patch_yet"
         ],
         "content_type": [
           "news_report"
@@ -4620,7 +4510,7 @@
         "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
         "published": "2026-07-07T18:52:19+00:00",
         "summary": "Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. [...]",
-        "full_body": "Chinese hackers develop LONGLEASH malware to expand ORB network By Bill Toulas July 7, 2026 02:52 PM 0 Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. According to Cisco Talos researchers, the ORB network serves as a secure relay infrastructure for other China-aligned advanced persistent threats (APTs), including UAT-5918. This type of infrastructure, which was previously documented by Google Mandiant , allows threat actors to proxy their network traffic through regional devices, making it appear to originate from legitimate local infrastructure to evade detection and complicate attribution. The Talos analysts have identified new malware in the campaign, including LONGLEASH, a new version of the previously documented SHORTLEASH backdoor, DOGLEASH, a Linux backdoor, JARLEASH, an administrative tool, and LEASHTEST, a testing utility. The researchers report that UAT-7810 primarily exploits known (n-day) vulnerabilities to gain initial access, including CVE-2020-22653, CVE-2020-22658, and CVE-2023-25717 in Ruckus routers, as well as CVE-2025-2492 in ASUS AiCloud routers. LONGLEASH malware The newly discovered LONGLEASH malware is an upgraded version of SHORTLEASH, first documented by SecurityScorecard in 2025, that significantly expands its capabilities. The malware builds on the previous version, which supported command-and-control (C2) communications, web server hosting, network tunnel management, and operation as both a C2 server and client. In addition to those, Talos researchers have now also observed the following capabilities: Reverse shell HTTP, DNS, SOCKS, TCP, ICMP, and UDP proxying with traffic redirection SMTP client/server functionality TLS and PKI support Self-removal for when tampering or other suspicious activity is detected Ability to act as an intermediate C2 server, forwarding commands and data between infected nodes DOGLEASH, JARLEASH, and LEASHTEST Apart from LONGLEASH, the researchers have also discovered DOGLEASH, a lightweight Linux backdoor deployed via web shell scripts. Upon launch, it opens a listening TCP port and authenticates incoming requests using a hardcoded password, supporting shell command execution, file access and modification, OS information retrieval, and arbitrary code execution directly in the host's memory. JARLEASH is a Java-based administrative tool that provides web-based file management and includes FTP, SFTP, and Netcat server functionality. Finally, the threat actors have developed LEASHTEST, which can be used to verify whether an MIPS IoT device can perform functions related to malware operations, likely to help refine LONGLEASH’s MIPS support. Cisco Talos concludes that UAT-7810 continues to expand its ORB infrastructure, actively replacing or extending SHORTLEASH with the more capable LONGLEASH while broadening its toolkit with new malware. A complete list of the indicators of compromise (IoCs) linked to UAT-7810 activity and the latest toolset is available at the bottom of Cisco Talos’ report. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Windows version of SprySOCKS Linux malware used to attack govt orgs Chinese hackers breach REDCap servers, steal medical research China-linked JDY botnet expands targeting of U.S. military networks Chinese hackers target telcos with new Linux, Windows malware New ChocoPoC malware targets researchers via trojanized PoC exploits",
+        "full_body": "Chinese hackers develop LONGLEASH malware to expand ORB network By Bill Toulas July 7, 2026 02:52 PM 0 Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. According to Cisco Talos researchers, the ORB network serves as a secure relay infrastructure for other China-aligned advanced persistent threats (APTs), including UAT-5918. This type of infrastructure, which was previously documented by Google Mandiant , allows threat actors to proxy their network traffic through regional devices, making it appear to originate from legitimate local infrastructure to evade detection and complicate attribution. The Talos analysts have identified new malware in the campaign, including LONGLEASH, a new version of the previously documented SHORTLEASH backdoor, DOGLEASH, a Linux backdoor, JARLEASH, an administrative tool, and LEASHTEST, a testing utility. The researchers report that UAT-7810 primarily exploits known (n-day) vulnerabilities to gain initial access, including CVE-2020-22653, CVE-2020-22658, and CVE-2023-25717 in Ruckus routers, as well as CVE-2025-2492 in ASUS AiCloud routers. LONGLEASH malware The newly discovered LONGLEASH malware is an upgraded version of SHORTLEASH, first documented by SecurityScorecard in 2025, that significantly expands its capabilities. The malware builds on the previous version, which supported command-and-control (C2) communications, web server hosting, network tunnel management, and operation as both a C2 server and client. In addition to those, Talos researchers have now also observed the following capabilities: Reverse shell HTTP, DNS, SOCKS, TCP, ICMP, and UDP proxying with traffic redirection SMTP client/server functionality TLS and PKI support Self-removal for when tampering or other suspicious activity is detected Ability to act as an intermediate C2 server, forwarding commands and data between infected nodes DOGLEASH, JARLEASH, and LEASHTEST Apart from LONGLEASH, the researchers have also discovered DOGLEASH, a lightweight Linux backdoor deployed via web shell scripts. Upon launch, it opens a listening TCP port and authenticates incoming requests using a hardcoded password, supporting shell command execution, file access and modification, OS information retrieval, and arbitrary code execution directly in the host's memory. JARLEASH is a Java-based administrative tool that provides web-based file management and includes FTP, SFTP, and Netcat server functionality. Finally, the threat actors have developed LEASHTEST, which can be used to verify whether an MIPS IoT device can perform functions related to malware operations, likely to help refine LONGLEASH’s MIPS support. Cisco Talos concludes that UAT-7810 continues to expand its ORB infrastructure, actively replacing or extending SHORTLEASH with the more capable LONGLEASH while broadening its toolkit with new malware. A complete list of the indicators of compromise (IoCs) linked to UAT-7810 activity and the latest toolset is available at the bottom of Cisco Talos’ report. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Windows version of SprySOCKS Linux malware used to attack govt orgs Chinese hackers breach REDCap servers, steal medical research China-linked JDY botnet expands targeting of U.S. military networks Chinese hackers target telcos with new Linux, Windows malware Hackers exploit Roundcube flaw to spy on academic researchers",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -4643,8 +4533,7 @@
           ],
           "attack_techniques": [],
           "urgency_signals": [
-            "no_patch_yet",
-            "poc_available"
+            "no_patch_yet"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
@@ -4685,221 +4574,13 @@
             ],
             "attack_techniques": [],
             "urgency_signals": [
-              "no_patch_yet",
-              "poc_available"
+              "no_patch_yet"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Cisco": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "62c5b45d14",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security",
-          "apt_espionage",
-          "data_breach",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "GitHub",
-          "Gitea",
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Accenture Confirms Data Breach After Hacker Claims Source Code Theft",
-        "link": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
-        "published": "2026-07-08T16:09:15+00:00",
-        "summary": "The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek .",
-        "full_body": "Professional services giant Accenture confirmed a data breach after a hacker claimed the theft of internal source code from the company. The incident came to light this week, when a threat actor boasted on the hacker forum PwnForums about compromising Accenture and stealing 35 gigabytes of data. According to the hacker, the information, including Azure access keys and tokens, configuration files, RSA and SSH keys, and source code, was exfiltrated from Accenture earlier this month. The threat actor, who was trying to sell the allegedly stolen data, posted as proof-of-possession a screenshot depicting a private Azure DevOps repository apparently hosted on an accenture.com domain. Responding to a SecurityWeek inquiry, Accenture confirmed the attack, but refrained from providing additional details on the matter. “We are aware of this isolated matter, and we have remediated its source. There is no impact to Accenture operations and service delivery,” an Accenture spokesperson said. Advertisement. Scroll to continue reading. It is unclear how the data was exfiltrated, whether any personal information was compromised, and how the hacker gained access to Accenture’s environment. According to Corsica Technologies CISO Ross Filipek, the incident raises concerns because the allegedly stolen data could be used as a playbook for future attacks, based on code vulnerabilities, credentials, and infrastructure information that threat actors can extract. “Accenture is a familiar target because of where it sits in the business ecosystem. Large consulting and services firms often sit close to the systems that help major companies run, from cloud environments and identity tools to codebases and transformation projects,” Filipek said. “That doesn’t mean every incident creates direct client risk, but it explains why attackers keep looking for a foothold. One successful compromise can offer clues about how enterprise systems are built, how teams authenticate, and where trusted connections exist,” he added. Accenture, which recently announced it was taking a majority stake in Dragos , last year confirmed that a former employee was charged over concealing security issues in her employer’s cloud products that were non-compliant with US government requirements. Related: Medtronic Data Breach Impacts 3.8 Million People Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Canadian Electricity Provider London Hydro Discloses Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection County Government Reportedly Paid $1 Million to Cyber Extortion Group Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, tre",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "data_breach",
-            "apt_espionage",
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [
-            "Linux kernel",
-            "GitHub",
-            "Gitea"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Linux kernel": "target",
-            "GitHub": "target",
-            "Gitea": "target",
-            "Anthropic/Claude": "target",
-            "Azure": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Accenture Confirms Data Breach After Hacker Claims Source Code Theft",
-          "link": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
-          "published": "2026-07-08T16:09:15+00:00",
-          "summary": "The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "data_breach",
-              "apt_espionage",
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [
-              "Linux kernel",
-              "GitHub",
-              "Gitea"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Linux kernel": "target",
-              "GitHub": "target",
-              "Gitea": "target",
-              "Anthropic/Claude": "target",
-              "Azure": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "152995b5e9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Black Hills Information Security",
-        "cohort": "detection_response_operations",
-        "title": "Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage",
-        "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
-        "published": "2026-07-08T14:00:00+00:00",
-        "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
-        "full_body": "8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Black Hills Information Security",
-          "cohort": "detection_response_operations",
-          "title": "Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage",
-          "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
-          "published": "2026-07-08T14:00:00+00:00",
-          "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5215,87 +4896,6 @@
       ]
     },
     {
-      "cluster_id": "269da98edf",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Wiz Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Wiz ASM for any environment, any risk, everywhere",
-        "link": "https://www.wiz.io/blog/wiz-asm-auto-recon",
-        "published": "2026-07-08T12:19:24+00:00",
-        "summary": "Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.",
-        "full_body": "Wiz Pricing Get a demo Get a demo Modern web applications are running everywhere- across cloud-native infrastructure, on-premises systems, SaaS platforms, and AI environments. Driven by the explosion of AI, the velocity of development has skyrocketed. More applications are being shipped today than ever before, ranging from core proprietary software to fast, \"vibe-coded\" applications. As development accelerates and new applications are shipped, the attack surface expands rapidly, bringing a wave of “unknowns” into your environment-including both new, unknown shadow assets and unknown risks like logic flaws hidden inside your application code. In this fast-moving landscape, maintaining continuous visibility into your exposures and uncovering these unknowns is critical to staying ahead. This is especially true as attackers increasingly leverage AI themselves to discover and exploit vulnerabilities faster than humanly possible. To help teams defend against AI threats, our goal with Wiz ASM is simple: Wiz ASM for any environment, any risk, everywhere. Wiz tackles this rapidly expanding modern attack surface through two core pillars: continuous discovery everywhere and full risk coverage . Today, we are launching Wiz ASM’ s automated reconnaissance capability, allowing you to automatically discover all subdomains belonging to your organization. With this launch, you can continuously uncover exposures across your entire environment, combining external reconnaissance with internal context to remove shadow exposures and remediate critical exploitable risks to stay ahead of AI-powered adversaries. The modern attack surface You cannot secure what you do not know exists. To effectively manage the modern attack surface, teams must maintain complete, up-to-date visibility. Attackers don't just look at what you know you own, but they actively hunt for the exposures you might have missed. This leaves organizations defending a perimeter that includes: The Known Perimeter: This is your organization’s recognized, official domain space-such as acme.com and its subdomains. Because these assets are directly tied to your brand, they are highly visible and more easily detected. Attackers are constantly and systematically scanning these known domains, looking for an open port, an unpatched vulnerability, or a misconfiguration. The Shadow Perimeter: In the cloud and AI era, unknown shadow exposures become common, for assets that live outside your standard domain registry. For example, common cloud resources like storage buckets often receive public-facing addresses assigned directly by the cloud provider (such as https://name.s3.us-east-2.amazonaws.com ). Because these URLs are not part of your organization’s known domain space, traditional domain-based external scanners are unable to attribute them to you. This results in exposed assets that exist silently on the public internet-unmonitored, and open to attackers to find. Continuous discovery, everywhere with Wiz ASM To address both the known and unknown perimeters, Wiz ASM leverages multiple methods to continuously uncover exposures everywhere: from known assets via new auto-reconnaissance capabilities to the unknown by leveraging deep cloud and code context. This enables Wiz to combine the outside-in visibility that attackers have, with internal context to discover unknown cloud assets and eliminate shadow exposures. This continuous discovery spans your entire footprint, whether your assets live in the cloud, on-premises, or in SaaS platforms. Wiz automatically detects new assets, scans them to validate actual exposure and risk, and delivers an up-to-date, dynamic view of your attack surface. To uncover shadow exposures, Wiz ASM analyzes data from multiple sources across your environment including: Cloud Network Configurations: Maps cloud network configurations to calculate the effective exposure of every cloud object. Subdomain Reconnaissance: Automatically maps out subdomains using your owned root",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Wiz Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Wiz ASM for any environment, any risk, everywhere",
-          "link": "https://www.wiz.io/blog/wiz-asm-auto-recon",
-          "published": "2026-07-08T12:19:24+00:00",
-          "summary": "Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "203ebf4d39",
       "priority_score": 9,
       "member_count": 1,
@@ -5544,6 +5144,213 @@
             "role_map": {
               "Ubiquiti UniFi": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "62c5b45d14",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security",
+          "apt_espionage",
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "GitHub",
+          "Gitea",
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Accenture Confirms Data Breach After Hacker Claims Source Code Theft",
+        "link": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
+        "published": "2026-07-08T16:09:15+00:00",
+        "summary": "The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek .",
+        "full_body": "Professional services giant Accenture confirmed a data breach after a hacker claimed the theft of internal source code from the company. The incident came to light this week, when a threat actor boasted on the hacker forum PwnForums about compromising Accenture and stealing 35 gigabytes of data. According to the hacker, the information, including Azure access keys and tokens, configuration files, RSA and SSH keys, and source code, was exfiltrated from Accenture earlier this month. The threat actor, who was trying to sell the allegedly stolen data, posted as proof-of-possession a screenshot depicting a private Azure DevOps repository apparently hosted on an accenture.com domain. Responding to a SecurityWeek inquiry, Accenture confirmed the attack, but refrained from providing additional details on the matter. “We are aware of this isolated matter, and we have remediated its source. There is no impact to Accenture operations and service delivery,” an Accenture spokesperson said. Advertisement. Scroll to continue reading. It is unclear how the data was exfiltrated, whether any personal information was compromised, and how the hacker gained access to Accenture’s environment. According to Corsica Technologies CISO Ross Filipek, the incident raises concerns because the allegedly stolen data could be used as a playbook for future attacks, based on code vulnerabilities, credentials, and infrastructure information that threat actors can extract. “Accenture is a familiar target because of where it sits in the business ecosystem. Large consulting and services firms often sit close to the systems that help major companies run, from cloud environments and identity tools to codebases and transformation projects,” Filipek said. “That doesn’t mean every incident creates direct client risk, but it explains why attackers keep looking for a foothold. One successful compromise can offer clues about how enterprise systems are built, how teams authenticate, and where trusted connections exist,” he added. Accenture, which recently announced it was taking a majority stake in Dragos , last year confirmed that a former employee was charged over concealing security issues in her employer’s cloud products that were non-compliant with US government requirements. Related: Medtronic Data Breach Impacts 3.8 Million People Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Canadian Electricity Provider London Hydro Discloses Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection County Government Reportedly Paid $1 Million to Cyber Extortion Group Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, tre",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach",
+            "apt_espionage",
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [
+            "Linux kernel",
+            "GitHub",
+            "Gitea"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Linux kernel": "target",
+            "GitHub": "target",
+            "Gitea": "target",
+            "Anthropic/Claude": "target",
+            "Azure": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Accenture Confirms Data Breach After Hacker Claims Source Code Theft",
+          "link": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
+          "published": "2026-07-08T16:09:15+00:00",
+          "summary": "The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach",
+              "apt_espionage",
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [
+              "Linux kernel",
+              "GitHub",
+              "Gitea"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Linux kernel": "target",
+              "GitHub": "target",
+              "Gitea": "target",
+              "Anthropic/Claude": "target",
+              "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "152995b5e9",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Black Hills Information Security",
+        "cohort": "detection_response_operations",
+        "title": "Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage",
+        "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
+        "published": "2026-07-08T14:00:00+00:00",
+        "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
+        "full_body": "8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Black Hills Information Security",
+          "cohort": "detection_response_operations",
+          "title": "Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage",
+          "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
+          "published": "2026-07-08T14:00:00+00:00",
+          "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5926,6 +5733,87 @@
                   0.31
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "269da98edf",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Wiz Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Wiz ASM for any environment, any risk, everywhere",
+        "link": "https://www.wiz.io/blog/wiz-asm-auto-recon",
+        "published": "2026-07-08T12:19:24+00:00",
+        "summary": "Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.",
+        "full_body": "Wiz Pricing Get a demo Get a demo Modern web applications are running everywhere- across cloud-native infrastructure, on-premises systems, SaaS platforms, and AI environments. Driven by the explosion of AI, the velocity of development has skyrocketed. More applications are being shipped today than ever before, ranging from core proprietary software to fast, \"vibe-coded\" applications. As development accelerates and new applications are shipped, the attack surface expands rapidly, bringing a wave of “unknowns” into your environment-including both new, unknown shadow assets and unknown risks like logic flaws hidden inside your application code. In this fast-moving landscape, maintaining continuous visibility into your exposures and uncovering these unknowns is critical to staying ahead. This is especially true as attackers increasingly leverage AI themselves to discover and exploit vulnerabilities faster than humanly possible. To help teams defend against AI threats, our goal with Wiz ASM is simple: Wiz ASM for any environment, any risk, everywhere. Wiz tackles this rapidly expanding modern attack surface through two core pillars: continuous discovery everywhere and full risk coverage . Today, we are launching Wiz ASM’ s automated reconnaissance capability, allowing you to automatically discover all subdomains belonging to your organization. With this launch, you can continuously uncover exposures across your entire environment, combining external reconnaissance with internal context to remove shadow exposures and remediate critical exploitable risks to stay ahead of AI-powered adversaries. The modern attack surface You cannot secure what you do not know exists. To effectively manage the modern attack surface, teams must maintain complete, up-to-date visibility. Attackers don't just look at what you know you own, but they actively hunt for the exposures you might have missed. This leaves organizations defending a perimeter that includes: The Known Perimeter: This is your organization’s recognized, official domain space-such as acme.com and its subdomains. Because these assets are directly tied to your brand, they are highly visible and more easily detected. Attackers are constantly and systematically scanning these known domains, looking for an open port, an unpatched vulnerability, or a misconfiguration. The Shadow Perimeter: In the cloud and AI era, unknown shadow exposures become common, for assets that live outside your standard domain registry. For example, common cloud resources like storage buckets often receive public-facing addresses assigned directly by the cloud provider (such as https://name.s3.us-east-2.amazonaws.com ). Because these URLs are not part of your organization’s known domain space, traditional domain-based external scanners are unable to attribute them to you. This results in exposed assets that exist silently on the public internet-unmonitored, and open to attackers to find. Continuous discovery, everywhere with Wiz ASM To address both the known and unknown perimeters, Wiz ASM leverages multiple methods to continuously uncover exposures everywhere: from known assets via new auto-reconnaissance capabilities to the unknown by leveraging deep cloud and code context. This enables Wiz to combine the outside-in visibility that attackers have, with internal context to discover unknown cloud assets and eliminate shadow exposures. This continuous discovery spans your entire footprint, whether your assets live in the cloud, on-premises, or in SaaS platforms. Wiz automatically detects new assets, scans them to validate actual exposure and risk, and delivers an up-to-date, dynamic view of your attack surface. To uncover shadow exposures, Wiz ASM analyzes data from multiple sources across your environment including: Cloud Network Configurations: Maps cloud network configurations to calculate the effective exposure of every cloud object. Subdomain Reconnaissance: Automatically maps out subdomains using your owned root",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Wiz Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Wiz ASM for any environment, any risk, everywhere",
+          "link": "https://www.wiz.io/blog/wiz-asm-auto-recon",
+          "published": "2026-07-08T12:19:24+00:00",
+          "summary": "Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -7009,12 +6897,12 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "a8aada2f40",
-        "50e57176eb"
+        "50e57176eb",
+        "a8aada2f40"
       ],
       "links": [
-        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/"
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/"
       ]
     },
     {
@@ -7045,12 +6933,12 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "a8aada2f40",
-        "50e57176eb"
+        "50e57176eb",
+        "a8aada2f40"
       ],
       "links": [
-        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/"
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+        "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/"
       ]
     },
     {
@@ -7176,7 +7064,7 @@
       },
       "cluster_count": 2,
       "article_count": 2,
-      "cohesion": 0.818,
+      "cohesion": 0.841,
       "shared_strong_signals": [
         "Cisco"
       ],
@@ -7194,38 +7082,6 @@
       "links": [
         "https://blog.talosintelligence.com/uat-7810/",
         "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/"
-      ]
-    },
-    {
-      "label": "ransomware extortion targeting Microsoft SharePoint",
-      "anchor_signal": "Microsoft SharePoint",
-      "theme_key": "microsoft-sharepoint",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Microsoft SharePoint"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.273,
-      "shared_strong_signals": [
-        "Microsoft SharePoint"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "9abaf78b04",
-        "26d1b14830"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
-        "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html"
       ]
     },
     {
@@ -7258,6 +7114,34 @@
       "links": [
         "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/",
         "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/"
+      ]
+    },
+    {
+      "label": "Google Cloud vulnerability activity",
+      "anchor_signal": "Google Cloud",
+      "theme_key": "google-cloud",
+      "dominant_features": {
+        "affected_products": [
+          "Google Cloud"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Google Cloud"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "80836199e6",
+        "551c9fa70a"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/best-cspm-tools/",
+        "https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/",
+        "https://www.securityweek.com/google-dialogflow-cx-bug-allowed-attackers-to-hijack-ai-conversations/",
+        "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html"
       ]
     }
   ],
@@ -7324,11 +7208,6 @@
         "first_observation": true
       },
       {
-        "cluster_id": "26d1b14830",
-        "pair": "CVE-2025-11371 + Microsoft SharePoint",
-        "first_observation": true
-      },
-      {
         "cluster_id": "8b4ae517ee",
         "pair": "CVE-2024-12356 + Anthropic/Claude",
         "first_observation": true
@@ -7351,6 +7230,11 @@
       {
         "cluster_id": "8b4ae517ee",
         "pair": "CVE-2026-40138 + Linux kernel",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "8b4ae517ee",
+        "pair": "CVE-2026-40138 + OpenAI/ChatGPT",
         "first_observation": true
       }
     ],
@@ -7408,7 +7292,7 @@
       {
         "axis": "cve_ids",
         "value": "CVE-2026-33017",
-        "cluster_id": "a8aada2f40",
+        "cluster_id": "50e57176eb",
         "weeks_observed": 4
       },
       {
@@ -7421,12 +7305,6 @@
         "axis": "cve_ids",
         "value": "CVE-2026-47729",
         "cluster_id": "8e87b71464",
-        "weeks_observed": 3
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-45659",
-        "cluster_id": "26d1b14830",
         "weeks_observed": 3
       }
     ],
