@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 09 Jul 2026 20:52:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 22:36:56 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -54,6 +54,19 @@
 <category>OpenAI/ChatGPT</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>WolfSSL, GeoVision, VTK vulnerabilities</title>
+<link>https://blog.talosintelligence.com/wolfssl-vulnerabilities/</link>
+<description><![CDATA[Cisco Talos’ Vulnerability Discovery &amp; Research team recently disclosed three vulnerabilities in WolfSSF, fourteen in GeoVision, and one vulnerability in VTK-DICOM. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco’s third-party vulnerability disclosure policy . For<br/><br/><em>Tags: Cisco · CVE-2026-28739 · CVE-2026-25106 · CVE-2026-33091 · CVE-2026-12488 · CVE-2026-12486 · vulnerability_disclosure</em>]]></description>
+<pubDate>Thu, 09 Jul 2026 18:52:29 +0000</pubDate>
+<guid isPermaLink="true">https://blog.talosintelligence.com/wolfssl-vulnerabilities/</guid>
+<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
+<category>threat_research_primary</category>
+<category>Cisco</category>
+<category>CVE-2026-28739</category>
+<category>CVE-2026-25106</category>
+<category>CVE-2026-33091</category>
 </item>
 <item>
 <title>Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs</title>
@@ -202,6 +215,16 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>Latvian forestry company still restoring systems weeks after ransomware attack</title>
+<link>https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware</link>
+<description><![CDATA[A foreign, financially motivated group was responsible for a cyberattack on state-owned forestry company Latvijas Valsts Mezi (LVM), officials said.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Thu, 09 Jul 2026 14:20:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
 <title>Conditional Access Misconfigurations Exposed 55 Orgs with MFA On</title>
 <link>https://www.huntress.com/blog/conditional-access-misconfigurations</link>
 <description><![CDATA[Two Microsoft 365 attacks got through Conditional Access policies that seemed fully configured. Learn what went wrong and how Huntress Managed ISPM catches these gaps first.<br/><br/><em>Tags: Microsoft 365 · Azure · phishing_social_eng</em>]]></description>
@@ -302,13 +325,15 @@
 <item>
 <title>Microsoft releases fix for RoguePlanet Defender flaw (CVE-2026-50656)</title>
 <link>https://www.helpnetsecurity.com/2026/07/09/microsoft-releases-fix-for-rogueplanet-defender-flaw-cve-2026-50656/</link>
-<description><![CDATA[Microsoft has finally released a security update for its Microsoft Malware Protection Engine, which fixes CVE-2026-50656, the Windows Defender local privilege escalation vulnerability triggered by the RoguePlanet exploit. The vulnerability and the fix CVE-2026-50656 is due to improper link resolution before file access, affects Windows 10 and Windows 11, and may allow authenticated attackers to achieve SYSTEM-level privileges on vulnerable machines by launching low-complexity attacks. The flaw’s existence was publicly revealed on June 10, hours … More → The post Microsoft releases fix for RoguePlanet Defender flaw (CVE-2026-50656) appeared first on Help Net Security .<br/><br/><em>Tags: Microsoft Windows · CVE-2026-50656</em>]]></description>
+<description><![CDATA[Microsoft has finally released a security update for its Microsoft Malware Protection Engine, which fixes CVE-2026-50656, the Windows Defender local privilege escalation vulnerability triggered by the RoguePlanet exploit. The vulnerability and the fix CVE-2026-50656 is due to improper link resolution before file access, affects Windows 10 and Windows 11, and may allow authenticated attackers to achieve SYSTEM-level privileges on vulnerable machines by launching low-complexity attacks. The flaw’s existence was publicly revealed on June 10, hours … More → The post Microsoft releases fix for RoguePlanet Defender flaw (CVE-2026-50656) appeared first on Help Net Security .<br/><br/><em>Tags: Microsoft Defender · Microsoft Windows · CVE-2026-50656 · vulnerability_disclosure · active_exploitation</em>]]></description>
 <pubDate>Thu, 09 Jul 2026 12:14:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/09/microsoft-releases-fix-for-rogueplanet-defender-flaw-cve-2026-50656/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
+<category>Microsoft Defender</category>
 <category>Microsoft Windows</category>
 <category>CVE-2026-50656</category>
+<category>vulnerability_disclosure</category>
 </item>
 <item>
 <title>15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google</title>
@@ -347,14 +372,11 @@
 <item>
 <title>Microsoft Patches Defender ‘RoguePlanet’ Vulnerability</title>
 <link>https://www.securityweek.com/microsoft-patches-defender-rogueplanet-vulnerability/</link>
-<description><![CDATA[The privilege escalation vulnerability tracked as CVE-2026-50656 has been patched with a Microsoft Malware Protection Engine update. The post Microsoft Patches Defender ‘RoguePlanet’ Vulnerability appeared first on SecurityWeek .<br/><br/><em>Tags: Palo Alto Networks · Linux kernel · Gitea · CVE-2026-50656 · CVE-2026-41091 · CVE-2026-45498 · CVE-2026-33825 · ransomware_extortion</em>]]></description>
+<description><![CDATA[The privilege escalation vulnerability tracked as CVE-2026-50656 has been patched with a Microsoft Malware Protection Engine update. The post Microsoft Patches Defender ‘RoguePlanet’ Vulnerability appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-50656</em>]]></description>
 <pubDate>Thu, 09 Jul 2026 10:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/microsoft-patches-defender-rogueplanet-vulnerability/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>Palo Alto Networks</category>
-<category>Linux kernel</category>
-<category>Gitea</category>
 <category>CVE-2026-50656</category>
 </item>
 <item>
@@ -1543,12 +1565,11 @@
 <item>
 <title>U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case</title>
 <link>https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html</link>
-<description><![CDATA[A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single<br/><br/><em>Tags: Silent Ransom Group · ransomware_extortion</em>]]></description>
+<description><![CDATA[A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Sat, 04 Jul 2026 12:47:53 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Silent Ransom Group</category>
 <category>ransomware_extortion</category>
 </item>
 <item>
@@ -1572,11 +1593,15 @@
 <item>
 <title>Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices</title>
 <link>https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html</link>
-<description><![CDATA[Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on]]></description>
+<description><![CDATA[Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on<br/><br/><em>Tags: CVE-2026-6682 · CVE-2026-6687 · CVE-2026-6688 · CVE-2026-6685 · CVE-2026-6683</em>]]></description>
 <pubDate>Fri, 03 Jul 2026 20:19:31 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>CVE-2026-6682</category>
+<category>CVE-2026-6687</category>
+<category>CVE-2026-6688</category>
+<category>CVE-2026-6685</category>
 </item>
 <item>
 <title>New &quot;Bad Epoll&quot; Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android</title>
@@ -1681,6 +1706,15 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>How We Added WebAuthn to a Browser-Based RDP Client</title>
+<link>https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/</link>
+<description><![CDATA[A look inside the reverse-engineering journey of building the first RDP client outside of Windows to support WebAuthn redirection. The post How We Added WebAuthn to a Browser-Based RDP Client appeared first on Unit 42 .]]></description>
+<pubDate>Thu, 02 Jul 2026 22:00:39 +0000</pubDate>
+<guid isPermaLink="true">https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/</guid>
+<source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>llm-coding-agent 0.1a0</title>
@@ -3432,15 +3466,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>EdTech Attackers Shift From Schools to Their Software Suppliers</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers</link>
-<description><![CDATA[Educational institutions, the edtech companies they rely on, and, more concerningly, the challenges they pose for schools are the focus of the latest Reporters&apos; Notebook video series.]]></description>
-<pubDate>Thu, 25 Jun 2026 20:34:14 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>The CRA Readiness Reality: What Changed (and What Didn’t) Between 2025 and 2026?</title>
@@ -6998,15 +7023,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52586</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Less panic patching, more precision</title>
-<link>https://blog.talosintelligence.com/less-panic-patching-more-precision/</link>
-<description><![CDATA[In this newsletter, Thor breaks down why you should stop relying solely on CVSS and start using EPSS and GCVE to focus your patching efforts on the threats that actually matter.]]></description>
-<pubDate>Thu, 28 May 2026 18:00:27 +0000</pubDate>
-<guid isPermaLink="true">https://blog.talosintelligence.com/less-panic-patching-more-precision/</guid>
-<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>The Gentlemen ransomware: Dissecting a self-propagating Go encryptor</title>
@@ -11769,7 +11785,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fdf48dd0eb0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f35ac040d60&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -19223,15 +19239,6 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>New paper: AI agents that matter</title>
-<link>https://www.normaltech.ai/p/new-paper-ai-agents-that-matter</link>
-<description><![CDATA[Rethinking AI agent benchmarking and evaluation]]></description>
-<pubDate>Wed, 03 Jul 2024 16:00:56 +0000</pubDate>
-<guid isPermaLink="true">https://www.normaltech.ai/p/new-paper-ai-agents-that-matter</guid>
-<source url="https://www.aisnakeoil.com/feed">AI Snake Oil</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>A hacking hat-trick: previewing three PortSwigger Research publications coming to DEF CON &amp; Black Hat USA</title>
 <link>https://portswigger.net/research/a-hacking-hat-trick-previewing-three-portswigger-research-publications-coming-to-def-con-amp-black-hat-usa</link>
 <description><![CDATA[We&apos;re delighted to announce three major research releases from PortSwigger Research will be published at both Black Hat USA and DEF CON 32. In this post, we&apos;ll offer a quick teaser of each talk, info]]></description>
@@ -20247,10 +20254,19 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>Why AI Governance Without Guardrails Is Theater</title>
+<link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20259,7 +20275,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20269,7 +20285,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20278,7 +20294,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20287,7 +20303,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20296,7 +20312,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20305,7 +20321,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20314,7 +20330,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20323,17 +20339,8 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 22:36:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>After Executive Order 14409: Next Steps for Securing AI</title>
-<link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
-<description><![CDATA[]]></description>
-<pubDate>Thu, 09 Jul 2026 20:52:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
