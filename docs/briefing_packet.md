@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-09T04:59:40.711734+00:00
+- Generated: 2026-07-09T08:38:52.100136+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 298
-- Total clusters raw: 138
-- Total clusters in packet: 54
-- Dropped low score: 84
+- Total items in window: 300
+- Total clusters raw: 142
+- Total clusters in packet: 57
+- Dropped low score: 85
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,16 +75,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -95,11 +95,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -110,11 +105,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -140,36 +135,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 50
-  - In window count: 1
+  - Item count: 15
+  - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 19
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 19
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -180,8 +185,8 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -190,21 +195,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -220,16 +220,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -240,16 +240,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -265,6 +265,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -274,11 +279,6 @@
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
   - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
@@ -290,56 +290,56 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 14
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -359,39 +359,39 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 16
+  - In window count: 17
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -400,23 +400,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,26 +415,36 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 22
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 23
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 10
+  - In window count: 9
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -478,22 +478,23 @@
 - Theme key: linux-kernel
 - Cluster count: 8
 - Article count: 9
-- Cohesion: 0.227
+- Cohesion: 0.238
 - Shared strong signals: Linux kernel
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion
-  - affected_products: Linux kernel
-- Cluster IDs: 8b4ae517ee, 9e3f402183, cad05b2d4e, 62c5b45d14, 7c88582199, 99486124ff, 87ef22349e, a56bf79002
+  - threat_categories: ransomware_extortion, data_breach, apt_espionage
+  - affected_industries: government
+  - affected_products: Linux kernel, GitHub, Gitea
+- Cluster IDs: 0fd85db9e1, 8b4ae517ee, 9e3f402183, cad05b2d4e, 62c5b45d14, 7c88582199, 87ef22349e, a56bf79002
 - Links:
+  - https://www.securityweek.com/unpatched-backdoor-in-tenda-firmware-grants-admin-access-to-devices/
+  - https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
   - https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
   - https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
-  - https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
   - https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/
   - https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/
-  - https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html
   - https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
   - https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
 
@@ -501,7 +502,7 @@
 - Anchor signal: CVE-2026-48282
 - Theme key: cve-2026-48282
 - Cluster count: 3
-- Article count: 5
+- Article count: 4
 - Cohesion: 0.222
 - Shared strong signals: CVE-2026-48282
 - Member CVEs: (none)
@@ -514,7 +515,6 @@
 - Links:
   - https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/
   - https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
-  - https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/
   - https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/
   - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
 
@@ -523,15 +523,15 @@
 - Theme key: ubiquiti-unifi
 - Cluster count: 3
 - Article count: 4
-- Cohesion: 0.355
+- Cohesion: 0.36
 - Shared strong signals: Ubiquiti UniFi
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, ransomware_extortion
+  - threat_categories: active_exploitation, ransomware_extortion, zero_day
   - affected_industries: government
   - affected_products: Ubiquiti UniFi
-  - urgency_signals: actively_exploited
+  - urgency_signals: actively_exploited, zero_day
 - Cluster IDs: 50e57176eb, 9abaf78b04, 04664daaad
 - Links:
   - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
@@ -557,13 +557,13 @@
   - https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
   - https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
 
-### CVE-2026-55255 exploitation activity
-- Anchor signal: CVE-2026-55255
-- Theme key: cve-2026-55255
+### CVE-2026-33017 exploitation activity
+- Anchor signal: CVE-2026-33017
+- Theme key: cve-2026-33017
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.386
-- Shared strong signals: CVE-2026-55255
+- Shared strong signals: CVE-2026-33017
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -576,13 +576,13 @@
   - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
   - https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/
 
-### CVE-2026-33017 exploitation activity
-- Anchor signal: CVE-2026-33017
-- Theme key: cve-2026-33017
+### CVE-2026-55255 exploitation activity
+- Anchor signal: CVE-2026-55255
+- Theme key: cve-2026-55255
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.386
-- Shared strong signals: CVE-2026-33017
+- Shared strong signals: CVE-2026-55255
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -668,6 +668,22 @@
   - https://blog.talosintelligence.com/uat-7810/
   - https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/
 
+### Microsoft Defender vulnerability activity
+- Anchor signal: Microsoft Defender
+- Theme key: microsoft-defender
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Microsoft Defender
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Microsoft Defender
+- Cluster IDs: c5bf3760df, 80836199e6
+- Links:
+  - https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
+  - https://orca.security/resources/blog/best-cspm-tools/
+
 ### ransomware extortion targeting Android
 - Anchor signal: Android
 - Theme key: android
@@ -686,37 +702,15 @@
   - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
 
-### Google Cloud vulnerability activity
-- Anchor signal: Google Cloud
-- Theme key: google-cloud
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: Google Cloud
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Google Cloud
-- Cluster IDs: 80836199e6, 551c9fa70a
-- Links:
-  - https://orca.security/resources/blog/best-cspm-tools/
-  - https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/
-  - https://www.securityweek.com/google-dialogflow-cx-bug-allowed-attackers-to-hijack-ai-conversations/
-  - https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2026-13753 (first seen via SecurityWeek at 2026-07-09T05:00:41+00:00, cluster 0fd85db9e1)
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (1)
-- **'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows**
-  - Cluster: 26eda5e0a9
-  - Sources in window: 3
-  - Window hours: 1.4
-  - Cohort count: 2
+### Velocity bursts (0)
 
 ### Leading edge (0)
 
@@ -726,16 +720,16 @@
 - Pair: CVE-2026-5027 + Ubiquiti UniFi (cluster 50e57176eb, first observation: True)
 - Pair: CVE-2026-55255 + Ubiquiti UniFi (cluster 50e57176eb, first observation: True)
 - Pair: CVE-2024-25600 + WordPress (cluster 1d65faccbc, first observation: True)
+- Pair: CVE-2026-11405 + GitHub (cluster 0fd85db9e1, first observation: True)
+- Pair: CVE-2026-11405 + Gitea (cluster 0fd85db9e1, first observation: True)
+- Pair: CVE-2026-11405 + Linux kernel (cluster 0fd85db9e1, first observation: True)
+- Pair: CVE-2026-13753 + GitHub (cluster 0fd85db9e1, first observation: True)
+- Pair: CVE-2026-13753 + Gitea (cluster 0fd85db9e1, first observation: True)
+- Pair: CVE-2026-13753 + Linux kernel (cluster 0fd85db9e1, first observation: True)
 - Pair: CVE-2026-34621 + Microsoft SharePoint (cluster 9abaf78b04, first observation: True)
 - Pair: CVE-2026-34621 + Ubiquiti UniFi (cluster 9abaf78b04, first observation: True)
 - Pair: CVE-2026-48282 + Microsoft SharePoint (cluster 9abaf78b04, first observation: True)
 - Pair: CVE-2026-48282 + Ubiquiti UniFi (cluster 9abaf78b04, first observation: True)
-- Pair: CVE-2024-12356 + Anthropic/Claude (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2024-12356 + Linux kernel (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2024-12356 + OpenAI/ChatGPT (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2026-40138 + Anthropic/Claude (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2026-40138 + Linux kernel (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2026-40138 + OpenAI/ChatGPT (cluster 8b4ae517ee, first observation: True)
 
 ### Drift (2)
 - **MuddyWater** (cluster 3ee1d54d9d)
@@ -808,8 +802,8 @@ Back to Blog Products and Tools Weekly Metasploit Update: Modules for SMB-to-Met
 - Published: 2026-07-08T14:47:46+00:00
 - Link: https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: CVE-2026-48282
 
 #### Cluster taxonomy (union across members)
@@ -817,7 +811,7 @@ Back to Blog Products and Tools Weekly Metasploit Update: Modules for SMB-to-Met
 - affected_industries: financial_services, government, healthcare
 - cve_ids: CVE-2026-48282
 - urgency_signals: actively_exploited, critical_cvss
-- content_type: news_report, vulnerability_disclosure
+- content_type: news_report
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
@@ -840,7 +834,7 @@ A critical vulnerability (CVE-2026-48282, CVSS 10.0) was disclosed affecting Ado
 A critical vulnerability ( CVE-2026-48282 , CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the RDS FILEIO endpoint at /CFIDE/main/ide.cfm?ACTION=FILEIO, where insufficient path validation leads to arbitrary file write on the underlying file system. By sending a specially crafted HTTP request, attackers can upload a CFML webshell containing <cfexecute> tags, potentially gaining full remote code execution as the ColdFusion service account (NT AUTHORITY\SYSTEM on Windows). No authentication is required to exploit this issue when RDS authentication is disabled. Adobe addressed this flaw on June 30, 2026 as part of security bulletin APSB26-68, which resolved 11 ColdFusion vulnerabilities total, seven of which carried a CVSS score of 10.0. Users should upgrade to ColdFusion 2025 Update 10 or ColdFusion 2023 Update 21 immediately. Organizations that have not yet patched should also disable RDS unless strictly required, block external access to /CFIDE/administrator and RDS endpoints via WAF or firewall rules, and hunt for unauthorized .cfm, .cfc, .cfml, or .jsp files in the ColdFusion web root. Affected Systems The following components are affected: Adobe ColdFusion 2025, update 9 and earlier, and Adobe ColdFusion 2023, update 20 and earlier. These components are deployed across enterprise web application stacks, including government, financial, and healthcare organizations, particularly when RDS is enabled and RDS authentication is left in its default disabled state. Other applications relying on ColdFusion as a backend runtime may also be impacted. Risk Impact At the time of writing, a detailed technical analysis from WatchTowr is publicly available and serves as a functional exploitation guide. KEVIntel honeypots detected active exploitation within two hours of that analysis going public, and both the Canadian Centre for Cyber Security and the Centre for Cybersecurity Belgium have issued alerts. Shadowserver tracks approximately 750 to 800 internet-facing ColdFusion instances, though the actual vulnerable subset depends on RDS configuration. Regardless, the maximum severity score, the lack of authentication requirements, and the speed of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to deploy webshells for persistent access, execute arbitrary commands on the underlying operating system, and pivot laterally through the network, leading to service disruption, data exposure, or full infrastructure compromise. Organizations should also rotate credentials on any ColdFusion server that was internet-facing since the June 30 disclosure date. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Adobe ColdFusion, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning Best ASPM Tools in 2026: The Application Security Posture Management Buyer's Guide Jul 08, 2026 Cloud Security Learning Best CSPM Tools in 2026: The Cloud Security Posture Management Buyer's Guide Jul 08, 2026 Webinar Recap Webinar Recap: Beyond the Perimeter: Mastering 3rd Party & Software Risk Jul 08, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data in accordance with Orca Se
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: Maximum-Severity Adobe ColdFusion Flaw Exploited Within Hours of Disclosure
@@ -852,13 +846,8 @@ A critical vulnerability ( CVE-2026-48282 , CVSS 10.0) was disclosed affecting A
   - Published: 2026-07-08T05:33:12+00:00
   - Link: https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Critical Adobe ColdFusion Vulnerability Exploited in Attacks
-  - Published: 2026-07-07T12:38:34+00:00
-  - Link: https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/
-  - Summary: Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion that carries a CVSS score of 10/10. The post Critical Adobe ColdFusion Vulnerability Exploited in Attacks appeared first on SecurityWeek .
 
-### Cluster 8e87b71464 — score 25
+### Cluster 8e87b71464 — score 24
 
 - Title: CVE-2026-9181 | Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
 - Source: Horizon3 Attack Research (offensive_vulnerability_research)
@@ -1089,6 +1078,60 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Link: https://www.exploit-db.com/exploits/52619
   - Summary: WordPress Bricks Builder Theme - RCE
 
+### Cluster 0fd85db9e1 — score 17
+
+- Title: Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-09T05:00:41+00:00
+- Link: https://www.securityweek.com/unpatched-backdoor-in-tenda-firmware-grants-admin-access-to-devices/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-11405
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
+- affected_industries: education, government, manufacturing_industrial
+- affected_products: GitHub, Gitea, Linux kernel
+- cve_ids: CVE-2026-11405, CVE-2026-13753
+- urgency_signals: no_patch_yet, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security, web_shell_backdoor
+- affected_industries: government, education
+- affected_products: Linux kernel, GitHub, Gitea
+- cve_ids: CVE-2026-11405, CVE-2026-13753
+- urgency_signals: preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Tracked as CVE-2026-11405, the vulnerability allows unauthenticated attackers to access a device's web management interface. The post Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A security researcher has discovered an undocumented backdoor in multiple Tenda firmware versions that provides attackers with administrative access to a device’s web management interface. The security hole appears to affect Tenda routers, switches, and other types of networking devices. Tracked as CVE-2026-11405, the vulnerable code was found in the login function of the web server binary and can be abused for authentication bypass, warns the CERT Coordination Center (CERT/CC) at Carnegie Mellon University. The issue exists because, when authentication fails, the login mechanism attempts to retrieve a password value stored in the device’s configuration. Next, the mechanism checks only the user-supplied password against the value stored in the configuration, in plaintext, and grants administrative access upon a successful match. “The associated username is not validated, so any provided username will succeed when paired with the backdoor password. This backdoor authentication mechanism is not documented or visible through any administrative interface,” CERT/CC explains. Advertisement. Scroll to continue reading. Successful exploitation of the security defect provides an attacker with the ability to modify device configurations and network settings, and to disable security features, which could lead to local network compromise. CERT/CC says it was unable to coordinate with the vendor to disclose the security defect, and no patch has been released for it. Users are advised to disable the remote web management of their devices to prevent unauthorized external access and to change the default LAN IP address to reduce the risk of discovery by automated scanners. On Tuesday, CERT/CC also disclosed a missing authorization vulnerability in HP Deskjet 2800 series printers running firmware versions up to TBP1CN2612AR. The flaw has not been patched and is tracked as CVE-2026-13753. An attacker can send GET requests to multiple backend API endpoints that, without authentication or session state validation, return admin configuration data such as Wi-Fi Direct SSID, plaintext passphrase, unique printer serial numbers, service IDs, and administrative password state details. “This vulnerability allows unauthenticated access to the printer’s webserver API endpoints, exposing Wi-Fi credentials, management configuration details, and sensitive security data normally restricted to administrative users,” CERT/CC explains. Related: CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Related: Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Related: Critical Gitea Flaw Under Active Exploitation, Researchers Warn Related: ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire County Government Reportedly Paid $1 Million to Cyber Extortion Group Critical Gitea Flaw Under Active Exploitation, Researchers Warn Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Latest News Chrome 150 Update Patches 27 Vulnerabilities 8Layers Raises $2.9 Million for Identity Security Platform Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability
+```
+
+#### Corroborating sources (2)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices
+  - Published: 2026-07-09T05:00:41+00:00
+  - Link: https://www.securityweek.com/unpatched-backdoor-in-tenda-firmware-grants-admin-access-to-devices/
+  - Summary: Tracked as CVE-2026-11405, the vulnerability allows unauthenticated attackers to access a device's web management interface. The post Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
+  - Published: 2026-07-07T06:40:47+00:00
+  - Link: https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
+  - Summary: Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. "An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process
+
 ### Cluster 8b38cd09cc — score 16
 
 - Title: It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)
@@ -1132,55 +1175,6 @@ We’re back, melting - we’ve tried shouting, screaming, and throwing things a
   - Link: https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/
   - Summary: We’re back, melting - we’ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not mentioned..), we’ve struggled to have confidence
 
-### Cluster 9abaf78b04 — score 16
-
-- Title: CISA orders feds to patch max severity ColdFusion flaw by Friday
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-08T07:16:55+00:00
-- Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion, zero_day
-- affected_industries: government
-- affected_products: Microsoft SharePoint, Ubiquiti UniFi
-- cve_ids: CVE-2026-34621, CVE-2026-48282
-- urgency_signals: actively_exploited, no_patch_yet, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, active_exploitation
-- affected_industries: government
-- affected_products: Microsoft SharePoint, Ubiquiti UniFi
-- cve_ids: CVE-2026-48282, CVE-2026-34621
-- urgency_signals: actively_exploited, zero_day, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]
-```
-
-#### Full body
-
-```
-CISA orders feds to patch max severity ColdFusion flaw by Friday By Sergiu Gatlan July 8, 2026 03:16 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. The vulnerability ( CVE-2026-48282 ) affects ColdFusion versions 2025.9, 2023.20, and earlier, and can be exploited by remote threat actors without privileges in low-complexity attacks to gain code execution on unpatched systems. Adobe released security updates one week ago to address the security flaw and urged admins to deploy patches immediately, saying that it posed a high risk of exploitation. "This update resolves vulnerabilities being targeted, or which have a higher risk of being targeted, by exploit(s) in the wild for a given product version and platform," the company said. "Adobe recommends administrators install the update as soon as possible. (for example, within 72 hours)." KEVIntel founder Ryan Dewhurst warned two days after Adobe issued patches that attackers had begun exploiting CVE-2026-48282 within two hours of Adobe's disclosure, while the Canadian Center for Cyber Security (CCCS) encouraged network defenders to secure their systems against these ongoing attacks. Internet security watchdog group Shadowserver currently tracks nearly 800 Adobe ColdFusion instances exposed online, but there is no information on how many are honeypots or have been secured against attacks targeting the CVE-2026-48282 flaw. Internet-exposed ColdFusion instances (Shadowserver) On Tuesday, CISA added CVE-2026-48282 to its list of vulnerabilities actively exploited in attacks and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to patch their systems by Friday, June 10, as required by Binding Operational Directive (BOD) 26-04. BOD 26-04, which was published last month , requires federal agencies to prioritize patching based on whether flaws are included in CISA's KEV catalog, whether their exploitation can be automated for large-scale attacks, whether vulnerable assets are exposed online, and whether successful exploitation grants the attackers partial or total control of the targeted device. Last week, Adobe also patched six other maximum-severity flaws in the ColdFusion web app development and Campaign Classic marketing automation platforms, all of which were tagged as high risk of being targeted. However, the company has yet to flag any of them as exploited in the wild, saying that it "is not aware of any exploits in the wild for any of the issues addressed in these updates." In early April, Adobe also released emergency updates for an Acrobat Reader vulnerability (CVE-2026-34621) that had been exploited as a zero-day since December 2025 . Since November 2021, CISA has added 80 vulnerabilities in Adobe products to its list of actively exploited security flaws, 10 of which have also been abused in ransomware attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Max severity Adobe ColdFusion flaw now exploited in attacks CISA orders feds to prioritize patching Langflow auth bypass flaw Critical Langflow RCE flaw exploited to hack AI app servers CISA warns of max severity Ubiquiti flaws exploited in attacks CISA: Microsoft SharePoint RCE flaw now actively exploited
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: CISA orders feds to patch max severity ColdFusion flaw by Friday
-  - Published: 2026-07-08T07:16:55+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]
-
 ### Cluster 87e2639a3b — score 16
 
 - Title: Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture
@@ -1189,12 +1183,11 @@ CISA orders feds to patch max severity ColdFusion flaw by Friday By Sergiu Gatla
 - Link: https://www.rapid7.com/blog/post/so-red-teaming-offensive-methodology-multi-agent-ai-architecture
 - Fetch status: ok
 - Member count: 10
-- Corroborating source count: 7
+- Corroborating source count: 6
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
 - threat_categories: phishing_social_eng, supply_chain
-- affected_industries: government
 - affected_products: Anthropic/Claude, Linux kernel, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research, tier_2_operator, tier_3_analysis, tier_4_news
@@ -1217,7 +1210,7 @@ Threat actors are integrating AI into their exploit chains, accelerating reconna
 Back to Blog Security Operations Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture Jacob Steadman Jul 2, 2026 | Last updated on Jul 2, 2026 | 9 min read DISCOVER VECTOR COMMAND Threat actors are integrating AI into their exploit chains, accelerating reconnaissance, automating vulnerability discovery, and scaling social engineering in ways that compress the timeline between initial access and impact. The barrier to sophisticated offensive operations is dropping fast. Rapid7's Red Team is doing the same. Over the past year we formalized our approach into a structured multi-agent system that follows our penetration testing methodology end-to-end from scoping an engagement to validating findings to generating reports. We built it as a production system, not a proof of concept, and the process of designing and operating it taught us as much about defending against AI-enhanced attacks as it did about conducting them. The system also proved its value as part of Anthropic's Project Glasswing initiative . Glasswing is a program that gives leading security companies early access to frontier cyber models before they reach wider availability, enabling security research that stays ahead of malicious adoption. We infused our red team architecture with Claude Mythos, applying it across penetration testing, vulnerability research, and red team operations. The combination of our formalized multi-agent architecture with a frontier-class model produced exceptional results in vulnerability analysis and exploit chain development. This validated both the architecture's design and the importance of getting these capabilities into defenders' hands first. This post covers the architecture, the key design decisions, and what we learned along the way. Why Rapid7's Red Team built a multi-agent system Penetration testing is labor-intensive by nature as a significant portion of any engagement is spent on structured, repeatable work like enumerating attack surfaces, tracing data flows through source code, checking security headers, documenting findings in a consistent format. The actual judgement — deciding what to test next, assessing exploitability, understanding business impact — remains deeply human. The opportunity was straightforward: offload the mechanical work to AI agents while maintaining human insight at decision points where it matters most. Those decision points are where engagements succeed or fail: scoping what's in and out of bounds, choosing which attack paths to pursue based on business context, assessing whether a vulnerability is genuinely exploitable in a given environment, deciding when a finding is significant enough to escalate, and interpreting results in ways that translate to actionable risks. None of that is mechanical, it requires experience, judgement, and context that models routinely get wrong. And as an internal security team, we don't just report vulnerabilities, we're accountable for coverage. If something ships with an exploitable flaw we missed, that's on us. The bar for confidence is high, and that's why humans stay in the loop at every point that matters. We also had a secondary motivation. Building a system that follows a structured offensive methodology gives us direct architectural insight into how AI agents behave in adversarial contexts including the capabilities, the limitations, and the failure modes. That understanding now informs how we assess and secure Rapid7's own AI-powered products. The architecture: Orchestration, not autonomy The system isn't a single monolithic agent but a team of specialist agents coordinated by an orchestrator that mirrors how human red teams operate. The orchestrator doesn't test anything. It assesses the current state of the engagement, determines what needs to happen next, routes work to the appropriate specialist, and processes the results. Specialist agents handle enumeration, code review, dynamic testing, and reporting.Each with defined inputs, outp
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (6)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture
@@ -1240,20 +1233,15 @@ Back to Blog Security Operations Formalizing Red Teaming Offensive Methodology a
   - Link: https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
   - Summary: Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger . The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to table.foreign_keys and hence needed to land for the 4.0 stable release. sqlite-utils also now follows SQLite's convention for case insensitive column names, which turned out to touch a bunch of different places at once . Tags: projects , sqlite , sqlite-utils , annotated-release-notes , gpt , claude-mythos-fable
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers
-  - Published: 2026-07-08T17:02:12+00:00
-  - Link: https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html
-  - Summary: Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack. Decrypting browser credentials, listing what sits in Windows' credential store,
+  - Title: Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It
+  - Published: 2026-07-09T05:15:02+00:00
+  - Link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
+  - Summary: Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: EU official’s phone infected with Pegasus
   - Published: 2026-07-06T04:21:28+00:00
   - Link: https://risky.biz/RBNEWS586/
   - Summary: A European MP’s phone was infected by Pegasus spyware, Android drops its PIN guessing limit from 1,800 attempts to 20, Alibaba bans employees from using Claude at work, and there’s a new vulnerability in the Linux kernel.
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws
-  - Published: 2026-07-07T13:13:02+00:00
-  - Link: https://www.securityweek.com/cisa-reportedly-using-anthropics-mythos-to-scan-government-software-for-flaws/
-  - Summary: The audits are reportedly being spearheaded by CISA’s Attack Surface Evaluation team, a specialized unit tasked with conducting digital defense assessments and simulated hacking exercises. The post CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws appeared first on SecurityWeek .
 
 ### Cluster 2fab803c60 — score 16
 
@@ -1343,44 +1331,103 @@ Threat Intelligence Google’s Continued Disruption of Malicious Residential Pro
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/
   - Summary: Background Today, in coordination with the FBI, Lumen, and others, Google took action against the NetNut residential proxy network, also known as Popa. This action builds on our disruption of the IPIDEA proxy network that took place in January 2026, and is a continuation of Google’s objective to dismantle malicious residential proxy networks. Actions Taken As a part of this disruption we took the following actions: Disabled Google accounts and associated Google services used by NetNut for malware command and control (C2), which directly violates Google’s Terms of Service and Acceptable Use Policy. Shared technical intelligence on NetNut software development kits (SDKs) and backend C2 infrastructure with platform providers, law enforcement, and research firms to help drive ecosystem-wide awareness and enforcement. We ensured Google Play Protect , Android’s built-in security protection, automatically warned users and disabled applications known to incorporate NetNut SDKs, and the system
 
-### Cluster 9814bfc594 — score 12
+### Cluster 9abaf78b04 — score 15
 
-- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-08T17:20:21+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+- Title: CISA orders feds to patch max severity ColdFusion flaw by Friday
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-08T07:16:55+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ransomware_extortion, zero_day
+- affected_industries: government
+- affected_products: Microsoft SharePoint, Ubiquiti UniFi
+- cve_ids: CVE-2026-34621, CVE-2026-48282
+- urgency_signals: actively_exploited, no_patch_yet, zero_day
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, active_exploitation
+- affected_industries: government
+- affected_products: Microsoft SharePoint, Ubiquiti UniFi
+- cve_ids: CVE-2026-48282, CVE-2026-34621
+- urgency_signals: actively_exploited, zero_day, no_patch_yet
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]
 ```
 
 #### Full body
 
 ```
-Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
+CISA orders feds to patch max severity ColdFusion flaw by Friday By Sergiu Gatlan July 8, 2026 03:16 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. The vulnerability ( CVE-2026-48282 ) affects ColdFusion versions 2025.9, 2023.20, and earlier, and can be exploited by remote threat actors without privileges in low-complexity attacks to gain code execution on unpatched systems. Adobe released security updates one week ago to address the security flaw and urged admins to deploy patches immediately, saying that it posed a high risk of exploitation. "This update resolves vulnerabilities being targeted, or which have a higher risk of being targeted, by exploit(s) in the wild for a given product version and platform," the company said. "Adobe recommends administrators install the update as soon as possible. (for example, within 72 hours)." KEVIntel founder Ryan Dewhurst warned two days after Adobe issued patches that attackers had begun exploiting CVE-2026-48282 within two hours of Adobe's disclosure, while the Canadian Center for Cyber Security (CCCS) encouraged network defenders to secure their systems against these ongoing attacks. Internet security watchdog group Shadowserver currently tracks nearly 800 Adobe ColdFusion instances exposed online, but there is no information on how many are honeypots or have been secured against attacks targeting the CVE-2026-48282 flaw. Internet-exposed ColdFusion instances (Shadowserver) On Tuesday, CISA added CVE-2026-48282 to its list of vulnerabilities actively exploited in attacks and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to patch their systems by Friday, June 10, as required by Binding Operational Directive (BOD) 26-04. BOD 26-04, which was published last month , requires federal agencies to prioritize patching based on whether flaws are included in CISA's KEV catalog, whether their exploitation can be automated for large-scale attacks, whether vulnerable assets are exposed online, and whether successful exploitation grants the attackers partial or total control of the targeted device. Last week, Adobe also patched six other maximum-severity flaws in the ColdFusion web app development and Campaign Classic marketing automation platforms, all of which were tagged as high risk of being targeted. However, the company has yet to flag any of them as exploited in the wild, saying that it "is not aware of any exploits in the wild for any of the issues addressed in these updates." In early April, Adobe also released emergency updates for an Acrobat Reader vulnerability (CVE-2026-34621) that had been exploited as a zero-day since December 2025 . Since November 2021, CISA has added 80 vulnerabilities in Adobe products to its list of actively exploited security flaws, 10 of which have also been abused in ransomware attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Max severity Adobe ColdFusion flaw now exploited in attacks CISA orders feds to prioritize patching Langflow auth bypass flaw Critical Langflow RCE flaw exploited to hack AI app servers CISA warns of max severity Ubiquiti flaws exploited in attacks CISA: Microsoft SharePoint RCE flaw now actively exploited
 ```
 
 #### Corroborating sources (1)
 
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
-  - Published: 2026-07-08T17:20:21+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
-  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA orders feds to patch max severity ColdFusion flaw by Friday
+  - Published: 2026-07-08T07:16:55+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]
+
+### Cluster c5bf3760df — score 14
+
+- Title: Microsoft patches RoguePlanet Defender zero-day vulnerability
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-09T05:42:49+00:00
+- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure, zero_day
+- affected_industries: legal_professional
+- affected_products: GitHub, Microsoft Defender, Microsoft Windows
+- cve_ids: CVE-2026-50656
+- urgency_signals: poc_available, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure
+- affected_industries: legal_professional
+- affected_products: Microsoft Defender, Microsoft Windows, GitHub
+- cve_ids: CVE-2026-50656
+- urgency_signals: zero_day, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Microsoft has released a security patch to address a Defender zero-day vulnerability known as "RoguePlanet," disclosed after the June 2026 Patch Tuesday. [...]
+```
+
+#### Full body
+
+```
+Microsoft patches RoguePlanet Defender zero-day vulnerability By Sergiu Gatlan July 9, 2026 01:42 AM 0 Microsoft has released a security patch to address a Defender zero-day vulnerability known as "RoguePlanet," disclosed after the June 2026 Patch Tuesday. The flaw (tracked as CVE-2026-50656 ) was disclosed by a security researcher using the "Nightmare Eclipse" handle as part of an ongoing dispute with Microsoft over the company's bug bounty and vulnerability disclosure practices. They also shared a proof-of-concept exploit in a self-hosted Git repository, claiming that Microsoft had previously removed their repos hosting exploits on GitHub and GitLab. According to Nightmare Eclipse, RoguePlanet affects fully patched Windows 10 and Windows 11 devices, allowing attackers to spawn a command prompt with SYSTEM privileges via a Microsoft Defender race condition. "The exploit is a race condition, so it's a hit or miss. I have managed to get a 100% success rate on some machines while it struggled to work on others," they explained. "The PoC for RoguePlanet works regardless if real time protection is on or not," the researcher added in a follow-up update . Microsoft confirmed it was working on a patch for CVE-2026-50656 on June 16, but has yet to acknowledge that Nightmare Eclipse discovered the vulnerability. Patched via Malware Protection Engine update On Wednesday, the company addressed the RoguePlanet vulnerability by releasing Microsoft Malware Protection Engine 1.1.26060.3008, an update to the core scanning engine that powers its security solutions and services. "Microsoft has released an update to the Microsoft Malware Protection Engine that addresses the vulnerability identified by CVE-2026-50656. Please see the FAQ for more information on how to check if the new version has been installed," Microsoft noted . Over the past several months, Nightmare Eclipse has disclosed multiple other Windows zero-day exploits, including for the BlueHammer , RedSun , GreenPlasma , MiniPlasma , YellowKey , and UnDefend flaws. While some of these security vulnerabilities affect Microsoft Defender, others target BitLocker and Windows components. Microsoft fixed the GreenPlasma, MiniPlasma, and YellowKey flaws one month ago as part of the June 2026 Patch Tuesday updates. Microsoft has also reacted to Nightmare Eclipse's disclosures by issuing warnings of legal action against people engaging in what it described as "malicious activity causing real harm to our customers," leading cybersecurity experts to believe that Microsoft was directly threatening the security researcher. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Microsoft working on Defender patch for RoguePlanet zero-day Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges Recently leaked Windows zero-days now exploited in attacks Microsoft warns of new Defender zero-days exploited in attacks New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Microsoft patches RoguePlanet Defender zero-day vulnerability
+  - Published: 2026-07-09T05:42:49+00:00
+  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
+  - Summary: Microsoft has released a security patch to address a Defender zero-day vulnerability known as "RoguePlanet," disclosed after the June 2026 Patch Tuesday. [...]
 
 ### Cluster 8bc6a961cc — score 12
 
@@ -1481,8 +1528,8 @@ BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA  Rav
 - Published: 2026-07-06T16:28:59+00:00
 - Link: https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 1
+- Corroborating source count: 1
 - Strong signals: CVE-2026-20896, Docker, Gitea
 
 #### Cluster taxonomy (union across members)
@@ -1490,7 +1537,7 @@ BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA  Rav
 - affected_products: Docker, Gitea, Linux kernel
 - cve_ids: CVE-2026-20896
 - urgency_signals: preauth_unauth
-- content_type: news_report, vulnerability_disclosure
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
@@ -1513,18 +1560,13 @@ Threat actors have been observed attempting to exploit a recently patched critic
 Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure  Ravie Lakshmanan  Jul 06, 2026 Vulnerability / DevOps Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig . The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the "X-WEBAUTH-USER" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated access. In a statement shared with The Hacker News via email, security researcher Ali Mustafa (@rz1027), who is credited with discovering and reporting the flaw, said the Gitea Docker images shipped an "app.ini" template that hard-codes "REVERSE_PROXY_TRUSTED_PROXIES = *" by default. The " app.ini " file is a core configuration file for managing server parameters, database connections, security behavior, and application settings. "With reverse-proxy login enabled, that wildcard trusts every source IP, so anyone who could reach the port could send an X-WEBAUTH-USER header and be authenticated as any user, with no password and no token," Mustafa explained. "With auto-registration on, an admin username gives admin." It's worth noting that the documented safe value for the "REVERSE_PROXY_TRUSTED_PROXIES" internal variable is "127.0.0.0/8,::1/128," meaning only localhost, aka the loopback interface, is allowed as a trusted proxy server. However, the official Docker image doesn't use this default, hard-coding "*" instead. In other words, the allowlist check is as good as not having it. Thus, when an admin sets "ENABLE_REVERSE_PROXY_AUTHENTICATION = true" to put Gitea behind an authenticating reverse proxy and leaves the "REVERSE_PROXY_TRUSTED_PROXIES" setting to its default value, it allows a X-WEBAUTH-USER custom HTTP header from any source IP that can reach the container. "Any process that can reach the Gitea container's HTTP port directly – not through the intended authenticating proxy – can impersonate any user whose login name is known or guessable," according to Gitea's advisory. "Admin accounts (admin, gitea_admin, etc.) are the obvious targets." The vulnerability affects Gitea Docker images versions before and including 1.26.2. It has been addressed in version 1.26.3 released late last month, with the "*" wildcard now removed and reverse-proxy authentication made opt-in. Cloud security company Sysdig has since revealed it detected the first in-the-wild exploitation attempt 13 days after public disclosure of the vulnerability. There are about 6,200 internet-facing Gitea instances. "So far, the activities have been related to initial investigation by the threat actor," Michael Clark, senior director of threat research at Sysdig, told The Hacker News. "While we saw the first action from an IP from the ProtonVPN service, 159.26.98[.]241, it has not so far progressed to any exploitation or attack progress. We think this is because we have seen this one early before it has had the chance to develop beyond that initial phase." Given the severity of the issue, it's essential that users apply the fixes as soon as possible for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Cloud security , Container Security , DevOps , Threat Intelligence , Vulnerability , Web Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries OpenAI Previews GPT-5.6 Sol With Restricted Access and Str
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure
   - Published: 2026-07-06T16:28:59+00:00
   - Link: https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
   - Summary: Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the "X-WEBAUTH-USER" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Critical Gitea Flaw Under Active Exploitation, Researchers Warn
-  - Published: 2026-07-07T17:17:19+00:00
-  - Link: https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/
-  - Summary: Attackers are exploiting the critical Gitea vulnerability CVE-2026-20896 to bypass authentication with a single HTTP header and access vulnerable repositories and secrets. The post Critical Gitea Flaw Under Active Exploitation, Researchers Warn appeared first on SecurityWeek .
 
 ### Cluster 26eda5e0a9 — score 12
 
@@ -1533,15 +1575,15 @@ Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure �
 - Published: 2026-07-07T15:24:30+00:00
 - Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
 - threat_categories: ai_security
 - affected_products: GitHub
 - urgency_signals: poc_available, preauth_unauth
-- content_type: incident_report, news_report, vulnerability_disclosure
+- content_type: incident_report, vulnerability_disclosure
 - confidence_tier: tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
@@ -1563,7 +1605,7 @@ The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's 
 Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed "GitLost" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: Mexico's New Cyber Plan Faces Its First Real Test "GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems," Sasi Levi, security research lead at Noma, wrote in the report. "The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input." This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on "issues.assigned" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Chinese LLMs Broaden the Gap Between Attackers & Defenders "In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused," Levi wrote. "This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data." Indeed, the vulnerability demonstrates that threat actors only "need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property," Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to Noma.
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (3)
 
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
@@ -1575,21 +1617,50 @@ Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitL
   - Published: 2026-07-08T10:30:55+00:00
   - Link: https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/
   - Summary: Researchers show how attackers can use a crafted public GitHub Issue to trick AI-powered workflows into exposing data from private repositories without authentication. The post Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos
-  - Published: 2026-07-02T07:24:23+00:00
-  - Link: https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
-  - Summary: Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositories on GitHub that claim to exploit hot new CVEs. Run one, and it quietly lifts your saved passwords, browser cookies, and files, then hands the attacker a shell on your machine. YesWeHack and
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - Title: GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix ("Additionally") bypassed the threat-detection guardrail
   - Published: 2026-07-07T15:16:22+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/
   - Summary: Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why "filter the injection" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: The GitHub Actions Attack Pattern Your CI Security Scanners Miss
-  - Published: 2026-07-07T14:01:11+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/
-  - Summary: ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their CI/CD workflows. [...]
+
+### Cluster 9814bfc594 — score 11
+
+- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-08T17:20:21+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+```
+
+#### Full body
+
+```
+Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+  - Published: 2026-07-08T17:20:21+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
 
 ### Cluster f0cefbafc4 — score 11
 
@@ -1849,53 +1920,6 @@ AI Research Context Engineering | Compaction & Agent Memory for Automated Malwar
   - Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
   - Summary: Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
 
-### Cluster f6a2962dc9 — score 10
-
-- Title: UAT-7810 continues building ORB networks using new malware
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-07T10:00:05+00:00
-- Link: https://blog.talosintelligence.com/uat-7810/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_products: Cisco
-- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_products: Cisco
-- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
-```
-
-#### Full body
-
-```
-UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = "C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: UAT-7810 continues building ORB networks using new malware
-  - Published: 2026-07-07T10:00:05+00:00
-  - Link: https://blog.talosintelligence.com/uat-7810/
-  - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
-
 ### Cluster 3ee1d54d9d — score 10
 
 - Title: Cavern Manticore: Exposing Iran-Linked Modular C2 Framework
@@ -1992,39 +2016,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July �
   - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
   - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 2ab29cfc79 — score 10
-
-- Title: My Stack Simulator, (Wed, Jul 8th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-08T08:09:03+00:00
-- Link: https://isc.sans.edu/diary/rss/33138
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and you can only take one away from the top too. Programs use this same "last in, first out" principle to keep track of what they&#;x26;#;39;re doing. Every time a function is called, the program pushes a new plate onto the stack containing things like local variables and the address to return to once the function finishes. When the function is done, that plate is popped off the top, and execution resumes exactly where it left off. This simple mechanism is what allows programs to call functions within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten with unexpected data, becomes a favorite target for attackers looking to hijack a pr
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: My Stack Simulator, (Wed, Jul 8th)
-  - Published: 2026-07-08T08:09:03+00:00
-  - Link: https://isc.sans.edu/diary/rss/33138
-  - Summary: The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and you can only take one away from the top too. Programs use this same "last in, first out" principle to keep track of what they&#;x26;#;39;re doing. Every time a function is called, the program pushes a new plate onto the stack containing things like local variables and the address to return to once the function finishes. When the function is done, that plate is popped off the top, and execution resumes exactly where it left off. This simple mechanism is what allows programs to call functions within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten with unexpected data, becomes a favorite target for attackers looking to hijack a pr
-
 ### Cluster 40eaf074fe — score 10
 
 - Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
@@ -2113,12 +2104,12 @@ Threat Response Table of Contents Introduction Initial infection vector EXE atta
   - Link: https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/
   - Summary: An inside look at the active Armored Likho APT campaign. The attackers are using spear-phishing, AI-generated loaders, and a new Python-based tool, BusySnake Stealer, to target organizations in Russia, Kazakhstan, and Brazil.
 
-### Cluster caac5571c6 — score 10
+### Cluster f6a2962dc9 — score 10
 
-- Title: The Threat Isn’t the Frontier Model
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-08T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
+- Title: UAT-7810 continues building ORB networks using new malware
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-07T10:00:05+00:00
+- Link: https://blog.talosintelligence.com/uat-7810/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
@@ -2126,35 +2117,39 @@ Threat Response Table of Contents Introduction Initial infection vector EXE atta
 
 #### Cluster taxonomy (union across members)
 - threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
 - threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
+Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
 ```
 
 #### Full body
 
 ```
-The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l
+UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = "C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in
 ```
 
 #### Corroborating sources (1)
 
-- **Recorded Future** (threat_research_primary)
-  - Title: The Threat Isn’t the Frontier Model
-  - Published: 2026-07-08T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
-  - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
+- **Cisco Talos** (threat_research_primary)
+  - Title: UAT-7810 continues building ORB networks using new malware
+  - Published: 2026-07-07T10:00:05+00:00
+  - Link: https://blog.talosintelligence.com/uat-7810/
+  - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
 
 ### Cluster 19a671449e — score 10
 
@@ -2198,6 +2193,49 @@ How NodeZero® Rapid Response Helps Operationalize BOD 26-04 Tim Jones July 6, 2
   - Published: 2026-07-06T13:00:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
   - Summary: CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
+
+### Cluster caac5571c6 — score 10
+
+- Title: The Threat Isn’t the Frontier Model
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-08T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
+```
+
+#### Full body
+
+```
+The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The Threat Isn’t the Frontier Model
+  - Published: 2026-07-08T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
+  - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
 
 ### Cluster 0514a6908e — score 10
 
@@ -2320,6 +2358,49 @@ Page content We’re running Patch the Planet , an ongoing collaboration with Op
   - Link: https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/
   - Summary: We’re running Patch the Planet , an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest models at real codebases, find the security bugs first, work with maintainers to patch them, and find ways to decrease the burden on maintainers in the long run. We’ll publish field reports like this one as the initiative progresses; follow along via the Patch the Planet tag. The expertise barrier that kept bespoke fuzzing campaigns out of reach for most attackers is gone. We watched GPT-5.5-Cyber build in a single day what would have taken weeks for a skilled security researcher : harnesses across a dozen entrypoints, sanitizer and variant builds, seeds, and multiple findings currently undergoing
 
+### Cluster cb182c3689 — score 10
+
+- Title: AssuranceAmerica data breach exposes records of 6.9 million drivers
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-09T07:47:16+00:00
+- Link: https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year. [...]
+```
+
+#### Full body
+
+```
+AssuranceAmerica data breach exposes records of 6.9 million drivers By Sergiu Gatlan July 9, 2026 03:47 AM 0 American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year. AssuranceAmerica operates through a network of over 9,500 independent agents and provides auto, renters, and commercial auto insurance coverage across 14 U.S. states. While the company has yet to publish a press release regarding the incident, it revealed in a filing with Maine's Office of the Attorney General that the data breach has exposed the information of 6,998,886 people. As TechCrunch first reported , AssuranceAmerica detected the breach on March 17 and found that the attackers had stolen a wide range of customer information from its systems. "On March 17, 2026, the Company detected suspicious activity involving certain Company systems that appears to have resulted from malicious activity on March 16, 2026 that targeted one of the Company's employees. During the investigation, the Company determined that an unauthorized third party accessed certain portions of the Company's informational technology (IT) environment and copied certain data files," it notes in data breach notification letters that will be sent to affected people on Friday. "The Company subsequently conducted a review of the affected files to identify individuals whose personal information may have been contained within those files. Because of the nature of the files involved and the scope of the required review, this file evaluation process was only recently completed (on June 15, 2026), and we are now providing this notice." As the company found, the stolen documents contained a combination of affected individuals' names, contact information, automobile insurance policy or insurance account information, driver or vehicle information, claims-related information, and driver's license numbers. Since it detected the security breach, AssuranceAmerica disabled the credentials compromised in the attack, kicked the threat actors out of its network by disabling unauthorized sessions, isolated the affected systems, and notified law enforcement agencies of the incident. "The Company also implemented additional measures designed to enhance the security of its IT systems and data, including resetting passwords, deploying enhanced monitoring and threat detection tools, and providing additional instruction to personnel regarding cybersecurity threats," it added. AssuranceAmerica also advised affected customers to immediately alert their financial institution if they detect any suspicious activity after reviewing credit reports, bank accounts, and other financial statements. Last month, American insurance giant Aflac also disclosed a data breach after attackers compromised its Japanese subsidiary's systems, stealing the personal and bank account information of 4.38 million customers . Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Insurance giant Aflac discloses data breach after subsidiary hack Pharma giant Novo Nordisk discloses breach of clinical trials data Over 73,000 French govt employees affected in Tchap messenger breach French govt messaging service breached in account hijacking attack Accenture confirms breach after hacker offers stolen data for sale
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: AssuranceAmerica data breach exposes records of 6.9 million drivers
+  - Published: 2026-07-09T07:47:16+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/
+  - Summary: American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year. [...]
+
 ### Cluster b422f525d6 — score 10
 
 - Title: Chinese hackers develop LONGLEASH malware to expand ORB network
@@ -2414,91 +2495,38 @@ Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Device
   - Link: https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
   - Summary: Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on
 
-### Cluster b0672554e3 — score 9
+### Cluster 2ab29cfc79 — score 9
 
-- Title: Best ASPM Tools in 2026: The Application Security Posture Management Buyer’s Guide
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-07-08T17:40:00+00:00
-- Link: https://orca.security/resources/blog/best-aspm-tools/
-- Fetch status: ok
+- Title: My Stack Simulator, (Wed, Jul 8th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-08T08:09:03+00:00
+- Link: https://isc.sans.edu/diary/rss/33138
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: cloud_abuse
-- affected_industries: government, retail_ecommerce
-- tools_used: Atlassian Jira
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_1_government
 
 #### Primary article taxonomy
-- threat_categories: cloud_abuse
-- affected_industries: government, retail_ecommerce
-- tools_used: Atlassian Jira
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_1_government
 
 #### Summary
 
 ```
-Key Takeaways A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What Is ASPM (Application Security Posture Management)? How ASPM differs from a pile of standalone AppSec scanners Why ASPM Tools Matter: Tool Sprawl, Alert Noise & Unprovable Risk What ASPM Tools Do: Core Capabilities Aggregate & normalize findings across the SDLC (SAST, SCA, DAST, secrets, IaC, containers) Correlate & deduplicate to a single application risk view Reachability- & exploitability-based risk prioritization (not just alert counts) Code-to-cloud correlation & attack-path context Remediation workflows, ownership routing & developer feedback (PR/IDE/ticketing) Policy, governance & compliance reporting What to Look For in ASPM Tools and Vendors Agentless vs. agent/pipeline-heavy deployment & time-to-value Breadth of native scanners vs. orchestration-only (does it test, or just ingest?) Reachability / exploitability analysis & prioritization quality Code-to-cloud (runtime & multi-cloud) context Developer experience & workflow integrations (CI/CD, IDE, Jira, SIEM) Coverage of AI-generated code & LLM/AI components The 10 Best ASPM Tools in 2026 Orca Security: agentless, CNAPP-native ASPM with code-to-cloud attack-path context Wiz Cycode Snyk Checkmarx One Apiiro OX Security Legit Security Endor Labs Palo Alto Prisma Cloud / Cortex Cloud ASPM Tools Compared: Side-by-Side ASPM vs. Adjacent Categories (Quick Reference) ASPM vs. AST (SAST/SCA/DAST) ASPM vs. ASOC ASPM vs. CSPM ASPM vs. CNAPP Who Needs ASPM? Use Cases by Team How to Choose the Right ASPM Solution How Orca Approaches ASPM Frequently Asked Questions about ASPM Tools Key Takeaways An Application Security Posture Management (ASPM) tool unifies findings from every AppSec scanner you run, correlates them to what is actually deployed, and ranks the risks an attacker could reach, so triage stops being a guessing game. The “best ASPM tools” market is noisy, and most roundups pad the list with single-function SAST or SCA products. A curated, current shortlist matters more than a long one. ASPM tools separate on two axes: whether they only ingest other scanners’ output or add native testing and cloud context, and whether they prioritize by reachability or by raw alert counts. Read the criteria before the rankings. Judging every vendor against one rubric is the difference between a buying decision and ten marketing pages. Orca delivers agentless ASPM through SideScanning™, correlating application findings to the running, internet-exposed workloads and sensitive data around them, so a code-level risk surfaces with its full code-to-cloud attack path attached. A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An application security posture management (ASPM) platform closes that gap. It ingests every scanner’s output, deduplicates and correlates the findings to a single application, and ranks them by what is reachable and exposed. The catch is the market. Search for the best ASPM tools and you get a wall of near-identical listicles, many padding the count with legacy point scanners that test one thing and unify nothing. Underneath the noise, the tools that win in 2026 separate on two things: whether they add real context to the alerts they collect, and whether they connect a code-level finding to the deployed, reachable asset it affects. This guide gives you the criteria that differentiate ASPM tools, a current ranking of the ten best options for 2026, a side-by-side comparison table, use cases by team, and decision guidance by org profile. Criteria come first, on purpose, so you weigh every vendor against one rubric instead of ten sales pages. What Is ASPM (Application Security Posture Management)? Application Security Pos
+The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and you can only take one away from the top too. Programs use this same "last in, first out" principle to keep track of what they&#;x26;#;39;re doing. Every time a function is called, the program pushes a new plate onto the stack containing things like local variables and the address to return to once the function finishes. When the function is done, that plate is popped off the top, and execution resumes exactly where it left off. This simple mechanism is what allows programs to call functions within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten with unexpected data, becomes a favorite target for attackers looking to hijack a pr
 ```
 
 #### Corroborating sources (1)
 
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Best ASPM Tools in 2026: The Application Security Posture Management Buyer’s Guide
-  - Published: 2026-07-08T17:40:00+00:00
-  - Link: https://orca.security/resources/blog/best-aspm-tools/
-  - Summary: Key Takeaways A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An […]
-
-### Cluster 80836199e6 — score 9
-
-- Title: Best CSPM Tools in 2026: The Cloud Security Posture Management Buyer’s Guide
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-07-08T17:30:00+00:00
-- Link: https://orca.security/resources/blog/best-cspm-tools/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Google Cloud, Microsoft Defender, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Palo Alto Networks, Google Cloud, Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Takeaways Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What Is CSPM (Cloud Security Posture Management)? What Are CSPM Tools? How CSPM works Why CSPM Tools Matter in 2026 Where CSPM fits vs. CWPP, CIEM, DSPM, and CNAPP What to Look For in CSPM Tools and Vendors Agentless vs. agent-based coverage & deployment speed Context-aware risk prioritization & attack-path analysis Multi-cloud & platform coverage Misconfiguration detection accuracy + compliance framework coverage Automated remediation & DevSecOps / IaC (shift-left) integration Integrations & workflow fit The 10 Best CSPM Tools in 2026 Orca Security: agentless CSPM with unified attack-path context Wiz Palo Alto Networks: Prisma Cloud (Cortex Cloud) Microsoft Defender for Cloud CrowdStrike Falcon Cloud Security Check Point CloudGuard Trend Micro (Trend Vision One: Cloud Security) SentinelOne Singularity Cloud Security Aqua Security Tenable Cloud Security CSPM Tools Compared: Side-by-Side Open-Source CSPM Tools (and Their Limits) How to Choose the Right CSPM Solution How Orca Approaches Cloud Security Posture Management Frequently Asked Questions about CSPM Tools Key Takeaways A CSPM tool continuously discovers cloud resources, checks them against security and compliance policy, and flags the misconfigurations that expose data, so posture drift gets caught before an attacker finds it. The “best CSPM tools” SERP is loud and repetitive. Most roundups rank the publisher first and pad the list with acquired, rebranded, or defunct products, so a current and accurate shortlist beats a long one. CSPM tools separate on two axes: agentless versus agent-based coverage, and context-aware attack-path prioritization versus a flat wall of severity alerts. Read the criteria before the rankings. Judging every vendor against one rubric is the difference between a buying decision and ten marketing pages. Orca delivers agentless CSPM through SideScanning™ across AWS, Azure, and Google Cloud with nothing to deploy, and ties each misconfiguration to the vulnerabilities, identities, and data around it so the reachable risks surface first. Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud security posture management (CSPM) tool exists to close that gap: it continuously discovers cloud resources, measures them against security and compliance policy, and surfaces the misconfigurations that leave data reachable. The catch is the market. Search for the best CSPM tools and you get a wall of near-identical listicles, most ranking the publisher first and padding the count with products that no longer stand alone. Underneath the noise, the tools that win in 2026 separate on two things: broad, agentless coverage that onboards a whole estate without installing software, and context-aware, attack-path prioritization that turns a flood of alerts into a short, ranked action list. This guide gives you the criteria that differentiate CSPM tools, a current ranking of the ten best options for 2026, a side-by-side comparison table, a look at open-source tools, and how the list was built. Criteria come first, on purpose, so you weigh every vendor against one rubric. What Is CSPM (Cloud Security Posture Management)? CSPM, or cloud security posture management, is a category of tooling that continuously monitors cloud environments for misconfigurations, policy violations, and compliance gaps, then helps teams fix them. It watches the cloud control plane, the configuration of your accounts, services, and resources, rather than the workloads running inside them. Configuration is where most self-inflicted cloud risk lives. A storage bucket set to public, a security group open to the internet, an unencrypted database, a disabled audit log, or an over-permissive access policy are all con
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Best CSPM Tools in 2026: The Cloud Security Posture Management Buyer’s Guide
-  - Published: 2026-07-08T17:30:00+00:00
-  - Link: https://orca.security/resources/blog/best-cspm-tools/
-  - Summary: Key Takeaways Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud […]
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: My Stack Simulator, (Wed, Jul 8th)
+  - Published: 2026-07-08T08:09:03+00:00
+  - Link: https://isc.sans.edu/diary/rss/33138
+  - Summary: The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and you can only take one away from the top too. Programs use this same "last in, first out" principle to keep track of what they&#;x26;#;39;re doing. Every time a function is called, the program pushes a new plate onto the stack containing things like local variables and the address to return to once the function finishes. When the function is done, that plate is popped off the top, and execution resumes exactly where it left off. This simple mechanism is what allows programs to call functions within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten with unexpected data, becomes a favorite target for attackers looking to hijack a pr
 
 ### Cluster 203ebf4d39 — score 9
 
@@ -2545,60 +2573,6 @@ Telco giant KDDI says data breach affects over 12 million people By Sergiu Gatla
   - Link: https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/
   - Summary: Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. [...]
 
-### Cluster 04664daaad — score 9
-
-- Title: Ubiquiti warns of new max severity UniFi OS vulnerability
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-08T08:15:20+00:00
-- Link: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Ubiquiti UniFi
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage
-- affected_industries: government
-- affected_products: Ubiquiti UniFi
-- cve_ids: CVE-2026-50746, CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402
-- urgency_signals: actively_exploited
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, active_exploitation
-- affected_industries: government
-- affected_products: Ubiquiti UniFi
-- cve_ids: CVE-2026-50746, CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
-```
-
-#### Full body
-
-```
-Ubiquiti warns of new max severity UniFi OS vulnerability By Sergiu Gatlan July 8, 2026 04:15 AM 0 Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw tracked as CVE-2026-50746 that can be exploited in command injection attacks. The CVE-2026-50746 vulnerability affects UniFi Connect Application (versions 3.4.16 and earlier), a management software suite that Ubiquiti customers can use to automate and manage commercial building operations (including smart LED lighting systems and electric vehicle chargers) via a single interface. "A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi Connect Application to execute a Command Injection on the host device," Ubiquiti explained. The company advised users to update the impacted UniFi Connect app to version 3.4.20 or later to secure their systems against potential attacks. On Thursday, Ubiquiti patched six more critical-severity security issues (CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402, CVE-2026-55115, CVE-2026-55116) in the UniFi Talk, UniFi Access, and UniFi Protect applications, in the company's UniFi OS Server, and across a wide range of Ubiquiti routers, gateways, NAS, and surveillance systems. Ubiquiti has yet to disclose whether any of these vulnerabilities were exploited in the wild before being addressed, but shared that six of them can be exploited in low-complexity attacks that don't require user interaction. Threat intelligence company Censys now tracks over 100,000 UniFi OS instances exposed online, most of them (nearly 50,000 IP addresses) found in the United States. However, there are no details on how many have already been secured against these security flaws or are honeypots. ​Additionally, Censys data also includes historical scan results and may not accurately reflect the number of systems currently exposed on the Internet. Internet-exposed UniFi OS instances (Censys) State-sponsored threat groups and cybercrime hacking groups have often targeted Ubiquiti products in recent years, hijacking them to build botnets designed to conceal malicious activity. For instance, in February 2024, the FBI dismantled Moobot , a botnet of Ubiquiti Edge OS routers used by Russia's Main Intelligence Directorate of the General Staff (GRU) to proxy malicious traffic in cyberespionage attacks. Four years earlier, in April 2022, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) also added a critical command injection flaw (CVE-2010-5330) in Ubiquiti AirOS to its catalog of actively exploited flaws and ordered government agencies to patch their devices within three weeks. More recently, in June, CISA warned that hackers were actively exploiting three max-severity UniFi OS flaws that had been patched one month earlier and mandated that agencies secure their systems within three days. Bishop Fox later demonstrated that the vulnerabilities could be chained to achieve remote code execution with elevated privileges and released a free detection script to help defenders discover vulnerable instances in their environments. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA warns of max severity Ubiquiti flaws exploited in attacks Ubiquiti patches three max severity UniFi OS vulnerabilities Critical UniFi OS bug lets hackers gain root without authentication Hackers exploit Roundcube flaw to spy on academic researchers CISA orders feds to prioritize patching Langflow auth bypass flaw
-```
-
-#### Corroborating sources (2)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Ubiquiti warns of new max severity UniFi OS vulnerability
-  - Published: 2026-07-08T08:15:20+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
-  - Summary: Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS
-  - Published: 2026-07-08T14:38:05+00:00
-  - Link: https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html
-  - Summary: Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker
-
 ### Cluster 62c5b45d14 — score 9
 
 - Title: Accenture Confirms Data Breach After Hacker Claims Source Code Theft
@@ -2611,18 +2585,18 @@ Ubiquiti warns of new max severity UniFi OS vulnerability By Sergiu Gatlan July 
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain
-- affected_industries: financial_services, government
+- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
+- affected_industries: government
 - affected_products: GitHub, Gitea, Linux kernel
-- urgency_signals: poc_available
+- urgency_signals: no_patch_yet
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security
-- affected_industries: financial_services, government
+- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security, web_shell_backdoor
+- affected_industries: government
 - affected_products: Linux kernel, GitHub, Gitea
-- urgency_signals: poc_available
+- urgency_signals: no_patch_yet
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -2635,7 +2609,7 @@ The professional services giant says it contained the incident, remediated its s
 #### Full body
 
 ```
-Professional services giant Accenture confirmed a data breach after a hacker claimed the theft of internal source code from the company. The incident came to light this week, when a threat actor boasted on the hacker forum PwnForums about compromising Accenture and stealing 35 gigabytes of data. According to the hacker, the information, including Azure access keys and tokens, configuration files, RSA and SSH keys, and source code, was exfiltrated from Accenture earlier this month. The threat actor, who was trying to sell the allegedly stolen data, posted as proof-of-possession a screenshot depicting a private Azure DevOps repository apparently hosted on an accenture.com domain. Responding to a SecurityWeek inquiry, Accenture confirmed the attack, but refrained from providing additional details on the matter. “We are aware of this isolated matter, and we have remediated its source. There is no impact to Accenture operations and service delivery,” an Accenture spokesperson said. Advertisement. Scroll to continue reading. It is unclear how the data was exfiltrated, whether any personal information was compromised, and how the hacker gained access to Accenture’s environment. According to Corsica Technologies CISO Ross Filipek, the incident raises concerns because the allegedly stolen data could be used as a playbook for future attacks, based on code vulnerabilities, credentials, and infrastructure information that threat actors can extract. “Accenture is a familiar target because of where it sits in the business ecosystem. Large consulting and services firms often sit close to the systems that help major companies run, from cloud environments and identity tools to codebases and transformation projects,” Filipek said. “That doesn’t mean every incident creates direct client risk, but it explains why attackers keep looking for a foothold. One successful compromise can offer clues about how enterprise systems are built, how teams authenticate, and where trusted connections exist,” he added. Accenture, which recently announced it was taking a majority stake in Dragos , last year confirmed that a former employee was charged over concealing security issues in her employer’s cloud products that were non-compliant with US government requirements. Related: Medtronic Data Breach Impacts 3.8 Million People Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Canadian Electricity Provider London Hydro Discloses Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection County Government Reportedly Paid $1 Million to Cyber Extortion Group Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, tre
+Professional services giant Accenture confirmed a data breach after a hacker claimed the theft of internal source code from the company. The incident came to light this week, when a threat actor boasted on the hacker forum PwnForums about compromising Accenture and stealing 35 gigabytes of data. According to the hacker, the information, including Azure access keys and tokens, configuration files, RSA and SSH keys, and source code, was exfiltrated from Accenture earlier this month. The threat actor, who was trying to sell the allegedly stolen data, posted as proof-of-possession a screenshot depicting a private Azure DevOps repository apparently hosted on an accenture.com domain. Responding to a SecurityWeek inquiry, Accenture confirmed the attack, but refrained from providing additional details on the matter. “We are aware of this isolated matter, and we have remediated its source. There is no impact to Accenture operations and service delivery,” an Accenture spokesperson said. Advertisement. Scroll to continue reading. It is unclear how the data was exfiltrated, whether any personal information was compromised, and how the hacker gained access to Accenture’s environment. According to Corsica Technologies CISO Ross Filipek, the incident raises concerns because the allegedly stolen data could be used as a playbook for future attacks, based on code vulnerabilities, credentials, and infrastructure information that threat actors can extract. “Accenture is a familiar target because of where it sits in the business ecosystem. Large consulting and services firms often sit close to the systems that help major companies run, from cloud environments and identity tools to codebases and transformation projects,” Filipek said. “That doesn’t mean every incident creates direct client risk, but it explains why attackers keep looking for a foothold. One successful compromise can offer clues about how enterprise systems are built, how teams authenticate, and where trusted connections exist,” he added. Accenture, which recently announced it was taking a majority stake in Dragos , last year confirmed that a former employee was charged over concealing security issues in her employer’s cloud products that were non-compliant with US government requirements. Related: Medtronic Data Breach Impacts 3.8 Million People Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Canadian Electricity Provider London Hydro Discloses Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire County Government Reportedly Paid $1 Million to Cyber Extortion Group Critical Gitea Flaw Under Active Exploitation, Researchers Warn Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Latest News Chrome 150 Update Patches 27 Vulnerabilities 8Layers Raises $2.9 Million for Identity Security Platform Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from in
 ```
 
 #### Corroborating sources (1)
@@ -2824,6 +2798,92 @@ When AI agents look like attackers: what behavioral telemetry tells us An X-Ops 
   - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
   - Summary: <p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
 
+### Cluster b0672554e3 — score 8
+
+- Title: Best ASPM Tools in 2026: The Application Security Posture Management Buyer’s Guide
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-08T17:40:00+00:00
+- Link: https://orca.security/resources/blog/best-aspm-tools/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: cloud_abuse
+- affected_industries: government, retail_ecommerce
+- tools_used: Atlassian Jira
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: cloud_abuse
+- affected_industries: government, retail_ecommerce
+- tools_used: Atlassian Jira
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is ASPM (Application Security Posture Management)? How ASPM differs from a pile of standalone AppSec scanners Why ASPM Tools Matter: Tool Sprawl, Alert Noise & Unprovable Risk What ASPM Tools Do: Core Capabilities Aggregate & normalize findings across the SDLC (SAST, SCA, DAST, secrets, IaC, containers) Correlate & deduplicate to a single application risk view Reachability- & exploitability-based risk prioritization (not just alert counts) Code-to-cloud correlation & attack-path context Remediation workflows, ownership routing & developer feedback (PR/IDE/ticketing) Policy, governance & compliance reporting What to Look For in ASPM Tools and Vendors Agentless vs. agent/pipeline-heavy deployment & time-to-value Breadth of native scanners vs. orchestration-only (does it test, or just ingest?) Reachability / exploitability analysis & prioritization quality Code-to-cloud (runtime & multi-cloud) context Developer experience & workflow integrations (CI/CD, IDE, Jira, SIEM) Coverage of AI-generated code & LLM/AI components The 10 Best ASPM Tools in 2026 Orca Security: agentless, CNAPP-native ASPM with code-to-cloud attack-path context Wiz Cycode Snyk Checkmarx One Apiiro OX Security Legit Security Endor Labs Palo Alto Prisma Cloud / Cortex Cloud ASPM Tools Compared: Side-by-Side ASPM vs. Adjacent Categories (Quick Reference) ASPM vs. AST (SAST/SCA/DAST) ASPM vs. ASOC ASPM vs. CSPM ASPM vs. CNAPP Who Needs ASPM? Use Cases by Team How to Choose the Right ASPM Solution How Orca Approaches ASPM Frequently Asked Questions about ASPM Tools Key Takeaways An Application Security Posture Management (ASPM) tool unifies findings from every AppSec scanner you run, correlates them to what is actually deployed, and ranks the risks an attacker could reach, so triage stops being a guessing game. The “best ASPM tools” market is noisy, and most roundups pad the list with single-function SAST or SCA products. A curated, current shortlist matters more than a long one. ASPM tools separate on two axes: whether they only ingest other scanners’ output or add native testing and cloud context, and whether they prioritize by reachability or by raw alert counts. Read the criteria before the rankings. Judging every vendor against one rubric is the difference between a buying decision and ten marketing pages. Orca delivers agentless ASPM through SideScanning™, correlating application findings to the running, internet-exposed workloads and sensitive data around them, so a code-level risk surfaces with its full code-to-cloud attack path attached. A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An application security posture management (ASPM) platform closes that gap. It ingests every scanner’s output, deduplicates and correlates the findings to a single application, and ranks them by what is reachable and exposed. The catch is the market. Search for the best ASPM tools and you get a wall of near-identical listicles, many padding the count with legacy point scanners that test one thing and unify nothing. Underneath the noise, the tools that win in 2026 separate on two things: whether they add real context to the alerts they collect, and whether they connect a code-level finding to the deployed, reachable asset it affects. This guide gives you the criteria that differentiate ASPM tools, a current ranking of the ten best options for 2026, a side-by-side comparison table, use cases by team, and decision guidance by org profile. Criteria come first, on purpose, so you weigh every vendor against one rubric instead of ten sales pages. What Is ASPM (Application Security Posture Management)? Application Security Pos
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Best ASPM Tools in 2026: The Application Security Posture Management Buyer’s Guide
+  - Published: 2026-07-08T17:40:00+00:00
+  - Link: https://orca.security/resources/blog/best-aspm-tools/
+  - Summary: Key Takeaways A modern AppSec team runs static analysis, software composition analysis, dynamic testing, secrets scanning, infrastructure-as-code checks, and container scanners. Each one fires thousands of ungrouped alerts, the same vulnerable dependency shows up in five reports, and nobody can answer the only question that matters: which of these is actually exploitable in production? An […]
+
+### Cluster 80836199e6 — score 8
+
+- Title: Best CSPM Tools in 2026: The Cloud Security Posture Management Buyer’s Guide
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-08T17:30:00+00:00
+- Link: https://orca.security/resources/blog/best-cspm-tools/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Google Cloud, Microsoft Defender, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Palo Alto Networks, Google Cloud, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is CSPM (Cloud Security Posture Management)? What Are CSPM Tools? How CSPM works Why CSPM Tools Matter in 2026 Where CSPM fits vs. CWPP, CIEM, DSPM, and CNAPP What to Look For in CSPM Tools and Vendors Agentless vs. agent-based coverage & deployment speed Context-aware risk prioritization & attack-path analysis Multi-cloud & platform coverage Misconfiguration detection accuracy + compliance framework coverage Automated remediation & DevSecOps / IaC (shift-left) integration Integrations & workflow fit The 10 Best CSPM Tools in 2026 Orca Security: agentless CSPM with unified attack-path context Wiz Palo Alto Networks: Prisma Cloud (Cortex Cloud) Microsoft Defender for Cloud CrowdStrike Falcon Cloud Security Check Point CloudGuard Trend Micro (Trend Vision One: Cloud Security) SentinelOne Singularity Cloud Security Aqua Security Tenable Cloud Security CSPM Tools Compared: Side-by-Side Open-Source CSPM Tools (and Their Limits) How to Choose the Right CSPM Solution How Orca Approaches Cloud Security Posture Management Frequently Asked Questions about CSPM Tools Key Takeaways A CSPM tool continuously discovers cloud resources, checks them against security and compliance policy, and flags the misconfigurations that expose data, so posture drift gets caught before an attacker finds it. The “best CSPM tools” SERP is loud and repetitive. Most roundups rank the publisher first and pad the list with acquired, rebranded, or defunct products, so a current and accurate shortlist beats a long one. CSPM tools separate on two axes: agentless versus agent-based coverage, and context-aware attack-path prioritization versus a flat wall of severity alerts. Read the criteria before the rankings. Judging every vendor against one rubric is the difference between a buying decision and ten marketing pages. Orca delivers agentless CSPM through SideScanning™ across AWS, Azure, and Google Cloud with nothing to deploy, and ties each misconfiguration to the vulnerabilities, identities, and data around it so the reachable risks surface first. Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud security posture management (CSPM) tool exists to close that gap: it continuously discovers cloud resources, measures them against security and compliance policy, and surfaces the misconfigurations that leave data reachable. The catch is the market. Search for the best CSPM tools and you get a wall of near-identical listicles, most ranking the publisher first and padding the count with products that no longer stand alone. Underneath the noise, the tools that win in 2026 separate on two things: broad, agentless coverage that onboards a whole estate without installing software, and context-aware, attack-path prioritization that turns a flood of alerts into a short, ranked action list. This guide gives you the criteria that differentiate CSPM tools, a current ranking of the ten best options for 2026, a side-by-side comparison table, a look at open-source tools, and how the list was built. Criteria come first, on purpose, so you weigh every vendor against one rubric. What Is CSPM (Cloud Security Posture Management)? CSPM, or cloud security posture management, is a category of tooling that continuously monitors cloud environments for misconfigurations, policy violations, and compliance gaps, then helps teams fix them. It watches the cloud control plane, the configuration of your accounts, services, and resources, rather than the workloads running inside them. Configuration is where most self-inflicted cloud risk lives. A storage bucket set to public, a security group open to the internet, an unencrypted database, a disabled audit log, or an over-permissive access policy are all con
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Best CSPM Tools in 2026: The Cloud Security Posture Management Buyer’s Guide
+  - Published: 2026-07-08T17:30:00+00:00
+  - Link: https://orca.security/resources/blog/best-cspm-tools/
+  - Summary: Key Takeaways Cloud misconfigurations remain one of the most common causes of cloud breaches, and the problem compounds with scale. Every new account, region, and managed service adds another place where a setting can drift out of policy, and most teams push hundreds of those changes a week across more than one cloud. A cloud […]
+
 ### Cluster 269da98edf — score 8
 
 - Title: Wiz ASM for any environment, any risk, everywhere
@@ -2865,6 +2925,60 @@ Wiz Pricing Get a demo Get a demo Modern web applications are running everywhere
   - Link: https://www.wiz.io/blog/wiz-asm-auto-recon
   - Summary: Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.
 
+### Cluster 04664daaad — score 8
+
+- Title: Ubiquiti warns of new max severity UniFi OS vulnerability
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-08T08:15:20+00:00
+- Link: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Ubiquiti UniFi
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, zero_day
+- affected_industries: government
+- affected_products: Ubiquiti UniFi
+- cve_ids: CVE-2026-50746, CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, apt_espionage, active_exploitation
+- affected_industries: government
+- affected_products: Ubiquiti UniFi
+- cve_ids: CVE-2026-50746, CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402
+- urgency_signals: actively_exploited, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
+```
+
+#### Full body
+
+```
+Ubiquiti warns of new max severity UniFi OS vulnerability By Sergiu Gatlan July 8, 2026 04:15 AM 0 Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw tracked as CVE-2026-50746 that can be exploited in command injection attacks. The CVE-2026-50746 vulnerability affects UniFi Connect Application (versions 3.4.16 and earlier), a management software suite that Ubiquiti customers can use to automate and manage commercial building operations (including smart LED lighting systems and electric vehicle chargers) via a single interface. "A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi Connect Application to execute a Command Injection on the host device," Ubiquiti explained. The company advised users to update the impacted UniFi Connect app to version 3.4.20 or later to secure their systems against potential attacks. On Thursday, Ubiquiti patched six more critical-severity security issues (CVE-2026-50747, CVE-2026-50748, CVE-2026-54400, CVE-2026-54402, CVE-2026-55115, CVE-2026-55116) in the UniFi Talk, UniFi Access, and UniFi Protect applications, in the company's UniFi OS Server, and across a wide range of Ubiquiti routers, gateways, NAS, and surveillance systems. Ubiquiti has yet to disclose whether any of these vulnerabilities were exploited in the wild before being addressed, but shared that six of them can be exploited in low-complexity attacks that don't require user interaction. Threat intelligence company Censys now tracks over 100,000 UniFi OS instances exposed online, most of them (nearly 50,000 IP addresses) found in the United States. However, there are no details on how many have already been secured against these security flaws or are honeypots. ​Additionally, Censys data also includes historical scan results and may not accurately reflect the number of systems currently exposed on the Internet. Internet-exposed UniFi OS instances (Censys) State-sponsored threat groups and cybercrime hacking groups have often targeted Ubiquiti products in recent years, hijacking them to build botnets designed to conceal malicious activity. For instance, in February 2024, the FBI dismantled Moobot , a botnet of Ubiquiti Edge OS routers used by Russia's Main Intelligence Directorate of the General Staff (GRU) to proxy malicious traffic in cyberespionage attacks. Four years earlier, in April 2022, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) also added a critical command injection flaw (CVE-2010-5330) in Ubiquiti AirOS to its catalog of actively exploited flaws and ordered government agencies to patch their devices within three weeks. More recently, in June, CISA warned that hackers were actively exploiting three max-severity UniFi OS flaws that had been patched one month earlier and mandated that agencies secure their systems within three days. Bishop Fox later demonstrated that the vulnerabilities could be chained to achieve remote code execution with elevated privileges and released a free detection script to help defenders discover vulnerable instances in their environments. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA warns of max severity Ubiquiti flaws exploited in attacks Ubiquiti patches three max severity UniFi OS vulnerabilities Critical UniFi OS bug lets hackers gain root without authentication Microsoft patches RoguePlanet Defender zero-day vulnerability Hackers exploit Roundcube flaw to spy on academic researchers
+```
+
+#### Corroborating sources (2)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Ubiquiti warns of new max severity UniFi OS vulnerability
+  - Published: 2026-07-08T08:15:20+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/
+  - Summary: Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS
+  - Published: 2026-07-08T14:38:05+00:00
+  - Link: https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html
+  - Summary: Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker
+
 ### Cluster 7c88582199 — score 8
 
 - Title: County Government Reportedly Paid $1 Million to Cyber Extortion Group
@@ -2877,18 +2991,18 @@ Wiz Pricing Get a demo Get a demo Modern web applications are running everywhere
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain
+- threat_categories: ai_security, apt_espionage, data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
 - affected_industries: financial_services, government, healthcare, legal_professional
 - affected_products: GitHub, Gitea, Linux kernel
-- urgency_signals: poc_available
+- urgency_signals: no_patch_yet
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security
+- threat_categories: ransomware_extortion, supply_chain, data_breach, apt_espionage, ai_security, web_shell_backdoor
 - affected_industries: healthcare, financial_services, government, legal_professional
 - affected_products: Linux kernel, GitHub, Gitea
-- urgency_signals: poc_available
+- urgency_signals: no_patch_yet
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -2901,7 +3015,7 @@ The alleged victim, believed to be a small Ohio county, reportedly paid the exto
 #### Full body
 
 ```
-A government entity in the US reportedly paid a $1 million ransom to the Kairos cyber extortion group to prevent the public dissemination of information stolen in a May 2025 intrusion, Ransom-ISAC reports. A leaked negotiation transcript shows that the extortion group demanded $3 million in cryptocurrency from the victim organization, but eventually settled for $1 million. Kairos claimed to have stolen over 2 terabytes of data, or approximately 1.6 million files, after accessing the victim’s environment in a brute-force attack. During the three-week negotiation, the victim increased its offer from $100,000 to $430,000, but eventually accepted a hard deadline and the $1 million ransom, which was paid in Bitcoin on June 13. The attackers pressured the victim with public exposure, while maintaining control of deadlines and proof-of-access artifacts. “The affected entity’s responses are consistent with an organization buying time while legal, leadership, financial, and communications decisions were coordinated,” Ransom-ISAC notes. Advertisement. Scroll to continue reading. The anti-ransomware organization notes that the incident was an extortion attack and did not involve file-encrypting ransomware. The attackers’ proof-of-deletion appears selective, not comprehensive, but the listings they provided are consistent with a real file-server scrape. According to Ransom-ISAC, the provided proof of deletion could have been generated by erasing a copy of the data, and no mechanism to independently verify the deletion was provided. Ransom-ISAC did not name the affected organization, but the negotiation transcript identifies it as “a small county with very limited resources.” The affected government body reportedly appears to be Union County, Ohio. In September, the county notified (PDF) 45,487 individuals that their personal information was stolen in a ransomware attack in May 2025. The affected information included names, dates of birth, driver’s license/state ID numbers, passport numbers, Social Security numbers, financial account details, fingerprint information, medical information, and payment card details. SecurityWeek has emailed Union County for a statement on the matter and will update this article if the county responds. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments Latest News Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Critical Gitea Flaw Under Active Exploitation, Researchers Warn CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and t
+A government entity in the US reportedly paid a $1 million ransom to the Kairos cyber extortion group to prevent the public dissemination of information stolen in a May 2025 intrusion, Ransom-ISAC reports. A leaked negotiation transcript shows that the extortion group demanded $3 million in cryptocurrency from the victim organization, but eventually settled for $1 million. Kairos claimed to have stolen over 2 terabytes of data, or approximately 1.6 million files, after accessing the victim’s environment in a brute-force attack. During the three-week negotiation, the victim increased its offer from $100,000 to $430,000, but eventually accepted a hard deadline and the $1 million ransom, which was paid in Bitcoin on June 13. The attackers pressured the victim with public exposure, while maintaining control of deadlines and proof-of-access artifacts. “The affected entity’s responses are consistent with an organization buying time while legal, leadership, financial, and communications decisions were coordinated,” Ransom-ISAC notes. Advertisement. Scroll to continue reading. The anti-ransomware organization notes that the incident was an extortion attack and did not involve file-encrypting ransomware. The attackers’ proof-of-deletion appears selective, not comprehensive, but the listings they provided are consistent with a real file-server scrape. According to Ransom-ISAC, the provided proof of deletion could have been generated by erasing a copy of the data, and no mechanism to independently verify the deletion was provided. Ransom-ISAC did not name the affected organization, but the negotiation transcript identifies it as “a small county with very limited resources.” The affected government body reportedly appears to be Union County, Ohio. In September, the county notified (PDF) 45,487 individuals that their personal information was stolen in a ransomware attack in May 2025. The affected information included names, dates of birth, driver’s license/state ID numbers, passport numbers, Social Security numbers, financial account details, fingerprint information, medical information, and payment card details. SecurityWeek has emailed Union County for a statement on the matter and will update this article if the county responds. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Critical Gitea Flaw Under Active Exploitation, Researchers Warn Critical Adobe ColdFusion Vulnerability Exploited in Attacks Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks Armored Likho APT Targeting Government, Electric Power Entities North Korean Hackers Target Open Source Developers in Supply Chain Attacks Latest News Chrome 150 Update Patches 27 Vulnerabilities 8Layers Raises $2.9 Million for Identity Security Platform Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Webinar Today: Why Email Security Keeps Failing Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry exp
 ```
 
 #### Corroborating sources (1)
@@ -2964,8 +3078,8 @@ Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulner
 - Published: 2026-07-02T19:11:33+00:00
 - Link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 1
+- Corroborating source count: 1
 - Strong signals: Fortinet
 
 #### Cluster taxonomy (union across members)
@@ -2994,18 +3108,13 @@ After gaining a foothold in thousands of Fortinet firewalls, the attackers are s
 Threat Intelligence Cyber Risk Vulnerabilities & Threats Cyberattacks & Data Breaches News FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug. Rob Wright , Senior News Director , Dark Reading July 2, 2026 4 Min Read Source: Just_Super via Getty Images UPDATE The initial access broker (IAB) operation behind the credential-harvesting FortiBleed campaign is working in concert with ransomware actors, indicating the victims of the massive operation are now facing an even greater threat. Research published by SOCRadar this week connects FortiBleed actors with two ransomware-as-a-service (RaaS) gangs, Inc Ransom and Lynx. SOCRadar researchers discovered an operator behind the campaign's infrastructure that was actively logged into the ransom negotiation panels for both groups, and "engaging directly with ransom demands." "Finding a single operator working both panels, using infrastructure traceable back to FortiBleed, is the clearest evidence yet that FortiGate credentials harvested through this campaign are being handed off, or used directly, for ransomware deployment," according to the SOCRadar blog post . The connection to ransomware gangs marks the latest development in this saga. The attacks against insecure Fortinet FortiGate firewalls were initially discovered last month by security consultant Volodymyr "Bob" Diachenko. SOCRadar then later found that the attacks were part of a global campaign it dubbed "FortiBleed," which had compromised thousands of devices and used a Golang-based sniffer to turn firewalls into credential stealers . Related: Safe Events Start With Threat Intel & Digital Security The initial-access campaign targeted 430,000 FortiGate devices across the globe. SOCRadar said the FortiBleed sniffer is currently installed on approximately 12,000 FortiGate firewalls, though previous research indicated the IAB had credentials for more than 30,000 devices. Ransomware Attacks Next Up for FortiBleed Victims? SOCRadar's findings stemmed from an "operational security lapse" in the FortiBleed campaign's infrastructure, which allowed researchers to gain access to the IAB operation's internal files, logs, and operational documentation. In addition to the FortiBleed operator's activity, SOCRadar's Threat Research Unit (STRU) found an Inc-linked open directory that contained datasets with overlapping victims. The STRU also discovered an internal tracking document that contained the campaign's list of FortiGate targets , including data about which credentials were used, which networks were accessed, and whether ransomware was deployed. The STRU found that threat actors had achieved admin-level access on 409 targets. "On 354 of those, the actor completed the full attack chain: VPN compromise, access to the domain controller, and domain admin," according to the vendor. "STRU has confirmed at least 12 ransomware deployments stemming from this access, with hundreds of endpoints encrypted across affected organizations." Related: China-Linked Group Targets Southeast Asia Critical Systems SOCRadar chief information security officer (CISO) Ensar Seker tells Dark Reading that while the company has not yet seen widespread ransomware deployment directly tied to FortiBleed attacks, "access to perimeter security devices can create a clear pathway for ransomware groups, so organizations should treat exposure as a serious pre-ransomware intrusion risk." To date, he says most of the activity we have observed is "more consistent with credential theft, victim profiling, access brokering, and data theft-extortion risk," with SOCRadar's current assessment being that the IAB group is separate from the Inc and Lynx RaaS gangs, who are likely paying for the access. "The evidence points to an access-supply layer where compromised Fortinet environments and related victim data are
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
   - Published: 2026-07-02T19:11:33+00:00
   - Link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
   - Summary: After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations
-  - Published: 2026-07-02T08:00:49+00:00
-  - Link: https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html
-  - Summary: The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. "An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment
 
 ### Cluster 9799cce73c — score 8
 
@@ -3062,14 +3171,10 @@ Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Re
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion
-- affected_products: Linux kernel
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft
-- affected_products: Linux kernel
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3082,7 +3187,7 @@ Cybersecurity researchers have disclosed details of a now-patched critical sessi
 #### Full body
 
 ```
-Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants  Ravie Lakshmanan  Jul 07, 2026 AI Security / Vulnerability Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer , an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise. The one-click vulnerability has been codenamed WriteOut by the Sand Security Research team. "An outsider could go from having no access to taking over any Writer AI organization inside industry-leading enterprises, with nothing more than a link," the cybersecurity company said in a report shared with The Hacker News. Put differently, the shortcoming could be abused to take over a victim's Writer account, and use it to access private chats, documents, and other sensitive data related to agents, configurations, private models, connectors, and large language model (LLM) credentials. Even worse, it could be abused to seize administrative control depending on the victim's role. An important aspect of the flaw is that the attacker and the victim don't have to belong to the same organization. An attacker can create an agent in their own Writer account and share a preview link. That's all it takes to trigger the vulnerability, essentially making it possible to hijack the account of a victim who clicks on the link and is signed in with their own session. "An attacker can abuse Writer's AI managed sandbox to collect sessions belonging to completely separate companies and act inside each of them as a real user, with no prior foothold anywhere," Sand Security said. WriteOut also undermines the shared responsibility model as it breaks tenant isolation protections by taking advantage of Writer's live preview feature that allows users to preview the application via the Writer Framework. The entire attack chain plays out as follows - An attacker builds an agent with a live preview and shares its public preview link. When a logged-in Writer user opens that link, their browser attaches their Writer session cookie to the request. The preview proxy sends that cookie into the attacker's sandbox . The code contained within the attacker-controlled sandbox reads the forwarded session token and exfiltrates it. The attacker replays the token and gains control of the victim's Writer account. Because an attacker can instruct their pre-built malicious agent to run code inside the controlled, managed sandbox, it makes it possible to read the sandbox process's memory, recover the exfiltrated session token of the victim, and transmit it to a server they maintain. Following responsible disclosure, Writer has addressed the issue by preventing the user's session cookie from being forwarded into sandbox previews entirely, and moving them to an isolated origin. "Writer wasn't careless, there were guardrails. Input-side filtering tried to block users from reading environment variables or submitting obviously malicious code," Sand Security said. "The problem is what those checks looked at: the instruction, not the runtime behavior." "Bypassing the guardrail was pretty straightforward: Instead of pasting the payload inline, we simply told the agent to fetch and run a remote script. The guardrail saw a benign 'download and run' request, and the actual exploit logic never appeared in the prompt at all." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  AI Security , Cloud security , enterprise security , Sandbox Security , session hijacking , Vulnerability , Web Security ⚡ Top Stories This Week ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets Amazon Q Developer Flaw Could Let Malicious Repo
+Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants  Ravie Lakshmanan  Jul 07, 2026 AI Security / Vulnerability Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer , an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise. The one-click vulnerability has been codenamed WriteOut by the Sand Security Research team. "An outsider could go from having no access to taking over any Writer AI organization inside industry-leading enterprises, with nothing more than a link," the cybersecurity company said in a report shared with The Hacker News. Put differently, the shortcoming could be abused to take over a victim's Writer account, and use it to access private chats, documents, and other sensitive data related to agents, configurations, private models, connectors, and large language model (LLM) credentials. Even worse, it could be abused to seize administrative control depending on the victim's role. An important aspect of the flaw is that the attacker and the victim don't have to belong to the same organization. An attacker can create an agent in their own Writer account and share a preview link. That's all it takes to trigger the vulnerability, essentially making it possible to hijack the account of a victim who clicks on the link and is signed in with their own session. "An attacker can abuse Writer's AI managed sandbox to collect sessions belonging to completely separate companies and act inside each of them as a real user, with no prior foothold anywhere," Sand Security said. WriteOut also undermines the shared responsibility model as it breaks tenant isolation protections by taking advantage of Writer's live preview feature that allows users to preview the application via the Writer Framework. The entire attack chain plays out as follows - An attacker builds an agent with a live preview and shares its public preview link. When a logged-in Writer user opens that link, their browser attaches their Writer session cookie to the request. The preview proxy sends that cookie into the attacker's sandbox . The code contained within the attacker-controlled sandbox reads the forwarded session token and exfiltrates it. The attacker replays the token and gains control of the victim's Writer account. Because an attacker can instruct their pre-built malicious agent to run code inside the controlled, managed sandbox, it makes it possible to read the sandbox process's memory, recover the exfiltrated session token of the victim, and transmit it to a server they maintain. Following responsible disclosure, Writer has addressed the issue by preventing the user's session cookie from being forwarded into sandbox previews entirely, and moving them to an isolated origin. "Writer wasn't careless, there were guardrails. Input-side filtering tried to block users from reading environment variables or submitting obviously malicious code," Sand Security said. "The problem is what those checks looked at: the instruction, not the runtime behavior." "Bypassing the guardrail was pretty straightforward: Instead of pasting the payload inline, we simply told the agent to fetch and run a remote script. The guardrail saw a benign 'download and run' request, and the actual exploit logic never appeared in the prompt at all." Update Following the publication of the story, Writer said it moved quickly to confirm the vulnerability and implement a fix to remove the session credentials from sandbox previews entirely and migrate previews to an isolated origin so that the session token is no longer reachable from inside the sandbox. "Enterprise-grade security is a core commitment for Writer, not a checkbox," a spokesperson for Writer told The Hacker News. "This was a vulnerability that we fixed within 24 hours of notification in May 2026. No customer data was compromised as a result of this vulnerability, and we have no evidence of malic
 ```
 
 #### Corroborating sources (1)
