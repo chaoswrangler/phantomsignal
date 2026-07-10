@@ -6,9 +6,41 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 10 Jul 2026 18:39:02 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 20:37:47 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Armenian national pleads guilty to Ryuk ransomware attacks</title>
+<link>https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/</link>
+<description><![CDATA[Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly $1.2 million in restitution. The post Armenian national pleads guilty to Ryuk ransomware attacks appeared first on CyberScoop .<br/><br/><em>Tags: Scattered Spider · ransomware_extortion · phishing_social_eng · apt_espionage</em>]]></description>
+<pubDate>Fri, 10 Jul 2026 20:13:27 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>Scattered Spider</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
+<category>apt_espionage</category>
+</item>
+<item>
+<title>Turning the Tables on Email Scammers With &apos;ScamBuster&apos;</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster</link>
+<description><![CDATA[An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal operations.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Fri, 10 Jul 2026 19:43:16 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>CISA looks to remedy ailments from big May credential leak</title>
+<link>https://cyberscoop.com/cisa-credential-leak-forensic-report/</link>
+<description><![CDATA[A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it […] The post CISA looks to remedy ailments from big May credential leak appeared first on CyberScoop .]]></description>
+<pubDate>Fri, 10 Jul 2026 18:54:28 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/cisa-credential-leak-forensic-report/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Ryuk ransomware member pleads guilty in the US, faces 15 years in prison</title>
 <link>https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/</link>
@@ -18,17 +50,6 @@
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages</title>
-<link>https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html</link>
-<description><![CDATA[Unknown threat actors compromised the Injective Labs SDK project&apos;s GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was<br/><br/><em>Tags: GitHub · npm</em>]]></description>
-<pubDate>Fri, 10 Jul 2026 17:29:28 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>npm</category>
 </item>
 <item>
 <title>Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence</title>
@@ -58,6 +79,26 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat</title>
+<link>https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html</link>
+<description><![CDATA[Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a &quot;credible external security threat.&quot; The company has temporarily disabled access to the affected accounts, a step it says it took &quot;out of an abundance of caution&quot; while it works with internal and external security]]></description>
+<pubDate>Fri, 10 Jul 2026 16:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages</title>
+<link>https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html</link>
+<description><![CDATA[Unknown threat actors compromised the Injective Labs SDK project&apos;s GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was<br/><br/><em>Tags: GitHub · npm</em>]]></description>
+<pubDate>Fri, 10 Jul 2026 16:29:00 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>npm</category>
 </item>
 <item>
 <title>What’s new with Google Cloud</title>
@@ -652,16 +693,6 @@
 <guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/</guid>
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>Latvian forestry company still restoring systems weeks after ransomware attack</title>
-<link>https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware</link>
-<description><![CDATA[A foreign, financially motivated group was responsible for a cyberattack on state-owned forestry company Latvijas Valsts Mezi (LVM), officials said.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 09 Jul 2026 14:20:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Conditional Access Misconfigurations Exposed 55 Orgs with MFA On</title>
@@ -1443,12 +1474,13 @@
 <item>
 <title>[webapps] WordPress Bricks Builder Theme - RCE</title>
 <link>https://www.exploit-db.com/exploits/52619</link>
-<description><![CDATA[WordPress Bricks Builder Theme - RCE<br/><br/><em>Tags: WordPress</em>]]></description>
+<description><![CDATA[WordPress Bricks Builder Theme - RCE<br/><br/><em>Tags: WordPress · CVE-2024-25600</em>]]></description>
 <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52619</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
+<category>CVE-2024-25600</category>
 </item>
 <item>
 <title>[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter</title>
@@ -1500,15 +1532,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>US Army websites defaced with pro-Kurdish sentiments, insults to Trump</title>
-<link>https://cyberscoop.com/us-army-websites-defaced-404-hijacking-kurdistan/</link>
-<description><![CDATA[At least two websites appear to be victim to 404 hijacking attacks. Army officials took the sites down after being contacted by CyberScoop. The post US Army websites defaced with pro-Kurdish sentiments, insults to Trump appeared first on CyberScoop .]]></description>
-<pubDate>Mon, 06 Jul 2026 17:50:25 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/us-army-websites-defaced-404-hijacking-kurdistan/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems</title>
 <link>https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html</link>
 <description><![CDATA[A use-after-free bug in Linux&apos;s KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed &apos;Januscape&apos; and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit<br/><br/><em>Tags: CVE-2026-53359</em>]]></description>
@@ -1553,16 +1576,6 @@
 <category>cloud_identity_infrastructure</category>
 <category>Google/Gemini</category>
 <category>Google Cloud</category>
-</item>
-<item>
-<title>Sysdig clocks first documented case of agentic ransomware</title>
-<link>https://cyberscoop.com/sysdig-judepuffer-ai-agentic-ransomware-attack/</link>
-<description><![CDATA[The AI agent didn’t accomplish every step in the late June 2026 attack, but it allowed the threat actor to significantly reduce complexity, speed up the tempo and gain operational advantages. The post Sysdig clocks first documented case of agentic ransomware appeared first on CyberScoop .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 06 Jul 2026 15:17:37 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/sysdig-judepuffer-ai-agentic-ransomware-attack/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Indirect Prompt Injection in Web Content Targets AI Agents</title>
@@ -1629,15 +1642,6 @@
 <category>Citrix</category>
 <category>Android</category>
 <category>CVE-2026-46817</category>
-</item>
-<item>
-<title>How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions</title>
-<link>https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html</link>
-<description><![CDATA[Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from chat assistants bolted onto a legacy SIEM to agent platforms that run detection, triage, investigation, and response on their own data foundation. Whether a platform will materially change outcomes for]]></description>
-<pubDate>Mon, 06 Jul 2026 11:30:02 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website</title>
@@ -1747,6 +1751,15 @@
 <guid isPermaLink="true">https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026</guid>
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>Fable&apos;s judgement</title>
+<link>https://simonwillison.net/2026/Jul/3/judgement/#atom-everything</link>
+<description><![CDATA[One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example they gave was testing. You can tell Fable &quot;only use automated testing for larger features, don&apos;t update and run tests for small copy or design changes&quot; - but it&apos;s better to just tell Fable to use its own judgement when deciding to write tests instead. Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use. I prompted Claude Code just now with: For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent Claude saved this memory file in ~/.claude/projects/name-of-pro]]></description>
+<pubDate>Fri, 03 Jul 2026 18:51:06 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/3/judgement/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>June 2026 newsletter</title>
@@ -3394,15 +3407,6 @@
 <guid isPermaLink="true">https://www.chainalysis.com/blog/sandwich-attack-jaredfromsubway-hack/</guid>
 <source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
 <category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>Meeting Trump&apos;s 2030 Quantum Deadline Will be Expensive, Complex</title>
-<link>https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex</link>
-<description><![CDATA[Getting accurate visibility into IT and OT systems will be compounded by multivendor environments, misaligned update life cycles, and interoperability gaps.]]></description>
-<pubDate>Fri, 26 Jun 2026 13:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Beware of the license manager: how a Schneider Electric software vulnerability puts industrial facilities at risk</title>
@@ -8739,15 +8743,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -8756,6 +8751,15 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
+</item>
+<item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -11715,7 +11719,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f855ebb64f0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f9e8636d9a0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20168,7 +20172,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20177,7 +20181,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20186,7 +20190,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20196,7 +20200,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20205,7 +20209,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20214,7 +20218,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20223,7 +20227,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20232,7 +20236,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20241,7 +20245,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20250,7 +20254,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 10 Jul 2026 18:39:02 +0000</pubDate>
+<pubDate>Fri, 10 Jul 2026 20:37:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
