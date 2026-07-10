@@ -1,16 +1,9 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-07-09T22:36:56.201521+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-07-10T00:12:23.864610+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2278,
   &quot;feed_status&quot;: {
-    &quot;Unit 42&quot;: {
-      &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;CrowdStrike&quot;: {
       &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -18,12 +11,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Google Threat Analysis Group&quot;: {
-      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
+    &quot;Unit 42&quot;: {
+      &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 1
     },
     &quot;SentinelOne Labs&quot;: {
       &quot;url&quot;: &quot;https://www.sentinelone.com/labs/feed/&quot;,
@@ -32,11 +25,11 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Trend Micro Research&quot;: {
-      &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
+    &quot;Google Threat Analysis Group&quot;: {
+      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 25,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
     &quot;Microsoft Security Blog&quot;: {
@@ -46,19 +39,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 3
     },
-    &quot;Sekoia&quot;: {
-      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Cisco Talos&quot;: {
-      &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
+    &quot;Trend Micro Research&quot;: {
+      &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 3
+      &quot;item_count&quot;: 25,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Microsoft Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
@@ -67,6 +53,20 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
+    &quot;Check Point Research&quot;: {
+      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;Sekoia&quot;: {
+      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Citizen Lab&quot;: {
       &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -74,25 +74,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
+    &quot;Cisco Talos&quot;: {
+      &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 3
+    },
     &quot;NCSC UK&quot;: {
       &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
       &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;Kaspersky Securelist&quot;: {
-      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 3
-    },
-    &quot;Check Point Research&quot;: {
-      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 2
     },
     &quot;SANS Internet Storm Center&quot;: {
@@ -102,12 +95,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 8
     },
-    &quot;ESET WeLiveSecurity&quot;: {
-      &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
+    &quot;Kaspersky Securelist&quot;: {
+      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 2
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 3
     },
     &quot;Horizon3 Attack Research&quot;: {
       &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
@@ -123,11 +116,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Recorded Future&quot;: {
-      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
+    &quot;GitHub Security Lab&quot;: {
+      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;ESET WeLiveSecurity&quot;: {
+      &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
+      &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 2
     },
     &quot;Assetnote&quot;: {
@@ -137,19 +137,19 @@
       &quot;item_count&quot;: 78,
       &quot;in_window_count&quot;: 0
     },
+    &quot;PortSwigger Research&quot;: {
+      &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 40,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Red Canary&quot;: {
       &quot;url&quot;: &quot;https://redcanary.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;GitHub Security Lab&quot;: {
-      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
     },
     &quot;Exploit-DB&quot;: {
       &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
@@ -158,11 +158,18 @@
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 19
     },
-    &quot;PortSwigger Research&quot;: {
-      &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+    &quot;Recorded Future&quot;: {
+      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 40,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;The DFIR Report&quot;: {
+      &quot;url&quot;: &quot;https://thedfirreport.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
     &quot;watchTowr Labs&quot;: {
@@ -179,8 +186,8 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 2
     },
-    &quot;The DFIR Report&quot;: {
-      &quot;url&quot;: &quot;https://thedfirreport.com/feed/&quot;,
+    &quot;Active Countermeasures&quot;: {
+      &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
@@ -193,12 +200,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Active Countermeasures&quot;: {
-      &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
+    &quot;Elastic Security Labs&quot;: {
+      &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Sophos X-Ops&quot;: {
       &quot;url&quot;: &quot;https://news.sophos.com/en-us/category/threat-research/feed/&quot;,
@@ -207,19 +214,12 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Elastic Security Labs&quot;: {
-      &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
+    &quot;SpecterOps&quot;: {
+      &quot;url&quot;: &quot;https://medium.com/feed/specter-ops-posts&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Datadog Security Labs&quot;: {
-      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 3
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Rapid7&quot;: {
       &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
@@ -228,12 +228,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 3
     },
-    &quot;SpecterOps&quot;: {
-      &quot;url&quot;: &quot;https://medium.com/feed/specter-ops-posts&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+    &quot;Datadog Security Labs&quot;: {
+      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 30,
+      &quot;in_window_count&quot;: 3
     },
     &quot;Orca Security Research&quot;: {
       &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
@@ -242,6 +242,13 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
+    &quot;AWS Security Blog&quot;: {
+      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 5
+    },
     &quot;Trail of Bits&quot;: {
       &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
@@ -249,26 +256,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Huntress&quot;: {
-      &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 9
-    },
-    &quot;AWS Security Blog&quot;: {
-      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 4
-    },
     &quot;Permiso Security&quot;: {
       &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 2
+    },
+    &quot;Huntress&quot;: {
+      &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 9
     },
     &quot;Protect AI&quot;: {
       &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
@@ -298,19 +298,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Wiz Research&quot;: {
-      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 4
-    },
     &quot;Google DeepMind Blog&quot;: {
       &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;Wiz Research&quot;: {
+      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 4
     },
     &quot;Cloudflare Radar&quot;: {
       &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/cloudflare-radar/rss/&quot;,
@@ -324,13 +324,6 @@
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;status&quot;: &quot;parse_error&quot;,
       &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;OpenSSF Blog&quot;: {
-      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
     &quot;Google Cloud Security&quot;: {
@@ -354,12 +347,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
-    &quot;BleepingComputer&quot;: {
-      &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+    &quot;OpenSSF Blog&quot;: {
+      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 15
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;The Record&quot;: {
       &quot;url&quot;: &quot;https://therecord.media/feed&quot;,
@@ -368,12 +361,26 @@
       &quot;item_count&quot;: 5,
       &quot;in_window_count&quot;: 5
     },
+    &quot;BleepingComputer&quot;: {
+      &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 15
+    },
     &quot;SecurityWeek&quot;: {
       &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
+    },
+    &quot;AI Snake Oil&quot;: {
+      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
     },
     &quot;CyberScoop&quot;: {
       &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
@@ -396,12 +403,12 @@
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 22
     },
-    &quot;AI Snake Oil&quot;: {
-      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;Dark Reading&quot;: {
+      &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 18
     },
     &quot;Help Net Security&quot;: {
       &quot;url&quot;: &quot;https://www.helpnetsecurity.com/feed/&quot;,
@@ -410,20 +417,6 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
-    &quot;Dark Reading&quot;: {
-      &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 19
-    },
-    &quot;Black Hills Information Security&quot;: {
-      &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Troy Hunt&quot;: {
       &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
@@ -431,11 +424,18 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Krebs on Security&quot;: {
-      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
+    &quot;Schneier on Security&quot;: {
+      &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 5
+    },
+    &quot;Black Hills Information Security&quot;: {
+      &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
     },
     &quot;Team Cymru&quot;: {
@@ -445,19 +445,19 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Krebs on Security&quot;: {
+      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
+    },
     &quot;Reddit r/cybersecurity&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/cybersecurity/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;Schneier on Security&quot;: {
-      &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 5
     },
     &quot;Reddit r/blueteamsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/blueteamsec/.rss&quot;,
@@ -487,12 +487,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Graham Cluley&quot;: {
-      &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+    &quot;The Hacker News&quot;: {
+      &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 3
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 50
     },
     &quot;Reddit r/AskNetsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
@@ -500,13 +500,6 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;The Hacker News&quot;: {
-      &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 50
     },
     &quot;Infosecurity Magazine&quot;: {
       &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
@@ -521,6 +514,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Graham Cluley&quot;: {
+      &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 3
     },
     &quot;Reddit r/netsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/netsec/.rss&quot;,
@@ -1040,38 +1040,7 @@
   ],
   &quot;forward_signals&quot;: {
     &quot;novelty&quot;: {
-      &quot;cves&quot;: [
-        {
-          &quot;value&quot;: &quot;CVE-2026-12486&quot;,
-          &quot;cluster_id&quot;: &quot;118be3a32e&quot;,
-          &quot;first_source&quot;: &quot;Cisco Talos&quot;,
-          &quot;first_published&quot;: &quot;2026-07-09T18:52:29+00:00&quot;
-        },
-        {
-          &quot;value&quot;: &quot;CVE-2026-12488&quot;,
-          &quot;cluster_id&quot;: &quot;118be3a32e&quot;,
-          &quot;first_source&quot;: &quot;Cisco Talos&quot;,
-          &quot;first_published&quot;: &quot;2026-07-09T18:52:29+00:00&quot;
-        },
-        {
-          &quot;value&quot;: &quot;CVE-2026-25106&quot;,
-          &quot;cluster_id&quot;: &quot;118be3a32e&quot;,
-          &quot;first_source&quot;: &quot;Cisco Talos&quot;,
-          &quot;first_published&quot;: &quot;2026-07-09T18:52:29+00:00&quot;
-        },
-        {
-          &quot;value&quot;: &quot;CVE-2026-28739&quot;,
-          &quot;cluster_id&quot;: &quot;118be3a32e&quot;,
-          &quot;first_source&quot;: &quot;Cisco Talos&quot;,
-          &quot;first_published&quot;: &quot;2026-07-09T18:52:29+00:00&quot;
-        },
-        {
-          &quot;value&quot;: &quot;CVE-2026-33091&quot;,
-          &quot;cluster_id&quot;: &quot;118be3a32e&quot;,
-          &quot;first_source&quot;: &quot;Cisco Talos&quot;,
-          &quot;first_published&quot;: &quot;2026-07-09T18:52:29+00:00&quot;
-        }
-      ],
+      &quot;cves&quot;: [],
       &quot;actors&quot;: [],
       &quot;products&quot;: []
     },
@@ -1187,6 +1156,24 @@
           &quot;Apple iOS/macOS&quot;,
           &quot;Ivanti&quot;
         ]
+      },
+      {
+        &quot;actor&quot;: &quot;Silent Ransom Group&quot;,
+        &quot;cluster_id&quot;: &quot;d7f247f4ee&quot;,
+        &quot;new_industries&quot;: [
+          &quot;government&quot;
+        ],
+        &quot;new_products&quot;: [],
+        &quot;prior_top_industries&quot;: [
+          &quot;critical_infrastructure&quot;,
+          &quot;financial_services&quot;,
+          &quot;legal_professional&quot;
+        ],
+        &quot;prior_top_products&quot;: [
+          &quot;OpenAI/ChatGPT&quot;,
+          &quot;SolarWinds&quot;,
+          &quot;WordPress&quot;
+        ]
       }
     ],
     &quot;persistence&quot;: [
@@ -1206,6 +1193,12 @@
         &quot;axis&quot;: &quot;actor_attribution&quot;,
         &quot;value&quot;: &quot;TeamPCP&quot;,
         &quot;cluster_id&quot;: &quot;3605cd5f8c&quot;,
+        &quot;weeks_observed&quot;: 5
+      },
+      {
+        &quot;axis&quot;: &quot;actor_attribution&quot;,
+        &quot;value&quot;: &quot;Silent Ransom Group&quot;,
+        &quot;cluster_id&quot;: &quot;d7f247f4ee&quot;,
         &quot;weeks_observed&quot;: 5
       },
       {
@@ -2395,7 +2388,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
+      &quot;score&quot;: 9,
       &quot;full_body&quot;: &quot;Nebula Security has published technical information and exploit code targeting a Linux kernel vulnerability that affects all major distributions since 2011. Tracked as CVE-2026-43499 and referred to as GhostLock , the security defect was introduced in Linux 2.6.39 and lurked in the kernel for 15 years until a patch was rolled out in April. GhostLock is a use-after-free issue introduced with a helper function designed to clean up after a task has been closed, as part of the kernel’s system of prioritizing urgent tasks. Normally, the cleanup function would clear the current task. Due to the security defect, when a deadlock is encountered and a rollback occurs, the function clears the memory and reuses it while a pointer to it exists in another task. The issue exists because the function assumes that the current task is the one that needs to be cleared up. However, when a requeue is requested, the function cleans up on behalf of a sleeping thread instead of the current one. Nebula Security says it was able to exploit the vulnerability to control the inadvertently freed memory and achieve local privilege escalation to root. Advertisement. Scroll to continue reading. It also demonstrated that the security defect could be exploited for a container escape in Google’s kernelCTF program and received a $92,337 bug bounty reward. GhostLock is the latest in a series of Linux kernel flaws that have been publicly disclosed over the past months. The list also includes Januscape , Bad Epoll , DirtyClone , CIFSwitch , DirtyDecrypt (aka DirtyCBC), Fragnesia , and Dirty Frag . Related: Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Related: Chrome 150 Update Patches 27 Vulnerabilities Related: Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices Related: CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 8Layers Raises $2.9 Million for Identity Security Platform Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices Accenture Confirms Data Breach After Hacker Claims Source Code Theft China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection County Government Reportedly Paid $1 Million to Cyber Extortion Group Latest News QIZ Security Raises $17 Million for Cryptographic Governance Platform UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge Palo Alto Networks Patches 13 Vulnerabilities 12 Million Impacted by Data Breach at Japanese Telco KDDI Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Mount Royal University Confirms Data Stolen in Ransomware Attack AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Chrome 150 Update Patches 27 Vulnerabilities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can&#x27;t keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year&#x27;s summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environments. Interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. Regi&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2427,7 +2420,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -2460,7 +2453,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 14,
+      &quot;score&quot;: 13,
       &quot;full_body&quot;: &quot;GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses  Ravie Lakshmanan  Jul 09, 2026 Malware / Endpoint Security Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the wild on May 21, 2026. It&#x27;s assessed to be a rebrand of the Beast ransomware, which, in turn, was an enhanced version of Monster , a Delphi-based ransomware that surfaced in March 2022. Broadcom&#x27;s cybersecurity arm is tracing the developer behind these ransomware families under the moniker Hyadina. In one attack orchestrated by the ransomware operation in early June 2026, the threat actors are said to have leveraged AnyDesk for remote access and used a NirSoft-based credential harvesting toolkit before deploying the ransomware. The exact initial access vector is unknown. The credential harvester is designed to extract sensitive data from common web browsers, Windows Credential Manager, cached domain credentials, VNC sessions, email clients, Wi-Fi profiles, and live network traffic. Also put to use in the attack is a user-mode defense evasion tool that&#x27;s dressed as a Symantec product (\&quot;symantec.exe\&quot;) and the PoisonX kernel driver (\&quot;g11.sys\&quot;) to disable endpoint defenses in what&#x27;s called a bring your own vulnerable driver (BYOVD) attack. \&quot;However, the PoisonX driver seems to be slightly more unusual, in that it appears to be a malicious driver that its developers succeeded in getting signed by Microsoft, and it is now being used by ransomware attackers,\&quot; the Symantec Threat Hunter Team said in a report shared with The Hacker News. It&#x27;s worth noting that PoisonX is one of the eight drivers adopted by the operators of The Gentlemen ransomware-as-a-service (RaaS) scheme in its custom GentleKiller tool that it hands out to affiliates for impairing system defenses prior to executing the encryptor. \&quot;Vulnerable drivers are the attacker&#x27;s most reliable route in,\&quot; Broadcom noted last month. \&quot;The attacker, having gained administrator privileges, can drop a flawed but validly signed driver onto the target machine. Because the driver is signed, Windows loads it automatically.\&quot; \&quot;The most common action is to kill the processes belonging to antivirus (AV) or endpoint detection and response (EDR) products, stripping the machine of its defenses. Some variants are more subtle. Attackers may strip the security agent of the rights it needs to function correctly, leaving it running but unable to act. Others tamper directly with the kernel&#x27;s internal records so that the security product no longer receives notifications about what is happening on the machine, effectively making it blind.\&quot; The attack is also characterized by the use of PsExec to facilitate lateral movement, followed by setting up AnyDesk on each of those reachable hosts and registering it as an auto-start Windows service to survive reboots. On some machines, the entire AnyDesk setup is handled by a PowerShell script pre-staged on the system drive, suggesting the use of a reusable installer to streamline the process. \&quot;After completing the AnyDesk setup on each host, the attackers terminated the running AnyDesk process, waited briefly, then rebooted the machine,\&quot; Symantec said. \&quot;By the end of June 2, this deployment sequence had been repeated across at least 10 hosts within the targeted organization.\&quot; The cybersecurity company said GodDamn ransomware was first detected on June 3 on a separate network segment associated with a distinct organizational unit, causing the files to be renamed with the victim&#x27;s name as the extension instead of the \&quot;.God8Damn\&quot; extension used in other attacks carried out by Hyadina. According to a report released by CYFIRMA, the ransom note dropped at the end of the intrusion urges victims to contact them either via email or t&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2935,28 +2928,20 @@
           &quot;web_shell_backdoor&quot;
         ],
         &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
-        ],
-        &quot;affected_products&quot;: [
-          &quot;GitHub&quot;
-        ],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {
-          &quot;GitHub&quot;: &quot;target&quot;
-        },
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8,
-      &quot;full_body&quot;: &quot;Sebastian Obregoso Security Researcher Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Eslam Salem Manager, Security Research Key points and observations On July 8, 2026, version 1.20.21 of @injectivelabs/sdk-ts (an npm package with approximately 175,000 monthly downloads used by developers building on the Injective blockchain) was published with a hidden credential-stealing module disguised as SDK telemetry. The malicious code was injected through a GitHub commit that appears to originate from a legitimate maintainer. The malicious code hooked the two primary key-derivation entry points, PrivateKey.fromMnemonic() and PrivateKey.fromHex() , capturing raw Bitcoin Improvement Proposal 39 (BIP-39) mnemonic seed phrases and private keys at the moment a wallet is loaded. Captured secrets are base64-encoded and smuggled inside the X-Request-Id HTTP header of requests sent to a remote endpoint. The malicious version was live for approximately 49 minutes before the maintainer reverted the code in another commit and released the malware-free version 1.20.23 . What happened Injective is a blockchain targeted at the finance industry, where users, institutions, and even AI agents can perform transactions. Developers interacting with this service can leverage the TypeScript SDK, injective-ts , published on npm under @injectivelabs/sdk-ts . This package has over 30,000 weekly downloads. On July 8 at 8:24:40 p.m. UTC, commit 0121928 was pushed on GitHub with obfuscated code that exfiltrates users&#x27; private keys and seed phrases to a remote server. Investigating suspicious GitHub commits The malicious commit was pushed directly to the main branch, which appears to be abnormal behavior for the committing user: The malicious commit 0121928, titled \&quot;chore: add key derivation telemetry for SDK usage analytics,\&quot; pushed directly to the master branch (click to enlarge) This commit contains the malicious source code in an obfuscated format. A few minutes later, after continuous integration (CI) failed to release the project due to linting warnings from prettier, two additional formatting commits ( fd105db and 5486f13 ) were pushed: Sample follow-up malicious commit attempting to fix CI linting issues after having pushed malicious code (click to enlarge) By analyzing the Git metadata of these three commits, we determined that these commits were performed from a machine configured in the UTC-4 timezone, which had never occurred before for the user: Scatter plot of the committing user&#x27;s UTC timezone offset over time, showing the malicious commits at UTC-4, a timezone never previously used by this user (click to enlarge) Based on these elements, we assess these commits were performed by a malicious actor, while follow-up commits attempting to clean up the code were likely pushed by the legitimate developer. Analyzing the malicious payload In the malicious commit, one new file packages/sdk-ts/src/core/accounts/PrivateKey.ts is introduced which contains code that looks legitimate as a telemetry collection file: /** * Key derivation telemetry â collects anonymized usage metrics for SDK optimization. * * Tracks which key derivation methods are used (hex vs mnemonic) and derives * timing patterns to help the SDK team identify performance bottlenecks and * understand adoption of different key formats across the ecosystem. * * All metrics are fire-and-forget and never block or affect key derivation. * * @category Telemetry */ The docblock claims that this is key derivation methods and timing, while analyzing the obfuscated code shows sensitive data is exfiltrated instead. The code itself obfuscates the endpoint where the data is exfiltrated: const _e = [ 116 , 101 , 115 , 116 , 110 , 101 , 116 , 46 , 97 , 114 , 99 , 104 , 105 , 118 , 97 , 108 , 46 , 99 , 104 , 97 , 105 , 110 , 46 , 103 , 114 , 112 , 99 , 45 , 119 , 101 , 98 , 46 , 105 , 110 , 106 , 101 , 99 , 116 , 105 , 118 , 101 , 46 , 110 , 101 , 116 , 119 , 111 , 114 , 107 , ] const _d = &quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;Graham Cluley&quot;,
@@ -2986,7 +2971,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
+      &quot;score&quot;: 9,
       &quot;full_body&quot;: &quot;Graham Cluley @ 12:19 am, July 9, 2026 @grahamcluley.com / grahamcluley A 15-year-old boy asked a chatbot for help – and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, “JadePuffer”. What does this tell us about the future of cybersecurity? Also, Apple’s “Hide My Email” feature turns out to hide rather less than it promises – despite Apple knowing it has a problem for over a year. All this and more in this episode of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose. Smashing Security #475 JadePuffer - the AI that ran a ransomware attack all by itself ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. ZOE ROSE We need an LLM that says, here&#x27;s how to do it. And don&#x27;t forget to consider these things. Unknown No, no, we don&#x27;t need that actually, Zoe. We don&#x27;t need any help for the criminals in covering up the tracks. Interesting. Interesting that you should suggest that. Smashing Security, episode 475. JadePuffer, the AI that ran a ransomware attack all by itself. With Graham Cluley and special guest Zoe Rose. Hello, hello, and welcome to Smashing Security episode 475. My name&#x27;s Graham Cluley. ZOE ROSE And I&#x27;m Zoe Rose. GRAHAM CLULEY Hello, Zoe. Welcome back to the show. It&#x27;s been a while since you&#x27;ve been on. How are you doing? ZOE ROSE Well, usually when I join, something massive has happened. GRAHAM CLULEY Right. ZOE ROSE At the moment, I have not acquired another child or a pet. GRAHAM CLULEY So, well done. ZOE ROSE Yeah. GRAHAM CLULEY So for those who don&#x27;t know Zoe, what are you? I mean, people who haven&#x27;t heard of you before, what do you do exactly? ZOE ROSE That&#x27;s a good question. What do I do? I work in security and pretend I know what I&#x27;m talking about half the time. GRAHAM CLULEY Oh, okay. It seems fair enough. And you work for a big company? ZOE ROSE I have a bloody long title now, actually. That&#x27;s the change. That&#x27;s what&#x27;s new. My title has massively increased. GRAHAM CLULEY Okay, give us your title. Let&#x27;s hear it. ZOE ROSE All right. It is C-Cert, which if you know what that stands for, it has more words, but we&#x27;ll just stick to some letters. Security Operations Development Manager. GRAHAM CLULEY Wow. ZOE ROSE Yeah. GRAHAM CLULEY Security Operations Development Manager, like SODOM, is basically what you&#x27;re saying. Unknown Yeah, sure. GRAHAM CLULEY Interesting. Well, before we kick off, let&#x27;s thank this week&#x27;s wonderful sponsors, Arctic Wolf, NordLayer, and Vanta. We&#x27;ll be hearing more about them later on in the podcast. This week on Smashing Security, we&#x27;re not going to be talking about how a Greek politician investigating spyware had his own mobile phone hacked. You&#x27;ll hear no discussion of how a US Department of Homeland Security information sharing database has been accessed by hackers. And we won&#x27;t even mention how hackers are using a fake World Cup t-shirt offer to spread malware. So Zoe, what are you going to be talking about this week? ZOE ROSE I&#x27;m going to talk about Apple&#x27;s Hide My Email isn&#x27;t actually as hidden as it sounds like. GRAHAM CLULEY And I&#x27;m going to be telling the tale of how a 15-year-old with a chatbot became a cybercriminal and what happens when the AI just does the whole job itself. All this and much more coming up on this episode of Smashing Security. JOE Graham, am I right in thinking that Arctic Wolf are sponsoring the show this week? GRAHAM CLULEY You are right, Joe. They&#x27;ve just published a new report, 2026 State of the Cybersecurity Attack Surface, and they analysed over 800,000 real IT assets to find out how exposed organisations actually are. JOE And I&#x27;m guessing everything is hunky-dory. GRAHAM CLULEY No, not so much. The reality is they found 1 in 3 IT assets is&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -6386,8 +6371,11 @@
         &quot;threat_categories&quot;: [
           &quot;ransomware_extortion&quot;
         ],
-        &quot;actor_attribution&quot;: [],
+        &quot;actor_attribution&quot;: [
+          &quot;Silent Ransom Group&quot;
+        ],
         &quot;affected_industries&quot;: [
+          &quot;financial_services&quot;,
           &quot;government&quot;
         ],
         &quot;affected_products&quot;: [],
@@ -6402,7 +6390,9 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 8,
+      &quot;full_body&quot;: &quot;U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case  Swati Khandelwal  Jul 04, 2026 Cyber Extortion / Threat Intelligence A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC , built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos , but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single machine: no encryptor, no locker, no demand for a decryption key. The threat was simpler. Steal the files, then charge the victim not to publish them. Krishnan does not name the victim, but the chat points to Union County, Ohio. The proof-of-theft files carry names like Union.xlsx, 1 union co psi template.doc, and a final archive called union.rar. The victim calls itself a small county with limited resources. The attacker leans on one folder in particular, marked \&quot;prosecutors office,\&quot; warning that leaking it would help criminals dodge charges. The clues fit a real case. In May 2025, Union County, Ohio, said it detected ransomware on its network and later notified 45,487 residents and staff that their data had been taken, affecting most of the county of roughly 70,000. The stolen records ran from Social Security and financial details to fingerprints and passport numbers. Neither the county nor Kairos has confirmed the connection. But if it holds, a county government paid about $1 million it never publicly disclosed. The Hacker News has contacted the Union County Commissioners&#x27; Office for comment. This story will be updated with any response. The negotiation ran for about a month. Kairos opened at $3 million and claimed it was holding more than 2 terabytes of data, some 1.6 million files. The county started at $100,000, crept up to $255,000, then $430,000. Kairos dropped to $2 million, then set a hard final number: $1 million, pay by Friday, or the files go public. The payment on-chain: about 9.44 BTC lands in the Kairos-linked wallet. It used the usual levers: a countdown timer, tight deadlines, and threats to dump the most sensitive folders first. The county paid on June 13, 2025, ten times its first offer. The payment was roughly 9.44 bitcoin, worth about $1 million at the time. Krishnan traced the money from there. Within hours, it was split in two and pushed through a chain of wallets toward deposit addresses tied to the crypto exchanges Bybit, OKX, and a Russian service called BELQI. That kind of tracing hands investigators leads, not names. And the money bought nothing solid. Kairos sent over a \&quot;proof of deletion\&quot; file, but a list of file names shows only that the attacker once had the files, not that the originals were wiped. Paying to make stolen data disappear is an act of faith, and the receipt is written by the thief. Union County called what happened to it ransomware, the word everyone reaches for, but in the Kairos case, nothing was locked. That is the real shift: much of what still gets called ransomware now skips encryption and uses the stolen data itself as the pressure point. Sophos reported in 2025 that only about half of ransomware attacks still involve any encryption, the lowest rate in six years. Some crews have dropped it entirely. Silent Ransom Group , a Conti offshoot, has spent years running pure data-theft extortion against U.S. law and finance firms with no encryptor at all. The Kairos chat fits a familiar negotiation pattern, too. When Black Basta&#x27;s internal chats leaked in February 2025, an analysis of the messages turned up a deal that ran from a $1.5 million demand to a $100,000 counter to a $1 million payment, almost the same arc. Those chats, and the Conti leaks before them in 2022, are how researchers now reconstruct the way these bargains actually get struck. Kairos itself has gone quiet. The leak site is down, and its last known victim showed up in June 2026. Bu&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -6821,6 +6811,33 @@
         }
       },
       &quot;score&quot;: 0
+    },
+    {
+      &quot;source&quot;: &quot;Dark Reading&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs&quot;,
+      &quot;link&quot;: &quot;https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs&quot;,
+      &quot;published&quot;: &quot;2026-07-02T23:01:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.&quot;,
+      &quot;author&quot;: &quot;Nate Nelson&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Unit 42&quot;,
@@ -7844,6 +7861,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;Inside Elastic InfoSec&#x27;s agentic SOC: cutting alert triage from 30 minutes to under 3&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows&quot;,
+      &quot;published&quot;: &quot;2026-07-02T00:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Elastic&#x27;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -7861,33 +7905,6 @@
         &quot;actor_attribution&quot;: [
           &quot;TeamPCP&quot;
         ],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Inside Elastic InfoSec&#x27;s agentic SOC: cutting alert triage from 30 minutes to under 3&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows&quot;,
-      &quot;published&quot;: &quot;2026-07-02T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Elastic&#x27;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
@@ -20278,33 +20295,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Recorded Future&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;category&quot;: &quot;threat_research_primary&quot;,
-      &quot;title&quot;: &quot;May 2026 CVE Landscape&quot;,
-      &quot;link&quot;: &quot;https://www.recordedfuture.com/blog/may-2026-cve-landscape&quot;,
-      &quot;published&quot;: &quot;2026-06-08T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Exploit-DB&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
@@ -20325,6 +20315,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_offensive_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Recorded Future&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;May 2026 CVE Landscape&quot;,
+      &quot;link&quot;: &quot;https://www.recordedfuture.com/blog/may-2026-cve-landscape&quot;,
+      &quot;published&quot;: &quot;2026-06-08T00:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -20508,33 +20525,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Recorded Future&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;category&quot;: &quot;threat_research_primary&quot;,
-      &quot;title&quot;: &quot;Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage&quot;,
-      &quot;link&quot;: &quot;https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins&quot;,
-      &quot;published&quot;: &quot;2026-06-05T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Exploit-DB&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
@@ -20562,6 +20552,33 @@
         &quot;role_map&quot;: {
           &quot;WordPress&quot;: &quot;target&quot;
         },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Recorded Future&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage&quot;,
+      &quot;link&quot;: &quot;https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins&quot;,
+      &quot;published&quot;: &quot;2026-06-05T00:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
@@ -21470,33 +21487,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;AWS Security Blog&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;title&quot;: &quot;Identify unused AWS KMS keys and prevent accidental key deletions&quot;,
-      &quot;link&quot;: &quot;https://aws.amazon.com/blogs/security/identify-unused-aws-kms-keys-and-prevent-accidental-key-deletions/&quot;,
-      &quot;published&quot;: &quot;2026-06-02T19:01:54+00:00&quot;,
-      &quot;summary&quot;: &quot;As you scale your use of Amazon Web Services (AWS), managing KMS keys becomes increasingly important. Whether you manage a handful of keys or thousands across multiple AWS accounts and AWS Regions, there’s often a need to audit key usage to help you meet compliance requirements, evaluate your risk posture, and optimize key management costs. […]&quot;,
-      &quot;author&quot;: &quot;Andrea Rossi&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Unit 42&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -21700,13 +21690,13 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Sophos X-Ops&quot;,
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Pointing a Cursor at evading detection&quot;,
-      &quot;link&quot;: &quot;https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection&quot;,
+      &quot;title&quot;: &quot;From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence&quot;,
       &quot;published&quot;: &quot;2026-06-02T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR&quot;,
+      &quot;summary&quot;: &quot;Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -21727,13 +21717,13 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence&quot;,
+      &quot;title&quot;: &quot;Pointing a Cursor at evading detection&quot;,
+      &quot;link&quot;: &quot;https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection&quot;,
       &quot;published&quot;: &quot;2026-06-02T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.&quot;,
+      &quot;summary&quot;: &quot;AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -27411,13 +27401,13 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Sophos X-Ops&quot;,
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Inside the lethal trifecta: Blast radius reduction in AI agent deployments&quot;,
-      &quot;link&quot;: &quot;https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments&quot;,
+      &quot;title&quot;: &quot;Elastic Security MCP App: Interactive security operations inside your AI Tools&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/elastic-security-mcp-app&quot;,
       &quot;published&quot;: &quot;2026-05-12T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;&lt;p&gt;Seven things security teams can start doing today to reduce risk&lt;/p&gt; Categories: Threat Research Tags: AI, CISO, risk&quot;,
+      &quot;summary&quot;: &quot;Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -27438,13 +27428,13 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Elastic Security MCP App: Interactive security operations inside your AI Tools&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/elastic-security-mcp-app&quot;,
+      &quot;title&quot;: &quot;Inside the lethal trifecta: Blast radius reduction in AI agent deployments&quot;,
+      &quot;link&quot;: &quot;https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments&quot;,
       &quot;published&quot;: &quot;2026-05-12T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.&quot;,
+      &quot;summary&quot;: &quot;&lt;p&gt;Seven things security teams can start doing today to reduce risk&lt;/p&gt; Categories: Threat Research Tags: AI, CISO, risk&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -28459,6 +28449,35 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan&quot;,
+      &quot;published&quot;: &quot;2026-05-07T00:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;financial_services&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -28486,35 +28505,6 @@
         &quot;role_map&quot;: {
           &quot;Anthropic/Claude&quot;: &quot;target&quot;
         },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan&quot;,
-      &quot;published&quot;: &quot;2026-05-07T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
@@ -29630,6 +29620,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;DFIR: From alert to root cause using Osquery without leaving Elastic Security&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/dfir-osquery-elastic-security&quot;,
+      &quot;published&quot;: &quot;2026-05-01T00:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -29653,33 +29670,6 @@
           &quot;poc_available&quot;
         ],
         &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;DFIR: From alert to root cause using Osquery without leaving Elastic Security&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/dfir-osquery-elastic-security&quot;,
-      &quot;published&quot;: &quot;2026-05-01T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
@@ -37209,7 +37199,7 @@
       &quot;title&quot;: &quot;M-Trends 2026: Data, Insights, and Strategies From the Frontlines&quot;,
       &quot;link&quot;: &quot;https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/&quot;,
       &quot;published&quot;: &quot;2026-03-23T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&#x27;title&#x27;, &#x27;M-Trends 2026 is available!&#x27;), (&#x27;body&#x27;, &lt;wagtail.rich_text.RichText object at 0x7f35ac040d60&gt;), (&#x27;btn_text&#x27;, &#x27;Downl&quot;,
+      &quot;summary&quot;: &quot;Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&#x27;title&#x27;, &#x27;M-Trends 2026 is available!&#x27;), (&#x27;body&#x27;, &lt;wagtail.rich_text.RichText object at 0x7f5b23fefa30&gt;), (&#x27;btn_text&#x27;, &#x27;Downl&quot;,
       &quot;author&quot;: &quot;Jurgen Kutscher&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
