@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-11T16:01:32.224867+00:00
+- Generated: 2026-07-11T17:04:44.323877+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 331
+- Total items in window: 332
 - Total clusters raw: 143
 - Total clusters in packet: 55
 - Dropped low score: 88
@@ -80,56 +80,56 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
+  - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -140,11 +140,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -155,13 +150,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -170,30 +170,35 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 19
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
   - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
+  - Item count: 15
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
-  - Item count: 15
+  - Item count: 10
   - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
@@ -205,11 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -220,26 +220,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
-  - Item count: 30
-  - In window count: 3
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 3
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -250,16 +260,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -275,21 +275,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -300,26 +295,31 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 19
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 19
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,13 +330,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,73 +345,83 @@
   - Status: ok
   - Item count: 30
   - In window count: 20
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 10
+  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 22
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 15
+  - Item count: 20
   - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 100
+  - Item count: 15
   - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,31 +435,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 9
+  - In window count: 10
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -1369,11 +1369,6 @@ Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitL
   - Published: 2026-07-07T15:16:22+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/
   - Summary: Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why "filter the injection" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
-  - Published: 2026-07-10T16:29:00+00:00
-  - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
-  - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Injective SDK on npm infected with cryptocurrency wallet stealer
   - Published: 2026-07-09T20:10:00+00:00
@@ -1384,6 +1379,11 @@ Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitL
   - Published: 2026-07-10T08:00:14+00:00
   - Link: https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/
   - Summary: A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
+  - Published: 2026-07-10T16:29:00+00:00
+  - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
+  - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
 
 ### Cluster bfabcf1e25 — score 11
 
@@ -1574,6 +1574,54 @@ AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Pro
   - Link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
   - Summary: Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own
 
+### Cluster b835d1d4b1 — score 10
+
+- Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
+- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Published: 2026-07-09T15:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, web_shell_backdoor
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, web_shell_backdoor
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker techniques, tools, and infrastructure Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Topics Threat intelligence In October 2025, Microsoft Threat Intelligence identified destructive wiping activity and uncovered a sophisticated Go programming language (Golang)-based backdoor we now track as GigaWiper, a versatile implant that combines robust command-and-control (C2) capabilities with multiple destructive payloads, including disk wiping, fake ransomware, and system-level sabotage. GigaWiper is particularly notable for its makeup. It’s not a single, purpose-built tool, but an amalgamation of separate malware families that were folded into GigaWiper as on-demand backdoor commands, giving threat actors the flexibility to choose their mode of destruction: A standalone wiper that operates at the physical disk level, overwriting raw disk content and removing partition metadata. A destructive command that derives from Crucio ransomware and encrypts files with randomly generated keys that are never saved, making decryption impossible. A wiping command that reimplements the logic of FlockWiper, a C-based malware reimplemented in Golang with additional multi-pass secure wiping. The consolidation of multiple destructive capabilities into a modular backdoor reflects a notable shift in wiper malware, which are typically designed purely to destroy rather than to extort and carry real-world consequences. GigaWiper exemplifies threat actors investing in operational efficiency, merging standalone tools into unified platforms that reduce their deployment footprint while expanding their destructive capabilities. GigaWiper is tracked by Google Threat Intelligence Group (GTIG) and Binary Defense as BLUERABBIT. In this blog, we provide a code-level analysis of GigaWiper’s architecture. We’re sharing these findings, along with Microsoft Defender detections and mitigation recommendations, to enable organizations and the security community to investigate and defend against GigaWiper and similar destructive threats. A wiper inside a backdoor Beginning in October 2025, Microsoft Threat Intelligence started observing compromised environments being wiped with destructive tooling. Looking closely at the intrusions, we observed two types of GigaWiper samples: Standalone wiper binaries Larger binaries with robust backdoor functionality Both sample types are unstripped portable executable (PE) files written in Golang. Comparing the two samples showed that the standalone wiper’s code is fully embedded inside the backdoor as one of the commands. The standalone wiper binary The standalone wiper is an unstripped PE written in Golang. Instead of deleting individual files, it wipes at the physical disk level. It identifies physical drives, determines which drive contains the Windows installation, removes partition references from other drives, overwrites raw disk content, and then reboots the system. The wiper starts by enumerating physical disks through Windows Management Instrumentation (WMI) using the following query, giving it the device identifiers and disk metadata it needs before deciding how to handle each drive: Figure 1. Query for enumerating physical disks through WMI The malware then calls main.FindWindowsDrive to determine which physical disk contains the Windows installation (for example, \\.\PHYSICALDRIVE0 ). With that drive identified, it iterates the remaining disk list and calls main.unallocateDrive on each non-Windows drive to remove their partition references. This is achieved with DeviceIoControl and IOCTL_DISK_CREATE_DISK , which reinitializes the disk’s partitioning metadata and effectively wipes the existing partition table entries. If successful, the malware prints to the console “Partitions removed successfully.” Next, it proceeds to wipe each drive. It calls main.writeRandToDrive to overwrite each drive in chunks
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
+  - Published: 2026-07-09T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
+  - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
+  - Published: 2026-07-09T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
+  - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
+
 ### Cluster 4a0789d0ad — score 10
 
 - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
@@ -1616,144 +1664,6 @@ Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani L
   - Published: 2026-07-09T12:55:00+00:00
   - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
   - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
-
-### Cluster b835d1d4b1 — score 10
-
-- Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-07-09T15:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, web_shell_backdoor
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, web_shell_backdoor
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker techniques, tools, and infrastructure Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Topics Threat intelligence In October 2025, Microsoft Threat Intelligence identified destructive wiping activity and uncovered a sophisticated Go programming language (Golang)-based backdoor we now track as GigaWiper, a versatile implant that combines robust command-and-control (C2) capabilities with multiple destructive payloads, including disk wiping, fake ransomware, and system-level sabotage. GigaWiper is particularly notable for its makeup. It’s not a single, purpose-built tool, but an amalgamation of separate malware families that were folded into GigaWiper as on-demand backdoor commands, giving threat actors the flexibility to choose their mode of destruction: A standalone wiper that operates at the physical disk level, overwriting raw disk content and removing partition metadata. A destructive command that derives from Crucio ransomware and encrypts files with randomly generated keys that are never saved, making decryption impossible. A wiping command that reimplements the logic of FlockWiper, a C-based malware reimplemented in Golang with additional multi-pass secure wiping. The consolidation of multiple destructive capabilities into a modular backdoor reflects a notable shift in wiper malware, which are typically designed purely to destroy rather than to extort and carry real-world consequences. GigaWiper exemplifies threat actors investing in operational efficiency, merging standalone tools into unified platforms that reduce their deployment footprint while expanding their destructive capabilities. GigaWiper is tracked by Google Threat Intelligence Group (GTIG) and Binary Defense as BLUERABBIT. In this blog, we provide a code-level analysis of GigaWiper’s architecture. We’re sharing these findings, along with Microsoft Defender detections and mitigation recommendations, to enable organizations and the security community to investigate and defend against GigaWiper and similar destructive threats. A wiper inside a backdoor Beginning in October 2025, Microsoft Threat Intelligence started observing compromised environments being wiped with destructive tooling. Looking closely at the intrusions, we observed two types of GigaWiper samples: Standalone wiper binaries Larger binaries with robust backdoor functionality Both sample types are unstripped portable executable (PE) files written in Golang. Comparing the two samples showed that the standalone wiper’s code is fully embedded inside the backdoor as one of the commands. The standalone wiper binary The standalone wiper is an unstripped PE written in Golang. Instead of deleting individual files, it wipes at the physical disk level. It identifies physical drives, determines which drive contains the Windows installation, removes partition references from other drives, overwrites raw disk content, and then reboots the system. The wiper starts by enumerating physical disks through Windows Management Instrumentation (WMI) using the following query, giving it the device identifiers and disk metadata it needs before deciding how to handle each drive: Figure 1. Query for enumerating physical disks through WMI The malware then calls main.FindWindowsDrive to determine which physical disk contains the Windows installation (for example, \\.\PHYSICALDRIVE0 ). With that drive identified, it iterates the remaining disk list and calls main.unallocateDrive on each non-Windows drive to remove their partition references. This is achieved with DeviceIoControl and IOCTL_DISK_CREATE_DISK , which reinitializes the disk’s partitioning metadata and effectively wipes the existing partition table entries. If successful, the malware prints to the console “Partitions removed successfully.” Next, it proceeds to wipe each drive. It calls main.writeRandToDrive to overwrite each drive in chunks
-```
-
-#### Corroborating sources (2)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
-  - Published: 2026-07-09T15:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
-  - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
-  - Published: 2026-07-09T15:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
-  - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
-
-### Cluster ca7dbcaa1e — score 10
-
-- Title: Winning 54% of the time
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-09T18:00:06+00:00
-- Link: https://blog.talosintelligence.com/winning-54-of-the-time/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-With Wimbledon's help, Hazel argues against the popular myth that "Attackers only need to be right once, but defenders need to be right 100% of the time."
-```
-
-#### Full body
-
-```
-Winning 54% of the time By Hazel Burton Thursday, July 9, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. There’s a fairly cliché phrase in cybersecurity that I’m sure our audience is familiar with: Attackers only need to be right once, whereas defenders need to be right 100% of the time. I guess it captures the asymmetry of this industry, but I’ve never been entirely comfortable with the phrase because it assumes cybersecurity is a game of perfection. One mistake and it's over. I’ve been watching a lot of Wimbledon this week, as I have done since childhood. In fact, I believe my first words were, “C’mon Tim!” (For our non-U.K. audience, I’m referring to tennis player Tim Henman, who made four Wimbledon semi-finals in the late 90s and early 2000s and has a hill in the Wimbledon grounds named after him). Of the “big three” (or the “big four” if you’re Scottish), my favourite was always Rafa Nadal, but I have to admit there’s no one who could deliver a one-handed backhand quite like Roger Federer. I bet that when he swats at a fly, the fly apologises and claps its wings. As I saw him sitting in the Royal Box entirely on his own this week, watching tennis out of pure love of the game while everyone else scoffed their strawberries and cream in the comfort of hospitality, I remembered the commencement speech he gave at Dartmouth a couple of years ago. He told the students that, across his entire career, he won 80% of his matches. But of all the total points he played, he won 54% of them. Tennis is a long game (no one can tell you that more than Novak Djokovic and Felix Auger Aliassime who just played the longest quarter final in Wimbledon’s history last night). And, mathematically in tennis, you can lose more points and overall games than your opponent and still win the match. Which point you win matters more than the total amount of points you win. If you go to the IBM SlamTracker right now, you’ll see all sorts of stats around when players choose to attack, how often they successfully convert those attacking positions into points, and how often they win points they looked destined to lose (the “steal” score). Tennis is hundreds of small decisions: When to attack, when to defend, when to be patient, when to let the point develop. Not all of those decisions pan out because, well, you’re playing against an opponent who’s also making decisions within the point… and not a brick wall. In the SOC, it’s also about making thousands of judgement calls, using whatever hand you’re dealt. And with more context, you’re able to know your environment better and make better decisions. You can test more assumptions and follow a hypothesis that might lead somewhere, or nowhere at all. Because that’s the job, and perfection is a myth. The one big thing Cisco Talos’ latest findings on the China-nexus threat actor UAT-7810 shows they are expanding their Operational Relay Box (ORB) networks with a fresh suite of custom malware. The group exploits known vulnerabilities in unpatched Ruckus and ASUS routers to deploy new tools, including the upgraded "LONGLEASH" and "DOGLEASH" backdoors. UAT-7810 builds these covert networks to provide infrastructure for other APT groups to launch attacks against high-value targets. Why do I care? ORB networks create a massive blind spot. They allow secondary threat actors to mask their origins and route malicious traffic through seemingly innocuous nodes. By compromising edge devices like wireless routers, UAT-7810 builds a highly evasive, decentralized proxy network that easily bypasses traditional perimeter defenses. The active development of sophisticated, multi-platform tools like LONGLEASH shows this group is heavily investing in making their infrastructure incredibly resilient and hard to dismantle. So now what? Because UAT-7810 relies on exploiting n-day vulnerabilities, defenders must ensure all edge devices, particularly Ruckus and ASUS routers, are fully patched. Monitor net
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Winning 54% of the time
-  - Published: 2026-07-09T18:00:06+00:00
-  - Link: https://blog.talosintelligence.com/winning-54-of-the-time/
-  - Summary: With Wimbledon's help, Hazel argues against the popular myth that "Attackers only need to be right once, but defenders need to be right 100% of the time."
-
-### Cluster f6a2962dc9 — score 10
-
-- Title: UAT-7810 continues building ORB networks using new malware
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-07T10:00:05+00:00
-- Link: https://blog.talosintelligence.com/uat-7810/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_products: Cisco
-- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_products: Cisco
-- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
-```
-
-#### Full body
-
-```
-UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = "C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: UAT-7810 continues building ORB networks using new malware
-  - Published: 2026-07-07T10:00:05+00:00
-  - Link: https://blog.talosintelligence.com/uat-7810/
-  - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
 
 ### Cluster 3ee1d54d9d — score 10
 
@@ -1851,6 +1761,96 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July �
   - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
   - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster ca7dbcaa1e — score 10
+
+- Title: Winning 54% of the time
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-09T18:00:06+00:00
+- Link: https://blog.talosintelligence.com/winning-54-of-the-time/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+With Wimbledon's help, Hazel argues against the popular myth that "Attackers only need to be right once, but defenders need to be right 100% of the time."
+```
+
+#### Full body
+
+```
+Winning 54% of the time By Hazel Burton Thursday, July 9, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. There’s a fairly cliché phrase in cybersecurity that I’m sure our audience is familiar with: Attackers only need to be right once, whereas defenders need to be right 100% of the time. I guess it captures the asymmetry of this industry, but I’ve never been entirely comfortable with the phrase because it assumes cybersecurity is a game of perfection. One mistake and it's over. I’ve been watching a lot of Wimbledon this week, as I have done since childhood. In fact, I believe my first words were, “C’mon Tim!” (For our non-U.K. audience, I’m referring to tennis player Tim Henman, who made four Wimbledon semi-finals in the late 90s and early 2000s and has a hill in the Wimbledon grounds named after him). Of the “big three” (or the “big four” if you’re Scottish), my favourite was always Rafa Nadal, but I have to admit there’s no one who could deliver a one-handed backhand quite like Roger Federer. I bet that when he swats at a fly, the fly apologises and claps its wings. As I saw him sitting in the Royal Box entirely on his own this week, watching tennis out of pure love of the game while everyone else scoffed their strawberries and cream in the comfort of hospitality, I remembered the commencement speech he gave at Dartmouth a couple of years ago. He told the students that, across his entire career, he won 80% of his matches. But of all the total points he played, he won 54% of them. Tennis is a long game (no one can tell you that more than Novak Djokovic and Felix Auger Aliassime who just played the longest quarter final in Wimbledon’s history last night). And, mathematically in tennis, you can lose more points and overall games than your opponent and still win the match. Which point you win matters more than the total amount of points you win. If you go to the IBM SlamTracker right now, you’ll see all sorts of stats around when players choose to attack, how often they successfully convert those attacking positions into points, and how often they win points they looked destined to lose (the “steal” score). Tennis is hundreds of small decisions: When to attack, when to defend, when to be patient, when to let the point develop. Not all of those decisions pan out because, well, you’re playing against an opponent who’s also making decisions within the point… and not a brick wall. In the SOC, it’s also about making thousands of judgement calls, using whatever hand you’re dealt. And with more context, you’re able to know your environment better and make better decisions. You can test more assumptions and follow a hypothesis that might lead somewhere, or nowhere at all. Because that’s the job, and perfection is a myth. The one big thing Cisco Talos’ latest findings on the China-nexus threat actor UAT-7810 shows they are expanding their Operational Relay Box (ORB) networks with a fresh suite of custom malware. The group exploits known vulnerabilities in unpatched Ruckus and ASUS routers to deploy new tools, including the upgraded "LONGLEASH" and "DOGLEASH" backdoors. UAT-7810 builds these covert networks to provide infrastructure for other APT groups to launch attacks against high-value targets. Why do I care? ORB networks create a massive blind spot. They allow secondary threat actors to mask their origins and route malicious traffic through seemingly innocuous nodes. By compromising edge devices like wireless routers, UAT-7810 builds a highly evasive, decentralized proxy network that easily bypasses traditional perimeter defenses. The active development of sophisticated, multi-platform tools like LONGLEASH shows this group is heavily investing in making their infrastructure incredibly resilient and hard to dismantle. So now what? Because UAT-7810 relies on exploiting n-day vulnerabilities, defenders must ensure all edge devices, particularly Ruckus and ASUS routers, are fully patched. Monitor net
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Winning 54% of the time
+  - Published: 2026-07-09T18:00:06+00:00
+  - Link: https://blog.talosintelligence.com/winning-54-of-the-time/
+  - Summary: With Wimbledon's help, Hazel argues against the popular myth that "Attackers only need to be right once, but defenders need to be right 100% of the time."
+
+### Cluster f6a2962dc9 — score 10
+
+- Title: UAT-7810 continues building ORB networks using new malware
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-07T10:00:05+00:00
+- Link: https://blog.talosintelligence.com/uat-7810/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_products: Cisco
+- cve_ids: CVE-2020-22653, CVE-2020-22658, CVE-2023-25717, CVE-2025-2492
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
+```
+
+#### Full body
+
+```
+UAT-7810 continues building ORB networks using new malware By Jungsoo An , Asheer Malhotra , Vanja Svajcer , Brandon White Tuesday, July 7, 2026 06:00 APT malware Cisco Talos is actively tracking infrastructure and malware associated with UAT-7810, an advanced persistent threat (APT) actor responsible for maintaining and proliferating the LapDogs Operational Relay Box (ORB) network, first disclosed by SecurityScorecard in 2025. UAT-7810 is most likely tasked with establishing Operational Relay Box (ORB) networks that can then be leveraged by associated secondary threat actors to conduct their own malicious attacks against high value targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware, dubbed “SHORTLEASH,” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Furthermore, we’ve discovered two new malware families in UAT-7810's arsenal: a C-based backdoor we track as “DOGLEASH” and a JAVA-based backdoor we track as “JARLEASH.” Talos assesses with high confidence that UAT-7810 is a China-nexus threat actor based on the infrastructure that it provides to secondary China-nexus APTs such as UAT-5918 . Open-source reporting has also illustrated overlapping tooling between UAT-5918 and UAT-7810. However, at this time, Talos considers UAT-5918 and UAT-7810 separate APT actors tasked with their own set of objectives and targets. Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware dubbed “SHORTLEASH” with a newer version already being developed and hosted on attacker-controlled infrastructure. We track this new version of SHORTLEASH as “LONGLEASH.” Talos has also discovered two more previously unknown tools in UAT-7810's arsenal: DOGLEASH: A malicious backdoor that can execute arbitrary shellcode on the compromised Linux device LEASHTEST: A Linux binary (ELF) that is used for testing rudimentary functionality on MIPS-based embedded devices Talos’ findings also illustrate that UAT-7810 used at least four new servers to host a variety of minor variations of DOGLEASH to deploy against compromised targets. An additional JAVA-based (JAR package) backdoor that we track as “JARLEASH” was also deployed by UAT-7810 on at least one of the three servers for administration purposes, including file management, FTP, SFTP, and Netcat. UAT-7810 exploits n-day vulnerabilities Talos has observed UAT-7810 primarily exploit known vulnerabilities in unpatched Ruckus wireless routers, a tactic UAT-7810 has used since 2025. CVEs exploited include: CVE-2020-22653 CVE-2020-22658 CVE-2023-25717 UAT-7810 infrastructure Talos discovered four new servers being used by UAT-7810 to host malicious payloads for a variety of hardware platforms including MIPS, ARM, and x64. The malware hosted predominantly consists of DOGLEASH, and accompanying shell scripts are executed on compromised systems to download and execute DOGLEASH. All three of the following IP addresses were associated with VPS instances that indicated UAT-7810 acquired and used these servers as download locations: 194.233.92[.]26 217.15.160[.]247 217.15.164[.]147 One of the IPs, “217.15.164[.]147”, was also used as infrastructure to conduct exploitation of ASUS’ AiCloud Routers in early 2026 — specifically CVE-2025-2492 — indicating that UAT-7810 or an associated threat actor likely attempted to expand their ORB network to AiCloud Routers. The other two IPs (“194.233.92[.]26” and “217.15.164[.]147”) hosted a TLS server on port 99 with the certificate fingerprint: c2ab9adaba93ff094b8f3fc37d906014d870582039d276b7bd03e6fd583d8a15 and subject_dn = "C=exploit, ST=exploit, L=exploit, O=exploit, OU=exploit, CN=exploit" Forensic analysis of compromised networking devices led to the discovery of a fourth IP address UAT-7810 used to host their malicious payloads: “95.182.100[.]231”, residing in
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: UAT-7810 continues building ORB networks using new malware
+  - Published: 2026-07-07T10:00:05+00:00
+  - Link: https://blog.talosintelligence.com/uat-7810/
+  - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
+
 ### Cluster 40eaf074fe — score 10
 
 - Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
@@ -1893,6 +1893,88 @@ Table of Contents Core steps of Device Authorization Grant Analysis of a Device 
   - Published: 2026-07-06T09:00:43+00:00
   - Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
   - Summary: The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
+
+### Cluster 9814bfc594 — score 10
+
+- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-08T17:20:21+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+```
+
+#### Full body
+
+```
+Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+  - Published: 2026-07-08T17:20:21+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+
+### Cluster 19a671449e — score 10
+
+- Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-06T13:00:00+00:00
+- Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
+```
+
+#### Full body
+
+```
+How NodeZero® Rapid Response Helps Operationalize BOD 26-04 Tim Jones July 6, 2026 Blogs Translating CISA’s risk-based guidance into faster, evidence-based vulnerability response. Federal vulnerability management is entering a new phase. CISA’s Binding Operational Directive (BOD) 26-04 represents an important evolution in how federal agencies approach vulnerability remediation. Rather than relying primarily on severity scores, the directive encourages agencies to prioritize vulnerabilities based on factors that more closely reflect real-world attacker behavior, including exposure, active exploitation, exploit automation, and technical impact. That shift is especially important now. In June 2026, the United States and its Five Eyes intelligence partners warned that AI-enabled cyberattacks capable of overwhelming government and business defenses are likely months away, not years, and that frontier AI models are poised to transform both offensive and defensive cyber capabilities. For agencies managing large vulnerability backlogs and increasingly compressed remediation timelines, this makes risk-based prioritization more than a policy refinement. It makes it an operational necessity. BOD 26-04 helps agencies focus limited remediation resources on the vulnerabilities most likely to create operational risk rather than treating every critical vulnerability as equally urgent. The next challenge is executing those priorities consistently and efficiently across the enterprise. That is where NodeZero® Rapid Response fits. From Policy to Operational Practice At a practical level, BOD 26-04 moves vulnerability management beyond the familiar question, “How severe is this CVE?” and toward a more operationally relevant one: “How much risk does this vulnerability create in my environment right now?” That distinction is important because two agencies can have the same vulnerable software while facing very different levels of operational risk. Network architecture, identity controls, segmentation, compensating controls, and existing security technologies all influence whether a vulnerability can be exploited and what an attacker could accomplish if exploitation succeeds. This is one of the most significant operational implications of BOD 26-04. Prioritization helps agencies determine where to focus their remediation efforts, but it does not determine whether a prioritized vulnerability creates meaningful exposure within a specific environment. That requires validation through testing, giving security teams evidence they can use to make informed remediation decisions rather than relying solely on vulnerability metadata or assumptions. The Exploit Window Is Shrinking While Most Security Workflows Are Not BOD 26-04 also reflects another reality facing federal defenders. Attackers are moving faster than many traditional vulnerability response processes were designed to support. The exploit window is shrinking while most security workflows are not. The recent Five Eyes warning reinforces this assessment. Their joint assessment concluded that AI is rapidly lowering barriers for malicious actors while increasing the speed, scale, and complexity of cyber operations. In practical terms, reconnaissance, exploit development, target selection, and post-exploitation planning can all accelerate simultaneously, reducing the time between vulnerability disclosure and exploitation. As attackers continue to automate these activities, defenders often still coordinate vulnerability scanners, asset inventories, engineering teams, change management processes, threat intelligence, and operational stakeholders before they can confidently determine whether a newly disclosed vulnerability creates meaningful exposure. The challenge is no longer identifying vulnerable systems. Most agencies already have that visibility. The challenge is reducing uncertainty quickly enough to prioritize the right remediation actions before attackers capitalize on newly disclosed vulnerabili
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
+  - Published: 2026-07-06T13:00:00+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
+  - Summary: CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
 
 ### Cluster 8d0224c08d — score 10
 
@@ -1983,88 +2065,6 @@ The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vib
   - Published: 2026-07-08T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
   - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
-
-### Cluster 9814bfc594 — score 10
-
-- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-08T17:20:21+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
-```
-
-#### Full body
-
-```
-Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
-  - Published: 2026-07-08T17:20:21+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
-  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
-
-### Cluster 19a671449e — score 10
-
-- Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-06T13:00:00+00:00
-- Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
-```
-
-#### Full body
-
-```
-How NodeZero® Rapid Response Helps Operationalize BOD 26-04 Tim Jones July 6, 2026 Blogs Translating CISA’s risk-based guidance into faster, evidence-based vulnerability response. Federal vulnerability management is entering a new phase. CISA’s Binding Operational Directive (BOD) 26-04 represents an important evolution in how federal agencies approach vulnerability remediation. Rather than relying primarily on severity scores, the directive encourages agencies to prioritize vulnerabilities based on factors that more closely reflect real-world attacker behavior, including exposure, active exploitation, exploit automation, and technical impact. That shift is especially important now. In June 2026, the United States and its Five Eyes intelligence partners warned that AI-enabled cyberattacks capable of overwhelming government and business defenses are likely months away, not years, and that frontier AI models are poised to transform both offensive and defensive cyber capabilities. For agencies managing large vulnerability backlogs and increasingly compressed remediation timelines, this makes risk-based prioritization more than a policy refinement. It makes it an operational necessity. BOD 26-04 helps agencies focus limited remediation resources on the vulnerabilities most likely to create operational risk rather than treating every critical vulnerability as equally urgent. The next challenge is executing those priorities consistently and efficiently across the enterprise. That is where NodeZero® Rapid Response fits. From Policy to Operational Practice At a practical level, BOD 26-04 moves vulnerability management beyond the familiar question, “How severe is this CVE?” and toward a more operationally relevant one: “How much risk does this vulnerability create in my environment right now?” That distinction is important because two agencies can have the same vulnerable software while facing very different levels of operational risk. Network architecture, identity controls, segmentation, compensating controls, and existing security technologies all influence whether a vulnerability can be exploited and what an attacker could accomplish if exploitation succeeds. This is one of the most significant operational implications of BOD 26-04. Prioritization helps agencies determine where to focus their remediation efforts, but it does not determine whether a prioritized vulnerability creates meaningful exposure within a specific environment. That requires validation through testing, giving security teams evidence they can use to make informed remediation decisions rather than relying solely on vulnerability metadata or assumptions. The Exploit Window Is Shrinking While Most Security Workflows Are Not BOD 26-04 also reflects another reality facing federal defenders. Attackers are moving faster than many traditional vulnerability response processes were designed to support. The exploit window is shrinking while most security workflows are not. The recent Five Eyes warning reinforces this assessment. Their joint assessment concluded that AI is rapidly lowering barriers for malicious actors while increasing the speed, scale, and complexity of cyber operations. In practical terms, reconnaissance, exploit development, target selection, and post-exploitation planning can all accelerate simultaneously, reducing the time between vulnerability disclosure and exploitation. As attackers continue to automate these activities, defenders often still coordinate vulnerability scanners, asset inventories, engineering teams, change management processes, threat intelligence, and operational stakeholders before they can confidently determine whether a newly disclosed vulnerability creates meaningful exposure. The challenge is no longer identifying vulnerable systems. Most agencies already have that visibility. The challenge is reducing uncertainty quickly enough to prioritize the right remediation actions before attackers capitalize on newly disclosed vulnerabili
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
-  - Published: 2026-07-06T13:00:00+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
-  - Summary: CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
 
 ### Cluster 0514a6908e — score 10
 
@@ -2185,47 +2185,6 @@ Back to Blog Security Operations A Day With Your Vector Command Red Team Pod Tre
   - Link: https://www.rapid7.com/blog/post/so-ditl-day-with-your-vector-command-red-team-pod
   - Summary: Anyone trying to understand continuous red teaming usually gets the same high-level explanation: it is ongoing, attacker-informed, and designed to uncover risk between formal assessments. Useful as that description is, it still leaves most people with the same question, which is what the service actually looks like when a team is working against a real environment day after day. A Vector Command pod answers that question more clearly than a list of features ever could. Five dedicated operators work against a customer environment continuously, each bringing a different specialty, while the pod as a whole simulates the range, coordination, and persistence of a real adversary. Over time, that gives the customer far more than a periodic snapshot. It gives them a team that keeps learning the environment, keeps pressure on the attack surface, and keeps surfacing the kinds of changes that can turn into incidents if no one catches them quickly. Because the environment keeps changing, the value
 
-### Cluster 09c50b3a4b — score 10
-
-- Title: Friday Squid Blogging: “Squidbleed” Vulnerability
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-07-10T21:07:13+00:00
-- Link: https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: government
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.
-```
-
-#### Full body
-
-```
-ResearcherZero • July 11, 2026 4:18 AM De-funding public access to government records and data. The National Archives and Records Administration is closing its facilities in Chicago, San Francisco and Seattle. Staffing was additionally cut by more than 500 employees. Funding has been in dire circumstances for many years and the administration is operating with a reduced budget which hampers its ability to properly function. In 2024 a major report on the status of the National Archives and Records Administration (NARA) warned that NARA desperately needed more funding in order to continue reviewing and declassifying records and meet Freedom of Information requests requirements. As electronic records add to the problem of paper records already overwhelming NARA, the lack of staffing, adequate equipment and infrastructure has seen the backlog of requests grow to the point where requests can become stuck in queues of 12 years waiting to be processed. Many records will now no longer make it to the National Archives. That information will become lost to the public. As public record and federal data access is reduced for the public, or becomes entirely unavailable in many cases, the Trump administration is amassing data for itself to further its own interests and amass even greater power and control. Abrupt changes to how data is collected, have altered once comparable datasets and how information can be looked at over time, obscuring and distorting how different data might be interpreted. Now the Trump administration has begun closing public records facilities containing historical records, gutting the National Archives and deleting or removing access to federal data. Important programs that collect vital statistics and information are being de-funded, wound back and ended. Scientific and historical data is also being deleted as the Trump administration makes changes to government websites, agencies and services. The cost of filing FOI requests has become out of reach for many. Only corporations and the wealthy will have the time and money necessary. Changes to how census and economic data are collected will add to the reduction in data that is available to the public. Removal of scientific and historical information worsens the problem. As facts disappear and access to historical records is lost, fabrications, misinformation and lies will fill the gaps. Without the paper trail , the public cannot hold government accountable for its actions. This is taking place while the government consolidates data for itself and massively expands its surveillance capabilities. When history is rewritten, citizens can find themselves written out of it without warning, as the foundations of society shift around them and administrative errors alter reality. For members of the public to protect their rights, property and liberty, access to public records can be essential. Without that access, the ability of citizens to defend themselves from unreasonable or criminal actions becomes far more difficult. Proving ownership, ancestry or events – perhaps might become impossible – if the documentation required to ascertain certain facts, is no longer accessible or perhaps no longer exists.
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Friday Squid Blogging: “Squidbleed” Vulnerability
-  - Published: 2026-07-10T21:07:13+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html
-  - Summary: In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.
-
 ### Cluster ce7170bd38 — score 10
 
 - Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
@@ -2270,6 +2229,47 @@ A cybersecurity startup dangling millions of dollars to acquire zero-day securit
   - Published: 2026-07-08T12:31:39+00:00
   - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
   - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
+
+### Cluster 09c50b3a4b — score 10
+
+- Title: Friday Squid Blogging: “Squidbleed” Vulnerability
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-07-10T21:07:13+00:00
+- Link: https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- affected_industries: government
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.
+```
+
+#### Full body
+
+```
+ResearcherZero • July 11, 2026 4:18 AM De-funding public access to government records and data. The National Archives and Records Administration is closing its facilities in Chicago, San Francisco and Seattle. Staffing was additionally cut by more than 500 employees. Funding has been in dire circumstances for many years and the administration is operating with a reduced budget which hampers its ability to properly function. In 2024 a major report on the status of the National Archives and Records Administration (NARA) warned that NARA desperately needed more funding in order to continue reviewing and declassifying records and meet Freedom of Information requests requirements. As electronic records add to the problem of paper records already overwhelming NARA, the lack of staffing, adequate equipment and infrastructure has seen the backlog of requests grow to the point where requests can become stuck in queues of 12 years waiting to be processed. Many records will now no longer make it to the National Archives. That information will become lost to the public. As public record and federal data access is reduced for the public, or becomes entirely unavailable in many cases, the Trump administration is amassing data for itself to further its own interests and amass even greater power and control. Abrupt changes to how data is collected, have altered once comparable datasets and how information can be looked at over time, obscuring and distorting how different data might be interpreted. Now the Trump administration has begun closing public records facilities containing historical records, gutting the National Archives and deleting or removing access to federal data. Important programs that collect vital statistics and information are being de-funded, wound back and ended. Scientific and historical data is also being deleted as the Trump administration makes changes to government websites, agencies and services. The cost of filing FOI requests has become out of reach for many. Only corporations and the wealthy will have the time and money necessary. Changes to how census and economic data are collected will add to the reduction in data that is available to the public. Removal of scientific and historical information worsens the problem. As facts disappear and access to historical records is lost, fabrications, misinformation and lies will fill the gaps. Without the paper trail , the public cannot hold government accountable for its actions. This is taking place while the government consolidates data for itself and massively expands its surveillance capabilities. When history is rewritten, citizens can find themselves written out of it without warning, as the foundations of society shift around them and administrative errors alter reality. For members of the public to protect their rights, property and liberty, access to public records can be essential. Without that access, the ability of citizens to defend themselves from unreasonable or criminal actions becomes far more difficult. Proving ownership, ancestry or events – perhaps might become impossible – if the documentation required to ascertain certain facts, is no longer accessible or perhaps no longer exists.
+```
+
+#### Corroborating sources (1)
+
+- **Schneier on Security** (practitioner_analysis)
+  - Title: Friday Squid Blogging: “Squidbleed” Vulnerability
+  - Published: 2026-07-10T21:07:13+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html
+  - Summary: In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.
 
 ### Cluster aa4a893323 — score 10
 
