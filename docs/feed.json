@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T03:34:58.016253+00:00",
+  "generated_at": "2026-07-11T06:20:48.625375+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
@@ -10,6 +10,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
@@ -32,8 +39,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -60,19 +67,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -81,11 +81,11 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 20,
       "in_window_count": 2
     },
     "SANS Internet Storm Center": {
@@ -109,13 +109,6 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -130,6 +123,27 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
@@ -142,20 +156,6 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -179,8 +179,8 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -193,8 +193,8 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -242,19 +242,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 6
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -284,19 +284,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -324,13 +324,6 @@
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Google Cloud Security": {
@@ -361,6 +354,13 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -375,6 +375,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -382,12 +389,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 30,
+      "in_window_count": 20
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -396,12 +403,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -424,11 +431,11 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -438,11 +445,11 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 15,
       "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
@@ -451,20 +458,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -480,12 +473,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -494,18 +501,18 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "Infosecurity Magazine": {
@@ -514,13 +521,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 27
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -762,36 +762,6 @@
       ]
     },
     {
-      "label": "CVE-2026-48313 exploitation activity",
-      "anchor_signal": "CVE-2026-48313",
-      "theme_key": "cve-2026-48313",
-      "dominant_features": {
-        "cve_ids": [
-          "CVE-2026-48283",
-          "CVE-2026-48313"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.281,
-      "shared_strong_signals": [
-        "CVE-2026-48313"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "8e87b71464",
-        "843dce4060"
-      ],
-      "links": [
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/"
-      ]
-    },
-    {
       "label": "CVE-2026-48283 exploitation activity",
       "anchor_signal": "CVE-2026-48283",
       "theme_key": "cve-2026-48283",
@@ -809,6 +779,36 @@
       "cohesion": 0.281,
       "shared_strong_signals": [
         "CVE-2026-48283"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "8e87b71464",
+        "843dce4060"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/"
+      ]
+    },
+    {
+      "label": "CVE-2026-48313 exploitation activity",
+      "anchor_signal": "CVE-2026-48313",
+      "theme_key": "cve-2026-48313",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-48283",
+          "CVE-2026-48313"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.281,
+      "shared_strong_signals": [
+        "CVE-2026-48313"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1036,32 +1036,11 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2024-27822",
-          "cluster_id": "598aa947b4",
-          "first_source": "Rapid7",
-          "first_published": "2026-07-11T00:32:34+00:00"
-        },
-        {
-          "value": "CVE-2026-41264",
-          "cluster_id": "598aa947b4",
-          "first_source": "Rapid7",
-          "first_published": "2026-07-11T00:32:34+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
-    "velocity": [
-      {
-        "cluster_id": "47aa07e166",
-        "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
-        "sources_in_window": 3,
-        "window_hours": 4.8,
-        "cohort_count": 1
-      }
-    ],
+    "velocity": [],
     "leading_edge": [],
     "convergence": [
       {
@@ -1391,7 +1370,7 @@
         }
       },
       "score": 11,
-      "full_body": "Friday Squid Blogging: “Squidbleed” Vulnerability In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy. Tags: cybersecurity , squid , vulnerabilities Posted on July 10, 2026 at 5:07 PM • 0 Comments",
+      "full_body": "ResearcherZero • July 11, 2026 1:19 AM What does Total Information Awareness look like? As AI becomes more prevalent, sensitive and personal information can be extrapolated. The Predicted Person https://telegraph.com/ai-privacy-nothing-to-hide/ Guardrails and regulations to protect privacy are needed now (!) more than ever. https://www.theguardian.com/commentisfree/2026/jul/06/ai-surveillance-policy",
       "fetch_status": "ok"
     },
     {
@@ -1524,7 +1503,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Record",
@@ -1558,9 +1537,7 @@
           "products": []
         }
       },
-      "score": 8,
-      "full_body": "Image: Sasun Bughdaryan via Unsplash Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence U.S. prosecutors announced two milestones this week in their cases against major ransomware groups. Karen Serobovich Vardanyan, a 34-year-old Armenian national, pleaded guilty Wednesday in an Oregon federal court to conspiracy and computer fraud. For about six months beginning in November 2019, he accessed companies’ computer networks to deploy Ryuk ransomware, prosecutors said. Angelo Martino, 41, of Land O’Lakes, Florida, received a 70-month federal prison sentence in a Florida court for helping the Blackcat/AlphV gang extort multiple victims beginning in April 2023. Martino famously used his experience as a ransomware negotiator to help the cybercriminals. Ryuk insider Vardanyan was extradited from Ukraine to the U.S. in June 2025 after his arrest in Kyiv in April. He faces up to 15 years in prison and as much as $500,000 in fines, and he has agreed to pay more than $1.1 million in restitution. Sentencing is scheduled for September 22. “Vardanyan worked with his co-conspirators to attack a company in Michigan that paid 200 bitcoin or over $1.1 million at the time of payment to restore access to their network,” prosecutors said. “They also attacked a company in Wilsonville, Oregon, and in February 2020 attacked a school in Texas.” Ryuk was first detected in August 2018, when it began attacking large organizations with demands for high ransom payments. Law enforcement agencies and cybersecurity researchers have connected it with other major cybercrime operations such as Conti and Trickbot. International authorities have targeted Ryuk for years, successfully prosecuting one of its money launderers and sanctioning other alleged members. Vardanyan’s case is connected to others still being pursued by U.S. prosecutors. Armenian national Levon Georgiyovych Avetisyan has been charged with conspiracy, fraud and extortion. Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko face the same charges. Prosecutors said last year that Avetisyan was in custody in France, and Lyulyava and Prykhodchenko were not in custody. Ransom negotiator turned cybercrook Martino surrendered himself to U.S. Marshals in March and pleaded guilty in April to an extortion charge. Prosecutors said Martino “was paid by BlackCat attackers to provide confidential information about the negotiating position and strategy of his employer’s clients and enable the ransomware actors to maximize the ransoms paid by the victims.” Two other men connected to the same case pleaded — Ryan Goldberg and Kevin Martin — pleaded guilty to extortion charges earlier this year and were given four-year prison sentences in May. Martin and Martino were ransomware negotiators for DigitalMint. Goldberg worked for incident response firm Sygnia. DigitalMint has instituted several new controls that mandate all negotiations be conducted over cloud-based platforms that can be audited and logged. One of the company’s founders is personally overseeing all negotiations. Cybercrime Government News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Joe Warminsky has been the news editor for Recorded Future News since 2022. He has three decades of experience as an editor and writer in the Washington, D.C., area. He previously he helped lead CyberScoop for more than five years. Prior to that, he was a digital editor at WAMU 88.5, the NPR affiliate in Washington, and he spent more than a decade editing coverage of Congress for CQ Roll Call.",
-      "fetch_status": "ok"
+      "score": 7
     },
     {
       "source": "Dark Reading",
@@ -1590,7 +1567,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -1620,7 +1597,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -1648,7 +1625,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -1684,7 +1661,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Google Cloud Security",
@@ -1718,7 +1695,7 @@
           "products": []
         }
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "Infosecurity Magazine",
@@ -1746,7 +1723,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -1774,7 +1751,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SANS Internet Storm Center",
@@ -1802,7 +1779,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "",
       "fetch_status": "fetch_failed:HTTPError"
     },
@@ -1838,7 +1815,7 @@
           "products": []
         }
       },
-      "score": 10
+      "score": 9
     },
     {
       "source": "Infosecurity Magazine",
@@ -2769,7 +2746,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Help Net Security",
@@ -2801,9 +2778,7 @@
           "products": []
         }
       },
-      "score": 8,
-      "full_body": "Help Net Security July 10, 2026 Share Turning software supply chain security into a daily habit In this Help Net Security video, Anastasia Tikhonova, Global Threat Research Lead at Group-IB , explains how to operationalize software supply chain risk. Instead of filing an SBOM away as a compliance document, she argues teams should use it every day for vulnerability triage, vendor access reviews, identity monitoring, and incident response. Drawing on Group-IB’s High-Tech Crime Trend Report 2026, she shows how supply chain attacks now link phishing, ransomware, and data breaches through inherited trust. She breaks down how to prioritize exposed systems, define a compromise window, and contain stolen credentials. She also covers vendor risk scoring based on access and blast radius, and warns that attackers using AI are compressing attack timelines from weeks to minutes. Guide: What automated pentesting alone cannot see More about cybersecurity strategy supply chain attacks threat intelligence tips video Share",
-      "fetch_status": "ok"
+      "score": 7
     },
     {
       "source": "Help Net Security",
@@ -2836,7 +2811,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Risky Business News",
@@ -37014,7 +36989,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fa941163880>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7efdbc198df0>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
