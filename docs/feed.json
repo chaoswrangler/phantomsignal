@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-07-11T19:16:02.571118+00:00",
+  "generated_at": "2026-07-11T20:58:34.653609+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -18,12 +11,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -32,18 +25,18 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Google Threat Analysis Group": {
@@ -60,6 +53,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -74,11 +74,11 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
       "in_window_count": 1
     },
     "Check Point Research": {
@@ -88,12 +88,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -102,12 +102,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -123,12 +123,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
+      "item_count": 50,
+      "in_window_count": 19
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -137,12 +144,12 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -158,12 +165,12 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 19
+      "item_count": 10,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -172,26 +179,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -207,6 +207,13 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -221,47 +228,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 3
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 9
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -270,12 +242,33 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 9
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -283,6 +276,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -305,11 +305,11 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "Coveware": {
@@ -319,19 +319,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 0
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -340,12 +333,12 @@
       "item_count": 20,
       "in_window_count": 19
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -354,12 +347,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 0
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -375,12 +368,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 5,
+      "in_window_count": 5
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -396,19 +389,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 22
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -424,12 +417,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 22
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -445,8 +438,36 @@
       "item_count": 10,
       "in_window_count": 6
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -459,25 +480,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 0
     },
     "Reddit r/netsecstudents": {
@@ -507,13 +514,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -1191,7 +1191,7 @@
       "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
       "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
       "published": "2026-07-11T17:59:26+00:00",
-      "summary": "Version 8.14.0 of the jscrambler npm package shipped with a malicious preinstall hook that silently drops and runs a native infostealer during installation, one build each for Windows, macOS, and Linux. Published on July 11, 2026, it needs no import and no CLI call. Installing 8.14.0 is enough to run it. Socket flagged the release six minutes after it was",
+      "summary": "The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your",
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
@@ -1229,7 +1229,7 @@
         }
       },
       "score": 10,
-      "full_body": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware Version 8.14.0 of the jscrambler npm package shipped with a malicious preinstall hook that silently drops and runs a native infostealer during installation, one build each for Windows, macOS, and Linux. Published on July 11, 2026, it needs no import and no CLI call. Installing 8.14.0 is enough to run it. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. The hook fires before the package is even set up, and none of it appears in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js, which, despite the name, is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep , which each pulled and analyzed the release, both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository, whose latest tag remains 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow, which points to a compromised npm account or build pipeline. Which of the two has not been established. What the binaries do is now clear. Socket, in an updated analysis and a statement to The Hacker News, identifies the payload as a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS. The target list is broad and aimed squarely at developers. It pulls cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints that CI runners use. It reads cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus, and the vault of the Bitwarden password manager. It scrapes browser-stored passwords and cookies, along with Discord, Slack, Telegram, and Steam sessions. And it goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries reach past ordinary theft. On Linux, the payload links the kernel's BPF library and can load an eBPF program into the kernel from memory, a foothold in the kernel rather than the userspace file access the rest of the stealer relies on; StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Source: Step Security Its command-and-control details stay encrypted in the binary and never surfaced in static analysis; StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. That drops the stealer into exactly the environment it was built to rob: the cloud keys, deploy tokens, and source code a build or CI process can reach. The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. Fo",
+      "full_body": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep both pulled and analyzed the release, and both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository. Its latest tag is still 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow. That points to a compromised npm account or build pipeline. Which of the two has not been established. The payload is a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS, according to Socket's updated analysis and a statement to The Hacker News. The target list is broad and aimed at developers: cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints CI runners use; cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus; the Bitwarden password manager vault; browser-stored passwords and cookies; and Discord, Slack, Telegram, and Steam sessions. It also goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries do more than steal. On Linux, the payload links the kernel's BPF library and can load an eBPF program straight into the kernel from memory. That is a foothold in the kernel, not the userspace file access that the rest of the stealer relies on. StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Its command-and-control details stay encrypted in the binary and never surfaced in static analysis. StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. Those environments hold what the stealer collects: cloud keys, deploy tokens, and source code that a build or CI process can reach. Source: Step Security The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. For a stealer aimed at build machines, though, reach was never the point. The access is. The Shai-Hulud worm ran from an install hook to steal tokens and spread through hundreds of packages that ",
       "fetch_status": "ok"
     },
     {
@@ -1557,7 +1557,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian national who was extradited from Ukraine to the United States last year pleaded guilty to participating in a series of attacks in 2019 and 2020 involving Ryuk ransomware, the Justice Department said Thursday. Karen Serobovich Vardanyan pleaded guilty to computer fraud and conspiracy to commit fraud and extortion. He agreed to pay nearly $1.2 million million in restitution and faces up to 15 years in jail. The 34-year-old admitted to participating in cybercrime from November 2019 to April 2020 when he and his co-conspirators deployed Ryuk ransomware against three U.S.-based organizations while living in Ukraine and Russia. Vardanyan’s victims include a Michigan-based company that paid a ransom of nearly $1.2 million in January 2020, a Watsonville, Oregon-based technology company that was attacked in December 2019 and a Texas-based school breached in February 2020. Advertisement Prosecutors previously accused Vardanyan and his co-conspirators — Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko, and Armenian national Levon Georgiyovych Avetisyan — of illegally accessing computer networks to deploy Ryuk ransomware on hundreds of compromised servers and workstations between March 2019 and September 2020. Ryuk ransomware was prevalent in 2019 and 2020, infecting thousands of victims globally across the private sector, state and local municipalities, local school districts and critical infrastructure, including a wave of attacks on U.S. hospitals. Victims of Ryuk ransomware attacks include Hollywood Presbyterian Medical Center , Universal Health Services , Electronic Warfare Associates , a North Carolina water utility and multiple U.S. newspapers. Ryuk ransomware operators extorted victim companies by demanding ransom payments in Bitcoin in exchange for decryption keys. Justice Department officials said Vardanyan and his co-conspirators received about 1,160 bitcoins — valued at more than $15 million at the time — in ransom payments from victim companies. Vardanyan, as part of his guilty plea, also acknowledged that his conviction will have immigration consequences resulting in removal from the United States after serving his sentence. Advertisement The U.S. District Court for the District of Oregon has yet to schedule his sentencing. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The Department of Justice building is seen in Washington, DC, on August 9, 2022. (Photo by Stefani Reynolds / AFP) (Photo by STEFANI REYNOLDS/AFP via Getty Images) Gwengoat, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Technology Deepfake CSAM lawsuit against xAI, Grok expands Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs FCC passes new cybersecurity rules for emergency systems, undersea cables Threats Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities Alleged longstanding member of Scattered Spider extradited to US Researchers spot exploitation of another critical Oracle defect This phishing kit looks more like BEC-as-a-service Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federall",
       "fetch_status": "ok"
     },
@@ -20137,33 +20137,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "May 2026 CVE Landscape",
-      "link": "https://www.recordedfuture.com/blog/may-2026-cve-landscape",
-      "published": "2026-06-08T00:00:00+00:00",
-      "summary": "In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -20184,6 +20157,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "May 2026 CVE Landscape",
+      "link": "https://www.recordedfuture.com/blog/may-2026-cve-landscape",
+      "published": "2026-06-08T00:00:00+00:00",
+      "summary": "In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -20367,33 +20367,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
-      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
-      "published": "2026-06-05T00:00:00+00:00",
-      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -20421,6 +20394,33 @@
         "role_map": {
           "WordPress": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
+      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
+      "published": "2026-06-05T00:00:00+00:00",
+      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -36954,7 +36954,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fac5e13d580>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fb13c251d90>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {

