@@ -6,9 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 11 Jul 2026 06:20:48 +0000</lastBuildDate>
+<lastBuildDate>Sat, 11 Jul 2026 08:52:46 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions</title>
+<link>https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html</link>
+<description><![CDATA[Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user&apos;s session. It has yet to be assigned a CVE identifier. &quot;The]]></description>
+<pubDate>Sat, 11 Jul 2026 06:45:55 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit</title>
 <link>https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit</link>
@@ -21,15 +30,6 @@
 <category>CVE-2026-41264</category>
 <category>CVE-2024-27822</category>
 <category>ai_security</category>
-</item>
-<item>
-<title>Inside Raton RAT: A Commodity Trojan That Tries to Do Everything</title>
-<link>https://www.reddit.com/r/netsec/comments/1ut205g/inside_raton_rat_a_commodity_trojan_that_tries_to/</link>
-<description><![CDATA[submitted by /u/SpectreTv [link] [comments]]]></description>
-<pubDate>Fri, 10 Jul 2026 22:16:31 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1ut205g/inside_raton_rat_a_commodity_trojan_that_tries_to/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>No Manners Here: The Ruthless Rise of The Gentlemen Ransomware</title>
@@ -61,15 +61,6 @@
 <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html</guid>
 <source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Closing the Timing Gap: Defensive Temporal Observability</title>
-<link>https://www.reddit.com/r/netsec/comments/1uszoli/closing_the_timing_gap_defensive_temporal/</link>
-<description><![CDATA[Lately I’ve been thinking about time. Uptime, pulse checks, execution time, response time. We’ve always treated these as health metrics. They tell us whether a system is alive, responsive, and performing as expected. But what if they’re also security metrics? That idea isn’t entirely new. At the network layer, covert timing channels, beaconing detection, and behavioral baselining have shown us for decades that the intervals between events matter. Attackers have long understood that rhythm carries information. More recently, researchers have demonstrated timing side-channel attacks against LLMs, using cache latency to infer private prompts and token cadence to fingerprint model outputs. What I find interesting is the imbalance. Most of the research asks, “How can timing be exploited?” Very little asks, “How can timing help us defend?” A 2026 systematic survey of LLM-agent security identifies temporal anomaly detection infrastructure as an open research gap, noting that current agent dep]]></description>
-<pubDate>Fri, 10 Jul 2026 20:46:21 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uszoli/closing_the_timing_gap_defensive_temporal/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Armenian national pleads guilty to Ryuk ransomware attacks</title>
@@ -334,18 +325,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Can AI-generated adversaries break TTP-based attribution? (arXiv 2026)</title>
-<link>https://www.reddit.com/r/netsec/comments/1uslf2v/can_aigenerated_adversaries_break_ttpbased/</link>
-<description><![CDATA[Cyber Threat Intelligence (CTI) has traditionally attributed attacks through Tactics, Techniques and Procedures (TTPs). In this paper we evaluate whether that assumption still holds when AI agents are explicitly configured to emulate known threat groups. We configured AI agents to reproduce the behavior of APT28, APT29, APT41, APT44 and Lazarus inside enterprise and military cyber ranges. Our results suggest that sufficiently capable AI agents can reproduce TTP patterns closely enough to make attribution based solely on behavioral evidence significantly more difficult. We&apos;d be interested in feedback from practitioners working on CTI, attribution or adversary emulation. submitted by /u/Obvious-Language4462 [link] [comments]<br/><br/><em>Tags: APT28 · APT29 · APT41</em>]]></description>
-<pubDate>Fri, 10 Jul 2026 11:50:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uslf2v/can_aigenerated_adversaries_break_ttpbased/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>APT28</category>
-<category>APT29</category>
-<category>APT41</category>
-</item>
-<item>
 <title>Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers</title>
 <link>https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html</link>
 <description><![CDATA[A single wrong variable on one line in XQUIC, Alibaba&apos;s QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server<br/><br/><em>Tags: CVE-2026-42530 · ddos · active_exploitation</em>]]></description>
@@ -435,15 +414,11 @@
 <item>
 <title>‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism</title>
 <link>https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/</link>
-<description><![CDATA[Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek .<br/><br/><em>Tags: Okta · Palo Alto Networks · GitHub · ransomware_extortion · phishing_social_eng · ai_security</em>]]></description>
+<description><![CDATA[Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek .]]></description>
 <pubDate>Fri, 10 Jul 2026 08:32:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>Okta</category>
-<category>Palo Alto Networks</category>
-<category>GitHub</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Former ransomware negotiator gets 4 years for BlackCat attacks</title>
@@ -1513,15 +1488,15 @@
 <item>
 <title>BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA</title>
 <link>https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html</link>
-<description><![CDATA[BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the<br/><br/><em>Tags: Linux kernel · OpenAI/ChatGPT · Anthropic/Claude · CVE-2026-40138 · CVE-2026-40139 · CVE-2026-40140 · CVE-2026-40141 · CVE-2024-12356</em>]]></description>
+<description><![CDATA[BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the<br/><br/><em>Tags: Anthropic/Claude · Scattered Spider · CVE-2026-40138 · CVE-2026-40139 · CVE-2026-40140 · CVE-2026-40141 · CVE-2024-12356 · ddos</em>]]></description>
 <pubDate>Tue, 07 Jul 2026 05:16:51 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Linux kernel</category>
-<category>OpenAI/ChatGPT</category>
 <category>Anthropic/Claude</category>
+<category>Scattered Spider</category>
 <category>CVE-2026-40138</category>
+<category>CVE-2026-40139</category>
 </item>
 <item>
 <title>[webapps] WordPress Bricks Builder Theme - RCE</title>
@@ -1608,14 +1583,14 @@
 <item>
 <title>Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure</title>
 <link>https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html</link>
-<description><![CDATA[Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the &quot;X-WEBAUTH-USER&quot; header from any source IP address, effectively allowing an unauthenticated internet client to get elevated<br/><br/><em>Tags: Gitea · Docker · Linux kernel · CVE-2026-20896 · ransomware_extortion · active_exploitation</em>]]></description>
+<description><![CDATA[Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the &quot;X-WEBAUTH-USER&quot; header from any source IP address, effectively allowing an unauthenticated internet client to get elevated<br/><br/><em>Tags: Gitea · Docker · Scattered Spider · CVE-2026-20896 · active_exploitation</em>]]></description>
 <pubDate>Mon, 06 Jul 2026 16:28:59 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Gitea</category>
 <category>Docker</category>
-<category>Linux kernel</category>
+<category>Scattered Spider</category>
 <category>CVE-2026-20896</category>
 </item>
 <item>
@@ -1648,16 +1623,6 @@
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
 <category>offensive_vulnerability_research</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More</title>
-<link>https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html</link>
-<description><![CDATA[A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces were ordinary. Home devices became a routing cover. Clean code pulled dirt from a dependency. Identity shortcuts aged badly. AI systems trusted the wrong instructions. Same soft spot throughout: trust<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 06 Jul 2026 13:01:14 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>How NodeZero® Rapid Response Helps Operationalize BOD 26-04</title>
@@ -3692,6 +3657,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>CargoWise WebTracker - The keys were in the cargo</title>
+<link>https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/</link>
+<description><![CDATA[submitted by /u/Mempodipper [link] [comments]]]></description>
+<pubDate>Thu, 25 Jun 2026 11:34:42 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>New CISA Guide Helps Agencies Adopt SASE For Zero Trust</title>
 <link>https://www.infosecurity-magazine.com/news/cisa-sase-tic-3-0-zero-trust/</link>
 <description><![CDATA[New CISA guidance shows federal agencies how to use SASE to move from legacy TIC 2.0 to zero trust]]></description>
@@ -3869,6 +3843,15 @@
 <source url="https://openssf.org/feed/">OpenSSF Blog</source>
 <category>ai_security_agentic_risk</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>Exploiting vulnerabilities in Johnson &amp; Johnson web apps</title>
+<link>https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/</link>
+<description><![CDATA[submitted by /u/EatonZ [link] [comments]]]></description>
+<pubDate>Wed, 24 Jun 2026 16:34:14 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Introducing computer use in Gemini 3.5 Flash</title>
@@ -4178,6 +4161,25 @@
 <guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-hijacks-brazils-national-alert-system</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
+</item>
+<item>
+<title>Cloudflare patches Copy-Fail across every server in two days</title>
+<link>https://www.reddit.com/r/netsec/comments/1udd811/cloudflare_patches_copyfail_across_every_server/</link>
+<description><![CDATA[Kind of crazy to look at the graph in this blog. CVE drops on 04/29, they develop a patch on 4/30, and deploy it across all of their servers on 05/01. Obviously they have the engineers to write BPF-LSM patches, but I think it points to a future where they can (almost) keep up with vulnerability disclosures. submitted by /u/xmull1gan [link] [comments]<br/><br/><em>Tags: vulnerability_disclosure</em>]]></description>
+<pubDate>Tue, 23 Jun 2026 10:18:55 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1udd811/cloudflare_patches_copyfail_across_every_server/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>vulnerability_disclosure</category>
+</item>
+<item>
+<title>New Cisco RCE was fixed</title>
+<link>https://www.reddit.com/r/netsec/comments/1udcrb8/new_cisco_rce_was_fixed/</link>
+<description><![CDATA[A vulnerability in Cisco Unified Communications Manager allows unauthenticated attackers to arbitrarily write files in the server which could be used to run arbitrary commands or code on the server. submitted by /u/SSDisclosure [link] [comments]]]></description>
+<pubDate>Tue, 23 Jun 2026 09:52:01 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1udcrb8/new_cisco_rce_was_fixed/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Scattered Spider Teens Convicted of TfL Cyber-Attack</title>
@@ -8762,6 +8764,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -8770,15 +8781,6 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
-</item>
-<item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -11738,7 +11740,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7efdbc198df0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fafaf2c52e0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20191,7 +20193,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20200,7 +20202,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20209,7 +20211,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20219,7 +20221,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20228,7 +20230,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20237,7 +20239,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20246,7 +20248,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20255,7 +20257,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20264,7 +20266,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20273,7 +20275,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 11 Jul 2026 06:20:48 +0000</pubDate>
+<pubDate>Sat, 11 Jul 2026 08:52:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
