@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-12T21:57:58.186032+00:00
+- Generated: 2026-07-12T22:56:59.968567+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -75,21 +75,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -100,11 +95,21 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 4
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -120,58 +125,48 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
   - In window count: 1
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+  - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 40
-  - In window count: 0
+  - Item count: 15
+  - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 19
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -180,11 +175,16 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 50
-  - In window count: 19
+  - Item count: 40
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,16 +195,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -225,31 +225,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 3
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 3
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
   - In window count: 3
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 9
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -260,6 +250,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 9
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -270,46 +270,41 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 100
+  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -319,6 +314,11 @@
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
@@ -330,11 +330,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,6 +345,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -365,6 +365,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -375,16 +385,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,13 +395,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,26 +415,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 0
+  - Item count: 100
   - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -445,16 +445,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 11
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -614,24 +614,6 @@
   - https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
 
-### ransomware extortion targeting Android
-- Anchor signal: Android
-- Theme key: android
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Android
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion
-  - affected_industries: financial_services
-  - affected_products: Android
-- Cluster IDs: 3ee1d54d9d, cad05b2d4e
-- Links:
-  - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
-  - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-
 ### Microsoft 365 vulnerability activity
 - Anchor signal: Microsoft 365
 - Theme key: microsoft-365
@@ -649,6 +631,24 @@
   - https://www.huntress.com/blog/conditional-access-misconfigurations
   - https://www.securityweek.com/okta-warns-of-vishing-attacks-targeting-microsoft-365-customers/
   - https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html
+
+### ransomware extortion targeting Android
+- Anchor signal: Android
+- Theme key: android
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Android
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion
+  - affected_industries: financial_services
+  - affected_products: Android
+- Cluster IDs: 3ee1d54d9d, cad05b2d4e
+- Links:
+  - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
+  - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -1431,6 +1431,94 @@ AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Pro
   - Link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
   - Summary: Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own
 
+### Cluster 4a0789d0ad — score 10
+
+- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-09T12:55:00+00:00
+- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+```
+
+#### Full body
+
+```
+Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+  - Published: 2026-07-09T12:55:00+00:00
+  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+
+### Cluster bfabcf1e25 — score 10
+
+- Title: No Manners Here: The Ruthless Rise of The Gentlemen Ransomware
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-07-10T22:00:39+00:00
+- Link: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, web_shell_backdoor, zero_day
+- affected_industries: manufacturing_industrial, retail_ecommerce
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, data_breach, web_shell_backdoor
+- affected_industries: manufacturing_industrial, retail_ecommerce
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hospitality Hacks and Retail Reality Checks No Manners Here: The Ruthless Rise of The Gentlemen Ransomware 5 min read Related Products Unit 42 Incident Response By: Matt Brady Published: July 10, 2026 Categories: Hospitality Hacks and Retail Reality Checks Insights Tags: Howling Scorpius RaaS Spikey Scorpius Share Executive Summary The Gentlemen (aka Storm-2697 ) is a Ransomware-as-a-Service (RaaS) program active since at least July 2025. Public reporting indicates that the operators were likely active months earlier as an affiliate (known as ArmCorp) of Qilin RaaS, which Unit 42 tracks as Spikey Scorpius. Their ransomware variants are written in both C and Go programming languages , enabling the threat actors to spread their encryptors across different operating systems and virtual infrastructure. Figure 1 below illustrates the desktop wallpaper used by the ransomware after deployment. Figure 1. Image of The Gentlemen ransomware’s wallpaper. Source: Krebs on Security. Additional public reporting revealed that the operators (roughly 20 of them) likely morphed from a private entity into a RaaS model on or about September 2025. While traditional RaaS models typically offer affiliates a 70% to 80% cut of paid ransoms, The Gentlemen offer an unprecedented 90% payout. Background Unit 42 and other security researchers have observed The Gentlemen’s usage of a wide variety of initial access techniques similar to other RaaS operators since their inception, including the exploitation of vulnerabilities in edge devices (firewalls, VPNs), brute force attacks, obtaining leaked and/or stolen credentials and collaborating with initial access brokers (IABs). More recently, researchers have identified The Gentlemen’s usage of a custom Go-based backdoor , an EDR killer framework dubbed “ GentleKiller ” and the suspected usage of an unspecified zero-day vulnerability exploit to amplify their defense evasion capabilities. In May 2026, The Gentlemen announced a partnership with HasanBroker's BreachForums as a means to recruit affiliates, penetration testers and IABs. Figure 2 illustrates this announcement. Figure 2. Image of partnership announcement between BreachForums and The Gentlemen. Source: Gurucul. Additional information about The Gentlemen and their operational structure has emerged in recent months, following the leak of an internal database by an alleged insider in May 2026. Data Leak Site Insights One of the most alarming trends observed thus far in 2026 by Unit 42 and other security researchers is the sheer increase in volume of total victims claimed by The Gentlemen in comparison to 2025. Through July 7, one reputable source had counted a total of 580 victims claimed by The Gentlemen across 77 countries since their inception. Of those 580 victims, 103 operated within the manufacturing industry, a commonly targeted sector given the need for organizations to maintain operational uptime. Figure 3 below represents the total number of victims claimed by The Gentlemen in 2025 compared to both Qilin and Akira, tracked by Unit 42 as Howling Scorpius, which led all RaaS programs in victims claimed last year. Figure 3. Chart depicting total victims claimed by prominent RaaS programs in 2025. Source: Unit 42. In comparison to the above statistics, Figure 4 below represents the total number of victims claimed by The Gentlemen thus far in 2026 (through July 3) compared to both Qilin and Akira. Figure 4. Chart depicting total victims claimed by prominent RaaS programs in 2026. Source: Unit 42. When comparing the last six months of 2025 to the first six months of 2026, the number of victims claimed by The Gentlemen increased by slightly more than 6x. What makes this even more concerning is that these threat actors were only active for the last four months of 2025. Figure 5 below further illustrates the victims claimed by The Gentlemen per month since August 2025, one month p
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: No Manners Here: The Ruthless Rise of The Gentlemen Ransomware
+  - Published: 2026-07-10T22:00:39+00:00
+  - Link: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
+  - Summary: Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
+
 ### Cluster b835d1d4b1 — score 10
 
 - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
@@ -1479,93 +1567,48 @@ Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker 
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
 
-### Cluster bfabcf1e25 — score 10
+### Cluster 40eaf074fe — score 10
 
-- Title: No Manners Here: The Ruthless Rise of The Gentlemen Ransomware
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-07-10T22:00:39+00:00
-- Link: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
+- Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-06T09:00:43+00:00
+- Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, web_shell_backdoor, zero_day
-- affected_industries: manufacturing_industrial, retail_ecommerce
-- urgency_signals: zero_day
+- threat_categories: phishing_social_eng
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach, web_shell_backdoor
-- affected_industries: manufacturing_industrial, retail_ecommerce
-- urgency_signals: zero_day
+- threat_categories: phishing_social_eng
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
+The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
 ```
 
 #### Full body
 
 ```
-Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hospitality Hacks and Retail Reality Checks No Manners Here: The Ruthless Rise of The Gentlemen Ransomware 5 min read Related Products Unit 42 Incident Response By: Matt Brady Published: July 10, 2026 Categories: Hospitality Hacks and Retail Reality Checks Insights Tags: Howling Scorpius RaaS Spikey Scorpius Share Executive Summary The Gentlemen (aka Storm-2697 ) is a Ransomware-as-a-Service (RaaS) program active since at least July 2025. Public reporting indicates that the operators were likely active months earlier as an affiliate (known as ArmCorp) of Qilin RaaS, which Unit 42 tracks as Spikey Scorpius. Their ransomware variants are written in both C and Go programming languages , enabling the threat actors to spread their encryptors across different operating systems and virtual infrastructure. Figure 1 below illustrates the desktop wallpaper used by the ransomware after deployment. Figure 1. Image of The Gentlemen ransomware’s wallpaper. Source: Krebs on Security. Additional public reporting revealed that the operators (roughly 20 of them) likely morphed from a private entity into a RaaS model on or about September 2025. While traditional RaaS models typically offer affiliates a 70% to 80% cut of paid ransoms, The Gentlemen offer an unprecedented 90% payout. Background Unit 42 and other security researchers have observed The Gentlemen’s usage of a wide variety of initial access techniques similar to other RaaS operators since their inception, including the exploitation of vulnerabilities in edge devices (firewalls, VPNs), brute force attacks, obtaining leaked and/or stolen credentials and collaborating with initial access brokers (IABs). More recently, researchers have identified The Gentlemen’s usage of a custom Go-based backdoor , an EDR killer framework dubbed “ GentleKiller ” and the suspected usage of an unspecified zero-day vulnerability exploit to amplify their defense evasion capabilities. In May 2026, The Gentlemen announced a partnership with HasanBroker's BreachForums as a means to recruit affiliates, penetration testers and IABs. Figure 2 illustrates this announcement. Figure 2. Image of partnership announcement between BreachForums and The Gentlemen. Source: Gurucul. Additional information about The Gentlemen and their operational structure has emerged in recent months, following the leak of an internal database by an alleged insider in May 2026. Data Leak Site Insights One of the most alarming trends observed thus far in 2026 by Unit 42 and other security researchers is the sheer increase in volume of total victims claimed by The Gentlemen in comparison to 2025. Through July 7, one reputable source had counted a total of 580 victims claimed by The Gentlemen across 77 countries since their inception. Of those 580 victims, 103 operated within the manufacturing industry, a commonly targeted sector given the need for organizations to maintain operational uptime. Figure 3 below represents the total number of victims claimed by The Gentlemen in 2025 compared to both Qilin and Akira, tracked by Unit 42 as Howling Scorpius, which led all RaaS programs in victims claimed last year. Figure 3. Chart depicting total victims claimed by prominent RaaS programs in 2025. Source: Unit 42. In comparison to the above statistics, Figure 4 below represents the total number of victims claimed by The Gentlemen thus far in 2026 (through July 3) compared to both Qilin and Akira. Figure 4. Chart depicting total victims claimed by prominent RaaS programs in 2026. Source: Unit 42. When comparing the last six months of 2025 to the first six months of 2026, the number of victims claimed by The Gentlemen increased by slightly more than 6x. What makes this even more concerning is that these threat actors were only active for the last four months of 2025. Figure 5 below further illustrates the victims claimed by The Gentlemen per month since August 2025, one month p
+Table of Contents Core steps of Device Authorization Grant Analysis of a Device Code Phishing attack Adaptation of the attack method How to defend against Device Code Phishing attacks Authors Roman Dedenok One of the most common pieces of anti-phishing advice is to double-check the website’s domain name before providing your credentials. Typically, a fraudulent domain stands out to the trained eye, differing from the official URL by at least a few characters. Recently, however, we encountered a campaign where attackers instruct victims to input data directly into a legitimate, trusted corporate site: the Microsoft Identity Platform , which supports an OAuth 2.0 specification known as the Device Authorization Grant . This specific protocol extension was designed to simplify the login experience for smart TVs, IoT hardware, printers, and other input-constrained devices that lack a full browser or keyboard. It allows users to use a nearby smartphone or PC for authorizing these devices to access their accounts. To complete the process, the user enters a one-time code on a designated authentication page. The Microsoft Identity Platform returns this code along with a link to enter it in response to a request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode ; hence, an attack scenario exploiting this mechanism is called Device Code Phishing. In this post, we break down how the Device Authorization Grant specification (also known as the Device Authorization Grant Flow or Device Code Flow) works, analyze real-world attacks leveraging this technology, and outline effective strategies to defend against Device Code Phishing. Core steps of Device Authorization Grant 1. Requesting the authorization code When a user launches an app on a client device, such as a streaming app on a Smart TV, the app detects that it is unauthenticated and sends a POST request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode . This request includes the client_id (the unique identifier of the app registered in Microsoft Entra ID / Azure AD) and the scope (the requested access permissions). In response, the application receives several parameters: device_code (a secret code for internal use), user_code (a short code displayed to the end-user), verification_uri (the login URL the user needs to visit), expires_in (the code’s lifespan), and interval (how frequently the app should poll the server). 2. Displaying the code to the user The device displays both the user_code and the verification_uri to the user, instructing them to complete authentication on another device. For instance, a smart TV will display the code and URL — often rendering the verification_uri as a QR code — so the user can access it via their smartphone. 3. Entering the code and confirming access By scanning the QR code with a smartphone camera or manually typing out the address, the user navigates to the verification_uri (such as https://microsoft.com/devicelogin ) and enters the user_code . 4. Polling the server The device (smart TV) begins polling the server to check the authorization status — essentially verifying whether the user has approved the access request. It does this by sending a POST request to the token endpoint: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token . The request passes the grant_type parameter with the value urn:ietf:params:oauth:grant-type:device_code , indicating the use of the Device Authorization Grant method. This signals to the authorization server exactly which authentication method is being used to request access tokens. The server waits for the user to enter the user_code on their secondary device and approve access to their resources or data. Until that approval happens, the server responds with an error code like authorization_pending (keep waiting) or slow_down (reduce the polling frequency). 5. Issuing access tokens Once the user successfully approves the application’s request, the server responds to the ap
 ```
 
 #### Corroborating sources (1)
 
-- **Unit 42** (threat_research_primary)
-  - Title: No Manners Here: The Ruthless Rise of The Gentlemen Ransomware
-  - Published: 2026-07-10T22:00:39+00:00
-  - Link: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
-  - Summary: Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
-
-### Cluster 4a0789d0ad — score 10
-
-- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-09T12:55:00+00:00
-- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
-```
-
-#### Full body
-
-```
-Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-  - Published: 2026-07-09T12:55:00+00:00
-  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
+  - Published: 2026-07-06T09:00:43+00:00
+  - Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
+  - Summary: The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
 
 ### Cluster ca7dbcaa1e — score 10
 
@@ -1657,48 +1700,95 @@ UAT-7810 continues building ORB networks using new malware By Jungsoo An , Ashee
   - Link: https://blog.talosintelligence.com/uat-7810/
   - Summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.
 
-### Cluster 40eaf074fe — score 10
+### Cluster 8d0224c08d — score 10
 
-- Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-06T09:00:43+00:00
-- Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
+- Title: June 2026 CVE Landscape
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-10T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- urgency_signals: preauth_unauth
+- threat_categories: active_exploitation
+- affected_products: Fortinet, Ivanti, Microsoft 365
+- cve_ids: CVE-2020-17103, CVE-2022-0492, CVE-2025-55182, CVE-2026-25939, CVE-2026-35616
+- urgency_signals: actively_exploited, poc_available
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- urgency_signals: preauth_unauth
+- threat_categories: active_exploitation
+- affected_products: Microsoft 365, Fortinet, Ivanti
+- cve_ids: CVE-2026-35616, CVE-2026-25939, CVE-2020-17103, CVE-2022-0492, CVE-2025-55182
+- urgency_signals: actively_exploited, poc_available
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
+In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
 ```
 
 #### Full body
 
 ```
-Table of Contents Core steps of Device Authorization Grant Analysis of a Device Code Phishing attack Adaptation of the attack method How to defend against Device Code Phishing attacks Authors Roman Dedenok One of the most common pieces of anti-phishing advice is to double-check the website’s domain name before providing your credentials. Typically, a fraudulent domain stands out to the trained eye, differing from the official URL by at least a few characters. Recently, however, we encountered a campaign where attackers instruct victims to input data directly into a legitimate, trusted corporate site: the Microsoft Identity Platform , which supports an OAuth 2.0 specification known as the Device Authorization Grant . This specific protocol extension was designed to simplify the login experience for smart TVs, IoT hardware, printers, and other input-constrained devices that lack a full browser or keyboard. It allows users to use a nearby smartphone or PC for authorizing these devices to access their accounts. To complete the process, the user enters a one-time code on a designated authentication page. The Microsoft Identity Platform returns this code along with a link to enter it in response to a request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode ; hence, an attack scenario exploiting this mechanism is called Device Code Phishing. In this post, we break down how the Device Authorization Grant specification (also known as the Device Authorization Grant Flow or Device Code Flow) works, analyze real-world attacks leveraging this technology, and outline effective strategies to defend against Device Code Phishing. Core steps of Device Authorization Grant 1. Requesting the authorization code When a user launches an app on a client device, such as a streaming app on a Smart TV, the app detects that it is unauthenticated and sends a POST request to https://login.microsoftonline.com/{tenant}/oauth2/v2.0/devicecode . This request includes the client_id (the unique identifier of the app registered in Microsoft Entra ID / Azure AD) and the scope (the requested access permissions). In response, the application receives several parameters: device_code (a secret code for internal use), user_code (a short code displayed to the end-user), verification_uri (the login URL the user needs to visit), expires_in (the code’s lifespan), and interval (how frequently the app should poll the server). 2. Displaying the code to the user The device displays both the user_code and the verification_uri to the user, instructing them to complete authentication on another device. For instance, a smart TV will display the code and URL — often rendering the verification_uri as a QR code — so the user can access it via their smartphone. 3. Entering the code and confirming access By scanning the QR code with a smartphone camera or manually typing out the address, the user navigates to the verification_uri (such as https://microsoft.com/devicelogin ) and enters the user_code . 4. Polling the server The device (smart TV) begins polling the server to check the authorization status — essentially verifying whether the user has approved the access request. It does this by sending a POST request to the token endpoint: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token . The request passes the grant_type parameter with the value urn:ietf:params:oauth:grant-type:device_code , indicating the use of the Device Authorization Grant method. This signals to the authorization server exactly which authentication method is being used to request access tokens. The server waits for the user to enter the user_code on their secondary device and approve access to their resources or data. Until that approval happens, the server responds with an error code like authorization_pending (keep waiting) or slow_down (reduce the polling frequency). 5. Issuing access tokens Once the user successfully approves the application’s request, the server responds to the ap
+June 2026 CVE Landscape In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation , 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month. 23 of the 60 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 34 were reported by vendors, and three were primarily surfaced through honeypot data. The 60 vulnerabilities in this report affected products from 36 vendors, with Microsoft accounting for approximately 18% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group created Nuclei templates to detect two of the vulnerabilities featured in this month’s report: CVE-2026-35616 affecting Fortinet FortiClient EMS and CVE-2026-25939 affecting Frangoteam FUXA. These are available to Recorded Future customers via the Recorded Future Intelligence Operations Platform. Quick reference: June 2026 Vulnerability Table All 57 vulnerabilities below were actively exploited in June 2026. This table does not include the three CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly report, in the platform. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2020-17103 99 Microsoft Windows 10/11 and Windows Server 2019 ✓ ✓ Link 2 CVE-2022-0492 99 Linux Kernel ✓ ✓ Link 3 CVE-2025-55182 99 Meta React Server Components packages ✓ ✓ ✓ Link 4 CVE-2025-67038 99 Lantronix EDS5000 ✓ 5 CVE-2025-8088 99 WinRAR ✓ ✓ ✓ Link 6 CVE-2026-10520 99 Ivanti Sentry ✓ ✓ ✓ Link 7 CVE-2026-11645 99 Google Chromium V8 and Chrome ✓ ✓ ✓ Link 8 CVE-2026-12569 99 PTC Windchill, Windchill PDMLink, and FlexPLM ✓ ✓ 9 CVE-2026-20230 99 Cisco Unified Communications Manager ✓ ✓ Link 10 CVE-2026-20245 99 Cisco Catalyst SD-WAN Manager and Controller ✓ ✓ ✓ Link 11 CVE-2026-20253 99 Splunk Enterprise ✓ ✓ Link 12 CVE-2026-20262 99 Cisco Catalyst SD-WAN Manager ✓ ✓ Link 13 CVE-2026-21509 99 Microsoft 365 Apps for Enterprise and Office 2016 ✓ (available to Recorded Future Customers) ✓ Link 14 CVE-2026-28318 99 SolarWinds Serv-U ✓ ✓ Link 15 CVE-2026-33825 99 Microsoft Defender Antimalware Platform ✓ (available to Recorded Future Customers) ✓ Link 16 CVE-2026-34908 99 Ubiquiti UniFi OS, UniFi OS Server, UDM, and UDM-Pro ✓ ✓ Link 17 CVE-2026-34909 99 Ubiquiti UniFi OS, UniFi OS Server, Express 7, and UDM ✓ ✓ Link 18 CVE-2026-34910 99 Ubiquiti UniFi OS, UniFi OS Server, UDM, and UDM-Pro ✓ ✓ ✓ Link 19 CVE-2026-35273 99 Oracle PeopleSoft Enterprise PeopleTools ✓ ✓ Link 20 CVE-2026-39808 99 FortiSandbox PaaS ✓ (available to Recorded Future Customers) ✓ ✓ Link 21 CVE-2026-41089 99 Microsoft Windows Server 2012 ✓ (available to Recorded Future Customers) ✓ ✓ Link 22 CVE-2026-42271 99 BerriAI LiteLLM ✓ ✓ ✓ Link 23 CVE-2026-48558 99 SimpleHelp ✓ ✓ Link 24 CVE-2026-48907 99 Joomla Content Editor (JCE) extension for Joomla ✓ ✓ Link 25 CVE-2026-50751 99 Check Point Security Gateway, Quantum Security Gateway, and Spark Firewalls ✓ ✓ Link 26 CVE-2026-54420 99 LiteSpeed cPanel Plugin ✓ ✓ Link 27 CVE-2026-7473 99 Arista EOS ✓ ✓ Link 28 CVE-2021-26855 89 Microsoft Exchange Server 2016 and 2019 ✓ ✓ ✓ Link 29 CVE-2021-36260 89 Hikvision Firmware ✓ ✓ ✓ Link 30 CVE-2022-40684 89 Fortinet FortiOS, FortiProxy, and FortiSwitchManager ✓ ✓ Link 31 CVE-2023-20198 89 Cisco IOS XE Software ✓ ✓ Link 32 CVE-2024-21182 89 Oracle WebLogic Server ✓ ✓ Link 33 CVE-2024-21762 89 Fortinet FortiProxy and FortiOS ✓ ✓ ✓ Link 34 CVE-2025-48595 89 Android Framework ✓ ✓ ✓ Link 35 CVE-
 ```
 
 #### Corroborating sources (1)
 
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website
-  - Published: 2026-07-06T09:00:43+00:00
-  - Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
-  - Summary: The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
+- **Recorded Future** (threat_research_primary)
+  - Title: June 2026 CVE Landscape
+  - Published: 2026-07-10T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
+  - Summary: In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
+
+### Cluster caac5571c6 — score 10
+
+- Title: The Threat Isn’t the Frontier Model
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-08T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
+```
+
+#### Full body
+
+```
+The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The Threat Isn’t the Frontier Model
+  - Published: 2026-07-08T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
+  - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
 
 ### Cluster 3ee1d54d9d — score 10
 
@@ -1877,96 +1967,6 @@ How NodeZero® Rapid Response Helps Operationalize BOD 26-04 Tim Jones July 6, 2
   - Published: 2026-07-06T13:00:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
   - Summary: CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
-
-### Cluster 8d0224c08d — score 10
-
-- Title: June 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-10T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Fortinet, Ivanti, Microsoft 365
-- cve_ids: CVE-2020-17103, CVE-2022-0492, CVE-2025-55182, CVE-2026-25939, CVE-2026-35616
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Microsoft 365, Fortinet, Ivanti
-- cve_ids: CVE-2026-35616, CVE-2026-25939, CVE-2020-17103, CVE-2022-0492, CVE-2025-55182
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
-```
-
-#### Full body
-
-```
-June 2026 CVE Landscape In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation , 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month. 23 of the 60 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 34 were reported by vendors, and three were primarily surfaced through honeypot data. The 60 vulnerabilities in this report affected products from 36 vendors, with Microsoft accounting for approximately 18% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group created Nuclei templates to detect two of the vulnerabilities featured in this month’s report: CVE-2026-35616 affecting Fortinet FortiClient EMS and CVE-2026-25939 affecting Frangoteam FUXA. These are available to Recorded Future customers via the Recorded Future Intelligence Operations Platform. Quick reference: June 2026 Vulnerability Table All 57 vulnerabilities below were actively exploited in June 2026. This table does not include the three CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly report, in the platform. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2020-17103 99 Microsoft Windows 10/11 and Windows Server 2019 ✓ ✓ Link 2 CVE-2022-0492 99 Linux Kernel ✓ ✓ Link 3 CVE-2025-55182 99 Meta React Server Components packages ✓ ✓ ✓ Link 4 CVE-2025-67038 99 Lantronix EDS5000 ✓ 5 CVE-2025-8088 99 WinRAR ✓ ✓ ✓ Link 6 CVE-2026-10520 99 Ivanti Sentry ✓ ✓ ✓ Link 7 CVE-2026-11645 99 Google Chromium V8 and Chrome ✓ ✓ ✓ Link 8 CVE-2026-12569 99 PTC Windchill, Windchill PDMLink, and FlexPLM ✓ ✓ 9 CVE-2026-20230 99 Cisco Unified Communications Manager ✓ ✓ Link 10 CVE-2026-20245 99 Cisco Catalyst SD-WAN Manager and Controller ✓ ✓ ✓ Link 11 CVE-2026-20253 99 Splunk Enterprise ✓ ✓ Link 12 CVE-2026-20262 99 Cisco Catalyst SD-WAN Manager ✓ ✓ Link 13 CVE-2026-21509 99 Microsoft 365 Apps for Enterprise and Office 2016 ✓ (available to Recorded Future Customers) ✓ Link 14 CVE-2026-28318 99 SolarWinds Serv-U ✓ ✓ Link 15 CVE-2026-33825 99 Microsoft Defender Antimalware Platform ✓ (available to Recorded Future Customers) ✓ Link 16 CVE-2026-34908 99 Ubiquiti UniFi OS, UniFi OS Server, UDM, and UDM-Pro ✓ ✓ Link 17 CVE-2026-34909 99 Ubiquiti UniFi OS, UniFi OS Server, Express 7, and UDM ✓ ✓ Link 18 CVE-2026-34910 99 Ubiquiti UniFi OS, UniFi OS Server, UDM, and UDM-Pro ✓ ✓ ✓ Link 19 CVE-2026-35273 99 Oracle PeopleSoft Enterprise PeopleTools ✓ ✓ Link 20 CVE-2026-39808 99 FortiSandbox PaaS ✓ (available to Recorded Future Customers) ✓ ✓ Link 21 CVE-2026-41089 99 Microsoft Windows Server 2012 ✓ (available to Recorded Future Customers) ✓ ✓ Link 22 CVE-2026-42271 99 BerriAI LiteLLM ✓ ✓ ✓ Link 23 CVE-2026-48558 99 SimpleHelp ✓ ✓ Link 24 CVE-2026-48907 99 Joomla Content Editor (JCE) extension for Joomla ✓ ✓ Link 25 CVE-2026-50751 99 Check Point Security Gateway, Quantum Security Gateway, and Spark Firewalls ✓ ✓ Link 26 CVE-2026-54420 99 LiteSpeed cPanel Plugin ✓ ✓ Link 27 CVE-2026-7473 99 Arista EOS ✓ ✓ Link 28 CVE-2021-26855 89 Microsoft Exchange Server 2016 and 2019 ✓ ✓ ✓ Link 29 CVE-2021-36260 89 Hikvision Firmware ✓ ✓ ✓ Link 30 CVE-2022-40684 89 Fortinet FortiOS, FortiProxy, and FortiSwitchManager ✓ ✓ Link 31 CVE-2023-20198 89 Cisco IOS XE Software ✓ ✓ Link 32 CVE-2024-21182 89 Oracle WebLogic Server ✓ ✓ Link 33 CVE-2024-21762 89 Fortinet FortiProxy and FortiOS ✓ ✓ ✓ Link 34 CVE-2025-48595 89 Android Framework ✓ ✓ ✓ Link 35 CVE-
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: June 2026 CVE Landscape
-  - Published: 2026-07-10T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
-  - Summary: In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
-
-### Cluster caac5571c6 — score 10
-
-- Title: The Threat Isn’t the Frontier Model
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-08T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
-```
-
-#### Full body
-
-```
-The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The Threat Isn’t the Frontier Model
-  - Published: 2026-07-08T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
-  - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
 
 ### Cluster 0514a6908e — score 10
 
