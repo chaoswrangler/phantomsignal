@@ -6,38 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 12 Jul 2026 16:06:26 +0000</lastBuildDate>
+<lastBuildDate>Sun, 12 Jul 2026 18:03:12 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
-<title>CVE-2026-47291: Windows Critical Unauthenticated Remote Code Execution in HTTP.sys</title>
-<link>https://www.reddit.com/r/netsec/comments/1uuh80d/cve202647291_windows_critical_unauthenticated/</link>
-<description><![CDATA[A critical severity vulnerability with a CVSS score of 9.8 in the Windows HTTP protocol stack (HTTP.sys) allows for unauthenticated remote code execution via an integer overflow. Because HTTP.sys processes incoming HTTP requests in kernel mode, this flaw carries a high impact, potentially allowing an unauthenticated attacker to execute arbitrary code with system privileges. The underlying mechanics of this specific bug, including the exact assembly-level modifications, affected functions, and the execution path, have been thoroughly mapped out in the attached link. This includes the associated WinDbg reproduction details. It seems like the era of waiting around to understand what actually changes under the hood on Patch Tuesday is largely behind us. Beyond this specific HTTP.sys analysis, the platform continuously tracks and hosts real-time structural breakdowns for the broader Windows patch ecosystem, making it a useful resource for footprinting similar kernel-level differentials. sub<br/><br/><em>Tags: CVE-2026-47291</em>]]></description>
-<pubDate>Sun, 12 Jul 2026 14:37:38 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uuh80d/cve202647291_windows_critical_unauthenticated/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-47291</category>
-</item>
-<item>
 <title>RedHook Android malware now uses Wireless ADB for shell access</title>
 <link>https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/</link>
-<description><![CDATA[A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]<br/><br/><em>Tags: Android · phishing_social_eng</em>]]></description>
+<description><![CDATA[A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]<br/><br/><em>Tags: Android</em>]]></description>
 <pubDate>Sun, 12 Jul 2026 14:27:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>Android</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
-<title>Any recommendations for validating security controls against real TTPs?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1uu9uud/any_recommendations_for_validating_security/</link>
-<description><![CDATA[We have been doing quarterly pen tests for a while and I am starting to think we are mostly paying for a static report. By the time the findings arrive, the threat landscape has already shifted and most of the context has changed. It gives us a backward looking picture, not a current one. rn we run CrowdStrike on endpoints, Sentinel as our SIEM, and our dashboard coverage looks decent. From a control inventory point of view, we look fine. The problem is that we do not have anything that continuously validates whether these controls actually detect what they should across the whole kill chain, not only at the perimeter. What I want to understand is whether our detections stand up to real adversary behavior such as initial access, privilege escalation, lateral movement, and data exfiltration. I would like to map results back to MITRE ATT&amp;CK so I can see real coverage gaps and prioritize remediation based on exploitability rather than just CVSS scores. Right now, that level of confidence ]]></description>
-<pubDate>Sun, 12 Jul 2026 08:38:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1uu9uud/any_recommendations_for_validating_security/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Week in review: Accenture data breach, great open-source cybersecurity tools</title>
@@ -102,16 +82,6 @@
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>ai_security</category>
-</item>
-<item>
-<title>Reversing Promon SHIELD: From Emulator Detection to an Xposed Data-Only Patch guidance</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1utdtej/reversing_promon_shield_from_emulator_detection/</link>
-<description><![CDATA[&gt; This is a write-up of an authorized reverse-engineering engagement against an Android app hardened with **Promon SHIELD** (RASP / app-shielding). App names, package names, endpoints, and account data are redacted. The focus is on the concrete procedure: how to walk a crash stack back to the native detection source, how to validate hypotheses with a bit-level experiment matrix, and how to turn a throwaway root patch into a stable LSPosed module that runs entirely in-process. 0. Fingerprinting the SDK Promon SHIELD has a very consistent runtime signature across samples. The features to match on first: - Obfuscated entry classes under the `yrdei.*` namespace, e.g. `yrdei.Q`, `yrdei.j`, `yrdei.F`, `yrdei.a`. - `Application.attachBaseContext` calls into `yrdei.a.attachBaseContext -&gt; yrdei.Q.d -&gt; yrdei.Q.c`, which bottoms out in a native method. - A native library (`libpostpe.so` in this build; the name varies across SHIELD versions) heavily obfuscated with OLLVM control-flow flattening an<br/><br/><em>Tags: Android</em>]]></description>
-<pubDate>Sat, 11 Jul 2026 07:53:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1utdtej/reversing_promon_shield_from_emulator_detection/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Android</category>
 </item>
 <item>
 <title>Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions</title>
@@ -584,15 +554,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Why is validating security controls against real-world TTPs so hard??</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1usdxg9/why_is_validating_security_controls_against/</link>
-<description><![CDATA[We have a reasonable set of controls and detections, but we rarely test them against the kinds of TTPs that show up in recent threat reporting. Most of our validation is still limited to basic functional checks or lessons learned during incidents. Every time a new campaign takes over the news cycle, someone asks whether our environment would catch similar behavior, and the honest answer is usually that we are not sure. If you have found a way to regularly validate controls against real world TTPs, how did you put it together? Did you rely on internal automation, commercial exposure validation platforms, a close partnership with a red team, or some combination? I am interested in approaches that remain usable over time instead of turning into a one off project. submitted by /u/Electronic_Treat2386 [link] [comments]]]></description>
-<pubDate>Fri, 10 Jul 2026 05:00:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1usdxg9/why_is_validating_security_controls_against/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Only 28% of financial workforce MFA is phishing-resistant</title>
 <link>https://www.helpnetsecurity.com/2026/07/10/financial-identity-security-trends-report/</link>
 <description><![CDATA[Passwords remain part of many workforce authentication flows in financial organizations, making phishing and credential theft major identity security risks, according to a new Secret Double Octopus report. Key challenges preventing universal implementation of phishing-resistant MFA (Source: Secret Double Octopus) Workforce authentication trends Banks and financial organizations use a mix of authentication methods, combining phishing-resistant technologies with methods that remain vulnerable to phishing attacks. Password plus OTP remains more common among organizations with up to … More → The post Only 28% of financial workforce MFA is phishing-resistant appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng · credential_theft</em>]]></description>
@@ -914,17 +875,6 @@
 <category>CVE-2026-50656</category>
 </item>
 <item>
-<title>SOC in Pakistan feels very different from the stuff you read online</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1urjpfw/soc_in_pakistan_feels_very_different_from_the/</link>
-<description><![CDATA[​ Most of the stuff I see online about SOC sounds like it’s written for some perfect Western bank with unlimited budget. 24/7 team, playbooks, fancy tools, all that. Ground reality here (Pakistan side) honestly doesn’t look like that. A lot of places want to say “we have a SOC” because it looks good for regulators and management, but behind the scenes you’ll usually find 2–3 people trying to keep up with alerts, half‑configured tools, and a mix of legacy systems that don’t want to talk to each other. You open the SIEM and there’s this wall of noise, and everyone pretends it’s “under control”. Day to day, the stuff that actually hurts isn’t some movie style APT. It’s stupid but painful things users falling for very basic phishing in local language, internal access misuse, weird gaps between core banking and the shiny mobile app, someone doing risky changes at odd hours and nobody really owning it. You don’t see that in the glossy SOC diagrams. You can feel this even in the kinds of SOCs<br/><br/><em>Tags: phishing_social_eng · apt_espionage</em>]]></description>
-<pubDate>Thu, 09 Jul 2026 07:59:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1urjpfw/soc_in_pakistan_feels_very_different_from_the/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-<category>phishing_social_eng</category>
-<category>apt_espionage</category>
-</item>
-<item>
 <title>Cybercriminals Plant Malicious AI Agents in Open Source Tool Repositories</title>
 <link>https://www.infosecurity-magazine.com/news/cybercriminals-plant-ai-agents/</link>
 <description><![CDATA[Cybersecurity researchers at ESET identify big rise in suspicious and malicious toolsets which put users at risk from cyber-attacks]]></description>
@@ -947,7 +897,7 @@
 <item>
 <title>Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes</title>
 <link>https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html</link>
-<description><![CDATA[Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. Once such campaign, observed earlier this year, involved the]]></description>
+<description><![CDATA[Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. One such campaign, observed earlier this year, involved the]]></description>
 <pubDate>Thu, 09 Jul 2026 04:01:49 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
@@ -1232,15 +1182,6 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>How to optimize exposure validation across your entire security stack?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1uqlaeg/how_to_optimize_exposure_validation_across_your/</link>
-<description><![CDATA[We finally decided to run a full exposure validation across the stack instead of relying on isolated checks. That included endpoints, email security, WAF, identity, and our main cloud workloads. The goal was simple: verify whether controls and detections still behave the way we think they do when you walk a realistic attack path end to end, then use that insight to tighten how and where we run these tests so we are not wasting cycles. The surprise was not just that we had gaps, but where they were, and that forced us to rethink how we tune and schedule validation runs. Some issues showed up in paths that had passed previous reviews, and a few detection rules that looked fine during content review never triggered when we replayed real world sequences of initial access, privilege escalation, and lateral movement. In some places we had logging but no useful signal, in others we had signal but no rules tied to it. If you have optimized this process in your stack, how often do you run full ]]></description>
-<pubDate>Wed, 08 Jul 2026 07:09:31 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1uqlaeg/how_to_optimize_exposure_validation_across_your/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros</title>
 <link>https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html</link>
 <description><![CDATA[Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network<br/><br/><em>Tags: CVE-2026-43499</em>]]></description>
@@ -1281,16 +1222,6 @@
 <category>threat_research_primary</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>How do you get employees to actually get better at spotting phishing emails?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1uqbhv6/how_do_you_get_employees_to_actually_get_better/</link>
-<description><![CDATA[We&apos;re reworking our employee training because the current approach isn&apos;t doing much beyond checking a compliance box. People finish the annual course, pass the quiz, and a few hours later it&apos;s like none of it ever happened. I&apos;d rather move toward something that actually improves day to day habits. Things like phishing simulations, making it easier to report suspicious emails, shorter training throughout the year, or anything else that&apos;s worked well. For those who&apos;ve found something that genuinely made a difference, what did you end up doing? Any platforms or approaches you&apos;d recommend, or things that sounded good but fell flat once they were rolled out? submitted by /u/AliveSuburb [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Tue, 07 Jul 2026 23:18:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1uqbhv6/how_do_you_get_employees_to_actually_get_better/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Spain arrests suspected hacker linked to Russian hacktivist campaign</title>
@@ -1423,15 +1354,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>Microsoft 365</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Theoretical breakdown of vulnerabilities: how would you attack a site with this set of holes?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1upxdvs/theoretical_breakdown_of_vulnerabilities_how/</link>
-<description><![CDATA[Hello everyone. I&apos;m analyzing a project and found the following vulnerabilities: · No brute-force protection (no captcha, no rate limiting) · No 2FA · Open .config, .log, .php.ini files in root · Server version disclosure · Missing security headers (CSP, HSTS, X-Frame-Options) Question for the community: if you were a pentester and had access to such a site for a penetration test, what chain of actions would you build? I&apos;m not looking for instructions to hack, just theoretical methodology for learning purposes. The site name is intentionally hidden. Thanks in advance! submitted by /u/Human_Leave1712 [link] [comments]]]></description>
-<pubDate>Tue, 07 Jul 2026 14:51:29 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1upxdvs/theoretical_breakdown_of_vulnerabilities_how/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data</title>
@@ -1727,15 +1649,6 @@
 <category>vulnerability_disclosure</category>
 </item>
 <item>
-<title>Do you expect your security architect to plan response?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1uowi5n/do_you_expect_your_security_architect_to_plan/</link>
-<description><![CDATA[I&apos;ve spent 17+ years in security - networking, red teaming, SOC, and these days security architecture. Sanity check time: either I&apos;m missing something, or most architects around me are doing only half the job. Everyone agrees an architect needs deep knowledge of the tech stack. Most people also agree they need to respect legacy and business constraints - design for the environment that exists, not the one in the reference diagram. But here&apos;s the third thing, and this is where I want the pushback: I think response has to be planned at design time, and the security architect is the one who has to plan it. Not &quot;hand the design over and let the SOC figure out monitoring.&quot; I mean at the design phase: know which attack paths stay realistic after your trade-offs, understand what the SOC can and can&apos;t realistically cover, plan which logs and telemetry your design must generate for those paths - and only then go to the SOC to confirm readiness. Defense and response designed from the same chair.]]></description>
-<pubDate>Mon, 06 Jul 2026 12:53:07 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1uowi5n/do_you_expect_your_security_architect_to_plan/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Cavern Manticore: Exposing Iran-Linked Modular C2 Framework</title>
 <link>https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/</link>
 <description><![CDATA[Key Points Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore, an Iran-nexus APT group primarily targeting Israeli organizations, with a focus on IT providers, and government sectors. Cavern Manticore is an Iran MOIS (Ministry of Intelligence and Security)-linked actor, with links to the OilRig […] The post Cavern Manticore: Exposing Iran-Linked Modular C2 Framework appeared first on Check Point Research .<br/><br/><em>Tags: Android · OpenAI/ChatGPT · MuddyWater · ransomware_extortion · apt_espionage · active_exploitation</em>]]></description>
@@ -1823,15 +1736,6 @@
 <category>mfa_bypass</category>
 </item>
 <item>
-<title>AI alert-summarization tool that actually reduces triage time?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1uo554k/ai_alertsummarization_tool_that_actually_reduces/</link>
-<description><![CDATA[copilot has been completely useless for actual triaging. whoever decided every alert needs an AI summary owes me hours of my life back. &quot;possible suspicious activity detected based on observed behavioral patterns.&quot; thanks. that tells me exactly as much as the alert title did. if i still have to open the process tree and check parent processes and look at network connections and pivot through logs and build the timeline myself... what exactly did the AI save me? just hire more analysts at this point. anyone actually found one that helps or is this just how it is now submitted by /u/Mind-Principle-1834 [link] [comments]]]></description>
-<pubDate>Sun, 05 Jul 2026 15:32:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1uo554k/ai_alertsummarization_tool_that_actually_reduces/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)</title>
 <link>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything</link>
 <description><![CDATA[I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on my iPhone: Final review before shipping a stable 4.0 release - very important to spot any last minute things that would be a breaking change if we fix them later Here&apos;s that initial report it created for me. There were some significant problems that I hadn&apos;t myself encountered yet - 5 that Fable categorized as &quot;release blockers&quot;. Here&apos;s the worst of the bunch: 1. delete_where() never commits and poisons the connection (data loss) Table.delete_where() ( sqlite_utils/db.py:2948 ) runs its DELETE via a bare self.db.execute() with no atomic() wrapper — compare Table.delete() at db.py:2944 , which <br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
@@ -1869,15 +1773,6 @@
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Can Malware Transfer Through Wifi</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1un6pce/can_malware_transfer_through_wifi/</link>
-<description><![CDATA[Yo so I&apos;ve been wondering since my brother tends to have not so safe internet habits, if potential malware from his laptop can potentially transfer to other devices that also share the same WiFi/network. Also does proximity matter (like side by side Vs in another room). And also if malware could transfer, how to prevent it since I can&apos;t control what my brother does. Also I can&apos;t do anything router related since it&apos;s up to my dad and he doesn&apos;t care as much about malware. Essentially, is it possible? How to prevent it? Is it likely? submitted by /u/WilliedWegdies [link] [comments]]]></description>
-<pubDate>Sat, 04 Jul 2026 11:30:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1un6pce/can_malware_transfer_through_wifi/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more</title>
@@ -1962,15 +1857,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Require Help With LVM snapshot and recovery. How can LVM snapshot happen with zero VFree?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1umd3uk/require_help_with_lvm_snapshot_and_recovery_how/</link>
-<description><![CDATA[Require Help With LVM snapshot and recovery So, I tried creating a snapshot and changing the logical volume to a .gz file and then I have backed up in our nas box now what I want is to use that .gz file and use that config in the fresh newer installed os so that I can prove recovery is possible. Constraints LV available is 0. So, I&apos;m using a pendrive and and using lvext3nd to create a new LV for the pc and then using that I&apos;m creating .gz and that is what being saved and is being backed up to nas My other question also if there is a running unbutu PC can we put LVM and luks or only while installing it can happen? submitted by /u/Slayerma [link] [comments]]]></description>
-<pubDate>Fri, 03 Jul 2026 12:26:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1umd3uk/require_help_with_lvm_snapshot_and_recovery_how/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Warning Over “Industrialized” Cyber-Attacks After Ransomware Gang Partners With TeamPCP</title>
 <link>https://www.infosecurity-magazine.com/news/industrialized-cyberattacks/</link>
 <description><![CDATA[Researchers warn that collaboration could lead to “unprecedented” ransomware attacks, as FBI also issues warning<br/><br/><em>Tags: TeamPCP · ransomware_extortion</em>]]></description>
@@ -2019,15 +1905,6 @@
 <guid isPermaLink="true">https://www.troyhunt.com/swimming-pools-pee-and-trying-to-delete-your-data-from-the-internet/</guid>
 <source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Why do some seemingly low risk accounts require such secure passwords?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1um5ybd/why_do_some_seemingly_low_risk_accounts_require/</link>
-<description><![CDATA[Was signing up for a supermarket loyalty card, and the password requirements includes: At least 12 characters At least one special character from: !\&quot;$%&amp;&apos;()*+,-./:;&lt;=&gt;?@[\]^_^{}~ I do understand it&apos;s to not be hacked etc, but, why such a secure password for a loyalty card? Passwords for things like banks and other services in my experience have essentially half the requirements, and other loyalty cards I&apos;ve used have, once again, requirements that aren&apos;t close? submitted by /u/Mince-And-Cheese-Pie [link] [comments]]]></description>
-<pubDate>Fri, 03 Jul 2026 05:51:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1um5ybd/why_do_some_seemingly_low_risk_accounts_require/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Risky Bulletin: FatFs bugs enable physical access attacks on a load of devices</title>
@@ -2182,15 +2059,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>how much monitoring is enough for card fraud?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1ulmx2l/how_much_monitoring_is_enough_for_card_fraud/</link>
-<description><![CDATA[I was reading through fraud setups for card programs and the advice always brings up more monitoring like that’s a clear answer but if u keep layering alerts rules and manual review on top of each other it feels like you just end up watching everything and understanding nothing. Where does that tipping point hit where extra monitoring stops reducing risk and only burns time? submitted by /u/FutureTrip1646 [link] [comments]]]></description>
-<pubDate>Thu, 02 Jul 2026 16:23:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1ulmx2l/how_much_monitoring_is_enough_for_card_fraud/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>FIFA was saved this time</title>
 <link>https://www.reddit.com/r/netsec/comments/1ulmoyx/fifa_was_saved_this_time/</link>
 <description><![CDATA[submitted by /u/scorp100n [link] [comments]]]></description>
@@ -2216,15 +2084,6 @@
 <guid isPermaLink="true">https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/</guid>
 <source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Is “patch faster” enough if sensitive services remain reachable by default?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1uljf0d/is_patch_faster_enough_if_sensitive_services/</link>
-<description><![CDATA[We’ve been discussing in the Cloud Security Alliance Zero Trust group how AI-speed vulnerability discovery changes Zero Trust implementation. Time-to-exploit trends suggest defenders have less time to patch exposed services, and CISA’s risk-based remediation approach treats public exposure as a major factor in urgency. That made me think the architectural question is not only “how do we patch faster?” but also: Why are so many sensitive services reachable by default in the first place? My view is that Zero Trust needs to move beyond perimeter/ZTNA framing and focus more on reducing reachability before connection. For private services, admin paths, APIs, workload paths, partner access, and agentic workflows, the safer default should be: no service path exists unless identity, policy, posture/context, and session state allow it. I wrote this up for CSA here: https://cloudsecurityalliance.org/blog/2026/07/02/ai-speed-risk-requires-identity-defined-reachability Disclosure: I’m the author a]]></description>
-<pubDate>Thu, 02 Jul 2026 14:11:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1uljf0d/is_patch_faster_enough_if_sensitive_services/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Google’s Continued Disruption of Malicious Residential Proxy Networks</title>
@@ -2273,16 +2132,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>zero_day</category>
-</item>
-<item>
-<title>110M creds harvested from network devices, what does this say about what we&apos;re actually monitoring?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1ulh767/110m_creds_harvested_from_network_devices_what/</link>
-<description><![CDATA[saw the writeup on the FortiBleed campaign that just got tied to actual ransomware deployment. 400k+ firewalls hit, 110M+ credentials harvested via passive sniffing, and it only came to light because of an OPSEC mistake on the attacker&apos;s side, a server full of stolen creds got left exposed. nobody caught this from the defense side, it just got found by accident. makes me think about how much of our identity monitoring is built around human logins, SSO events, MFA prompts, the stuff that shows up in a normal audit log. versus how much visibility we actually have into service accounts and machine credentials sitting on infra that was never really in scope to begin with. don&apos;t know for sure how much of what got harvested here falls into that bucket, but firewall-layer credential exposure at this scale makes me wonder how many orgs would even notice if it happened to them, regardless of which type of credential it was. anyone actually tried bringing service accounts and machine credentials<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 02 Jul 2026 12:42:23 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1ulh767/110m_creds_harvested_from_network_devices_what/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Anthropic&apos;s AI Finds Bugs. IBM Bets $5B It Can Fix Them.</title>
@@ -2381,15 +2230,6 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
-<title>AI security rules keep assuming a network boundary that doesn&apos;t exist anymore</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1ulalf1/ai_security_rules_keep_assuming_a_network/</link>
-<description><![CDATA[Spent a few days last quarter writing something to control what could reach the internet, got it approved and put it live without much trouble. 3 weeks later someone noticed traffic going to a service nobody had signed off on What we put in place targeted specific domains, but the team had been using the same service through a browser extension the whole time, so it slipped right past. That&apos;s when it hit me the whole thing assumed something that isn&apos;t really there anymore. Browser extensions, embedded features inside approved platforms, calls from software that was already allowed and plenty of activity that never gets inspected at all. How are others enforcing this without trying to block every possible path? submitted by /u/Icy-Journalist-2556 [link] [comments]]]></description>
-<pubDate>Thu, 02 Jul 2026 06:44:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1ulalf1/ai_security_rules_keep_assuming_a_network/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Srsly Risky Biz: America won&apos;t beat the distillation ecosystem</title>
 <link>https://risky.biz/SRB173/</link>
 <description><![CDATA[Tom Uren and James Wilson talk about Chinese AI labs stealing the special sauce of American AI models in ‘distillation attacks’. These attacks are fed by a grey market in which Chinese consumers buy access to American models, where one of the byproducts is logs of user requests and responses. These make wonderful inputs into distillation attacks and the whole market might be subsidised by Chinese AI Labs paying for these logs. They also discuss the possibility that last year’s hack of Jaguar Land Rover was caused by a group of Russian hackers. Was it Russians? Was it state-directed or endorsed? Who knows, but even the possibility that it was has some benefits for the Russian state. This episode is also available on YouTube]]></description>
@@ -2417,6 +2257,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
+<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
+<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
+<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Vect and TeamPCP partner for ransomware campaigns</title>
 <link>https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns</link>
 <description><![CDATA[Credentials harvested through supply chain compromises enable large‑scale ransomware deployment Categories: Threat Research Tags: Vect, TeamPCP, Ransomware<br/><br/><em>Tags: TeamPCP · ransomware_extortion · supply_chain</em>]]></description>
@@ -2427,15 +2276,6 @@
 <category>TeamPCP</category>
 <category>ransomware_extortion</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
-<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
-<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
-<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Smashing Security podcast #474: Polymarket can predict the future. So how did it miss this hack?</title>
@@ -2473,15 +2313,6 @@
 <guid isPermaLink="true">https://www.chainalysis.com/blog/isis-designation-crypto-addresses-july-2026/</guid>
 <source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
 <category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>How to make a server backup secure?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1ukwjip/how_to_make_a_server_backup_secure/</link>
-<description><![CDATA[Good evening everyone, Unfortunately, English is not my native language, so I&apos;m using a translator. I hope you understand what I&apos;m trying to say. I am currently setting up my own homo server with various functions, including digital file management for everything . Since I want to do everything right, I&apos;m already looking into security and how to make an encrypted backup that&apos;s stored in the cloud.I know one can debate why the cloud is the best option, but currently it&apos;s the most convenient for me unless someone has a better idea. My question is, what standards should I set for safety? I would like to ensure it&apos;s secure for the next few decades; I am of course aware that this includes backups and checking for newer options.However, it is important to me that it is already quantum-safe, since the data can potentially be stored.I&apos;m not a conspiracy theorist; probably no one cares about my bills, but I&apos;m still suspicious of everyone at first. According to current knowledge, AES 256 is suff]]></description>
-<pubDate>Wed, 01 Jul 2026 20:08:36 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1ukwjip/how_to_make_a_server_backup_secure/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>And the Winner in Dominant Malware Delivery? ClickFix</title>
@@ -2741,15 +2572,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>SOC question – Wazuh/Sysmon PowerShell alert, true positive or false positive?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1ukgk7z/soc_question_wazuhsysmon_powershell_alert_true/</link>
-<description><![CDATA[Hi everyone, I&apos;m new to SOC and currently learning Wazuh, Sysmon, and alert analysis in a lab environment. I received an alert that I&apos;m trying to understand better and would appreciate guidance on how an analyst would investigate it. The Wazuh rule triggered: Rule ID: 92213 Description: &quot;Executable file dropped in folder commonly used by malware (Lowered Severity)&quot; MITRE: T1105 – Ingress Tool Transfer Important details: Process: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe File created: C:\Users\someone\AppData\Local\Temp\__PSScriptPolicyTest_cebr0opm.pas.ps1 Sysmon Event ID: 11 (File Create) What confuses me is the filename: __PSScriptPolicyTest_*.ps1 I found some information suggesting PowerShell can create temporary files while checking execution policies, but I’m not sure whether this should be considered suspicious behavior or expected activity. My questions: Would you classify this as a true positive or false positive? What would be your first investigation steps? Wh]]></description>
-<pubDate>Wed, 01 Jul 2026 09:13:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1ukgk7z/soc_question_wazuhsysmon_powershell_alert_true/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Insurance Giant Aflac Discloses Data Breach Impacting Millions</title>
 <link>https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/</link>
 <description><![CDATA[Aflac Japan has notified regulators that policy details and personal and banking information have been compromised<br/><br/><em>Tags: data_breach</em>]]></description>
@@ -2758,15 +2580,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>What are you using to collect, calculate, and report security KPIs?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1ukfikp/what_are_you_using_to_collect_calculate_and/</link>
-<description><![CDATA[Hi everyone; I&apos;ve been looking around and haven&apos;t found a tool that lets you actually define and track your own KPIs. Not control compliance I mean real KPI tracking: define the metric, track it over time, report on it. Everything I find is either a GRC tool (compliance-focused, not KPI-focused) or a BI tool you have to bend into shape yourself. What&apos;s actually working for people here? Spreadsheets, Grafana, something built in-house, a GRC tool that secretly does this well? submitted by /u/No_Relief3499 [link] [comments]]]></description>
-<pubDate>Wed, 01 Jul 2026 08:09:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1ukfikp/what_are_you_using_to_collect_calculate_and/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Risky Bulletin: Researcher drops giant cache of zero-days</title>
@@ -4353,6 +4166,16 @@
 <guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-hijacks-brazils-national-alert-system</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
+</item>
+<item>
+<title>Cloudflare patches Copy-Fail across every server in two days</title>
+<link>https://www.reddit.com/r/netsec/comments/1udd811/cloudflare_patches_copyfail_across_every_server/</link>
+<description><![CDATA[Kind of crazy to look at the graph in this blog. CVE drops on 04/29, they develop a patch on 4/30, and deploy it across all of their servers on 05/01. Obviously they have the engineers to write BPF-LSM patches, but I think it points to a future where they can (almost) keep up with vulnerability disclosures. submitted by /u/xmull1gan [link] [comments]<br/><br/><em>Tags: vulnerability_disclosure</em>]]></description>
+<pubDate>Tue, 23 Jun 2026 10:18:55 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1udd811/cloudflare_patches_copyfail_across_every_server/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>vulnerability_disclosure</category>
 </item>
 <item>
 <title>Scattered Spider Teens Convicted of TfL Cyber-Attack</title>
@@ -6328,15 +6151,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
-<link>https://www.exploit-db.com/exploits/52610</link>
-<description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
-<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>May 2026 CVE Landscape</title>
 <link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
 <description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
@@ -6344,6 +6158,15 @@
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/may-2026-cve-landscape</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
+<link>https://www.exploit-db.com/exploits/52610</link>
+<description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
+<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>The “Skyway” to OSS Security: OpenSSF Community Day North America 2026 Recap</title>
@@ -6405,6 +6228,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
+<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
+<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection</title>
 <link>https://www.exploit-db.com/exploits/52609</link>
 <description><![CDATA[WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection<br/><br/><em>Tags: WordPress</em>]]></description>
@@ -6413,15 +6245,6 @@
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
-</item>
-<item>
-<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
-<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
-<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Amazon Cognito unlocks advanced capabilities with next-generation infrastructure</title>
@@ -6773,21 +6596,21 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>Pointing a Cursor at evading detection</title>
-<link>https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection</link>
-<description><![CDATA[AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR]]></description>
-<pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection</guid>
-<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence</title>
 <link>https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence</link>
 <description><![CDATA[Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.]]></description>
 <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Pointing a Cursor at evading detection</title>
+<link>https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection</link>
+<description><![CDATA[AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR]]></description>
+<pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection</guid>
+<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
 </item>
 <item>
@@ -8665,21 +8488,21 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>Inside the lethal trifecta: Blast radius reduction in AI agent deployments</title>
-<link>https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments</link>
-<description><![CDATA[&lt;p&gt;Seven things security teams can start doing today to reduce risk&lt;/p&gt; Categories: Threat Research Tags: AI, CISO, risk]]></description>
-<pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments</guid>
-<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Elastic Security MCP App: Interactive security operations inside your AI Tools</title>
 <link>https://www.elastic.co/security-labs/elastic-security-mcp-app</link>
 <description><![CDATA[Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.]]></description>
 <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-mcp-app</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Inside the lethal trifecta: Blast radius reduction in AI agent deployments</title>
+<link>https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments</link>
+<description><![CDATA[&lt;p&gt;Seven things security teams can start doing today to reduce risk&lt;/p&gt; Categories: Threat Research Tags: AI, CISO, risk]]></description>
+<pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments</guid>
+<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
 </item>
 <item>
@@ -9013,6 +8836,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook</title>
+<link>https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan</link>
+<description><![CDATA[REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.]]></description>
+<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Donuts and Beagles: Fake Claude site spreads backdoor</title>
 <link>https://www.sophos.com/en-us/blog/donuts-and-beagles-fake-claude-site-spreads-backdoor</link>
 <description><![CDATA[&lt;p&gt;A malicious imitation of Anthropic’s Claude site leads to DLL sideloading – and a backdoor&lt;/p&gt; Categories: Threat Research Tags: Claude, Beagle, Backdoor, malvertising, AI, DONUT, DLL sideloading, Sophos X-Ops<br/><br/><em>Tags: Anthropic/Claude · web_shell_backdoor</em>]]></description>
@@ -9022,15 +8854,6 @@
 <category>detection_response_operations</category>
 <category>Anthropic/Claude</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook</title>
-<link>https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan</link>
-<description><![CDATA[REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.]]></description>
-<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>The Jenkins Threat Landscape</title>
@@ -9406,6 +9229,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>DFIR: From alert to root cause using Osquery without leaving Elastic Security</title>
+<link>https://www.elastic.co/security-labs/dfir-osquery-elastic-security</link>
+<description><![CDATA[Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.]]></description>
+<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/dfir-osquery-elastic-security</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Proof-of-concept exploit available for Linux &apos;Copy Fail&apos; vulnerability (CVE-2026-31431)</title>
 <link>https://www.sophos.com/en-us/blog/proof-of-concept-exploit-available-for-linux-copy-fail-cve-2026-31431</link>
 <description><![CDATA[Categories: Threat Research Tags: advisory, Linux, Copy Fail<br/><br/><em>Tags: CVE-2026-31431</em>]]></description>
@@ -9414,15 +9246,6 @@
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
 <category>CVE-2026-31431</category>
-</item>
-<item>
-<title>DFIR: From alert to root cause using Osquery without leaving Elastic Security</title>
-<link>https://www.elastic.co/security-labs/dfir-osquery-elastic-security</link>
-<description><![CDATA[Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.]]></description>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/dfir-osquery-elastic-security</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Red Agent and Claude Opus: Securing Production Targets at Scale</title>
@@ -11176,15 +10999,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>Gemma 4 and what makes an open model succeed</title>
-<link>https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model</link>
-<description><![CDATA[Hint: it&apos;s not benchmark scores.]]></description>
-<pubDate>Fri, 03 Apr 2026 16:57:36 +0000</pubDate>
-<guid isPermaLink="true">https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model</guid>
-<source url="https://www.interconnects.ai/feed">Interconnects</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Simplifying MBA obfuscation with CoBRA</title>
 <link>https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/</link>
 <description><![CDATA[Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic. We’re releasing CoBRA , an open-source tool that simplifies the full range of MBA expressions used in the wild. Point it at an obfuscated expression and it recovers a simplified equivalent: $ cobra-cli --mba &quot;(x&amp;y)+(x|y)&quot; x + y $ cobra-cli --mba &quot;((a^b)|(a^c)) + 65469 * ~((a&amp;(b&amp;c))) + 65470 * (a&amp;(b&amp;c))&quot; --bitwidth 16 67 + (a | b | c) CoBRA simplifies 99.86% of the 73,000+ expressions drawn from seven independent datasets. It ships as a CLI tool, a C++ library, and an LLVM pass plugin. If you’ve hit MBA obfuscation during malware analysis, reversing software protection schemes, or tearing apart VM-based obfuscators, CoBRA giv<br/><br/><em>Tags: active_exploitation</em>]]></description>
@@ -11913,7 +11727,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7efdbc465af0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fac4cfe0130&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20366,7 +20180,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20375,7 +20189,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20384,7 +20198,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20394,7 +20208,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20403,7 +20217,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20412,7 +20226,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20421,7 +20235,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20430,7 +20244,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20439,7 +20253,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20448,7 +20262,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 12 Jul 2026 16:06:26 +0000</pubDate>
+<pubDate>Sun, 12 Jul 2026 18:03:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
