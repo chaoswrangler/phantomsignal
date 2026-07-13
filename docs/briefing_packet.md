@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-13T14:49:31.556971+00:00
+- Generated: 2026-07-13T17:19:38.982722+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 329
-- Total clusters raw: 142
-- Total clusters in packet: 59
-- Dropped low score: 83
+- Total items in window: 330
+- Total clusters raw: 149
+- Total clusters in packet: 63
+- Dropped low score: 86
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,53 +75,53 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
   - In window count: 3
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -140,26 +140,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -170,6 +165,11 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -195,16 +195,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -220,6 +220,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -230,36 +235,31 @@
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 7
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 10
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -270,56 +270,56 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,11 +330,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -345,6 +340,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -365,43 +365,38 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,8 +410,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,16 +425,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 30
+  - Item count: 0
+  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 29
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -496,7 +496,47 @@
   - https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
   - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
 
-### Apple iOS/macOS vulnerability activity
+### CVE-2026-56291 exploitation activity
+- Anchor signal: CVE-2026-56291
+- Theme key: cve-2026-56291
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.432
+- Shared strong signals: CVE-2026-56291
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_industries: government
+  - cve_ids: CVE-2026-48939, CVE-2026-56291
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth
+- Cluster IDs: 08882287bf, 3e3af8b34c, b5c5a1216b
+- Links:
+  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+  - https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
+  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
+
+### CVE-2026-48939 exploitation activity
+- Anchor signal: CVE-2026-48939
+- Theme key: cve-2026-48939
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.432
+- Shared strong signals: CVE-2026-48939
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_industries: government
+  - cve_ids: CVE-2026-48939, CVE-2026-56291
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth
+- Cluster IDs: 08882287bf, 3e3af8b34c, b5c5a1216b
+- Links:
+  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+  - https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
+  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
+
+### active exploitation targeting Apple iOS/macOS
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 3
@@ -506,12 +546,13 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
+  - threat_categories: active_exploitation
   - affected_products: Apple iOS/macOS
-- Cluster IDs: 598aa947b4, 605f13c77e, b35394b0f7
+- Cluster IDs: 598aa947b4, 9d6bdd5305, 605f13c77e
 - Links:
   - https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
+  - https://www.huntress.com/blog/patch-management-strategy
   - https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
-  - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
 
 ### WordPress vulnerability activity
 - Anchor signal: WordPress
@@ -565,43 +606,22 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
 
-### CVE-2026-56291 exploitation activity
-- Anchor signal: CVE-2026-56291
-- Theme key: cve-2026-56291
+### Google Cloud vulnerability activity
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
 - Cluster count: 2
-- Article count: 2
-- Cohesion: 0.327
-- Shared strong signals: CVE-2026-56291
+- Article count: 4
+- Cohesion: 0.545
+- Shared strong signals: Google Cloud
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - affected_industries: government
-  - cve_ids: CVE-2026-48939, CVE-2026-56291
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: 08882287bf, b5c5a1216b
+  - affected_products: Google Cloud
+- Cluster IDs: 5a4c062977, c8b407c1b8
 - Links:
-  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
-  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
-
-### CVE-2026-48939 exploitation activity
-- Anchor signal: CVE-2026-48939
-- Theme key: cve-2026-48939
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.327
-- Shared strong signals: CVE-2026-48939
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - affected_industries: government
-  - cve_ids: CVE-2026-48939, CVE-2026-56291
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: 08882287bf, b5c5a1216b
-- Links:
-  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
-  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
+  - https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
+  - https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
+  - https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
 
 ### Cisco vulnerability activity
 - Anchor signal: Cisco
@@ -636,24 +656,25 @@
   - https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware
   - https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
 
-### CVE-2025-3248 exploitation activity
-- Anchor signal: CVE-2025-3248
-- Theme key: cve-2025-3248
+### CVE-2018-0171 exploitation activity
+- Anchor signal: CVE-2018-0171
+- Theme key: cve-2018-0171
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: CVE-2025-3248
+- Cohesion: 0.481
+- Shared strong signals: CVE-2018-0171
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion
-  - cve_ids: CVE-2025-3248
-- Cluster IDs: c8e0a6559d, e90c682b86
+  - threat_categories: apt_espionage
+  - affected_industries: financial_services, government, critical_infrastructure
+  - cve_ids: CVE-2018-0171
+- Cluster IDs: cdaff85c13, 2d0e3438a3
 - Links:
-  - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-  - https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
+  - https://www.infosecurity-magazine.com/news/russian-state-hackers-vulnerable/
+  - https://cyberscoop.com/russian-fsb-cisco-joint-cybersecurity-advisory/
 
-### supply chain targeting npm
+### npm vulnerability activity
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 2
@@ -663,36 +684,17 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: supply_chain
-  - affected_industries: financial_services
   - affected_products: npm
 - Cluster IDs: c8e0a6559d, b35394b0f7
 - Links:
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
 
-### Microsoft Defender vulnerability activity
-- Anchor signal: Microsoft Defender
-- Theme key: microsoft-defender
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.273
-- Shared strong signals: Microsoft Defender
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Microsoft Defender
-- Cluster IDs: b835d1d4b1, 8fa37afed0
-- Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
-  - https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 2
-  - CVE-2026-5721 (first seen via SecurityWeek at 2026-07-13T12:00:00+00:00, cluster ef8f3ff932)
-  - CVE-2026-57221 (first seen via SecurityWeek at 2026-07-13T12:00:00+00:00, cluster ef8f3ff932)
+- Novel cves: 1
+  - CVE-2008-4128 (first seen via CyberScoop at 2026-07-13T15:23:46+00:00, cluster 2d0e3438a3)
 - Novel actors: 0
 - Novel products: 0
 
@@ -709,13 +711,13 @@
 - Pair: CVE-2025-7852 + WordPress (cluster 08882287bf, first observation: True)
 - Pair: CVE-2026-48939 + WordPress (cluster 08882287bf, first observation: True)
 - Pair: CVE-2026-56291 + WordPress (cluster 08882287bf, first observation: True)
+- Pair: CVE-2026-48939 + Ubiquiti UniFi (cluster 3e3af8b34c, first observation: True)
+- Pair: CVE-2026-56291 + Ubiquiti UniFi (cluster 3e3af8b34c, first observation: True)
 - Pair: CVE-2025-5777 + Anthropic/Claude (cluster aaaf47b0ea, first observation: True)
 - Pair: CVE-2025-5777 + OpenAI/ChatGPT (cluster aaaf47b0ea, first observation: True)
 - Pair: CVE-2026-12486 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-12488 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-25106 + Cisco (cluster 118be3a32e, first observation: True)
-- Pair: CVE-2026-28739 + Cisco (cluster 118be3a32e, first observation: True)
-- Pair: CVE-2026-33091 + Cisco (cluster 118be3a32e, first observation: True)
 
 ### Drift (2)
 - **ShinyHunters** (cluster c8e0a6559d)
@@ -729,14 +731,16 @@
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: Anthropic/Claude, Apple iOS/macOS, Microsoft SharePoint
 
-### Persistence (7)
-- actor_attribution: ShinyHunters (weeks observed: 6, cluster c8e0a6559d)
+### Persistence (9)
+- actor_attribution: ShinyHunters (weeks observed: 7, cluster c8e0a6559d)
 - cve_ids: CVE-2026-20230 (weeks observed: 5, cluster 8e87b71464)
 - cve_ids: CVE-2026-33825 (weeks observed: 5, cluster 8fa37afed0)
 - actor_attribution: Scattered Spider (weeks observed: 4, cluster eaade871e6)
 - cve_ids: CVE-2026-47729 (weeks observed: 3, cluster 8e87b71464)
 - cve_ids: CVE-2025-5777 (weeks observed: 3, cluster aaaf47b0ea)
+- cve_ids: CVE-2025-3248 (weeks observed: 3, cluster c8e0a6559d)
 - cve_ids: CVE-2026-50656 (weeks observed: 3, cluster 8fa37afed0)
+- actor_attribution: BlackCat/ALPHV (weeks observed: 3, cluster 7cdd398efc)
 
 ### Tier inversion (1)
 - **Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)**
@@ -987,6 +991,55 @@ iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days  Ra
   - Link: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the
 
+### Cluster 3e3af8b34c — score 20
+
+- Title: CISA warns of actively exploited RCE flaws in Joomla extensions
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-13T15:20:16+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, web_shell_backdoor, zero_day
+- affected_industries: government
+- affected_products: Ubiquiti UniFi
+- cve_ids: CVE-2026-48939, CVE-2026-56291
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, web_shell_backdoor, active_exploitation
+- affected_industries: government
+- affected_products: Ubiquiti UniFi
+- cve_ids: CVE-2026-48939, CVE-2026-56291
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file uploads. [...]
+```
+
+#### Full body
+
+```
+CISA warns of actively exploited RCE flaws in Joomla extensions By Bill Toulas July 13, 2026 11:20 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file uploads. The agency has categorized the flaws as a maximum priority , ordering federal agencies to apply available security updates and/or mitigations within three days, with the deadline set for today. The first flaw, tracked as CVE-2026-48939, is an arbitrary file upload flaw impacting the iCagenda extension used for registering and scheduling events and creating calendars. An attacker can exploit the vulnerability to upload arbitrary files to the web server, including PHP scripts, which can lead to data theft, web shell installation, and complete website compromise by achieving remote code execution (RCE). “iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution,” CISA warns in its entry in the Known Exploited Vulnerabilities ( KEV ) catalog. The second flaw added to KEV is CVE-2026-56291, an arbitrary file upload issue in the Balbooa Forms extension for Joomla. Balbooa Forms is a drag-and-drop form builder for creating contact forms on Joomla sites, with file upload support. According to CISA, this functionality can be used to upload dangerous file types, such as executable files, leading to RCE and full website takeover. According to website management and security platform mySites.guru, both flaws were exploited in automated attacks before vendors released a patch. For iCagenda, attacks were observed just a few hours before the release of version 4.0.8, which addressed CVE-2026-48939. The management service says that the CVE-2026-56291 vulnerability in Balbooa Forms was exploited as a zero-day , leveraged in attacks since July 8, a day before the vendor released a fix for the issue. Website administrators managing Joomla sites should check for the presence of iCagenda and Balbooa Forms and take action where needed to protect their assets. The flaws are fixed in iCagenda version 4.0.8 and 3.9.15, released on June 15-16, and Balbooa Forms version 2.4.1, released on July 9. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to prioritize patching Langflow auth bypass flaw Critical Langflow RCE flaw exploited to hack AI app servers CISA warns of max severity Ubiquiti flaws exploited in attacks CISA sets urgent deadline to fix Cisco flaw exploited in attacks CISA orders feds to patch max severity Joomla plugin flaw by Friday
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA warns of actively exploited RCE flaws in Joomla extensions
+  - Published: 2026-07-13T15:20:16+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file uploads. [...]
+
 ### Cluster 843dce4060 — score 19
 
 - Title: CVE-2026-48283 / CVE-2026-48313 | Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
@@ -1133,49 +1186,48 @@ WolfSSL, GeoVision, VTK vulnerabilities By Kri Dontje Thursday, July 9, 2026 14:
   - Link: https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - Summary: Cisco Talos said China-linked APT UAT-7810 is growing its proxy relay network with new malware
 
-### Cluster 2fab803c60 — score 16
+### Cluster 5a4c062977 — score 14
 
-- Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-07-07T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
+- Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-13T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 1
+- Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_products: Google Cloud
 - content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: Google Cloud
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
+How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both t
 ```
 
 #### Full body
 
 ```
-Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI July 7, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer used for token signing by the ADFS service. This attack vector warrants attention because the underlying configuration is commonly deployed in enterprise environments. The technique avoids direct interaction with components such as LSASS and the live ADFS service process, which are often subject to enhanced monitoring in enterprise environments, and may therefore result in lower visibility depending on the organization’s telemetry coverage. This post details how adversaries may exploit this TTP to forge high-privilege SAML tokens and provides the blueprint to defend against it. Technical Insight: Encountering the ‘Ghost Certificate’ Analysts followed the standard DKM extraction path, retrieving the encrypted blob from the WID database and decrypting it using the DKM material stored in Active Directory. The extraction succeeded, but the recovered certificate was no longer valid for token signing, and Entra ID rejected the resulting tokens with AADSTS500172 due to invalid signing material. Although structurally correct, the artifact is not usable for authentication, as the active signing key resides in the system’s machine-scoped cryptographic store, protected by Windows Machine DPAPI and managed through the operating system’s cryptographic subsystem. Successfully obtaining this active key allows an attacker to forge valid SAML assertions for any user, bypassing the need for user credentials and multi-factor authentication, and granting unauthorized access to any SAML-federated application including Microsoft 365 and Entra ID within the organization's environment. Analysis revealed that AutoCertificateRollover had been disabled and a manual rotation had been performed. Confirmation was obtained directly via Get-AdfsProperties , which returned AutoCertificateRollover: False , indicating that certificate lifecycle management had been delegated to manual administrative processes. While the ADFS service used a new valid key for signing, the WID configuration database was never updated to reflect the new certificate—leaving an expired "ghost" entry as the only record. This drift condition surfaces via Microsoft Event ID 385, which indicates certificate validity warnings in the ADFS service. Notably, this event self-resolves when AutoCertificateRollover is re-enabled and a subsequent certificate rollover is performed; in environments where it is disabled and manual rotation is performed without a corresponding database update, it is the observable symptom of this drift condition. Figure 1: ADFS certificate enumeration output showing configuration drift between the WID database and the active host certificate ADFS maintains private keys in two protection contexts. In Location 1 (User DPAPI) , encrypted key blobs may exist on disk, but the DPAPI p
+Security & Identity Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs July 13, 2026 Glen Messenger Group Product Manager Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both the CISO mandate for total visibility and the SRE mandate for cluster stability. It deploys as a single, unprivileged Deployment in the k8s-aibom-system namespace. It involves zero developer friction — no sidecars, no eBPF kernel modules, no privileged DaemonSets, and no modifications to existing developer pod specifications. k8s-aibom watches for AI workloads and produces BOMs. The discovery pipeline executes through four clear stages: Scrape cluster workloads : The controller continuously monitors KServe resources, Deployments, StatefulSets, DaemonSets, and Jobs across the cluster. Identify AI stacks : Advanced pattern matching inspects container images, environment variables, and command-line arguments to detect serving runtimes (vLLM, Triton Inference Server, TGI, Ollama), autonomous agent frameworks (LangChain, AutoGen, CrewAI), vector databases and RAG stores (Milvus, Qdrant, pgvector), as well as distributed training jobs and evaluation harnesses. Generate standard manifests : The controller compiles the discovered artifacts into formal OWASP CycloneDX 1.6 Machine Learning Bill of Materials (ML-BOM) documents. Export to sinks : The controller attaches the resulting ML-BOM directly to the custom resource status (status.bomDocument) of an in-cluster AIBOM Custom Resource (CR) and routes it to optional external sinks, including Google Cloud Storage buckets and external webhook endpoints. Application teams do not need to modify their pod specifications, inject sidecar containers, or alter their continuous integration and continuous delivery (CI/CD) pipelines. Furthermore, k8s-aibom treats the Kubernetes cluster state as a pure functional input: Identical cluster inputs produce byte-identical ML-BOM documents. This deterministic property makes k8s-aibom an ideal fit for GitOps workflows, enabling site-reliability engineers (SREs) to perform exact diffs and trigger precise change-detection alerts when AI dependencies drift. Where existing AIBOM tooling falls short Many AI BOM solutions offer build-time scanners producing BOMs from artifacts at rest. These tools help you track the code that was intended to be deployed. Commercial AI security platforms extend the picture with cloud-native posture management, but typically through external scanning shaped around vendor-specific data models. Few, if any, of these tools help compliance reviewers, security operations (SecOps) teams, and platform engineers understand what is running right now, what is it connected to, and how can we verify those assertions. We purpose-built k8s-aibom to bridge that gap. It produces BOMs from live cluster observation rather than artifact scanning, emits standards-conformant CycloneDX 1.6 ML-BOMs that integrate with the broader OWASP
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
-  - Published: 2026-07-07T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
-  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
 - **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
-  - Published: 2026-07-07T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
-  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
+  - Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
+  - Published: 2026-07-13T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
+  - Summary: How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both t
 
 ### Cluster c8e0a6559d — score 12
 
@@ -1512,48 +1564,96 @@ Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Br
   - Link: https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
   - Summary: Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).
 
-### Cluster 4a0789d0ad — score 10
+### Cluster 88d76f4fd8 — score 11
 
-- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-09T12:55:00+00:00
-- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- Title: Lessons Learned from CISA’s Recent GitHub Leak
+- Source: Krebs on Security (practitioner_analysis)
+- Published: 2026-07-13T15:03:28+00:00
+- Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
+- threat_categories: data_breach, vulnerability_disclosure
 - affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: apt_espionage
+- threat_categories: data_breach, vulnerability_disclosure
 - affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
 ```
 
 #### Full body
 
 ```
-Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
+The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter
 ```
 
 #### Corroborating sources (1)
 
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-  - Published: 2026-07-09T12:55:00+00:00
-  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+- **Krebs on Security** (practitioner_analysis)
+  - Title: Lessons Learned from CISA’s Recent GitHub Leak
+  - Published: 2026-07-13T15:03:28+00:00
+  - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+  - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
+
+### Cluster c8b407c1b8 — score 11
+
+- Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-13T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
+- affected_products: Google Cloud, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
+```
+
+#### Full body
+
+```
+Databases Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV July 13, 2026 Peter Ivanov Managing Director, Valtech Mobility Matt Crowley Group Product Manager, Android Automotive, Google Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all comes together. The vehicle side: AAOS SDV As the foundational in-vehicle platform, Google’s open source AAOS SDV platform abstracts core functions into reusable services independent of physical hardware, establishing a modular Service-Oriented Architecture (SOA). By decoupling non-safety domains like climate control, lighting, and diagnostics from Electronic Control Units (ECUs), the AAOS SDV platform introduces dynamic runtime service discovery. With this, the SDV can easily discover what services are running (e.g., the odometer, HVAC, sunroof, motorized seats, electric windows, etc.) and their status. To accelerate development, engineering teams leverage the Android Cuttlefish emulator to build digital twins in the cloud, simulating high-frequency sensor streams to validate these decoupled services bit-for-bit before physical silicon is ready. Valtech Nexus SDV utilizes this AAOS SDV middleware layer to discover, map, and manage vehicle resources, structuring and streaming high-frequency telemetry data straight into Bigtable. Compare this to the prior state of affairs, where OEMs outsourced system software to a variety of suppliers, each with their own pipelines, protocols, and data stored in separate silos. Crucially, this model decouples services from the heavy main infotainment stack, so they can run independently, even when the vehicle is off and parked. This allows functions like remote vehicle monitoring to remain active even when the primary infotainment system is powered down, ensuring continuous telemetry access without draining the vehicle’s 12V battery or main EV battery pack. This tight integration between the AAOS SDV platform and Nexus SDV enables a number of agentic AI and innovative first-party solutions. Unlike traditional sandboxed infotainment tools, multimodal AI agents can utilize the service discovery layer to safely interact with the physical car and process complex, intent-based requests. For example, an AI agent could automatically adjust climate zones, window actuators, or interior lighting based on a conversation with the driver, or in response to climate sensors, as in this clip: By linking this on-vehicle service layer managed by Nexus SDV with historical fleet telemetry stored in Bigtable, you deliver deeply integrated experiences that unlock new mobility solutions. Now let’s take a quick look at the Cloud side. The Google Cloud side: AI-native mobility Beyond SDV, we are rapidly moving toward AI-defined vehicles, or AIDV, where AI is core to a vehicle's operational logic. To be AI-native means being autonomous by design, with AI embedded at every architectural level. With this level of AI, the system can perceive environm
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
+  - Published: 2026-07-13T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
+  - Summary: The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
+  - Published: 2026-07-07T16:37:33+00:00
+  - Link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
+  - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it
 
 ### Cluster bfabcf1e25 — score 10
 
@@ -1647,6 +1747,49 @@ Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker 
   - Published: 2026-07-09T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
+
+### Cluster 4a0789d0ad — score 10
+
+- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-09T12:55:00+00:00
+- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+```
+
+#### Full body
+
+```
+Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+  - Published: 2026-07-09T12:55:00+00:00
+  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
 ### Cluster ca7dbcaa1e — score 10
 
@@ -1944,6 +2087,131 @@ Back to Blog Detection and Response Security Teams Are Ready To Become More Pree
   - Published: 2026-07-08T13:00:00+00:00
   - Link: https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey
   - Summary: The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the cleare
+
+### Cluster 9d6bdd5305 — score 10
+
+- Title: Effective Patch Management Strategies: 7 Best Practices | Huntress
+- Source: Huntress (detection_response_operations)
+- Published: 2026-07-13T15:00:00+00:00
+- Link: https://www.huntress.com/blog/patch-management-strategy
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
+- affected_products: Anthropic/Claude, Apple iOS/macOS, OpenAI/ChatGPT
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
+- affected_products: Apple iOS/macOS, Anthropic/Claude, OpenAI/ChatGPT
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Stop letting bad actors exploit old bugs. Build a practical patch management strategy to keep them out and learn to stay secure without all the fluff.
+```
+
+#### Full body
+
+```
+Home Blog Effective Patch Management Strategies: 7 Best Practices and Benefits Published: July 13, 2026 Effective Patch Management Strategies: 7 Best Practices and Benefits By: Brenda Buckman Summarize with AI Summarize ChatGPT Claude Perplexity Google AI A patch management strategy is a structured approach to identifying, testing, and deploying software updates across your environment. Having a dedicated strategy matters because ad hoc patching leaves gaps, and gaps are what attackers look for. Most security incidents don't start with a sophisticated attack. They start with a known vulnerability that never got patched. In fact, patching is one of the most direct ways to disrupt an attack before it starts. A weaponized exploit targeting a vulnerability your team already patched has nowhere to go. A patch management strategy is a structured approach to identifying, testing, deploying, and verifying software updates across your environment. Having a dedicated strategy matters because ad hoc patching leaves gaps—and those exposed systems are exactly what attackers look for. Learn how to build a patch management strategy that holds up under real operational pressure, not just on paper. You'll find a step-by-step framework, best practices, and common mistakes to avoid before they cost you. What is patch management? Patch management is a proactive security discipline. It's the process of identifying, evaluating, and applying updates to software, operating systems, and firmware across your environment. But it goes well beyond clicking "install" on a notification and moving on. Think of it this way: A patch dropping is just the starting gun. Before anything touches production, your team needs to know what systems are affected, how urgent the fix actually is, and whether the update could break something else in the process. That whole workflow, from discovery to verified deployment, is what patch management actually covers. IT teams typically manage three categories of updates: OS patches (Windows, Linux, macOS): Core system updates that often carry the highest security risks Third-party application patches : Browsers, productivity tools, plugins, and other software that threat actors frequently exploit because they're easy to overlook Firmware and driver updates : Lower-level updates for hardware like network switches, servers, and endpoints that can introduce risk if left unaddressed The lifecycle spans from initial discovery through final verification that a vulnerability is actually gone. Each stage carries its own risks and requires its own judgment call. Security patches vs. bug fixes vs. feature updates Not all updates are equal, and treating them the same way is a recipe for patch fatigue or, worse, a broken production system. Here's how they stack up: Security patches Bug fixes Feature updates Purpose Close known vulnerabilities Correct unintended behavior Add new functionality Trigger Vulnerability disclosure or active exploit Software defect or crash report Product roadmap or user request Urgency High to critical Low to medium Low Testing requirements Expedited but still necessary Standard Thorough Risk High if delayed Moderate Low to moderate User impact Usually minimal Minimal to moderate Can change workflows Who owns Security team drives, IT deploys IT or dev team Change management or IT The core tension here is speed vs. stability. Security patches often need aggressive timelines because attackers move fast once a vulnerability is public. A zero-day vulnerability can go from disclosed to actively exploited within hours, leaving little room for a slow approval process. Feature updates, on the other hand, can usually afford a longer wait time. Rolling them out too fast without testing is how you end up with a broken workflow that's harder to fix than the patch was worth. 7 steps to building a patch management strategy from the ground up A solid patch management strategy is a repeatable system your team can actually execute
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: Effective Patch Management Strategies: 7 Best Practices | Huntress
+  - Published: 2026-07-13T15:00:00+00:00
+  - Link: https://www.huntress.com/blog/patch-management-strategy
+  - Summary: Stop letting bad actors exploit old bugs. Build a practical patch management strategy to keep them out and learn to stay secure without all the fluff.
+
+### Cluster cf781d85e9 — score 10
+
+- Title: Threat Actors Achieve Persistence After SQL Injection
+- Source: Huntress (detection_response_operations)
+- Published: 2026-07-13T13:00:00+00:00
+- Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
+```
+
+#### Full body
+
+```
+Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Published: July 13, 2026 Home Field Advantage: How Attackers Reshape Victim Environments By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways After gaining initial access, threat actors sometimes spend time modifying the compromised environment before pursuing their end goals. That means establishing persistence, concealing activity, and deploying tools designed to make detection and eviction significantly more difficult. Huntress analysts recently investigated an incident where a threat actor made an exceptionally broad range of post-compromise modifications across an organization, including installing BadIIS modules, adding new users accounts, and more. For defenders, post-compromise behavior is just as important to monitor as initial access attempts. Identifying root cause, reducing attack surface, and maintaining visibility into endpoint activity are all critical to fully removing a threat actor from the environment. Acknowledgments: Special thanks to the efforts of Stephanie Fairless for the contributions to this investigation. "The call is coming from inside the house." Defenders often prioritize preventing threat actors from getting in, whether through vulnerability exploitation or exposed Remote Desktop Protocol (RDP) instances. But equally (if not more) important is what happens when an attacker has already made their way in. While some attackers go straight for the kill – exfiltrating data, encrypting files, or otherwise – many take a more strategic approach to mold the compromised environments to suit their needs first. They'll proactively tweak things within the environment to hide their tracks or work in some persistence. That might look like enabling the built-in Windows Guest account. It might be running Windows CLI commands like tasklist /svc to sniff out what processes a victim might be running. At Huntress, our SOC focuses on these measures with a laser focus, because they often provide hints for what happened during an incident and may even reveal new parts of an attack that weren't initially detected. In this blog post we will break down a June incident where a threat actor took aggressive steps to modify the environment after gaining initial access, in hopes of shedding light on some of these overlooked tactics. Initial Access: the first MSSQL detections During a recent incident for an organization in the tech sector, Huntress analysts observed a threat actor making more modifications to the compromised environment than usually observed during incidents of a similar nature. The June 26 incident started with the Huntress SOC detecting and reporting malicious activity via a Microsoft SQL Server (MSSQL) instance ( sqlservr.exe ). Digging deeper into the investigation, Huntress analysts discovered that the threat actor did not access the MSSQL instance directly, but instead was able to locate a web page (the IIS web server was also installed on the endpoint) where user input was not being properly validated. As a result, based on this evidence we determined that the threat actor was able to access the endpoint by successfully exploiting an SQL injection vulnerability. Teeing things up: recon and persistence Through this avenue, the threat actor used base64-encoded PowerShell to download various scripts, which we will delve into later in this blog post. Next, the actor carried out some recon: they ran tasklist /svc to determine what processes were running and available on the endpoint. This legitimate Windows command can help attackers identify potentially valuable services. That allows them to plan their next moves for what to target next – or even understand what services exist that they can potentially spoof with malicious processes. In this case, threat actors also used a PowerShell command to send the output of tasklist /svc to 334thribetlhkyo977gqrcht1k7bvdj2[.]oasti
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: Threat Actors Achieve Persistence After SQL Injection
+  - Published: 2026-07-13T13:00:00+00:00
+  - Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
+  - Summary: See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
+
+### Cluster 2fab803c60 — score 10
+
+- Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-07-07T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
+```
+
+#### Full body
+
+```
+Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI July 7, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer used for token signing by the ADFS service. This attack vector warrants attention because the underlying configuration is commonly deployed in enterprise environments. The technique avoids direct interaction with components such as LSASS and the live ADFS service process, which are often subject to enhanced monitoring in enterprise environments, and may therefore result in lower visibility depending on the organization’s telemetry coverage. This post details how adversaries may exploit this TTP to forge high-privilege SAML tokens and provides the blueprint to defend against it. Technical Insight: Encountering the ‘Ghost Certificate’ Analysts followed the standard DKM extraction path, retrieving the encrypted blob from the WID database and decrypting it using the DKM material stored in Active Directory. The extraction succeeded, but the recovered certificate was no longer valid for token signing, and Entra ID rejected the resulting tokens with AADSTS500172 due to invalid signing material. Although structurally correct, the artifact is not usable for authentication, as the active signing key resides in the system’s machine-scoped cryptographic store, protected by Windows Machine DPAPI and managed through the operating system’s cryptographic subsystem. Successfully obtaining this active key allows an attacker to forge valid SAML assertions for any user, bypassing the need for user credentials and multi-factor authentication, and granting unauthorized access to any SAML-federated application including Microsoft 365 and Entra ID within the organization's environment. Analysis revealed that AutoCertificateRollover had been disabled and a manual rotation had been performed. Confirmation was obtained directly via Get-AdfsProperties , which returned AutoCertificateRollover: False , indicating that certificate lifecycle management had been delegated to manual administrative processes. While the ADFS service used a new valid key for signing, the WID configuration database was never updated to reflect the new certificate—leaving an expired "ghost" entry as the only record. This drift condition surfaces via Microsoft Event ID 385, which indicates certificate validity warnings in the ADFS service. Notably, this event self-resolves when AutoCertificateRollover is re-enabled and a subsequent certificate rollover is performed; in environments where it is disabled and manual rotation is performed without a corresponding database update, it is the observable symptom of this drift condition. Figure 1: ADFS certificate enumeration output showing configuration drift between the WID database and the active host certificate ADFS maintains private keys in two protection contexts. In Location 1 (User DPAPI) , encrypted key blobs may exist on disk, but the DPAPI p
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
+  - Published: 2026-07-07T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
+  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
 
 ### Cluster 605f13c77e — score 10
 
@@ -2415,49 +2683,6 @@ Threat actors have been exploiting critical vulnerabilities in the Balbooa Forms
   - Link: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
   - Summary: Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .
 
-### Cluster 8b336fe756 — score 9
-
-- Title: Why SBOMs, signing, and provenance still don’t tell you if software is safe
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-07-13T06:30:20+00:00
-- Link: https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure, education, government
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: government, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028, which pushed agencies, contractors and enterprises to invest in SBOMs, signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if … More → The post Why SBOMs, signing, and provenance still don’t tell you if software is safe appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Ken Ammon, CEO, CodeHunter July 13, 2026 Share Why SBOMs, signing, and provenance still don’t tell you if software is safe We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028 , which pushed agencies, contractors and enterprises to invest in SBOMs , signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if it runs? This blind spot is becoming harder to ignore as AI changes the speed, scale and variability of malicious software. University of Toronto research demonstrated an AI-powered worm capable of adapting its attack strategy as it moves through a network. Unlike traditional worms that exploit a fixed vulnerability, this prototype can reason through new attack paths and tailor its behavior to different systems. The June 2026 AI executive order on cybersecurity reflects federal concern. But the issue is broader than policy: traditional trust models are insufficient when AI generates, modifies and deploys code faster than human review can keep up. We can no longer trust software based primarily on what it is, where it came from or whether it resembles something seen before. Visibility is not trust SBOMs answer an important question: What is inside this software? Organizations cannot manage dependencies, open-source exposure or known vulnerable components if they do not know what is inside a build. But composition is not behavior. A package can have a clean dependency tree and still perform dangerous actions. An application can include expected libraries and still attempt credential access, persistence, lateral movement, file modification or data exfiltration. SBOMs help security teams understand ingredients, but they do not predict what software will do once it executes. Context matters. File deletion may be legitimate in a disk cleanup utility and catastrophic in an office macro. Credential access is expected in a password manager, but not in a package dependency. That is the limitation of composition-based trust: knowing what software contains does not tell you what it can do once it runs. Authentic does not mean safe Signing and provenance answer different questions. Can we verify who published this software? Can we confirm where it came from? Can we determine whether the build followed expected steps? Those controls improve integrity, accountability, compliance and auditability. But authenticity is not the same as trustworthiness. Signed software can still behave maliciously. A trusted vendor update can be compromised. A legitimate build process can produce an artifact that violates enterprise policy. An AI coding agent can generate code that functions correctly while introducing unintended security consequences. Most security programs still assume that if software is signed, came through an approved pipeline or originated from a known repository, it is safe. That may be reasonable as a first filter, but it is a dangerous final decision. This approach made sense when software changed slowly and malicious code had recognizable indicators. AI is now generating, modifying and deploying code at unprecedented speed. Validating where software came from does not tell us whether it should run. The missing fourth pillar Government supply chain security frameworks have helped formalize essential controls around software origin, integrity and build process. What they have not fully addressed is behavior. Software supply chain security must now answer four questions: What is inside the software? Can we trust where it came from? How was it built? What can it do? The fourth question increasingly determines security outcomes because software inherits the privileges of the user, workload, service account or automation context that launches it. O
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Why SBOMs, signing, and provenance still don’t tell you if software is safe
-  - Published: 2026-07-13T06:30:20+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/
-  - Summary: We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028, which pushed agencies, contractors and enterprises to invest in SBOMs, signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if … More → The post Why SBOMs, signing, and provenance still don’t tell you if software is safe appeared first on Help Net Security .
-
 ### Cluster 09c50b3a4b — score 9
 
 - Title: Friday Squid Blogging: “Squidbleed” Vulnerability
@@ -2672,54 +2897,6 @@ AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Pro
   - Link: https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/
   - Summary: Other noteworthy stories that might have slipped under the radar: Abnormal AI sued by Anthropic, AssuranceAmerica data breach affects 7 million people, NSA brings back TAO. The post In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops appeared first on SecurityWeek .
 
-### Cluster 551c9fa70a — score 9
-
-- Title: Shift into high gear with agents: Securing the software-defined vehicle
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-06T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- affected_products: Google Cloud, Google/Gemini, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- affected_products: Google/Gemini, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle (SDV), notable for rapid innovation with many new capabilities delivered over the air. By integrating AI and agents, the next generation of SDVs will be capable of turning raw telemetry into actionable insights in real-time, allowing for a fundamental rethink of how vehicles interact with their environment and their users . To better support and secure SDVs, Google Cloud and Valtech have partnered to develop Nexus SDV , a highly-scalable, AI-enabled connected vehicle platform built on Google Cloud. This modular, developer-friendly and open-source solution is designed to manage up to 100 million devices, and features deep integration with Android Automotive OS (AAOS) to streamline data flows and in-vehicle experiences. We are proud to announce the first release of the Nexus SDV open-source
-```
-
-#### Full body
-
-```
-Security & Identity Shift into high gear with agents: Securing the software-defined vehicle July 6, 2026 Florian Haubner Industry Architect Lead Automotive EMEA Vesselin Tzvetkov Senior Cybersecurity Advisor, Office of the CISO Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle (SDV), notable for rapid innovation with many new capabilities delivered over the air. By integrating AI and agents, the next generation of SDVs will be capable of turning raw telemetry into actionable insights in real-time, allowing for a fundamental rethink of how vehicles interact with their environment and their users . To better support and secure SDVs, Google Cloud and Valtech have partnered to develop Nexus SDV , a highly-scalable, AI-enabled connected vehicle platform built on Google Cloud. This modular, developer-friendly and open-source solution is designed to manage up to 100 million devices, and features deep integration with Android Automotive OS (AAOS) to streamline data flows and in-vehicle experiences. We are proud to announce the first release of the Nexus SDV open-source core that showcases how it can reduce total cost of ownership through Arm-based compute and Bigtable, while providing a AI-native environment for building the next era of automotive intelligence. AI-driven experiences with Nexus SDV Nexus AI serves as the platform’s intelligent engine, transforming the vehicle from a passive data source into a proactive, agentic partner. Using Gemini models and Gemini Enterprise Agent Platform, Nexus AI can analyze complex telemetry in real-time to provide information for autonomous decision-making and hyper-personalized driver assistance, effectively acting as an intelligent agent that anticipates user needs. Crucially, this advanced intelligence is paired with a focus on significant total cost of ownership (TCO) reduction. By using high-efficiency Arm-based compute and Bigtable-optimized data storage, the platform lowers the operational costs associated with processing massive data volumes. This modular, AI-native architecture ensures that manufacturers can scale their fleet intelligence rapidly without the prohibitive cloud and development expenses traditionally associated with next-generation vehicle software. Cloud-native under the hood The architecture of Nexus SDV is built on a modular, cloud-native foundation designed to bridge the gap between the vehicle edge and the data center. Deep compatibility with AAOS is the keystone of the close integration between the cloud and the vehicle, and will help ensure that high-fidelity telemetry is ingested and synchronized in real-time. This robust data loop allows Nexus AI to quickly push intelligent updates and services back to the vehicle. By providing this developer-friendly, open framework, Nexus SDV enables manufacturers to manage the entire lifecycle of a SDV with the scalability and reliability of the Google Cloud ecosystem. Architecture for Nexus SDV. Defense in depth with Google Cloud Security controls By building on Google's secure foundations, including secure-by-design and Zero Trust architecture, Nexus SDV supports the heavy lifting of compliance and threat protection. To achieve this, the Nexus SDV architecture implements a comprehensive, defense-in-depth security model across six key elements: Mutual TLS (mTLS) and public key infrastructure (PKI) Nexus SDV relies on cryptographic trust chains to authenticate vehicles before any data exchange can occur. The infrastructure uses Google Cloud Certificate Authority Service (CAS) to manage distinct CA pools (server, factory, and registration CAs), ensuring a highly available and secure root of trust. Specifically, the registration server enforces registration by forcing clients to present a val
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Shift into high gear with agents: Securing the software-defined vehicle
-  - Published: 2026-07-06T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/
-  - Summary: The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle (SDV), notable for rapid innovation with many new capabilities delivered over the air. By integrating AI and agents, the next generation of SDVs will be capable of turning raw telemetry into actionable insights in real-time, allowing for a fundamental rethink of how vehicles interact with their environment and their users . To better support and secure SDVs, Google Cloud and Valtech have partnered to develop Nexus SDV , a highly-scalable, AI-enabled connected vehicle platform built on Google Cloud. This modular, developer-friendly and open-source solution is designed to manage up to 100 million devices, and features deep integration with Android Automotive OS (AAOS) to streamline data flows and in-vehicle experiences. We are proud to announce the first release of the Nexus SDV open-source
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
-  - Published: 2026-07-07T16:37:33+00:00
-  - Link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
-  - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it
-
 ### Cluster eb43b37f29 — score 8
 
 - Title: Vulnify: Giving Your Agents a CVE Brain
@@ -2797,6 +2974,51 @@ When AI agents look like attackers: what behavioral telemetry tells us An X-Ops 
   - Published: 2026-07-07T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry
   - Summary: <p>An X-Ops analysis of how AI coding agents trigger endpoint detection rules designed for adversaries</p> Categories: Threat Research
+
+### Cluster eee3f3e905 — score 8
+
+- Title: Guide to System Hardening: Checklist & Best Practices [2026] | Huntress
+- Source: Huntress (detection_response_operations)
+- Published: 2026-07-10T13:00:00+00:00
+- Link: https://www.huntress.com/blog/system-hardening-checklist
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_industries: government
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- affected_industries: government
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Threat actors want an easy way in. Use this practical system-hardening checklist to close gaps and learn how to secure your environment today.
+```
+
+#### Full body
+
+```
+Home Blog The Complete Guide to System Hardening: Checklist and Best Practices Published: July 10, 2026 The Complete Guide to System Hardening: Checklist and Best Practices By: Brenda Buckman Summarize with AI Summarize ChatGPT Claude Perplexity Google AI System hardening is the process of configuring systems to reduce the ways an attacker can get in or move around once they're inside. A system hardening checklist gives IT teams a structured way to work through that process, covering areas like user accounts, network configuration, patch management, and logging. Think of it as a practical starting point for closing the gaps left by default settings. Your security is only as strong as your weakest link, or in this case, your weakest configuration. A system hardening checklist gives IT teams a practical, repeatable way to close the gaps attackers target: default credentials, open ports, unnecessary services, and misconfigured permissions. It's one of the most foundational elements of good cyber hygiene , and one of the most common oversights when teams are stretched thin. The problem is that hardening isn't a one-time task. Configurations drift, new systems get added, and exceptions pile up. This guide walks through every major category of hardening, from user accounts and network configuration to logging and physical security controls, so you have a clear starting point and a process you can actually maintain. What is system hardening? System hardening is the process of configuring systems to reduce the ways an attacker can get in or move around once they're inside. Think open ports, default accounts, unused services, or weak settings. Every one of those is a potential entry point, and hardening closes them off before someone can take advantage. It's also worth distinguishing between hardening and patching , because the two are often confused: Patching fixes known vulnerabilities in software Hardening changes how a system is configured, making those vulnerabilities harder to reach or exploit in the first place Both are important parts of vulnerability management , and neither one substitutes for the other. Why system hardening matters Out-of-the-box systems aren't built with security as the priority. They're built for ease of use, which means they often ship with open ports, enabled services, and default credentials that attackers actively scan for. Misconfigurations consistently rank among the top causes of breaches , and default settings are one of the most common culprits. There's also a compliance angle worth noting. Cybersecurity frameworks like CIS Benchmarks, NIST SP 800-53, and DISA STIGs all include hardening requirements, and organizations subject to HIPAA, PCI DSS, or CMMC need documented hardening practices to pass audits. Essentially, you need to meet a baseline of protections so that if a cyber event happens, you can clearly show that you've done your due diligence. Ultimately, a hardened system is tougher to compromise, cheaper to defend, and less likely to become the entry point for a ransomware attack or data breach. The work you put in up front pays off every time an attacker moves on to an easier target. The complete system hardening checklist This is the practical core of system hardening: A step-by-step checklist organized by category that IT admins can work through systematically. Not every item will apply to every environment, so use this as a starting point and adapt it to the systems you're hardening. For the most detailed guidance, cross-reference the relevant CIS Benchmark for your specific OS or platform. Description Type Governance User account and access controls Disable default accounts, enforce password policies, apply least privilege, and enable MFA for privileged access OS hardening CIS Benchmarks, NIST SP 800-53 Network configuration Restrict traffic with default-deny rules, disable unused ports and protocols, and segment networks to limit lateral movement Network hardening CIS Benchmarks, NIS
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: Guide to System Hardening: Checklist & Best Practices [2026] | Huntress
+  - Published: 2026-07-10T13:00:00+00:00
+  - Link: https://www.huntress.com/blog/system-hardening-checklist
+  - Summary: Threat actors want an easy way in. Use this practical system-hardening checklist to close gaps and learn how to secure your environment today.
 
 ### Cluster ec6ada1c31 — score 8
 
@@ -2929,52 +3151,50 @@ Home Blog Meta Phishers Abuse Business Account Manager Service Published: July 7
   - Link: https://www.huntress.com/blog/meta-business-manager-phishing
   - Summary: Huntress is tracking a threat actor group as they evolve a phishing attack that uses a Facebook feature to send the initial spam lure.
 
-### Cluster 019b56ecce — score 8
+### Cluster 2d0e3438a3 — score 8
 
-- Title: Hackers exploit critical auth bypass in Gitea Docker image
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-10T15:48:38+00:00
-- Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/
+- Title: Officials once again warn defenders that Russian hackers are targeting network devices
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-07-13T15:23:46+00:00
+- Link: https://cyberscoop.com/russian-fsb-cisco-joint-cybersecurity-advisory/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: Docker, Gitea
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, web_shell_backdoor
-- affected_products: Docker, Fortinet, Gitea
-- cve_ids: CVE-2026-20896
-- urgency_signals: actively_exploited, preauth_unauth
+- threat_categories: apt_espionage, ransomware_extortion
+- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
+- cve_ids: CVE-2008-4128, CVE-2018-0171
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: credential_theft, web_shell_backdoor, active_exploitation
-- affected_products: Gitea, Docker, Fortinet
-- cve_ids: CVE-2026-20896
-- urgency_signals: actively_exploited, preauth_unauth
+- threat_categories: ransomware_extortion, apt_espionage
+- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
+- cve_ids: CVE-2008-4128, CVE-2018-0171
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]
+State-sponsored attackers are targeting critical infrastructure networks in defense, communications, energy, finance, government and health care. The post Officials once again warn defenders that Russian hackers are targeting network devices appeared first on CyberScoop .
 ```
 
 #### Full body
 
 ```
-Hackers exploit critical auth bypass in Gitea Docker image By Bill Toulas July 10, 2026 11:48 AM 0 Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. The security flaw is an authentication bypass vulnerability, tracked as CVE-2026-20896 , that affects deployments using the default configuration, where reverse proxy authentication headers such as X-WEBAUTH-USER are enabled. Michael Clark, leading security researcher at Sysdig, confirmed that exploitation of the flaw started less than two weeks before the vulnerability was publicly disclosed. Currently, there are around 6,200 Gitea instances exposed on the public web, although it is unclear how many of them are vulnerable. “Gitea's official Docker image ships `REVERSE_PROXY_TRUSTED_PROXIES=*`. With reverse-proxy authentication enabled, Gitea then trusts the `X-WEBAUTH-USER` header from any source IP so an unauthenticated internet client becomes whoever it claims to be,” Clark warned . “No password. No token. One header. Sysdig sensors caught the first in-the-wild hit 13 days after the advisory, a VPN-exit scanner that grabbed access.” Gitea is an open-source self-hosted alternative to GitHub and GitLab, used to store source code , manage pull requests, collaborate, deploy, and perform CI/CD operations. Gitea's official Docker image configured reverse-proxy authentication to trust identity headers from any client IP address rather than only from trusted reverse proxies, allowing unauthenticated attackers to impersonate arbitrary users. The CVE-2026-20896 critical bug affects the official Gitea Docker images up to and including version 1.26.2 in the default configuration. The maintainer shared the steps to reproduce it, warning that "any process that can reach the Gitea container's HTTP port directly - not through the intended authenticating proxy - can impersonate any user whose login name is known or guessable. Admin accounts (admin, gitea_admin, etc.) are the obvious targets." Gitea released versions 1.26.3 and 1.26.4 that address CVE-2026-20896 and advised users to upgrade straight to the most recent release, which fixes an additional issue and a regression introduced in 1.26.3. Singapore’s cybersecurity agency (CSA) has also issued a warning about CVE-2026-20896 being actively exploited. If upgrading to a safe version is not possible, CSA recommends restricting the REVERSE_PROXY_TRUSTED_PROXIES setting to specific trusted IP addresses instead of the default wildcard (*). The agency also recommended reviewing access logs for any suspicious activity to determine if a compromise has already occurred. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks Hackers exploit FortiClient EMS flaw to push infostealer malware Hackers bypass SonicWall VPN MFA due to incomplete patching Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin Hidden backdoor in Tenda router firmware grants admin access
+Advertisement Subscribe to our daily newsletter. Subscribe Close Russian state-sponsored hackers are breaking into critical infrastructure around the world by exploiting poorly configured and vulnerable networking devices, authorities from the United States and 12 additional countries said in a joint cybersecurity advisory Monday. Officials once again urged defenders to take more preventative measures to thwart attacks from the Russian Federal Security Service Center 16, which has been actively targeting critical infrastructure for more than a decade. The hackers are also tracked as Berserk Bear, Energetic Bear, Crouching Yeti, Dragonfly, Ghost Blizzard and Static Tundra. “This is an ongoing issue that has impacted various U.S. and foreign networks across multiple sectors, including the defense industrial base, communications, energy, financial services, government facilities and health care sectors,” the National Security Agency said in a statement . The state-sponsored attackers scan the internet for vulnerable routers using default or weak passwords, and have also exploited vulnerabilities in Cisco devices, Cisco’s Smart Install feature and web portals to take over network devices. Advertisement Two of the Cisco vulnerabilities exploited by the Russian FSB Center 16 hackers are quite old, including CVE-2008-4128 and CVE-2018-0171 . Officials shared technical details of the threat group’s activities and advised network defenders to disable Cisco Smart Install on all devices, use stronger modes of authentication and passwords, monitor for unusual credentials and logins using local accounts. The joint advisory comes nearly a year after the FBI issued a similar alert about the same group targeting end-of-life networking devices running Cisco Smart Install. On Monday, the European Union blamed Russia’s FSB Center 16 for a December 2025 attack on Poland’s energy grid. The United Kingdom, also on Monday, sanctioned 24 individuals and entities allegedly involved in various attacks attributed to Russian intelligence services. “From directing criminals to targeting businesses, and striking Poland’s energy grid in the depths of winter, the Russian state is sinking to new lows in its attempts to undermine European security,” Yvette Cooper, foreign security of the United Kingdom, said in a statement. Advertisement Other countries behind the joint cybersecurity advisory include: Canada, Australia, New Zealand, Czech Republic, Denmark, Estonia, Finland, France, Italy, Poland and Sweden. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Advertisement More Scoops (Getty Images) (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware Technology Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs Threats Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail Interpol cybercrime crackdown nets 5,800 arrests across 97 countries 764 splinter group leader sentenced to 40 years in jail Spain arrests suspected hacker linked to Russian hacktivist campaign Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federally vetted list for secure, trustworthy AI agents Supreme Co
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Hackers exploit critical auth bypass in Gitea Docker image
-  - Published: 2026-07-10T15:48:38+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/
-  - Summary: Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Officials once again warn defenders that Russian hackers are targeting network devices
+  - Published: 2026-07-13T15:23:46+00:00
+  - Link: https://cyberscoop.com/russian-fsb-cisco-joint-cybersecurity-advisory/
+  - Summary: State-sponsored attackers are targeting critical infrastructure networks in defense, communications, energy, finance, government and health care. The post Officials once again warn defenders that Russian hackers are targeting network devices appeared first on CyberScoop .
 
 ### Cluster eaade871e6 — score 8
 
@@ -2988,14 +3208,14 @@ Hackers exploit critical auth bypass in Gitea Docker image By Bill Toulas July 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
+- threat_categories: apt_espionage, ransomware_extortion
 - actor_attribution: Scattered Spider
 - affected_industries: critical_infrastructure, education, government, healthcare
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
+- threat_categories: ransomware_extortion, apt_espionage
 - actor_attribution: Scattered Spider
 - affected_industries: healthcare, government, critical_infrastructure, education
 - content_type: incident_report
@@ -3010,7 +3230,7 @@ Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly 
 #### Full body
 
 ```
-Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian national who was extradited from Ukraine to the United States last year pleaded guilty to participating in a series of attacks in 2019 and 2020 involving Ryuk ransomware, the Justice Department said Thursday. Karen Serobovich Vardanyan pleaded guilty to computer fraud and conspiracy to commit fraud and extortion. He agreed to pay nearly $1.2 million million in restitution and faces up to 15 years in jail. The 34-year-old admitted to participating in cybercrime from November 2019 to April 2020 when he and his co-conspirators deployed Ryuk ransomware against three U.S.-based organizations while living in Ukraine and Russia. Vardanyan’s victims include a Michigan-based company that paid a ransom of nearly $1.2 million in January 2020, a Watsonville, Oregon-based technology company that was attacked in December 2019 and a Texas-based school breached in February 2020. Advertisement Prosecutors previously accused Vardanyan and his co-conspirators — Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko, and Armenian national Levon Georgiyovych Avetisyan — of illegally accessing computer networks to deploy Ryuk ransomware on hundreds of compromised servers and workstations between March 2019 and September 2020. Ryuk ransomware was prevalent in 2019 and 2020, infecting thousands of victims globally across the private sector, state and local municipalities, local school districts and critical infrastructure, including a wave of attacks on U.S. hospitals. Victims of Ryuk ransomware attacks include Hollywood Presbyterian Medical Center , Universal Health Services , Electronic Warfare Associates , a North Carolina water utility and multiple U.S. newspapers. Ryuk ransomware operators extorted victim companies by demanding ransom payments in Bitcoin in exchange for decryption keys. Justice Department officials said Vardanyan and his co-conspirators received about 1,160 bitcoins — valued at more than $15 million at the time — in ransom payments from victim companies. Vardanyan, as part of his guilty plea, also acknowledged that his conviction will have immigration consequences resulting in removal from the United States after serving his sentence. Advertisement The U.S. District Court for the District of Oregon has yet to schedule his sentencing. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The Department of Justice building is seen in Washington, DC, on August 9, 2022. (Photo by Stefani Reynolds / AFP) (Photo by STEFANI REYNOLDS/AFP via Getty Images) Gwengoat, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Technology Deepfake CSAM lawsuit against xAI, Grok expands Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs FCC passes new cybersecurity rules for emergency systems, undersea cables Threats Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities Alleged longstanding member of Scattered Spider extradited to US Researchers spot exploitation of another critical Oracle defect This phishing kit looks more like BEC-as-a-service Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federall
+Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian national who was extradited from Ukraine to the United States last year pleaded guilty to participating in a series of attacks in 2019 and 2020 involving Ryuk ransomware, the Justice Department said Thursday. Karen Serobovich Vardanyan pleaded guilty to computer fraud and conspiracy to commit fraud and extortion. He agreed to pay nearly $1.2 million million in restitution and faces up to 15 years in jail. The 34-year-old admitted to participating in cybercrime from November 2019 to April 2020 when he and his co-conspirators deployed Ryuk ransomware against three U.S.-based organizations while living in Ukraine and Russia. Vardanyan’s victims include a Michigan-based company that paid a ransom of nearly $1.2 million in January 2020, a Watsonville, Oregon-based technology company that was attacked in December 2019 and a Texas-based school breached in February 2020. Advertisement Prosecutors previously accused Vardanyan and his co-conspirators — Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko, and Armenian national Levon Georgiyovych Avetisyan — of illegally accessing computer networks to deploy Ryuk ransomware on hundreds of compromised servers and workstations between March 2019 and September 2020. Ryuk ransomware was prevalent in 2019 and 2020, infecting thousands of victims globally across the private sector, state and local municipalities, local school districts and critical infrastructure, including a wave of attacks on U.S. hospitals. Victims of Ryuk ransomware attacks include Hollywood Presbyterian Medical Center , Universal Health Services , Electronic Warfare Associates , a North Carolina water utility and multiple U.S. newspapers. Ryuk ransomware operators extorted victim companies by demanding ransom payments in Bitcoin in exchange for decryption keys. Justice Department officials said Vardanyan and his co-conspirators received about 1,160 bitcoins — valued at more than $15 million at the time — in ransom payments from victim companies. Vardanyan, as part of his guilty plea, also acknowledged that his conviction will have immigration consequences resulting in removal from the United States after serving his sentence. Advertisement The U.S. District Court for the District of Oregon has yet to schedule his sentencing. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The Department of Justice building is seen in Washington, DC, on August 9, 2022. (Photo by Stefani Reynolds / AFP) (Photo by STEFANI REYNOLDS/AFP via Getty Images) Gwengoat, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware Technology Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs Threats Interpol cybercrime crackdown nets 5,800 arrests across 97 countries Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities Alleged longstanding member of Scattered Spider extradited to US Researchers spot exploitation of another critical Oracle defect Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create feder
 ```
 
 #### Corroborating sources (1)
@@ -3033,12 +3253,12 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian nat
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, government
+- affected_industries: government
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: government, critical_infrastructure
+- affected_industries: government
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3051,7 +3271,7 @@ A major credential leak spurred the Cybersecurity and Infrastructure Security Ag
 #### Full body
 
 ```
-Advertisement Subscribe to our daily newsletter. Subscribe Close A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it in May called one of the worst he had ever seen, which also drew congressional scrutiny . “Sharing experiences from incident response activities help other organizations learn from such experiences and enables them to take necessary precautions to prevent similar incidents from happening in their environments,” wrote Preston Werntz, acting chief information officer and Brad Libbey, acting chief information security officer. “For years, CISA has said this type of information exchange is critical to identifying trends and contributing to broader national awareness. Now, it is our turn.” On May 15, after learning about a contractor’s leak of privileged Amazon AWS GovCloud Keys on a public GitHub repository, CISA said it took steps to halt further harm. That meant taking the repository and its developer environment offline, and revoking the access of the person responsible for the leak. Advertisement CISA then analyzed the repository to get a sense of the scope of the leak. It also analyzed log files to learn that none of the leaked credentials were used outside of CISA, and that no customer or mission data was exposed. The response benefited from taking the reported incident seriously, having good logging capabilities and using zero-trust principles, the blog post states. But it also showed some things that needed to be fixed. CISA resolved to use its endpoint detection and response capabilities to monitor and manage uploads to public repositories. It rotated all of its secrets after the incident, and came up with a plan to improve management of its secrets. It determined that it would make it easy to report vulnerabilities related to CISA itself. It’s better at receiving information about vulnerabilities that are less agency-specific, given its role as a hub of communication about cyber risks for the United States and world generally, the post noted. Advertisement CISA also said it had to build a playbook for GitHub-related incidents mid-incident, and recognized the need to build playbooks for all kinds of incidents in advance. The person who uncovered the leak, GitGuardian security researcher Guillaume Valadon, applauded CISA’s evaluation of the incident. “I think that it is really good. CISA managed to explain what happened, what worked well and what needs to be improved,” he told CyberScoop via email. “This last part is, to me, the first time that a national cybersecurity agency is advocating for secrets scanning, and simplifying relations with researchers.” That’s something Valadon and his team have talked about for a while, and he said he was “proud to read that it is recognized by CISA.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Citrix rated the overall bulletin severity as high and assigned CVSS scores ranging from 6.9 to 8.8 across the six CVEs. (Photo by Justin Sullivan/Getty Images) Nadezhda Buravleva, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Technology Deepfake CS
+Advertisement Subscribe to our daily newsletter. Subscribe Close A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it in May called one of the worst he had ever seen, which also drew congressional scrutiny . “Sharing experiences from incident response activities help other organizations learn from such experiences and enables them to take necessary precautions to prevent similar incidents from happening in their environments,” wrote Preston Werntz, acting chief information officer and Brad Libbey, acting chief information security officer. “For years, CISA has said this type of information exchange is critical to identifying trends and contributing to broader national awareness. Now, it is our turn.” On May 15, after learning about a contractor’s leak of privileged Amazon AWS GovCloud Keys on a public GitHub repository, CISA said it took steps to halt further harm. That meant taking the repository and its developer environment offline, and revoking the access of the person responsible for the leak. Advertisement CISA then analyzed the repository to get a sense of the scope of the leak. It also analyzed log files to learn that none of the leaked credentials were used outside of CISA, and that no customer or mission data was exposed. The response benefited from taking the reported incident seriously, having good logging capabilities and using zero-trust principles, the blog post states. But it also showed some things that needed to be fixed. CISA resolved to use its endpoint detection and response capabilities to monitor and manage uploads to public repositories. It rotated all of its secrets after the incident, and came up with a plan to improve management of its secrets. It determined that it would make it easy to report vulnerabilities related to CISA itself. It’s better at receiving information about vulnerabilities that are less agency-specific, given its role as a hub of communication about cyber risks for the United States and world generally, the post noted. Advertisement CISA also said it had to build a playbook for GitHub-related incidents mid-incident, and recognized the need to build playbooks for all kinds of incidents in advance. The person who uncovered the leak, GitGuardian security researcher Guillaume Valadon, applauded CISA’s evaluation of the incident. “I think that it is really good. CISA managed to explain what happened, what worked well and what needs to be improved,” he told CyberScoop via email. “This last part is, to me, the first time that a national cybersecurity agency is advocating for secrets scanning, and simplifying relations with researchers.” That’s something Valadon and his team have talked about for a while, and he said he was “proud to read that it is recognized by CISA.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Citrix rated the overall bulletin severity as high and assigned CVSS scores ranging from 6.9 to 8.8 across the six CVEs. (Photo by Justin Sullivan/Getty Images) Nadezhda Buravleva, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Trump budget boss Russell Vought open to re-staffing CISA Technology Deepfake CSAM la
 ```
 
 #### Corroborating sources (1)
@@ -3110,51 +3330,6 @@ Vulnerabilities & Threats Cyber Risk Application Security Cybersecurity Operatio
   - Published: 2026-07-09T20:21:19+00:00
   - Link: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
   - Summary: The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.
-
-### Cluster e90c682b86 — score 8
-
-- Title: JadePuffer: The First Complete LLM-Driven Ransomware Attack
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-06T16:36:50+00:00
-- Link: https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion
-- cve_ids: CVE-2025-3248
-- urgency_signals: preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft
-- cve_ids: CVE-2025-3248
-- urgency_signals: preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.
-```
-
-#### Full body
-
-```
-Cyberattacks & Data Breaches Threat Intelligence Cybersecurity Operations Vulnerabilities & Threats News JadePuffer: The First Complete LLM-Driven Ransomware Attack An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems. Elizabeth Montalbano , Contributing Writer July 6, 2026 4 Min Read Source: Boy Wirat via Getty Images The first documented case of an end-to-end ransomware operation executed autonomously by a large language model (LLM) has successfully performed extortion without a human operator, ushering in a new era in cyberattacks that has long been expected by security experts. Researchers at Sysdig discovered a campaign run by an " agentic threat actor" (ATA) they call JadePuffer, which exploited a flaw in an Internet-facing Langflow deployment and then pivoted to a production database server to run an adaptive and fully automated ransomware campaign, according to a recent report . The attack unfolded across two distinct targets. First, JadePuffer exploited CVE-2025-3248 , an unauthenticated remote code execution (RCE) vulnerability affecting Langflow, which is an open source tool for building AI applications. Then JadePuffer breached its intended target: a separate Internet-exposed production server running a MySQL database and an Alibaba Nacos configuration service, according to Sysdig. Next, JadePuffer enumerated the database contents, exfiltrated selected data, deleted the database, and left an extortion note demanding payment in exchange for the stolen information. Related: Turning the Tables on Email Scammers With 'ScamBuster' During the attack, the machine compromised during initial access was used in the compromise of the final target, with all payloads delivered as Base64-encoded Python through the Langflow RCE endpoint. JadePuffer Unsophisticated, Yet Adaptable None of JadePuffer's specific attack techniques were novel or sophisticated, says Johan Edholm, co-founder of Detectify, who calls the attack "more evolution than invention." "Exploiting an exposed service, harvesting credentials, moving laterally, abusing default configurations, and destroying databases are all familiar parts of the playbook," he tells Dark Reading. What's remarkable, however, is that these tactics were strung together by an AI model into a complete ransomware operation against an organization's exposed Internet-facing infrastructure, according to Sysdig. This is unlike traditional ransomware , which relies on prewritten scripts or operator intervention during key stages of an intrusion. The most striking aspect was that "JadePuffer's own payloads were self-narrating," Michael Clark, Sysdig's director of threat research, wrote in the report. "They contained natural language reasoning, target prioritization, and the kind of detailed annotations that human operators don't often write but LLM-generated code produces reflexively." Sysdig observed an operation that adapted in real time, re-attempting failed steps within refined parameters in such a way that the attack went from a failed login to a working fix in 31 seconds, according to the post. ‍ Related: 'GodDamn' Ransomware Uses BYOVD to Smite US Companies AI-Driven Ransomware Was Inevitable Indeed, JadePuffer demonstrates how AI agents are evolving from productivity tools into autonomous offensive capabilities, representing a paradigm shift in how extortion-based attacks are carried out, according to Clark. "An LLM agent can chain reconnaissance, credential theft, lateral movement, persistence, and destruction without the operator possessing deep expertise in any one step," he wrote. "Tradecraft that once implied a capable human now implies a capable model." Since the introduction of LLMs, security experts have predicted that ransomware and other cyberattacks would inevitably be entirely generated by AI . In fact, last August, security researchers believed they discovered the first AI-driven ransomware,
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: JadePuffer: The First Complete LLM-Driven Ransomware Attack
-  - Published: 2026-07-06T16:36:50+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack
-  - Summary: An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.
 
 ### Cluster 7cdd398efc — score 8
 
@@ -3256,22 +3431,20 @@ We're all petrified about missing a critical event or misclassifying an alert, b
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-07-11T17:59:26+00:00
 - Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: npm
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, npm
+- threat_categories: credential_theft
+- affected_products: npm
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- affected_industries: financial_services
-- affected_products: npm, Apple iOS/macOS
+- threat_categories: credential_theft
+- affected_products: npm
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3279,12 +3452,6 @@ We're all petrified about missing a critical event or misclassifying an alert, b
 
 ```
 The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
-```
-
-#### Full body
-
-```
-Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep both pulled and analyzed the release, and both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository. Its latest tag is still 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow. That points to a compromised npm account or build pipeline. Which of the two has not been established. The payload is a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS, according to Socket's updated analysis and a statement to The Hacker News. The target list is broad and aimed at developers: cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints CI runners use; cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus; the Bitwarden password manager vault; browser-stored passwords and cookies; and Discord, Slack, Telegram, and Steam sessions. It also goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries do more than steal. On Linux, the payload links the kernel's BPF library and can load an eBPF program straight into the kernel from memory. That is a foothold in the kernel, not the userspace file access that the rest of the stealer relies on. StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Its command-and-control details stay encrypted in the binary and never surfaced in static analysis. StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. Those environments hold what the stealer collects: cloud keys, deploy tokens, and source code that a build or CI process can reach. Source: Step Security The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. For a stealer aimed at build machines, though, reach was never the point. The access is. The Shai-Hulud worm ran from an install hook to steal tokens and spread through hundreds of packages that
 ```
 
 #### Corroborating sources (1)
@@ -3301,7 +3468,7 @@ Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install 
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-07-10T09:00:05+00:00
 - Link: https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3322,12 +3489,6 @@ Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install 
 Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. The firm has confirmed one coordinated sweep on May 27
 ```
 
-#### Full body
-
-```
-Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets  Swati Khandelwal  Jul 10, 2026 Cryptocurrency / Vulnerability Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom , and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. The firm has confirmed one coordinated sweep on May 27 that drained about $3.1 million from 431 wallets, and it told The Hacker News that a further $2.1 million in USDT was stolen from an exposed wallet afterward, pushing confirmed losses past $5 million. As the firm puts it, "if funds recently moved without your permission, this vulnerability may be why." Most people are probably fine. Coinspect says wallets created on hardware devices are not affected, and most mainstream software wallets are not either. The real risk sits with older or lesser-known wallets, both mobile apps and browser extensions, some dating back to 2018. It has not named the apps involved, so the only way to know is to check. Paste your public wallet address into the free checker at illbloom.org . A match means the recovery phrase should be treated as compromised, so move your funds to a new wallet. What actually broke Every self-custody wallet starts with a recovery phrase, usually 12 or 24 words, also called a seed phrase. Those words are meant to be picked at random from a pool so vast that guessing them is hopeless. The affected wallets were not random enough. Their software used a weak random-number generator when it created the phrase. That shrank the pool of possible phrases from astronomically large to a range that an attacker could search. The firm has not published exactly how small. It says it rebuilt the attack from end to end. It worked through the full set of phrases the weak generator could produce, derived the wallet addresses each one leads to, then checked public blockchain records for the addresses still holding funds. The result is a watchlist of wallets that were born weak, regardless of which app generated them. The theft, by the numbers As of June 30, Coinspect had traced 2,114 exposed addresses with on-chain activity across Bitcoin, Ethereum, Rootstock, Tron, and Polygon. The May 27 sweep drained about $3.1 million from 431 of them. Bitcoin took the worst of it at roughly $2.57 million, and a single Bitcoin address lost more than $1.1 million on its own. The researchers could tell it was one coordinated theft because hundreds of unrelated wallets sent their balances to the same few collection addresses within hours. The $2.1 million theft that followed shows how exposed these wallets stay. Coinspect told The Hacker News the May 27 attacker had already compromised one owner's seed but left that USDT sitting on another chain. Coinspect spotted the money still at risk on June 10 and tried to warn the owner through exchanges the address had used, but the alert did not arrive in time. It could derive the exposed keys itself yet could not move the funds to safety, because "once a seed phrase is compromised, possessing the key no longer proves legitimate ownership." The researchers call the losses a floor, not a ceiling. They told The Hacker News the exposed set has grown since the June 30 snapshot, not because new weak wallets were created but because it keeps finding more vulnerable seed phrases along other generation paths; the checker already reflects the larger list, and the search continues. At its 2022 peak, the same set was worth a reconstructed $12.56 million, though most of that value had already fallen with the market before the May 27 sweep. What to do The checker at illbloom.org compares a public wallet address against Coinspect's list of known-vulnerable wallets. It accepts Bitcoin, Tron, Solana, and Ethereum-style addresses (Ethereum, Polygon
-```
-
 #### Corroborating sources (1)
 
 - **The Hacker News** (cyber_news_breach_reporting)
@@ -3342,20 +3503,16 @@ Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Crypto
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-07-07T14:04:50+00:00
 - Link: https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_products: Anthropic/Claude, GitHub
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ai_security
-- affected_products: Anthropic/Claude, GitHub
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3363,12 +3520,6 @@ Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Crypto
 
 ```
 A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown. The attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones
-```
-
-#### Full body
-
-```
-Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data  Swati Khandelwal  Jul 07, 2026 Vulnerability / AI Security A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown. The attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones included, the issue can steer it into pulling private contents into a public comment. Noma calls the technique GitLost . The target is GitHub Agentic Workflows , a feature now in public preview that GitHub launched in February. Instead of writing automation scripts, you write instructions to an AI agent in plain English in a Markdown file. The agent reads issues and pull requests, runs tools, and replies on its own. It can be powered by GitHub Copilot, Anthropic's Claude, Google Gemini, or OpenAI Codex. Workflows are read-only by default, but an organization can hand one a token with read access across its repositories to give it cross-repo context, private ones included. That grant is the setup GitLost turns against it. How the trick works The weakness is a well-known one: indirect prompt injection . An AI agent cannot reliably tell the difference between instructions from its owner and instructions hidden inside the content it happens to read. So if an attacker writes those instructions into an issue, the agent may simply follow them. In Noma's proof of concept , the malicious issue was dressed up as a routine request from a VP of Sales after a customer meeting. The workflow it hit was set to wake up when an issue is assigned, read the issue, and reply with a comment. It also had read access to the organization's other repos. Once a routine automation assigned the issue, the agent pulled a private repository's README and pasted it into a public comment on the issue. GitHub built guardrails to stop exactly this. In its own documentation , the company warns that "AI agents can be manipulated by prompt injection, malicious repository content, or compromised tools," and the product ships with sandboxing, read-only tokens by default, input cleaning, and a threat-detection step that scans an agent's proposed output before it posts. Noma reported that in its test, a one-word change was enough to slip past. Prefixing the malicious instruction with " Additionally " led the model to treat it as a follow-on task, not something to refuse, and the guardrail let it through. Why is this one different? What sets GitLost apart is what the attacker gets to control. "Earlier prompt injection examples were largely about manipulating what an agent said," Sasi Levi, Security Research Lead at Noma Security , told The Hacker News. "GitLost is about manipulating what an agent does with its permissions." The agent here, he said, is not a chat window but a credentialed actor sitting inside an organization's CI/CD-adjacent infrastructure, with read access spanning repos the attacker cannot see. It touches no server, needs no stolen credentials, and does not require write access to anything private. The attacker only has to open a public issue. The setup fits what developer Simon Willison named the "lethal trifecta" , and Levi uses the same term: an agent that can reach private data, takes in untrusted outside content, and has a way to send data out. Combine all three, and you have a leak path. This is not the kind of bug a patch closes; as Levi frames it, it is a structural consequence of giving AI agents standing credentials while having them read attacker-reachable text. Why does this keep happening GitLost is the latest in a run of the same kind of attack, and THN has reported several in recent months. A flaw in Anthropic's Claude Code GitHub Action let a single malicious issue push the agent into leaking secrets and
 ```
 
 #### Corroborating sources (1)
