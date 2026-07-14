@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-14T00:02:11.856235+00:00
+- Generated: 2026-07-14T03:21:03.870563+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 329
-- Total clusters raw: 149
+- Feeds OK: 76
+- Total items in window: 327
+- Total clusters raw: 147
 - Total clusters in packet: 60
-- Dropped low score: 89
+- Dropped low score: 87
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -85,6 +85,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -95,38 +100,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -135,23 +120,43 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
+  - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -160,31 +165,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - Item count: 50
+  - In window count: 4
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -200,13 +200,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,16 +220,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -265,11 +265,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -280,51 +275,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 20
+  - In window count: 20
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -340,21 +335,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 21
+  - In window count: 22
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -365,6 +365,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -380,11 +385,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -410,23 +410,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 13
+  - In window count: 14
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -575,13 +575,13 @@
   - https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
 
-### CVE-2026-48283 exploitation activity
-- Anchor signal: CVE-2026-48283
-- Theme key: cve-2026-48283
+### CVE-2026-48313 exploitation activity
+- Anchor signal: CVE-2026-48313
+- Theme key: cve-2026-48313
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48283
+- Shared strong signals: CVE-2026-48313
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -592,13 +592,13 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
 
-### CVE-2026-48313 exploitation activity
-- Anchor signal: CVE-2026-48313
-- Theme key: cve-2026-48313
+### CVE-2026-48283 exploitation activity
+- Anchor signal: CVE-2026-48283
+- Theme key: cve-2026-48283
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48313
+- Shared strong signals: CVE-2026-48283
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -737,7 +737,7 @@
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: Anthropic/Claude, Apple iOS/macOS, Microsoft SharePoint
 
-### Persistence (9)
+### Persistence (8)
 - actor_attribution: ShinyHunters (weeks observed: 7, cluster 7df2f246d4)
 - cve_ids: CVE-2026-20230 (weeks observed: 5, cluster 8e87b71464)
 - cve_ids: CVE-2026-33825 (weeks observed: 5, cluster 8fa37afed0)
@@ -746,7 +746,6 @@
 - cve_ids: CVE-2025-5777 (weeks observed: 3, cluster aaaf47b0ea)
 - cve_ids: CVE-2025-3248 (weeks observed: 3, cluster c8e0a6559d)
 - cve_ids: CVE-2026-50656 (weeks observed: 3, cluster 8fa37afed0)
-- actor_attribution: BlackCat/ALPHV (weeks observed: 3, cluster 7cdd398efc)
 
 ### Tier inversion (1)
 - **Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)**
@@ -1005,7 +1004,54 @@ iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days  Ra
   - Link: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the
 
-### Cluster 3e3af8b34c — score 20
+### Cluster 843dce4060 — score 19
+
+- Title: CVE-2026-48283 / CVE-2026-48313 | Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-07T17:25:19+00:00
+- Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-48283, CVE-2026-48313
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_industries: education, financial_services, government, healthcare
+- cve_ids: CVE-2026-48283, CVE-2026-48313
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_industries: healthcare, financial_services, government, education
+- cve_ids: CVE-2026-48283, CVE-2026-48313
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CVE-2026-48283 / CVE-2026-48313: Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
+```
+
+#### Full body
+
+```
+CVE-2026-48283 / CVE-2026-48313 Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities Adobe has released security updates for multiple vulnerabilities affecting Adobe ColdFusion, including two Critical vulnerabilities tracked as CVE-2026-48283 and CVE-2026-48313 . CVE-2026-48283 is an unauthenticated unrestricted file upload vulnerability that can lead to remote code execution, while CVE-2026-48313 is an unauthenticated path traversal vulnerability in the ColdFusion CKEditor filemanager connector that can expose sensitive files outside the intended directory structure. Both vulnerabilities affect Adobe ColdFusion 2025 Update 9 and earlier and Adobe ColdFusion 2023 Update 20 and earlier. Adobe has stated it is not aware of either vulnerability being exploited in the wild at the time of publication. Technical Details Adobe ColdFusion is a commercial web application development platform widely used across government, healthcare, financial services, higher education, and enterprise environments to build and host dynamic web applications. CVE-2026-48283 is an unauthenticated unrestricted file upload vulnerability (CWE-434) that can result in arbitrary code execution. A remote attacker can upload a malicious file to a vulnerable ColdFusion server without authentication or user interaction, resulting in code execution in the context of the current ColdFusion service account. The vulnerability has a CVSS v3.1 score of 10.0 (Critical) . CVE-2026-48313 is an unauthenticated path traversal vulnerability (CWE-22) affecting the ColdFusion CKEditor filemanager connector. Successful exploitation allows an attacker to read sensitive files outside the intended directory structure and perform limited file writes. Configuration files containing credentials or other sensitive information may also be exposed, enabling additional compromise. The vulnerability has a CVSS v3.1 score of 9.3 (Critical) . Both vulnerabilities have a changed scope, meaning successful exploitation can impact resources beyond the vulnerable ColdFusion instance itself. Although Adobe has not observed exploitation in the wild, both vulnerabilities require no authentication and are remotely exploitable, making them high-priority patching targets. Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether these vulnerabilities can be exploited in your environment. The test executes real attack techniques without causing damage, giving security teams immediate clarity into whether vulnerable Adobe ColdFusion instances are actually exploitable. Run the Rapid Response test: Launch the Rapid Response test from the NodeZero platform to determine whether CVE-2026-48283 or CVE-2026-48313 can be exploited in your environment. Patch immediately: Upgrade to Adobe ColdFusion 2025 Update 10 or Adobe ColdFusion 2023 Update 21, or implement Adobe’s recommended mitigations if immediate patching is not possible. Re-run the test: Confirm the vulnerabilities are no longer exploitable after remediation. Affected versions & patch Affected Adobe ColdFusion 2025 Update 9 and earlier Adobe ColdFusion 2023 Update 20 and earlier Fixed Adobe ColdFusion 2025 Update 10 Adobe ColdFusion 2023 Update 21 Mitigations Adobe recommends updating affected ColdFusion installations immediately. If immediate patching is not possible, organizations should restrict network access to ColdFusion administration interfaces and file upload functionality until the updates can be applied. Timeline June 30, 2026: Adobe published Security Bulletin APSB26-68 and disclosed CVE-2026-48283 and CVE-2026-48313. June 30, 2026: Adobe released ColdFusion 2025 Update 10 and ColdFusion 2023 Update 21 to remediate the vulnerabilities. June 30, 2026: Adobe reported it was not aware of any exploitation of either vulnerability in the wild. July 1, 2026: Public reporting highlighted th
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CVE-2026-48283 / CVE-2026-48313 | Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
+  - Published: 2026-07-07T17:25:19+00:00
+  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
+  - Summary: CVE-2026-48283 / CVE-2026-48313: Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
+
+### Cluster 3e3af8b34c — score 19
 
 - Title: CISA warns of actively exploited RCE flaws in Joomla extensions
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1053,53 +1099,6 @@ CISA warns of actively exploited RCE flaws in Joomla extensions By Bill Toulas J
   - Published: 2026-07-13T15:20:16+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file uploads. [...]
-
-### Cluster 843dce4060 — score 19
-
-- Title: CVE-2026-48283 / CVE-2026-48313 | Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-07T17:25:19+00:00
-- Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-48283, CVE-2026-48313
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: education, financial_services, government, healthcare
-- cve_ids: CVE-2026-48283, CVE-2026-48313
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: healthcare, financial_services, government, education
-- cve_ids: CVE-2026-48283, CVE-2026-48313
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-CVE-2026-48283 / CVE-2026-48313: Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
-```
-
-#### Full body
-
-```
-CVE-2026-48283 / CVE-2026-48313 Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities Adobe has released security updates for multiple vulnerabilities affecting Adobe ColdFusion, including two Critical vulnerabilities tracked as CVE-2026-48283 and CVE-2026-48313 . CVE-2026-48283 is an unauthenticated unrestricted file upload vulnerability that can lead to remote code execution, while CVE-2026-48313 is an unauthenticated path traversal vulnerability in the ColdFusion CKEditor filemanager connector that can expose sensitive files outside the intended directory structure. Both vulnerabilities affect Adobe ColdFusion 2025 Update 9 and earlier and Adobe ColdFusion 2023 Update 20 and earlier. Adobe has stated it is not aware of either vulnerability being exploited in the wild at the time of publication. Technical Details Adobe ColdFusion is a commercial web application development platform widely used across government, healthcare, financial services, higher education, and enterprise environments to build and host dynamic web applications. CVE-2026-48283 is an unauthenticated unrestricted file upload vulnerability (CWE-434) that can result in arbitrary code execution. A remote attacker can upload a malicious file to a vulnerable ColdFusion server without authentication or user interaction, resulting in code execution in the context of the current ColdFusion service account. The vulnerability has a CVSS v3.1 score of 10.0 (Critical) . CVE-2026-48313 is an unauthenticated path traversal vulnerability (CWE-22) affecting the ColdFusion CKEditor filemanager connector. Successful exploitation allows an attacker to read sensitive files outside the intended directory structure and perform limited file writes. Configuration files containing credentials or other sensitive information may also be exposed, enabling additional compromise. The vulnerability has a CVSS v3.1 score of 9.3 (Critical) . Both vulnerabilities have a changed scope, meaning successful exploitation can impact resources beyond the vulnerable ColdFusion instance itself. Although Adobe has not observed exploitation in the wild, both vulnerabilities require no authentication and are remotely exploitable, making them high-priority patching targets. Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether these vulnerabilities can be exploited in your environment. The test executes real attack techniques without causing damage, giving security teams immediate clarity into whether vulnerable Adobe ColdFusion instances are actually exploitable. Run the Rapid Response test: Launch the Rapid Response test from the NodeZero platform to determine whether CVE-2026-48283 or CVE-2026-48313 can be exploited in your environment. Patch immediately: Upgrade to Adobe ColdFusion 2025 Update 10 or Adobe ColdFusion 2023 Update 21, or implement Adobe’s recommended mitigations if immediate patching is not possible. Re-run the test: Confirm the vulnerabilities are no longer exploitable after remediation. Affected versions & patch Affected Adobe ColdFusion 2025 Update 9 and earlier Adobe ColdFusion 2023 Update 20 and earlier Fixed Adobe ColdFusion 2025 Update 10 Adobe ColdFusion 2023 Update 21 Mitigations Adobe recommends updating affected ColdFusion installations immediately. If immediate patching is not possible, organizations should restrict network access to ColdFusion administration interfaces and file upload functionality until the updates can be applied. Timeline June 30, 2026: Adobe published Security Bulletin APSB26-68 and disclosed CVE-2026-48283 and CVE-2026-48313. June 30, 2026: Adobe released ColdFusion 2025 Update 10 and ColdFusion 2023 Update 21 to remediate the vulnerabilities. June 30, 2026: Adobe reported it was not aware of any exploitation of either vulnerability in the wild. July 1, 2026: Public reporting highlighted th
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CVE-2026-48283 / CVE-2026-48313 | Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
-  - Published: 2026-07-07T17:25:19+00:00
-  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
-  - Summary: CVE-2026-48283 / CVE-2026-48313: Adobe ColdFusion Pre-Authentication Unrestricted File Upload and Path Traversal Vulnerabilities
 
 ### Cluster aaaf47b0ea — score 16
 
@@ -1199,50 +1198,6 @@ WolfSSL, GeoVision, VTK vulnerabilities By Kri Dontje Thursday, July 9, 2026 14:
   - Published: 2026-07-08T14:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - Summary: Cisco Talos said China-linked APT UAT-7810 is growing its proxy relay network with new malware
-
-### Cluster 2fab803c60 — score 16
-
-- Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-07-07T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
-```
-
-#### Full body
-
-```
-Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI July 7, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer used for token signing by the ADFS service. This attack vector warrants attention because the underlying configuration is commonly deployed in enterprise environments. The technique avoids direct interaction with components such as LSASS and the live ADFS service process, which are often subject to enhanced monitoring in enterprise environments, and may therefore result in lower visibility depending on the organization’s telemetry coverage. This post details how adversaries may exploit this TTP to forge high-privilege SAML tokens and provides the blueprint to defend against it. Technical Insight: Encountering the ‘Ghost Certificate’ Analysts followed the standard DKM extraction path, retrieving the encrypted blob from the WID database and decrypting it using the DKM material stored in Active Directory. The extraction succeeded, but the recovered certificate was no longer valid for token signing, and Entra ID rejected the resulting tokens with AADSTS500172 due to invalid signing material. Although structurally correct, the artifact is not usable for authentication, as the active signing key resides in the system’s machine-scoped cryptographic store, protected by Windows Machine DPAPI and managed through the operating system’s cryptographic subsystem. Successfully obtaining this active key allows an attacker to forge valid SAML assertions for any user, bypassing the need for user credentials and multi-factor authentication, and granting unauthorized access to any SAML-federated application including Microsoft 365 and Entra ID within the organization's environment. Analysis revealed that AutoCertificateRollover had been disabled and a manual rotation had been performed. Confirmation was obtained directly via Get-AdfsProperties , which returned AutoCertificateRollover: False , indicating that certificate lifecycle management had been delegated to manual administrative processes. While the ADFS service used a new valid key for signing, the WID configuration database was never updated to reflect the new certificate—leaving an expired "ghost" entry as the only record. This drift condition surfaces via Microsoft Event ID 385, which indicates certificate validity warnings in the ADFS service. Notably, this event self-resolves when AutoCertificateRollover is re-enabled and a subsequent certificate rollover is performed; in environments where it is disabled and manual rotation is performed without a corresponding database update, it is the observable symptom of this drift condition. Figure 1: ADFS certificate enumeration output showing configuration drift between the WID database and the active host certificate ADFS maintains private keys in two protection contexts. In Location 1 (User DPAPI) , encrypted key blobs may exist on disk, but the DPAPI p
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
-  - Published: 2026-07-07T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
-  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
-  - Published: 2026-07-07T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
-  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
 
 ### Cluster 5a4c062977 — score 14
 
@@ -1350,56 +1305,50 @@ Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitL
   - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
   - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
 
-### Cluster c8e0a6559d — score 12
+### Cluster 174e783389 — score 12
 
-- Title: 13th July – Threat Intelligence Report
+- Title: AI Security Report 2026
 - Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-13T13:06:08+00:00
-- Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
+- Published: 2026-07-14T00:51:31+00:00
+- Link: https://research.checkpoint.com/2026/ai-security-report-2026/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT, npm
-- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
-- urgency_signals: no_patch_yet
+- threat_categories: ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach, web_shell_backdoor
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services
-- affected_products: npm, Anthropic/Claude, OpenAI/ChatGPT
-- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
-- urgency_signals: no_patch_yet
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach, apt_espionage, ai_security
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
+For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
 ```
 
 #### Full body
 
 ```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July – Threat Intelligence Report July 13, 2026 https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license numbers, insurance policy and account data, vehicle information, and claims details. Latvia’s state-owned forestry company Latvijas Valsts Meži has suffered a ransomware attack that disrupted mapping, hunting, contractor, and customer systems. Attackers exploited a system that had remained unpatched for two years and leaked approximately 44GB of internal documents, credentials, cryptographic keys, source code, and email correspondence. Injective Labs, a developer of blockchain and cryptocurrency software, has experienced a supply chain compromise after attackers accessed its SDK project and published malicious npm packages. The affected releases exfiltrated cryptocurrency wallet private keys and seed phrases when developers used legitimate key-generation functions embedded in the compromised software. Moody Bible Institute, a U.S. faith-based educational institution, has disclosed a data breach affecting more than 2.3 million donors, students, alumni, and supporters. The ShinyHunters extortion group published allegedly stolen information, including names, dates of birth, residential addresses, email addresses, and phone numbers. AI THREATS Researchers profiled JadePuffer, an autonomous ransomware operation that used a large language model to conduct an intrusion without direct human control. The operation exploited CVE-2025-3248 in an exposed Langflow instance, accessed a production MySQL server, exfiltrated selected information, deleted the database, and issued an extortion demand. Researchers showed that malicious instructions hidden inside open-source project files could achieve remote code execution through Anthropic Claude Code and OpenAI Codex. When operating with automated permissions, the coding agents processed the instructions and executed attacker-controlled scripts, demonstrating a risk that may affect other autonomous development tools. Researchers disclosed Rogue Agent, a vulnerability in Google Dialogflow CX that allowed users with limited agent-editing permission to insert persistent malicious code. The injected code could capture and exfiltrate chatbot conversations. Google addressed the issue, and no known customer environments were compromised through the vulnerability. VULNERABILITIES AND PATCHES Multiple Tenda router models are affected by CVE-2026-11405, an undocumented authentication backdoor that provides administrative access through a hidden password. The flaw affects several FH1201, W15E, AC10, AC5, and AC6 firmware versions and allows attackers to bypass configured credentials and modify device and network settings. Linux maintainers have patched CVE-2026-53359, a critical vulnerability in the Kernel-based Virtual Machine hypervisor. A malicious guest virtual machine could corrupt host kernel memory and potentially escape into the host environment. The flaw affects Intel and AMD x86 systems and is particularly relevant to shared cloud infrastructure. U-Boot has addressed six vulnerabilities affecting signature verification of Flattened Image Tree files used during secure boot. Two flaws could enable arbitrary code execution while a device loads a supposedly verified image, and four could cause crashes. The affected bootloader is widely used in routers, cameras, and embedded controllers. Opera has addressed a critical vulnerability in the Opera GX browser that allowed malicious websites to install browser modificatio
+CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 463 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 416 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 AI Security Report 2026 July 14, 2026 https://research.checkpoint.com/2026/ai-security-report-2026/ For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the operation. Key observed findings AI has crossed from development aid to live attack operator. It now does the hands-on work inside live intrusions, from China-nexus espionage campaigns to a criminal breach of multiple Mexican government agencies and has spread from nation states to ordinary cyber criminals. AI now builds deployment-ready malware and attack suites. Its involvement is often invisible in the finished artifact: one developer used an AI environment to produce VoidLink, an 88,000-line command-and-control offensive framework, in under a week. Attackers prefer commercial models, and now abuse them by exploiting the agentic architecture, not just single prompts. Most actors favor jailbroken mainstream models over self-hosted ones, and the durable bypass is now a planted configuration file an agent loads and trusts across sessions. An AI-enabled criminal tooling market has matured. Phishing-as-a-service kits now embed a language model with the jailbreak built in, and conversational AI voice-agent services run vishing and one-time-passcode theft at scale. Virtual Identity is no longer a reliable trust anchor. Voice, face, documents, and live video are now cheap to forge convincingly and are widely used in attacks taking multi-channel social engineering to a new level of integration. AI itself is an expanding attack surface. Models cannot always separate data from instructions and content they process might influence the model’s behavior; the surrounding stack adds ordinary software vulnerabilities and supply-chain risk, all in a rapidly evolving ecosystem where security practices not always mature. Indirect prompt injection is on the rise. Detections of longer malicious payloads increased sharply, rising roughly fivefold between March and May 2026 and approaching 1% of observed prompts in May. Longer payloads are more typical of content-borne and agentic attack paths, this pattern suggests that indirect prompt injection is becoming more operationally relevant. Enterprise data leakage through GenAI is persistent and growing risk . High-risk prompts doubled from 2% to 4% during the last year, while organizations used an average of 10 AI applications each month, many without official approval. Data exposure risks are not evenly distributed across the verticals . Sector-level analysis reveals that AI-related data exposure risks are not evenly distributed across the verticals, and correlate both with AI usage patterns and security maturity. Business Services recorded the highest rate of high-risk GenAI prompts at 5.91%, meaning nearly one in every 17 AI interactions carried a significant risk of sensitive data exposure. To read the full findings, access the AI Security Report 2026 from Check Point Research here. GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLI
 ```
 
 #### Corroborating sources (1)
 
 - **Check Point Research** (threat_research_primary)
-  - Title: 13th July – Threat Intelligence Report
-  - Published: 2026-07-13T13:06:08+00:00
-  - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
+  - Title: AI Security Report 2026
+  - Published: 2026-07-14T00:51:31+00:00
+  - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
+  - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
 
 ### Cluster 4dacf306cd — score 12
 
@@ -1534,6 +1483,57 @@ GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses  Ravie La
   - Link: https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html
   - Summary: Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the wild on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware,
 
+### Cluster c8e0a6559d — score 11
+
+- Title: 13th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-13T13:06:08+00:00
+- Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT, npm
+- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach, web_shell_backdoor
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services
+- affected_products: npm, Anthropic/Claude, OpenAI/ChatGPT
+- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July – Threat Intelligence Report July 13, 2026 https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license numbers, insurance policy and account data, vehicle information, and claims details. Latvia’s state-owned forestry company Latvijas Valsts Meži has suffered a ransomware attack that disrupted mapping, hunting, contractor, and customer systems. Attackers exploited a system that had remained unpatched for two years and leaked approximately 44GB of internal documents, credentials, cryptographic keys, source code, and email correspondence. Injective Labs, a developer of blockchain and cryptocurrency software, has experienced a supply chain compromise after attackers accessed its SDK project and published malicious npm packages. The affected releases exfiltrated cryptocurrency wallet private keys and seed phrases when developers used legitimate key-generation functions embedded in the compromised software. Moody Bible Institute, a U.S. faith-based educational institution, has disclosed a data breach affecting more than 2.3 million donors, students, alumni, and supporters. The ShinyHunters extortion group published allegedly stolen information, including names, dates of birth, residential addresses, email addresses, and phone numbers. AI THREATS Researchers profiled JadePuffer, an autonomous ransomware operation that used a large language model to conduct an intrusion without direct human control. The operation exploited CVE-2025-3248 in an exposed Langflow instance, accessed a production MySQL server, exfiltrated selected information, deleted the database, and issued an extortion demand. Researchers showed that malicious instructions hidden inside open-source project files could achieve remote code execution through Anthropic Claude Code and OpenAI Codex. When operating with automated permissions, the coding agents processed the instructions and executed attacker-controlled scripts, demonstrating a risk that may affect other autonomous development tools. Researchers disclosed Rogue Agent, a vulnerability in Google Dialogflow CX that allowed users with limited agent-editing permission to insert persistent malicious code. The injected code could capture and exfiltrate chatbot conversations. Google addressed the issue, and no known customer environments were compromised through the vulnerability. VULNERABILITIES AND PATCHES Multiple Tenda router models are affected by CVE-2026-11405, an undocumented authentication backdoor that provides administrative access through a hidden password. The flaw affects several FH1201, W15E, AC10, AC5, and AC6 firmware versions and allows attackers to bypass configured credentials and modify device and network settings. Linux maintainers have patched CVE-2026-53359, a critical vulnerability in the Kernel-based Virtual Machine hypervisor. A malicious guest virtual machine could corrupt host kernel memory and potentially escape into the host environment. The flaw affects Intel and AMD x86 systems and is particularly relevant to shared cloud infrastructure. U-Boot has addressed six vulnerabilities affecting signature verification of Flattened Image Tree files used during secure boot. Two flaws could enable arbitrary code execution while a device loads a supposedly verified image, and four could cause crashes. The affected bootloader is widely used in routers, cameras, and embedded controllers. Opera has addressed a critical vulnerability in the Opera GX browser that allowed malicious websites to install browser modificatio
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 13th July – Threat Intelligence Report
+  - Published: 2026-07-13T13:06:08+00:00
+  - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
+
 ### Cluster ef8f3ff932 — score 11
 
 - Title: RabbitMQ Vulnerability Threatens Enterprise Systems
@@ -1582,49 +1582,6 @@ A vulnerability in RabbitMQ could allow attackers to obtain the broker’s confi
   - Published: 2026-07-13T12:00:00+00:00
   - Link: https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/
   - Summary: Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker. The post RabbitMQ Vulnerability Threatens Enterprise Systems appeared first on SecurityWeek .
-
-### Cluster 88d76f4fd8 — score 11
-
-- Title: Lessons Learned from CISA’s Recent GitHub Leak
-- Source: Krebs on Security (practitioner_analysis)
-- Published: 2026-07-13T15:03:28+00:00
-- Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, vulnerability_disclosure
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: data_breach, vulnerability_disclosure
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
-```
-
-#### Full body
-
-```
-The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter
-```
-
-#### Corroborating sources (1)
-
-- **Krebs on Security** (practitioner_analysis)
-  - Title: Lessons Learned from CISA’s Recent GitHub Leak
-  - Published: 2026-07-13T15:03:28+00:00
-  - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
-  - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
 
 ### Cluster c8b407c1b8 — score 11
 
@@ -2109,91 +2066,44 @@ Back to Blog Detection and Response Security Teams Are Ready To Become More Pree
   - Link: https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey
   - Summary: The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the cleare
 
-### Cluster 9d6bdd5305 — score 10
+### Cluster 2fab803c60 — score 10
 
-- Title: Effective Patch Management Strategies: 7 Best Practices | Huntress
-- Source: Huntress (detection_response_operations)
-- Published: 2026-07-13T15:00:00+00:00
-- Link: https://www.huntress.com/blog/patch-management-strategy
+- Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-07-07T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
-- affected_products: Anthropic/Claude, Apple iOS/macOS, OpenAI/ChatGPT
-- urgency_signals: actively_exploited, zero_day
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
-- affected_products: Apple iOS/macOS, Anthropic/Claude, OpenAI/ChatGPT
-- urgency_signals: actively_exploited, zero_day
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Stop letting bad actors exploit old bugs. Build a practical patch management strategy to keep them out and learn to stay secure without all the fluff.
+Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
 ```
 
 #### Full body
 
 ```
-Home Blog Effective Patch Management Strategies: 7 Best Practices and Benefits Published: July 13, 2026 Effective Patch Management Strategies: 7 Best Practices and Benefits By: Brenda Buckman Summarize with AI Summarize ChatGPT Claude Perplexity Google AI A patch management strategy is a structured approach to identifying, testing, and deploying software updates across your environment. Having a dedicated strategy matters because ad hoc patching leaves gaps, and gaps are what attackers look for. Most security incidents don't start with a sophisticated attack. They start with a known vulnerability that never got patched. In fact, patching is one of the most direct ways to disrupt an attack before it starts. A weaponized exploit targeting a vulnerability your team already patched has nowhere to go. A patch management strategy is a structured approach to identifying, testing, deploying, and verifying software updates across your environment. Having a dedicated strategy matters because ad hoc patching leaves gaps—and those exposed systems are exactly what attackers look for. Learn how to build a patch management strategy that holds up under real operational pressure, not just on paper. You'll find a step-by-step framework, best practices, and common mistakes to avoid before they cost you. What is patch management? Patch management is a proactive security discipline. It's the process of identifying, evaluating, and applying updates to software, operating systems, and firmware across your environment. But it goes well beyond clicking "install" on a notification and moving on. Think of it this way: A patch dropping is just the starting gun. Before anything touches production, your team needs to know what systems are affected, how urgent the fix actually is, and whether the update could break something else in the process. That whole workflow, from discovery to verified deployment, is what patch management actually covers. IT teams typically manage three categories of updates: OS patches (Windows, Linux, macOS): Core system updates that often carry the highest security risks Third-party application patches : Browsers, productivity tools, plugins, and other software that threat actors frequently exploit because they're easy to overlook Firmware and driver updates : Lower-level updates for hardware like network switches, servers, and endpoints that can introduce risk if left unaddressed The lifecycle spans from initial discovery through final verification that a vulnerability is actually gone. Each stage carries its own risks and requires its own judgment call. Security patches vs. bug fixes vs. feature updates Not all updates are equal, and treating them the same way is a recipe for patch fatigue or, worse, a broken production system. Here's how they stack up: Security patches Bug fixes Feature updates Purpose Close known vulnerabilities Correct unintended behavior Add new functionality Trigger Vulnerability disclosure or active exploit Software defect or crash report Product roadmap or user request Urgency High to critical Low to medium Low Testing requirements Expedited but still necessary Standard Thorough Risk High if delayed Moderate Low to moderate User impact Usually minimal Minimal to moderate Can change workflows Who owns Security team drives, IT deploys IT or dev team Change management or IT The core tension here is speed vs. stability. Security patches often need aggressive timelines because attackers move fast once a vulnerability is public. A zero-day vulnerability can go from disclosed to actively exploited within hours, leaving little room for a slow approval process. Feature updates, on the other hand, can usually afford a longer wait time. Rolling them out too fast without testing is how you end up with a broken workflow that's harder to fix than the patch was worth. 7 steps to building a patch management strategy from the ground up A solid patch management strategy is a repeatable system your team can actually execute
+Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI July 7, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer used for token signing by the ADFS service. This attack vector warrants attention because the underlying configuration is commonly deployed in enterprise environments. The technique avoids direct interaction with components such as LSASS and the live ADFS service process, which are often subject to enhanced monitoring in enterprise environments, and may therefore result in lower visibility depending on the organization’s telemetry coverage. This post details how adversaries may exploit this TTP to forge high-privilege SAML tokens and provides the blueprint to defend against it. Technical Insight: Encountering the ‘Ghost Certificate’ Analysts followed the standard DKM extraction path, retrieving the encrypted blob from the WID database and decrypting it using the DKM material stored in Active Directory. The extraction succeeded, but the recovered certificate was no longer valid for token signing, and Entra ID rejected the resulting tokens with AADSTS500172 due to invalid signing material. Although structurally correct, the artifact is not usable for authentication, as the active signing key resides in the system’s machine-scoped cryptographic store, protected by Windows Machine DPAPI and managed through the operating system’s cryptographic subsystem. Successfully obtaining this active key allows an attacker to forge valid SAML assertions for any user, bypassing the need for user credentials and multi-factor authentication, and granting unauthorized access to any SAML-federated application including Microsoft 365 and Entra ID within the organization's environment. Analysis revealed that AutoCertificateRollover had been disabled and a manual rotation had been performed. Confirmation was obtained directly via Get-AdfsProperties , which returned AutoCertificateRollover: False , indicating that certificate lifecycle management had been delegated to manual administrative processes. While the ADFS service used a new valid key for signing, the WID configuration database was never updated to reflect the new certificate—leaving an expired "ghost" entry as the only record. This drift condition surfaces via Microsoft Event ID 385, which indicates certificate validity warnings in the ADFS service. Notably, this event self-resolves when AutoCertificateRollover is re-enabled and a subsequent certificate rollover is performed; in environments where it is disabled and manual rotation is performed without a corresponding database update, it is the observable symptom of this drift condition. Figure 1: ADFS certificate enumeration output showing configuration drift between the WID database and the active host certificate ADFS maintains private keys in two protection contexts. In Location 1 (User DPAPI) , encrypted key blobs may exist on disk, but the DPAPI p
 ```
 
 #### Corroborating sources (1)
 
-- **Huntress** (detection_response_operations)
-  - Title: Effective Patch Management Strategies: 7 Best Practices | Huntress
-  - Published: 2026-07-13T15:00:00+00:00
-  - Link: https://www.huntress.com/blog/patch-management-strategy
-  - Summary: Stop letting bad actors exploit old bugs. Build a practical patch management strategy to keep them out and learn to stay secure without all the fluff.
-
-### Cluster cf781d85e9 — score 10
-
-- Title: Threat Actors Achieve Persistence After SQL Injection
-- Source: Huntress (detection_response_operations)
-- Published: 2026-07-13T13:00:00+00:00
-- Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
-```
-
-#### Full body
-
-```
-Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Published: July 13, 2026 Home Field Advantage: How Attackers Reshape Victim Environments By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways After gaining initial access, threat actors sometimes spend time modifying the compromised environment before pursuing their end goals. That means establishing persistence, concealing activity, and deploying tools designed to make detection and eviction significantly more difficult. Huntress analysts recently investigated an incident where a threat actor made an exceptionally broad range of post-compromise modifications across an organization, including installing BadIIS modules, adding new users accounts, and more. For defenders, post-compromise behavior is just as important to monitor as initial access attempts. Identifying root cause, reducing attack surface, and maintaining visibility into endpoint activity are all critical to fully removing a threat actor from the environment. Acknowledgments: Special thanks to the efforts of Stephanie Fairless for the contributions to this investigation. "The call is coming from inside the house." Defenders often prioritize preventing threat actors from getting in, whether through vulnerability exploitation or exposed Remote Desktop Protocol (RDP) instances. But equally (if not more) important is what happens when an attacker has already made their way in. While some attackers go straight for the kill – exfiltrating data, encrypting files, or otherwise – many take a more strategic approach to mold the compromised environments to suit their needs first. They'll proactively tweak things within the environment to hide their tracks or work in some persistence. That might look like enabling the built-in Windows Guest account. It might be running Windows CLI commands like tasklist /svc to sniff out what processes a victim might be running. At Huntress, our SOC focuses on these measures with a laser focus, because they often provide hints for what happened during an incident and may even reveal new parts of an attack that weren't initially detected. In this blog post we will break down a June incident where a threat actor took aggressive steps to modify the environment after gaining initial access, in hopes of shedding light on some of these overlooked tactics. Initial Access: the first MSSQL detections During a recent incident for an organization in the tech sector, Huntress analysts observed a threat actor making more modifications to the compromised environment than usually observed during incidents of a similar nature. The June 26 incident started with the Huntress SOC detecting and reporting malicious activity via a Microsoft SQL Server (MSSQL) instance ( sqlservr.exe ). Digging deeper into the investigation, Huntress analysts discovered that the threat actor did not access the MSSQL instance directly, but instead was able to locate a web page (the IIS web server was also installed on the endpoint) where user input was not being properly validated. As a result, based on this evidence we determined that the threat actor was able to access the endpoint by successfully exploiting an SQL injection vulnerability. Teeing things up: recon and persistence Through this avenue, the threat actor used base64-encoded PowerShell to download various scripts, which we will delve into later in this blog post. Next, the actor carried out some recon: they ran tasklist /svc to determine what processes were running and available on the endpoint. This legitimate Windows command can help attackers identify potentially valuable services. That allows them to plan their next moves for what to target next – or even understand what services exist that they can potentially spoof with malicious processes. In this case, threat actors also used a PowerShell command to send the output of tasklist /svc to 334thribetlhkyo977gqrcht1k7bvdj2[.]oasti
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: Threat Actors Achieve Persistence After SQL Injection
-  - Published: 2026-07-13T13:00:00+00:00
-  - Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
-  - Summary: See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI
+  - Published: 2026-07-07T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
+  - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
 
 ### Cluster aa4a893323 — score 10
 
@@ -2241,6 +2151,49 @@ Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers  Swati
   - Published: 2026-07-10T11:47:43+00:00
   - Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
   - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
+
+### Cluster 88d76f4fd8 — score 10
+
+- Title: Lessons Learned from CISA’s Recent GitHub Leak
+- Source: Krebs on Security (practitioner_analysis)
+- Published: 2026-07-13T15:03:28+00:00
+- Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, vulnerability_disclosure
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: data_breach, vulnerability_disclosure
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
+```
+
+#### Full body
+
+```
+The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter
+```
+
+#### Corroborating sources (1)
+
+- **Krebs on Security** (practitioner_analysis)
+  - Title: Lessons Learned from CISA’s Recent GitHub Leak
+  - Published: 2026-07-13T15:03:28+00:00
+  - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+  - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
 
 ### Cluster ce7170bd38 — score 10
 
@@ -2435,6 +2388,92 @@ Anyone who deals with phishing messages caught by basic security filters knows t
   - Published: 2026-07-10T09:09:29+00:00
   - Link: https://isc.sans.edu/diary/rss/33144
   - Summary: Anyone who deals with phishing messages caught by basic security filters knows that most phishing samples tend to blend into one another, since only a small set of techniques and approaches keeps reappearing in them. That is precisely why it is worth pausing on the occasional message that does something a little out of the ordinary.
+
+### Cluster 9d6bdd5305 — score 9
+
+- Title: Effective Patch Management Strategies: 7 Best Practices | Huntress
+- Source: Huntress (detection_response_operations)
+- Published: 2026-07-13T15:00:00+00:00
+- Link: https://www.huntress.com/blog/patch-management-strategy
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
+- affected_products: Anthropic/Claude, Apple iOS/macOS, OpenAI/ChatGPT
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
+- affected_products: Apple iOS/macOS, Anthropic/Claude, OpenAI/ChatGPT
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Stop letting bad actors exploit old bugs. Build a practical patch management strategy to keep them out and learn to stay secure without all the fluff.
+```
+
+#### Full body
+
+```
+Home Blog Effective Patch Management Strategies: 7 Best Practices and Benefits Published: July 13, 2026 Effective Patch Management Strategies: 7 Best Practices and Benefits By: Brenda Buckman Summarize with AI Summarize ChatGPT Claude Perplexity Google AI A patch management strategy is a structured approach to identifying, testing, and deploying software updates across your environment. Having a dedicated strategy matters because ad hoc patching leaves gaps, and gaps are what attackers look for. Most security incidents don't start with a sophisticated attack. They start with a known vulnerability that never got patched. In fact, patching is one of the most direct ways to disrupt an attack before it starts. A weaponized exploit targeting a vulnerability your team already patched has nowhere to go. A patch management strategy is a structured approach to identifying, testing, deploying, and verifying software updates across your environment. Having a dedicated strategy matters because ad hoc patching leaves gaps—and those exposed systems are exactly what attackers look for. Learn how to build a patch management strategy that holds up under real operational pressure, not just on paper. You'll find a step-by-step framework, best practices, and common mistakes to avoid before they cost you. What is patch management? Patch management is a proactive security discipline. It's the process of identifying, evaluating, and applying updates to software, operating systems, and firmware across your environment. But it goes well beyond clicking "install" on a notification and moving on. Think of it this way: A patch dropping is just the starting gun. Before anything touches production, your team needs to know what systems are affected, how urgent the fix actually is, and whether the update could break something else in the process. That whole workflow, from discovery to verified deployment, is what patch management actually covers. IT teams typically manage three categories of updates: OS patches (Windows, Linux, macOS): Core system updates that often carry the highest security risks Third-party application patches : Browsers, productivity tools, plugins, and other software that threat actors frequently exploit because they're easy to overlook Firmware and driver updates : Lower-level updates for hardware like network switches, servers, and endpoints that can introduce risk if left unaddressed The lifecycle spans from initial discovery through final verification that a vulnerability is actually gone. Each stage carries its own risks and requires its own judgment call. Security patches vs. bug fixes vs. feature updates Not all updates are equal, and treating them the same way is a recipe for patch fatigue or, worse, a broken production system. Here's how they stack up: Security patches Bug fixes Feature updates Purpose Close known vulnerabilities Correct unintended behavior Add new functionality Trigger Vulnerability disclosure or active exploit Software defect or crash report Product roadmap or user request Urgency High to critical Low to medium Low Testing requirements Expedited but still necessary Standard Thorough Risk High if delayed Moderate Low to moderate User impact Usually minimal Minimal to moderate Can change workflows Who owns Security team drives, IT deploys IT or dev team Change management or IT The core tension here is speed vs. stability. Security patches often need aggressive timelines because attackers move fast once a vulnerability is public. A zero-day vulnerability can go from disclosed to actively exploited within hours, leaving little room for a slow approval process. Feature updates, on the other hand, can usually afford a longer wait time. Rolling them out too fast without testing is how you end up with a broken workflow that's harder to fix than the patch was worth. 7 steps to building a patch management strategy from the ground up A solid patch management strategy is a repeatable system your team can actually execute
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: Effective Patch Management Strategies: 7 Best Practices | Huntress
+  - Published: 2026-07-13T15:00:00+00:00
+  - Link: https://www.huntress.com/blog/patch-management-strategy
+  - Summary: Stop letting bad actors exploit old bugs. Build a practical patch management strategy to keep them out and learn to stay secure without all the fluff.
+
+### Cluster cf781d85e9 — score 9
+
+- Title: Threat Actors Achieve Persistence After SQL Injection
+- Source: Huntress (detection_response_operations)
+- Published: 2026-07-13T13:00:00+00:00
+- Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
+```
+
+#### Full body
+
+```
+Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Published: July 13, 2026 Home Field Advantage: How Attackers Reshape Victim Environments By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways After gaining initial access, threat actors sometimes spend time modifying the compromised environment before pursuing their end goals. That means establishing persistence, concealing activity, and deploying tools designed to make detection and eviction significantly more difficult. Huntress analysts recently investigated an incident where a threat actor made an exceptionally broad range of post-compromise modifications across an organization, including installing BadIIS modules, adding new users accounts, and more. For defenders, post-compromise behavior is just as important to monitor as initial access attempts. Identifying root cause, reducing attack surface, and maintaining visibility into endpoint activity are all critical to fully removing a threat actor from the environment. Acknowledgments: Special thanks to the efforts of Stephanie Fairless for the contributions to this investigation. "The call is coming from inside the house." Defenders often prioritize preventing threat actors from getting in, whether through vulnerability exploitation or exposed Remote Desktop Protocol (RDP) instances. But equally (if not more) important is what happens when an attacker has already made their way in. While some attackers go straight for the kill – exfiltrating data, encrypting files, or otherwise – many take a more strategic approach to mold the compromised environments to suit their needs first. They'll proactively tweak things within the environment to hide their tracks or work in some persistence. That might look like enabling the built-in Windows Guest account. It might be running Windows CLI commands like tasklist /svc to sniff out what processes a victim might be running. At Huntress, our SOC focuses on these measures with a laser focus, because they often provide hints for what happened during an incident and may even reveal new parts of an attack that weren't initially detected. In this blog post we will break down a June incident where a threat actor took aggressive steps to modify the environment after gaining initial access, in hopes of shedding light on some of these overlooked tactics. Initial Access: the first MSSQL detections During a recent incident for an organization in the tech sector, Huntress analysts observed a threat actor making more modifications to the compromised environment than usually observed during incidents of a similar nature. The June 26 incident started with the Huntress SOC detecting and reporting malicious activity via a Microsoft SQL Server (MSSQL) instance ( sqlservr.exe ). Digging deeper into the investigation, Huntress analysts discovered that the threat actor did not access the MSSQL instance directly, but instead was able to locate a web page (the IIS web server was also installed on the endpoint) where user input was not being properly validated. As a result, based on this evidence we determined that the threat actor was able to access the endpoint by successfully exploiting an SQL injection vulnerability. Teeing things up: recon and persistence Through this avenue, the threat actor used base64-encoded PowerShell to download various scripts, which we will delve into later in this blog post. Next, the actor carried out some recon: they ran tasklist /svc to determine what processes were running and available on the endpoint. This legitimate Windows command can help attackers identify potentially valuable services. That allows them to plan their next moves for what to target next – or even understand what services exist that they can potentially spoof with malicious processes. In this case, threat actors also used a PowerShell command to send the output of tasklist /svc to 334thribetlhkyo977gqrcht1k7bvdj2[.]oasti
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: Threat Actors Achieve Persistence After SQL Injection
+  - Published: 2026-07-13T13:00:00+00:00
+  - Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
+  - Summary: See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
 
 ### Cluster 0fefb209ee — score 9
 
@@ -3238,56 +3277,6 @@ Vulnerabilities & Threats Cyber Risk Application Security Cybersecurity Operatio
   - Published: 2026-07-09T20:21:19+00:00
   - Link: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
   - Summary: The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.
-
-### Cluster 7cdd398efc — score 8
-
-- Title: Ransomware negotiator who betrayed clients sentenced to 70 months in prison
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-07-13T12:22:17+00:00
-- Link: https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: BlackCat/ALPHV
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: BlackCat/ALPHV
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: BlackCat/ALPHV
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations. The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the … More → The post Ransomware negotiator who betrayed clients sentenced to 70 months in prison appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Sinisa Markovic , Managing Editor, Help Net Security July 13, 2026 Share Ransomware negotiator who betrayed clients sentenced to 70 months in prison A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations . The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the group maximize ransom demands against five organizations. “He was hired to help victims in a moment of crisis,” said U.S. Attorney Jason A. Reding Quiñones for the Southern District of Florida. “Instead, Martino betrayed them, fed their confidential negotiating positions to ransomware criminals, and helped squeeze them for more money.” Alongside Martino, Ryan Goldberg of Georgia and Kevin Martin of Texas were also involved in the scheme . All three worked in the cybersecurity industry and used their positions and expertise to support the criminal activity. Martino and Martin worked as ransomware negotiators at DigitalMint, while Goldberg was an incident response manager at Sygnia Cybersecurity Services. In one case, the conspirators received about $1.2 million in Bitcoin after a victim paid a ransom. The Justice Department said the money was divided among the participants and later laundered through cryptocurrency transactions designed to hide its origin. Federal investigators also seized more than $10 million in cryptocurrency and other assets linked to Martino. The forfeited property included luxury vehicles, a fishing boat, and a food truck. A restitution hearing will determine how much he must repay victims. Martino pleaded guilty on April 14 to a one-count information charging him with conspiring to interfere with interstate commerce through extortion. On May 1, his co-conspirators, Kevin Martin and Ryan Goldberg, were each sentenced to 48 months in prison for their roles in the conspiracy. In late 2023, law enforcement disrupted the BlackCat/ALPHV ransomware group by seizing control of its data leak site. More about cybercrime law enforcement ransomware US DoJ USA Share
-```
-
-#### Corroborating sources (2)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Ransomware negotiator who betrayed clients sentenced to 70 months in prison
-  - Published: 2026-07-13T12:22:17+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/
-  - Summary: A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations. The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the … More → The post Ransomware negotiator who betrayed clients sentenced to 70 months in prison appeared first on Help Net Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks
-  - Published: 2026-07-10T08:10:12+00:00
-  - Link: https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html
-  - Summary: A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware operators to extort multiple victims and working with two other cybersecurity professionals to target additional victims in 2023. In a sentencing memorandum, federal prosecutors described Martino as a "
 
 ### Cluster 152995b5e9 — score 8
 

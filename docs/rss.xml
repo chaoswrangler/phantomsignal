@@ -4,11 +4,24 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 14 Jul 2026 00:02:12 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Jul 2026 03:21:04 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>AI Security Report 2026</title>
+<link>https://research.checkpoint.com/2026/ai-security-report-2026/</link>
+<description><![CDATA[For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .<br/><br/><em>Tags: Android · OpenAI/ChatGPT · ransomware_extortion · supply_chain · phishing_social_eng · data_breach · apt_espionage · ai_security</em>]]></description>
+<pubDate>Tue, 14 Jul 2026 00:51:31 +0000</pubDate>
+<guid isPermaLink="true">https://research.checkpoint.com/2026/ai-security-report-2026/</guid>
+<source url="https://research.checkpoint.com/feed/">Check Point Research</source>
+<category>threat_research_primary</category>
+<category>Android</category>
+<category>OpenAI/ChatGPT</category>
+<category>ransomware_extortion</category>
+<category>supply_chain</category>
+</item>
 <item>
 <title>Defending SaaS-based applications against ShinyHunters OAuth abuse</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/</link>
@@ -82,16 +95,6 @@
 <category>Apple iOS/macOS</category>
 </item>
 <item>
-<title>VPN service favored by ransomware groups is sanctioned by US</title>
-<link>https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups</link>
-<description><![CDATA[The U.S. Treasury Department announced sanctions against First VPN Service (1VPNS) and its Ukrainian administrator for aiding ransomware groups. Separately, a Belarusian man was sanctioned for malware &quot;cryptors.&quot;<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 13 Jul 2026 18:50:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>&apos;Yellow Teams&apos; Are Defining the Future of AI Security</title>
 <link>https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security</link>
 <description><![CDATA[In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.]]></description>
@@ -120,15 +123,6 @@
 <category>offensive_vulnerability_research</category>
 <category>Kubernetes</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach</title>
-<link>https://therecord.media/ksenia-sobchak-russian-hackers-leak</link>
-<description><![CDATA[Following the breach of several of her Telegram channels, controversial Russian journalist Ksenia Sobchak claimed published screenshots of her correspondence with political figures were fake.]]></description>
-<pubDate>Mon, 13 Jul 2026 17:15:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/ksenia-sobchak-russian-hackers-leak</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>GigaWiper Lets Threat Actors Choose Their Own Destructive Attack</title>
@@ -387,14 +381,13 @@
 <item>
 <title>Ransomware negotiator who betrayed clients sentenced to 70 months in prison</title>
 <link>https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/</link>
-<description><![CDATA[A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations. The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the … More → The post Ransomware negotiator who betrayed clients sentenced to 70 months in prison appeared first on Help Net Security .<br/><br/><em>Tags: BlackCat/ALPHV · ransomware_extortion · data_breach</em>]]></description>
+<description><![CDATA[A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations. The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the … More → The post Ransomware negotiator who betrayed clients sentenced to 70 months in prison appeared first on Help Net Security .<br/><br/><em>Tags: BlackCat/ALPHV · ransomware_extortion</em>]]></description>
 <pubDate>Mon, 13 Jul 2026 12:22:17 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/13/ransomware-negotiator-blackcat-sentence/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 <category>BlackCat/ALPHV</category>
 <category>ransomware_extortion</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Fake OAuth client IDs are helping attackers slip past sign-in logs</title>
@@ -566,15 +559,6 @@
 <category>CVE-2026-48939</category>
 <category>CVE-2026-56291</category>
 <category>CVE-2025-6389</category>
-</item>
-<item>
-<title>Russia&apos;s FSB blamed for Poland grid attack as UK and EU impose first joint cyber sanctions</title>
-<link>https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package</link>
-<description><![CDATA[The allies blamed Center 16, the FSB’s signals intelligence arm, for acts of attempted cyber sabotage targeting Poland’s energy sector and water treatment facilities, alongside “a wide range of malicious cyber activities with growing severity.”]]></description>
-<pubDate>Sun, 12 Jul 2026 23:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Vulnerability in Realtek driver allows DMA controller abuse from user mode with no additional hardware or driver</title>
@@ -1712,15 +1696,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/</link>
-<description><![CDATA[Written by: Shebin Mathew Introduction The &quot;Golden SAML&quot; technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a &apos;ghost&apos;—a record that still exists, still decrypts successfully, but references a certificate no longer u]]></description>
-<pubDate>Tue, 07 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Cloudflare proudly joins the UK government&apos;s Cyber Resilience Pledge</title>
 <link>https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/</link>
 <description><![CDATA[The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.<br/><br/><em>Tags: supply_chain · phishing_social_eng · ddos</em>]]></description>
@@ -2267,15 +2242,6 @@
 <description><![CDATA[I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch. It’s a similar story with my two existing courses. Sales are down significantly from last year. There are likely a lot of reasons for this, but I think the biggest is AI. There’s sort of a double whammy with AI: Many people are wondering whether developer jobs will even exist in a few months, so they’re reluctant to spend time/money learning new dev skills. Even if they do want to learn new dev skills, LLMs can provide personalized tutoring, so there’s less incentive to buy a paid course. [...] I’ve spoken to a few course creators now, and we’re all seeing the same trend. Revenue down 50%+. Fewer people engaging with our content. People switching to LLMs, which slurp up all of our work and regurgitate it, without consent or compensation. — Josh W. Comeau , via Salma Alam-Naylor Tags: ai-ethics , llms , ai , generative-ai , careers , josh-comeau]]></description>
 <pubDate>Fri, 03 Jul 2026 21:25:52 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Fable&apos;s judgement</title>
-<link>https://simonwillison.net/2026/Jul/3/judgement/#atom-everything</link>
-<description><![CDATA[One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example they gave was testing. You can tell Fable &quot;only use automated testing for larger features, don&apos;t update and run tests for small copy or design changes&quot; - but it&apos;s better to just tell Fable to use its own judgement when deciding to write tests instead. Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use. I prompted Claude Code just now with: For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent Claude saved this memory file in ~/.claude/projects/name-of-pro]]></description>
-<pubDate>Fri, 03 Jul 2026 18:51:06 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/3/judgement/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 </item>
@@ -3708,15 +3674,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>I tried a Local AI model (Qwen 3.6 27b) for security research and it works surprisingly well.</title>
-<link>https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/</link>
-<description><![CDATA[submitted by /u/ezzzzz [link] [comments]]]></description>
-<pubDate>Sun, 28 Jun 2026 11:56:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk</title>
 <link>https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk</link>
 <description><![CDATA[Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -5031,6 +4988,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>The Klue Security Incident and Its Impact on Recorded Future</title>
+<link>https://www.recordedfuture.com/blog/klue-security-incident</link>
+<description><![CDATA[Transparency is core to how we operate. Read our statement on a recent third-party vendor security incident, including our findings and the actions we&apos;ve taken to protect customer information.]]></description>
+<pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/klue-security-incident</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Entra Agent ID: Inside a cross-tenant agent compromise</title>
 <link>https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/</link>
 <description><![CDATA[Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.<br/><br/><em>Tags: APT29</em>]]></description>
@@ -6343,15 +6309,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>May 2026 CVE Landscape</title>
-<link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
-<description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
-<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/may-2026-cve-landscape</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
 <link>https://www.exploit-db.com/exploits/52610</link>
 <description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
@@ -6359,6 +6316,15 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>May 2026 CVE Landscape</title>
+<link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
+<description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
+<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/may-2026-cve-landscape</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>The “Skyway” to OSS Security: OpenSSF Community Day North America 2026 Recap</title>
@@ -6420,15 +6386,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
-<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
-<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection</title>
 <link>https://www.exploit-db.com/exploits/52609</link>
 <description><![CDATA[WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection<br/><br/><em>Tags: WordPress</em>]]></description>
@@ -6437,6 +6394,15 @@
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
+</item>
+<item>
+<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
+<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
+<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Amazon Cognito unlocks advanced capabilities with next-generation infrastructure</title>
@@ -7626,17 +7592,6 @@
 <category>practitioner_analysis</category>
 <category>GitHub</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict</title>
-<link>https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/</link>
-<description><![CDATA[Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .<br/><br/><em>Tags: Nimbus Manticore · UNC1549</em>]]></description>
-<pubDate>Fri, 22 May 2026 15:09:29 +0000</pubDate>
-<guid isPermaLink="true">https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/</guid>
-<source url="https://research.checkpoint.com/feed/">Check Point Research</source>
-<category>threat_research_primary</category>
-<category>Nimbus Manticore</category>
-<category>UNC1549</category>
 </item>
 <item>
 <title>Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks</title>
@@ -11039,15 +10994,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Understanding and Anticipating Venezuelan Government Actions</title>
-<link>https://www.recordedfuture.com/research/understanding-and-anticipating-venezuelan-government-actions</link>
-<description><![CDATA[Explore an in-depth analysis of Venezuela’s political landscape following the January 2026 US operation to capture Nicolás Maduro. This executive summary examines Acting President Delcy Rodríguez’s transition strategy, her pragmatic re-engagement with Washington, and the internal threats posed by PSUV rivals like Diosdado Cabello. Gain insights into the &quot;three-phase&quot; US plan for stabilization, the 2026 Organic Hydrocarbons Law reforms, and the outlook for economic recovery versus the existential threat of competitive elections. Essential intelligence for organizations monitoring Latin American geopolitical risk and energy sector investments.]]></description>
-<pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/research/understanding-and-anticipating-venezuelan-government-actions</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>How to use AI to manage cloud security threats</title>
 <link>https://webflow.sysdig.com/blog/how-to-use-ai-to-manage-cloud-security-threats</link>
 <description><![CDATA[AI-powered threat intelligence speeds response time with context and guidance. Discover Sysdig Sage for Threats and how it improves your threat detection.]]></description>
@@ -11878,7 +11824,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f6198088370&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fc8df72adc0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20247,7 +20193,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20256,7 +20202,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20265,7 +20211,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20275,7 +20221,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20284,7 +20230,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20293,7 +20239,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20302,7 +20248,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20311,7 +20257,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20320,7 +20266,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20329,7 +20275,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 00:02:12 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 03:21:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-14T00:02:11.869448+00:00",
+  "generated_at": "2026-07-14T03:21:03.883193+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2278,
+  "total_items": 2273,
   "feed_status": {
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -25,6 +25,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -39,12 +46,12 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -53,36 +60,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -95,11 +74,39 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 2
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Horizon3 Attack Research": {
@@ -109,16 +116,16 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -130,12 +137,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 4
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -144,26 +151,19 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -186,15 +186,15 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -214,19 +214,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -277,13 +277,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -298,6 +291,13 @@
       "item_count": 20,
       "in_window_count": 3
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -305,18 +305,18 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Google DeepMind Blog": {
@@ -326,25 +326,18 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 20
+      "in_window_count": 1
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 1
     },
     "OpenSSF Blog": {
@@ -354,12 +347,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 20
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -382,19 +375,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 21
+      "in_window_count": 22
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -402,6 +395,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -416,6 +416,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -437,13 +444,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -480,13 +480,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -494,8 +487,8 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -503,6 +496,13 @@
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -527,7 +527,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 13
+      "in_window_count": 14
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -874,36 +874,6 @@
       ]
     },
     {
-      "label": "CVE-2026-48283 exploitation activity",
-      "anchor_signal": "CVE-2026-48283",
-      "theme_key": "cve-2026-48283",
-      "dominant_features": {
-        "cve_ids": [
-          "CVE-2026-48283",
-          "CVE-2026-48313"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.281,
-      "shared_strong_signals": [
-        "CVE-2026-48283"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "8e87b71464",
-        "843dce4060"
-      ],
-      "links": [
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/"
-      ]
-    },
-    {
       "label": "CVE-2026-48313 exploitation activity",
       "anchor_signal": "CVE-2026-48313",
       "theme_key": "cve-2026-48313",
@@ -921,6 +891,36 @@
       "cohesion": 0.281,
       "shared_strong_signals": [
         "CVE-2026-48313"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "8e87b71464",
+        "843dce4060"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/"
+      ]
+    },
+    {
+      "label": "CVE-2026-48283 exploitation activity",
+      "anchor_signal": "CVE-2026-48283",
+      "theme_key": "cve-2026-48283",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-48283",
+          "CVE-2026-48313"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.281,
+      "shared_strong_signals": [
+        "CVE-2026-48283"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1260,12 +1260,6 @@
         "value": "CVE-2026-50656",
         "cluster_id": "8fa37afed0",
         "weeks_observed": 3
-      },
-      {
-        "axis": "actor_attribution",
-        "value": "BlackCat/ALPHV",
-        "cluster_id": "7cdd398efc",
-        "weeks_observed": 3
       }
     ],
     "tier_inversion": [
@@ -1280,6 +1274,52 @@
     ]
   },
   "items": [
+    {
+      "source": "Check Point Research",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "AI Security Report 2026",
+      "link": "https://research.checkpoint.com/2026/ai-security-report-2026/",
+      "published": "2026-07-14T00:51:31+00:00",
+      "summary": "For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .",
+      "author": "matthewsu",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "supply_chain",
+          "phishing_social_eng",
+          "data_breach",
+          "apt_espionage",
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Android",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {
+          "Android": "target",
+          "OpenAI/ChatGPT": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 12,
+      "full_body": "CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 463 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 416 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 AI Security Report 2026 July 14, 2026 https://research.checkpoint.com/2026/ai-security-report-2026/ For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the operation. Key observed findings AI has crossed from development aid to live attack operator. It now does the hands-on work inside live intrusions, from China-nexus espionage campaigns to a criminal breach of multiple Mexican government agencies and has spread from nation states to ordinary cyber criminals. AI now builds deployment-ready malware and attack suites. Its involvement is often invisible in the finished artifact: one developer used an AI environment to produce VoidLink, an 88,000-line command-and-control offensive framework, in under a week. Attackers prefer commercial models, and now abuse them by exploiting the agentic architecture, not just single prompts. Most actors favor jailbroken mainstream models over self-hosted ones, and the durable bypass is now a planted configuration file an agent loads and trusts across sessions. An AI-enabled criminal tooling market has matured. Phishing-as-a-service kits now embed a language model with the jailbreak built in, and conversational AI voice-agent services run vishing and one-time-passcode theft at scale. Virtual Identity is no longer a reliable trust anchor. Voice, face, documents, and live video are now cheap to forge convincingly and are widely used in attacks taking multi-channel social engineering to a new level of integration. AI itself is an expanding attack surface. Models cannot always separate data from instructions and content they process might influence the model’s behavior; the surrounding stack adds ordinary software vulnerabilities and supply-chain risk, all in a rapidly evolving ecosystem where security practices not always mature. Indirect prompt injection is on the rise. Detections of longer malicious payloads increased sharply, rising roughly fivefold between March and May 2026 and approaching 1% of observed prompts in May. Longer payloads are more typical of content-borne and agentic attack paths, this pattern suggests that indirect prompt injection is becoming more operationally relevant. Enterprise data leakage through GenAI is persistent and growing risk . High-risk prompts doubled from 2% to 4% during the last year, while organizations used an average of 10 AI applications each month, many without official approval. Data exposure risks are not evenly distributed across the verticals . Sector-level analysis reveals that AI-related data exposure risks are not evenly distributed across the verticals, and correlate both with AI usage patterns and security maturity. Business Services recorded the highest rate of high-risk GenAI prompts at 5.91%, meaning nearly one in every 17 AI interactions carried a significant risk of sensitive data exposure. To read the full findings, access the AI Security Report 2026 from Check Point Research here. GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLI",
+      "fetch_status": "ok"
+    },
     {
       "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
@@ -1517,36 +1557,6 @@
       "score": 6
     },
     {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "VPN service favored by ransomware groups is sanctioned by US",
-      "link": "https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups",
-      "published": "2026-07-13T18:50:00+00:00",
-      "summary": "The U.S. Treasury Department announced sanctions against First VPN Service (1VPNS) and its Ukrainian administrator for aiding ransomware groups. Separately, a Belarusian man was sanctioned for malware \"cryptors.\"",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 6
-    },
-    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -1643,34 +1653,6 @@
       "score": 12,
       "full_body": "Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero® Horizon3.ai July 13, 2026 Factsheets AI-enabled attackers are dramatically reducing the time between vulnerability discovery and exploitation. For significant institutions supervised by the European Central Bank, that acceleration now requires a clear, evidence-backed response. The ECB has directed significant institutions to submit a board-level action plan addressing AI-accelerated cyber threats by October 31, 2026 . The plan must demonstrate how institutions are strengthening cyber resilience across six focus areas, from attack-surface visibility and vulnerability management to operational resilience and supply-chain assurance. The NodeZero® Proactive Security Platform maps directly to these priorities through continuous, production-safe autonomous pentesting that validates what attackers can actually exploit. Continuously discover and assess internet-facing, cloud, Kubernetes, internal, and third-party assets Prioritize remediation based on verified attack paths rather than vulnerability volume alone Verify patches and security improvements with rapid retesting and recurring autonomous pentests Strengthen monitoring and detection with NodeZero Tripwires™, Rapid Response, and Threat Actor Intelligence Validate identity security, network segmentation, endpoint controls, and defense-in-depth strategies Produce executive and regulatory-ready evidence supporting ECB, DORA, and NIS2 requirements Demonstrate business impact through full attack-chain emulation, High-Value Targeting, and Advanced Data Pilfering™ Measure security trends and remediation performance over time with NodeZero Insights™ NodeZero helps institutions move beyond point-in-time assessments and theoretical vulnerability findings. By continuously identifying exploitable exposure, validating remediation, and documenting measurable improvements, security teams can build an ECB action plan grounded in proof of real resilience. Download the Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero Factsheet to see how Horizon3.ai maps NodeZero capabilities to each of the ECB’s six cybersecurity focus areas. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
       "fetch_status": "ok"
-    },
-    {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach",
-      "link": "https://therecord.media/ksenia-sobchak-russian-hackers-leak",
-      "published": "2026-07-13T17:15:00+00:00",
-      "summary": "Following the breach of several of her Telegram channels, controversial Russian journalist Ksenia Sobchak claimed published screenshots of her correspondence with political figures were fake.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 6
     },
     {
       "source": "Dark Reading",
@@ -1999,7 +1981,7 @@
           "products": []
         }
       },
-      "score": 20,
+      "score": 19,
       "full_body": "CISA warns of actively exploited RCE flaws in Joomla extensions By Bill Toulas July 13, 2026 11:20 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file uploads. The agency has categorized the flaws as a maximum priority , ordering federal agencies to apply available security updates and/or mitigations within three days, with the deadline set for today. The first flaw, tracked as CVE-2026-48939, is an arbitrary file upload flaw impacting the iCagenda extension used for registering and scheduling events and creating calendars. An attacker can exploit the vulnerability to upload arbitrary files to the web server, including PHP scripts, which can lead to data theft, web shell installation, and complete website compromise by achieving remote code execution (RCE). “iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution,” CISA warns in its entry in the Known Exploited Vulnerabilities ( KEV ) catalog. The second flaw added to KEV is CVE-2026-56291, an arbitrary file upload issue in the Balbooa Forms extension for Joomla. Balbooa Forms is a drag-and-drop form builder for creating contact forms on Joomla sites, with file upload support. According to CISA, this functionality can be used to upload dangerous file types, such as executable files, leading to RCE and full website takeover. According to website management and security platform mySites.guru, both flaws were exploited in automated attacks before vendors released a patch. For iCagenda, attacks were observed just a few hours before the release of version 4.0.8, which addressed CVE-2026-48939. The management service says that the CVE-2026-56291 vulnerability in Balbooa Forms was exploited as a zero-day , leveraged in attacks since July 8, a day before the vendor released a fix for the issue. Website administrators managing Joomla sites should check for the presence of iCagenda and Balbooa Forms and take action where needed to protect their assets. The flaws are fixed in iCagenda version 4.0.8 and 3.9.15, released on June 15-16, and Balbooa Forms version 2.4.1, released on July 9. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to prioritize patching Langflow auth bypass flaw Critical Langflow RCE flaw exploited to hack AI app servers CISA warns of max severity Ubiquiti flaws exploited in attacks CISA sets urgent deadline to fix Cisco flaw exploited in attacks CISA orders feds to patch max severity Joomla plugin flaw by Friday",
       "fetch_status": "ok"
     },
@@ -2031,7 +2013,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Krebs on Security",
@@ -2064,7 +2046,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter",
       "fetch_status": "ok"
     },
@@ -2109,7 +2091,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "Home Blog Effective Patch Management Strategies: 7 Best Practices and Benefits Published: July 13, 2026 Effective Patch Management Strategies: 7 Best Practices and Benefits By: Brenda Buckman Summarize with AI Summarize ChatGPT Claude Perplexity Google AI A patch management strategy is a structured approach to identifying, testing, and deploying software updates across your environment. Having a dedicated strategy matters because ad hoc patching leaves gaps, and gaps are what attackers look for. Most security incidents don't start with a sophisticated attack. They start with a known vulnerability that never got patched. In fact, patching is one of the most direct ways to disrupt an attack before it starts. A weaponized exploit targeting a vulnerability your team already patched has nowhere to go. A patch management strategy is a structured approach to identifying, testing, deploying, and verifying software updates across your environment. Having a dedicated strategy matters because ad hoc patching leaves gaps—and those exposed systems are exactly what attackers look for. Learn how to build a patch management strategy that holds up under real operational pressure, not just on paper. You'll find a step-by-step framework, best practices, and common mistakes to avoid before they cost you. What is patch management? Patch management is a proactive security discipline. It's the process of identifying, evaluating, and applying updates to software, operating systems, and firmware across your environment. But it goes well beyond clicking \"install\" on a notification and moving on. Think of it this way: A patch dropping is just the starting gun. Before anything touches production, your team needs to know what systems are affected, how urgent the fix actually is, and whether the update could break something else in the process. That whole workflow, from discovery to verified deployment, is what patch management actually covers. IT teams typically manage three categories of updates: OS patches (Windows, Linux, macOS): Core system updates that often carry the highest security risks Third-party application patches : Browsers, productivity tools, plugins, and other software that threat actors frequently exploit because they're easy to overlook Firmware and driver updates : Lower-level updates for hardware like network switches, servers, and endpoints that can introduce risk if left unaddressed The lifecycle spans from initial discovery through final verification that a vulnerability is actually gone. Each stage carries its own risks and requires its own judgment call. Security patches vs. bug fixes vs. feature updates Not all updates are equal, and treating them the same way is a recipe for patch fatigue or, worse, a broken production system. Here's how they stack up: Security patches Bug fixes Feature updates Purpose Close known vulnerabilities Correct unintended behavior Add new functionality Trigger Vulnerability disclosure or active exploit Software defect or crash report Product roadmap or user request Urgency High to critical Low to medium Low Testing requirements Expedited but still necessary Standard Thorough Risk High if delayed Moderate Low to moderate User impact Usually minimal Minimal to moderate Can change workflows Who owns Security team drives, IT deploys IT or dev team Change management or IT The core tension here is speed vs. stability. Security patches often need aggressive timelines because attackers move fast once a vulnerability is public. A zero-day vulnerability can go from disclosed to actively exploited within hours, leaving little room for a slow approval process. Feature updates, on the other hand, can usually afford a longer wait time. Rolling them out too fast without testing is how you end up with a broken workflow that's harder to fix than the patch was worth. 7 steps to building a patch management strategy from the ground up A solid patch management strategy is a repeatable system your team can actually execute",
       "fetch_status": "ok"
     },
@@ -2141,7 +2123,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2169,7 +2151,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -2197,7 +2179,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -2229,7 +2211,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2257,7 +2239,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2285,7 +2267,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2317,7 +2299,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Check Point Research",
@@ -2368,7 +2350,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July – Threat Intelligence Report July 13, 2026 https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license numbers, insurance policy and account data, vehicle information, and claims details. Latvia’s state-owned forestry company Latvijas Valsts Meži has suffered a ransomware attack that disrupted mapping, hunting, contractor, and customer systems. Attackers exploited a system that had remained unpatched for two years and leaked approximately 44GB of internal documents, credentials, cryptographic keys, source code, and email correspondence. Injective Labs, a developer of blockchain and cryptocurrency software, has experienced a supply chain compromise after attackers accessed its SDK project and published malicious npm packages. The affected releases exfiltrated cryptocurrency wallet private keys and seed phrases when developers used legitimate key-generation functions embedded in the compromised software. Moody Bible Institute, a U.S. faith-based educational institution, has disclosed a data breach affecting more than 2.3 million donors, students, alumni, and supporters. The ShinyHunters extortion group published allegedly stolen information, including names, dates of birth, residential addresses, email addresses, and phone numbers. AI THREATS Researchers profiled JadePuffer, an autonomous ransomware operation that used a large language model to conduct an intrusion without direct human control. The operation exploited CVE-2025-3248 in an exposed Langflow instance, accessed a production MySQL server, exfiltrated selected information, deleted the database, and issued an extortion demand. Researchers showed that malicious instructions hidden inside open-source project files could achieve remote code execution through Anthropic Claude Code and OpenAI Codex. When operating with automated permissions, the coding agents processed the instructions and executed attacker-controlled scripts, demonstrating a risk that may affect other autonomous development tools. Researchers disclosed Rogue Agent, a vulnerability in Google Dialogflow CX that allowed users with limited agent-editing permission to insert persistent malicious code. The injected code could capture and exfiltrate chatbot conversations. Google addressed the issue, and no known customer environments were compromised through the vulnerability. VULNERABILITIES AND PATCHES Multiple Tenda router models are affected by CVE-2026-11405, an undocumented authentication backdoor that provides administrative access through a hidden password. The flaw affects several FH1201, W15E, AC10, AC5, and AC6 firmware versions and allows attackers to bypass configured credentials and modify device and network settings. Linux maintainers have patched CVE-2026-53359, a critical vulnerability in the Kernel-based Virtual Machine hypervisor. A malicious guest virtual machine could corrupt host kernel memory and potentially escape into the host environment. The flaw affects Intel and AMD x86 systems and is particularly relevant to shared cloud infrastructure. U-Boot has addressed six vulnerabilities affecting signature verification of Flattened Image Tree files used during secure boot. Two flaws could enable arbitrary code execution while a device loads a supposedly verified image, and four could cause crashes. The affected bootloader is widely used in routers, cameras, and embedded controllers. Opera has addressed a critical vulnerability in the Opera GX browser that allowed malicious websites to install browser modificatio",
       "fetch_status": "ok"
     },
@@ -2405,7 +2387,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Huntress",
@@ -2439,7 +2421,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Published: July 13, 2026 Home Field Advantage: How Attackers Reshape Victim Environments By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways After gaining initial access, threat actors sometimes spend time modifying the compromised environment before pursuing their end goals. That means establishing persistence, concealing activity, and deploying tools designed to make detection and eviction significantly more difficult. Huntress analysts recently investigated an incident where a threat actor made an exceptionally broad range of post-compromise modifications across an organization, including installing BadIIS modules, adding new users accounts, and more. For defenders, post-compromise behavior is just as important to monitor as initial access attempts. Identifying root cause, reducing attack surface, and maintaining visibility into endpoint activity are all critical to fully removing a threat actor from the environment. Acknowledgments: Special thanks to the efforts of Stephanie Fairless for the contributions to this investigation. \"The call is coming from inside the house.\" Defenders often prioritize preventing threat actors from getting in, whether through vulnerability exploitation or exposed Remote Desktop Protocol (RDP) instances. But equally (if not more) important is what happens when an attacker has already made their way in. While some attackers go straight for the kill – exfiltrating data, encrypting files, or otherwise – many take a more strategic approach to mold the compromised environments to suit their needs first. They'll proactively tweak things within the environment to hide their tracks or work in some persistence. That might look like enabling the built-in Windows Guest account. It might be running Windows CLI commands like tasklist /svc to sniff out what processes a victim might be running. At Huntress, our SOC focuses on these measures with a laser focus, because they often provide hints for what happened during an incident and may even reveal new parts of an attack that weren't initially detected. In this blog post we will break down a June incident where a threat actor took aggressive steps to modify the environment after gaining initial access, in hopes of shedding light on some of these overlooked tactics. Initial Access: the first MSSQL detections During a recent incident for an organization in the tech sector, Huntress analysts observed a threat actor making more modifications to the compromised environment than usually observed during incidents of a similar nature. The June 26 incident started with the Huntress SOC detecting and reporting malicious activity via a Microsoft SQL Server (MSSQL) instance ( sqlservr.exe ). Digging deeper into the investigation, Huntress analysts discovered that the threat actor did not access the MSSQL instance directly, but instead was able to locate a web page (the IIS web server was also installed on the endpoint) where user input was not being properly validated. As a result, based on this evidence we determined that the threat actor was able to access the endpoint by successfully exploiting an SQL injection vulnerability. Teeing things up: recon and persistence Through this avenue, the threat actor used base64-encoded PowerShell to download various scripts, which we will delve into later in this blog post. Next, the actor carried out some recon: they ran tasklist /svc to determine what processes were running and available on the endpoint. This legitimate Windows command can help attackers identify potentially valuable services. That allows them to plan their next moves for what to target next – or even understand what services exist that they can potentially spoof with malicious processes. In this case, threat actors also used a PowerShell command to send the output of tasklist /svc to 334thribetlhkyo977gqrcht1k7bvdj2[.]oasti",
       "fetch_status": "ok"
     },
@@ -2471,7 +2453,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -2503,7 +2485,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2517,16 +2499,12 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "data_breach"
+          "ransomware_extortion"
         ],
         "actor_attribution": [
           "BlackCat/ALPHV"
         ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -2539,9 +2517,7 @@
           "products": []
         }
       },
-      "score": 8,
-      "full_body": "Sinisa Markovic , Managing Editor, Help Net Security July 13, 2026 Share Ransomware negotiator who betrayed clients sentenced to 70 months in prison A former ransomware negotiator at incident response firm DigitalMint has been sentenced to 70 months in prison after admitting he shared confidential client information with the BlackCat ransomware group and later helped carry out ransomware attacks. Prosecutors say Angelo Martino, 41, abused his role at DigitalMint beginning in April 2023 by providing BlackCat operators with sensitive information gathered during ransomware negotiations . The information included victims’ negotiating positions, insurance policy limits, and internal assessments, helping the group maximize ransom demands against five organizations. “He was hired to help victims in a moment of crisis,” said U.S. Attorney Jason A. Reding Quiñones for the Southern District of Florida. “Instead, Martino betrayed them, fed their confidential negotiating positions to ransomware criminals, and helped squeeze them for more money.” Alongside Martino, Ryan Goldberg of Georgia and Kevin Martin of Texas were also involved in the scheme . All three worked in the cybersecurity industry and used their positions and expertise to support the criminal activity. Martino and Martin worked as ransomware negotiators at DigitalMint, while Goldberg was an incident response manager at Sygnia Cybersecurity Services. In one case, the conspirators received about $1.2 million in Bitcoin after a victim paid a ransom. The Justice Department said the money was divided among the participants and later laundered through cryptocurrency transactions designed to hide its origin. Federal investigators also seized more than $10 million in cryptocurrency and other assets linked to Martino. The forfeited property included luxury vehicles, a fishing boat, and a food truck. A restitution hearing will determine how much he must repay victims. Martino pleaded guilty on April 14 to a one-count information charging him with conspiring to interfere with interstate commerce through extortion. On May 1, his co-conspirators, Kevin Martin and Ryan Goldberg, were each sentenced to 48 months in prison for their roles in the conspiracy. In late 2023, law enforcement disrupted the BlackCat/ALPHV ransomware group by seizing control of its data leak site. More about cybercrime law enforcement ransomware US DoJ USA Share",
-      "fetch_status": "ok"
+      "score": 7
     },
     {
       "source": "Help Net Security",
@@ -2577,7 +2553,7 @@
           ]
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "NCSC UK",
@@ -3143,36 +3119,6 @@
       "score": 21,
       "full_body": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days  Ravie Lakshmanan  Jul 13, 2026 Vulnerability / Web Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the iCagenda extension for Joomla that allows the upload of arbitrary files via the file attachment feature, leading to PHP code upload and execution. CVE-2026-56291 - A vulnerability in the Balbooa Forms extension for Joomla that allows the upload of arbitrary files, leading to remote code execution. According to mySites.guru, a cloud-based dashboard service for managing WordPress and Joomla websites, CVE-2026-48939 is said to have been exploited as a zero-day since June 15, 2026, in automated attacks aimed at Joomla sites on which iCagenda is installed. It resides in the \"Submit an Event\" form functionality, which lets users propose events for the calendar. \"We first saw it in a client's access log: an automated scanner identifying itself as 'icagenda-batch/1.0' grabbed a token, posted a malicious upload to the submit endpoint, then fetched the planted shell at the exact path the component writes attachments to,\" mySites.guru said . The flaw impacts the following versions - 4.x versions up to and including 4.0.7 Legacy 3.x versions from 3.2.1 up to and including 3.9.14 JoomliC has since released updates to address the issue in iCagenda versions 4.0.8 and 3.9.15. Site owners are advised to check for suspicious PHP files in the \"images/icagenda/frontend/attachments/\" folder and remove them. MySites.guru said it also observed zero-day exploitation of CVE-2026-56291, which affects Balbooa Forms versions up to and including 2.4.0. It has been patched in version 2.4.1. \"Up to and including version 2.4.0, its frontend attachment upload had a serious flaw: it accepted a file from any anonymous visitor, with no login, no CSRF token, and no check on the file type,\" it said . \"An attacker could upload a PHP file into a public folder and then run it, which is unauthenticated remote code execution, the worst outcome a web flaw can have.\" The vulnerability was discovered by mySites.guru on July 8, 2026, following a live attack on one of its customers. It has shared the following indicators of compromise - Look in the Balbooa Forms upload folder (by default \"images/baforms/uploads\") for any file that is not an image or document, especially anything ending in PHP Check the Joomla user list for suspicious administrator accounts Audit the set for recently modified or unfamiliar PHP files across the site In light of active exploitation, Federal Civilian Executive Branch (FCEB) agencies have until July 13, 2026, to implement the fixes in their networks. Australia Warns of Global Campaign Targeting Vulnerable CMS Systems The disclosure comes as the Australian Cyber Security Centre (ACSC) issued an alert warning of a global exploitation campaign targeting various vulnerabilities in content management systems (CMS) and plugins. \"As part of this campaign, malicious cyber actors are actively scanning websites for opportunities to deploy web shells, leveraging various vulnerabilities affecting CMS software and plugins,\" the agency said . \"These vulnerabilities primarily allow unauthenticated file upload, remote code execution, server side request forgery or deserialization.\" Once deployed, the web shells serve as conduits for remote access and control of the targeted web servers. Some of the identified security vulnerabilities are listed below - Sneeit Framework ( CVE-2025-6389 ) WPBookit (WordPress) ( CVE-2025-7852 ) Gravity Forms (WordPress) ( CVE-2025-12352 ) Craft CMS ( CVE-2025-32432 ) Ninja Forms (WordPress) ( CVE-2026-0740 ) Ma",
       "fetch_status": "ok"
-    },
-    {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Russia's FSB blamed for Poland grid attack as UK and EU impose first joint cyber sanctions",
-      "link": "https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package",
-      "published": "2026-07-12T23:00:00+00:00",
-      "summary": "The allies blamed Center 16, the FSB’s signals intelligence arm, for acts of attempted cyber sabotage targeting Poland’s energy sector and water treatment facilities, alongside “a wide range of malicious cyber activities with growing severity.”",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "Reddit r/netsec",
@@ -6884,34 +6830,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/",
-      "published": "2026-07-07T14:00:00+00:00",
-      "summary": "Written by: Shebin Mathew Introduction The \"Golden SAML\" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u",
-      "author": "Mandiant",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 7
-    },
-    {
       "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -8584,33 +8502,6 @@
       "link": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
       "published": "2026-07-03T21:25:52+00:00",
       "summary": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch. It’s a similar story with my two existing courses. Sales are down significantly from last year. There are likely a lot of reasons for this, but I think the biggest is AI. There’s sort of a double whammy with AI: Many people are wondering whether developer jobs will even exist in a few months, so they’re reluctant to spend time/money learning new dev skills. Even if they do want to learn new dev skills, LLMs can provide personalized tutoring, so there’s less incentive to buy a paid course. [...] I’ve spoken to a few course creators now, and we’re all seeing the same trend. Revenue down 50%+. Fewer people engaging with our content. People switching to LLMs, which slurp up all of our work and regurgitate it, without consent or compensation. — Josh W. Comeau , via Salma Alam-Naylor Tags: ai-ethics , llms , ai , generative-ai , careers , josh-comeau",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "Fable's judgement",
-      "link": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
-      "published": "2026-07-03T18:51:06+00:00",
-      "summary": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for small copy or design changes\" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead. Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use. I prompted Claude Code just now with: For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent Claude saved this memory file in ~/.claude/projects/name-of-pro",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -12917,33 +12808,6 @@
       }
     },
     {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "I tried a Local AI model (Qwen 3.6 27b) for security research and it works surprisingly well.",
-      "link": "https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/",
-      "published": "2026-06-28T11:56:40+00:00",
-      "summary": "submitted by /u/ezzzzz [link] [comments]",
-      "author": "/u/ezzzzz",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -16901,6 +16765,33 @@
           "npm": "target",
           "Microsoft Defender": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Klue Security Incident and Its Impact on Recorded Future",
+      "link": "https://www.recordedfuture.com/blog/klue-security-incident",
+      "published": "2026-06-18T00:00:00+00:00",
+      "summary": "Transparency is core to how we operate. Read our statement on a recent third-party vendor security incident, including our findings and the actions we've taken to protect customer information.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -20885,33 +20776,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "May 2026 CVE Landscape",
-      "link": "https://www.recordedfuture.com/blog/may-2026-cve-landscape",
-      "published": "2026-06-08T00:00:00+00:00",
-      "summary": "In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -20932,6 +20796,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "May 2026 CVE Landscape",
+      "link": "https://www.recordedfuture.com/blog/may-2026-cve-landscape",
+      "published": "2026-06-08T00:00:00+00:00",
+      "summary": "In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -21115,33 +21006,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
-      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
-      "published": "2026-06-05T00:00:00+00:00",
-      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -21169,6 +21033,33 @@
         "role_map": {
           "WordPress": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
+      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
+      "published": "2026-06-05T00:00:00+00:00",
+      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -24750,36 +24641,6 @@
               0.28
             ]
           ]
-        }
-      }
-    },
-    {
-      "source": "Check Point Research",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
-      "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
-      "published": "2026-05-22T15:09:29+00:00",
-      "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
-      "author": "stcpresearch",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "Nimbus Manticore",
-          "UNC1549"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
         }
       }
     },
@@ -35023,36 +34884,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Understanding and Anticipating Venezuelan Government Actions",
-      "link": "https://www.recordedfuture.com/research/understanding-and-anticipating-venezuelan-government-actions",
-      "published": "2026-04-08T00:00:00+00:00",
-      "summary": "Explore an in-depth analysis of Venezuela’s political landscape following the January 2026 US operation to capture Nicolás Maduro. This executive summary examines Acting President Delcy Rodríguez’s transition strategy, her pragmatic re-engagement with Washington, and the internal threats posed by PSUV rivals like Diosdado Cabello. Gain insights into the \"three-phase\" US plan for stabilization, the 2026 Organic Hydrocarbons Law reforms, and the outlook for economic recovery versus the existential threat of competitive elections. Essential intelligence for organizations monitoring Latin American geopolitical risk and energy sector investments.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -37551,7 +37382,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f6198088370>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fc8df72adc0>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
