@@ -6,9 +6,44 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 14 Jul 2026 21:06:11 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Jul 2026 22:09:25 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>White House details ‘Gold Eagle’ clearinghouse for AI cyber threats</title>
+<link>https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/</link>
+<description><![CDATA[The White House said the clearinghouse has already started to receive intelligence on vulnerabilities and prioritize patches. The post White House details ‘Gold Eagle’ clearinghouse for AI cyber threats appeared first on CyberScoop .]]></description>
+<pubDate>Tue, 14 Jul 2026 21:44:31 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now</title>
+<link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/</link>
+<description><![CDATA[SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]<br/><br/><em>Tags: SonicWall · CVE-2026-15409 · CVE-2026-15410 · zero_day</em>]]></description>
+<pubDate>Tue, 14 Jul 2026 21:23:24 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>SonicWall</category>
+<category>CVE-2026-15409</category>
+<category>CVE-2026-15410</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities</title>
+<link>https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/</link>
+<description><![CDATA[Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as &quot;critical&quot;. Microsoft notes that two of the vulnerabilities disclosed this month have been exploited in the wild. CVE-2026-56155 is an important-<br/><br/><em>Tags: Cisco · Microsoft SharePoint · Microsoft Windows · CVE-2026-56155 · CVE-2026-56164 · CVE-2026-50370 · CVE-2026-50518 · CVE-2026-54128</em>]]></description>
+<pubDate>Tue, 14 Jul 2026 20:27:33 +0000</pubDate>
+<guid isPermaLink="true">https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/</guid>
+<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
+<category>threat_research_primary</category>
+<category>Cisco</category>
+<category>Microsoft SharePoint</category>
+<category>Microsoft Windows</category>
+<category>CVE-2026-56155</category>
+</item>
 <item>
 <title>Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack</title>
 <link>https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html</link>
@@ -713,14 +748,12 @@
 <item>
 <title>datasette code-frequency chart on GitHub</title>
 <link>https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything</link>
-<description><![CDATA[datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I&apos;ve found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents<br/><br/><em>Tags: Anthropic/Claude · GitHub · OpenAI/ChatGPT</em>]]></description>
+<description><![CDATA[datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I&apos;ve found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents<br/><br/><em>Tags: GitHub</em>]]></description>
 <pubDate>Mon, 13 Jul 2026 21:45:27 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
-<category>Anthropic/Claude</category>
 <category>GitHub</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>Between Two Nerds: Exploits are not cyber power</title>
@@ -748,18 +781,6 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Hackers backdoor Jscrambler npm package with infostealer malware</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/</link>
-<description><![CDATA[The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]<br/><br/><em>Tags: npm · credential_theft · web_shell_backdoor</em>]]></description>
-<pubDate>Mon, 13 Jul 2026 19:44:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>npm</category>
-<category>credential_theft</category>
-<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>&apos;Yellow Teams&apos; Are Defining the Future of AI Security</title>
@@ -875,13 +896,12 @@
 <item>
 <title>Lessons Learned from CISA’s Recent GitHub Leak</title>
 <link>https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/</link>
-<description><![CDATA[The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency&apos;s initial response provide important lessons that all security teams should absorb.<br/><br/><em>Tags: data_breach · vulnerability_disclosure</em>]]></description>
+<description><![CDATA[The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency&apos;s initial response provide important lessons that all security teams should absorb.<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Mon, 13 Jul 2026 15:03:28 +0000</pubDate>
 <guid isPermaLink="true">https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/</guid>
 <source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
 <category>practitioner_analysis</category>
 <category>data_breach</category>
-<category>vulnerability_disclosure</category>
 </item>
 <item>
 <title>Effective Patch Management Strategies: 7 Best Practices | Huntress</title>
@@ -1515,7 +1535,7 @@
 <description><![CDATA[GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · ransomware_extortion · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 <category>ransomware_extortion</category>
@@ -1527,7 +1547,7 @@
 <description><![CDATA[GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 <category>web_shell_backdoor</category>
@@ -1911,6 +1931,15 @@
 <category>threat_research_primary</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
+</item>
+<item>
+<title>Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation</title>
+<link>https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/</link>
+<description><![CDATA[A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination. The post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation appeared first on Unit 42 .]]></description>
+<pubDate>Tue, 07 Jul 2026 22:00:21 +0000</pubDate>
+<guid isPermaLink="true">https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/</guid>
+<source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Big Brand Jobs Scam Targets Marketing Pros&apos; Google Accounts</title>
@@ -6661,15 +6690,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Reporting from Vegas: Networking, AI, and good boys</title>
-<link>https://blog.talosintelligence.com/reporting-from-vegas-networking-ai-and-good-boys/</link>
-<description><![CDATA[Joe’s on-the-ground report from Cisco Live U.S. is here, complete with therapy dog pictures and tips on handling conference overstimulation.]]></description>
-<pubDate>Thu, 04 Jun 2026 18:00:59 +0000</pubDate>
-<guid isPermaLink="true">https://blog.talosintelligence.com/reporting-from-vegas-networking-ai-and-good-boys/</guid>
-<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa</title>
 <link>https://www.proofpoint.com/us/newsroom/news/china-linked-ta4922-expands-phishing-attacks-uk-germany-italy-and-south-africa</link>
 <description><![CDATA[<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -9046,6 +9066,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -9054,15 +9083,6 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
-</item>
-<item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -20317,7 +20337,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20326,7 +20346,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20335,7 +20355,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20345,7 +20365,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20354,7 +20374,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20363,7 +20383,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20372,7 +20392,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20381,7 +20401,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20390,7 +20410,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20399,7 +20419,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 14 Jul 2026 21:06:11 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 22:09:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

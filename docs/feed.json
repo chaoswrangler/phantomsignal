@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T21:06:10.852162+00:00",
+  "generated_at": "2026-07-14T22:09:25.284092+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
@@ -11,6 +11,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -18,19 +25,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -46,13 +46,6 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -66,6 +59,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -81,19 +88,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -102,6 +102,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -109,39 +116,11 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -151,12 +130,33 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 4
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -165,6 +165,13 @@
       "item_count": 50,
       "in_window_count": 4
     },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -172,8 +179,15 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -185,20 +199,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -235,19 +235,19 @@
       "item_count": 30,
       "in_window_count": 3
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -270,13 +270,6 @@
       "item_count": 100,
       "in_window_count": 8
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
@@ -284,12 +277,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -305,19 +298,19 @@
       "item_count": 100,
       "in_window_count": 6
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -326,19 +319,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -347,6 +333,13 @@
       "item_count": 20,
       "in_window_count": 16
     },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -354,12 +347,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -368,12 +361,33 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 20
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -389,19 +403,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -410,26 +417,12 @@
       "item_count": 50,
       "in_window_count": 25
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -438,12 +431,19 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -452,11 +452,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 15,
       "in_window_count": 1
     },
     "Reddit r/blueteamsec": {
@@ -472,13 +472,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -501,12 +494,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 100,
+      "in_window_count": 1
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -514,6 +507,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 50
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -691,7 +691,8 @@
         ],
         "affected_products": [
           "Microsoft SharePoint",
-          "Microsoft BitLocker"
+          "Microsoft BitLocker",
+          "Microsoft Windows"
         ],
         "cve_ids": [
           "CVE-2026-56155",
@@ -702,9 +703,9 @@
           "actively_exploited"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 4,
-      "cohesion": 0.263,
+      "cluster_count": 4,
+      "article_count": 5,
+      "cohesion": 0.273,
       "shared_strong_signals": [
         "Microsoft SharePoint"
       ],
@@ -712,14 +713,85 @@
       "also_targets": [],
       "cluster_ids": [
         "b1e7573c37",
+        "8f654ac030",
         "3be6f6fab7",
         "4e6c87c16b"
       ],
       "links": [
         "https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed",
         "https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/",
+        "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
         "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/"
+      ]
+    },
+    {
+      "label": "Cisco vulnerability activity",
+      "anchor_signal": "Cisco",
+      "theme_key": "cisco",
+      "dominant_features": {
+        "affected_products": [
+          "Cisco"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 4,
+      "cohesion": 0.229,
+      "shared_strong_signals": [
+        "Cisco"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "8f654ac030",
+        "118be3a32e",
+        "df4e34a64d"
+      ],
+      "links": [
+        "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
+        "https://blog.talosintelligence.com/wolfssl-vulnerabilities/",
+        "https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/",
+        "https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/"
+      ]
+    },
+    {
+      "label": "Microsoft Windows active exploitation",
+      "anchor_signal": "Microsoft Windows",
+      "theme_key": "microsoft-windows",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "Microsoft Windows",
+          "Microsoft SharePoint"
+        ],
+        "cve_ids": [
+          "CVE-2026-56155",
+          "CVE-2026-56164"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.276,
+      "shared_strong_signals": [
+        "Microsoft Windows"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "8f654ac030",
+        "3be6f6fab7",
+        "f3622fdee9"
+      ],
+      "links": [
+        "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
+        "https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/"
       ]
     },
     {
@@ -887,33 +959,6 @@
       ]
     },
     {
-      "label": "Cisco vulnerability activity",
-      "anchor_signal": "Cisco",
-      "theme_key": "cisco",
-      "dominant_features": {
-        "affected_products": [
-          "Cisco"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.286,
-      "shared_strong_signals": [
-        "Cisco"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "118be3a32e",
-        "df4e34a64d"
-      ],
-      "links": [
-        "https://blog.talosintelligence.com/wolfssl-vulnerabilities/",
-        "https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/",
-        "https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/"
-      ]
-    },
-    {
       "label": "supply chain targeting npm",
       "anchor_signal": "npm",
       "theme_key": "npm",
@@ -926,7 +971,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 8,
+      "article_count": 7,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "npm"
@@ -942,41 +987,7 @@
         "https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions",
         "https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/",
         "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
         "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/"
-      ]
-    },
-    {
-      "label": "CVE-2026-27690 exploitation activity",
-      "anchor_signal": "CVE-2026-27690",
-      "theme_key": "cve-2026-27690",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-27690",
-          "CVE-2026-44747"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "CVE-2026-27690"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "ae25d6203b",
-        "4e6c87c16b"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
-        "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/"
       ]
     },
     {
@@ -1000,6 +1011,39 @@
       "cohesion": 0.2,
       "shared_strong_signals": [
         "CVE-2026-44747"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "ae25d6203b",
+        "4e6c87c16b"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+        "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/"
+      ]
+    },
+    {
+      "label": "CVE-2026-27690 exploitation activity",
+      "anchor_signal": "CVE-2026-27690",
+      "theme_key": "cve-2026-27690",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2026-27690",
+          "CVE-2026-44747"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "CVE-2026-27690"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1039,49 +1083,28 @@
         "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
         "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html"
       ]
-    },
-    {
-      "label": "Microsoft Windows vulnerability activity",
-      "anchor_signal": "Microsoft Windows",
-      "theme_key": "microsoft-windows",
-      "dominant_features": {
-        "affected_products": [
-          "Microsoft Windows"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Microsoft Windows"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "3be6f6fab7",
-        "f3622fdee9"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
-        "https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/"
-      ]
     }
   ],
   "forward_signals": {
     "novelty": {
       "cves": [
         {
-          "value": "CVE-2026-15409",
-          "cluster_id": "04c01d6fcc",
-          "first_source": "Help Net Security",
-          "first_published": "2026-07-14T17:40:10+00:00"
+          "value": "CVE-2026-50370",
+          "cluster_id": "8f654ac030",
+          "first_source": "Cisco Talos",
+          "first_published": "2026-07-14T20:27:33+00:00"
         },
         {
-          "value": "CVE-2026-15410",
-          "cluster_id": "04c01d6fcc",
-          "first_source": "Help Net Security",
-          "first_published": "2026-07-14T17:40:10+00:00"
+          "value": "CVE-2026-50518",
+          "cluster_id": "8f654ac030",
+          "first_source": "Cisco Talos",
+          "first_published": "2026-07-14T20:27:33+00:00"
+        },
+        {
+          "value": "CVE-2026-54128",
+          "cluster_id": "8f654ac030",
+          "first_source": "Cisco Talos",
+          "first_published": "2026-07-14T20:27:33+00:00"
         }
       ],
       "actors": [],
@@ -1111,58 +1134,58 @@
         "first_observation": true
       },
       {
-        "cluster_id": "04c01d6fcc",
-        "pair": "CVE-2026-15409 + SonicWall",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-50370 + Cisco",
         "first_observation": true
       },
       {
-        "cluster_id": "04c01d6fcc",
-        "pair": "CVE-2026-15410 + SonicWall",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-50370 + Microsoft SharePoint",
         "first_observation": true
       },
       {
-        "cluster_id": "08882287bf",
-        "pair": "CVE-2025-12352 + WordPress",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-50370 + Microsoft Windows",
         "first_observation": true
       },
       {
-        "cluster_id": "08882287bf",
-        "pair": "CVE-2025-6389 + WordPress",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-50518 + Cisco",
         "first_observation": true
       },
       {
-        "cluster_id": "08882287bf",
-        "pair": "CVE-2025-7852 + WordPress",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-50518 + Microsoft SharePoint",
         "first_observation": true
       },
       {
-        "cluster_id": "08882287bf",
-        "pair": "CVE-2026-48939 + WordPress",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-50518 + Microsoft Windows",
         "first_observation": true
       },
       {
-        "cluster_id": "08882287bf",
-        "pair": "CVE-2026-56291 + WordPress",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-54128 + Cisco",
         "first_observation": true
       },
       {
-        "cluster_id": "aaaf47b0ea",
-        "pair": "CVE-2025-5777 + Anthropic/Claude",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-54128 + Microsoft SharePoint",
         "first_observation": true
       },
       {
-        "cluster_id": "aaaf47b0ea",
-        "pair": "CVE-2025-5777 + OpenAI/ChatGPT",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-54128 + Microsoft Windows",
         "first_observation": true
       },
       {
-        "cluster_id": "118be3a32e",
-        "pair": "CVE-2026-12486 + Cisco",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-56155 + Cisco",
         "first_observation": true
       },
       {
-        "cluster_id": "118be3a32e",
-        "pair": "CVE-2026-12488 + Cisco",
+        "cluster_id": "8f654ac030",
+        "pair": "CVE-2026-56155 + Microsoft SharePoint",
         "first_observation": true
       }
     ],
@@ -1189,24 +1212,6 @@
         ]
       },
       {
-        "actor": "TeamPCP",
-        "cluster_id": "86ef70edb1",
-        "new_industries": [],
-        "new_products": [
-          "PyPI"
-        ],
-        "prior_top_industries": [
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "prior_top_products": [
-          "GitHub",
-          "Kubernetes",
-          "npm"
-        ]
-      },
-      {
         "actor": "Scattered Spider",
         "cluster_id": "f8c7235a08",
         "new_industries": [
@@ -1226,6 +1231,24 @@
           "Anthropic/Claude",
           "Apple iOS/macOS",
           "Microsoft SharePoint"
+        ]
+      },
+      {
+        "actor": "TeamPCP",
+        "cluster_id": "86ef70edb1",
+        "new_industries": [],
+        "new_products": [
+          "PyPI"
+        ],
+        "prior_top_industries": [
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "prior_top_products": [
+          "GitHub",
+          "Kubernetes",
+          "npm"
         ]
       }
     ],
@@ -1282,6 +1305,121 @@
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "CyberScoop",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "White House details ‘Gold Eagle’ clearinghouse for AI cyber threats",
+      "link": "https://cyberscoop.com/trump-gold-eagle-ai-cyber-clearinghouse/",
+      "published": "2026-07-14T21:44:31+00:00",
+      "summary": "The White House said the clearinghouse has already started to receive intelligence on vulnerabilities and prioritize patches. The post White House details ‘Gold Eagle’ clearinghouse for AI cyber threats appeared first on CyberScoop .",
+      "author": "djohnson",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+      "published": "2026-07-14T21:23:24+00:00",
+      "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
+      "author": "Lawrence Abrams",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "SonicWall"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-15409",
+          "CVE-2026-15410"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "SonicWall": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 12
+    },
+    {
+      "source": "Cisco Talos",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities",
+      "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
+      "published": "2026-07-14T20:27:33+00:00",
+      "summary": "Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as \"critical\". Microsoft notes that two of the vulnerabilities disclosed this month have been exploited in the wild. CVE-2026-56155 is an important-",
+      "author": "Cisco Talos",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco",
+          "Microsoft SharePoint",
+          "Microsoft Windows"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-56155",
+          "CVE-2026-56164",
+          "CVE-2026-50370",
+          "CVE-2026-50518",
+          "CVE-2026-54128"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {
+          "Cisco": "target",
+          "Microsoft SharePoint": "target",
+          "Microsoft Windows": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 35,
+      "full_body": "Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities By Cisco Talos Tuesday, July 14, 2026 16:27 Patch Tuesday Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as \"critical\". Microsoft notes that two of the vulnerabilities disclosed this month have been exploited in the wild. CVE-2026-56155 is an important-severity elevation of privilege vulnerability in Active Directory Federation Services (AD FS) caused by insufficient granularity of access control. An authorized attacker could use it to elevate privileges locally. CVE-2026-56164 is a moderate-severity vulnerability in Microsoft SharePoint Server caused by missing authentication for a critical function. An unauthorized attacker could exploit it to perform spoofing over a network. The 57 \"critical\" entries break down by vulnerability type as follows: 48 remote code execution (RCE), seven elevation of privilege (EoP), 1 spoofing and 1 security feature bypass vulnerability. The 48 critical RCE vulnerabilities affect a range of Microsoft Windows services and applications, including Windows Media and Media Foundation, the Windows DHCP client and DHCP Server service, Microsoft Office, Word, Excel and PowerPoint, Windows GDI and GDI+, the DirectX Graphics Kernel, Microsoft SharePoint, Microsoft SQL Server, the Windows Reliable Multicast Transport Driver (RMCAST), Windows TCP/IP, the Windows Server Network driver, the Windows Print Spooler, the Windows Secure Socket Tunneling Protocol (SSTP), Windows Active Directory Domain Services, Microsoft Defender, Microsoft Copilot, Microsoft Message Queuing (MSMQ), the Remote Desktop Client, Microsoft Dynamics NAV and Microsoft Dynamics 365 Business Central (on-premises), and the Minecraft Bedrock Dedicated Server. Eleven of the critical RCE vulnerabilities are rated \"more likely\" to be exploited. CVE-2026-50370 and CVE-2026-50518 are heap-based buffer overflows in the Windows DHCP Server service, exploitable by an unauthorized attacker over an adjacent network and over a network, respectively. CVE-2026-54128 is a use-after-free in the Windows DHCP client that allows an unauthorized attacker to execute code locally. CVE-2026-50327 and CVE-2026-50655 are heap-based buffer overflows in Windows Media and Windows Media Foundation. CVE-2026-54992 is a heap-based buffer overflow in the Microsoft Message Queuing Queue Manager. CVE-2026-56188 is a race condition in the Windows Server Network driver, and CVE-2026-55010 is a heap-based buffer overflow in the Minecraft Bedrock Dedicated Server that an unauthorized attacker could exploit over a network. CVE-2026-50522 and CVE-2026-58644 are deserialization vulnerabilities in Microsoft SharePoint that allow an unauthorized attacker to execute code over a network. CVE-2026-55944 is a deserialization vulnerability in Microsoft Dynamics NAV and Microsoft Dynamics 365 Business Central (on-premises) that allows an unauthorized attacker to execute code over a network. The remaining critical RCE vulnerabilities are rated \"less likely\" or \"unlikely\" to be exploited, or were not assigned an exploitation-likelihood rating by Microsoft. Microsoft Office and its applications account for a large share: CVE-2026-50314 , CVE-2026-50467 , CVE-2026-55018 , CVE-2026-55022 , CVE-2026-55045 , CVE-2026-55049 , CVE-2026-55056 , CVE-2026-55129 and CVE-2026-55140 are in Microsoft Office; CVE-2026-55033 , CVE-2026-55127 and CVE-2026-55132 are in Microsoft Word; and CVE-2026-55043 , CVE-2026-55120 and CVE-2026-55123 are in Microsoft PowerPoint. These are typically triggered by opening a specially crafted document. The remaining critical RCE vulnerabilities affect Windows Media and Media Foundation ( CVE-2026-56189 , CVE-2026-57087 , CVE-2026-57090 , CVE-2026-57094 and CVE-2026-58542 ), the Windows DHCP Server service ( CVE-2026-48564 and CVE-2026-56159 ), Windows GDI+ and GDI ( CVE-2026",
+      "fetch_status": "ok"
+    },
     {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
@@ -2071,7 +2209,7 @@
         }
       },
       "score": 10,
-      "full_body": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown By Lawrence Abrams July 14, 2026 12:08 PM 0 Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. Last week, Progress urged customers using ShareFile Storage Zone Controllers to immediately shut down their Windows servers after receiving a warning of a \"credible external security threat.\" At the time, the company temporarily disabled access to all ShareFile accounts using Storage Zone Controllers while it investigated the incident with cybersecurity experts. In an update sent to customers today, Progress says its investigation identified a high-severity path traversal vulnerability affecting all 5.x and 6.x versions of ShareFile Storage Zone Controller. \"An authenticated administrative user can read arbitrary files accessible to the application's service account, write threat actor-controlled content to arbitrary directories or enumerate the server filesystem layout,\" reads an email seen by BleepingComputer. Progress says a CVE identifier has been reserved for the vulnerability, and it will be published in two weeks. The company has released versions 5.12.5 and 6.0.2 of the ShareFile Storage Zone Controller and urges all customers to install the security updates as soon as possible. Once the updates are installed, Storage Zone Controllers can be brought back online. While Progress received \"information from a credible source\" regarding a potential threat targeting ShareFile customers, they now say that there is no indication that customers were breached. \"Currently, we have no indication of unauthorized access to any ShareFile customer account or data, and we have not identified any active threat,\" Progress said. Storage Zone Controllers are customer-managed Windows servers that allow organizations to keep files on-premises while continuing to use ShareFile's cloud platform for authentication, permissions, auditing, and collaboration. As Storage Zone Controllers contain the files transferred using the system, they are a valuable target for extortion gangs in data theft attacks. BleepingComputer has asked Progress whether the vulnerability was discovered internally or by an external researcher, why the CVE publication is being delayed for two weeks, and whether additional technical details will be released. We will update this story if we receive a response. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Google: Hackers exploited Zimbra zero-day in attacks on govt orgs Hidden backdoor in Tenda router firmware grants admin access Microsoft patches RoguePlanet Defender zero-day vulnerability Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges Path traversal flaw in AI dev platform Langflow exploited in attacks",
+      "full_body": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown By Lawrence Abrams July 14, 2026 12:08 PM 0 Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. Last week, Progress urged customers using ShareFile Storage Zone Controllers to immediately shut down their Windows servers after receiving a warning of a \"credible external security threat.\" At the time, the company temporarily disabled access to all ShareFile accounts using Storage Zone Controllers while it investigated the incident with cybersecurity experts. \"We acted out of an abundance of caution after we received information from a credible source of a potential threat to the SZC. Our investigation then revealed a vulnerability that we promptly patched before it was publicly known,\" Progress told BleepingComputer. In an update sent to customers today, Progress says its investigation identified a high-severity path traversal vulnerability affecting all 5.x and 6.x versions of ShareFile Storage Zone Controller. \"An authenticated administrative user can read arbitrary files accessible to the application's service account, write threat actor-controlled content to arbitrary directories or enumerate the server filesystem layout,\" reads an email seen by BleepingComputer. Progress says a CVE identifier has been reserved for the vulnerability, and it will be published in two weeks. When asked why there was a delay, Progress told BleepingComputer that waiting to publish the CVE gives customers time to patch before details become public and available to potential threat actors. They further noted that this is their standard practice. The company has released versions 5.12.5 and 6.0.2 of the ShareFile Storage Zone Controller and urges all customers to install the security updates as soon as possible. Once the updates are installed, Storage Zone Controllers can be brought back online. While Progress received \"information from a credible source\" regarding a potential threat targeting ShareFile customers, they now say that there is no indication that customers were breached. \"Currently, we have no indication of unauthorized access to any ShareFile customer account or data, and we have not identified any active threat,\" Progress said. Storage Zone Controllers are customer-managed Windows servers that allow organizations to keep files on-premises while continuing to use ShareFile's cloud platform for authentication, permissions, auditing, and collaboration. As Storage Zone Controllers contain the files transferred using the system, they are a valuable target for extortion gangs in data theft attacks. BleepingComputer has asked Progress whether the vulnerability was discovered internally or by an external researcher and whether additional technical details will be released. We will update this story if we receive a response. Update 7/14/26: Updated story with additional statement from Progress Software. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Google: Hackers exploited Zimbra zero-day in attacks on govt orgs Hidden backdoor in Tenda router firmware grants admin access Microsoft patches RoguePlanet Defender zero-day vulnerability Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges Path traversal flaw in AI dev platform Langflow exploited in attacks",
       "fetch_status": "ok"
     },
     {
@@ -3057,7 +3195,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "The serpent’s tongue: Luring the Python out of its den By Onur Mustafa Erdogan , Darin Smith Tuesday, July 14, 2026 06:00 Threat Spotlight Python's popularity, readable syntax, and extensive third-party library ecosystem make it an attractive target for threat actors seeking to compromise developer devices and infrastructure. Malicious packages and supply-chain attacks are increasingly common, exploiting the trust built into Python's packaging ecosystem to execute payloads at the moment of installation, without any direct interaction from the victim. This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments. Each technique is assessed for persistence, supported build methods, and distribution compatibility. We conclude with practical defensive measures, including dependency auditing tools, version pinning strategies, installation time controls, and general best practices for minimizing supply-chain risk. Due to the friendly nature of its syntax, extensive capabilities, and wide range of libraries, Python’s adoption by the developer community has been steadily increasing. Both the StackOverflow Developer Survey and the first party package repository PyPi’s download stats indicate rapidly growing usage, especially for data science, AI, and backend projects. Python has a very vibrant community of modules that can be easily installed using various package indexes. Unfortunately, this convenience comes with an additional burden. Malicious packages and supply chain infection are also increasingly common, as threat actors attempt to utilize these modules to infect as many victim devices as possible, abusing the very trust that the community is built upon. GitHub’s 2025 security data highlights the accelerating threat to the software supply chain, noting a 69% year-over-year increase in published malware advisories. Notably for Python developers, 17% of all reviewed advisories in the GitHub Advisory Database are now related to the Pip ecosystem, reflecting a significant targeting of Python-based environments. The threat actor group TeamPCP has also utilized software supply chain attacks, including misuse of Python modules, to compromise Microsoft’s GitHub subsidiary and carry out 20 “waves” of supply chain attacks according to Wired. Users often believe that for a malicious payload to be executed they need to directly interact with the infected piece of code (e.g., providing it with a sensitive input, executing its entry point, or importing it to a working project). In reality, Python packages can establish a foothold simply through installation. While analyzing these techniques in detail, we will take a deeper look at the background process of package installation for Python. This will help understand the threat landscape for Python packages, including legitimate components adversaries try to alter for their benefit. Journey of a Python package Figure 1. Layers of Python package installation. The process of moving a Python package from a remote repository to a local machine involves three distinct layers. While these layers are interconnected, they provide a useful abstraction for understanding the installation process: Hosting layer: Defines the location where the package is published Distribution layer: Specifies the file formats supported by the package Installation layer: Dictates the method of deployment for the package Hosting packages Python packages can be installed from various remote repositories. PyPI (Python Package Index): PyPI is the official repository for Python packages. The native package manager, pip, uses PyPI by default. Package details are accessible via a JSON API at “https://pypi.org/pypi/<package-name>/json”. During installation, the PyPI frontend redirects users to “files.pythonhosted.org”, where the actual files are stored.",
       "fetch_status": "ok"
     },
@@ -3098,7 +3236,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "Infosecurity Magazine Home » News » Lidl Notifies Customers of Third-Party Data Breach Lidl Notifies Customers of Third-Party Data Breach News 14 July 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Lidl has warned customers in several European countries to beware of phishing messages after revealing that their personal information may have been stolen from a third-party IT provider. The supermarket giant, owned by German retail conglomerate Schwarz Group, said customers in Germany, Belgium and the Netherlands were impacted by the incident. In a note to Belgian and Dutch customers , Lidl said it found out about the incident last week. “Despite high IT security standards, unidentified individuals were briefly able to access a separately stored file containing customer data and steal some of it. The online shop system itself was not affected,” it explained. Read more on retail breaches: Food Retailer Ahold Delhaize Discloses Data Breach Impacting 2.2 Million Lidl said that customers of its online store were affected, with stolen data including full names, phone numbers, email addresses, dates of birth and customer numbers. “At this time, we can rule out the possibility that passwords, billing and delivery addresses, bank details, or other payment information are affected,” it continued. “Your customer account has not been compromised. Although we currently have no concrete evidence of data misuse, we are warning you, as a precaution, against possible phishing or identity theft attempts.” Lidl said its IT service provider “reacted immediately” to restore the security of the impacted systems and engage forensics experts to investigate further. The relevant authorities have also been contacted. Customer Vigilance is Required Lidl warned of potential follow-on phishing attacks from fraudsters who may now be in possession of the stolen data. “Always verify the sender's authenticity,” it said. “If you notice anything unusual, do not disclose any data or click on any unknown links.” Boris Cipot, principal security engineer at app security firm Black Duck, praised Lidl for its speedy response and transparency. “That kind of candor presents the appropriate posture under GDPR,” he continued. “The real test now is follow-through: how quickly they complete the forensic investigation, how clearly they communicate updates as the scope becomes known, and how rigorously they reassess the security requirements they place on their service providers going forward.” Cipot urged customers to change their passwords out of caution, enable multi-factor authentication wherever it's offered, and be on high alert. “Attackers will absolutely weaponize this stolen data to craft convincing scams in the weeks and months ahead,” he added. “Monitor your bank and card statements closely, and consider a credit freeze if you're in a jurisdiction where that's available.\" You may also like West Ham Supporters’ Personal Details Leaked on Club Website News 9 March 2021 Improving Cybersecurity within Higher Education Opinion 2 February 2021 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Augusta Health Center Reveals Historic Breach News 21 August 2018 Crafting Scams with AI: a Devastating New Vector Blog 29 March 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Russian State Hackers Target Vulnerable Routers Worldwide, Joint Advisory Warns News 13 July 2026 1 Progress Software Warns of \"External Security Threat\" to ShareFile News 13 July 2026 2 75% CISOs Fear Executives Don’t Understand Cybersecurity Risks Employees Face News 9 July 2026 3 NCSC Touts National Scale, AI-Powered “Cyber Shield” for Defense News 8 July 2026 4 Novel OAuth Client ID Spoofing Technique Targets Cloud Environments News 13 July 2026 5 Suspected Chinese Threat Group Targets Universities via Vulnerable Roundcube Servers News 7 July 2026 6 Google Cloud's New CISO Ch",
       "fetch_status": "ok"
     },
@@ -3139,7 +3277,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "US sanctions VPN, malware providers for enabling ransomware attacks By Sergiu Gatlan July 14, 2026 05:40 AM 0 The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. On Monday, OFAC designated First VPN Service (1VPNS) , a virtual private network provider that sold services to ransomware groups, and its administrator, Dmytro Rashevskyi. Since it surfaced in 2014, 1VPNS has advertised on cybercriminal forums that it keeps no logs of user activity or identities and would not cooperate with law enforcement. Rashevskyi allegedly used false identities (e.g., \"Maksim Sorin\" and \"Roman Chabanenko\") to acquire infrastructure from companies that would otherwise have refused service due to complaints of abuse. The sanctions come after European law enforcement took down 1VPNS's website and infrastructure in May with support from the FBI's Boston Field Office, as part of a joint action dubbed \"Operation Saffron\" led by French and Dutch authorities. The 1VPNS investigation began in December 2021, with law enforcement officers infiltrating the VPN's infrastructure and collecting its user database before it was dismantled. Throughout the joint operation, the authorities seized 33 servers linked to 1VPNs across 27 countries, arrested its administrator, and exposed thousands of users associated with ransomware, fraud, and other malicious activity worldwide. At the time, Europol also said that the VPN service's name had surfaced in nearly every major cybercrime investigation it supported. Victims of ransomware attacks involving 1VPNS' infrastructure included U.S. businesses, hospitals, financial services firms, and municipal governments. This week, the Treasury Department also sanctioned Belarusian national Yegeniy Vladimirovich Silayev, who sells cryptors (also known as crypters), which are tools that help ransomware and other malware evade detection by security software. Officials estimate that ransomware operations using 1VPNS and Silayev cryptors have caused billions of dollars in losses to businesses and critical infrastructure providers across the United States. \"These actors supplied ransomware groups with tools to hide their identities, disguise malicious software, and evade detection — enabling attacks that have caused billions of dollars in losses to U.S. critical infrastructure providers,\" said State Department spokesperson Thomas Pigott. \"By targeting not just ransomware operators but the service providers and tool suppliers who make their attacks possible, the United States and its partners are dismantling the broader networks that sustain cybercriminal activity worldwide.\" OFAC said the action was coordinated with the United Kingdom's Foreign, Commonwealth & Development Office. Under these sanctions, all property of the designated individuals and entities within U.S. jurisdiction is blocked, while U.S. persons and businesses are barred from transactions involving them. On Monday, the European Union and the United Kingdom also jointly sanctioned dozens of Russian individuals and entities , accusing Russia of coordinating a network of hacking groups linked to cyberattacks across Europe. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Police seize “First VPN” service used in ransomware, data theft attacks Former ransomware negotiator gets 4 years for BlackCat attacks CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day Check Point links VPN zero-day attacks to Qilin ransomware gang U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
       "fetch_status": "ok"
     },
@@ -3589,7 +3727,7 @@
           "products": []
         }
       },
-      "score": 22,
+      "score": 21,
       "full_body": "Share Link copied to clipboard! Tags Social engineering Supply chain attack Vishing Content types Research Products and services Microsoft Defender Topics Actionable threat insights In a series of campaigns observed between mid-2025 and mid-2026, Microsoft identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing) and supply chain compromise, to target customer SaaS-based applications such as Salesforce instances. The threat actors abused trusted OAuth relationships for unauthorized access, data exfiltration, and persistence. Two primary intrusion paths were observed including vishing techniques targeting OAuth consent and supply chain compromise through trusted workflows and integrations such as Salesloft and Gainsight. Abuse of these access paths led to inherited user and application privileges, allowing successful enumeration and querying of customer relationship management (CRM) records while evading conventional authentication detections. These intrusion paths often led to persistent access and exfiltration of data at scale. This tradecraft highlights how a single entry point can rapidly expand to greater enterprise impacts. Microsoft observed activity associated with these techniques in many tenants from various industries such as retail, education and manufacturing. These findings reinforce the importance of monitoring OAuth-connected applications, validating third-party integrations, reviewing configurations, and enabling Salesforce event monitoring. Leveraging this data, Microsoft consulted with Salesforce to improve granularity in telemetry for Defender for Cloud Apps with near-real-time detection, offering connected application attribution and expanded application permission insights. This activity was not the result of a vulnerability inherent to Salesforce. Rather, the threat actors abused trusted OAuth relationships for unauthorized access, data exfiltration, and persistence. Attack chain overview Threat actor campaigns targeting Salesforce customers and using tradecraft associated with ShinyHunters pose a high-impact risk to sensitive data and downstream SaaS ecosystems. These campaigns abuse OAuth trust relationships to operate within pre-existing, legitimate workflows. Figure 1. Commonly observed attack paths for SaaS applications. Observed activity can be grouped into two primary intrusion paths: Voice ‑ phishing-driven OAuth consent abuse In campaigns beginning in mid-2025, the threat actors conducted vishing attacks impersonating IT support personnel. Threat actors socially engineered employees into authorizing attacker-controlled connected apps within their Salesforce tenant. In several confirmed cases, threat actors guided users through the OAuth consent workflow to grant access to a malicious application disguised as a legitimate Salesforce Data Loader tool. After users granted consent, these highly privileged OAuth applications enabled threat actors to perform API calls on behalf of the victim user, facilitating: Enumeration of Salesforce instances belonging to targeted organizations Persistent access to Salesforce CRM data Possible lateral movement into other SaaS platforms through discovered credentials This intrusion path exploits the OAuth authorization flow of trusted SaaS services rather than relying on malware or credential replay. Threat actors exfiltrate data through sanctioned application access inherited from user privileges. SaaS supply ‑ chain compromise targeting trusted integrations Following initial access campaigns, threat actors escalated into supply‑chain-driven attacks targeting third‑party SaaS vendors offering popular solutions that integrate with Salesforce, often using OAuth tokens. In August 2025, compromised Salesloft Drift credentials enabled attackers to obtain connection secrets used by downstream SaaS applications, enabling the use of OAuth tokens in multiple customer Salesforce instances. A subsequ",
       "fetch_status": "ok"
     },
@@ -3608,28 +3746,25 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Anthropic/Claude",
-          "GitHub",
+          "GitHub"
+        ],
+        "tools_used": [
           "OpenAI/ChatGPT"
         ],
-        "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {
-          "Anthropic/Claude": "target",
           "GitHub": "target",
-          "OpenAI/ChatGPT": "target"
+          "OpenAI/ChatGPT": "tool"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 7,
-      "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Teleport — How do you ensure that AI agents act within your intended boundaries? Teleport’s “From Zero Trust to Agent Trust” white paper details what needs to be in place to realize the promise of agentic designs. 13th July 2026 - Link Blog datasette code-frequency chart on GitHub . Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Posted 13th July 2026 at 9:45 pm Recent articles The new GPT-5.6 family: Luna, Terra, Sol - 9th July 2026 sqlite-utils 4.0, now with database schema migrations - 7th July 2026 sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25) - 5th July 2026 This is a link post by Simon Willison, posted on 13th July 2026 . github 190 ai 2,116 datasette 1,526 generative-ai 1,871 llms 1,838 ai-assisted-programming 398 coding-agents 222 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
-      "fetch_status": "ok"
+      "score": 6
     },
     {
       "source": "Risky Business News",
@@ -3657,7 +3792,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Reddit r/netsec",
@@ -3711,41 +3846,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-      "published": "2026-07-13T19:44:19+00:00",
-      "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "npm": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -4128,13 +4228,10 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "data_breach",
-          "vulnerability_disclosure"
+          "data_breach"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -4148,8 +4245,8 @@
         }
       },
       "score": 9,
-      "full_body": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter",
-      "fetch_status": "ok"
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Huntress",
@@ -6191,7 +6288,7 @@
       "score": 7
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
@@ -6228,7 +6325,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
@@ -7491,6 +7588,33 @@
       "score": 10,
       "full_body": "The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l",
       "fetch_status": "ok"
+    },
+    {
+      "source": "Unit 42",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
+      "link": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/",
+      "published": "2026-07-07T22:00:21+00:00",
+      "summary": "A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination. The post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation appeared first on Unit 42 .",
+      "author": "Bharath Nannaka and Pranay Kumar Chhaparwal",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Dark Reading",
@@ -21832,33 +21956,6 @@
       }
     },
     {
-      "source": "Cisco Talos",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Reporting from Vegas: Networking, AI, and good boys",
-      "link": "https://blog.talosintelligence.com/reporting-from-vegas-networking-ai-and-good-boys/",
-      "published": "2026-06-04T18:00:59+00:00",
-      "summary": "Joe’s on-the-ground report from Cisco Live U.S. is here, complete with therapy dog pictures and tips on handling conference overstimulation.",
-      "author": "Joe Marshall",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Proofpoint Threat Insight",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -29018,6 +29115,33 @@
       }
     },
     {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+      "published": "2026-05-07T13:00:00+00:00",
+      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+      "author": "Roi Kessler",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -29043,33 +29167,6 @@
         "role_map": {
           "Linux kernel": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-      "published": "2026-05-07T13:00:00+00:00",
-      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-      "author": "Roi Kessler",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
