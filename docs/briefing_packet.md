@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-14T06:18:04.323531+00:00
+- Generated: 2026-07-14T09:09:39.923917+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 338
-- Total clusters raw: 156
+- Feeds OK: 77
+- Total items in window: 334
+- Total clusters raw: 153
 - Total clusters in packet: 59
-- Dropped low score: 97
+- Dropped low score: 94
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,43 +70,53 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -120,26 +130,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 10
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -150,13 +150,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -165,23 +170,33 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 40
-  - In window count: 0
+  - Item count: 50
+  - In window count: 4
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 40
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -190,18 +205,8 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -215,11 +220,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -229,7 +229,7 @@
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 2
+  - In window count: 3
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -240,30 +240,35 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 10
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 6
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 9
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
@@ -275,11 +280,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -300,11 +300,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 20
+  - In window count: 20
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -315,18 +315,33 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -340,21 +355,6 @@
   - Status: ok
   - Item count: 30
   - In window count: 21
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -365,6 +365,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -375,18 +380,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -395,28 +395,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,26 +410,41 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
-  - Item count: 100
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
   - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 3
+  - In window count: 4
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 29
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - In window count: 28
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 25
+  - In window count: 16
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -473,11 +473,35 @@
 
 ## Affinity groups (themes)
 
+### phishing social eng targeting Microsoft 365
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
+- Cluster count: 5
+- Article count: 12
+- Cohesion: 0.241
+- Shared strong signals: Microsoft 365
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, ransomware_extortion, data_breach, active_exploitation
+  - affected_industries: education
+  - affected_products: Microsoft 365, Okta, GitHub
+- Cluster IDs: ef8f3ff932, 8d0224c08d, 98dd5f4721, cf74fc001d, 605f13c77e
+- Links:
+  - https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/
+  - https://www.recordedfuture.com/blog/june-2026-cve-landscape
+  - https://www.huntress.com/blog/conditional-access-misconfigurations
+  - https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
+  - https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/
+  - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+  - https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
+  - https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
+
 ### active exploitation targeting Apple iOS/macOS
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
-- Cluster count: 4
-- Article count: 8
+- Cluster count: 3
+- Article count: 5
 - Cohesion: 0.2
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
@@ -485,85 +509,19 @@
 - Dominant features:
   - threat_categories: active_exploitation
   - affected_products: Apple iOS/macOS
-- Cluster IDs: 598aa947b4, b35394b0f7, 9d6bdd5305, 605f13c77e
+- Cluster IDs: 598aa947b4, 9d6bdd5305, 605f13c77e
 - Links:
   - https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
   - https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/
   - https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
-  - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-  - https://www.reddit.com/r/cybersecurity/comments/1uvgoqh/official_jscrambler_npm_package_compromised/
-  - https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
   - https://www.huntress.com/blog/patch-management-strategy
   - https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
-
-### Microsoft 365 active exploitation
-- Anchor signal: Microsoft 365
-- Theme key: microsoft-365
-- Cluster count: 5
-- Article count: 9
-- Cohesion: 0.22
-- Shared strong signals: Microsoft 365
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, active_exploitation, ransomware_extortion, data_breach
-  - affected_industries: education
-  - affected_products: Microsoft 365, Okta
-  - urgency_signals: preauth_unauth, actively_exploited
-- Cluster IDs: ef8f3ff932, 8d0224c08d, 98dd5f4721, 605f13c77e, b5c5a1216b
-- Links:
-  - https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/
-  - https://www.recordedfuture.com/blog/june-2026-cve-landscape
-  - https://www.huntress.com/blog/conditional-access-misconfigurations
-  - https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
-  - https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
-  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
-
-### CVE-2026-48939 exploitation activity
-- Anchor signal: CVE-2026-48939
-- Theme key: cve-2026-48939
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.432
-- Shared strong signals: CVE-2026-48939
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - affected_industries: government
-  - cve_ids: CVE-2026-48939, CVE-2026-56291
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: 08882287bf, 3e3af8b34c, b5c5a1216b
-- Links:
-  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
-  - https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
-  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
-
-### CVE-2026-56291 exploitation activity
-- Anchor signal: CVE-2026-56291
-- Theme key: cve-2026-56291
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.432
-- Shared strong signals: CVE-2026-56291
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - affected_industries: government
-  - cve_ids: CVE-2026-48939, CVE-2026-56291
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: 08882287bf, 3e3af8b34c, b5c5a1216b
-- Links:
-  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
-  - https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
-  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
 - Cluster count: 3
-- Article count: 4
+- Article count: 5
 - Cohesion: 0.221
 - Shared strong signals: Microsoft Defender
 - Member CVEs: (none)
@@ -573,25 +531,47 @@
 - Cluster IDs: 7df2f246d4, b835d1d4b1, 8fa37afed0
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
+  - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
   - https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
 
-### CVE-2026-48283 exploitation activity
-- Anchor signal: CVE-2026-48283
-- Theme key: cve-2026-48283
+### CVE-2026-48939 exploitation activity
+- Anchor signal: CVE-2026-48939
+- Theme key: cve-2026-48939
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.281
-- Shared strong signals: CVE-2026-48283
+- Cohesion: 0.394
+- Shared strong signals: CVE-2026-48939
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - cve_ids: CVE-2026-48283, CVE-2026-48313
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 8e87b71464, 843dce4060
+  - threat_categories: zero_day, active_exploitation
+  - affected_industries: government
+  - cve_ids: CVE-2026-48939, CVE-2026-56291
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 08882287bf, 3e3af8b34c
 - Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
+  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+  - https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
+
+### CVE-2026-56291 exploitation activity
+- Anchor signal: CVE-2026-56291
+- Theme key: cve-2026-56291
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.394
+- Shared strong signals: CVE-2026-56291
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_industries: government
+  - cve_ids: CVE-2026-48939, CVE-2026-56291
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 08882287bf, 3e3af8b34c
+- Links:
+  - https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+  - https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
 
 ### CVE-2026-48313 exploitation activity
 - Anchor signal: CVE-2026-48313
@@ -610,11 +590,28 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
 
+### CVE-2026-48283 exploitation activity
+- Anchor signal: CVE-2026-48283
+- Theme key: cve-2026-48283
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.281
+- Shared strong signals: CVE-2026-48283
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-48283, CVE-2026-48313
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 8e87b71464, 843dce4060
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
+
 ### ShinyHunters: supply chain
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
 - Cluster count: 2
-- Article count: 2
+- Article count: 3
 - Cohesion: 0.283
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
@@ -625,13 +622,14 @@
 - Cluster IDs: 7df2f246d4, c8e0a6559d
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
+  - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
 
 ### Google Cloud vulnerability activity
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 2
-- Article count: 4
+- Article count: 3
 - Cohesion: 0.545
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
@@ -642,7 +640,6 @@
 - Links:
   - https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
   - https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
-  - https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
 
 ### Cisco vulnerability activity
 - Anchor signal: Cisco
@@ -660,44 +657,6 @@
   - https://blog.talosintelligence.com/wolfssl-vulnerabilities/
   - https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - https://blog.talosintelligence.com/uat-7810/
-
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: npm
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_industries: financial_services
-  - affected_products: npm
-- Cluster IDs: c8e0a6559d, b35394b0f7
-- Links:
-  - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-  - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-  - https://www.reddit.com/r/cybersecurity/comments/1uvgoqh/official_jscrambler_npm_package_compromised/
-  - https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
-
-### ransomware extortion targeting Palo Alto Networks
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-  - affected_industries: government, education
-  - affected_products: Palo Alto Networks
-- Cluster IDs: c06f0c2fb1, b5c5a1216b
-- Links:
-  - https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/
-  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
 
 ## Forward signals
 
@@ -749,7 +708,11 @@
 - cve_ids: CVE-2025-3248 (weeks observed: 3, cluster c8e0a6559d)
 - cve_ids: CVE-2026-50656 (weeks observed: 3, cluster 8fa37afed0)
 
-### Tier inversion (0)
+### Tier inversion (1)
+- **Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)**
+  - Cluster: 6a5a22a81b
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2026-40639
 
 ## Clusters
 
@@ -811,24 +774,24 @@ Back to Blog Products and Tools Weekly Metasploit Update: Exploits for FlowiseAI
   - Link: https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
   - Summary: Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that are built on AppleScript droppers or Objective-C-based wrappers, CrashStealer is implemented in native C++, according to Jamf Threat Labs. "It validates the victim's login password locally before
 
-### Cluster 14c6bae9ae — score 31
+### Cluster 14c6bae9ae — score 29
 
 - Title: Maximum-Severity Adobe ColdFusion Flaw Exploited Within Hours of Disclosure
 - Source: Orca Security Research (cloud_identity_infrastructure)
 - Published: 2026-07-08T14:47:46+00:00
 - Link: https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 1
+- Corroborating source count: 1
 - Strong signals: CVE-2026-48282
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, data_breach, web_shell_backdoor
 - affected_industries: financial_services, government, healthcare
 - cve_ids: CVE-2026-48282
-- urgency_signals: actively_exploited, critical_cvss
+- urgency_signals: critical_cvss
 - content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
 - threat_categories: data_breach, web_shell_backdoor, active_exploitation
@@ -850,37 +813,32 @@ A critical vulnerability (CVE-2026-48282, CVSS 10.0) was disclosed affecting Ado
 A critical vulnerability ( CVE-2026-48282 , CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the RDS FILEIO endpoint at /CFIDE/main/ide.cfm?ACTION=FILEIO, where insufficient path validation leads to arbitrary file write on the underlying file system. By sending a specially crafted HTTP request, attackers can upload a CFML webshell containing <cfexecute> tags, potentially gaining full remote code execution as the ColdFusion service account (NT AUTHORITY\SYSTEM on Windows). No authentication is required to exploit this issue when RDS authentication is disabled. Adobe addressed this flaw on June 30, 2026 as part of security bulletin APSB26-68, which resolved 11 ColdFusion vulnerabilities total, seven of which carried a CVSS score of 10.0. Users should upgrade to ColdFusion 2025 Update 10 or ColdFusion 2023 Update 21 immediately. Organizations that have not yet patched should also disable RDS unless strictly required, block external access to /CFIDE/administrator and RDS endpoints via WAF or firewall rules, and hunt for unauthorized .cfm, .cfc, .cfml, or .jsp files in the ColdFusion web root. Affected Systems The following components are affected: Adobe ColdFusion 2025, update 9 and earlier, and Adobe ColdFusion 2023, update 20 and earlier. These components are deployed across enterprise web application stacks, including government, financial, and healthcare organizations, particularly when RDS is enabled and RDS authentication is left in its default disabled state. Other applications relying on ColdFusion as a backend runtime may also be impacted. Risk Impact At the time of writing, a detailed technical analysis from WatchTowr is publicly available and serves as a functional exploitation guide. KEVIntel honeypots detected active exploitation within two hours of that analysis going public, and both the Canadian Centre for Cyber Security and the Centre for Cybersecurity Belgium have issued alerts. Shadowserver tracks approximately 750 to 800 internet-facing ColdFusion instances, though the actual vulnerable subset depends on RDS configuration. Regardless, the maximum severity score, the lack of authentication requirements, and the speed of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to deploy webshells for persistent access, execute arbitrary commands on the underlying operating system, and pivot laterally through the network, leading to service disruption, data exposure, or full infrastructure compromise. Organizations should also rotate credentials on any ColdFusion server that was internet-facing since the June 30 disclosure date. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Adobe ColdFusion, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Related articles Product Info Post-Quantum Cryptography Is Here. Orca Can Help. Jul 10, 2026 Cloud Security Learning Cloud Risk Reduction Strategies for Fintech Jul 10, 2026 Report 2026 State of AI Security Report Jul 09, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data in accordance with Orca Security Privacy Policy . Personalized Demo See Orca Security in Action Gain visibility, achieve compliance, and prioritize ri
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: Maximum-Severity Adobe ColdFusion Flaw Exploited Within Hours of Disclosure
   - Published: 2026-07-08T14:47:46+00:00
   - Link: https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/
   - Summary: A critical vulnerability (CVE-2026-48282, CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the […]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV
-  - Published: 2026-07-08T05:33:12+00:00
-  - Link: https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the
 
-### Cluster 7df2f246d4 — score 23
+### Cluster 7df2f246d4 — score 29
 
 - Title: Defending SaaS-based applications against ShinyHunters OAuth abuse
 - Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-07-13T22:02:41+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: ShinyHunters
 
 #### Cluster taxonomy (union across members)
-- threat_categories: cloud_abuse, phishing_social_eng, supply_chain
+- threat_categories: cloud_abuse, phishing_social_eng, ransomware_extortion, supply_chain
 - actor_attribution: ShinyHunters
 - affected_industries: education, manufacturing_industrial, retail_ecommerce
 - affected_products: Microsoft Defender, Salesforce
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_primary_research, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: supply_chain, phishing_social_eng, cloud_abuse
@@ -902,13 +860,18 @@ Microsoft Threat Intelligence identified threat actor activity with overlapping 
 Share Link copied to clipboard! Tags Social engineering Supply chain attack Vishing Content types Research Products and services Microsoft Defender Topics Actionable threat insights In a series of campaigns observed between mid-2025 and mid-2026, Microsoft identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply chain compromise, and misconfigured guest access to target customer SaaS-based applications such as Salesforce instances. The threat actors abused trusted OAuth relationships for unauthorized access, data exfiltration, and persistence. Three primary intrusion paths were observed including vishing techniques targeting OAuth consent, supply chain compromise through trusted workflows and integrations such as Salesloft and Gainsight, and exploitation of misconfigured guest access. Abuse of these access paths led to inherited user and application privileges, allowing successful enumeration and querying of customer relationship management (CRM) records while evading conventional authentication detections. These intrusion paths often led to persistent access and exfiltration of data at scale. This tradecraft highlights how a single entry point can rapidly expand to greater enterprise impacts. Microsoft observed activity associated with these techniques in many tenants from various industries such as retail, education and manufacturing. These findings reinforce the importance of monitoring OAuth-connected applications, validating third-party integrations, reviewing guest access configurations, and enabling Salesforce event monitoring. Leveraging this data, Microsoft consulted with Salesforce to improve granularity in telemetry for Defender for Cloud Apps with near-real-time detection, offering connected application attribution and expanded application permission insights. This activity was not the result of a vulnerability inherent to Salesforce. Rather, the threat actors abused trusted OAuth relationships for unauthorized access, data exfiltration, and persistence. Attack chain overview Threat actor campaigns targeting Salesforce customers and using tradecraft associated with ShinyHunters pose a high-impact risk to sensitive data and downstream SaaS ecosystems. These campaigns abuse OAuth trust relationships to operate within pre-existing, legitimate workflows. Figure 1. Commonly observed attack paths for SaaS applications. Observed activity can be grouped into three primary intrusion paths: Voice ‑ phishing-driven OAuth consent abuse In campaigns beginning in mid-2025, the threat actors conducted vishing attacks impersonating IT support personnel. Threat actors socially engineered employees into authorizing attacker-controlled connected apps within their Salesforce tenant. In several confirmed cases, threat actors guided users through the OAuth consent workflow to grant access to a malicious application disguised as a legitimate Salesforce Data Loader tool. After users granted consent, these highly privileged OAuth applications enabled threat actors to perform API calls on behalf of the victim user, facilitating: Enumeration of Salesforce instances belonging to targeted organizations Persistent access to Salesforce CRM data Possible lateral movement into other SaaS platforms through discovered credentials This intrusion path exploits the OAuth authorization flow of trusted SaaS services rather than relying on malware or credential replay. Threat actors exfiltrate data through sanctioned application access inherited from user privileges. SaaS supply ‑ chain compromise targeting trusted integrations Following initial access campaigns, threat actors escalated into supply‑chain-driven attacks targeting third‑party SaaS vendors offering popular solutions that integrate with Salesforce, often using OAuth tokens. In August 2025, compromised Salesloft Drift credentials enabled attackers to obtain connection secrets used by downstream SaaS applicati
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
 - **Microsoft Security Blog** (threat_research_primary)
   - Title: Defending SaaS-based applications against ShinyHunters OAuth abuse
   - Published: 2026-07-13T22:02:41+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
   - Summary: Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applications. The post Defending SaaS-based applications against ShinyHunters OAuth abuse appeared first on Microsoft Security Blog .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity
+  - Published: 2026-07-14T06:19:24+00:00
+  - Link: https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
+  - Summary: Attackers whose methods line up with the data-extortion group ShinyHunters have spent the past year walking into corporate Salesforce environments without exploiting a single flaw in the platform. The way in has been the trust the organization had already extended, usually through the OAuth connections that tie Salesforce to the apps and third-party vendors around it. In
 
 ### Cluster 8e87b71464 — score 23
 
@@ -1197,6 +1160,69 @@ WolfSSL, GeoVision, VTK vulnerabilities By Kri Dontje Thursday, July 9, 2026 14:
   - Link: https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - Summary: Cisco Talos said China-linked APT UAT-7810 is growing its proxy relay network with new malware
 
+### Cluster 26eda5e0a9 — score 14
+
+- Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-07T15:24:30+00:00
+- Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
+- Fetch status: ok
+- Member count: 5
+- Corroborating source count: 4
+- Strong signals: GitHub
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- affected_industries: critical_infrastructure, financial_services
+- affected_products: GitHub, npm
+- tools_used: OpenAI/ChatGPT
+- urgency_signals: poc_available, preauth_unauth
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- urgency_signals: preauth_unauth, poc_available
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
+```
+
+#### Full body
+
+```
+Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed "GitLost" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: More Countries Jump on the Social Media 'Ban Wagon' "GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems," Sasi Levi, security research lead at Noma, wrote in the report. "The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input." This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on "issues.assigned" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure "In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused," Levi wrote. "This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data." Indeed, the vulnerability demonstrates that threat actors only "need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property," Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to N
+```
+
+#### Corroborating sources (4)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
+  - Published: 2026-07-07T15:24:30+00:00
+  - Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
+  - Summary: The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: datasette code-frequency chart on GitHub
+  - Published: 2026-07-13T21:45:27+00:00
+  - Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
+  - Summary: datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix ("Additionally") bypassed the threat-detection guardrail
+  - Published: 2026-07-07T15:16:22+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/
+  - Summary: Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why "filter the injection" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
+  - Published: 2026-07-10T16:29:00+00:00
+  - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
+  - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
+
 ### Cluster 5a4c062977 — score 13
 
 - Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
@@ -1285,6 +1311,47 @@ CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
   - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
 
+### Cluster 1e00f96258 — score 12
+
+- Title: Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-07-14T08:00:00+00:00
+- Link: https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help
+```
+
+#### Full body
+
+```
+Back to Blog Culture Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East Gopan Sivasankaran Jul 14, 2026 | Last updated on Jul 14, 2026 | 4 min read DISCOVER RAPID7 MDR Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help simplify security operations, strengthen cyber resilience, and deliver measurable outcomes. That's why Rapid7 is excited to announce a new strategic, Middle East-spanning distribution partnership with Mindware . A shared commitment to the region The Middle East continues to establish itself as one of the world's most ambitious digital economies. As organizations invest in cloud technologies, AI, and connected infrastructure, cybersecurity has become a critical foundation for sustainable growth. This is precisely why Rapid7 has continued to invest in the Middle East: We recognize the region's growing importance to the global cybersecurity landscape, and this new partnership with Mindware represents another important step in that journey. This collaboration is about more than expanding our channel presence, it's about investing in the partners helping organizations navigate an increasingly complex security landscape. Mindware has built a strong reputation as one of the Middle East's leading value-added distributors, combining deep regional expertise with technical enablement, professional services, and an extensive partner ecosystem. Together, we're creating a framework that helps partners grow their cybersecurity practices while delivering greater value to customers. Building stronger security operations Security teams today face a common challenge: too many tools, too many alerts, and not enough time. Organizations are increasingly looking for platforms that bring exposure management, threat detection, and response together to improve visibility and reduce operational complexity. Rapid7's AI-powered cybersecurity operations platform helps organizations unify security operations, reduce risk, and respond to threats with greater speed and confidence. Combined with Mindware's regional market knowledge, partner enablement capabilities, and technical expertise, this partnership will make it easier for organizations across the Middle East to access modern cybersecurity operations through trusted local partners. For those partners, this creates new opportunities to expand managed services, strengthen technical capabilities, and help customers modernize their security operations while supporting long-term business growth. Local expertise alongside global innovation The most successful cybersecurity partnerships combine global innovation with local knowledge. Organizations want world-class technology, but they also expect partners who understand their business environment, regulatory landscape, and operational priorities. By combining Rapid7's cybersecurity innovation with Mindware's established regional ecosystem, we're helping partners fortify and deliver solutions capable of addressing today's unprecedented security challenges and threats. Together, we'll
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East
+  - Published: 2026-07-14T08:00:00+00:00
+  - Link: https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership
+  - Summary: Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help
+
 ### Cluster 8bc6a961cc — score 12
 
 - Title: Cloudflare proudly joins the UK government's Cyber Resilience Pledge
@@ -1372,64 +1439,6 @@ GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses  Ravie La
   - Published: 2026-07-09T10:43:09+00:00
   - Link: https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html
   - Summary: Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the wild on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware,
-
-### Cluster 26eda5e0a9 — score 12
-
-- Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-07T15:24:30+00:00
-- Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 3
-- Strong signals: GitHub
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: critical_infrastructure, financial_services
-- affected_products: GitHub, npm
-- tools_used: OpenAI/ChatGPT
-- urgency_signals: poc_available, preauth_unauth
-- content_type: incident_report, news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- urgency_signals: preauth_unauth, poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
-```
-
-#### Full body
-
-```
-Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed "GitLost" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: More Countries Jump on the Social Media 'Ban Wagon' "GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems," Sasi Levi, security research lead at Noma, wrote in the report. "The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input." This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on "issues.assigned" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure "In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused," Levi wrote. "This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data." Indeed, the vulnerability demonstrates that threat actors only "need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property," Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to N
-```
-
-#### Corroborating sources (3)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
-  - Published: 2026-07-07T15:24:30+00:00
-  - Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
-  - Summary: The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: datasette code-frequency chart on GitHub
-  - Published: 2026-07-13T21:45:27+00:00
-  - Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
-  - Summary: datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
-  - Published: 2026-07-10T16:29:00+00:00
-  - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
-  - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
 
 ### Cluster c8e0a6559d — score 11
 
@@ -1565,7 +1574,7 @@ Unauthenticated attackers could obtain the broker's confidential OAuth client se
 #### Full body
 
 ```
-A vulnerability in RabbitMQ could allow attackers to obtain the broker’s confidential OAuth secret, potentially posing a serious threat to enterprises, according to cybersecurity firm Miggo. RabbitMQ is a popular open source message broker that routes, buffers, and distributes messages, enabling asynchronous communication between applications. Tracked as CVE-2026-5721 (CVSS score of 8.7), the security defect impacts an open management endpoint that returns the OAuth secret to anyone, without authentication. The bug was discovered in an obsolete endpoint in RabbitMQ’s management web interface, and could be triggered in configurations where the administrator had set up the broker’s confidential password for identity provider authentication. “Anyone who could reach the management port could fetch it, then, where the OAuth grant makes the secret usable, impersonate the broker to the identity provider and obtain an administrator token,” Miggo says. In configurations that use the exposed secret, which is the standard when an OAuth 2/OIDC provider such as Auth0, Azure AD/Entra ID, Keycloak, or UAA is used, an attacker could obtain the administrator token to gain control of users, messages, queues, and broker settings, the company explains. Advertisement. Scroll to continue reading. If no client secret has been configured, the deployment is not affected, as there is no secret to leak. RabbitMQ instances with no management plugin are not affected either. “The risk is sharpest wherever the management port is reachable by an untrusted network: cloud or multi-tenant setups, or a management UI accidentally exposed to the internet,” Miggo says . CVE-2026-5721 was introduced in early 2024 in RabbitMQ version 3.13.0, and has been addressed in versions 4.3.0, 4.2.6, 4.1.11, 4.0.20, and 3.13.15. The updates also address CVE-2026-57221 (CVSS score of 5.3), a medium-severity missing authorization flaw that allows any authenticated user to enumerate queues and exchanges, and to read their statistics. According to Miggo, the vulnerability could be used to map an organization’s virtual host, infer business activity, and gather intelligence for future attacks. The flaw poses a risk to multi-tenant environments where the same virtual host is shared between multiple applications or teams. Organizations should update their RabbitMQ deployments immediately, block access to vulnerable instances if patching is not possible, ensure the management interface is not exposed to the internet, implement segmentation, and rotate the OAuth client secret, although there is no evidence of the flaw’s in-the-wild exploitation. “Neither of these RabbitMQ bugs is exotic. They sat in the codebase for over two years. They are precisely the kind of quiet, systemic inconsistency that hides in mature, widely deployed software: the kind a human reviewer reads past, and a single-pass tool fails to compare against everything around it,” Miggo notes. Related: Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Related: Attackers Could Exploit AI Vision Models Using Imperceptible Image Changes Related: SIM Swaps Expose a Critical Flaw in Identity Security Related: Predator Spyware Turns Failed Attacks Into Intelligence for Future Exploits Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Network of 200 GitHub Repositories Used for Malware Infection 12 Million Impacted by Data Breach at Japanese Telco KDDI 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Mount Royal University Confirms Data Stolen in Ransomware Attack Chrome 150 Update Patches 27 Vulnerabilities 8Layers Raises $2.9 Million for Ident
+A vulnerability in RabbitMQ could allow attackers to obtain the broker’s confidential OAuth secret, potentially posing a serious threat to enterprises, according to cybersecurity firm Miggo. RabbitMQ is a popular open source message broker that routes, buffers, and distributes messages, enabling asynchronous communication between applications. Tracked as CVE-2026-5721 (CVSS score of 8.7), the security defect impacts an open management endpoint that returns the OAuth secret to anyone, without authentication. The bug was discovered in an obsolete endpoint in RabbitMQ’s management web interface, and could be triggered in configurations where the administrator had set up the broker’s confidential password for identity provider authentication. “Anyone who could reach the management port could fetch it, then, where the OAuth grant makes the secret usable, impersonate the broker to the identity provider and obtain an administrator token,” Miggo says. In configurations that use the exposed secret, which is the standard when an OAuth 2/OIDC provider such as Auth0, Azure AD/Entra ID, Keycloak, or UAA is used, an attacker could obtain the administrator token to gain control of users, messages, queues, and broker settings, the company explains. Advertisement. Scroll to continue reading. If no client secret has been configured, the deployment is not affected, as there is no secret to leak. RabbitMQ instances with no management plugin are not affected either. “The risk is sharpest wherever the management port is reachable by an untrusted network: cloud or multi-tenant setups, or a management UI accidentally exposed to the internet,” Miggo says . CVE-2026-5721 was introduced in early 2024 in RabbitMQ version 3.13.0, and has been addressed in versions 4.3.0, 4.2.6, 4.1.11, 4.0.20, and 3.13.15. The updates also address CVE-2026-57221 (CVSS score of 5.3), a medium-severity missing authorization flaw that allows any authenticated user to enumerate queues and exchanges, and to read their statistics. According to Miggo, the vulnerability could be used to map an organization’s virtual host, infer business activity, and gather intelligence for future attacks. The flaw poses a risk to multi-tenant environments where the same virtual host is shared between multiple applications or teams. Organizations should update their RabbitMQ deployments immediately, block access to vulnerable instances if patching is not possible, ensure the management interface is not exposed to the internet, implement segmentation, and rotate the OAuth client secret, although there is no evidence of the flaw’s in-the-wild exploitation. “Neither of these RabbitMQ bugs is exotic. They sat in the codebase for over two years. They are precisely the kind of quiet, systemic inconsistency that hides in mature, widely deployed software: the kind a human reviewer reads past, and a single-pass tool fails to compare against everything around it,” Miggo notes. Related: Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Related: Attackers Could Exploit AI Vision Models Using Imperceptible Image Changes Related: SIM Swaps Expose a Critical Flaw in Identity Security Related: Predator Spyware Turns Failed Attacks Into Intelligence for Future Exploits Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ghost Accounts Abuse GitHub API in Mass Recon Campaign Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Network of 200 GitHub Repositories Used for Malware Infection 12 Million Impacted by Data Breach at Japanese Telco KDDI 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Mount Royal University Confirms Data Stolen in Ransomware Attack Chrome 150 Update Patches 2
 ```
 
 #### Corroborating sources (1)
@@ -2185,41 +2194,6 @@ Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers  Swati
   - Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
   - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
 
-### Cluster 8adebc602c — score 10
-
-- Title: Digital twins are becoming security infrastructure - not just monitoring tools
-- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
-- Published: 2026-07-14T05:26:15+00:00
-- Link: https://www.reddit.com/r/cybersecurity/comments/1uvzis1/digital_twins_are_becoming_security/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: education, manufacturing_industrial
-- content_type: threat_research
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial, education
-- content_type: threat_research
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-Our researchers at Torrens University Australia have contributed to a review of 110 studies on using digital twins for security in industrial IoT. What they found was that the strongest results came from combining approaches rather than running a digital twin on its own. For example, pair one with deep learning and it gets noticeably better at catching anomalies. Or, you can pair another with blockchain and it becomes much harder to tamper with the underlying data, which matters a lot for man-in-the-middle attacks. An interesting failure mode worth flagging is a notion the review calls the 'synchronisation gap'. This is found on older systems with slow sensors, where the digital twin takes a while to catch up after something changes on the physical side, and attackers can slip through in that window before it's even noticed. There is a bit of irony here, too. Which is that building a digital twin to protect a system can end up widening that system's attack surface if it's not designed
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: Digital twins are becoming security infrastructure - not just monitoring tools
-  - Published: 2026-07-14T05:26:15+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1uvzis1/digital_twins_are_becoming_security/
-  - Summary: Our researchers at Torrens University Australia have contributed to a review of 110 studies on using digital twins for security in industrial IoT. What they found was that the strongest results came from combining approaches rather than running a digital twin on its own. For example, pair one with deep learning and it gets noticeably better at catching anomalies. Or, you can pair another with blockchain and it becomes much harder to tamper with the underlying data, which matters a lot for man-in-the-middle attacks. An interesting failure mode worth flagging is a notion the review calls the 'synchronisation gap'. This is found on older systems with slow sensors, where the digital twin takes a while to catch up after something changes on the physical side, and attackers can slip through in that window before it's even noticed. There is a bit of irony here, too. Which is that building a digital twin to protect a system can end up widening that system's attack surface if it's not designed
-
 ### Cluster 98dd5f4721 — score 10
 
 - Title: Conditional Access Misconfigurations Exposed 55 Orgs with MFA On
@@ -2267,109 +2241,6 @@ Home Blog Railway. LSHIY. Different Auth Flows, but the Same Lesson We Keep Skip
   - Published: 2026-07-13T13:03:33+00:00
   - Link: https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
   - Summary: A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence (AI)-assisted lure creation, and post-compromise mailbox operations targeting Microsoft 365 accounts. Distributed via Telegram and costing $400 a month (or $3,800 per year), attack chains leverage phishing
-
-### Cluster c8b407c1b8 — score 10
-
-- Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-13T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- affected_products: Google Cloud, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
-```
-
-#### Full body
-
-```
-Databases Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV July 13, 2026 Peter Ivanov Managing Director, Valtech Mobility Matt Crowley Group Product Manager, Android Automotive, Google Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all comes together. The vehicle side: AAOS SDV As the foundational in-vehicle platform, Google’s open source AAOS SDV platform abstracts core functions into reusable services independent of physical hardware, establishing a modular Service-Oriented Architecture (SOA). By decoupling non-safety domains like climate control, lighting, and diagnostics from Electronic Control Units (ECUs), the AAOS SDV platform introduces dynamic runtime service discovery. With this, the SDV can easily discover what services are running (e.g., the odometer, HVAC, sunroof, motorized seats, electric windows, etc.) and their status. To accelerate development, engineering teams leverage the Android Cuttlefish emulator to build digital twins in the cloud, simulating high-frequency sensor streams to validate these decoupled services bit-for-bit before physical silicon is ready. Valtech Nexus SDV utilizes this AAOS SDV middleware layer to discover, map, and manage vehicle resources, structuring and streaming high-frequency telemetry data straight into Bigtable. Compare this to the prior state of affairs, where OEMs outsourced system software to a variety of suppliers, each with their own pipelines, protocols, and data stored in separate silos. Crucially, this model decouples services from the heavy main infotainment stack, so they can run independently, even when the vehicle is off and parked. This allows functions like remote vehicle monitoring to remain active even when the primary infotainment system is powered down, ensuring continuous telemetry access without draining the vehicle’s 12V battery or main EV battery pack. This tight integration between the AAOS SDV platform and Nexus SDV enables a number of agentic AI and innovative first-party solutions. Unlike traditional sandboxed infotainment tools, multimodal AI agents can utilize the service discovery layer to safely interact with the physical car and process complex, intent-based requests. For example, an AI agent could automatically adjust climate zones, window actuators, or interior lighting based on a conversation with the driver, or in response to climate sensors, as in this clip: By linking this on-vehicle service layer managed by Nexus SDV with historical fleet telemetry stored in Bigtable, you deliver deeply integrated experiences that unlock new mobility solutions. Now let’s take a quick look at the Cloud side. The Google Cloud side: AI-native mobility Beyond SDV, we are rapidly moving toward AI-defined vehicles, or AIDV, where AI is core to a vehicle's operational logic. To be AI-native means being autonomous by design, with AI embedded at every architectural level. With this level of AI, the system can perceive environm
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
-  - Published: 2026-07-13T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
-  - Summary: The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
-  - Published: 2026-07-07T16:37:33+00:00
-  - Link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
-  - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it
-
-### Cluster b35394b0f7 — score 10
-
-- Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-11T17:59:26+00:00
-- Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: npm
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, npm
-- content_type: incident_report, news_report
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- affected_industries: financial_services
-- affected_products: npm, Apple iOS/macOS
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
-```
-
-#### Full body
-
-```
-Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep both pulled and analyzed the release, and both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository. Its latest tag is still 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow. That points to a compromised npm account or build pipeline. Which of the two has not been established. The payload is a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS, according to Socket's updated analysis and a statement to The Hacker News. The target list is broad and aimed at developers: cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints CI runners use; cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus; the Bitwarden password manager vault; browser-stored passwords and cookies; and Discord, Slack, Telegram, and Steam sessions. It also goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries do more than steal. On Linux, the payload links the kernel's BPF library and can load an eBPF program straight into the kernel from memory. That is a foothold in the kernel, not the userspace file access that the rest of the stealer relies on. StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Its command-and-control details stay encrypted in the binary and never surfaced in static analysis. StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. Those environments hold what the stealer collects: cloud keys, deploy tokens, and source code that a build or CI process can reach. Source: Step Security The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. For a stealer aimed at build machines, though, reach was never the point. The access is. The Shai-Hulud worm ran from an install hook to steal tokens and spread through hundreds of packages that
-```
-
-#### Corroborating sources (3)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
-  - Published: 2026-07-11T17:59:26+00:00
-  - Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-  - Summary: The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: Official jscrambler npm package compromised: malicious versions 8.14, 8.16, 8.17, and 8.20
-  - Published: 2026-07-13T16:37:14+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1uvgoqh/official_jscrambler_npm_package_compromised/
-  - Summary: Jscrambler has published its incident advisory after unauthorized malicious versions of its official npm package were uploaded. The affected releases (8.14, 8.16, 8.17, and 8.20) contained a malicious install-time payload. The vendor has removed the compromised releases, recommends upgrading to 8.22, and advises anyone who installed an affected version to treat the environment as potentially compromised, rotate credentials, and review affected systems submitted by /u/NapierPalm [link] [comments]
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Hackers backdoor Jscrambler npm package with infostealer malware
-  - Published: 2026-07-13T19:44:19+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
-  - Summary: The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]
 
 ### Cluster acd4fc9884 — score 9
 
@@ -2558,6 +2429,61 @@ Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Publis
   - Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
   - Summary: See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
 
+### Cluster cf74fc001d — score 9
+
+- Title: Multiple Jscrambler Packages Impacted by Supply Chain Attack
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-14T09:04:39+00:00
+- Link: https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 3
+- Strong signals: npm
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach, ddos, phishing_social_eng, ransomware_extortion, supply_chain, web_shell_backdoor
+- affected_industries: education, financial_services
+- affected_products: GitHub, Microsoft 365, Okta, npm
+- content_type: incident_report, news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach
+- affected_industries: financial_services, education
+- affected_products: Okta, Microsoft 365, GitHub
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer. The post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Several malicious versions of Jscrambler’s NPM package were published over the weekend as part of a supply chain attack involving compromised credentials. The popular NPM package is used within the Jscrambler Code Integrity product, a JavaScript protection solution that turns web and mobile applications self-defensive and tamper-resistant. The attack started on July 11, when a threat actor used the NPM publishing credentials to push a modified version of the package, containing a preinstall hook to drop binaries during the installation process. While Jscrambler was responding to the incident, the threat actor published additional malicious iterations of the package, namely 8.16, 8.17, 8.18, and 8.20. The first clean version of the package is 8.22. As the NPM library is a dependency for other packages, the incident also affected Jscrambler-webpack-plugin version 8.6.2, gulp-Jscrambler version 8.6.2, grunt-Jscrambler version 8.5.2, and Jscrambler-metro-plugin version 9.0.2. According to Jscrambler, NPM data shows that the malicious package versions were downloaded 1,479 times before they were deprecated and replaced with clean versions. Advertisement. Scroll to continue reading. “Our investigation indicates that the attacker was able to publish the package using an NPM publishing credential. We have revoked and rotated all relevant credentials, passwords, and secrets, and have implemented additional security controls around our publishing process while the investigation continues,” Jscrambler said . According to supply chain security firm Socket , the malicious package versions included the preinstall hook, two new files under dist/, namely setup.js and intro.js, and binaries targeting Linux, macOS, and Windows. When the malicious package version is installed, the hook triggers the infection chain: setup.js is executed to load and execute a platform-specific binary from intro.js. Written in Rust, the binaries are information stealers targeting credentials and secrets on developer and cloud-operator machines, cryptocurrency wallets and seed phrases, AI coding assistants and MCP server configurations, messaging and collaboration applications, browsers, Steam sessions, and OS keyrings. The malware also attempts to elevate its privileges and achieve persistence, and performs host reconnaissance. Socket observed the malware exfiltrating harvested information over TLS via rustls, likely to a drop server. Additionally, the malware constructed requests to query cloud and orchestration APIs using stolen credentials. Users are advised to immediately remove the affected Jscrambler NPM package versions from their machines, scan the system for malware, and rotate all credentials, tokens, and API keys. Related: Ghost Accounts Abuse GitHub API in Mass Recon Campaign Related: North Korean Hackers Target Open Source Developers in Supply Chain Attacks Related: Network of 200 GitHub Repositories Used for Malware Infection Related: FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ghost Accounts Abuse GitHub API in Mass Recon Campaign Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Network of 200 GitHub Repositories Used for Malware Infection 12 Million Impacted by Data Breach at Japanese Telco KDDI 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Mount Royal University Confirms Data Stolen in Ransomware Attack Chrome 150 Update Patches 27 Vulnerabilities Latest News Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 R
+```
+
+#### Corroborating sources (3)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Multiple Jscrambler Packages Impacted by Supply Chain Attack
+  - Published: 2026-07-14T09:04:39+00:00
+  - Link: https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/
+  - Summary: A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer. The post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+  - Published: 2026-07-11T17:59:26+00:00
+  - Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+  - Summary: The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Hackers backdoor Jscrambler npm package with infostealer malware
+  - Published: 2026-07-13T19:44:19+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
+  - Summary: The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]
+
 ### Cluster 605f13c77e — score 9
 
 - Title: Zimbra Patches Critical Code Execution Vulnerability
@@ -2592,7 +2518,7 @@ The flaw results in malicious code embedded in crafted emails being executed whe
 #### Full body
 
 ```
-A critical-severity vulnerability in the popular collaboration solution Zimbra could lead to zero-click code execution. Previously known as Zimbra Collaboration Suite (ZCS), Zimbra is a communication software solution that includes an email server and a web client, providing messaging, email, file sharing, calendar, and task management capabilities. Last week, Zimbra announced patches for a critical stored cross-site scripting (XSS) security defect affecting the Classic Web Client (Classic UI) that could lead to code execution when opening an email. “The update fixes a security issue in the Classic Web Client where a specially crafted email could run malicious code when the email is opened. If exploited, it could allow access to mailbox information, session data, or account settings,” Zimbra announced . Zimbra did not share details on the flaw, which does not appear to have been assigned a CVE identifier yet, but urged all customers using the Classic Web Client to update their deployments as soon as possible. The bug was resolved in Zimbra version 10.1.19, released on July 7. Customers upgrading from ZCS versions 10.0.x, 9.0.x, or 8.8.15 should update the SNMP mitigation and reapply it after the upgrade has been completed, the company says . Advertisement. Scroll to continue reading. “We strongly recommend all customers upgrade to ZCS v10.1.19 to ensure they have received the latest security patches, bug fixes, and enhancements,” Zimbra notes. The vulnerability was reported by Google Threat Analysis Group (GTIG), which typically finds security defects targeted by state-sponsored groups and commercial spyware vendors. Related: Organizations Warned of Exploited Joomla Extension Vulnerabilities Related: Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Related: Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability Related: Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Network of 200 GitHub Repositories Used for Malware Infection 12 Million Impacted by Data Breach at Japanese Telco KDDI 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Mount Royal University Confirms Data Stolen in Ransomware Attack Chrome 150 Update Patches 27 Vulnerabilities 8Layers Raises $2.9 Million for Identity Security Platform Latest News Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Organizations Warned of Exploited Joomla Extension Vulnerabilities Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Centers Laboratory Data Breach Affects 540,000 Individuals Ghost Accounts Abuse GitHub API in Mass Recon Campaign Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environments. Interact with leading solutio
+A critical-severity vulnerability in the popular collaboration solution Zimbra could lead to zero-click code execution. Previously known as Zimbra Collaboration Suite (ZCS), Zimbra is a communication software solution that includes an email server and a web client, providing messaging, email, file sharing, calendar, and task management capabilities. Last week, Zimbra announced patches for a critical stored cross-site scripting (XSS) security defect affecting the Classic Web Client (Classic UI) that could lead to code execution when opening an email. “The update fixes a security issue in the Classic Web Client where a specially crafted email could run malicious code when the email is opened. If exploited, it could allow access to mailbox information, session data, or account settings,” Zimbra announced . Zimbra did not share details on the flaw, which does not appear to have been assigned a CVE identifier yet, but urged all customers using the Classic Web Client to update their deployments as soon as possible. The bug was resolved in Zimbra version 10.1.19, released on July 7. Customers upgrading from ZCS versions 10.0.x, 9.0.x, or 8.8.15 should update the SNMP mitigation and reapply it after the upgrade has been completed, the company says . Advertisement. Scroll to continue reading. “We strongly recommend all customers upgrade to ZCS v10.1.19 to ensure they have received the latest security patches, bug fixes, and enhancements,” Zimbra notes. The vulnerability was reported by Google Threat Analysis Group (GTIG), which typically finds security defects targeted by state-sponsored groups and commercial spyware vendors. Related: Organizations Warned of Exploited Joomla Extension Vulnerabilities Related: Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Related: Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability Related: Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ghost Accounts Abuse GitHub API in Mass Recon Campaign Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Network of 200 GitHub Repositories Used for Malware Infection 12 Million Impacted by Data Breach at Japanese Telco KDDI 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Mount Royal University Confirms Data Stolen in Ransomware Attack Chrome 150 Update Patches 27 Vulnerabilities Latest News Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Organizations Warned of Exploited Joomla Extension Vulnerabilities Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Centers Laboratory Data Breach Affects 540,000 Individuals Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environments. Interact wi
 ```
 
 #### Corroborating sources (1)
@@ -2602,51 +2528,6 @@ A critical-severity vulnerability in the popular collaboration solution Zimbra c
   - Published: 2026-07-13T10:03:47+00:00
   - Link: https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
   - Summary: The flaw results in malicious code embedded in crafted emails being executed when the emails are opened. The post Zimbra Patches Critical Code Execution Vulnerability appeared first on SecurityWeek .
-
-### Cluster c06f0c2fb1 — score 9
-
-- Title: Centers Laboratory Data Breach Affects 540,000 Individuals
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-13T08:10:44+00:00
-- Link: https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- affected_industries: education, government, healthcare, manufacturing_industrial
-- affected_products: GitHub, Palo Alto Networks
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- affected_industries: healthcare, government, manufacturing_industrial, education
-- affected_products: Palo Alto Networks, GitHub
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Healthcare diagnostics company Centers Laboratory (Centers Lab NJ LLC) has informed the US government that a data breach discovered nearly one year ago affects more than 540,000 individuals. According to a data breach notice posted on its website, the New Jersey-based provider of testing and laboratory services for healthcare organizations discovered an intrusion in its IT environment in August 2025. An investigation showed that threat actors had gained “limited access” to Centers Laboratory systems between August 9 and August 14, exfiltrating personal and protected health information, including names, dates of birth, SSNs, driver’s license or state identification numbers, passport numbers, and health insurance and medical information. The healthcare data breach tracker maintained by the Department of Health and Human Services revealed last week that the data breach affects 542,377 individuals. Centers Lab was targeted by the WorldLeaks cybercrime group, which listed the organization on its website in October 2025. The hackers leaked more than 1.6 million files totaling 720 GB, allegedly stolen from Centers Lab systems. Advertisement. Scroll to continue reading. WorldLeaks, which made headlines for targeting major companies such as Nike and Dell , emerged in 2025 following the shutdown of the Hunters International ransomware group. Following the transition to WorldLeaks, the cybercriminals stopped using file-encrypting malware and have focused on data theft and extortion. More than 170 organizations are listed on the group’s website at the time of writing. Related : 12 Million Impacted by Data Breach at Japanese Telco KDDI Related : Mount Royal University Confirms Data Stolen in Ransomware Attack Related : Accenture Confirms Data Breach After Hacker Claims Source Code Theft Related : Medtronic Data Breach Impacts 3.8 Million People Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Google Patches 382 Chrome Vulnerabilities BlueHammer Vulnerability Exploited in Ransomware Attacks Latest News Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems Zimbra Patches Critical Code Execution Vulnerability EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Organizations Warned of Exploited Joomla Extension Vulnerabilities Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Ghost Accounts Abuse GitHub API in Mass Recon Campaign Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn ho
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Centers Laboratory Data Breach Affects 540,000 Individuals
-  - Published: 2026-07-13T08:10:44+00:00
-  - Link: https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/
-  - Summary: The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .
 
 ### Cluster 09c50b3a4b — score 9
 
@@ -2829,12 +2710,11 @@ An MCP powered system that's continuously finding and reproducing vulns, improve
 - Published: 2026-07-07T18:18:52+00:00
 - Link: https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 2
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
 - affected_products: AWS, Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator, tier_4_news
@@ -2856,7 +2736,7 @@ With the introduction of models that require data sharing with third-party provi
 AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across all accounts and have granular control of project data retention when compatible with the selected model. In this blog post, I walk you through how Amazon Bedrock data retention modes work, the tools available for managing retention—including Amazon Bedrock Projects and service control policies (SCPs)—and how to verify your policy settings are working correctly. In this post, you will learn: How Amazon Bedrock data retention modes work and what each mode means for your data How to use Amazon Bedrock Projects with compatible models to isolate workloads with different retention needs How to write and deploy an SCP that prevents anyone in your organization from enabling data sharing How data retention modes interact with cross-Region inference profiles How to verify your configuration is working correctly Understanding data retention modes You can use Amazon Bedrock to control data retention through a mode setting on your account. This determines what happens to your prompts and outputs after each inference request, which is important to understand as you assess your compliance needs. Not all models require data retention or data sharing, and you might continue to use Amazon Bedrock with models that don’t require data retention or data sharing. See the Amazon Bedrock documentation for the current list of models that require data retention or data sharing. Ultimately, it’s your responsibility as the customer to select models that align with your compliance needs. Important Note : To help stop the dissemination of child sexual abuse material (“CSAM”), Amazon Bedrock uses automated mechanisms to identify CSAM in model input/output. We may store and review flagged content to determine if it is CSAM for reporting purposes, even when mode is none. The following modes govern how Amazon Bedrock handles your data: Mode Behavior Data shared with provider none Zero data retention. Prompts and responses are processed and immediately discarded. No default No data is shared with model providers. Some models might require data retention for trust and safety checks for up to 30 days. Consult the model’s terms for specifics. This mode also allows APIs that inherently require retention (for example, Batch API, Responses API with store=true). Models that support zero retention will still operate with zero retention. No inherit No explicit setting applied, defers to the next higher scope (project defers to account defers to service default). This is the default for new accounts. No provider_data_share Data is shared with the model provider and retained for up to 30 days for trust and safety. Yes Understanding mode as a ceiling, not a floor The most important concept to understand: your configured mode is the upper limit of retention you’re willing to accept ; it is not what every request will use. Setting your account to provider_data_share doesn’t mean all your requests suddenly start retaining and sharing data. Models that support zero data retention will still operate with zero retention regardless of your account-level setting. Think of it as a permissions ceiling: Your account mode Model you invoke What happens provider_data_share Claude Sonnet (supports none) Zero retention, Sonnet doesn’t require data sharing or data retention provider_data_share Claude Fable 5 (requires provider_data_share ) Data retained for up to 30 days and might be shared with provider, Fable 5 requires data sharing and data retention none Claude Sonnet (supports none ) Zero retention, no data s
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - Title: Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies
@@ -2868,11 +2748,6 @@ AWS Security Blog Enforce zero data retention on Amazon Bedrock with Bedrock Pro
   - Published: 2026-07-13T11:37:05+00:00
   - Link: https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html
   - Summary: A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already connected Claude to a few detection tools and were seeing real value in specific investigations. But as we mapped out the broader architecture, something kept nagging at me. The design they were building
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops
-  - Published: 2026-07-10T15:01:19+00:00
-  - Link: https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/
-  - Summary: Other noteworthy stories that might have slipped under the radar: Abnormal AI sued by Anthropic, AssuranceAmerica data breach affects 7 million people, NSA brings back TAO. The post In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops appeared first on SecurityWeek .
 
 ### Cluster eb43b37f29 — score 8
 
@@ -3132,54 +3007,93 @@ Public Sector Key findings from the 2026 Public Sector M-Trends report and beyon
   - Link: https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/
   - Summary: In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant in 2025, specifically tailored to the mission-critical needs of public sector leaders. Key findings from the report and what they mean for the public sector The most alarming trend in this year’s M-Trends data is the 22-second hand-off: the median time between an initial access broker establishing a foothold and the hand-off to a ransomware operator. This extreme compression of the attack cycle renders traditional, human-speed triage obsolete. When an infection on a municipal workstation can move to an encrypted network before a human analyst can even open a ticket, the strategic mandate for re
 
-### Cluster b5c5a1216b — score 8
+### Cluster c8b407c1b8 — score 8
 
-- Title: Organizations Warned of Exploited Joomla Extension Vulnerabilities
+- Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-13T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 1
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
+- affected_products: Google Cloud, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
+```
+
+#### Full body
+
+```
+Databases Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV July 13, 2026 Peter Ivanov Managing Director, Valtech Mobility Matt Crowley Group Product Manager, Android Automotive, Google Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all comes together. The vehicle side: AAOS SDV As the foundational in-vehicle platform, Google’s open source AAOS SDV platform abstracts core functions into reusable services independent of physical hardware, establishing a modular Service-Oriented Architecture (SOA). By decoupling non-safety domains like climate control, lighting, and diagnostics from Electronic Control Units (ECUs), the AAOS SDV platform introduces dynamic runtime service discovery. With this, the SDV can easily discover what services are running (e.g., the odometer, HVAC, sunroof, motorized seats, electric windows, etc.) and their status. To accelerate development, engineering teams leverage the Android Cuttlefish emulator to build digital twins in the cloud, simulating high-frequency sensor streams to validate these decoupled services bit-for-bit before physical silicon is ready. Valtech Nexus SDV utilizes this AAOS SDV middleware layer to discover, map, and manage vehicle resources, structuring and streaming high-frequency telemetry data straight into Bigtable. Compare this to the prior state of affairs, where OEMs outsourced system software to a variety of suppliers, each with their own pipelines, protocols, and data stored in separate silos. Crucially, this model decouples services from the heavy main infotainment stack, so they can run independently, even when the vehicle is off and parked. This allows functions like remote vehicle monitoring to remain active even when the primary infotainment system is powered down, ensuring continuous telemetry access without draining the vehicle’s 12V battery or main EV battery pack. This tight integration between the AAOS SDV platform and Nexus SDV enables a number of agentic AI and innovative first-party solutions. Unlike traditional sandboxed infotainment tools, multimodal AI agents can utilize the service discovery layer to safely interact with the physical car and process complex, intent-based requests. For example, an AI agent could automatically adjust climate zones, window actuators, or interior lighting based on a conversation with the driver, or in response to climate sensors, as in this clip: By linking this on-vehicle service layer managed by Nexus SDV with historical fleet telemetry stored in Bigtable, you deliver deeply integrated experiences that unlock new mobility solutions. Now let’s take a quick look at the Cloud side. The Google Cloud side: AI-native mobility Beyond SDV, we are rapidly moving toward AI-defined vehicles, or AIDV, where AI is core to a vehicle's operational logic. To be AI-native means being autonomous by design, with AI embedded at every architectural level. With this level of AI, the system can perceive environm
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
+  - Published: 2026-07-13T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
+  - Summary: The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
+
+### Cluster c06f0c2fb1 — score 8
+
+- Title: Centers Laboratory Data Breach Affects 540,000 Individuals
 - Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-13T09:08:02+00:00
-- Link: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
+- Published: 2026-07-13T08:10:44+00:00
+- Link: https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- affected_industries: education, government
-- affected_products: Microsoft 365, Okta, Palo Alto Networks
-- cve_ids: CVE-2026-48939, CVE-2026-56291
-- urgency_signals: actively_exploited, preauth_unauth, zero_day
-- content_type: news_report
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- affected_industries: education, government, healthcare, manufacturing_industrial
+- affected_products: Palo Alto Networks
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
-- affected_industries: government, education
-- affected_products: Palo Alto Networks, Okta, Microsoft 365
-- cve_ids: CVE-2026-56291, CVE-2026-48939
-- urgency_signals: actively_exploited, zero_day, preauth_unauth
-- content_type: news_report
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- affected_industries: healthcare, government, manufacturing_industrial, education
+- affected_products: Palo Alto Networks
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .
+The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Threat actors have been exploiting critical vulnerabilities in the Balbooa Forms and iCagenda Joomla extensions that allow unauthenticated attackers to achieve remote code execution (RCE). The Balbooa flaw, tracked as CVE-2026-56291 (CVSS score of 10), is described as an unauthenticated arbitrary file upload issue affecting the extension’s frontend attachment upload endpoint. Balbooa Forms version 2.4.1 was released on July 9 with patches for the bug, but threat actors were observed exploiting it in the wild as a zero-day. The security defect impacts all websites running Balbooa Forms version 2.4.0 or earlier, and the active exploitation prompts immediate action from site administrators. In June, the iCagenda extension for Joomla was found to be affected by a similar arbitrary file upload vulnerability in the file attachment feature, tracked as CVE-2026-48939 (CVSS score of 10). As with the Balbooa bug, the iCagenda flaw allows attackers to upload PHP code to a vulnerable deployment and achieve RCE without authentication. Advertisement. Scroll to continue reading. JoomliC, iCagenda’s developer, reportedly observed the CVE being exploited in the wild as a zero-day on June 15. The developer rolled out patches in iCagenda versions 4.0.8 and 3.9.15 on June 15-16. On July 10, the US cybersecurity agency CISA added both Joomla extension security defects to its Known Exploited Vulnerabilities ( KEV ) catalog, urging federal agencies to patch them within three days, in line with BOD 26-04 guidance. While BOD 26-04 applies only to federal agencies, all organizations are advised to review CISA’s KEV list and address the vulnerabilities it identifies as soon as possible. Related: Palo Alto Networks Patches 13 Vulnerabilities Related: 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Related: Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Related: Chrome 150 Update Patches 27 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Network of 200 GitHub Repositories Used for Malware Infection 12 Million Impacted by Data Breach at Japanese Telco KDDI 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google Mount Royal University Confirms Data Stolen in Ransomware Attack Chrome 150 Update Patches 27 Vulnerabilities 8Layers Raises $2.9 Million for Identity Security Platform Latest News Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems Zimbra Patches Critical Code Execution Vulnerability EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Centers Laboratory Data Breach Affects 540,000 Individuals Ghost Accounts Abuse GitHub API in Mass Recon Campaign Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environments. Interact with leading solution providers and other end users f
+Healthcare diagnostics company Centers Laboratory (Centers Lab NJ LLC) has informed the US government that a data breach discovered nearly one year ago affects more than 540,000 individuals. According to a data breach notice posted on its website, the New Jersey-based provider of testing and laboratory services for healthcare organizations discovered an intrusion in its IT environment in August 2025. An investigation showed that threat actors had gained “limited access” to Centers Laboratory systems between August 9 and August 14, exfiltrating personal and protected health information, including names, dates of birth, SSNs, driver’s license or state identification numbers, passport numbers, and health insurance and medical information. The healthcare data breach tracker maintained by the Department of Health and Human Services revealed last week that the data breach affects 542,377 individuals. Centers Lab was targeted by the WorldLeaks cybercrime group, which listed the organization on its website in October 2025. The hackers leaked more than 1.6 million files totaling 720 GB, allegedly stolen from Centers Lab systems. Advertisement. Scroll to continue reading. WorldLeaks, which made headlines for targeting major companies such as Nike and Dell , emerged in 2025 following the shutdown of the Hunters International ransomware group. Following the transition to WorldLeaks, the cybercriminals stopped using file-encrypting malware and have focused on data theft and extortion. More than 170 organizations are listed on the group’s website at the time of writing. Related : 12 Million Impacted by Data Breach at Japanese Telco KDDI Related : Mount Royal University Confirms Data Stolen in Ransomware Attack Related : Accenture Confirms Data Breach After Hacker Claims Source Code Theft Related : Medtronic Data Breach Impacts 3.8 Million People Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Google Patches 382 Chrome Vulnerabilities BlueHammer Vulnerability Exploited in Ransomware Attacks Latest News Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 RabbitMQ Vulnerability Threatens Enterprise Systems Zimbra Patches Critical Code Execution Vulnerability EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign Organizations Warned of Exploited Joomla Extension Vulnerabilities Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help
 ```
 
 #### Corroborating sources (1)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Organizations Warned of Exploited Joomla Extension Vulnerabilities
-  - Published: 2026-07-13T09:08:02+00:00
-  - Link: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
-  - Summary: Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .
+  - Title: Centers Laboratory Data Breach Affects 540,000 Individuals
+  - Published: 2026-07-13T08:10:44+00:00
+  - Link: https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/
+  - Summary: The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .
 
 ### Cluster eaade871e6 — score 8
 
@@ -3395,3 +3309,38 @@ Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Crypto
   - Published: 2026-07-10T09:00:05+00:00
   - Link: https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
   - Summary: Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. The firm has confirmed one coordinated sweep on May 27
+
+### Cluster 6a5a22a81b — score 8
+
+- Title: Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-07-13T09:33:49+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1uv6qbn/dell_bios_passwords_weak_xor_encryption_allows/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-40639
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-40639
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-40639
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/sajkoterrapefft [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)
+  - Published: 2026-07-13T09:33:49+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1uv6qbn/dell_bios_passwords_weak_xor_encryption_allows/
+  - Summary: submitted by /u/sajkoterrapefft [link] [comments]
