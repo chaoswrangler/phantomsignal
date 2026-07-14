@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-14T03:21:03.870563+00:00
+- Generated: 2026-07-14T06:18:04.323531+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 327
-- Total clusters raw: 147
-- Total clusters in packet: 60
-- Dropped low score: 87
+- Total items in window: 338
+- Total clusters raw: 156
+- Total clusters in packet: 59
+- Dropped low score: 97
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,41 +70,36 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 25
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -115,11 +110,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 15
+  - In window count: 3
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -140,23 +135,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -165,11 +165,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -180,33 +175,33 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+  - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,20 +215,25 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 2
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
   - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
@@ -245,11 +245,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -260,45 +255,55 @@
   - Status: ok
   - Item count: 100
   - In window count: 10
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
@@ -310,46 +315,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 22
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 21
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -365,11 +365,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -380,13 +375,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -395,11 +395,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -410,13 +405,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,10 +420,15 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 0
+  - Item count: 50
+  - In window count: 50
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
@@ -440,11 +440,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 29
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 14
+  - In window count: 25
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 4
-- Article count: 7
+- Article count: 8
 - Cohesion: 0.2
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
@@ -485,15 +485,16 @@
 - Dominant features:
   - threat_categories: active_exploitation
   - affected_products: Apple iOS/macOS
-- Cluster IDs: 598aa947b4, 9d6bdd5305, 605f13c77e, b35394b0f7
+- Cluster IDs: 598aa947b4, b35394b0f7, 9d6bdd5305, 605f13c77e
 - Links:
   - https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
   - https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/
   - https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
+  - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+  - https://www.reddit.com/r/cybersecurity/comments/1uvgoqh/official_jscrambler_npm_package_compromised/
+  - https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
   - https://www.huntress.com/blog/patch-management-strategy
   - https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
-  - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-  - https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
 
 ### Microsoft 365 active exploitation
 - Anchor signal: Microsoft 365
@@ -518,13 +519,13 @@
   - https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/
   - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
 
-### CVE-2026-56291 exploitation activity
-- Anchor signal: CVE-2026-56291
-- Theme key: cve-2026-56291
+### CVE-2026-48939 exploitation activity
+- Anchor signal: CVE-2026-48939
+- Theme key: cve-2026-48939
 - Cluster count: 3
 - Article count: 3
 - Cohesion: 0.432
-- Shared strong signals: CVE-2026-56291
+- Shared strong signals: CVE-2026-48939
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -538,13 +539,13 @@
   - https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
   - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
 
-### CVE-2026-48939 exploitation activity
-- Anchor signal: CVE-2026-48939
-- Theme key: cve-2026-48939
+### CVE-2026-56291 exploitation activity
+- Anchor signal: CVE-2026-56291
+- Theme key: cve-2026-56291
 - Cluster count: 3
 - Article count: 3
 - Cohesion: 0.432
-- Shared strong signals: CVE-2026-48939
+- Shared strong signals: CVE-2026-56291
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -575,13 +576,13 @@
   - https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
 
-### CVE-2026-48313 exploitation activity
-- Anchor signal: CVE-2026-48313
-- Theme key: cve-2026-48313
+### CVE-2026-48283 exploitation activity
+- Anchor signal: CVE-2026-48283
+- Theme key: cve-2026-48283
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48313
+- Shared strong signals: CVE-2026-48283
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -592,13 +593,13 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48283-cve-2026-48313/
 
-### CVE-2026-48283 exploitation activity
-- Anchor signal: CVE-2026-48283
-- Theme key: cve-2026-48283
+### CVE-2026-48313 exploitation activity
+- Anchor signal: CVE-2026-48313
+- Theme key: cve-2026-48313
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.281
-- Shared strong signals: CVE-2026-48283
+- Shared strong signals: CVE-2026-48313
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -660,29 +661,11 @@
   - https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - https://blog.talosintelligence.com/uat-7810/
 
-### CVE-2018-0171 exploitation activity
-- Anchor signal: CVE-2018-0171
-- Theme key: cve-2018-0171
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.481
-- Shared strong signals: CVE-2018-0171
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: apt_espionage
-  - affected_industries: financial_services, government, critical_infrastructure
-  - cve_ids: CVE-2018-0171
-- Cluster IDs: cdaff85c13, 2d0e3438a3
-- Links:
-  - https://www.infosecurity-magazine.com/news/russian-state-hackers-vulnerable/
-  - https://cyberscoop.com/russian-fsb-cisco-joint-cybersecurity-advisory/
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 2
-- Article count: 3
+- Article count: 4
 - Cohesion: 0.2
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -695,7 +678,26 @@
 - Links:
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+  - https://www.reddit.com/r/cybersecurity/comments/1uvgoqh/official_jscrambler_npm_package_compromised/
   - https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
+
+### ransomware extortion targeting Palo Alto Networks
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+  - affected_industries: government, education
+  - affected_products: Palo Alto Networks
+- Cluster IDs: c06f0c2fb1, b5c5a1216b
+- Links:
+  - https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/
+  - https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
 
 ## Forward signals
 
@@ -747,11 +749,7 @@
 - cve_ids: CVE-2025-3248 (weeks observed: 3, cluster c8e0a6559d)
 - cve_ids: CVE-2026-50656 (weeks observed: 3, cluster 8fa37afed0)
 
-### Tier inversion (1)
-- **Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)**
-  - Cluster: 6a5a22a81b
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-40639
+### Tier inversion (0)
 
 ## Clusters
 
@@ -955,7 +953,7 @@ CVE-2026-9181 Esri ArcGIS Server Pre-Authentication Path Traversal Vulnerability
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/
   - Summary: CVE-2026-9181 is a critical path traversal vulnerability affecting Esri ArcGIS Server that could allow unauthenticated attackers to access sensitive files. Validate exposure with NodeZero® Rapid Response.
 
-### Cluster 08882287bf — score 21
+### Cluster 08882287bf — score 20
 
 - Title: iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days
 - Source: The Hacker News (cyber_news_breach_reporting)
@@ -1199,7 +1197,7 @@ WolfSSL, GeoVision, VTK vulnerabilities By Kri Dontje Thursday, July 9, 2026 14:
   - Link: https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - Summary: Cisco Talos said China-linked APT UAT-7810 is growing its proxy relay network with new malware
 
-### Cluster 5a4c062977 — score 14
+### Cluster 5a4c062977 — score 13
 
 - Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
 - Source: Google Cloud Security (cloud_identity_infrastructure)
@@ -1241,69 +1239,6 @@ Security & Identity Securing the AI supply chain on GKE: Introducing k8s-aibom f
   - Published: 2026-07-13T16:00:00+00:00
   - Link: https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
   - Summary: How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both t
-
-### Cluster 26eda5e0a9 — score 14
-
-- Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-07T15:24:30+00:00
-- Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
-- Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
-- Strong signals: GitHub
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: critical_infrastructure, financial_services
-- affected_products: GitHub, npm
-- tools_used: OpenAI/ChatGPT
-- urgency_signals: poc_available, preauth_unauth
-- content_type: incident_report, news_report
-- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- urgency_signals: preauth_unauth, poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
-```
-
-#### Full body
-
-```
-Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed "GitLost" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: More Countries Jump on the Social Media 'Ban Wagon' "GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems," Sasi Levi, security research lead at Noma, wrote in the report. "The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input." This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on "issues.assigned" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure "In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused," Levi wrote. "This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data." Indeed, the vulnerability demonstrates that threat actors only "need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property," Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to N
-```
-
-#### Corroborating sources (4)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
-  - Published: 2026-07-07T15:24:30+00:00
-  - Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
-  - Summary: The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: datasette code-frequency chart on GitHub
-  - Published: 2026-07-13T21:45:27+00:00
-  - Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
-  - Summary: datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix ("Additionally") bypassed the threat-detection guardrail
-  - Published: 2026-07-07T15:16:22+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/
-  - Summary: Noma Security published a technique they call GitLost against GitHub Agentic Workflows (the plain-English-Markdown agent feature GitHub put into public preview in February, runnable on Copilot, Claude, Gemini, or Codex). Worth reading because it is a clean demonstration of why "filter the injection" does not hold as a defense. The setup. Workflows are read-only by default, but an org can hand one a personal access token with read access across its repos, private ones included, to give the agent cross-repo context. That grant is the whole vulnerability. Nothing else about the attack requires access: no stolen creds, no write access to anything private, no touching a server. The attacker just opens a normal-looking issue on a public repo. The technique is indirect prompt injection, which is not new, but the interesting part is what the agent controls. Noma's Sasi Levi frames the distinction as earlier injection being about manipulating what an agent says, versus GitLost being about what
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
-  - Published: 2026-07-10T16:29:00+00:00
-  - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
-  - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
 
 ### Cluster 174e783389 — score 12
 
@@ -1349,51 +1284,6 @@ CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-07-14T00:51:31+00:00
   - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
   - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
-
-### Cluster 4dacf306cd — score 12
-
-- Title: Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero®
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-13T17:35:36+00:00
-- Link: https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-The ECB now expects significant institutions to demonstrate AI-ready cyber resilience. Learn how NodeZero helps validate exploitable risk, verify remediation, and support an evidence-backed action plan.
-```
-
-#### Full body
-
-```
-Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero® Horizon3.ai July 13, 2026 Factsheets AI-enabled attackers are dramatically reducing the time between vulnerability discovery and exploitation. For significant institutions supervised by the European Central Bank, that acceleration now requires a clear, evidence-backed response. The ECB has directed significant institutions to submit a board-level action plan addressing AI-accelerated cyber threats by October 31, 2026 . The plan must demonstrate how institutions are strengthening cyber resilience across six focus areas, from attack-surface visibility and vulnerability management to operational resilience and supply-chain assurance. The NodeZero® Proactive Security Platform maps directly to these priorities through continuous, production-safe autonomous pentesting that validates what attackers can actually exploit. Continuously discover and assess internet-facing, cloud, Kubernetes, internal, and third-party assets Prioritize remediation based on verified attack paths rather than vulnerability volume alone Verify patches and security improvements with rapid retesting and recurring autonomous pentests Strengthen monitoring and detection with NodeZero Tripwires™, Rapid Response, and Threat Actor Intelligence Validate identity security, network segmentation, endpoint controls, and defense-in-depth strategies Produce executive and regulatory-ready evidence supporting ECB, DORA, and NIS2 requirements Demonstrate business impact through full attack-chain emulation, High-Value Targeting, and Advanced Data Pilfering™ Measure security trends and remediation performance over time with NodeZero Insights™ NodeZero helps institutions move beyond point-in-time assessments and theoretical vulnerability findings. By continuously identifying exploitable exposure, validating remediation, and documenting measurable improvements, security teams can build an ECB action plan grounded in proof of real resilience. Download the Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero Factsheet to see how Horizon3.ai maps NodeZero capabilities to each of the ECB’s six cybersecurity focus areas. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero®
-  - Published: 2026-07-13T17:35:36+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
-  - Summary: The ECB now expects significant institutions to demonstrate AI-ready cyber resilience. Learn how NodeZero helps validate exploitable risk, verify remediation, and support an evidence-backed action plan.
 
 ### Cluster 8bc6a961cc — score 12
 
@@ -1483,6 +1373,64 @@ GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses  Ravie La
   - Link: https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html
   - Summary: Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the wild on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware,
 
+### Cluster 26eda5e0a9 — score 12
+
+- Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-07T15:24:30+00:00
+- Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 3
+- Strong signals: GitHub
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- affected_industries: critical_infrastructure, financial_services
+- affected_products: GitHub, npm
+- tools_used: OpenAI/ChatGPT
+- urgency_signals: poc_available, preauth_unauth
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- urgency_signals: preauth_unauth, poc_available
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
+```
+
+#### Full body
+
+```
+Cyber Risk Data Privacy Threat Intelligence Vulnerabilities & Threats News 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too. Elizabeth Montalbano , Contributing Writer July 7, 2026 4 Min Read Source: Pattara via Alamy Stock Photo A critical prompt injection flaw in GitHub Agentic Workflows allows attackers to trick AI-powered automation into leaking data from an organization's private code repositories, all without compromising an account or exploiting software vulnerabilities. Using the flaw, dubbed "GitLost" by the researchers from Noma Security who discovered it, an unauthenticated attacker can craft a GitHub Issue in a public repository belonging to an organization, and then silently pull data from its private repositories, too, according to a report published yesterday. GitHub Agentic Workflows pairs GitHub Actions — the platform's automation system for running tasks in response to repository events — with an AI agent backed by Claude or GitHub Copilot to help developer teams manage their GitHub workflows. The tool lets teams automate their interactions with code repositories using natural language, and the GitHub agent can read issues, call tools, and access other repositories within an organization. Related: More Countries Jump on the Social Media 'Ban Wagon' "GitLost perfectly illustrates one of the fundamental security challenges every organization faces with agentic AI systems," Sasi Levi, security research lead at Noma, wrote in the report. "The agent's context window is also its attack surface. Any content the agent reads, whether issues, pull requests, comments, or files, can be weaponized if the agent treats that content as instructional input." This scenario paved the way for what has now become a common attack vector in agentic AI systems: prompt injection , which is the nature of the flaw that Noma discovered and exploited via a proof-of-concept (PoC) exploit. Exploiting the GitLost Flaw The vulnerable GitHub Agentic Workflow was configured to do the following: trigger the workflow on "issues.assigned" events in GitHub; read the issue Title and Body; post a comment in response using the add-comment tool; and run with read access to other repositories (public and private) in the organization. The PoC developed by Noma that exploits this workflow resulted in the exposure of an organization's private data regarding a meeting that employees had. The PoC demonstrates how a threat actor can create a GitHub Issue and, in the issue body, hide commands in plain English that GitHub's agent will follow, according to the report. An attacker needs no coding skills, access, or credentials to exploit the flaw — they only have to open an issue in a public repository belonging to an organization that uses GitHub’s Agentic Workflow setup, and then wait. Related: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure "In most agentic prompt injection attacks, the agent treats the wrong content as a trusted source of instructions and allows itself to be misdirected or misused," Levi wrote. "This happens when the system fails to maintain a strict trust boundary between system-level directives and untrusted user data." Indeed, the vulnerability demonstrates that threat actors only "need to hide plain-English commands within content to trick a highly permissioned AI into bypassing its own guardrails and silently handing over private intellectual property," Jason Soroko, senior fellow at certificate life cycle management provider Sectigo, tells Dark Reading. Noma said it responsibly disclosed the flaw to GitHub, which did not immediately respond to Dark Reading's request for comment on whether the flaw has been addressed. GitHub told Noma it updated the documentation creating the flaw, and the last time the researchers checked, it was not there, according to N
+```
+
+#### Corroborating sources (3)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
+  - Published: 2026-07-07T15:24:30+00:00
+  - Link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
+  - Summary: The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: datasette code-frequency chart on GitHub
+  - Published: 2026-07-13T21:45:27+00:00
+  - Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
+  - Summary: datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
+  - Published: 2026-07-10T16:29:00+00:00
+  - Link: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
+  - Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was
+
 ### Cluster c8e0a6559d — score 11
 
 - Title: 13th July – Threat Intelligence Report
@@ -1534,6 +1482,51 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July 
   - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 4dacf306cd — score 11
+
+- Title: Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero®
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-13T17:35:36+00:00
+- Link: https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+The ECB now expects significant institutions to demonstrate AI-ready cyber resilience. Learn how NodeZero helps validate exploitable risk, verify remediation, and support an evidence-backed action plan.
+```
+
+#### Full body
+
+```
+Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero® Horizon3.ai July 13, 2026 Factsheets AI-enabled attackers are dramatically reducing the time between vulnerability discovery and exploitation. For significant institutions supervised by the European Central Bank, that acceleration now requires a clear, evidence-backed response. The ECB has directed significant institutions to submit a board-level action plan addressing AI-accelerated cyber threats by October 31, 2026 . The plan must demonstrate how institutions are strengthening cyber resilience across six focus areas, from attack-surface visibility and vulnerability management to operational resilience and supply-chain assurance. The NodeZero® Proactive Security Platform maps directly to these priorities through continuous, production-safe autonomous pentesting that validates what attackers can actually exploit. Continuously discover and assess internet-facing, cloud, Kubernetes, internal, and third-party assets Prioritize remediation based on verified attack paths rather than vulnerability volume alone Verify patches and security improvements with rapid retesting and recurring autonomous pentests Strengthen monitoring and detection with NodeZero Tripwires™, Rapid Response, and Threat Actor Intelligence Validate identity security, network segmentation, endpoint controls, and defense-in-depth strategies Produce executive and regulatory-ready evidence supporting ECB, DORA, and NIS2 requirements Demonstrate business impact through full attack-chain emulation, High-Value Targeting, and Advanced Data Pilfering™ Measure security trends and remediation performance over time with NodeZero Insights™ NodeZero helps institutions move beyond point-in-time assessments and theoretical vulnerability findings. By continuously identifying exploitable exposure, validating remediation, and documenting measurable improvements, security teams can build an ECB action plan grounded in proof of real resilience. Download the Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero Factsheet to see how Horizon3.ai maps NodeZero capabilities to each of the ECB’s six cybersecurity focus areas. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero®
+  - Published: 2026-07-13T17:35:36+00:00
+  - Link: https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
+  - Summary: The ECB now expects significant institutions to demonstrate AI-ready cyber resilience. Learn how NodeZero helps validate exploitable risk, verify remediation, and support an evidence-backed action plan.
+
 ### Cluster ef8f3ff932 — score 11
 
 - Title: RabbitMQ Vulnerability Threatens Enterprise Systems
@@ -1583,54 +1576,6 @@ A vulnerability in RabbitMQ could allow attackers to obtain the broker’s confi
   - Link: https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/
   - Summary: Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker. The post RabbitMQ Vulnerability Threatens Enterprise Systems appeared first on SecurityWeek .
 
-### Cluster c8b407c1b8 — score 11
-
-- Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-13T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- affected_products: Google Cloud, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
-```
-
-#### Full body
-
-```
-Databases Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV July 13, 2026 Peter Ivanov Managing Director, Valtech Mobility Matt Crowley Group Product Manager, Android Automotive, Google Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all comes together. The vehicle side: AAOS SDV As the foundational in-vehicle platform, Google’s open source AAOS SDV platform abstracts core functions into reusable services independent of physical hardware, establishing a modular Service-Oriented Architecture (SOA). By decoupling non-safety domains like climate control, lighting, and diagnostics from Electronic Control Units (ECUs), the AAOS SDV platform introduces dynamic runtime service discovery. With this, the SDV can easily discover what services are running (e.g., the odometer, HVAC, sunroof, motorized seats, electric windows, etc.) and their status. To accelerate development, engineering teams leverage the Android Cuttlefish emulator to build digital twins in the cloud, simulating high-frequency sensor streams to validate these decoupled services bit-for-bit before physical silicon is ready. Valtech Nexus SDV utilizes this AAOS SDV middleware layer to discover, map, and manage vehicle resources, structuring and streaming high-frequency telemetry data straight into Bigtable. Compare this to the prior state of affairs, where OEMs outsourced system software to a variety of suppliers, each with their own pipelines, protocols, and data stored in separate silos. Crucially, this model decouples services from the heavy main infotainment stack, so they can run independently, even when the vehicle is off and parked. This allows functions like remote vehicle monitoring to remain active even when the primary infotainment system is powered down, ensuring continuous telemetry access without draining the vehicle’s 12V battery or main EV battery pack. This tight integration between the AAOS SDV platform and Nexus SDV enables a number of agentic AI and innovative first-party solutions. Unlike traditional sandboxed infotainment tools, multimodal AI agents can utilize the service discovery layer to safely interact with the physical car and process complex, intent-based requests. For example, an AI agent could automatically adjust climate zones, window actuators, or interior lighting based on a conversation with the driver, or in response to climate sensors, as in this clip: By linking this on-vehicle service layer managed by Nexus SDV with historical fleet telemetry stored in Bigtable, you deliver deeply integrated experiences that unlock new mobility solutions. Now let’s take a quick look at the Cloud side. The Google Cloud side: AI-native mobility Beyond SDV, we are rapidly moving toward AI-defined vehicles, or AIDV, where AI is core to a vehicle's operational logic. To be AI-native means being autonomous by design, with AI embedded at every architectural level. With this level of AI, the system can perceive environm
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
-  - Published: 2026-07-13T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
-  - Summary: The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
-  - Published: 2026-07-07T16:37:33+00:00
-  - Link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
-  - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it
-
 ### Cluster bfabcf1e25 — score 10
 
 - Title: No Manners Here: The Ruthless Rise of The Gentlemen Ransomware
@@ -1675,49 +1620,6 @@ Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hosp
   - Published: 2026-07-10T22:00:39+00:00
   - Link: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
   - Summary: Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
-
-### Cluster 4a0789d0ad — score 10
-
-- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-09T12:55:00+00:00
-- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
-```
-
-#### Full body
-
-```
-Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-  - Published: 2026-07-09T12:55:00+00:00
-  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
 ### Cluster b835d1d4b1 — score 10
 
@@ -1766,6 +1668,49 @@ Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker 
   - Published: 2026-07-09T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - Summary: GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
+
+### Cluster 4a0789d0ad — score 10
+
+- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-09T12:55:00+00:00
+- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+```
+
+#### Full body
+
+```
+Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+  - Published: 2026-07-09T12:55:00+00:00
+  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
 ### Cluster ca7dbcaa1e — score 10
 
@@ -1898,45 +1843,6 @@ News Download & print article PDF Download & print article PDF UK and Allies urg
   - Link: https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting
   - Summary: New advisory highlights Russian state cyber actors’ global exploitation of poorly configured routers
 
-### Cluster 9814bfc594 — score 10
-
-- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-08T17:20:21+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
-```
-
-#### Full body
-
-```
-Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
-  - Published: 2026-07-08T17:20:21+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
-  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
-
 ### Cluster 8d0224c08d — score 10
 
 - Title: June 2026 CVE Landscape
@@ -2027,6 +1933,45 @@ The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vib
   - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
   - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
 
+### Cluster 9814bfc594 — score 10
+
+- Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-08T17:20:21+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+```
+
+#### Full body
+
+```
+Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management Horizon3.ai | July 8, 2026 | Whitepapers Download the Whitepaper Table of Contents How to Move from CTEM Theory to Measurable Risk Reduction The Gartner® Continuous Threat Exposure Management (CTEM) framework provides a clear vision for reducing cyber risk. Yet many organizations still struggle to turn that vision into a repeatable operating model that consistently reduces attacker opportunity. The challenge isn’t understanding CTEM. It’s operationalizing it. Most CTEM resources explain the framework. This playbook explains how to operationalize it. Drawing on real-world experience helping organizations continuously reduce cyber exposure, this practical playbook shows how to connect people, processes, and technology into a repeatable operating model that delivers measurable outcomes. Inside the Playbook Learn how to: Build a practical operating model for CTEM. Apply the CTEM operating loop across your entire attack surface. Prioritize remediation based on proven business impact. Measure whether exposure is decreasing over time. Assess your organization’s CTEM maturity and identify practical next steps. Who Should Read This This playbook is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management Leaders Security Operations and Engineering Teams Cloud, Infrastructure, and IT teams responsible for remediation Whether you’re launching a CTEM initiative or looking to mature an existing program, this playbook provides practical guidance for turning strategy into execution. Download the Playbook CTEM is more than a framework. It’s an operating model for continuously reducing attacker opportunity. Download Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management and learn how leading security organizations are moving beyond visibility to achieve measurable risk reduction. Not seeing the form? Open the standalone form . Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Management
+  - Published: 2026-07-08T17:20:21+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
+  - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
+
 ### Cluster f0cefbafc4 — score 10
 
 - Title: Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?
@@ -2104,53 +2049,6 @@ Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Sign
   - Published: 2026-07-07T14:00:00+00:00
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/
   - Summary: Written by: Shebin Mathew Introduction The "Golden SAML" technique, first described by CyberArk researchers in 2017, and further detailed by Mandiant researchers in 2021 , remains one of the most effective methods for threat actors to forge identity assertions in the Microsoft ecosystem. By obtaining the private key of an ADFS token-signing certificate, an attacker can authenticate as any user to any SAML-federated application, bypassing multifactor authentication (MFA), conditional access, and all identity-based controls. However, during a recent red team engagement, Mandiant discovered that when ADFS certificates are manually rotated, configuration drift can silently leave active signing keys exposed in Machine DPAPI. Specifically, Mandiant discovered that in environments where AutoCertificateRollover is disabled and certificates are manually rotated, the database often becomes a 'ghost'—a record that still exists, still decrypts successfully, but references a certificate no longer u
-
-### Cluster aa4a893323 — score 10
-
-- Title: Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-10T11:47:43+00:00
-- Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos
-- affected_industries: legal_professional
-- cve_ids: CVE-2026-42530
-- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos, active_exploitation
-- affected_industries: legal_professional
-- cve_ids: CVE-2026-42530
-- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
-```
-
-#### Full body
-
-```
-Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers  Swati Khandelwal  Jul 10, 2026 Vulnerability / Server Security A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server process down. XQUIC is open-source, so the risk is not Alibaba's alone: any server that embeds it and serves HTTP/3 with the default QPACK settings is exposed. That includes Tengine, Alibaba's Nginx-based web server, which FoxIO says fronts the company's cloud and CDN on sites including Taobao and Alipay. Every release through v1.9.4, the latest, is affected. There is no fixed release and no CVE as of July 10. Until a fix ships, operators can set SETTINGS_QPACK_MAX_TABLE_CAPACITY to 0, which turns off QPACK's dynamic table, or drop HTTP/3 support entirely. The bug lives in how HTTP/3 compresses headers. To avoid sending the same header (say, user-agent) over and over, HTTP/3 uses QPACK. It keeps a shared table that the client directs the server to build up and resize through a dedicated control channel, the encoder stream. XQUIC stores that table's bytes in a ring buffer , a fixed block of memory where data wraps from the end back to the start once it fills. When the client asks to grow the table, XQUIC allocates a bigger buffer and copies the old data across. That copy has four cases, depending on whether the data wraps in the old buffer, the new one, both, or neither. In one of them, the code sizes the leftover tail data against the new, larger buffer's capacity instead of the old one's. It overcounts badly. Grow a 64-byte table with the write cursor near the end, and resize to 65, and XQUIC decides there are 70 tail bytes to move when there are really 6. That wrong number flows into a memory copy. The copy length comes from subtracting the overcount from a smaller value. Because that length is an unsigned size_t, it underflows and wraps to a near-maximum number, and the copy runs off the end of memory. In FoxIO's release build on Ubuntu 26.04, glibc's _FORTIFY_SOURCE=2 caught the bad length and killed the process. Without that check, the copy writes out of bounds, from the old buffer past the end of the new one. Féry showed a crash but did not test whether that corruption could be exploited further. None of the values in the attack breaks QPACK's rules. XQUIC advertises a 16 KiB dynamic-table limit by default; the payload asks for 64 bytes, then 65. The client only has to drive the table into the exact wrapped layout that hits the faulty branch. FoxIO says the mistake has been in XQUIC since its first public release in January 2022, and a proof of concept is public . XRING is the latest in a string of remote crashes in HTTP/2 and HTTP/3 stacks. Three weeks earlier, THN reported a use-after-free in NGINX's HTTP/3 module (CVE-2026-42530) that a remote, unauthenticated client could reach through the same QPACK encoder stream XRING abuses, a different bug class on the same attack surface. In June, Calif's HTTP/2 Bomb caused remote denial of service against Nginx, Apache, IIS, and Envoy by abusing HPACK, HTTP/2's header compression, and the predecessor to QPACK. In February, HAProxy patched two QUIC crashes , one an integer underflow during token validation, the same type of bug behind XRING, though it needed a malformed packet where XRING needs none. That difference is the point: legal input, one arithmetic slip, a dead server. FoxIO demonstrated a crash, not code execution, and reported no exploitation in the wild. It says it emailed Alibaba on April 7 through the project's security policy, which promises a reply within three working days, then followed up four more times through May 9 without an answer before going
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
-  - Published: 2026-07-10T11:47:43+00:00
-  - Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
-  - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
 
 ### Cluster 88d76f4fd8 — score 10
 
@@ -2240,6 +2138,88 @@ A cybersecurity startup dangling millions of dollars to acquire zero-day securit
   - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
   - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
 
+### Cluster aa4a893323 — score 10
+
+- Title: Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-10T11:47:43+00:00
+- Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos
+- affected_industries: legal_professional
+- cve_ids: CVE-2026-42530
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos, active_exploitation
+- affected_industries: legal_professional
+- cve_ids: CVE-2026-42530
+- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
+```
+
+#### Full body
+
+```
+Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers  Swati Khandelwal  Jul 10, 2026 Vulnerability / Server Security A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server process down. XQUIC is open-source, so the risk is not Alibaba's alone: any server that embeds it and serves HTTP/3 with the default QPACK settings is exposed. That includes Tengine, Alibaba's Nginx-based web server, which FoxIO says fronts the company's cloud and CDN on sites including Taobao and Alipay. Every release through v1.9.4, the latest, is affected. There is no fixed release and no CVE as of July 10. Until a fix ships, operators can set SETTINGS_QPACK_MAX_TABLE_CAPACITY to 0, which turns off QPACK's dynamic table, or drop HTTP/3 support entirely. The bug lives in how HTTP/3 compresses headers. To avoid sending the same header (say, user-agent) over and over, HTTP/3 uses QPACK. It keeps a shared table that the client directs the server to build up and resize through a dedicated control channel, the encoder stream. XQUIC stores that table's bytes in a ring buffer , a fixed block of memory where data wraps from the end back to the start once it fills. When the client asks to grow the table, XQUIC allocates a bigger buffer and copies the old data across. That copy has four cases, depending on whether the data wraps in the old buffer, the new one, both, or neither. In one of them, the code sizes the leftover tail data against the new, larger buffer's capacity instead of the old one's. It overcounts badly. Grow a 64-byte table with the write cursor near the end, and resize to 65, and XQUIC decides there are 70 tail bytes to move when there are really 6. That wrong number flows into a memory copy. The copy length comes from subtracting the overcount from a smaller value. Because that length is an unsigned size_t, it underflows and wraps to a near-maximum number, and the copy runs off the end of memory. In FoxIO's release build on Ubuntu 26.04, glibc's _FORTIFY_SOURCE=2 caught the bad length and killed the process. Without that check, the copy writes out of bounds, from the old buffer past the end of the new one. Féry showed a crash but did not test whether that corruption could be exploited further. None of the values in the attack breaks QPACK's rules. XQUIC advertises a 16 KiB dynamic-table limit by default; the payload asks for 64 bytes, then 65. The client only has to drive the table into the exact wrapped layout that hits the faulty branch. FoxIO says the mistake has been in XQUIC since its first public release in January 2022, and a proof of concept is public . XRING is the latest in a string of remote crashes in HTTP/2 and HTTP/3 stacks. Three weeks earlier, THN reported a use-after-free in NGINX's HTTP/3 module (CVE-2026-42530) that a remote, unauthenticated client could reach through the same QPACK encoder stream XRING abuses, a different bug class on the same attack surface. In June, Calif's HTTP/2 Bomb caused remote denial of service against Nginx, Apache, IIS, and Envoy by abusing HPACK, HTTP/2's header compression, and the predecessor to QPACK. In February, HAProxy patched two QUIC crashes , one an integer underflow during token validation, the same type of bug behind XRING, though it needed a malformed packet where XRING needs none. That difference is the point: legal input, one arithmetic slip, a dead server. FoxIO demonstrated a crash, not code execution, and reported no exploitation in the wild. It says it emailed Alibaba on April 7 through the project's security policy, which promises a reply within three working days, then followed up four more times through May 9 without an answer before going
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
+  - Published: 2026-07-10T11:47:43+00:00
+  - Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
+  - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
+
+### Cluster 8adebc602c — score 10
+
+- Title: Digital twins are becoming security infrastructure - not just monitoring tools
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-07-14T05:26:15+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1uvzis1/digital_twins_are_becoming_security/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: education, manufacturing_industrial
+- content_type: threat_research
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial, education
+- content_type: threat_research
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+Our researchers at Torrens University Australia have contributed to a review of 110 studies on using digital twins for security in industrial IoT. What they found was that the strongest results came from combining approaches rather than running a digital twin on its own. For example, pair one with deep learning and it gets noticeably better at catching anomalies. Or, you can pair another with blockchain and it becomes much harder to tamper with the underlying data, which matters a lot for man-in-the-middle attacks. An interesting failure mode worth flagging is a notion the review calls the 'synchronisation gap'. This is found on older systems with slow sensors, where the digital twin takes a while to catch up after something changes on the physical side, and attackers can slip through in that window before it's even noticed. There is a bit of irony here, too. Which is that building a digital twin to protect a system can end up widening that system's attack surface if it's not designed
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Digital twins are becoming security infrastructure - not just monitoring tools
+  - Published: 2026-07-14T05:26:15+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1uvzis1/digital_twins_are_becoming_security/
+  - Summary: Our researchers at Torrens University Australia have contributed to a review of 110 studies on using digital twins for security in industrial IoT. What they found was that the strongest results came from combining approaches rather than running a digital twin on its own. For example, pair one with deep learning and it gets noticeably better at catching anomalies. Or, you can pair another with blockchain and it becomes much harder to tamper with the underlying data, which matters a lot for man-in-the-middle attacks. An interesting failure mode worth flagging is a notion the review calls the 'synchronisation gap'. This is found on older systems with slow sensors, where the digital twin takes a while to catch up after something changes on the physical side, and attackers can slip through in that window before it's even noticed. There is a bit of irony here, too. Which is that building a digital twin to protect a system can end up widening that system's attack surface if it's not designed
+
 ### Cluster 98dd5f4721 — score 10
 
 - Title: Conditional Access Misconfigurations Exposed 55 Orgs with MFA On
@@ -2287,6 +2267,109 @@ Home Blog Railway. LSHIY. Different Auth Flows, but the Same Lesson We Keep Skip
   - Published: 2026-07-13T13:03:33+00:00
   - Link: https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
   - Summary: A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence (AI)-assisted lure creation, and post-compromise mailbox operations targeting Microsoft 365 accounts. Distributed via Telegram and costing $400 a month (or $3,800 per year), attack chains leverage phishing
+
+### Cluster c8b407c1b8 — score 10
+
+- Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-13T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
+- affected_products: Google Cloud, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
+```
+
+#### Full body
+
+```
+Databases Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV July 13, 2026 Peter Ivanov Managing Director, Valtech Mobility Matt Crowley Group Product Manager, Android Automotive, Google Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all comes together. The vehicle side: AAOS SDV As the foundational in-vehicle platform, Google’s open source AAOS SDV platform abstracts core functions into reusable services independent of physical hardware, establishing a modular Service-Oriented Architecture (SOA). By decoupling non-safety domains like climate control, lighting, and diagnostics from Electronic Control Units (ECUs), the AAOS SDV platform introduces dynamic runtime service discovery. With this, the SDV can easily discover what services are running (e.g., the odometer, HVAC, sunroof, motorized seats, electric windows, etc.) and their status. To accelerate development, engineering teams leverage the Android Cuttlefish emulator to build digital twins in the cloud, simulating high-frequency sensor streams to validate these decoupled services bit-for-bit before physical silicon is ready. Valtech Nexus SDV utilizes this AAOS SDV middleware layer to discover, map, and manage vehicle resources, structuring and streaming high-frequency telemetry data straight into Bigtable. Compare this to the prior state of affairs, where OEMs outsourced system software to a variety of suppliers, each with their own pipelines, protocols, and data stored in separate silos. Crucially, this model decouples services from the heavy main infotainment stack, so they can run independently, even when the vehicle is off and parked. This allows functions like remote vehicle monitoring to remain active even when the primary infotainment system is powered down, ensuring continuous telemetry access without draining the vehicle’s 12V battery or main EV battery pack. This tight integration between the AAOS SDV platform and Nexus SDV enables a number of agentic AI and innovative first-party solutions. Unlike traditional sandboxed infotainment tools, multimodal AI agents can utilize the service discovery layer to safely interact with the physical car and process complex, intent-based requests. For example, an AI agent could automatically adjust climate zones, window actuators, or interior lighting based on a conversation with the driver, or in response to climate sensors, as in this clip: By linking this on-vehicle service layer managed by Nexus SDV with historical fleet telemetry stored in Bigtable, you deliver deeply integrated experiences that unlock new mobility solutions. Now let’s take a quick look at the Cloud side. The Google Cloud side: AI-native mobility Beyond SDV, we are rapidly moving toward AI-defined vehicles, or AIDV, where AI is core to a vehicle's operational logic. To be AI-native means being autonomous by design, with AI embedded at every architectural level. With this level of AI, the system can perceive environm
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV
+  - Published: 2026-07-13T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/
+  - Summary: The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Android’s open source Automotive OS (AAOS) SDV implements the AI-defined vehicle while Google Cloud provides scalable infrastructure including a full suite of AI integration tools, leveraging services like Bigtable for automotive and manufacturing telematics at scale. Valtech, a Google Cloud partner, uses Google technologies as part of its Nexus SDV platform , establishing a full end-to-end connected vehicle system that enables truly agentic mobility, offering automotive OEMs a ready-to-use, end-to-end foundation for the next generation of connected vehicles. Let’s take a look at how this all come
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
+  - Published: 2026-07-07T16:37:33+00:00
+  - Link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
+  - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password. Security firm Varonis found it
+
+### Cluster b35394b0f7 — score 10
+
+- Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-11T17:59:26+00:00
+- Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: npm
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, npm
+- content_type: incident_report, news_report
+- confidence_tier: tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft
+- affected_industries: financial_services
+- affected_products: npm, Apple iOS/macOS
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
+```
+
+#### Full body
+
+```
+Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep both pulled and analyzed the release, and both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository. Its latest tag is still 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow. That points to a compromised npm account or build pipeline. Which of the two has not been established. The payload is a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS, according to Socket's updated analysis and a statement to The Hacker News. The target list is broad and aimed at developers: cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints CI runners use; cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus; the Bitwarden password manager vault; browser-stored passwords and cookies; and Discord, Slack, Telegram, and Steam sessions. It also goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries do more than steal. On Linux, the payload links the kernel's BPF library and can load an eBPF program straight into the kernel from memory. That is a foothold in the kernel, not the userspace file access that the rest of the stealer relies on. StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Its command-and-control details stay encrypted in the binary and never surfaced in static analysis. StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. Those environments hold what the stealer collects: cloud keys, deploy tokens, and source code that a build or CI process can reach. Source: Step Security The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. For a stealer aimed at build machines, though, reach was never the point. The access is. The Shai-Hulud worm ran from an install hook to steal tokens and spread through hundreds of packages that
+```
+
+#### Corroborating sources (3)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+  - Published: 2026-07-11T17:59:26+00:00
+  - Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+  - Summary: The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Official jscrambler npm package compromised: malicious versions 8.14, 8.16, 8.17, and 8.20
+  - Published: 2026-07-13T16:37:14+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1uvgoqh/official_jscrambler_npm_package_compromised/
+  - Summary: Jscrambler has published its incident advisory after unauthorized malicious versions of its official npm package were uploaded. The affected releases (8.14, 8.16, 8.17, and 8.20) contained a malicious install-time payload. The vendor has removed the compromised releases, recommends upgrading to 8.22, and advises anyone who installed an affected version to treat the environment as potentially compromised, rotate credentials, and review affected systems submitted by /u/NapierPalm [link] [comments]
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Hackers backdoor Jscrambler npm package with infostealer malware
+  - Published: 2026-07-13T19:44:19+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
+  - Summary: The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]
 
 ### Cluster acd4fc9884 — score 9
 
@@ -2474,49 +2557,6 @@ Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Publis
   - Published: 2026-07-13T13:00:00+00:00
   - Link: https://www.huntress.com/blog/sql-injection-attacker-persistence
   - Summary: See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.
-
-### Cluster 0fefb209ee — score 9
-
-- Title: Key findings from the 2026 Public Sector M-Trends report and beyond
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-13T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant in 2025, specifically tailored to the mission-critical needs of public sector leaders. Key findings from the report and what they mean for the public sector The most alarming trend in this year’s M-Trends data is the 22-second hand-off: the median time between an initial access broker establishing a foothold and the hand-off to a ransomware operator. This extreme compression of the attack cycle renders traditional, human-speed triage obsolete. When an infection on a municipal workstation can move to an encrypted network before a human analyst can even open a ticket, the strategic mandate for re
-```
-
-#### Full body
-
-```
-Public Sector Key findings from the 2026 Public Sector M-Trends report and beyond July 13, 2026 Fernando Tomlinson Jr. Head of Incident Response Jose Valerio Lead Threat Intelligence Advisor, Public Sector Google Public Sector Newsletter Essential public sector updates with Google Cloud insights. Subscribe In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant in 2025, specifically tailored to the mission-critical needs of public sector leaders. Key findings from the report and what they mean for the public sector The most alarming trend in this year’s M-Trends data is the 22-second hand-off: the median time between an initial access broker establishing a foothold and the hand-off to a ransomware operator. This extreme compression of the attack cycle renders traditional, human-speed triage obsolete. When an infection on a municipal workstation can move to an encrypted network before a human analyst can even open a ticket, the strategic mandate for resilience must pivot toward machine-speed defense. Additionally, the report uncovered several emerging "boundaries of trust" that adversaries are systematically exploiting: The persistence paradox: State-sponsored espionage actors are pursuing multi-year persistence, with some remaining undetected for over five years. This "persistence paradox" directly challenges standard 90-day telemetry retention policies, often leaving agencies unable to quantify the full impact of a breach. The virtualization stack: Attackers are moving "down the stack" to target the virtualization management plane. Techniques like "snapshot mounting" allow attackers to bypass guest-level security tools, creating snapshots of domain controllers to steal databases offline. The SaaS domino effect: At the state and local levels, the reliance on third-party cloud tools has turned integrations into threat vectors. Exploiting non-human identities (NHIs) like service accounts and OAuth tokens allows a single compromise to trigger a chain reaction across an entire agency network. The vishing surge: Voice phishing (vishing) has surged to 11% of global infections. These highly effective social engineering attacks target government help desks to reset passwords or enroll unauthorized devices. This proves that the ‘human element’—the administrative trust placed in help desk staff and IT administrators—is now a primary vector for establishing initial access. A mandate for continuous verification Looking ahead, resilience in the public sector will require more than a compliance checklist; it demands a cultural pivot to continuous verification—a security doctrine where trust is never assumed and must be constantly re-validated. Success is no longer just defined by the absence of a breach, but also by an agency’s ability to remain operational while under active attack. At Google, we provide the technical architecture to make continuous verification a reality through three core capabilities. Identity as the new perimeter: Through Chrome Enterprise Premium , we replace traditional VPNs with context-aware access. We verify the user’s identity and the security posture of their device for every single application request, ensuring that access is only granted under the right conditions. Agentic defense: We enable agencies to ingest and analyze massive telemetry datasets in real-time using Google Security Operations , which includes threat-centric case management, interactive, context-rich alert graphing, and automatic stitching together of entities. This allows for the "Machine-Speed" detection required to spot an adversary within the 22-second hand-off window, turning manual triage into automat
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Key findings from the 2026 Public Sector M-Trends report and beyond
-  - Published: 2026-07-13T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/
-  - Summary: In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant in 2025, specifically tailored to the mission-critical needs of public sector leaders. Key findings from the report and what they mean for the public sector The most alarming trend in this year’s M-Trends data is the 22-second hand-off: the median time between an initial access broker establishing a foothold and the hand-off to a ransomware operator. This extreme compression of the attack cycle renders traditional, human-speed triage obsolete. When an infection on a municipal workstation can move to an encrypted network before a human analyst can even open a ticket, the strategic mandate for re
 
 ### Cluster 605f13c77e — score 9
 
@@ -3049,6 +3089,49 @@ Home Blog Meta Phishers Abuse Business Account Manager Service Published: July 7
   - Link: https://www.huntress.com/blog/meta-business-manager-phishing
   - Summary: Huntress is tracking a threat actor group as they evolve a phishing attack that uses a Facebook feature to send the initial spam lure.
 
+### Cluster 0fefb209ee — score 8
+
+- Title: Key findings from the 2026 Public Sector M-Trends report and beyond
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-13T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant in 2025, specifically tailored to the mission-critical needs of public sector leaders. Key findings from the report and what they mean for the public sector The most alarming trend in this year’s M-Trends data is the 22-second hand-off: the median time between an initial access broker establishing a foothold and the hand-off to a ransomware operator. This extreme compression of the attack cycle renders traditional, human-speed triage obsolete. When an infection on a municipal workstation can move to an encrypted network before a human analyst can even open a ticket, the strategic mandate for re
+```
+
+#### Full body
+
+```
+Public Sector Key findings from the 2026 Public Sector M-Trends report and beyond July 13, 2026 Fernando Tomlinson Jr. Head of Incident Response Jose Valerio Lead Threat Intelligence Advisor, Public Sector Google Public Sector Newsletter Essential public sector updates with Google Cloud insights. Subscribe In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant in 2025, specifically tailored to the mission-critical needs of public sector leaders. Key findings from the report and what they mean for the public sector The most alarming trend in this year’s M-Trends data is the 22-second hand-off: the median time between an initial access broker establishing a foothold and the hand-off to a ransomware operator. This extreme compression of the attack cycle renders traditional, human-speed triage obsolete. When an infection on a municipal workstation can move to an encrypted network before a human analyst can even open a ticket, the strategic mandate for resilience must pivot toward machine-speed defense. Additionally, the report uncovered several emerging "boundaries of trust" that adversaries are systematically exploiting: The persistence paradox: State-sponsored espionage actors are pursuing multi-year persistence, with some remaining undetected for over five years. This "persistence paradox" directly challenges standard 90-day telemetry retention policies, often leaving agencies unable to quantify the full impact of a breach. The virtualization stack: Attackers are moving "down the stack" to target the virtualization management plane. Techniques like "snapshot mounting" allow attackers to bypass guest-level security tools, creating snapshots of domain controllers to steal databases offline. The SaaS domino effect: At the state and local levels, the reliance on third-party cloud tools has turned integrations into threat vectors. Exploiting non-human identities (NHIs) like service accounts and OAuth tokens allows a single compromise to trigger a chain reaction across an entire agency network. The vishing surge: Voice phishing (vishing) has surged to 11% of global infections. These highly effective social engineering attacks target government help desks to reset passwords or enroll unauthorized devices. This proves that the ‘human element’—the administrative trust placed in help desk staff and IT administrators—is now a primary vector for establishing initial access. A mandate for continuous verification Looking ahead, resilience in the public sector will require more than a compliance checklist; it demands a cultural pivot to continuous verification—a security doctrine where trust is never assumed and must be constantly re-validated. Success is no longer just defined by the absence of a breach, but also by an agency’s ability to remain operational while under active attack. At Google, we provide the technical architecture to make continuous verification a reality through three core capabilities. Identity as the new perimeter: Through Chrome Enterprise Premium , we replace traditional VPNs with context-aware access. We verify the user’s identity and the security posture of their device for every single application request, ensuring that access is only granted under the right conditions. Agentic defense: We enable agencies to ingest and analyze massive telemetry datasets in real-time using Google Security Operations , which includes threat-centric case management, interactive, context-rich alert graphing, and automatic stitching together of entities. This allows for the "Machine-Speed" detection required to spot an adversary within the 22-second hand-off window, turning manual triage into automat
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Key findings from the 2026 Public Sector M-Trends report and beyond
+  - Published: 2026-07-13T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/
+  - Summary: In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant in 2025, specifically tailored to the mission-critical needs of public sector leaders. Key findings from the report and what they mean for the public sector The most alarming trend in this year’s M-Trends data is the 22-second hand-off: the median time between an initial access broker establishing a foothold and the hand-off to a ransomware operator. This extreme compression of the attack cycle renders traditional, human-speed triage obsolete. When an infection on a municipal workstation can move to an encrypted network before a human analyst can even open a ticket, the strategic mandate for re
+
 ### Cluster b5c5a1216b — score 8
 
 - Title: Organizations Warned of Exploited Joomla Extension Vulnerabilities
@@ -3097,51 +3180,6 @@ Threat actors have been exploiting critical vulnerabilities in the Balbooa Forms
   - Published: 2026-07-13T09:08:02+00:00
   - Link: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
   - Summary: Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .
-
-### Cluster 2d0e3438a3 — score 8
-
-- Title: Officials once again warn defenders that Russian hackers are targeting network devices
-- Source: CyberScoop (cyber_news_breach_reporting)
-- Published: 2026-07-13T15:23:46+00:00
-- Link: https://cyberscoop.com/russian-fsb-cisco-joint-cybersecurity-advisory/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion
-- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- cve_ids: CVE-2008-4128, CVE-2018-0171
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage
-- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
-- cve_ids: CVE-2008-4128, CVE-2018-0171
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-State-sponsored attackers are targeting critical infrastructure networks in defense, communications, energy, finance, government and health care. The post Officials once again warn defenders that Russian hackers are targeting network devices appeared first on CyberScoop .
-```
-
-#### Full body
-
-```
-Advertisement Subscribe to our daily newsletter. Subscribe Close Russian state-sponsored hackers are breaking into critical infrastructure around the world by exploiting poorly configured and vulnerable networking devices, authorities from the United States and 12 additional countries said in a joint cybersecurity advisory Monday. Officials once again urged defenders to take more preventative measures to thwart attacks from the Russian Federal Security Service Center 16, which has been actively targeting critical infrastructure for more than a decade. The hackers are also tracked as Berserk Bear, Energetic Bear, Crouching Yeti, Dragonfly, Ghost Blizzard and Static Tundra. “This is an ongoing issue that has impacted various U.S. and foreign networks across multiple sectors, including the defense industrial base, communications, energy, financial services, government facilities and health care sectors,” the National Security Agency said in a statement . The state-sponsored attackers scan the internet for vulnerable routers using default or weak passwords, and have also exploited vulnerabilities in Cisco devices, Cisco’s Smart Install feature and web portals to take over network devices. Advertisement Two of the Cisco vulnerabilities exploited by the Russian FSB Center 16 hackers are quite old, including CVE-2008-4128 and CVE-2018-0171 . Officials shared technical details of the threat group’s activities and advised network defenders to disable Cisco Smart Install on all devices, use stronger modes of authentication and passwords, monitor for unusual credentials and logins using local accounts. The joint advisory comes nearly a year after the FBI issued a similar alert about the same group targeting end-of-life networking devices running Cisco Smart Install. On Monday, the European Union blamed Russia’s FSB Center 16 for a December 2025 attack on Poland’s energy grid. The United Kingdom, also on Monday, sanctioned 24 individuals and entities allegedly involved in various attacks attributed to Russian intelligence services. “From directing criminals to targeting businesses, and striking Poland’s energy grid in the depths of winter, the Russian state is sinking to new lows in its attempts to undermine European security,” Yvette Cooper, foreign security of the United Kingdom, said in a statement. Advertisement Other countries behind the joint cybersecurity advisory include: Canada, Australia, New Zealand, Czech Republic, Denmark, Estonia, Finland, France, Italy, Poland and Sweden. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) (Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Someone infected a spyware probe overseer with spyware Technology Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs Threats Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail Interpol cybercrime crackdown nets 5,800 arrests across 97 countries 764 splinter group leader sentenced to 40 years in jail Spain arrests suspected hacker linked to Russian hacktivist campaign Policy Trump budget boss Russell Vought open to re-staffing CISA DHS to unveil replacement council for critical infrastructure cybersecurity Warner bill would create federally vetted list for secure, trustworthy AI agent
-```
-
-#### Corroborating sources (1)
-
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: Officials once again warn defenders that Russian hackers are targeting network devices
-  - Published: 2026-07-13T15:23:46+00:00
-  - Link: https://cyberscoop.com/russian-fsb-cisco-joint-cybersecurity-advisory/
-  - Summary: State-sponsored attackers are targeting critical infrastructure networks in defense, communications, energy, finance, government and health care. The post Officials once again warn defenders that Russian hackers are targeting network devices appeared first on CyberScoop .
 
 ### Cluster eaade871e6 — score 8
 
@@ -3317,56 +3355,6 @@ We're all petrified about missing a critical event or misclassifying an alert, b
   - Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
   - Summary: We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
 
-### Cluster b35394b0f7 — score 8
-
-- Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-11T17:59:26+00:00
-- Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: npm
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, npm
-- content_type: incident_report, news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- affected_industries: financial_services
-- affected_products: npm, Apple iOS/macOS
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
-```
-
-#### Full body
-
-```
-Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install  Swati Khandelwal  Jul 11, 2026 Software Supply Chain / Malware The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published . If you or one of your build systems pulled it in that window, the payload has already run with whatever access your install process had. None of this is in the prior release, 8.13.0. The package diff shows two new files under dist/: setup.js, a small loader, and intro.js. Despite the name, intro.js is not JavaScript but a roughly 7.8MB container packing three gzip-compressed native binaries, one each for Linux, Windows, and macOS. On install, setup.js picks the binary for the host operating system, writes it under a random name in the system temp directory, marks it executable, and launches it detached with its output hidden. The added files are in the published package, but nowhere in jscrambler's public source. StepSecurity and SafeDep both pulled and analyzed the release, and both report no matching commit, tag, or pull request for 8.14.0 in the GitHub repository. Its latest tag is still 8.13.0. The version was pushed straight to npm under a legitimate maintainer account, bypassing the project's normal release flow. That points to a compromised npm account or build pipeline. Which of the two has not been established. The payload is a Rust infostealer, built for all three platforms, that sweeps a developer machine for secrets and ships them to a drop server over TLS, according to Socket's updated analysis and a statement to The Hacker News. The target list is broad and aimed at developers: cloud credentials from AWS, Azure, and Google Cloud, including the metadata endpoints CI runners use; cryptocurrency wallets and seed phrases from MetaMask, Phantom, and Exodus; the Bitwarden password manager vault; browser-stored passwords and cookies; and Discord, Slack, Telegram, and Steam sessions. It also goes after something newer: the config files for AI coding tools, including Claude Desktop, Cursor, Windsurf, VS Code, and Zed, where API keys and Model Context Protocol server credentials tend to sit. The binaries do more than steal. On Linux, the payload links the kernel's BPF library and can load an eBPF program straight into the kernel from memory. That is a foothold in the kernel, not the userspace file access that the rest of the stealer relies on. StepSecurity and SafeDep both flagged the capability, though what the eBPF does is still being pulled apart. The Windows and macOS builds add anti-debugging checks, and the stealer wires in persistence to survive a reboot: a hidden Windows scheduled task set to relaunch every minute, and a macOS LaunchAgent that reloads on login. Its command-and-control details stay encrypted in the binary and never surfaced in static analysis. StepSecurity's runtime monitoring caught the dropped binary reaching out to two hard-coded IP addresses and to Tor infrastructure, the first network indicators published for the campaign. jscrambler is a build-time tool, installed as a development dependency or run from CI. Those environments hold what the stealer collects: cloud keys, deploy tokens, and source code that a build or CI process can reach. Source: Step Security The package sees about 15,800 downloads a week, and how many pulled the compromised version is not yet known. That is a far smaller footprint than the packages hit in the big npm compromises of the past year, which pull billions of downloads a week between them. For a stealer aimed at build machines, though, reach was never the point. The access is. The Shai-Hulud worm ran from an install hook to steal tokens and spread through hundreds of packages that
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
-  - Published: 2026-07-11T17:59:26+00:00
-  - Link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-  - Summary: The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release six minutes after it was published. If you or one of your
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Hackers backdoor Jscrambler npm package with infostealer malware
-  - Published: 2026-07-13T19:44:19+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/
-  - Summary: The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]
-
 ### Cluster 8f97c174fa — score 8
 
 - Title: Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets
@@ -3407,38 +3395,3 @@ Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Crypto
   - Published: 2026-07-10T09:00:05+00:00
   - Link: https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
   - Summary: Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. The firm has confirmed one coordinated sweep on May 27
-
-### Cluster 6a5a22a81b — score 8
-
-- Title: Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-13T09:33:49+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1uv6qbn/dell_bios_passwords_weak_xor_encryption_allows/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-40639
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-40639
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-40639
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/sajkoterrapefft [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Dell BIOS Passwords: Weak XOR Encryption Allows Recovery from SPI Flash (CVE-2026-40639)
-  - Published: 2026-07-13T09:33:49+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1uv6qbn/dell_bios_passwords_weak_xor_encryption_allows/
-  - Summary: submitted by /u/sajkoterrapefft [link] [comments]
