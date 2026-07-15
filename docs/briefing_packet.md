@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-14T23:58:07.472151+00:00
+- Generated: 2026-07-15T02:55:20.544655+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 338
+- Total items in window: 332
 - Total clusters raw: 163
-- Total clusters in packet: 75
-- Dropped low score: 88
+- Total clusters in packet: 76
+- Dropped low score: 87
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,131 +70,126 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 5
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 15
+  - In window count: 5
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 4
+  - Item count: 10
+  - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 78
+  - Item count: 50
+  - In window count: 3
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 4
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -205,21 +200,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -229,7 +229,12 @@
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
-  - In window count: 3
+  - In window count: 2
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -240,96 +245,96 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 7
+  - In window count: 8
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - Item count: 100
+  - In window count: 8
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 16
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 16
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -345,8 +350,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
@@ -355,21 +365,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 26
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -384,29 +384,34 @@
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - In window count: 2
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,6 +420,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -425,16 +435,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 12
+  - In window count: 11
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -627,6 +627,23 @@
   - https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
   - https://www.infosecurity-magazine.com/news/lidl-notifies-customers-of/
 
+### AWS vulnerability activity
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.545
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: AWS
+- Cluster IDs: daf7d7dcd7, a7c8d38805
+- Links:
+  - https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/
+  - https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment
+  - https://aws.amazon.com/blogs/security/authenticate-legitimate-ai-agent-traffic-with-aws-waf-bot-control/
+
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
@@ -647,24 +664,6 @@
   - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
 
-### CVE-2026-27690 exploitation activity
-- Anchor signal: CVE-2026-27690
-- Theme key: cve-2026-27690
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: CVE-2026-27690
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - cve_ids: CVE-2026-27690, CVE-2026-44747
-  - urgency_signals: actively_exploited
-- Cluster IDs: ae25d6203b, 4e6c87c16b
-- Links:
-  - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-  - https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
-
 ### CVE-2026-44747 exploitation activity
 - Anchor signal: CVE-2026-44747
 - Theme key: cve-2026-44747
@@ -683,23 +682,23 @@
   - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
   - https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
 
-### Microsoft 365 vulnerability activity
-- Anchor signal: Microsoft 365
-- Theme key: microsoft-365
+### CVE-2026-27690 exploitation activity
+- Anchor signal: CVE-2026-27690
+- Theme key: cve-2026-27690
 - Cluster count: 2
-- Article count: 6
+- Article count: 2
 - Cohesion: 0.2
-- Shared strong signals: Microsoft 365
+- Shared strong signals: CVE-2026-27690
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Microsoft 365
-- Cluster IDs: 8d0224c08d, 98dd5f4721
+  - threat_categories: active_exploitation
+  - cve_ids: CVE-2026-27690, CVE-2026-44747
+  - urgency_signals: actively_exploited
+- Cluster IDs: ae25d6203b, 4e6c87c16b
 - Links:
-  - https://www.recordedfuture.com/blog/june-2026-cve-landscape
-  - https://www.huntress.com/blog/conditional-access-misconfigurations
-  - https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/
-  - https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
+  - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+  - https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
 
 ## Forward signals
 
@@ -760,7 +759,7 @@
 
 ## Clusters
 
-### Cluster b1e7573c37 — score 54
+### Cluster b1e7573c37 — score 53
 
 - Title: CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass (FIXED)
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -1162,7 +1161,7 @@ iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days  Ra
   - Link: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the
 
-### Cluster 46a2a9ea7e — score 19
+### Cluster 46a2a9ea7e — score 18
 
 - Title: Compromised AsyncAPI npm packages: inside a CI supply-chain attack
 - Source: Datadog Security Labs (cloud_identity_infrastructure)
@@ -1361,7 +1360,46 @@ Crime Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against Jare
   - Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
   - Summary: Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
 
-### Cluster e5476c476d — score 13
+### Cluster b04e6fdd89 — score 12
+
+- Title: Hacking the Hackers: Can You Still Deceive an AI Attacker?
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-14T19:52:15+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/hacking-the-hackers/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+AI attackers took cyber deception bait more than twice as often as humans. Explore the largest controlled study of AI attackers and what it means for defensive strategy.
+```
+
+#### Full body
+
+```
+Hacking the Hackers: Can You Still Deceive an AI Attacker? Horizon3.ai | July 14, 2026 | Whitepapers Table of Contents What the Largest Controlled Study of AI Attackers Reveals About Cyber Deception Cyber deception was built to fool human attackers. Honeypots, honeytokens, and decoys rely on assumptions about how adversaries recognize risk, prioritize targets, and respond to suspicious environments. But autonomous, LLM-driven attackers don’t behave like humans. So, does deception still work? Horizon3.ai researchers tested 21 AI models across 10 providers, analyzing 10,962 attacker decisions and benchmarking their behavior against 47 human red-teamers. The findings challenge decades of conventional thinking about cyber deception. AI attackers took the bait more than twice as often as humans. Even more surprising: advanced models frequently recognized a trap in their own reasoning and attacked it anyway. The result is a fundamental shift in how security teams should think about deception. Inside the Whitepaper Learn: Why AI attackers fall for cyber deception at significantly higher rates than human attackers. How the “recognition-action gap” causes AI models to identify traps and attack them anyway. Which traditional deception assumptions break when applied to autonomous attackers. Why decoys may no longer reliably divert attackers from real assets. How honeytokens and canaries can become high-yield early-warning signals for AI-enabled attacks. Why deception strategies should shift from misdirection to detection. How security teams can adapt defensive programs for frontier models and self-hosted AI agents. The study also compares AI and human behavior across file systems, .htaccess files, HTTP responses, and HTTP requests, finding AI attackers more likely to take planted bait across every tested artifact category. Who Should Read This This whitepaper is designed for: Chief Information Security Officers (CISOs) Security Architects Threat Detection and Response Leaders Security Operations and Engineering Teams Threat Intelligence and Active Defense Teams Security leaders preparing for AI-enabled and autonomous attackers Whether you’re already using cyber deception or evaluating how your defensive strategy must evolve for AI-driven threats, this research provides practical guidance grounded in observed attacker behavior. Download the Whitepaper AI attackers are more capable at finding real vulnerabilities. They’re also markedly easier to catch in the act. The question isn’t whether deception still works. It’s whether your deception strategy is designed for the attacker that’s coming next. Download Hacking the Hackers: Can You Still Deceive an AI Attacker? and learn why security teams must rethink deception for autonomous, AI-driven adversaries. Download the whitepaper Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Hacking the Hackers: Can You Still Deceive an AI Attacker?
+  - Published: 2026-07-14T19:52:15+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/hacking-the-hackers/
+  - Summary: AI attackers took cyber deception bait more than twice as often as humans. Explore the largest controlled study of AI attackers and what it means for defensive strategy.
+
+### Cluster e5476c476d — score 12
 
 - Title: What’s in the SOSS? Podcast #65 – S3E17 Signing the Future: Securing AI and ML Artifacts with Mihai Maruseac
 - Source: OpenSSF Blog (ai_security_agentic_risk)
@@ -1404,7 +1442,50 @@ Summary In this episode of What’s in the SOSS?, host Yesenia Yser sits down wi
   - Link: https://openssf.org/podcast/2026/07/14/whats-in-the-soss-podcast-65-s3e17-signing-the-future-securing-ai-and-ml-artifacts-with-mihai-maruseac/
   - Summary: In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac (OpenAI) to discuss the OpenSSF Model Signing (OMS) specification, securing the AI/ML supply chain, and establishing a cryptographic chain of custody for models and datasets.
 
-### Cluster 8c85eeaa7f — score 13
+### Cluster 5a4c062977 — score 12
+
+- Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-13T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both t
+```
+
+#### Full body
+
+```
+Security & Identity Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs July 13, 2026 Glen Messenger Group Product Manager Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both the CISO mandate for total visibility and the SRE mandate for cluster stability. It deploys as a single, unprivileged Deployment in the k8s-aibom-system namespace. It involves zero developer friction — no sidecars, no eBPF kernel modules, no privileged DaemonSets, and no modifications to existing developer pod specifications. k8s-aibom watches for AI workloads and produces BOMs. The discovery pipeline executes through four clear stages: Scrape cluster workloads : The controller continuously monitors KServe resources, Deployments, StatefulSets, DaemonSets, and Jobs across the cluster. Identify AI stacks : Advanced pattern matching inspects container images, environment variables, and command-line arguments to detect serving runtimes (vLLM, Triton Inference Server, TGI, Ollama), autonomous agent frameworks (LangChain, AutoGen, CrewAI), vector databases and RAG stores (Milvus, Qdrant, pgvector), as well as distributed training jobs and evaluation harnesses. Generate standard manifests : The controller compiles the discovered artifacts into formal OWASP CycloneDX 1.6 Machine Learning Bill of Materials (ML-BOM) documents. Export to sinks : The controller attaches the resulting ML-BOM directly to the custom resource status (status.bomDocument) of an in-cluster AIBOM Custom Resource (CR) and routes it to optional external sinks, including Google Cloud Storage buckets and external webhook endpoints. Application teams do not need to modify their pod specifications, inject sidecar containers, or alter their continuous integration and continuous delivery (CI/CD) pipelines. Furthermore, k8s-aibom treats the Kubernetes cluster state as a pure functional input: Identical cluster inputs produce byte-identical ML-BOM documents. This deterministic property makes k8s-aibom an ideal fit for GitOps workflows, enabling site-reliability engineers (SREs) to perform exact diffs and trigger precise change-detection alerts when AI dependencies drift. Where existing AIBOM tooling falls short Many AI BOM solutions offer build-time scanners producing BOMs from artifacts at rest. These tools help you track the code that was intended to be deployed. Commercial AI security platforms extend the picture with cloud-native posture management, but typically through external scanning shaped around vendor-specific data models. Few, if any, of these tools help compliance reviewers, security operations (SecOps) teams, and platform engineers understand what is running right now, what is it connected to, and how can we verify those assertions. We purpose-built k8s-aibom to bridge that gap. It produces BOMs from live cluster observation rather than artifact scanning, emits standards-conformant CycloneDX 1.6 ML-BOMs that integrate with the broader OWASP
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
+  - Published: 2026-07-13T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
+  - Summary: How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both t
+
+### Cluster 8c85eeaa7f — score 12
 
 - Title: 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer
 - Source: SecurityWeek (cyber_news_breach_reporting)
@@ -1452,140 +1533,6 @@ Broadcom announced on Tuesday that new VMware Avi Load Balancer updates patch se
   - Published: 2026-07-14T13:55:41+00:00
   - Link: https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/
   - Summary: The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal. The post 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer appeared first on SecurityWeek .
-
-### Cluster b04e6fdd89 — score 12
-
-- Title: Hacking the Hackers: Can You Still Deceive an AI Attacker?
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-14T19:52:15+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/hacking-the-hackers/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI attackers took cyber deception bait more than twice as often as humans. Explore the largest controlled study of AI attackers and what it means for defensive strategy.
-```
-
-#### Full body
-
-```
-Hacking the Hackers: Can You Still Deceive an AI Attacker? Horizon3.ai | July 14, 2026 | Whitepapers Table of Contents What the Largest Controlled Study of AI Attackers Reveals About Cyber Deception Cyber deception was built to fool human attackers. Honeypots, honeytokens, and decoys rely on assumptions about how adversaries recognize risk, prioritize targets, and respond to suspicious environments. But autonomous, LLM-driven attackers don’t behave like humans. So, does deception still work? Horizon3.ai researchers tested 21 AI models across 10 providers, analyzing 10,962 attacker decisions and benchmarking their behavior against 47 human red-teamers. The findings challenge decades of conventional thinking about cyber deception. AI attackers took the bait more than twice as often as humans. Even more surprising: advanced models frequently recognized a trap in their own reasoning and attacked it anyway. The result is a fundamental shift in how security teams should think about deception. Inside the Whitepaper Learn: Why AI attackers fall for cyber deception at significantly higher rates than human attackers. How the “recognition-action gap” causes AI models to identify traps and attack them anyway. Which traditional deception assumptions break when applied to autonomous attackers. Why decoys may no longer reliably divert attackers from real assets. How honeytokens and canaries can become high-yield early-warning signals for AI-enabled attacks. Why deception strategies should shift from misdirection to detection. How security teams can adapt defensive programs for frontier models and self-hosted AI agents. The study also compares AI and human behavior across file systems, .htaccess files, HTTP responses, and HTTP requests, finding AI attackers more likely to take planted bait across every tested artifact category. Who Should Read This This whitepaper is designed for: Chief Information Security Officers (CISOs) Security Architects Threat Detection and Response Leaders Security Operations and Engineering Teams Threat Intelligence and Active Defense Teams Security leaders preparing for AI-enabled and autonomous attackers Whether you’re already using cyber deception or evaluating how your defensive strategy must evolve for AI-driven threats, this research provides practical guidance grounded in observed attacker behavior. Download the Whitepaper AI attackers are more capable at finding real vulnerabilities. They’re also markedly easier to catch in the act. The question isn’t whether deception still works. It’s whether your deception strategy is designed for the attacker that’s coming next. Download Hacking the Hackers: Can You Still Deceive an AI Attacker? and learn why security teams must rethink deception for autonomous, AI-driven adversaries. Download the whitepaper Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Hacking the Hackers: Can You Still Deceive an AI Attacker?
-  - Published: 2026-07-14T19:52:15+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/hacking-the-hackers/
-  - Summary: AI attackers took cyber deception bait more than twice as often as humans. Explore the largest controlled study of AI attackers and what it means for defensive strategy.
-
-### Cluster 5a4c062977 — score 12
-
-- Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-13T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both t
-```
-
-#### Full body
-
-```
-Security & Identity Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs July 13, 2026 Glen Messenger Group Product Manager Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both the CISO mandate for total visibility and the SRE mandate for cluster stability. It deploys as a single, unprivileged Deployment in the k8s-aibom-system namespace. It involves zero developer friction — no sidecars, no eBPF kernel modules, no privileged DaemonSets, and no modifications to existing developer pod specifications. k8s-aibom watches for AI workloads and produces BOMs. The discovery pipeline executes through four clear stages: Scrape cluster workloads : The controller continuously monitors KServe resources, Deployments, StatefulSets, DaemonSets, and Jobs across the cluster. Identify AI stacks : Advanced pattern matching inspects container images, environment variables, and command-line arguments to detect serving runtimes (vLLM, Triton Inference Server, TGI, Ollama), autonomous agent frameworks (LangChain, AutoGen, CrewAI), vector databases and RAG stores (Milvus, Qdrant, pgvector), as well as distributed training jobs and evaluation harnesses. Generate standard manifests : The controller compiles the discovered artifacts into formal OWASP CycloneDX 1.6 Machine Learning Bill of Materials (ML-BOM) documents. Export to sinks : The controller attaches the resulting ML-BOM directly to the custom resource status (status.bomDocument) of an in-cluster AIBOM Custom Resource (CR) and routes it to optional external sinks, including Google Cloud Storage buckets and external webhook endpoints. Application teams do not need to modify their pod specifications, inject sidecar containers, or alter their continuous integration and continuous delivery (CI/CD) pipelines. Furthermore, k8s-aibom treats the Kubernetes cluster state as a pure functional input: Identical cluster inputs produce byte-identical ML-BOM documents. This deterministic property makes k8s-aibom an ideal fit for GitOps workflows, enabling site-reliability engineers (SREs) to perform exact diffs and trigger precise change-detection alerts when AI dependencies drift. Where existing AIBOM tooling falls short Many AI BOM solutions offer build-time scanners producing BOMs from artifacts at rest. These tools help you track the code that was intended to be deployed. Commercial AI security platforms extend the picture with cloud-native posture management, but typically through external scanning shaped around vendor-specific data models. Few, if any, of these tools help compliance reviewers, security operations (SecOps) teams, and platform engineers understand what is running right now, what is it connected to, and how can we verify those assertions. We purpose-built k8s-aibom to bridge that gap. It produces BOMs from live cluster observation rather than artifact scanning, emits standards-conformant CycloneDX 1.6 ML-BOMs that integrate with the broader OWASP
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs
-  - Published: 2026-07-13T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
-  - Summary: How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightweight, unprivileged Kubernetes controller continuously monitors the cluster API and container environments to automatically detect running AI runtimes (like vLLM and Triton) and generate standard CycloneDX Machine Learning Bill of Materials (ML-BOMs). By providing automated, audit-grade visibility directly from runtime execution — regardless of whether the workload was formally registered — k8s-aibom can help teams safely move AI projects from pilot to production without developer integration friction. The architecture of zero friction k8s-aibom is designed from the ground up to respect both t
-
-### Cluster 55bab88c91 — score 12
-
-- Title: Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-14T13:00:00+00:00
-- Link: https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_industries: critical_infrastructure, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT, Palo Alto Networks
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_industries: government, critical_infrastructure, manufacturing_industrial
-- affected_products: Anthropic/Claude, Palo Alto Networks
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. The post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-AI security firm Manifold says two vulnerabilities it reported to Anthropic in May remain exploitable in the latest version of Claude for Chrome, the company’s agentic browser extension. According to Manifold, the flaws let a malicious browser extension trigger Claude into taking actions on a user’s behalf without any genuine click or approval from the victim. An attacker could exploit them to read Gmail messages, Google Docs documents, and calendar entries. The core issue is related to a fix Anthropic shipped earlier this year in response to a similar vulnerability dubbed ClaudeBleed . That update restricted which prompts an outside webpage could feed into Claude, narrowing the extension’s exposure to a fixed set of pre-approved tasks. Manifold found that the mechanism used to activate those tasks doesn’t verify whether a click actually came from a real user, meaning another extension can fake the interaction and set the process in motion. In the extension’s default setting, the attack triggers a confirmation prompt before anything sensitive happens. However, if a user has enabled the extension’s more autonomous mode (‘Act without asking’), the attacker’s action can proceed without any visible warning. Manifold also flagged a second, related design gap: a way for Claude’s side panel to launch directly into that no-confirmation mode based on a parameter in its own URL, with no user action required to unlock it. Advertisement. Scroll to continue reading. The researchers noted that this is not something an attacker can currently exploit, since only the extension itself is meant to construct that URL. But they argue it’s a structural risk, and any future bug that lets an outside script influence how that URL gets built could hand an attacker silent control over a user’s connected accounts. Manifold reported its findings to Anthropic on May 21, shortly after the public disclosure of the ClaudeBleed research. The AI giant described the list of pre-approved tasks as an initial mitigation for ClaudeBleed until a complete fix is rolled out. However, Manifold says none of the eight versions released since appear to patch the vulnerabilities, including the latest 1.0.80. SecurityWeek has reached out to Anthropic for comment. Related : ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Related : UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge Related : AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 Centers Laboratory Data Breach Affects 540,000 Individuals Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Latest News Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims Adobe Patches Critical ColdFusion Vulnerabilities 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers Valarian Raises $50 Million for Sovereign Infrastructure Control
-```
-
-#### Corroborating sources (2)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar
-  - Published: 2026-07-14T13:00:00+00:00
-  - Link: https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/
-  - Summary: A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. The post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots
-  - Published: 2026-07-13T11:37:05+00:00
-  - Link: https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html
-  - Summary: A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already connected Claude to a few detection tools and were seeing real value in specific investigations. But as we mapped out the broader architecture, something kept nagging at me. The design they were building
 
 ### Cluster 4480c0b8b7 — score 12
 
@@ -1765,50 +1712,38 @@ The serpent’s tongue: Luring the Python out of its den By Onur Mustafa Erdogan
   - Link: https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
   - Summary: This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments.
 
-### Cluster 174e783389 — score 11
+### Cluster 4d8bcc6f12 — score 11
 
-- Title: AI Security Report 2026
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-14T00:51:31+00:00
-- Link: https://research.checkpoint.com/2026/ai-security-report-2026/
-- Fetch status: ok
+- Title: Recent DShield SIEM Update, (Tue, Jul 14th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-15T01:38:43+00:00
+- Link: https://isc.sans.edu/diary/rss/33156
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_government
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach, apt_espionage, ai_security
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_government
 
 #### Summary
 
 ```
-For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 463 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 416 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 AI Security Report 2026 July 14, 2026 https://research.checkpoint.com/2026/ai-security-report-2026/ For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the operation. Key observed findings AI has crossed from development aid to live attack operator. It now does the hands-on work inside live intrusions, from China-nexus espionage campaigns to a criminal breach of multiple Mexican government agencies and has spread from nation states to ordinary cyber criminals. AI now builds deployment-ready malware and attack suites. Its involvement is often invisible in the finished artifact: one developer used an AI environment to produce VoidLink, an 88,000-line command-and-control offensive framework, in under a week. Attackers prefer commercial models, and now abuse them by exploiting the agentic architecture, not just single prompts. Most actors favor jailbroken mainstream models over self-hosted ones, and the durable bypass is now a planted configuration file an agent loads and trusts across sessions. An AI-enabled criminal tooling market has matured. Phishing-as-a-service kits now embed a language model with the jailbreak built in, and conversational AI voice-agent services run vishing and one-time-passcode theft at scale. Virtual Identity is no longer a reliable trust anchor. Voice, face, documents, and live video are now cheap to forge convincingly and are widely used in attacks taking multi-channel social engineering to a new level of integration. AI itself is an expanding attack surface. Models cannot always separate data from instructions and content they process might influence the model’s behavior; the surrounding stack adds ordinary software vulnerabilities and supply-chain risk, all in a rapidly evolving ecosystem where security practices not always mature. Indirect prompt injection is on the rise. Detections of longer malicious payloads increased sharply, rising roughly fivefold between March and May 2026 and approaching 1% of observed prompts in May. Longer payloads are more typical of content-borne and agentic attack paths, this pattern suggests that indirect prompt injection is becoming more operationally relevant. Enterprise data leakage through GenAI is persistent and growing risk . High-risk prompts doubled from 2% to 4% during the last year, while organizations used an average of 10 AI applications each month, many without official approval. Data exposure risks are not evenly distributed across the verticals . Sector-level analysis reveals that AI-related data exposure risks are not evenly distributed across the verticals, and correlate both with AI usage patterns and security maturity. Business Services recorded the highest rate of high-risk GenAI prompts at 5.91%, meaning nearly one in every 17 AI interactions carried a significant risk of sensitive data exposure. To read the full findings, access the AI Security Report 2026 from Check Point Research here. GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLI
+The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: AI Security Report 2026
-  - Published: 2026-07-14T00:51:31+00:00
-  - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
-  - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Recent DShield SIEM Update, (Tue, Jul 14th)
+  - Published: 2026-07-15T01:38:43+00:00
+  - Link: https://isc.sans.edu/diary/rss/33156
+  - Summary: The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
 
 ### Cluster 7f5a4d58f9 — score 11
 
@@ -1884,6 +1819,58 @@ Back to Blog Culture Rapid7 and Mindshare Partner to Accelerate Cyber Resilience
   - Link: https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership
   - Summary: Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help
 
+### Cluster 55bab88c91 — score 11
+
+- Title: Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-14T13:00:00+00:00
+- Link: https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: Anthropic/Claude
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_industries: critical_infrastructure, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT, Palo Alto Networks
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- affected_industries: government, critical_infrastructure, manufacturing_industrial
+- affected_products: Anthropic/Claude, Palo Alto Networks
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. The post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+AI security firm Manifold says two vulnerabilities it reported to Anthropic in May remain exploitable in the latest version of Claude for Chrome, the company’s agentic browser extension. According to Manifold, the flaws let a malicious browser extension trigger Claude into taking actions on a user’s behalf without any genuine click or approval from the victim. An attacker could exploit them to read Gmail messages, Google Docs documents, and calendar entries. The core issue is related to a fix Anthropic shipped earlier this year in response to a similar vulnerability dubbed ClaudeBleed . That update restricted which prompts an outside webpage could feed into Claude, narrowing the extension’s exposure to a fixed set of pre-approved tasks. Manifold found that the mechanism used to activate those tasks doesn’t verify whether a click actually came from a real user, meaning another extension can fake the interaction and set the process in motion. In the extension’s default setting, the attack triggers a confirmation prompt before anything sensitive happens. However, if a user has enabled the extension’s more autonomous mode (‘Act without asking’), the attacker’s action can proceed without any visible warning. Manifold also flagged a second, related design gap: a way for Claude’s side panel to launch directly into that no-confirmation mode based on a parameter in its own URL, with no user action required to unlock it. Advertisement. Scroll to continue reading. The researchers noted that this is not something an attacker can currently exploit, since only the extension itself is meant to construct that URL. But they argue it’s a structural risk, and any future bug that lets an outside script influence how that URL gets built could hand an attacker silent control over a user’s connected accounts. Manifold reported its findings to Anthropic on May 21, shortly after the public disclosure of the ClaudeBleed research. The AI giant described the list of pre-approved tasks as an initial mitigation for ClaudeBleed until a complete fix is rolled out. However, Manifold says none of the eight versions released since appear to patch the vulnerabilities, including the latest 1.0.80. SecurityWeek has reached out to Anthropic for comment. Related : ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Related : UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge Related : AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 Centers Laboratory Data Breach Affects 540,000 Individuals Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Latest News Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims Adobe Patches Critical ColdFusion Vulnerabilities 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers Valarian Raises $50 Million for Sovereign Infrastructure Control
+```
+
+#### Corroborating sources (2)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar
+  - Published: 2026-07-14T13:00:00+00:00
+  - Link: https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/
+  - Summary: A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. The post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots
+  - Published: 2026-07-13T11:37:05+00:00
+  - Link: https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html
+  - Summary: A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already connected Claude to a few detection tools and were seeing real value in specific investigations. But as we mapped out the broader architecture, something kept nagging at me. The design they were building
+
 ### Cluster ae25d6203b — score 11
 
 - Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
@@ -1932,6 +1919,56 @@ SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ra
   - Published: 2026-07-14T18:17:57+00:00
   - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
   - Summary: SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
+
+### Cluster daf7d7dcd7 — score 11
+
+- Title: ICYMI: June 2026 @AWS Security
+- Source: AWS Security Blog (cloud_identity_infrastructure)
+- Published: 2026-07-15T00:37:58+00:00
+- Link: https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: AWS
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_industries: government
+- affected_products: AWS
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- affected_industries: government
+- affected_products: AWS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered identity and access management, threat intelligence, network security, AI-powered security tooling, and multi-account […]
+```
+
+#### Full body
+
+```
+AWS Security Blog ICYMI: June 2026 @AWS Security Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered identity and access management, threat intelligence, network security, AI-powered security tooling, and multi-account governance. Read on for guidance on restricting console access to expected networks, securing multi-tenant AI agents, preventing data exfiltration, and managing organization-scale migrations. Identity Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies Authors: Satyen Verma, Satveer Khurpa, Prajit Pabbati, Vijay Kumar Samanthapudi, Zohreh Norouzi | Published: June 2, 2026 Learn to use resource-based policies on Amazon Bedrock AgentCore to grant cross-account access for one tenant while restricting another to VPC-only traffic in a shared multi-tenant AI platform. Customize federated sign-in with new Amazon Cognito Lambda trigger Authors: Abrom Douglas | Published: June 4, 2026 Learn to use the new inbound federation AWS Lambda trigger for Amazon Cognito to transform, filter, and enrich user attributes from external identity providers before profile creation in your user pool. Amazon Cognito unlocks advanced capabilities with next-generation infrastructure Authors: Howie Li, Georgi Baghdasaryan | Published: June 4, 2026 Amazon Cognito introduced high-throughput performance, customer-managed keys for data encryption at rest, and multi-Region replication for business continuity, built on a new storage infrastructure migrated with zero downtime. Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions Authors: Sowmya Vemuri | Published: June 5, 2026 Learn to build fine-grained access controls for a Streamlit application using Amazon Cognito for authentication and Amazon Verified Permissions with Cedar policies for authorization. Restrict AWS Management Console access to expected networks with sign-in resource-based policies and RCPs Authors: Swara Gandhi, Rishi Tripathy | Published: June 24, 2026 Learn to use sign-in resource-based policies and resource control policies to restrict AWS Management Console sign-in to requests from expected networks, such as corporate VPNs and Amazon VPC endpoints. Infrastructure security Gain visibility into DDoS attacks with flow logs in AWS Shield Advanced Authors: Ken Kitts | Published: June 4, 2026 Learn to configure AWS Shield Advanced attack flow logs to capture traffic metadata during DDoS events, pinpoint sources, verify mitigations, and feed your existing analysis pipelines. Threat tactic spotlight: Subdomain takeover Authors: Matt Gurr, Ariam Michael, Geoff Sweet, Luis Pastor | Published: June 16, 2026 Learn to detect and prevent subdomain takeover using AWS Config custom rules to identify dangling DNS CNAME records pointing to deleted resources in globally shared namespaces Prevent data exfiltration: AWS egress controls for cloud workloads Authors: Meriem Smache, Maxim Raya | Published: June 22, 2026 Learn to implement layered egress detection and protection using AWS Network Firewall , Amazon Route 53 Resolver DNS Firewall , and data perimeters to help reduce unauthorized data transfer risk. Detection and incident response Operationalizing AWS security: A maturity roadmap Authors: Joseph Sadler | Published: June 8, 2026 A six-phase maturity roadmap for organizations that have already enabled AWS Security Hub and Amazon GuardDuty , covering tuning, notifications, automated remediation, and operational cadence. Introducing AWS Continuum: Security at machine speed Authors: Chet Kapoor | Published: June 17, 2026 AWS Continuum for code vulnerabilities is an AI-native platform that addresses the full lifecycle of a code vulnerability at machine speed—from discove
+```
+
+#### Corroborating sources (2)
+
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: ICYMI: June 2026 @AWS Security
+  - Published: 2026-07-15T00:37:58+00:00
+  - Link: https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/
+  - Summary: Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered identity and access management, threat intelligence, network security, AI-powered security tooling, and multi-account […]
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours
+  - Published: 2026-07-08T20:32:22+00:00
+  - Link: https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment
+  - Summary: The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.
 
 ### Cluster bfabcf1e25 — score 10
 
@@ -2069,48 +2106,50 @@ Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani L
   - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
   - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
-### Cluster ca7dbcaa1e — score 10
+### Cluster 174e783389 — score 10
 
-- Title: Winning 54% of the time
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-09T18:00:06+00:00
-- Link: https://blog.talosintelligence.com/winning-54-of-the-time/
+- Title: AI Security Report 2026
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-14T00:51:31+00:00
+- Link: https://research.checkpoint.com/2026/ai-security-report-2026/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- urgency_signals: no_patch_yet
+- threat_categories: ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: apt_espionage
-- urgency_signals: no_patch_yet
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach, apt_espionage, ai_security
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-With Wimbledon's help, Hazel argues against the popular myth that "Attackers only need to be right once, but defenders need to be right 100% of the time."
+For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
 ```
 
 #### Full body
 
 ```
-Winning 54% of the time By Hazel Burton Thursday, July 9, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. There’s a fairly cliché phrase in cybersecurity that I’m sure our audience is familiar with: Attackers only need to be right once, whereas defenders need to be right 100% of the time. I guess it captures the asymmetry of this industry, but I’ve never been entirely comfortable with the phrase because it assumes cybersecurity is a game of perfection. One mistake and it's over. I’ve been watching a lot of Wimbledon this week, as I have done since childhood. In fact, I believe my first words were, “C’mon Tim!” (For our non-U.K. audience, I’m referring to tennis player Tim Henman, who made four Wimbledon semi-finals in the late 90s and early 2000s and has a hill in the Wimbledon grounds named after him). Of the “big three” (or the “big four” if you’re Scottish), my favourite was always Rafa Nadal, but I have to admit there’s no one who could deliver a one-handed backhand quite like Roger Federer. I bet that when he swats at a fly, the fly apologises and claps its wings. As I saw him sitting in the Royal Box entirely on his own this week, watching tennis out of pure love of the game while everyone else scoffed their strawberries and cream in the comfort of hospitality, I remembered the commencement speech he gave at Dartmouth a couple of years ago. He told the students that, across his entire career, he won 80% of his matches. But of all the total points he played, he won 54% of them. Tennis is a long game (no one can tell you that more than Novak Djokovic and Felix Auger Aliassime who just played the longest quarter final in Wimbledon’s history last night). And, mathematically in tennis, you can lose more points and overall games than your opponent and still win the match. Which point you win matters more than the total amount of points you win. If you go to the IBM SlamTracker right now, you’ll see all sorts of stats around when players choose to attack, how often they successfully convert those attacking positions into points, and how often they win points they looked destined to lose (the “steal” score). Tennis is hundreds of small decisions: When to attack, when to defend, when to be patient, when to let the point develop. Not all of those decisions pan out because, well, you’re playing against an opponent who’s also making decisions within the point… and not a brick wall. In the SOC, it’s also about making thousands of judgement calls, using whatever hand you’re dealt. And with more context, you’re able to know your environment better and make better decisions. You can test more assumptions and follow a hypothesis that might lead somewhere, or nowhere at all. Because that’s the job, and perfection is a myth. The one big thing Cisco Talos’ latest findings on the China-nexus threat actor UAT-7810 shows they are expanding their Operational Relay Box (ORB) networks with a fresh suite of custom malware. The group exploits known vulnerabilities in unpatched Ruckus and ASUS routers to deploy new tools, including the upgraded "LONGLEASH" and "DOGLEASH" backdoors. UAT-7810 builds these covert networks to provide infrastructure for other APT groups to launch attacks against high-value targets. Why do I care? ORB networks create a massive blind spot. They allow secondary threat actors to mask their origins and route malicious traffic through seemingly innocuous nodes. By compromising edge devices like wireless routers, UAT-7810 builds a highly evasive, decentralized proxy network that easily bypasses traditional perimeter defenses. The active development of sophisticated, multi-platform tools like LONGLEASH shows this group is heavily investing in making their infrastructure incredibly resilient and hard to dismantle. So now what? Because UAT-7810 relies on exploiting n-day vulnerabilities, defenders must ensure all edge devices, particularly Ruckus and ASUS routers, are fully patched. Monitor net
+CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 463 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 416 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 AI Security Report 2026 July 14, 2026 https://research.checkpoint.com/2026/ai-security-report-2026/ For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the operation. Key observed findings AI has crossed from development aid to live attack operator. It now does the hands-on work inside live intrusions, from China-nexus espionage campaigns to a criminal breach of multiple Mexican government agencies and has spread from nation states to ordinary cyber criminals. AI now builds deployment-ready malware and attack suites. Its involvement is often invisible in the finished artifact: one developer used an AI environment to produce VoidLink, an 88,000-line command-and-control offensive framework, in under a week. Attackers prefer commercial models, and now abuse them by exploiting the agentic architecture, not just single prompts. Most actors favor jailbroken mainstream models over self-hosted ones, and the durable bypass is now a planted configuration file an agent loads and trusts across sessions. An AI-enabled criminal tooling market has matured. Phishing-as-a-service kits now embed a language model with the jailbreak built in, and conversational AI voice-agent services run vishing and one-time-passcode theft at scale. Virtual Identity is no longer a reliable trust anchor. Voice, face, documents, and live video are now cheap to forge convincingly and are widely used in attacks taking multi-channel social engineering to a new level of integration. AI itself is an expanding attack surface. Models cannot always separate data from instructions and content they process might influence the model’s behavior; the surrounding stack adds ordinary software vulnerabilities and supply-chain risk, all in a rapidly evolving ecosystem where security practices not always mature. Indirect prompt injection is on the rise. Detections of longer malicious payloads increased sharply, rising roughly fivefold between March and May 2026 and approaching 1% of observed prompts in May. Longer payloads are more typical of content-borne and agentic attack paths, this pattern suggests that indirect prompt injection is becoming more operationally relevant. Enterprise data leakage through GenAI is persistent and growing risk . High-risk prompts doubled from 2% to 4% during the last year, while organizations used an average of 10 AI applications each month, many without official approval. Data exposure risks are not evenly distributed across the verticals . Sector-level analysis reveals that AI-related data exposure risks are not evenly distributed across the verticals, and correlate both with AI usage patterns and security maturity. Business Services recorded the highest rate of high-risk GenAI prompts at 5.91%, meaning nearly one in every 17 AI interactions carried a significant risk of sensitive data exposure. To read the full findings, access the AI Security Report 2026 from Check Point Research here. GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLI
 ```
 
 #### Corroborating sources (1)
 
-- **Cisco Talos** (threat_research_primary)
-  - Title: Winning 54% of the time
-  - Published: 2026-07-09T18:00:06+00:00
-  - Link: https://blog.talosintelligence.com/winning-54-of-the-time/
-  - Summary: With Wimbledon's help, Hazel argues against the popular myth that "Attackers only need to be right once, but defenders need to be right 100% of the time."
+- **Check Point Research** (threat_research_primary)
+  - Title: AI Security Report 2026
+  - Published: 2026-07-14T00:51:31+00:00
+  - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
+  - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
 
 ### Cluster c8e0a6559d — score 10
 
@@ -2163,95 +2202,48 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July 
   - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 8d0224c08d — score 10
+### Cluster ca7dbcaa1e — score 10
 
-- Title: June 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-10T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
+- Title: Winning 54% of the time
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-09T18:00:06+00:00
+- Link: https://blog.talosintelligence.com/winning-54-of-the-time/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Fortinet, Ivanti, Microsoft 365
-- cve_ids: CVE-2020-17103, CVE-2022-0492, CVE-2025-55182, CVE-2026-25939, CVE-2026-35616
-- urgency_signals: actively_exploited, poc_available
+- threat_categories: apt_espionage
+- urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Microsoft 365, Fortinet, Ivanti
-- cve_ids: CVE-2026-35616, CVE-2026-25939, CVE-2020-17103, CVE-2022-0492, CVE-2025-55182
-- urgency_signals: actively_exploited, poc_available
+- threat_categories: apt_espionage
+- urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
+With Wimbledon's help, Hazel argues against the popular myth that "Attackers only need to be right once, but defenders need to be right 100% of the time."
 ```
 
 #### Full body
 
 ```
-June 2026 CVE Landscape In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation , 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month. 23 of the 60 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 34 were reported by vendors, and three were primarily surfaced through honeypot data. The 60 vulnerabilities in this report affected products from 36 vendors, with Microsoft accounting for approximately 18% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group created Nuclei templates to detect two of the vulnerabilities featured in this month’s report: CVE-2026-35616 affecting Fortinet FortiClient EMS and CVE-2026-25939 affecting Frangoteam FUXA. These are available to Recorded Future customers via the Recorded Future Intelligence Operations Platform. Quick reference: June 2026 Vulnerability Table All 57 vulnerabilities below were actively exploited in June 2026. This table does not include the three CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly report, in the platform. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2020-17103 99 Microsoft Windows 10/11 and Windows Server 2019 ✓ ✓ Link 2 CVE-2022-0492 99 Linux Kernel ✓ ✓ Link 3 CVE-2025-55182 99 Meta React Server Components packages ✓ ✓ ✓ Link 4 CVE-2025-67038 99 Lantronix EDS5000 ✓ 5 CVE-2025-8088 99 WinRAR ✓ ✓ ✓ Link 6 CVE-2026-10520 99 Ivanti Sentry ✓ ✓ ✓ Link 7 CVE-2026-11645 99 Google Chromium V8 and Chrome ✓ ✓ ✓ Link 8 CVE-2026-12569 99 PTC Windchill, Windchill PDMLink, and FlexPLM ✓ ✓ 9 CVE-2026-20230 99 Cisco Unified Communications Manager ✓ ✓ Link 10 CVE-2026-20245 99 Cisco Catalyst SD-WAN Manager and Controller ✓ ✓ ✓ Link 11 CVE-2026-20253 99 Splunk Enterprise ✓ ✓ Link 12 CVE-2026-20262 99 Cisco Catalyst SD-WAN Manager ✓ ✓ Link 13 CVE-2026-21509 99 Microsoft 365 Apps for Enterprise and Office 2016 ✓ (available to Recorded Future Customers) ✓ Link 14 CVE-2026-28318 99 SolarWinds Serv-U ✓ ✓ Link 15 CVE-2026-33825 99 Microsoft Defender Antimalware Platform ✓ (available to Recorded Future Customers) ✓ Link 16 CVE-2026-34908 99 Ubiquiti UniFi OS, UniFi OS Server, UDM, and UDM-Pro ✓ ✓ Link 17 CVE-2026-34909 99 Ubiquiti UniFi OS, UniFi OS Server, Express 7, and UDM ✓ ✓ Link 18 CVE-2026-34910 99 Ubiquiti UniFi OS, UniFi OS Server, UDM, and UDM-Pro ✓ ✓ ✓ Link 19 CVE-2026-35273 99 Oracle PeopleSoft Enterprise PeopleTools ✓ ✓ Link 20 CVE-2026-39808 99 FortiSandbox PaaS ✓ (available to Recorded Future Customers) ✓ ✓ Link 21 CVE-2026-41089 99 Microsoft Windows Server 2012 ✓ (available to Recorded Future Customers) ✓ ✓ Link 22 CVE-2026-42271 99 BerriAI LiteLLM ✓ ✓ ✓ Link 23 CVE-2026-48558 99 SimpleHelp ✓ ✓ Link 24 CVE-2026-48907 99 Joomla Content Editor (JCE) extension for Joomla ✓ ✓ Link 25 CVE-2026-50751 99 Check Point Security Gateway, Quantum Security Gateway, and Spark Firewalls ✓ ✓ Link 26 CVE-2026-54420 99 LiteSpeed cPanel Plugin ✓ ✓ Link 27 CVE-2026-7473 99 Arista EOS ✓ ✓ Link 28 CVE-2021-26855 89 Microsoft Exchange Server 2016 and 2019 ✓ ✓ ✓ Link 29 CVE-2021-36260 89 Hikvision Firmware ✓ ✓ ✓ Link 30 CVE-2022-40684 89 Fortinet FortiOS, FortiProxy, and FortiSwitchManager ✓ ✓ Link 31 CVE-2023-20198 89 Cisco IOS XE Software ✓ ✓ Link 32 CVE-2024-21182 89 Oracle WebLogic Server ✓ ✓ Link 33 CVE-2024-21762 89 Fortinet FortiProxy and FortiOS ✓ ✓ ✓ Link 34 CVE-2025-48595 89 Android Framework ✓ ✓ ✓ Link 35 CVE-
+Winning 54% of the time By Hazel Burton Thursday, July 9, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. There’s a fairly cliché phrase in cybersecurity that I’m sure our audience is familiar with: Attackers only need to be right once, whereas defenders need to be right 100% of the time. I guess it captures the asymmetry of this industry, but I’ve never been entirely comfortable with the phrase because it assumes cybersecurity is a game of perfection. One mistake and it's over. I’ve been watching a lot of Wimbledon this week, as I have done since childhood. In fact, I believe my first words were, “C’mon Tim!” (For our non-U.K. audience, I’m referring to tennis player Tim Henman, who made four Wimbledon semi-finals in the late 90s and early 2000s and has a hill in the Wimbledon grounds named after him). Of the “big three” (or the “big four” if you’re Scottish), my favourite was always Rafa Nadal, but I have to admit there’s no one who could deliver a one-handed backhand quite like Roger Federer. I bet that when he swats at a fly, the fly apologises and claps its wings. As I saw him sitting in the Royal Box entirely on his own this week, watching tennis out of pure love of the game while everyone else scoffed their strawberries and cream in the comfort of hospitality, I remembered the commencement speech he gave at Dartmouth a couple of years ago. He told the students that, across his entire career, he won 80% of his matches. But of all the total points he played, he won 54% of them. Tennis is a long game (no one can tell you that more than Novak Djokovic and Felix Auger Aliassime who just played the longest quarter final in Wimbledon’s history last night). And, mathematically in tennis, you can lose more points and overall games than your opponent and still win the match. Which point you win matters more than the total amount of points you win. If you go to the IBM SlamTracker right now, you’ll see all sorts of stats around when players choose to attack, how often they successfully convert those attacking positions into points, and how often they win points they looked destined to lose (the “steal” score). Tennis is hundreds of small decisions: When to attack, when to defend, when to be patient, when to let the point develop. Not all of those decisions pan out because, well, you’re playing against an opponent who’s also making decisions within the point… and not a brick wall. In the SOC, it’s also about making thousands of judgement calls, using whatever hand you’re dealt. And with more context, you’re able to know your environment better and make better decisions. You can test more assumptions and follow a hypothesis that might lead somewhere, or nowhere at all. Because that’s the job, and perfection is a myth. The one big thing Cisco Talos’ latest findings on the China-nexus threat actor UAT-7810 shows they are expanding their Operational Relay Box (ORB) networks with a fresh suite of custom malware. The group exploits known vulnerabilities in unpatched Ruckus and ASUS routers to deploy new tools, including the upgraded "LONGLEASH" and "DOGLEASH" backdoors. UAT-7810 builds these covert networks to provide infrastructure for other APT groups to launch attacks against high-value targets. Why do I care? ORB networks create a massive blind spot. They allow secondary threat actors to mask their origins and route malicious traffic through seemingly innocuous nodes. By compromising edge devices like wireless routers, UAT-7810 builds a highly evasive, decentralized proxy network that easily bypasses traditional perimeter defenses. The active development of sophisticated, multi-platform tools like LONGLEASH shows this group is heavily investing in making their infrastructure incredibly resilient and hard to dismantle. So now what? Because UAT-7810 relies on exploiting n-day vulnerabilities, defenders must ensure all edge devices, particularly Ruckus and ASUS routers, are fully patched. Monitor net
 ```
 
 #### Corroborating sources (1)
 
-- **Recorded Future** (threat_research_primary)
-  - Title: June 2026 CVE Landscape
-  - Published: 2026-07-10T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
-  - Summary: In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
-
-### Cluster caac5571c6 — score 10
-
-- Title: The Threat Isn’t the Frontier Model
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-08T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
-```
-
-#### Full body
-
-```
-The Threat Isn’t the Frontier Model Quantization is the Clock Summer ‘26 vibes: international flights, Riyadh heat, and plentiful CISO conversations. Every conversation (regardless of geographic location or industry vertical) currently begins and ends with AI strategy. Let’s unpack the nuance. Every executive should be contemplating two questions at this moment : Are we building, testing, and scaling agents for the coming onslaught of AI-enabled adversary activity? Do we have the breadth of intelligence necessary to move at machine speed? Why Agents and Why Now? Timing is everything in life. So the question is: why invest in agents for defensive workflows now? Two premises need to be explained here. First, let’s focus on financially motivated adversaries that don’t receive a government paycheck (directly or indirectly). The state-sponsored adversaries have a different set of resources at their disposal. There are controlled cases where Frontier AI models enable autonomous adversarial activity in malware generation or holistic intrusion chains. Even the Five Eyes are officially warning about adversarial use of frontier models. Yet the onslaught of offensive agents hasn’t materialized yet. Like the Uruk-hai attacking Helm’s Deep in The Lord of the Rings , we expect the wave is coming, but the automated army hasn’t arrived. Why not? Frontier models may be susceptible to context poisoning over time, but it’s difficult to use them at any scale for automated offensive operations. The guardrails are sufficient for the moment. Adversaries are also caught between the OPSEC tension of using third-party APIs (which increases attribution risk) and investing the resources to build local open-source models. While much has been made of open-source model capabilities, the reality is that time, effort, and financial resources are required to use them effectively for offensive campaigns. To get nerdy for a second (because the details are important), a recent experiment with LibreChat and Dolphin-llama3:14b (uncensored LLM) on a $3K local server (containing a reasonable Nvidia GPU with 16GB of VRAM ) revealed that simple tasks like coding a new web shell are still out of reach. The level of effort and hardware required to build a local resource capable of orchestrating effective autonomous attack agents will only decrease over time. Quantization is the clock defenders should be watching. A reductive quantization explanation in this AI context is using less memory by rounding billions of numbers (weights) rather than maintaining precision, thereby shrinking an AI model’s size. Even though the model is slightly less capable, it’s still useful for most tasks. Quantization drives the hardware bar down, and the lower that bar falls, the sooner opportunistic actors can execute attacks at scale. The danger for defenders isn’t the headline-grabbing frontier models; it’s the ease with which adversaries can deploy effective local models on modest hardware. Based on the previous 18 months of advances , the next 6-12 months will likely yield similar advances in open-source model capabilities with minimal hardware investment. That’s when opportunistic actors start staging at scale. Which brings us back to protecting the proverbial house with defensive AI agents. Now is the time to build , not ponder. We don’t jump into self-driving cars until we have some confidence that the edge cases have been worked out. Similarly, the agentic workflow edge cases can’t be discovered and solved without iteration and testing. Smart CISOs are building an AI control plane (in collaboration with adjacent business units) to enable transparency into AI token consumption, project ROI visibility, and code security . Building and testing agents is part of a larger control-plane project and is particularly time-sensitive. Sandwiched between data availability and information security regulations, CISOs need to generate trust and confidence in agents. Humans may stay in the decision l
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The Threat Isn’t the Frontier Model
-  - Published: 2026-07-08T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/build-defensive-ai-agents
-  - Summary: The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.
+- **Cisco Talos** (threat_research_primary)
+  - Title: Winning 54% of the time
+  - Published: 2026-07-09T18:00:06+00:00
+  - Link: https://blog.talosintelligence.com/winning-54-of-the-time/
+  - Summary: With Wimbledon's help, Hazel argues against the popular myth that "Attackers only need to be right once, but defenders need to be right 100% of the time."
 
 ### Cluster 4dacf306cd — score 10
 
@@ -2337,6 +2329,53 @@ Operationalizing CTEM: A Practical Playbook for Continuous Threat Exposure Manag
   - Link: https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/
   - Summary: Learn how to operationalize Continuous Threat Exposure Management (CTEM) with a practical framework for validating exploitability, prioritizing real risk, verifying remediation, and continuously reducing your organization's attack surface.
 
+### Cluster 8d0224c08d — score 10
+
+- Title: June 2026 CVE Landscape
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-10T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Fortinet, Ivanti, Microsoft 365
+- cve_ids: CVE-2020-17103, CVE-2022-0492, CVE-2025-55182, CVE-2026-25939, CVE-2026-35616
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Microsoft 365, Fortinet, Ivanti
+- cve_ids: CVE-2026-35616, CVE-2026-25939, CVE-2020-17103, CVE-2022-0492, CVE-2025-55182
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
+```
+
+#### Full body
+
+```
+June 2026 CVE Landscape In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation , 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month. 23 of the 60 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 34 were reported by vendors, and three were primarily surfaced through honeypot data. The 60 vulnerabilities in this report affected products from 36 vendors, with Microsoft accounting for approximately 18% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group created Nuclei templates to detect two of the vulnerabilities featured in this month’s report: CVE-2026-35616 affecting Fortinet FortiClient EMS and CVE-2026-25939 affecting Frangoteam FUXA. These are available to Recorded Future customers via the Recorded Future Intelligence Operations Platform. Quick reference: June 2026 Vulnerability Table All 57 vulnerabilities below were actively exploited in June 2026. This table does not include the three CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly report, in the platform. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2020-17103 99 Microsoft Windows 10/11 and Windows Server 2019 ✓ ✓ Link 2 CVE-2022-0492 99 Linux Kernel ✓ ✓ Link 3 CVE-2025-55182 99 Meta React Server Components packages ✓ ✓ ✓ Link 4 CVE-2025-67038 99 Lantronix EDS5000 ✓ 5 CVE-2025-8088 99 WinRAR ✓ ✓ ✓ Link 6 CVE-2026-10520 99 Ivanti Sentry ✓ ✓ ✓ Link 7 CVE-2026-11645 99 Google Chromium V8 and Chrome ✓ ✓ ✓ Link 8 CVE-2026-12569 99 PTC Windchill, Windchill PDMLink, and FlexPLM ✓ ✓ 9 CVE-2026-20230 99 Cisco Unified Communications Manager ✓ ✓ Link 10 CVE-2026-20245 99 Cisco Catalyst SD-WAN Manager and Controller ✓ ✓ ✓ Link 11 CVE-2026-20253 99 Splunk Enterprise ✓ ✓ Link 12 CVE-2026-20262 99 Cisco Catalyst SD-WAN Manager ✓ ✓ Link 13 CVE-2026-21509 99 Microsoft 365 Apps for Enterprise and Office 2016 ✓ (available to Recorded Future Customers) ✓ Link 14 CVE-2026-28318 99 SolarWinds Serv-U ✓ ✓ Link 15 CVE-2026-33825 99 Microsoft Defender Antimalware Platform ✓ (available to Recorded Future Customers) ✓ Link 16 CVE-2026-34908 99 Ubiquiti UniFi OS, UniFi OS Server, UDM, and UDM-Pro ✓ ✓ Link 17 CVE-2026-34909 99 Ubiquiti UniFi OS, UniFi OS Server, Express 7, and UDM ✓ ✓ Link 18 CVE-2026-34910 99 Ubiquiti UniFi OS, UniFi OS Server, UDM, and UDM-Pro ✓ ✓ ✓ Link 19 CVE-2026-35273 99 Oracle PeopleSoft Enterprise PeopleTools ✓ ✓ Link 20 CVE-2026-39808 99 FortiSandbox PaaS ✓ (available to Recorded Future Customers) ✓ ✓ Link 21 CVE-2026-41089 99 Microsoft Windows Server 2012 ✓ (available to Recorded Future Customers) ✓ ✓ Link 22 CVE-2026-42271 99 BerriAI LiteLLM ✓ ✓ ✓ Link 23 CVE-2026-48558 99 SimpleHelp ✓ ✓ Link 24 CVE-2026-48907 99 Joomla Content Editor (JCE) extension for Joomla ✓ ✓ Link 25 CVE-2026-50751 99 Check Point Security Gateway, Quantum Security Gateway, and Spark Firewalls ✓ ✓ Link 26 CVE-2026-54420 99 LiteSpeed cPanel Plugin ✓ ✓ Link 27 CVE-2026-7473 99 Arista EOS ✓ ✓ Link 28 CVE-2021-26855 89 Microsoft Exchange Server 2016 and 2019 ✓ ✓ ✓ Link 29 CVE-2021-36260 89 Hikvision Firmware ✓ ✓ ✓ Link 30 CVE-2022-40684 89 Fortinet FortiOS, FortiProxy, and FortiSwitchManager ✓ ✓ Link 31 CVE-2023-20198 89 Cisco IOS XE Software ✓ ✓ Link 32 CVE-2024-21182 89 Oracle WebLogic Server ✓ ✓ Link 33 CVE-2024-21762 89 Fortinet FortiProxy and FortiOS ✓ ✓ ✓ Link 34 CVE-2025-48595 89 Android Framework ✓ ✓ ✓ Link 35 CVE-
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: June 2026 CVE Landscape
+  - Published: 2026-07-10T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
+  - Summary: In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
+
 ### Cluster f0cefbafc4 — score 10
 
 - Title: Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?
@@ -2375,92 +2414,6 @@ Back to Blog Detection and Response Security Teams Are Ready To Become More Pree
   - Published: 2026-07-08T13:00:00+00:00
   - Link: https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey
   - Summary: The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the cleare
-
-### Cluster 5615f720c3 — score 10
-
-- Title: Finland issues wanted notice for hacker behind massive psychotherapy data breach
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-14T17:28:00+00:00
-- Link: https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.
-```
-
-#### Full body
-
-```
-Finland issues wanted notice for hacker behind massive psychotherapy data breach Finnish police have reportedly issued a wanted notice for convicted hacker Aleksanteri Kivimäki after the country's Supreme Court refused to hear his appeal, paving the way for authorities to return him to prison in one of Finland's most high-profile cybercrime cases. The Supreme Court's decision leaves in place a February Court of Appeal ruling that sentenced Kivimäki to nearly seven years in prison for hacking psychotherapy provider Vastaamo and later extorting both the company and its patients, according to Finnish media . Following the ruling, Eastern Uusimaa Police said they issued the wanted notice at the request of Finland's Criminal Sanctions Agency. Officers have been instructed to arrest Kivimäki if he is located and transfer him to Vantaa Prison to serve the rest of his sentence. His lawyer, Peter Jaari, told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland. The Court of Appeal convicted Kivimäki of aggravated data breach, attempted extortion and unlawfully distributing private information. The judges said the crimes were carefully planned, driven by financial gain and caused exceptional harm to a large number of especially vulnerable victims. The court said the offenses would normally have justified the maximum available sentence. However, it reduced Kivimäki's prison term by one month because he reached compensation agreements with some of the victims. Kivimäki has denied carrying out the attack throughout the case. He argued that prosecutors relied largely on circumstantial evidence, challenged the digital evidence linking him to the hack and disputed allegations involving cryptocurrency transactions tied to the extortion scheme. The appeals court released Kivimäki from pretrial detention in September 2025 after finding that he had already spent enough time in custody and that keeping him detained any longer could violate his rights. Because most of his sentence had effectively been served while he awaited trial, he remained free during the appeals process. Now that the Supreme Court has declined to hear the case, the conviction is final. Finnish authorities are trying to find Kivimäki so he can serve the remainder of his sentence. The Vastaamo breach occurred in 2018 but did not become public until 2020, when the attacker first tried to extort the company before demanding money directly from thousands of patients. When many victims refused to pay, confidential therapy notes and other highly sensitive records were published online. The stolen database contained information on about 33,000 patients, and more than 24,000 people reported receiving extortion demands. The case became the largest criminal case in Finnish history by number of victims, many of whom were children or people receiving treatment for severe psychological trauma. Cybercrime Government News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Finland issues wanted notice for hacker behind massive psychotherapy data breach
-  - Published: 2026-07-14T17:28:00+00:00
-  - Link: https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach
-  - Summary: The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.
-
-### Cluster 3dba733830 — score 10
-
-- Title: NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-14T13:55:00+00:00
-- Link: https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: manufacturing_industrial
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: manufacturing_industrial
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.
-```
-
-#### Full body
-
-```
-An M142 HIMARS driver in an artillery unit of 7th Rapid Response Corps of the Armed Forces of Ukraine. Image: General Staff of the Armed Forces of Ukraine via Facebook NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says Russian state-backed hackers are systematically compromising internet-connected security cameras across Europe and Ukraine to gather intelligence on NATO military logistics and identify Ukrainian troops for battlefield targeting, Dutch intelligence agencies warned. In a public advisory , the Netherlands' General Intelligence and Security Service (AIVD) and Military Intelligence and Security Service (MIVD) said at least one Russian intelligence service has been carrying out cyber-espionage operations against internet-accessible cameras in the Netherlands, other NATO and EU member states and Ukraine. The goal is to collect intelligence of military value, including activity on military transport routes and weapons shipments destined for Ukraine. In Ukraine, the agencies said, hacked cameras have in some cases been used to locate Ukrainian military personnel, with the intelligence subsequently supporting attempts to kill soldiers and destroy equipment. The Dutch agencies said they also identified a small number of compromised cameras positioned along military logistics routes in the Netherlands as part of the broader operation. "As a key transit country, the Netherlands is an important espionage target due to its geographic location and its support for Ukraine," the July 10 advisory said. Moscow has repeatedly denied conducting malicious cyber operations against Western countries. Tracking NATO logistics According to the advisory, the attackers scan the internet for exposed devices, identify IP cameras based on manufacturer information and exploit weak security, including default passwords, outdated firmware and default configurations. The hackers then automatically analyze video feeds using image-recognition software to identify military vehicles and their cargo. Beyond the war, the Dutch intelligence services assess that Russia is also using the cameras to collect militarily relevant intelligence inside NATO and EU countries even when it is unrelated to Ukraine. While they said they have not observed Moscow using such information to support military attacks outside Ukraine, the campaign "demonstrates Russia's ability to collect operational intelligence that could be used in a future conflict." "The number of cyber espionage operations conducted by Russian state actors in support of military operations has steadily increased since the beginning of the war against Ukraine," the advisory said. The advisory urged organizations operating internet-connected cameras to strengthen their security by changing default credentials, keeping firmware up to date and reviewing device configurations. It also advised organizations to consider cameras’ country of origin. "Countries including China, Russia, and Iran actively conduct offensive cyber programs targeting Dutch interests," the advisory said. Nation-state News Technology Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says
-  - Published: 2026-07-14T13:55:00+00:00
-  - Link: https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands
-  - Summary: Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.
 
 ### Cluster 3be6f6fab7 — score 10
 
@@ -2553,6 +2506,49 @@ Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown By Lawren
   - Published: 2026-07-14T16:08:47+00:00
   - Link: https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/
   - Summary: Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]
+
+### Cluster 5615f720c3 — score 10
+
+- Title: Finland issues wanted notice for hacker behind massive psychotherapy data breach
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-14T17:28:00+00:00
+- Link: https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.
+```
+
+#### Full body
+
+```
+Finland issues wanted notice for hacker behind massive psychotherapy data breach Finnish police have reportedly issued a wanted notice for convicted hacker Aleksanteri Kivimäki after the country's Supreme Court refused to hear his appeal, paving the way for authorities to return him to prison in one of Finland's most high-profile cybercrime cases. The Supreme Court's decision leaves in place a February Court of Appeal ruling that sentenced Kivimäki to nearly seven years in prison for hacking psychotherapy provider Vastaamo and later extorting both the company and its patients, according to Finnish media . Following the ruling, Eastern Uusimaa Police said they issued the wanted notice at the request of Finland's Criminal Sanctions Agency. Officers have been instructed to arrest Kivimäki if he is located and transfer him to Vantaa Prison to serve the rest of his sentence. His lawyer, Peter Jaari, told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland. The Court of Appeal convicted Kivimäki of aggravated data breach, attempted extortion and unlawfully distributing private information. The judges said the crimes were carefully planned, driven by financial gain and caused exceptional harm to a large number of especially vulnerable victims. The court said the offenses would normally have justified the maximum available sentence. However, it reduced Kivimäki's prison term by one month because he reached compensation agreements with some of the victims. Kivimäki has denied carrying out the attack throughout the case. He argued that prosecutors relied largely on circumstantial evidence, challenged the digital evidence linking him to the hack and disputed allegations involving cryptocurrency transactions tied to the extortion scheme. The appeals court released Kivimäki from pretrial detention in September 2025 after finding that he had already spent enough time in custody and that keeping him detained any longer could violate his rights. Because most of his sentence had effectively been served while he awaited trial, he remained free during the appeals process. Now that the Supreme Court has declined to hear the case, the conviction is final. Finnish authorities are trying to find Kivimäki so he can serve the remainder of his sentence. The Vastaamo breach occurred in 2018 but did not become public until 2020, when the attacker first tried to extort the company before demanding money directly from thousands of patients. When many victims refused to pay, confidential therapy notes and other highly sensitive records were published online. The stolen database contained information on about 33,000 patients, and more than 24,000 people reported receiving extortion demands. The case became the largest criminal case in Finnish history by number of victims, many of whom were children or people receiving treatment for severe psychological trauma. Cybercrime Government News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Finland issues wanted notice for hacker behind massive psychotherapy data breach
+  - Published: 2026-07-14T17:28:00+00:00
+  - Link: https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach
+  - Summary: The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.
 
 ### Cluster 5fab32b5e5 — score 10
 
@@ -2678,7 +2674,7 @@ FIFA’s network was vulnerable to anyone with even minimal access.
 #### Full body
 
 ```
-Vulnerability in FIFA’s Network FIFA’s network was vulnerable to anyone with even minimal access. Tags: hacking , sports , vulnerabilities Posted on July 14, 2026 at 7:06 AM • 4 Comments
+Zsolt • July 14, 2026 8:54 PM FIFA’s network was vulnerable I wouldn’t call it a “network” issue. A couple of applications’ (Football Data Platform, Commentator Information System) backends failed to check user authorization, the checks were all done by the client-side (UI) code.
 ```
 
 #### Corroborating sources (1)
@@ -2733,57 +2729,6 @@ A cybersecurity startup dangling millions of dollars to acquire zero-day securit
   - Published: 2026-07-08T12:31:39+00:00
   - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
   - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
-
-### Cluster 53ef47508e — score 10
-
-- Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-14T13:48:07+00:00
-- Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- affected_products: GitHub
-- cve_ids: CVE-2026-57219, CVE-2026-57221
-- urgency_signals: no_patch_yet, preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: mfa_bypass
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- affected_products: GitHub
-- cve_ids: CVE-2026-57219, CVE-2026-57221
-- urgency_signals: preauth_unauth, no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
-```
-
-#### Full body
-
-```
-RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata  Ravie Lakshmanan  Jul 14, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth secret to an unauthenticated attacker in a single request, a direct path to full broker takeover in the configurations that use that secret." The second vulnerability allows any logged-in user to silently read other tenants' data. Both shortcomings are said to have been present in the codebase since early 2024, impacting RabbitMQ release lines from 3.13.0 and later. They have been addressed in versions 4.3.0, 4.2.6, 4.1.11, 4.0.20, and 3.13.15. There is no evidence of active exploitation of either of the vulnerabilities prior to the public disclosure. A brief description of the two flaws is below - CVE-2026-57219 (CVSS score: 8.7) - An obsolete HTTP API endpoint ("GET /api/auth") that reveals client secret on RabbitMQ installations that had OAuth 2 configured to use the management.oauth_client_secret configuration key, allowing an attacker to exchange it for an administrator token and obtain full control of every message, queue, user, and broker setting. CVE-2026-57221 (CVSS score: 5.3) - A missing authorization that allows any authenticated user who can connect to a virtual host to enumerate all queue and exchange names in that virtual host and read queue message counts and consumer counts, regardless of their actual permissions. "The endpoint's authorization check was hard-coded to always allow the request, unlike every other sensitive management endpoint," Miggo said about CVE-2026-57219. "The risk is sharpest wherever the management port is reachable by an untrusted network: cloud or multi-tenant setups, or a management UI accidentally exposed to the internet." Besides patching to the latest versions, it's advised to rotate the OAuth client secret if the management interface is reachable over the internet, limit access to port 15672 to prevent the management interface from being reachable over the network, separate tenants by virtual host, and implement firewall rules to block access to the vulnerable endpoint on unpatched instances. The disclosure comes as RabbitMQ maintainers addressed two critical-severity flaws that could result in a TLS client-authentication bypass (CVSS score: 9.1) and allow an attacker in an adversary-in-the-middle (AitM) position to forge JSON Web Key Set (JWKS) responses and cause the broker to accept arbitrary JWTs (CVSS score: 9.2). Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Cloud security , enterprise security , Identity and Access Management , network security , Open Source Security , Vulnerability ⚡ Top Stories This Week 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Run
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-  - Published: 2026-07-14T13:48:07+00:00
-  - Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-  - Summary: Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
 
 ### Cluster aa4a893323 — score 10
 
@@ -3204,6 +3149,49 @@ US sanctions VPN, malware providers for enabling ransomware attacks By Sergiu Ga
   - Link: https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/
   - Summary: The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]
 
+### Cluster 3dba733830 — score 9
+
+- Title: NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-14T13:55:00+00:00
+- Link: https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: manufacturing_industrial
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: manufacturing_industrial
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.
+```
+
+#### Full body
+
+```
+An M142 HIMARS driver in an artillery unit of 7th Rapid Response Corps of the Armed Forces of Ukraine. Image: General Staff of the Armed Forces of Ukraine via Facebook NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says Russian state-backed hackers are systematically compromising internet-connected security cameras across Europe and Ukraine to gather intelligence on NATO military logistics and identify Ukrainian troops for battlefield targeting, Dutch intelligence agencies warned. In a public advisory , the Netherlands' General Intelligence and Security Service (AIVD) and Military Intelligence and Security Service (MIVD) said at least one Russian intelligence service has been carrying out cyber-espionage operations against internet-accessible cameras in the Netherlands, other NATO and EU member states and Ukraine. The goal is to collect intelligence of military value, including activity on military transport routes and weapons shipments destined for Ukraine. In Ukraine, the agencies said, hacked cameras have in some cases been used to locate Ukrainian military personnel, with the intelligence subsequently supporting attempts to kill soldiers and destroy equipment. The Dutch agencies said they also identified a small number of compromised cameras positioned along military logistics routes in the Netherlands as part of the broader operation. "As a key transit country, the Netherlands is an important espionage target due to its geographic location and its support for Ukraine," the July 10 advisory said. Moscow has repeatedly denied conducting malicious cyber operations against Western countries. Tracking NATO logistics According to the advisory, the attackers scan the internet for exposed devices, identify IP cameras based on manufacturer information and exploit weak security, including default passwords, outdated firmware and default configurations. The hackers then automatically analyze video feeds using image-recognition software to identify military vehicles and their cargo. Beyond the war, the Dutch intelligence services assess that Russia is also using the cameras to collect militarily relevant intelligence inside NATO and EU countries even when it is unrelated to Ukraine. While they said they have not observed Moscow using such information to support military attacks outside Ukraine, the campaign "demonstrates Russia's ability to collect operational intelligence that could be used in a future conflict." "The number of cyber espionage operations conducted by Russian state actors in support of military operations has steadily increased since the beginning of the war against Ukraine," the advisory said. The advisory urged organizations operating internet-connected cameras to strengthen their security by changing default credentials, keeping firmware up to date and reviewing device configurations. It also advised organizations to consider cameras’ country of origin. "Countries including China, Russia, and Iran actively conduct offensive cyber programs targeting Dutch interests," the advisory said. Nation-state News Technology Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says
+  - Published: 2026-07-14T13:55:00+00:00
+  - Link: https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands
+  - Summary: Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.
+
 ### Cluster c5c693a8e3 — score 9
 
 - Title: ClickFix's Mushrooming Ecosystem Demands New Defense Tactics
@@ -3329,6 +3317,57 @@ The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmor
   - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
   - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
 
+### Cluster 53ef47508e — score 9
+
+- Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-14T13:48:07+00:00
+- Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: mfa_bypass
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services
+- affected_products: GitHub
+- cve_ids: CVE-2026-57219, CVE-2026-57221
+- urgency_signals: no_patch_yet, preauth_unauth
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: mfa_bypass
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services
+- affected_products: GitHub
+- cve_ids: CVE-2026-57219, CVE-2026-57221
+- urgency_signals: preauth_unauth, no_patch_yet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
+```
+
+#### Full body
+
+```
+RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata  Ravie Lakshmanan  Jul 14, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth secret to an unauthenticated attacker in a single request, a direct path to full broker takeover in the configurations that use that secret." The second vulnerability allows any logged-in user to silently read other tenants' data. Both shortcomings are said to have been present in the codebase since early 2024, impacting RabbitMQ release lines from 3.13.0 and later. They have been addressed in versions 4.3.0, 4.2.6, 4.1.11, 4.0.20, and 3.13.15. There is no evidence of active exploitation of either of the vulnerabilities prior to the public disclosure. A brief description of the two flaws is below - CVE-2026-57219 (CVSS score: 8.7) - An obsolete HTTP API endpoint ("GET /api/auth") that reveals client secret on RabbitMQ installations that had OAuth 2 configured to use the management.oauth_client_secret configuration key, allowing an attacker to exchange it for an administrator token and obtain full control of every message, queue, user, and broker setting. CVE-2026-57221 (CVSS score: 5.3) - A missing authorization that allows any authenticated user who can connect to a virtual host to enumerate all queue and exchange names in that virtual host and read queue message counts and consumer counts, regardless of their actual permissions. "The endpoint's authorization check was hard-coded to always allow the request, unlike every other sensitive management endpoint," Miggo said about CVE-2026-57219. "The risk is sharpest wherever the management port is reachable by an untrusted network: cloud or multi-tenant setups, or a management UI accidentally exposed to the internet." Besides patching to the latest versions, it's advised to rotate the OAuth client secret if the management interface is reachable over the internet, limit access to port 15672 to prevent the management interface from being reachable over the network, separate tenants by virtual host, and implement firewall rules to block access to the vulnerable endpoint on unpatched instances. The disclosure comes as RabbitMQ maintainers addressed two critical-severity flaws that could result in a TLS client-authentication bypass (CVSS score: 9.1) and allow an attacker in an adversary-in-the-middle (AitM) position to forge JSON Web Key Set (JWKS) responses and cause the broker to accept arbitrary JWTs (CVSS score: 9.2). Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Cloud security , enterprise security , Identity and Access Management , network security , Open Source Security , Vulnerability ⚡ Top Stories This Week 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Run
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
+  - Published: 2026-07-14T13:48:07+00:00
+  - Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+  - Summary: Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
+
 ### Cluster aad8380132 — score 9
 
 - Title: Smashing Security podcast #475: JadePuffer – the AI that ran a ransomware attack all by itself
@@ -3421,22 +3460,16 @@ Infosecurity Magazine Home » News » Lidl Notifies Customers of Third-Party Dat
 - Source: tl;dr sec (practitioner_analysis)
 - Published: 2026-07-09T14:30:00+00:00
 - Link: https://tldrsec.com/p/tldr-sec-336
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_products: GitHub, Gitea
-- urgency_signals: zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- affected_products: GitHub, Gitea
-- urgency_signals: zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_3_analysis
 
@@ -3444,12 +3477,6 @@ Infosecurity Magazine Home » News » Lidl Notifies Customers of Third-Party Dat
 
 ```
 An MCP powered system that's continuously finding and reproducing vulns, improvements to Datadog's OSS malware hunting tool, Hakluke muses on the future of bug bounty
-```
-
-#### Full body
-
-```
-0 tl;dr sec Posts [tl;dr sec] #336 - Autonomous Vulnerability Hunting, GuardDog 3.0, Are Bug Bounties Cooked? [tl;dr sec] #336 - Autonomous Vulnerability Hunting, GuardDog 3.0, Are Bug Bounties Cooked? An MCP powered system that's continuously finding and reproducing vulns, improvements to Datadog's OSS malware hunting tool, Hakluke muses on the future of bug bounty Clint Gibler July 09, 2026 Hey there, I hope you’ve been doing well! 🎆 Amurrica Day I love how peak America the 4th of July is, with tons of outdoor grilling, people wearing red, white, and blue, and of course fireworks. In some circles, it’s not cool to be patriotic right now. While we have and will continue to make mistakes as a country, I think we can still be proud of the good parts, while striving to do better. I think everyone should be proud of where they came from, and what makes that place unique. This year I watched the Pier 39 fireworks from a nearby rooftop while a DJ blasted Katy Perry’s song Firework (not the Moulin Rouge musical version). Watching fireworks in San Francisco is often a futile endeavor, given the high likelihood that what you actually get to see is some slight glimmers in the ever present fog. Still, it was fun. Though I must say getting home was a disaster - tons of traffic on narrow roads, and frequent traffic jams due to Waymos. I think it took like 2.5 hours to get home, when I could have walked home in an hour. I considered jumping out of the car and tucking and rolling, and by that I mean calmly stepping out and standing, as we were basically parked. Wherever you were, I hope you had a fun and connecting weekend with family and friends 🤗 P.S. If you or a friend is an excellent software engineer, my team at OpenAI is hiring: job description . Early access to models, infinite tokens, and even higher ambition. We’re aiming to secure the world and Patch the Planet. You in? Sponsor 📣 What If Every Threat Report Came With the Hunt Already Done? A vendor report drops a new TTP into your Slack. Somewhere in it is what actually matters to your environment, and knowing where to look is the real skill, not typing the query. HUMAN Security built hunting agents in BlinkOps that read the report, cut straight to what is relevant, then hit every system in your stack, SIEM, EDR, cloud logs, combining deterministic logic with LLM. No blind spots left uninspected. What comes back is not a guess. It is the real blast radius, exposed. We recorded the full process. 👉 Watch the Process Behind a Threat Hunting Agent 👈 From threat intel → to hunt across your SIEM, EDR, and more + automatically feeding confirmed threats into detection engineering is pretty cool. This is a great area where AI can scale defensive work. AppSec Exploitarium: Mass Disclosure of Zero-Day Proof-of-Concepts Ethan Andrews describes how an anonymous GitHub researcher named "bikini" published Exploitarium , an archive of over 130 proof-of-concept exploits and vulnerability write-ups dropped without informing vendors, covering targets like libssh2, Gitea, 7-Zip, Docker, OpenVPN Connect, VLC, and nmap. 💡 As more people gain the ability to find serious vulnerabilities, we might see more drops like this 😅 Important to speed up triage and patching for maintainers, as well as companies. Are bug bounties cooked? Luke Stephens (Hakluke) disagrees that bug bounties are cooked despite AI reshaping the field. Critical bugs used to take years of intuition and target knowledge, but now the same bugs are within reach of anyone with a frontier model subscription, so supply is up while demand isn't and payouts are down. He isn't worried about HackerOne and Bugcrowd training on submissions or pre-cleaning bugs, since hackers already compete against internal security teams' AI, top hunters' automation, and offensive AI startups like XBOW, Ethiack, and Penligent. What worries him is cost, since frontier model tokens now run top hunters hundreds to thousands a month, and if that becomes the ticket to c
 ```
 
 #### Corroborating sources (1)
@@ -3763,6 +3790,39 @@ A major credential leak spurred the Cybersecurity and Infrastructure Security Ag
   - Link: https://cyberscoop.com/cisa-credential-leak-forensic-report/
   - Summary: A major credential leak spurred the Cybersecurity and Infrastructure Security Agency to strengthen protections for its sensitive materials, improve how researchers can report agency vulnerabilities and develop plans for similar incidents, the agency said in a forensic report released Thursday. The blog post outlines CISA’s response to the leak that the researcher who discovered it […] The post CISA looks to remedy ailments from big May credential leak appeared first on CyberScoop .
 
+### Cluster 152995b5e9 — score 8
+
+- Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-07-08T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
+  - Published: 2026-07-08T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
+  - Summary: We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
+
 ### Cluster 8fa37afed0 — score 8
 
 - Title: Microsoft Reins in RoguePlanet Zero-Day Threat
@@ -3799,39 +3859,6 @@ The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) e
   - Published: 2026-07-09T20:21:19+00:00
   - Link: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
   - Summary: The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.
-
-### Cluster 152995b5e9 — score 8
-
-- Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-07-08T14:00:00+00:00
-- Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
-  - Published: 2026-07-08T14:00:00+00:00
-  - Link: https://www.blackhillsinfosec.com/the-goldilocks-zone/
-  - Summary: We're all petrified about missing a critical event or misclassifying an alert, but when we're talking about incident response (IR), there are often hundreds if not thousands of alerts to parse through. It's easy to get caught up with one alert because it feels "too hot" or maybe not spend enough time looking into something that initially seems "too cold." The post Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster 8f97c174fa — score 8
 
