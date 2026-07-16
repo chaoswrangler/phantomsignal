@@ -6,17 +6,48 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 16 Jul 2026 18:11:40 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 20:06:20 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
-<title>New Exploitable BOLA Found in Immich (self-hosted media platform)</title>
-<link>https://www.reddit.com/r/netsec/comments/1uy9f9u/new_exploitable_bola_found_in_immich_selfhosted/</link>
-<description><![CDATA[Full disclosure I&apos;m at Escape but wanted to share something we found that would be interesting to those here! Escape&apos;s security research team found a Broken Access Control flaw in Immich which let any user read photos in a locked folder without the required PIN. Immich is a self-hosted media platform with 100k+ stars on GitHub . Their &quot;locked folder&quot; hides sensitive assets behind a PIN-elevated session. What we found: Four of the five search endpoints enforce that; POST /search/random doesn&apos;t. If you send it with the visibility field simply omitted and it returns the caller&apos;s locked assets from a session that never entered the PIN, and, with a partner relationship, the partner&apos;s locked assets too. If you&apos;re interested in how we did it or how you can reproduce it yourself the full breakdown with reproduction instructions is linked! And if anyone has any questions we would love to answer them. submitted by /u/EscapeSecurity [link] [comments]]]></description>
-<pubDate>Thu, 16 Jul 2026 17:28:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uy9f9u/new_exploitable_bola_found_in_immich_selfhosted/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
+<title>Claude Chrome extension flaw lets malicious extensions trigger AI actions</title>
+<link>https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/</link>
+<description><![CDATA[A flaw in Anthropic&apos;s Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude&apos;s access to connected services such as Gmail, Google Docs, Google Calendar, and Salesforce. [...]<br/><br/><em>Tags: Salesforce</em>]]></description>
+<pubDate>Thu, 16 Jul 2026 19:26:07 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Salesforce</category>
+</item>
+<item>
+<title>New OkoBot framework deploys 20 payloads to steal data, crypto</title>
+<link>https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/</link>
+<description><![CDATA[A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]]]></description>
+<pubDate>Thu, 16 Jul 2026 19:09:35 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Begun, the Patch Wars have</title>
+<link>https://blog.talosintelligence.com/begun-the-patch-wars-have/</link>
+<description><![CDATA[Long foretold, the Great Patching has begun and it’s a doozy. Buckle in as Joe takes you through the story.<br/><br/><em>Tags: Cisco · phishing_social_eng · active_exploitation</em>]]></description>
+<pubDate>Thu, 16 Jul 2026 18:00:50 +0000</pubDate>
+<guid isPermaLink="true">https://blog.talosintelligence.com/begun-the-patch-wars-have/</guid>
+<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
+<category>threat_research_primary</category>
+<category>Cisco</category>
+<category>phishing_social_eng</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack</title>
+<link>https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html</link>
+<description><![CDATA[Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London. The attack left 148 TfL systems inoperable and forced all 27,000 of the transport authority&apos;s employees into an office to get their passwords reset in person. Both the NCA and the CPS put TfL&apos;s losses and recovery]]></description>
+<pubDate>Thu, 16 Jul 2026 17:09:25 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories</title>
@@ -519,7 +550,7 @@
 <description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 01:36:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
@@ -530,7 +561,7 @@
 <description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 01:36:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
@@ -544,6 +575,19 @@
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>The CISO&apos;s guide to headless cloud security</title>
+<link>https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security</link>
+<description><![CDATA[Attackers went agentic. Your security architecture should too. A CISO&apos;s guide to headless, API-first defense.<br/><br/><em>Tags: GitHub · Kubernetes · ransomware_extortion · cloud_abuse · vulnerability_disclosure · active_exploitation</em>]]></description>
+<pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+<category>GitHub</category>
+<category>Kubernetes</category>
+<category>ransomware_extortion</category>
+<category>cloud_abuse</category>
 </item>
 <item>
 <title>The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)</title>
@@ -992,16 +1036,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>US charges alleged operators of Russian bulletproof hosting service</title>
-<link>https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/</link>
-<description><![CDATA[U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Wed, 15 Jul 2026 07:45:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands</title>
 <link>https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html</link>
 <description><![CDATA[SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to<br/><br/><em>Tags: SonicWall · CVE-2026-15409 · zero_day</em>]]></description>
@@ -1439,13 +1473,12 @@
 <item>
 <title>Pandora’s Container Part 1: Unpacking Azure Container Security</title>
 <link>https://trustedsec.com/blog/pandoras-container-part-1-unpacking-azure-container-security</link>
-<description><![CDATA[&lt;p&gt;Azure container services are everywhere. Their attack surface? Often overlooked. In Part 1 of this blog series, we walk through offensive techniques targeting registries, token keys, and container instances in Azure.&lt;/p&gt;<br/><br/><em>Tags: Azure · credential_theft</em>]]></description>
+<description><![CDATA[&lt;p&gt;Azure container services are everywhere. Their attack surface? Often overlooked. In Part 1 of this blog series, we walk through offensive techniques targeting registries, token keys, and container instances in Azure.&lt;/p&gt;<br/><br/><em>Tags: Azure</em>]]></description>
 <pubDate>Tue, 14 Jul 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://trustedsec.com/blog/pandoras-container-part-1-unpacking-azure-container-security</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
 <category>Azure</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>AI Security Report 2026</title>
@@ -1561,16 +1594,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>Europe strikes out against Russia’s Turla over espionage, ‘destructive attacks’</title>
-<link>https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/</link>
-<description><![CDATA[The EU, its members and the U.K. took action against Russian government officials and others while attributing the winter cyberattacks against Poland’s energy grid to the FSB. The post Europe strikes out against Russia’s Turla over espionage, ‘destructive attacks’ appeared first on CyberScoop .<br/><br/><em>Tags: apt_espionage</em>]]></description>
-<pubDate>Mon, 13 Jul 2026 16:28:10 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>apt_espionage</category>
 </item>
 <item>
 <title>Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV</title>
@@ -1968,15 +1991,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>Laser Attack Resets Tangem Wallet Passwords on Cards That Can&apos;t Be Patched</title>
-<link>https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html</link>
-<description><![CDATA[Researchers at Ledger&apos;s Donjon security team have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card&apos;s password to anything the attacker picks. No old password. No backup card. Once it is reset, whoever did it controls the wallet and can move the coins out. This is not an emergency for most owners. The attack needs]]></description>
-<pubDate>Fri, 10 Jul 2026 14:51:49 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Fresh ATM Crypto Software Bugs: Jackpot or Bust?</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust</link>
 <description><![CDATA[Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.<br/><br/><em>Tags: Microsoft BitLocker</em>]]></description>
@@ -2086,6 +2100,24 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>The new GPT-5.6 family: Luna, Terra, Sol</title>
+<link>https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything</link>
+<description><![CDATA[OpenAI&apos;s latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn&apos;t tell us much now that the number of reasoning tokens can differ so much between models for the same task. All three models have a February 16th 2026 knowledge cutoff, a million token context window, and 128,000 maximum output tokens. OpenAI&apos;s biggest benchmark claim concerns long-running agentic performance, with one benchmark showing all three models outperforming Claude Fable 5: We trained GPT-5.6 to get more useful work from every token. On Agents’ Last Exam , an evaluation of long-running professional workflows across 55 fields, GPT-5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 point]]></description>
+<pubDate>Thu, 09 Jul 2026 19:46:38 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>AI Agents Are a New Kind of Identity — and Most Organizations Aren&apos;t Ready</title>
+<link>https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready</link>
+<description><![CDATA[If you&apos;re handling AI agents like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.]]></description>
+<pubDate>Thu, 09 Jul 2026 19:16:02 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>WolfSSL, GeoVision, VTK vulnerabilities</title>
 <link>https://blog.talosintelligence.com/wolfssl-vulnerabilities/</link>
 <description><![CDATA[Cisco Talos’ Vulnerability Discovery &amp; Research team recently disclosed three vulnerabilities in WolfSSF, fourteen in GeoVision, and one vulnerability in VTK-DICOM. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco’s third-party vulnerability disclosure policy . For<br/><br/><em>Tags: Cisco · vulnerability_disclosure</em>]]></description>
@@ -2183,7 +2215,7 @@
 <description><![CDATA[GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 <category>web_shell_backdoor</category>
@@ -2194,7 +2226,7 @@
 <description><![CDATA[GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 <category>web_shell_backdoor</category>
@@ -2809,15 +2841,6 @@
 <guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/</guid>
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>The CISO&apos;s guide to headless cloud security</title>
-<link>https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security</link>
-<description><![CDATA[Attackers went agentic. Your security architecture should too. A CISO&apos;s guide to headless, API-first defense.]]></description>
-<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security</guid>
-<source url="https://sysdig.com/feed/">Sysdig</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation</title>
@@ -3609,6 +3632,15 @@
 <guid isPermaLink="true">https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/</guid>
 <source url="https://labs.watchtowr.com/rss/">watchTowr Labs</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>FIFA was saved this time</title>
+<link>https://www.reddit.com/r/netsec/comments/1ulmoyx/fifa_was_saved_this_time/</link>
+<description><![CDATA[submitted by /u/scorp100n [link] [comments]]]></description>
+<pubDate>Thu, 02 Jul 2026 16:14:57 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1ulmoyx/fifa_was_saved_this_time/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Improving security posture across the Microsoft partner ecosystem</title>
@@ -5672,15 +5704,6 @@
 <guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
-</item>
-<item>
-<title>Scripting the disassembler: Local agentic reverse engineering through vbdec’s live COM object model</title>
-<link>https://blog.talosintelligence.com/scripting-the-disassembler/</link>
-<description><![CDATA[Cisco Talos detailed a new approach to reverse engineering that pairs local AI agents with traditional analysis tools like the VB6 disassembler vbdec. Instead of awkwardly bolting AI onto the software, vbdec exposes its parsed data through a live COM interface.]]></description>
-<pubDate>Thu, 18 Jun 2026 10:00:05 +0000</pubDate>
-<guid isPermaLink="true">https://blog.talosintelligence.com/scripting-the-disassembler/</guid>
-<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Killing me gently: Inside Gentlemen’s EDR killer framework</title>
@@ -12204,7 +12227,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f5e2ff223a0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fb0dd50dd00&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20447,7 +20470,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20456,7 +20479,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20465,7 +20488,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20474,7 +20497,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20483,7 +20506,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20493,7 +20516,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20502,7 +20525,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20511,7 +20534,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20520,7 +20543,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20529,7 +20552,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 16 Jul 2026 18:11:40 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 20:06:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
