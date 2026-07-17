@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-17T22:01:57.971793+00:00",
+  "generated_at": "2026-07-17T22:57:13.822884+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 77,
-  "total_items_in_window": 356,
-  "total_clusters_raw": 170,
-  "total_clusters_in_packet": 80,
-  "dropped_low_score": 88,
-  "dropped_overflow": 2,
+  "total_items_in_window": 349,
+  "total_clusters_raw": 165,
+  "total_clusters_in_packet": 78,
+  "dropped_low_score": 87,
+  "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -74,8 +81,15 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -88,13 +102,6 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
@@ -102,11 +109,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Microsoft Threat Intelligence": {
@@ -116,26 +123,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 6
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -144,12 +137,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 2
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -158,12 +151,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 3
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -184,27 +177,20 @@
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -214,11 +200,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "Recorded Future": {
@@ -227,6 +220,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 4
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -242,19 +242,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -284,26 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 1
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -312,19 +298,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 10
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 9
+      "in_window_count": 4
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -332,6 +318,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 10
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -347,19 +347,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -368,26 +368,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -396,12 +382,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -410,12 +396,26 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -438,13 +438,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -458,6 +451,13 @@
       "status": "ok",
       "item_count": 30,
       "in_window_count": 25
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -480,6 +480,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
@@ -501,15 +508,8 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -522,8 +522,43 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -534,42 +569,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 3
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -585,25 +585,25 @@
       "item_count": 100,
       "in_window_count": 27
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 15
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -632,8 +632,8 @@
     {
       "cluster_id": "c951fa224e",
       "priority_score": 68,
-      "member_count": 6,
-      "corroborating_source_count": 6,
+      "member_count": 7,
+      "corroborating_source_count": 7,
       "strong_signals": [
         "CVE-2026-15409",
         "CVE-2026-15410",
@@ -669,6 +669,7 @@
         ],
         "confidence_tier": [
           "tier_1_offensive_research",
+          "tier_1_primary_research",
           "tier_2_operator",
           "tier_4_news"
         ]
@@ -784,6 +785,34 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "SonicWall": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Volexity",
+          "cohort": "threat_research_primary",
+          "title": "Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation",
+          "link": "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/",
+          "published": "2026-07-17T22:10:37+00:00",
+          "summary": "In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through […] The post Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation appeared first on Volexity .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "SonicWall"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
             "role_map": {
               "SonicWall": "target"
             },
@@ -918,8 +947,8 @@
     {
       "cluster_id": "8c3fd723aa",
       "priority_score": 56,
-      "member_count": 9,
-      "corroborating_source_count": 7,
+      "member_count": 8,
+      "corroborating_source_count": 6,
       "strong_signals": [
         "CVE-2026-58644",
         "Microsoft Defender",
@@ -928,7 +957,6 @@
       "taxonomy": {
         "threat_categories": [
           "active_exploitation",
-          "phishing_social_eng",
           "zero_day"
         ],
         "actor_attribution": [],
@@ -960,8 +988,7 @@
           "tier_1_offensive_research",
           "tier_1_primary_research",
           "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1199,44 +1226,14 @@
               "products": []
             }
           }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Are Microsoft Defender's email security gaps a bigger problem than we think?",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uyv20i/are_microsoft_defenders_email_security_gaps_a/",
-          "published": "2026-07-17T09:43:23+00:00",
-          "summary": "I've been looking into email security lately because our team has had some close calls with phishing and malware stuff. We were using Microsoft Defender, but it feels like there's always something slipping through the cracks. Like, isn't that supposed to be the bare minimum for email protection? I keep reading about how these gaps in basic email security can open the door to way bigger threats, especially with all the remote work setups and AI tools we're using now. Is anyone else dealing with this? Are there better tools out there that actually lock this stuff down without being a nightmare to set up? Kinda over constantly wondering if our emails are basically a ticking time bomb. submitted by /u/BigDataCore [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Defender"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Microsoft Defender": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
         }
       ]
     },
     {
       "cluster_id": "598aa947b4",
       "priority_score": 40,
-      "member_count": 8,
-      "corroborating_source_count": 7,
+      "member_count": 7,
+      "corroborating_source_count": 6,
       "strong_signals": [
         "Apple iOS/macOS",
         "CVE-2026-41264"
@@ -1269,8 +1266,7 @@
         "confidence_tier": [
           "tier_1_offensive_research",
           "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1494,29 +1490,216 @@
               "products": []
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "bc44ce81c5",
+      "priority_score": 38,
+      "member_count": 5,
+      "corroborating_source_count": 4,
+      "strong_signals": [
+        "CVE-2026-63030",
+        "GitHub",
+        "WordPress"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "WordPress",
+          "npm"
+        ],
+        "tools_used": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-63030"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research",
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
+        "published": "2026-07-17T22:23:03+00:00",
+        "summary": "Overview On July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030 , a critical unauthenticated remote code execution vulnerability affecting WordPress Core . WordPress Core. While the official GitHub security advisory classifies the severity as Critical, the vulnerability has currently been assigned a CVSS score of 7.5. WordPress is one of the most widely deployed content management systems, making vulnerabilities in its core software potentially significant for organizations operating public-facing websites. The vulnerability reportedly allows an unauthenticated attacker to execute code via the WordPress REST API batch endpoint, potentially resulting in complete compromise of the website and its underlying data. No valid account or user interaction is required. According to the advisory , the vulnerability affects WordPress versions 6.9.0 through 6.9.4 and versions 7.0.0 through 7.0.1. The issue is fixed in WordPress 6.9.5 and 7.0.2. A fix is also included in Word",
+        "full_body": "Back to Blog Vulnerabilities and Exploits CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core Rapid7 Labs Jul 17, 2026 | Last updated on Jul 17, 2026 | 3 min read Overview On July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030 , a critical unauthenticated remote code execution vulnerability affecting WordPress Core . WordPress Core. While the official GitHub security advisory classifies the severity as Critical, the vulnerability has currently been assigned a CVSS score of 7.5. WordPress is one of the most widely deployed content management systems, making vulnerabilities in its core software potentially significant for organizations operating public-facing websites. The vulnerability reportedly allows an unauthenticated attacker to execute code via the WordPress REST API batch endpoint, potentially resulting in complete compromise of the website and its underlying data. No valid account or user interaction is required. According to the advisory , the vulnerability affects WordPress versions 6.9.0 through 6.9.4 and versions 7.0.0 through 7.0.1. The issue is fixed in WordPress 6.9.5 and 7.0.2. A fix is also included in WordPress 7.1 Beta 2. Cloudflare reported that the vulnerable code path can be reached when a persistent object cache is not in use. Searchlight Cyber, whose researchers identified the vulnerability, stated that it can be exploited remotely against a default WordPress installation without requiring additional plugins. Technical exploit details have not yet been published by Searchlight Cyber , as of July 17 5:45 PM Eastern time. At the time of publication, Rapid7 is not aware of publicly confirmed in-the-wild exploitation. Organizations should not interpret the absence of public exploitation reports as an indication of low risk, particularly given the vulnerability’s unauthenticated attack path and the widespread deployment of WordPress; affected WordPress sites should be urgently patched. Due to WordPress Core being an open-source project and given the current ability of AI models to analyze open-source code, Rapid7 Labs believes it is highly likely that a public PoC will be made available in a short period of time. Mitigation guidance Organizations operating affected WordPress installations should prioritize upgrading immediately. Applying the WordPress-provided update is the most effective way to remediate CVE-2026-63030. Affected and fixed versions include: WordPress branch Affected versions Fixed version Earlier than 6.9 Not affected by CVE-2026-63030 No action required for this CVE 6.9 6.9.0 through 6.9.4 6.9.5 7.0 7.0.0 through 7.0.1 7.0.2 7.1 beta Affected beta versions were not fully specified 7.1 Beta 2 WordPress maintainers stated they are forcing updates for affected installations with automatic updates enabled. Administrators should nevertheless verify that each internet-facing WordPress website has successfully upgraded to WordPress 6.9.5, 7.0.2, or another fixed release appropriate for its branch. Workarounds are not recommended at this time. Rapid7 customers Exposure Command, InsightVM, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-63030 with authenticated vulnerability checks available in the July 20th, 2026 content release. Updates July 17, 2026: Initial publication. Article Tags Emerging Threats Emergent Threat Response Rapid7 Labs Author Posts",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "WordPress",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-63030"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "WordPress": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
         {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "ClickLock macOS stealer relies on a pasted Terminal command, not an exploit",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uzay5s/clicklock_macos_stealer_relies_on_a_pasted/",
-          "published": "2026-07-17T20:17:59+00:00",
-          "summary": "submitted by /u/Infinite_Antelope_45 [link] [comments]",
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
+          "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
+          "published": "2026-07-17T22:23:03+00:00",
+          "summary": "Overview On July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030 , a critical unauthenticated remote code execution vulnerability affecting WordPress Core . WordPress Core. While the official GitHub security advisory classifies the severity as Critical, the vulnerability has currently been assigned a CVSS score of 7.5. WordPress is one of the most widely deployed content management systems, making vulnerabilities in its core software potentially significant for organizations operating public-facing websites. The vulnerability reportedly allows an unauthenticated attacker to execute code via the WordPress REST API batch endpoint, potentially resulting in complete compromise of the website and its underlying data. No valid account or user interaction is required. According to the advisory , the vulnerability affects WordPress versions 6.9.0 through 6.9.4 and versions 7.0.0 through 7.0.1. The issue is fixed in WordPress 6.9.5 and 7.0.2. A fix is also included in Word",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "active_exploitation"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "Apple iOS/macOS"
+              "WordPress",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-63030"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "WordPress": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Wiz Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions",
+          "link": "https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions",
+          "published": "2026-07-14T10:33:36+00:00",
+          "summary": "Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub",
+              "npm"
             ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
+            "confidence_tier": "tier_2_operator",
             "role_map": {
-              "Apple iOS/macOS": "target"
+              "GitHub": "target",
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+          "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+          "published": "2026-07-17T21:20:10+00:00",
+          "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system. Adam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "datasette code-frequency chart on GitHub",
+          "link": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+          "published": "2026-07-13T21:45:27+00:00",
+          "summary": "datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [
+              "OpenAI/ChatGPT"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "GitHub": "target",
+              "OpenAI/ChatGPT": "tool"
             },
             "weak_tags": {
               "products": []
@@ -1684,14 +1867,13 @@
     {
       "cluster_id": "e3bb17ebc2",
       "priority_score": 24,
-      "member_count": 9,
-      "corroborating_source_count": 7,
+      "member_count": 7,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "npm"
       ],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage",
           "ddos",
           "supply_chain"
         ],
@@ -1701,7 +1883,6 @@
         "affected_industries": [],
         "affected_products": [
           "GitHub",
-          "PyPI",
           "npm"
         ],
         "tools_used": [],
@@ -1716,8 +1897,7 @@
         "confidence_tier": [
           "tier_1_primary_research",
           "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1882,38 +2062,6 @@
           }
         },
         {
-          "source": "Wiz Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions",
-          "link": "https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions",
-          "published": "2026-07-14T10:33:36+00:00",
-          "summary": "Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "GitHub": "target",
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
@@ -1936,38 +2084,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "CVE lookup that shows the actual fix (KB / package version / Apple train), plus a no-key API. Built partly because NVD's API keeps flaking out",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uz489k/cve_lookup_that_shows_the_actual_fix_kb_package/",
-          "published": "2026-07-17T16:14:31+00:00",
-          "summary": "Disclosure up front: I work on a patch-management product (TridentStack Control), and this is a free, standalone spin-off of the remediation data we already maintain. No account, nothing gated on the tool or the API. Putting it here rather than at the bottom because it should come before the pitch, not after. tridentstack.com/cve Two things send me to NVD constantly, and both have gotten painful. First, the REST API has been flaky for weeks (there was a whole r/cybersecurity thread on it), which is rough if you script against it. Second, NVD tells you a CVE exists but not how to actually fix it. So the tool focuses on those two. For each CVE it shows the sourced remediation when one exists: the KB for Windows and Office, the fixed version for a package (npm, PyPI, Go, apt, and so on), or the Apple update train, each with a link back to the vendor advisory. When there is no published fix, it says so instead of guessing. It never fabricates a version or KB, which given how many \"AI CVE\" ",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "PyPI",
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "PyPI": "target",
               "npm": "target"
             },
             "weak_tags": {
@@ -4062,112 +4178,9 @@
       ]
     },
     {
-      "cluster_id": "1b1d79000b",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/cybersecurity",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Published research article on IEEE about supply chain attacks and preventive security measures",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1uyrs0g/published_research_article_on_ieee_about_supply/",
-        "published": "2026-07-17T06:33:05+00:00",
-        "summary": "Our research paper, co-authored with my colleagues from Astana IT University, on software supply chain attacks and preventive security measures, has been officially published in IEEE with DOI link https://doi.org/10.1109/SIST61674.2026.11596367 . Its open version is available on GitHub, as it might be interesting and useful for someone to use principles of this theoretical framework, but some of materials are still rough and need polishing https://github.com/NoyanTM/aitu-sist-2026_research-paper/blob/main/paper/sist-2026_paper_word.pdf . In my blog post, I already explained practical cases and national perspectives about protection against such threats, along with a new \"mentality\" of software usage as something tangible with associated risks https://github.com/NoyanTM/blog/blob/main/posts/2026-05-29_teampcp-russians-and-supply-chain-security.md . submitted by /u/Confident-Bluebird21 [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {
-            "GitHub": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "GitHub",
-                "mention",
-                0.26
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Published research article on IEEE about supply chain attacks and preventive security measures",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uyrs0g/published_research_article_on_ieee_about_supply/",
-          "published": "2026-07-17T06:33:05+00:00",
-          "summary": "Our research paper, co-authored with my colleagues from Astana IT University, on software supply chain attacks and preventive security measures, has been officially published in IEEE with DOI link https://doi.org/10.1109/SIST61674.2026.11596367 . Its open version is available on GitHub, as it might be interesting and useful for someone to use principles of this theoretical framework, but some of materials are still rough and need polishing https://github.com/NoyanTM/aitu-sist-2026_research-paper/blob/main/paper/sist-2026_paper_word.pdf . In my blog post, I already explained practical cases and national perspectives about protection against such threats, along with a new \"mentality\" of software usage as something tangible with associated risks https://github.com/NoyanTM/blog/blob/main/posts/2026-05-29_teampcp-russians-and-supply-chain-security.md . submitted by /u/Confident-Bluebird21 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "GitHub": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "GitHub",
-                  "mention",
-                  0.26
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2f3a310637",
       "priority_score": 11,
-      "member_count": 5,
+      "member_count": 6,
       "corroborating_source_count": 2,
       "strong_signals": [
         "Google Cloud"
@@ -4974,196 +4987,6 @@
       ]
     },
     {
-      "cluster_id": "c2f56a4fa7",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
-        "link": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
-        "published": "2026-07-16T12:00:27+00:00",
-        "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
-        "full_body": "Table of Contents Introduction Technical details Initial phase of the attacks GoSerpent backdoor McMx RAT Data collection and credential dumping tools ThumbcacheService Credential dumping tools Second stage of the attacks Stowaway TmcLoader/TmcPayload Toolset integration Infrastructure Attribution Conclusion Indicators of compromise File hashes C2 IP addresses Authors Noushin Shabab Introduction In February 2026, we discovered a set of malicious activities that had been ongoing since late 2025. These activities involved a RAT module written in Go with proxy capabilities, which served as the main stage of the attack. The attack targeted government and diplomatic entities in Southeast Asia and showed a level of sophistication that caught our attention. During the attack, the main malware, dubbed GoSerpent, received an encrypted argument and started communicating with a remote server. It was also used to deploy further malicious tools to collect sensitive data and dump credentials on the system. Monitoring the activities of this threat actor revealed that in May 2026, they came back with an evolved set of malicious tools: a new RAT and proxy tool, Stowaway, which resembled the initial malware, as well as an additional stealthy tool to exfiltrate sensitive data collected in the previous few months through network shares. We found earlier versions of the GoSerpent backdoor used since 2021 against victims in Southeast Asia with relatively simpler code that received command-line arguments in plain text. Even though the newer variant is stealthier, the attackers continued using the simpler version alongside the latest one in their recent attacks. What makes this threat particularly concerning is the strategic deployment of various tools with sophisticated data collection and exfiltration capabilities. In this article, we introduce the malicious tools uncovered by us, which have been used since late 2025. Technical details Initial phase of the attacks The initial phase of the attacks involved deployment of the GoSerpent backdoor, followed by additional malicious tools. During this phase, the main goal was to collect sensitive files and store them for future exfiltration, which was done by a data collecting tool, ThumbcacheService. The attackers also needed system credentials to exfiltrate the collected data through network drives at a later stage. This was achieved through a number of credential dumping tools deployed in this phase via the GoSerpent backdoor. GoSerpent backdoor The primary weapon in this campaign is the GoSerpent backdoor, a sophisticated Go-based remote access Trojan that has been active since at least 2021, with the most recent variant deployed in 2026. This malware receives encrypted and base64-encoded command-line arguments containing a C2 server address and communication password, which are decrypted using AES-CBC mode with a fixed IV (31323334353637383930616263646566) and keys derived from predefined strings. The backdoor connects to command-and-control servers using ChaCha20 encryption for communications, with the SHA256 hash of the communication password serving as the encryption key. GoSerpent supports multiple C2 commands by receiving special command values. The commands include the following: Command Symbol (as derived from corresponding function names) Description 2BA1 Sync Respond to the server to show the infection is active 3BA2 Exit Exit process 4BA3 Ls Start listening on a port 5BA4 Connect Connect to a remote server 6BA5 Hello Create a shell on the infected machine 7BA6 Ul Upload a file or directory to the server 8BA7 Dl Download from the server 9BA8 Ss5 Start a SOCKS5 proxy on the infected machine ABA9 Cl Close a listening port CBAB RF Forward to a connected node GoSerpent can establish SOCKS5 proxy servers to route traffic through compromised hosts, enabling attackers to access other networks while masking their true IP addresses. The backdoor is capable of deploying additional malicious tools, incl",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
-          "link": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
-          "published": "2026-07-16T12:00:27+00:00",
-          "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f279b0bca6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services"
-        ],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
-        "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
-        "published": "2026-07-15T10:00:26+00:00",
-        "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
-        "full_body": "Table of Contents Introduction Background Initial infection Back connection Launcher with advanced options Active sessions UAC bypass Browser extensions loader Plugins dispatcher ext daemon SeedHunter MC Keylogger OkoSpyware Artifacts exfiltration Victims Attribution Conclusion Indicators of compromise Dispatcher Plugins Injector payloads SSH bot utilities File paths Domains and IPs Authors Yaroslav Kikel Introduction In January 2026, we identified multiple attacks involving unknown malware that captures the contents of cryptocurrency wallet windows. During the investigation, we reconstructed the complete infection chain, which consisted of four tightly linked stages initiated by the execution of the previously described malicious PowerShell script TookPS. However, this campaign differs from previous activity in that it uses a new framework to deliver all malicious modules and orchestrate them via an SSH tunnel. In total, the framework includes more than 20 malicious payloads and implants, covering a wide variety of functions. At the time of writing, the threat remains active. Kaspersky’s products detect this threat as Trojan-Downloader.Win32.TookPS.*, Trojan.Win64.BypassUAC.*, Trojan-Banker.Script.Agent.gen, Trojan.Win32.Dllhijack.*, Backdoor.Win32.TeviRat.*, Trojan-PSW.Win64.Stealer.*, Trojan-Spy.Win64.Keylogger.*, Trojan-Spy.Win64.Agent.*, Trojan.Win64.Agent.*. Background TookPS is a downloader used for retrieving malicious commands and scripts from attacker-controlled servers to further propagate attacks. The first campaign using TookPS was discovered in March 2025. At that time, malicious scripts delivered a Python‑based infostealer along with a script that installed and configured an SSH tunnel on the victim’s machine. The next wave appeared in April 2025: the payload was changed, and TookPS was used to deliver the TeviRAT malware with the same SSH installer. Then at the end of April 2025, TookPS underwent minor changes, yet its attack chain was completely redesigned. Unlike previous incidents, in this case, TookPS was used solely for the initial infection, with an automated SSH bot responsible for payload delivery. This new malicious campaign has multiple stages that cover the full attack lifecycle, from initial infection to persistence and data exfiltration. Among various malware strains, at one of the stages, the TeviRAT backdoor is delivered to the compromised host, ultimately fetching another version of a TookPS script. We dubbed this updated TookPS campaign “OkoBot”. Original OkoBot infection chain We will break down this chain in greater detail later in the article. However, this is not the only version of OkoBot we were able to find. Already in March 2026, we discovered a new phase in the development of the framework, with Volume2 now being installed directly using TookPS. The HDUtil launcher → extl injector → Rilide chain was found to be abandoned in this newer version since it was replaced in full by the identical ext_daemon Volume2 plugin. TeviRAT was also removed, most likely because its functions were covered by the new plugins dispatcher. New OkoBot infection chain Initial infection The initial infection is primarily delivered through two vectors: a ClickFix attack, and malware distributed through GitHub that masquerades as legitimate software. One such example is the fake SQL Server Management Studio (SSMS) package distributed through GitHub. In fact, it is actually the legitimate Audacity — a popular audio editor — compiled with a malicious implant embedded in one of its libraries. Because the repository was indexed by most search engines and appeared at the top of the results for the query SSMS , the malware looked legitimate and quickly earned users’ trust. Malicious application distribution report This repository was created at the end of March 2025 and existed until June of that year. It consisted of a single file, README.md , which provided a fake SSMS installation guide written in an official style ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_theft",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "critical_infrastructure"
-          ],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
-          "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
-          "published": "2026-07-15T10:00:26+00:00",
-          "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "critical_infrastructure"
-            ],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "174e783389",
       "priority_score": 10,
       "member_count": 1,
@@ -5424,27 +5247,22 @@
       ]
     },
     {
-      "cluster_id": "cf7aa5bc3e",
+      "cluster_id": "c2f56a4fa7",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "vulnerability_disclosure"
+          "web_shell_backdoor"
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "critical_infrastructure"
+          "government"
         ],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-10797",
-          "CVE-2026-8863"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
@@ -5455,36 +5273,126 @@
         ]
       },
       "primary": {
-        "source": "ESET WeLiveSecurity",
+        "source": "Kaspersky Securelist",
         "cohort": "threat_research_primary",
-        "title": "Forgotten UEFI shims undermining Secure Boot",
-        "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
-        "published": "2026-07-14T08:53:00+00:00",
-        "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
-        "full_body": "ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems ",
+        "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
+        "link": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
+        "published": "2026-07-16T12:00:27+00:00",
+        "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
+        "full_body": "Table of Contents Introduction Technical details Initial phase of the attacks GoSerpent backdoor McMx RAT Data collection and credential dumping tools ThumbcacheService Credential dumping tools Second stage of the attacks Stowaway TmcLoader/TmcPayload Toolset integration Infrastructure Attribution Conclusion Indicators of compromise File hashes C2 IP addresses Authors Noushin Shabab Introduction In February 2026, we discovered a set of malicious activities that had been ongoing since late 2025. These activities involved a RAT module written in Go with proxy capabilities, which served as the main stage of the attack. The attack targeted government and diplomatic entities in Southeast Asia and showed a level of sophistication that caught our attention. During the attack, the main malware, dubbed GoSerpent, received an encrypted argument and started communicating with a remote server. It was also used to deploy further malicious tools to collect sensitive data and dump credentials on the system. Monitoring the activities of this threat actor revealed that in May 2026, they came back with an evolved set of malicious tools: a new RAT and proxy tool, Stowaway, which resembled the initial malware, as well as an additional stealthy tool to exfiltrate sensitive data collected in the previous few months through network shares. We found earlier versions of the GoSerpent backdoor used since 2021 against victims in Southeast Asia with relatively simpler code that received command-line arguments in plain text. Even though the newer variant is stealthier, the attackers continued using the simpler version alongside the latest one in their recent attacks. What makes this threat particularly concerning is the strategic deployment of various tools with sophisticated data collection and exfiltration capabilities. In this article, we introduce the malicious tools uncovered by us, which have been used since late 2025. Technical details Initial phase of the attacks The initial phase of the attacks involved deployment of the GoSerpent backdoor, followed by additional malicious tools. During this phase, the main goal was to collect sensitive files and store them for future exfiltration, which was done by a data collecting tool, ThumbcacheService. The attackers also needed system credentials to exfiltrate the collected data through network drives at a later stage. This was achieved through a number of credential dumping tools deployed in this phase via the GoSerpent backdoor. GoSerpent backdoor The primary weapon in this campaign is the GoSerpent backdoor, a sophisticated Go-based remote access Trojan that has been active since at least 2021, with the most recent variant deployed in 2026. This malware receives encrypted and base64-encoded command-line arguments containing a C2 server address and communication password, which are decrypted using AES-CBC mode with a fixed IV (31323334353637383930616263646566) and keys derived from predefined strings. The backdoor connects to command-and-control servers using ChaCha20 encryption for communications, with the SHA256 hash of the communication password serving as the encryption key. GoSerpent supports multiple C2 commands by receiving special command values. The commands include the following: Command Symbol (as derived from corresponding function names) Description 2BA1 Sync Respond to the server to show the infection is active 3BA2 Exit Exit process 4BA3 Ls Start listening on a port 5BA4 Connect Connect to a remote server 6BA5 Hello Create a shell on the infected machine 7BA6 Ul Upload a file or directory to the server 8BA7 Dl Download from the server 9BA8 Ss5 Start a SOCKS5 proxy on the infected machine ABA9 Cl Close a listening port CBAB RF Forward to a connected node GoSerpent can establish SOCKS5 proxy servers to route traffic through compromised hosts, enabling attackers to access other networks while masking their true IP addresses. The backdoor is capable of deploying additional malicious tools, incl",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "vulnerability_disclosure"
+            "web_shell_backdoor"
           ],
           "actor_attribution": [],
           "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
+          "link": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
+          "published": "2026-07-16T12:00:27+00:00",
+          "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f279b0bca6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
+        "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
+        "published": "2026-07-15T10:00:26+00:00",
+        "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
+        "full_body": "Table of Contents Introduction Background Initial infection Back connection Launcher with advanced options Active sessions UAC bypass Browser extensions loader Plugins dispatcher ext daemon SeedHunter MC Keylogger OkoSpyware Artifacts exfiltration Victims Attribution Conclusion Indicators of compromise Dispatcher Plugins Injector payloads SSH bot utilities File paths Domains and IPs Authors Yaroslav Kikel Introduction In January 2026, we identified multiple attacks involving unknown malware that captures the contents of cryptocurrency wallet windows. During the investigation, we reconstructed the complete infection chain, which consisted of four tightly linked stages initiated by the execution of the previously described malicious PowerShell script TookPS. However, this campaign differs from previous activity in that it uses a new framework to deliver all malicious modules and orchestrate them via an SSH tunnel. In total, the framework includes more than 20 malicious payloads and implants, covering a wide variety of functions. At the time of writing, the threat remains active. Kaspersky’s products detect this threat as Trojan-Downloader.Win32.TookPS.*, Trojan.Win64.BypassUAC.*, Trojan-Banker.Script.Agent.gen, Trojan.Win32.Dllhijack.*, Backdoor.Win32.TeviRat.*, Trojan-PSW.Win64.Stealer.*, Trojan-Spy.Win64.Keylogger.*, Trojan-Spy.Win64.Agent.*, Trojan.Win64.Agent.*. Background TookPS is a downloader used for retrieving malicious commands and scripts from attacker-controlled servers to further propagate attacks. The first campaign using TookPS was discovered in March 2025. At that time, malicious scripts delivered a Python‑based infostealer along with a script that installed and configured an SSH tunnel on the victim’s machine. The next wave appeared in April 2025: the payload was changed, and TookPS was used to deliver the TeviRAT malware with the same SSH installer. Then at the end of April 2025, TookPS underwent minor changes, yet its attack chain was completely redesigned. Unlike previous incidents, in this case, TookPS was used solely for the initial infection, with an automated SSH bot responsible for payload delivery. This new malicious campaign has multiple stages that cover the full attack lifecycle, from initial infection to persistence and data exfiltration. Among various malware strains, at one of the stages, the TeviRAT backdoor is delivered to the compromised host, ultimately fetching another version of a TookPS script. We dubbed this updated TookPS campaign “OkoBot”. Original OkoBot infection chain We will break down this chain in greater detail later in the article. However, this is not the only version of OkoBot we were able to find. Already in March 2026, we discovered a new phase in the development of the framework, with Volume2 now being installed directly using TookPS. The HDUtil launcher → extl injector → Rilide chain was found to be abandoned in this newer version since it was replaced in full by the identical ext_daemon Volume2 plugin. TeviRAT was also removed, most likely because its functions were covered by the new plugins dispatcher. New OkoBot infection chain Initial infection The initial infection is primarily delivered through two vectors: a ClickFix attack, and malware distributed through GitHub that masquerades as legitimate software. One such example is the fake SQL Server Management Studio (SSMS) package distributed through GitHub. In fact, it is actually the legitimate Audacity — a popular audio editor — compiled with a malicious implant embedded in one of its libraries. Because the repository was indexed by most search engines and appeared at the top of the results for the query SSMS , the malware looked legitimate and quickly earned users’ trust. Malicious application distribution report This repository was created at the end of March 2025 and existed until June of that year. It consisted of a single file, README.md , which provided a fake SSMS installation guide written in an official style ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
             "critical_infrastructure"
           ],
           "affected_products": [
-            "Microsoft Windows"
+            "GitHub"
           ],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-8863",
-            "CVE-2026-10797"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
           "role_map": {
-            "Microsoft Windows": "target"
+            "GitHub": "target"
           },
           "weak_tags": {
             "products": []
@@ -5493,34 +5401,33 @@
       },
       "corroborating_sources": [
         {
-          "source": "ESET WeLiveSecurity",
+          "source": "Kaspersky Securelist",
           "cohort": "threat_research_primary",
-          "title": "Forgotten UEFI shims undermining Secure Boot",
-          "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
-          "published": "2026-07-14T08:53:00+00:00",
-          "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
+          "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
+          "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
+          "published": "2026-07-15T10:00:26+00:00",
+          "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
           "taxonomy": {
             "threat_categories": [
-              "vulnerability_disclosure"
+              "credential_theft",
+              "web_shell_backdoor"
             ],
             "actor_attribution": [],
             "affected_industries": [
+              "financial_services",
               "critical_infrastructure"
             ],
             "affected_products": [
-              "Microsoft Windows"
+              "GitHub"
             ],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-8863",
-              "CVE-2026-10797"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
-              "Microsoft Windows": "target"
+              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -5939,6 +5846,112 @@
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {
               "Kubernetes": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf7aa5bc3e",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-10797",
+          "CVE-2026-8863"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Forgotten UEFI shims undermining Secure Boot",
+        "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
+        "published": "2026-07-14T08:53:00+00:00",
+        "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
+        "full_body": "ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "Microsoft Windows"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-8863",
+            "CVE-2026-10797"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft Windows": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Forgotten UEFI shims undermining Secure Boot",
+          "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
+          "published": "2026-07-14T08:53:00+00:00",
+          "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "Microsoft Windows"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-8863",
+              "CVE-2026-10797"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft Windows": "target"
             },
             "weak_tags": {
               "products": []
@@ -6899,161 +6912,6 @@
       ]
     },
     {
-      "cluster_id": "d74b4764e8",
-      "priority_score": 10,
-      "member_count": 3,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "OpenAI/ChatGPT"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/cybersecurity",
-        "cohort": "reddit_practitioner_osint",
-        "title": "I’m Quincy Castro, CISO at Chainguard — Ask Me Anything about software vulnerability discovery and remediation using frontier AI models!",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1uyz2fx/im_quincy_castro_ciso_at_chainguard_ask_me/",
-        "published": "2026-07-17T13:00:57+00:00",
-        "summary": "Hi r/cybersecurity , I'm Quincy Castro, Chief Information Security Officer at Chainguard. On July 17, I'll be here to answer your questions about software vulnerability discovery and remediation using frontier AI models like Mythos, GPT-5.4, and more. A bit about me: before Chainguard, I spent four years as CISO at Redis. Earlier in my career, I worked in various roles for the U.S. government, and later led security programs as CISO of GE Transportation and Wabtec. At Chainguard, I lead our Security and Technology organization, which puts me in the middle of a shift that's changed a lot about how our industry finds and fixes vulnerabilities. Frontier AI models can now find novel vulnerabilities in open source software at a pace that traditional review and fuzzing never matched, and creatively chain together vulnerabilities into effective attack paths. Bugs that survived years of expert scrutiny are turning up in hours. That's good news for defenders in theory, since we could be finding",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "I’m Quincy Castro, CISO at Chainguard — Ask Me Anything about software vulnerability discovery and remediation using frontier AI models!",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uyz2fx/im_quincy_castro_ciso_at_chainguard_ask_me/",
-          "published": "2026-07-17T13:00:57+00:00",
-          "summary": "Hi r/cybersecurity , I'm Quincy Castro, Chief Information Security Officer at Chainguard. On July 17, I'll be here to answer your questions about software vulnerability discovery and remediation using frontier AI models like Mythos, GPT-5.4, and more. A bit about me: before Chainguard, I spent four years as CISO at Redis. Earlier in my career, I worked in various roles for the U.S. government, and later led security programs as CISO of GE Transportation and Wabtec. At Chainguard, I lead our Security and Technology organization, which puts me in the middle of a shift that's changed a lot about how our industry finds and fixes vulnerabilities. Frontier AI models can now find novel vulnerabilities in open source software at a pace that traditional review and fuzzing never matched, and creatively chain together vulnerabilities into effective attack paths. Bugs that survived years of expert scrutiny are turning up in hours. That's good news for defenders in theory, since we could be finding",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
-          "link": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
-          "published": "2026-07-16T08:42:31+00:00",
-          "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. \"GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks,\" the artificial intelligence (AI) company said. \"We use GPT‑Red to adversarially train",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Single Prompt Enables ChatGPT to Execute Full Cyber-Attack Chain, Researchers Claim",
-          "link": "https://www.infosecurity-magazine.com/news/chatgpt55-to-execute-full/",
-          "published": "2026-07-16T13:30:00+00:00",
-          "summary": "Cybersecurity researchers tested Open AI GPT 5.5’s offensive cyber capabilities – and the results showed how effective a frontier LLM can be for hackers",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ab13f77dd3",
       "priority_score": 9,
       "member_count": 1,
@@ -7755,10 +7613,13 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "data_breach"
+          "data_breach",
+          "vulnerability_disclosure"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "government"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -7778,14 +7639,17 @@
         "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
         "published": "2026-07-13T15:03:28+00:00",
         "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "data_breach"
+            "data_breach",
+            "vulnerability_disclosure"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "government"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -7809,10 +7673,13 @@
           "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.",
           "taxonomy": {
             "threat_categories": [
-              "data_breach"
+              "data_breach",
+              "vulnerability_disclosure"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "government"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -7918,7 +7785,7 @@
       ]
     },
     {
-      "cluster_id": "dda7bdf579",
+      "cluster_id": "adc7655a9d",
       "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -7946,11 +7813,11 @@
         ]
       },
       "primary": {
-        "source": "Reddit r/cybersecurity",
+        "source": "Reddit r/netsec",
         "cohort": "reddit_practitioner_osint",
         "title": "Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1uz7uyr/windows_appresolver_lpe_from_appcontainer_to/",
-        "published": "2026-07-17T18:24:25+00:00",
+        "link": "https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/",
+        "published": "2026-07-17T13:18:22+00:00",
         "summary": "submitted by /u/ShufflinMuffin [link] [comments]",
         "full_body": "",
         "fetch_status": "not_attempted",
@@ -7977,11 +7844,11 @@
       },
       "corroborating_sources": [
         {
-          "source": "Reddit r/cybersecurity",
+          "source": "Reddit r/netsec",
           "cohort": "reddit_practitioner_osint",
           "title": "Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1uz7uyr/windows_appresolver_lpe_from_appcontainer_to/",
-          "published": "2026-07-17T18:24:25+00:00",
+          "link": "https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/",
+          "published": "2026-07-17T13:18:22+00:00",
           "summary": "submitted by /u/ShufflinMuffin [link] [comments]",
           "taxonomy": {
             "threat_categories": [],
@@ -8902,99 +8769,6 @@
       ]
     },
     {
-      "cluster_id": "7b70195013",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "WordPress"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-        "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-        "published": "2026-07-17T21:20:10+00:00",
-        "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system. Adam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "WordPress"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "WordPress": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-          "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-          "published": "2026-07-17T21:20:10+00:00",
-          "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system. Adam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "3ab4666a65",
       "priority_score": 8,
       "member_count": 1,
@@ -9414,7 +9188,7 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 14,
+      "article_count": 13,
       "cohesion": 0.219,
       "shared_strong_signals": [
         "Microsoft Defender"
@@ -9434,7 +9208,6 @@
         "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
         "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
         "https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/",
-        "https://www.reddit.com/r/cybersecurity/comments/1uyv20i/are_microsoft_defenders_email_security_gaps_a/",
         "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
         "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
         "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
@@ -9469,7 +9242,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 13,
+      "article_count": 12,
       "cohesion": 0.233,
       "shared_strong_signals": [
         "Microsoft SharePoint"
@@ -9488,11 +9261,50 @@
         "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
         "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
         "https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/",
-        "https://www.reddit.com/r/cybersecurity/comments/1uyv20i/are_microsoft_defenders_email_security_gaps_a/",
         "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
         "https://www.infosecurity-magazine.com/news/cisa-urgent-patch-fortinet/",
         "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
         "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/"
+      ]
+    },
+    {
+      "label": "supply chain targeting npm",
+      "anchor_signal": "npm",
+      "theme_key": "npm",
+      "dominant_features": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "affected_products": [
+          "npm",
+          "GitHub"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 14,
+      "cohesion": 0.216,
+      "shared_strong_signals": [
+        "npm"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "bc44ce81c5",
+        "e3bb17ebc2",
+        "01f2f6d1a1",
+        "c8e0a6559d"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
+        "https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions",
+        "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+        "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+        "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
+        "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
+        "https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/",
+        "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+        "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
+        "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/"
       ]
     },
     {
@@ -9597,7 +9409,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 8,
+      "article_count": 9,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "SonicWall"
@@ -9611,6 +9423,7 @@
       "links": [
         "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/",
+        "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/",
         "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
         "https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation",
         "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
@@ -9620,43 +9433,7 @@
       ]
     },
     {
-      "label": "supply chain targeting npm",
-      "anchor_signal": "npm",
-      "theme_key": "npm",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "affected_products": [
-          "npm"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 11,
-      "cohesion": 0.222,
-      "shared_strong_signals": [
-        "npm"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "e3bb17ebc2",
-        "01f2f6d1a1",
-        "c8e0a6559d"
-      ],
-      "links": [
-        "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
-        "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
-        "https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/",
-        "https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions",
-        "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-        "https://www.reddit.com/r/cybersecurity/comments/1uz489k/cve_lookup_that_shows_the_actual_fix_kb_package/",
-        "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
-        "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/"
-      ]
-    },
-    {
-      "label": "TeamPCP targeting PyPI",
+      "label": "TeamPCP: supply chain",
       "anchor_signal": "TeamPCP",
       "theme_key": "teampcp",
       "dominant_features": {
@@ -9667,13 +9444,12 @@
           "TeamPCP"
         ],
         "affected_products": [
-          "GitHub",
-          "PyPI"
+          "GitHub"
         ]
       },
       "cluster_count": 2,
-      "article_count": 10,
-      "cohesion": 0.882,
+      "article_count": 8,
+      "cohesion": 0.765,
       "shared_strong_signals": [
         "TeamPCP"
       ],
@@ -9687,9 +9463,7 @@
         "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
         "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
         "https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/",
-        "https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions",
         "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-        "https://www.reddit.com/r/cybersecurity/comments/1uz489k/cve_lookup_that_shows_the_actual_fix_kb_package/",
         "https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/"
       ]
     },
@@ -9703,7 +9477,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 9,
+      "article_count": 8,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -9721,7 +9495,6 @@
         "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
         "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
         "https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/",
-        "https://www.reddit.com/r/cybersecurity/comments/1uzay5s/clicklock_macos_stealer_relies_on_a_pasted/",
         "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/"
       ]
     },
@@ -9763,7 +9536,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 6,
+      "article_count": 7,
       "cohesion": 0.545,
       "shared_strong_signals": [
         "Google Cloud"
@@ -9837,37 +9610,44 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2026-63030",
+          "cluster_id": "bc44ce81c5",
+          "first_source": "Rapid7",
+          "first_published": "2026-07-17T22:23:03+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
     "velocity": [
       {
-        "cluster_id": "8c3fd723aa",
-        "title": "CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild",
+        "cluster_id": "c951fa224e",
+        "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
         "sources_in_window": 3,
-        "window_hours": 3.0,
-        "cohort_count": 5
+        "window_hours": 2.2,
+        "cohort_count": 4
       },
       {
         "cluster_id": "e3bb17ebc2",
         "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)",
         "sources_in_window": 3,
         "window_hours": 2.6,
-        "cohort_count": 4
-      },
-      {
-        "cluster_id": "598aa947b4",
-        "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
-        "sources_in_window": 3,
-        "window_hours": 4.3,
-        "cohort_count": 4
+        "cohort_count": 3
       },
       {
         "cluster_id": "1a4ef6c9e4",
         "title": "How I tricked Claude into leaking your deepest, darkest secrets",
         "sources_in_window": 3,
         "window_hours": 3.2,
+        "cohort_count": 3
+      },
+      {
+        "cluster_id": "598aa947b4",
+        "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
+        "sources_in_window": 3,
+        "window_hours": 4.3,
         "cohort_count": 3
       }
     ],
@@ -9939,13 +9719,13 @@
         "first_observation": true
       },
       {
-        "cluster_id": "d9c1f05e41",
-        "pair": "CVE-2025-40947 + Palo Alto Networks",
+        "cluster_id": "bc44ce81c5",
+        "pair": "CVE-2026-63030 + GitHub",
         "first_observation": true
       },
       {
-        "cluster_id": "d9c1f05e41",
-        "pair": "CVE-2025-40948 + Palo Alto Networks",
+        "cluster_id": "bc44ce81c5",
+        "pair": "CVE-2026-63030 + WordPress",
         "first_observation": true
       }
     ],
@@ -9968,24 +9748,6 @@
         "prior_top_products": [
           "Anthropic/Claude",
           "Salesforce",
-          "npm"
-        ]
-      },
-      {
-        "actor": "TeamPCP",
-        "cluster_id": "e3bb17ebc2",
-        "new_industries": [],
-        "new_products": [
-          "PyPI"
-        ],
-        "prior_top_industries": [
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "prior_top_products": [
-          "GitHub",
-          "Kubernetes",
           "npm"
         ]
       },
@@ -10054,9 +9816,9 @@
     ],
     "tier_inversion": [
       {
-        "cluster_id": "dda7bdf579",
+        "cluster_id": "adc7655a9d",
         "title": "Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454",
-        "primary_source": "Reddit r/cybersecurity",
+        "primary_source": "Reddit r/netsec",
         "strong_signals": [
           "CVE-2026-50454"
         ]

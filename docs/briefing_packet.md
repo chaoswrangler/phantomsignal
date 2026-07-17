@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-17T22:01:57.971793+00:00
+- Generated: 2026-07-17T22:57:13.822884+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 356
-- Total clusters raw: 170
-- Total clusters in packet: 80
-- Dropped low score: 88
-- Dropped overflow: 2
+- Total items in window: 349
+- Total clusters raw: 165
+- Total clusters in packet: 78
+- Dropped low score: 87
+- Dropped overflow: 0
 
 ## Cohort metadata
 
@@ -70,13 +70,23 @@
 
 ## Feed status
 
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -85,61 +95,46 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 6
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 15
   - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -154,37 +149,42 @@
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 50
+  - Item count: 78
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,16 +195,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -225,41 +225,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+  - Item count: 10
+  - In window count: 10
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 9
+  - In window count: 4
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 10
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -270,56 +270,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 20
+  - Item count: 100
+  - In window count: 2
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -335,11 +335,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -350,6 +345,11 @@
   - Status: ok
   - Item count: 30
   - In window count: 25
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -365,6 +365,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -380,13 +385,8 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -395,8 +395,33 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -404,32 +429,7 @@
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 3
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - In window count: 4
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -440,20 +440,20 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 25
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - In window count: 15
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -477,7 +477,7 @@
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
 - Cluster count: 5
-- Article count: 14
+- Article count: 13
 - Cohesion: 0.219
 - Shared strong signals: Microsoft Defender
 - Member CVEs: (none)
@@ -492,7 +492,6 @@
   - https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
   - https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
   - https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/
-  - https://www.reddit.com/r/cybersecurity/comments/1uyv20i/are_microsoft_defenders_email_security_gaps_a/
   - https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
   - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
   - https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/
@@ -503,7 +502,7 @@
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
 - Cluster count: 4
-- Article count: 13
+- Article count: 12
 - Cohesion: 0.233
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
@@ -521,11 +520,35 @@
   - https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
   - https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
   - https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/
-  - https://www.reddit.com/r/cybersecurity/comments/1uyv20i/are_microsoft_defenders_email_security_gaps_a/
   - https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/
   - https://www.infosecurity-magazine.com/news/cisa-urgent-patch-fortinet/
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
   - https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/
+
+### supply chain targeting npm
+- Anchor signal: npm
+- Theme key: npm
+- Cluster count: 4
+- Article count: 14
+- Cohesion: 0.216
+- Shared strong signals: npm
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain
+  - affected_products: npm, GitHub
+- Cluster IDs: bc44ce81c5, e3bb17ebc2, 01f2f6d1a1, c8e0a6559d
+- Links:
+  - https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core
+  - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
+  - https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
+  - https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
+  - https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
+  - https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/
+  - https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
+  - https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
+  - https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/
+  - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
 
 ### ShinyHunters targeting Salesforce
 - Anchor signal: ShinyHunters
@@ -574,7 +597,7 @@
 - Anchor signal: SonicWall
 - Theme key: sonicwall
 - Cluster count: 2
-- Article count: 8
+- Article count: 9
 - Cohesion: 0.2
 - Shared strong signals: SonicWall
 - Member CVEs: (none)
@@ -587,6 +610,7 @@
 - Links:
   - https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
+  - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
   - https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
   - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
   - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
@@ -594,57 +618,32 @@
   - https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/
   - https://www.infosecurity-magazine.com/news/cisa-urgent-patch-fortinet/
 
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
-- Cluster count: 3
-- Article count: 11
-- Cohesion: 0.222
-- Shared strong signals: npm
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_products: npm
-- Cluster IDs: e3bb17ebc2, 01f2f6d1a1, c8e0a6559d
-- Links:
-  - https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
-  - https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/
-  - https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
-  - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
-  - https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
-  - https://www.reddit.com/r/cybersecurity/comments/1uz489k/cve_lookup_that_shows_the_actual_fix_kb_package/
-  - https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/
-  - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-
-### TeamPCP targeting PyPI
+### TeamPCP: supply chain
 - Anchor signal: TeamPCP
 - Theme key: teampcp
 - Cluster count: 2
-- Article count: 10
-- Cohesion: 0.882
+- Article count: 8
+- Cohesion: 0.765
 - Shared strong signals: TeamPCP
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: supply_chain
   - actor_attribution: TeamPCP
-  - affected_products: GitHub, PyPI
+  - affected_products: GitHub
 - Cluster IDs: e3bb17ebc2, 86ef70edb1
 - Links:
   - https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
   - https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/
   - https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
-  - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
   - https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
-  - https://www.reddit.com/r/cybersecurity/comments/1uz489k/cve_lookup_that_shows_the_actual_fix_kb_package/
   - https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
 
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 2
-- Article count: 9
+- Article count: 8
 - Cohesion: 0.2
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
@@ -659,7 +658,6 @@
   - https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/
   - https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
   - https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/
-  - https://www.reddit.com/r/cybersecurity/comments/1uzay5s/clicklock_macos_stealer_relies_on_a_pasted/
   - https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/
 
 ### AWS vulnerability activity
@@ -684,7 +682,7 @@
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 2
-- Article count: 6
+- Article count: 7
 - Cohesion: 0.545
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
@@ -734,30 +732,31 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2026-63030 (first seen via Rapid7 at 2026-07-17T22:23:03+00:00, cluster bc44ce81c5)
 - Novel actors: 0
 - Novel products: 0
 
 ### Velocity bursts (4)
-- **CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild**
-  - Cluster: 8c3fd723aa
+- **Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)**
+  - Cluster: c951fa224e
   - Sources in window: 3
-  - Window hours: 3.0
-  - Cohort count: 5
+  - Window hours: 2.2
+  - Cohort count: 4
 - **The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)**
   - Cluster: e3bb17ebc2
   - Sources in window: 3
   - Window hours: 2.6
-  - Cohort count: 4
-- **Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit**
-  - Cluster: 598aa947b4
-  - Sources in window: 3
-  - Window hours: 4.3
-  - Cohort count: 4
+  - Cohort count: 3
 - **How I tricked Claude into leaking your deepest, darkest secrets**
   - Cluster: 1a4ef6c9e4
   - Sources in window: 3
   - Window hours: 3.2
+  - Cohort count: 3
+- **Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit**
+  - Cluster: 598aa947b4
+  - Sources in window: 3
+  - Window hours: 4.3
   - Cohort count: 3
 
 ### Leading edge (0)
@@ -776,20 +775,15 @@
 - Pair: CVE-2026-58644 + Microsoft SharePoint (cluster 8c3fd723aa, first observation: True)
 - Pair: CVE-2024-27822 + Apple iOS/macOS (cluster 598aa947b4, first observation: True)
 - Pair: CVE-2026-41264 + Apple iOS/macOS (cluster 598aa947b4, first observation: True)
-- Pair: CVE-2025-40947 + Palo Alto Networks (cluster d9c1f05e41, first observation: True)
-- Pair: CVE-2025-40948 + Palo Alto Networks (cluster d9c1f05e41, first observation: True)
+- Pair: CVE-2026-63030 + GitHub (cluster bc44ce81c5, first observation: True)
+- Pair: CVE-2026-63030 + WordPress (cluster bc44ce81c5, first observation: True)
 
-### Drift (3)
+### Drift (2)
 - **ShinyHunters** (cluster 7df2f246d4)
   - New industries: manufacturing_industrial, retail_ecommerce
   - New products: Microsoft Defender
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Salesforce, npm
-- **TeamPCP** (cluster e3bb17ebc2)
-  - New industries: (none)
-  - New products: PyPI
-  - Prior top industries: financial_services, government, healthcare
-  - Prior top products: GitHub, Kubernetes, npm
 - **Scattered Spider** (cluster a632c3dcbf)
   - New industries: critical_infrastructure
   - New products: (none)
@@ -807,8 +801,8 @@
 
 ### Tier inversion (1)
 - **Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454**
-  - Cluster: dda7bdf579
-  - Primary source: Reddit r/cybersecurity
+  - Cluster: adc7655a9d
+  - Primary source: Reddit r/netsec
   - Strong signals: CVE-2026-50454
 
 ## Clusters
@@ -820,8 +814,8 @@
 - Published: 2026-07-15T16:19:26+00:00
 - Link: https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 6
+- Member count: 7
+- Corroborating source count: 7
 - Strong signals: CVE-2026-15409, CVE-2026-15410, SonicWall
 
 #### Cluster taxonomy (union across members)
@@ -830,7 +824,7 @@
 - cve_ids: CVE-2026-15409, CVE-2026-15410
 - urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day, vulnerability_disclosure, active_exploitation
@@ -852,7 +846,7 @@ Overview On July 14, 2026, SonicWall published a security advisory addressing tw
 Back to Blog Vulnerabilities and Exploits Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410) Rapid7 Jul 15, 2026 | Last updated on Jul 16, 2026 | 8 min read Overview On July 14, 2026, SonicWall published a security advisory addressing two vulnerabilities affecting SMA1000 Series remote access appliances, including the critical server-side request forgery (SSRF) vulnerability CVE-2026-15409 (CVSS 10.0) and the high-severity code injection vulnerability CVE-2026-15410 . The advisory urges customers to immediately apply the latest platform hotfix releases. Successful exploitation of CVE-2026-15409 permits an unauthenticated attacker to open a websocket-based tunnel to arbitrary localhost-only services, while CVE-2026-15410 is a local privilege escalation that permits an attacker with access to an internal service listening on port 8188 on localhost to execute arbitrary operating system commands as root via a malicious path traversal-based remove_hotfix workflow. Both vulnerabilities are being actively exploited in the wild. Prior to SonicWall’s official vulnerability disclosure, Rapid7’s Managed Detection and Response team observed active, targeted zero-day exploitation of internet-facing SMA 1000-series appliances. In the SonicWall advisory, exploitation in the wild was noted , and both CVE-2026-15409 and CVE-2026-15410 have been added to CISA's Known Exploited Vulnerabilities ( KEV ) catalog. Given the confirmed exploitation activity and the critical unauthenticated impact of the vulnerabilities, organizations should prioritize remediation of SMA1000 appliances on an emergency basis. Affected products include SonicWall SMA1000 Series models 6210, 7210, and 8200v running: 12.4.3-03245 12.4.3-03387 12.4.3-03434 (platform-hotfix) 12.5.0-02283 12.5.0-02624 12.5.0-02800 (platform-hotfix) These vulnerabilities do not affect SSL VPN functionality on SonicWall firewalls or the SMA 100 Series product line. Technical overview The primary vulnerability is in a websocket proxy feature, accessed via the path /wsproxy on the affected “SonicWall WorkPlace” application (served on port 443 by default). This feature permits a netcat-like TCP tunnel to arbitrary hosts and ports, which are provided by the user in URL parameters. By provided host values that point to localhost, the attacker can access local SonicWall appliance system services behind the firewall to send and receive arbitrary TCP traffic to and from them. This is the first-stage vulnerability, CVE-2026-15409, that Rapid7 MDR analysts are seeing attackers exploit in the wild. With this capability, an attacker can reach and exploit less-hardened services running on the appliance, such as the Erlang application on localhost:1050 or the ctrl-service application on localhost:8188. We developed an exploit targeting the Erlang process listening on localhost:1050 for remote code execution. Note that the provided cookie value is hardcoded for the Erlang process, based on our testing, so authentication is not required to establish code execution. # python3 cve-2026-15409.py --ws-url 'wss://192.168.1.46/wsproxy?bmID=-3389c1b25ccd&serviceType=SSH&host=0.0.0.0&port=1050' --ws-user-agent 'SMA Connect Agent' --ws-insecure-tls --cookie 10ecad5b446e86864832904cd439b6b70262 --exec 'whoami && id && pwd && hostname' Authenticated to [email protected] Peer flags: 0xd07df7fbd Peer creation: 1784069352 RPC os:cmd/1 => couchdb uid=1010(couchdb) gid=1(daemon) groups=1(daemon) /opt/couchdb SMAAppliance.sma With code execution established, the attacker can escalate to root on the appliance by exploiting CVE-2026-15410, which is a path traversal in the remove_hotfix workflow of ctrl-service. This can be performed via the web console or by hitting port 8188 on the device. The attacker provides a hotfix value containing a path traversal sequence to a malicious script, such as ../../../../var/tmp/privesc . The system executes the script as root and
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (7)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)
@@ -864,6 +858,11 @@ Back to Blog Vulnerabilities and Exploits Rapid7 MDR Team Discovers New SonicWal
   - Published: 2026-07-17T20:25:23+00:00
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
   - Summary: CVE-2026-15409 and CVE-2026-15410 are actively exploited SonicWall SMA1000 vulnerabilities that can be chained for unauthenticated system compromise. Learn how to validate exposure and verify remediation.
+- **Volexity** (threat_research_primary)
+  - Title: Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation
+  - Published: 2026-07-17T22:10:37+00:00
+  - Link: https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
+  - Summary: In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through […] The post Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation appeared first on Volexity .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands
   - Published: 2026-07-15T05:30:21+00:00
@@ -892,18 +891,18 @@ Back to Blog Vulnerabilities and Exploits Rapid7 MDR Team Discovers New SonicWal
 - Published: 2026-07-17T18:18:53+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 7
+- Member count: 8
+- Corroborating source count: 6
 - Strong signals: CVE-2026-58644, Microsoft Defender, Microsoft SharePoint
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng, zero_day
+- threat_categories: active_exploitation, zero_day
 - affected_industries: government
 - affected_products: Azure, Microsoft Defender, Microsoft SharePoint
 - cve_ids: CVE-2026-55040, CVE-2026-56164, CVE-2026-58644
 - urgency_signals: actively_exploited, preauth_unauth, zero_day
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: active_exploitation
@@ -925,7 +924,7 @@ Overview On July 14, 2026, Microsoft published a security advisory addressing CV
 Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild Rapid7 Jul 17, 2026 | Last updated on Jul 17, 2026 | 2 min read Overview On July 14, 2026, Microsoft published a security advisory addressing CVE-2026-58644 , a critical remote code execution (RCE) vulnerability affecting on-premises Microsoft SharePoint Server deployments. The vulnerability, which carries a CVSS v3.1 score of 9.8 (Critical), results from the deserialization of untrusted data ( CWE-502 ) and allows an unauthenticated attacker to execute arbitrary code. Microsoft confirmed active exploitation of CVE-2026-58644, and the vulnerability was subsequently added to CISA’s Known Exploited Vulnerabilities ( KEV ) catalog on July 16, 2026. In parallel, CISA published guidance recommending organizations immediately apply Microsoft’s security updates and leverage Microsoft Defender and AMSI detections to identify exploitation attempts. Affected products: Microsoft SharePoint Enterprise Server 2016 Microsoft SharePoint Server 2019 Microsoft SharePoint Server Subscription Edition Mitigation guidance Organizations operating affected on-premises Microsoft SharePoint Server should prioritize remediation on an emergency basis. Microsoft’s recommendations: Apply the July 14, 2026 security updates for all affected SharePoint versions. Verify that security updates completed successfully across all SharePoint servers. Ensure Antimalware Scan Interface (AMSI) integration is enabled for every SharePoint web application. Monitor Microsoft Defender and AMSI detections for indicators of attempted exploitation. Initiate incident response procedures if exploitation artifacts are detected. Microsoft and CISA recommend monitoring for the following security detections associated with observed SharePoint exploitation activity. AMSI / Microsoft Defender detections: Exploit:Script/SuspSignoutReqBody.A Request body scanning SharePoint Server Subscription Edition Microsoft reports observed exploitation attempts are blocked by this signature. Exploit:Script/ToolPaneAuthBypass.A Request header scanning Applies to SharePoint Server 2016, SharePoint Server 2019, and Subscription Edition. Exploit:Script/ToolPaneAuthBypass At the time of publication, no public IP addresses, domains, URLs, or additional network-based indicators of compromise have been widely disclosed. Administrators should consult Microsoft’s advisory for the most current remediation guidance and update availability. Rapid7 customers Exposure Command, InsightVM, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-58644 with an authenticated vulnerability check available since the July 14 content release. Updates July 17, 2026 : Initial publication. Article Tags Emergent Threat Response Rapid7 Author Posts
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (6)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild
@@ -957,11 +956,6 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint S
   - Published: 2026-07-17T07:15:59+00:00
   - Link: https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/
   - Summary: The critical-severity security defect allows remote, authenticated attackers to execute arbitrary code on the server. The post Fresh SharePoint Vulnerability Exploited Soon After Disclosure appeared first on SecurityWeek .
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: Are Microsoft Defender's email security gaps a bigger problem than we think?
-  - Published: 2026-07-17T09:43:23+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1uyv20i/are_microsoft_defenders_email_security_gaps_a/
-  - Summary: I've been looking into email security lately because our team has had some close calls with phishing and malware stuff. We were using Microsoft Defender, but it feels like there's always something slipping through the cracks. Like, isn't that supposed to be the bare minimum for email protection? I keep reading about how these gaps in basic email security can open the door to way bigger threats, especially with all the remote work setups and AI tools we're using now. Is anyone else dealing with this? Are there better tools out there that actually lock this stuff down without being a nightmare to set up? Kinda over constantly wondering if our emails are basically a ticking time bomb. submitted by /u/BigDataCore [link] [comments]
 
 ### Cluster 598aa947b4 — score 40
 
@@ -970,8 +964,8 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint S
 - Published: 2026-07-11T00:32:34+00:00
 - Link: https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
 - Fetch status: ok
-- Member count: 8
-- Corroborating source count: 7
+- Member count: 7
+- Corroborating source count: 6
 - Strong signals: Apple iOS/macOS, CVE-2026-41264
 
 #### Cluster taxonomy (union across members)
@@ -980,7 +974,7 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint S
 - cve_ids: CVE-2024-27822, CVE-2026-41264
 - urgency_signals: preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ai_security, web_shell_backdoor
@@ -1002,7 +996,7 @@ More AI, more software, more bugs! AI, it's all you hear about nowadays and ever
 Back to Blog Products and Tools Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit Jack Heysel Jul 11, 2026 | Last updated on Jul 11, 2026 | 4 min read More AI, more software, more bugs! AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack surface all this new software brings with it (yeehaw exploits!). Take for example the new Flowise CSV Agent Prompt Injection RCE brought to you by Takahiro Yokoyama and zdi-disclosures. Flowise is an open-source tool that lets you build AI apps and chatbots using a visual, drag-and-drop canvas and CVE-2026-41264 is an unauthenticated RCE run method of the CSV_Agents class in Flowise. The vulnerability exists due insufficient sandboxing and an incomplete list of disallowed inputs. It allows unauthenticated attackers to upload a .csv file containing arbitrary python code and execute it. One moment you're using AI to help draft and email and the next moment you're getting pwn'd, what a world we live in! Happy Friday and happy hacking everyone. New module content (3) Apache .htaccess Persistence Authors: 4ravind-b, msutovsky-r7, and wireghoul Type: Exploit Pull request: #21473 contributed by 4ravind-b Path: linux/persistence/apache_htaccess Description: Adds a new persistence module, exploits/linux/persistence/apache_htaccess, that plants wireghoul's mod_cgi .htaccess web shell on a Linux Apache target. Flowise CSV Agent Prompt Injection RCE Authors: Takahiro Yokoyama and zdi-disclosures Type: Exploit Pull request: #21407 contributed by Takahiro-Yoko Path: multi/http/flowise_auth_rce_cve_2026_41264 AttackerKB reference: CVE-2026-41264 Description: This adds a new exploit module for FlowiseAI Flowise (CVE-2026-41264). The CSV Agent feature evaluates LLM-generated Python code without proper sandboxing, allowing a prompt injection to achieve arbitrary code execution as the user running the server. Flowise versions 1.3.0 through 3.0.13 are affected. The module requires an API key with chatflows:create permission but does not require Flowise authentication to trigger the underlying flaw. macOS PackageKit ZSH Environment Privilege Escalation Authors: Mykola Grymalyuk and h00die Type: Exploit Pull request: #21499 contributed by h00die Path: osx/local/packagekit_zshenv_privesc AttackerKB reference: CVE-2024-27822 Description: This adds a new local privilege escalation module for macOS targeting CVE-2024-27822 in PackageKit.framework. When a PKG installer script uses a ZSH shebang, PackageKit runs it as root while inheriting the installing user's environment, causing ZSH to source the user's ~/.zshenv with root privileges. The module plants a payload in ~/.zshenv that fires only when running as root, then opens a minimal PKG with Installer.app; once the user approves the installation prompt and authenticates, the payload executes as root and a root session is returned. Affected versions are macOS 14.4, 13.6.6, 12.7.4, and 11 and earlier; the issue is patched in 14.5, 13.6.7, and 12.7.5. Enhancements and features (5) #21416 from g0tmi1k - This updates the Exploit::Remote::Ftp mixin to improve target fingerprinting. It now leverages recog to fingerprint targets from their banners and adds ftp_fingerprint and ftp_list_directory methods to assist with target enumeration. #21436 from g0tmi1k - Improved UX for reloading of library files. #21579 from zeroSteiner - This adds a few extra fields to some MCP Server tools to align with recent RPC changes in the framework. The msf_service_info tool now has resource and parents fields, the msf_vulnerability_info tool now has a resource field, the msf_note_info tool now has a data field, and the msf_credential_info tool now has new realm_key and realm_value fields. #21580 from Pushpenderrathore - This adds a Certificate Signing Request (CSR) Trace to the CertificateTrace functionality. Users can now opt to see the CSR get printed wh
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (6)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit
@@ -1034,11 +1028,69 @@ Back to Blog Products and Tools Weekly Metasploit Update: Exploits for FlowiseAI
   - Published: 2026-07-16T13:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/
   - Summary: New ClickLock macOS stealer locked victims out of their own system until they surrendered a password
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: ClickLock macOS stealer relies on a pasted Terminal command, not an exploit
-  - Published: 2026-07-17T20:17:59+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1uzay5s/clicklock_macos_stealer_relies_on_a_pasted/
-  - Summary: submitted by /u/Infinite_Antelope_45 [link] [comments]
+
+### Cluster bc44ce81c5 — score 38
+
+- Title: CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-07-17T22:23:03+00:00
+- Link: https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core
+- Fetch status: ok
+- Member count: 5
+- Corroborating source count: 4
+- Strong signals: CVE-2026-63030, GitHub, WordPress
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, supply_chain
+- affected_products: GitHub, WordPress, npm
+- tools_used: OpenAI/ChatGPT
+- cve_ids: CVE-2026-63030
+- urgency_signals: poc_available, preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: WordPress, GitHub
+- cve_ids: CVE-2026-63030
+- urgency_signals: preauth_unauth, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Overview On July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030 , a critical unauthenticated remote code execution vulnerability affecting WordPress Core . WordPress Core. While the official GitHub security advisory classifies the severity as Critical, the vulnerability has currently been assigned a CVSS score of 7.5. WordPress is one of the most widely deployed content management systems, making vulnerabilities in its core software potentially significant for organizations operating public-facing websites. The vulnerability reportedly allows an unauthenticated attacker to execute code via the WordPress REST API batch endpoint, potentially resulting in complete compromise of the website and its underlying data. No valid account or user interaction is required. According to the advisory , the vulnerability affects WordPress versions 6.9.0 through 6.9.4 and versions 7.0.0 through 7.0.1. The issue is fixed in WordPress 6.9.5 and 7.0.2. A fix is also included in Word
+```
+
+#### Full body
+
+```
+Back to Blog Vulnerabilities and Exploits CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core Rapid7 Labs Jul 17, 2026 | Last updated on Jul 17, 2026 | 3 min read Overview On July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030 , a critical unauthenticated remote code execution vulnerability affecting WordPress Core . WordPress Core. While the official GitHub security advisory classifies the severity as Critical, the vulnerability has currently been assigned a CVSS score of 7.5. WordPress is one of the most widely deployed content management systems, making vulnerabilities in its core software potentially significant for organizations operating public-facing websites. The vulnerability reportedly allows an unauthenticated attacker to execute code via the WordPress REST API batch endpoint, potentially resulting in complete compromise of the website and its underlying data. No valid account or user interaction is required. According to the advisory , the vulnerability affects WordPress versions 6.9.0 through 6.9.4 and versions 7.0.0 through 7.0.1. The issue is fixed in WordPress 6.9.5 and 7.0.2. A fix is also included in WordPress 7.1 Beta 2. Cloudflare reported that the vulnerable code path can be reached when a persistent object cache is not in use. Searchlight Cyber, whose researchers identified the vulnerability, stated that it can be exploited remotely against a default WordPress installation without requiring additional plugins. Technical exploit details have not yet been published by Searchlight Cyber , as of July 17 5:45 PM Eastern time. At the time of publication, Rapid7 is not aware of publicly confirmed in-the-wild exploitation. Organizations should not interpret the absence of public exploitation reports as an indication of low risk, particularly given the vulnerability’s unauthenticated attack path and the widespread deployment of WordPress; affected WordPress sites should be urgently patched. Due to WordPress Core being an open-source project and given the current ability of AI models to analyze open-source code, Rapid7 Labs believes it is highly likely that a public PoC will be made available in a short period of time. Mitigation guidance Organizations operating affected WordPress installations should prioritize upgrading immediately. Applying the WordPress-provided update is the most effective way to remediate CVE-2026-63030. Affected and fixed versions include: WordPress branch Affected versions Fixed version Earlier than 6.9 Not affected by CVE-2026-63030 No action required for this CVE 6.9 6.9.0 through 6.9.4 6.9.5 7.0 7.0.0 through 7.0.1 7.0.2 7.1 beta Affected beta versions were not fully specified 7.1 Beta 2 WordPress maintainers stated they are forcing updates for affected installations with automatic updates enabled. Administrators should nevertheless verify that each internet-facing WordPress website has successfully upgraded to WordPress 6.9.5, 7.0.2, or another fixed release appropriate for its branch. Workarounds are not recommended at this time. Rapid7 customers Exposure Command, InsightVM, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-63030 with authenticated vulnerability checks available in the July 20th, 2026 content release. Updates July 17, 2026: Initial publication. Article Tags Emerging Threats Emergent Threat Response Rapid7 Labs Author Posts
+```
+
+#### Corroborating sources (4)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core
+  - Published: 2026-07-17T22:23:03+00:00
+  - Link: https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core
+  - Summary: Overview On July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030 , a critical unauthenticated remote code execution vulnerability affecting WordPress Core . WordPress Core. While the official GitHub security advisory classifies the severity as Critical, the vulnerability has currently been assigned a CVSS score of 7.5. WordPress is one of the most widely deployed content management systems, making vulnerabilities in its core software potentially significant for organizations operating public-facing websites. The vulnerability reportedly allows an unauthenticated attacker to execute code via the WordPress REST API batch endpoint, potentially resulting in complete compromise of the website and its underlying data. No valid account or user interaction is required. According to the advisory , the vulnerability affects WordPress versions 6.9.0 through 6.9.4 and versions 7.0.0 through 7.0.1. The issue is fixed in WordPress 6.9.5 and 7.0.2. A fix is also included in Word
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions
+  - Published: 2026-07-14T10:33:36+00:00
+  - Link: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
+  - Summary: Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
+  - Published: 2026-07-17T21:20:10+00:00
+  - Link: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
+  - Summary: An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system. Adam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: datasette code-frequency chart on GitHub
+  - Published: 2026-07-13T21:45:27+00:00
+  - Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
+  - Summary: datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
 
 ### Cluster 7df2f246d4 — score 27
 
@@ -1099,16 +1151,16 @@ Share Link copied to clipboard! Tags Social engineering Supply chain attack Vish
 - Published: 2026-07-15T23:00:33+00:00
 - Link: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 7
+- Member count: 7
+- Corroborating source count: 5
 - Strong signals: npm
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ddos, supply_chain
+- threat_categories: ddos, supply_chain
 - actor_attribution: TeamPCP
-- affected_products: GitHub, PyPI, npm
+- affected_products: GitHub, npm
 - content_type: incident_report, intel_roundup, news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: supply_chain
@@ -1129,7 +1181,7 @@ Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable m
 Threat Research Center High Profile Threats Malware Malware The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) 27 min read Related Products Advanced DNS Security Advanced URL Filtering Cloud-Delivered Security Services Cortex Cortex Cloud Unit 42 Incident Response By: Unit 42 Published: July 15, 2026 Categories: High Profile Threats Malware Tags: Credential Harvesting GitHub Npm packages Obfuscation Payload Supply chain Worm propagation Share Executive Summary The security of the npm ecosystem reached a critical inflection point in September 2025. The Shai-Hulud worm, a self-replicating malware that automated the compromise and redistribution of malicious packages, marked the end of the “nuisance” era of npm attacks and the beginning of a high-consequence threat landscape. Since that watershed moment, Unit 42 has tracked an aggressive acceleration in the frequency and technical depth of supply chain compromises. Attacks have evolved from a series of isolated typosquatting incidents into systematic campaigns by various threat actors to weaponize the trust that powers modern software development. April 2026 Campaigns We have seen two campaigns in April: the first started April 22, 2026 and included the string Shai-Hulud: The Third Coming . The second started April 29, 2026 and is known as Mini Shai-Hulud . May 2026 Campaigns In May 2026, the Mini Shai-Hulud campaign continued with two new waves attributed to TeamPCP. These campaigns introduced two unique elements. One campaign used a credential-free initial access technique. The other campaign generated the highest single-hour package count of any Shai-Hulud worm to date. Copycat activity has made future attribution to TeamPCP more difficult. June 2026 Campaign A new supply chain attack on June 1, 2026 compromised at least 32 packages published under the @redhat-cloud-services npm namespace. The attacker bypassed code review entirely, pushing a payload named Miasma. July 2026 Campaign Attackers compromised the release pipelines of four core AsyncAPI GitHub repositories on July 14, 2026. In a campaign calling itself miasma-train-p1 , they published five trojanized packages to npm: @asyncapi/generator@3.3.1 @asyncapi/specs@6.11.2 @asyncapi/specs@6.11.2-alpha.1 @asyncapi/generator-helpers@1.1.1 @asyncapi/generator-components@0.7.1 The payload appears to be a descendant of the Miasma remote access Trojan (RAT). The New Baseline for npm Threats The Shai-Hulud incident proved that the npm registry could be used as a force multiplier for malware distribution. In the months following, we have observed three core shifts in adversary TTPs: Wormable propagation: Malicious payloads now prioritize the theft of npm tokens and GitHub Personal Access Tokens (PATs) to automatically infect and republish legitimate packages, as seen in the March 2026 Axios compromise . Infrastructure-level persistence: Attackers are no longer just stealing data; they are embedding themselves into continuous integration/continuous delivery (CI/CD) pipelines to attain long-term, undetectable access to enterprise environments. Multi-stage payloads: Following the September 2025 template, current attacks often deploy dormant “sleeper” dependencies that only activate under specific environmental conditions to evade automated scanners. npm Attacks Seen As a Whole npm compromises have common themes. In the post-Shai-Hulud era, we believe it is helpful to consider the attack surface as a whole. This article will combine: Details of major incidents: Real-time analysis of significant package compromises (e.g., Shai-Hulud 2.0 , Axios , Chalk/Debug ) Cross-campaign correlation: Identifying common infrastructure or code snippets that link disparate attacks to the same threat actors Remediation playbooks: Actionable guidance for rotating credentials and purging malicious dependencies from local and cloud-based caches Shai-Hulud: A New Wave A malicious npm package published as @bitwarden/cli version 2026.4
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (5)
 
 - **Unit 42** (threat_research_primary)
   - Title: The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)
@@ -1151,21 +1203,11 @@ Threat Research Center High Profile Threats Malware Malware The npm Threat Lands
   - Published: 2026-07-14T00:00:00+00:00
   - Link: https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
   - Summary: On July 14, 2026, four npm packages in the @asyncapi namespace, totaling over 3 million weekly downloads, were compromised to deliver credential-stealing malware. We investigate how the attack unfolded and how to know if you're affected.
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions
-  - Published: 2026-07-14T10:33:36+00:00
-  - Link: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
-  - Summary: Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT
   - Published: 2026-07-17T18:54:51+00:00
   - Link: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
   - Summary: Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an "unprecedented" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: CVE lookup that shows the actual fix (KB / package version / Apple train), plus a no-key API. Built partly because NVD's API keeps flaking out
-  - Published: 2026-07-17T16:14:31+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1uz489k/cve_lookup_that_shows_the_actual_fix_kb_package/
-  - Summary: Disclosure up front: I work on a patch-management product (TridentStack Control), and this is a free, standalone spin-off of the remediation data we already maintain. No account, nothing gated on the tool or the API. Putting it here rather than at the bottom because it should come before the pitch, not after. tridentstack.com/cve Two things send me to NVD constantly, and both have gotten painful. First, the REST API has been flaky for weeks (there was a whole r/cybersecurity thread on it), which is rough if you script against it. Second, NVD tells you a CVE exists but not how to actually fix it. So the tool focuses on those two. For each CVE it shows the sourced remediation when one exists: the KB for Windows and Office, the fixed version for a package (npm, PyPI, Go, apt, and so on), or the Apple update train, each with a link back to the vendor advisory. When there is no published fix, it says so instead of guessing. It never fabricates a version or KB, which given how many "AI CVE"
 
 ### Cluster d9c1f05e41 — score 19
 
@@ -2002,43 +2044,6 @@ Crime Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against Jare
   - Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
   - Summary: Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
 
-### Cluster 1b1d79000b — score 11
-
-- Title: Published research article on IEEE about supply chain attacks and preventive security measures
-- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
-- Published: 2026-07-17T06:33:05+00:00
-- Link: https://www.reddit.com/r/cybersecurity/comments/1uyrs0g/published_research_article_on_ieee_about_supply/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: education
-- content_type: threat_research
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: education
-- content_type: threat_research
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-Our research paper, co-authored with my colleagues from Astana IT University, on software supply chain attacks and preventive security measures, has been officially published in IEEE with DOI link https://doi.org/10.1109/SIST61674.2026.11596367 . Its open version is available on GitHub, as it might be interesting and useful for someone to use principles of this theoretical framework, but some of materials are still rough and need polishing https://github.com/NoyanTM/aitu-sist-2026_research-paper/blob/main/paper/sist-2026_paper_word.pdf . In my blog post, I already explained practical cases and national perspectives about protection against such threats, along with a new "mentality" of software usage as something tangible with associated risks https://github.com/NoyanTM/blog/blob/main/posts/2026-05-29_teampcp-russians-and-supply-chain-security.md . submitted by /u/Confident-Bluebird21 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: Published research article on IEEE about supply chain attacks and preventive security measures
-  - Published: 2026-07-17T06:33:05+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1uyrs0g/published_research_article_on_ieee_about_supply/
-  - Summary: Our research paper, co-authored with my colleagues from Astana IT University, on software supply chain attacks and preventive security measures, has been officially published in IEEE with DOI link https://doi.org/10.1109/SIST61674.2026.11596367 . Its open version is available on GitHub, as it might be interesting and useful for someone to use principles of this theoretical framework, but some of materials are still rough and need polishing https://github.com/NoyanTM/aitu-sist-2026_research-paper/blob/main/paper/sist-2026_paper_word.pdf . In my blog post, I already explained practical cases and national perspectives about protection against such threats, along with a new "mentality" of software usage as something tangible with associated risks https://github.com/NoyanTM/blog/blob/main/posts/2026-05-29_teampcp-russians-and-supply-chain-security.md . submitted by /u/Confident-Bluebird21 [link] [comments]
-
 ### Cluster 2f3a310637 — score 11
 
 - Title: Level Up Your Column-level Security: Using IAM Data Governance Tags in BigQuery
@@ -2046,7 +2051,7 @@ Our research paper, co-authored with my colleagues from Astana IT University, on
 - Published: 2026-07-17T16:00:00+00:00
 - Link: https://cloud.google.com/blog/products/data-analytics/level-up-your-column-level-security-using-iam-data-governance-tags-in-bigquery/
 - Fetch status: ok
-- Member count: 5
+- Member count: 6
 - Corroborating source count: 2
 - Strong signals: Google Cloud
 
@@ -2392,94 +2397,6 @@ The serpent’s tongue: Luring the Python out of its den By Onur Mustafa Erdogan
   - Link: https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
   - Summary: This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments.
 
-### Cluster c2f56a4fa7 — score 10
-
-- Title: GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-16T12:00:27+00:00
-- Link: https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Technical details Initial phase of the attacks GoSerpent backdoor McMx RAT Data collection and credential dumping tools ThumbcacheService Credential dumping tools Second stage of the attacks Stowaway TmcLoader/TmcPayload Toolset integration Infrastructure Attribution Conclusion Indicators of compromise File hashes C2 IP addresses Authors Noushin Shabab Introduction In February 2026, we discovered a set of malicious activities that had been ongoing since late 2025. These activities involved a RAT module written in Go with proxy capabilities, which served as the main stage of the attack. The attack targeted government and diplomatic entities in Southeast Asia and showed a level of sophistication that caught our attention. During the attack, the main malware, dubbed GoSerpent, received an encrypted argument and started communicating with a remote server. It was also used to deploy further malicious tools to collect sensitive data and dump credentials on the system. Monitoring the activities of this threat actor revealed that in May 2026, they came back with an evolved set of malicious tools: a new RAT and proxy tool, Stowaway, which resembled the initial malware, as well as an additional stealthy tool to exfiltrate sensitive data collected in the previous few months through network shares. We found earlier versions of the GoSerpent backdoor used since 2021 against victims in Southeast Asia with relatively simpler code that received command-line arguments in plain text. Even though the newer variant is stealthier, the attackers continued using the simpler version alongside the latest one in their recent attacks. What makes this threat particularly concerning is the strategic deployment of various tools with sophisticated data collection and exfiltration capabilities. In this article, we introduce the malicious tools uncovered by us, which have been used since late 2025. Technical details Initial phase of the attacks The initial phase of the attacks involved deployment of the GoSerpent backdoor, followed by additional malicious tools. During this phase, the main goal was to collect sensitive files and store them for future exfiltration, which was done by a data collecting tool, ThumbcacheService. The attackers also needed system credentials to exfiltrate the collected data through network drives at a later stage. This was achieved through a number of credential dumping tools deployed in this phase via the GoSerpent backdoor. GoSerpent backdoor The primary weapon in this campaign is the GoSerpent backdoor, a sophisticated Go-based remote access Trojan that has been active since at least 2021, with the most recent variant deployed in 2026. This malware receives encrypted and base64-encoded command-line arguments containing a C2 server address and communication password, which are decrypted using AES-CBC mode with a fixed IV (31323334353637383930616263646566) and keys derived from predefined strings. The backdoor connects to command-and-control servers using ChaCha20 encryption for communications, with the SHA256 hash of the communication password serving as the encryption key. GoSerpent supports multiple C2 commands by receiving special command values. The commands include the following: Command Symbol (as derived from corresponding function names) Description 2BA1 Sync Respond to the server to show the infection is active 3BA2 Exit Exit process 4BA3 Ls Start listening on a port 5BA4 Connect Connect to a remote server 6BA5 Hello Create a shell on the infected machine 7BA6 Ul Upload a file or directory to the server 8BA7 Dl Download from the server 9BA8 Ss5 Start a SOCKS5 proxy on the infected machine ABA9 Cl Close a listening port CBAB RF Forward to a connected node GoSerpent can establish SOCKS5 proxy servers to route traffic through compromised hosts, enabling attackers to access other networks while masking their true IP addresses. The backdoor is capable of deploying additional malicious tools, incl
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration
-  - Published: 2026-07-16T12:00:27+00:00
-  - Link: https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/
-  - Summary: Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.
-
-### Cluster f279b0bca6 — score 10
-
-- Title: OkoBot: new sophisticated malware framework targets cryptocurrency users
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-15T10:00:26+00:00
-- Link: https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, web_shell_backdoor
-- affected_industries: critical_infrastructure, financial_services
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: credential_theft, web_shell_backdoor
-- affected_industries: financial_services, critical_infrastructure
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Background Initial infection Back connection Launcher with advanced options Active sessions UAC bypass Browser extensions loader Plugins dispatcher ext daemon SeedHunter MC Keylogger OkoSpyware Artifacts exfiltration Victims Attribution Conclusion Indicators of compromise Dispatcher Plugins Injector payloads SSH bot utilities File paths Domains and IPs Authors Yaroslav Kikel Introduction In January 2026, we identified multiple attacks involving unknown malware that captures the contents of cryptocurrency wallet windows. During the investigation, we reconstructed the complete infection chain, which consisted of four tightly linked stages initiated by the execution of the previously described malicious PowerShell script TookPS. However, this campaign differs from previous activity in that it uses a new framework to deliver all malicious modules and orchestrate them via an SSH tunnel. In total, the framework includes more than 20 malicious payloads and implants, covering a wide variety of functions. At the time of writing, the threat remains active. Kaspersky’s products detect this threat as Trojan-Downloader.Win32.TookPS.*, Trojan.Win64.BypassUAC.*, Trojan-Banker.Script.Agent.gen, Trojan.Win32.Dllhijack.*, Backdoor.Win32.TeviRat.*, Trojan-PSW.Win64.Stealer.*, Trojan-Spy.Win64.Keylogger.*, Trojan-Spy.Win64.Agent.*, Trojan.Win64.Agent.*. Background TookPS is a downloader used for retrieving malicious commands and scripts from attacker-controlled servers to further propagate attacks. The first campaign using TookPS was discovered in March 2025. At that time, malicious scripts delivered a Python‑based infostealer along with a script that installed and configured an SSH tunnel on the victim’s machine. The next wave appeared in April 2025: the payload was changed, and TookPS was used to deliver the TeviRAT malware with the same SSH installer. Then at the end of April 2025, TookPS underwent minor changes, yet its attack chain was completely redesigned. Unlike previous incidents, in this case, TookPS was used solely for the initial infection, with an automated SSH bot responsible for payload delivery. This new malicious campaign has multiple stages that cover the full attack lifecycle, from initial infection to persistence and data exfiltration. Among various malware strains, at one of the stages, the TeviRAT backdoor is delivered to the compromised host, ultimately fetching another version of a TookPS script. We dubbed this updated TookPS campaign “OkoBot”. Original OkoBot infection chain We will break down this chain in greater detail later in the article. However, this is not the only version of OkoBot we were able to find. Already in March 2026, we discovered a new phase in the development of the framework, with Volume2 now being installed directly using TookPS. The HDUtil launcher → extl injector → Rilide chain was found to be abandoned in this newer version since it was replaced in full by the identical ext_daemon Volume2 plugin. TeviRAT was also removed, most likely because its functions were covered by the new plugins dispatcher. New OkoBot infection chain Initial infection The initial infection is primarily delivered through two vectors: a ClickFix attack, and malware distributed through GitHub that masquerades as legitimate software. One such example is the fake SQL Server Management Studio (SSMS) package distributed through GitHub. In fact, it is actually the legitimate Audacity — a popular audio editor — compiled with a malicious implant embedded in one of its libraries. Because the repository was indexed by most search engines and appeared at the top of the results for the query SSMS , the malware looked legitimate and quickly earned users’ trust. Malicious application distribution report This repository was created at the end of March 2025 and existed until June of that year. It consisted of a single file, README.md , which provided a fake SSMS installation guide written in an official style
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: OkoBot: new sophisticated malware framework targets cryptocurrency users
-  - Published: 2026-07-15T10:00:26+00:00
-  - Link: https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/
-  - Summary: Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.
-
 ### Cluster 174e783389 — score 10
 
 - Title: AI Security Report 2026
@@ -2576,52 +2493,93 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July 
   - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster cf7aa5bc3e — score 10
+### Cluster c2f56a4fa7 — score 10
 
-- Title: Forgotten UEFI shims undermining Secure Boot
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-07-14T08:53:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+- Title: GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-16T12:00:27+00:00
+- Link: https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-10797, CVE-2026-8863
+- threat_categories: web_shell_backdoor
+- affected_industries: government
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-8863, CVE-2026-10797
+- threat_categories: web_shell_backdoor
+- affected_industries: government
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.
 ```
 
 #### Full body
 
 ```
-ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
+Table of Contents Introduction Technical details Initial phase of the attacks GoSerpent backdoor McMx RAT Data collection and credential dumping tools ThumbcacheService Credential dumping tools Second stage of the attacks Stowaway TmcLoader/TmcPayload Toolset integration Infrastructure Attribution Conclusion Indicators of compromise File hashes C2 IP addresses Authors Noushin Shabab Introduction In February 2026, we discovered a set of malicious activities that had been ongoing since late 2025. These activities involved a RAT module written in Go with proxy capabilities, which served as the main stage of the attack. The attack targeted government and diplomatic entities in Southeast Asia and showed a level of sophistication that caught our attention. During the attack, the main malware, dubbed GoSerpent, received an encrypted argument and started communicating with a remote server. It was also used to deploy further malicious tools to collect sensitive data and dump credentials on the system. Monitoring the activities of this threat actor revealed that in May 2026, they came back with an evolved set of malicious tools: a new RAT and proxy tool, Stowaway, which resembled the initial malware, as well as an additional stealthy tool to exfiltrate sensitive data collected in the previous few months through network shares. We found earlier versions of the GoSerpent backdoor used since 2021 against victims in Southeast Asia with relatively simpler code that received command-line arguments in plain text. Even though the newer variant is stealthier, the attackers continued using the simpler version alongside the latest one in their recent attacks. What makes this threat particularly concerning is the strategic deployment of various tools with sophisticated data collection and exfiltration capabilities. In this article, we introduce the malicious tools uncovered by us, which have been used since late 2025. Technical details Initial phase of the attacks The initial phase of the attacks involved deployment of the GoSerpent backdoor, followed by additional malicious tools. During this phase, the main goal was to collect sensitive files and store them for future exfiltration, which was done by a data collecting tool, ThumbcacheService. The attackers also needed system credentials to exfiltrate the collected data through network drives at a later stage. This was achieved through a number of credential dumping tools deployed in this phase via the GoSerpent backdoor. GoSerpent backdoor The primary weapon in this campaign is the GoSerpent backdoor, a sophisticated Go-based remote access Trojan that has been active since at least 2021, with the most recent variant deployed in 2026. This malware receives encrypted and base64-encoded command-line arguments containing a C2 server address and communication password, which are decrypted using AES-CBC mode with a fixed IV (31323334353637383930616263646566) and keys derived from predefined strings. The backdoor connects to command-and-control servers using ChaCha20 encryption for communications, with the SHA256 hash of the communication password serving as the encryption key. GoSerpent supports multiple C2 commands by receiving special command values. The commands include the following: Command Symbol (as derived from corresponding function names) Description 2BA1 Sync Respond to the server to show the infection is active 3BA2 Exit Exit process 4BA3 Ls Start listening on a port 5BA4 Connect Connect to a remote server 6BA5 Hello Create a shell on the infected machine 7BA6 Ul Upload a file or directory to the server 8BA7 Dl Download from the server 9BA8 Ss5 Start a SOCKS5 proxy on the infected machine ABA9 Cl Close a listening port CBAB RF Forward to a connected node GoSerpent can establish SOCKS5 proxy servers to route traffic through compromised hosts, enabling attackers to access other networks while masking their true IP addresses. The backdoor is capable of deploying additional malicious tools, incl
 ```
 
 #### Corroborating sources (1)
 
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Forgotten UEFI shims undermining Secure Boot
-  - Published: 2026-07-14T08:53:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration
+  - Published: 2026-07-16T12:00:27+00:00
+  - Link: https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/
+  - Summary: Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.
+
+### Cluster f279b0bca6 — score 10
+
+- Title: OkoBot: new sophisticated malware framework targets cryptocurrency users
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-15T10:00:26+00:00
+- Link: https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, web_shell_backdoor
+- affected_industries: critical_infrastructure, financial_services
+- affected_products: GitHub
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: credential_theft, web_shell_backdoor
+- affected_industries: financial_services, critical_infrastructure
+- affected_products: GitHub
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Background Initial infection Back connection Launcher with advanced options Active sessions UAC bypass Browser extensions loader Plugins dispatcher ext daemon SeedHunter MC Keylogger OkoSpyware Artifacts exfiltration Victims Attribution Conclusion Indicators of compromise Dispatcher Plugins Injector payloads SSH bot utilities File paths Domains and IPs Authors Yaroslav Kikel Introduction In January 2026, we identified multiple attacks involving unknown malware that captures the contents of cryptocurrency wallet windows. During the investigation, we reconstructed the complete infection chain, which consisted of four tightly linked stages initiated by the execution of the previously described malicious PowerShell script TookPS. However, this campaign differs from previous activity in that it uses a new framework to deliver all malicious modules and orchestrate them via an SSH tunnel. In total, the framework includes more than 20 malicious payloads and implants, covering a wide variety of functions. At the time of writing, the threat remains active. Kaspersky’s products detect this threat as Trojan-Downloader.Win32.TookPS.*, Trojan.Win64.BypassUAC.*, Trojan-Banker.Script.Agent.gen, Trojan.Win32.Dllhijack.*, Backdoor.Win32.TeviRat.*, Trojan-PSW.Win64.Stealer.*, Trojan-Spy.Win64.Keylogger.*, Trojan-Spy.Win64.Agent.*, Trojan.Win64.Agent.*. Background TookPS is a downloader used for retrieving malicious commands and scripts from attacker-controlled servers to further propagate attacks. The first campaign using TookPS was discovered in March 2025. At that time, malicious scripts delivered a Python‑based infostealer along with a script that installed and configured an SSH tunnel on the victim’s machine. The next wave appeared in April 2025: the payload was changed, and TookPS was used to deliver the TeviRAT malware with the same SSH installer. Then at the end of April 2025, TookPS underwent minor changes, yet its attack chain was completely redesigned. Unlike previous incidents, in this case, TookPS was used solely for the initial infection, with an automated SSH bot responsible for payload delivery. This new malicious campaign has multiple stages that cover the full attack lifecycle, from initial infection to persistence and data exfiltration. Among various malware strains, at one of the stages, the TeviRAT backdoor is delivered to the compromised host, ultimately fetching another version of a TookPS script. We dubbed this updated TookPS campaign “OkoBot”. Original OkoBot infection chain We will break down this chain in greater detail later in the article. However, this is not the only version of OkoBot we were able to find. Already in March 2026, we discovered a new phase in the development of the framework, with Volume2 now being installed directly using TookPS. The HDUtil launcher → extl injector → Rilide chain was found to be abandoned in this newer version since it was replaced in full by the identical ext_daemon Volume2 plugin. TeviRAT was also removed, most likely because its functions were covered by the new plugins dispatcher. New OkoBot infection chain Initial infection The initial infection is primarily delivered through two vectors: a ClickFix attack, and malware distributed through GitHub that masquerades as legitimate software. One such example is the fake SQL Server Management Studio (SSMS) package distributed through GitHub. In fact, it is actually the legitimate Audacity — a popular audio editor — compiled with a malicious implant embedded in one of its libraries. Because the repository was indexed by most search engines and appeared at the top of the results for the query SSMS , the malware looked legitimate and quickly earned users’ trust. Malicious application distribution report This repository was created at the end of March 2025 and existed until June of that year. It consisted of a single file, README.md , which provided a fake SSMS installation guide written in an official style
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: OkoBot: new sophisticated malware framework targets cryptocurrency users
+  - Published: 2026-07-15T10:00:26+00:00
+  - Link: https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/
+  - Summary: Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.
 
 ### Cluster b89f3888c6 — score 10
 
@@ -2829,6 +2787,53 @@ Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero® Horizon3.ai
   - Published: 2026-07-13T17:35:36+00:00
   - Link: https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
   - Summary: The ECB now expects significant institutions to demonstrate AI-ready cyber resilience. Learn how NodeZero helps validate exploitable risk, verify remediation, and support an evidence-backed action plan.
+
+### Cluster cf7aa5bc3e — score 10
+
+- Title: Forgotten UEFI shims undermining Secure Boot
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-07-14T08:53:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-10797, CVE-2026-8863
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-8863, CVE-2026-10797
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+```
+
+#### Full body
+
+```
+ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Forgotten UEFI shims undermining Secure Boot
+  - Published: 2026-07-14T08:53:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
 
 ### Cluster 15c6378b6b — score 10
 
@@ -3220,54 +3225,6 @@ OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credenti
   - Link: https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/
   - Summary: New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments
 
-### Cluster d74b4764e8 — score 10
-
-- Title: I’m Quincy Castro, CISO at Chainguard — Ask Me Anything about software vulnerability discovery and remediation using frontier AI models!
-- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
-- Published: 2026-07-17T13:00:57+00:00
-- Link: https://www.reddit.com/r/cybersecurity/comments/1uyz2fx/im_quincy_castro_ciso_at_chainguard_ask_me/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: OpenAI/ChatGPT
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: government
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: OpenAI/ChatGPT
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-Hi r/cybersecurity , I'm Quincy Castro, Chief Information Security Officer at Chainguard. On July 17, I'll be here to answer your questions about software vulnerability discovery and remediation using frontier AI models like Mythos, GPT-5.4, and more. A bit about me: before Chainguard, I spent four years as CISO at Redis. Earlier in my career, I worked in various roles for the U.S. government, and later led security programs as CISO of GE Transportation and Wabtec. At Chainguard, I lead our Security and Technology organization, which puts me in the middle of a shift that's changed a lot about how our industry finds and fixes vulnerabilities. Frontier AI models can now find novel vulnerabilities in open source software at a pace that traditional review and fuzzing never matched, and creatively chain together vulnerabilities into effective attack paths. Bugs that survived years of expert scrutiny are turning up in hours. That's good news for defenders in theory, since we could be finding
-```
-
-#### Corroborating sources (3)
-
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: I’m Quincy Castro, CISO at Chainguard — Ask Me Anything about software vulnerability discovery and remediation using frontier AI models!
-  - Published: 2026-07-17T13:00:57+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1uyz2fx/im_quincy_castro_ciso_at_chainguard_ask_me/
-  - Summary: Hi r/cybersecurity , I'm Quincy Castro, Chief Information Security Officer at Chainguard. On July 17, I'll be here to answer your questions about software vulnerability discovery and remediation using frontier AI models like Mythos, GPT-5.4, and more. A bit about me: before Chainguard, I spent four years as CISO at Redis. Earlier in my career, I worked in various roles for the U.S. government, and later led security programs as CISO of GE Transportation and Wabtec. At Chainguard, I lead our Security and Technology organization, which puts me in the middle of a shift that's changed a lot about how our industry finds and fixes vulnerabilities. Frontier AI models can now find novel vulnerabilities in open source software at a pace that traditional review and fuzzing never matched, and creatively chain together vulnerabilities into effective attack paths. Bugs that survived years of expert scrutiny are turning up in hours. That's good news for defenders in theory, since we could be finding
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
-  - Published: 2026-07-16T08:42:31+00:00
-  - Link: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
-  - Summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks," the artificial intelligence (AI) company said. "We use GPT‑Red to adversarially train
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Single Prompt Enables ChatGPT to Execute Full Cyber-Attack Chain, Researchers Claim
-  - Published: 2026-07-16T13:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/chatgpt55-to-execute-full/
-  - Summary: Cybersecurity researchers tested Open AI GPT 5.5’s offensive cyber capabilities – and the results showed how effective a frontier LLM can be for hackers
-
 ### Cluster ab13f77dd3 — score 9
 
 - Title: Helping small businesses with free, hands-on cyber consultancy
@@ -3586,18 +3543,20 @@ Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the
 - Source: Krebs on Security (practitioner_analysis)
 - Published: 2026-07-13T15:03:28+00:00
 - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
+- threat_categories: data_breach, vulnerability_disclosure
+- affected_industries: government
 - content_type: incident_report
 - confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: data_breach
+- threat_categories: data_breach, vulnerability_disclosure
+- affected_industries: government
 - content_type: incident_report
 - confidence_tier: tier_3_analysis
 
@@ -3605,6 +3564,12 @@ Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the
 
 ```
 The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
+```
+
+#### Full body
+
+```
+The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter
 ```
 
 #### Corroborating sources (1)
@@ -3652,12 +3617,12 @@ SAP has rolled out updates to address multiple vulnerabilities as part of its Ju
   - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
   - Summary: SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
 
-### Cluster dda7bdf579 — score 9
+### Cluster adc7655a9d — score 9
 
 - Title: Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454
-- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
-- Published: 2026-07-17T18:24:25+00:00
-- Link: https://www.reddit.com/r/cybersecurity/comments/1uz7uyr/windows_appresolver_lpe_from_appcontainer_to/
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-07-17T13:18:22+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
@@ -3683,10 +3648,10 @@ submitted by /u/ShufflinMuffin [link] [comments]
 
 #### Corroborating sources (1)
 
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+- **Reddit r/netsec** (reddit_practitioner_osint)
   - Title: Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454
-  - Published: 2026-07-17T18:24:25+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1uz7uyr/windows_appresolver_lpe_from_appcontainer_to/
+  - Published: 2026-07-17T13:18:22+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/
   - Summary: submitted by /u/ShufflinMuffin [link] [comments]
 
 ### Cluster d77ec8e022 — score 8
@@ -4061,43 +4026,6 @@ The company forewarned customers and defenders that a flood of defects would be 
   - Published: 2026-07-14T20:05:46+00:00
   - Link: https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
   - Summary: The company forewarned customers and defenders that a flood of defects would be uncovered by AI. It delivered with a striking exponential increase. The post Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record appeared first on CyberScoop .
-
-### Cluster 7b70195013 — score 8
-
-- Title: New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-17T21:20:10+00:00
-- Link: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: WordPress
-
-#### Cluster taxonomy (union across members)
-- affected_products: WordPress
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: WordPress
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system. Adam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
-  - Published: 2026-07-17T21:20:10+00:00
-  - Link: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
-  - Summary: An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system. Adam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported
 
 ### Cluster 3ab4666a65 — score 8
 
