@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-17T23:57:44.046229+00:00",
+  "generated_at": "2026-07-18T02:56:29.150203+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 77,
-  "total_items_in_window": 349,
+  "total_items_in_window": 350,
   "total_clusters_raw": 165,
   "total_clusters_in_packet": 78,
   "dropped_low_score": 87,
@@ -67,19 +67,19 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 4
+    },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -93,13 +93,6 @@
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -116,19 +109,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -144,6 +144,13 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -151,26 +158,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 6
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -186,25 +179,32 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 4
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -214,13 +214,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -228,11 +221,11 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 50,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -242,12 +235,12 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -263,12 +256,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -277,6 +270,13 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
@@ -284,26 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 10
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 9
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -312,19 +298,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 10
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -339,6 +325,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -361,13 +361,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -375,11 +368,25 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 2
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 2
     },
     "Coveware": {
@@ -389,13 +396,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -403,12 +403,26 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 4
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 25
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -431,22 +445,15 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 25
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -459,8 +466,8 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -473,13 +480,6 @@
       "item_count": 50,
       "in_window_count": 25
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
@@ -487,12 +487,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -500,6 +500,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -515,13 +522,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -529,33 +529,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -571,6 +550,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -585,12 +571,26 @@
       "item_count": 100,
       "in_window_count": 27
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 15
+      "in_window_count": 17
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -1230,274 +1230,10 @@
       ]
     },
     {
-      "cluster_id": "598aa947b4",
-      "priority_score": 40,
-      "member_count": 7,
-      "corroborating_source_count": 6,
-      "strong_signals": [
-        "Apple iOS/macOS",
-        "CVE-2026-41264"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security",
-          "credential_theft",
-          "data_breach",
-          "ransomware_extortion",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2024-27822",
-          "CVE-2026-41264"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_2_operator",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
-        "link": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
-        "published": "2026-07-11T00:32:34+00:00",
-        "summary": "More AI, more software, more bugs! AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack surface all this new software brings with it (yeehaw exploits!). Take for example the new Flowise CSV Agent Prompt Injection RCE brought to you by Takahiro Yokoyama and zdi-disclosures. Flowise is an open-source tool that lets you build AI apps and chatbots using a visual, drag-and-drop canvas and CVE-2026-41264 is an unauthenticated RCE run method of the CSV_Agents class in Flowise. The vulnerability exists due insufficient sandboxing and an incomplete list of disallowed inputs. It allows unauthenticated attackers to upload a .csv file containing arbitrary python code and execute it. One moment you're using AI to help draft and email and the next moment you're getting pwn'd, what a world we live in! Happy Friday and happy hacking everyone. New module content (3) Apache .htaccess Persistence ",
-        "full_body": "Back to Blog Products and Tools Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit Jack Heysel Jul 11, 2026 | Last updated on Jul 11, 2026 | 4 min read More AI, more software, more bugs! AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack surface all this new software brings with it (yeehaw exploits!). Take for example the new Flowise CSV Agent Prompt Injection RCE brought to you by Takahiro Yokoyama and zdi-disclosures. Flowise is an open-source tool that lets you build AI apps and chatbots using a visual, drag-and-drop canvas and CVE-2026-41264 is an unauthenticated RCE run method of the CSV_Agents class in Flowise. The vulnerability exists due insufficient sandboxing and an incomplete list of disallowed inputs. It allows unauthenticated attackers to upload a .csv file containing arbitrary python code and execute it. One moment you're using AI to help draft and email and the next moment you're getting pwn'd, what a world we live in! Happy Friday and happy hacking everyone. New module content (3) Apache .htaccess Persistence Authors: 4ravind-b, msutovsky-r7, and wireghoul Type: Exploit Pull request: #21473 contributed by 4ravind-b Path: linux/persistence/apache_htaccess Description: Adds a new persistence module, exploits/linux/persistence/apache_htaccess, that plants wireghoul's mod_cgi .htaccess web shell on a Linux Apache target. Flowise CSV Agent Prompt Injection RCE Authors: Takahiro Yokoyama and zdi-disclosures Type: Exploit Pull request: #21407 contributed by Takahiro-Yoko Path: multi/http/flowise_auth_rce_cve_2026_41264 AttackerKB reference: CVE-2026-41264 Description: This adds a new exploit module for FlowiseAI Flowise (CVE-2026-41264). The CSV Agent feature evaluates LLM-generated Python code without proper sandboxing, allowing a prompt injection to achieve arbitrary code execution as the user running the server. Flowise versions 1.3.0 through 3.0.13 are affected. The module requires an API key with chatflows:create permission but does not require Flowise authentication to trigger the underlying flaw. macOS PackageKit ZSH Environment Privilege Escalation Authors: Mykola Grymalyuk and h00die Type: Exploit Pull request: #21499 contributed by h00die Path: osx/local/packagekit_zshenv_privesc AttackerKB reference: CVE-2024-27822 Description: This adds a new local privilege escalation module for macOS targeting CVE-2024-27822 in PackageKit.framework. When a PKG installer script uses a ZSH shebang, PackageKit runs it as root while inheriting the installing user's environment, causing ZSH to source the user's ~/.zshenv with root privileges. The module plants a payload in ~/.zshenv that fires only when running as root, then opens a minimal PKG with Installer.app; once the user approves the installation prompt and authenticates, the payload executes as root and a root session is returned. Affected versions are macOS 14.4, 13.6.6, 12.7.4, and 11 and earlier; the issue is patched in 14.5, 13.6.7, and 12.7.5. Enhancements and features (5) #21416 from g0tmi1k - This updates the Exploit::Remote::Ftp mixin to improve target fingerprinting. It now leverages recog to fingerprint targets from their banners and adds ftp_fingerprint and ftp_list_directory methods to assist with target enumeration. #21436 from g0tmi1k - Improved UX for reloading of library files. #21579 from zeroSteiner - This adds a few extra fields to some MCP Server tools to align with recent RPC changes in the framework. The msf_service_info tool now has resource and parents fields, the msf_vulnerability_info tool now has a resource field, the msf_note_info tool now has a data field, and the msf_credential_info tool now has new realm_key and realm_value fields. #21580 from Pushpenderrathore - This adds a Certificate Signing Request (CSR) Trace to the CertificateTrace functionality. Users can now opt to see the CSR get printed wh",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Apple iOS/macOS"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-41264",
-            "CVE-2024-27822"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "Apple iOS/macOS": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
-          "link": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
-          "published": "2026-07-11T00:32:34+00:00",
-          "summary": "More AI, more software, more bugs! AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack surface all this new software brings with it (yeehaw exploits!). Take for example the new Flowise CSV Agent Prompt Injection RCE brought to you by Takahiro Yokoyama and zdi-disclosures. Flowise is an open-source tool that lets you build AI apps and chatbots using a visual, drag-and-drop canvas and CVE-2026-41264 is an unauthenticated RCE run method of the CSV_Agents class in Flowise. The vulnerability exists due insufficient sandboxing and an incomplete list of disallowed inputs. It allows unauthenticated attackers to upload a .csv file containing arbitrary python code and execute it. One moment you're using AI to help draft and email and the next moment you're getting pwn'd, what a world we live in! Happy Friday and happy hacking everyone. New module content (3) Apache .htaccess Persistence ",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-41264",
-              "CVE-2024-27822"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint",
-          "link": "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
-          "published": "2026-07-17T14:27:54+00:00",
-          "summary": "Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Embrace the Red",
-          "cohort": "ai_security_agentic_risk",
-          "title": "From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal",
-          "link": "https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/",
-          "published": "2026-07-16T09:13:18+00:00",
-          "summary": "This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New ClickLock macOS malware traps users into revealing login password",
-          "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-          "published": "2026-07-16T21:52:54+00:00",
-          "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
-          "link": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
-          "published": "2026-07-16T12:33:42+00:00",
-          "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Modular macOS Stealer Uses Kill Loops to Force Password Entry",
-          "link": "https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/",
-          "published": "2026-07-16T13:30:00+00:00",
-          "summary": "New ClickLock macOS stealer locked victims out of their own system until they surrendered a password",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bc44ce81c5",
       "priority_score": 38,
-      "member_count": 5,
-      "corroborating_source_count": 4,
+      "member_count": 6,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "CVE-2026-63030",
         "GitHub",
@@ -1533,7 +1269,8 @@
         "confidence_tier": [
           "tier_1_offensive_research",
           "tier_2_operator",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -1700,6 +1437,34 @@
             "role_map": {
               "GitHub": "target",
               "OpenAI/ChatGPT": "tool"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "wp2shell: Pre Authentication RCE in WordPress Core",
+          "link": "https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/",
+          "published": "2026-07-18T01:13:16+00:00",
+          "summary": "submitted by /u/Mempodipper [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "WordPress": "target"
             },
             "weak_tags": {
               "products": []
@@ -3783,76 +3548,58 @@
       ]
     },
     {
-      "cluster_id": "e56b9d8f1f",
+      "cluster_id": "e5476c476d",
       "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage",
-          "credential_theft",
-          "phishing_social_eng",
-          "supply_chain",
-          "zero_day"
+          "supply_chain"
         ],
-        "actor_attribution": [
-          "APT41",
-          "Lazarus"
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
         ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services"
-        ],
-        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_2_operator"
         ]
       },
       "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Tracking Advanced Persistent Threat Groups | Recorded Future",
-        "link": "https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats",
-        "published": "2026-07-17T00:00:00+00:00",
-        "summary": "Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.",
-        "full_body": "Tracking advanced persistent threat groups with real-time intelligence Key takeaways Advanced Persistent Threats (APTs) are sophisticated, long-term cyber campaigns conducted by well-funded human adversaries (often nation-states) who target specific organizations for espionage, data theft, or critical infrastructure disruption. Traditional security tools often fail because APT groups bypass signature-based defenses by using customized malware and Living-off-the-Land (LotL) tactics that mimic legitimate user activity inside the network. Effective advanced persistent threat detection requires minimizing breakout time, the window between initial access and lateral movement, by identifying threats before they establish deep persistence. To defeat modern APTs, organizations must move from reactive internal monitoring to proactive threat intelligence, tracking adversary infrastructure on the open, deep, and dark web before an attack is launched. Modern organizations face highly resourceful, patient, and deeply calculated adversaries. This shift has ushered in an era of coordinated operations where elite threat actors don't just compromise a system and leave, but may spend weeks or months quietly surveying networks, mapping architecture, and identifying high-value targets. These operations are the hallmark of an advanced persistent threat (APT). Traditional cybersecurity frameworks have long relied on perimeter defenses designed to catch malicious activity at the gates. However, once an APT group breaches a network, they often intentionally manipulate native administrative tools and harvest legitimate credentials to blend into daily business traffic. To better confront an adversary that behaves like an insider, organizations must shift their perspective outward, leveraging real-time, external threat intelligence to identify and intercept cyber threats before they can establish a permanent foothold. What is an Advanced Persistent Threat (APT)? An APT is a sophisticated, prolonged cyber campaign executed by a highly organized group with specific, long-term objectives. Breaking down the acronym highlights the unique nature of these threats: Advanced: APT actors do not rely on off-the-shelf exploits. They frequently utilize customized malware, discover and weaponize zero-day vulnerabilities, and practice meticulous operational security (OpSec) to deliberately evade modern security controls. Persistent: Unlike cybercriminals who encrypt a server and immediately demand a ransom, APTs utilize a \"low-and-slow\" methodology. They prioritize stealth over speed, regularly remaining inside an environment for months to achieve strategic goals such as espionage, intellectual property theft, or the long-term disruption of critical infrastructure. Threat: Behind every APT is a well-funded organizational structure. These are not lone hackers; they are highly structured syndicates and state-sponsored units—such as the Lazarus Group or APT41 —backed by massive financial and geopolitical resources. The multi-stage APT attack lifecycle Generally, APT groups do not operate at random. They follow a rigorous, multi-stage lifecycle. For defenders, understanding this timeline is critical to shrinking “breakout time\"—the vital window between the initial compromise and the moment the attacker begins moving through the network. 1. Reconnaissance and planning Before a single line of malicious code is deployed, attackers gather open-source intelligence (OSINT) , scan exposed internet-facing infrastructure, and map out the target’s digital footprint to find weak points. 2. Initial infiltration Attackers typically gain entry via hyper-targeted spear-phishing or social engineering campaigns , credential stuffing, or complex supply chain compromises , often bypassing standard authentication checks. 3. Establishing footholds Once inside, actors deploy stealthy backdoors and obfuscated rootkits . This ensures that even if security teams discover and close the primary ent",
+        "source": "OpenSSF Blog",
+        "cohort": "ai_security_agentic_risk",
+        "title": "What’s in the SOSS? Podcast #65 – S3E17 Signing the Future: Securing AI and ML Artifacts with Mihai Maruseac",
+        "link": "https://openssf.org/podcast/2026/07/14/whats-in-the-soss-podcast-65-s3e17-signing-the-future-securing-ai-and-ml-artifacts-with-mihai-maruseac/",
+        "published": "2026-07-14T13:32:32+00:00",
+        "summary": "In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac (OpenAI) to discuss the OpenSSF Model Signing (OMS) specification, securing the AI/ML supply chain, and establishing a cryptographic chain of custody for models and datasets.",
+        "full_body": "Summary In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac, the lead of the OpenSSF AI/ML Working Group and Security and Privacy expert at OpenAI, to dive deep into the unique security challenges facing artificial intelligence. Unlike traditional software packages, AI models cannot simply be inspected for malware by looking at their weights – malicious code only exposes itself upon execution. Mihai outlines how the community is answering this threat through the evolution of the OpenSSF Model Signing (OMS) specification. Discover how OMS creates an unshakeable chain of custody for models, data sets, and agent workflows, the structural shift toward implementation-agnostic toolchains, and what the future looks like for a fully realized, end-to-end secure AI supply chain. Listen on Apple Podcasts Listen on Spotify Listen on Overcast Listen on Pocket Casts Conversation Highlights 00:22 – Welcome: Yesenia introduces AI/ML Working Group lead Mihai Maruseac. 00:51 – From TensorFlow to OpenAI: Mihai’s journey navigating open source security and AI. 01:47 – Core Risks of Model Tampering: A look at hidden risks inside uninspectable model weights. 03:27 – Establishing Chain of Custody: How cryptographic signatures verify file integrity from training to deployment. 05:04 – Evolution of the OMS Spec: Why the community standardized on forward-compatible, framework-agnostic formats. 07:17 – Tracking Iteration (v1.1 & v1.2): An overview of newly introduced security keys and community features. 08:26 – Choosing Your PKI Tooling: Why the OMS specification remains highly flexible for users. 10:22 – Real-World Integration: Early success stories with Kaggle, NVIDIA, and the path to PyTorch. 12:42 – Looking Ahead to Version 2: Overcoming “attestation sprawl” by unifying multiple security claims. 15:29 – The Ideal AI Supply Chain: Using signed artifacts with GUAC to automatically map vulnerabilities. 17:09 – How to Get Involved: Immediate opportunities to contribute to signature format convergence. 18:11 – Rapid Fire Segment: Mihai shares his favorite retro games, hiking, and love for Vim. 19:37 – Final Words of Advice: Why contributors of all skill levels are welcome to join. Episode Links Mihai Maruseac’s LinkedIn Page OpenSSF Model Signing (OMS) OpenSSF Model Signing Spec GitHub Repo OpenSSF AI/ML Working Group OpenSSF Guide: Visualizing Secure MLOps (MLSecOps): A Practical Guide for Building Robust AI/ML Pipeline Security Graph for Understanding Artifact Composition (GUAC) Sigstore In-toto Ollama Get involved with the OpenSSF Subscribe to the OpenSSF newsletter Follow the OpenSSF on LinkedIn Transcript Intro Music & Promo Clip (00:00) “We have the same problem that exists with traditional software. The difference with AI is that you cannot inspect the models, looking at the weights, you cannot determine if the model is malicious or not. You will discover that only when you execute the model. We have to make sure that we can create a chain of custody between model being released, me being trained and the model being used.” Yesenia (00:22) Hello and welcome to What’s in the SOSS? An OpenSSF podcast where we talk to interesting people throughout the open source ecosystem, sharing their journey, experiences, and wisdom. Soy Yesenia, one of your hosts, and today I have the utmost pleasure of having Mihai here who is a fabulous contributor to the open source space among one of the many groups that I’m not going to spoil them, but you gotta listen to share that which one. Welcome, Mihai. I’d love for you to introduce yourself to the audience. Mihai Maruseac (00:51) Hello, Hello, thank you for having me. So I am Mihai Maruseac and I’ve been working a lot on open source. I am now leading the AI/ML Working Group under OpenSSF. I worked on TensorFlow Security, then Supply Chain Security under Google Open Source Security Team. And now I’m going to work on security and privacy at OpenAI, so everywhere AI and security. Yese",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "supply_chain",
-            "phishing_social_eng",
-            "credential_theft",
-            "zero_day",
-            "apt_espionage"
+            "supply_chain"
           ],
-          "actor_attribution": [
-            "APT41",
-            "Lazarus"
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "OpenAI/ChatGPT"
           ],
-          "affected_industries": [
-            "financial_services",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
+          "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "OpenAI/ChatGPT": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -3860,38 +3607,30 @@
       },
       "corroborating_sources": [
         {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Tracking Advanced Persistent Threat Groups | Recorded Future",
-          "link": "https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats",
-          "published": "2026-07-17T00:00:00+00:00",
-          "summary": "Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.",
+          "source": "OpenSSF Blog",
+          "cohort": "ai_security_agentic_risk",
+          "title": "What’s in the SOSS? Podcast #65 – S3E17 Signing the Future: Securing AI and ML Artifacts with Mihai Maruseac",
+          "link": "https://openssf.org/podcast/2026/07/14/whats-in-the-soss-podcast-65-s3e17-signing-the-future-securing-ai-and-ml-artifacts-with-mihai-maruseac/",
+          "published": "2026-07-14T13:32:32+00:00",
+          "summary": "In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac (OpenAI) to discuss the OpenSSF Model Signing (OMS) specification, securing the AI/ML supply chain, and establishing a cryptographic chain of custody for models and datasets.",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain",
-              "phishing_social_eng",
-              "credential_theft",
-              "zero_day",
-              "apt_espionage"
+              "supply_chain"
             ],
-            "actor_attribution": [
-              "APT41",
-              "Lazarus"
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
             ],
-            "affected_industries": [
-              "financial_services",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3976,97 +3715,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "e5476c476d",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "OpenSSF Blog",
-        "cohort": "ai_security_agentic_risk",
-        "title": "What’s in the SOSS? Podcast #65 – S3E17 Signing the Future: Securing AI and ML Artifacts with Mihai Maruseac",
-        "link": "https://openssf.org/podcast/2026/07/14/whats-in-the-soss-podcast-65-s3e17-signing-the-future-securing-ai-and-ml-artifacts-with-mihai-maruseac/",
-        "published": "2026-07-14T13:32:32+00:00",
-        "summary": "In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac (OpenAI) to discuss the OpenSSF Model Signing (OMS) specification, securing the AI/ML supply chain, and establishing a cryptographic chain of custody for models and datasets.",
-        "full_body": "Summary In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac, the lead of the OpenSSF AI/ML Working Group and Security and Privacy expert at OpenAI, to dive deep into the unique security challenges facing artificial intelligence. Unlike traditional software packages, AI models cannot simply be inspected for malware by looking at their weights – malicious code only exposes itself upon execution. Mihai outlines how the community is answering this threat through the evolution of the OpenSSF Model Signing (OMS) specification. Discover how OMS creates an unshakeable chain of custody for models, data sets, and agent workflows, the structural shift toward implementation-agnostic toolchains, and what the future looks like for a fully realized, end-to-end secure AI supply chain. Listen on Apple Podcasts Listen on Spotify Listen on Overcast Listen on Pocket Casts Conversation Highlights 00:22 – Welcome: Yesenia introduces AI/ML Working Group lead Mihai Maruseac. 00:51 – From TensorFlow to OpenAI: Mihai’s journey navigating open source security and AI. 01:47 – Core Risks of Model Tampering: A look at hidden risks inside uninspectable model weights. 03:27 – Establishing Chain of Custody: How cryptographic signatures verify file integrity from training to deployment. 05:04 – Evolution of the OMS Spec: Why the community standardized on forward-compatible, framework-agnostic formats. 07:17 – Tracking Iteration (v1.1 & v1.2): An overview of newly introduced security keys and community features. 08:26 – Choosing Your PKI Tooling: Why the OMS specification remains highly flexible for users. 10:22 – Real-World Integration: Early success stories with Kaggle, NVIDIA, and the path to PyTorch. 12:42 – Looking Ahead to Version 2: Overcoming “attestation sprawl” by unifying multiple security claims. 15:29 – The Ideal AI Supply Chain: Using signed artifacts with GUAC to automatically map vulnerabilities. 17:09 – How to Get Involved: Immediate opportunities to contribute to signature format convergence. 18:11 – Rapid Fire Segment: Mihai shares his favorite retro games, hiking, and love for Vim. 19:37 – Final Words of Advice: Why contributors of all skill levels are welcome to join. Episode Links Mihai Maruseac’s LinkedIn Page OpenSSF Model Signing (OMS) OpenSSF Model Signing Spec GitHub Repo OpenSSF AI/ML Working Group OpenSSF Guide: Visualizing Secure MLOps (MLSecOps): A Practical Guide for Building Robust AI/ML Pipeline Security Graph for Understanding Artifact Composition (GUAC) Sigstore In-toto Ollama Get involved with the OpenSSF Subscribe to the OpenSSF newsletter Follow the OpenSSF on LinkedIn Transcript Intro Music & Promo Clip (00:00) “We have the same problem that exists with traditional software. The difference with AI is that you cannot inspect the models, looking at the weights, you cannot determine if the model is malicious or not. You will discover that only when you execute the model. We have to make sure that we can create a chain of custody between model being released, me being trained and the model being used.” Yesenia (00:22) Hello and welcome to What’s in the SOSS? An OpenSSF podcast where we talk to interesting people throughout the open source ecosystem, sharing their journey, experiences, and wisdom. Soy Yesenia, one of your hosts, and today I have the utmost pleasure of having Mihai here who is a fabulous contributor to the open source space among one of the many groups that I’m not going to spoil them, but you gotta listen to share that which one. Welcome, Mihai. I’d love for you to introduce yourself to the audience. Mihai Maruseac (00:51) Hello, Hello, thank you for having me. So I am Mihai Maruseac and I’ve been working a lot on open source. I am now leading the AI/ML Working Group under OpenSSF. I worked on TensorFlow Security, then Supply Chain Security under Google Open Source Security Team. And now I’m going to work on security and privacy at OpenAI, so everywhere AI and security. Yese",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "OpenSSF Blog",
-          "cohort": "ai_security_agentic_risk",
-          "title": "What’s in the SOSS? Podcast #65 – S3E17 Signing the Future: Securing AI and ML Artifacts with Mihai Maruseac",
-          "link": "https://openssf.org/podcast/2026/07/14/whats-in-the-soss-podcast-65-s3e17-signing-the-future-securing-ai-and-ml-artifacts-with-mihai-maruseac/",
-          "published": "2026-07-14T13:32:32+00:00",
-          "summary": "In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac (OpenAI) to discuss the OpenSSF Model Signing (OMS) specification, securing the AI/ML supply chain, and establishing a cryptographic chain of custody for models and datasets.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -4641,6 +4289,112 @@
               "npm": "target",
               "Anthropic/Claude": "target",
               "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf7aa5bc3e",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-10797",
+          "CVE-2026-8863"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Forgotten UEFI shims undermining Secure Boot",
+        "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
+        "published": "2026-07-14T08:53:00+00:00",
+        "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
+        "full_body": "ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "Microsoft Windows"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-8863",
+            "CVE-2026-10797"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft Windows": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Forgotten UEFI shims undermining Secure Boot",
+          "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
+          "published": "2026-07-14T08:53:00+00:00",
+          "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "Microsoft Windows"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-8863",
+              "CVE-2026-10797"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft Windows": "target"
             },
             "weak_tags": {
               "products": []
@@ -5855,29 +5609,34 @@
       ]
     },
     {
-      "cluster_id": "cf7aa5bc3e",
+      "cluster_id": "e56b9d8f1f",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "vulnerability_disclosure"
+          "apt_espionage",
+          "credential_theft",
+          "phishing_social_eng",
+          "supply_chain",
+          "zero_day"
         ],
-        "actor_attribution": [],
+        "actor_attribution": [
+          "APT41",
+          "Lazarus"
+        ],
         "affected_industries": [
-          "critical_infrastructure"
+          "critical_infrastructure",
+          "financial_services"
         ],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-10797",
-          "CVE-2026-8863"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -5886,37 +5645,40 @@
         ]
       },
       "primary": {
-        "source": "ESET WeLiveSecurity",
+        "source": "Recorded Future",
         "cohort": "threat_research_primary",
-        "title": "Forgotten UEFI shims undermining Secure Boot",
-        "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
-        "published": "2026-07-14T08:53:00+00:00",
-        "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
-        "full_body": "ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems ",
+        "title": "Tracking Advanced Persistent Threat Groups | Recorded Future",
+        "link": "https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats",
+        "published": "2026-07-17T00:00:00+00:00",
+        "summary": "Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.",
+        "full_body": "Tracking advanced persistent threat groups with real-time intelligence Key takeaways Advanced Persistent Threats (APTs) are sophisticated, long-term cyber campaigns conducted by well-funded human adversaries (often nation-states) who target specific organizations for espionage, data theft, or critical infrastructure disruption. Traditional security tools often fail because APT groups bypass signature-based defenses by using customized malware and Living-off-the-Land (LotL) tactics that mimic legitimate user activity inside the network. Effective advanced persistent threat detection requires minimizing breakout time, the window between initial access and lateral movement, by identifying threats before they establish deep persistence. To defeat modern APTs, organizations must move from reactive internal monitoring to proactive threat intelligence, tracking adversary infrastructure on the open, deep, and dark web before an attack is launched. Modern organizations face highly resourceful, patient, and deeply calculated adversaries. This shift has ushered in an era of coordinated operations where elite threat actors don't just compromise a system and leave, but may spend weeks or months quietly surveying networks, mapping architecture, and identifying high-value targets. These operations are the hallmark of an advanced persistent threat (APT). Traditional cybersecurity frameworks have long relied on perimeter defenses designed to catch malicious activity at the gates. However, once an APT group breaches a network, they often intentionally manipulate native administrative tools and harvest legitimate credentials to blend into daily business traffic. To better confront an adversary that behaves like an insider, organizations must shift their perspective outward, leveraging real-time, external threat intelligence to identify and intercept cyber threats before they can establish a permanent foothold. What is an Advanced Persistent Threat (APT)? An APT is a sophisticated, prolonged cyber campaign executed by a highly organized group with specific, long-term objectives. Breaking down the acronym highlights the unique nature of these threats: Advanced: APT actors do not rely on off-the-shelf exploits. They frequently utilize customized malware, discover and weaponize zero-day vulnerabilities, and practice meticulous operational security (OpSec) to deliberately evade modern security controls. Persistent: Unlike cybercriminals who encrypt a server and immediately demand a ransom, APTs utilize a \"low-and-slow\" methodology. They prioritize stealth over speed, regularly remaining inside an environment for months to achieve strategic goals such as espionage, intellectual property theft, or the long-term disruption of critical infrastructure. Threat: Behind every APT is a well-funded organizational structure. These are not lone hackers; they are highly structured syndicates and state-sponsored units—such as the Lazarus Group or APT41 —backed by massive financial and geopolitical resources. The multi-stage APT attack lifecycle Generally, APT groups do not operate at random. They follow a rigorous, multi-stage lifecycle. For defenders, understanding this timeline is critical to shrinking “breakout time\"—the vital window between the initial compromise and the moment the attacker begins moving through the network. 1. Reconnaissance and planning Before a single line of malicious code is deployed, attackers gather open-source intelligence (OSINT) , scan exposed internet-facing infrastructure, and map out the target’s digital footprint to find weak points. 2. Initial infiltration Attackers typically gain entry via hyper-targeted spear-phishing or social engineering campaigns , credential stuffing, or complex supply chain compromises , often bypassing standard authentication checks. 3. Establishing footholds Once inside, actors deploy stealthy backdoors and obfuscated rootkits . This ensures that even if security teams discover and close the primary ent",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "vulnerability_disclosure"
+            "supply_chain",
+            "phishing_social_eng",
+            "credential_theft",
+            "zero_day",
+            "apt_espionage"
           ],
-          "actor_attribution": [],
+          "actor_attribution": [
+            "APT41",
+            "Lazarus"
+          ],
           "affected_industries": [
+            "financial_services",
             "critical_infrastructure"
           ],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
+          "affected_products": [],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-8863",
-            "CVE-2026-10797"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Microsoft Windows": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -5924,35 +5686,38 @@
       },
       "corroborating_sources": [
         {
-          "source": "ESET WeLiveSecurity",
+          "source": "Recorded Future",
           "cohort": "threat_research_primary",
-          "title": "Forgotten UEFI shims undermining Secure Boot",
-          "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
-          "published": "2026-07-14T08:53:00+00:00",
-          "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
+          "title": "Tracking Advanced Persistent Threat Groups | Recorded Future",
+          "link": "https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats",
+          "published": "2026-07-17T00:00:00+00:00",
+          "summary": "Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.",
           "taxonomy": {
             "threat_categories": [
-              "vulnerability_disclosure"
+              "supply_chain",
+              "phishing_social_eng",
+              "credential_theft",
+              "zero_day",
+              "apt_espionage"
             ],
-            "actor_attribution": [],
+            "actor_attribution": [
+              "APT41",
+              "Lazarus"
+            ],
             "affected_industries": [
+              "financial_services",
               "critical_infrastructure"
             ],
-            "affected_products": [
-              "Microsoft Windows"
-            ],
+            "affected_products": [],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-8863",
-              "CVE-2026-10797"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft Windows": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6363,108 +6128,6 @@
       ]
     },
     {
-      "cluster_id": "97c93f5e79",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Ernst & Young discloses data breach after support system hack",
-        "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-        "published": "2026-07-17T14:55:28+00:00",
-        "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-        "full_body": "Ernst & Young discloses data breach after support system hack By Bill Toulas July 17, 2026 10:55 AM 3 Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. According to the company, support tickets submitted through the platform may have included documents containing client tax information. Ernst & Young (EY) is among the world’s four largest auditing and professional services providers, offering auditing, tax, consulting, and transaction advisory services to major organizations in more than 150 countries. The company employs 406,000 people and reported a global revenue of $53.2 billion last year. The breach notification to affected clients states that Ernst & Young detected anomalous activity on its networks on April 23 and initiated an investigation. With help from external cybersecurity experts, the company determined that an unauthorized third party had accessed the said platform between March 28 and April 12 and downloaded multiple documents. The affected information included certain personal and financial data contained in or used to prepare tax filings. Since the notification sample features a placeholder for the specific data types, the type of the information exposed remains unclear. Also, the company has not shared exactly how many customers were affected or whether the incident impacts only its U.S. customer base or other countries as well. Ernst & Young says it secured its systems and notified federal law enforcement authorities, while it has assured that the unauthorized access has been removed. The company also states that it is not aware of any misuse or further exposure of the stolen files and has no indication that particular individuals were targeted by the threat actors. To mitigate the risks arising from this exposure, EY offers affected clients 24 months of identity monitoring and restoration service through Experian and urges letter recipients to enroll by October 31, 2026. At the time of writing, no data extortion or ransomware groups have taken responsibility for the attack on Ernst & Young. BleepingComputer has contacted EY to learn more about the incident, but we have not yet received a response at the time of publication. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Healthtech firm Xolis suffers data breach impacting 1.4 million people SoFi confirms third-party data breach at Hong Kong subsidiary Medtronic notifies customers impacted by ShinyHunters data breach LastPass confirms data breach in Klue supply chain attack Texas govt data breach exposes over 3 million driver’s licenses",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Ernst & Young discloses data breach after support system hack",
-          "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-          "published": "2026-07-17T14:55:28+00:00",
-          "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "f9bf33b9c9",
       "priority_score": 10,
       "member_count": 1,
@@ -6548,90 +6211,6 @@
             "role_map": {
               "AWS": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0dd49c6456",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
-        "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
-        "published": "2026-07-17T14:30:00+00:00",
-        "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
-        "full_body": "Infosecurity Magazine Home » News » 23andMe Faces New Security Mandates in $18m Data Breach Settlement 23andMe Faces New Security Mandates in $18m Data Breach Settlement News 17 July 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn A settlement of $18m has been reached between a coalition of 42 US attorneys general and genetic testing firm 23andMe following the 2023 data breach. New York Attorney General Letitia James and the bipartisan coalition has also ensured new data protection requirements to secure 23andMe customer data. 23andMe will also pay more than $705,000 to New York. In October 2023, the genetics testing firm confirmed that customers had profile information accessed by cybercriminals following a credential stuffing campaign. At the time of the incident, the company said that the hack was not the result of attackers infiltrating the firm’s own network, rather it was customers’ poor password management including the lack of multi-factor authentication (MFA). Over six million individuals' information was accessed from the data breach including information about ancestry. In March 2025, 23andMe filed for bankruptcy protection. A statement issued by Attorney General James said that herself and the coalition filed claims related to the data breach investigation. In June 2025, Attorney General James and a bipartisan coalition of 27 other attorneys general sued 23andMe to protect Americans’ personal genetic information during the company’s bankruptcy. As a result of the bankruptcy, 23andMe’s customer data was sold to TTAM Research , a non-profit formed by 23andMe’s founder and former CEO Anne Wojcick. Attorney General James and the coalition have secured new information and data security requirements at TTAM to protect customers’ data and prevent future breaches. The security measures include: Appropriate risk analysis The addition of an Advisory Board on data security Continuing to offer consumers the right to delete their information “Companies have a duty to protect their customers’ personal information from hackers, but 23andMe put millions of its customers at risk with its flimsy security measures,” said Attorney General James. “New Yorkers trusted 23andMe with their sensitive and personal genetic data, only to find that data stolen and put up for sale on the dark corners of the internet. As a result of our coalition’s action, 23andMe will pay for violating the law and strict rules will be put in place to protect their customers.” Infosecurity has reached out to 23andMe in relation to the $18m settlement and security requirements. This is in addition to a $46.75 ​million settlement which was approved by a US bankruptcy judge on July 7, to be awarded as compensation to victims of the data breach. However, on 10 July, a bankruptcy judge said California cannot seek damages ​from the company because of their Chapter 11 reorganization plan, according to reporting by Reuters. However, the judge said California has 14 days to either dismiss its ⁠May 28 lawsuit , which was issued by Attorney General of California Rob Bonta, or amend ​the complaint to eliminate the claims for monetary relief. The company was also fined €2.4m ($2.75m) in July 2026 by the Spanish privacy watchdog as 2642 customers residing in Spain were affected. In June 2025, the UK’s Information Commissioner’s Office fined 23andMe £2.3m ($3.1m) for failing to protect customers’ special category data. You may also like The 10 Biggest Data Breach Fines and Settlements of 2025 News Feature 26 December 2025 Post Office Escapes £1m Fine After Postmaster Data Breach News 4 December 2025 Capita Fined £14m After 2023 Breach that Hit 6.6 Million People News 15 October 2025 Northern Ireland Police Data Leak Sees Service Fined by ICO News 3 October 2024 UK Construction Company Fined £4.4m for Serious Security Failings News 24 October 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Single",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_theft",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
-          "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
-          "published": "2026-07-17T14:30:00+00:00",
-          "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6740,12 +6319,12 @@
           }
         },
         {
-          "source": "The Hacker News",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
-          "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-          "published": "2026-07-14T11:21:35+00:00",
-          "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun",
+          "title": "Novel OAuth Client ID Spoofing Technique Targets Cloud Environments",
+          "link": "https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/",
+          "published": "2026-07-13T13:00:00+00:00",
+          "summary": "New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -6768,12 +6347,12 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Novel OAuth Client ID Spoofing Technique Targets Cloud Environments",
-          "link": "https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/",
-          "published": "2026-07-13T13:00:00+00:00",
-          "summary": "New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments",
+          "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+          "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+          "published": "2026-07-14T11:21:35+00:00",
+          "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -7200,6 +6779,108 @@
       ]
     },
     {
+      "cluster_id": "97c93f5e79",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Ernst & Young discloses data breach after support system hack",
+        "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+        "published": "2026-07-17T14:55:28+00:00",
+        "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+        "full_body": "Ernst & Young discloses data breach after support system hack By Bill Toulas July 17, 2026 10:55 AM 3 Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. According to the company, support tickets submitted through the platform may have included documents containing client tax information. Ernst & Young (EY) is among the world’s four largest auditing and professional services providers, offering auditing, tax, consulting, and transaction advisory services to major organizations in more than 150 countries. The company employs 406,000 people and reported a global revenue of $53.2 billion last year. The breach notification to affected clients states that Ernst & Young detected anomalous activity on its networks on April 23 and initiated an investigation. With help from external cybersecurity experts, the company determined that an unauthorized third party had accessed the said platform between March 28 and April 12 and downloaded multiple documents. The affected information included certain personal and financial data contained in or used to prepare tax filings. Since the notification sample features a placeholder for the specific data types, the type of the information exposed remains unclear. Also, the company has not shared exactly how many customers were affected or whether the incident impacts only its U.S. customer base or other countries as well. Ernst & Young says it secured its systems and notified federal law enforcement authorities, while it has assured that the unauthorized access has been removed. The company also states that it is not aware of any misuse or further exposure of the stolen files and has no indication that particular individuals were targeted by the threat actors. To mitigate the risks arising from this exposure, EY offers affected clients 24 months of identity monitoring and restoration service through Experian and urges letter recipients to enroll by October 31, 2026. At the time of writing, no data extortion or ransomware groups have taken responsibility for the attack on Ernst & Young. BleepingComputer has contacted EY to learn more about the incident, but we have not yet received a response at the time of publication. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Healthtech firm Xolis suffers data breach impacting 1.4 million people SoFi confirms third-party data breach at Hong Kong subsidiary Medtronic notifies customers impacted by ShinyHunters data breach LastPass confirms data breach in Klue supply chain attack Texas govt data breach exposes over 3 million driver’s licenses",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ernst & Young discloses data breach after support system hack",
+          "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+          "published": "2026-07-17T14:55:28+00:00",
+          "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b9753d740d",
       "priority_score": 9,
       "member_count": 1,
@@ -7525,87 +7206,6 @@
       ]
     },
     {
-      "cluster_id": "b47b034408",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Schneier on Security",
-        "cohort": "practitioner_analysis",
-        "title": "Vulnerability in FIFA’s Network",
-        "link": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
-        "published": "2026-07-14T11:06:51+00:00",
-        "summary": "FIFA’s network was vulnerable to anyone with even minimal access.",
-        "full_body": "Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the emergency broadcast system is takes over “every TV in London” That said, this technical security system failed. The legal and social security system didn’t fail. No one, including the author took over the airwaves and broadcast other content that I know of. Security is many layered, even with holes. So far, the totality of it has worked. Interesting.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "legal_professional"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Schneier on Security",
-          "cohort": "practitioner_analysis",
-          "title": "Vulnerability in FIFA’s Network",
-          "link": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
-          "published": "2026-07-14T11:06:51+00:00",
-          "summary": "FIFA’s network was vulnerable to anyone with even minimal access.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "legal_professional"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "88d76f4fd8",
       "priority_score": 9,
       "member_count": 1,
@@ -7696,6 +7296,171 @@
       ]
     },
     {
+      "cluster_id": "b47b034408",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Schneier on Security",
+        "cohort": "practitioner_analysis",
+        "title": "Vulnerability in FIFA’s Network",
+        "link": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
+        "published": "2026-07-14T11:06:51+00:00",
+        "summary": "FIFA’s network was vulnerable to anyone with even minimal access.",
+        "full_body": "Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the emergency broadcast system is takes over “every TV in London” That said, this technical security system failed. The legal and social security system didn’t fail. No one, including the author took over the airwaves and broadcast other content that I know of. Security is many layered, even with holes. So far, the totality of it has worked. Interesting.",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Schneier on Security",
+          "cohort": "practitioner_analysis",
+          "title": "Vulnerability in FIFA’s Network",
+          "link": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
+          "published": "2026-07-14T11:06:51+00:00",
+          "summary": "FIFA’s network was vulnerable to anyone with even minimal access.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0dd49c6456",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
+        "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
+        "published": "2026-07-17T14:30:00+00:00",
+        "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
+        "full_body": "Infosecurity Magazine Home » News » 23andMe Faces New Security Mandates in $18m Data Breach Settlement 23andMe Faces New Security Mandates in $18m Data Breach Settlement News 17 July 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn A settlement of $18m has been reached between a coalition of 42 US attorneys general and genetic testing firm 23andMe following the 2023 data breach. New York Attorney General Letitia James and the bipartisan coalition has also ensured new data protection requirements to secure 23andMe customer data. 23andMe will also pay more than $705,000 to New York. In October 2023, the genetics testing firm confirmed that customers had profile information accessed by cybercriminals following a credential stuffing campaign. At the time of the incident, the company said that the hack was not the result of attackers infiltrating the firm’s own network, rather it was customers’ poor password management including the lack of multi-factor authentication (MFA). Over six million individuals' information was accessed from the data breach including information about ancestry. In March 2025, 23andMe filed for bankruptcy protection. A statement issued by Attorney General James said that herself and the coalition filed claims related to the data breach investigation. In June 2025, Attorney General James and a bipartisan coalition of 27 other attorneys general sued 23andMe to protect Americans’ personal genetic information during the company’s bankruptcy. As a result of the bankruptcy, 23andMe’s customer data was sold to TTAM Research , a non-profit formed by 23andMe’s founder and former CEO Anne Wojcick. Attorney General James and the coalition have secured new information and data security requirements at TTAM to protect customers’ data and prevent future breaches. The security measures include: Appropriate risk analysis The addition of an Advisory Board on data security Continuing to offer consumers the right to delete their information “Companies have a duty to protect their customers’ personal information from hackers, but 23andMe put millions of its customers at risk with its flimsy security measures,” said Attorney General James. “New Yorkers trusted 23andMe with their sensitive and personal genetic data, only to find that data stolen and put up for sale on the dark corners of the internet. As a result of our coalition’s action, 23andMe will pay for violating the law and strict rules will be put in place to protect their customers.” Infosecurity has reached out to 23andMe in relation to the $18m settlement and security requirements. This is in addition to a $46.75 ​million settlement which was approved by a US bankruptcy judge on July 7, to be awarded as compensation to victims of the data breach. However, on 10 July, a bankruptcy judge said California cannot seek damages ​from the company because of their Chapter 11 reorganization plan, according to reporting by Reuters. However, the judge said California has 14 days to either dismiss its ⁠May 28 lawsuit , which was issued by Attorney General of California Rob Bonta, or amend ​the complaint to eliminate the claims for monetary relief. The company was also fined €2.4m ($2.75m) in July 2026 by the Spanish privacy watchdog as 2642 customers residing in Spain were affected. In June 2025, the UK’s Information Commissioner’s Office fined 23andMe £2.3m ($3.1m) for failing to protect customers’ special category data. You may also like The 10 Biggest Data Breach Fines and Settlements of 2025 News Feature 26 December 2025 Post Office Escapes £1m Fine After Postmaster Data Breach News 4 December 2025 Capita Fined £14m After 2023 Breach that Hit 6.6 Million People News 15 October 2025 Northern Ireland Police Data Leak Sees Service Fined by ICO News 3 October 2024 UK Construction Company Fined £4.4m for Serious Security Failings News 24 October 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Single",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
+          "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
+          "published": "2026-07-17T14:30:00+00:00",
+          "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "ae25d6203b",
       "priority_score": 9,
       "member_count": 1,
@@ -7704,17 +7469,28 @@
         "CVE-2026-44747"
       ],
       "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
+        "threat_categories": [
+          "active_exploitation",
+          "ddos"
+        ],
+        "actor_attribution": [
+          "Scattered Spider"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-44747"
+          "CVE-2026-27690",
+          "CVE-2026-44747",
+          "CVE-2026-44761"
         ],
         "attack_techniques": [],
         "urgency_signals": [
-          "critical_cvss"
+          "actively_exploited",
+          "critical_cvss",
+          "preauth_unauth"
         ],
         "content_type": [
           "news_report"
@@ -7730,19 +7506,30 @@
         "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
         "published": "2026-07-14T18:17:57+00:00",
         "summary": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ravie Lakshmanan  Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. \"As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF,\" SAP security firm Onapsis said . \"Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version.\" Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter deployments in non-Cloud Foundry environments that allows an unauthenticated attacker to send a specially crafted HTTP request that leads to request-response desynchronization and results in the exposure of user responses and triggers denial-of-service (DoS) attacks. CVE-2026-44761 (CVSS score: 9.1) - A use of default credentials flaw in SAP Commerce Cloud that could retain a sample OAuth 2.0 client with publicly documented sample credentials originating from a sample configuration provided in SAP Help Portal documentation. \"If left unchanged, an unauthenticated attacker could use these well-known credentials to obtain a valid access token and invoke certain APIs to read and modify data,\" according to a description of CVE-2026-44761 in the NIST National Vulnerability Database (NVD). \"Successful exploitation results in high impact on confidentiality and integrity, with no impact on availability.\" Onapsis noted that the vulnerability stems from sample configuration scripts previously provided in the SAP Help Portal. These scripts, originally meant for development and testing, configure OAuth 2.0 clients with hard-coded, well-known credentials. \"Older versions of the documentation did not explicitly warn customers against importing these default settings into production,\" it noted. \"An unauthenticated attacker can leverage these publicly available, default credentials to obtain a valid access token. With this token, they can invoke specific APIs to read and alter system data. Exploitation requires that the customer executed the sample script and retained the resulting OAuth 2.0 client in production without replacing the hard-coded secret.\" It's worth noting that customers who removed the sample client or replaced the secret with a strong, unique value are not impacted by the bug. Customers are recommended to audit their production environments for the presence of the affected sample OAuth 2.0 client. If the client exists, it must be removed. Although there is no evidence of the flaws being exploited in the wild, it's advised to apply the necessary updates for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Authentication Security , Cloud security , data security , denial of service , enterprise security , SAP , Vulnerability , Web Security ⚡ Top Stories This Week 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service 15-Year-O",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
+          "threat_categories": [
+            "ddos",
+            "active_exploitation"
+          ],
+          "actor_attribution": [
+            "Scattered Spider"
+          ],
+          "affected_industries": [
+            "financial_services"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [
-            "CVE-2026-44747"
+            "CVE-2026-44747",
+            "CVE-2026-27690",
+            "CVE-2026-44761"
           ],
           "attack_techniques": [],
           "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth",
             "critical_cvss"
           ],
           "content_type": "news_report",
@@ -7762,16 +7549,27 @@
           "published": "2026-07-14T18:17:57+00:00",
           "summary": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could",
           "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
+            "threat_categories": [
+              "ddos",
+              "active_exploitation"
+            ],
+            "actor_attribution": [
+              "Scattered Spider"
+            ],
+            "affected_industries": [
+              "financial_services"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [
-              "CVE-2026-44747"
+              "CVE-2026-44747",
+              "CVE-2026-27690",
+              "CVE-2026-44761"
             ],
             "attack_techniques": [],
             "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth",
               "critical_cvss"
             ],
             "content_type": "news_report",
@@ -7785,40 +7583,34 @@
       ]
     },
     {
-      "cluster_id": "adc7655a9d",
-      "priority_score": 9,
+      "cluster_id": "88deaf9a79",
+      "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-50454"
-      ],
+      "strong_signals": [],
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-50454"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
+        "urgency_signals": [],
         "content_type": [
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
-          "tier_5_chatter"
+          "tier_2_operator"
         ]
       },
       "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454",
-        "link": "https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/",
-        "published": "2026-07-17T13:18:22+00:00",
-        "summary": "submitted by /u/ShufflinMuffin [link] [comments]",
+        "source": "Proofpoint Threat Insight",
+        "cohort": "detection_response_operations",
+        "title": "Hackers find a new trick to collect Microsoft Entra user data without raising red flags",
+        "link": "https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags",
+        "published": "2026-07-13T13:35:56+00:00",
+        "summary": "",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -7827,15 +7619,11 @@
           "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-50454"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -7844,27 +7632,23 @@
       },
       "corroborating_sources": [
         {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454",
-          "link": "https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/",
-          "published": "2026-07-17T13:18:22+00:00",
-          "summary": "submitted by /u/ShufflinMuffin [link] [comments]",
+          "source": "Proofpoint Threat Insight",
+          "cohort": "detection_response_operations",
+          "title": "Hackers find a new trick to collect Microsoft Entra user data without raising red flags",
+          "link": "https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags",
+          "published": "2026-07-13T13:35:56+00:00",
+          "summary": "",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-50454"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -7981,81 +7765,6 @@
             "role_map": {
               "Azure": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "88deaf9a79",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Proofpoint Threat Insight",
-        "cohort": "detection_response_operations",
-        "title": "Hackers find a new trick to collect Microsoft Entra user data without raising red flags",
-        "link": "https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags",
-        "published": "2026-07-13T13:35:56+00:00",
-        "summary": "",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Proofpoint Threat Insight",
-          "cohort": "detection_response_operations",
-          "title": "Hackers find a new trick to collect Microsoft Entra user data without raising red flags",
-          "link": "https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags",
-          "published": "2026-07-13T13:35:56+00:00",
-          "summary": "",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8769,171 +8478,6 @@
       ]
     },
     {
-      "cluster_id": "3ab4666a65",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
-        "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-        "published": "2026-07-15T11:07:07+00:00",
-        "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. \"The PoC requires",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
-          "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-          "published": "2026-07-15T11:07:07+00:00",
-          "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. \"The PoC requires",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "53ef47508e",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
-        "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
-        "published": "2026-07-14T13:48:07+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
-          "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
-          "published": "2026-07-14T13:48:07+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "5b3297c4f5",
       "priority_score": 8,
       "member_count": 1,
@@ -9172,6 +8716,474 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "3ab4666a65",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
+        "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
+        "published": "2026-07-15T11:07:07+00:00",
+        "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. \"The PoC requires",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
+          "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
+          "published": "2026-07-15T11:07:07+00:00",
+          "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. \"The PoC requires",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "53ef47508e",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+        "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+        "published": "2026-07-14T13:48:07+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+          "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+          "published": "2026-07-14T13:48:07+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "adc7655a9d",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-50454"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-50454"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454",
+        "link": "https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/",
+        "published": "2026-07-17T13:18:22+00:00",
+        "summary": "submitted by /u/ShufflinMuffin [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-50454"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454",
+          "link": "https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/",
+          "published": "2026-07-17T13:18:22+00:00",
+          "summary": "submitted by /u/ShufflinMuffin [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-50454"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "9d039b4e42",
+      "priority_score": 8,
+      "member_count": 6,
+      "corroborating_source_count": 5,
+      "strong_signals": [
+        "Apple iOS/macOS"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security",
+          "credential_theft",
+          "data_breach",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Apple iOS/macOS"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Embrace the Red",
+        "cohort": "ai_security_agentic_risk",
+        "title": "From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal",
+        "link": "https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/",
+        "published": "2026-07-16T09:13:18+00:00",
+        "summary": "This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Apple iOS/macOS"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Apple iOS/macOS": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Embrace the Red",
+          "cohort": "ai_security_agentic_risk",
+          "title": "From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal",
+          "link": "https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/",
+          "published": "2026-07-16T09:13:18+00:00",
+          "summary": "This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint",
+          "link": "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
+          "published": "2026-07-17T14:27:54+00:00",
+          "summary": "Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New ClickLock macOS malware traps users into revealing login password",
+          "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+          "published": "2026-07-16T21:52:54+00:00",
+          "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Modular macOS Stealer Uses Kill Loops to Force Password Entry",
+          "link": "https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/",
+          "published": "2026-07-16T13:30:00+00:00",
+          "summary": "New ClickLock macOS stealer locked victims out of their own system until they surrendered a password",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
+          "link": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
+          "published": "2026-07-16T12:33:42+00:00",
+          "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
@@ -9281,7 +9293,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 14,
+      "article_count": 15,
       "cohesion": 0.216,
       "shared_strong_signals": [
         "npm"
@@ -9299,6 +9311,7 @@
         "https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions",
         "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
         "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+        "https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/",
         "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
         "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
         "https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/",
@@ -9468,37 +9481,6 @@
       ]
     },
     {
-      "label": "Apple iOS/macOS vulnerability activity",
-      "anchor_signal": "Apple iOS/macOS",
-      "theme_key": "apple-ios-macos",
-      "dominant_features": {
-        "affected_products": [
-          "Apple iOS/macOS"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 8,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Apple iOS/macOS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "598aa947b4",
-        "5af9628b18"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
-        "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
-        "https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/",
-        "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-        "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
-        "https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/",
-        "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/"
-      ]
-    },
-    {
       "label": "AWS vulnerability activity",
       "anchor_signal": "AWS",
       "theme_key": "aws",
@@ -9606,6 +9588,38 @@
         "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
         "https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/"
       ]
+    },
+    {
+      "label": "Scattered Spider campaign activity",
+      "anchor_signal": "Scattered Spider",
+      "theme_key": "scattered-spider",
+      "dominant_features": {
+        "actor_attribution": [
+          "Scattered Spider"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 6,
+      "cohesion": 0.361,
+      "shared_strong_signals": [
+        "Scattered Spider"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "a632c3dcbf",
+        "ae25d6203b"
+      ],
+      "links": [
+        "https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack",
+        "https://cyberscoop.com/scattered-spider-leaders-sentenced-united-kingdom/",
+        "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
+        "https://www.helpnetsecurity.com/2026/07/16/ransport-for-london-cyberattack-prison-time/",
+        "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html"
+      ]
     }
   ],
   "forward_signals": {
@@ -9615,6 +9629,13 @@
       "products": []
     },
     "velocity": [
+      {
+        "cluster_id": "bc44ce81c5",
+        "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
+        "sources_in_window": 3,
+        "window_hours": 3.9,
+        "cohort_count": 5
+      },
       {
         "cluster_id": "c951fa224e",
         "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
@@ -9637,11 +9658,11 @@
         "cohort_count": 3
       },
       {
-        "cluster_id": "598aa947b4",
-        "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
+        "cluster_id": "9d039b4e42",
+        "title": "From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal",
         "sources_in_window": 3,
         "window_hours": 4.3,
-        "cohort_count": 3
+        "cohort_count": 2
       }
     ],
     "leading_edge": [],
@@ -9702,16 +9723,6 @@
         "first_observation": true
       },
       {
-        "cluster_id": "598aa947b4",
-        "pair": "CVE-2024-27822 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "598aa947b4",
-        "pair": "CVE-2026-41264 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
         "cluster_id": "bc44ce81c5",
         "pair": "CVE-2026-63030 + GitHub",
         "first_observation": true
@@ -9719,6 +9730,16 @@
       {
         "cluster_id": "bc44ce81c5",
         "pair": "CVE-2026-63030 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "bc44ce81c5",
+        "pair": "CVE-2026-63030 + npm",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "d9c1f05e41",
+        "pair": "CVE-2025-40947 + Palo Alto Networks",
         "first_observation": true
       }
     ],

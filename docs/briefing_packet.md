@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-17T23:57:44.046229+00:00
+- Generated: 2026-07-18T02:56:29.150203+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 349
+- Total items in window: 350
 - Total clusters raw: 165
 - Total clusters in packet: 78
 - Dropped low score: 87
@@ -70,16 +70,16 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -89,11 +89,6 @@
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
@@ -105,16 +100,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -125,26 +125,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 6
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -155,51 +150,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 100
+  - Item count: 50
+  - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 50
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -210,51 +205,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 10
+  - In window count: 2
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 10
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - In window count: 9
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -265,6 +255,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -280,41 +280,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 2
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 4
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 25
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -330,18 +340,13 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 25
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,8 +355,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -360,26 +365,26 @@
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 10
+  - In window count: 2
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -390,36 +395,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -430,6 +415,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -440,11 +430,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 15
+  - In window count: 17
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -529,7 +529,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 4
-- Article count: 14
+- Article count: 15
 - Cohesion: 0.216
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -543,6 +543,7 @@
   - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
   - https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
   - https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
+  - https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/
   - https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
   - https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/
   - https://securitylabs.datadoghq.com/articles/compromised-asyncapi-npm-packages/
@@ -639,27 +640,6 @@
   - https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
   - https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
 
-### Apple iOS/macOS vulnerability activity
-- Anchor signal: Apple iOS/macOS
-- Theme key: apple-ios-macos
-- Cluster count: 2
-- Article count: 8
-- Cohesion: 0.2
-- Shared strong signals: Apple iOS/macOS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Apple iOS/macOS
-- Cluster IDs: 598aa947b4, 5af9628b18
-- Links:
-  - https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
-  - https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/
-  - https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/
-  - https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/
-  - https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
-  - https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/
-  - https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/
-
 ### AWS vulnerability activity
 - Anchor signal: AWS
 - Theme key: aws
@@ -729,6 +709,26 @@
   - https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
   - https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
 
+### Scattered Spider campaign activity
+- Anchor signal: Scattered Spider
+- Theme key: scattered-spider
+- Cluster count: 2
+- Article count: 6
+- Cohesion: 0.361
+- Shared strong signals: Scattered Spider
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - actor_attribution: Scattered Spider
+  - affected_industries: financial_services
+- Cluster IDs: a632c3dcbf, ae25d6203b
+- Links:
+  - https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack
+  - https://cyberscoop.com/scattered-spider-leaders-sentenced-united-kingdom/
+  - https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/
+  - https://www.helpnetsecurity.com/2026/07/16/ransport-for-london-cyberattack-prison-time/
+  - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+
 ## Forward signals
 
 ### Novelty
@@ -736,7 +736,12 @@
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (4)
+### Velocity bursts (5)
+- **CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core**
+  - Cluster: bc44ce81c5
+  - Sources in window: 3
+  - Window hours: 3.9
+  - Cohort count: 5
 - **Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)**
   - Cluster: c951fa224e
   - Sources in window: 3
@@ -752,11 +757,11 @@
   - Sources in window: 3
   - Window hours: 3.2
   - Cohort count: 3
-- **Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit**
-  - Cluster: 598aa947b4
+- **From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal**
+  - Cluster: 9d039b4e42
   - Sources in window: 3
   - Window hours: 4.3
-  - Cohort count: 3
+  - Cohort count: 2
 
 ### Leading edge (0)
 
@@ -772,10 +777,10 @@
 - Pair: CVE-2026-58644 + Azure (cluster 8c3fd723aa, first observation: True)
 - Pair: CVE-2026-58644 + Microsoft Defender (cluster 8c3fd723aa, first observation: True)
 - Pair: CVE-2026-58644 + Microsoft SharePoint (cluster 8c3fd723aa, first observation: True)
-- Pair: CVE-2024-27822 + Apple iOS/macOS (cluster 598aa947b4, first observation: True)
-- Pair: CVE-2026-41264 + Apple iOS/macOS (cluster 598aa947b4, first observation: True)
 - Pair: CVE-2026-63030 + GitHub (cluster bc44ce81c5, first observation: True)
 - Pair: CVE-2026-63030 + WordPress (cluster bc44ce81c5, first observation: True)
+- Pair: CVE-2026-63030 + npm (cluster bc44ce81c5, first observation: True)
+- Pair: CVE-2025-40947 + Palo Alto Networks (cluster d9c1f05e41, first observation: True)
 
 ### Drift (2)
 - **ShinyHunters** (cluster 7df2f246d4)
@@ -956,78 +961,6 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint S
   - Link: https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/
   - Summary: The critical-severity security defect allows remote, authenticated attackers to execute arbitrary code on the server. The post Fresh SharePoint Vulnerability Exploited Soon After Disclosure appeared first on SecurityWeek .
 
-### Cluster 598aa947b4 — score 40
-
-- Title: Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-07-11T00:32:34+00:00
-- Link: https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
-- Fetch status: ok
-- Member count: 7
-- Corroborating source count: 6
-- Strong signals: Apple iOS/macOS, CVE-2026-41264
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, credential_theft, data_breach, ransomware_extortion, web_shell_backdoor
-- affected_products: Apple iOS/macOS
-- cve_ids: CVE-2024-27822, CVE-2026-41264
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ai_security, web_shell_backdoor
-- affected_products: Apple iOS/macOS
-- cve_ids: CVE-2026-41264, CVE-2024-27822
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-More AI, more software, more bugs! AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack surface all this new software brings with it (yeehaw exploits!). Take for example the new Flowise CSV Agent Prompt Injection RCE brought to you by Takahiro Yokoyama and zdi-disclosures. Flowise is an open-source tool that lets you build AI apps and chatbots using a visual, drag-and-drop canvas and CVE-2026-41264 is an unauthenticated RCE run method of the CSV_Agents class in Flowise. The vulnerability exists due insufficient sandboxing and an incomplete list of disallowed inputs. It allows unauthenticated attackers to upload a .csv file containing arbitrary python code and execute it. One moment you're using AI to help draft and email and the next moment you're getting pwn'd, what a world we live in! Happy Friday and happy hacking everyone. New module content (3) Apache .htaccess Persistence
-```
-
-#### Full body
-
-```
-Back to Blog Products and Tools Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit Jack Heysel Jul 11, 2026 | Last updated on Jul 11, 2026 | 4 min read More AI, more software, more bugs! AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack surface all this new software brings with it (yeehaw exploits!). Take for example the new Flowise CSV Agent Prompt Injection RCE brought to you by Takahiro Yokoyama and zdi-disclosures. Flowise is an open-source tool that lets you build AI apps and chatbots using a visual, drag-and-drop canvas and CVE-2026-41264 is an unauthenticated RCE run method of the CSV_Agents class in Flowise. The vulnerability exists due insufficient sandboxing and an incomplete list of disallowed inputs. It allows unauthenticated attackers to upload a .csv file containing arbitrary python code and execute it. One moment you're using AI to help draft and email and the next moment you're getting pwn'd, what a world we live in! Happy Friday and happy hacking everyone. New module content (3) Apache .htaccess Persistence Authors: 4ravind-b, msutovsky-r7, and wireghoul Type: Exploit Pull request: #21473 contributed by 4ravind-b Path: linux/persistence/apache_htaccess Description: Adds a new persistence module, exploits/linux/persistence/apache_htaccess, that plants wireghoul's mod_cgi .htaccess web shell on a Linux Apache target. Flowise CSV Agent Prompt Injection RCE Authors: Takahiro Yokoyama and zdi-disclosures Type: Exploit Pull request: #21407 contributed by Takahiro-Yoko Path: multi/http/flowise_auth_rce_cve_2026_41264 AttackerKB reference: CVE-2026-41264 Description: This adds a new exploit module for FlowiseAI Flowise (CVE-2026-41264). The CSV Agent feature evaluates LLM-generated Python code without proper sandboxing, allowing a prompt injection to achieve arbitrary code execution as the user running the server. Flowise versions 1.3.0 through 3.0.13 are affected. The module requires an API key with chatflows:create permission but does not require Flowise authentication to trigger the underlying flaw. macOS PackageKit ZSH Environment Privilege Escalation Authors: Mykola Grymalyuk and h00die Type: Exploit Pull request: #21499 contributed by h00die Path: osx/local/packagekit_zshenv_privesc AttackerKB reference: CVE-2024-27822 Description: This adds a new local privilege escalation module for macOS targeting CVE-2024-27822 in PackageKit.framework. When a PKG installer script uses a ZSH shebang, PackageKit runs it as root while inheriting the installing user's environment, causing ZSH to source the user's ~/.zshenv with root privileges. The module plants a payload in ~/.zshenv that fires only when running as root, then opens a minimal PKG with Installer.app; once the user approves the installation prompt and authenticates, the payload executes as root and a root session is returned. Affected versions are macOS 14.4, 13.6.6, 12.7.4, and 11 and earlier; the issue is patched in 14.5, 13.6.7, and 12.7.5. Enhancements and features (5) #21416 from g0tmi1k - This updates the Exploit::Remote::Ftp mixin to improve target fingerprinting. It now leverages recog to fingerprint targets from their banners and adds ftp_fingerprint and ftp_list_directory methods to assist with target enumeration. #21436 from g0tmi1k - Improved UX for reloading of library files. #21579 from zeroSteiner - This adds a few extra fields to some MCP Server tools to align with recent RPC changes in the framework. The msf_service_info tool now has resource and parents fields, the msf_vulnerability_info tool now has a resource field, the msf_note_info tool now has a data field, and the msf_credential_info tool now has new realm_key and realm_value fields. #21580 from Pushpenderrathore - This adds a Certificate Signing Request (CSR) Trace to the CertificateTrace functionality. Users can now opt to see the CSR get printed wh
-```
-
-#### Corroborating sources (6)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit
-  - Published: 2026-07-11T00:32:34+00:00
-  - Link: https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit
-  - Summary: More AI, more software, more bugs! AI, it's all you hear about nowadays and everyone's got an opinion on it. Here at Metasploit, we care less about those opinions and more about the growing attack surface all this new software brings with it (yeehaw exploits!). Take for example the new Flowise CSV Agent Prompt Injection RCE brought to you by Takahiro Yokoyama and zdi-disclosures. Flowise is an open-source tool that lets you build AI apps and chatbots using a visual, drag-and-drop canvas and CVE-2026-41264 is an unauthenticated RCE run method of the CSV_Agents class in Flowise. The vulnerability exists due insufficient sandboxing and an incomplete list of disallowed inputs. It allows unauthenticated attackers to upload a .csv file containing arbitrary python code and execute it. One moment you're using AI to help draft and email and the next moment you're getting pwn'd, what a world we live in! Happy Friday and happy hacking everyone. New module content (3) Apache .htaccess Persistence
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint
-  - Published: 2026-07-17T14:27:54+00:00
-  - Link: https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/
-  - Summary: Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek .
-- **Embrace the Red** (ai_security_agentic_risk)
-  - Title: From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal
-  - Published: 2026-07-16T09:13:18+00:00
-  - Link: https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/
-  - Summary: This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: New ClickLock macOS malware traps users into revealing login password
-  - Published: 2026-07-16T21:52:54+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/
-  - Summary: A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
-  - Published: 2026-07-16T12:33:42+00:00
-  - Link: https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
-  - Summary: ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Modular macOS Stealer Uses Kill Loops to Force Password Entry
-  - Published: 2026-07-16T13:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/
-  - Summary: New ClickLock macOS stealer locked victims out of their own system until they surrendered a password
-
 ### Cluster bc44ce81c5 — score 38
 
 - Title: CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core
@@ -1035,8 +968,8 @@ Back to Blog Products and Tools Weekly Metasploit Update: Exploits for FlowiseAI
 - Published: 2026-07-17T22:23:03+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 6
+- Corroborating source count: 5
 - Strong signals: CVE-2026-63030, GitHub, WordPress
 
 #### Cluster taxonomy (union across members)
@@ -1046,7 +979,7 @@ Back to Blog Products and Tools Weekly Metasploit Update: Exploits for FlowiseAI
 - cve_ids: CVE-2026-63030
 - urgency_signals: poc_available, preauth_unauth
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: active_exploitation
@@ -1068,7 +1001,7 @@ Overview On July 17, 2026, a GitHub Security Advisory was published for CVE-2026
 Back to Blog Vulnerabilities and Exploits CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core Rapid7 Labs Jul 17, 2026 | Last updated on Jul 17, 2026 | 3 min read Overview On July 17, 2026, a GitHub Security Advisory was published for CVE-2026-63030 , a critical unauthenticated remote code execution vulnerability affecting WordPress Core . While the official GitHub security advisory classifies the severity as Critical, the vulnerability has currently been assigned a CVSS score of 7.5. WordPress is one of the most widely deployed content management systems, making vulnerabilities in its core software potentially significant for organizations operating public-facing websites. The vulnerability reportedly allows an unauthenticated attacker to execute code via the WordPress REST API batch endpoint, potentially resulting in complete compromise of the website and its underlying data. No valid account or user interaction is required. According to the advisory , the vulnerability affects WordPress versions 6.9.0 through 6.9.4 and versions 7.0.0 through 7.0.1. The issue is fixed in WordPress 6.9.5 and 7.0.2. A fix is also included in WordPress 7.1 Beta 2. Cloudflare reported that the vulnerable code path can be reached when a persistent object cache is not in use. Searchlight Cyber, whose researchers identified the vulnerability, stated that it can be exploited remotely against a default WordPress installation without requiring additional plugins. Technical exploit details have not yet been published by Searchlight Cyber , as of July 17 5:45 PM Eastern time. At the time of publication, Rapid7 is not aware of publicly confirmed in-the-wild exploitation. Organizations should not interpret the absence of public exploitation reports as an indication of low risk, particularly given the vulnerability’s unauthenticated attack path and the widespread deployment of WordPress; affected WordPress sites should be urgently patched. Due to WordPress Core being an open-source project and given the current ability of AI models to analyze open-source code, Rapid7 Labs believes it is highly likely that a public PoC will be made available in a short period of time. Mitigation guidance Organizations operating affected WordPress installations should prioritize upgrading immediately. Applying the WordPress-provided update is the most effective way to remediate CVE-2026-63030. Affected and fixed versions include: WordPress branch Affected versions Fixed version Earlier than 6.9 Not affected by CVE-2026-63030 No action required for this CVE 6.9 6.9.0 through 6.9.4 6.9.5 7.0 7.0.0 through 7.0.1 7.0.2 7.1 beta Affected beta versions were not fully specified 7.1 Beta 2 WordPress maintainers stated they are forcing updates for affected installations with automatic updates enabled. Administrators should nevertheless verify that each internet-facing WordPress website has successfully upgraded to WordPress 6.9.5, 7.0.2, or another fixed release appropriate for its branch. Workarounds are not recommended at this time. Rapid7 customers Exposure Command, InsightVM, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-63030 with authenticated vulnerability checks available in the July 20th, 2026 content release. Updates July 17, 2026: Initial publication. Article Tags Emerging Threats Emergent Threat Response Rapid7 Labs Author Posts
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core
@@ -1090,6 +1023,11 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-63030: wp2shell a Critical Re
   - Published: 2026-07-13T21:45:27+00:00
   - Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
   - Summary: datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: wp2shell: Pre Authentication RCE in WordPress Core
+  - Published: 2026-07-18T01:13:16+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/
+  - Summary: submitted by /u/Mempodipper [link] [comments]
 
 ### Cluster 7df2f246d4 — score 27
 
@@ -1867,94 +1805,6 @@ Threat Intelligence Demystifying AI Exploits: A Blueprint for AI-Assisted Vulner
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/
   - Summary: Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te
 
-### Cluster e56b9d8f1f — score 11
-
-- Title: Tracking Advanced Persistent Threat Groups | Recorded Future
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-17T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, phishing_social_eng, supply_chain, zero_day
-- actor_attribution: APT41, Lazarus
-- affected_industries: critical_infrastructure, financial_services
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, credential_theft, zero_day, apt_espionage
-- actor_attribution: APT41, Lazarus
-- affected_industries: financial_services, critical_infrastructure
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
-```
-
-#### Full body
-
-```
-Tracking advanced persistent threat groups with real-time intelligence Key takeaways Advanced Persistent Threats (APTs) are sophisticated, long-term cyber campaigns conducted by well-funded human adversaries (often nation-states) who target specific organizations for espionage, data theft, or critical infrastructure disruption. Traditional security tools often fail because APT groups bypass signature-based defenses by using customized malware and Living-off-the-Land (LotL) tactics that mimic legitimate user activity inside the network. Effective advanced persistent threat detection requires minimizing breakout time, the window between initial access and lateral movement, by identifying threats before they establish deep persistence. To defeat modern APTs, organizations must move from reactive internal monitoring to proactive threat intelligence, tracking adversary infrastructure on the open, deep, and dark web before an attack is launched. Modern organizations face highly resourceful, patient, and deeply calculated adversaries. This shift has ushered in an era of coordinated operations where elite threat actors don't just compromise a system and leave, but may spend weeks or months quietly surveying networks, mapping architecture, and identifying high-value targets. These operations are the hallmark of an advanced persistent threat (APT). Traditional cybersecurity frameworks have long relied on perimeter defenses designed to catch malicious activity at the gates. However, once an APT group breaches a network, they often intentionally manipulate native administrative tools and harvest legitimate credentials to blend into daily business traffic. To better confront an adversary that behaves like an insider, organizations must shift their perspective outward, leveraging real-time, external threat intelligence to identify and intercept cyber threats before they can establish a permanent foothold. What is an Advanced Persistent Threat (APT)? An APT is a sophisticated, prolonged cyber campaign executed by a highly organized group with specific, long-term objectives. Breaking down the acronym highlights the unique nature of these threats: Advanced: APT actors do not rely on off-the-shelf exploits. They frequently utilize customized malware, discover and weaponize zero-day vulnerabilities, and practice meticulous operational security (OpSec) to deliberately evade modern security controls. Persistent: Unlike cybercriminals who encrypt a server and immediately demand a ransom, APTs utilize a "low-and-slow" methodology. They prioritize stealth over speed, regularly remaining inside an environment for months to achieve strategic goals such as espionage, intellectual property theft, or the long-term disruption of critical infrastructure. Threat: Behind every APT is a well-funded organizational structure. These are not lone hackers; they are highly structured syndicates and state-sponsored units—such as the Lazarus Group or APT41 —backed by massive financial and geopolitical resources. The multi-stage APT attack lifecycle Generally, APT groups do not operate at random. They follow a rigorous, multi-stage lifecycle. For defenders, understanding this timeline is critical to shrinking “breakout time"—the vital window between the initial compromise and the moment the attacker begins moving through the network. 1. Reconnaissance and planning Before a single line of malicious code is deployed, attackers gather open-source intelligence (OSINT) , scan exposed internet-facing infrastructure, and map out the target’s digital footprint to find weak points. 2. Initial infiltration Attackers typically gain entry via hyper-targeted spear-phishing or social engineering campaigns , credential stuffing, or complex supply chain compromises , often bypassing standard authentication checks. 3. Establishing footholds Once inside, actors deploy stealthy backdoors and obfuscated rootkits . This ensures that even if security teams discover and close the primary ent
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Tracking Advanced Persistent Threat Groups | Recorded Future
-  - Published: 2026-07-17T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
-  - Summary: Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
-
-### Cluster 80fad3eb43 — score 11
-
-- Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
-- Source: Chainalysis (ransomware_ecrime_financial_crime)
-- Published: 2026-07-14T15:24:02+00:00
-- Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
-```
-
-#### Full body
-
-```
-Crime Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth June 26, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
-  - Published: 2026-07-14T15:24:02+00:00
-  - Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
-  - Summary: Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
-
 ### Cluster e5476c476d — score 11
 
 - Title: What’s in the SOSS? Podcast #65 – S3E17 Signing the Future: Securing AI and ML Artifacts with Mihai Maruseac
@@ -1997,6 +1847,47 @@ Summary In this episode of What’s in the SOSS?, host Yesenia Yser sits down wi
   - Published: 2026-07-14T13:32:32+00:00
   - Link: https://openssf.org/podcast/2026/07/14/whats-in-the-soss-podcast-65-s3e17-signing-the-future-securing-ai-and-ml-artifacts-with-mihai-maruseac/
   - Summary: In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac (OpenAI) to discuss the OpenSSF Model Signing (OMS) specification, securing the AI/ML supply chain, and establishing a cryptographic chain of custody for models and datasets.
+
+### Cluster 80fad3eb43 — score 11
+
+- Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
+- Source: Chainalysis (ransomware_ecrime_financial_crime)
+- Published: 2026-07-14T15:24:02+00:00
+- Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, apt_espionage
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
+```
+
+#### Full body
+
+```
+Crime Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth June 26, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
+  - Published: 2026-07-14T15:24:02+00:00
+  - Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
+  - Summary: Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
 
 ### Cluster 2f3a310637 — score 11
 
@@ -2227,6 +2118,53 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July 
   - Published: 2026-07-13T13:06:08+00:00
   - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster cf7aa5bc3e — score 10
+
+- Title: Forgotten UEFI shims undermining Secure Boot
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-07-14T08:53:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-10797, CVE-2026-8863
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-8863, CVE-2026-10797
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+```
+
+#### Full body
+
+```
+ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Forgotten UEFI shims undermining Secure Boot
+  - Published: 2026-07-14T08:53:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
 
 ### Cluster c2f56a4fa7 — score 10
 
@@ -2787,52 +2725,52 @@ Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero® Horizon3.ai
   - Link: https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
   - Summary: The ECB now expects significant institutions to demonstrate AI-ready cyber resilience. Learn how NodeZero helps validate exploitable risk, verify remediation, and support an evidence-backed action plan.
 
-### Cluster cf7aa5bc3e — score 10
+### Cluster e56b9d8f1f — score 10
 
-- Title: Forgotten UEFI shims undermining Secure Boot
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-07-14T08:53:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+- Title: Tracking Advanced Persistent Threat Groups | Recorded Future
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-17T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-10797, CVE-2026-8863
+- threat_categories: apt_espionage, credential_theft, phishing_social_eng, supply_chain, zero_day
+- actor_attribution: APT41, Lazarus
+- affected_industries: critical_infrastructure, financial_services
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-8863, CVE-2026-10797
+- threat_categories: supply_chain, phishing_social_eng, credential_theft, zero_day, apt_espionage
+- actor_attribution: APT41, Lazarus
+- affected_industries: financial_services, critical_infrastructure
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
 ```
 
 #### Full body
 
 ```
-ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
+Tracking advanced persistent threat groups with real-time intelligence Key takeaways Advanced Persistent Threats (APTs) are sophisticated, long-term cyber campaigns conducted by well-funded human adversaries (often nation-states) who target specific organizations for espionage, data theft, or critical infrastructure disruption. Traditional security tools often fail because APT groups bypass signature-based defenses by using customized malware and Living-off-the-Land (LotL) tactics that mimic legitimate user activity inside the network. Effective advanced persistent threat detection requires minimizing breakout time, the window between initial access and lateral movement, by identifying threats before they establish deep persistence. To defeat modern APTs, organizations must move from reactive internal monitoring to proactive threat intelligence, tracking adversary infrastructure on the open, deep, and dark web before an attack is launched. Modern organizations face highly resourceful, patient, and deeply calculated adversaries. This shift has ushered in an era of coordinated operations where elite threat actors don't just compromise a system and leave, but may spend weeks or months quietly surveying networks, mapping architecture, and identifying high-value targets. These operations are the hallmark of an advanced persistent threat (APT). Traditional cybersecurity frameworks have long relied on perimeter defenses designed to catch malicious activity at the gates. However, once an APT group breaches a network, they often intentionally manipulate native administrative tools and harvest legitimate credentials to blend into daily business traffic. To better confront an adversary that behaves like an insider, organizations must shift their perspective outward, leveraging real-time, external threat intelligence to identify and intercept cyber threats before they can establish a permanent foothold. What is an Advanced Persistent Threat (APT)? An APT is a sophisticated, prolonged cyber campaign executed by a highly organized group with specific, long-term objectives. Breaking down the acronym highlights the unique nature of these threats: Advanced: APT actors do not rely on off-the-shelf exploits. They frequently utilize customized malware, discover and weaponize zero-day vulnerabilities, and practice meticulous operational security (OpSec) to deliberately evade modern security controls. Persistent: Unlike cybercriminals who encrypt a server and immediately demand a ransom, APTs utilize a "low-and-slow" methodology. They prioritize stealth over speed, regularly remaining inside an environment for months to achieve strategic goals such as espionage, intellectual property theft, or the long-term disruption of critical infrastructure. Threat: Behind every APT is a well-funded organizational structure. These are not lone hackers; they are highly structured syndicates and state-sponsored units—such as the Lazarus Group or APT41 —backed by massive financial and geopolitical resources. The multi-stage APT attack lifecycle Generally, APT groups do not operate at random. They follow a rigorous, multi-stage lifecycle. For defenders, understanding this timeline is critical to shrinking “breakout time"—the vital window between the initial compromise and the moment the attacker begins moving through the network. 1. Reconnaissance and planning Before a single line of malicious code is deployed, attackers gather open-source intelligence (OSINT) , scan exposed internet-facing infrastructure, and map out the target’s digital footprint to find weak points. 2. Initial infiltration Attackers typically gain entry via hyper-targeted spear-phishing or social engineering campaigns , credential stuffing, or complex supply chain compromises , often bypassing standard authentication checks. 3. Establishing footholds Once inside, actors deploy stealthy backdoors and obfuscated rootkits . This ensures that even if security teams discover and close the primary ent
 ```
 
 #### Corroborating sources (1)
 
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Forgotten UEFI shims undermining Secure Boot
-  - Published: 2026-07-14T08:53:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+- **Recorded Future** (threat_research_primary)
+  - Title: Tracking Advanced Persistent Threat Groups | Recorded Future
+  - Published: 2026-07-17T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
+  - Summary: Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
 
 ### Cluster 15c6378b6b — score 10
 
@@ -3004,51 +2942,6 @@ Abbott probes two cyber incidents amid extortion claims By Lawrence Abrams July 
   - Link: https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/
   - Summary: Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]
 
-### Cluster 97c93f5e79 — score 10
-
-- Title: Ernst & Young discloses data breach after support system hack
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-17T14:55:28+00:00
-- Link: https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]
-```
-
-#### Full body
-
-```
-Ernst & Young discloses data breach after support system hack By Bill Toulas July 17, 2026 10:55 AM 3 Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. According to the company, support tickets submitted through the platform may have included documents containing client tax information. Ernst & Young (EY) is among the world’s four largest auditing and professional services providers, offering auditing, tax, consulting, and transaction advisory services to major organizations in more than 150 countries. The company employs 406,000 people and reported a global revenue of $53.2 billion last year. The breach notification to affected clients states that Ernst & Young detected anomalous activity on its networks on April 23 and initiated an investigation. With help from external cybersecurity experts, the company determined that an unauthorized third party had accessed the said platform between March 28 and April 12 and downloaded multiple documents. The affected information included certain personal and financial data contained in or used to prepare tax filings. Since the notification sample features a placeholder for the specific data types, the type of the information exposed remains unclear. Also, the company has not shared exactly how many customers were affected or whether the incident impacts only its U.S. customer base or other countries as well. Ernst & Young says it secured its systems and notified federal law enforcement authorities, while it has assured that the unauthorized access has been removed. The company also states that it is not aware of any misuse or further exposure of the stolen files and has no indication that particular individuals were targeted by the threat actors. To mitigate the risks arising from this exposure, EY offers affected clients 24 months of identity monitoring and restoration service through Experian and urges letter recipients to enroll by October 31, 2026. At the time of writing, no data extortion or ransomware groups have taken responsibility for the attack on Ernst & Young. BleepingComputer has contacted EY to learn more about the incident, but we have not yet received a response at the time of publication. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Healthtech firm Xolis suffers data breach impacting 1.4 million people SoFi confirms third-party data breach at Hong Kong subsidiary Medtronic notifies customers impacted by ShinyHunters data breach LastPass confirms data breach in Klue supply chain attack Texas govt data breach exposes over 3 million driver’s licenses
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Ernst & Young discloses data breach after support system hack
-  - Published: 2026-07-17T14:55:28+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/
-  - Summary: Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]
-
 ### Cluster f9bf33b9c9 — score 10
 
 - Title: Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide
@@ -3092,47 +2985,6 @@ Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wid
   - Link: https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html
   - Summary: Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he
 
-### Cluster 0dd49c6456 — score 10
-
-- Title: 23andMe Faces New Security Mandates in $18m Data Breach Settlement
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-07-17T14:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: credential_theft, data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » 23andMe Faces New Security Mandates in $18m Data Breach Settlement 23andMe Faces New Security Mandates in $18m Data Breach Settlement News 17 July 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn A settlement of $18m has been reached between a coalition of 42 US attorneys general and genetic testing firm 23andMe following the 2023 data breach. New York Attorney General Letitia James and the bipartisan coalition has also ensured new data protection requirements to secure 23andMe customer data. 23andMe will also pay more than $705,000 to New York. In October 2023, the genetics testing firm confirmed that customers had profile information accessed by cybercriminals following a credential stuffing campaign. At the time of the incident, the company said that the hack was not the result of attackers infiltrating the firm’s own network, rather it was customers’ poor password management including the lack of multi-factor authentication (MFA). Over six million individuals' information was accessed from the data breach including information about ancestry. In March 2025, 23andMe filed for bankruptcy protection. A statement issued by Attorney General James said that herself and the coalition filed claims related to the data breach investigation. In June 2025, Attorney General James and a bipartisan coalition of 27 other attorneys general sued 23andMe to protect Americans’ personal genetic information during the company’s bankruptcy. As a result of the bankruptcy, 23andMe’s customer data was sold to TTAM Research , a non-profit formed by 23andMe’s founder and former CEO Anne Wojcick. Attorney General James and the coalition have secured new information and data security requirements at TTAM to protect customers’ data and prevent future breaches. The security measures include: Appropriate risk analysis The addition of an Advisory Board on data security Continuing to offer consumers the right to delete their information “Companies have a duty to protect their customers’ personal information from hackers, but 23andMe put millions of its customers at risk with its flimsy security measures,” said Attorney General James. “New Yorkers trusted 23andMe with their sensitive and personal genetic data, only to find that data stolen and put up for sale on the dark corners of the internet. As a result of our coalition’s action, 23andMe will pay for violating the law and strict rules will be put in place to protect their customers.” Infosecurity has reached out to 23andMe in relation to the $18m settlement and security requirements. This is in addition to a $46.75 ​million settlement which was approved by a US bankruptcy judge on July 7, to be awarded as compensation to victims of the data breach. However, on 10 July, a bankruptcy judge said California cannot seek damages ​from the company because of their Chapter 11 reorganization plan, according to reporting by Reuters. However, the judge said California has 14 days to either dismiss its ⁠May 28 lawsuit , which was issued by Attorney General of California Rob Bonta, or amend ​the complaint to eliminate the claims for monetary relief. The company was also fined €2.4m ($2.75m) in July 2026 by the Spanish privacy watchdog as 2642 customers residing in Spain were affected. In June 2025, the UK’s Information Commissioner’s Office fined 23andMe £2.3m ($3.1m) for failing to protect customers’ special category data. You may also like The 10 Biggest Data Breach Fines and Settlements of 2025 News Feature 26 December 2025 Post Office Escapes £1m Fine After Postmaster Data Breach News 4 December 2025 Capita Fined £14m After 2023 Breach that Hit 6.6 Million People News 15 October 2025 Northern Ireland Police Data Leak Sees Service Fined by ICO News 3 October 2024 UK Construction Company Fined £4.4m for Serious Security Failings News 24 October 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Single
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: 23andMe Faces New Security Mandates in $18m Data Breach Settlement
-  - Published: 2026-07-17T14:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/
-  - Summary: 23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements
-
 ### Cluster e06d2a4227 — score 10
 
 - Title: OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
@@ -3166,16 +3018,16 @@ OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credenti
   - Title: OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
   - Published: 2026-07-14T13:36:51+00:00
   - Link: https://www.proofpoint.com/us/newsroom/news/oauth-client-id-spoofing-lets-attackers-validate-stolen-microsoft-entra-credentials
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
-  - Published: 2026-07-14T11:21:35+00:00
-  - Link: https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html
-  - Summary: At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Novel OAuth Client ID Spoofing Technique Targets Cloud Environments
   - Published: 2026-07-13T13:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/
   - Summary: New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
+  - Published: 2026-07-14T11:21:35+00:00
+  - Link: https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html
+  - Summary: At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun
 
 ### Cluster ab13f77dd3 — score 9
 
@@ -3360,6 +3212,51 @@ Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.
   - Link: https://isc.sans.edu/diary/rss/33146
   - Summary: Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.
 
+### Cluster 97c93f5e79 — score 9
+
+- Title: Ernst & Young discloses data breach after support system hack
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-17T14:55:28+00:00
+- Link: https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]
+```
+
+#### Full body
+
+```
+Ernst & Young discloses data breach after support system hack By Bill Toulas July 17, 2026 10:55 AM 3 Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. According to the company, support tickets submitted through the platform may have included documents containing client tax information. Ernst & Young (EY) is among the world’s four largest auditing and professional services providers, offering auditing, tax, consulting, and transaction advisory services to major organizations in more than 150 countries. The company employs 406,000 people and reported a global revenue of $53.2 billion last year. The breach notification to affected clients states that Ernst & Young detected anomalous activity on its networks on April 23 and initiated an investigation. With help from external cybersecurity experts, the company determined that an unauthorized third party had accessed the said platform between March 28 and April 12 and downloaded multiple documents. The affected information included certain personal and financial data contained in or used to prepare tax filings. Since the notification sample features a placeholder for the specific data types, the type of the information exposed remains unclear. Also, the company has not shared exactly how many customers were affected or whether the incident impacts only its U.S. customer base or other countries as well. Ernst & Young says it secured its systems and notified federal law enforcement authorities, while it has assured that the unauthorized access has been removed. The company also states that it is not aware of any misuse or further exposure of the stolen files and has no indication that particular individuals were targeted by the threat actors. To mitigate the risks arising from this exposure, EY offers affected clients 24 months of identity monitoring and restoration service through Experian and urges letter recipients to enroll by October 31, 2026. At the time of writing, no data extortion or ransomware groups have taken responsibility for the attack on Ernst & Young. BleepingComputer has contacted EY to learn more about the incident, but we have not yet received a response at the time of publication. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Healthtech firm Xolis suffers data breach impacting 1.4 million people SoFi confirms third-party data breach at Hong Kong subsidiary Medtronic notifies customers impacted by ShinyHunters data breach LastPass confirms data breach in Klue supply chain attack Texas govt data breach exposes over 3 million driver’s licenses
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Ernst & Young discloses data breach after support system hack
+  - Published: 2026-07-17T14:55:28+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/
+  - Summary: Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]
+
 ### Cluster b9753d740d — score 9
 
 - Title: New Windows LegacyHive zero-day gives hackers admin privileges
@@ -3495,47 +3392,6 @@ Sinisa Markovic , Managing Editor, Help Net Security July 17, 2026 Share Ransomw
   - Link: https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/
   - Summary: A ransomware attack has stopped milk production at Fairlife, the Coca-Cola dairy brand known for its high-protein milk, protein shakes, and nutrition drinks. Coca-Cola disclosed the incident on July 16, 2026, in a Form 8-K filed with the U.S. Securities and Exchange Commission (SEC). “Product quality and safety have not been impacted. However, as a result of the incident, production operations at fairlife in the United States are temporarily suspended. fairlife’s Canada production operations are … More → The post Ransomware attack halts Coca-Cola’s Fairlife US milk production appeared first on Help Net Security .
 
-### Cluster b47b034408 — score 9
-
-- Title: Vulnerability in FIFA’s Network
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-07-14T11:06:51+00:00
-- Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: legal_professional
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: legal_professional
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-FIFA’s network was vulnerable to anyone with even minimal access.
-```
-
-#### Full body
-
-```
-Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the emergency broadcast system is takes over “every TV in London” That said, this technical security system failed. The legal and social security system didn’t fail. No one, including the author took over the airwaves and broadcast other content that I know of. Security is many layered, even with holes. So far, the totality of it has worked. Interesting.
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Vulnerability in FIFA’s Network
-  - Published: 2026-07-14T11:06:51+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
-  - Summary: FIFA’s network was vulnerable to anyone with even minimal access.
-
 ### Cluster 88d76f4fd8 — score 9
 
 - Title: Lessons Learned from CISA’s Recent GitHub Leak
@@ -3579,26 +3435,114 @@ The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmor
   - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
   - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
 
+### Cluster b47b034408 — score 9
+
+- Title: Vulnerability in FIFA’s Network
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-07-14T11:06:51+00:00
+- Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: legal_professional
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- affected_industries: legal_professional
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+FIFA’s network was vulnerable to anyone with even minimal access.
+```
+
+#### Full body
+
+```
+Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the emergency broadcast system is takes over “every TV in London” That said, this technical security system failed. The legal and social security system didn’t fail. No one, including the author took over the airwaves and broadcast other content that I know of. Security is many layered, even with holes. So far, the totality of it has worked. Interesting.
+```
+
+#### Corroborating sources (1)
+
+- **Schneier on Security** (practitioner_analysis)
+  - Title: Vulnerability in FIFA’s Network
+  - Published: 2026-07-14T11:06:51+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
+  - Summary: FIFA’s network was vulnerable to anyone with even minimal access.
+
+### Cluster 0dd49c6456 — score 9
+
+- Title: 23andMe Faces New Security Mandates in $18m Data Breach Settlement
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-07-17T14:30:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: credential_theft, data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » 23andMe Faces New Security Mandates in $18m Data Breach Settlement 23andMe Faces New Security Mandates in $18m Data Breach Settlement News 17 July 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn A settlement of $18m has been reached between a coalition of 42 US attorneys general and genetic testing firm 23andMe following the 2023 data breach. New York Attorney General Letitia James and the bipartisan coalition has also ensured new data protection requirements to secure 23andMe customer data. 23andMe will also pay more than $705,000 to New York. In October 2023, the genetics testing firm confirmed that customers had profile information accessed by cybercriminals following a credential stuffing campaign. At the time of the incident, the company said that the hack was not the result of attackers infiltrating the firm’s own network, rather it was customers’ poor password management including the lack of multi-factor authentication (MFA). Over six million individuals' information was accessed from the data breach including information about ancestry. In March 2025, 23andMe filed for bankruptcy protection. A statement issued by Attorney General James said that herself and the coalition filed claims related to the data breach investigation. In June 2025, Attorney General James and a bipartisan coalition of 27 other attorneys general sued 23andMe to protect Americans’ personal genetic information during the company’s bankruptcy. As a result of the bankruptcy, 23andMe’s customer data was sold to TTAM Research , a non-profit formed by 23andMe’s founder and former CEO Anne Wojcick. Attorney General James and the coalition have secured new information and data security requirements at TTAM to protect customers’ data and prevent future breaches. The security measures include: Appropriate risk analysis The addition of an Advisory Board on data security Continuing to offer consumers the right to delete their information “Companies have a duty to protect their customers’ personal information from hackers, but 23andMe put millions of its customers at risk with its flimsy security measures,” said Attorney General James. “New Yorkers trusted 23andMe with their sensitive and personal genetic data, only to find that data stolen and put up for sale on the dark corners of the internet. As a result of our coalition’s action, 23andMe will pay for violating the law and strict rules will be put in place to protect their customers.” Infosecurity has reached out to 23andMe in relation to the $18m settlement and security requirements. This is in addition to a $46.75 ​million settlement which was approved by a US bankruptcy judge on July 7, to be awarded as compensation to victims of the data breach. However, on 10 July, a bankruptcy judge said California cannot seek damages ​from the company because of their Chapter 11 reorganization plan, according to reporting by Reuters. However, the judge said California has 14 days to either dismiss its ⁠May 28 lawsuit , which was issued by Attorney General of California Rob Bonta, or amend ​the complaint to eliminate the claims for monetary relief. The company was also fined €2.4m ($2.75m) in July 2026 by the Spanish privacy watchdog as 2642 customers residing in Spain were affected. In June 2025, the UK’s Information Commissioner’s Office fined 23andMe £2.3m ($3.1m) for failing to protect customers’ special category data. You may also like The 10 Biggest Data Breach Fines and Settlements of 2025 News Feature 26 December 2025 Post Office Escapes £1m Fine After Postmaster Data Breach News 4 December 2025 Capita Fined £14m After 2023 Breach that Hit 6.6 Million People News 15 October 2025 Northern Ireland Police Data Leak Sees Service Fined by ICO News 3 October 2024 UK Construction Company Fined £4.4m for Serious Security Failings News 24 October 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Single
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: 23andMe Faces New Security Mandates in $18m Data Breach Settlement
+  - Published: 2026-07-17T14:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/
+  - Summary: 23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements
+
 ### Cluster ae25d6203b — score 9
 
 - Title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-07-14T18:17:57+00:00
 - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: CVE-2026-44747
 
 #### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-44747
-- urgency_signals: critical_cvss
+- threat_categories: active_exploitation, ddos
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services
+- cve_ids: CVE-2026-27690, CVE-2026-44747, CVE-2026-44761
+- urgency_signals: actively_exploited, critical_cvss, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- cve_ids: CVE-2026-44747
-- urgency_signals: critical_cvss
+- threat_categories: ddos, active_exploitation
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services
+- cve_ids: CVE-2026-44747, CVE-2026-27690, CVE-2026-44761
+- urgency_signals: actively_exploited, preauth_unauth, critical_cvss
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3606,6 +3550,12 @@ The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmor
 
 ```
 SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
+```
+
+#### Full body
+
+```
+SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ravie Lakshmanan  Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. "As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF," SAP security firm Onapsis said . "Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version." Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter deployments in non-Cloud Foundry environments that allows an unauthenticated attacker to send a specially crafted HTTP request that leads to request-response desynchronization and results in the exposure of user responses and triggers denial-of-service (DoS) attacks. CVE-2026-44761 (CVSS score: 9.1) - A use of default credentials flaw in SAP Commerce Cloud that could retain a sample OAuth 2.0 client with publicly documented sample credentials originating from a sample configuration provided in SAP Help Portal documentation. "If left unchanged, an unauthenticated attacker could use these well-known credentials to obtain a valid access token and invoke certain APIs to read and modify data," according to a description of CVE-2026-44761 in the NIST National Vulnerability Database (NVD). "Successful exploitation results in high impact on confidentiality and integrity, with no impact on availability." Onapsis noted that the vulnerability stems from sample configuration scripts previously provided in the SAP Help Portal. These scripts, originally meant for development and testing, configure OAuth 2.0 clients with hard-coded, well-known credentials. "Older versions of the documentation did not explicitly warn customers against importing these default settings into production," it noted. "An unauthenticated attacker can leverage these publicly available, default credentials to obtain a valid access token. With this token, they can invoke specific APIs to read and alter system data. Exploitation requires that the customer executed the sample script and retained the resulting OAuth 2.0 client in production without replacing the hard-coded secret." It's worth noting that customers who removed the sample client or replaced the secret with a strong, unique value are not impacted by the bug. Customers are recommended to audit their production environments for the presence of the affected sample OAuth 2.0 client. If the client exists, it must be removed. Although there is no evidence of the flaws being exploited in the wild, it's advised to apply the necessary updates for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Authentication Security , Cloud security , data security , denial of service , enterprise security , SAP , Vulnerability , Web Security ⚡ Top Stories This Week 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service 15-Year-O
 ```
 
 #### Corroborating sources (1)
@@ -3616,42 +3566,31 @@ SAP has rolled out updates to address multiple vulnerabilities as part of its Ju
   - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
   - Summary: SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
 
-### Cluster adc7655a9d — score 9
+### Cluster 88deaf9a79 — score 8
 
-- Title: Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-17T13:18:22+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/
+- Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
+- Source: Proofpoint Threat Insight (detection_response_operations)
+- Published: 2026-07-13T13:35:56+00:00
+- Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: CVE-2026-50454
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-50454
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
+- content_type: news_report
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- cve_ids: CVE-2026-50454
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/ShufflinMuffin [link] [comments]
-```
+- content_type: news_report
+- confidence_tier: tier_2_operator
 
 #### Corroborating sources (1)
 
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454
-  - Published: 2026-07-17T13:18:22+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/
-  - Summary: submitted by /u/ShufflinMuffin [link] [comments]
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
+  - Published: 2026-07-13T13:35:56+00:00
+  - Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
 
 ### Cluster d77ec8e022 — score 8
 
@@ -3692,32 +3631,6 @@ submitted by /u/ShufflinMuffin [link] [comments]
   - Published: 2026-07-14T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/no-single-pane-of-glass-anatomy-of-an-azure-permission-takeover
   - Summary: The Sysdig Threat Research Team recently observed an attacker walk one credential through five Azure permission systems. In this blog, we’ll explore how.
-
-### Cluster 88deaf9a79 — score 8
-
-- Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
-- Source: Proofpoint Threat Insight (detection_response_operations)
-- Published: 2026-07-13T13:35:56+00:00
-- Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Corroborating sources (1)
-
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
-  - Published: 2026-07-13T13:35:56+00:00
-  - Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
 
 ### Cluster 3893223eef — score 8
 
@@ -4026,76 +3939,6 @@ The company forewarned customers and defenders that a flood of defects would be 
   - Link: https://cyberscoop.com/microsoft-patch-tuesday-july-2026/
   - Summary: The company forewarned customers and defenders that a flood of defects would be uncovered by AI. It delivered with a striking exponential increase. The post Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record appeared first on CyberScoop .
 
-### Cluster 3ab4666a65 — score 8
-
-- Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-15T11:07:07+00:00
-- Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
-  - Published: 2026-07-15T11:07:07+00:00
-  - Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
-  - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
-
-### Cluster 53ef47508e — score 8
-
-- Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-14T13:48:07+00:00
-- Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-  - Published: 2026-07-14T13:48:07+00:00
-  - Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-  - Summary: Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
-
 ### Cluster 5b3297c4f5 — score 8
 
 - Title: Compromised Logins Surge as the Most Common Entry Point for Ransomware Attacks
@@ -4198,3 +4041,167 @@ Cybersecurity agencies from 12 countries have warned that Russian state-backed h
   - Published: 2026-07-13T10:40:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/russian-state-hackers-vulnerable/
   - Summary: Cybersecurity agencies from 12 countries have warned that Russian state-backed hackers are actively targeting vulnerable routers using weak SNMP credentials
+
+### Cluster 3ab4666a65 — score 8
+
+- Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-15T11:07:07+00:00
+- Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+  - Published: 2026-07-15T11:07:07+00:00
+  - Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+  - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
+
+### Cluster 53ef47508e — score 8
+
+- Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-14T13:48:07+00:00
+- Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
+  - Published: 2026-07-14T13:48:07+00:00
+  - Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+  - Summary: Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
+
+### Cluster adc7655a9d — score 8
+
+- Title: Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-07-17T13:18:22+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-50454
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-50454
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-50454
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/ShufflinMuffin [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Windows AppResolver LPE: From AppContainer to SYSTEM. PoC linked to CVE-2026-50454
+  - Published: 2026-07-17T13:18:22+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1uyzhy8/windows_appresolver_lpe_from_appcontainer_to/
+  - Summary: submitted by /u/ShufflinMuffin [link] [comments]
+
+### Cluster 9d039b4e42 — score 8
+
+- Title: From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal
+- Source: Embrace the Red (ai_security_agentic_risk)
+- Published: 2026-07-16T09:13:18+00:00
+- Link: https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/
+- Fetch status: not_attempted
+- Member count: 6
+- Corroborating source count: 5
+- Strong signals: Apple iOS/macOS
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, credential_theft, data_breach, ransomware_extortion
+- affected_products: Apple iOS/macOS
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_products: Apple iOS/macOS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:
+```
+
+#### Corroborating sources (5)
+
+- **Embrace the Red** (ai_security_agentic_risk)
+  - Title: From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal
+  - Published: 2026-07-16T09:13:18+00:00
+  - Link: https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/
+  - Summary: This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint
+  - Published: 2026-07-17T14:27:54+00:00
+  - Link: https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/
+  - Summary: Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: New ClickLock macOS malware traps users into revealing login password
+  - Published: 2026-07-16T21:52:54+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/
+  - Summary: A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Modular macOS Stealer Uses Kill Loops to Force Password Entry
+  - Published: 2026-07-16T13:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/
+  - Summary: New ClickLock macOS stealer locked victims out of their own system until they surrendered a password
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
+  - Published: 2026-07-16T12:33:42+00:00
+  - Link: https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
+  - Summary: ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and
