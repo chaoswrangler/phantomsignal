@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-18T13:35:58.240862+00:00",
+  "generated_at": "2026-07-18T15:01:05.305407+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 77,
   "total_items_in_window": 352,
   "total_clusters_raw": 165,
-  "total_clusters_in_packet": 74,
-  "dropped_low_score": 91,
+  "total_clusters_in_packet": 73,
+  "dropped_low_score": 92,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -95,8 +95,22 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -108,20 +122,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -144,19 +144,19 @@
       "item_count": 15,
       "in_window_count": 6
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -186,20 +186,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
@@ -214,11 +200,18 @@
       "item_count": 50,
       "in_window_count": 4
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -228,12 +221,26 @@
       "item_count": 50,
       "in_window_count": 0
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -244,13 +251,6 @@
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -298,12 +298,12 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 9
+      "in_window_count": 1
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -312,6 +312,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -319,18 +326,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 2
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
     "Protect AI": {
@@ -340,12 +347,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -353,13 +360,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -403,13 +403,6 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -417,19 +410,26 @@
       "item_count": 20,
       "in_window_count": 20
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -466,13 +466,6 @@
       "item_count": 30,
       "in_window_count": 27
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 25
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -480,19 +473,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 25
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,19 +501,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -536,15 +529,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -557,13 +550,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -571,11 +557,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 4
     },
     "Infosecurity Magazine": {
@@ -584,6 +577,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 27
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -599,19 +599,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -2967,12 +2967,12 @@
           }
         },
         {
-          "source": "CyberScoop",
+          "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Leading members of Scattered Spider sentenced in UK to 66 months in jail",
-          "link": "https://cyberscoop.com/scattered-spider-leaders-sentenced-united-kingdom/",
-          "published": "2026-07-17T14:12:59+00:00",
-          "summary": "Thalha Jubair and Owen Flowers led and directed many attacks attributed to the hacker subset of The Com. U.S. authorities previously accused Jubair of participating in at least 120 attacks. The post Leading members of Scattered Spider sentenced in UK to 66 months in jail appeared first on CyberScoop .",
+          "title": "Two Scattered Spider Hackers Sentenced to Jail in UK",
+          "link": "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
+          "published": "2026-07-16T13:21:12+00:00",
+          "summary": "Thalha Jubair and Owen Flowers were prosecuted over a 2024 cyberattack targeting Transport for London (TfL). The post Two Scattered Spider Hackers Sentenced to Jail in UK appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [
@@ -2993,12 +2993,12 @@
           }
         },
         {
-          "source": "SecurityWeek",
+          "source": "CyberScoop",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Two Scattered Spider Hackers Sentenced to Jail in UK",
-          "link": "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
-          "published": "2026-07-16T13:21:12+00:00",
-          "summary": "Thalha Jubair and Owen Flowers were prosecuted over a 2024 cyberattack targeting Transport for London (TfL). The post Two Scattered Spider Hackers Sentenced to Jail in UK appeared first on SecurityWeek .",
+          "title": "Leading members of Scattered Spider sentenced in UK to 66 months in jail",
+          "link": "https://cyberscoop.com/scattered-spider-leaders-sentenced-united-kingdom/",
+          "published": "2026-07-17T14:12:59+00:00",
+          "summary": "Thalha Jubair and Owen Flowers led and directed many attacks attributed to the hacker subset of The Com. U.S. authorities previously accused Jubair of participating in at least 120 attacks. The post Leading members of Scattered Spider sentenced in UK to 66 months in jail appeared first on CyberScoop .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [
@@ -4508,6 +4508,196 @@
       ]
     },
     {
+      "cluster_id": "c2f56a4fa7",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
+        "link": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
+        "published": "2026-07-16T12:00:27+00:00",
+        "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
+        "full_body": "Table of Contents Introduction Technical details Initial phase of the attacks GoSerpent backdoor McMx RAT Data collection and credential dumping tools ThumbcacheService Credential dumping tools Second stage of the attacks Stowaway TmcLoader/TmcPayload Toolset integration Infrastructure Attribution Conclusion Indicators of compromise File hashes C2 IP addresses Authors Noushin Shabab Introduction In February 2026, we discovered a set of malicious activities that had been ongoing since late 2025. These activities involved a RAT module written in Go with proxy capabilities, which served as the main stage of the attack. The attack targeted government and diplomatic entities in Southeast Asia and showed a level of sophistication that caught our attention. During the attack, the main malware, dubbed GoSerpent, received an encrypted argument and started communicating with a remote server. It was also used to deploy further malicious tools to collect sensitive data and dump credentials on the system. Monitoring the activities of this threat actor revealed that in May 2026, they came back with an evolved set of malicious tools: a new RAT and proxy tool, Stowaway, which resembled the initial malware, as well as an additional stealthy tool to exfiltrate sensitive data collected in the previous few months through network shares. We found earlier versions of the GoSerpent backdoor used since 2021 against victims in Southeast Asia with relatively simpler code that received command-line arguments in plain text. Even though the newer variant is stealthier, the attackers continued using the simpler version alongside the latest one in their recent attacks. What makes this threat particularly concerning is the strategic deployment of various tools with sophisticated data collection and exfiltration capabilities. In this article, we introduce the malicious tools uncovered by us, which have been used since late 2025. Technical details Initial phase of the attacks The initial phase of the attacks involved deployment of the GoSerpent backdoor, followed by additional malicious tools. During this phase, the main goal was to collect sensitive files and store them for future exfiltration, which was done by a data collecting tool, ThumbcacheService. The attackers also needed system credentials to exfiltrate the collected data through network drives at a later stage. This was achieved through a number of credential dumping tools deployed in this phase via the GoSerpent backdoor. GoSerpent backdoor The primary weapon in this campaign is the GoSerpent backdoor, a sophisticated Go-based remote access Trojan that has been active since at least 2021, with the most recent variant deployed in 2026. This malware receives encrypted and base64-encoded command-line arguments containing a C2 server address and communication password, which are decrypted using AES-CBC mode with a fixed IV (31323334353637383930616263646566) and keys derived from predefined strings. The backdoor connects to command-and-control servers using ChaCha20 encryption for communications, with the SHA256 hash of the communication password serving as the encryption key. GoSerpent supports multiple C2 commands by receiving special command values. The commands include the following: Command Symbol (as derived from corresponding function names) Description 2BA1 Sync Respond to the server to show the infection is active 3BA2 Exit Exit process 4BA3 Ls Start listening on a port 5BA4 Connect Connect to a remote server 6BA5 Hello Create a shell on the infected machine 7BA6 Ul Upload a file or directory to the server 8BA7 Dl Download from the server 9BA8 Ss5 Start a SOCKS5 proxy on the infected machine ABA9 Cl Close a listening port CBAB RF Forward to a connected node GoSerpent can establish SOCKS5 proxy servers to route traffic through compromised hosts, enabling attackers to access other networks while masking their true IP addresses. The backdoor is capable of deploying additional malicious tools, incl",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
+          "link": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
+          "published": "2026-07-16T12:00:27+00:00",
+          "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f279b0bca6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
+        "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
+        "published": "2026-07-15T10:00:26+00:00",
+        "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
+        "full_body": "Table of Contents Introduction Background Initial infection Back connection Launcher with advanced options Active sessions UAC bypass Browser extensions loader Plugins dispatcher ext daemon SeedHunter MC Keylogger OkoSpyware Artifacts exfiltration Victims Attribution Conclusion Indicators of compromise Dispatcher Plugins Injector payloads SSH bot utilities File paths Domains and IPs Authors Yaroslav Kikel Introduction In January 2026, we identified multiple attacks involving unknown malware that captures the contents of cryptocurrency wallet windows. During the investigation, we reconstructed the complete infection chain, which consisted of four tightly linked stages initiated by the execution of the previously described malicious PowerShell script TookPS. However, this campaign differs from previous activity in that it uses a new framework to deliver all malicious modules and orchestrate them via an SSH tunnel. In total, the framework includes more than 20 malicious payloads and implants, covering a wide variety of functions. At the time of writing, the threat remains active. Kaspersky’s products detect this threat as Trojan-Downloader.Win32.TookPS.*, Trojan.Win64.BypassUAC.*, Trojan-Banker.Script.Agent.gen, Trojan.Win32.Dllhijack.*, Backdoor.Win32.TeviRat.*, Trojan-PSW.Win64.Stealer.*, Trojan-Spy.Win64.Keylogger.*, Trojan-Spy.Win64.Agent.*, Trojan.Win64.Agent.*. Background TookPS is a downloader used for retrieving malicious commands and scripts from attacker-controlled servers to further propagate attacks. The first campaign using TookPS was discovered in March 2025. At that time, malicious scripts delivered a Python‑based infostealer along with a script that installed and configured an SSH tunnel on the victim’s machine. The next wave appeared in April 2025: the payload was changed, and TookPS was used to deliver the TeviRAT malware with the same SSH installer. Then at the end of April 2025, TookPS underwent minor changes, yet its attack chain was completely redesigned. Unlike previous incidents, in this case, TookPS was used solely for the initial infection, with an automated SSH bot responsible for payload delivery. This new malicious campaign has multiple stages that cover the full attack lifecycle, from initial infection to persistence and data exfiltration. Among various malware strains, at one of the stages, the TeviRAT backdoor is delivered to the compromised host, ultimately fetching another version of a TookPS script. We dubbed this updated TookPS campaign “OkoBot”. Original OkoBot infection chain We will break down this chain in greater detail later in the article. However, this is not the only version of OkoBot we were able to find. Already in March 2026, we discovered a new phase in the development of the framework, with Volume2 now being installed directly using TookPS. The HDUtil launcher → extl injector → Rilide chain was found to be abandoned in this newer version since it was replaced in full by the identical ext_daemon Volume2 plugin. TeviRAT was also removed, most likely because its functions were covered by the new plugins dispatcher. New OkoBot infection chain Initial infection The initial infection is primarily delivered through two vectors: a ClickFix attack, and malware distributed through GitHub that masquerades as legitimate software. One such example is the fake SQL Server Management Studio (SSMS) package distributed through GitHub. In fact, it is actually the legitimate Audacity — a popular audio editor — compiled with a malicious implant embedded in one of its libraries. Because the repository was indexed by most search engines and appeared at the top of the results for the query SSMS , the malware looked legitimate and quickly earned users’ trust. Malicious application distribution report This repository was created at the end of March 2025 and existed until June of that year. It consisted of a single file, README.md , which provided a fake SSMS installation guide written in an official style ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
+          "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
+          "published": "2026-07-15T10:00:26+00:00",
+          "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "174e783389",
       "priority_score": 10,
       "member_count": 1,
@@ -4759,196 +4949,6 @@
               "npm": "target",
               "Anthropic/Claude": "target",
               "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "c2f56a4fa7",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
-        "link": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
-        "published": "2026-07-16T12:00:27+00:00",
-        "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
-        "full_body": "Table of Contents Introduction Technical details Initial phase of the attacks GoSerpent backdoor McMx RAT Data collection and credential dumping tools ThumbcacheService Credential dumping tools Second stage of the attacks Stowaway TmcLoader/TmcPayload Toolset integration Infrastructure Attribution Conclusion Indicators of compromise File hashes C2 IP addresses Authors Noushin Shabab Introduction In February 2026, we discovered a set of malicious activities that had been ongoing since late 2025. These activities involved a RAT module written in Go with proxy capabilities, which served as the main stage of the attack. The attack targeted government and diplomatic entities in Southeast Asia and showed a level of sophistication that caught our attention. During the attack, the main malware, dubbed GoSerpent, received an encrypted argument and started communicating with a remote server. It was also used to deploy further malicious tools to collect sensitive data and dump credentials on the system. Monitoring the activities of this threat actor revealed that in May 2026, they came back with an evolved set of malicious tools: a new RAT and proxy tool, Stowaway, which resembled the initial malware, as well as an additional stealthy tool to exfiltrate sensitive data collected in the previous few months through network shares. We found earlier versions of the GoSerpent backdoor used since 2021 against victims in Southeast Asia with relatively simpler code that received command-line arguments in plain text. Even though the newer variant is stealthier, the attackers continued using the simpler version alongside the latest one in their recent attacks. What makes this threat particularly concerning is the strategic deployment of various tools with sophisticated data collection and exfiltration capabilities. In this article, we introduce the malicious tools uncovered by us, which have been used since late 2025. Technical details Initial phase of the attacks The initial phase of the attacks involved deployment of the GoSerpent backdoor, followed by additional malicious tools. During this phase, the main goal was to collect sensitive files and store them for future exfiltration, which was done by a data collecting tool, ThumbcacheService. The attackers also needed system credentials to exfiltrate the collected data through network drives at a later stage. This was achieved through a number of credential dumping tools deployed in this phase via the GoSerpent backdoor. GoSerpent backdoor The primary weapon in this campaign is the GoSerpent backdoor, a sophisticated Go-based remote access Trojan that has been active since at least 2021, with the most recent variant deployed in 2026. This malware receives encrypted and base64-encoded command-line arguments containing a C2 server address and communication password, which are decrypted using AES-CBC mode with a fixed IV (31323334353637383930616263646566) and keys derived from predefined strings. The backdoor connects to command-and-control servers using ChaCha20 encryption for communications, with the SHA256 hash of the communication password serving as the encryption key. GoSerpent supports multiple C2 commands by receiving special command values. The commands include the following: Command Symbol (as derived from corresponding function names) Description 2BA1 Sync Respond to the server to show the infection is active 3BA2 Exit Exit process 4BA3 Ls Start listening on a port 5BA4 Connect Connect to a remote server 6BA5 Hello Create a shell on the infected machine 7BA6 Ul Upload a file or directory to the server 8BA7 Dl Download from the server 9BA8 Ss5 Start a SOCKS5 proxy on the infected machine ABA9 Cl Close a listening port CBAB RF Forward to a connected node GoSerpent can establish SOCKS5 proxy servers to route traffic through compromised hosts, enabling attackers to access other networks while masking their true IP addresses. The backdoor is capable of deploying additional malicious tools, incl",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
-          "link": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
-          "published": "2026-07-16T12:00:27+00:00",
-          "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f279b0bca6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services"
-        ],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
-        "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
-        "published": "2026-07-15T10:00:26+00:00",
-        "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
-        "full_body": "Table of Contents Introduction Background Initial infection Back connection Launcher with advanced options Active sessions UAC bypass Browser extensions loader Plugins dispatcher ext daemon SeedHunter MC Keylogger OkoSpyware Artifacts exfiltration Victims Attribution Conclusion Indicators of compromise Dispatcher Plugins Injector payloads SSH bot utilities File paths Domains and IPs Authors Yaroslav Kikel Introduction In January 2026, we identified multiple attacks involving unknown malware that captures the contents of cryptocurrency wallet windows. During the investigation, we reconstructed the complete infection chain, which consisted of four tightly linked stages initiated by the execution of the previously described malicious PowerShell script TookPS. However, this campaign differs from previous activity in that it uses a new framework to deliver all malicious modules and orchestrate them via an SSH tunnel. In total, the framework includes more than 20 malicious payloads and implants, covering a wide variety of functions. At the time of writing, the threat remains active. Kaspersky’s products detect this threat as Trojan-Downloader.Win32.TookPS.*, Trojan.Win64.BypassUAC.*, Trojan-Banker.Script.Agent.gen, Trojan.Win32.Dllhijack.*, Backdoor.Win32.TeviRat.*, Trojan-PSW.Win64.Stealer.*, Trojan-Spy.Win64.Keylogger.*, Trojan-Spy.Win64.Agent.*, Trojan.Win64.Agent.*. Background TookPS is a downloader used for retrieving malicious commands and scripts from attacker-controlled servers to further propagate attacks. The first campaign using TookPS was discovered in March 2025. At that time, malicious scripts delivered a Python‑based infostealer along with a script that installed and configured an SSH tunnel on the victim’s machine. The next wave appeared in April 2025: the payload was changed, and TookPS was used to deliver the TeviRAT malware with the same SSH installer. Then at the end of April 2025, TookPS underwent minor changes, yet its attack chain was completely redesigned. Unlike previous incidents, in this case, TookPS was used solely for the initial infection, with an automated SSH bot responsible for payload delivery. This new malicious campaign has multiple stages that cover the full attack lifecycle, from initial infection to persistence and data exfiltration. Among various malware strains, at one of the stages, the TeviRAT backdoor is delivered to the compromised host, ultimately fetching another version of a TookPS script. We dubbed this updated TookPS campaign “OkoBot”. Original OkoBot infection chain We will break down this chain in greater detail later in the article. However, this is not the only version of OkoBot we were able to find. Already in March 2026, we discovered a new phase in the development of the framework, with Volume2 now being installed directly using TookPS. The HDUtil launcher → extl injector → Rilide chain was found to be abandoned in this newer version since it was replaced in full by the identical ext_daemon Volume2 plugin. TeviRAT was also removed, most likely because its functions were covered by the new plugins dispatcher. New OkoBot infection chain Initial infection The initial infection is primarily delivered through two vectors: a ClickFix attack, and malware distributed through GitHub that masquerades as legitimate software. One such example is the fake SQL Server Management Studio (SSMS) package distributed through GitHub. In fact, it is actually the legitimate Audacity — a popular audio editor — compiled with a malicious implant embedded in one of its libraries. Because the repository was indexed by most search engines and appeared at the top of the results for the query SSMS , the malware looked legitimate and quickly earned users’ trust. Malicious application distribution report This repository was created at the end of March 2025 and existed until June of that year. It consisted of a single file, README.md , which provided a fake SSMS installation guide written in an official style ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_theft",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "critical_infrastructure"
-          ],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
-          "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
-          "published": "2026-07-15T10:00:26+00:00",
-          "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "critical_infrastructure"
-            ],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -5764,7 +5764,9 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "AWS"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -5785,13 +5787,15 @@
         "link": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
         "published": "2026-07-16T09:23:19+00:00",
         "summary": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he",
-        "full_body": "",
+        "full_body": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide  Swati Khandelwal  Jul 16, 2026 IoT Security / Vulnerability Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he bought himself. The flaw was unpatched then. He says SharkNinja, the company behind the Shark and Ninja appliance brands, has had his report since March. The policy attached to that certificate was never scoped to the device holding it. Present it to Shark's cloud broker, and the broker accepts whatever you publish, addressed to any device it serves. No memory corruption, no privilege escalation, no password to guess. The command that runs is an ordinary field in the device shadow, the per-device state document AWS keeps in the cloud. Using the certificate from an RV2320EDUS, the researcher subscribed to $aws/things/# and watched the traffic crossing the broker, harvesting serial numbers as he went. Publishing works the same way. The shadow carries an Exec_Command field that the management daemon appd reads and hands to a function named execute_command, which runs anything under 1,000 bytes through popen. Send a shadow update carrying that field to a device's topic. If that device implements the handler, it runs the command. He proved the cross-model path, landing a reverse shell on an AV1102ARUS he bought purely as a target, then using that shell to pull a live feed off the model's onboard camera while the robot drove around. The certificate comes off with a screwdriver. The mainboard exposes UART pins, the U-Boot console asks for no password, and init=/bin/sh in the boot arguments drops you to a root shell, where the per-device key and certificate sit in /mnt/res/vapp/certs/ as ordinary files. Certificates are pinned to their AWS region, the closest thing here to a limit: a key lifted in one region only reaches that region's devices. Reaching another region takes another certificate, provisioned there, and carrying the same broken policy. Amazon has an audit check for this exact policy shape. Device Defender, AWS's IoT fleet auditing service, flags device policies granting publish or subscribe on $aws/things/* instead of pinning the topic to the connecting device with ${iot:Connection.Thing.ThingName}. It appears as IOT_POLICY_OVERLY_PERMISSIVE_CHECK, and AWS rates it critical, warning in its documentation that a compromised certificate carrying such a policy lets an attacker \"read or modify shadows, jobs, or job executions for all your devices.\" Not every certificate is a skeleton key. A vacuum whose certificate carries the broken policy is an attacker's key. Any vacuum that runs Exec_Command is a target, whether or not its own certificate is scoped correctly. The AV1102ARUS is a target and not a key: its certificate was scoped correctly and could not wildcard-subscribe. Its firmware was several years newer. He reads that as a provisioning fix that never reached the older fleet's certificates. That is why the cross-model shell worked, and why his claim that every internet-connected Shark vacuum is vulnerable needs splitting in two. The headline on his post says millions. The figure he verified is narrower. Watching one AWS region for 24 hours, tokay0 counted 1,517,605 unique Shark serial numbers, of which 673,816, or 44%, emitted an Exec_Response, which he treats as confirmation that the device runs the command handler. Those are devices observed replying, not devices tested or compromised, and he says the true number is likely higher. Four Months and Counting By tokay0's account of the correspondence, he contacted SharkNinja on March 1 and sent details on March 11. The company acknowledged receipt the",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "AWS"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
@@ -5800,7 +5804,9 @@
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "AWS": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -5818,7 +5824,9 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "AWS"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
@@ -5827,7 +5835,9 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "AWS": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -6694,108 +6704,6 @@
       ]
     },
     {
-      "cluster_id": "97c93f5e79",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Ernst & Young discloses data breach after support system hack",
-        "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-        "published": "2026-07-17T14:55:28+00:00",
-        "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-        "full_body": "Ernst & Young discloses data breach after support system hack By Bill Toulas July 17, 2026 10:55 AM 3 Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. According to the company, support tickets submitted through the platform may have included documents containing client tax information. Ernst & Young (EY) is among the world’s four largest auditing and professional services providers, offering auditing, tax, consulting, and transaction advisory services to major organizations in more than 150 countries. The company employs 406,000 people and reported a global revenue of $53.2 billion last year. The breach notification to affected clients states that Ernst & Young detected anomalous activity on its networks on April 23 and initiated an investigation. With help from external cybersecurity experts, the company determined that an unauthorized third party had accessed the said platform between March 28 and April 12 and downloaded multiple documents. The affected information included certain personal and financial data contained in or used to prepare tax filings. Since the notification sample features a placeholder for the specific data types, the type of the information exposed remains unclear. Also, the company has not shared exactly how many customers were affected or whether the incident impacts only its U.S. customer base or other countries as well. Ernst & Young says it secured its systems and notified federal law enforcement authorities, while it has assured that the unauthorized access has been removed. The company also states that it is not aware of any misuse or further exposure of the stolen files and has no indication that particular individuals were targeted by the threat actors. To mitigate the risks arising from this exposure, EY offers affected clients 24 months of identity monitoring and restoration service through Experian and urges letter recipients to enroll by October 31, 2026. At the time of writing, no data extortion or ransomware groups have taken responsibility for the attack on Ernst & Young. BleepingComputer has contacted EY to learn more about the incident, but we have not yet received a response at the time of publication. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Healthtech firm Xolis suffers data breach impacting 1.4 million people SoFi confirms third-party data breach at Hong Kong subsidiary Medtronic notifies customers impacted by ShinyHunters data breach LastPass confirms data breach in Klue supply chain attack Texas govt data breach exposes over 3 million driver’s licenses",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Ernst & Young discloses data breach after support system hack",
-          "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-          "published": "2026-07-17T14:55:28+00:00",
-          "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b47b034408",
       "priority_score": 9,
       "member_count": 1,
@@ -7089,181 +6997,6 @@
       ]
     },
     {
-      "cluster_id": "0dd49c6456",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
-        "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
-        "published": "2026-07-17T14:30:00+00:00",
-        "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
-        "full_body": "Infosecurity Magazine Home » News » 23andMe Faces New Security Mandates in $18m Data Breach Settlement 23andMe Faces New Security Mandates in $18m Data Breach Settlement News 17 July 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn A settlement of $18m has been reached between a coalition of 42 US attorneys general and genetic testing firm 23andMe following the 2023 data breach. New York Attorney General Letitia James and the bipartisan coalition has also ensured new data protection requirements to secure 23andMe customer data. 23andMe will also pay more than $705,000 to New York. In October 2023, the genetics testing firm confirmed that customers had profile information accessed by cybercriminals following a credential stuffing campaign. At the time of the incident, the company said that the hack was not the result of attackers infiltrating the firm’s own network, rather it was customers’ poor password management including the lack of multi-factor authentication (MFA). Over six million individuals' information was accessed from the data breach including information about ancestry. In March 2025, 23andMe filed for bankruptcy protection. A statement issued by Attorney General James said that herself and the coalition filed claims related to the data breach investigation. In June 2025, Attorney General James and a bipartisan coalition of 27 other attorneys general sued 23andMe to protect Americans’ personal genetic information during the company’s bankruptcy. As a result of the bankruptcy, 23andMe’s customer data was sold to TTAM Research , a non-profit formed by 23andMe’s founder and former CEO Anne Wojcick. Attorney General James and the coalition have secured new information and data security requirements at TTAM to protect customers’ data and prevent future breaches. The security measures include: Appropriate risk analysis The addition of an Advisory Board on data security Continuing to offer consumers the right to delete their information “Companies have a duty to protect their customers’ personal information from hackers, but 23andMe put millions of its customers at risk with its flimsy security measures,” said Attorney General James. “New Yorkers trusted 23andMe with their sensitive and personal genetic data, only to find that data stolen and put up for sale on the dark corners of the internet. As a result of our coalition’s action, 23andMe will pay for violating the law and strict rules will be put in place to protect their customers.” Infosecurity has reached out to 23andMe in relation to the $18m settlement and security requirements. This is in addition to a $46.75 ​million settlement which was approved by a US bankruptcy judge on July 7, to be awarded as compensation to victims of the data breach. However, on 10 July, a bankruptcy judge said California cannot seek damages ​from the company because of their Chapter 11 reorganization plan, according to reporting by Reuters. However, the judge said California has 14 days to either dismiss its ⁠May 28 lawsuit , which was issued by Attorney General of California Rob Bonta, or amend ​the complaint to eliminate the claims for monetary relief. The company was also fined €2.4m ($2.75m) in July 2026 by the Spanish privacy watchdog as 2642 customers residing in Spain were affected. In June 2025, the UK’s Information Commissioner’s Office fined 23andMe £2.3m ($3.1m) for failing to protect customers’ special category data. You may also like The 10 Biggest Data Breach Fines and Settlements of 2025 News Feature 26 December 2025 Post Office Escapes £1m Fine After Postmaster Data Breach News 4 December 2025 Capita Fined £14m After 2023 Breach that Hit 6.6 Million People News 15 October 2025 Northern Ireland Police Data Leak Sees Service Fined by ICO News 3 October 2024 UK Construction Company Fined £4.4m for Serious Security Failings News 24 October 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Single",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_theft",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
-          "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
-          "published": "2026-07-17T14:30:00+00:00",
-          "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "88deaf9a79",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Entra"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Proofpoint Threat Insight",
-        "cohort": "detection_response_operations",
-        "title": "Hackers find a new trick to collect Microsoft Entra user data without raising red flags",
-        "link": "https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags",
-        "published": "2026-07-13T13:35:56+00:00",
-        "summary": "",
-        "full_body": "An article from Dive Brief Hackers find a new trick to collect Microsoft Entra user data without raising red flags Organizations should check their logs for signs of an increasingly popular obfuscation technique, Proofpoint said. Published July 13, 2026 Eric Geller Senior Reporter Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google Getty Images Dive Brief: Businesses should be on guard for a hacking campaign in which attackers spoof OAuth client IDs to collect information about targets’ user directories, the security firm Proofpoint said on Monday . The security firm said it had observed “multiple campaigns at scale abusing spoofed OAuth application identifiers, with distinct tooling, infrastructure, and execution patterns indicating independent adoption by multiple threat actors.” The report explains how organizations should monitor their networks for this reconnaissance technique. Dive Insight: Microsoft Entra , the tech giant’s identity management service, records hacking attempts in its logs with information that can help defenders isolate potentially compromised accounts and potentially malicious IP addresses. In response, hackers have figured out ways to obfuscate their activities and origins — and in recent months, Proofpoint said, attackers have taken that “evasive tradecraft” to a new level. OAuth client IDs tell Microsoft Entra which application is attempting to access user data. By faking a client ID, hackers can collect username and password information from the Entra database without actually operating a genuine application that Entra trusts. “Spoofed client IDs enable account enumeration without a registered OAuth application and allow attackers to infer both password and account validity without generating a successful sign-in event,” Proofpoint explained. Security teams often monitor Entra logs for surges of activity against specific Entra-connected applications. Using spoofed client IDs — which generate blank entries in the application field in Entra’s logs — helps hackers slip through that kind of trend-based monitoring. “The observed logging behavior allows unauthenticated attackers to enumerate users and infer password validity without generating a successful sign-in event,” Proofpoint said in its report. “Even when enumeration is detected, defenders may not realize that valid credentials were identified and may overlook compromised credentials entirely.” The technique also bypasses another defensive measure: the use of conditional-access policies for highly targeted applications. “Spoofed client IDs won’t trigger [conditional-access] policies that are scoped to a specific application,” Proofpoint said. The security firm’s report described two campaigns leveraging the obfuscation technique, one that began in January and another that began last December. The January campaign used more than 700,000 spoofed IDs to collect information about more than one million user accounts across almost 4,000 organizations. The December campaign — which had a second wave in February — was much bigger, using 3.7 million spoofed IDs to target more than two million users. “The emergence of multiple campaigns with unique tools and infrastructure suggests this technique is gaining traction among threat actors targeting cloud environments,” Proofpoint said. The company warned businesses to monitor their Entra logs for sign-in attempts with blank application IDs and to watch for an Entra error code — AADSTS700016 — associated with unrecognized application IDs. Add us on Google Share Copy link Email LinkedIn X/Twitter Facebook Print License Filed Under: Cyberattacks, Threats",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Entra"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Microsoft Entra": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Proofpoint Threat Insight",
-          "cohort": "detection_response_operations",
-          "title": "Hackers find a new trick to collect Microsoft Entra user data without raising red flags",
-          "link": "https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags",
-          "published": "2026-07-13T13:35:56+00:00",
-          "summary": "",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Entra"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Microsoft Entra": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "d77ec8e022",
       "priority_score": 8,
       "member_count": 2,
@@ -7376,6 +7109,97 @@
             "confidence_tier": "tier_2_operator",
             "role_map": {
               "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "88deaf9a79",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Entra"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Proofpoint Threat Insight",
+        "cohort": "detection_response_operations",
+        "title": "Hackers find a new trick to collect Microsoft Entra user data without raising red flags",
+        "link": "https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags",
+        "published": "2026-07-13T13:35:56+00:00",
+        "summary": "",
+        "full_body": "An article from Dive Brief Hackers find a new trick to collect Microsoft Entra user data without raising red flags Organizations should check their logs for signs of an increasingly popular obfuscation technique, Proofpoint said. Published July 13, 2026 Eric Geller Senior Reporter Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google Getty Images Dive Brief: Businesses should be on guard for a hacking campaign in which attackers spoof OAuth client IDs to collect information about targets’ user directories, the security firm Proofpoint said on Monday . The security firm said it had observed “multiple campaigns at scale abusing spoofed OAuth application identifiers, with distinct tooling, infrastructure, and execution patterns indicating independent adoption by multiple threat actors.” The report explains how organizations should monitor their networks for this reconnaissance technique. Dive Insight: Microsoft Entra , the tech giant’s identity management service, records hacking attempts in its logs with information that can help defenders isolate potentially compromised accounts and potentially malicious IP addresses. In response, hackers have figured out ways to obfuscate their activities and origins — and in recent months, Proofpoint said, attackers have taken that “evasive tradecraft” to a new level. OAuth client IDs tell Microsoft Entra which application is attempting to access user data. By faking a client ID, hackers can collect username and password information from the Entra database without actually operating a genuine application that Entra trusts. “Spoofed client IDs enable account enumeration without a registered OAuth application and allow attackers to infer both password and account validity without generating a successful sign-in event,” Proofpoint explained. Security teams often monitor Entra logs for surges of activity against specific Entra-connected applications. Using spoofed client IDs — which generate blank entries in the application field in Entra’s logs — helps hackers slip through that kind of trend-based monitoring. “The observed logging behavior allows unauthenticated attackers to enumerate users and infer password validity without generating a successful sign-in event,” Proofpoint said in its report. “Even when enumeration is detected, defenders may not realize that valid credentials were identified and may overlook compromised credentials entirely.” The technique also bypasses another defensive measure: the use of conditional-access policies for highly targeted applications. “Spoofed client IDs won’t trigger [conditional-access] policies that are scoped to a specific application,” Proofpoint said. The security firm’s report described two campaigns leveraging the obfuscation technique, one that began in January and another that began last December. The January campaign used more than 700,000 spoofed IDs to collect information about more than one million user accounts across almost 4,000 organizations. The December campaign — which had a second wave in February — was much bigger, using 3.7 million spoofed IDs to target more than two million users. “The emergence of multiple campaigns with unique tools and infrastructure suggests this technique is gaining traction among threat actors targeting cloud environments,” Proofpoint said. The company warned businesses to monitor their Entra logs for sign-in attempts with blank application IDs and to watch for an Entra error code — AADSTS700016 — associated with unrecognized application IDs. Add us on Google Share Copy link Email LinkedIn X/Twitter Facebook Print License Filed Under: Cyberattacks, Threats",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Entra"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Microsoft Entra": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Proofpoint Threat Insight",
+          "cohort": "detection_response_operations",
+          "title": "Hackers find a new trick to collect Microsoft Entra user data without raising red flags",
+          "link": "https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags",
+          "published": "2026-07-13T13:35:56+00:00",
+          "summary": "",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Entra"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Microsoft Entra": "target"
             },
             "weak_tags": {
               "products": []
@@ -7591,7 +7415,10 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -7610,20 +7437,26 @@
         "link": "https://www.huntress.com/blog/sql-injection-attacker-persistence",
         "published": "2026-07-13T13:00:00+00:00",
         "summary": "See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Published: July 13, 2026 Home Field Advantage: How Attackers Reshape Victim Environments By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways After gaining initial access, threat actors sometimes spend time modifying the compromised environment before pursuing their end goals. That means establishing persistence, concealing activity, and deploying tools designed to make detection and eviction significantly more difficult. Huntress analysts recently investigated an incident where a threat actor made an exceptionally broad range of post-compromise modifications across an organization, including installing BadIIS modules, adding new users accounts, and more. For defenders, post-compromise behavior is just as important to monitor as initial access attempts. Identifying root cause, reducing attack surface, and maintaining visibility into endpoint activity are all critical to fully removing a threat actor from the environment. Acknowledgments: Special thanks to the efforts of Stephanie Fairless for the contributions to this investigation. \"The call is coming from inside the house.\" Defenders often prioritize preventing threat actors from getting in, whether through vulnerability exploitation or exposed Remote Desktop Protocol (RDP) instances. But equally (if not more) important is what happens when an attacker has already made their way in. While some attackers go straight for the kill – exfiltrating data, encrypting files, or otherwise – many take a more strategic approach to mold the compromised environments to suit their needs first. They'll proactively tweak things within the environment to hide their tracks or work in some persistence. That might look like enabling the built-in Windows Guest account. It might be running Windows CLI commands like tasklist /svc to sniff out what processes a victim might be running. At Huntress, our SOC focuses on these measures with a laser focus, because they often provide hints for what happened during an incident and may even reveal new parts of an attack that weren't initially detected. In this blog post we will break down a June incident where a threat actor took aggressive steps to modify the environment after gaining initial access, in hopes of shedding light on some of these overlooked tactics. Initial Access: The first MSSQL detections During a recent incident for an organization in the tech sector, Huntress analysts observed a threat actor making more modifications to the compromised environment than usually observed during incidents of a similar nature. The June 26 incident started with the Huntress SOC detecting and reporting malicious activity via a Microsoft SQL Server (MSSQL) instance ( sqlservr.exe ). Digging deeper into the investigation, Huntress analysts discovered that the threat actor did not access the MSSQL instance directly, but instead was able to locate a web page (the IIS web server was also installed on the endpoint) where user input was not being properly validated. As a result, based on this evidence we determined that the threat actor was able to access the endpoint by successfully exploiting an SQL injection vulnerability. Teeing things up: Recon and persistence Through this avenue, the threat actor used base64-encoded PowerShell to download various scripts, which we will delve into later in this blog post. Next, the actor carried out some recon: they ran tasklist /svc to determine what processes were running and available on the endpoint. This legitimate Windows command can help attackers identify potentially valuable services. That allows them to plan their next moves for what to target next – or even understand what services exist that they can potentially spoof with malicious processes. In this case, threat actors also used a PowerShell command to send the output of tasklist /svc to 334thribetlhkyo977gqrcht1k7bvdj2[.]oasti",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "OpenAI/ChatGPT",
+            "Anthropic/Claude"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_2_operator",
-          "role_map": {},
+          "role_map": {
+            "OpenAI/ChatGPT": "target",
+            "Anthropic/Claude": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -7641,14 +7474,20 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {},
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -7663,14 +7502,27 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "active_exploitation",
+          "cloud_abuse",
+          "ransomware_extortion",
+          "vulnerability_disclosure"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "healthcare",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "GitHub",
+          "Kubernetes"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -7685,20 +7537,36 @@
         "link": "https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security",
         "published": "2026-07-16T00:00:00+00:00",
         "summary": "Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "< back to blog The CISO's guide to headless cloud security Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Sign up for the webinar Published: July 16, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more There's a shift happening in security architecture that hasn't quite made it into analyst magic quadrants yet, and it didn’t come from vendors. This shift came from organizations in business sectors like yours – healthcare, tech, manufacturing, transportation – security teams that have pushed AI-assisted tooling to its limits and hit a wall. The wall is the UI itself. On the other side of that wall lies a fundamentally different architecture. One where engineers, developers, and security practitioners all use the same CLI. Where agents triage and remediate before a human opens a browser, and where your board metrics are a query away instead of a manual export. The goal is security that is invisible, programmable, and fast enough to win. Here’s how it works. Your adversaries already moved Let me begin where I start just about every conversation: the threat landscape. Attackers have gone agentic. I don’t just mean \"AI-assisted,” but truly autonomous agents probing, exploiting, and pivoting without a human operator making decisions in real time. That’s what you have to defend against now. The Sysdig Threat Research Team (TRT) has proof, too. In one attack, an agentic threat actor (ATA) executed actions in real time rather than running pre-built playbooks as a human operator would. In less than one hour, the ATA made four pivots through the environment and exfiltrated the contents of an entire internal database. In another, an ATA performed a container escape , something even skilled human attackers rarely attempt, and then replayed Kubernetes credentials to dump a cluster’s entire secret store. TRT also just saw what they assess to be the first documented case of agentic ransomware, dubbed JADEPUFFER , which was a complete extortion operation driven end-to-end by a large language model (LLM). Three numbers tell the rest of the story. Together, these numbers define why the security model most organizations are running is structurally broken. 10 minutes: From initial access to cloud compromise. Whether it’s a database being exfiltrated or credentials being taken, that’s the average amount of time it takes for a cloud attack to take place. Recently, we’ve seen credentials disappear in as little as three minutes . 10 hours: From vulnerability disclosure to active weaponization. This number is actually even more unsettling than it looks. It’s the time from the moment the GitHub Security Advisory (GHSA) is published, not when the vulnerability is given a CVE number. This is before MITRE reviews it or NIST catalogs it, and possibly before your vulnerability scanner even knows it exists. Threat actors are monitoring GitHub and using LLMs to write exploits almost immediately. We identified one case that took less than four hours , and one against the very popular Langflow framework that was actively exploited within 20 hours . 30 minutes: This is just a stab in the dark. An optimistic guess. How long does it actually take your SOC to triage a true positive alert on a good day? Drop your own number in here. It’s safe to assume that many organizations are not yet addressing threats in less than 10 minutes or finding and fixing vulnerabilities within a few hours. When you do the math, most security teams lose every time. That’s not because they aren’t capable; it’s a structural timescale mismatch. You can’t hire more people or add more tools to outpace this challenge. It requires an architectural change. The problem that needs fixing Every login to a dashboard or portal adds latency. Every time an analyst opens a page to investigate an alert, the miss",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "ransomware_extortion",
+            "cloud_abuse",
+            "vulnerability_disclosure",
+            "active_exploitation"
+          ],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
+          "affected_industries": [
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "GitHub",
+            "Kubernetes"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_2_operator",
-          "role_map": {},
+          "role_map": {
+            "GitHub": "target",
+            "Kubernetes": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -7713,7 +7581,104 @@
           "published": "2026-07-16T00:00:00+00:00",
           "summary": "Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "ransomware_extortion",
+              "cloud_abuse",
+              "vulnerability_disclosure",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "GitHub",
+              "Kubernetes"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "GitHub": "target",
+              "Kubernetes": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "97c93f5e79",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Ernst & Young discloses data breach after support system hack",
+        "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+        "published": "2026-07-17T14:55:28+00:00",
+        "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ernst & Young discloses data breach after support system hack",
+          "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+          "published": "2026-07-17T14:55:28+00:00",
+          "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -7721,8 +7686,8 @@
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -7881,87 +7846,6 @@
           "taxonomy": {
             "threat_categories": [
               "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "fc9399f948",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "23andMe to pay $18 million in new genetics data breach settlement",
-        "link": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
-        "published": "2026-07-16T13:47:23+00:00",
-        "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "23andMe to pay $18 million in new genetics data breach settlement",
-          "link": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
-          "published": "2026-07-16T13:47:23+00:00",
-          "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
             ],
             "actor_attribution": [],
             "affected_industries": [],
@@ -8383,6 +8267,87 @@
       ]
     },
     {
+      "cluster_id": "0dd49c6456",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
+        "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
+        "published": "2026-07-17T14:30:00+00:00",
+        "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
+          "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
+          "published": "2026-07-17T14:30:00+00:00",
+          "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "5b3297c4f5",
       "priority_score": 8,
       "member_count": 1,
@@ -8718,17 +8683,14 @@
           }
         },
         {
-          "source": "SecurityWeek",
+          "source": "BleepingComputer",
           "cohort": "cyber_news_breach_reporting",
-          "title": "In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint",
-          "link": "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
-          "published": "2026-07-17T14:27:54+00:00",
-          "summary": "Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek .",
+          "title": "New ClickLock macOS malware traps users into revealing login password",
+          "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+          "published": "2026-07-16T21:52:54+00:00",
+          "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "data_breach"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -8749,14 +8711,17 @@
           }
         },
         {
-          "source": "BleepingComputer",
+          "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
-          "title": "New ClickLock macOS malware traps users into revealing login password",
-          "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-          "published": "2026-07-16T21:52:54+00:00",
-          "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
+          "title": "In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint",
+          "link": "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
+          "published": "2026-07-17T14:27:54+00:00",
+          "summary": "Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek .",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -8918,50 +8883,6 @@
       ]
     },
     {
-      "label": "ShinyHunters targeting Salesforce",
-      "anchor_signal": "ShinyHunters",
-      "theme_key": "shinyhunters",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain",
-          "ransomware_extortion",
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Salesforce"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 5,
-      "cohesion": 0.4,
-      "shared_strong_signals": [
-        "ShinyHunters"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "7df2f246d4",
-        "c8e0a6559d",
-        "5cb0aa9164",
-        "97c93f5e79"
-      ],
-      "links": [
-        "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
-        "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-        "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/",
-        "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-        "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/"
-      ]
-    },
-    {
       "label": "Microsoft SharePoint active exploitation",
       "anchor_signal": "Microsoft SharePoint",
       "theme_key": "microsoft-sharepoint",
@@ -9041,6 +8962,48 @@
         "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/",
         "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
         "https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/"
+      ]
+    },
+    {
+      "label": "ShinyHunters targeting Salesforce",
+      "anchor_signal": "ShinyHunters",
+      "theme_key": "shinyhunters",
+      "dominant_features": {
+        "threat_categories": [
+          "supply_chain",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "data_breach"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "manufacturing_industrial",
+          "financial_services"
+        ],
+        "affected_products": [
+          "Salesforce"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 4,
+      "cohesion": 0.374,
+      "shared_strong_signals": [
+        "ShinyHunters"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "7df2f246d4",
+        "c8e0a6559d",
+        "5cb0aa9164"
+      ],
+      "links": [
+        "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+        "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+        "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/",
+        "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/"
       ]
     },
     {
@@ -9151,6 +9114,64 @@
       ]
     },
     {
+      "label": "Kubernetes vulnerability activity",
+      "anchor_signal": "Kubernetes",
+      "theme_key": "kubernetes",
+      "dominant_features": {
+        "affected_products": [
+          "Kubernetes"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.243,
+      "shared_strong_signals": [
+        "Kubernetes"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "3fe79c75d4",
+        "4dacf306cd",
+        "36d4f9221e"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
+        "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
+        "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+        "https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/",
+        "https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security"
+      ]
+    },
+    {
+      "label": "AWS vulnerability activity",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
+      "dominant_features": {
+        "affected_products": [
+          "AWS"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.429,
+      "shared_strong_signals": [
+        "AWS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "3fe79c75d4",
+        "f9bf33b9c9"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
+        "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
+        "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+        "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html"
+      ]
+    },
+    {
       "label": "Google Cloud vulnerability activity",
       "anchor_signal": "Google Cloud",
       "theme_key": "google-cloud",
@@ -9201,66 +9222,6 @@
       "links": [
         "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
         "https://unit42.paloaltonetworks.com/ai-incident-response-report/"
-      ]
-    },
-    {
-      "label": "Kubernetes vulnerability activity",
-      "anchor_signal": "Kubernetes",
-      "theme_key": "kubernetes",
-      "dominant_features": {
-        "affected_products": [
-          "Kubernetes"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.273,
-      "shared_strong_signals": [
-        "Kubernetes"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "3fe79c75d4",
-        "4dacf306cd"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
-        "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
-        "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-        "https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/"
-      ]
-    },
-    {
-      "label": "Scattered Spider campaign activity",
-      "anchor_signal": "Scattered Spider",
-      "theme_key": "scattered-spider",
-      "dominant_features": {
-        "actor_attribution": [
-          "Scattered Spider"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 6,
-      "cohesion": 0.361,
-      "shared_strong_signals": [
-        "Scattered Spider"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "a632c3dcbf",
-        "ae25d6203b"
-      ],
-      "links": [
-        "https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack",
-        "https://cyberscoop.com/scattered-spider-leaders-sentenced-united-kingdom/",
-        "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
-        "https://www.helpnetsecurity.com/2026/07/16/ransport-for-london-cyberattack-prison-time/",
-        "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html"
       ]
     }
   ],

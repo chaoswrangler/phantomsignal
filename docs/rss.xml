@@ -6,9 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 18 Jul 2026 13:35:58 +0000</lastBuildDate>
+<lastBuildDate>Sat, 18 Jul 2026 15:01:05 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Microsoft warns of surge in ACR Stealer attacks on customers</title>
+<link>https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/</link>
+<description><![CDATA[Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]]]></description>
+<pubDate>Sat, 18 Jul 2026 14:17:19 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>White House launches AI-driven &quot;Gold Eagle&quot; clearinghouse to centralize public-private vulnerability coordination</title>
 <link>https://www.reddit.com/r/netsec/comments/1uzllm1/white_house_launches_aidriven_gold_eagle/</link>
@@ -250,25 +259,21 @@
 <item>
 <title>Ernst &amp; Young discloses data breach after support system hack</title>
 <link>https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/</link>
-<description><![CDATA[Ernst &amp; Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]<br/><br/><em>Tags: ShinyHunters · ransomware_extortion · supply_chain · data_breach</em>]]></description>
+<description><![CDATA[Ernst &amp; Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Fri, 17 Jul 2026 14:55:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>ShinyHunters</category>
-<category>ransomware_extortion</category>
-<category>supply_chain</category>
 <category>data_breach</category>
 </item>
 <item>
 <title>23andMe Faces New Security Mandates in $18m Data Breach Settlement</title>
 <link>https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/</link>
-<description><![CDATA[23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements<br/><br/><em>Tags: credential_theft · data_breach</em>]]></description>
+<description><![CDATA[23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Fri, 17 Jul 2026 14:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>credential_theft</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -667,7 +672,7 @@
 <item>
 <title>Cloud CISO Perspectives: How AI leverages deep context as the defender’s advantage</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/</link>
-<description><![CDATA[Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fcf71ec23a0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, <br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fa376c287c0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, <br/><br/><em>Tags: Google Cloud</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -758,16 +763,6 @@
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 <category>Scattered Spider</category>
-</item>
-<item>
-<title>23andMe to pay $18 million in new genetics data breach settlement</title>
-<link>https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/</link>
-<description><![CDATA[Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers&apos; genetic data. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Thu, 16 Jul 2026 13:47:23 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer</title>
@@ -928,11 +923,12 @@
 <item>
 <title>Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide</title>
 <link>https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html</link>
-<description><![CDATA[Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people&apos;s Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he]]></description>
+<description><![CDATA[Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people&apos;s Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he<br/><br/><em>Tags: AWS</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 09:23:19 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>AWS</category>
 </item>
 <item>
 <title>From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal</title>
@@ -1039,11 +1035,15 @@
 <item>
 <title>The CISO&apos;s guide to headless cloud security</title>
 <link>https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security</link>
-<description><![CDATA[Attackers went agentic. Your security architecture should too. A CISO&apos;s guide to headless, API-first defense.]]></description>
+<description><![CDATA[Attackers went agentic. Your security architecture should too. A CISO&apos;s guide to headless, API-first defense.<br/><br/><em>Tags: GitHub · Kubernetes · ransomware_extortion · cloud_abuse · vulnerability_disclosure · active_exploitation</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
+<category>GitHub</category>
+<category>Kubernetes</category>
+<category>ransomware_extortion</category>
+<category>cloud_abuse</category>
 </item>
 <item>
 <title>The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)</title>
@@ -2114,11 +2114,13 @@
 <item>
 <title>Threat Actors Achieve Persistence After SQL Injection</title>
 <link>https://www.huntress.com/blog/sql-injection-attacker-persistence</link>
-<description><![CDATA[See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.]]></description>
+<description><![CDATA[See how a threat actor used SQL injection and BadIIS to gain persistence, disable Windows Defender, and quietly install a cryptominer.<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude</em>]]></description>
 <pubDate>Mon, 13 Jul 2026 13:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/sql-injection-attacker-persistence</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+<category>OpenAI/ChatGPT</category>
+<category>Anthropic/Claude</category>
 </item>
 <item>
 <title>Turning the Tables on Email Scammers With &apos;ScamBuster&apos;</title>
@@ -12194,7 +12196,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fa36e441460&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7faa0cd7c4f0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20410,7 +20412,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20419,7 +20421,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20428,7 +20430,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20437,7 +20439,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20446,7 +20448,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20456,7 +20458,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20465,7 +20467,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20474,7 +20476,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20483,7 +20485,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20492,7 +20494,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 13:35:58 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 15:01:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

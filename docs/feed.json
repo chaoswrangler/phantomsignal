@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T13:35:58.254687+00:00",
+  "generated_at": "2026-07-18T15:01:05.318683+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
@@ -32,8 +32,22 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -45,20 +59,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -81,19 +81,19 @@
       "item_count": 15,
       "in_window_count": 6
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -123,20 +123,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
@@ -151,11 +137,18 @@
       "item_count": 50,
       "in_window_count": 4
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -165,12 +158,26 @@
       "item_count": 50,
       "in_window_count": 0
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -181,13 +188,6 @@
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -235,12 +235,12 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 9
+      "in_window_count": 1
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -249,6 +249,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -256,18 +263,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 2
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
     "Protect AI": {
@@ -277,12 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -290,13 +297,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -340,13 +340,6 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -354,19 +347,26 @@
       "item_count": 20,
       "in_window_count": 20
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -403,13 +403,6 @@
       "item_count": 30,
       "in_window_count": 27
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 25
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -417,19 +410,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 25
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -445,19 +438,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -473,15 +466,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -494,13 +487,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -508,11 +494,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 4
     },
     "Infosecurity Magazine": {
@@ -521,6 +514,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 27
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -536,19 +536,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -760,50 +760,6 @@
       ]
     },
     {
-      "label": "ShinyHunters targeting Salesforce",
-      "anchor_signal": "ShinyHunters",
-      "theme_key": "shinyhunters",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain",
-          "ransomware_extortion",
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Salesforce"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 5,
-      "cohesion": 0.4,
-      "shared_strong_signals": [
-        "ShinyHunters"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "7df2f246d4",
-        "c8e0a6559d",
-        "5cb0aa9164",
-        "97c93f5e79"
-      ],
-      "links": [
-        "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
-        "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-        "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/",
-        "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-        "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/"
-      ]
-    },
-    {
       "label": "Microsoft SharePoint active exploitation",
       "anchor_signal": "Microsoft SharePoint",
       "theme_key": "microsoft-sharepoint",
@@ -883,6 +839,48 @@
         "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/",
         "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
         "https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/"
+      ]
+    },
+    {
+      "label": "ShinyHunters targeting Salesforce",
+      "anchor_signal": "ShinyHunters",
+      "theme_key": "shinyhunters",
+      "dominant_features": {
+        "threat_categories": [
+          "supply_chain",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "data_breach"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "manufacturing_industrial",
+          "financial_services"
+        ],
+        "affected_products": [
+          "Salesforce"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 4,
+      "cohesion": 0.374,
+      "shared_strong_signals": [
+        "ShinyHunters"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "7df2f246d4",
+        "c8e0a6559d",
+        "5cb0aa9164"
+      ],
+      "links": [
+        "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+        "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+        "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/",
+        "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/"
       ]
     },
     {
@@ -993,6 +991,64 @@
       ]
     },
     {
+      "label": "Kubernetes vulnerability activity",
+      "anchor_signal": "Kubernetes",
+      "theme_key": "kubernetes",
+      "dominant_features": {
+        "affected_products": [
+          "Kubernetes"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.243,
+      "shared_strong_signals": [
+        "Kubernetes"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "3fe79c75d4",
+        "4dacf306cd",
+        "36d4f9221e"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
+        "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
+        "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+        "https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/",
+        "https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security"
+      ]
+    },
+    {
+      "label": "AWS vulnerability activity",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
+      "dominant_features": {
+        "affected_products": [
+          "AWS"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.429,
+      "shared_strong_signals": [
+        "AWS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "3fe79c75d4",
+        "f9bf33b9c9"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
+        "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
+        "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+        "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html"
+      ]
+    },
+    {
       "label": "Google Cloud vulnerability activity",
       "anchor_signal": "Google Cloud",
       "theme_key": "google-cloud",
@@ -1043,66 +1099,6 @@
       "links": [
         "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
         "https://unit42.paloaltonetworks.com/ai-incident-response-report/"
-      ]
-    },
-    {
-      "label": "Kubernetes vulnerability activity",
-      "anchor_signal": "Kubernetes",
-      "theme_key": "kubernetes",
-      "dominant_features": {
-        "affected_products": [
-          "Kubernetes"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.273,
-      "shared_strong_signals": [
-        "Kubernetes"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "3fe79c75d4",
-        "4dacf306cd"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
-        "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
-        "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-        "https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/"
-      ]
-    },
-    {
-      "label": "Scattered Spider campaign activity",
-      "anchor_signal": "Scattered Spider",
-      "theme_key": "scattered-spider",
-      "dominant_features": {
-        "actor_attribution": [
-          "Scattered Spider"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 6,
-      "cohesion": 0.361,
-      "shared_strong_signals": [
-        "Scattered Spider"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "a632c3dcbf",
-        "ae25d6203b"
-      ],
-      "links": [
-        "https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack",
-        "https://cyberscoop.com/scattered-spider-leaders-sentenced-united-kingdom/",
-        "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
-        "https://www.helpnetsecurity.com/2026/07/16/ransport-for-london-cyberattack-prison-time/",
-        "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html"
       ]
     }
   ],
@@ -1315,6 +1311,34 @@
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+      "published": "2026-07-18T14:17:19+00:00",
+      "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
@@ -2111,7 +2135,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -2125,46 +2149,6 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "data_breach"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "Ernst & Young discloses data breach after support system hack By Bill Toulas July 17, 2026 10:55 AM 3 Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. According to the company, support tickets submitted through the platform may have included documents containing client tax information. Ernst & Young (EY) is among the world’s four largest auditing and professional services providers, offering auditing, tax, consulting, and transaction advisory services to major organizations in more than 150 countries. The company employs 406,000 people and reported a global revenue of $53.2 billion last year. The breach notification to affected clients states that Ernst & Young detected anomalous activity on its networks on April 23 and initiated an investigation. With help from external cybersecurity experts, the company determined that an unauthorized third party had accessed the said platform between March 28 and April 12 and downloaded multiple documents. The affected information included certain personal and financial data contained in or used to prepare tax filings. Since the notification sample features a placeholder for the specific data types, the type of the information exposed remains unclear. Also, the company has not shared exactly how many customers were affected or whether the incident impacts only its U.S. customer base or other countries as well. Ernst & Young says it secured its systems and notified federal law enforcement authorities, while it has assured that the unauthorized access has been removed. The company also states that it is not aware of any misuse or further exposure of the stolen files and has no indication that particular individuals were targeted by the threat actors. To mitigate the risks arising from this exposure, EY offers affected clients 24 months of identity monitoring and restoration service through Experian and urges letter recipients to enroll by October 31, 2026. At the time of writing, no data extortion or ransomware groups have taken responsibility for the attack on Ernst & Young. BleepingComputer has contacted EY to learn more about the incident, but we have not yet received a response at the time of publication. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Healthtech firm Xolis suffers data breach impacting 1.4 million people SoFi confirms third-party data breach at Hong Kong subsidiary Medtronic notifies customers impacted by ShinyHunters data breach LastPass confirms data breach in Klue supply chain attack Texas govt data breach exposes over 3 million driver’s licenses",
-      "fetch_status": "ok"
-    },
-    {
-      "source": "Infosecurity Magazine",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
-      "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
-      "published": "2026-07-17T14:30:00+00:00",
-      "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
           "data_breach"
         ],
         "actor_attribution": [],
@@ -2181,9 +2165,37 @@
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Infosecurity Magazine Home » News » 23andMe Faces New Security Mandates in $18m Data Breach Settlement 23andMe Faces New Security Mandates in $18m Data Breach Settlement News 17 July 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn A settlement of $18m has been reached between a coalition of 42 US attorneys general and genetic testing firm 23andMe following the 2023 data breach. New York Attorney General Letitia James and the bipartisan coalition has also ensured new data protection requirements to secure 23andMe customer data. 23andMe will also pay more than $705,000 to New York. In October 2023, the genetics testing firm confirmed that customers had profile information accessed by cybercriminals following a credential stuffing campaign. At the time of the incident, the company said that the hack was not the result of attackers infiltrating the firm’s own network, rather it was customers’ poor password management including the lack of multi-factor authentication (MFA). Over six million individuals' information was accessed from the data breach including information about ancestry. In March 2025, 23andMe filed for bankruptcy protection. A statement issued by Attorney General James said that herself and the coalition filed claims related to the data breach investigation. In June 2025, Attorney General James and a bipartisan coalition of 27 other attorneys general sued 23andMe to protect Americans’ personal genetic information during the company’s bankruptcy. As a result of the bankruptcy, 23andMe’s customer data was sold to TTAM Research , a non-profit formed by 23andMe’s founder and former CEO Anne Wojcick. Attorney General James and the coalition have secured new information and data security requirements at TTAM to protect customers’ data and prevent future breaches. The security measures include: Appropriate risk analysis The addition of an Advisory Board on data security Continuing to offer consumers the right to delete their information “Companies have a duty to protect their customers’ personal information from hackers, but 23andMe put millions of its customers at risk with its flimsy security measures,” said Attorney General James. “New Yorkers trusted 23andMe with their sensitive and personal genetic data, only to find that data stolen and put up for sale on the dark corners of the internet. As a result of our coalition’s action, 23andMe will pay for violating the law and strict rules will be put in place to protect their customers.” Infosecurity has reached out to 23andMe in relation to the $18m settlement and security requirements. This is in addition to a $46.75 ​million settlement which was approved by a US bankruptcy judge on July 7, to be awarded as compensation to victims of the data breach. However, on 10 July, a bankruptcy judge said California cannot seek damages ​from the company because of their Chapter 11 reorganization plan, according to reporting by Reuters. However, the judge said California has 14 days to either dismiss its ⁠May 28 lawsuit , which was issued by Attorney General of California Rob Bonta, or amend ​the complaint to eliminate the claims for monetary relief. The company was also fined €2.4m ($2.75m) in July 2026 by the Spanish privacy watchdog as 2642 customers residing in Spain were affected. In June 2025, the UK’s Information Commissioner’s Office fined 23andMe £2.3m ($3.1m) for failing to protect customers’ special category data. You may also like The 10 Biggest Data Breach Fines and Settlements of 2025 News Feature 26 December 2025 Post Office Escapes £1m Fine After Postmaster Data Breach News 4 December 2025 Capita Fined £14m After 2023 Breach that Hit 6.6 Million People News 15 October 2025 Northern Ireland Police Data Leak Sees Service Fined by ICO News 3 October 2024 UK Construction Company Fined £4.4m for Serious Security Failings News 24 October 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Single",
-      "fetch_status": "ok"
+      "score": 8
+    },
+    {
+      "source": "Infosecurity Magazine",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "23andMe Faces New Security Mandates in $18m Data Breach Settlement",
+      "link": "https://www.infosecurity-magazine.com/news/23andme-18m-data-breach-settlement/",
+      "published": "2026-07-17T14:30:00+00:00",
+      "summary": "23andMe has agreed to an $18m settlement with 42 US attorneys general over its 2023 data breach, including enhanced data protection requirements",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 8
     },
     {
       "source": "SecurityWeek",
@@ -2218,7 +2230,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "CyberScoop",
@@ -2248,7 +2260,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "The Hacker News",
@@ -2278,7 +2290,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Reddit r/netsec",
@@ -3446,7 +3458,7 @@
       "title": "Cloud CISO Perspectives: How AI leverages deep context as the defender’s advantage",
       "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/",
       "published": "2026-07-16T16:00:00+00:00",
-      "summary": "Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7fcf71ec23a0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, ",
+      "summary": "Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7fa376c287c0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, ",
       "author": "Francis deSouza",
       "in_window": true,
       "taxonomy": {
@@ -3736,36 +3748,6 @@
         }
       },
       "score": 6
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "23andMe to pay $18 million in new genetics data breach settlement",
-      "link": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
-      "published": "2026-07-16T13:47:23+00:00",
-      "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
-      "author": "Sergiu Gatlan",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
     },
     {
       "source": "The Hacker News",
@@ -4280,7 +4262,9 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "AWS"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -4289,13 +4273,15 @@
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
+        "role_map": {
+          "AWS": "target"
+        },
         "weak_tags": {
           "products": []
         }
       },
       "score": 10,
-      "full_body": "",
+      "full_body": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide  Swati Khandelwal  Jul 16, 2026 IoT Security / Vulnerability Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he bought himself. The flaw was unpatched then. He says SharkNinja, the company behind the Shark and Ninja appliance brands, has had his report since March. The policy attached to that certificate was never scoped to the device holding it. Present it to Shark's cloud broker, and the broker accepts whatever you publish, addressed to any device it serves. No memory corruption, no privilege escalation, no password to guess. The command that runs is an ordinary field in the device shadow, the per-device state document AWS keeps in the cloud. Using the certificate from an RV2320EDUS, the researcher subscribed to $aws/things/# and watched the traffic crossing the broker, harvesting serial numbers as he went. Publishing works the same way. The shadow carries an Exec_Command field that the management daemon appd reads and hands to a function named execute_command, which runs anything under 1,000 bytes through popen. Send a shadow update carrying that field to a device's topic. If that device implements the handler, it runs the command. He proved the cross-model path, landing a reverse shell on an AV1102ARUS he bought purely as a target, then using that shell to pull a live feed off the model's onboard camera while the robot drove around. The certificate comes off with a screwdriver. The mainboard exposes UART pins, the U-Boot console asks for no password, and init=/bin/sh in the boot arguments drops you to a root shell, where the per-device key and certificate sit in /mnt/res/vapp/certs/ as ordinary files. Certificates are pinned to their AWS region, the closest thing here to a limit: a key lifted in one region only reaches that region's devices. Reaching another region takes another certificate, provisioned there, and carrying the same broken policy. Amazon has an audit check for this exact policy shape. Device Defender, AWS's IoT fleet auditing service, flags device policies granting publish or subscribe on $aws/things/* instead of pinning the topic to the connecting device with ${iot:Connection.Thing.ThingName}. It appears as IOT_POLICY_OVERLY_PERMISSIVE_CHECK, and AWS rates it critical, warning in its documentation that a compromised certificate carrying such a policy lets an attacker \"read or modify shadows, jobs, or job executions for all your devices.\" Not every certificate is a skeleton key. A vacuum whose certificate carries the broken policy is an attacker's key. Any vacuum that runs Exec_Command is a target, whether or not its own certificate is scoped correctly. The AV1102ARUS is a target and not a key: its certificate was scoped correctly and could not wildcard-subscribe. Its firmware was several years newer. He reads that as a provisioning fix that never reached the older fleet's certificates. That is why the cross-model shell worked, and why his claim that every internet-connected Shark vacuum is vulnerable needs splitting in two. The headline on his post says millions. The figure he verified is narrower. Watching one AWS region for 24 hours, tokay0 counted 1,517,605 unique Shark serial numbers, of which 673,816, or 44%, emitted an Exec_Response, which he treats as confirmation that the device runs the command handler. Those are devices observed replying, not devices tested or compromised, and he says the true number is likely higher. Four Months and Counting By tokay0's account of the correspondence, he contacted SharkNinja on March 1 and sent details on March 11. The company acknowledged receipt the",
       "fetch_status": "ok"
     },
     {
@@ -4629,22 +4615,40 @@
       "author": "",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "ransomware_extortion",
+          "cloud_abuse",
+          "vulnerability_disclosure",
+          "active_exploitation"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "healthcare",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "GitHub",
+          "Kubernetes"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
+        "role_map": {
+          "GitHub": "target",
+          "Kubernetes": "target"
+        },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "< back to blog The CISO's guide to headless cloud security Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Sign up for the webinar Published: July 16, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more There's a shift happening in security architecture that hasn't quite made it into analyst magic quadrants yet, and it didn’t come from vendors. This shift came from organizations in business sectors like yours – healthcare, tech, manufacturing, transportation – security teams that have pushed AI-assisted tooling to its limits and hit a wall. The wall is the UI itself. On the other side of that wall lies a fundamentally different architecture. One where engineers, developers, and security practitioners all use the same CLI. Where agents triage and remediate before a human opens a browser, and where your board metrics are a query away instead of a manual export. The goal is security that is invisible, programmable, and fast enough to win. Here’s how it works. Your adversaries already moved Let me begin where I start just about every conversation: the threat landscape. Attackers have gone agentic. I don’t just mean \"AI-assisted,” but truly autonomous agents probing, exploiting, and pivoting without a human operator making decisions in real time. That’s what you have to defend against now. The Sysdig Threat Research Team (TRT) has proof, too. In one attack, an agentic threat actor (ATA) executed actions in real time rather than running pre-built playbooks as a human operator would. In less than one hour, the ATA made four pivots through the environment and exfiltrated the contents of an entire internal database. In another, an ATA performed a container escape , something even skilled human attackers rarely attempt, and then replayed Kubernetes credentials to dump a cluster’s entire secret store. TRT also just saw what they assess to be the first documented case of agentic ransomware, dubbed JADEPUFFER , which was a complete extortion operation driven end-to-end by a large language model (LLM). Three numbers tell the rest of the story. Together, these numbers define why the security model most organizations are running is structurally broken. 10 minutes: From initial access to cloud compromise. Whether it’s a database being exfiltrated or credentials being taken, that’s the average amount of time it takes for a cloud attack to take place. Recently, we’ve seen credentials disappear in as little as three minutes . 10 hours: From vulnerability disclosure to active weaponization. This number is actually even more unsettling than it looks. It’s the time from the moment the GitHub Security Advisory (GHSA) is published, not when the vulnerability is given a CVE number. This is before MITRE reviews it or NIST catalogs it, and possibly before your vulnerability scanner even knows it exists. Threat actors are monitoring GitHub and using LLMs to write exploits almost immediately. We identified one case that took less than four hours , and one against the very popular Langflow framework that was actively exploited within 20 hours . 30 minutes: This is just a stab in the dark. An optimistic guess. How long does it actually take your SOC to triage a true positive alert on a good day? Drop your own number in here. It’s safe to assume that many organizations are not yet addressing threats in less than 10 minutes or finding and fixing vulnerabilities within a few hours. When you do the math, most security teams lose every time. That’s not because they aren’t capable; it’s a structural timescale mismatch. You can’t hire more people or add more tools to outpace this challenge. It requires an architectural change. The problem that needs fixing Every login to a dashboard or portal adds latency. Every time an analyst opens a page to investigate an alert, the miss",
+      "fetch_status": "ok"
     },
     {
       "source": "Unit 42",
@@ -8153,19 +8157,27 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "OpenAI/ChatGPT",
+          "Anthropic/Claude"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
+        "role_map": {
+          "OpenAI/ChatGPT": "target",
+          "Anthropic/Claude": "target"
+        },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Published: July 13, 2026 Home Field Advantage: How Attackers Reshape Victim Environments By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways After gaining initial access, threat actors sometimes spend time modifying the compromised environment before pursuing their end goals. That means establishing persistence, concealing activity, and deploying tools designed to make detection and eviction significantly more difficult. Huntress analysts recently investigated an incident where a threat actor made an exceptionally broad range of post-compromise modifications across an organization, including installing BadIIS modules, adding new users accounts, and more. For defenders, post-compromise behavior is just as important to monitor as initial access attempts. Identifying root cause, reducing attack surface, and maintaining visibility into endpoint activity are all critical to fully removing a threat actor from the environment. Acknowledgments: Special thanks to the efforts of Stephanie Fairless for the contributions to this investigation. \"The call is coming from inside the house.\" Defenders often prioritize preventing threat actors from getting in, whether through vulnerability exploitation or exposed Remote Desktop Protocol (RDP) instances. But equally (if not more) important is what happens when an attacker has already made their way in. While some attackers go straight for the kill – exfiltrating data, encrypting files, or otherwise – many take a more strategic approach to mold the compromised environments to suit their needs first. They'll proactively tweak things within the environment to hide their tracks or work in some persistence. That might look like enabling the built-in Windows Guest account. It might be running Windows CLI commands like tasklist /svc to sniff out what processes a victim might be running. At Huntress, our SOC focuses on these measures with a laser focus, because they often provide hints for what happened during an incident and may even reveal new parts of an attack that weren't initially detected. In this blog post we will break down a June incident where a threat actor took aggressive steps to modify the environment after gaining initial access, in hopes of shedding light on some of these overlooked tactics. Initial Access: The first MSSQL detections During a recent incident for an organization in the tech sector, Huntress analysts observed a threat actor making more modifications to the compromised environment than usually observed during incidents of a similar nature. The June 26 incident started with the Huntress SOC detecting and reporting malicious activity via a Microsoft SQL Server (MSSQL) instance ( sqlservr.exe ). Digging deeper into the investigation, Huntress analysts discovered that the threat actor did not access the MSSQL instance directly, but instead was able to locate a web page (the IIS web server was also installed on the endpoint) where user input was not being properly validated. As a result, based on this evidence we determined that the threat actor was able to access the endpoint by successfully exploiting an SQL injection vulnerability. Teeing things up: Recon and persistence Through this avenue, the threat actor used base64-encoded PowerShell to download various scripts, which we will delve into later in this blog post. Next, the actor carried out some recon: they ran tasklist /svc to determine what processes were running and available on the endpoint. This legitimate Windows command can help attackers identify potentially valuable services. That allows them to plan their next moves for what to target next – or even understand what services exist that they can potentially spoof with malicious processes. In this case, threat actors also used a PowerShell command to send the output of tasklist /svc to 334thribetlhkyo977gqrcht1k7bvdj2[.]oasti",
+      "fetch_status": "ok"
     },
     {
       "source": "Dark Reading",
@@ -38575,7 +38587,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fa36e441460>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7faa0cd7c4f0>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
