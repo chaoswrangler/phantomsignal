@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 18 Jul 2026 21:57:16 +0000</lastBuildDate>
+<lastBuildDate>Sat, 18 Jul 2026 22:57:09 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -605,7 +605,7 @@
 <description><![CDATA[From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments. The post ACR Stealer: Two observed intrusion chains amid increased threat activity appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 23:12:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 </item>
@@ -615,7 +615,7 @@
 <description><![CDATA[From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments. The post ACR Stealer: Two observed intrusion chains amid increased threat activity appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 23:12:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 </item>
@@ -937,12 +937,11 @@
 <item>
 <title>Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide</title>
 <link>https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html</link>
-<description><![CDATA[Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people&apos;s Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he<br/><br/><em>Tags: AWS</em>]]></description>
+<description><![CDATA[Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people&apos;s Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he]]></description>
 <pubDate>Thu, 16 Jul 2026 09:23:19 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>AWS</category>
 </item>
 <item>
 <title>From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal</title>
@@ -1020,7 +1019,7 @@
 <description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 01:36:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
@@ -1031,7 +1030,7 @@
 <description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 01:36:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
@@ -2564,7 +2563,7 @@
 <description><![CDATA[GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 <category>web_shell_backdoor</category>
@@ -2575,7 +2574,7 @@
 <description><![CDATA[GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 <category>web_shell_backdoor</category>
@@ -2887,16 +2886,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>Drift Corpus: binary diffs of 240+ 2026 Windows kernel patches</title>
-<link>https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/</link>
-<description><![CDATA[Patch Tuesday confirms a CVE is fixed but not what changed in the binary, which function, which check, or whether it&apos;s a real fix or just churn. The Drift Corpus is a diff of 240+ 2026 Windows kernel patches. Per entry: the changed functions with assembly, the bug class and call chain, WinDbg breakpoints to reproduce, and a plain-English root cause. Browse: https://byteray-ai.github.io/drift-corpus Repo: https://github.com/ByteRay-AI/drift-corpus This repository breaks down Microsoft’s monthly kernel patches into clear binary changes, giving researchers a practical roadmap to find adjacent bugs, build faster EDR detections, and write precise firewall and network rules to block exploits at the perimeter. submitted by /u/Emergency_Stable_923 [link] [comments]<br/><br/><em>Tags: Microsoft Windows</em>]]></description>
-<pubDate>Wed, 08 Jul 2026 16:24:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Microsoft Windows</category>
 </item>
 <item>
 <title>AI Surveillance Is Being Supercharged–And It Will Chill Social Progress</title>
@@ -12190,7 +12179,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fa3803407c0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fc96a5a8460&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20406,7 +20395,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20415,7 +20404,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20424,7 +20413,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20433,7 +20422,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20442,7 +20431,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20452,7 +20441,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20461,7 +20450,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20470,7 +20459,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20479,7 +20468,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20488,7 +20477,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 18 Jul 2026 21:57:16 +0000</pubDate>
+<pubDate>Sat, 18 Jul 2026 22:57:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
