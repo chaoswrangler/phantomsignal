@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-19T16:03:39.876043+00:00
+- Generated: 2026-07-19T17:10:23.363441+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 348
-- Total clusters raw: 162
-- Total clusters in packet: 74
+- Feeds OK: 77
+- Total items in window: 356
+- Total clusters raw: 165
+- Total clusters in packet: 77
 - Dropped low score: 88
 - Dropped overflow: 0
 
@@ -90,11 +90,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -105,28 +100,13 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 10
+  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -140,41 +120,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 6
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 8
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - In window count: 9
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
+  - In window count: 8
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -184,6 +164,26 @@
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -195,13 +195,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -225,11 +225,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -240,11 +250,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 9
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 2
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -255,26 +265,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -285,51 +285,46 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -345,78 +340,63 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 25
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 4
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,13 +405,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 27
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -440,16 +415,41 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 4
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 20
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -571,28 +571,6 @@
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
   - https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/
 
-### ShinyHunters targeting Salesforce
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.374
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain, phishing_social_eng, ransomware_extortion, data_breach
-  - actor_attribution: ShinyHunters
-  - affected_industries: manufacturing_industrial, financial_services
-  - affected_products: Salesforce
-- Cluster IDs: 7df2f246d4, c8e0a6559d, ae25d6203b, 5cb0aa9164
-- Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
-  - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
-  - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-  - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
-  - https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/
-
 ### SonicWall active exploitation
 - Anchor signal: SonicWall
 - Theme key: sonicwall
@@ -639,65 +617,59 @@
   - https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
   - https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
 
-### Kubernetes vulnerability activity
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
-- Cluster count: 3
-- Article count: 5
-- Cohesion: 0.243
-- Shared strong signals: Kubernetes
+### ShinyHunters: supply chain
+- Anchor signal: ShinyHunters
+- Theme key: shinyhunters
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.283
+- Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Kubernetes
-- Cluster IDs: 3fe79c75d4, 4dacf306cd, 36d4f9221e
+  - threat_categories: supply_chain
+  - actor_attribution: ShinyHunters
+- Cluster IDs: 7df2f246d4, c8e0a6559d
 - Links:
-  - https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms
-  - https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/
-  - https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
-  - https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
-  - https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
+  - https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
+  - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
+  - https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
+
+### phishing social eng targeting Salesforce
+- Anchor signal: Salesforce
+- Theme key: salesforce
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: Salesforce
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng
+  - affected_products: Salesforce
+- Cluster IDs: 7df2f246d4, ae25d6203b
+- Links:
+  - https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/
+  - https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
+  - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
 
 ### Microsoft Entra vulnerability activity
 - Anchor signal: Microsoft Entra
 - Theme key: microsoft-entra
-- Cluster count: 3
-- Article count: 5
-- Cohesion: 0.463
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.857
 - Shared strong signals: Microsoft Entra
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - affected_products: Microsoft Entra
-- Cluster IDs: e06d2a4227, 88deaf9a79, 5cb0aa9164
+- Cluster IDs: e06d2a4227, 88deaf9a79
 - Links:
   - https://www.proofpoint.com/us/newsroom/news/oauth-client-id-spoofing-lets-attackers-validate-stolen-microsoft-entra-credentials
   - https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html
   - https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/
   - https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
-  - https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/
-
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 2
-- Article count: 11
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: WordPress
-- Cluster IDs: bc44ce81c5, 78924112de
-- Links:
-  - https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core
-  - https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/
-  - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
-  - https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/
-  - https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/
-  - https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
-  - https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
-  - https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
 
 ### AWS vulnerability activity
 - Anchor signal: AWS
@@ -733,6 +705,22 @@
   - https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/
   - https://cloud.google.com/blog/products/data-analytics/level-up-your-column-level-security-using-iam-data-governance-tags-in-bigquery/
   - https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers
+
+### Palo Alto Networks vulnerability activity
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.273
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Palo Alto Networks
+- Cluster IDs: d9c1f05e41, e3bbcbf0c5
+- Links:
+  - https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
+  - https://unit42.paloaltonetworks.com/ai-incident-response-report/
 
 ## Forward signals
 
@@ -1723,6 +1711,39 @@ Threat Intelligence Demystifying AI Exploits: A Blueprint for AI-Assisted Vulner
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/
   - Summary: Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te
 
+### Cluster c715bd520f — score 11
+
+- Title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-19T15:00:38+00:00
+- Link: https://isc.sans.edu/diary/rss/33164
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+We have been following issues with Hikvision cameras for a long, long time . Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
+  - Published: 2026-07-19T15:00:38+00:00
+  - Link: https://isc.sans.edu/diary/rss/33164
+  - Summary: We have been following issues with Hikvision cameras for a long, long time . Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects.
+
 ### Cluster 80fad3eb43 — score 11
 
 - Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
@@ -1893,149 +1914,6 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
   - Summary: Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
 
-### Cluster cf7aa5bc3e — score 10
-
-- Title: Forgotten UEFI shims undermining Secure Boot
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-07-14T08:53:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-10797, CVE-2026-8863
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-8863, CVE-2026-10797
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
-```
-
-#### Full body
-
-```
-ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Forgotten UEFI shims undermining Secure Boot
-  - Published: 2026-07-14T08:53:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
-
-### Cluster 174e783389 — score 10
-
-- Title: AI Security Report 2026
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-14T00:51:31+00:00
-- Link: https://research.checkpoint.com/2026/ai-security-report-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach, apt_espionage, ai_security
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 463 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 416 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 AI Security Report 2026 July 14, 2026 https://research.checkpoint.com/2026/ai-security-report-2026/ For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the operation. Key observed findings AI has crossed from development aid to live attack operator. It now does the hands-on work inside live intrusions, from China-nexus espionage campaigns to a criminal breach of multiple Mexican government agencies and has spread from nation states to ordinary cyber criminals. AI now builds deployment-ready malware and attack suites. Its involvement is often invisible in the finished artifact: one developer used an AI environment to produce VoidLink, an 88,000-line command-and-control offensive framework, in under a week. Attackers prefer commercial models, and now abuse them by exploiting the agentic architecture, not just single prompts. Most actors favor jailbroken mainstream models over self-hosted ones, and the durable bypass is now a planted configuration file an agent loads and trusts across sessions. An AI-enabled criminal tooling market has matured. Phishing-as-a-service kits now embed a language model with the jailbreak built in, and conversational AI voice-agent services run vishing and one-time-passcode theft at scale. Virtual Identity is no longer a reliable trust anchor. Voice, face, documents, and live video are now cheap to forge convincingly and are widely used in attacks taking multi-channel social engineering to a new level of integration. AI itself is an expanding attack surface. Models cannot always separate data from instructions and content they process might influence the model’s behavior; the surrounding stack adds ordinary software vulnerabilities and supply-chain risk, all in a rapidly evolving ecosystem where security practices not always mature. Indirect prompt injection is on the rise. Detections of longer malicious payloads increased sharply, rising roughly fivefold between March and May 2026 and approaching 1% of observed prompts in May. Longer payloads are more typical of content-borne and agentic attack paths, this pattern suggests that indirect prompt injection is becoming more operationally relevant. Enterprise data leakage through GenAI is persistent and growing risk . High-risk prompts doubled from 2% to 4% during the last year, while organizations used an average of 10 AI applications each month, many without official approval. Data exposure risks are not evenly distributed across the verticals . Sector-level analysis reveals that AI-related data exposure risks are not evenly distributed across the verticals, and correlate both with AI usage patterns and security maturity. Business Services recorded the highest rate of high-risk GenAI prompts at 5.91%, meaning nearly one in every 17 AI interactions carried a significant risk of sensitive data exposure. To read the full findings, access the AI Security Report 2026 from Check Point Research here. GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLI
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: AI Security Report 2026
-  - Published: 2026-07-14T00:51:31+00:00
-  - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
-  - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
-
-### Cluster c8e0a6559d — score 10
-
-- Title: 13th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-13T13:06:08+00:00
-- Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT, npm
-- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach, web_shell_backdoor
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services
-- affected_products: npm, Anthropic/Claude, OpenAI/ChatGPT
-- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July – Threat Intelligence Report July 13, 2026 https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license numbers, insurance policy and account data, vehicle information, and claims details. Latvia’s state-owned forestry company Latvijas Valsts Meži has suffered a ransomware attack that disrupted mapping, hunting, contractor, and customer systems. Attackers exploited a system that had remained unpatched for two years and leaked approximately 44GB of internal documents, credentials, cryptographic keys, source code, and email correspondence. Injective Labs, a developer of blockchain and cryptocurrency software, has experienced a supply chain compromise after attackers accessed its SDK project and published malicious npm packages. The affected releases exfiltrated cryptocurrency wallet private keys and seed phrases when developers used legitimate key-generation functions embedded in the compromised software. Moody Bible Institute, a U.S. faith-based educational institution, has disclosed a data breach affecting more than 2.3 million donors, students, alumni, and supporters. The ShinyHunters extortion group published allegedly stolen information, including names, dates of birth, residential addresses, email addresses, and phone numbers. AI THREATS Researchers profiled JadePuffer, an autonomous ransomware operation that used a large language model to conduct an intrusion without direct human control. The operation exploited CVE-2025-3248 in an exposed Langflow instance, accessed a production MySQL server, exfiltrated selected information, deleted the database, and issued an extortion demand. Researchers showed that malicious instructions hidden inside open-source project files could achieve remote code execution through Anthropic Claude Code and OpenAI Codex. When operating with automated permissions, the coding agents processed the instructions and executed attacker-controlled scripts, demonstrating a risk that may affect other autonomous development tools. Researchers disclosed Rogue Agent, a vulnerability in Google Dialogflow CX that allowed users with limited agent-editing permission to insert persistent malicious code. The injected code could capture and exfiltrate chatbot conversations. Google addressed the issue, and no known customer environments were compromised through the vulnerability. VULNERABILITIES AND PATCHES Multiple Tenda router models are affected by CVE-2026-11405, an undocumented authentication backdoor that provides administrative access through a hidden password. The flaw affects several FH1201, W15E, AC10, AC5, and AC6 firmware versions and allows attackers to bypass configured credentials and modify device and network settings. Linux maintainers have patched CVE-2026-53359, a critical vulnerability in the Kernel-based Virtual Machine hypervisor. A malicious guest virtual machine could corrupt host kernel memory and potentially escape into the host environment. The flaw affects Intel and AMD x86 systems and is particularly relevant to shared cloud infrastructure. U-Boot has addressed six vulnerabilities affecting signature verification of Flattened Image Tree files used during secure boot. Two flaws could enable arbitrary code execution while a device loads a supposedly verified image, and four could cause crashes. The affected bootloader is widely used in routers, cameras, and embedded controllers. Opera has addressed a critical vulnerability in the Opera GX browser that allowed malicious websites to install browser modificatio
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 13th July – Threat Intelligence Report
-  - Published: 2026-07-13T13:06:08+00:00
-  - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster 1042e88cd6 — score 10
 
 - Title: US Military Smartphones Targeted Through Roaming and Ad Tech
@@ -2164,6 +2042,149 @@ Table of Contents Introduction Background Initial infection Back connection Laun
   - Published: 2026-07-15T10:00:26+00:00
   - Link: https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/
   - Summary: Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.
+
+### Cluster 174e783389 — score 10
+
+- Title: AI Security Report 2026
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-14T00:51:31+00:00
+- Link: https://research.checkpoint.com/2026/ai-security-report-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach, apt_espionage, ai_security
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 463 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 416 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 AI Security Report 2026 July 14, 2026 https://research.checkpoint.com/2026/ai-security-report-2026/ For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the operation. Key observed findings AI has crossed from development aid to live attack operator. It now does the hands-on work inside live intrusions, from China-nexus espionage campaigns to a criminal breach of multiple Mexican government agencies and has spread from nation states to ordinary cyber criminals. AI now builds deployment-ready malware and attack suites. Its involvement is often invisible in the finished artifact: one developer used an AI environment to produce VoidLink, an 88,000-line command-and-control offensive framework, in under a week. Attackers prefer commercial models, and now abuse them by exploiting the agentic architecture, not just single prompts. Most actors favor jailbroken mainstream models over self-hosted ones, and the durable bypass is now a planted configuration file an agent loads and trusts across sessions. An AI-enabled criminal tooling market has matured. Phishing-as-a-service kits now embed a language model with the jailbreak built in, and conversational AI voice-agent services run vishing and one-time-passcode theft at scale. Virtual Identity is no longer a reliable trust anchor. Voice, face, documents, and live video are now cheap to forge convincingly and are widely used in attacks taking multi-channel social engineering to a new level of integration. AI itself is an expanding attack surface. Models cannot always separate data from instructions and content they process might influence the model’s behavior; the surrounding stack adds ordinary software vulnerabilities and supply-chain risk, all in a rapidly evolving ecosystem where security practices not always mature. Indirect prompt injection is on the rise. Detections of longer malicious payloads increased sharply, rising roughly fivefold between March and May 2026 and approaching 1% of observed prompts in May. Longer payloads are more typical of content-borne and agentic attack paths, this pattern suggests that indirect prompt injection is becoming more operationally relevant. Enterprise data leakage through GenAI is persistent and growing risk . High-risk prompts doubled from 2% to 4% during the last year, while organizations used an average of 10 AI applications each month, many without official approval. Data exposure risks are not evenly distributed across the verticals . Sector-level analysis reveals that AI-related data exposure risks are not evenly distributed across the verticals, and correlate both with AI usage patterns and security maturity. Business Services recorded the highest rate of high-risk GenAI prompts at 5.91%, meaning nearly one in every 17 AI interactions carried a significant risk of sensitive data exposure. To read the full findings, access the AI Security Report 2026 from Check Point Research here. GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLI
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: AI Security Report 2026
+  - Published: 2026-07-14T00:51:31+00:00
+  - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
+  - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
+
+### Cluster c8e0a6559d — score 10
+
+- Title: 13th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-13T13:06:08+00:00
+- Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT, npm
+- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach, web_shell_backdoor
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services
+- affected_products: npm, Anthropic/Claude, OpenAI/ChatGPT
+- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July – Threat Intelligence Report July 13, 2026 https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license numbers, insurance policy and account data, vehicle information, and claims details. Latvia’s state-owned forestry company Latvijas Valsts Meži has suffered a ransomware attack that disrupted mapping, hunting, contractor, and customer systems. Attackers exploited a system that had remained unpatched for two years and leaked approximately 44GB of internal documents, credentials, cryptographic keys, source code, and email correspondence. Injective Labs, a developer of blockchain and cryptocurrency software, has experienced a supply chain compromise after attackers accessed its SDK project and published malicious npm packages. The affected releases exfiltrated cryptocurrency wallet private keys and seed phrases when developers used legitimate key-generation functions embedded in the compromised software. Moody Bible Institute, a U.S. faith-based educational institution, has disclosed a data breach affecting more than 2.3 million donors, students, alumni, and supporters. The ShinyHunters extortion group published allegedly stolen information, including names, dates of birth, residential addresses, email addresses, and phone numbers. AI THREATS Researchers profiled JadePuffer, an autonomous ransomware operation that used a large language model to conduct an intrusion without direct human control. The operation exploited CVE-2025-3248 in an exposed Langflow instance, accessed a production MySQL server, exfiltrated selected information, deleted the database, and issued an extortion demand. Researchers showed that malicious instructions hidden inside open-source project files could achieve remote code execution through Anthropic Claude Code and OpenAI Codex. When operating with automated permissions, the coding agents processed the instructions and executed attacker-controlled scripts, demonstrating a risk that may affect other autonomous development tools. Researchers disclosed Rogue Agent, a vulnerability in Google Dialogflow CX that allowed users with limited agent-editing permission to insert persistent malicious code. The injected code could capture and exfiltrate chatbot conversations. Google addressed the issue, and no known customer environments were compromised through the vulnerability. VULNERABILITIES AND PATCHES Multiple Tenda router models are affected by CVE-2026-11405, an undocumented authentication backdoor that provides administrative access through a hidden password. The flaw affects several FH1201, W15E, AC10, AC5, and AC6 firmware versions and allows attackers to bypass configured credentials and modify device and network settings. Linux maintainers have patched CVE-2026-53359, a critical vulnerability in the Kernel-based Virtual Machine hypervisor. A malicious guest virtual machine could corrupt host kernel memory and potentially escape into the host environment. The flaw affects Intel and AMD x86 systems and is particularly relevant to shared cloud infrastructure. U-Boot has addressed six vulnerabilities affecting signature verification of Flattened Image Tree files used during secure boot. Two flaws could enable arbitrary code execution while a device loads a supposedly verified image, and four could cause crashes. The affected bootloader is widely used in routers, cameras, and embedded controllers. Opera has addressed a critical vulnerability in the Opera GX browser that allowed malicious websites to install browser modificatio
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 13th July – Threat Intelligence Report
+  - Published: 2026-07-13T13:06:08+00:00
+  - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster cf7aa5bc3e — score 10
+
+- Title: Forgotten UEFI shims undermining Secure Boot
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-07-14T08:53:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-10797, CVE-2026-8863
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-8863, CVE-2026-10797
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+```
+
+#### Full body
+
+```
+ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Forgotten UEFI shims undermining Secure Boot
+  - Published: 2026-07-14T08:53:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
 
 ### Cluster 2c8659a3fa — score 10
 
@@ -2429,53 +2450,6 @@ The serpent’s tongue: Luring the Python out of its den By Onur Mustafa Erdogan
   - Link: https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
   - Summary: This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments.
 
-### Cluster e56b9d8f1f — score 10
-
-- Title: Tracking Advanced Persistent Threat Groups | Recorded Future
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-17T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, phishing_social_eng, supply_chain, zero_day
-- actor_attribution: APT41, Lazarus
-- affected_industries: critical_infrastructure, financial_services
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, credential_theft, zero_day, apt_espionage
-- actor_attribution: APT41, Lazarus
-- affected_industries: financial_services, critical_infrastructure
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
-```
-
-#### Full body
-
-```
-Tracking advanced persistent threat groups with real-time intelligence Key takeaways Advanced Persistent Threats (APTs) are sophisticated, long-term cyber campaigns conducted by well-funded human adversaries (often nation-states) who target specific organizations for espionage, data theft, or critical infrastructure disruption. Traditional security tools often fail because APT groups bypass signature-based defenses by using customized malware and Living-off-the-Land (LotL) tactics that mimic legitimate user activity inside the network. Effective advanced persistent threat detection requires minimizing breakout time, the window between initial access and lateral movement, by identifying threats before they establish deep persistence. To defeat modern APTs, organizations must move from reactive internal monitoring to proactive threat intelligence, tracking adversary infrastructure on the open, deep, and dark web before an attack is launched. Modern organizations face highly resourceful, patient, and deeply calculated adversaries. This shift has ushered in an era of coordinated operations where elite threat actors don't just compromise a system and leave, but may spend weeks or months quietly surveying networks, mapping architecture, and identifying high-value targets. These operations are the hallmark of an advanced persistent threat (APT). Traditional cybersecurity frameworks have long relied on perimeter defenses designed to catch malicious activity at the gates. However, once an APT group breaches a network, they often intentionally manipulate native administrative tools and harvest legitimate credentials to blend into daily business traffic. To better confront an adversary that behaves like an insider, organizations must shift their perspective outward, leveraging real-time, external threat intelligence to identify and intercept cyber threats before they can establish a permanent foothold. What is an Advanced Persistent Threat (APT)? An APT is a sophisticated, prolonged cyber campaign executed by a highly organized group with specific, long-term objectives. Breaking down the acronym highlights the unique nature of these threats: Advanced: APT actors do not rely on off-the-shelf exploits. They frequently utilize customized malware, discover and weaponize zero-day vulnerabilities, and practice meticulous operational security (OpSec) to deliberately evade modern security controls. Persistent: Unlike cybercriminals who encrypt a server and immediately demand a ransom, APTs utilize a "low-and-slow" methodology. They prioritize stealth over speed, regularly remaining inside an environment for months to achieve strategic goals such as espionage, intellectual property theft, or the long-term disruption of critical infrastructure. Threat: Behind every APT is a well-funded organizational structure. These are not lone hackers; they are highly structured syndicates and state-sponsored units—such as the Lazarus Group or APT41 —backed by massive financial and geopolitical resources. The multi-stage APT attack lifecycle Generally, APT groups do not operate at random. They follow a rigorous, multi-stage lifecycle. For defenders, understanding this timeline is critical to shrinking “breakout time"—the vital window between the initial compromise and the moment the attacker begins moving through the network. 1. Reconnaissance and planning Before a single line of malicious code is deployed, attackers gather open-source intelligence (OSINT) , scan exposed internet-facing infrastructure, and map out the target’s digital footprint to find weak points. 2. Initial infiltration Attackers typically gain entry via hyper-targeted spear-phishing or social engineering campaigns , credential stuffing, or complex supply chain compromises , often bypassing standard authentication checks. 3. Establishing footholds Once inside, actors deploy stealthy backdoors and obfuscated rootkits . This ensures that even if security teams discover and close the primary ent
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Tracking Advanced Persistent Threat Groups | Recorded Future
-  - Published: 2026-07-17T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
-  - Summary: Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
-
 ### Cluster b89f3888c6 — score 10
 
 - Title: 2026 SANS SOC Survey Insights: A Decade of Evolution in Cyber Defense
@@ -2682,6 +2656,53 @@ Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero® Horizon3.ai
   - Published: 2026-07-13T17:35:36+00:00
   - Link: https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
   - Summary: The ECB now expects significant institutions to demonstrate AI-ready cyber resilience. Learn how NodeZero helps validate exploitable risk, verify remediation, and support an evidence-backed action plan.
+
+### Cluster e56b9d8f1f — score 10
+
+- Title: Tracking Advanced Persistent Threat Groups | Recorded Future
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-17T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, phishing_social_eng, supply_chain, zero_day
+- actor_attribution: APT41, Lazarus
+- affected_industries: critical_infrastructure, financial_services
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng, credential_theft, zero_day, apt_espionage
+- actor_attribution: APT41, Lazarus
+- affected_industries: financial_services, critical_infrastructure
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
+```
+
+#### Full body
+
+```
+Tracking advanced persistent threat groups with real-time intelligence Key takeaways Advanced Persistent Threats (APTs) are sophisticated, long-term cyber campaigns conducted by well-funded human adversaries (often nation-states) who target specific organizations for espionage, data theft, or critical infrastructure disruption. Traditional security tools often fail because APT groups bypass signature-based defenses by using customized malware and Living-off-the-Land (LotL) tactics that mimic legitimate user activity inside the network. Effective advanced persistent threat detection requires minimizing breakout time, the window between initial access and lateral movement, by identifying threats before they establish deep persistence. To defeat modern APTs, organizations must move from reactive internal monitoring to proactive threat intelligence, tracking adversary infrastructure on the open, deep, and dark web before an attack is launched. Modern organizations face highly resourceful, patient, and deeply calculated adversaries. This shift has ushered in an era of coordinated operations where elite threat actors don't just compromise a system and leave, but may spend weeks or months quietly surveying networks, mapping architecture, and identifying high-value targets. These operations are the hallmark of an advanced persistent threat (APT). Traditional cybersecurity frameworks have long relied on perimeter defenses designed to catch malicious activity at the gates. However, once an APT group breaches a network, they often intentionally manipulate native administrative tools and harvest legitimate credentials to blend into daily business traffic. To better confront an adversary that behaves like an insider, organizations must shift their perspective outward, leveraging real-time, external threat intelligence to identify and intercept cyber threats before they can establish a permanent foothold. What is an Advanced Persistent Threat (APT)? An APT is a sophisticated, prolonged cyber campaign executed by a highly organized group with specific, long-term objectives. Breaking down the acronym highlights the unique nature of these threats: Advanced: APT actors do not rely on off-the-shelf exploits. They frequently utilize customized malware, discover and weaponize zero-day vulnerabilities, and practice meticulous operational security (OpSec) to deliberately evade modern security controls. Persistent: Unlike cybercriminals who encrypt a server and immediately demand a ransom, APTs utilize a "low-and-slow" methodology. They prioritize stealth over speed, regularly remaining inside an environment for months to achieve strategic goals such as espionage, intellectual property theft, or the long-term disruption of critical infrastructure. Threat: Behind every APT is a well-funded organizational structure. These are not lone hackers; they are highly structured syndicates and state-sponsored units—such as the Lazarus Group or APT41 —backed by massive financial and geopolitical resources. The multi-stage APT attack lifecycle Generally, APT groups do not operate at random. They follow a rigorous, multi-stage lifecycle. For defenders, understanding this timeline is critical to shrinking “breakout time"—the vital window between the initial compromise and the moment the attacker begins moving through the network. 1. Reconnaissance and planning Before a single line of malicious code is deployed, attackers gather open-source intelligence (OSINT) , scan exposed internet-facing infrastructure, and map out the target’s digital footprint to find weak points. 2. Initial infiltration Attackers typically gain entry via hyper-targeted spear-phishing or social engineering campaigns , credential stuffing, or complex supply chain compromises , often bypassing standard authentication checks. 3. Establishing footholds Once inside, actors deploy stealthy backdoors and obfuscated rootkits . This ensures that even if security teams discover and close the primary ent
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Tracking Advanced Persistent Threat Groups | Recorded Future
+  - Published: 2026-07-17T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
+  - Summary: Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
 
 ### Cluster 35f060c850 — score 10
 
@@ -2897,58 +2918,6 @@ OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credenti
   - Link: https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/
   - Summary: New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments
 
-### Cluster c1c459d4b3 — score 10
-
-- Title: AI Mania Is Eviscerating Global Decision-Making
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-07-19T05:06:21+00:00
-- Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: OpenAI/ChatGPT
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Atlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira. Learn more 19th July 2026 - Link Blog AI Mania Is Eviscerating Global Decision-Making ( via ) Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their customers were saying absurd things about achieving 100x productivity, and this meant that if any executive at the vendor said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired. Posted 19th July 2026 at 5:06 am Recent articles Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 The new GPT-5.6 family: Luna, Terra, Sol - 9th July 2026 sqlite-utils 4.0, now with database schema migrations - 7th July 2026 This is a link post by Simon Willison, posted on 19th July 2026 . ai 2,131 ai-ethics 324 ai-misuse 56 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (3)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: AI Mania Is Eviscerating Global Decision-Making
-  - Published: 2026-07-19T05:06:21+00:00
-  - Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
-  - Summary: AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
-  - Published: 2026-07-16T08:42:31+00:00
-  - Link: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
-  - Summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks," the artificial intelligence (AI) company said. "We use GPT‑Red to adversarially train
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Single Prompt Enables ChatGPT to Execute Full Cyber-Attack Chain, Researchers Claim
-  - Published: 2026-07-16T13:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/chatgpt55-to-execute-full/
-  - Summary: Cybersecurity researchers tested Open AI GPT 5.5’s offensive cyber capabilities – and the results showed how effective a frontier LLM can be for hackers
-
 ### Cluster ab13f77dd3 — score 9
 
 - Title: Helping small businesses with free, hands-on cyber consultancy
@@ -3032,6 +3001,115 @@ News Download & print article PDF Download & print article PDF UK and Allies urg
   - Published: 2026-07-13T12:00:00+00:00
   - Link: https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting
   - Summary: New advisory highlights Russian state cyber actors’ global exploitation of poorly configured routers
+
+### Cluster 4d8bcc6f12 — score 9
+
+- Title: Recent DShield SIEM Update, (Tue, Jul 14th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-15T01:38:43+00:00
+- Link: https://isc.sans.edu/diary/rss/33156
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Recent DShield SIEM Update, (Tue, Jul 14th)
+  - Published: 2026-07-15T01:38:43+00:00
+  - Link: https://isc.sans.edu/diary/rss/33156
+  - Summary: The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
+
+### Cluster 7f5a4d58f9 — score 9
+
+- Title: Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-14T19:14:58+00:00
+- Link: https://isc.sans.edu/diary/rss/33154
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)
+  - Published: 2026-07-14T19:14:58+00:00
+  - Link: https://isc.sans.edu/diary/rss/33154
+  - Summary: This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.
+
+### Cluster 88d76f4fd8 — score 9
+
+- Title: Lessons Learned from CISA’s Recent GitHub Leak
+- Source: Krebs on Security (practitioner_analysis)
+- Published: 2026-07-13T15:03:28+00:00
+- Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, vulnerability_disclosure
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: data_breach, vulnerability_disclosure
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
+```
+
+#### Full body
+
+```
+The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter
+```
+
+#### Corroborating sources (1)
+
+- **Krebs on Security** (practitioner_analysis)
+  - Title: Lessons Learned from CISA’s Recent GitHub Leak
+  - Published: 2026-07-13T15:03:28+00:00
+  - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+  - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
 
 ### Cluster b47b034408 — score 9
 
@@ -3121,49 +3199,6 @@ SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ra
   - Link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
   - Summary: SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could
 
-### Cluster 88d76f4fd8 — score 9
-
-- Title: Lessons Learned from CISA’s Recent GitHub Leak
-- Source: Krebs on Security (practitioner_analysis)
-- Published: 2026-07-13T15:03:28+00:00
-- Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, vulnerability_disclosure
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: data_breach, vulnerability_disclosure
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
-```
-
-#### Full body
-
-```
-The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency’s initial response provide important lessons that all security teams should absorb. On May 15, 2026, the security firm GitGuardian asked for help in notifying CISA about the existence of a public GitHub repository called “Private CISA” that included 844 MB of sensitive CISA-related data. One of the exposed files, titled “importantAWStokens,” included the administrative credentials to three Amazon AWS GovCloud servers. Another file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems. CISA quickly acknowledged our initial alert, but took more than 48 hours to invalidate the AWS keys and many other important secrets leaked in the GitHub repo. In its report on the data leak , CISA said the complexities of the agency’s systems and interconnections with federal and industry partners caused its key rotation to take longer than anticipated. “Drawing on this experience, CISA encourages others to maintain mature and well-tested key management capabilities,” the report notes. CISA also admitted it can do better when it comes to responding to security incident notifications from external parties. The postmortem stresses that clear and distinct reporting channels are essential to ensure that incidents affecting the organization itself are handled differently from those involving its products or customers. “In CISA’s case, these channels were not well defined, leading the security researcher to try multiple avenues – including emailing the contractor, submitting through CISA’s vulnerability disclosure platform (which is intended for vulnerabilities impacting the broader cybersecurity community), and ultimately involving a reporter,” reads the analysis written by Preston Werntz and Brad Libbey , the acting chief information officer and acting chief information security officer at CISA, respectively. CISA said it is refining its reporting channels to make them easier and faster for researchers. “Additionally, while many researchers rely on the security.txt file, organizations can ensure clarity by publishing reporting instructions in multiple prominent locations,” the CISA authors wrote. Guillaume Valadon , the GitGuardian researcher who first contacted KrebsOnSecurity about the exposed CISA credentials, said CISA ignored nine automated alerts about the exposed credentials prior to our notification on May 15. Valadon’s company constantly scans public code repositories at GitHub and elsewhere for exposed secrets, automatically alerting the offending accounts of any apparent sensitive data exposures. “Letting nine notification emails go unanswered is how a one-day incident becomes a six-month exposure,” Valadon wrote in an analysis of CISA’s report. “Make it trivial to report a leak about you, not just about your products. The person reporting a leak to you is not the threat. Publish a security.txt , but do not stop there. Put reporting instructions in several prominent places, and make sure a report about your own infrastructure does not land in a product-bug queue.” The report’s authors also emphasized the importance of continuously scanning public code repositories like GitHub for exposed secrets, and said CISA has since rotated all secrets and created an action plan to improve management of developer secrets and to better monitor for them going forward. The report notes that while CISA had developed a playbook for responding to cybersecurity incidents, that playbook somehow didn’t include what to do in situations involving GitHub or other cloud services. Valadon said the report validates the need to scan continuously — not just quarter
-```
-
-#### Corroborating sources (1)
-
-- **Krebs on Security** (practitioner_analysis)
-  - Title: Lessons Learned from CISA’s Recent GitHub Leak
-  - Published: 2026-07-13T15:03:28+00:00
-  - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
-  - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
-
 ### Cluster 2f3a310637 — score 9
 
 - Title: Level Up Your Column-level Security: Using IAM Data Governance Tags in BigQuery
@@ -3212,41 +3247,57 @@ Data Analytics Level Up Your Column-level Security: Using IAM Data Governance Ta
   - Link: https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers
   - Summary: Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.
 
-### Cluster 88deaf9a79 — score 8
+### Cluster c1c459d4b3 — score 9
 
-- Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
-- Source: Proofpoint Threat Insight (detection_response_operations)
-- Published: 2026-07-13T13:35:56+00:00
-- Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
+- Title: AI Mania Is Eviscerating Global Decision-Making
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-07-19T05:06:21+00:00
+- Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
-- affected_products: Microsoft Entra
-- urgency_signals: preauth_unauth
+- threat_categories: ai_security
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
-#### Primary article taxonomy
-- affected_products: Microsoft Entra
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_2_operator
+#### Summary
+
+```
+AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
+```
 
 #### Full body
 
 ```
-An article from Dive Brief Hackers find a new trick to collect Microsoft Entra user data without raising red flags Organizations should check their logs for signs of an increasingly popular obfuscation technique, Proofpoint said. Published July 13, 2026 Eric Geller Senior Reporter Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google Getty Images Dive Brief: Businesses should be on guard for a hacking campaign in which attackers spoof OAuth client IDs to collect information about targets’ user directories, the security firm Proofpoint said on Monday . The security firm said it had observed “multiple campaigns at scale abusing spoofed OAuth application identifiers, with distinct tooling, infrastructure, and execution patterns indicating independent adoption by multiple threat actors.” The report explains how organizations should monitor their networks for this reconnaissance technique. Dive Insight: Microsoft Entra , the tech giant’s identity management service, records hacking attempts in its logs with information that can help defenders isolate potentially compromised accounts and potentially malicious IP addresses. In response, hackers have figured out ways to obfuscate their activities and origins — and in recent months, Proofpoint said, attackers have taken that “evasive tradecraft” to a new level. OAuth client IDs tell Microsoft Entra which application is attempting to access user data. By faking a client ID, hackers can collect username and password information from the Entra database without actually operating a genuine application that Entra trusts. “Spoofed client IDs enable account enumeration without a registered OAuth application and allow attackers to infer both password and account validity without generating a successful sign-in event,” Proofpoint explained. Security teams often monitor Entra logs for surges of activity against specific Entra-connected applications. Using spoofed client IDs — which generate blank entries in the application field in Entra’s logs — helps hackers slip through that kind of trend-based monitoring. “The observed logging behavior allows unauthenticated attackers to enumerate users and infer password validity without generating a successful sign-in event,” Proofpoint said in its report. “Even when enumeration is detected, defenders may not realize that valid credentials were identified and may overlook compromised credentials entirely.” The technique also bypasses another defensive measure: the use of conditional-access policies for highly targeted applications. “Spoofed client IDs won’t trigger [conditional-access] policies that are scoped to a specific application,” Proofpoint said. The security firm’s report described two campaigns leveraging the obfuscation technique, one that began in January and another that began last December. The January campaign used more than 700,000 spoofed IDs to collect information about more than one million user accounts across almost 4,000 organizations. The December campaign — which had a second wave in February — was much bigger, using 3.7 million spoofed IDs to target more than two million users. “The emergence of multiple campaigns with unique tools and infrastructure suggests this technique is gaining traction among threat actors targeting cloud environments,” Proofpoint said. The company warned businesses to monitor their Entra logs for sign-in attempts with blank application IDs and to watch for an Entra error code — AADSTS700016 — associated with unrecognized application IDs. Add us on Google Share Copy link Email LinkedIn X/Twitter Facebook Print License Filed Under: Cyberattacks, Threats
+Simon Willison’s Weblog Subscribe Sponsored by: Atlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira. Learn more 19th July 2026 - Link Blog AI Mania Is Eviscerating Global Decision-Making ( via ) Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their customers were saying absurd things about achieving 100x productivity, and this meant that if any executive at the vendor said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired. Posted 19th July 2026 at 5:06 am Recent articles Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 The new GPT-5.6 family: Luna, Terra, Sol - 9th July 2026 sqlite-utils 4.0, now with database schema migrations - 7th July 2026 This is a link post by Simon Willison, posted on 19th July 2026 . ai 2,131 ai-ethics 324 ai-misuse 56 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (3)
 
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
-  - Published: 2026-07-13T13:35:56+00:00
-  - Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: AI Mania Is Eviscerating Global Decision-Making
+  - Published: 2026-07-19T05:06:21+00:00
+  - Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
+  - Summary: AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
+  - Published: 2026-07-16T08:42:31+00:00
+  - Link: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
+  - Summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks," the artificial intelligence (AI) company said. "We use GPT‑Red to adversarially train
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Single Prompt Enables ChatGPT to Execute Full Cyber-Attack Chain, Researchers Claim
+  - Published: 2026-07-16T13:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/chatgpt55-to-execute-full/
+  - Summary: Cybersecurity researchers tested Open AI GPT 5.5’s offensive cyber capabilities – and the results showed how effective a frontier LLM can be for hackers
 
 ### Cluster d77ec8e022 — score 8
 
@@ -3295,6 +3346,42 @@ Blog Pandora’s Container Part 1: Unpacking Azure Container Security July 14, 2
   - Published: 2026-07-14T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/no-single-pane-of-glass-anatomy-of-an-azure-permission-takeover
   - Summary: The Sysdig Threat Research Team recently observed an attacker walk one credential through five Azure permission systems. In this blog, we’ll explore how.
+
+### Cluster 88deaf9a79 — score 8
+
+- Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
+- Source: Proofpoint Threat Insight (detection_response_operations)
+- Published: 2026-07-13T13:35:56+00:00
+- Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft Entra
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Microsoft Entra
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Full body
+
+```
+An article from Dive Brief Hackers find a new trick to collect Microsoft Entra user data without raising red flags Organizations should check their logs for signs of an increasingly popular obfuscation technique, Proofpoint said. Published July 13, 2026 Eric Geller Senior Reporter Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google Getty Images Dive Brief: Businesses should be on guard for a hacking campaign in which attackers spoof OAuth client IDs to collect information about targets’ user directories, the security firm Proofpoint said on Monday . The security firm said it had observed “multiple campaigns at scale abusing spoofed OAuth application identifiers, with distinct tooling, infrastructure, and execution patterns indicating independent adoption by multiple threat actors.” The report explains how organizations should monitor their networks for this reconnaissance technique. Dive Insight: Microsoft Entra , the tech giant’s identity management service, records hacking attempts in its logs with information that can help defenders isolate potentially compromised accounts and potentially malicious IP addresses. In response, hackers have figured out ways to obfuscate their activities and origins — and in recent months, Proofpoint said, attackers have taken that “evasive tradecraft” to a new level. OAuth client IDs tell Microsoft Entra which application is attempting to access user data. By faking a client ID, hackers can collect username and password information from the Entra database without actually operating a genuine application that Entra trusts. “Spoofed client IDs enable account enumeration without a registered OAuth application and allow attackers to infer both password and account validity without generating a successful sign-in event,” Proofpoint explained. Security teams often monitor Entra logs for surges of activity against specific Entra-connected applications. Using spoofed client IDs — which generate blank entries in the application field in Entra’s logs — helps hackers slip through that kind of trend-based monitoring. “The observed logging behavior allows unauthenticated attackers to enumerate users and infer password validity without generating a successful sign-in event,” Proofpoint said in its report. “Even when enumeration is detected, defenders may not realize that valid credentials were identified and may overlook compromised credentials entirely.” The technique also bypasses another defensive measure: the use of conditional-access policies for highly targeted applications. “Spoofed client IDs won’t trigger [conditional-access] policies that are scoped to a specific application,” Proofpoint said. The security firm’s report described two campaigns leveraging the obfuscation technique, one that began in January and another that began last December. The January campaign used more than 700,000 spoofed IDs to collect information about more than one million user accounts across almost 4,000 organizations. The December campaign — which had a second wave in February — was much bigger, using 3.7 million spoofed IDs to target more than two million users. “The emergence of multiple campaigns with unique tools and infrastructure suggests this technique is gaining traction among threat actors targeting cloud environments,” Proofpoint said. The company warned businesses to monitor their Entra logs for sign-in attempts with blank application IDs and to watch for an Entra error code — AADSTS700016 — associated with unrecognized application IDs. Add us on Google Share Copy link Email LinkedIn X/Twitter Facebook Print License Filed Under: Cyberattacks, Threats
+```
+
+#### Corroborating sources (1)
+
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
+  - Published: 2026-07-13T13:35:56+00:00
+  - Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
 
 ### Cluster 15c6378b6b — score 8
 
@@ -3472,24 +3559,16 @@ Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Publis
 - Source: Sysdig (detection_response_operations)
 - Published: 2026-07-16T00:00:00+00:00
 - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, cloud_abuse, ransomware_extortion, vulnerability_disclosure
-- affected_industries: healthcare, manufacturing_industrial
-- affected_products: GitHub, Kubernetes
-- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, cloud_abuse, vulnerability_disclosure, active_exploitation
-- affected_industries: healthcare, manufacturing_industrial
-- affected_products: GitHub, Kubernetes
-- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3497,12 +3576,6 @@ Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Publis
 
 ```
 Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
-```
-
-#### Full body
-
-```
-< back to blog The CISO's guide to headless cloud security Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Sign up for the webinar Published: July 16, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more There's a shift happening in security architecture that hasn't quite made it into analyst magic quadrants yet, and it didn’t come from vendors. This shift came from organizations in business sectors like yours – healthcare, tech, manufacturing, transportation – security teams that have pushed AI-assisted tooling to its limits and hit a wall. The wall is the UI itself. On the other side of that wall lies a fundamentally different architecture. One where engineers, developers, and security practitioners all use the same CLI. Where agents triage and remediate before a human opens a browser, and where your board metrics are a query away instead of a manual export. The goal is security that is invisible, programmable, and fast enough to win. Here’s how it works. Your adversaries already moved Let me begin where I start just about every conversation: the threat landscape. Attackers have gone agentic. I don’t just mean "AI-assisted,” but truly autonomous agents probing, exploiting, and pivoting without a human operator making decisions in real time. That’s what you have to defend against now. The Sysdig Threat Research Team (TRT) has proof, too. In one attack, an agentic threat actor (ATA) executed actions in real time rather than running pre-built playbooks as a human operator would. In less than one hour, the ATA made four pivots through the environment and exfiltrated the contents of an entire internal database. In another, an ATA performed a container escape , something even skilled human attackers rarely attempt, and then replayed Kubernetes credentials to dump a cluster’s entire secret store. TRT also just saw what they assess to be the first documented case of agentic ransomware, dubbed JADEPUFFER , which was a complete extortion operation driven end-to-end by a large language model (LLM). Three numbers tell the rest of the story. Together, these numbers define why the security model most organizations are running is structurally broken. 10 minutes: From initial access to cloud compromise. Whether it’s a database being exfiltrated or credentials being taken, that’s the average amount of time it takes for a cloud attack to take place. Recently, we’ve seen credentials disappear in as little as three minutes . 10 hours: From vulnerability disclosure to active weaponization. This number is actually even more unsettling than it looks. It’s the time from the moment the GitHub Security Advisory (GHSA) is published, not when the vulnerability is given a CVE number. This is before MITRE reviews it or NIST catalogs it, and possibly before your vulnerability scanner even knows it exists. Threat actors are monitoring GitHub and using LLMs to write exploits almost immediately. We identified one case that took less than four hours , and one against the very popular Langflow framework that was actively exploited within 20 hours . 30 minutes: This is just a stab in the dark. An optimistic guess. How long does it actually take your SOC to triage a true positive alert on a good day? Drop your own number in here. It’s safe to assume that many organizations are not yet addressing threats in less than 10 minutes or finding and fixing vulnerabilities within a few hours. When you do the math, most security teams lose every time. That’s not because they aren’t capable; it’s a structural timescale mismatch. You can’t hire more people or add more tools to outpace this challenge. It requires an architectural change. The problem that needs fixing Every login to a dashboard or portal adds latency. Every time an analyst opens a page to investigate an alert, the miss
 ```
 
 #### Corroborating sources (1)
@@ -3519,26 +3592,16 @@ Attackers went agentic. Your security architecture should too. A CISO's guide to
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-07-18T19:32:02+00:00
 - Link: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, zero_day
-- affected_industries: critical_infrastructure
-- affected_products: WordPress
-- cve_ids: CVE-2025-8088
-- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day
-- affected_industries: critical_infrastructure
-- affected_products: WordPress
-- cve_ids: CVE-2025-8088
-- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3546,12 +3609,6 @@ Attackers went agentic. Your security architecture should too. A CISO's guide to
 
 ```
 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
-```
-
-#### Full body
-
-```
-Update now: 7-Zip fixes RCE flaw exploitable with malicious archives By Lawrence Abrams July 18, 2026 03:32 PM 2 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. The vulnerability, disclosed by Lunbun researcher Landon Peng, exists in 7-Zip's processing of XZ-compressed data. According to an advisory from the Zero Day Initiative , specially crafted XZ data can trigger a heap-based buffer overflow, potentially allowing attackers to execute arbitrary code as the user. While the developer has not published technical details about the flaw, the changes in the 26.02 source code suggest it is related to how 7-Zip tracks available space while decompressing XZ data. The patch adds checks to ensure the decoder cannot write beyond the remaining available space in an output buffer, helping prevent a heap-based buffer overflow. The advisory states that exploitation requires user interaction, such as visiting a malicious page or opening a malicious archive file. No automatic update feature As 7-Zip does not include an automatic update feature, users will not receive the security fix automatically. Instead, they must install it manually by downloading the latest version from the program's official site, 7-zip.org . Because 7-Zip is one of the most widely used archive utilities on Windows, security flaws impacting its archive features are an attractive target to threat actors. A phishing campaign or social engineering attack could be used to distribute a malicious archive that exploits the flaw to install malware on vulnerable systems. This is not far-fetched, as archive vulnerabilities, including those in 7-Zip, have been exploited in past attacks. In early 2025, a 7-Zip vulnerability that allowed malware to bypass Windows' Mark of the Web (MotW) security feature was exploited by Russian hackers as a zero-day . Later that same year, a Russian hacking group exploited a WinRAR vulnerability tracked as CVE-2025-8088 via phishing attacks to install the RomCom malware. There are currently no reports that attackers are actively exploiting this newly disclosed 7-Zip vulnerability. However, users are advised to update to version 26.02 as soon as possible to reduce the risk of future attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: WordPress Core "wp2shell" RCE flaws get public exploits, patch now Critical Langflow RCE flaw exploited to hack AI app servers CISA sets urgent deadline to fix Cisco flaw exploited in attacks FFmpeg fixes PixelSmash flaw in widely used video decoder Microsoft fixes AutoGen Studio flaw that enabled code execution
 ```
 
 #### Corroborating sources (1)
@@ -3568,24 +3625,18 @@ Update now: 7-Zip fixes RCE flaw exploitable with malicious archives By Lawrence
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-07-17T20:45:52+00:00
 - Link: https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, healthcare, manufacturing_industrial
-- affected_products: Microsoft 365, Microsoft Entra, Salesforce
+- threat_categories: ransomware_extortion
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare, financial_services, manufacturing_industrial
-- affected_products: Salesforce, Microsoft 365, Microsoft Entra
+- threat_categories: ransomware_extortion
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3593,12 +3644,6 @@ Update now: 7-Zip fixes RCE flaw exploitable with malicious archives By Lawrence
 
 ```
 Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]
-```
-
-#### Full body
-
-```
-Abbott probes two cyber incidents amid extortion claims By Lawrence Abrams July 17, 2026 04:45 PM 0 Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. The company confirmed the Cancer Diagnostics incident after the ShinyHunters extortion gang added Abbott to its data leak site, initially threatening to publish allegedly stolen data after July 18 unless the company negotiated with the group, before later extending the deadline to July 21. Abbott's Exact Sciences is listed on ShinyHunters extortion site Source: BleepingComputer When BleepingComputer asked Abbott about the alleged ShinyHunters incident, Abbott directed BleepingComputer to a statement published on its website. "Abbott is investigating a cyber incident in which there was unauthorized access to a limited number of internal systems in our Cancer Diagnostics business only," the company said . "This does not impact any business operations, product or product availability, manufacturing or lab operations, or our ability to serve patients." Abbott added that the security incident has not impacted any other Abbott businesses or systems, and said the legacy Exact Sciences systems are separate from Abbott's. The company said it activated its incident response procedures after it learned of the incident, engaged cybersecurity experts, and notified law enforcement. Abbott also stated that it does not expect the incident to have a material impact on its business or financial results. ShinyHunters claimed to BleepingComputer that it gained access through a vishing attack targeting several Abbott employees in mid-June. According to the threat actor, the attack allowed it to compromise a Microsoft Entra single sign-on (SSO) account and gain access to internal systems. Since last year, the extortion group has been conducting social engineering campaigns that target employees' Microsoft Entra, Okta, and Google SSO accounts. After gaining access to a corporate SSO account, the threat actors steal data from connected SaaS applications such as Salesforce, Microsoft 365, Google Workspace, SAP, Slack, Adobe, Atlassian, Zendesk, Dropbox, and many others. The extortion gang has been increasingly targeting medtech companies, including Medtronic , OneMedical, and AdaptHealth. BleepingComputer has learned that ShinyHunters was also behind the iRhythm data breach and targeted Stryker soon after the company recovered from a destructive Iranian data-wiping attack . When asked what data was allegedly stolen, ShinyHunters claimed it exfiltrated data from Microsoft Entra, ServiceNow, SharePoint, Databricks, and Coupa, including internal documents, contracts, and customer information. The threat actor further claimed to have stolen more than 30 million rows of customer personally identifiable information (PII) from multiple datasets containing names, email addresses, phone numbers, physical addresses, dates of birth, and more than one million Social Security numbers. The group also claimed to have stolen over 22 million client notes containing doctor-patient conversations, more than 20 million medical orders, and customer agreements and NDAs. BleepingComputer has not independently verified the threat actor's claims regarding the stolen data. Alleged breach at LabCentral customer portal The second incident involves a threat actor known as ShadowByt3$, who contacted BleepingComputer claiming to have breached Abbott's Core Laboratory diagnostics business through its LabCentral customer portal. The threat actor said it breached the unit via its LabCentral customer portal using compromised customer credentials after identifying what it described as a "weak point" in the environment. According to the threat actor, they gained access on July 4, 2026, after whi
 ```
 
 #### Corroborating sources (1)
