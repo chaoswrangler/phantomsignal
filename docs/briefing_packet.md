@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-19T06:36:29.711935+00:00
+- Generated: 2026-07-19T09:09:03.565738+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 356
+- Total items in window: 357
 - Total clusters raw: 165
 - Total clusters in packet: 75
 - Dropped low score: 90
@@ -80,51 +80,56 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 7
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -135,36 +140,26 @@
   - Status: ok
   - Item count: 15
   - In window count: 6
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 8
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -174,6 +169,11 @@
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
@@ -185,6 +185,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -195,56 +200,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 9
+  - In window count: 4
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -255,16 +250,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 20
+  - In window count: 9
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -280,26 +280,36 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -310,66 +320,66 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 29
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 25
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -380,23 +390,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,11 +415,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -425,11 +430,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 20
+  - In window count: 21
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -501,7 +501,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 4
-- Article count: 18
+- Article count: 20
 - Cohesion: 0.216
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -617,27 +617,24 @@
   - https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
   - https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
 
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 2
-- Article count: 10
-- Cohesion: 0.2
-- Shared strong signals: WordPress
+### Kubernetes vulnerability activity
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.243
+- Shared strong signals: Kubernetes
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: WordPress
-- Cluster IDs: bc44ce81c5, 78924112de
+  - affected_products: Kubernetes
+- Cluster IDs: 3fe79c75d4, 4dacf306cd, 36d4f9221e
 - Links:
-  - https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core
-  - https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/
-  - https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
-  - https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/
-  - https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/
-  - https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything
-  - https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
-  - https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
+  - https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms
+  - https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/
+  - https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
+  - https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
+  - https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
 
 ### ShinyHunters: supply chain
 - Anchor signal: ShinyHunters
@@ -961,7 +958,7 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint S
 - Published: 2026-07-17T22:23:03+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core
 - Fetch status: ok
-- Member count: 9
+- Member count: 11
 - Corroborating source count: 7
 - Strong signals: CVE-2026-63030, GitHub, WordPress
 
@@ -971,7 +968,7 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint S
 - tools_used: OpenAI/ChatGPT
 - cve_ids: CVE-2026-60137, CVE-2026-63030
 - urgency_signals: poc_available, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
+- content_type: news_report, vendor_announcement, vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
@@ -2014,6 +2011,53 @@ Table of Contents Introduction Background Initial infection Back connection Laun
   - Link: https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/
   - Summary: Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.
 
+### Cluster cf7aa5bc3e — score 10
+
+- Title: Forgotten UEFI shims undermining Secure Boot
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-07-14T08:53:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-10797, CVE-2026-8863
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-8863, CVE-2026-10797
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+```
+
+#### Full body
+
+```
+ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Forgotten UEFI shims undermining Secure Boot
+  - Published: 2026-07-14T08:53:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+
 ### Cluster 174e783389 — score 10
 
 - Title: AI Security Report 2026
@@ -2374,6 +2418,53 @@ The serpent’s tongue: Luring the Python out of its den By Onur Mustafa Erdogan
   - Link: https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
   - Summary: This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments.
 
+### Cluster e56b9d8f1f — score 10
+
+- Title: Tracking Advanced Persistent Threat Groups | Recorded Future
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-17T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, phishing_social_eng, supply_chain, zero_day
+- actor_attribution: APT41, Lazarus
+- affected_industries: critical_infrastructure, financial_services
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng, credential_theft, zero_day, apt_espionage
+- actor_attribution: APT41, Lazarus
+- affected_industries: financial_services, critical_infrastructure
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
+```
+
+#### Full body
+
+```
+Tracking advanced persistent threat groups with real-time intelligence Key takeaways Advanced Persistent Threats (APTs) are sophisticated, long-term cyber campaigns conducted by well-funded human adversaries (often nation-states) who target specific organizations for espionage, data theft, or critical infrastructure disruption. Traditional security tools often fail because APT groups bypass signature-based defenses by using customized malware and Living-off-the-Land (LotL) tactics that mimic legitimate user activity inside the network. Effective advanced persistent threat detection requires minimizing breakout time, the window between initial access and lateral movement, by identifying threats before they establish deep persistence. To defeat modern APTs, organizations must move from reactive internal monitoring to proactive threat intelligence, tracking adversary infrastructure on the open, deep, and dark web before an attack is launched. Modern organizations face highly resourceful, patient, and deeply calculated adversaries. This shift has ushered in an era of coordinated operations where elite threat actors don't just compromise a system and leave, but may spend weeks or months quietly surveying networks, mapping architecture, and identifying high-value targets. These operations are the hallmark of an advanced persistent threat (APT). Traditional cybersecurity frameworks have long relied on perimeter defenses designed to catch malicious activity at the gates. However, once an APT group breaches a network, they often intentionally manipulate native administrative tools and harvest legitimate credentials to blend into daily business traffic. To better confront an adversary that behaves like an insider, organizations must shift their perspective outward, leveraging real-time, external threat intelligence to identify and intercept cyber threats before they can establish a permanent foothold. What is an Advanced Persistent Threat (APT)? An APT is a sophisticated, prolonged cyber campaign executed by a highly organized group with specific, long-term objectives. Breaking down the acronym highlights the unique nature of these threats: Advanced: APT actors do not rely on off-the-shelf exploits. They frequently utilize customized malware, discover and weaponize zero-day vulnerabilities, and practice meticulous operational security (OpSec) to deliberately evade modern security controls. Persistent: Unlike cybercriminals who encrypt a server and immediately demand a ransom, APTs utilize a "low-and-slow" methodology. They prioritize stealth over speed, regularly remaining inside an environment for months to achieve strategic goals such as espionage, intellectual property theft, or the long-term disruption of critical infrastructure. Threat: Behind every APT is a well-funded organizational structure. These are not lone hackers; they are highly structured syndicates and state-sponsored units—such as the Lazarus Group or APT41 —backed by massive financial and geopolitical resources. The multi-stage APT attack lifecycle Generally, APT groups do not operate at random. They follow a rigorous, multi-stage lifecycle. For defenders, understanding this timeline is critical to shrinking “breakout time"—the vital window between the initial compromise and the moment the attacker begins moving through the network. 1. Reconnaissance and planning Before a single line of malicious code is deployed, attackers gather open-source intelligence (OSINT) , scan exposed internet-facing infrastructure, and map out the target’s digital footprint to find weak points. 2. Initial infiltration Attackers typically gain entry via hyper-targeted spear-phishing or social engineering campaigns , credential stuffing, or complex supply chain compromises , often bypassing standard authentication checks. 3. Establishing footholds Once inside, actors deploy stealthy backdoors and obfuscated rootkits . This ensures that even if security teams discover and close the primary ent
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Tracking Advanced Persistent Threat Groups | Recorded Future
+  - Published: 2026-07-17T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
+  - Summary: Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
+
 ### Cluster b89f3888c6 — score 10
 
 - Title: 2026 SANS SOC Survey Insights: A Decade of Evolution in Cyber Defense
@@ -2580,100 +2671,6 @@ Meeting the ECB’s AI-Enabled Cybersecurity Mandate with NodeZero® Horizon3.ai
   - Published: 2026-07-13T17:35:36+00:00
   - Link: https://horizon3.ai/downloads/factsheets/meeting-the-ecbs-ai-enabled-cybersecurity-mandate-with-nodezero/
   - Summary: The ECB now expects significant institutions to demonstrate AI-ready cyber resilience. Learn how NodeZero helps validate exploitable risk, verify remediation, and support an evidence-backed action plan.
-
-### Cluster cf7aa5bc3e — score 10
-
-- Title: Forgotten UEFI shims undermining Secure Boot
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-07-14T08:53:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-10797, CVE-2026-8863
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-8863, CVE-2026-10797
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
-```
-
-#### Full body
-
-```
-ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Forgotten UEFI shims undermining Secure Boot
-  - Published: 2026-07-14T08:53:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
-
-### Cluster e56b9d8f1f — score 10
-
-- Title: Tracking Advanced Persistent Threat Groups | Recorded Future
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-17T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, phishing_social_eng, supply_chain, zero_day
-- actor_attribution: APT41, Lazarus
-- affected_industries: critical_infrastructure, financial_services
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, credential_theft, zero_day, apt_espionage
-- actor_attribution: APT41, Lazarus
-- affected_industries: financial_services, critical_infrastructure
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
-```
-
-#### Full body
-
-```
-Tracking advanced persistent threat groups with real-time intelligence Key takeaways Advanced Persistent Threats (APTs) are sophisticated, long-term cyber campaigns conducted by well-funded human adversaries (often nation-states) who target specific organizations for espionage, data theft, or critical infrastructure disruption. Traditional security tools often fail because APT groups bypass signature-based defenses by using customized malware and Living-off-the-Land (LotL) tactics that mimic legitimate user activity inside the network. Effective advanced persistent threat detection requires minimizing breakout time, the window between initial access and lateral movement, by identifying threats before they establish deep persistence. To defeat modern APTs, organizations must move from reactive internal monitoring to proactive threat intelligence, tracking adversary infrastructure on the open, deep, and dark web before an attack is launched. Modern organizations face highly resourceful, patient, and deeply calculated adversaries. This shift has ushered in an era of coordinated operations where elite threat actors don't just compromise a system and leave, but may spend weeks or months quietly surveying networks, mapping architecture, and identifying high-value targets. These operations are the hallmark of an advanced persistent threat (APT). Traditional cybersecurity frameworks have long relied on perimeter defenses designed to catch malicious activity at the gates. However, once an APT group breaches a network, they often intentionally manipulate native administrative tools and harvest legitimate credentials to blend into daily business traffic. To better confront an adversary that behaves like an insider, organizations must shift their perspective outward, leveraging real-time, external threat intelligence to identify and intercept cyber threats before they can establish a permanent foothold. What is an Advanced Persistent Threat (APT)? An APT is a sophisticated, prolonged cyber campaign executed by a highly organized group with specific, long-term objectives. Breaking down the acronym highlights the unique nature of these threats: Advanced: APT actors do not rely on off-the-shelf exploits. They frequently utilize customized malware, discover and weaponize zero-day vulnerabilities, and practice meticulous operational security (OpSec) to deliberately evade modern security controls. Persistent: Unlike cybercriminals who encrypt a server and immediately demand a ransom, APTs utilize a "low-and-slow" methodology. They prioritize stealth over speed, regularly remaining inside an environment for months to achieve strategic goals such as espionage, intellectual property theft, or the long-term disruption of critical infrastructure. Threat: Behind every APT is a well-funded organizational structure. These are not lone hackers; they are highly structured syndicates and state-sponsored units—such as the Lazarus Group or APT41 —backed by massive financial and geopolitical resources. The multi-stage APT attack lifecycle Generally, APT groups do not operate at random. They follow a rigorous, multi-stage lifecycle. For defenders, understanding this timeline is critical to shrinking “breakout time"—the vital window between the initial compromise and the moment the attacker begins moving through the network. 1. Reconnaissance and planning Before a single line of malicious code is deployed, attackers gather open-source intelligence (OSINT) , scan exposed internet-facing infrastructure, and map out the target’s digital footprint to find weak points. 2. Initial infiltration Attackers typically gain entry via hyper-targeted spear-phishing or social engineering campaigns , credential stuffing, or complex supply chain compromises , often bypassing standard authentication checks. 3. Establishing footholds Once inside, actors deploy stealthy backdoors and obfuscated rootkits . This ensures that even if security teams discover and close the primary ent
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Tracking Advanced Persistent Threat Groups | Recorded Future
-  - Published: 2026-07-17T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
-  - Summary: Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
 
 ### Cluster 35f060c850 — score 10
 
@@ -3090,55 +3087,6 @@ This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabil
   - Published: 2026-07-14T19:14:58+00:00
   - Link: https://isc.sans.edu/diary/rss/33154
   - Summary: This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.
-
-### Cluster 78924112de — score 9
-
-- Title: Update now: 7-Zip fixes RCE flaw exploitable with malicious archives
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-18T19:32:02+00:00
-- Link: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, zero_day
-- affected_industries: critical_infrastructure
-- affected_products: WordPress
-- cve_ids: CVE-2025-8088
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day
-- affected_industries: critical_infrastructure
-- affected_products: WordPress
-- cve_ids: CVE-2025-8088
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
-```
-
-#### Full body
-
-```
-Update now: 7-Zip fixes RCE flaw exploitable with malicious archives By Lawrence Abrams July 18, 2026 03:32 PM 2 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. The vulnerability, disclosed by Lunbun researcher Landon Peng, exists in 7-Zip's processing of XZ-compressed data. According to an advisory from the Zero Day Initiative , specially crafted XZ data can trigger a heap-based buffer overflow, potentially allowing attackers to execute arbitrary code as the user. While the developer has not published technical details about the flaw, the changes in the 26.02 source code suggest it is related to how 7-Zip tracks available space while decompressing XZ data. The patch adds checks to ensure the decoder cannot write beyond the remaining available space in an output buffer, helping prevent a heap-based buffer overflow. The advisory states that exploitation requires user interaction, such as visiting a malicious page or opening a malicious archive file. No automatic update feature As 7-Zip does not include an automatic update feature, users will not receive the security fix automatically. Instead, they must install it manually by downloading the latest version from the program's official site, 7-zip.org . Because 7-Zip is one of the most widely used archive utilities on Windows, security flaws impacting its archive features are an attractive target to threat actors. A phishing campaign or social engineering attack could be used to distribute a malicious archive that exploits the flaw to install malware on vulnerable systems. This is not far-fetched, as archive vulnerabilities, including those in 7-Zip, have been exploited in past attacks. In early 2025, a 7-Zip vulnerability that allowed malware to bypass Windows' Mark of the Web (MotW) security feature was exploited by Russian hackers as a zero-day . Later that same year, a Russian hacking group exploited a WinRAR vulnerability tracked as CVE-2025-8088 via phishing attacks to install the RomCom malware. There are currently no reports that attackers are actively exploiting this newly disclosed 7-Zip vulnerability. However, users are advised to update to version 26.02 as soon as possible to reduce the risk of future attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: WordPress Core "wp2shell" RCE flaws get public exploits, patch now Critical Langflow RCE flaw exploited to hack AI app servers CISA sets urgent deadline to fix Cisco flaw exploited in attacks FFmpeg fixes PixelSmash flaw in widely used video decoder Microsoft fixes AutoGen Studio flaw that enabled code execution
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Update now: 7-Zip fixes RCE flaw exploitable with malicious archives
-  - Published: 2026-07-18T19:32:02+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
-  - Summary: 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
 
 ### Cluster b47b034408 — score 9
 
@@ -3581,16 +3529,24 @@ Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Publis
 - Source: Sysdig (detection_response_operations)
 - Published: 2026-07-16T00:00:00+00:00
 - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, cloud_abuse, ransomware_extortion, vulnerability_disclosure
+- affected_industries: healthcare, manufacturing_industrial
+- affected_products: GitHub, Kubernetes
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: ransomware_extortion, cloud_abuse, vulnerability_disclosure, active_exploitation
+- affected_industries: healthcare, manufacturing_industrial
+- affected_products: GitHub, Kubernetes
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3600,6 +3556,12 @@ Home Blog Home Field Advantage: How Attackers Reshape Victim Environments Publis
 Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
 ```
 
+#### Full body
+
+```
+< back to blog The CISO's guide to headless cloud security Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Sign up for the webinar Published: July 16, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more There's a shift happening in security architecture that hasn't quite made it into analyst magic quadrants yet, and it didn’t come from vendors. This shift came from organizations in business sectors like yours – healthcare, tech, manufacturing, transportation – security teams that have pushed AI-assisted tooling to its limits and hit a wall. The wall is the UI itself. On the other side of that wall lies a fundamentally different architecture. One where engineers, developers, and security practitioners all use the same CLI. Where agents triage and remediate before a human opens a browser, and where your board metrics are a query away instead of a manual export. The goal is security that is invisible, programmable, and fast enough to win. Here’s how it works. Your adversaries already moved Let me begin where I start just about every conversation: the threat landscape. Attackers have gone agentic. I don’t just mean "AI-assisted,” but truly autonomous agents probing, exploiting, and pivoting without a human operator making decisions in real time. That’s what you have to defend against now. The Sysdig Threat Research Team (TRT) has proof, too. In one attack, an agentic threat actor (ATA) executed actions in real time rather than running pre-built playbooks as a human operator would. In less than one hour, the ATA made four pivots through the environment and exfiltrated the contents of an entire internal database. In another, an ATA performed a container escape , something even skilled human attackers rarely attempt, and then replayed Kubernetes credentials to dump a cluster’s entire secret store. TRT also just saw what they assess to be the first documented case of agentic ransomware, dubbed JADEPUFFER , which was a complete extortion operation driven end-to-end by a large language model (LLM). Three numbers tell the rest of the story. Together, these numbers define why the security model most organizations are running is structurally broken. 10 minutes: From initial access to cloud compromise. Whether it’s a database being exfiltrated or credentials being taken, that’s the average amount of time it takes for a cloud attack to take place. Recently, we’ve seen credentials disappear in as little as three minutes . 10 hours: From vulnerability disclosure to active weaponization. This number is actually even more unsettling than it looks. It’s the time from the moment the GitHub Security Advisory (GHSA) is published, not when the vulnerability is given a CVE number. This is before MITRE reviews it or NIST catalogs it, and possibly before your vulnerability scanner even knows it exists. Threat actors are monitoring GitHub and using LLMs to write exploits almost immediately. We identified one case that took less than four hours , and one against the very popular Langflow framework that was actively exploited within 20 hours . 30 minutes: This is just a stab in the dark. An optimistic guess. How long does it actually take your SOC to triage a true positive alert on a good day? Drop your own number in here. It’s safe to assume that many organizations are not yet addressing threats in less than 10 minutes or finding and fixing vulnerabilities within a few hours. When you do the math, most security teams lose every time. That’s not because they aren’t capable; it’s a structural timescale mismatch. You can’t hire more people or add more tools to outpace this challenge. It requires an architectural change. The problem that needs fixing Every login to a dashboard or portal adds latency. Every time an analyst opens a page to investigate an alert, the miss
+```
+
 #### Corroborating sources (1)
 
 - **Sysdig** (detection_response_operations)
@@ -3607,6 +3569,39 @@ Attackers went agentic. Your security architecture should too. A CISO's guide to
   - Published: 2026-07-16T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
   - Summary: Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
+
+### Cluster 78924112de — score 8
+
+- Title: Update now: 7-Zip fixes RCE flaw exploitable with malicious archives
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-18T19:32:02+00:00
+- Link: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Update now: 7-Zip fixes RCE flaw exploitable with malicious archives
+  - Published: 2026-07-18T19:32:02+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
+  - Summary: 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
 
 ### Cluster 5cb0aa9164 — score 8
 
