@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-18T23:59:45.788711+00:00
+- Generated: 2026-07-19T03:29:25.865720+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -70,33 +70,38 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -105,25 +110,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 20
+  - In window count: 2
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
@@ -135,11 +140,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 6
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -155,11 +155,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 50
-  - In window count: 4
+  - Item count: 40
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -170,11 +170,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 40
-  - In window count: 0
+  - Item count: 50
+  - In window count: 4
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -185,15 +185,15 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
@@ -210,16 +210,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -230,16 +230,21 @@
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,11 +255,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -270,30 +270,30 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
@@ -310,6 +310,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -320,21 +325,11 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,16 +345,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -370,30 +365,35 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - In window count: 10
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 10
+  - In window count: 2
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
@@ -405,26 +405,31 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -435,11 +440,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -690,8 +690,8 @@
 - Cluster IDs: e06d2a4227, 88deaf9a79
 - Links:
   - https://www.proofpoint.com/us/newsroom/news/oauth-client-id-spoofing-lets-attackers-validate-stolen-microsoft-entra-credentials
-  - https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/
   - https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html
+  - https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/
   - https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
 
 ### AWS vulnerability activity
@@ -716,7 +716,7 @@
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 2
-- Article count: 7
+- Article count: 6
 - Cohesion: 0.545
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
@@ -1888,6 +1888,47 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
   - Summary: Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
 
+### Cluster 1042e88cd6 — score 10
+
+- Title: US Military Smartphones Targeted Through Roaming and Ad Tech
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-07-17T18:18:20+00:00
+- Link: https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services, telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services, telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. The post US Military Smartphones Targeted Through Roaming and Ad Tech appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published July 17, 2026 Topics Targeted Surveillance advertising intelligence , telecommunications Mentions Gary Miller Share Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. “Iran absolutely has capabilities to get real-time, immediate, and continuous location information,” he said. “It would surprise me very much if Iran were not using SS7, or mobile network access in the region, to track US users.” According to Miller, at least some of the tracking attempts can be linked to an Iranian mobile phone operator. “This appears to be very specific user targeting,” he said. Read more More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026 News + Updates → In the Media How Freedom Tech Is Pushing Back Against Digital Authoritarianism JUNE 17, 2026 News + Updates → In the Media Spying Via Your Mobile Phone Companies Can Locate Any Device at Any Time JUNE 15, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: US Military Smartphones Targeted Through Roaming and Ad Tech
+  - Published: 2026-07-17T18:18:20+00:00
+  - Link: https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/
+  - Summary: Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. The post US Military Smartphones Targeted Through Roaming and Ad Tech appeared first on The Citizen Lab .
+
 ### Cluster c2f56a4fa7 — score 10
 
 - Title: GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration
@@ -1976,46 +2017,101 @@ Table of Contents Introduction Background Initial infection Back connection Laun
   - Link: https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/
   - Summary: Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.
 
-### Cluster 1042e88cd6 — score 10
+### Cluster 174e783389 — score 10
 
-- Title: US Military Smartphones Targeted Through Roaming and Ad Tech
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-07-17T18:18:20+00:00
-- Link: https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/
+- Title: AI Security Report 2026
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-14T00:51:31+00:00
+- Link: https://research.checkpoint.com/2026/ai-security-report-2026/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: financial_services, telecommunications
+- threat_categories: ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_industries: financial_services, telecommunications
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach, apt_espionage, ai_security
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. The post US Military Smartphones Targeted Through Roaming and Ad Tech appeared first on The Citizen Lab .
+For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
 ```
 
 #### Full body
 
 ```
-Date Published July 17, 2026 Topics Targeted Surveillance advertising intelligence , telecommunications Mentions Gary Miller Share Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. “Iran absolutely has capabilities to get real-time, immediate, and continuous location information,” he said. “It would surprise me very much if Iran were not using SS7, or mobile network access in the region, to track US users.” According to Miller, at least some of the tracking attempts can be linked to an Iranian mobile phone operator. “This appears to be very specific user targeting,” he said. Read more More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026 News + Updates → In the Media How Freedom Tech Is Pushing Back Against Digital Authoritarianism JUNE 17, 2026 News + Updates → In the Media Spying Via Your Mobile Phone Companies Can Locate Any Device at Any Time JUNE 15, 2026
+CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 463 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 416 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 AI Security Report 2026 July 14, 2026 https://research.checkpoint.com/2026/ai-security-report-2026/ For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the operation. Key observed findings AI has crossed from development aid to live attack operator. It now does the hands-on work inside live intrusions, from China-nexus espionage campaigns to a criminal breach of multiple Mexican government agencies and has spread from nation states to ordinary cyber criminals. AI now builds deployment-ready malware and attack suites. Its involvement is often invisible in the finished artifact: one developer used an AI environment to produce VoidLink, an 88,000-line command-and-control offensive framework, in under a week. Attackers prefer commercial models, and now abuse them by exploiting the agentic architecture, not just single prompts. Most actors favor jailbroken mainstream models over self-hosted ones, and the durable bypass is now a planted configuration file an agent loads and trusts across sessions. An AI-enabled criminal tooling market has matured. Phishing-as-a-service kits now embed a language model with the jailbreak built in, and conversational AI voice-agent services run vishing and one-time-passcode theft at scale. Virtual Identity is no longer a reliable trust anchor. Voice, face, documents, and live video are now cheap to forge convincingly and are widely used in attacks taking multi-channel social engineering to a new level of integration. AI itself is an expanding attack surface. Models cannot always separate data from instructions and content they process might influence the model’s behavior; the surrounding stack adds ordinary software vulnerabilities and supply-chain risk, all in a rapidly evolving ecosystem where security practices not always mature. Indirect prompt injection is on the rise. Detections of longer malicious payloads increased sharply, rising roughly fivefold between March and May 2026 and approaching 1% of observed prompts in May. Longer payloads are more typical of content-borne and agentic attack paths, this pattern suggests that indirect prompt injection is becoming more operationally relevant. Enterprise data leakage through GenAI is persistent and growing risk . High-risk prompts doubled from 2% to 4% during the last year, while organizations used an average of 10 AI applications each month, many without official approval. Data exposure risks are not evenly distributed across the verticals . Sector-level analysis reveals that AI-related data exposure risks are not evenly distributed across the verticals, and correlate both with AI usage patterns and security maturity. Business Services recorded the highest rate of high-risk GenAI prompts at 5.91%, meaning nearly one in every 17 AI interactions carried a significant risk of sensitive data exposure. To read the full findings, access the AI Security Report 2026 from Check Point Research here. GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLI
 ```
 
 #### Corroborating sources (1)
 
-- **Citizen Lab** (threat_research_primary)
-  - Title: US Military Smartphones Targeted Through Roaming and Ad Tech
-  - Published: 2026-07-17T18:18:20+00:00
-  - Link: https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/
-  - Summary: Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. The post US Military Smartphones Targeted Through Roaming and Ad Tech appeared first on The Citizen Lab .
+- **Check Point Research** (threat_research_primary)
+  - Title: AI Security Report 2026
+  - Published: 2026-07-14T00:51:31+00:00
+  - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
+  - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
+
+### Cluster c8e0a6559d — score 10
+
+- Title: 13th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-13T13:06:08+00:00
+- Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT, npm
+- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach, web_shell_backdoor
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services
+- affected_products: npm, Anthropic/Claude, OpenAI/ChatGPT
+- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July – Threat Intelligence Report July 13, 2026 https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license numbers, insurance policy and account data, vehicle information, and claims details. Latvia’s state-owned forestry company Latvijas Valsts Meži has suffered a ransomware attack that disrupted mapping, hunting, contractor, and customer systems. Attackers exploited a system that had remained unpatched for two years and leaked approximately 44GB of internal documents, credentials, cryptographic keys, source code, and email correspondence. Injective Labs, a developer of blockchain and cryptocurrency software, has experienced a supply chain compromise after attackers accessed its SDK project and published malicious npm packages. The affected releases exfiltrated cryptocurrency wallet private keys and seed phrases when developers used legitimate key-generation functions embedded in the compromised software. Moody Bible Institute, a U.S. faith-based educational institution, has disclosed a data breach affecting more than 2.3 million donors, students, alumni, and supporters. The ShinyHunters extortion group published allegedly stolen information, including names, dates of birth, residential addresses, email addresses, and phone numbers. AI THREATS Researchers profiled JadePuffer, an autonomous ransomware operation that used a large language model to conduct an intrusion without direct human control. The operation exploited CVE-2025-3248 in an exposed Langflow instance, accessed a production MySQL server, exfiltrated selected information, deleted the database, and issued an extortion demand. Researchers showed that malicious instructions hidden inside open-source project files could achieve remote code execution through Anthropic Claude Code and OpenAI Codex. When operating with automated permissions, the coding agents processed the instructions and executed attacker-controlled scripts, demonstrating a risk that may affect other autonomous development tools. Researchers disclosed Rogue Agent, a vulnerability in Google Dialogflow CX that allowed users with limited agent-editing permission to insert persistent malicious code. The injected code could capture and exfiltrate chatbot conversations. Google addressed the issue, and no known customer environments were compromised through the vulnerability. VULNERABILITIES AND PATCHES Multiple Tenda router models are affected by CVE-2026-11405, an undocumented authentication backdoor that provides administrative access through a hidden password. The flaw affects several FH1201, W15E, AC10, AC5, and AC6 firmware versions and allows attackers to bypass configured credentials and modify device and network settings. Linux maintainers have patched CVE-2026-53359, a critical vulnerability in the Kernel-based Virtual Machine hypervisor. A malicious guest virtual machine could corrupt host kernel memory and potentially escape into the host environment. The flaw affects Intel and AMD x86 systems and is particularly relevant to shared cloud infrastructure. U-Boot has addressed six vulnerabilities affecting signature verification of Flattened Image Tree files used during secure boot. Two flaws could enable arbitrary code execution while a device loads a supposedly verified image, and four could cause crashes. The affected bootloader is widely used in routers, cameras, and embedded controllers. Opera has addressed a critical vulnerability in the Opera GX browser that allowed malicious websites to install browser modificatio
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 13th July – Threat Intelligence Report
+  - Published: 2026-07-13T13:06:08+00:00
+  - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 2c8659a3fa — score 10
 
@@ -2280,102 +2376,6 @@ The serpent’s tongue: Luring the Python out of its den By Onur Mustafa Erdogan
   - Published: 2026-07-14T10:00:06+00:00
   - Link: https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
   - Summary: This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments.
-
-### Cluster 174e783389 — score 10
-
-- Title: AI Security Report 2026
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-14T00:51:31+00:00
-- Link: https://research.checkpoint.com/2026/ai-security-report-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach, apt_espionage, ai_security
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 463 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 416 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 AI Security Report 2026 July 14, 2026 https://research.checkpoint.com/2026/ai-security-report-2026/ For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the operation. Key observed findings AI has crossed from development aid to live attack operator. It now does the hands-on work inside live intrusions, from China-nexus espionage campaigns to a criminal breach of multiple Mexican government agencies and has spread from nation states to ordinary cyber criminals. AI now builds deployment-ready malware and attack suites. Its involvement is often invisible in the finished artifact: one developer used an AI environment to produce VoidLink, an 88,000-line command-and-control offensive framework, in under a week. Attackers prefer commercial models, and now abuse them by exploiting the agentic architecture, not just single prompts. Most actors favor jailbroken mainstream models over self-hosted ones, and the durable bypass is now a planted configuration file an agent loads and trusts across sessions. An AI-enabled criminal tooling market has matured. Phishing-as-a-service kits now embed a language model with the jailbreak built in, and conversational AI voice-agent services run vishing and one-time-passcode theft at scale. Virtual Identity is no longer a reliable trust anchor. Voice, face, documents, and live video are now cheap to forge convincingly and are widely used in attacks taking multi-channel social engineering to a new level of integration. AI itself is an expanding attack surface. Models cannot always separate data from instructions and content they process might influence the model’s behavior; the surrounding stack adds ordinary software vulnerabilities and supply-chain risk, all in a rapidly evolving ecosystem where security practices not always mature. Indirect prompt injection is on the rise. Detections of longer malicious payloads increased sharply, rising roughly fivefold between March and May 2026 and approaching 1% of observed prompts in May. Longer payloads are more typical of content-borne and agentic attack paths, this pattern suggests that indirect prompt injection is becoming more operationally relevant. Enterprise data leakage through GenAI is persistent and growing risk . High-risk prompts doubled from 2% to 4% during the last year, while organizations used an average of 10 AI applications each month, many without official approval. Data exposure risks are not evenly distributed across the verticals . Sector-level analysis reveals that AI-related data exposure risks are not evenly distributed across the verticals, and correlate both with AI usage patterns and security maturity. Business Services recorded the highest rate of high-risk GenAI prompts at 5.91%, meaning nearly one in every 17 AI interactions carried a significant risk of sensitive data exposure. To read the full findings, access the AI Security Report 2026 from Check Point Research here. GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLI
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: AI Security Report 2026
-  - Published: 2026-07-14T00:51:31+00:00
-  - Link: https://research.checkpoint.com/2026/ai-security-report-2026/
-  - Summary: For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .
-
-### Cluster c8e0a6559d — score 10
-
-- Title: 13th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-13T13:06:08+00:00
-- Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain, web_shell_backdoor
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT, npm
-- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach, web_shell_backdoor
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services
-- affected_products: npm, Anthropic/Claude, OpenAI/ChatGPT
-- cve_ids: CVE-2025-3248, CVE-2026-11405, CVE-2026-53359
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 13th July – Threat Intelligence Report July 13, 2026 https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license numbers, insurance policy and account data, vehicle information, and claims details. Latvia’s state-owned forestry company Latvijas Valsts Meži has suffered a ransomware attack that disrupted mapping, hunting, contractor, and customer systems. Attackers exploited a system that had remained unpatched for two years and leaked approximately 44GB of internal documents, credentials, cryptographic keys, source code, and email correspondence. Injective Labs, a developer of blockchain and cryptocurrency software, has experienced a supply chain compromise after attackers accessed its SDK project and published malicious npm packages. The affected releases exfiltrated cryptocurrency wallet private keys and seed phrases when developers used legitimate key-generation functions embedded in the compromised software. Moody Bible Institute, a U.S. faith-based educational institution, has disclosed a data breach affecting more than 2.3 million donors, students, alumni, and supporters. The ShinyHunters extortion group published allegedly stolen information, including names, dates of birth, residential addresses, email addresses, and phone numbers. AI THREATS Researchers profiled JadePuffer, an autonomous ransomware operation that used a large language model to conduct an intrusion without direct human control. The operation exploited CVE-2025-3248 in an exposed Langflow instance, accessed a production MySQL server, exfiltrated selected information, deleted the database, and issued an extortion demand. Researchers showed that malicious instructions hidden inside open-source project files could achieve remote code execution through Anthropic Claude Code and OpenAI Codex. When operating with automated permissions, the coding agents processed the instructions and executed attacker-controlled scripts, demonstrating a risk that may affect other autonomous development tools. Researchers disclosed Rogue Agent, a vulnerability in Google Dialogflow CX that allowed users with limited agent-editing permission to insert persistent malicious code. The injected code could capture and exfiltrate chatbot conversations. Google addressed the issue, and no known customer environments were compromised through the vulnerability. VULNERABILITIES AND PATCHES Multiple Tenda router models are affected by CVE-2026-11405, an undocumented authentication backdoor that provides administrative access through a hidden password. The flaw affects several FH1201, W15E, AC10, AC5, and AC6 firmware versions and allows attackers to bypass configured credentials and modify device and network settings. Linux maintainers have patched CVE-2026-53359, a critical vulnerability in the Kernel-based Virtual Machine hypervisor. A malicious guest virtual machine could corrupt host kernel memory and potentially escape into the host environment. The flaw affects Intel and AMD x86 systems and is particularly relevant to shared cloud infrastructure. U-Boot has addressed six vulnerabilities affecting signature verification of Flattened Image Tree files used during secure boot. Two flaws could enable arbitrary code execution while a device loads a supposedly verified image, and four could cause crashes. The affected bootloader is widely used in routers, cameras, and embedded controllers. Opera has addressed a critical vulnerability in the Opera GX browser that allowed malicious websites to install browser modificatio
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 13th July – Threat Intelligence Report
-  - Published: 2026-07-13T13:06:08+00:00
-  - Link: https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 13th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES U.S. auto insurer AssuranceAmerica has disclosed a data breach affecting approximately 7 million people. Attackers targeted an employee and used compromised credentials to access company systems, stealing names, contact information, driver’s license […] The post 13th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster cf7aa5bc3e — score 10
 
@@ -2881,16 +2881,16 @@ OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credenti
   - Title: OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
   - Published: 2026-07-14T13:36:51+00:00
   - Link: https://www.proofpoint.com/us/newsroom/news/oauth-client-id-spoofing-lets-attackers-validate-stolen-microsoft-entra-credentials
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Novel OAuth Client ID Spoofing Technique Targets Cloud Environments
-  - Published: 2026-07-13T13:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/
-  - Summary: New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
   - Published: 2026-07-14T11:21:35+00:00
   - Link: https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html
   - Summary: At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Novel OAuth Client ID Spoofing Technique Targets Cloud Environments
+  - Published: 2026-07-13T13:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/
+  - Summary: New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments
 
 ### Cluster ab13f77dd3 — score 9
 
@@ -3042,49 +3042,6 @@ This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabil
   - Link: https://isc.sans.edu/diary/rss/33154
   - Summary: This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.
 
-### Cluster 15c6378b6b — score 9
-
-- Title: New North Korean campaign uses fake coding interviews to steal developer credentials
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-07-18T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, web_shell_backdoor
-- affected_industries: financial_services, retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, web_shell_backdoor
-- affected_industries: financial_services, retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.
-```
-
-#### Full body
-
-```
-18 July 2026 • Daniel Stepanic New North Korean campaign uses fake coding interviews to steal developer credentials DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it. 9 min read Threat Intelligence , Malware Analysis Elastic Security Labs found a new Contagious Interview campaign, tracked as REF9403, hiding malware inside SVG image files using steganography. To our knowledge, this specific infection chain has not been previously documented. We found it after the DPRK-aligned group targeted our own community Slack workspace with a fake job posting and a "coding challenge" project. Any user who ran the project ended up with a four-stage payload aligned with OTTERCOOKIE: a browser credential and crypto wallet stealer, a file stealer, a Socket.IO-based remote access trojan (RAT), and a clipboard stealer. This campaign reinforces that developers remain a prime target, where the compromise of a single individual can provide the initial access needed to enable far-reaching supply chain attacks against downstream organizations. Key takeaways Elastic Security Labs discovers new activity aligned with Contagious Interview targeting developers Campaigns involve coding challenges and take-home assignments with benign-looking projects containing malicious backdoored code Projects hide payloads with steganography in SVG image files The distributed malware shares technical and behavioral similarities with OTTERCOOKIE How Elastic discovered this malware campaign This investigation started differently from most of our previous research. Instead of using telemetry to surface interesting threats, we were alerted to suspicious activity targeting members of our community Slack workspace with socially engineered, ad hoc job offers. For background, we use the community Slack platform to engage with and solve problems for our users, focusing on providing product support and syncing on new updates. We’ve reported on this technique several times : threat actors targeting developers in open forums with lures of coding side-work. The lucrative offers lead to the requirement to load specific libraries, tools, scripts, etc., into the code the developer is crafting. These components are created by the threat actors and once they’re executed by the developers, they are able to load additional malware and gain remote access to the developer host. From there, the threat actors can steal credentials, keys, wallets, or use the access to gain access to additional systems. We did not find evidence that the lures were targeted at Elastic users specifically, but any open forum where developers congregate is a potential watering hole. On May 26, 2026, a user named Maxwell posted in our #jobs channel, stating that they were upgrading an e-commerce platform and were looking for an experienced developer to help with the project. They strategically moved their interactions with interested users into direct messages (DM). In these direct messages, Maxwell requested that users perform a test challenge as part of the job offer. These recipients were given a trojanized repository that, when executed, contained malware that exfiltrated sensitive files and credentials and configured a Socket.IO backdoor. Building on this initial case, we found multiple campaigns exhibiting the same underlying behavior. These trojanized repositories at the time of writing have zero detections and are not flagged by any AV vendors: next-ecommerce-private-main.zip shopping-platform-main.zip ecommerce-platform.zip ecommerce-platform-main.zip shopping-platform.rar shop-main.zip ecommerce-main.zip These fake challenges operate similarly, containing fully functional code. Our first sample was a Next.js e-commerce template that was copied from GreatStackDev called GoCart . The threat actors tampered with this repository by inserting small snippets of malicious code at various points and using benign variable name
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: New North Korean campaign uses fake coding interviews to steal developer credentials
-  - Published: 2026-07-18T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography
-  - Summary: DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.
-
 ### Cluster 78924112de — score 9
 
 - Title: Update now: 7-Zip fixes RCE flaw exploitable with malicious archives
@@ -3123,7 +3080,7 @@ DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer jo
 #### Full body
 
 ```
-Update now: 7-Zip fixes RCE flaw exploitable with malicious archives By Lawrence Abrams July 18, 2026 03:32 PM 1 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. The vulnerability, disclosed by Lunbun researcher Landon Peng, exists in 7-Zip's processing of XZ-compressed data. According to an advisory from the Zero Day Initiative , specially crafted XZ data can trigger a heap-based buffer overflow, potentially allowing attackers to execute arbitrary code as the user. While the developer has not published technical details about the flaw, the changes in the 26.02 source code suggest it is related to how 7-Zip tracks available space while decompressing XZ data. The patch adds checks to ensure the decoder cannot write beyond the remaining available space in an output buffer, helping prevent a heap-based buffer overflow. The advisory states that exploitation requires user interaction, such as visiting a malicious page or opening a malicious archive file. No automatic update feature As 7-Zip does not include an automatic update feature, users will not receive the security fix automatically. Instead, they must install it manually by downloading the latest version from the program's official site, 7-zip.org . Because 7-Zip is one of the most widely used archive utilities on Windows, security flaws impacting its archive features are an attractive target to threat actors. A phishing campaign or social engineering attack could be used to distribute a malicious archive that exploits the flaw to install malware on vulnerable systems. This is not far-fetched, as archive vulnerabilities, including those in 7-Zip, have been exploited in past attacks. In early 2025, a 7-Zip vulnerability that allowed malware to bypass Windows' Mark of the Web (MotW) security feature was exploited by Russian hackers as a zero-day . Later that same year, a Russian hacking group exploited a WinRAR vulnerability tracked as CVE-2025-8088 via phishing attacks to install the RomCom malware. There are currently no reports that attackers are actively exploiting this newly disclosed 7-Zip vulnerability. However, users are advised to update to version 26.02 as soon as possible to reduce the risk of future attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: WordPress Core "wp2shell" RCE flaws get public exploits, patch now Critical Langflow RCE flaw exploited to hack AI app servers CISA sets urgent deadline to fix Cisco flaw exploited in attacks FFmpeg fixes PixelSmash flaw in widely used video decoder Microsoft fixes AutoGen Studio flaw that enabled code execution
+Update now: 7-Zip fixes RCE flaw exploitable with malicious archives By Lawrence Abrams July 18, 2026 03:32 PM 2 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. The vulnerability, disclosed by Lunbun researcher Landon Peng, exists in 7-Zip's processing of XZ-compressed data. According to an advisory from the Zero Day Initiative , specially crafted XZ data can trigger a heap-based buffer overflow, potentially allowing attackers to execute arbitrary code as the user. While the developer has not published technical details about the flaw, the changes in the 26.02 source code suggest it is related to how 7-Zip tracks available space while decompressing XZ data. The patch adds checks to ensure the decoder cannot write beyond the remaining available space in an output buffer, helping prevent a heap-based buffer overflow. The advisory states that exploitation requires user interaction, such as visiting a malicious page or opening a malicious archive file. No automatic update feature As 7-Zip does not include an automatic update feature, users will not receive the security fix automatically. Instead, they must install it manually by downloading the latest version from the program's official site, 7-zip.org . Because 7-Zip is one of the most widely used archive utilities on Windows, security flaws impacting its archive features are an attractive target to threat actors. A phishing campaign or social engineering attack could be used to distribute a malicious archive that exploits the flaw to install malware on vulnerable systems. This is not far-fetched, as archive vulnerabilities, including those in 7-Zip, have been exploited in past attacks. In early 2025, a 7-Zip vulnerability that allowed malware to bypass Windows' Mark of the Web (MotW) security feature was exploited by Russian hackers as a zero-day . Later that same year, a Russian hacking group exploited a WinRAR vulnerability tracked as CVE-2025-8088 via phishing attacks to install the RomCom malware. There are currently no reports that attackers are actively exploiting this newly disclosed 7-Zip vulnerability. However, users are advised to update to version 26.02 as soon as possible to reduce the risk of future attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: WordPress Core "wp2shell" RCE flaws get public exploits, patch now Critical Langflow RCE flaw exploited to hack AI app servers CISA sets urgent deadline to fix Cisco flaw exploited in attacks FFmpeg fixes PixelSmash flaw in widely used video decoder Microsoft fixes AutoGen Studio flaw that enabled code execution
 ```
 
 #### Corroborating sources (1)
@@ -3133,6 +3090,47 @@ Update now: 7-Zip fixes RCE flaw exploitable with malicious archives By Lawrence
   - Published: 2026-07-18T19:32:02+00:00
   - Link: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
   - Summary: 7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
+
+### Cluster b47b034408 — score 9
+
+- Title: Vulnerability in FIFA’s Network
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-07-14T11:06:51+00:00
+- Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: legal_professional
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- affected_industries: legal_professional
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+FIFA’s network was vulnerable to anyone with even minimal access.
+```
+
+#### Full body
+
+```
+Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the emergency broadcast system is takes over “every TV in London” That said, this technical security system failed. The legal and social security system didn’t fail. No one, including the author took over the airwaves and broadcast other content that I know of. Security is many layered, even with holes. So far, the totality of it has worked. Interesting.
+```
+
+#### Corroborating sources (1)
+
+- **Schneier on Security** (practitioner_analysis)
+  - Title: Vulnerability in FIFA’s Network
+  - Published: 2026-07-14T11:06:51+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
+  - Summary: FIFA’s network was vulnerable to anyone with even minimal access.
 
 ### Cluster 88d76f4fd8 — score 9
 
@@ -3176,47 +3174,6 @@ The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmor
   - Published: 2026-07-13T15:03:28+00:00
   - Link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
   - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.
-
-### Cluster b47b034408 — score 9
-
-- Title: Vulnerability in FIFA’s Network
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-07-14T11:06:51+00:00
-- Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: legal_professional
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: legal_professional
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-FIFA’s network was vulnerable to anyone with even minimal access.
-```
-
-#### Full body
-
-```
-Duncan Wilcock • July 14, 2026 11:27 PM Reminds me of V for Vendetta, when the emergency broadcast system is takes over “every TV in London” That said, this technical security system failed. The legal and social security system didn’t fail. No one, including the author took over the airwaves and broadcast other content that I know of. Security is many layered, even with holes. So far, the totality of it has worked. Interesting.
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Vulnerability in FIFA’s Network
-  - Published: 2026-07-14T11:06:51+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html
-  - Summary: FIFA’s network was vulnerable to anyone with even minimal access.
 
 ### Cluster ae25d6203b — score 9
 
@@ -3274,7 +3231,7 @@ SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ra
 - Published: 2026-07-17T16:00:00+00:00
 - Link: https://cloud.google.com/blog/products/data-analytics/level-up-your-column-level-security-using-iam-data-governance-tags-in-bigquery/
 - Fetch status: ok
-- Member count: 6
+- Member count: 5
 - Corroborating source count: 2
 - Strong signals: Google Cloud
 
@@ -3398,6 +3355,49 @@ An article from Dive Brief Hackers find a new trick to collect Microsoft Entra u
   - Title: Hackers find a new trick to collect Microsoft Entra user data without raising red flags
   - Published: 2026-07-13T13:35:56+00:00
   - Link: https://www.proofpoint.com/us/newsroom/news/hackers-find-new-trick-collect-microsoft-entra-user-data-without-raising-red-flags
+
+### Cluster 15c6378b6b — score 8
+
+- Title: New North Korean campaign uses fake coding interviews to steal developer credentials
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-07-18T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: financial_services, retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: financial_services, retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.
+```
+
+#### Full body
+
+```
+18 July 2026 • Daniel Stepanic New North Korean campaign uses fake coding interviews to steal developer credentials DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it. 9 min read Threat Intelligence , Malware Analysis Elastic Security Labs found a new Contagious Interview campaign, tracked as REF9403, hiding malware inside SVG image files using steganography. To our knowledge, this specific infection chain has not been previously documented. We found it after the DPRK-aligned group targeted our own community Slack workspace with a fake job posting and a "coding challenge" project. Any user who ran the project ended up with a four-stage payload aligned with OTTERCOOKIE: a browser credential and crypto wallet stealer, a file stealer, a Socket.IO-based remote access trojan (RAT), and a clipboard stealer. This campaign reinforces that developers remain a prime target, where the compromise of a single individual can provide the initial access needed to enable far-reaching supply chain attacks against downstream organizations. Key takeaways Elastic Security Labs discovers new activity aligned with Contagious Interview targeting developers Campaigns involve coding challenges and take-home assignments with benign-looking projects containing malicious backdoored code Projects hide payloads with steganography in SVG image files The distributed malware shares technical and behavioral similarities with OTTERCOOKIE How Elastic discovered this malware campaign This investigation started differently from most of our previous research. Instead of using telemetry to surface interesting threats, we were alerted to suspicious activity targeting members of our community Slack workspace with socially engineered, ad hoc job offers. For background, we use the community Slack platform to engage with and solve problems for our users, focusing on providing product support and syncing on new updates. We’ve reported on this technique several times : threat actors targeting developers in open forums with lures of coding side-work. The lucrative offers lead to the requirement to load specific libraries, tools, scripts, etc., into the code the developer is crafting. These components are created by the threat actors and once they’re executed by the developers, they are able to load additional malware and gain remote access to the developer host. From there, the threat actors can steal credentials, keys, wallets, or use the access to gain access to additional systems. We did not find evidence that the lures were targeted at Elastic users specifically, but any open forum where developers congregate is a potential watering hole. On May 26, 2026, a user named Maxwell posted in our #jobs channel, stating that they were upgrading an e-commerce platform and were looking for an experienced developer to help with the project. They strategically moved their interactions with interested users into direct messages (DM). In these direct messages, Maxwell requested that users perform a test challenge as part of the job offer. These recipients were given a trojanized repository that, when executed, contained malware that exfiltrated sensitive files and credentials and configured a Socket.IO backdoor. Building on this initial case, we found multiple campaigns exhibiting the same underlying behavior. These trojanized repositories at the time of writing have zero detections and are not flagged by any AV vendors: next-ecommerce-private-main.zip shopping-platform-main.zip ecommerce-platform.zip ecommerce-platform-main.zip shopping-platform.rar shop-main.zip ecommerce-main.zip These fake challenges operate similarly, containing fully functional code. Our first sample was a Next.js e-commerce template that was copied from GreatStackDev called GoCart . The threat actors tampered with this repository by inserting small snippets of malicious code at various points and using benign variable name
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: New North Korean campaign uses fake coding interviews to steal developer credentials
+  - Published: 2026-07-18T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography
+  - Summary: DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.
 
 ### Cluster 3893223eef — score 8
 
@@ -3818,6 +3818,76 @@ A ransomware attack has stopped milk production at Fairlife, the Coca-Cola dairy
   - Link: https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/
   - Summary: A ransomware attack has stopped milk production at Fairlife, the Coca-Cola dairy brand known for its high-protein milk, protein shakes, and nutrition drinks. Coca-Cola disclosed the incident on July 16, 2026, in a Form 8-K filed with the U.S. Securities and Exchange Commission (SEC). “Product quality and safety have not been impacted. However, as a result of the incident, production operations at fairlife in the United States are temporarily suspended. fairlife’s Canada production operations are … More → The post Ransomware attack halts Coca-Cola’s Fairlife US milk production appeared first on Help Net Security .
 
+### Cluster 3ab4666a65 — score 8
+
+- Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-15T11:07:07+00:00
+- Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+  - Published: 2026-07-15T11:07:07+00:00
+  - Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+  - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
+
+### Cluster 53ef47508e — score 8
+
+- Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-14T13:48:07+00:00
+- Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
+  - Published: 2026-07-14T13:48:07+00:00
+  - Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
+  - Summary: Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
+
 ### Cluster 0dd49c6456 — score 8
 
 - Title: 23andMe Faces New Security Mandates in $18m Data Breach Settlement
@@ -3956,76 +4026,6 @@ Cybersecurity agencies from 12 countries have warned that Russian state-backed h
   - Link: https://www.infosecurity-magazine.com/news/russian-state-hackers-vulnerable/
   - Summary: Cybersecurity agencies from 12 countries have warned that Russian state-backed hackers are actively targeting vulnerable routers using weak SNMP credentials
 
-### Cluster 3ab4666a65 — score 8
-
-- Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-15T11:07:07+00:00
-- Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
-  - Published: 2026-07-15T11:07:07+00:00
-  - Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
-  - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
-
-### Cluster 53ef47508e — score 8
-
-- Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-14T13:48:07+00:00
-- Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-  - Published: 2026-07-14T13:48:07+00:00
-  - Link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-  - Summary: Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one "leaks the broker's confidential OAuth
-
 ### Cluster 9d039b4e42 — score 8
 
 - Title: From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal
@@ -4072,13 +4072,13 @@ This is a follow-up to my previous Terminal DiLLMa research , and there is a pos
   - Published: 2026-07-17T14:27:54+00:00
   - Link: https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/
   - Summary: Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek .
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Modular macOS Stealer Uses Kill Loops to Force Password Entry
-  - Published: 2026-07-16T13:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/
-  - Summary: New ClickLock macOS stealer locked victims out of their own system until they surrendered a password
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
   - Published: 2026-07-16T12:33:42+00:00
   - Link: https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
   - Summary: ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Modular macOS Stealer Uses Kill Loops to Force Password Entry
+  - Published: 2026-07-16T13:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/
+  - Summary: New ClickLock macOS stealer locked victims out of their own system until they surrendered a password
