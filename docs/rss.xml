@@ -6,9 +6,54 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 20 Jul 2026 22:06:10 +0000</lastBuildDate>
+<lastBuildDate>Mon, 20 Jul 2026 23:11:46 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Estée Lauder discloses data breach via Oracle E-Business flaw</title>
+<link>https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/</link>
+<description><![CDATA[Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]<br/><br/><em>Tags: SonicWall · Google/Gemini · Cl0p · CVE-2025-61882 · ransomware_extortion · zero_day · data_breach</em>]]></description>
+<pubDate>Mon, 20 Jul 2026 22:39:30 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>SonicWall</category>
+<category>Google/Gemini</category>
+<category>Cl0p</category>
+<category>CVE-2025-61882</category>
+</item>
+<item>
+<title>CVE-2026-60137 / CVE-2026-63030 | WordPress Core SQL Injection and Pre-Authentication Remote Code Execution Vulnerabilities</title>
+<link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/</link>
+<description><![CDATA[CVE-2026-60137 and CVE-2026-63030 can be chained to enable unauthenticated remote code execution against vulnerable WordPress Core installations. Learn how to validate exposure and verify remediation.<br/><br/><em>Tags: WordPress · CVE-2026-60137 · CVE-2026-63030</em>]]></description>
+<pubDate>Mon, 20 Jul 2026 22:32:11 +0000</pubDate>
+<guid isPermaLink="true">https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/</guid>
+<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
+<category>offensive_vulnerability_research</category>
+<category>WordPress</category>
+<category>CVE-2026-60137</category>
+<category>CVE-2026-63030</category>
+</item>
+<item>
+<title>SonicWall SMA1000 flaws exploited as zero-days to push custom malware</title>
+<link>https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/</link>
+<description><![CDATA[Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]<br/><br/><em>Tags: SonicWall · zero_day</em>]]></description>
+<pubDate>Mon, 20 Jul 2026 22:23:23 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>SonicWall</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>Hackers steal $23.7 million in crypto from Ostium in off-chain attack</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/</link>
+<description><![CDATA[The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]]]></description>
+<pubDate>Mon, 20 Jul 2026 22:22:56 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Introducing the Amazon GuardDuty investigation agent: on-demand AI-powered threat assessment</title>
 <link>https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/</link>
@@ -737,16 +782,6 @@
 <category>WordPress</category>
 </item>
 <item>
-<title>Abbott probes two cyber incidents amid extortion claims</title>
-<link>https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/</link>
-<description><![CDATA[Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Fri, 17 Jul 2026 20:45:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>CVE-2026-15409 / CVE-2026-15410 | SonicWall SMA1000 Server-Side Request Forgery and Code Injection Vulnerabilities</title>
 <link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/</link>
 <description><![CDATA[CVE-2026-15409 and CVE-2026-15410 are actively exploited SonicWall SMA1000 vulnerabilities that can be chained for unauthenticated system compromise. Learn how to validate exposure and verify remediation.<br/><br/><em>Tags: SonicWall · CVE-2026-15409 · CVE-2026-15410 · active_exploitation</em>]]></description>
@@ -824,16 +859,6 @@
 <guid isPermaLink="true">https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/</guid>
 <source url="https://citizenlab.ca/feed/">Citizen Lab</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload</title>
-<link>https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/</link>
-<description><![CDATA[A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Fri, 17 Jul 2026 17:56:21 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>ddos</category>
 </item>
 <item>
 <title>New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens</title>
@@ -2011,15 +2036,12 @@
 <item>
 <title>SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data</title>
 <link>https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html</link>
-<description><![CDATA[SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could<br/><br/><em>Tags: Salesforce · Microsoft 365 · CVE-2026-44747 · CVE-2026-27690 · CVE-2026-44761 · phishing_social_eng · ddos · active_exploitation</em>]]></description>
+<description><![CDATA[SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could<br/><br/><em>Tags: CVE-2026-44747</em>]]></description>
 <pubDate>Tue, 14 Jul 2026 18:17:57 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Salesforce</category>
-<category>Microsoft 365</category>
 <category>CVE-2026-44747</category>
-<category>CVE-2026-27690</category>
 </item>
 <item>
 <title>LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts</title>
@@ -2250,6 +2272,24 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>Azure</category>
+</item>
+<item>
+<title>Context Bombs: Using AI Guardrails as a defensive mechanism</title>
+<link>https://www.reddit.com/r/netsec/comments/1uvqpri/context_bombs_using_ai_guardrails_as_a_defensive/</link>
+<description><![CDATA[submitted by /u/tracebit [link] [comments]]]></description>
+<pubDate>Mon, 13 Jul 2026 22:40:04 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uvqpri/context_bombs_using_ai_guardrails_as_a_defensive/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>DOOMQL</title>
+<link>https://simonwillison.net/2026/Jul/13/doomql/#atom-everything</link>
+<description><![CDATA[DOOMQL Peter Gostev built this using GPT-5.6 Sol. This is a lot of fun: DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data? The result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen. It&apos;s implemented as a Python terminal script - I tried it out like this: cd /tmp git clone https://github.com/petergpt/doomql cd doomql uv run host/doomql.py Here&apos;s the huge SQL query that implements a full ray tracer in SQLite using a recursive CTE. Running the above script creates a /tmp/doomql/.doomql/doomql.sqlite SQLite database, which you can explore using Datasette like this: uvx --prerelease=allow --with datasette-apps datasette \ /tmp/doomql/.doomql/doomql.sqlite \ -p 4444 --root --secret 1 --internal internal.db The --with datasette-apps option installs the new Datasette Apps plugin, which supports creating custom HTML+Jav]]></description>
+<pubDate>Mon, 13 Jul 2026 22:34:41 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/13/doomql/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Defending SaaS-based applications against ShinyHunters OAuth abuse</title>
@@ -3200,16 +3240,6 @@
 <guid isPermaLink="true">https://horizon3.ai/downloads/whitepapers/operationalizing-ctem-practical-playbook/</guid>
 <source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>CVE-2026-9181 | Technical Details</title>
-<link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/</link>
-<description><![CDATA[CVE-2026-9181 is a critical path traversal vulnerability affecting Esri ArcGIS Server that could allow unauthenticated attackers to access sensitive files. Validate exposure with NodeZero® Rapid Response.<br/><br/><em>Tags: CVE-2026-9181</em>]]></description>
-<pubDate>Wed, 08 Jul 2026 17:00:06 +0000</pubDate>
-<guid isPermaLink="true">https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/</guid>
-<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2026-9181</category>
 </item>
 <item>
 <title>Protecting Microsoft at AI speed: How SFI proactively hardens our cloud</title>
@@ -12368,7 +12398,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f38545ba280&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fb3f81db820&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20528,7 +20558,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20537,7 +20567,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20546,7 +20576,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20555,7 +20585,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20564,7 +20594,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20574,7 +20604,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20583,7 +20613,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20592,7 +20622,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20601,7 +20631,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20610,7 +20640,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 20 Jul 2026 22:06:10 +0000</pubDate>
+<pubDate>Mon, 20 Jul 2026 23:11:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

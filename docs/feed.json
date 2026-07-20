@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T22:06:10.125001+00:00",
+  "generated_at": "2026-07-20T23:11:45.937152+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
@@ -18,6 +18,13 @@
       "item_count": 15,
       "in_window_count": 4
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -25,11 +32,11 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 25,
       "in_window_count": 0
     },
     "Google Threat Analysis Group": {
@@ -39,12 +46,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -53,25 +60,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 2
     },
     "NCSC UK": {
@@ -88,13 +88,6 @@
       "item_count": 15,
       "in_window_count": 6
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
@@ -109,6 +102,20 @@
       "item_count": 10,
       "in_window_count": 9
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
@@ -116,12 +123,12 @@
       "item_count": 50,
       "in_window_count": 5
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 6
+      "in_window_count": 0
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -130,13 +137,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -144,11 +144,11 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -165,18 +165,18 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -207,26 +207,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -235,11 +221,11 @@
       "item_count": 30,
       "in_window_count": 1
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 0
     },
     "AWS Security Blog": {
@@ -248,6 +234,34 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 10
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -262,20 +276,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 10
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -305,11 +305,11 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Google DeepMind Blog": {
@@ -319,12 +319,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -333,12 +340,12 @@
       "item_count": 20,
       "in_window_count": 19
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -346,13 +353,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -375,18 +375,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 27
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 0
     },
     "CyberScoop": {
@@ -396,11 +389,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 30,
+      "in_window_count": 26
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "Dark Reading": {
@@ -416,6 +416,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -438,19 +445,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -459,8 +459,36 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -479,34 +507,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 50
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -527,7 +527,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 19
+      "in_window_count": 18
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -753,9 +753,9 @@
           "zero_day"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 12,
-      "cohesion": 0.287,
+      "cluster_count": 4,
+      "article_count": 14,
+      "cohesion": 0.248,
       "shared_strong_signals": [
         "SonicWall"
       ],
@@ -763,6 +763,7 @@
       "also_targets": [],
       "cluster_ids": [
         "c951fa224e",
+        "80267f8c40",
         "e4f19d180f",
         "6eddc6b677"
       ],
@@ -771,10 +772,12 @@
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/",
         "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
         "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/",
+        "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
         "https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation",
         "https://www.securityweek.com/sonicwall-zero-days-exploited-to-deliver-custom-malware-for-weeks-before-patch/",
         "https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/",
         "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
+        "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
         "https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/",
         "https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/"
       ]
@@ -836,7 +839,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 13,
+      "article_count": 14,
       "cohesion": 0.225,
       "shared_strong_signals": [
         "WordPress"
@@ -850,6 +853,7 @@
       ],
       "links": [
         "https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/",
         "https://isc.sans.edu/diary/rss/33168",
         "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
         "https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/",
@@ -914,7 +918,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 11,
+      "article_count": 12,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "CVE-2026-15409"
@@ -930,6 +934,7 @@
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/",
         "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
         "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/",
+        "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
         "https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation",
         "https://www.securityweek.com/sonicwall-zero-days-exploited-to-deliver-custom-malware-for-weeks-before-patch/",
         "https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/",
@@ -971,42 +976,6 @@
         "https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions",
         "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
         "https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/"
-      ]
-    },
-    {
-      "label": "Microsoft 365 active exploitation",
-      "anchor_signal": "Microsoft 365",
-      "theme_key": "microsoft-365",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "Microsoft 365",
-          "Salesforce"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.202,
-      "shared_strong_signals": [
-        "Microsoft 365"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "629e6024b5",
-        "2de7ac9412",
-        "ae25d6203b"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-        "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-        "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html"
       ]
     },
     {
@@ -1131,6 +1100,32 @@
         "https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/",
         "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
         "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html"
+      ]
+    },
+    {
+      "label": "Palo Alto Networks vulnerability activity",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
+      "dominant_features": {
+        "affected_products": [
+          "Palo Alto Networks"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.273,
+      "shared_strong_signals": [
+        "Palo Alto Networks"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "d9c1f05e41",
+        "72fdd19b2c"
+      ],
+      "links": [
+        "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
+        "https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/"
       ]
     }
   ],
@@ -1292,6 +1287,27 @@
           "Apple iOS/macOS",
           "Microsoft SharePoint"
         ]
+      },
+      {
+        "actor": "Cl0p",
+        "cluster_id": "80267f8c40",
+        "new_industries": [
+          "education"
+        ],
+        "new_products": [
+          "Google/Gemini",
+          "SonicWall"
+        ],
+        "prior_top_industries": [
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "prior_top_products": [
+          "GitHub",
+          "Microsoft 365",
+          "SolarWinds"
+        ]
       }
     ],
     "persistence": [
@@ -1330,11 +1346,169 @@
         "value": "CVE-2026-39808",
         "cluster_id": "3d70163861",
         "weeks_observed": 3
+      },
+      {
+        "axis": "actor_attribution",
+        "value": "Cl0p",
+        "cluster_id": "80267f8c40",
+        "weeks_observed": 3
       }
     ],
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+      "published": "2026-07-20T22:39:30+00:00",
+      "summary": "Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "zero_day",
+          "data_breach"
+        ],
+        "actor_attribution": [
+          "Cl0p"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "education"
+        ],
+        "affected_products": [
+          "SonicWall",
+          "Google/Gemini"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-61882"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "SonicWall": "target",
+          "Google/Gemini": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 10,
+      "full_body": "Estée Lauder discloses data breach via Oracle E-Business flaw By Bill Toulas July 20, 2026 06:39 PM 0 Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. The company says that last month it identified an intrusion that had occurred on August 9, 2025, which led to the threat actor obtaining \" personal information of certain individuals.\" “We became aware of a cybersecurity issue involving a vulnerability in the Oracle E-Business Suite system which is used by the Estee Lauder Companies for HR management purposes,” the notification says. “On June 19, 2026, we determined through our investigation that, on or around August 9, 2025, an unauthorized third party gained access to the Oracle E-Business Suite system and obtained personal information of certain individuals.” According to a sample of the disclosure letter , the exposed data includes: Full names Postal addresses Email addresses Dates of birth Social Security numbers (SSNs) Passport numbers Financial account information, including bank account numbers Health information Employment information, including payroll and performance reports Estée Lauder is a New York-based cosmetics giant with an annual revenue of $14.3 billion. It is the second-largest cosmetics firm in the world, employing 57,000 people and operating online and physical shops globally. Although the Estée Lauder notice does not disclose the vulnerability exploited in the intrusion, the date of the breach correlates with the mass-exploitation campaign targeting Oracle E-Business Suite through CVE-2025-61882. In October 2025, Google and Mandiant researchers warned of breaches from the Clop ransomware gang exploiting the flaw as a zero-day to steal data. The flaw affected EBS versions 12.2.3–12.2.14 and enabled attackers to bypass authentication and remotely execute code through the BI Publisher Integration component, potentially giving them access to sensitive HR and business data. Oracle released fixes for CVE-2025-61882 on October 4, 2025. Shortly after, cybersecurity firm CrowdStrike confirmed that Clop had been exploiting the flaw since early August, 2025 . Other notable victims of the same campaign include Harvard , the University of Pennsylvania , Dartmouth , the University of Phoenix , The Washington Post , Logitech , GlobalLogic , Cox Enterprises , and the American Airlines subsidiary Envoy Air . Estée Lauder is advising recipients of the breach notification letter to remain vigilant for signs of identity theft and fraud. The company is also offering 24 months of complimentary identity monitoring services through Kroll. Estée Lauder was also compromised by Clop in 2023, when the threat actor exploited another zero-day in the MOVEit Transfer platform, one of the firm's internal software tools. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Kubota says hackers had month-long access to network systems Over 900 Oracle E-Business instances exposed to ongoing attacks Hackers now exploit critical Oracle E-Business flaw in attacks SonicWall SMA1000 flaws exploited as zero-days to push custom malware Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Horizon3 Attack Research",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "CVE-2026-60137 / CVE-2026-63030 | WordPress Core SQL Injection and Pre-Authentication Remote Code Execution Vulnerabilities",
+      "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/",
+      "published": "2026-07-20T22:32:11+00:00",
+      "summary": "CVE-2026-60137 and CVE-2026-63030 can be chained to enable unauthenticated remote code execution against vulnerable WordPress Core installations. Learn how to validate exposure and verify remediation.",
+      "author": "Horizon3.ai",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-60137",
+          "CVE-2026-63030"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {
+          "WordPress": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 32
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
+      "published": "2026-07-20T22:23:23+00:00",
+      "summary": "Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]",
+      "author": "Lawrence Abrams",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "SonicWall"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "SonicWall": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 10
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Hackers steal $23.7 million in crypto from Ostium in off-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/",
+      "published": "2026-07-20T22:22:56+00:00",
+      "summary": "The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "AWS Security Blog",
       "cohort": "cloud_identity_infrastructure",
@@ -2567,7 +2741,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2595,7 +2769,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -3693,36 +3867,6 @@
       "score": 6
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Abbott probes two cyber incidents amid extortion claims",
-      "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-      "published": "2026-07-17T20:45:52+00:00",
-      "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]",
-      "author": "Lawrence Abrams",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
-    },
-    {
       "source": "Horizon3 Attack Research",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -3978,38 +4122,6 @@
       "score": 10,
       "full_body": "Date Published July 17, 2026 Topics Targeted Surveillance advertising intelligence , telecommunications Mentions Gary Miller Share Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. “Iran absolutely has capabilities to get real-time, immediate, and continuous location information,” he said. “It would surprise me very much if Iran were not using SS7, or mobile network access in the region, to track US users.” According to Miller, at least some of the tracking attempts can be linked to an Iranian mobile phone operator. “This appears to be very specific user targeting,” he said. Read more More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026 News + Updates → In the Media How Freedom Tech Is Pushing Back Against Digital Authoritarianism JUNE 17, 2026 News + Updates → In the Media Spying Via Your Mobile Phone Companies Can Locate Any Device at Any Time JUNE 15, 2026",
       "fetch_status": "ok"
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-      "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-      "published": "2026-07-17T17:56:21+00:00",
-      "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 6
     },
     {
       "source": "The Hacker News",
@@ -7827,42 +7939,26 @@
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "ddos",
-          "active_exploitation"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Salesforce",
-          "Microsoft 365"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-44747",
-          "CVE-2026-27690",
-          "CVE-2026-44761"
+          "CVE-2026-44747"
         ],
         "attack_techniques": [],
         "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth",
           "critical_cvss"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Salesforce": "target",
-          "Microsoft 365": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data  Ravie Lakshmanan  Jul 14, 2026 Enterprise Security / Vulnerability SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. \"As a temporary workaround the note proposes to disable all ICF nodes with a specific property in transaction SICF,\" SAP security firm Onapsis said . \"Since the workaround will disable opening transactions in SAP GUI for HTML, it is not an option for all customers and it is strongly recommended to install the patching ABAP Kernel version.\" Also addressed by SAP are two other critical vulnerabilities - CVE-2026-27690 (CVSS score: 9.1) - An HTTP request/response smuggling flaw in SAP Approuter deployments in non-Cloud Foundry environments that allows an unauthenticated attacker to send a specially crafted HTTP request that leads to request-response desynchronization and results in the exposure of user responses and triggers denial-of-service (DoS) attacks. CVE-2026-44761 (CVSS score: 9.1) - A use of default credentials flaw in SAP Commerce Cloud that could retain a sample OAuth 2.0 client with publicly documented sample credentials originating from a sample configuration provided in SAP Help Portal documentation. \"If left unchanged, an unauthenticated attacker could use these well-known credentials to obtain a valid access token and invoke certain APIs to read and modify data,\" according to a description of CVE-2026-44761 in the NIST National Vulnerability Database (NVD). \"Successful exploitation results in high impact on confidentiality and integrity, with no impact on availability.\" Onapsis noted that the vulnerability stems from sample configuration scripts previously provided in the SAP Help Portal. These scripts, originally meant for development and testing, configure OAuth 2.0 clients with hard-coded, well-known credentials. \"Older versions of the documentation did not explicitly warn customers against importing these default settings into production,\" it noted. \"An unauthenticated attacker can leverage these publicly available, default credentials to obtain a valid access token. With this token, they can invoke specific APIs to read and alter system data. Exploitation requires that the customer executed the sample script and retained the resulting OAuth 2.0 client in production without replacing the hard-coded secret.\" It's worth noting that customers who removed the sample client or replaced the secret with a strong, unique value are not impacted by the bug. Customers are recommended to audit their production environments for the presence of the affected sample OAuth 2.0 client. If the client exists, it must be removed. Although there is no evidence of the flaws being exploited in the wild, it's advised to apply the necessary updates for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Application Security , Authentication Security , Cloud security , data security , denial of service , enterprise security , SAP , Vulnerability , Web Security ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to",
-      "fetch_status": "ok"
+      "score": 9
     },
     {
       "source": "The Hacker News",
@@ -8606,6 +8702,60 @@
         }
       },
       "score": 8
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Context Bombs: Using AI Guardrails as a defensive mechanism",
+      "link": "https://www.reddit.com/r/netsec/comments/1uvqpri/context_bombs_using_ai_guardrails_as_a_defensive/",
+      "published": "2026-07-13T22:40:04+00:00",
+      "summary": "submitted by /u/tracebit [link] [comments]",
+      "author": "/u/tracebit",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "DOOMQL",
+      "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+      "published": "2026-07-13T22:34:41+00:00",
+      "summary": "DOOMQL Peter Gostev built this using GPT-5.6 Sol. This is a lot of fun: DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data? The result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen. It's implemented as a Python terminal script - I tried it out like this: cd /tmp git clone https://github.com/petergpt/doomql cd doomql uv run host/doomql.py Here's the huge SQL query that implements a full ray tracer in SQLite using a recursive CTE. Running the above script creates a /tmp/doomql/.doomql/doomql.sqlite SQLite database, which you can explore using Datasette like this: uvx --prerelease=allow --with datasette-apps datasette \\ /tmp/doomql/.doomql/doomql.sqlite \\ -p 4444 --root --secret 1 --internal internal.db The --with datasette-apps option installs the new Datasette Apps plugin, which supports creating custom HTML+Jav",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Microsoft Security Blog",
@@ -11486,37 +11636,6 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Horizon3 Attack Research",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "CVE-2026-9181 | Technical Details",
-      "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9181/",
-      "published": "2026-07-08T17:00:06+00:00",
-      "summary": "CVE-2026-9181 is a critical path traversal vulnerability affecting Esri ArcGIS Server that could allow unauthenticated attackers to access sensitive files. Validate exposure with NodeZero® Rapid Response.",
-      "author": "Horizon3.ai",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-9181"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
@@ -39124,7 +39243,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f38545ba280>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fb3f81db820>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
