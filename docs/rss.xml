@@ -6,9 +6,28 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 21 Jul 2026 20:22:08 +0000</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 22:08:29 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Ransomware Is Accelerating, But It&apos;s Not Because of AI</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai</link>
+<description><![CDATA[Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Tue, 21 Jul 2026 21:48:05 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task</title>
+<link>https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task</link>
+<description><![CDATA[The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.]]></description>
+<pubDate>Tue, 21 Jul 2026 21:27:37 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Critical SharePoint RCE flaw exploited to steal machine keys</title>
 <link>https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/</link>
@@ -290,11 +309,12 @@
 <item>
 <title>300 WINtegrations Strong: An Open Security Ecosystem Built for the Speed of AI</title>
 <link>https://www.wiz.io/blog/wiz-integration-network-reaches-300</link>
-<description><![CDATA[As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.]]></description>
+<description><![CDATA[As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.<br/><br/><em>Tags: zero_day</em>]]></description>
 <pubDate>Tue, 21 Jul 2026 12:35:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-integration-network-reaches-300</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Early Edition: July 21, 2026</title>
@@ -1837,19 +1857,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Microsoft’s Record 622-CVE July 2026 Patch Tuesday Ships an Actively Exploited SharePoint Zero-Day</title>
-<link>https://orca.security/resources/blog/microsoft-july-2026-patch-tuesday-sharepoint-zero-day/</link>
-<description><![CDATA[Microsoft’s July 2026 Patch Tuesday is the largest in the company’s history, addressing 622 CVEs across Windows, Office, Azure, SharePoint, Exchange, and more. Buried inside that record volume is the fix that should jump to the top of every cloud security team’s list: CVE-2026-56164, an unauthenticated, actively exploited zero-day in SharePoint Server. If you run […]<br/><br/><em>Tags: Microsoft SharePoint · Azure · CVE-2026-56164 · zero_day · active_exploitation</em>]]></description>
-<pubDate>Wed, 15 Jul 2026 19:55:05 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/microsoft-july-2026-patch-tuesday-sharepoint-zero-day/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>Microsoft SharePoint</category>
-<category>Azure</category>
-<category>CVE-2026-56164</category>
-<category>zero_day</category>
-</item>
-<item>
 <title>TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development</title>
 <link>https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html</link>
 <description><![CDATA[Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit with not so successful results. &quot;While the AI complied with their request to generate botnet code, it included a safety disclaimer that the developer failed]]></description>
@@ -2157,15 +2164,11 @@
 <item>
 <title>Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities</title>
 <link>https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/</link>
-<description><![CDATA[Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as &quot;critical.&quot;<br/><br/><em>Tags: Cisco · Microsoft SharePoint · Microsoft Windows · CVE-2026-56155 · CVE-2026-56164 · CVE-2026-50370 · CVE-2026-50518 · CVE-2026-54128</em>]]></description>
+<description><![CDATA[Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as &quot;critical.&quot;]]></description>
 <pubDate>Tue, 14 Jul 2026 20:27:33 +0000</pubDate>
 <guid isPermaLink="true">https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/</guid>
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
-<category>Cisco</category>
-<category>Microsoft SharePoint</category>
-<category>Microsoft Windows</category>
-<category>CVE-2026-56155</category>
 </item>
 <item>
 <title>6 GHz Wi-Fi Flaws Could Disrupt Critical Systems</title>
@@ -2382,6 +2385,15 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/macos-malware-apple-crash-reporter/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Smashing the ServiceNow Sandbox – Pre Authentication RCE</title>
+<link>https://www.reddit.com/r/netsec/comments/1uw5msa/smashing_the_servicenow_sandbox_pre/</link>
+<description><![CDATA[submitted by /u/Mempodipper [link] [comments]]]></description>
+<pubDate>Tue, 14 Jul 2026 11:10:47 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uw5msa/smashing_the_servicenow_sandbox_pre/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Vulnerability in FIFA’s Network</title>
@@ -3572,15 +3584,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>State IDs for AI Agents: Will Estonia Set a Precedent?</title>
-<link>https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia</link>
-<description><![CDATA[The world&apos;s digital testing ground plans to help people use AI agents for government purposes.]]></description>
-<pubDate>Wed, 08 Jul 2026 08:01:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>LoTL Abuse: How to Spot It vs. Normal Admin Activity | Huntress</title>
 <link>https://www.huntress.com/blog/lotl-abuse-warning-signs</link>
 <description><![CDATA[LoTL abuse hides in plain sign, using legit tools like PowerShell and RMM software. Learn how to spot the warning signs that separate from routine IT work.]]></description>
@@ -3670,16 +3673,6 @@
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Big Brand Jobs Scam Targets Marketing Pros&apos; Google Accounts</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts</link>
-<description><![CDATA[The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Tue, 07 Jul 2026 21:02:29 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies</title>
@@ -12402,7 +12395,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f0cdf76c160&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f2d63f375e0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20489,7 +20482,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20499,7 +20492,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20508,7 +20501,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20517,7 +20510,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20526,7 +20519,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20535,7 +20528,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20544,7 +20537,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20554,7 +20547,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20563,7 +20556,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20572,7 +20565,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 22:08:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
