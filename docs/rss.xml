@@ -6,9 +6,49 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 21 Jul 2026 18:19:38 +0000</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 20:22:08 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Critical SharePoint RCE flaw exploited to steal machine keys</title>
+<link>https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/</link>
+<description><![CDATA[Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]<br/><br/><em>Tags: Microsoft SharePoint · CVE-2026-50522</em>]]></description>
+<pubDate>Tue, 21 Jul 2026 20:06:55 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>CVE-2026-50522</category>
+</item>
+<item>
+<title>Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak</title>
+<link>https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/</link>
+<description><![CDATA[The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola&apos;s Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Tue, 21 Jul 2026 18:50:54 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>data_breach</category>
+</item>
+<item>
+<title>Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs</title>
+<link>https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html</link>
+<description><![CDATA[Apple has moved to address a security flaw in its Hide My Email service that enabled users&apos; real email addresses to be unmasked, effectively undermining the feature&apos;s privacy guarantees. 404 Media reported Tuesday that a fix for the issue was deployed by Apple on July 3, 2026, after more than a year, when it was disclosed to the company by Tyler Murphy, co-founder of EasyOptOuts. Hide My Email]]></description>
+<pubDate>Tue, 21 Jul 2026 18:46:32 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Hacker Turns AI Jailbreaks Into Offensive Attack Platform</title>
+<link>https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform</link>
+<description><![CDATA[A Russian-speaking actor, &quot;Trim,&quot; dismantled publicly available frontier models and integrated them with offensive security tools.]]></description>
+<pubDate>Tue, 21 Jul 2026 18:38:52 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Why Exposure Management Is Replacing Vulnerability Management</title>
 <link>https://horizon3.ai/intelligence/blogs/exposure-vs-vulnerability-management/</link>
@@ -259,7 +299,7 @@
 <item>
 <title>Early Edition: July 21, 2026</title>
 <link>https://www.justsecurity.org/148592/early-edition-july-21-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=early-edition-july-21-2026</link>
-<description><![CDATA[Sign up to receive the Early Edition in your inbox here. A curated guide to major news and developments over the weekend. Here’s today’s news: IRAN WAR The United States conducted its 10th consecutive night of strikes on Iran, as Iran attacked a tanker off the coast of Oman in the Strait of Hormuz early this […] The post Early Edition: July 21, 2026 appeared first on Just Security .]]></description>
+<description><![CDATA[Signup to receive the Early Edition in your inbox here. A curated weekday guide to major news and developments over the last 24 hours. Here’s today’s news: IRAN WAR The United States conducted its 10th consecutive night of strikes on Iran, as Iran attacked a tanker off the coast of Oman in the Strait of […] The post Early Edition: July 21, 2026 appeared first on Just Security .]]></description>
 <pubDate>Tue, 21 Jul 2026 12:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.justsecurity.org/148592/early-edition-july-21-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=early-edition-july-21-2026</guid>
 <source url="https://www.justsecurity.org/feed/">Just Security</source>
@@ -302,6 +342,16 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Generosity Under Conditions: Hardening Google Cloud Access Management</title>
+<link>https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/</link>
+<description><![CDATA[In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Tue, 21 Jul 2026 11:19:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
 </item>
 <item>
 <title>Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack</title>
@@ -469,7 +519,7 @@
 <item>
 <title>The New Hotness in Phishing: Device Code Attacks in M365</title>
 <link>https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365</link>
-<description><![CDATA[&lt;p&gt;Device code phishing has a quality that makes it unusually effective: it does not follow the pattern of traditional phishing attacks. The victim ends up granting access to the attacker by completing a genuine sign-in on…&lt;/p&gt;<br/><br/><em>Tags: Microsoft Entra · phishing_social_eng</em>]]></description>
+<description><![CDATA[&lt;p&gt;Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.&lt;/p&gt;<br/><br/><em>Tags: Microsoft Entra · phishing_social_eng</em>]]></description>
 <pubDate>Tue, 21 Jul 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
@@ -493,7 +543,7 @@
 <item>
 <title>Estée Lauder discloses data breach via Oracle E-Business flaw</title>
 <link>https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/</link>
-<description><![CDATA[Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]<br/><br/><em>Tags: SonicWall · Google/Gemini · Cl0p · CVE-2025-61882 · ransomware_extortion · zero_day · data_breach</em>]]></description>
+<description><![CDATA[Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]<br/><br/><em>Tags: SonicWall · Google/Gemini · Cl0p · CVE-2025-61882 · ransomware_extortion · zero_day · data_breach</em>]]></description>
 <pubDate>Mon, 20 Jul 2026 22:39:30 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
@@ -790,15 +840,6 @@
 <guid isPermaLink="true">https://www.justsecurity.org/148333/early-edition-july-20-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=early-edition-july-20-2026</guid>
 <source url="https://www.justsecurity.org/feed/">Just Security</source>
 <category>policy_strategy_geopolitics</category>
-</item>
-<item>
-<title>Hugging Face warns an autonomous AI agent hacked its network</title>
-<link>https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/</link>
-<description><![CDATA[The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]]]></description>
-<pubDate>Mon, 20 Jul 2026 11:56:28 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction</title>
@@ -1882,16 +1923,6 @@
 <category>Google/Gemini</category>
 </item>
 <item>
-<title>OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps</title>
-<link>https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html</link>
-<description><![CDATA[A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase. On an infected PC, the request comes from inside the wallet&apos;s own desktop software. Sometimes it waits until you plug the device in first. The page is malicious. The app around it is the real one you installed, and<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Wed, 15 Jul 2026 15:30:30 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>Claude Flaw Automatically Sends Malicious Prompts to AI Agents</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents</link>
 <description><![CDATA[When combined with another exploit, the &quot;PromptFiction&quot; vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
@@ -2173,6 +2204,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>Security Hub adds AI workload protection and multicloud support for Microsoft Azure</title>
+<link>https://aws.amazon.com/blogs/security/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/</link>
+<description><![CDATA[Security Hub is our foundation for full-stack enterprise security across clouds. It centralizes your security operations and turns raw signals into prioritized insights, so your team spends its time managing real risk instead of stitching tools together. Today that foundation grows in two directions our customers asked for most. We are adding purpose-built protection for […]]]></description>
+<pubDate>Tue, 14 Jul 2026 19:16:57 +0000</pubDate>
+<guid isPermaLink="true">https://aws.amazon.com/blogs/security/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/</guid>
+<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)</title>
 <link>https://isc.sans.edu/diary/rss/33154</link>
 <description><![CDATA[This patch Tuesday includes a staggering&amp;#;x26;#;xc2;&amp;#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&amp;#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.]]></description>
@@ -2189,15 +2229,6 @@
 <guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Google named a Leader in the 2026 IDC MarketScape for Worldwide Foundation Model Software</title>
-<link>https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/</link>
-<description><![CDATA[For years, we’ve built with a clear priority: putting the practical needs of the enterprise first. Long before generative AI dominated the headlines, we were focused on building the global infrastructure, security frameworks, and data platforms that power the world&apos;s largest organizations. We’ve always believed that technology is only as good as its reliability, security, and predictability in production. By anchoring our frontier research to this enterprise foundation, we can deliver models built specifically for business impact. We believe that approach is why Google has been named a Leader in the IDC MarketScape: Worldwide Foundation Model Software 2026 Vendor Assessment 1 and highlights our history of turning cutting-edge frontier research into secure, production-grade systems that developers can deploy at scale. We believe Google’s position as a Leader highlights the exact momentum we are seeing in the market and validates the unique strength of our integrated, first-party AI stac]]></description>
-<pubDate>Tue, 14 Jul 2026 18:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Manage Vendor Risk in a Few Practical Steps</title>
@@ -2351,15 +2382,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/macos-malware-apple-crash-reporter/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Smashing the ServiceNow Sandbox – Pre Authentication RCE</title>
-<link>https://www.reddit.com/r/netsec/comments/1uw5msa/smashing_the_servicenow_sandbox_pre/</link>
-<description><![CDATA[submitted by /u/Mempodipper [link] [comments]]]></description>
-<pubDate>Tue, 14 Jul 2026 11:10:47 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uw5msa/smashing_the_servicenow_sandbox_pre/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Vulnerability in FIFA’s Network</title>
@@ -3658,15 +3680,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Dialogflow CX &apos;Rogue Agent&apos; Flaw Enabled AI Chatbot Data Theft</title>
-<link>https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft</link>
-<description><![CDATA[Varonis reported the flaw to Google in late 2025 and it has been addressed, but it reminds defenders to take a fresh look at their AI Infrastructure security.]]></description>
-<pubDate>Tue, 07 Jul 2026 20:36:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies</title>
@@ -12389,7 +12402,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f13003a9af0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f0cdf76c160&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -12882,9 +12895,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>It’s Official: Wiz Joins Google</title>
+<title>C&apos;est officiel : Wiz rejoint Google</title>
 <link>https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</link>
-<description><![CDATA[Welcoming a new era of Cloud and AI Security.]]></description>
+<description><![CDATA[Bienvenue dans une nouvelle ère de la sécurité du cloud et de l&apos;IA.]]></description>
 <pubDate>Wed, 11 Mar 2026 12:41:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -19507,16 +19520,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Perma-Vuln: D-Link DIR-859, CVE-2024-0769</title>
-<link>https://www.greynoise.io/blog/perma-vuln-d-link-dir-859-cve-2024-0769</link>
-<description><![CDATA[We&apos;ve uncovered a path traversal vulnerability in the D-Link DIR-859 router that leads to information disclosure. This exploit allows extraction of account details and poses long-term risks since the product is End-of-Life and won&apos;t be patched.<br/><br/><em>Tags: CVE-2024-0769</em>]]></description>
-<pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/perma-vuln-d-link-dir-859-cve-2024-0769</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
-<category>CVE-2024-0769</category>
-</item>
-<item>
 <title>Trend Micro #1 in Vulnerability Disclosure, Helping Prevent Breaches and Save Businesses Millions</title>
 <link>https://newsroom.trendmicro.com/2024-06-25-Trend-Micro-1-in-Vulnerability-Disclosure,-Helping-Prevent-Breaches-and-Save-Businesses-Millions</link>
 <description><![CDATA[<br/><br/><em>Tags: vulnerability_disclosure</em>]]></description>
@@ -20486,7 +20489,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20496,7 +20499,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20505,7 +20508,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20514,7 +20517,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20523,7 +20526,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20532,7 +20535,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20541,7 +20544,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20551,7 +20554,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20560,7 +20563,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20569,7 +20572,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 18:19:38 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 20:22:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
