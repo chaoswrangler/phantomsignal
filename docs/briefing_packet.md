@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-21T22:08:29.459587+00:00
+- Generated: 2026-07-21T23:59:51.427755+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 339
+- Total items in window: 336
 - Total clusters raw: 148
 - Total clusters in packet: 71
 - Dropped low score: 77
@@ -70,6 +70,11 @@
 
 ## Feed status
 
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -80,31 +85,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 15
-  - In window count: 4
+  - Item count: 25
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -115,16 +115,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -140,53 +140,63 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -199,16 +209,6 @@
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
   - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
@@ -240,31 +240,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 7
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -285,11 +285,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -305,11 +300,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 100
+  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -320,16 +315,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 10
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,13 +340,23 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 25
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 24
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+  - In window count: 22
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,58 +365,33 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 25
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 6
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,6 +400,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -425,16 +430,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - Item count: 10
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 22
+  - In window count: 21
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -493,8 +493,8 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
   - https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/
   - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
-  - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
   - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
+  - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
   - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
   - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
   - https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137
@@ -533,8 +533,8 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
   - https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/
   - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
-  - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
   - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
+  - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
   - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
   - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
   - https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild
@@ -559,44 +559,14 @@
   - affected_industries: manufacturing_industrial
   - affected_products: Microsoft 365
   - urgency_signals: zero_day, actively_exploited
-- Cluster IDs: 3d70163861, 629e6024b5, 46fba7fb46, 593ff08377, 2de7ac9412, ed4aa2806d
+- Cluster IDs: 3d70163861, 629e6024b5, 2de7ac9412, 46fba7fb46, 593ff08377, ed4aa2806d
 - Links:
   - https://www.infosecurity-magazine.com/news/cisa-urgent-patch-fortinet/
   - https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
+  - https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
   - https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
   - https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
-  - https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
   - https://www.securityweek.com/clover-health-investments-discloses-data-breach/
-
-### SonicWall active exploitation
-- Anchor signal: SonicWall
-- Theme key: sonicwall
-- Cluster count: 4
-- Article count: 13
-- Cohesion: 0.243
-- Shared strong signals: SonicWall
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, phishing_social_eng, data_breach
-  - actor_attribution: Scattered Spider
-  - affected_industries: manufacturing_industrial
-  - affected_products: SonicWall, WordPress, Microsoft SharePoint
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: c951fa224e, 23d8608b27, 593ff08377, 80267f8c40
-- Links:
-  - https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
-  - https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/
-  - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
-  - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
-  - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
-  - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
-  - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
-  - https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/
-  - https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
-  - https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
-  - https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -642,27 +612,6 @@
   - https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
   - https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
   - https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
-
-### Cl0p exploitation (CVE-2025-61882)
-- Anchor signal: Cl0p
-- Theme key: cl0p
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.706
-- Shared strong signals: Cl0p
-- Member CVEs: CVE-2025-61882
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, data_breach, ransomware_extortion
-  - actor_attribution: Cl0p
-  - affected_industries: financial_services
-  - cve_ids: CVE-2025-61882
-  - urgency_signals: zero_day, preauth_unauth
-- Cluster IDs: 46fba7fb46, 80267f8c40, 379b389c21
-- Links:
-  - https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
-  - https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
-  - https://www.helpnetsecurity.com/2026/07/21/estee-lauder-data-breach-oracle-ebs/
 
 ### zero day targeting Palo Alto Networks
 - Anchor signal: Palo Alto Networks
@@ -764,6 +713,42 @@
   - https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/
   - https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
   - https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/
+
+### Kubernetes active exploitation
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.322
+- Shared strong signals: Kubernetes
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_products: Kubernetes
+  - urgency_signals: actively_exploited
+- Cluster IDs: 9e0819b3d1, 9454090822
+- Links:
+  - https://orca.security/resources/blog/cve-2026-42533-nginx-heap-buffer-overflow/
+  - https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
+  - https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026
+
+### Cisco vulnerability activity
+- Anchor signal: Cisco
+- Theme key: cisco
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.583
+- Shared strong signals: Cisco
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: financial_services
+  - affected_products: Cisco
+- Cluster IDs: 2c8659a3fa, 7433206cfe
+- Links:
+  - https://blog.talosintelligence.com/begun-the-patch-wars-have/
+  - https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/
 
 ## Forward signals
 
@@ -909,16 +894,16 @@ Back to Blog Vulnerabilities and Exploits Rapid7 MDR Team Discovers New SonicWal
   - Published: 2026-07-17T22:10:37+00:00
   - Link: https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
   - Summary: In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through […] The post Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation appeared first on Volexity .
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: SonicWall SMA1000 flaws exploited as zero-days to push custom malware
-  - Published: 2026-07-20T22:23:23+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
-  - Summary: Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]
 - **Sophos X-Ops** (detection_response_operations)
   - Title: SonicWall SMA1000 vulnerabilities in active exploitation
   - Published: 2026-07-15T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
   - Summary: Categories: Threat Research Tags: advisory, Vulnerabilities, SonicWall
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: SonicWall SMA1000 flaws exploited as zero-days to push custom malware
+  - Published: 2026-07-20T22:23:23+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
+  - Summary: Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: ⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More
   - Published: 2026-07-20T13:32:26+00:00
@@ -1620,52 +1605,6 @@ Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Acce
   - Link: https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
   - Summary: The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]
 
-### Cluster d1f6dab23f — score 16
-
-- Title: The Risk of Exposed Cloud Functions and How to Harden
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-07-15T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
-```
-
-#### Full body
-
-```
-Threat Intelligence The Risk of Exposed Cloud Functions and How to Harden July 15, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these principles apply universally to any public serverless deployment. What are Serverless Applications? Serverless applications, also described as Function-as-a-Service (FaaS), allow the deployment of individual blocks of code as microservices within a flexible, decoupled, and event-driven cloud architecture without the need to manage underlying infrastructure. These services enable applications and automations to scale automatically and deploy instantly, removing operational overhead. Serverless services underpin major e-commerce, media, payment processing applications, and AI usage. The rapid expansion of generative AI adoption is a significant driver of increased serverless architecture use. AI workflows, including chatbot interactions, image generation, “vibe-coding”, and multi-step AI agents rely on serverless functions to complete tasks for users. This growth has made securing serverless environments a more pressing challenge for enterprise security teams. Risks of Serverless Application Attacks Publicly exposed serverless workloads can serve as an initial access point for threat actors. As noted, these services may contain vulnerabilities within the code, imported packages, or the underlying runtime environment. Once an entry point is exploited, attackers typically attempt to escalate privileges or move laterally. Common techniques observed include: Extracting secrets stored directly within the application code. Reviewing application logic and sensitive data to identify further attack vectors within the environment. Exfiltrating service account bearer tokens from the metadata server following successful Remote Code Execution (RCE). Leveraging these compromised secrets or service accounts allows threat actors to pivot to adjacent systems and workloads, potentially resulting in a total environment takeover if proper hardening strategies are not in place. Example Attack Scenarios The following simplified scenarios illustrate how serverless functions can be compromised and how attackers pivot after achieving initial code execution. Local File Inclusion (LFI) In the following Cloud Run example, a Python/Flask function accepts user-controlled input to open a file without performing proper validation. This pattern is an example of a Local File Inclusion (LFI) vulnerability. import functions_framework @functions_framework.http def hello_http(request): request_json = request.get_json(silent=True) request_args = request.args if request_json and 'file' in request_json: file = request_json['file'] elif request_args and 'file' in request_args: file = request_args['file'] # VULNERABILITY: The 'file' parameter is used directly in open() # without validation, allowing arbitrary file access with open(file, 'r') as resp: filedata = resp.read() return 'local file data {}!'.format(f
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: The Risk of Exposed Cloud Functions and How to Harden
-  - Published: 2026-07-15T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
-  - Summary: Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: The Risk of Exposed Cloud Functions and How to Harden
-  - Published: 2026-07-15T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
-  - Summary: Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
-
 ### Cluster 3fe79c75d4 — score 16
 
 - Title: Investigating Persistence Mechanisms in AWS
@@ -2179,94 +2118,6 @@ Risky Bulletin Podcast July 20, 2026 Risky Bulletin: Hacker wipes Romania's enti
   - Link: https://risky.biz/RBNEWS589/
   - Summary: A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.
 
-### Cluster 0256f627d7 — score 11
-
-- Title: Generosity Under Conditions: Hardening Google Cloud Access Management
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-21T11:19:00+00:00
-- Link: https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 2
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific
-```
-
-#### Full body
-
-```
-Developers & Practitioners Generosity Under Conditions: Hardening Google Cloud Access Management July 21, 2026 Leonid Yankulin Senior Developer Relations Engineer In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific resource in the project. For example, consider the difference between granting the role Artifact Registry Editor ( roles/artifactregistry.editor ) on a project vs. granting it on a specific repository in the project. In the former case, the access is granted to ANY repository in the project. In the latter case, users will have the editor access only to a specific repository. However, binding IAM policies to a resource or service level isn't always possible. This is when it is time to use IAM conditions . Let’s look at two distinct examples that demonstrate the power of conditions when hardening access management: one for traditional administrative roles, and one for modern AI integrations. Use Case 1: Constraining the Power of Admins This case demonstrates how to restrict the specific operations that broad IAM roles are authorized to perform. You can easily scope administrative privileges for managing specific resources in a project by granting a "resource creator" role at the project level and an editor role on a selected resource. It is far more challenging to constrain IAM Admin Roles that are intended to grant access to operations rather than specific resources. A representative example would be the IAM Admin role ( roles/iam.admin ). Users granted this role can grant themselves any other role or create a new one. It greatly exceeds practical needs. The first step is to narrow the access by using the Project IAM Admin role ( roles/resourcemanager.projectIamAdmin ) that provides administrative privileges only at the level of the project. It is possible, however, to restrict the granted privileges even further. For example, suppose you grant the Project IAM Admin role to your builder service account that creates resources and deploys workloads. The workloads only need access to the BigQuery and Agent Platform APIs (formerly Vertex APIs) and permission to write logs and traces. For such a case you can use the following gcloud CLI command or its alternative in Terraform: Loading... gcloud projects add-iam-policy-binding "${PROJECT_ID}" \ --member="serviceAccount:${SA_MAIL}" \ --role="roles/resourcemanager.projectIamAdmin" \ --condition="^:^\ title=LimitedIAMAdmin:\ expression=api.getAttribute('iam.googleapis.com/modifiedGrantsByRole', [])\ .hasOnly([\ 'roles/aiplatform.user',\ 'roles/bigquery.jobUser',\ 'roles/bigquery.dataViewer',\ 'roles/cloudtrace.agent',\ 'roles/logging.logWriter'\ ])" The value of the condition parameter is defined using Common Expression Language ( CEL ) syntax . First it customizes a field delimiter to be a colon instead of a comma and then describes the condition fields title and expression . The expression field uses functions for API attributes to identify which roles are being granted to allow granting only the roles in the comma delimited list. The same ope
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Generosity Under Conditions: Hardening Google Cloud Access Management
-  - Published: 2026-07-21T11:19:00+00:00
-  - Link: https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/
-  - Summary: In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Google Bets 'Agentic Defense' Strategy Can Outpace Attackers
-  - Published: 2026-07-17T11:50:25+00:00
-  - Link: https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers
-  - Summary: Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.
-
-### Cluster 00e5bf80fc — score 10
-
-- Title: Turning threat intelligence into decisive action with Defender Experts
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-07-15T16:00:35+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts MDR Microsoft Defender Experts Threat Intelligence Topics Actionable threat insights Defending against advanced tactics Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. Dashboards are full, alerts keep coming, but the hardest question of the day remains unanswered: of everything happening right now, what actually matters to us , and what do we do about i t? That space between knowing a threat exists and acting on it is the intelligence-to-action gap, and it’s where most breaches are won or lost. It doesn’t close with another feed or another dashboard. It closes with expertise: seasoned defenders who know your environment, interpret what global signal means for your risk, and stay with you from the first indicator to the final response. Today we’re announcing a new service, Microsoft Defender Experts Threat Intelligence , and we are expanding Microsoft Defender Experts MDR to include new third-party and multi-cloud coverage. Together, these human-led offerings are designed to close the intelligence-to-action gap at the two moments that decide the outcome: before a campaign reaches you, and as it moves through your environment. Upstream: See the campaign before it reaches you The earlier you see a campaign forming, the more options you have, and the cheaper every decision becomes. Yet most threat intelligence still arrives as raw feeds or static reports: high in volume, low in context, and disconnected from what’s exposed in your estate. Teams end up with more to read and no more clarity on what to do about it. Microsoft Defender Experts Threat Intelligence is a new, expert-delivered service that closes that distance. Built on Microsoft’s visibility across endpoints, identity, cloud, and evolving attacker activity, it gives your team periodic, curated insight into the threats most likely to target you. Designated Microsoft experts interpret the global landscape through the lens of your industry, geography, and environment, then translate it into clear, prioritized guidance your team can act on. As campaigns evolve, experts continuously refine that guidance with newly observed infrastructure, tactics, and targeting patterns, helping your team adjust hunting, hardening, and response activities. The insight is tailored for both leadership and defenders, providing executive-ready context alongside technical recommendations so the entire organization can act from a shared understanding of the threat landscape. The goal is simple: help you reduce risk before an attack reaches your environment, not explain what happened after the fact. In practice, your team receives: Early-warning alerts on emerging campaigns relevant to you Campaign-evolution updates as activity unfolds Contextualized intelligence tied to your risk profile Recurring briefings from your designated expert, rotating across geopolitical, industry, and global perspectives, on a scheduled basis In your environment: Follow the threat everywhere it moves Modern attacks rarely stay in one place. They cross from email to endpoint to identity to cloud, and increasingly traverse disparate security tools. Even when organizations have visibility into those environments, connecting multi-vendor and multi-domain signals into a coherent attack story remains a challenge. That’s the gap we’re closing on the response side: Microsoft Defender Experts MDR (formerly Microsoft Defender Experts for XDR) is expanding with new third-party and multi-cloud coverage powered by Microsoft Sentinel. Defender Experts MDR provides a fully managed detection and response service that reduces noise, adds expert context, and drives action. With support for leading non-Microsoft sources across cloud, identity, email, network, and endpoint enviro
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Turning threat intelligence into decisive action with Defender Experts
-  - Published: 2026-07-15T16:00:35+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
-  - Summary: Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
-
 ### Cluster 72fdd19b2c — score 10
 
 - Title: AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report
@@ -2311,6 +2162,47 @@ Threat Research Center Insights Opinions Opinions AI, Automation and Attacks: Un
   - Published: 2026-07-16T23:00:59+00:00
   - Link: https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/
   - Summary: Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report. The post AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report appeared first on Unit 42 .
+
+### Cluster 00e5bf80fc — score 10
+
+- Title: Turning threat intelligence into decisive action with Defender Experts
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-07-15T16:00:35+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts MDR Microsoft Defender Experts Threat Intelligence Topics Actionable threat insights Defending against advanced tactics Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. Dashboards are full, alerts keep coming, but the hardest question of the day remains unanswered: of everything happening right now, what actually matters to us , and what do we do about i t? That space between knowing a threat exists and acting on it is the intelligence-to-action gap, and it’s where most breaches are won or lost. It doesn’t close with another feed or another dashboard. It closes with expertise: seasoned defenders who know your environment, interpret what global signal means for your risk, and stay with you from the first indicator to the final response. Today we’re announcing a new service, Microsoft Defender Experts Threat Intelligence , and we are expanding Microsoft Defender Experts MDR to include new third-party and multi-cloud coverage. Together, these human-led offerings are designed to close the intelligence-to-action gap at the two moments that decide the outcome: before a campaign reaches you, and as it moves through your environment. Upstream: See the campaign before it reaches you The earlier you see a campaign forming, the more options you have, and the cheaper every decision becomes. Yet most threat intelligence still arrives as raw feeds or static reports: high in volume, low in context, and disconnected from what’s exposed in your estate. Teams end up with more to read and no more clarity on what to do about it. Microsoft Defender Experts Threat Intelligence is a new, expert-delivered service that closes that distance. Built on Microsoft’s visibility across endpoints, identity, cloud, and evolving attacker activity, it gives your team periodic, curated insight into the threats most likely to target you. Designated Microsoft experts interpret the global landscape through the lens of your industry, geography, and environment, then translate it into clear, prioritized guidance your team can act on. As campaigns evolve, experts continuously refine that guidance with newly observed infrastructure, tactics, and targeting patterns, helping your team adjust hunting, hardening, and response activities. The insight is tailored for both leadership and defenders, providing executive-ready context alongside technical recommendations so the entire organization can act from a shared understanding of the threat landscape. The goal is simple: help you reduce risk before an attack reaches your environment, not explain what happened after the fact. In practice, your team receives: Early-warning alerts on emerging campaigns relevant to you Campaign-evolution updates as activity unfolds Contextualized intelligence tied to your risk profile Recurring briefings from your designated expert, rotating across geopolitical, industry, and global perspectives, on a scheduled basis In your environment: Follow the threat everywhere it moves Modern attacks rarely stay in one place. They cross from email to endpoint to identity to cloud, and increasingly traverse disparate security tools. Even when organizations have visibility into those environments, connecting multi-vendor and multi-domain signals into a coherent attack story remains a challenge. That’s the gap we’re closing on the response side: Microsoft Defender Experts MDR (formerly Microsoft Defender Experts for XDR) is expanding with new third-party and multi-cloud coverage powered by Microsoft Sentinel. Defender Experts MDR provides a fully managed detection and response service that reduces noise, adds expert context, and drives action. With support for leading non-Microsoft sources across cloud, identity, email, network, and endpoint enviro
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Turning threat intelligence into decisive action with Defender Experts
+  - Published: 2026-07-15T16:00:35+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
+  - Summary: Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
 
 ### Cluster 1042e88cd6 — score 10
 
@@ -2871,6 +2763,47 @@ Back to Blog Vulnerabilities and Exploits Sunsetting the Public AttackerKB Platf
   - Link: https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform
   - Summary: What’s changing, where AttackerKB-style analysis will live, and how users can continue finding Rapid7 vulnerability intelligence. On August 18, Rapid7 will sunset the standalone public AttackerKB website as part of a broader effort to unify our vulnerability intelligence, exploit analysis, and research resources. Security practitioners, researchers, vulnerability managers, and current AttackerKB API users will still be able to find Rapid7 vulnerability intelligence through the Rapid7 blog , the recently revamped Rapid7 Vulnerability and Exploit Database , and customer-specific API experiences, where applicable. The public AttackerKB platform is going away, but the intelligence and analysis that security teams rely on are not disappearing. Instead, they’re moving into experiences more closely connected with Rapid7’s broader research and vulnerability intelligence ecosystem. What’s changing The public AttackerKB website will be retired on August 18. AttackerKB-style Rapid7 technical writ
 
+### Cluster d1f6dab23f — score 10
+
+- Title: The Risk of Exposed Cloud Functions and How to Harden
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-07-15T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
+```
+
+#### Full body
+
+```
+Threat Intelligence The Risk of Exposed Cloud Functions and How to Harden July 15, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these principles apply universally to any public serverless deployment. What are Serverless Applications? Serverless applications, also described as Function-as-a-Service (FaaS), allow the deployment of individual blocks of code as microservices within a flexible, decoupled, and event-driven cloud architecture without the need to manage underlying infrastructure. These services enable applications and automations to scale automatically and deploy instantly, removing operational overhead. Serverless services underpin major e-commerce, media, payment processing applications, and AI usage. The rapid expansion of generative AI adoption is a significant driver of increased serverless architecture use. AI workflows, including chatbot interactions, image generation, “vibe-coding”, and multi-step AI agents rely on serverless functions to complete tasks for users. This growth has made securing serverless environments a more pressing challenge for enterprise security teams. Risks of Serverless Application Attacks Publicly exposed serverless workloads can serve as an initial access point for threat actors. As noted, these services may contain vulnerabilities within the code, imported packages, or the underlying runtime environment. Once an entry point is exploited, attackers typically attempt to escalate privileges or move laterally. Common techniques observed include: Extracting secrets stored directly within the application code. Reviewing application logic and sensitive data to identify further attack vectors within the environment. Exfiltrating service account bearer tokens from the metadata server following successful Remote Code Execution (RCE). Leveraging these compromised secrets or service accounts allows threat actors to pivot to adjacent systems and workloads, potentially resulting in a total environment takeover if proper hardening strategies are not in place. Example Attack Scenarios The following simplified scenarios illustrate how serverless functions can be compromised and how attackers pivot after achieving initial code execution. Local File Inclusion (LFI) In the following Cloud Run example, a Python/Flask function accepts user-controlled input to open a file without performing proper validation. This pattern is an example of a Local File Inclusion (LFI) vulnerability. import functions_framework @functions_framework.http def hello_http(request): request_json = request.get_json(silent=True) request_args = request.args if request_json and 'file' in request_json: file = request_json['file'] elif request_args and 'file' in request_args: file = request_args['file'] # VULNERABILITY: The 'file' parameter is used directly in open() # without validation, allowing arbitrary file access with open(file, 'r') as resp: filedata = resp.read() return 'local file data {}!'.format(f
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: The Risk of Exposed Cloud Functions and How to Harden
+  - Published: 2026-07-15T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
+  - Summary: Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
+
 ### Cluster 9454090822 — score 10
 
 - Title: Four ways AI has fundamentally changed the threat landscape in 2026
@@ -2958,106 +2891,6 @@ Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak By Lawre
   - Published: 2026-07-21T18:50:54+00:00
   - Link: https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/
   - Summary: The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]
-
-### Cluster 46fba7fb46 — score 10
-
-- Title: Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-21T11:12:33+00:00
-- Link: https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, supply_chain, zero_day
-- actor_attribution: Cl0p
-- affected_industries: financial_services, healthcare, manufacturing_industrial
-- affected_products: Microsoft 365
-- cve_ids: CVE-2025-61882
-- urgency_signals: preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, zero_day, data_breach, active_exploitation
-- actor_attribution: Cl0p
-- affected_industries: healthcare, financial_services, manufacturing_industrial
-- affected_products: Microsoft 365
-- cve_ids: CVE-2025-61882
-- urgency_signals: zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Hackers exfiltrated personal, financial, and health information from the company’s Oracle EBS instance in August 2025. The post Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Cosmetics giant Estée Lauder has started notifying employees that their information was stolen from its Oracle E-Business Suite (EBS) instance last year. The incident, the company says, occurred in early August 2025, when the infamous Cl0p cybercrime group started exploiting CVE-2025-61882, a zero-day vulnerability in Oracle EBS that enabled unauthenticated remote code execution (RCE), to exfiltrate data from numerous companies. In November, more than 100 companies were listed on the Cl0p leak website, many of which confirmed being impacted by the campaign. By March 2026, Broadcom, Bechtel, Estée Lauder, and Abbott Laboratories were the only major companies that had not disclosed the impact from the campaign. Cl0p leaked 870GB of archive files allegedly stolen from Estée Lauder. Several days after the zero-day was patched in early October, CrowdStrike said it found evidence that the bug’s in-the-wild exploitation started on August 9 , the same day that Estée Lauder was hit. In a notification letter to the affected individuals, a copy of which was filed (PDF) with the California Attorney General’s Office, the cosmetics giant said its investigation into the incident determined in June that personal information had been stolen from its EBS instance, which was used for HR management. Advertisement. Scroll to continue reading. The compromised data, the company says, includes names, addresses, dates of birth, Social Security numbers, passport numbers, bank account numbers, health information, and employment-related data, including payroll information. Estée Lauder is providing the potentially affected individuals with 24 months of free identity monitoring services and is advising them to remain vigilant for suspicious emails, texts, and phone calls. The company says it has notified law enforcement of the data breach and has taken measures to improve its system’s protections. Estée Lauder has not disclosed the number of potentially impacted individuals. SecurityWeek has emailed the company for additional details on the incident and will update this article if it responds. Related: Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Related: Clover Health Investments Discloses Data Breach Related: Multiple Jscrambler Packages Impacted by Supply Chain Attack Related: Mainline Health, Select Medical Each Disclose Data Breaches Impacting 100,000 People Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Update Patches Critical Vulnerabilities OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Ernst & Young Data Breach Affects Personal, Financial Information Hugging Face Hacked in Autonomous AI Attack Chrome 150 Update Patches Severe Memory Safety Bugs Beacon Security Raises $13 Million for Security Data Platform Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei Risk Ledger Raises $32 Million in Series B Funding Latest News Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains Cisco Launches Low-Cost AI Models for Source Code Security Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Clover Health Investments Discloses Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap July 22, 2026 Join this live webinar as we explore why exploitation is o
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack
-  - Published: 2026-07-21T11:12:33+00:00
-  - Link: https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
-  - Summary: Hackers exfiltrated personal, financial, and health information from the company’s Oracle EBS instance in August 2025. The post Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek .
-
-### Cluster 593ff08377 — score 10
-
-- Title: Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-21T10:19:21+00:00
-- Link: https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, zero_day
-- actor_attribution: Scattered Spider
-- affected_industries: manufacturing_industrial
-- affected_products: Microsoft 365, SonicWall, WordPress
-- urgency_signals: actively_exploited, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, data_breach, active_exploitation
-- actor_attribution: Scattered Spider
-- affected_industries: manufacturing_industrial
-- affected_products: SonicWall, WordPress, Microsoft 365
-- urgency_signals: actively_exploited, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure. The post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-A security researcher says he has received a significant bug bounty from Meta after discovering a critical vulnerability that exposed customer support data. The vulnerability was discovered and reported to Meta in January 2026 by independent researcher Rony K Roy. The initial report to the social media giant described a security hole of limited severity, but further analysis revealed that the flaw’s impact was much higher than initially believed. According to Roy, Meta rolled out patches in April and had not found any evidence of malicious exploitation. The researcher disclosed his findings last week and told SecurityWeek that he received a $78,000 bug bounty from Meta. Meta has not responded to SecurityWeek’s request to confirm Roy’s claims, but he is indeed listed as one of the top researchers on the company’s bug bounty leaderboard for 2026. Roy initially believed he had identified an authorization issue in Meta Horizon Managed Solutions, an enterprise platform for managing Meta Quest devices and users. It turned out to be a broader issue affecting Meta’s backend support infrastructure. Advertisement. Scroll to continue reading. The researcher’s analysis led to the discovery of a vulnerability involving missing authorization, broken access control, and insecure direct object reference (IDOR) issues. When chained, these flaws could have been exploited to enumerate Meta support case numbers and obtain support requests. According to Roy, an attacker could have exploited the vulnerability to obtain email and chat conversations between users and Meta support, support case details, files submitted to the company via support requests, and personal and contact information shared by users with Meta support. In addition, an attacker could have created support requests on behalf of organizations that use Meta Horizon Managed Solutions, modified support workflows (including changing case status), and added unauthorized subscribers to support cases. Related : Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Related : Zimbra Update Patches Critical Vulnerabilities Related : OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Exploitation of ServiceNow Vulnerability Seen Days After Disclosure SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch New Index Tracks Material Breaches — And Refuses to Add Up the Losses WP2Shell WordPress Vulnerabilities Exploited in the Wild Two Scattered Spider Hackers Sentenced to Jail in UK ‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities Latest News Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains Cisco Launches Low-Cost AI Models for Source Code Security Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Clover Health Investments Discloses Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Cl
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data
-  - Published: 2026-07-21T10:19:21+00:00
-  - Link: https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
-  - Summary: A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure. The post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek .
 
 ### Cluster e0b8a2bc46 — score 10
 
@@ -3234,6 +3067,53 @@ Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wid
   - Published: 2026-07-16T09:23:19+00:00
   - Link: https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html
   - Summary: Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the handle tokay0 put the method online on Monday, having tested it only against vacuums he
+
+### Cluster 0256f627d7 — score 10
+
+- Title: Generosity Under Conditions: Hardening Google Cloud Access Management
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-21T11:19:00+00:00
+- Link: https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 2
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific
+```
+
+#### Full body
+
+```
+Developers & Practitioners Generosity Under Conditions: Hardening Google Cloud Access Management July 21, 2026 Leonid Yankulin Senior Developer Relations Engineer In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific resource in the project. For example, consider the difference between granting the role Artifact Registry Editor ( roles/artifactregistry.editor ) on a project vs. granting it on a specific repository in the project. In the former case, the access is granted to ANY repository in the project. In the latter case, users will have the editor access only to a specific repository. However, binding IAM policies to a resource or service level isn't always possible. This is when it is time to use IAM conditions . Let’s look at two distinct examples that demonstrate the power of conditions when hardening access management: one for traditional administrative roles, and one for modern AI integrations. Use Case 1: Constraining the Power of Admins This case demonstrates how to restrict the specific operations that broad IAM roles are authorized to perform. You can easily scope administrative privileges for managing specific resources in a project by granting a "resource creator" role at the project level and an editor role on a selected resource. It is far more challenging to constrain IAM Admin Roles that are intended to grant access to operations rather than specific resources. A representative example would be the IAM Admin role ( roles/iam.admin ). Users granted this role can grant themselves any other role or create a new one. It greatly exceeds practical needs. The first step is to narrow the access by using the Project IAM Admin role ( roles/resourcemanager.projectIamAdmin ) that provides administrative privileges only at the level of the project. It is possible, however, to restrict the granted privileges even further. For example, suppose you grant the Project IAM Admin role to your builder service account that creates resources and deploys workloads. The workloads only need access to the BigQuery and Agent Platform APIs (formerly Vertex APIs) and permission to write logs and traces. For such a case you can use the following gcloud CLI command or its alternative in Terraform: Loading... gcloud projects add-iam-policy-binding "${PROJECT_ID}" \ --member="serviceAccount:${SA_MAIL}" \ --role="roles/resourcemanager.projectIamAdmin" \ --condition="^:^\ title=LimitedIAMAdmin:\ expression=api.getAttribute('iam.googleapis.com/modifiedGrantsByRole', [])\ .hasOnly([\ 'roles/aiplatform.user',\ 'roles/bigquery.jobUser',\ 'roles/bigquery.dataViewer',\ 'roles/cloudtrace.agent',\ 'roles/logging.logWriter'\ ])" The value of the condition parameter is defined using Common Expression Language ( CEL ) syntax . First it customizes a field delimiter to be a colon instead of a comma and then describes the condition fields title and expression . The expression field uses functions for API attributes to identify which roles are being granted to allow granting only the roles in the comma delimited list. The same ope
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Generosity Under Conditions: Hardening Google Cloud Access Management
+  - Published: 2026-07-21T11:19:00+00:00
+  - Link: https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/
+  - Summary: In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Google Bets 'Agentic Defense' Strategy Can Outpace Attackers
+  - Published: 2026-07-17T11:50:25+00:00
+  - Link: https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers
+  - Summary: Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.
 
 ### Cluster ab13f77dd3 — score 9
 
@@ -3477,56 +3357,105 @@ Windows LegacyHive zero-day flaw gets free, unofficial patches By Sergiu Gatlan 
   - Link: https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/
   - Summary: Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]
 
-### Cluster 80267f8c40 — score 9
+### Cluster 46fba7fb46 — score 9
 
-- Title: Estée Lauder discloses data breach via Oracle E-Business flaw
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-20T22:39:30+00:00
-- Link: https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
+- Title: Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-21T11:12:33+00:00
+- Link: https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, zero_day
+- threat_categories: active_exploitation, data_breach, supply_chain, zero_day
 - actor_attribution: Cl0p
-- affected_industries: education, financial_services
-- affected_products: Google/Gemini, SonicWall
+- affected_industries: financial_services, healthcare, manufacturing_industrial
+- affected_products: Microsoft 365
 - cve_ids: CVE-2025-61882
-- urgency_signals: zero_day
-- content_type: incident_report
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach
+- threat_categories: supply_chain, zero_day, data_breach, active_exploitation
 - actor_attribution: Cl0p
-- affected_industries: financial_services, education
-- affected_products: SonicWall, Google/Gemini
+- affected_industries: healthcare, financial_services, manufacturing_industrial
+- affected_products: Microsoft 365
 - cve_ids: CVE-2025-61882
-- urgency_signals: zero_day
-- content_type: incident_report
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]
+Hackers exfiltrated personal, financial, and health information from the company’s Oracle EBS instance in August 2025. The post Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Estée Lauder discloses data breach via Oracle E-Business flaw By Bill Toulas July 20, 2026 06:39 PM 0 Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. The company says that last month it identified an intrusion that had occurred on August 9, 2025, which led to the threat actor obtaining " personal information of certain individuals." “We became aware of a cybersecurity issue involving a vulnerability in the Oracle E-Business Suite system which is used by the Estee Lauder Companies for HR management purposes,” the notification says. “On June 19, 2026, we determined through our investigation that, on or around August 9, 2025, an unauthorized third party gained access to the Oracle E-Business Suite system and obtained personal information of certain individuals.” According to a sample of the disclosure letter , the exposed data includes: Full names Postal addresses Email addresses Dates of birth Social Security numbers (SSNs) Passport numbers Financial account information, including bank account numbers Health information Employment information, including payroll and performance reports Estée Lauder is a New York-based cosmetics giant with an annual revenue of $14.3 billion. It is the second-largest cosmetics firm in the world, employing 57,000 people and operating online and physical shops globally. Although the Estée Lauder notice does not disclose the vulnerability exploited in the intrusion, the date of the breach correlates with the mass-exploitation campaign targeting Oracle E-Business Suite through CVE-2025-61882. In October 2025, Google and Mandiant researchers warned of breaches from the Clop ransomware gang exploiting the flaw as a zero-day to steal data. The flaw affected EBS versions 12.2.3–12.2.14 and enabled attackers to bypass authentication and remotely execute code through the BI Publisher Integration component, potentially giving them access to sensitive HR and business data. Oracle released fixes for CVE-2025-61882 on October 4, 2025. Shortly after, cybersecurity firm CrowdStrike confirmed that Clop had been exploiting the flaw since early August, 2025 . Other notable victims of the same campaign include Harvard , the University of Pennsylvania , Dartmouth , the University of Phoenix , The Washington Post , Logitech , GlobalLogic , Cox Enterprises , and the American Airlines subsidiary Envoy Air . Estée Lauder is advising recipients of the breach notification letter to remain vigilant for signs of identity theft and fraud. The company is also offering 24 months of complimentary identity monitoring services through Kroll. Estée Lauder was also compromised by Clop in 2023, when the threat actor exploited another zero-day in the MOVEit Transfer platform, one of the firm's internal software tools. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Kubota says hackers had month-long access to network systems Over 900 Oracle E-Business instances exposed to ongoing attacks Hackers now exploit critical Oracle E-Business flaw in attacks SonicWall SMA1000 flaws exploited as zero-days to push custom malware Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes
+Cosmetics giant Estée Lauder has started notifying employees that their information was stolen from its Oracle E-Business Suite (EBS) instance last year. The incident, the company says, occurred in early August 2025, when the infamous Cl0p cybercrime group started exploiting CVE-2025-61882, a zero-day vulnerability in Oracle EBS that enabled unauthenticated remote code execution (RCE), to exfiltrate data from numerous companies. In November, more than 100 companies were listed on the Cl0p leak website, many of which confirmed being impacted by the campaign. By March 2026, Broadcom, Bechtel, Estée Lauder, and Abbott Laboratories were the only major companies that had not disclosed the impact from the campaign. Cl0p leaked 870GB of archive files allegedly stolen from Estée Lauder. Several days after the zero-day was patched in early October, CrowdStrike said it found evidence that the bug’s in-the-wild exploitation started on August 9 , the same day that Estée Lauder was hit. In a notification letter to the affected individuals, a copy of which was filed (PDF) with the California Attorney General’s Office, the cosmetics giant said its investigation into the incident determined in June that personal information had been stolen from its EBS instance, which was used for HR management. Advertisement. Scroll to continue reading. The compromised data, the company says, includes names, addresses, dates of birth, Social Security numbers, passport numbers, bank account numbers, health information, and employment-related data, including payroll information. Estée Lauder is providing the potentially affected individuals with 24 months of free identity monitoring services and is advising them to remain vigilant for suspicious emails, texts, and phone calls. The company says it has notified law enforcement of the data breach and has taken measures to improve its system’s protections. Estée Lauder has not disclosed the number of potentially impacted individuals. SecurityWeek has emailed the company for additional details on the incident and will update this article if it responds. Related: Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Related: Clover Health Investments Discloses Data Breach Related: Multiple Jscrambler Packages Impacted by Supply Chain Attack Related: Mainline Health, Select Medical Each Disclose Data Breaches Impacting 100,000 People Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Update Patches Critical Vulnerabilities OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Ernst & Young Data Breach Affects Personal, Financial Information Hugging Face Hacked in Autonomous AI Attack Chrome 150 Update Patches Severe Memory Safety Bugs Beacon Security Raises $13 Million for Security Data Platform Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei Risk Ledger Raises $32 Million in Series B Funding Latest News Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains Cisco Launches Low-Cost AI Models for Source Code Security Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Clover Health Investments Discloses Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap July 22, 2026 Join this live webinar as we explore why exploitation is o
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Estée Lauder discloses data breach via Oracle E-Business flaw
-  - Published: 2026-07-20T22:39:30+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
-  - Summary: Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack
+  - Published: 2026-07-21T11:12:33+00:00
+  - Link: https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/
+  - Summary: Hackers exfiltrated personal, financial, and health information from the company’s Oracle EBS instance in August 2025. The post Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek .
+
+### Cluster 593ff08377 — score 9
+
+- Title: Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-21T10:19:21+00:00
+- Link: https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, zero_day
+- actor_attribution: Scattered Spider
+- affected_industries: manufacturing_industrial
+- affected_products: Microsoft 365, SonicWall, WordPress
+- urgency_signals: actively_exploited, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day, data_breach, active_exploitation
+- actor_attribution: Scattered Spider
+- affected_industries: manufacturing_industrial
+- affected_products: SonicWall, WordPress, Microsoft 365
+- urgency_signals: actively_exploited, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure. The post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A security researcher says he has received a significant bug bounty from Meta after discovering a critical vulnerability that exposed customer support data. The vulnerability was discovered and reported to Meta in January 2026 by independent researcher Rony K Roy. The initial report to the social media giant described a security hole of limited severity, but further analysis revealed that the flaw’s impact was much higher than initially believed. According to Roy, Meta rolled out patches in April and had not found any evidence of malicious exploitation. The researcher disclosed his findings last week and told SecurityWeek that he received a $78,000 bug bounty from Meta. Meta has not responded to SecurityWeek’s request to confirm Roy’s claims, but he is indeed listed as one of the top researchers on the company’s bug bounty leaderboard for 2026. Roy initially believed he had identified an authorization issue in Meta Horizon Managed Solutions, an enterprise platform for managing Meta Quest devices and users. It turned out to be a broader issue affecting Meta’s backend support infrastructure. Advertisement. Scroll to continue reading. The researcher’s analysis led to the discovery of a vulnerability involving missing authorization, broken access control, and insecure direct object reference (IDOR) issues. When chained, these flaws could have been exploited to enumerate Meta support case numbers and obtain support requests. According to Roy, an attacker could have exploited the vulnerability to obtain email and chat conversations between users and Meta support, support case details, files submitted to the company via support requests, and personal and contact information shared by users with Meta support. In addition, an attacker could have created support requests on behalf of organizations that use Meta Horizon Managed Solutions, modified support workflows (including changing case status), and added unauthorized subscribers to support cases. Related : Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Related : Zimbra Update Patches Critical Vulnerabilities Related : OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Exploitation of ServiceNow Vulnerability Seen Days After Disclosure SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch New Index Tracks Material Breaches — And Refuses to Add Up the Losses WP2Shell WordPress Vulnerabilities Exploited in the Wild Two Scattered Spider Hackers Sentenced to Jail in UK ‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities Latest News Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains Cisco Launches Low-Cost AI Models for Source Code Security Empirical Security Raises $25 Million in Series A Funding SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Clover Health Investments Discloses Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Cl
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data
+  - Published: 2026-07-21T10:19:21+00:00
+  - Link: https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
+  - Summary: A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure. The post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek .
 
 ### Cluster ed4aa2806d — score 9
 
@@ -3671,7 +3600,7 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Abigail Lorion
 - Source: Reddit r/netsec (reddit_practitioner_osint)
 - Published: 2026-07-21T14:42:45+00:00
 - Link: https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/
-- Fetch status: not_attempted
+- Fetch status: fetch_failed:HTTPError
 - Member count: 2
 - Corroborating source count: 1
 - Strong signals: CVE-2026-49176
@@ -3838,6 +3767,41 @@ Attackers went agentic. Your security architecture should too. A CISO's guide to
   - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
   - Summary: Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
 
+### Cluster 80267f8c40 — score 8
+
+- Title: Estée Lauder discloses data breach via Oracle E-Business flaw
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-20T22:39:30+00:00
+- Link: https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Estée Lauder discloses data breach via Oracle E-Business flaw
+  - Published: 2026-07-20T22:39:30+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
+  - Summary: Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]
+
 ### Cluster 523d70e402 — score 8
 
 - Title: Nativ: Run AI models locally on your Mac
@@ -3976,15 +3940,15 @@ Research of incidents by Sophos finds that phishing, brute force attacks and oth
   - Link: https://www.infosecurity-magazine.com/news/compromised-logins-ransomware-entry/
   - Summary: Research of incidents by Sophos finds that phishing, brute force attacks and other identity-based threats have surpassed software vulnerabilities as means of delivering ransomware
 
-### Cluster c1c459d4b3 — score 8
+### Cluster 35b2dc4fa2 — score 8
 
-- Title: AI Mania Is Eviscerating Global Decision-Making
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-07-19T05:06:21+00:00
-- Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
+- Title: OpenAI says model test was behind Hugging Face hack
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-07-21T22:38:55+00:00
+- Link: https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/
 - Fetch status: not_attempted
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -3996,16 +3960,21 @@ Research of incidents by Sophos finds that phishing, brute force attacks and oth
 #### Primary article taxonomy
 - affected_products: OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
+At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. The post OpenAI says model test was behind Hugging Face hack appeared first on CyberScoop .
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: OpenAI says model test was behind Hugging Face hack
+  - Published: 2026-07-21T22:38:55+00:00
+  - Link: https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/
+  - Summary: At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. The post OpenAI says model test was behind Hugging Face hack appeared first on CyberScoop .
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: AI Mania Is Eviscerating Global Decision-Making
   - Published: 2026-07-19T05:06:21+00:00
