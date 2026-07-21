@@ -6,9 +6,47 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 21 Jul 2026 03:23:07 +0000</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 06:35:12 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>The air gap is a myth and other OT security truths</title>
+<link>https://www.helpnetsecurity.com/2026/07/21/benjamin-bachmann-bilfinger-ot-security/</link>
+<description><![CDATA[Benjamin Bachmann, Director Group Information Security at Bilfinger, speaks with Help Net Security about defending industrial plants. He explains why attackers want to control operations instead of stealing data, and why the air gap is mostly a myth. Bachmann covers how containment plans get negotiated before an incident, how to build visibility on old equipment through network monitoring, and how ransomware crews price their demands on downtime. He also questions the idea that people are … More → The post The air gap is a myth and other OT security truths appeared first on Help Net Security .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Tue, 21 Jul 2026 06:00:29 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/21/benjamin-bachmann-bilfinger-ot-security/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>PR3TACK preemptive framework maps threats before attackers use them</title>
+<link>https://www.helpnetsecurity.com/2026/07/21/first-pr3tack-preemptive-framework/</link>
+<description><![CDATA[Defensive frameworks in cybersecurity record what attackers have already done. Analysts study a breach, document the method, and build detections around confirmed activity. This cycle leaves a gap between the moment an attacker invents a technique and the moment defenders learn to catch it. PR3TACK, the Preemptive Tactics and Countermeasures Knowledgebase, aims to close that gap. Vishal Thakur of Atlassian built the open framework that catalogs plausible attacker tactics, techniques, and procedures that remain unobserved … More → The post PR3TACK preemptive framework maps threats before attackers use them appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Tue, 21 Jul 2026 04:59:51 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/21/first-pr3tack-preemptive-framework/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Cybersecurity jobs available right now: July 21, 2026</title>
+<link>https://www.helpnetsecurity.com/2026/07/21/cybersecurity-jobs-available-right-now-july-21-2026/</link>
+<description><![CDATA[Application Security Analyst Stellantis | USA | On-site – View job details As an Application Security Analyst, you will perform application security testing using SAST, DAST, IAST, and other assessment tools to identify vulnerabilities and support remediation efforts. You will integrate security controls into CI/CD pipelines, implement and manage web application firewall (WAF) protections, and help establish secure development practices. CRISO Trustyfy | UAE | On-site – No longer accepting applications As a Chief Risk … More → The post Cybersecurity jobs available right now: July 21, 2026 appeared first on Help Net Security .]]></description>
+<pubDate>Tue, 21 Jul 2026 04:00:40 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/21/cybersecurity-jobs-available-right-now-july-21-2026/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>AI-generated reports push GNOME to shorten its disclosure window</title>
+<link>https://www.helpnetsecurity.com/2026/07/21/gnome-security-disclosure-update/</link>
+<description><![CDATA[Volunteer maintainers of open source projects now receive a steady flow of security vulnerability reports produced with AI tools. Many arrive with no mention that a language model helped write them. The volume has grown enough that GNOME is revising the rules it uses to track and disclose vulnerabilities across its projects. The changes come from Michael Catanzaro, who has run GNOME’s security issue tracking since November 2020 with support from Red Hat. Under the … More → The post AI-generated reports push GNOME to shorten its disclosure window appeared first on Help Net Security .]]></description>
+<pubDate>Tue, 21 Jul 2026 03:53:19 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/21/gnome-security-disclosure-update/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Estée Lauder discloses data breach via Oracle E-Business flaw</title>
 <link>https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/</link>
@@ -228,9 +266,9 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Paidwork breach exposes sensitive data of 23 million user</title>
+<title>Paidwork breach exposes sensitive data of 23 million users</title>
 <link>https://www.helpnetsecurity.com/2026/07/20/paidwork-data-breach-23-million-users/</link>
-<description><![CDATA[Data belonging to more than 23 million users has been exposed following a breach at Paidwork, a platform that pays people for completing online microtasks. Paidwork markets itself as a way to earn money through simple tasks like watching ads, testing apps, and completing surveys, with most jobs paying only a few cents at a time. For its users, many of whom are drawn to the platform for small, incremental earnings, the fallout from this … More → The post Paidwork breach exposes sensitive data of 23 million user appeared first on Help Net Security .]]></description>
+<description><![CDATA[Data belonging to more than 23 million users has been exposed following a breach at Paidwork, a platform that pays people for completing online microtasks. Paidwork markets itself as a way to earn money through simple tasks like watching ads, testing apps, and completing surveys, with most jobs paying only a few cents at a time. For its users, many of whom are drawn to the platform for small, incremental earnings, the fallout from this … More → The post Paidwork breach exposes sensitive data of 23 million users appeared first on Help Net Security .]]></description>
 <pubDate>Mon, 20 Jul 2026 14:52:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/20/paidwork-data-breach-23-million-users/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
@@ -320,17 +358,6 @@
 <category>Microsoft SharePoint</category>
 <category>SonicWall</category>
 <category>WordPress</category>
-</item>
-<item>
-<title>Italy fines WINDTRE €1.7 million over security flaws behind two data breaches</title>
-<link>https://www.helpnetsecurity.com/2026/07/20/italy-windtre-1-7-million-fine/</link>
-<description><![CDATA[Italy’s data protection authority, the Garante per la Protezione dei Dati Personali, fined WINDTRE €1.7 million over “serious data security shortcomings” that let hackers breach its systems twice and exfiltrate personal data belonging to more than 365,000 customers. The regulator opened its investigation after WINDTRE, one of Italy’s major telecom operators, reported two separate data breaches in February 2025. The attackers relied on old-school social engineering instead of exploiting software vulnerabilities. Posing as support technicians, … More → The post Italy fines WINDTRE €1.7 million over security flaws behind two data breaches appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng · data_breach</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 13:19:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/20/italy-windtre-1-7-million-fine/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab</title>
@@ -428,15 +455,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Hugging Face breached by autonomous AI agent</title>
-<link>https://www.helpnetsecurity.com/2026/07/20/hugging-face-breached-by-autonomous-ai-agent/</link>
-<description><![CDATA[Hugging Face, the widely used platform for sharing open-source machine learning models and datasets, has disclosed a security breach it says was carried out by an autonomous AI agent system. How the attack unfolded In a blog post published Thursday (July 16), the company said that earlier that week, it identified unauthorized access to some internal datasets and to several credentials used by its services. The intrusion was executed via a malicious dataset that abused … More → The post Hugging Face breached by autonomous AI agent appeared first on Help Net Security .]]></description>
-<pubDate>Mon, 20 Jul 2026 10:52:36 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/20/hugging-face-breached-by-autonomous-ai-agent/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool</title>
 <link>https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/</link>
 <description><![CDATA[The agentic security tool identifies potentially exploitable code flaws, traces attack paths, and recommends targeted remediations. The post Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool appeared first on SecurityWeek .]]></description>
@@ -488,17 +506,6 @@
 <category>Google/Gemini</category>
 </item>
 <item>
-<title>The Windows 10 hangover is becoming a security problem</title>
-<link>https://www.helpnetsecurity.com/2026/07/20/windows-10-support-risks-report/</link>
-<description><![CDATA[Windows 11 now runs on 78.8% of Windows devices after Microsoft ended support for Windows 10 on 14 October 2025, according to Lansweeper. Windows 10 still accounts for 16.9% of devices and no longer receives security updates, leaving newly discovered vulnerabilities unpatched. “There’s a temporary bridge that we need to consider when looking at these numbers. Microsoft’s consumer Extended Security Updates program keeps eligible Windows 10 devices patched for one extra year, until October 12, … More → The post The Windows 10 hangover is becoming a security problem appeared first on Help Net Security .<br/><br/><em>Tags: Microsoft Windows · active_exploitation</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 08:37:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/20/windows-10-support-risks-report/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft Windows</category>
-<category>active_exploitation</category>
-</item>
-<item>
 <title>Exploit brokers pay $500,000 for a WordPress RCE. I found one with GPT5.6 Sol Ultra and $25</title>
 <link>https://www.reddit.com/r/netsec/comments/1v1fbe1/exploit_brokers_pay_500000_for_a_wordpress_rce_i/</link>
 <description><![CDATA[submitted by /u/Mempodipper [link] [comments]<br/><br/><em>Tags: OpenAI/ChatGPT · WordPress</em>]]></description>
@@ -517,26 +524,6 @@
 <guid isPermaLink="true">https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Meet Dusseldorf, Microsoft’s open-source out-of-band security platform</title>
-<link>https://www.helpnetsecurity.com/2026/07/20/microsoft-dusseldorf-out-of-band-application-security-testing-oast-platform/</link>
-<description><![CDATA[Out-of-band vulnerabilities surface when an application quietly reaches out to an external system during an attack, and capturing that traffic calls for infrastructure that many researchers assemble on their own. A new open-source project from Microsoft supplies that infrastructure in a package meant to run inside a private environment. Dusseldorf is an out-of-band application security testing platform. It captures inbound network traffic across several protocols and lets an operator craft automated responses for validation workflows. … More → The post Meet Dusseldorf, Microsoft’s open-source out-of-band security platform appeared first on Help Net Security .<br/><br/><em>Tags: GitHub</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 06:00:36 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/20/microsoft-dusseldorf-out-of-band-application-security-testing-oast-platform/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-</item>
-<item>
-<title>More alerts are making your team slower, and an outcome-based SOC fixes that</title>
-<link>https://www.helpnetsecurity.com/2026/07/20/outcome-based-soc-video/</link>
-<description><![CDATA[In this Help Net Security video, Thom Langford, EMEA CTO, Rapid7, explains why piling on more security alerts makes a SOC slower to respond. Attackers log in with stolen credentials and use trusted tools like PowerShell instead of custom malware. He shares a case where attackers called a help desk, reset a privileged cloud account, and exposed thousands of passwords in three minutes. Ransomware groups can go from access to payload in under three hours. … More → The post More alerts are making your team slower, and an outcome-based SOC fixes that appeared first on Help Net Security .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 05:30:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/20/outcome-based-soc-video/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>World&apos;s Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent</title>
@@ -582,15 +569,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>A forensic tool for backdoored code completions in AI assistants</title>
-<link>https://www.helpnetsecurity.com/2026/07/20/tracing-backdoored-code-completions/</link>
-<description><![CDATA[Developers lean on AI coding assistants for a growing share of their daily work, letting the tools predict the next few lines and accepting many suggestions with a quick glance. Those tools learn from large collections of code, and some of that code can be tampered with before training starts. A poisoned example teaches a model to write insecure code when it sees a certain cue, and the flaw sits quietly until the right prompt … More → The post A forensic tool for backdoored code completions in AI assistants appeared first on Help Net Security .]]></description>
-<pubDate>Mon, 20 Jul 2026 05:00:56 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/20/tracing-backdoored-code-completions/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Autonomous AI Intrusions Are Here: Lessons from the Hugging Face Compromise</title>
@@ -741,11 +719,12 @@
 <item>
 <title>New North Korean campaign uses fake coding interviews to steal developer credentials</title>
 <link>https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography</link>
-<description><![CDATA[DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.<br/><br/><em>Tags: web_shell_backdoor</em>]]></description>
+<description><![CDATA[DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.<br/><br/><em>Tags: supply_chain · web_shell_backdoor</em>]]></description>
 <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+<category>supply_chain</category>
 <category>web_shell_backdoor</category>
 </item>
 <item>
@@ -1490,11 +1469,12 @@
 <item>
 <title>TELEPUZ: a modular MaaS malware spreading via CLICKFIX-VIDAR chains</title>
 <link>https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix</link>
-<description><![CDATA[TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.]]></description>
+<description><![CDATA[TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>The CISO&apos;s guide to headless cloud security</title>
@@ -6053,20 +6033,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
-<link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
-<description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
-<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>The &apos;vibe coding spectrum&apos; approach to AI-assisted software development</title>
 <link>https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</link>
 <description><![CDATA[Different code deserves different levels of oversight, so calibrate your approach to ‘vibe coding’ accordingly.]]></description>
 <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
+<link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
+<description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
+<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -10473,6 +10453,24 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>International cyber agencies share fresh advice to defend against China-linked covert networks</title>
+<link>https://www.ncsc.gov.uk/news/international-cyber-agencies-fresh-advice-defend-against-china-linked-covert-networks</link>
+<description><![CDATA[New advisory highlights how to defend against attacker tactics believed to be used by China-linked actors to hide malicious cyber activity.]]></description>
+<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/international-cyber-agencies-fresh-advice-defend-against-china-linked-covert-networks</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Passkeys are more secure than traditional ways to log in</title>
+<link>https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in</link>
+<description><![CDATA[Passkeys offer a more usable, secure replacement for passwords and are already supported by most modern devices.]]></description>
+<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
 <title>Executive Summary: Defending against China-nexus covert networks of compromised devices</title>
 <link>https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices</link>
 <description><![CDATA[Organisations should map and baseline their edge device traffic, especially VPN and remote access connections, and adopt dynamic threat feed filtering that includes known covert network indicators.]]></description>
@@ -10496,24 +10494,6 @@
 <description><![CDATA[Explaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it]]></description>
 <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
-<title>NCSC: Leave passwords in the past - passkeys are the future</title>
-<link>https://www.ncsc.gov.uk/news/ncsc-leave-passwords-in-the-past-passkeys-are-the-future</link>
-<description><![CDATA[Passkeys are the more secure and user-friendly login method and should be the default authentication option for consumers.]]></description>
-<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/ncsc-leave-passwords-in-the-past-passkeys-are-the-future</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
-<title>International cyber agencies share fresh advice to defend against China-linked covert networks</title>
-<link>https://www.ncsc.gov.uk/news/international-cyber-agencies-fresh-advice-defend-against-china-linked-covert-networks</link>
-<description><![CDATA[New advisory highlights how to defend against attacker tactics believed to be used by China-linked actors to hide malicious cyber activity.]]></description>
-<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/international-cyber-agencies-fresh-advice-defend-against-china-linked-covert-networks</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -12414,7 +12394,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f26687c6f70&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f0cdf949400&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20574,7 +20554,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20583,7 +20563,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20592,7 +20572,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20601,7 +20581,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20610,7 +20590,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20619,7 +20599,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20629,7 +20609,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20638,7 +20618,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20647,7 +20627,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20656,7 +20636,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 03:23:07 +0000</pubDate>
+<pubDate>Tue, 21 Jul 2026 06:35:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

