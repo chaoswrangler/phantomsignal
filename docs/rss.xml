@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 21 Jul 2026 23:59:51 +0000</lastBuildDate>
+<lastBuildDate>Wed, 22 Jul 2026 03:21:34 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -339,12 +339,11 @@
 <item>
 <title>300 WINtegrations Strong: An Open Security Ecosystem Built for the Speed of AI</title>
 <link>https://www.wiz.io/blog/wiz-integration-network-reaches-300</link>
-<description><![CDATA[As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.<br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.]]></description>
 <pubDate>Tue, 21 Jul 2026 12:35:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-integration-network-reaches-300</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Early Edition: July 21, 2026</title>
@@ -958,11 +957,12 @@
 <item>
 <title>JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models</title>
 <link>https://webflow.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models</link>
-<description><![CDATA[JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Team, is now using ransomware to destroy trained AI models.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Team, is now using ransomware to destroy trained AI models.<br/><br/><em>Tags: CVE-2025-3248 · ransomware_extortion</em>]]></description>
 <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
+<category>CVE-2025-3248</category>
 <category>ransomware_extortion</category>
 </item>
 <item>
@@ -1047,11 +1047,12 @@
 <item>
 <title>New North Korean campaign uses fake coding interviews to steal developer credentials</title>
 <link>https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography</link>
-<description><![CDATA[DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.<br/><br/><em>Tags: web_shell_backdoor</em>]]></description>
+<description><![CDATA[DPRK-aligned hackers hid malware inside SVG flag images to backdoor developer job interview coding tests. Not one antivirus vendor caught it.<br/><br/><em>Tags: supply_chain · web_shell_backdoor</em>]]></description>
 <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+<category>supply_chain</category>
 <category>web_shell_backdoor</category>
 </item>
 <item>
@@ -1797,20 +1798,25 @@
 <item>
 <title>TELEPUZ: a modular MaaS malware spreading via CLICKFIX-VIDAR chains</title>
 <link>https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix</link>
-<description><![CDATA[TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.]]></description>
+<description><![CDATA[TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>The CISO&apos;s guide to headless cloud security</title>
 <link>https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security</link>
-<description><![CDATA[Attackers went agentic. Your security architecture should too. A CISO&apos;s guide to headless, API-first defense.]]></description>
+<description><![CDATA[Attackers went agentic. Your security architecture should too. A CISO&apos;s guide to headless, API-first defense.<br/><br/><em>Tags: GitHub · Kubernetes · ransomware_extortion · cloud_abuse · vulnerability_disclosure · active_exploitation</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
+<category>GitHub</category>
+<category>Kubernetes</category>
+<category>ransomware_extortion</category>
+<category>cloud_abuse</category>
 </item>
 <item>
 <title>The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)</title>
@@ -2103,6 +2109,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>ISC Stormcast For Wednesday, July 15th, 2026 https://isc.sans.edu/podcastdetail/10008, (Wed, Jul 15th)</title>
+<link>https://isc.sans.edu/diary/rss/33158</link>
+<description><![CDATA[(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.]]></description>
+<pubDate>Wed, 15 Jul 2026 02:00:02 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33158</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
 <title>Recent DShield SIEM Update, (Tue, Jul 14th)</title>
 <link>https://isc.sans.edu/diary/rss/33156</link>
 <description><![CDATA[The last update to the DShield SIEM [ 4 ] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.]]></description>
@@ -2122,6 +2137,15 @@
 <category>AWS</category>
 </item>
 <item>
+<title>Weekly Update 512: IoT Lockout Fail</title>
+<link>https://www.troyhunt.com/weekly-update-512/</link>
+<description><![CDATA[&quot;Build a smart home&quot;, they said. &quot;It&apos;ll make life so much better&quot;, they said. Well, life wasn&apos;t very bloody good at 23:00 the other night after travelling 33 hours from Paris only to find the IoT doorlock batteries dead and the]]></description>
+<pubDate>Wed, 15 Jul 2026 00:35:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.troyhunt.com/weekly-update-512/</guid>
+<source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
+<category>practitioner_analysis</category>
+</item>
+<item>
 <title>Cribl Adds Agentic Detection Engineering &amp; Boosts SecOps With CardinalOps Deal</title>
 <link>https://www.darkreading.com/cybersecurity-operations/cribl-adds-agentic-detection-engineering-boosts-secops-with-cardinalops-deal</link>
 <description><![CDATA[CardinalOps will give Cribl customers the ability to map detection rules and security controls to the MITRE ATT&amp;CK framework. SecOps teams can identify coverage gaps and operationalize threat intelligence.]]></description>
@@ -2129,6 +2153,15 @@
 <guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/cribl-adds-agentic-detection-engineering-boosts-secops-with-cardinalops-deal</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>The Shift: A New Era of AI Regulation</title>
+<link>https://www.recordedfuture.com/blog/the-shift-new-era-ai</link>
+<description><![CDATA[Explore how recent US export controls on frontier AI models like Anthropic&apos;s Fable signal a new era of regulatory uncertainty. Learn how security leaders can build resilient AI strategies by treating frontier models as volatile assets rather than stable technology]]></description>
+<pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/the-shift-new-era-ai</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>SonicWall SMA1000 vulnerabilities in active exploitation</title>
@@ -2231,15 +2264,6 @@
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)</title>
-<link>https://isc.sans.edu/diary/rss/33154</link>
-<description><![CDATA[This patch Tuesday includes a staggering&amp;#;x26;#;xc2;&amp;#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&amp;#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One was disclosed before today, and two have already been exploited.]]></description>
-<pubDate>Tue, 14 Jul 2026 19:14:58 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33154</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
 </item>
 <item>
 <title>Quoting Armin Ronacher</title>
@@ -3629,6 +3653,15 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
+<title>The Threat Isn’t the Frontier Model</title>
+<link>https://www.recordedfuture.com/blog/build-defensive-ai-agents</link>
+<description><![CDATA[The real AI threat isn&apos;t frontier models. It&apos;s cheap local models getting easier to run. Here&apos;s why CISOs should build defensive agents now, before attackers scale.]]></description>
+<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/build-defensive-ai-agents</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution</title>
 <link>https://www.exploit-db.com/exploits/52629</link>
 <description><![CDATA[Krayin CRM v2.2.x - Authenticated Remote Code Execution]]></description>
@@ -3663,15 +3696,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52626</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>The Threat Isn’t the Frontier Model</title>
-<link>https://www.recordedfuture.com/blog/build-defensive-ai-agents</link>
-<description><![CDATA[The real AI threat isn&apos;t frontier models. It&apos;s cheap local models getting easier to run. Here&apos;s why CISOs should build defensive agents now, before attackers scale.]]></description>
-<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/build-defensive-ai-agents</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>ClickFix to Cash-Out: Anatomy of a Mexican Banking-Fraud Toolkit</title>
@@ -7203,15 +7227,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
-<link>https://www.exploit-db.com/exploits/52610</link>
-<description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
-<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>May 2026 CVE Landscape</title>
 <link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
 <description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
@@ -7219,6 +7234,15 @@
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/may-2026-cve-landscape</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
+<link>https://www.exploit-db.com/exploits/52610</link>
+<description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
+<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>The “Skyway” to OSS Security: OpenSSF Community Day North America 2026 Recap</title>
@@ -7262,6 +7286,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
+<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
+<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection</title>
 <link>https://www.exploit-db.com/exploits/52609</link>
 <description><![CDATA[WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection<br/><br/><em>Tags: WordPress</em>]]></description>
@@ -7270,15 +7303,6 @@
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
-</item>
-<item>
-<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
-<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
-<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>VerdantBamboo: Just Another BRICKSTORM in the Firewall</title>
@@ -8309,15 +8333,6 @@
 <category>threat_research_primary</category>
 <category>phishing_social_eng</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks</title>
-<link>https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/</link>
-<description><![CDATA[Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about how their hosting companies had assumed control over the technical infrastructure of Stark Industries Solutions, an Internet service provider sanctioned last year by the EU as a frequent staging ground for cyber mischief from Russia&apos;s intelligence agencies.]]></description>
-<pubDate>Mon, 25 May 2026 13:21:49 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Risky Bulletin: Mythos has found thousands of critical bugs</title>
@@ -12421,7 +12436,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fc03a1baeb0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fad3eb482e0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20508,7 +20523,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20518,7 +20533,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20527,7 +20542,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20536,7 +20551,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20545,7 +20560,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20554,7 +20569,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20563,7 +20578,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20573,7 +20588,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20582,7 +20597,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20591,7 +20606,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 21 Jul 2026 23:59:51 +0000</pubDate>
+<pubDate>Wed, 22 Jul 2026 03:21:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
