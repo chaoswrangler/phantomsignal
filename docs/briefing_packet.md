@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-22T18:13:52.712699+00:00
+- Generated: 2026-07-22T20:15:57.370451+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 324
-- Total clusters raw: 143
-- Total clusters in packet: 67
-- Dropped low score: 76
+- Total items in window: 326
+- Total clusters raw: 146
+- Total clusters in packet: 71
+- Dropped low score: 75
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,26 +80,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -110,71 +120,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
+  - Item count: 20
   - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -185,6 +165,26 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -192,6 +192,11 @@
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,21 +210,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 20
+  - In window count: 3
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -235,91 +235,91 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 19
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 19
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,6 +330,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 21
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,21 +345,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 21
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -365,11 +365,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -379,6 +374,16 @@
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
@@ -390,23 +395,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,6 +405,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
@@ -430,21 +430,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 24
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 19
+  - In window count: 20
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -476,25 +476,24 @@
 ### WordPress active exploitation
 - Anchor signal: WordPress
 - Theme key: wordpress
-- Cluster count: 7
-- Article count: 21
-- Cohesion: 0.24
+- Cluster count: 8
+- Article count: 23
+- Cohesion: 0.233
 - Shared strong signals: WordPress
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, data_breach, ransomware_extortion, zero_day
-  - affected_industries: financial_services, manufacturing_industrial
-  - affected_products: WordPress, Microsoft SharePoint
-  - cve_ids: CVE-2026-60137, CVE-2026-63030
-  - urgency_signals: actively_exploited, preauth_unauth, poc_available, zero_day
-- Cluster IDs: 56fb338f87, 9e0819b3d1, c4020d76d0, 3d70163861, 2bab6cab95, 57de1d00b3, 614567d2bd
+  - threat_categories: active_exploitation, data_breach, ransomware_extortion
+  - affected_products: WordPress
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: 56fb338f87, 9e0819b3d1, 06406030dc, c4020d76d0, 3d70163861, 2bab6cab95, 57de1d00b3, 614567d2bd
 - Links:
   - https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
   - https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/
   - https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core
   - https://isc.sans.edu/diary/rss/33168
+  - https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
   - https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/
   - https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html
   - https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/
@@ -502,6 +501,7 @@
   - https://www.infosecurity-magazine.com/news/researchers-wordpress-exploit/
   - https://orca.security/resources/blog/cve-2026-42533-nginx-heap-buffer-overflow/
   - https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
+  - https://orca.security/resources/blog/ubuntu-pro-client-vulnerability-cve-2026-11386/
   - https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html
   - https://www.infosecurity-magazine.com/news/cisa-urgent-patch-fortinet/
   - https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
@@ -536,6 +536,31 @@
   - https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/
   - https://www.securityweek.com/ransomware-group-threatening-to-leak-data-stolen-from-coca-colas-fairlife/
 
+### SonicWall active exploitation
+- Anchor signal: SonicWall
+- Theme key: sonicwall
+- Cluster count: 4
+- Article count: 7
+- Cohesion: 0.307
+- Shared strong signals: SonicWall
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, zero_day, data_breach, ransomware_extortion
+  - actor_attribution: Scattered Spider
+  - affected_industries: financial_services, manufacturing_industrial
+  - affected_products: SonicWall, Microsoft SharePoint, WordPress
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 48ddf62f59, b892e3088a, 57de1d00b3, 614567d2bd
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
+  - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
+  - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
+  - https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
+  - https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/
+  - https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/
+  - https://www.securityweek.com/ransomware-group-threatening-to-leak-data-stolen-from-coca-colas-fairlife/
+
 ### zero day targeting Salesforce
 - Anchor signal: Salesforce
 - Theme key: salesforce
@@ -558,27 +583,6 @@
   - https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
   - https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
   - https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
-
-### phishing social eng targeting Microsoft Entra
-- Anchor signal: Microsoft Entra
-- Theme key: microsoft-entra
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.323
-- Shared strong signals: Microsoft Entra
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, zero_day, active_exploitation
-  - actor_attribution: ShinyHunters
-  - affected_products: Microsoft Entra, Salesforce, Microsoft 365
-  - urgency_signals: zero_day, preauth_unauth, poc_available
-- Cluster IDs: 17b63d385b, 629e6024b5, b788e3a84d, 86bb601c47
-- Links:
-  - https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
-  - https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html
-  - https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
-  - https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365
 
 ### AWS active exploitation
 - Anchor signal: AWS
@@ -625,24 +629,20 @@
 ### Scattered Spider targeting Microsoft SharePoint
 - Anchor signal: Scattered Spider
 - Theme key: scattered-spider
-- Cluster count: 4
+- Cluster count: 3
 - Article count: 3
 - Cohesion: 0.569
 - Shared strong signals: Scattered Spider
 - Member CVEs: (none)
-- Also targets: SonicWall
+- Also targets: (none)
 - Dominant features:
   - threat_categories: ransomware_extortion, zero_day, data_breach, active_exploitation
   - actor_attribution: Scattered Spider
   - affected_industries: financial_services, manufacturing_industrial
   - affected_products: Microsoft SharePoint, SonicWall, WordPress
   - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 48ddf62f59, 57de1d00b3, 614567d2bd, a632c3dcbf
+- Cluster IDs: 57de1d00b3, 614567d2bd, a632c3dcbf
 - Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/
-  - https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/
-  - https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days
-  - https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
   - https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/
   - https://www.securityweek.com/ransomware-group-threatening-to-leak-data-stolen-from-coca-colas-fairlife/
   - https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack
@@ -706,30 +706,6 @@
   - https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
   - https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
 
-### phishing social eng targeting Linux kernel
-- Anchor signal: Linux kernel
-- Theme key: linux-kernel
-- Cluster count: 3
-- Article count: 11
-- Cohesion: 0.363
-- Shared strong signals: Linux kernel
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng
-  - affected_products: Linux kernel, OpenAI/ChatGPT
-- Cluster IDs: 7200b1bf11, f57b665e0a, 7ad1b91bfd
-- Links:
-  - https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/
-  - https://risky.biz/RBNEWS590/
-  - https://therecord.media/openai-cyberattack-hugging-face
-  - https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
-  - https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face
-  - https://www.helpnetsecurity.com/2026/07/22/hugging-face-breach-openai-testing/
-  - https://www.infosecurity-magazine.com/news/open-ai-hacked-another-company/
-  - https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/
-  - https://www.infosecurity-magazine.com/news/ubuntu-snap-confine-local-root-cve/
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
@@ -749,14 +725,34 @@
   - https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
   - https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/
 
+### Google Cloud vulnerability activity
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
+- Cluster count: 2
+- Article count: 5
+- Cohesion: 1.0
+- Shared strong signals: Google Cloud
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Google Cloud
+- Cluster IDs: ea15d254b9, 0256f627d7
+- Links:
+  - https://cloud.google.com/blog/products/data-analytics/how-checkout-com-tallies-data-with-cloud-composer-3/
+  - https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/
+  - https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-4986 (first seen via Reddit r/netsec at 2026-07-22T14:46:52+00:00, cluster 26b1df3ae2)
-- Novel actors: 2
-  - APT43 (first seen via The Record at 2026-07-22T16:47:00+00:00, cluster 338c71242d)
-  - Kimsuky (first seen via The Record at 2026-07-22T16:47:00+00:00, cluster 338c71242d)
+- Novel cves: 6
+  - CVE-2026-60167 (first seen via Horizon3 Attack Research at 2026-07-22T19:32:52+00:00, cluster 4f7846fb3b)
+  - CVE-2026-60168 (first seen via Horizon3 Attack Research at 2026-07-22T19:32:52+00:00, cluster 4f7846fb3b)
+  - CVE-2026-60169 (first seen via Horizon3 Attack Research at 2026-07-22T19:32:52+00:00, cluster 4f7846fb3b)
+  - CVE-2026-60170 (first seen via Horizon3 Attack Research at 2026-07-22T19:32:52+00:00, cluster 4f7846fb3b)
+  - CVE-2026-50458 (first seen via Reddit r/netsec at 2026-07-22T19:08:40+00:00, cluster e368ef6eef)
+  - CVE-2026-48294 (first seen via The Hacker News at 2026-07-22T15:01:21+00:00, cluster 0fa786e6c6)
+- Novel actors: 0
 - Novel products: 0
 
 ### Velocity bursts (4)
@@ -764,14 +760,14 @@
   - Cluster: 56fb338f87
   - Sources in window: 3
   - Window hours: 4.7
-  - Cohort count: 5
+  - Cohort count: 6
 - **CVE-2026-15409 / CVE-2026-15410 | SonicWall SMA1000 Server-Side Request Forgery and Code Injection Vulnerabilities**
   - Cluster: 48ddf62f59
   - Sources in window: 3
   - Window hours: 2.2
   - Cohort count: 3
-- **Risky Bulletin: Rogue OpenAI models were behind the Hugging Face breach**
-  - Cluster: f57b665e0a
+- **OpenAI models behind breach of Hugging Face systems, companies say**
+  - Cluster: c7e06f6411
   - Sources in window: 3
   - Window hours: 5.6
   - Cohort count: 3
@@ -819,7 +815,7 @@
 - **Scattered Spider** (cluster 57de1d00b3)
   - New industries: manufacturing_industrial
   - New products: SonicWall, WordPress
-  - Prior top industries: financial_services, government, healthcare
+  - Prior top industries: critical_infrastructure, financial_services, government
   - Prior top products: Anthropic/Claude, Apple iOS/macOS, Microsoft SharePoint
 
 ### Persistence (12)
@@ -836,11 +832,15 @@
 - actor_attribution: LockBit (weeks observed: 3, cluster 2fbc7d9666)
 - cve_ids: CVE-2026-39987 (weeks observed: 3, cluster 9454090822)
 
-### Tier inversion (1)
+### Tier inversion (2)
 - **I was reporter #11 for a WPForms PayPal webhook vulnerability (CVE-2026-4986)**
   - Cluster: 26b1df3ae2
   - Primary source: Reddit r/netsec
   - Strong signals: CVE-2026-4986
+- **CVE-2026-50458: Finding a UAF in the Windows Brokering File System**
+  - Cluster: e368ef6eef
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2026-50458
 
 ## Clusters
 
@@ -851,8 +851,8 @@
 - Published: 2026-07-22T14:48:54+00:00
 - Link: https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
 - Fetch status: ok
-- Member count: 14
-- Corroborating source count: 10
+- Member count: 15
+- Corroborating source count: 11
 - Strong signals: CVE-2026-60137, CVE-2026-63030, WordPress
 
 #### Cluster taxonomy (union across members)
@@ -880,10 +880,10 @@ A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-
 #### Full body
 
 ```
-A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-60137 (CVSS 5.9) was disclosed affecting WordPress Core, allowing attackers to achieve unauthenticated remote code execution via chained REST API batch-route confusion and SQL injection flaws. Due to the potential for full server compromise on default installations, immediate patching is required. About CVE-2026-63030 & CVE-2026-60137 The issue originates from two components in WordPress Core. CVE-2026-63030 is a REST API batch-route confusion flaw in WP_REST_Server::serve_batch_request_v1() introduced in WordPress 6.9, while CVE-2026-60137 is a SQL injection in the author__not_in parameter of WP_Query that lacks proper type validation. By chaining specially crafted /wp-json/batch requests, attackers can forge an administrator account and gain full web-server code execution, potentially leading to persistent backdoors, data exfiltration, and lateral movement across cloud environments. No authentication is required to exploit this issue, and no plugins or special configuration are needed on the target. Affected Systems The following components are affected: WordPress Core versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1 are vulnerable to the full pre-authentication RCE chain. WordPress Core versions 6.8.0 through 6.8.5 are vulnerable to the SQL injection alone, which carries data exposure risk. Default installations released since December 2025 are at risk. Security firm research showed that 60% of WordPress organizations had vulnerable instances at the time of disclosure, dropping to 50% within 24 hours. Sites using persistent object caching (Redis/Memcached) may have narrower exploit pathways, but this is not a comprehensive mitigation. Risk Impact Users should upgrade to WordPress 7.0.2, 6.9.5, or 6.8.6, all released on July 17, 2026. WordPress.org has enabled forced automatic updates for supported installations, but teams should verify updates have been applied successfully. As interim mitigations (not substitutes for patching), defenders can block anonymous access to /wp-json/batch/v1 and ?rest_route=/batch/v1, or disable anonymous REST API access using a trusted plugin. Cloudflare has deployed WAF protections across all plan tiers. At the time of writing, public proof-of-concept exploit code is widely available, and active in-the-wild exploitation has been confirmed by multiple security firms as of July 18-20, 2026. Post-exploitation activity includes malicious plugin uploads for persistence, PHP webshells disguised as fake security plugins, and attempts to read wp-config secrets. Researchers have noted that rapid PoC development was partly aided by AI-assisted patch diffing. Both high-volume opportunistic scanning and targeted attacks have been observed. A high-fidelity detection signal is /wp-json/batch requests returning HTTP 207/200 multi-status responses, and defenders should also check for unexpected administrator accounts, new or modified plugins, and user-agent strings referencing wp2shell tools. Regardless, the severity and ease of exploitation make this vulnerability chain high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to create rogue administrator accounts, execute arbitrary code on the web server, and install persistent backdoors, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable WordPress versions, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Webinar Recap AI on Both Sides: Key Takeaways From Cloud Security LIVE 2026 Jul 22, 2026 Cloud Security Learning Affo
+A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-60137 (CVSS 5.9) was disclosed affecting WordPress Core, allowing attackers to achieve unauthenticated remote code execution via chained REST API batch-route confusion and SQL injection flaws. Due to the potential for full server compromise on default installations, immediate patching is required. About CVE-2026-63030 & CVE-2026-60137 The issue originates from two components in WordPress Core. CVE-2026-63030 is a REST API batch-route confusion flaw in WP_REST_Server::serve_batch_request_v1() introduced in WordPress 6.9, while CVE-2026-60137 is a SQL injection in the author__not_in parameter of WP_Query that lacks proper type validation. By chaining specially crafted /wp-json/batch requests, attackers can forge an administrator account and gain full web-server code execution, potentially leading to persistent backdoors, data exfiltration, and lateral movement across cloud environments. No authentication is required to exploit this issue, and no plugins or special configuration are needed on the target. Affected Systems The following components are affected: WordPress Core versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1 are vulnerable to the full pre-authentication RCE chain. WordPress Core versions 6.8.0 through 6.8.5 are vulnerable to the SQL injection alone, which carries data exposure risk. Default installations released since December 2025 are at risk. Security firm research showed that 60% of WordPress organizations had vulnerable instances at the time of disclosure, dropping to 50% within 24 hours. Sites using persistent object caching (Redis/Memcached) may have narrower exploit pathways, but this is not a comprehensive mitigation. Risk Impact Users should upgrade to WordPress 7.0.2, 6.9.5, or 6.8.6, all released on July 17, 2026. WordPress.org has enabled forced automatic updates for supported installations, but teams should verify updates have been applied successfully. As interim mitigations (not substitutes for patching), defenders can block anonymous access to /wp-json/batch/v1 and ?rest_route=/batch/v1, or disable anonymous REST API access using a trusted plugin. Cloudflare has deployed WAF protections across all plan tiers. At the time of writing, public proof-of-concept exploit code is widely available, and active in-the-wild exploitation has been confirmed by multiple security firms as of July 18-20, 2026. Post-exploitation activity includes malicious plugin uploads for persistence, PHP webshells disguised as fake security plugins, and attempts to read wp-config secrets. Researchers have noted that rapid PoC development was partly aided by AI-assisted patch diffing. Both high-volume opportunistic scanning and targeted attacks have been observed. A high-fidelity detection signal is /wp-json/batch requests returning HTTP 207/200 multi-status responses, and defenders should also check for unexpected administrator accounts, new or modified plugins, and user-agent strings referencing wp2shell tools. Regardless, the severity and ease of exploitation make this vulnerability chain high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to create rogue administrator accounts, execute arbitrary code on the web server, and install persistent backdoors, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable WordPress versions, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning Risk Prioritization: How Security Teams Focus on What Matters Jul 22, 2026 Cloud Security Lea
 ```
 
-#### Corroborating sources (10)
+#### Corroborating sources (11)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: WordPress Core Pre-Auth RCE Chain Exploited in the Wild
@@ -910,6 +910,11 @@ A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-
   - Published: 2026-07-20T18:41:24+00:00
   - Link: https://isc.sans.edu/diary/rss/33168
   - Summary: Last week, Searchlight Cyber released details about a vulnerability they are calling "wp2shell". The vulnerability was initially announced without a CVE number. But now has been assigned CVE-2026-63030. Many WordPress plugin vulnerabilities are never assigned CVE numbers. But wp2shell is different. It is a SQL injection vulnerability in WordPress Core, not a plugin, and can lead to unauthenticated remote code execution. Shortly after being announced, the vulnerability started to be exploited.
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: wp2shell hits WordPress: detecting pre-auth RCE from plugin drop to command execution
+  - Published: 2026-07-23T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
+  - Summary: We ran the wp2shell WordPress RCE chain end-to-end with Elastic Defend. Detection rule walkthrough, IOCs, and hunt guidance.
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - Title: wp2shell (CVE-2026-63030): Pre-Auth RCE Chain in WordPress Core - Analysis and Open-Source Scanner
   - Published: 2026-07-18T21:17:40+00:00
@@ -1136,6 +1141,51 @@ Threat Research Center High Profile Threats Malware Malware The npm Threat Lands
   - Link: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
   - Summary: Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an "unprecedented" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,
 
+### Cluster 4f7846fb3b — score 21
+
+- Title: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 | Oracle Hospitality Simphony Multiple Vulnerabilities
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-22T19:32:52+00:00
+- Link: https://horizon3.ai/attack-research/vulnerabilities/oracle-hospitality-simphony-vulnerabilities/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169, CVE-2026-60170
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- cve_ids: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169, CVE-2026-60170
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- cve_ids: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169, CVE-2026-60170
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation.
+```
+
+#### Full body
+
+```
+Oracle Hospitality Simphony Multiple Vulnerabilities Oracle’s July 2026 Critical Patch Update addresses four remotely exploitable vulnerabilities affecting Oracle Hospitality Simphony. Discovered and responsibly disclosed by Horizon3.ai researcher Jimi Sebree, the vulnerabilities affect two Simphony components: the EGateway Printing Handler and the Kiosk application. Together, they provide multiple paths for unauthenticated attackers to compromise vulnerable systems, including NTLM hash disclosure, arbitrary file writes, authentication bypass, and arbitrary code execution. The vulnerabilities include: CVE-2026-60167: UNC path coercion resulting in NTLM hash disclosure CVE-2026-60168 & CVE-2026-60169: Related vulnerabilities that together enable arbitrary file writes through the EGateway Printing Handler CVE-2026-60170: Authentication bypass affecting the Simphony Kiosk application that can lead to arbitrary code execution Oracle Hospitality Simphony is widely deployed across hospitality chains, quick-service restaurants, stadiums, casinos, hotels, and other food service environments. Because these systems frequently reside on networks that process payment card data and connect to enterprise infrastructure, successful exploitation may enable lateral movement, persistence, credential compromise, or complete host compromise. There are currently no confirmed reports of active exploitation in the wild. Stop Guessing, Start Proving Schedule a demo Technical Details Although Oracle assigned four separate CVE identifiers, the vulnerabilities fall into two functional groups affecting different Simphony components. CVE-2026-60167: UNC Path Coercion CVE-2026-60167 affects the EGateway Printing Handler. Improper validation of user-controlled input allows an unauthenticated attacker to supply a crafted UNC path that causes the Simphony host to initiate an outbound SMB connection to an attacker-controlled server. Windows may automatically transmit NTLM authentication material during this connection. Captured NTLM hashes may be cracked offline or relayed to other systems, potentially facilitating credential compromise and lateral movement. Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: NTLM hash disclosure CVE-2026-60168 & CVE-2026-60169: Arbitrary File Write CVE-2026-60168 and CVE-2026-60169 affect the EGateway Printing Handler. The vulnerabilities result from insufficient validation of attacker-controlled input before file operations are performed. Oracle assigned two CVEs to distinct weaknesses within the processing chain that together create a single arbitrary file write condition. An unauthenticated attacker can submit crafted requests that cause arbitrary files to be written to the underlying host. Successful exploitation may allow an attacker to: Write attacker-controlled files Establish persistence Prepare the system for subsequent code execution Facilitate additional compromise Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: Arbitrary file write CVE-2026-60170: Authentication Bypass CVE-2026-60170 affects the Simphony Kiosk application. Improper validation of user-controlled input allows an unauthenticated attacker to bypass authentication and gain access to the Kiosk administrator console. Horizon3.ai research demonstrated that this unauthorized administrative access can be leveraged to execute arbitrary code on the underlying host. Successful exploitation may enable an attacker to: Execute arbitrary code Establish persistence Access locally available data Use the compromised system as a foothold for additional attacks Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: Authentication bypass leading to arbitrary code execution NodeZero® Proactive Security Platform — Rapid Response A single NodeZero Rap
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 | Oracle Hospitality Simphony Multiple Vulnerabilities
+  - Published: 2026-07-22T19:32:52+00:00
+  - Link: https://horizon3.ai/attack-research/vulnerabilities/oracle-hospitality-simphony-vulnerabilities/
+  - Summary: Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation.
+
 ### Cluster 9e0819b3d1 — score 21
 
 - Title: Critical Heap Buffer Overflow in NGINX Allows Unauthenticated Remote Code Execution
@@ -1201,17 +1251,17 @@ A critical vulnerability ( CVE-2026-42533 , CVSS v4.0 9.2 / CVSS v3.1 8.1) was d
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, apt_espionage, data_breach
-- affected_industries: government
+- affected_products: WordPress
 - cve_ids: CVE-2026-11386, CVE-2026-12391, CVE-2026-9494
-- urgency_signals: actively_exploited, critical_cvss, no_patch_yet
+- urgency_signals: actively_exploited, critical_cvss, no_patch_yet, preauth_unauth
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
 - threat_categories: data_breach, apt_espionage, active_exploitation
-- affected_industries: government
+- affected_products: WordPress
 - cve_ids: CVE-2026-11386, CVE-2026-9494, CVE-2026-12391
-- urgency_signals: actively_exploited, no_patch_yet, critical_cvss
+- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet, critical_cvss
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_2_operator
 
@@ -1224,7 +1274,7 @@ A critical vulnerability (CVE-2026-11386, CVSS 9.0) was disclosed affecting Cano
 #### Full body
 
 ```
-Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-11386 , CVSS 9.0) was disclosed affecting Canonical’s Ubuntu Pro Client (ubuntu-advantage-tools), allowing attackers to execute arbitrary code with root privileges via a spoofed or tampered contract server response. Due to the potential for full system compromise across cloud environments, immediate patching is required. About CVE-2026-11386 The issue originates from the Ubuntu Pro Client’s handling of contract server responses, where the directives.suites[] and directives.aptURL fields are written into APT source files using Python’s str.format() with no escaping and no newline filtering. This allows embedded newlines to inject malicious APT directives. Additionally, the unvalidated additionalPackages[] field passes directly into a root-executed apt-get install command. By sending a spoofed or tampered contract server response, attackers can inject arbitrary APT sources and trigger package installations as root, potentially achieving full system takeover. The attack requires network-level access with high complexity, such as compromised internal infrastructure or intercepted connections using trusted certificates. Affected Systems The following components are affected: ubuntu-advantage-tools and ubuntu-pro-client across all Ubuntu LTS releases from 14.04 through 26.04. The vulnerable versions include all releases prior to the patched versions listed below. The Ubuntu Pro Client is preinstalled on Ubuntu Server and auto-attaches on cloud Ubuntu Pro images, making the exposure particularly broad across cloud workloads . Ubuntu 25.10 (end-of-life) received no patch. The advisory USN-8555-1 also addresses two companion vulnerabilities: CVE-2026-9494 (Pro bearer token exposure in command-line arguments) and CVE-2026-12391 (symlink handling flaw in log collection). Users should upgrade ubuntu-advantage-tools to the following patched versions via standard system update (apt update && apt upgrade): – Ubuntu 26.04 LTS: 37.2ubuntu0.1 – Ubuntu 24.04 LTS: 37.2ubuntu~24.04.1 – Ubuntu 22.04 LTS: 37.2ubuntu~22.04.1 – Ubuntu 20.04 LTS: 37.1ubuntu0~20.04.1 – Ubuntu 18.04 LTS: 37.1ubuntu0~18.04.1 – Ubuntu 16.04 LTS: 37.1ubuntu0~16.04.1 – Ubuntu 14.04 LTS: 19.7ubuntu0.1 No workaround exists for unpatched systems. Patches for Ubuntu 16.04, 18.04, and 14.04 require Ubuntu Pro with Legacy Support. Risk Impact At the time of writing, no public proof-of-concept exists, and no exploitation in the wild has been reported. Regardless, the severity and ease of exploitation once the prerequisite network position is achieved make this vulnerability high risk , especially in internet-facing cloud deployments where the Ubuntu Pro Client auto-attaches. Successful exploitation could allow attackers to execute arbitrary code as root, install malicious packages and persist access, and potentially pivot across the environment , leading to service disruption, data exposure, or full infrastructure compromise. The scope change in the CVSS vector (S:C) indicates that compromise extends beyond the vulnerable component itself. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of ubuntu-advantage-tools, understand their exposure in context — including internet accessibility, runtime reachability, and asset criticality — and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can Help Related articles Cloud Security Learning Affordable Government Cloud Security Guide Jul 21, 2026 Security for the Way You Work: Orca Integrates with Claude’s Compliance API Jul 21, 2026 Product Info It Was Not a Warning Shot. It Was the First of Many. Jul 20, 2026 Stay in the loop Keep up to d
+Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-11386 , CVSS 9.0) was disclosed affecting Canonical’s Ubuntu Pro Client (ubuntu-advantage-tools), allowing attackers to execute arbitrary code with root privileges via a spoofed or tampered contract server response. Due to the potential for full system compromise across cloud environments, immediate patching is required. About CVE-2026-11386 The issue originates from the Ubuntu Pro Client’s handling of contract server responses, where the directives.suites[] and directives.aptURL fields are written into APT source files using Python’s str.format() with no escaping and no newline filtering. This allows embedded newlines to inject malicious APT directives. Additionally, the unvalidated additionalPackages[] field passes directly into a root-executed apt-get install command. By sending a spoofed or tampered contract server response, attackers can inject arbitrary APT sources and trigger package installations as root, potentially achieving full system takeover. The attack requires network-level access with high complexity, such as compromised internal infrastructure or intercepted connections using trusted certificates. Affected Systems The following components are affected: ubuntu-advantage-tools and ubuntu-pro-client across all Ubuntu LTS releases from 14.04 through 26.04. The vulnerable versions include all releases prior to the patched versions listed below. The Ubuntu Pro Client is preinstalled on Ubuntu Server and auto-attaches on cloud Ubuntu Pro images, making the exposure particularly broad across cloud workloads . Ubuntu 25.10 (end-of-life) received no patch. The advisory USN-8555-1 also addresses two companion vulnerabilities: CVE-2026-9494 (Pro bearer token exposure in command-line arguments) and CVE-2026-12391 (symlink handling flaw in log collection). Users should upgrade ubuntu-advantage-tools to the following patched versions via standard system update (apt update && apt upgrade): – Ubuntu 26.04 LTS: 37.2ubuntu0.1 – Ubuntu 24.04 LTS: 37.2ubuntu~24.04.1 – Ubuntu 22.04 LTS: 37.2ubuntu~22.04.1 – Ubuntu 20.04 LTS: 37.1ubuntu0~20.04.1 – Ubuntu 18.04 LTS: 37.1ubuntu0~18.04.1 – Ubuntu 16.04 LTS: 37.1ubuntu0~16.04.1 – Ubuntu 14.04 LTS: 19.7ubuntu0.1 No workaround exists for unpatched systems. Patches for Ubuntu 16.04, 18.04, and 14.04 require Ubuntu Pro with Legacy Support. Risk Impact At the time of writing, no public proof-of-concept exists, and no exploitation in the wild has been reported. Regardless, the severity and ease of exploitation once the prerequisite network position is achieved make this vulnerability high risk , especially in internet-facing cloud deployments where the Ubuntu Pro Client auto-attaches. Successful exploitation could allow attackers to execute arbitrary code as root, install malicious packages and persist access, and potentially pivot across the environment , leading to service disruption, data exposure, or full infrastructure compromise. The scope change in the CVSS vector (S:C) indicates that compromise extends beyond the vulnerable component itself. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of ubuntu-advantage-tools, understand their exposure in context — including internet accessibility, runtime reachability, and asset criticality — and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the alert view, helping security teams focus on the most critical remediation paths first. Table of contents About CVE-2026-11386 Affected Systems Risk Impact How Orca Can Help Related articles Cloud Security Learning Security Visibility: Best Practices for Cloud Security Teams Jul 22, 2026 Research WordPress Core Pre-Auth RCE Chain Exploited in the Wild Jul 22, 2026 Webinar Recap AI on Both Sides: Key Takeaways From Cloud Security LIVE 2026 Jul 22, 2026 Stay in the
 ```
 
 #### Corroborating sources (1)
@@ -1797,49 +1847,6 @@ Risky Bulletin Podcast July 16, 2026 Srsly Risky Biz: Ransomware uses AI to amp 
   - Link: https://risky.biz/SRB175/
   - Summary: Tom Uren and James Wilson talk about different ways ransomware groups are taking advantage of AI. The relatively new FulcrumSec group uses simple techniques to breach companies and then uses AI to get more leverage over victims in its extortion negotiations. They also discuss the ever so many bugs being patched. This is good for organisations that patch, but it will leave a very long tail of unpatched vulnerabilities. This episode is also available on YouTube
 
-### Cluster 7200b1bf11 — score 12
-
-- Title: Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-22T16:55:29+00:00
-- Link: https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Linux kernel, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Linux kernel, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.
-```
-
-#### Full body
-
-```
-AI Research Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis? Juan Andrés Guerrero-Saade & Gabriel Bernadett-Shapiro / July 22, 2026 Executive Summary SentinelLABS developed a multi-stage reverse-engineering benchmark for the latest generation of frontier models by recreating our recent investigation of fast16 , a unique 2005 sabotage implant. Most AI benchmarks test bounded tasks. This benchmark tests whether a model can keep a malware investigation trustworthy as new evidence repeatedly invalidates its earlier conclusions. OpenAI’s GPT-5.6 Sol was the only publicly available model to complete the full eight-stage investigation, giving concrete shape to what ‘Frontier-class’ capabilities offer analysts. GPT-5.5, GLM-5.2, and the Opus 4.x family produced capable local analysis but could not carry it through the gradient. What distinguished the completed runs was project-scale recovery: withdrawing contradicted conclusions, repairing technical artifacts, and updating dependent reporting without losing the investigation. Senior reverse engineers remain essential. Even the strongest runs made semantic errors, accepted weak quality controls, and claimed readiness prematurely. We assess the best current use as supervised investigative agency, with human analysts defining objectives, exposing blind spots, and retaining final publication authority. Beyond Vulnerability Discovery Since ChatGPT arrived in late 2022, we have been bullish on what large language models could do for reverse engineering and malware analysis. The early models were useful for teaching but too rudimentary for production work; that changed with the advent of reasoning models. OpenAI’s o1-preview, in September 2024, was the first to show the kind of sustained problem-solving the work demands, and within months Sean Heelan had used o3 to find a net-new vulnerability in the Linux kernel . In cybersecurity, though, our understanding of what these models can do remains stovepiped to vulnerability discovery. The frontier labs took on vulnerability discovery deliberately, because that competency keeps agentic code generation from quietly shipping vulnerable code at scale. OpenAI built Aardvark, since folded into Codex; Google DeepMind announced Big Sleep, available internally to its Project Zero researchers; and Anthropic followed with selective access to Mythos Preview. Concerns that these capabilities could be misused have led the labs to stricter guardrails and ‘know your customer’ style controls that limit access to specific capabilities, or to entire model variants. OpenAI’s Daybreak initiative and its Trusted Access Program opened a dedicated variant, GPT-5.*-cyber-preview, with guardrails relaxed for cybersecurity use cases, while Anthropic’s Glasswing initiative and its Cyber Verification Program provided early access to Mythos Preview and the promise of lesser guardrails respectively. For a short period in mid-June 2026 access to the highest-end flagship models from both providers required some form of U.S. government clearance. At the time of writing, GPT 5.6 Sol is widely available, while Mythos 5 still requires clearance and access as a Glasswing partner. The existence of this new class of models left us with an unusual task: benchmarking what these models can actually do on the work defenders care about, and assessing whether they live up to the surrounding hype. If they do, we have to reckon with what that means for malware analysis and reverse engineering, disciplines that until now have been limited mostly by how little expertise exists relative to the collective need. A Benchmark Built From a Real Investigation We recently published our research on fast16 , a 2005 Windows toolkit built to sabotage high-precision solvers used to model nuclear-weapons behavior. The sample provided an ideal test case because its layered design punishes shallow analysis. On the surface, svcmgmt.exe appears to be a Windows service implant
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?
-  - Published: 2026-07-22T16:55:29+00:00
-  - Link: https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/
-  - Summary: A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.
-
 ### Cluster de2a131113 — score 12
 
 - Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
@@ -1882,6 +1889,49 @@ Share Link copied to clipboard! Cyber incidents don’t wait—and effective res
   - Published: 2026-07-22T16:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
   - Summary: Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
+
+### Cluster 7200b1bf11 — score 12
+
+- Title: Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-22T16:55:29+00:00
+- Link: https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: Linux kernel, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: government
+- affected_products: Linux kernel, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.
+```
+
+#### Full body
+
+```
+AI Research Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis? Juan Andrés Guerrero-Saade & Gabriel Bernadett-Shapiro / July 22, 2026 Executive Summary SentinelLABS developed a multi-stage reverse-engineering benchmark for the latest generation of frontier models by recreating our recent investigation of fast16 , a unique 2005 sabotage implant. Most AI benchmarks test bounded tasks. This benchmark tests whether a model can keep a malware investigation trustworthy as new evidence repeatedly invalidates its earlier conclusions. OpenAI’s GPT-5.6 Sol was the only publicly available model to complete the full eight-stage investigation, giving concrete shape to what ‘Frontier-class’ capabilities offer analysts. GPT-5.5, GLM-5.2, and the Opus 4.x family produced capable local analysis but could not carry it through the gradient. What distinguished the completed runs was project-scale recovery: withdrawing contradicted conclusions, repairing technical artifacts, and updating dependent reporting without losing the investigation. Senior reverse engineers remain essential. Even the strongest runs made semantic errors, accepted weak quality controls, and claimed readiness prematurely. We assess the best current use as supervised investigative agency, with human analysts defining objectives, exposing blind spots, and retaining final publication authority. Beyond Vulnerability Discovery Since ChatGPT arrived in late 2022, we have been bullish on what large language models could do for reverse engineering and malware analysis. The early models were useful for teaching but too rudimentary for production work; that changed with the advent of reasoning models. OpenAI’s o1-preview, in September 2024, was the first to show the kind of sustained problem-solving the work demands, and within months Sean Heelan had used o3 to find a net-new vulnerability in the Linux kernel . In cybersecurity, though, our understanding of what these models can do remains stovepiped to vulnerability discovery. The frontier labs took on vulnerability discovery deliberately, because that competency keeps agentic code generation from quietly shipping vulnerable code at scale. OpenAI built Aardvark, since folded into Codex; Google DeepMind announced Big Sleep, available internally to its Project Zero researchers; and Anthropic followed with selective access to Mythos Preview. Concerns that these capabilities could be misused have led the labs to stricter guardrails and ‘know your customer’ style controls that limit access to specific capabilities, or to entire model variants. OpenAI’s Daybreak initiative and its Trusted Access Program opened a dedicated variant, GPT-5.*-cyber-preview, with guardrails relaxed for cybersecurity use cases, while Anthropic’s Glasswing initiative and its Cyber Verification Program provided early access to Mythos Preview and the promise of lesser guardrails respectively. For a short period in mid-June 2026 access to the highest-end flagship models from both providers required some form of U.S. government clearance. At the time of writing, GPT 5.6 Sol is widely available, while Mythos 5 still requires clearance and access as a Glasswing partner. The existence of this new class of models left us with an unusual task: benchmarking what these models can actually do on the work defenders care about, and assessing whether they live up to the surrounding hype. If they do, we have to reckon with what that means for malware analysis and reverse engineering, disciplines that until now have been limited mostly by how little expertise exists relative to the collective need. A Benchmark Built From a Real Investigation We recently published our research on fast16 , a 2005 Windows toolkit built to sabotage high-precision solvers used to model nuclear-weapons behavior. The sample provided an ideal test case because its layered design punishes shallow analysis. On the surface, svcmgmt.exe appears to be a Windows service implant
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?
+  - Published: 2026-07-22T16:55:29+00:00
+  - Link: https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/
+  - Summary: A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.
 
 ### Cluster 338c71242d — score 12
 
@@ -2138,79 +2188,6 @@ Risky Bulletin Podcast July 20, 2026 Risky Bulletin: Hacker wipes Romania's enti
   - Link: https://risky.biz/RBNEWS589/
   - Summary: A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.
 
-### Cluster f57b665e0a — score 11
-
-- Title: Risky Bulletin: Rogue OpenAI models were behind the Hugging Face breach
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-07-22T06:22:01+00:00
-- Link: https://risky.biz/RBNEWS590/
-- Fetch status: ok
-- Member count: 9
-- Corroborating source count: 7
-- Strong signals: Linux kernel, OpenAI/ChatGPT
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Linux kernel, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_products: OpenAI/ChatGPT, Linux kernel
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Rogue OpenAI models were behind last week’s Hugging Face breach, the Linux kernel discloses 442 vulnerabilities as the AI bugpocalypse settles in, France becomes the first EU country to pass a social media age limit, and Germany takes down the Kratos phishing service.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast July 22, 2026 Risky Bulletin: Rogue OpenAI models were behind the Hugging Face breach Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Rogue OpenAI models were behind last weekâs Hugging Face breach, the Linux kernel discloses 442 vulnerabilities as the AI bugpocalypse settles in, France becomes the first EU country to pass a social media age limit, and Germany takes down the Kratos phishing service. Your browser does not support the audio element. Risky Bulletin: Rogue OpenAI models were behind the Hugging Face breach â¶ 0:00 / 6:50 Subscribe Brought to you by Thinkst Know. When it Matters! Show notes Risky Bulletin: Linux kernel discloses 442 CVEs as AI bugpocalypse settles in
-```
-
-#### Corroborating sources (7)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Rogue OpenAI models were behind the Hugging Face breach
-  - Published: 2026-07-22T06:22:01+00:00
-  - Link: https://risky.biz/RBNEWS590/
-  - Summary: Rogue OpenAI models were behind last week’s Hugging Face breach, the Linux kernel discloses 442 vulnerabilities as the AI bugpocalypse settles in, France becomes the first EU country to pass a social media age limit, and Germany takes down the Kratos phishing service.
-- **The Record** (cyber_news_breach_reporting)
-  - Title: OpenAI models behind breach of Hugging Face systems, companies say
-  - Published: 2026-07-22T12:00:00+00:00
-  - Link: https://therecord.media/openai-cyberattack-hugging-face
-  - Summary: OpenAI announced that its models were behind a breach of the AI platform Hugging Face, which had earlier detected an attack carried out by "by an autonomous AI agent."
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: AI Mania Is Eviscerating Global Decision-Making
-  - Published: 2026-07-19T05:06:21+00:00
-  - Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
-  - Summary: AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: When AI Attacks: OpenAI Models Autonomously Hack Hugging Face
-  - Published: 2026-07-22T15:53:47+00:00
-  - Link: https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face
-  - Summary: Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: OpenAI: Our models breached Hugging Face during a cyber capability test
-  - Published: 2026-07-22T14:42:37+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/22/hugging-face-breach-openai-testing/
-  - Summary: The recent Hugging Face breach was the work of several OpenAI models, the AI research company claimed in a blog post. The breach Late last week, the company behind Hugging Face, a platform that enables users to share machine learning models and datasets, said some of its internal datasets had been accessed without authorization. The attack vector was, according to Hugging Face, a malicious dataset that exploited code-execution paths in the company’s dataset processing pipeline, … More → The post OpenAI: Our models breached Hugging Face during a cyber capability test appeared first on Help Net Security .
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Open AI Claims Its AI Models Went Rogue and Hacked Another Company
-  - Published: 2026-07-22T11:40:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/open-ai-hacked-another-company/
-  - Summary: Hugging Face recently disclosed a security breach. OpenAI has now said that it was its AI models which broke containment and hacked Hugging Face themselves
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: OpenAI says model test was behind Hugging Face hack
-  - Published: 2026-07-21T22:38:55+00:00
-  - Link: https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/
-  - Summary: At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. The post OpenAI says model test was behind Hugging Face hack appeared first on CyberScoop .
-
 ### Cluster 72fdd19b2c — score 10
 
 - Title: AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report
@@ -2255,6 +2232,55 @@ Threat Research Center Insights Opinions Opinions AI, Automation and Attacks: Un
   - Published: 2026-07-16T23:00:59+00:00
   - Link: https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/
   - Summary: Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report. The post AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report appeared first on Unit 42 .
+
+### Cluster 2bab6cab95 — score 10
+
+- Title: 20th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-20T12:18:41+00:00
+- Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain
+- affected_industries: financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, Microsoft SharePoint, WordPress
+- cve_ids: CVE-2026-15409, CVE-2026-56155, CVE-2026-56164, CVE-2026-60137, CVE-2026-63030
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach
+- affected_industries: financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, Microsoft SharePoint, WordPress
+- cve_ids: CVE-2026-56164, CVE-2026-56155, CVE-2026-63030, CVE-2026-60137, CVE-2026-15409
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July – Threat Intelligence Report July 20, 2026 https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, employee details, and other sensitive information submitted while requesting technical assistance. Jscrambler, a JavaScript code-protection package with more than 15,000 weekly downloads, has experienced a supply chain compromise after stolen npm publishing credentials distributed malicious releases. The packages deployed malware targeting developers’, cloud, browser, cryptocurrency, and messaging credentials. Jscrambler removed the affected versions. Coca-Cola’s US dairy subsidiary Fairlife has confirmed a ransomware attack that temporarily halted production across the United States. Attackers accessed systems supporting manufacturing operations, prompting the company to activate incident response and business continuity procedures. Coca-Cola has not confirmed whether data was exfiltrated in the attack. Nihon Kotsu, Japan’s largest taxi operator, has suffered a malware attack following unauthorized access to its internal network. The company shut down affected systems, disrupting taxi dispatches, telephone services, bookings, reservations, and car rentals from July 11. No theft of customer or corporate information has been confirmed. AI THREATS Researchers identified a China-linked campaign that used Claude Code and DeepSeek to automate attacks against government and financial organizations. The tools generated scripts, adapted failed exploits, created credential-harvesting pages, and executed commands. Confirmed compromises affected government systems in Thailand and Afghanistan and organizations in Taiwan. Researchers found that xAI’s Grok Build coding assistant could upload entire Git repositories while processing debugging requests. Transferred information included unopened files and complete commit histories, potentially exposing API keys, credentials, and proprietary source code. Initial privacy controls did not prevent uploads until a server-side restriction was introduced. Researchers verified a weakness in Anthropic’s Claude for Chrome extension that allowed malicious browser extensions to impersonate Claude and act through authenticated user sessions. Successful exploitation could expose Gmail, Google Drive, or GitHub information through Claude’s permissions. Anthropic released fixes, although researchers reported that a bypass remained possible. VULNERABILITIES AND PATCHES Microsoft released patches for 622 vulnerabilities in July’s Patch Tuesday, the largest monthly release recorded by the company. Two vulnerabilities were under active exploitation, including CVE-2026-56164 in SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Both vulnerabilities could allow attackers to elevate privileges. Check Point IPS provides protection against these threats (Microsoft SharePoint Authentication Bypass (CVE-2026-56164)) WordPress has issued emergency updates for CVE-2026-63030 and CVE-2026-60137, collectively called wp2shell. The critical WordPress Core vulnerabilities allow unauthenticated remote code execution and website takeover. Affected releases include versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1. Fixed versions include 6.9.5 and 7.0.2. Check Point IPS provides protection against these threats (WordPress Authentication Bypass (CVE-2026-63030)), WordPress SQL Injection (CVE-2026-60137)) SonicWall has released a hotfix for CVE-2026-15409 and CVE-2026-15410, two critical vulnerabilities affecting SMA 1000 Series gat
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 20th July – Threat Intelligence Report
+  - Published: 2026-07-20T12:18:41+00:00
+  - Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 1042e88cd6 — score 10
 
@@ -2428,55 +2454,6 @@ UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially 
   - Link: https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/
   - Summary: Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking, financially motivated adversary that has been conducting a malicious campaign targeting users in the U.S. and Europe since at least June 2025.
 
-### Cluster 2bab6cab95 — score 10
-
-- Title: 20th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-20T12:18:41+00:00
-- Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, Microsoft SharePoint, WordPress
-- cve_ids: CVE-2026-15409, CVE-2026-56155, CVE-2026-56164, CVE-2026-60137, CVE-2026-63030
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, Microsoft SharePoint, WordPress
-- cve_ids: CVE-2026-56164, CVE-2026-56155, CVE-2026-63030, CVE-2026-60137, CVE-2026-15409
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July – Threat Intelligence Report July 20, 2026 https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, employee details, and other sensitive information submitted while requesting technical assistance. Jscrambler, a JavaScript code-protection package with more than 15,000 weekly downloads, has experienced a supply chain compromise after stolen npm publishing credentials distributed malicious releases. The packages deployed malware targeting developers’, cloud, browser, cryptocurrency, and messaging credentials. Jscrambler removed the affected versions. Coca-Cola’s US dairy subsidiary Fairlife has confirmed a ransomware attack that temporarily halted production across the United States. Attackers accessed systems supporting manufacturing operations, prompting the company to activate incident response and business continuity procedures. Coca-Cola has not confirmed whether data was exfiltrated in the attack. Nihon Kotsu, Japan’s largest taxi operator, has suffered a malware attack following unauthorized access to its internal network. The company shut down affected systems, disrupting taxi dispatches, telephone services, bookings, reservations, and car rentals from July 11. No theft of customer or corporate information has been confirmed. AI THREATS Researchers identified a China-linked campaign that used Claude Code and DeepSeek to automate attacks against government and financial organizations. The tools generated scripts, adapted failed exploits, created credential-harvesting pages, and executed commands. Confirmed compromises affected government systems in Thailand and Afghanistan and organizations in Taiwan. Researchers found that xAI’s Grok Build coding assistant could upload entire Git repositories while processing debugging requests. Transferred information included unopened files and complete commit histories, potentially exposing API keys, credentials, and proprietary source code. Initial privacy controls did not prevent uploads until a server-side restriction was introduced. Researchers verified a weakness in Anthropic’s Claude for Chrome extension that allowed malicious browser extensions to impersonate Claude and act through authenticated user sessions. Successful exploitation could expose Gmail, Google Drive, or GitHub information through Claude’s permissions. Anthropic released fixes, although researchers reported that a bypass remained possible. VULNERABILITIES AND PATCHES Microsoft released patches for 622 vulnerabilities in July’s Patch Tuesday, the largest monthly release recorded by the company. Two vulnerabilities were under active exploitation, including CVE-2026-56164 in SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Both vulnerabilities could allow attackers to elevate privileges. Check Point IPS provides protection against these threats (Microsoft SharePoint Authentication Bypass (CVE-2026-56164)) WordPress has issued emergency updates for CVE-2026-63030 and CVE-2026-60137, collectively called wp2shell. The critical WordPress Core vulnerabilities allow unauthenticated remote code execution and website takeover. Affected releases include versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1. Fixed versions include 6.9.5 and 7.0.2. Check Point IPS provides protection against these threats (WordPress Authentication Bypass (CVE-2026-63030)), WordPress SQL Injection (CVE-2026-60137)) SonicWall has released a hotfix for CVE-2026-15409 and CVE-2026-15410, two critical vulnerabilities affecting SMA 1000 Series gat
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 20th July – Threat Intelligence Report
-  - Published: 2026-07-20T12:18:41+00:00
-  - Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster c2f56a4fa7 — score 10
 
 - Title: GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration
@@ -2558,47 +2535,6 @@ Benchmark your security operations against the latest SANS research and discover
   - Published: 2026-07-16T15:35:23+00:00
   - Link: https://horizon3.ai/downloads/whitepapers/2026-sans-soc-survey-insights/
   - Summary: Benchmark your security operations against the latest SANS research and discover how leading SOCs are approaching AI, visibility, threat intelligence, and operational effectiveness.
-
-### Cluster 2c9ce8ce5f — score 10
-
-- Title: Cyber Resilience in the Age of AI-Driven Warfare
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-15T18:33:28+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/cyber-resilience-ai-driven-warfare/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI is compressing the time from vulnerability discovery to exploitation. Learn how bank CIOs can prioritize, validate, and strengthen cyber resilience for the Post-Mythos era.
-```
-
-#### Full body
-
-```
-Cyber Resilience in the Age of AI-Driven Warfare Horizon3.ai | July 15, 2026 | Whitepapers Table of Contents AI is changing the economics and speed of cyber warfare. Vulnerabilities that once required skilled research teams to discover, analyze, and weaponize can increasingly be identified and exploited in minutes or hours. Attackers can operate at machine speed, at scale, while traditional vulnerability management and periodic security assessments struggle to keep pace. For banks and financial institutions, this shift is no longer theoretical. The European Central Bank’s 7 July 2026 letter requires 110 significant institutions under its direct supervision to submit comprehensive action plans addressing AI-enabled cybersecurity threats by 31 October 2026. The mandate reflects a larger reality: AI-driven cyber risk is a structural change, not a temporary threat cycle. So, how should bank CIOs respond? In Cyber Resilience in the Age of AI-Driven Warfare , Horizon3.ai Co-Founder and CEO Snehal Antani outlines a practical operating framework for building cyber resilience in a world where attackers move at machine speed. Inside the Whitepaper Learn: Why traditional vulnerability management, periodic audits, and static defenses are insufficient against AI-driven attackers. How AI compresses the time between vulnerability discovery and exploitation. Why security teams must prioritize proven exploitability, threat actor activity, and business consequence. How continuous attack-path validation separates critical risk from vulnerability noise. Why active defense must be deployed and verified against real attacker techniques. How EDR validation, cyber deception, and blast-radius reduction strengthen resilience against autonomous adversaries. Why security teams must train against AI-augmented attacks using realistic threat hunting, containment, eradication, and recovery exercises. How the three pillars of Post-Mythos resilience map to the ECB’s immediate and longer-term cybersecurity priorities. Which metrics security leaders should track to demonstrate measurable progress to boards and regulators. The whitepaper introduces a three-pillar operating framework for the Post-Mythos era: Prioritize What NOT to Fix, Deploy and Verify Active Defense, and Train Like You Fight. Together, these pillars provide a practical model for moving from vulnerability volume and security assumptions to continuous, evidence-backed cyber resilience. Who Should Read This This whitepaper is designed for: Bank Chief Information Officers (CIOs) Chief Information Security Officers (CISOs) Security and Cyber Resilience Leaders Vulnerability and Exposure Management Teams Security Operations and Detection Leaders Risk, Compliance, and Regulatory Teams Management Bodies responsible for critical financial infrastructure Whether you’re preparing an ECB action plan or evaluating how your security operating model must evolve for AI-driven threats, this whitepaper provides practical guidance for prioritizing, validating, and strengthening cyber defenses. Download the Whitepaper The question is no longer whether your organization will be tested by AI-driven attacks. The question is whether you will have practiced, prioritized, and verified your defenses before those attacks arrive. Download Cyber Resilience in the Age of AI-Driven Warfare: Guidance for Bank CIOs Responding to the ECB Letter of 7 July 2026 and learn how to build a practical operating system for cyber resilience in the AI era. Download the whitepaper Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Cyber Resilience in the Age of AI-Driven Warfare
-  - Published: 2026-07-15T18:33:28+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/cyber-resilience-ai-driven-warfare/
-  - Summary: AI is compressing the time from vulnerability discovery to exploitation. Learn how bank CIOs can prioritize, validate, and strengthen cyber resilience for the Post-Mythos era.
 
 ### Cluster eeab7cc5f2 — score 10
 
@@ -2772,48 +2708,52 @@ Trucks from Nichirei's Cold Express line. Image: Nichirei Logistics Group Japane
   - Link: https://therecord.media/nichirei-japan-food-logistics-cyberattack-recovery
   - Summary: Nichirei Logistics Group said warehouse operations and frozen food shipments are returning to normal. A cybercrime gang said it caused the disruption.
 
-### Cluster 6f3c48c0f3 — score 10
+### Cluster b892e3088a — score 10
 
-- Title: Chick-fil-A discloses data breach after credential stuffing attacks
+- Title: South Korea discloses data breach impacting diplomats worldwide
 - Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-22T06:40:29+00:00
-- Link: https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
+- Published: 2026-07-22T20:06:54+00:00
+- Link: https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach
-- affected_industries: financial_services
+- threat_categories: data_breach, zero_day
+- affected_industries: education, government
+- affected_products: SonicWall
+- urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: credential_theft, data_breach
-- affected_industries: financial_services
+- threat_categories: zero_day, data_breach
+- affected_industries: government, education
+- affected_products: SonicWall
+- urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]
+South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Affairs (MFA), including overseas diplomats. [...]
 ```
 
 #### Full body
 
 ```
-Chick-fil-A discloses data breach after credential stuffing attacks By Sergiu Gatlan July 22, 2026 02:40 AM 0 American fast food restaurant chain Chick-fil-A is notifying an undisclosed number of customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. Self-described as the third-largest quick-service restaurant company in the United States, Chick-fil-A operates a network of more than 3,000 restaurants and provides catering services across the U.S., Canada, Puerto Rico, the United Kingdom, and Singapore. The company revealed in data breach notification letters sent to affected individuals and filed with multiple Attorney General offices that it detected the attacks after identifying suspicious login activity to certain Chick-fil-A One accounts. As Chick-fil-A discovered while investigating the incident, the attackers targeted Chick-fil-A's website and mobile app in June. "Following a careful investigation, we determined that unauthorized parties launched an automated attack against our website and mobile application between June 17 and June 19, 2026 using account credentials (e.g., email addresses and passwords) obtained from a third-party source," it said . "Based on our investigation, we determined on July 13, 2026 that the unauthorized parties may have accessed information in your Chick-fil-A One account." The information exposed in the breach includes a combination of customers' names, email addresses, Chick-fil-A One membership numbers and mobile pay numbers, QR codes, the amount of Chick-fil-A credit, and the last four digits of your credit/debit card number. Additionally, the attackers may have also gained access to birth dates, phone numbers, and addresses if stored in the compromised accounts. While Chick-fil-A didn't disclose how many customers had their accounts breached in the June credential stuffing attacks, the company told the Texas Attorney General that the resulting data breach impacts 2182 Texans and the Massachusetts AG that it affects 39 residents . Chick-fil-A also sent data breach notification letters to residents of Iowa, the District of Columbia, Maryland, New Mexico, New York, North Carolina, Oregon, Vermont, and Rhode Island. In credential stuffing, attackers use automated tools to breach user accounts with stolen username/password pairs, a tactic especially effective when reusing credentials across multiple platforms. The end goal is to steal personal and financial information after taking over accounts, which can later be sold to other cybercriminals or used for identity theft and other malicious purposes. In response to the incident, Chick-fil-A logged out all impacted accounts, removed payment methods, restored Chick-fil-A One account balances, and added rewards to affected accounts as a way of apologizing. Since the accounts were compromised using stolen credentials, the restaurant chain also advised impacted users to change their passwords as soon as possible. A Chick-fil-A spokesperson was not immediately available for comment when contacted by BleepingComputer on Tuesday about how many customer accounts were breached in the attacks. Chick-fil-A also confirmed in March 2023 that threat actors accessed the personal information and used the stored rewards balances of over 71,000 customers after hacking their accounts in a similar wave of credential stuffing attacks between December 2022 and February 2023. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: 23andMe to pay $18 million in new genetics data breach settlement AssuranceAmerica data breach exposes records of 6.9 million drivers Estée Lauder discloses data breach via Oracle E-Business flaw US seizes over 1,000 websites in FI
+South Korea discloses data breach impacting diplomats worldwide By Bill Toulas July 22, 2026 04:06 PM 0 South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Affairs (MFA), including overseas diplomats. The incident occurred in April 2025 after an unknown threat actor exploited a vulnerability in the Academy's server. It impacts at least 6,000 individuals, 350 of them being current government attachés dispatched abroad. The education platform was set up in 2022 to support remote training during the COVID-19 pandemic, and has since been used for government personnel training and video-conferencing. Ten-month hacker access According to the announcement , data was leaked between April 2025 and February 2026. “The personal information of current and former employees of the Ministry of Foreign Affairs headquarters and overseas missions, as well as other personnel, was leaked between April 2025 and February 2026,” the South Korean government says. It is estimated that the leaked information includes the IDs, names, email addresses, and encrypted passwords of individuals enrolled in the education system. MFA says that no unique identification numbers, sensitive information, mobile phone numbers, photographs, or home addresses were exposed in the incident. The ministry has blocked access to the online education system and implemented additional measures designed to strengthen security. During a press briefing today, an MFA spokesperson said the Ministry delayed disclosing the incident because of its sensitive nature and the need to thoroughly analyze and review the matter before making it public. "We recognized this issue in February, but we announced it five months later because of the sensitivity of the matter regarding our diplomatic and security affairs, and the need for careful review and analysis" - South Korea Foreign Ministry's spokesperson Park Il. Potentially impacted individuals are advised to watch for suspicious communications and report them immediately to the ministry’s security department. “Please exercise particular caution when receiving emails from unclear or unknown sources,” MFA warns. Korean media has reported that the number of affected individuals may be as high as 10,000 , while other sources report a lower number . They also noted that official job titles and departmental affiliations were exposed. One reason for the hack to remain undetected for this long was reportedly because the compromised server was located inside MFA's headquarters and was excluded from regular security scrutiny. The same reports mention that the breach was discovered in February 2026 by the country's National Intelligence Service, which alerted the MFA of the compromise. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Estée Lauder discloses data breach via Oracle E-Business flaw SonicWall SMA1000 flaws exploited as zero-days to push custom malware Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown We built a vulnerability vending machine: AI tokens in, zero-days out Google: Hackers exploited Zimbra zero-day in attacks on govt orgs
 ```
 
 #### Corroborating sources (1)
 
 - **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Chick-fil-A discloses data breach after credential stuffing attacks
-  - Published: 2026-07-22T06:40:29+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
-  - Summary: American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]
+  - Title: South Korea discloses data breach impacting diplomats worldwide
+  - Published: 2026-07-22T20:06:54+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/
+  - Summary: South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Affairs (MFA), including overseas diplomats. [...]
 
 ### Cluster 57de1d00b3 — score 10
 
@@ -2956,6 +2896,45 @@ Industry News July 22, 2026 Share Astelia extends reachability analysis with age
   - Link: https://www.helpnetsecurity.com/2026/07/22/astelia-extends-reachability-analysis-with-agentic-ai-for-vulnerability-management/
   - Summary: Astelia has added agentic capabilities to its reachability analysis platform as organizations face shrinking exploit windows and the growing challenge of managing vulnerabilities. At the core of the platform is Astelia’s reachability analysis, which determines whether a vulnerability can be reached and exploited within a specific environment. By correlating network topology with the technical requirements needed to exploit a given vulnerability, Astelia identifies that less than 1% of findings present real exposure, eliminating the noise … More → The post Astelia extends reachability analysis with agentic AI for vulnerability management appeared first on Help Net Security .
 
+### Cluster 6490abfb48 — score 10
+
+- Title: The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-07-22T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Full body
+
+```
+22 Jul 2026 Active SOC , Blue Team , Incident Response , Informational , InfoSec 101 , SOC Blue Book , Infosec for Beginners , InfoSec Survival Guide , Tom DeJong The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success | Tom DeJong This article was originally published in the InfoSec Survival Guide: Blue Book — SOC Analysts. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security Operations Centers (SOCs) serve as a critical line of defense against today’s constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. Being a SOC analyst is far more than just “investigating alerts.” It’s a high-pressure balancing act that requires triage, incident response, continuous tuning, and collaboration, all while adapting to an ever-changing threat landscape. Core Responsibilities A SOC analyst’s shift typically begins with reviewing any changeover notes made by the previous team. You should also review active incidents, escalations, or any other tasks requiring follow-up. Alert Triage Analysts spend much of their time responding to alerts from tools like SIEM and EDR. Each alert must be reviewed and classified as a true positive, benign activity (false positive), or something needing deeper investigation. Proper triage also involves prioritization based on impact, severity, and asset criticality, and documenting the steps taken and decisions made. Accurate triage sets the foundation for effective response. Incident Response Once an alert is confirmed as a true threat (“true positive”), analysts shift into incident response (IR) mode. This includes isolating affected systems, investigating root causes, documenting Indicators of Compromise (IOCs), and coordinating with IT teams for remediation. Timely and accurate responses can be the difference between minor incidents and major breaches. Tuning and Detection Improvements To remain effective, SOCs must constantly tune out benign behavior (“false positives”) and improve detection logic. This involves refining SIEM rules, suppressing noisy alerts, and creating new detections based on emerging threats. Without proper tuning, analysts risk missing real threats buried in the alert noise. Tuning is essential to making the SOC more resilient and efficient. Collaboration and Documentation SOC analysts frequently collaborate with other teams such as IT, compliance, and engineering. To support this collaboration, it’s essential for analysts to produce clear and thorough documentation. Good documentation tells the full story of an investigation and helps others understand the analyst’s reasoning and the steps taken. A helpful mindset is to write with a new hire in mind: Would they be able to follow your notes, understand your conclusions, and reproduce your findings? Effective communication and documentation are critical for maintaining operational continuity and promoting knowledge sharing across the organization. Daily Challenges Alert Fatigue With numerous log sources feeding into SOC tools, analysts face a flood of alerts. Many of the alerts will be false positives. Investigating these repetitive, low-value events can lead to mental fatigue and mistakes. This is where proper tuning, automation, and risk-based alerting become essential in reducing the noise and focusing on what really matters. Time Pressure & Task Juggling Balancing triage, investigations, tuning, internal projects, and training can be overwhelming. Priorities shift constantly, requiring frequent context-switching. Without structured time management, long-term improvements will be delayed. Blocking off time for projects and professional development is critical to avoid stagnation. Keeping Skills Current Security threats evolve rapidly, and analysts must stay up-to-date on vulnerabilities, attack techniques, and changes in
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success
+  - Published: 2026-07-22T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
+  - Summary: Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
+
 ### Cluster 2de7ac9412 — score 10
 
 - Title: World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent
@@ -3046,88 +3025,6 @@ OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests 
   - Link: https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html
   - Summary: Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts. OpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's Red Team, which reported the denial-of-service bug and named it, published the
 
-### Cluster 6490abfb48 — score 10
-
-- Title: The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-07-22T14:00:00+00:00
-- Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Full body
-
-```
-22 Jul 2026 Active SOC , Blue Team , Incident Response , Informational , InfoSec 101 , SOC Blue Book , Infosec for Beginners , InfoSec Survival Guide , Tom DeJong The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success | Tom DeJong This article was originally published in the InfoSec Survival Guide: Blue Book — SOC Analysts. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security Operations Centers (SOCs) serve as a critical line of defense against today’s constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. Being a SOC analyst is far more than just “investigating alerts.” It’s a high-pressure balancing act that requires triage, incident response, continuous tuning, and collaboration, all while adapting to an ever-changing threat landscape. Core Responsibilities A SOC analyst’s shift typically begins with reviewing any changeover notes made by the previous team. You should also review active incidents, escalations, or any other tasks requiring follow-up. Alert Triage Analysts spend much of their time responding to alerts from tools like SIEM and EDR. Each alert must be reviewed and classified as a true positive, benign activity (false positive), or something needing deeper investigation. Proper triage also involves prioritization based on impact, severity, and asset criticality, and documenting the steps taken and decisions made. Accurate triage sets the foundation for effective response. Incident Response Once an alert is confirmed as a true threat (“true positive”), analysts shift into incident response (IR) mode. This includes isolating affected systems, investigating root causes, documenting Indicators of Compromise (IOCs), and coordinating with IT teams for remediation. Timely and accurate responses can be the difference between minor incidents and major breaches. Tuning and Detection Improvements To remain effective, SOCs must constantly tune out benign behavior (“false positives”) and improve detection logic. This involves refining SIEM rules, suppressing noisy alerts, and creating new detections based on emerging threats. Without proper tuning, analysts risk missing real threats buried in the alert noise. Tuning is essential to making the SOC more resilient and efficient. Collaboration and Documentation SOC analysts frequently collaborate with other teams such as IT, compliance, and engineering. To support this collaboration, it’s essential for analysts to produce clear and thorough documentation. Good documentation tells the full story of an investigation and helps others understand the analyst’s reasoning and the steps taken. A helpful mindset is to write with a new hire in mind: Would they be able to follow your notes, understand your conclusions, and reproduce your findings? Effective communication and documentation are critical for maintaining operational continuity and promoting knowledge sharing across the organization. Daily Challenges Alert Fatigue With numerous log sources feeding into SOC tools, analysts face a flood of alerts. Many of the alerts will be false positives. Investigating these repetitive, low-value events can lead to mental fatigue and mistakes. This is where proper tuning, automation, and risk-based alerting become essential in reducing the noise and focusing on what really matters. Time Pressure & Task Juggling Balancing triage, investigations, tuning, internal projects, and training can be overwhelming. Priorities shift constantly, requiring frequent context-switching. Without structured time management, long-term improvements will be delayed. Blocking off time for projects and professional development is critical to avoid stagnation. Keeping Skills Current Security threats evolve rapidly, and analysts must stay up-to-date on vulnerabilities, attack techniques, and changes in
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success
-  - Published: 2026-07-22T14:00:00+00:00
-  - Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
-  - Summary: Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
-
-### Cluster a632c3dcbf — score 10
-
-- Title: Scattered Spider duo sentenced to prison over TfL hack
-- Source: Intel 471 (ransomware_ecrime_financial_crime)
-- Published: 2026-07-17T15:38:56+00:00
-- Link: https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Scattered Spider
-
-#### Cluster taxonomy (union across members)
-- actor_attribution: Scattered Spider
-- affected_industries: critical_infrastructure, financial_services, government
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services, government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Two Scattered Spider members have been sentenced to five and a half years in prison for the 2024 cyberattack on Transport for London (TfL), a case the UK's National Crime Agency called the country's "biggest ever cyber crime case."
-```
-
-#### Full body
-
-```
-Thalha Jubair, 20, and Owen Flowers, 18, two lead members of the Scattered Spider intrusion cluster, have been sentenced to five and a half years in prison each after admitting to the 2024 cyberattack on Transport for London (TfL) that they carried out as teenagers. The National Crime Agency (NCA) called it the “UK’s biggest ever cyber crime case”. The pair pleaded guilty on June 22, 2026 — the first day of what would have been a six‑week trial — to conspiring to commit unauthorized acts against TfL under the Computer Misuse Act (CMA). At sentencing at Woolwich Crown Court on July 16, 2026, the judge reduced the length of their sentences by 15% for the guilty pleas. The attack on TfL ran between Aug. 31–Sept. 3, 2024, when Flowers was 17 and Jubair was 18. It cost TfL a reported 29 million pounds (about US $38 million) in losses and recovery, forced all of TfL's roughly 27,000 staff to reset passwords in person, and rendered 148 systems inoperable. Public-facing services were also disrupted. The NCA said the prosecution is only the second of its kind in the UK under Section 3ZA of the CMA — the act's most serious provision, which applies where an unauthorized act causes, or creates a significant risk of, serious damage and the offender intends or is reckless as to that damage. Both defendants argued they were merely reckless. The NCA is nonetheless calling it the largest cyber crime prosecution ever brought before the UK courts, the culmination of nearly two years of work by the NCA, the Crown Prosecution Service and City of London Police, with support from the FBI. Flowers, who was arrested in September 2024, admitted attempting to hack U.S. health care providers SSM Health Care Corp. and Sutter Health. Investigators say forensic evidence pulled from devices seized at his home — including a screenshot showing connectivity to TfL infrastructure and videos of the intrusion in progress — also exposed Jubair's involvement, with the pair coordinating over Telegram and a shared online workspace. Flowers breached bail twice in 2025 and was re‑arrested for breaching conditions related to his device usage. Jubair was separately charged with failing to disclose the PINs or passwords for devices seized from him. Jubair faces much greater punishment across the Atlantic. In September 2025, the U.S. District Court for the District of New Jersey charged him with computer fraud, wire fraud and money laundering conspiracies tied to roughly 120 intrusions against 47 U.S. entities between May 2022 and September 2025, with victims paying at least US $115 million in ransoms. Prosecutors allege the targets included a U.S. critical infrastructure operator and the federal court system — where intruders accessed a magistrate judge's inbox and searched for "subpoena" and "scattered spider." Investigators seized about US $36 million in cryptocurrency from a server linked to Jubair, who allegedly moved roughly US $8.4 million out mid‑seizure. He faces decades in prison if convicted, and the prospect of extradition looms over any UK sentence. The U.S. is pressing the wider group as well. On July 1, 2026, prosecutors announced that alleged Scattered Spider member Peter Stokes — a 19‑year‑old U.S.-Estonian dual national — had been arrested in Finland and extradited to Chicago to face conspiracy, computer intrusion and fraud charges. Linking multiple underground personas The New Jersey complaint attributes the handles EarthtoStar , Brad , Austin and @autistic to Jubair , linking him to a series of intrusions dating back to 2022. That timeline aligns with Intel 471's prior reporting on Jubair , whom we have connected to multiple personas and communities across the predominantly English-speaking underground. Our research connected Jubair to multiple groups and communities, some of which included: A former Infinity Recursion member using the Everlynn handle. A former LAPSUS$ member operating under the ASyntax and Amtrak handles. Allegedly was the Doxbin admini
-```
-
-#### Corroborating sources (1)
-
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - Title: Scattered Spider duo sentenced to prison over TfL hack
-  - Published: 2026-07-17T15:38:56+00:00
-  - Link: https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack
-  - Summary: Two Scattered Spider members have been sentenced to five and a half years in prison for the 2024 cyberattack on Transport for London (TfL), a case the UK's National Crime Agency called the country's "biggest ever cyber crime case."
-
 ### Cluster 7ad1b91bfd — score 10
 
 - Title: Ubuntu snap-confine Vulnerability Enables Local Root Access
@@ -3174,6 +3071,124 @@ Infosecurity Magazine Home » News » Ubuntu snap-confine Vulnerability Enables 
   - Published: 2026-07-22T10:50:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/ubuntu-snap-confine-local-root-cve/
   - Summary: New Ubuntu snap-confine race condition lets local users escalate to root on default installs
+
+### Cluster a632c3dcbf — score 10
+
+- Title: Scattered Spider duo sentenced to prison over TfL hack
+- Source: Intel 471 (ransomware_ecrime_financial_crime)
+- Published: 2026-07-17T15:38:56+00:00
+- Link: https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Scattered Spider
+
+#### Cluster taxonomy (union across members)
+- actor_attribution: Scattered Spider
+- affected_industries: critical_infrastructure, financial_services, government
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services, government, critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Two Scattered Spider members have been sentenced to five and a half years in prison for the 2024 cyberattack on Transport for London (TfL), a case the UK's National Crime Agency called the country's "biggest ever cyber crime case."
+```
+
+#### Full body
+
+```
+Thalha Jubair, 20, and Owen Flowers, 18, two lead members of the Scattered Spider intrusion cluster, have been sentenced to five and a half years in prison each after admitting to the 2024 cyberattack on Transport for London (TfL) that they carried out as teenagers. The National Crime Agency (NCA) called it the “UK’s biggest ever cyber crime case”. The pair pleaded guilty on June 22, 2026 — the first day of what would have been a six‑week trial — to conspiring to commit unauthorized acts against TfL under the Computer Misuse Act (CMA). At sentencing at Woolwich Crown Court on July 16, 2026, the judge reduced the length of their sentences by 15% for the guilty pleas. The attack on TfL ran between Aug. 31–Sept. 3, 2024, when Flowers was 17 and Jubair was 18. It cost TfL a reported 29 million pounds (about US $38 million) in losses and recovery, forced all of TfL's roughly 27,000 staff to reset passwords in person, and rendered 148 systems inoperable. Public-facing services were also disrupted. The NCA said the prosecution is only the second of its kind in the UK under Section 3ZA of the CMA — the act's most serious provision, which applies where an unauthorized act causes, or creates a significant risk of, serious damage and the offender intends or is reckless as to that damage. Both defendants argued they were merely reckless. The NCA is nonetheless calling it the largest cyber crime prosecution ever brought before the UK courts, the culmination of nearly two years of work by the NCA, the Crown Prosecution Service and City of London Police, with support from the FBI. Flowers, who was arrested in September 2024, admitted attempting to hack U.S. health care providers SSM Health Care Corp. and Sutter Health. Investigators say forensic evidence pulled from devices seized at his home — including a screenshot showing connectivity to TfL infrastructure and videos of the intrusion in progress — also exposed Jubair's involvement, with the pair coordinating over Telegram and a shared online workspace. Flowers breached bail twice in 2025 and was re‑arrested for breaching conditions related to his device usage. Jubair was separately charged with failing to disclose the PINs or passwords for devices seized from him. Jubair faces much greater punishment across the Atlantic. In September 2025, the U.S. District Court for the District of New Jersey charged him with computer fraud, wire fraud and money laundering conspiracies tied to roughly 120 intrusions against 47 U.S. entities between May 2022 and September 2025, with victims paying at least US $115 million in ransoms. Prosecutors allege the targets included a U.S. critical infrastructure operator and the federal court system — where intruders accessed a magistrate judge's inbox and searched for "subpoena" and "scattered spider." Investigators seized about US $36 million in cryptocurrency from a server linked to Jubair, who allegedly moved roughly US $8.4 million out mid‑seizure. He faces decades in prison if convicted, and the prospect of extradition looms over any UK sentence. The U.S. is pressing the wider group as well. On July 1, 2026, prosecutors announced that alleged Scattered Spider member Peter Stokes — a 19‑year‑old U.S.-Estonian dual national — had been arrested in Finland and extradited to Chicago to face conspiracy, computer intrusion and fraud charges. Linking multiple underground personas The New Jersey complaint attributes the handles EarthtoStar , Brad , Austin and @autistic to Jubair , linking him to a series of intrusions dating back to 2022. That timeline aligns with Intel 471's prior reporting on Jubair , whom we have connected to multiple personas and communities across the predominantly English-speaking underground. Our research connected Jubair to multiple groups and communities, some of which included: A former Infinity Recursion member using the Everlynn handle. A former LAPSUS$ member operating under the ASyntax and Amtrak handles. Allegedly was the Doxbin admini
+```
+
+#### Corroborating sources (1)
+
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - Title: Scattered Spider duo sentenced to prison over TfL hack
+  - Published: 2026-07-17T15:38:56+00:00
+  - Link: https://www.intel471.com/blog/scattered-spider-duo-sentenced-to-prison-over-tfl-hack
+  - Summary: Two Scattered Spider members have been sentenced to five and a half years in prison for the 2024 cyberattack on Transport for London (TfL), a case the UK's National Crime Agency called the country's "biggest ever cyber crime case."
+
+### Cluster c7e06f6411 — score 10
+
+- Title: OpenAI models behind breach of Hugging Face systems, companies say
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-22T12:00:00+00:00
+- Link: https://therecord.media/openai-cyberattack-hugging-face
+- Fetch status: ok
+- Member count: 9
+- Corroborating source count: 7
+- Strong signals: OpenAI/ChatGPT
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, supply_chain, zero_day
+- affected_products: Linux kernel, OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, zero_day
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+OpenAI announced that its models were behind a breach of the AI platform Hugging Face, which had earlier detected an attack carried out by "by an autonomous AI agent."
+```
+
+#### Full body
+
+```
+OpenAI models behind breach of Hugging Face systems, companies say OpenAI announced Tuesday that its models were behind a breach of AI platform Hugging Face, five days after Hugging Face disclosed catching and containing an “end to end” attack “by an autonomous AI agent” without knowing who was responsible. Hugging Face published a security disclosure on July 16 saying it had reported the intrusion to law enforcement. It is not clear if the company will withdraw its complaint following OpenAI publishing its own account of what happened on Tuesday. Clement Delangue, Hugging Face's co-founder and chief executive, said Tuesday “we strongly believe there was no malicious intent” on OpenAI’s part, however the incident is likely to raise questions about liability, disclosure standards, and the adequacy of containment practices as AI systems become more capable. OpenAI called the incident “unprecedented” and said it occurred when models being evaluated internally, including a pre-release system running without standard safety filters, escaped a sandboxed testing environment. The company said its agent exploited a vulnerability in a software package registry proxy, then identified Hugging Face as a likely source of answers for the evaluation it was tasked with. It then breached Hugging Face’s systems using what OpenAI described as stolen credentials and a second zero-day vulnerability. Hugging Face’s account described a materially different attack path, with initial access coming via a malicious dataset that abused code-execution paths in its data processing pipeline. From there, the attacker escalated to node-level access, harvested credentials, and moved laterally across internal clusters, they said. Hugging Face said it identified unauthorized access to a limited set of internal datasets and several service credentials, and was still assessing whether partner or customer data was affected. It found no evidence of tampering with public models, datasets, or its software supply chain. OpenAI did not say what data was accessed or how long the agent had access before detection, nor did it identify the specific vulnerable software. Hugging Face said its security team attempted to use frontier AI models to analyze more than 17,000 recorded attack events logged during the incident, but complained those models’ safety filters blocked its analysis of exploit payloads and attack commands. The team instead turned to using a self-hosted open-weight model to analyze the incident. Hugging Face noted that “the attacker was bound by no usage policy, while our own forensic work was blocked.” It is not clear whether OpenAI would have identified the attack if Hugging Face had not initially turned to open-weight models for this analysis. OpenAI said it has implemented unspecified infrastructure controls and brought Hugging Face into a “trusted access program” following the incident to allow the company use of its frontier models without the restrictive safety filters. “We will continue to conduct a thorough investigation alongside Hugging Face and will share more details on the vulnerabilities, incident, and findings when our investigation is complete,” OpenAI stated. News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Alexander Martin is the UK Editor for Recorded Future News. He was previously a technology reporter for Sky News and a fellow at the European Cyber Conflict Research Initiative, now Virtual Routes. He can be reached securely using Signal on: AlexanderMartin.79
+```
+
+#### Corroborating sources (7)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: OpenAI models behind breach of Hugging Face systems, companies say
+  - Published: 2026-07-22T12:00:00+00:00
+  - Link: https://therecord.media/openai-cyberattack-hugging-face
+  - Summary: OpenAI announced that its models were behind a breach of the AI platform Hugging Face, which had earlier detected an attack carried out by "by an autonomous AI agent."
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: AI Mania Is Eviscerating Global Decision-Making
+  - Published: 2026-07-19T05:06:21+00:00
+  - Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything
+  - Summary: AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: When AI Attacks: OpenAI Models Autonomously Hack Hugging Face
+  - Published: 2026-07-22T15:53:47+00:00
+  - Link: https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face
+  - Summary: Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: OpenAI: Our models breached Hugging Face during a cyber capability test
+  - Published: 2026-07-22T14:42:37+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/22/hugging-face-breach-openai-testing/
+  - Summary: The recent Hugging Face breach was the work of several OpenAI models, the AI research company claimed in a blog post. The breach Late last week, the company behind Hugging Face, a platform that enables users to share machine learning models and datasets, said some of its internal datasets had been accessed without authorization. The attack vector was, according to Hugging Face, a malicious dataset that exploited code-execution paths in the company’s dataset processing pipeline, … More → The post OpenAI: Our models breached Hugging Face during a cyber capability test appeared first on Help Net Security .
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Open AI Claims Its AI Models Went Rogue and Hacked Another Company
+  - Published: 2026-07-22T11:40:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/open-ai-hacked-another-company/
+  - Summary: Hugging Face recently disclosed a security breach. OpenAI has now said that it was its AI models which broke containment and hacked Hugging Face themselves
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Rogue OpenAI models were behind the Hugging Face breach
+  - Published: 2026-07-22T06:22:01+00:00
+  - Link: https://risky.biz/RBNEWS590/
+  - Summary: Rogue OpenAI models were behind last week’s Hugging Face breach, the Linux kernel discloses 442 vulnerabilities as the AI bugpocalypse settles in, France becomes the first EU country to pass a social media age limit, and Germany takes down the Kratos phishing service.
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: OpenAI says model test was behind Hugging Face hack
+  - Published: 2026-07-21T22:38:55+00:00
+  - Link: https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/
+  - Summary: At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. The post OpenAI says model test was behind Hugging Face hack appeared first on CyberScoop .
 
 ### Cluster 6e646120d9 — score 9
 
@@ -3352,7 +3367,7 @@ Sysdig TRT documents four ways agentic AI is reshaping the threat landscape — 
 #### Full body
 
 ```
-< back to blog Four ways AI has fundamentally changed the threat landscape in 2026 Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Published: July 21, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more For years, the threat landscape has held a familiar shape: skilled humans writing malware, scanning for known vulnerabilities, and selling stolen data or access to enterprise environments on dark web forums. That version still exists. It's just no longer the only version defenders have to deal with. I’ve worked with the Sysdig Threat Research Team (TRT) for the last four years. Over that time, attacks have gotten faster — vulnerabilities exploited hours after advisories are published, attacks unfolding in minutes — but recently, we’ve been documenting something structurally different. We’re now seeing not just attackers using AI, but attacks where AI is doing the work, planning, executing, and adapting in real time. O the last six months, four distinct themes have emerged to describe how agentic AI is fundamentally changing the threat landscape. Each of those themes has been seen “in the wild” by the Sysdig TRT; they are not predictions but the culmination of research and field evidence. 1. Enter the agentic threat actor The most significant shift the Sysdig TRT has observed recently is that AI is increasingly conducting the attacks, end to end. We define an agentic threat actor (ATA) as an operator whose attack capability is delivered by an AI agent rather than a human at the keyboard using either a hand-built or AI-developed toolkit. In essence, the AI agent reads environment output, reasons about what to do next in real-time, and executes attack steps continuously without a human making decisions at each step. The difference between an ATA and a human using an AI-developed toolkit, or prompting an LLM as it moves through an environment, is autonomy. A human-in-the-loop model leaves noticeable breaks in the attack timeline where human reasoning exists, and prompt evolution would be evident in the script changes of the agent’s attack. An ATA doesn’t pause. Access to exfiltration in four pivots In May 2026, the Sysdig TRT witnessed an ATA move from initial access through a marimo vulnerability (CVE-2026-39987) to internal database exfiltration in only four pivots in under an hour . Without a human leading the way, the agent extracted credentials, replayed them to retrieve an SSH private key, and used that to drive SSH sessions against a downstream server. Comments leaked into the command stream, and commands built for machine consumption make it obvious that the attack was built by an LLM, for an LLM. What the Sysdig TRT determined after examining this attack was that there was no hesitation between steps, no latency, and artifacts in the payload that no human attacker would ever write into a script. Container escape and Kubernetes secrets In a separate operation, the Sysdig TRT caught an ATA escaping a container and dumping Kubernetes secrets. This was the first time an autonomous attack went beyond the application layer to the orchestration plane — the layer that autonomously controls workload scheduling, secrets, and cluster configuration. Container escape to Kubernetes secrets is the kind of kill chain that isn’t often seen from human attackers because it requires significant expertise to execute. This case demonstrated that an operator can now send an agent to chain the attack together for them, with no prior knowledge necessary. Agentic ransomware Then came JADEPUFFER , the first documented case of agentic ransomware: a complete extortion operation driven end-to-end by an AI agent. The agent found a year-old vulnerability in an internet-facing Langflow instance and enumerated the environment. It specifically scanned for and harves
+< back to blog Four ways AI has fundamentally changed the threat landscape in 2026 Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Published: July 21, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more For years, the threat landscape has held a familiar shape: skilled humans writing malware, scanning for known vulnerabilities, and selling stolen data or access to enterprise environments on dark web forums. That version still exists. It's just no longer the only version defenders have to deal with. I’ve worked with the Sysdig Threat Research Team (TRT) for the last four years. Over that time, attacks have gotten faster — vulnerabilities exploited hours after advisories are published, attacks unfolding in minutes — but recently, we’ve been documenting something structurally different. We’re now seeing not just attackers using AI, but attacks where AI is doing the work, planning, executing, and adapting in real time. Over the last six months, four distinct themes have emerged to describe how agentic AI is fundamentally changing the threat landscape. Each of those themes has been seen “in the wild” by the Sysdig TRT; they are not predictions but the culmination of research and field evidence. 1. Enter the agentic threat actor The most significant shift the Sysdig TRT has observed recently is that AI is increasingly conducting the attacks, end to end. We define an agentic threat actor (ATA) as an operator whose attack capability is delivered by an AI agent rather than a human at the keyboard using either a hand-built or AI-developed toolkit. In essence, the AI agent reads environment output, reasons about what to do next in real-time, and executes attack steps continuously without a human making decisions at each step. The difference between an ATA and a human using an AI-developed toolkit, or prompting an LLM as it moves through an environment, is autonomy. A human-in-the-loop model leaves noticeable breaks in the attack timeline where human reasoning exists, and prompt evolution would be evident in the script changes of the agent’s attack. An ATA doesn’t pause. Access to exfiltration in four pivots In May 2026, the Sysdig TRT witnessed an ATA move from initial access through a marimo vulnerability (CVE-2026-39987) to internal database exfiltration in only four pivots in under an hour . Without a human leading the way, the agent extracted credentials, replayed them to retrieve an SSH private key, and used that to drive SSH sessions against a downstream server. Comments leaked into the command stream, and commands built for machine consumption make it obvious that the attack was built by an LLM, for an LLM. What the Sysdig TRT determined after examining this attack was that there was no hesitation between steps, no latency, and artifacts in the payload that no human attacker would ever write into a script. Container escape and Kubernetes secrets In a separate operation, the Sysdig TRT caught an ATA escaping a container and dumping Kubernetes secrets. This was the first time an autonomous attack went beyond the application layer to the orchestration plane — the layer that autonomously controls workload scheduling, secrets, and cluster configuration. Container escape to Kubernetes secrets is the kind of kill chain that isn’t often seen from human attackers because it requires significant expertise to execute. This case demonstrated that an operator can now send an agent to chain the attack together for them, with no prior knowledge necessary. Agentic ransomware Then came JADEPUFFER , the first documented case of agentic ransomware: a complete extortion operation driven end-to-end by an AI agent. The agent found a year-old vulnerability in an internet-facing Langflow instance and enumerated the environment. It specifically scanned for and har
 ```
 
 #### Corroborating sources (1)
@@ -3404,46 +3419,48 @@ Data Analytics From maintenance to innovation: Checking in on Checkout.com’s C
   - Link: https://cloud.google.com/blog/products/data-analytics/how-checkout-com-tallies-data-with-cloud-composer-3/
   - Summary: Data engineering teams often face a “Day 2” operational reality after building a data platform: the ongoing work of maintaining the orchestrator itself. For the Data Platform team at Checkout.com , managing a self-hosted Apache Airflow environment on another hyperscaler was consuming time the team wanted to spend elsewhere as server management, patching, and incident response were pulling focus from building pipelines. By migrating to Managed Service for Apache Airflow (Gen 3) , Google Cloud’s fully managed Airflow service, Checkout.com transformed its reliability and cost structure. Here’s how they built a more scalable, cost-efficient, and robust data foundation. The starting point: self-managed Airflow Before the migration, Checkout.com ran Airflow on self-managed infrastructure. While functional, maintaining the underlying resources required significant attention. Patching, upgrades, and server management created regular interruptions. Operational data from the past year illustrate
 
-### Cluster 0b91e3a0c2 — score 9
+### Cluster 6f3c48c0f3 — score 9
 
-- Title: Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak
+- Title: Chick-fil-A discloses data breach after credential stuffing attacks
 - Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-21T18:50:54+00:00
-- Link: https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/
+- Published: 2026-07-22T06:40:29+00:00
+- Link: https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
+- threat_categories: credential_theft, data_breach
+- affected_industries: financial_services
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
+- threat_categories: credential_theft, data_breach
+- affected_industries: financial_services
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]
+American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]
 ```
 
 #### Full body
 
 ```
-Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak By Lawrence Abrams July 21, 2026 02:50 PM 0 The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. Fairlife is one of Coca-Cola's dairy brands and produces a range of ultra-filtered milk products, protein shakes, and nutrition drinks sold throughout the United States. The company's product lineup includes Ultra-Filtered Milk, Core Power Protein Shakes, and Nutrition Plan. On July 16, The Coca-Cola Company disclosed that a ransomware attack had disrupted Fairlife's operations , forcing the company to suspend production at its U.S. facilities. The company said attackers gained unauthorized access to a portion of Fairlife's systems, including production-related systems, prompting it to activate its incident response and business continuity plans. Coca-Cola also said product quality and safety were not affected and that Canadian production operations continued as normal. At the time, Coca-Cola had not disclosed whether data was stolen, whether it had received an extortion demand, or which ransomware operation was responsible for the attack. Anubis ransomware claims attack On Monday, the Anubis ransomware gang added Fairlife to its dark web data leak site, claiming responsibility for the attack and alleging it stole approximately one terabyte of corporate data. The ransomware gang warned it would publish the stolen data unless the company enters negotiations by the end of the week. Coca-Cola's Fairlife listed on Anubis data leak site The ransomware gang claimed it attacked Fairlife roughly a week before the company publicly disclosed the incident and encrypted the company's Nutanix infrastructure. "We attacked their systems a week ago. Just a few days later, they immediately reported the incident without attempting to follow the instructions we left on their network," Anubis claimed to BleepingComputer. "We have fully encrypted their Nutanix systems. They have no chance of recovering without our encryption key." The ransomware gang also claimed to have stolen 1 TB of corporate data during the attack. BleepingComputer could not independently verify the gang's claims regarding the alleged theft of data, the encryption of Fairlife's systems, or the amount of data purportedly stolen. When contacted about these claims, Coca-Cola declined to comment. Anubis is a ransomware-as-a-service (RaaS) operation that emerged in December 2024 and has since targeted organizations worldwide across multiple industries. The operation is known for combining data theft with file encryption and using stolen information as leverage to pressure victims into paying a ransom. Last year, Anubis added a data wiper to its arsenal that destroys the victim's files to make recovery impossible. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Coca-Cola says Fairlife ransomware attack halts US dairy production Ukrainian national pleads guilty to role in Conti ransomware operation Critical Palo Alto VPN bug now exploited by Qilin ransomware gang JadePuffer agentic attacks now target AI model data with ransomware JadePuffer ransomware used AI agent to automate entire attack
+Chick-fil-A discloses data breach after credential stuffing attacks By Sergiu Gatlan July 22, 2026 02:40 AM 0 American fast food restaurant chain Chick-fil-A is notifying an undisclosed number of customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. Self-described as the third-largest quick-service restaurant company in the United States, Chick-fil-A operates a network of more than 3,000 restaurants and provides catering services across the U.S., Canada, Puerto Rico, the United Kingdom, and Singapore. The company revealed in data breach notification letters sent to affected individuals and filed with multiple Attorney General offices that it detected the attacks after identifying suspicious login activity to certain Chick-fil-A One accounts. As Chick-fil-A discovered while investigating the incident, the attackers targeted Chick-fil-A's website and mobile app in June. "Following a careful investigation, we determined that unauthorized parties launched an automated attack against our website and mobile application between June 17 and June 19, 2026 using account credentials (e.g., email addresses and passwords) obtained from a third-party source," it said . "Based on our investigation, we determined on July 13, 2026 that the unauthorized parties may have accessed information in your Chick-fil-A One account." The information exposed in the breach includes a combination of customers' names, email addresses, Chick-fil-A One membership numbers and mobile pay numbers, QR codes, the amount of Chick-fil-A credit, and the last four digits of your credit/debit card number. Additionally, the attackers may have also gained access to birth dates, phone numbers, and addresses if stored in the compromised accounts. While Chick-fil-A didn't disclose how many customers had their accounts breached in the June credential stuffing attacks, the company told the Texas Attorney General that the resulting data breach impacts 2182 Texans and the Massachusetts AG that it affects 39 residents . Chick-fil-A also sent data breach notification letters to residents of Iowa, the District of Columbia, Maryland, New Mexico, New York, North Carolina, Oregon, Vermont, and Rhode Island. In credential stuffing, attackers use automated tools to breach user accounts with stolen username/password pairs, a tactic especially effective when reusing credentials across multiple platforms. The end goal is to steal personal and financial information after taking over accounts, which can later be sold to other cybercriminals or used for identity theft and other malicious purposes. In response to the incident, Chick-fil-A logged out all impacted accounts, removed payment methods, restored Chick-fil-A One account balances, and added rewards to affected accounts as a way of apologizing. Since the accounts were compromised using stolen credentials, the restaurant chain also advised impacted users to change their passwords as soon as possible. A Chick-fil-A spokesperson was not immediately available for comment when contacted by BleepingComputer on Tuesday about how many customer accounts were breached in the attacks. Chick-fil-A also confirmed in March 2023 that threat actors accessed the personal information and used the stored rewards balances of over 71,000 customers after hacking their accounts in a similar wave of credential stuffing attacks between December 2022 and February 2023. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: 23andMe to pay $18 million in new genetics data breach settlement AssuranceAmerica data breach exposes records of 6.9 million drivers Estée Lauder discloses data breach via Oracle E-Business flaw US seizes over 1,000 websites in FI
 ```
 
 #### Corroborating sources (1)
 
 - **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak
-  - Published: 2026-07-21T18:50:54+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/
-  - Summary: The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]
+  - Title: Chick-fil-A discloses data breach after credential stuffing attacks
+  - Published: 2026-07-22T06:40:29+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
+  - Summary: American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]
 
 ### Cluster 26b1df3ae2 — score 9
 
@@ -3479,6 +3496,43 @@ I found and reported an authentication failure in the WPForms PayPal Commerce we
   - Published: 2026-07-22T14:46:52+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1v3i9il/i_was_reporter_11_for_a_wpforms_paypal_webhook/
   - Summary: I found and reported an authentication failure in the WPForms PayPal Commerce webhook, the webhook route being public was not the vulnerability as webhooks have to be publicly reachable so that PayPal can deliver events. The problem was what happened after the request arrived. In affected versions, the handler could process a supported event before establishing that PayPal was actually the sender. In my local lab, a forged event could change the state of a matching payment record. The expected order is: Authenticate the sender Validate the event Change payment state The affected flow effectively performed steps 2 and 3 without first completing step 1. The issue was fixed in WPForms 1.10.0.5 and is tracked as CVE-2026-4986. Then came the part I found more interesting: triage told me I was reporter #11. That number does not prove exploitation, and it does not tell us the total number of people who found the vulnerability. It does establish a lower bound: at least eleven researchers indep
+
+### Cluster e368ef6eef — score 9
+
+- Title: CVE-2026-50458: Finding a UAF in the Windows Brokering File System
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-07-22T19:08:40+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-50458, Microsoft Windows
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-50458
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-50458
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month's Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: CVE-2026-50458: Finding a UAF in the Windows Brokering File System
+  - Published: 2026-07-22T19:08:40+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/
+  - Summary: Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month's Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]
 
 ### Cluster 8cd8d46bd5 — score 9
 
@@ -3579,22 +3633,18 @@ Developers & Practitioners Generosity Under Conditions: Hardening Google Cloud A
 - Source: TrustedSec (detection_response_operations)
 - Published: 2026-07-21T04:00:00+00:00
 - Link: https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
 - threat_categories: phishing_social_eng
-- affected_products: Microsoft Entra
-- tools_used: Microsoft 365
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
 - threat_categories: phishing_social_eng
-- affected_products: Microsoft Entra
-- tools_used: Microsoft 365
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3604,12 +3654,6 @@ Developers & Practitioners Generosity Under Conditions: Hardening Google Cloud A
 <p>Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.</p>
 ```
 
-#### Full body
-
-```
-Blog The New Hotness in Phishing: Device Code Attacks in M365 July 21, 2026 The New Hotness in Phishing: Device Code Attacks in M365 Written by Lumi Taiwo and Danny Dubree Threat Hunting Incident Response Social Engineering Table of contents 1. The Attack, Step by Step 2. What the Tokens Unlock 3. What It Looks Like in Your Logs 4. Stopping It: Prevention and Containment 5. The Bottom Line Device code phishing has a quality that makes it unusually effective: it does not follow the pattern of traditional phishing attacks. The victim ends up granting access to the attacker by completing a genuine sign-in on a Microsoft URL, Microsoft[.]com/devicelogin . The MFA prompts the user approves are legitimate. This method also frequently bypasses Conditional Access policies, because as far as the sign-in pipeline is concerned, the authentication originates from a legitimate Microsoft endpoint. From the user’s perspective, nothing is wrong. From the responder’s perspective, the only artifact left behind is an OAuth token issued to a session the attacker controls. Across the business email compromise (BEC) and Microsoft 365 (M365) incident response engagements TrustedSec responds to, device code flow abuse continues to surface as an initial access technique that sidesteps both user suspicion and several of the Conditional Access patterns organizations rely on. This post unpacks how the attack works, what it looks like in the logs, and what actually stops it. How the Device Code Flow is Supposed to Work Modern authentication is designed around the assumption that the device you are logging in to is also the device you are logging in from. You open a browser, navigate to a login page, enter your credentials, complete your MFA prompt, and access is granted. Simple. However, what happens when the device you are trying to authenticate to does not have a browser? The OAuth 2.0 device authorization grant, defined in RFC 8628 and commonly known as the device code flow, exists for this reason. Some devices cannot reasonably host a browser-based login. Examples of such devices include smart TVs, command-line tools, IoT hardware, and printers that all need a way to authenticate a user without a keyboard or full web view. Microsoft implements the grant in Entra ID for exactly these scenarios, and it is used by tooling such as the Azure CLI, the kubectl Entra plugin, and various device enrollment flows. The flow runs in six (6) steps: The client (the “device”) asks Entra ID for a device code, naming the resource and scopes it wants. Entra returns a device_code , a short human-readable user_code , a verification URL ( Microsoft[.]com/devicelogin ), and a time-to-live of approximately 15 minutes. The client displays the user_code and the URL to the user. The user opens the URL on a second device, enters the code, signs in, and consents. The client polls the token endpoint, presenting the device_code . Once the user finishes, Entra returns an access_token and a refresh_token to the polling client. The flow assumes that whoever displays the code and whoever enters it are the same person, but nothing in the protocol binds the two together. If an attacker initiates the flow and persuades a victim to enter the attacker’s code on the real Microsoft page, Entra issues tokens to the attacker’s polling client. The victim signs in legitimately and sees nothing out of place. 1. The Attack, Step by Step The walkthrough below was reproduced in a lab tenant. All identifiers, tokens, and the lure are synthetic and redacted, and nothing here is drawn from a specific engagement. The point is to show the mechanism, not to provide a campaign kit. 1.1 The Lure This is the social-engineering layer, and it is what makes the technique resilient. The threat actor builds a convincing website to mimic a legitimate login request. Then, they craft an email requesting the user to enter a code using another website link. The critical detail is that the link points to the real micros
-```
-
 #### Corroborating sources (1)
 
 - **TrustedSec** (detection_response_operations)
@@ -3617,39 +3661,6 @@ Blog The New Hotness in Phishing: Device Code Attacks in M365 July 21, 2026 The 
   - Published: 2026-07-21T04:00:00+00:00
   - Link: https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365
   - Summary: <p>Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.</p>
-
-### Cluster 6c33b3b5cf — score 8
-
-- Title: July Patch Tuesday only feels endless
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-07-21T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/july-patch-tuesday-only-feels-endless
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>AI deluge brings 575 CVEs, 479 advisories, reset to blog-post format</p> Categories: Threat Research Tags: x-ops, Patch Tuesday, MICROSOFT PATCH TUESDAY
-```
-
-#### Corroborating sources (1)
-
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: July Patch Tuesday only feels endless
-  - Published: 2026-07-21T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/july-patch-tuesday-only-feels-endless
-  - Summary: <p>AI deluge brings 575 CVEs, 479 advisories, reset to blog-post format</p> Categories: Threat Research Tags: x-ops, Patch Tuesday, MICROSOFT PATCH TUESDAY
 
 ### Cluster 15c6378b6b — score 8
 
@@ -3719,6 +3730,39 @@ TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in Apri
   - Link: https://www.elastic.co/security-labs/telepuz-maas-malware-clickfix
   - Summary: TELEPUZ is a modular malware that emerged through CLICKFIX-VIDAR attacks in April. We reverse-engineered it to show you the infrastructure and evasion techniques that matter.
 
+### Cluster 6c33b3b5cf — score 8
+
+- Title: July Patch Tuesday only feels endless
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-07-21T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/july-patch-tuesday-only-feels-endless
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+<p>AI deluge brings 575 CVEs, 479 advisories, reset to blog-post format</p> Categories: Threat Research Tags: x-ops, Patch Tuesday, MICROSOFT PATCH TUESDAY
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: July Patch Tuesday only feels endless
+  - Published: 2026-07-21T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/july-patch-tuesday-only-feels-endless
+  - Summary: <p>AI deluge brings 575 CVEs, 479 advisories, reset to blog-post format</p> Categories: Threat Research Tags: x-ops, Patch Tuesday, MICROSOFT PATCH TUESDAY
+
 ### Cluster 916dc6a487 — score 8
 
 - Title: JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models
@@ -3787,6 +3831,111 @@ Attackers went agentic. Your security architecture should too. A CISO's guide to
   - Link: https://webflow.sysdig.com/blog/the-cisos-guide-to-headless-cloud-security
   - Summary: Attackers went agentic. Your security architecture should too. A CISO's guide to headless, API-first defense.
 
+### Cluster 0b91e3a0c2 — score 8
+
+- Title: Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-21T18:50:54+00:00
+- Link: https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak
+  - Published: 2026-07-21T18:50:54+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/
+  - Summary: The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]
+
+### Cluster 4281b031dd — score 8
+
+- Title: Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-22T18:07:16+00:00
+- Link: https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-8933
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-8933
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-8933
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment. The high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs
+  - Published: 2026-07-22T18:07:16+00:00
+  - Link: https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html
+  - Summary: Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment. The high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as
+
+### Cluster 0fa786e6c6 — score 8
+
+- Title: Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-22T15:01:21+00:00
+- Link: https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-48294
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-48294
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-48294
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data. The shortcoming has been codenamed HermeticReader by Guardio Labs. It's officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data
+  - Published: 2026-07-22T15:01:21+00:00
+  - Link: https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html
+  - Summary: Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data. The shortcoming has been codenamed HermeticReader by Guardio Labs. It's officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability
+
 ### Cluster 0dd49c6456 — score 8
 
 - Title: 23andMe Faces New Security Mandates in $18m Data Breach Settlement
@@ -3829,12 +3978,12 @@ Attackers went agentic. Your security architecture should too. A CISO's guide to
 - Published: 2026-07-16T09:13:18+00:00
 - Link: https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/
 - Fetch status: not_attempted
-- Member count: 4
-- Corroborating source count: 3
+- Member count: 3
+- Corroborating source count: 2
 - Strong signals: Apple iOS/macOS
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, credential_theft
+- threat_categories: ai_security
 - affected_industries: financial_services
 - affected_products: Apple iOS/macOS
 - content_type: news_report
@@ -3852,18 +4001,13 @@ Attackers went agentic. Your security architecture should too. A CISO's guide to
 This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **Embrace the Red** (ai_security_agentic_risk)
   - Title: From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal
   - Published: 2026-07-16T09:13:18+00:00
   - Link: https://embracethered.com/blog/posts/2026/macos-terminal-dillma-dns-exfil-ansi-escape-code-fix/
   - Summary: This is a follow-up to my previous Terminal DiLLMa research , and there is a positive outcome: Apple fixed a macOS Terminal behavior that enabled a DNS-based data exfiltration technique. DNS Requests via ANSI Escape Codes David Leadbeater originally discovered an interesting behavior in the macOS Terminal app that allowed a special sequence of ANSI escape codes to issue DNS requests. In short, this triggered a DNS request from the macOS Terminal app:
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
-  - Published: 2026-07-16T12:33:42+00:00
-  - Link: https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
-  - Summary: ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Researchers Uncover North Korean 'ClickFake' Campaign Targeting Web3 Pros
   - Published: 2026-07-21T09:30:00+00:00
