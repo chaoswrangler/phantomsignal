@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T17:37:06.706390+00:00",
+  "generated_at": "2026-07-23T19:28:11.204319+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 77,
-  "total_items_in_window": 325,
+  "total_items_in_window": 324,
   "total_clusters_raw": 146,
   "total_clusters_in_packet": 64,
   "dropped_low_score": 82,
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -74,12 +81,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 2
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -95,40 +109,12 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -137,6 +123,20 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
@@ -144,12 +144,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -158,12 +158,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 1
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -177,14 +177,7 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
+      "in_window_count": 5
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -193,19 +186,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -214,12 +207,19 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 40,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -235,13 +235,6 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
@@ -249,12 +242,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -262,6 +255,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -284,12 +284,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 0
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -298,11 +312,11 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 30,
+      "item_count": 20,
       "in_window_count": 0
     },
     "AWS Security Blog": {
@@ -319,25 +333,11 @@
       "item_count": 20,
       "in_window_count": 7
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Protect AI": {
@@ -354,6 +354,13 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -368,13 +375,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -382,33 +382,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 16
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 15
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -417,12 +396,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -431,19 +424,26 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 15,
+      "in_window_count": 15
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 22
+      "in_window_count": 21
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -452,19 +452,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -473,13 +473,6 @@
       "item_count": 50,
       "in_window_count": 24
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
@@ -487,11 +480,25 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 1
     },
     "Troy Hunt": {
@@ -501,12 +508,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -522,20 +529,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -550,15 +543,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -570,6 +563,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -590,7 +590,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 19
+      "in_window_count": 20
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -1409,7 +1409,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
@@ -1437,7 +1437,7 @@
           }
         },
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
@@ -3709,7 +3709,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Security Blog",
+        "source": "Microsoft Threat Intelligence",
         "cohort": "threat_research_primary",
         "title": "Email threat landscape: Q2 2026 trends and insights",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
@@ -3751,7 +3751,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Email threat landscape: Q2 2026 trends and insights",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
@@ -3790,7 +3790,7 @@
           }
         },
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Email threat landscape: Q2 2026 trends and insights",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
@@ -4780,6 +4780,93 @@
       ]
     },
     {
+      "cluster_id": "de2a131113",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+        "published": "2026-07-22T16:00:00+00:00",
+        "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+          "published": "2026-07-22T16:00:00+00:00",
+          "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "7200b1bf11",
       "priority_score": 10,
       "member_count": 1,
@@ -4890,93 +4977,6 @@
       ]
     },
     {
-      "cluster_id": "de2a131113",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-        "published": "2026-07-22T16:00:00+00:00",
-        "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "legal_professional"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-          "published": "2026-07-22T16:00:00+00:00",
-          "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "legal_professional"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1042e88cd6",
       "priority_score": 10,
       "member_count": 1,
@@ -5053,112 +5053,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "2c8659a3fa",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "Begun, the Patch Wars have",
-        "link": "https://blog.talosintelligence.com/begun-the-patch-wars-have/",
-        "published": "2026-07-16T18:00:50+00:00",
-        "summary": "Long foretold, the Great Patching has begun and it’s a doozy. Buckle in as Joe takes you through the story.",
-        "full_body": "Begun, the Patch Wars have By Joe Marshall Thursday, July 16, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. We all knew, to some degree or another, that this summer was going to a hot mess. I don’t mean FIFA drama or record setting heat waves. I mean the slow but steady momentum that AI frontier models were accruing for vulnerability research. If you were like me, and guesstimating exactly when that shoe would drop, my money was on the middle of summer. And... well, friends, I hate to say it, but I was right. This July’s Patch Tuesday is an absolute whopper. There are 622 vulnerabilities being patched, with 62 being a critical severity. To put this context, this month alone has more vulnerabilities listed than all of 2018 combined. Three are zero days, two of which are being actively exploited . July is usually a quiet month historically – two years ago, it was just five patches issued in total! These are wild times, friends. Microsoft has said this is due their AI frontier-accelerated research. We knew that this was coming, but what I am less sure about are companies that can meet the demand of this patch flood and getting these patches out to their infrastructures. The pessimist in me knows how most IT enterprises operate: You test, review stability, and then deploy. There’s a lag there – always has been, always will be. But that system worked under a sane patching load. As surely as much as Microsoft is using frontier models to research and announce vulnerabilities, so every is every other vendor. Either through bug bounty programs or their own internal research, vendors are eating these bugs from a fire hose. Some are straight-up slop and just noise, but some have absolute value and need to be fixed. A giant like Microsoft has the money and resources to address this – as well they should. But for every Microsoft, there are five other companies who don’t have those resources. They’ll get bugs analyzed and patches issued, surely, but it will be on a much longer timeline. The trick, I think, will be identifying what is a “surge” vs. our new normal. If everything is a fire drill to patch, then nothing is a fire drill. What might just be a hot summer for patching, might turn into a 12-month fusillade of KEV and EPSS notifications, with companies already under the gun taxed even more. I truly don’t know how this ends, but… Find your change management and IT administrators and give them a hug. There are going to be some long days and hard questions to answer, and they’ll need all the help they can get. The one big thing Cisco Talos is disclosing a new campaign by UAT-11795, a sophisticated, financially motivated Russian-speaking adversary targeting users in the U.S. and Europe since at least June 2025. UAT-11795 uses trojanized software installers — including popular tools like Webex, Zoom, and MobaXterm — to deliver a custom Python-based remote access tool we track as \"Starland RAT.\" This RAT acts as a gateway to deploy further malicious payloads, most notably a bespoke, in-memory PowerShell command-and-control (C2) implant known as the \"WLDR agent.\" Why do I care? This opportunistic campaign casts a wide net across multiple victim profiles, turning a simple software download into a full-blown compromise. UAT-11795 employs highly evasive techniques, including AMSI and ETW bypasses, and uses a clever blockchain-anchored fallback mechanism to maintain persistent command and control. Once inside, attackers rapidly deploy secondary payloads like CastleStealer and Remcos RAT to siphon high-value credentials and cryptocurrency assets. So now what? Educate your users on ClickFix social engineering tactics and the dangers of unofficial software downloads. Monitor for suspicious execution of mshta.exe and unusual PowerShell activity, particularly scripts executing from memory or creating unexpected scheduled tasks. Ensure endpoint detection solutions are tuned to catch in-memory execu",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "Begun, the Patch Wars have",
-          "link": "https://blog.talosintelligence.com/begun-the-patch-wars-have/",
-          "published": "2026-07-16T18:00:50+00:00",
-          "summary": "Long foretold, the Great Patching has begun and it’s a doozy. Buckle in as Joe takes you through the story.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -5948,6 +5842,268 @@
             "role_map": {
               "Microsoft SharePoint": "target",
               "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "02b144b02f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-66376"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "CyberScoop",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries",
+        "link": "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/",
+        "published": "2026-07-23T17:33:37+00:00",
+        "summary": "Laundry Bear exploited a zero-day vulnerability for five months before it was patched in July 2025, and the group is still actively exploiting vulnerable environments. The post Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries appeared first on CyberScoop .",
+        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close A Russian state-sponsored threat group has been stealing sensitive data from governments and commercial organizations since July 2025 via a novel exploit in popular Linux-based enterprise software, U.S. authorities and cyber officials from more than a dozen other countries warned in a joint cybersecurity advisory Thursday. Laundry Bear’s most recent espionage campaign involves the exploitation of a zero-day vulnerability in Zimbra Collaboration Suite that wasn’t patched until November 2025, five months after attacks were well underway, officials said. The exploit just requires a view — no clicks — and allows attackers to steal the previous 90 days’ worth of email, the account’s password, search history, the victim organization’s email directory, two-factor authentication tokens and other newly created passwords. “The covert and persistent nature of this activity, along with the absence of any known financial extortion, almost certainly indicates this group’s involvement in espionage activities with Russian government backing,” officials wrote in the advisory. Advertisement “Additionally, extensive Ukrainian targeting, prior to use against U.S. and other NATO allies, outlines an increasing trend within Russian cyber threat groups to target Ukrainian users first—both as a priority target and as a testbench for malicious cyber techniques before broader global deployment.” The state-sponsored espionage group, also known as Void Blizzard, has compromised governments and organizations in the defense, education, energy, law enforcement, media, finance, transportation and technology sectors. Laundry Bear’s year-long campaign involving the exploitation of CVE-2025-66376 showcases more technical capabilities, including a custom JavaScript payload it delivers to targeted victims via phishing emails. The threat group could also likely adapt the novel data exfiltration and aggregation capability, dubbed “beehive,” to exploit other vulnerabilities, officials warned. The defect’s medium-severity rating of 6.1 underscores the challenge defenders regularly confront in prioritizing patching schedules based on measure of severity alone. The Russian state-supported group, which has been active since at least 2024, is still actively exploiting Zimbra Collaboration Suite instances that remain unpatched, officials said. Advertisement Authorities shared Thursday indicators of compromise, mitigation steps and urged organizations to update their vulnerable software. “This campaign’s targeted victimology and limited exploitation capabilities likely indicate this group manually identifies and targets the victim organizations” by identifying organizations with public-facing infrastructure, officials wrote in the advisory. Once a target is identified, Laundry Bear also likely compiles email addresses for users to target with the exploit via phishing emails. Officials did not identify specific victims or describe the volume of organizations already compromised. The joint cybersecurity advisory was issued by the United States, Australia, Canada, New Zealand, the United Kingdom, Czech Republic, Denmark, Estonia, Finland, France, Italy, Moldova, the Netherlands, Poland, Spain and Sweden. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Gwengoat, iStock/Getty Images Plus (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity A builder’s view of the AI arms race What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Government White House accuses Chinese company of distilling Anthropic’s Fable AI models keep getting caught cheating Where’s the Trump administration line on AI regulation? Director of Commerce AI standards office out after three months Technology OpenAI says model test was behind Hugg",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "zero_day",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "education"
+          ],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2025-66376"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "target",
+            "Anthropic/Claude": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Anthropic/Claude",
+                "mention",
+                0.3
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "CyberScoop",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries",
+          "link": "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/",
+          "published": "2026-07-23T17:33:37+00:00",
+          "summary": "Laundry Bear exploited a zero-day vulnerability for five months before it was patched in July 2025, and the group is still actively exploiting vulnerable environments. The post Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries appeared first on CyberScoop .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "zero_day",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "education"
+            ],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2025-66376"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Anthropic/Claude",
+                  "mention",
+                  0.3
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "76e10c02ae",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-66376"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+        "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+        "published": "2026-07-23T18:36:08+00:00",
+        "summary": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published",
+        "full_body": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes  Swati Khandelwal  Jul 23, 2026 Email Security / Vulnerability A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA , CISA and partner agencies published a joint advisory on the campaign Thursday, alongside research from Palo Alto Networks' Unit 42 and Proofpoint. The advisory calls the technique \"a view-based exploit that only requires a user to view a malicious email\" in a vulnerable client. It says the actors have been targeting and compromising Western government and commercial organizations through Zimbra since at least July 2025. The flaw, CVE-2025-66376 , is a stored cross-site scripting vulnerability in Zimbra's Classic UI. A crafted HTML email abuses CSS @import handling to execute JavaScript inside an authenticated webmail session, so the payload inherits the user's access to the mailbox. The two CVSS records disagree on whether viewing the message counts as user interaction: NVD scores it 6.1 and says it does; MITRE scores it 7.2 and says it does not. Unit 42 calls it zero-click. All three describe the same behavior: the message runs when it renders, and nothing else has to happen. It affects Zimbra Collaboration 10.0 before 10.0.18 and 10.1 before 10.1.13 . Zimbra fixed it on November 6, 2025, and CISA added it to the Known Exploited Vulnerabilities catalog on March 18, 2026. Proofpoint , which tracks the actor as TA488, said the group exploited the bug as an unknown vulnerability for at least five months during 2025, before that fix existed. The patch closes the hole, not the account. An update does not revoke credentials the payload already took. Proofpoint said the messages went out from adversary-controlled Proton Mail accounts and from previously compromised addresses, using generic lures. Unit 42 , which tracks the activity as CL-STA-1114, said they were often dressed as a digest of current news. The exploit sits in the HTML body. It hides an svg onload tag inside a display:none div, then breaks the tag apart with fake @import directives and HTML comments, a technique Proofpoint calls tag-splitting. Zimbra's sanitizer does not recognize the fragments as executable markup. It strips the @import sequences, and the characters left behind join into <svg onload=eval(atob(...))> , which the browser runs. Proofpoint tracks the JavaScript payload as ZimReaper. It steals the CSRF token and the browser's autofilled password, pulls 2FA scratch codes and Zimbra version details through the platform's own APIs, and exfiltrates them over DNS queries to actor infrastructure. Then it brute-forces the Global Address List, querying every two-character combination until the whole list comes back, and posts 90 days of the victim's mail to the C2 as a TGZ archive. Unit 42 counted at least nine C2 IP addresses and nine domains, each server live for an average of 35.4 days. It named no affected organizations and gave no victim count. Its list of sectors and regions describes who was targeted. It does not say who was compromised. That list runs across government, defense, transportation and financial organizations in NATO member states, Ukraine, the Commonwealth of Independent States and Africa. Proofpoint puts US organizations on it too: government, scientific and defense industrial base entities, including nuclear installations. The payload mints an app-specific password named ZimbraWeb through CreateAppSpecificPasswordRequest , which can grant IMAP, POP3 or SMTP access without two-factor authentication. Proofpoint said TA488 went on to send further exploit emails from compromised mailservers, and could not say whether the app passwords or other stolen",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Palo Alto Networks"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2025-66376"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Palo Alto Networks": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+          "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+          "published": "2026-07-23T18:36:08+00:00",
+          "summary": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2025-66376"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Palo Alto Networks": "target"
             },
             "weak_tags": {
               "products": []
@@ -7966,29 +8122,16 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "credential_theft",
-          "data_breach",
-          "ransomware_extortion",
-          "zero_day"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial"
+          "financial_services"
         ],
-        "affected_products": [
-          "Microsoft SharePoint",
-          "OpenAI/ChatGPT"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "incident_report"
         ],
@@ -8003,38 +8146,22 @@
         "link": "https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/",
         "published": "2026-07-22T15:02:11+00:00",
         "summary": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek .",
-        "full_body": "Hackers have stolen tens of millions of records from AI music generator Suno and gig-work platform Paidwork, according to data breach notification service Have I Been Pwned (HIBP). Suno was targeted in November 2025, and the intrusion came to light earlier this month, when 404 Media reported that hackers had obtained source code and user data. The stolen source code revealed that Suno had been scraping music and podcasts from major platforms such as Deezer, YouTube and Genius. [ Read: New Index Tracks Material Breaches — And Refuses to Add Up the Losses ] As for the compromised user data, HIBP analyzed it and reported on Monday that it had identified 55.3 million unique email addresses associated with Suno accounts. The leaked data also included phone numbers and tens of thousands of Stripe payment records, including names, physical addresses, purchase amounts, and partial payment card information (card type, expiration date, and last 4 digits of the card number). Advertisement. Scroll to continue reading. As for Paidwork, a platform where users complete small jobs for pay, hackers claimed to have targeted the company in March 2026. Last week, a threat actor leaked an 11 GB database allegedly stolen from Paidwork, claiming that it stores the information of roughly 22 million users. HIBP’s analysis identified 23.3 million unique email addresses in the leaked data, along with names, password hashes, physical addresses, dates of birth, phone numbers, bank account numbers, financial transactions, and user profile information. SecurityWeek has reached out to both Suno and Paidwork for comment. UPDATE: Paidwork has provided the following statement to SecurityWeek : We are aware of the Have I Been Pwned report but, at this time, Paidwork has no confirmed evidence that our systems or user accounts were compromised in the incident you referenced. We take reports like this seriously and have already escalated the matter to our security team for investigation. Related : OpenAI Says Its AI Models Broke Loose and Hacked Hugging Face Related : Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife Related : Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft Fourth SharePoint Vulnerability Exploited in Past Month’s Wave of Attacks Oracle Patches Over 1,400 Vulnerabilities With Quarterly Security Updates Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife OpenAI Says Its AI Models Broke Loose and Hacked Hugging Face Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data Exploitation of ServiceNow Vulnerability Seen Days After Disclosure Latest News OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider Is Patching Dead? Vulnerability Management in the Post-Mythos Era Chick-fil-A Accounts Get Fried in Credential Stuffing Attack Abstract Raises $25 Million to Expand Composable Security Operations Platform Nuclear-Sabotage Malware Benchmark Trips Up Most Frontier AI Models Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses Assaf Keren Appointed New CISO of Meta New Check Point Zero-Day Vulnerability Exploited in the Wild Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from in",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "credential_theft",
-            "zero_day",
-            "data_breach",
-            "active_exploitation"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [
-            "financial_services",
-            "manufacturing_industrial"
+            "financial_services"
           ],
-          "affected_products": [
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day"
-          ],
+          "urgency_signals": [],
           "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Microsoft SharePoint": "target",
-            "OpenAI/ChatGPT": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -8049,35 +8176,19 @@
           "published": "2026-07-22T15:02:11+00:00",
           "summary": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek .",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "credential_theft",
-              "zero_day",
-              "data_breach",
-              "active_exploitation"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [
-              "financial_services",
-              "manufacturing_industrial"
+              "financial_services"
             ],
-            "affected_products": [
-              "Microsoft SharePoint",
-              "OpenAI/ChatGPT"
-            ],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day"
-            ],
+            "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft SharePoint": "target",
-              "OpenAI/ChatGPT": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8315,100 +8426,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "e368ef6eef",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-50458",
-        "Microsoft Windows"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-50458"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "CVE-2026-50458: Finding a UAF in the Windows Brokering File System",
-        "link": "https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/",
-        "published": "2026-07-22T19:08:40+00:00",
-        "summary": "Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month's Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-50458"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {
-            "Microsoft Windows": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "CVE-2026-50458: Finding a UAF in the Windows Brokering File System",
-          "link": "https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/",
-          "published": "2026-07-22T19:08:40+00:00",
-          "summary": "Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month's Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Windows"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-50458"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Microsoft Windows": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -8470,52 +8487,59 @@
       ]
     },
     {
-      "label": "Microsoft SharePoint active exploitation",
-      "anchor_signal": "Microsoft SharePoint",
-      "theme_key": "microsoft-sharepoint",
+      "label": "Palo Alto Networks exploitation (CVE-2025-66376)",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
       "dominant_features": {
         "threat_categories": [
-          "active_exploitation",
+          "zero_day",
+          "phishing_social_eng",
           "ransomware_extortion",
-          "data_breach",
           "credential_theft",
-          "zero_day"
+          "apt_espionage"
         ],
         "affected_industries": [
+          "manufacturing_industrial",
           "financial_services",
-          "manufacturing_industrial"
+          "government"
         ],
         "affected_products": [
-          "Microsoft SharePoint",
-          "OpenAI/ChatGPT"
+          "Palo Alto Networks"
+        ],
+        "cve_ids": [
+          "CVE-2025-66376"
         ],
         "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth",
           "zero_day"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 8,
-      "cohesion": 0.269,
+      "cluster_count": 7,
+      "article_count": 5,
+      "cohesion": 0.318,
       "shared_strong_signals": [
-        "Microsoft SharePoint"
+        "Palo Alto Networks"
       ],
-      "member_cves": [],
+      "member_cves": [
+        "CVE-2025-66376"
+      ],
       "also_targets": [],
       "cluster_ids": [
-        "8c3fd723aa",
-        "2bab6cab95",
-        "9e44f5cce0",
-        "57de1d00b3"
+        "d9c1f05e41",
+        "17b63d385b",
+        "1ff0bf04bf",
+        "72fdd19b2c",
+        "02b144b02f",
+        "76e10c02ae",
+        "f6874b93eb"
       ],
       "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild",
-        "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-        "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
-        "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
-        "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
-        "https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/"
+        "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
+        "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+        "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
+        "https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/",
+        "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/",
+        "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+        "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/"
       ]
     },
     {
@@ -8639,45 +8663,6 @@
       ]
     },
     {
-      "label": "phishing social eng targeting Palo Alto Networks",
-      "anchor_signal": "Palo Alto Networks",
-      "theme_key": "palo-alto-networks",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "zero_day",
-          "ransomware_extortion",
-          "credential_theft"
-        ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 4,
-      "cohesion": 0.25,
-      "shared_strong_signals": [
-        "Palo Alto Networks"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "d9c1f05e41",
-        "17b63d385b",
-        "1ff0bf04bf",
-        "72fdd19b2c"
-      ],
-      "links": [
-        "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
-        "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-        "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
-        "https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/"
-      ]
-    },
-    {
       "label": "phishing social eng targeting Microsoft Entra",
       "anchor_signal": "Microsoft Entra",
       "theme_key": "microsoft-entra",
@@ -8720,44 +8705,6 @@
         "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
         "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
         "https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365"
-      ]
-    },
-    {
-      "label": "CVE-2024-24919 exploitation activity",
-      "anchor_signal": "CVE-2024-24919",
-      "theme_key": "cve-2024-24919",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2024-24919",
-          "CVE-2026-16232",
-          "CVE-2026-50751"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 5,
-      "cohesion": 0.348,
-      "shared_strong_signals": [
-        "CVE-2024-24919"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "049863205d",
-        "7db5fb6de1"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild",
-        "https://www.securityweek.com/new-check-point-zero-day-vulnerability-exploited-in-the-wild/",
-        "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
-        "https://www.helpnetsecurity.com/2026/07/23/check-point-vulnerability-cve-2026-16232/",
-        "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
       ]
     },
     {
@@ -8834,6 +8781,87 @@
         "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
         "https://www.helpnetsecurity.com/2026/07/23/check-point-vulnerability-cve-2026-16232/",
         "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
+      ]
+    },
+    {
+      "label": "CVE-2024-24919 exploitation activity",
+      "anchor_signal": "CVE-2024-24919",
+      "theme_key": "cve-2024-24919",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2024-24919",
+          "CVE-2026-16232",
+          "CVE-2026-50751"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 5,
+      "cohesion": 0.348,
+      "shared_strong_signals": [
+        "CVE-2024-24919"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "049863205d",
+        "7db5fb6de1"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild",
+        "https://www.securityweek.com/new-check-point-zero-day-vulnerability-exploited-in-the-wild/",
+        "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+        "https://www.helpnetsecurity.com/2026/07/23/check-point-vulnerability-cve-2026-16232/",
+        "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
+      ]
+    },
+    {
+      "label": "Microsoft SharePoint active exploitation",
+      "anchor_signal": "Microsoft SharePoint",
+      "theme_key": "microsoft-sharepoint",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation",
+          "ransomware_extortion",
+          "data_breach"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Microsoft SharePoint"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 7,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Microsoft SharePoint"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "8c3fd723aa",
+        "2bab6cab95",
+        "9e44f5cce0"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild",
+        "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+        "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
+        "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
+        "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/"
       ]
     },
     {
@@ -9107,15 +9135,6 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": [
-      {
-        "cluster_id": "e368ef6eef",
-        "title": "CVE-2026-50458: Finding a UAF in the Windows Brokering File System",
-        "primary_source": "Reddit r/netsec",
-        "strong_signals": [
-          "CVE-2026-50458"
-        ]
-      }
-    ]
+    "tier_inversion": []
   }
 }
