@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 22 Jul 2026 22:10:36 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 00:06:41 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -18,6 +18,38 @@
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
 <category>WordPress</category>
+</item>
+<item>
+<title>OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened</title>
+<link>https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything</link>
+<description><![CDATA[This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model&apos;s guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI&apos;s sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software. Here&apos;s what happened We currently have three documents to help us understand what happened here. ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks? is a paper published on 11th May 2026 describing ExploitGym, a new eval suite for LLM-powered agent systems. Security incident disclosure — July 2026 by Hugging Face on 16th July 2026 describes how they detected an attack from an &quot;agentic security-research harness - used LLM still not known&quot; that breached some of their systems. OpenAI and Hu<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude · Atlassian Jira · apt_espionage</em>]]></description>
+<pubDate>Wed, 22 Jul 2026 23:51:33 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+<category>OpenAI/ChatGPT</category>
+<category>Anthropic/Claude</category>
+<category>Atlassian Jira</category>
+<category>apt_espionage</category>
+</item>
+<item>
+<title>Smashing Security podcast #477: How 14 orders of chicken McNuggets helped nail a suspected Russian hacker</title>
+<link>https://grahamcluley.com/smashing-security-podcast-477/</link>
+<description><![CDATA[A Russian intelligence-linked hacker is arrested in Thailand while enjoying a beach holiday - and the trail of evidence that nailed him to the Russian government includes 14 separate orders of chicken McNuggets. Meanwhile, AI music generator Suno has been hacked - and the stolen data appears to show exactly how much copyrighted music they hoovered up to train their models. All this and more in episode 477 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest James Ball.]]></description>
+<pubDate>Wed, 22 Jul 2026 23:10:22 +0000</pubDate>
+<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-477/</guid>
+<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
+<category>practitioner_analysis</category>
+</item>
+<item>
+<title>GitHub issues $100,000 bounty for critical RCE vulnerability</title>
+<link>https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/</link>
+<description><![CDATA[submitted by /u/ryanmerket [link] [comments]<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Wed, 22 Jul 2026 22:21:24 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>GitHub</category>
 </item>
 <item>
 <title>Upbound says hack caused $13 million in fraudulent Acima leases</title>
@@ -195,13 +227,12 @@
 <item>
 <title>When AI Attacks: OpenAI Models Autonomously Hack Hugging Face</title>
 <link>https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face</link>
-<description><![CDATA[Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.<br/><br/><em>Tags: OpenAI/ChatGPT · zero_day</em>]]></description>
+<description><![CDATA[Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
 <pubDate>Wed, 22 Jul 2026 15:53:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Japanese food logistics giant recovers as extortion group claims cyberattack</title>
@@ -1082,15 +1113,15 @@
 <item>
 <title>Critical Heap Buffer Overflow in NGINX Allows Unauthenticated Remote Code Execution</title>
 <link>https://orca.security/resources/blog/cve-2026-42533-nginx-heap-buffer-overflow/</link>
-<description><![CDATA[A critical vulnerability (CVE-2026-42533, CVSS v4.0 9.2 / CVSS v3.1 8.1) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to trigger a heap buffer overflow and potentially achieve remote code execution via crafted HTTP requests targeting the map directive regex handling. Due to the potential for service disruption and code execution across […]<br/><br/><em>Tags: WordPress · Kubernetes · CVE-2026-42533 · CVE-2026-60005 · CVE-2026-56434 · data_breach · ddos · active_exploitation</em>]]></description>
+<description><![CDATA[A critical vulnerability (CVE-2026-42533, CVSS v4.0 9.2 / CVSS v3.1 8.1) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to trigger a heap buffer overflow and potentially achieve remote code execution via crafted HTTP requests targeting the map directive regex handling. Due to the potential for service disruption and code execution across […]<br/><br/><em>Tags: Kubernetes · CVE-2026-42533 · CVE-2026-60005 · CVE-2026-56434 · data_breach · ddos · active_exploitation</em>]]></description>
 <pubDate>Mon, 20 Jul 2026 18:15:29 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/cve-2026-42533-nginx-heap-buffer-overflow/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>WordPress</category>
 <category>Kubernetes</category>
 <category>CVE-2026-42533</category>
 <category>CVE-2026-60005</category>
+<category>CVE-2026-56434</category>
 </item>
 <item>
 <title>Critical Ubuntu Pro Client Vulnerability Enables Root Code Execution Across Cloud Workloads</title>
@@ -2021,12 +2052,14 @@
 <item>
 <title>Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</link>
-<description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
+<description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · GitHub · Microsoft Defender · supply_chain</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 01:36:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</guid>
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>npm</category>
+<category>GitHub</category>
+<category>Microsoft Defender</category>
 <category>supply_chain</category>
 </item>
 <item>
@@ -2039,6 +2072,15 @@
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>AI Has Enhanced Iran’s Asymmetric Playbook During the 2026 Conflict</title>
+<link>https://www.recordedfuture.com/research/iran-ai-asymmetric-playbook</link>
+<description><![CDATA[Explore how Iran has utilized AI to enhance its asymmetric playbook during the 2026 conflict. Learn how AI acts as a force multiplier for Iranian cyber operations, influence campaigns, and domestic surveillance.]]></description>
+<pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/research/iran-ai-asymmetric-playbook</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>TELEPUZ: a modular MaaS malware spreading via CLICKFIX-VIDAR chains</title>
@@ -2059,17 +2101,33 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>xai-org/grok-build, now open source</title>
+<link>https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything</link>
+<description><![CDATA[xai-org/grok-build, now open source xAI&apos;s grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI&apos;s Google Cloud buckets. One user reported running it in their home directory and seeing it upload &quot;my SSH keys, my password manager database, my documents, photos, videos, everything&quot;. I&apos;ve not seen an official explanation for why it was doing this, but xAI did respond to the feedback ( Musk : &quot;As a precautionary measure, all user data that was uploaded to SpaceXAI before now will be completely and utterly deleted.&quot;) and have disabled the feature. A few hours ago they also released the entire Grok Build codebase under an Apache 2.0 license - presumably to try and regain trust from their users. From their thread announcing the new repository : [...] When data upload was disabled, this choice was respected. In the early beta, data retention was enabled by default for non-ZDR users. Based]]></description>
+<pubDate>Wed, 15 Jul 2026 23:59:30 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)</title>
 <link>https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/</link>
-<description><![CDATA[Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) appeared first on Unit 42 .<br/><br/><em>Tags: npm · GitHub · TeamPCP · supply_chain</em>]]></description>
+<description><![CDATA[Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) appeared first on Unit 42 .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Wed, 15 Jul 2026 23:00:33 +0000</pubDate>
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
 <category>npm</category>
-<category>GitHub</category>
-<category>TeamPCP</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>OFAC Sanctions Iran Central Bank Crypto Wallets, Freezing $131M in Stablecoins</title>
+<link>https://www.chainalysis.com/blog/ofac-sanctions-iran-central-bank-crypto-wallets-freezing-131m-in-stablecoins/</link>
+<description><![CDATA[The U.S. Treasury Department’s Office of Foreign Assets Control (OFAC) on Tuesday updated its Central Bank of Iran designation to… The post OFAC Sanctions Iran Central Bank Crypto Wallets, Freezing $131M in Stablecoins appeared first on Chainalysis .]]></description>
+<pubDate>Wed, 15 Jul 2026 22:37:36 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/ofac-sanctions-iran-central-bank-crypto-wallets-freezing-131m-in-stablecoins/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Forgotten Bootloaders Expose Secure Boot Blind Spot</title>
@@ -2329,15 +2387,6 @@
 <guid isPermaLink="true">https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/</guid>
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>HN Security - My Semgrep C/C++ ruleset is ready for prime time again</title>
-<link>https://www.reddit.com/r/netsec/comments/1ux0sqt/hn_security_my_semgrep_cc_ruleset_is_ready_for/</link>
-<description><![CDATA[submitted by /u/0xdea [link] [comments]]]></description>
-<pubDate>Wed, 15 Jul 2026 09:24:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1ux0sqt/hn_security_my_semgrep_cc_ruleset_is_ready_for/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Microsoft Patches 570 CVEs in Record Patch Tuesday</title>
@@ -2792,15 +2841,6 @@
 <category>Azure</category>
 </item>
 <item>
-<title>Using uvx in GitHub Actions in a cache-friendly way</title>
-<link>https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything</link>
-<description><![CDATA[TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like. The trick is setting a UV_EXCLUDE_NEWER: &quot;2026-07-12&quot; environment variable at the start of the workflow and then using that as part of the GitHub Actions cache key. This means any uvx tool-name commands will resolve to the most recent version as-of that date, and you can bust the cache and upgrade the tools by bumping the date in the future. My goal here is to use Python tools in GitHub Actions without every run of the workflow hitting PyPI to download a fresh copy of the tool and its dependencies. Update : Here&apos;s an existing issue against the astral-sh/setup-uv repository requesting that they switch the default to cache rather than purge wheels from PyPI. Tags: packaging , pypi , python , github-actions , uv]]></description>
-<pubDate>Tue, 14 Jul 2026 00:56:20 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>AI Security Report 2026</title>
 <link>https://research.checkpoint.com/2026/ai-security-report-2026/</link>
 <description><![CDATA[For years, the cyber security industry tracked AI as a force multiplier: something that made existing attack techniques faster, cheaper, and more accessible. That framing was accurate. But the Annual AI Security Report 2026 from Check Point Research documents a transition that goes further. AI has crossed from assistant to operator. Where it once helped attackers prepare, it now runs the […] The post AI Security Report 2026 appeared first on Check Point Research .]]></description>
@@ -2840,15 +2880,6 @@
 <category>Azure</category>
 </item>
 <item>
-<title>DOOMQL</title>
-<link>https://simonwillison.net/2026/Jul/13/doomql/#atom-everything</link>
-<description><![CDATA[DOOMQL Peter Gostev built this using GPT-5.6 Sol. This is a lot of fun: DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data? The result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen. It&apos;s implemented as a Python terminal script - I tried it out like this: cd /tmp git clone https://github.com/petergpt/doomql cd doomql uv run host/doomql.py Here&apos;s the huge SQL query that implements a full ray tracer in SQLite using a recursive CTE. Running the above script creates a /tmp/doomql/.doomql/doomql.sqlite SQLite database, which you can explore using Datasette like this: uvx --prerelease=allow --with datasette-apps datasette \ /tmp/doomql/.doomql/doomql.sqlite \ -p 4444 --root --secret 1 --internal internal.db The --with datasette-apps option installs the new Datasette Apps plugin, which supports creating custom HTML+Jav]]></description>
-<pubDate>Mon, 13 Jul 2026 22:34:41 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/13/doomql/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Defending SaaS-based applications against ShinyHunters OAuth abuse</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/</link>
 <description><![CDATA[Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applications. The post Defending SaaS-based applications against ShinyHunters OAuth abuse appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ShinyHunters · supply_chain · phishing_social_eng · cloud_abuse</em>]]></description>
@@ -2860,16 +2891,6 @@
 <category>supply_chain</category>
 <category>phishing_social_eng</category>
 <category>cloud_abuse</category>
-</item>
-<item>
-<title>datasette code-frequency chart on GitHub</title>
-<link>https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything</link>
-<description><![CDATA[datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I&apos;ve found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags: github , ai , datasette , generative-ai , llms , ai-assisted-programming , coding-agents<br/><br/><em>Tags: GitHub</em>]]></description>
-<pubDate>Mon, 13 Jul 2026 21:45:27 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-<category>GitHub</category>
 </item>
 <item>
 <title>Between Two Nerds: Exploits are not cyber power</title>
@@ -6935,16 +6956,6 @@
 <guid isPermaLink="true">https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/</guid>
 <source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Silent Ransom Group: what you need to know</title>
-<link>https://www.fortra.com/blog/silent-ransom-group-what-you-need-know</link>
-<description><![CDATA[Most extortion gangs hide behind a keyboard. Silent Ransom Group will phone your staff pretending to be IT support - and if that fails, send someone to your office in person to plug in a USB stick. Read more in my article on the Fortra blog.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 11 Jun 2026 15:43:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.fortra.com/blog/silent-ransom-group-what-you-need-know</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>[tl;dr sec] #332 - I&apos;ve Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security</title>
@@ -12494,7 +12505,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fd550105400&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f3dce065c40&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20525,7 +20536,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20535,7 +20546,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20544,7 +20555,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20553,7 +20564,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20562,7 +20573,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20571,7 +20582,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20580,7 +20591,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20590,7 +20601,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20599,7 +20610,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20608,7 +20619,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 22 Jul 2026 22:10:36 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
