@@ -4,11 +4,41 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 23 Jul 2026 00:06:41 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 04:20:22 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Building a defense in depth strategy for sensitive data</title>
+<link>https://www.helpnetsecurity.com/2026/07/23/defense-in-depth-strategy-video/</link>
+<description><![CDATA[In this Help Net Security video, Venkata Pavan Kumar Gummadi, Professional Software Engineer at Broadridge, explains how to build a defense in depth strategy for protecting sensitive data. He argues that a single control, like encrypting a disk or turning on DLP, leaves gaps that attackers exploit by finding the seams between layers. Venkata walks through four layers that work together across the data life cycle. Classification labels fields such as Social Security numbers and … More → The post Building a defense in depth strategy for sensitive data appeared first on Help Net Security .]]></description>
+<pubDate>Thu, 23 Jul 2026 04:00:12 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/23/defense-in-depth-strategy-video/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain</link>
+<description><![CDATA[A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.<br/><br/><em>Tags: ransomware_extortion · supply_chain · phishing_social_eng</em>]]></description>
+<pubDate>Thu, 23 Jul 2026 01:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>supply_chain</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>PE OopsSec: Mind your PE, guard your OPSEC</title>
+<link>https://www.reddit.com/r/netsec/comments/1v3xv98/pe_oopssec_mind_your_pe_guard_your_opsec/</link>
+<description><![CDATA[This article helps identify Operational Security (OPSEC) vulnerabilities and structural discrepancies inside compiled Windows Portable Executable (PE) files. submitted by /u/Cold-Dinosaur [link] [comments]]]></description>
+<pubDate>Thu, 23 Jul 2026 00:12:53 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v3xv98/pe_oopssec_mind_your_pe_guard_your_opsec/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
 <item>
 <title>wp2shell hits WordPress: detecting pre-auth RCE from plugin drop to command execution</title>
 <link>https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend</link>
@@ -315,12 +345,11 @@
 <item>
 <title>AI on Both Sides: Key Takeaways From Cloud Security LIVE 2026</title>
 <link>https://orca.security/resources/blog/cloud-security-live-2026-ai-both-sides-recap/</link>
-<description><![CDATA[AI security splits into two conversations: stopping attackers who use AI, and using AI to defend faster. At Cloud Security LIVE 2026, Gil Geron, CEO and co-founder of Orca, Jim Reavis, CEO of the Cloud Security Alliance and its new AI Foundation, and Brian Gatta, global vice president for cloud workload security at Zscaler, tackled […]<br/><br/><em>Tags: ai_security</em>]]></description>
+<description><![CDATA[AI security splits into two conversations: stopping attackers who use AI, and using AI to defend faster. At Cloud Security LIVE 2026, Gil Geron, CEO and co-founder of Orca, Jim Reavis, CEO of the Cloud Security Alliance and its new AI Foundation, and Brian Gatta, global vice president for cloud workload security at Zscaler, tackled […]]]></description>
 <pubDate>Wed, 22 Jul 2026 14:35:41 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/cloud-security-live-2026-ai-both-sides-recap/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft</title>
@@ -353,12 +382,11 @@
 <item>
 <title>From maintenance to innovation: Checking in on Checkout.com’s Cloud Composer 3 migration</title>
 <link>https://cloud.google.com/blog/products/data-analytics/how-checkout-com-tallies-data-with-cloud-composer-3/</link>
-<description><![CDATA[Data engineering teams often face a “Day 2” operational reality after building a data platform: the ongoing work of maintaining the orchestrator itself. For the Data Platform team at Checkout.com , managing a self-hosted Apache Airflow environment on another hyperscaler was consuming time the team wanted to spend elsewhere as server management, patching, and incident response were pulling focus from building pipelines. By migrating to Managed Service for Apache Airflow (Gen 3) , Google Cloud’s fully managed Airflow service, Checkout.com transformed its reliability and cost structure. Here’s how they built a more scalable, cost-efficient, and robust data foundation. The starting point: self-managed Airflow Before the migration, Checkout.com ran Airflow on self-managed infrastructure. While functional, maintaining the underlying resources required significant attention. Patching, upgrades, and server management created regular interruptions. Operational data from the past year illustrate<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[Data engineering teams often face a “Day 2” operational reality after building a data platform: the ongoing work of maintaining the orchestrator itself. For the Data Platform team at Checkout.com , managing a self-hosted Apache Airflow environment on another hyperscaler was consuming time the team wanted to spend elsewhere as server management, patching, and incident response were pulling focus from building pipelines. By migrating to Managed Service for Apache Airflow (Gen 3) , Google Cloud’s fully managed Airflow service, Checkout.com transformed its reliability and cost structure. Here’s how they built a more scalable, cost-efficient, and robust data foundation. The starting point: self-managed Airflow Before the migration, Checkout.com ran Airflow on self-managed infrastructure. While functional, maintaining the underlying resources required significant attention. Patching, upgrades, and server management created regular interruptions. Operational data from the past year illustrate]]></description>
 <pubDate>Wed, 22 Jul 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/how-checkout-com-tallies-data-with-cloud-composer-3/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success</title>
@@ -505,16 +533,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/google-codemender-available-ai/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Box expands enterprise AI governance with new agent security featuresox</title>
-<link>https://www.helpnetsecurity.com/2026/07/22/box-new-security-capabilities/</link>
-<description><![CDATA[Box has announced new security capabilities designed to give organizations greater control over AI agents working with enterprise content. With new agent guardrails, third-party agent activity oversight, prompt injection detection, agent classification-based access policies, and more, customers will be able to extend Box’s security controls to both Box Agents and third-party agents, such as Claude, ChatGPT, and Gemini. These new capabilities expand Box’s trusted governance framework to agentic workflows, enabling organizations to confidently deploy and … More → The post Box expands enterprise AI governance with new agent security featuresox appeared first on Help Net Security .<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 10:21:06 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/22/box-new-security-capabilities/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>Oracle Patches Over 1,400 Vulnerabilities With Quarterly Security Updates</title>
@@ -1006,11 +1024,12 @@
 <item>
 <title>The New Hotness in Phishing: Device Code Attacks in M365</title>
 <link>https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365</link>
-<description><![CDATA[&lt;p&gt;Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.&lt;/p&gt;<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<description><![CDATA[&lt;p&gt;Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.&lt;/p&gt;<br/><br/><em>Tags: Microsoft Entra · phishing_social_eng</em>]]></description>
 <pubDate>Tue, 21 Jul 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
+<category>Microsoft Entra</category>
 <category>phishing_social_eng</category>
 </item>
 <item>
@@ -2050,16 +2069,32 @@
 <category>CVE-2026-13585</category>
 </item>
 <item>
+<title>CMMC is (Not) Cancelled</title>
+<link>https://trustedsec.com/blog/cmmc-is-not-cancelled</link>
+<description><![CDATA[&lt;p&gt;Just because CMMC Phase II audits are paused doesn&apos;t mean compliance is. In this blog, we clarify what the suspension means for defense contractors and why self-assessments and core regulations remain in effect.&lt;/p&gt;]]></description>
+<pubDate>Thu, 16 Jul 2026 04:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://trustedsec.com/blog/cmmc-is-not-cancelled</guid>
+<source url="https://www.trustedsec.com/feed/">TrustedSec</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>ISC Stormcast For Thursday, July 16th, 2026 https://isc.sans.edu/podcastdetail/10010, (Thu, Jul 16th)</title>
+<link>https://isc.sans.edu/diary/rss/33160</link>
+<description><![CDATA[(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.]]></description>
+<pubDate>Thu, 16 Jul 2026 02:40:10 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33160</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
 <title>Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</link>
-<description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · GitHub · Microsoft Defender · supply_chain</em>]]></description>
+<description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 01:36:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</guid>
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>npm</category>
-<category>GitHub</category>
-<category>Microsoft Defender</category>
 <category>supply_chain</category>
 </item>
 <item>
@@ -2072,6 +2107,15 @@
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>Mermaid to Unicode box art (grok-mermaid)</title>
+<link>https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything</link>
+<description><![CDATA[Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a &quot;self-contained terminal renderer for Mermaid diagrams&quot; written in Rust. I figured it would be fun to try that out in a browser via WebAssembly. Here&apos;s the prompt I ran in Claude Code for web (Fable 5), and this is what the resulting tool looks like: Tags: tools , rust , webassembly , mermaid , grok , xai]]></description>
+<pubDate>Thu, 16 Jul 2026 00:33:18 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>AI Has Enhanced Iran’s Asymmetric Playbook During the 2026 Conflict</title>
@@ -2416,15 +2460,6 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
-<title>(More) Unauthenticated Arbitrary Code Execution in ServiceNow</title>
-<link>https://www.reddit.com/r/netsec/comments/1uwzsix/more_unauthenticated_arbitrary_code_execution_in/</link>
-<description><![CDATA[submitted by /u/ahhhpipipi [link] [comments]]]></description>
-<pubDate>Wed, 15 Jul 2026 08:25:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uwzsix/more_unauthenticated_arbitrary_code_execution_in/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits</title>
 <link>https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits</link>
 <description><![CDATA[The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.]]></description>
@@ -2432,15 +2467,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>ISC Stormcast For Wednesday, July 15th, 2026 https://isc.sans.edu/podcastdetail/10008, (Wed, Jul 15th)</title>
-<link>https://isc.sans.edu/diary/rss/33158</link>
-<description><![CDATA[(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.]]></description>
-<pubDate>Wed, 15 Jul 2026 02:00:02 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33158</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
 </item>
 <item>
 <title>ICYMI: June 2026 @AWS Security</title>
@@ -2582,15 +2608,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Quoting Armin Ronacher</title>
-<link>https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</link>
-<description><![CDATA[The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience of having to explain a change to somebody else. Before agents, some of this shared understanding was maintained by friction. If I wanted to change your storage layer, I usually had to read your code, ask you questions, and perhaps coordinate with another team whose service depended on it. This was slow, and much of that slowness was waste but not all of it was. Some of it was the process by which your understanding became mine, and by which both of us discovered whether we still agreed about how the system worked. This friction synchronizes people. — Armin Ronacher , The Tower Keeps Rising Ta]]></description>
-<pubDate>Tue, 14 Jul 2026 18:04:23 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Manage Vendor Risk in a Few Practical Steps</title>
 <link>https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps</link>
 <description><![CDATA[Risk tolerance, exposure visibility, board oversight — handling third-party risk is complicated but achievable with disciplined, precise governance.]]></description>
@@ -2598,15 +2615,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>datasette 1.0a37</title>
-<link>https://simonwillison.net/2026/Jul/14/datasette/#atom-everything</link>
-<description><![CDATA[Release: datasette 1.0a37 A minor release. Performance and documentation improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break. Tags: datasette]]></description>
-<pubDate>Tue, 14 Jul 2026 16:31:41 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/datasette/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Threat Hunting Case Study: Scattered Spider</title>
@@ -3107,15 +3115,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Rust-proof your code with our new Testing Handbook chapter</title>
-<link>https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/</link>
-<description><![CDATA[We’ve added a new chapter to our Testing Handbook : a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main () {( | f: &amp; dyn Fn ( u128 )-&gt; Box &lt; dyn Iterator &lt; Item = char &gt;+ &apos;static &gt;| f( * [ &amp; ( 0x7B736D70683F73 u128 &lt;&lt; 64 | 0x7A6A6D7C3F7A667D ), &amp; ( 0x7B736D u128 &lt;&lt; 64 | 0x70683F7073737A77 )][((std::hint:: black_box ( 0.0 f64 ) / 0.0 ).to_bits() &gt;&gt; 63 ) as usize ]) .for_each( | c | print! ( &quot; {c} &quot; )))( Box ::leak( Box ::new( | n: u128 | Box ::new(std::iter::successors( Some (n), |&amp; n | Some (n &gt;&gt; 8 ) ).take_while( |&amp; n | n &gt; 0 ).map( | n | ((n as u8 ) ^ 0x1F ) as char )) as _)))} What’s in the chapter The chapter starts with a security overview of what Rust’s guarantees do and don’t cover, including underappreciated issues like unwind safety, nondeterminism, and arithmetic errors. This leads into an overview of dynamic analysis, which covers a range o]]></description>
-<pubDate>Mon, 13 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Russian State Hackers Target Vulnerable Routers Worldwide, Joint Advisory Warns</title>
 <link>https://www.infosecurity-magazine.com/news/russian-state-hackers-vulnerable/</link>
 <description><![CDATA[Cybersecurity agencies from 12 countries have warned that Russian state-backed hackers are actively targeting vulnerable routers using weak SNMP credentials]]></description>
@@ -3607,16 +3606,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>&apos;GodDamn&apos; Ransomware Uses BYOVD to Smite US Companies</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies</link>
-<description><![CDATA[Microsoft signed a malicious kernel driver, and now it&apos;s being used to kill security software in ransomware attacks.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 09 Jul 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>New AI Security Charter Backed by Over 70 Cyber Firms</title>
 <link>https://www.infosecurity-magazine.com/news/crest-ai-security-charter-cyber/</link>
 <description><![CDATA[Over 70 cybersecurity organizations have signed the CREST AI Charter detailing responsible use of AI for security]]></description>
@@ -3809,15 +3798,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-asm-auto-recon</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Mutation testing comes to DAML</title>
-<link>https://blog.trailofbits.com/2026/07/08/mutation-testing-comes-to-daml/</link>
-<description><![CDATA[In April we released Mewt , our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML’s authorization primitives), and runs them through your existing test suite to count how many mutants survive. If you want to try it, simply install Mewt from the repository , point a mewt.toml at your project and its test command, and use mewt run . For a team shipping DAML to production, that count is what a passing test run is actually worth: it puts a number on how much your suite checks, whereas a green run on its own does not. Why DAML’s coverage reports lie Test coverage is the most reassuring lie in smart-contract development. Hitting 100% line coverage tells you the test runner walked the code; it does not tell you whether any test would fail if that code stopped doing what it is s]]></description>
-<pubDate>Wed, 08 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/07/08/mutation-testing-comes-to-daml/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>New Malicious Campaign Delivers Vidar Infostealer and Monero Crypto Miner</title>
@@ -4596,16 +4576,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>GPT-5.5-Cyber built a zlib fuzzing lab in a day</title>
-<link>https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/</link>
-<description><![CDATA[We’re running Patch the Planet , an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest models at real codebases, find the security bugs first, work with maintainers to patch them, and find ways to decrease the burden on maintainers in the long run. We’ll publish field reports like this one as the initiative progresses; follow along via the Patch the Planet tag. The expertise barrier that kept bespoke fuzzing campaigns out of reach for most attackers is gone. We watched GPT-5.5-Cyber build in a single day what would have taken weeks for a skilled security researcher : harnesses across a dozen entrypoints, sanitizer and variant builds, seeds, and multiple findings currently undergoing<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>Build AI Security Agents with Wiz MCP</title>
 <link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
 <description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
@@ -5119,15 +5089,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Shipping post-quantum cryptography to Python</title>
-<link>https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/</link>
-<description><![CDATA[Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That]]></description>
-<pubDate>Tue, 30 Jun 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Hackers Leverage Blockchain to Hit Japan&apos;s Hotels Through Booking.com Phishing</title>
 <link>https://www.infosecurity-magazine.com/news/hackers-blockchain-japan-hotels/</link>
 <description><![CDATA[A wave of phishing emails sent to Booking.com partner accommodations in Japan in May led to blockchain-hosted malware<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -5260,6 +5221,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
+<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
+<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>The Hacker&apos;s 2026 Playbook: Dark Web Tactics Targeting You</title>
 <link>https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook</link>
 <description><![CDATA[Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
@@ -5268,15 +5238,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Microsoft 365</category>
-</item>
-<item>
-<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
-<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
-<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Bridging the Visibility Gap: A Unified Security Operating Model for Hybrid Cloud Teams</title>
@@ -5574,15 +5535,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
-<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
-<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
-<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/</link>
 <description><![CDATA[Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se<br/><br/><em>Tags: apt_espionage · web_shell_backdoor</em>]]></description>
@@ -5592,6 +5544,15 @@
 <category>threat_research_primary</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
+</item>
+<item>
+<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
+<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
+<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
+<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model</title>
@@ -6055,16 +6016,6 @@
 <guid isPermaLink="true">https://newsroom.trendmicro.com/2026-06-22-TrendAI-TM-Named-Trusted-Partner-in-the-OpenAI-Daybreak-Cyber-Partner-Program</guid>
 <source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Introducing Patch the Planet</title>
-<link>https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/</link>
-<description><![CDATA[What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across 19 projects (with many more still undergoing coordinated disclosure). That was just the first week of Patch the Planet . Frontier models like GPT-5.5-Cyber are producing a firehose of security findings, and already-stretched maintainers must sift through all of it to separate real vulnerabilities from plausible-sounding false positives. Patch the Planet is different: with our experts orchestrating and triaging findings, we handle the work of fixing and hardening the code alongside the people who maintain it. The first week of Patch the Planet covered 19 projects across cryptography, networkin<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Mon, 22 Jun 2026 16:50:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>Prevent data exfiltration: AWS egress controls for cloud workloads</title>
@@ -6668,16 +6619,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed</title>
-<link>https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</link>
-<description><![CDATA[A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
 <description><![CDATA[Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our <br/><br/><em>Tags: UNC6508</em>]]></description>
@@ -6686,6 +6627,16 @@
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>UNC6508</category>
+</item>
+<item>
+<title>The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed</title>
+<link>https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</link>
+<description><![CDATA[A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>15th June – Threat Intelligence Report</title>
@@ -6849,16 +6800,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/navigating-the-new-federal-logging-mandate-or-omb-memorandum-m-26-14</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Factoring &quot;short-sleeve&quot; RSA keys with polynomials</title>
-<link>https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/</link>
-<description><![CDATA[What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to many of these keys and analyzed historical data to track the issue over time. Surprisingly, the pattern of 0 bits is often highly structured, allowing us to develop a powerful polynomial-based cryptanalytic technique that exploits the pattern. Figure 1: Two patterns of RSA moduli with repeated blocks of 0 bits seen in real-world examples. These “short-sleeve” keys, named for how the 0 bits don’t fully cover the limbs of the big integers, largely fell into two patterns. Pattern 1 remains unexplained, but we traced pattern 2 to a type mismatch in big-integer code from old versions of the Comple<br/><br/><em>Tags: active_exploitation</em>]]></description>
-<pubDate>Fri, 12 Jun 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>Akira, LimeWire, and the Sour Taste of Data Exfiltration</title>
@@ -7398,15 +7339,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Why Huntress Doesn’t Need FedRAMP</title>
-<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
-<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
-<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/</link>
 <description><![CDATA[Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as &quot;Luna Moth,&quot; “Chatty Spider,” and &quot;Silent Ransom Group&quot;) targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their <br/><br/><em>Tags: Silent Ransom Group · UNC3753 · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -7418,6 +7350,15 @@
 <category>UNC3753</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Why Huntress Doesn’t Need FedRAMP</title>
+<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
+<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
+<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Risky Bulletin: EU unveils digital sovereignty plan</title>
@@ -7604,16 +7545,6 @@
 <guid isPermaLink="true">https://www.blackhillsinfosec.com/auditing-gitlab-the-ci-cd-kill-chain/</guid>
 <source url="https://www.blackhillsinfosec.com/feed/">Black Hills Information Security</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>The sorry state of skill distribution</title>
-<link>https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/</link>
-<description><![CDATA[Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work. We recently bypassed ClawHub’s malicious skill detector , Cisco’s agent skill scanner , and all three of the scanners integrated into skills.sh . These were not advanced attacks: it took us less than an hour to conceive and implement three of the four malicious skills in trailofbits/overtly-malicious-skills , using standard tricks and rapid inspection of the scanner source code. The fourth malicious skill took a few hours, but only because the prompt injection required some trial and error. Our findings demonstrate that even when skill scanners have some defenses, their static nature gives an adversary unlimited bites at the apple to tweak an attack until it finds a w<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Wed, 03 Jun 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>Lessons for life: Why children’s data is a long-term identity risk</title>
@@ -8503,18 +8434,6 @@
 <guid isPermaLink="true">https://www.normaltech.ai/p/did-googles-ai-agents-really-build</guid>
 <source url="https://www.aisnakeoil.com/feed">AI Snake Oil</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Bringing full YAML anchor support to zizmor</title>
-<link>https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/</link>
-<description><![CDATA[In March 2026, attackers exploited a pull_request_target misconfiguration in the aquasecurity/trivy-action GitHub Action to exfiltrate organization and repository secrets, then used those credentials to backdoor LiteLLM on PyPI (see Trivy’s post-mortem for the full timeline). zizmor is a static analyzer that GitHub Actions users run to catch exactly these misconfigurations before they ship. When GitHub Actions added support for YAML anchors in September 2025, a small but high-value slice of the ecosystem started writing workflows that zizmor could only analyze on a best-effort basis. Over the past three months, Trail of Bits collaborated with the zizmor maintainers to bring zizmor ’s anchor support up to full coverage. First, we fixed parsing bugs that caused crashes, produced wrong-location findings, and silently mishandled aliased values. Second, we surfaced deserialization edge cases that broke zizmor on otherwise valid workflows. Finally, we helped align zizmor ’s expression evalua<br/><br/><em>Tags: PyPI · GitHub · web_shell_backdoor</em>]]></description>
-<pubDate>Fri, 22 May 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-<category>PyPI</category>
-<category>GitHub</category>
-<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>Foul play: Fake FIFA websites target soccer fans looking for World Cup tickets, merchandise</title>
@@ -9457,15 +9376,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>gosentry brings LibAFL-grade fuzzing to Go&apos;s native interface</title>
-<link>https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./</link>
-<description><![CDATA[Go’s native fuzzing is useful, but it stands far behind state-of-the-art tooling that the Rust, C, and C++ ecosystems offer with LibAFL and AFL++. Path constraints are hard to solve. Structured inputs usually need handmade parsing. It doesn’t even detect several common bug classes, such as integer overflows, goroutine leaks, data races, and execution timeouts. So to make it better, we built gosentry , a fuzzing-oriented fork of the Go toolchain that keeps the standard testing.F workflow while using a stronger fuzzing stack underneath to tackle those issues. With gosentry, go test -fuzz uses LibAFL by default. It can fuzz structs natively, run grammar-based fuzzing with Nautilus, detect bug classes that it couldn’t detect before, and create a fuzzing campaign coverage report in one command. If you already have Go fuzz harnesses, you don’t need to rewrite them. Point them at gosentry’s binary and you get all of the above through the same go test -fuzz interface, with a few new flags: ./b]]></description>
-<pubDate>Tue, 12 May 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Between Two Nerds: The AI-first crime gang</title>
 <link>https://risky.biz/BTN166/</link>
 <description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq discuss why it makes even more sense for criminal organisations to adopt AI as compared to regular businesses. This episode is also available on YouTube.]]></description>
@@ -9949,16 +9859,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Escalating a Windows driver registry bug to a kernel write primitive</title>
-<link>https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/</link>
-<description><![CDATA[We recently added a C/C++ security checklist to the Testing Handbook and challenged readers to spot the bugs in two code samples : a deceptively simple Linux ping program and a Windows driver registry handler. If you found the inet_ntoa global buffer gotcha or the missing RTL_QUERY_REGISTRY_TYPECHECK flag, nice work. If not, here’s a full walkthrough of both challenges, plus a deep dive into how the Windows registry type confusion escalates from a local denial of service to a kernel write primitive. Since we first released the new C/C++ security checklist, we also developed a new Claude skill, c-review . It turns the checklist into bug-finding prompts that an LLM can run against a codebase. It’s also platform and threat-model aware. Run these commands to install the skill: claude skills add-marketplace https://github.com/trailofbits/skills claude skills enable c-review --marketplace trailofbits/skills The Linux ping program challenge The Linux warmup challenge we showed you in the last<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Tue, 05 May 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-<category>ddos</category>
-</item>
-<item>
 <title>A rigged game: ScarCruft compromises gaming platform in a supply-chain attack</title>
 <link>https://www.welivesecurity.com/en/eset-research/rigged-game-scarcruft-compromises-gaming-platform-supply-chain-attack/</link>
 <description><![CDATA[ESET researchers have investigated an ongoing attack by the ScarCruft APT group that targets the Yanbian region via backdoor-laced Windows and Android games<br/><br/><em>Tags: supply_chain · apt_espionage · web_shell_backdoor</em>]]></description>
@@ -10391,15 +10291,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Extending Ruzzy with LibAFL</title>
-<link>https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/</link>
-<description><![CDATA[LibAFL is all the rage in the fuzzing community these days, especially with LLVM’s libFuzzer being placed in maintenance mode . Written in Rust, LibAFL claims improved performance, modularity, state-of-the-art fuzzing techniques, and libFuzzer compatibility . For these reasons, I set out to add LibAFL support to Ruzzy , our coverage-guided fuzzer for pure Ruby code and Ruby C extensions. This gives Ruby developers and security researchers access to a more advanced and actively maintained fuzzing engine without changing how they write their fuzzing harnesses. Ruzzy was originally built on top of LLVM’s libFuzzer, so using LibAFL’s compatibility layer should be easy enough. However, digging around in the internals of complex systems is never quite as simple as it seems. In this post, I will investigate some of the deep plumbing inside these fuzzing engines, take a detour into executable and linkable format (ELF) files, and ultimately add LibAFL support to Ruzzy. Building with libafl_libf]]></description>
-<pubDate>Wed, 29 Apr 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Risky Bulletin: Ukrainians hacked Russian satellite comms platform</title>
 <link>https://risky.biz/RBNEWS557/</link>
 <description><![CDATA[Ukrainians hack Russian satellites, Vimeo is being extorted, Greece wants to ban anonymity on social media, and a Scattered Spider hacker was arrested in Finland.]]></description>
@@ -10644,16 +10535,6 @@
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
-</item>
-<item>
-<title>Trailmark turns code into graphs</title>
-<link>https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/</link>
-<description><![CDATA[We’re open-sourcing Trailmark , a library that parses source code into a queryable call graph of functions, classes, call relationships, and semantic metadata, then exposes that graph through a Python API that Claude skills can call directly. Install it now: uv pip install trailmark “Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win.” John Lambert’s widely cited observation about network security applies just as well to AI-assisted software analysis. When Claude reasons about a codebase, it reasons about lists: findings from static analyzers, surviving mutants from mutation testing, and line-by-line coverage reports. But the question that actually matters is a graph question: can untrusted input reach this code, and what breaks if it’s wrong? We built Trailmark to answer that question. It gives Claude a graph to think with instead of a list. We’re also releasing eight Claude Code skills we’ve built on top of it, designed for mutation triage, te<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
-<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-<category>Anthropic/Claude</category>
 </item>
 <item>
 <title>GopherWhisper: A burrow full of malware</title>
@@ -11069,15 +10950,6 @@
 <guid isPermaLink="true">https://blog.cloudflare.com/ai-redirects/</guid>
 <source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>We beat Google’s zero-knowledge proof of quantum cryptanalysis</title>
-<link>https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/</link>
-<description><![CDATA[Two weeks ago, Google’s Quantum AI group published a zero-knowledge proof of a quantum circuit so optimized, they concluded that first-generation quantum computers will break elliptic curve cryptography keys in as little as 9 minutes. Today, Trail of Bits is publishing our own zero-knowledge proof that significantly improves Google’s on all metrics. Our result is not due to some quantum breakthrough, but rather the exploitation of multiple subtle memory safety and logic vulnerabilities in Google’s Rust prover code. Google has patched their proof, and their scientific claims are unaffected, but this story reflects the unique attack surface that systems introduce when they use zero-knowledge proofs. Google’s proof uses a zero-knowledge virtual machine (zkVM) to calculate the cost of a quantum circuit on three key metrics. The total number of operations and Toffoli gate count represent the running time of the circuit, and the number of qubits represents the memory requirements. Google, al]]></description>
-<pubDate>Fri, 17 Apr 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>That data breach alert might be a trap</title>
@@ -11591,15 +11463,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Master C and C++ with our new Testing Handbook chapter</title>
-<link>https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/</link>
-<description><![CDATA[We added a new chapter to our Testing Handbook: a comprehensive security checklist for C and C++ code . We’ve identified a broad range of common bug classes, known footguns, and API gotchas across C and C++ codebases and organized them into sections covering Linux, Windows, and seccomp. Whereas other handbook chapters focus on static and dynamic analysis, this chapter offers a strong basis for manual code review. LLM enthusiasts rejoice: we’re also developing a Claude skill based on this new chapter. It will turn the checklist into bug-finding prompts that an LLM can run against a codebase, and it’ll be platform and threat-model aware. Be sure to give it a try when we release it. And after reading the chapter, you can test your C/C++ review skills against two challenges at the end of this post. Be in the first 10 to submit correct answers to win Trail of Bits swag! What’s in the chapter The chapter covers five areas: general bug classes, Linux usermode and kernel, Windows usermode and ]]></description>
-<pubDate>Thu, 09 Apr 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Srsly Risky Biz: American diplomats to fight foreign propaganda... on X</title>
 <link>https://risky.biz/SRB162/</link>
 <description><![CDATA[Tom Uren and Amberleigh Jack talk about the State Department taking to X to counter foreign propaganda. US Secretary of State Marco Rubio dismantled the State Department’s counter-propaganda office when he took charge, but it turns out that giving adversary states free reign online is a bad idea. They also discuss how America’s lawful intercept systems are high value targets for Chinese hackers. It’s a big deal that part of the FBI’s lawful intercept system has been breached and it is high time that the security of these systems was reviewed. This episode is also available on Youtube.]]></description>
@@ -11703,15 +11566,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>What we learned about TEE security from auditing WhatsApp&apos;s Private Inference</title>
-<link>https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/</link>
-<description><![CDATA[WhatsApp’s new “Private Inference” feature represents one of the most ambitious attempts to combine end-to-end encryption with AI-powered capabilities, such as message summarization. To make this possible, Meta built a system that processes encrypted user messages inside trusted execution environments (TEEs), secure hardware enclaves designed so that not even Meta can access the plaintext. Our now-public audit , conducted before launch, identified several vulnerabilities that compromised WhatsApp’s privacy model, all of which Meta has patched. Our findings show that TEEs aren’t a silver bullet: every unmeasured input and missing validation can become a vulnerability, and to securely deploy TEEs, developers need to measure critical data, validate and never trust any unmeasured data, and test thoroughly to detect when components misbehave. The challenge of using AI with end-to-end encryption WhatsApp’s Private Processing attempts to resolve a fundamental tension: WhatsApp is end-to-end e]]></description>
-<pubDate>Tue, 07 Apr 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>As breakout time accelerates, prevention-first cybersecurity takes center stage</title>
 <link>https://www.welivesecurity.com/en/business-security/breakout-time-accelerates-prevention-first-cybersecurity-center-stage/</link>
 <description><![CDATA[Threat actors are using AI to supercharge tried-and-tested TTPs. When attacks move this fast, cyber-defenders need to rethink their own strategy.]]></description>
@@ -11775,16 +11629,6 @@
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Simplifying MBA obfuscation with CoBRA</title>
-<link>https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/</link>
-<description><![CDATA[Mixed Boolean-Arithmetic (MBA) obfuscation disguises simple operations like x + y behind tangles of arithmetic and bitwise operators. Malware authors and software protectors rely on it because no standard simplification technique covers both domains simultaneously; algebraic simplifiers don’t understand bitwise logic, and Boolean minimizers can’t handle arithmetic. We’re releasing CoBRA , an open-source tool that simplifies the full range of MBA expressions used in the wild. Point it at an obfuscated expression and it recovers a simplified equivalent: $ cobra-cli --mba &quot;(x&amp;y)+(x|y)&quot; x + y $ cobra-cli --mba &quot;((a^b)|(a^c)) + 65469 * ~((a&amp;(b&amp;c))) + 65470 * (a&amp;(b&amp;c))&quot; --bitwidth 16 67 + (a | b | c) CoBRA simplifies 99.86% of the 73,000+ expressions drawn from seven independent datasets. It ships as a CLI tool, a C++ library, and an LLVM pass plugin. If you’ve hit MBA obfuscation during malware analysis, reversing software protection schemes, or tearing apart VM-based obfuscators, CoBRA giv<br/><br/><em>Tags: active_exploitation</em>]]></description>
-<pubDate>Fri, 03 Apr 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>Risky Bulletin: Russia will revoke licenses for unruly ISPs</title>
@@ -11923,15 +11767,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Mutation testing for the agentic era</title>
-<link>https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/</link>
-<description><![CDATA[Code coverage is one of the most dangerous quality metrics in software testing. Many developers fail to realize that code coverage lies by omission: it measures execution, not verification. Test suites with high coverage can obfuscate the fact that critical functionality is untested as software develops over time. We saw this when mutation testing uncovered a high-severity Arkis protocol vulnerability , overlooked by coverage metrics, that would have allowed attackers to drain funds. Today, we’re announcing MuTON and mewt , two new mutation testing tools optimized for agentic use, along with a configuration optimization skill to help agents set up campaigns efficiently. MuTON provides first-class support for TON blockchain languages (FunC, Tolk, and Tact), while mewt is the language-agnostic core that also supports Solidity, Rust, Go, and more. The goal of mutation testing is to systematically introduce bugs (mutants) and check if your tests catch them, flagging hot spots where code is]]></description>
-<pubDate>Wed, 01 Apr 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>TeamPCP Supply Chain Attacks</title>
 <link>https://www.intel471.com/blog/teampcp-supply-chain-attacks</link>
 <description><![CDATA[TeamPCP is exploiting trusted npm and PyPI packages to compromise developer environments, steal credentials, and extend attacks across software supply chains.<br/><br/><em>Tags: npm · PyPI · TeamPCP · supply_chain</em>]]></description>
@@ -12013,15 +11848,6 @@
 <guid isPermaLink="true">https://tldrsec.com/p/how-we-made-trail-of-bits-ai-native-so-far</guid>
 <source url="https://tldrsec.com/feed.xml">tl;dr sec</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>How we made Trail of Bits AI-native (so far)</title>
-<link>https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/</link>
-<description><![CDATA[This post is adapted from a talk I gave at [un]prompted , the AI security practitioner conference. Thanks to Gadi Evron for inviting me to speak. You can watch the recorded presentation below or download the slides . Most companies hand out ChatGPT licenses and wait for the productivity numbers to move. We built a system instead. A year ago, about 5% of Trail of Bits was on board with our AI initiative. The other 95% ranged from passively skeptical to actively resistant. Today we have 94 plugins, 201 skills, 84 specialized agents, and on the right engagements, AI-augmented auditors finding 200 bugs a week. This post is the playbook for how we got there. We open sourced most of it , so you can steal it today. A recent Fortune article reported that a National Bureau of Economic Research study of 6,000 executives across the U.S., U.K., Germany, and Australia found AI had no measurable impact on employment or productivity. Two-thirds of executives said they use AI, but actual usage came ou]]></description>
-<pubDate>Tue, 31 Mar 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>This month in security with Tony Anscombe – March 2026 edition</title>
@@ -12338,15 +12164,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Try our new dimensional analysis Claude plugin</title>
-<link>https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/</link>
-<description><![CDATA[We’re releasing a new Claude plugin for developing and auditing code that implements dimensional analysis, a technique we explored in our most recent blog post . Most LLM-based security skills ask the model to find bugs. Our new dimensional-analysis plugin for Claude Code takes a different approach: it uses the LLM to annotate your codebase with dimensional types, then flags mismatches mechanically. In testing against real audit findings, it achieved 93% recall versus 50% for baseline prompts. You can download and use our new dimensional-analysis plugin by running these commands: claude plugin marketplace add trailofbits/skills claude plugin install dimensional-analysis@trailofbits claude /dimensional-analysis How our plugin differs from most skills This plugin release is quite different from the wave of security analysis skills released over the past few weeks. The skills we’ve seen tend to take a relatively simple approach, where the LLM is primed with a set of vulnerability classes,]]></description>
-<pubDate>Wed, 25 Mar 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Virtual machines, virtually everywhere – and with real security gaps</title>
 <link>https://www.welivesecurity.com/en/business-security/virtual-machines-virtually-everywhere-real-security-gaps/</link>
 <description><![CDATA[Cloud VMs offer unmatched speed, scale and flexibility – all of which could eventually count for little if they’re left to fend for themselves]]></description>
@@ -12411,15 +12228,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Google Workspace</category>
-</item>
-<item>
-<title>Spotting issues in DeFi with dimensional analysis</title>
-<link>https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/</link>
-<description><![CDATA[Using dimensional analysis, you can categorically rule out a whole category of logic and arithmetic bugs that plague DeFi formulas. No code changes required, just better reasoning! One of the first lessons in physics is learning to think in terms of dimensions . Physicists can often spot a flawed formula in seconds just by checking whether the dimensions make sense. I once had a teacher who even kept a stamp that said “non-homogeneous formula” for that purpose (and it was used a lot on students’ work). Developers can use the same approach to spot incorrect arithmetic in smart contracts. In this post, we’ll start with the basics of dimensional analysis in physics and then apply the same reasoning to real DeFi formulas. We’ll also show you how this can be implemented in practice, using Reserve Protocol as an example. Along the way, we’ll see why developers need to think explicitly about dimensional safety when writing smart contracts, and why the DeFi ecosystem would benefit from tooling]]></description>
-<pubDate>Tue, 24 Mar 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/</guid>
-<source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Cloud workload security: Mind the gaps</title>
@@ -12505,7 +12313,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f3dce065c40&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f14b62221c0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20536,7 +20344,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20546,7 +20354,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20555,7 +20363,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20564,7 +20372,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20573,7 +20381,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20582,7 +20390,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20591,7 +20399,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20601,7 +20409,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20610,7 +20418,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20619,7 +20427,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 00:06:41 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 04:20:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
