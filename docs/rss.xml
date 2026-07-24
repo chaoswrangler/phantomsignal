@@ -4,11 +4,31 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 24 Jul 2026 16:47:36 +0000</lastBuildDate>
+<lastBuildDate>Fri, 24 Jul 2026 18:23:29 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/</link>
+<description><![CDATA[Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]<br/><br/><em>Tags: Microsoft 365</em>]]></description>
+<pubDate>Fri, 24 Jul 2026 17:50:37 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft 365</category>
+</item>
+<item>
+<title>What’s new with Google Cloud</title>
+<link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</link>
+<description><![CDATA[Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block &lt;ListValue: []&gt; Jul 20 - Jul 24 Apigee Northam Roadshow 2026 | The AI Agent Evolution: Powering Tomorrow&apos;s Enterprise AI is evolving. As your organization deploys autonomous agents, the integration between APIs and models becomes critical. Join Google Cloud specialists for an exclusive day of deep-dive sessions and live demos. Discover how the unified power of Apigee and the Google Cloud Agent Platform allows you to build, govern, and scale high-performance AI agents with complete control. Call to Action: Register for Sunnyvale | Register for NYC | Register for Chicago Deploy an Apigee Proxy for MCP Registry Discovery Learn how to<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Fri, 24 Jul 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+</item>
 <item>
 <title>&apos;Wrench&apos; attacks against crypto holders appear to be on the rise</title>
 <link>https://therecord.media/wrench-attacks-against-cryptocurrency-holders</link>
@@ -118,19 +138,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Russian hackers exploit unpatched Zimbra servers to steal emails</title>
-<link>https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/</link>
-<description><![CDATA[Russian state-backed hacker group Laundry Bear has been breaking into government and commercial networks for at least a year by exploiting a vulnerability in the Zimbra Collaboration Suite (ZCS) webmail platform. Laundry Bear (also known as Void Blizzard, CL-STA-1114, and TA488) has been running the campaign since July 2025, according to a joint advisory from the NSA, FBI, CISA, and cybersecurity agencies from the Netherlands, UK, Australia, Canada, and a dozen other countries. “Laundry Bear’s … More → The post Russian hackers exploit unpatched Zimbra servers to steal emails appeared first on Help Net Security .<br/><br/><em>Tags: Docker · CVE-2025-66376 · phishing_social_eng · apt_espionage</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 12:09:44 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Docker</category>
-<category>CVE-2025-66376</category>
-<category>phishing_social_eng</category>
-<category>apt_espionage</category>
-</item>
-<item>
 <title>Early Edition: July 24, 2026</title>
 <link>https://www.justsecurity.org/149344/early-edition-july-24-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=early-edition-july-24-2026</link>
 <description><![CDATA[Signup to receive the Early Edition in your inbox here. A curated weekday guide to major news and developments over the last 24 hours. Here’s today’s news: IRAN WAR The U.S. military completed its latest round of strikes on Iran overnight, marking a 13th consecutive night of attacks, according to U.S. Central Command. Iranian state media […] The post Early Edition: July 24, 2026 appeared first on Just Security .]]></description>
@@ -214,17 +221,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Google gives developers an AI bug hunter that also writes patches</title>
-<link>https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/</link>
-<description><![CDATA[Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .<br/><br/><em>Tags: Google/Gemini · zero_day</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 08:53:17 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Google/Gemini</category>
-<category>zero_day</category>
-</item>
-<item>
 <title>NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats</title>
 <link>https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html</link>
 <description><![CDATA[Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software&apos;s source code. Every version before 4.14.0 is affected. NodeBB has fixed them all, and administrators should be on 4.14.2. The simplest one takes a settings change. A]]></description>
@@ -267,15 +263,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>The automotive software vulnerabilities hiding in your dashboard</title>
-<link>https://www.helpnetsecurity.com/2026/07/24/car-research-automotive-software-vulnerabilities/</link>
-<description><![CDATA[Pop the hood on a new car and you won’t find much you can fix with a wrench. What you’ll find is software, and a lot of it. The screen in the dash probably runs Android or a flavor of Linux. The system watching the road for you might run QNX or VxWorks, the same kind of code that flies aircraft and runs factory floors. Carmakers spent the last decade making this switch, and it … More → The post The automotive software vulnerabilities hiding in your dashboard appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 24 Jul 2026 06:30:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/24/car-research-automotive-software-vulnerabilities/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331</title>
 <link>https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/</link>
 <description><![CDATA[submitted by /u/natcoba [link] [comments]<br/><br/><em>Tags: Anthropic/Claude · CVE-2026-46331</em>]]></description>
@@ -298,40 +285,6 @@
 <category>OpenAI/ChatGPT</category>
 <category>ransomware_extortion</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>Ransomware gangs go after EMEA healthcare’s supply chain</title>
-<link>https://www.helpnetsecurity.com/2026/07/24/emea-healthcare-ransomware-activity/</link>
-<description><![CDATA[A ransomware attack against a hospital makes headlines, while attacks on the rest of the ecosystem around it tend to stay quiet despite doing damage that can be just as bad. Flare researcher Assaf Morag analyzed ransomware leak-site activity tied to healthcare organizations in the EMEA region between 2024 and 2026, and found that ransomware groups are going after the entire healthcare supply chain. The dataset covers hospitals and clinics, telemedicine providers, diagnostic laboratories, pharmacies, … More → The post Ransomware gangs go after EMEA healthcare’s supply chain appeared first on Help Net Security .<br/><br/><em>Tags: LockBit · BlackCat/ALPHV · RansomHub · ransomware_extortion · supply_chain</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 05:30:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/24/emea-healthcare-ransomware-activity/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>LockBit</category>
-<category>BlackCat/ALPHV</category>
-<category>RansomHub</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
-<title>The best-funded companies open the most phishing attachments</title>
-<link>https://www.helpnetsecurity.com/2026/07/24/phishing-simulation-benchmark-report/</link>
-<description><![CDATA[An employee gets an email dressed as a password reset. She clicks the link, types her credentials into a page built to copy her company’s login screen, and moves on with her morning. She tells no one. That silence is the exposure. Across 13.9 million simulated phishing messages, one in ten recipients flagged the attempt to their security team. The rest let it through, and a live attacker needs only one of them. John Wilson, … More → The post The best-funded companies open the most phishing attachments appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 05:00:30 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/24/phishing-simulation-benchmark-report/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
-<title>Ransomware in 2026: More groups, more victims, no slowdown</title>
-<link>https://www.helpnetsecurity.com/2026/07/24/ransomware-attack-trends-2026-report/</link>
-<description><![CDATA[Ransomware activity followed a recognizable pattern during the previous four years. Each year was defined by a dominant actor, its collapse, or a major supply chain incident. Black Kite’s 2026 Ransomware Report documents a more fragmented market, with multiple ransomware playbooks scaling at the same time. Monthly victim count by threat actor (Source: Black Kite) Between April 2025 and March 2026, 61 new ransomware groups entered the market, averaging more than one group per week. … More → The post Ransomware in 2026: More groups, more victims, no slowdown appeared first on Help Net Security .<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 04:30:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/24/ransomware-attack-trends-2026-report/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>Risky Bulletin: Western cyber agencies warn of Russian hacks of Zimbra servers</title>
@@ -715,17 +668,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>New RefluXFS Linux flaw lets attackers gain root privileges</title>
-<link>https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/</link>
-<description><![CDATA[A nine-year-old race condition vulnerability in the Linux kernel&apos;s XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite protected files and gain root privileges. [...]<br/><br/><em>Tags: Linux kernel · CVE-2026-64600</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 11:40:16 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Linux kernel</category>
-<category>CVE-2026-64600</category>
-</item>
-<item>
 <title>AI Agents Now the Enterprises Fastest Growing Exposed Attack Surface</title>
 <link>https://www.infosecurity-magazine.com/news/ai-agents-attack-surface/</link>
 <description><![CDATA[Sophos report warns that the rapid adoption of AI by businesses is leaving them vulnerable to a new source of cyber threats]]></description>
@@ -838,12 +780,13 @@
 <item>
 <title>Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain</link>
-<description><![CDATA[A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 01:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>TAG-195 Upgrades MaaS Ecosystem with Modular Tools</title>
@@ -893,16 +836,6 @@
 <guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-477/</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Swiss train maker Stadler refuses Everest $12 million ransomware demand</title>
-<link>https://therecord.media/stadler-refuses-everest-ransom-demand</link>
-<description><![CDATA[Stadler Rail said it will not make a $12.3 million ransom payment after cybercriminals stole technical data from a supplier&apos;s file-sharing platform.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 23:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/stadler-refuses-everest-ransom-demand</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>GitHub issues $100,000 bounty for critical RCE vulnerability</title>
@@ -1098,12 +1031,13 @@
 <item>
 <title>What’s New in Rapid7 Products and Services: Q2 2026 in Review</title>
 <link>https://www.rapid7.com/blog/post/pt-new-products-services-q2-2026-mdr</link>
-<description><![CDATA[If Q1 set the pace for Rapid7&apos;s tools, Q2 accelerated it. This quarter brought a steady stream of product enhancements, platform investments, and customer-driven innovation across Rapid7’s portfolio. Each release was designed with a clear goal in mind: helping security teams reduce complexity while increasing speed, context, and confidence in their day-to-day operations. Here’s a closer look at what launched in Q2. Detection and response Streamline investigations with bidirectional and enriched Microsoft Defender alerts Bidirectional synchronization and enriched alert context for Microsoft Defender is now generally available for SIEM and MDR customers, enabling security teams to automatically synchronize alert status between Rapid7&apos;s SIEM and the Microsoft Defender console. With added process tree and user identity context, analysts can investigate threats more efficiently while reducing manual effort. Confidently scale detection engineering with Detection as Code Detection as Code ena<br/><br/><em>Tags: Microsoft Defender</em>]]></description>
+<description><![CDATA[If Q1 set the pace for Rapid7&apos;s tools, Q2 accelerated it. This quarter brought a steady stream of product enhancements, platform investments, and customer-driven innovation across Rapid7’s portfolio. Each release was designed with a clear goal in mind: helping security teams reduce complexity while increasing speed, context, and confidence in their day-to-day operations. Here’s a closer look at what launched in Q2. Detection and response Streamline investigations with bidirectional and enriched Microsoft Defender alerts Bidirectional synchronization and enriched alert context for Microsoft Defender is now generally available for SIEM and MDR customers, enabling security teams to automatically synchronize alert status between Rapid7&apos;s SIEM and the Microsoft Defender console. With added process tree and user identity context, analysts can investigate threats more efficiently while reducing manual effort. Confidently scale detection engineering with Detection as Code Detection as Code ena<br/><br/><em>Tags: Microsoft Defender · ransomware_extortion</em>]]></description>
 <pubDate>Wed, 22 Jul 2026 13:28:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.rapid7.com/blog/post/pt-new-products-services-q2-2026-mdr</guid>
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
 <category>offensive_vulnerability_research</category>
 <category>Microsoft Defender</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication</title>
@@ -1333,13 +1267,15 @@
 <item>
 <title>Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC</title>
 <link>https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html</link>
-<description><![CDATA[A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE<br/><br/><em>Tags: Microsoft SharePoint · CVE-2026-50522</em>]]></description>
+<description><![CDATA[A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE<br/><br/><em>Tags: Salesforce · Microsoft SharePoint · Microsoft 365 · ShinyHunters · CVE-2026-50522 · CVE-2026-56164 · CVE-2026-58644 · CVE-2026-32201</em>]]></description>
 <pubDate>Tue, 21 Jul 2026 14:57:51 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Salesforce</category>
 <category>Microsoft SharePoint</category>
-<category>CVE-2026-50522</category>
+<category>Microsoft 365</category>
+<category>ShinyHunters</category>
 </item>
 <item>
 <title>Writeup &amp; POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)</title>
@@ -1954,7 +1890,7 @@
 <item>
 <title>CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild</title>
 <link>https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild</link>
-<description><![CDATA[Overview On July 14, 2026, Microsoft published a security advisory addressing CVE-2026-58644 , a critical remote code execution (RCE) vulnerability affecting on-premises Microsoft SharePoint Server deployments. The vulnerability, which carries a CVSS v3.1 score of 9.8 (Critical), results from the deserialization of untrusted data ( CWE-502 ) and allows an unauthenticated attacker to execute arbitrary code. Microsoft confirmed active exploitation of CVE-2026-58644, and the vulnerability was subsequently added to CISA’s Known Exploited Vulnerabilities ( KEV ) catalog on July 16, 2026. In parallel, CISA published guidance recommending organizations immediately apply Microsoft’s security updates and leverage Microsoft Defender and AMSI detections to identify exploitation attempts. Affected products: Microsoft SharePoint Enterprise Server 2016 Microsoft SharePoint Server 2019 Microsoft SharePoint Server Subscription Edition Update: On July 22, 2026, a separate SharePoint vulnerability, CVE-<br/><br/><em>Tags: Microsoft SharePoint · Microsoft Defender · CVE-2026-58644 · CVE-2026-50522 · active_exploitation</em>]]></description>
+<description><![CDATA[Overview On July 14, 2026, Microsoft published a security advisory addressing CVE-2026-58644 , a critical remote code execution (RCE) vulnerability affecting on-premises Microsoft SharePoint Server deployments. The vulnerability, which carries a CVSS v3.1 score of 9.8 (Critical), results from the deserialization of untrusted data ( CWE-502 ) and allows an unauthenticated attacker to execute arbitrary code. Microsoft confirmed active exploitation of CVE-2026-58644, and the vulnerability was subsequently added to CISA’s Known Exploited Vulnerabilities ( KEV ) catalog on July 16, 2026. In parallel, CISA published guidance recommending organizations immediately apply Microsoft’s security updates and leverage Microsoft Defender and AMSI detections to identify exploitation attempts. Affected products: Microsoft SharePoint Enterprise Server 2016 Microsoft SharePoint Server 2019 Microsoft SharePoint Server Subscription Edition Update: On July 22, 2026, a separate SharePoint vulnerability, CVE-<br/><br/><em>Tags: Microsoft SharePoint · Microsoft Defender · CVE-2026-58644 · active_exploitation</em>]]></description>
 <pubDate>Fri, 17 Jul 2026 18:18:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild</guid>
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
@@ -1962,7 +1898,7 @@
 <category>Microsoft SharePoint</category>
 <category>Microsoft Defender</category>
 <category>CVE-2026-58644</category>
-<category>CVE-2026-50522</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>US Military Smartphones Targeted Through Roaming and Ad Tech</title>
@@ -1991,16 +1927,6 @@
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>What’s new with Google Cloud</title>
-<link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</link>
-<description><![CDATA[Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block &lt;ListValue: []&gt; Jul 13 - Jul 17 Resource-Based CUD Sharing is Now Enabled by Default Starting June 16, 2026 , the default setting for Google Cloud Resource-based Committed Use Discount (CUD) sharing will change from disabled to enabled for new billing accounts and eligible existing accounts without active CUDs. This update automatically maximizes your savings by pooling underutilized discounts across your resources. You retain full control and can adjust your CUD sharing preferences at any time by changing your CUD scope configuration. For instructions, see Enable CUD sharing or Disable CUD sharing . Webinar for India: Google Clou<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Fri, 17 Jul 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>Level Up Your Column-level Security: Using IAM Data Governance Tags in BigQuery</title>
@@ -20447,7 +20373,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20456,7 +20382,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20466,7 +20392,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20475,7 +20401,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20484,7 +20410,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20493,7 +20419,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20502,7 +20428,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20511,7 +20437,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20521,7 +20447,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20530,7 +20456,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 16:47:36 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 18:23:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
