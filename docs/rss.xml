@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 23 Jul 2026 23:02:54 +0000</lastBuildDate>
+<lastBuildDate>Fri, 24 Jul 2026 00:07:15 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -382,13 +382,12 @@
 <item>
 <title>New RefluXFS Linux flaw lets attackers gain root privileges</title>
 <link>https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/</link>
-<description><![CDATA[A nine-year-old race condition vulnerability in the Linux kernel&apos;s XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite protected files and gain root privileges. [...]<br/><br/><em>Tags: Linux kernel · Anthropic/Claude · CVE-2026-64600</em>]]></description>
+<description><![CDATA[A nine-year-old race condition vulnerability in the Linux kernel&apos;s XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite protected files and gain root privileges. [...]<br/><br/><em>Tags: Linux kernel · CVE-2026-64600</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 11:40:16 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>Linux kernel</category>
-<category>Anthropic/Claude</category>
 <category>CVE-2026-64600</category>
 </item>
 <item>
@@ -716,11 +715,13 @@
 <item>
 <title>South Korea discloses data breach impacting diplomats worldwide</title>
 <link>https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/</link>
-<description><![CDATA[South Korea disclosed that hackers breached the National Diplomatic Academy&apos;s online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Affairs (MFA), including overseas diplomats. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
+<description><![CDATA[South Korea disclosed that hackers breached the National Diplomatic Academy&apos;s online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Affairs (MFA), including overseas diplomats. [...]<br/><br/><em>Tags: SonicWall · zero_day · data_breach</em>]]></description>
 <pubDate>Wed, 22 Jul 2026 20:06:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+<category>SonicWall</category>
+<category>zero_day</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -848,11 +849,15 @@
 <item>
 <title>Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts</title>
 <link>https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/</link>
-<description><![CDATA[Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek .]]></description>
+<description><![CDATA[Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft SharePoint · OpenAI/ChatGPT · ransomware_extortion · credential_theft · zero_day · data_breach · active_exploitation</em>]]></description>
 <pubDate>Wed, 22 Jul 2026 15:02:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>OpenAI/ChatGPT</category>
+<category>ransomware_extortion</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data</title>
@@ -2059,15 +2064,11 @@
 <item>
 <title>Tracking Advanced Persistent Threat Groups | Recorded Future</title>
 <link>https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats</link>
-<description><![CDATA[Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.<br/><br/><em>Tags: APT41 · Lazarus · supply_chain · phishing_social_eng · credential_theft · zero_day · apt_espionage</em>]]></description>
+<description><![CDATA[Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.]]></description>
 <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-<category>APT41</category>
-<category>Lazarus</category>
-<category>supply_chain</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Firefox in WebAssembly</title>
@@ -2211,7 +2212,7 @@
 <item>
 <title>Cloud CISO Perspectives: How AI leverages deep context as the defender’s advantage</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/</link>
-<description><![CDATA[Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fbfe78f04f0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, ]]></description>
+<description><![CDATA[Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f8256cd6640&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, ]]></description>
 <pubDate>Thu, 16 Jul 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -12576,7 +12577,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fb912227c40&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f782ec4c8e0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -16583,15 +16584,6 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>Automated Red Teaming Scans of Dataiku Agents Using Protect AI Recon</title>
-<link>https://protectai.com/blog/automated-red-teaming-scans-dataiku-protect-ai-recon</link>
-<description><![CDATA[We are thrilled to announce the integration of Protect AI’s Recon with Dataiku Agents , a groundbreaking step in securing enterprise LLM application deployments. With this integration, enterprises can harness Recon’s advanced red teaming capabilities to proactively identify vulnerabilities, enhance LLM application integrity and ensure compliance with the latest AI governance standards.]]></description>
-<pubDate>Fri, 15 Aug 2025 16:54:09 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/automated-red-teaming-scans-dataiku-protect-ai-recon</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Google Jules is Vulnerable To Invisible Prompt Injection</title>
 <link>https://embracethered.com/blog/posts/2025/google-jules-invisible-prompt-injection/</link>
 <description><![CDATA[The latest Gemini models quite reliably interpret hidden Unicode Tag characters as instructions . This vulnerability, first reported to Google over a year ago, has not been mitigated at the model or API level, hence now affects all applications built on top of Gemini. This includes Google’s own products and services, like Google Jules. Hopefully, this post helps raise awareness of this emerging threat. Invisible Prompt Injections in GitHub Issues When Jules is asked to work on a task, such as a GitHub issue, it is possible to plant invisible instructions into a GitHub issue to add backdoor code, or have it run arbitrary commands and tools.<br/><br/><em>Tags: GitHub · Google/Gemini · ai_security · web_shell_backdoor</em>]]></description>
@@ -16694,15 +16686,6 @@
 <source url="https://embracethered.com/blog/index.xml">Embrace the Red</source>
 <category>ai_security_agentic_risk</category>
 <category>ai_security</category>
-</item>
-<item>
-<title>Strengthening AI Security with Protect AI Recon &amp; Dataiku Guard Services</title>
-<link>https://protectai.com/blog/strengthening-ai-security-protect-ai-dataiku</link>
-<description><![CDATA[As organizations rapidly adopt generative AI , they face a new frontier of security challenges that traditional testing approaches simply cannot address. AI systems are non-deterministic, have unique attack surfaces, and require specialized security testing methodologies.]]></description>
-<pubDate>Fri, 08 Aug 2025 17:29:28 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/strengthening-ai-security-protect-ai-dataiku</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>AI Kill Chain in Action: Devin AI Exposes Ports to the Internet with Prompt Injection</title>
@@ -17063,15 +17046,6 @@
 <pubDate>Wed, 16 Jul 2025 21:35:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.normaltech.ai/p/could-ai-slow-science</guid>
 <source url="https://www.aisnakeoil.com/feed">AI Snake Oil</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Llama 4 Series Vulnerability Assessment: Scout vs. Maverick</title>
-<link>https://protectai.com/blog/vulnerability-assessment-llama-4</link>
-<description><![CDATA[Model Brief Meta has launched the Llama 4 family, featuring models built on a mixture-of-experts (MoE) architecture:]]></description>
-<pubDate>Wed, 16 Jul 2025 16:54:17 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/vulnerability-assessment-llama-4</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
@@ -17462,15 +17436,6 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
-<title>AI Risk Report: Fast-Growing Threats in AI Runtime</title>
-<link>https://protectai.com/blog/ai-risk-report-fast-growing-threats-in-ai-runtime</link>
-<description><![CDATA[]]></description>
-<pubDate>Mon, 23 Jun 2025 20:11:49 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/ai-risk-report-fast-growing-threats-in-ai-runtime</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>A look at ‘Tinker,’ Black Basta’s phishing fixer, negotiator</title>
 <link>https://www.intel471.com/blog/a-look-at-tinker-black-bastas-phishing-fixer-negotiator</link>
 <description><![CDATA[The leader of the Black Basta ransomware group employed a trusted, experienced cybercrime actor nicknamed Tinker who he relied on for phishing content, call center management and negotiation skills.<br/><br/><em>Tags: Black Basta · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -17491,15 +17456,6 @@
 <source url="https://www.blackhillsinfosec.com/feed/">Black Hills Information Security</source>
 <category>detection_response_operations</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>The Cost of Being Wordy: Detecting Resource-Draining Prompts</title>
-<link>https://protectai.com/blog/detecting-resource-draining-prompts</link>
-<description><![CDATA[The breakthrough of large language models (LLMs) has captivated the natural language processing (NLP) world, with their influence extending far beyond the research communities in which they originated. [1, 2] Industries like business, marketing, and content creation have embraced LLMs for editing, writing, and creative tasks. As a result, companies such as OpenAI and Google have deployed interfaces for these powerful models, making them widely accessible.]]></description>
-<pubDate>Tue, 17 Jun 2025 19:03:34 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/detecting-resource-draining-prompts</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Top 10 Predictions Shaping the Future of Cybersecurity in 2025 According to 35+ Experts</title>
@@ -17586,15 +17542,6 @@
 <category>CVE-2023-28771</category>
 </item>
 <item>
-<title>Security Spotlight: AppSec to AI, a Security Engineer&apos;s Journey</title>
-<link>https://protectai.com/blog/security-spotlight-appsec-to-ai</link>
-<description><![CDATA[As an application security engineer with over a decade in the trenches of web applications, APIs, and enterprise systems, I never expected my career path would lead me to the frontier of artificial intelligence security. Yet here I am, finding myself both fascinated and challenged by the unique security considerations of AI systems.]]></description>
-<pubDate>Thu, 12 Jun 2025 17:47:46 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/security-spotlight-appsec-to-ai</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Abusing S4U2Self for Active Directory Pivoting</title>
 <link>https://www.blackhillsinfosec.com/abusing-s4u2self-for-active-directory-pivoting/</link>
 <description><![CDATA[TL;DR If you only have access to a valid machine hash, you can leverage the Kerberos S4U2Self proxy for local privilege escalation, which allows reopening and expanding potential local-to-domain pivoting paths, such as SEImpersonate! The post Abusing S4U2Self for Active Directory Pivoting appeared first on Black Hills Information Security, Inc. .]]></description>
@@ -17650,15 +17597,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Balancing Velocity and Vulnerability with llamafile</title>
-<link>https://protectai.com/blog/balancing-velocity-vulnerability-llamafile</link>
-<description><![CDATA[The AI ecosystem is witnessing a significant shift towards open source technologies, with llamafile format now powering 32% of self-hosted AI development according to Wiz’s 2025 State of AI in the Cloud report . This portable executable format packages complete LLMs into single files, driving rapid adoption while introducing important security considerations.]]></description>
-<pubDate>Wed, 04 Jun 2025 18:11:25 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/balancing-velocity-vulnerability-llamafile</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Android malware trends: Stealthier, easier-to-use</title>
 <link>https://www.intel471.com/blog/android-malware-trends-stealthier-easier-to-use</link>
 <description><![CDATA[The Android malware landscape is expanding, with new malware families, innovative distribution methods and a rise in underground offerings appealing to nontechnical cybercriminals. This poses new threats to enterprises.<br/><br/><em>Tags: Android</em>]]></description>
@@ -17685,15 +17623,6 @@
 <guid isPermaLink="true">https://medium.com/specter-ops-posts/getting-the-most-value-out-of-the-oscp-after-the-exam-6ff3f3049160?source=rss----f05f8696e3cc---4</guid>
 <source url="https://medium.com/feed/specter-ops-posts">SpecterOps</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Security Spotlight: Securing Cloud &amp; AI Products with Guardrails</title>
-<link>https://protectai.com/blog/security-spotlight-securing-ai-with-guardrails</link>
-<description><![CDATA[In today’s landscape where Cloud and AI are becoming the very fabric of digital innovation, security has transcended from its traditional role as an add-on or checklist item into a fundamental component integrated into every phase. Security acts as the specification, a critical gate within the CI/CD pipeline, and a vital runtime safeguard. It’s an intrinsic part of every system, ranging from a public REST API serving millions to the specialized GPU cluster training tomorrow&apos;s autonomous agents.]]></description>
-<pubDate>Wed, 28 May 2025 19:37:57 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/security-spotlight-securing-ai-with-guardrails</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Fingerprinting threat actors by their anonymity techniques</title>
@@ -17751,15 +17680,6 @@
 <guid isPermaLink="true">https://www.intel471.com/blog/danabot-malware-disrupted-threat-actors-named</guid>
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>Assessing the Security of 4 Popular AI Reasoning Models</title>
-<link>https://protectai.com/blog/assessing-security-popular-reasoning-models</link>
-<description><![CDATA[In the race to create more capable AI systems, reasoning models stand out as frontrunners.]]></description>
-<pubDate>Wed, 21 May 2025 20:10:30 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/assessing-security-popular-reasoning-models</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Intel 471 brings HUNTER behavioral threat hunts to Google Security Operations</title>
@@ -17829,15 +17749,6 @@
 <guid isPermaLink="true">https://www.blackhillsinfosec.com/penetration-testing-with-ai-part-2/</guid>
 <source url="https://www.blackhillsinfosec.com/feed/">Black Hills Information Security</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Specialized Models Beat Single LLMs for AI Security</title>
-<link>https://protectai.com/blog/specialized-models-beat-single-llms-for-ai-security</link>
-<description><![CDATA[As you continue to deploy LLM-powered applications into your enterprise, securing these systems against evolving threats becomes increasingly more complex and critical. Often, security teams are divided on how to best tackle this challenge, with two competing approaches emerging in the market:]]></description>
-<pubDate>Tue, 13 May 2025 20:35:58 +0000</pubDate>
-<guid isPermaLink="true">https://protectai.com/blog/specialized-models-beat-single-llms-for-ai-security</guid>
-<source url="https://protectai.com/blog/rss.xml">Protect AI</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>CVE-2025-31324 - SAP NetWeaver Vulnerability</title>
@@ -20589,7 +20500,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20598,7 +20509,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20608,7 +20519,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20617,7 +20528,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20626,7 +20537,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20635,7 +20546,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20644,7 +20555,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20653,7 +20564,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20663,7 +20574,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20672,7 +20583,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 23 Jul 2026 23:02:54 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
