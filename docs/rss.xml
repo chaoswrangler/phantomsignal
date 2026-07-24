@@ -6,9 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 24 Jul 2026 00:07:15 +0000</lastBuildDate>
+<lastBuildDate>Fri, 24 Jul 2026 04:20:39 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Risky Bulletin: Western cyber agencies warn of Russian hacks of Zimbra servers</title>
+<link>https://risky.biz/RBNEWS591/</link>
+<description><![CDATA[A Russian hacking campaign targets Zimbra servers, the US accuses Moonshot AI of distillation attacks, Iran targets more PLC vendors, and Google adds selfie video to its login options.]]></description>
+<pubDate>Fri, 24 Jul 2026 03:10:04 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS591/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+</item>
 <item>
 <title>The first known runaway AI agent - or a very bad marketing stunt?</title>
 <link>https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything</link>
@@ -2062,6 +2071,15 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
+<title>Spot birds not golf</title>
+<link>https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything</link>
+<description><![CDATA[Suggestion for hyperscalers feeling pressure over data center water use: Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby! Google used 10.9 billion gallons in 2025 , so about 30 million gallons per day. The Coachella Valley has 120 golf courses each using ~800 acre-feet per year , which is ~750,000 gallons per day. So Google buying up 40 of those courses (1/3) should do the trick. Tags: ai-energy-usage , ai]]></description>
+<pubDate>Fri, 17 Jul 2026 02:58:07 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Tracking Advanced Persistent Threat Groups | Recorded Future</title>
 <link>https://www.recordedfuture.com/blog/tracking-advanced-persistent-threats</link>
 <description><![CDATA[Learn how real-time cyber intelligence powers advanced persistent threat detection, from exposing infrastructure to stopping attacks early.]]></description>
@@ -2212,7 +2230,7 @@
 <item>
 <title>Cloud CISO Perspectives: How AI leverages deep context as the defender’s advantage</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/</link>
-<description><![CDATA[Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f8256cd6640&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, ]]></description>
+<description><![CDATA[Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff9f981e0d0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, ]]></description>
 <pubDate>Thu, 16 Jul 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -5537,15 +5555,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
-<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
-<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>The Hacker&apos;s 2026 Playbook: Dark Web Tactics Targeting You</title>
 <link>https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook</link>
 <description><![CDATA[Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
@@ -5554,6 +5563,15 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Microsoft 365</category>
+</item>
+<item>
+<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
+<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
+<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Bridging the Visibility Gap: A Unified Security Operating Model for Hybrid Cloud Teams</title>
@@ -5824,6 +5842,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
+<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
+<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
+<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/</link>
 <description><![CDATA[Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se<br/><br/><em>Tags: apt_espionage · web_shell_backdoor</em>]]></description>
@@ -5833,15 +5860,6 @@
 <category>threat_research_primary</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
-<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
-<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
-<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Computer-Use and TOCTOU: What You Click Is Not What You Get!</title>
@@ -6825,16 +6843,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
-<description><![CDATA[Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our <br/><br/><em>Tags: UNC6508</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>UNC6508</category>
-</item>
-<item>
 <title>The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed</title>
 <link>https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</link>
 <description><![CDATA[A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -6843,6 +6851,16 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
+<description><![CDATA[Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our <br/><br/><em>Tags: UNC6508</em>]]></description>
+<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>UNC6508</category>
 </item>
 <item>
 <title>15th June – Threat Intelligence Report</title>
@@ -7528,6 +7546,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Why Huntress Doesn’t Need FedRAMP</title>
+<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
+<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
+<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/</link>
 <description><![CDATA[Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as &quot;Luna Moth,&quot; “Chatty Spider,” and &quot;Silent Ransom Group&quot;) targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their <br/><br/><em>Tags: Silent Ransom Group · UNC3753 · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -7539,15 +7566,6 @@
 <category>UNC3753</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Why Huntress Doesn’t Need FedRAMP</title>
-<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
-<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
-<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Risky Bulletin: EU unveils digital sovereignty plan</title>
@@ -12577,7 +12595,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f782ec4c8e0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f782e8f1250&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -12620,17 +12638,6 @@
 <guid isPermaLink="true">https://risky.biz/BTN159/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Risky Bulletin: Russia&apos;s Signal phishing nets thousands of accounts</title>
-<link>https://risky.biz/RBNEWS541/</link>
-<description><![CDATA[Russian intelligence services compromised thousands of Signal accounts, the Trivy vulnerability scanner is abused in a supply chain attack, Oracle issues an out-of-band patch for its Fusion Middleware, and the FBI takes down the Aisuru and Kimwolf botnets.<br/><br/><em>Tags: supply_chain · phishing_social_eng</em>]]></description>
-<pubDate>Mon, 23 Mar 2026 03:45:11 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS541/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>supply_chain</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>TeamPCP expands: Supply chain compromise spreads from Trivy to Checkmarx GitHub Actions</title>
@@ -20500,7 +20507,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20509,7 +20516,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20519,7 +20526,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20528,7 +20535,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20537,7 +20544,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20546,7 +20553,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20555,7 +20562,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20564,7 +20571,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20574,7 +20581,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20583,7 +20590,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 24 Jul 2026 00:07:15 +0000</pubDate>
+<pubDate>Fri, 24 Jul 2026 04:20:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
