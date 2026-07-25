@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-25T15:09:30.731591+00:00
+- Generated: 2026-07-25T17:07:05.770955+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 294
-- Total clusters raw: 141
-- Total clusters in packet: 64
-- Dropped low score: 77
+- Feeds OK: 75
+- Total items in window: 332
+- Total clusters raw: 153
+- Total clusters in packet: 65
+- Dropped low score: 88
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,35 +75,35 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
+  - Item count: 25
+  - In window count: 1
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
@@ -115,40 +115,45 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 10
+  - In window count: 10
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 4
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
   - In window count: 4
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
@@ -160,11 +165,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -179,11 +179,6 @@
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -200,30 +195,35 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 10
+  - In window count: 4
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
@@ -235,10 +235,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 4
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
@@ -250,20 +255,15 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -285,48 +285,38 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 14
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 10
+  - Item count: 20
   - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -335,6 +325,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -345,86 +345,81 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 24
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 15
+  - Item count: 100
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -435,31 +430,31 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 20
+  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 23
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 25
+  - In window count: 16
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 25
+  - In window count: 22
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -470,6 +465,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 
 ## Affinity groups (themes)
 
@@ -477,8 +477,8 @@
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
 - Cluster count: 9
-- Article count: 8
-- Cohesion: 0.345
+- Article count: 9
+- Cohesion: 0.32
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: Microsoft Entra
@@ -487,14 +487,15 @@
   - actor_attribution: ShinyHunters
   - affected_products: Salesforce, Microsoft 365, Microsoft Entra
   - urgency_signals: preauth_unauth, poc_available
-- Cluster IDs: efa5d95ebc, 14625d1950, 17b63d385b, 7061b2c39d, 07c378186b, b788e3a84d, 5ef02eeb29, 86bb601c47, c68e26f04e
+- Cluster IDs: efa5d95ebc, 14625d1950, 7061b2c39d, 17b63d385b, 07c378186b, b788e3a84d, 5ef02eeb29, 86bb601c47, c68e26f04e
 - Links:
   - https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
   - https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/
   - https://cloud.google.com/blog/products/identity-security/find-and-fix-software-vulnerabilities-with-codemender/
   - https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
-  - https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
   - https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
+  - https://www.reddit.com/r/AskNetsec/comments/1v1j9px/two_m365saas_identity_campaigns_hit_hard_febjune/
+  - https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
   - https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/
   - https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
   - https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/
@@ -528,7 +529,7 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 3
-- Article count: 10
+- Article count: 12
 - Cohesion: 0.294
 - Shared strong signals: WordPress
 - Member CVEs: CVE-2026-60137, CVE-2026-63030
@@ -545,6 +546,7 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/
   - https://isc.sans.edu/diary/rss/33168
   - https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
+  - https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/
   - https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html
   - https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
   - https://www.infosecurity-magazine.com/news/researchers-wordpress-exploit/
@@ -555,7 +557,7 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 11
+- Article count: 12
 - Cohesion: 0.2
 - Shared strong signals: AWS
 - Member CVEs: (none)
@@ -567,10 +569,11 @@
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
-  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
   - https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/
   - https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/
   - https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html
+  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html
   - https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/
   - https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
@@ -579,7 +582,7 @@
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
 - Cluster count: 4
-- Article count: 3
+- Article count: 4
 - Cohesion: 0.2
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: CVE-2026-56164
@@ -593,6 +596,7 @@
 - Cluster IDs: 7061b2c39d, 2bab6cab95, 6c33b3b5cf, cef5a868eb
 - Links:
   - https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
+  - https://www.reddit.com/r/AskNetsec/comments/1v1j9px/two_m365saas_identity_campaigns_hit_hard_febjune/
   - https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
   - https://www.sophos.com/en-us/blog/july-patch-tuesday-only-feels-endless
   - https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/
@@ -617,7 +621,7 @@
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 2
-- Article count: 8
+- Article count: 9
 - Cohesion: 0.2
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
@@ -629,10 +633,11 @@
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
-  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
   - https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/
   - https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/
   - https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html
+  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture
 
 ### phishing social eng targeting Palo Alto Networks
@@ -673,34 +678,50 @@
 
 ### Novelty
 - Novel cves: 0
-- Novel actors: 0
+- Novel actors: 1
+  - UNC6661 (first seen via The Hacker News at 2026-07-21T14:57:51+00:00, cluster 7061b2c39d)
 - Novel products: 0
 
 ### Velocity bursts (2)
+- **WordPress Core Pre-Auth RCE Chain Exploited in the Wild**
+  - Cluster: 56fb338f87
+  - Sources in window: 3
+  - Window hours: 4.7
+  - Cohort count: 6
 - **OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure**
   - Cluster: 8cda373323
   - Sources in window: 3
   - Window hours: 3.9
   - Cohort count: 5
+
+### Leading edge (3)
 - **WordPress Core Pre-Auth RCE Chain Exploited in the Wild**
   - Cluster: 56fb338f87
-  - Sources in window: 3
-  - Window hours: 4.7
-  - Cohort count: 5
-
-### Leading edge (1)
+  - Lead hours: 45.4
+  - First source: Reddit r/netsec
+  - Later Tier 1 source: SANS Internet Storm Center
+  - Shared signals: CVE-2026-60137, CVE-2026-63030, OpenAI/ChatGPT, WordPress
 - **OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure**
   - Cluster: 8cda373323
   - Lead hours: 30.4
   - First source: Risky Business News
   - Later Tier 1 source: Rapid7
   - Shared signals: Linux kernel, OpenAI/ChatGPT
+- **TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching**
+  - Cluster: 3574a7b873
+  - Lead hours: 13.8
+  - First source: Reddit r/netsec
+  - Later Tier 1 source: Trend Micro Research
+  - Shared signals: AWS, Anthropic/Claude, Apple iOS/macOS, CVE-2026-46331, Google Cloud
 
 ### Convergence (15)
 - Pair: CVE-2026-60137 + OpenAI/ChatGPT (cluster 56fb338f87, first observation: True)
 - Pair: CVE-2026-60137 + WordPress (cluster 56fb338f87, first observation: True)
 - Pair: CVE-2026-63030 + OpenAI/ChatGPT (cluster 56fb338f87, first observation: True)
 - Pair: CVE-2026-63030 + WordPress (cluster 56fb338f87, first observation: True)
+- Pair: CVE-2026-46331 + AWS (cluster 3574a7b873, first observation: True)
+- Pair: CVE-2026-46331 + Apple iOS/macOS (cluster 3574a7b873, first observation: True)
+- Pair: CVE-2026-46331 + Google Cloud (cluster 3574a7b873, first observation: True)
 - Pair: CVE-2026-12569 + Cl0p (cluster efa5d95ebc, first observation: True)
 - Pair: CVE-2026-12569 + ShinyHunters (cluster efa5d95ebc, first observation: True)
 - Pair: CVE-2026-12569 + Microsoft 365 (cluster efa5d95ebc, first observation: True)
@@ -709,9 +730,6 @@
 - Pair: Cl0p + Salesforce (cluster efa5d95ebc, first observation: True)
 - Pair: ShinyHunters + Microsoft 365 (cluster efa5d95ebc, first observation: True)
 - Pair: ShinyHunters + Microsoft Entra (cluster efa5d95ebc, first observation: True)
-- Pair: CVE-2021-27137 + AWS (cluster c4020d76d0, first observation: True)
-- Pair: CVE-2021-27137 + WordPress (cluster c4020d76d0, first observation: True)
-- Pair: CVE-2026-0770 + AWS (cluster c4020d76d0, first observation: True)
 
 ### Drift (4)
 - **Cl0p** (cluster efa5d95ebc)
@@ -735,18 +753,23 @@
   - Prior top industries: financial_services, government, legal_professional
   - Prior top products: Citrix, Fortinet, ScreenConnect
 
-### Persistence (9)
+### Persistence (10)
 - actor_attribution: ShinyHunters (weeks observed: 8, cluster efa5d95ebc)
 - cve_ids: CVE-2026-45659 (weeks observed: 5, cluster 7061b2c39d)
 - actor_attribution: Cl0p (weeks observed: 4, cluster efa5d95ebc)
 - cve_ids: CVE-2026-0257 (weeks observed: 4, cluster 17b63d385b)
 - cve_ids: CVE-2025-3248 (weeks observed: 4, cluster 916dc6a487)
 - cve_ids: CVE-2026-50751 (weeks observed: 3, cluster 049863205d)
+- cve_ids: CVE-2026-46331 (weeks observed: 3, cluster 3574a7b873)
 - cve_ids: CVE-2026-12569 (weeks observed: 3, cluster efa5d95ebc)
 - cve_ids: CVE-2026-39987 (weeks observed: 3, cluster 9454090822)
 - actor_attribution: LockBit (weeks observed: 3, cluster cfba3767d7)
 
-### Tier inversion (0)
+### Tier inversion (1)
+- **Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC**
+  - Cluster: 7061b2c39d
+  - Primary source: The Hacker News
+  - Strong signals: CVE-2026-32201, CVE-2026-45659, CVE-2026-50522, CVE-2026-56164, CVE-2026-58644, ShinyHunters, UNC6661
 
 ## Clusters
 
@@ -807,8 +830,8 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-16232: Critical Check Point S
 - Published: 2026-07-22T14:48:54+00:00
 - Link: https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
 - Fetch status: ok
-- Member count: 8
-- Corroborating source count: 8
+- Member count: 10
+- Corroborating source count: 9
 - Strong signals: CVE-2026-60137, CVE-2026-63030, WordPress
 
 #### Cluster taxonomy (union across members)
@@ -817,7 +840,7 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-16232: Critical Check Point S
 - cve_ids: CVE-2026-60137, CVE-2026-63030
 - urgency_signals: actively_exploited, critical_cvss, poc_available, preauth_unauth
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_government, tier_1_offensive_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_government, tier_1_offensive_research, tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: data_breach, active_exploitation
@@ -839,7 +862,7 @@ A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-
 A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-60137 (CVSS 5.9) was disclosed affecting WordPress Core, allowing attackers to achieve unauthenticated remote code execution via chained REST API batch-route confusion and SQL injection flaws. Due to the potential for full server compromise on default installations, immediate patching is required. About CVE-2026-63030 & CVE-2026-60137 The issue originates from two components in WordPress Core. CVE-2026-63030 is a REST API batch-route confusion flaw in WP_REST_Server::serve_batch_request_v1() introduced in WordPress 6.9, while CVE-2026-60137 is a SQL injection in the author__not_in parameter of WP_Query that lacks proper type validation. By chaining specially crafted /wp-json/batch requests, attackers can forge an administrator account and gain full web-server code execution, potentially leading to persistent backdoors, data exfiltration, and lateral movement across cloud environments. No authentication is required to exploit this issue, and no plugins or special configuration are needed on the target. Affected Systems The following components are affected: WordPress Core versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1 are vulnerable to the full pre-authentication RCE chain. WordPress Core versions 6.8.0 through 6.8.5 are vulnerable to the SQL injection alone, which carries data exposure risk. Default installations released since December 2025 are at risk. Security firm research showed that 60% of WordPress organizations had vulnerable instances at the time of disclosure, dropping to 50% within 24 hours. Sites using persistent object caching (Redis/Memcached) may have narrower exploit pathways, but this is not a comprehensive mitigation. Risk Impact Users should upgrade to WordPress 7.0.2, 6.9.5, or 6.8.6, all released on July 17, 2026. WordPress.org has enabled forced automatic updates for supported installations, but teams should verify updates have been applied successfully. As interim mitigations (not substitutes for patching), defenders can block anonymous access to /wp-json/batch/v1 and ?rest_route=/batch/v1, or disable anonymous REST API access using a trusted plugin. Cloudflare has deployed WAF protections across all plan tiers. At the time of writing, public proof-of-concept exploit code is widely available, and active in-the-wild exploitation has been confirmed by multiple security firms as of July 18-20, 2026. Post-exploitation activity includes malicious plugin uploads for persistence, PHP webshells disguised as fake security plugins, and attempts to read wp-config secrets. Researchers have noted that rapid PoC development was partly aided by AI-assisted patch diffing. Both high-volume opportunistic scanning and targeted attacks have been observed. A high-fidelity detection signal is /wp-json/batch requests returning HTTP 207/200 multi-status responses, and defenders should also check for unexpected administrator accounts, new or modified plugins, and user-agent strings referencing wp2shell tools. Regardless, the severity and ease of exploitation make this vulnerability chain high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to create rogue administrator accounts, execute arbitrary code on the web server, and install persistent backdoors, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable WordPress versions, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Webinar Recap AI on Both Sides: Key Takeaways From Cloud Security LIVE 2026 Jul 22, 2026 Cloud Security Learning Affo
 ```
 
-#### Corroborating sources (8)
+#### Corroborating sources (9)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: WordPress Core Pre-Auth RCE Chain Exploited in the Wild
@@ -866,6 +889,11 @@ A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-
   - Published: 2026-07-23T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
   - Summary: We ran the wp2shell WordPress RCE chain end-to-end with Elastic Defend. Detection rule walkthrough, IOCs, and hunt guidance.
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: wp2shell (CVE-2026-63030): Pre-Auth RCE Chain in WordPress Core - Analysis and Open-Source Scanner
+  - Published: 2026-07-18T21:17:40+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/
+  - Summary: submitted by /u/mazen160 [link] [comments]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning
   - Published: 2026-07-21T08:59:30+00:00
@@ -1020,15 +1048,16 @@ Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Googl
 - Published: 2026-07-24T19:41:00+00:00
 - Link: https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
 - Fetch status: ok
-- Member count: 7
-- Corroborating source count: 7
+- Member count: 8
+- Corroborating source count: 8
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
 - affected_industries: government
 - affected_products: AWS, Anthropic/Claude, Apple iOS/macOS, Google Cloud
+- cve_ids: CVE-2026-46331
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - affected_industries: government
@@ -1042,7 +1071,7 @@ Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Googl
 arrow_back search close Newsroom Media Coverage Global Press Releases Local Press Releases Stay connected with press releases from Trend teams in your region. Media Contacts Investor Relations TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching As a participant in Anthropic's Cyber Verification Program, TrendAI applies frontier reasoning to convert vulnerability intelligence into faster protection across hybrid environments DALLAS , July 24, 2026 / PRNewswire / -- TrendAI™, the enterprise AI security leader from Trend Micro Incorporated (TYO: 4704; TSE: 4704), today announced it is adopting Claude Opus 5, Anthropic's latest and most capable Opus model, to help security teams convert vulnerability intelligence into immediate protection, from prioritization to virtual patching. The move builds on TrendAI's collaboration with Anthropic on Claude Opus 4.8, extending the same defensive focus to a model that delivers step-change gains in advanced reasoning, agentic workflows, and long-horizon analysis. As AI makes finding vulnerabilities easier than ever, the harder problem becomes protecting organizations faster than software can be permanently patched, and that is where TrendAI is putting Opus 5 to work. As a participant in Anthropic's Cyber Verification Program, which credentials organizations for the defensive use of frontier AI models, TrendAI is positioned to apply Claude Opus 5 to defensive security as access becomes available. The model is Zero Data Retention compatible, supporting TrendAI's governance and data-protection requirements as it scales AI across security operations. The work extends to TrendAI Threat Research, where frontier AI models are combined with our proprietary frontier intelligence engine and human expertise to generate pre-disclosure intelligence. Those insights power TrendAI Vision One™, delivering stronger detection, deeper forensic insights, and proactive protection through virtual patching. Rachel Jin, Chief Platform and Business Officer, Head of TrendAI™: "With Claude Opus 5, TrendAI can move from vulnerability intelligence to action faster than ever, prioritizing what matters most by exploitability and business impact. Finding the vulnerability was always the hard part. Now the challenge is protecting organizations faster than software can be permanently patched, and frontier reasoning is what changes that equation, extending all the way to virtual patching that protects customers before a vendor fix ships. This is what it means to secure the AI age, fearlessly." These capabilities support TrendAI Vision One™ in helping security analysts, AppSec teams, and SOC teams prioritize exposure, map attack paths, and accelerate mitigation, including virtual patching, across hybrid environments, moving vulnerability management from a static scanning process into a faster, context-aware risk mitigation workflow. About TrendAI™ TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk. Trusted by the largest enterprises and governments across 185 countries, TrendAI™ secures the entire organization, from identities, to infrastructure, to data. Global Fortune 500 companies rely on TrendAI™ to cut risk and stop threats up to three months earlier, powered by world-leading threat and attack intelligence. Through deep ecosystem partnerships with market leaders like NVIDIA, Anthropic, AWS, Google, and Microsoft, TrendAI™ empowers your organization to securely drive forward at the speed of AI. AI Fearlessly. Learn more: trendaisecurity.com About Anthropic Anthropic is an AI safety and research company dedicated to building reliable, interpretable, and steerable AI systems. Its Claude family of models, including Claude Opus 5, enables advanced capabilities across a wide range of applications, including code understandi
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (8)
 
 - **Trend Micro Research** (threat_research_primary)
   - Title: TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching
@@ -1058,11 +1087,11 @@ arrow_back search close Newsroom Media Coverage Global Press Releases Local Pres
   - Published: 2026-07-22T19:30:00+00:00
   - Link: https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
   - Summary: The 2026 emergence of Anthropic’s Claude Mythos Preview showed security leaders that AI can now find software vulnerabilities faster than the humans responsible for patching them.
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: What’s new with Google Cloud
-  - Published: 2026-07-24T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Jul 20 - Jul 24 Claude Opus 5, Anthropic’s latest model, is now available on Agent Platform. It brings performance improvements over Opus 4.8 across coding, long-running agents, and knowledge work.The model is Zero Data Retention (ZDR) compatible. For safety, high-risk workflows — such as penetration testing or exploit generation — it will notify you and fall back to Opus 4.8.We’re excited to continue to offer enterprise customers options across frontier models to build, deploy, and scale AI securely. Try it here . Apigee Northam Roadshow 2026 | The AI Agent Evolution: Powering Tomorrow's Enterprise AI is evolving.
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331
+  - Published: 2026-07-24T05:53:48+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
+  - Summary: submitted by /u/natcoba [link] [comments]
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Fake Claude app promoted by Bing ads pushes SectopRAT malware
   - Published: 2026-07-23T19:48:30+00:00
@@ -1078,6 +1107,11 @@ arrow_back search close Newsroom Media Coverage Global Press Releases Local Pres
   - Published: 2026-07-23T13:27:59+00:00
   - Link: https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html
   - Summary: Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or write files anywhere on the Mac. Accomplish AI, which shared details of the vulnerability with The Hacker News ahead of publication, said about 500,000 macOS users running
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: What’s new with Google Cloud
+  - Published: 2026-07-24T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Jul 20 - Jul 24 Claude Opus 5, Anthropic’s latest model, is now available on Agent Platform. It brings performance improvements over Opus 4.8 across coding, long-running agents, and knowledge work.The model is Zero Data Retention (ZDR) compatible. For safety, high-risk workflows — such as penetration testing or exploit generation — it will notify you and fall back to Opus 4.8.We’re excited to continue to offer enterprise customers options across frontier models to build, deploy, and scale AI securely. Try it here . Apigee Northam Roadshow 2026 | The AI Agent Evolution: Powering Tomorrow's Enterprise AI is evolving.
 
 ### Cluster 4f7846fb3b — score 19
 
@@ -1367,6 +1401,62 @@ Security & Identity Now in preview: Find and fix software vulnerabilities with C
   - Link: https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
   - Summary: Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot
 
+### Cluster 7061b2c39d — score 15
+
+- Title: Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-21T14:57:51+00:00
+- Link: https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-50522, Microsoft SharePoint
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion, vulnerability_disclosure
+- actor_attribution: ShinyHunters, UNC6661
+- affected_industries: government
+- affected_products: Microsoft 365, Microsoft SharePoint, Salesforce
+- cve_ids: CVE-2026-32201, CVE-2026-45659, CVE-2026-50522, CVE-2026-56164, CVE-2026-58644
+- urgency_signals: poc_available, preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, credential_theft, vulnerability_disclosure
+- actor_attribution: ShinyHunters
+- affected_industries: government
+- affected_products: Salesforce, Microsoft SharePoint, Microsoft 365
+- cve_ids: CVE-2026-50522, CVE-2026-56164, CVE-2026-58644, CVE-2026-32201, CVE-2026-45659
+- urgency_signals: preauth_unauth, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE
+```
+
+#### Full body
+
+```
+Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC  Ravie Lakshmanan  Jul 21, 2026 Vulnerability / Web Security A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr . The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE researcher "splitline" with discovering and reporting the flaw. "In a network-based attack, an attacker authenticated as at least a Site Owner, could write arbitrary code to inject and execute code remotely on the SharePoint Server," Redmond said in an advisory released last week. "The attack vector is Network (AV:N) because this vulnerability is remotely exploitable and can be exploited from the internet. The attack complexity is Low (AC:L) because an attacker does not require significant prior knowledge of the system and can achieve repeatable success with the payload against the vulnerable component." The tech giant also tagged CVE-2026-50522 with an exploitability assessment of "Exploitation More Likely." In a post shared on LinkedIn, watchTowr said it has detected active exploitation of the shortcoming against on-premises Microsoft SharePoint deployments following the release of a public proof-of-concept (PoC) exploit, allowing attackers to steal machine keys to maintain persistent access. "Attackers are pulling SharePoint machine keys via a single request," the security vendor said. "Patching is not enough; defenders should rotate credentials on any assets that may have been exposed." Defused Cyber has also disclosed that threat actors are likely exploiting CVE-2026-50522 to deliver a .NET deserialization payload to a SharePoint sign-in endpoint. "The captured requests carry no authentication material, matching 50522's unauthenticated profile," it said. CVE-2026-50522 is the third vulnerability in SharePoint Server after CVE-2026-56164 (CVSS score: 5.3) and CVE-2026-58644 (CVSS score: 9.8) to witness active exploitation efforts, with the latter two weaponized as zero-days prior to them being fixed in July 2026. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has since warned that threat actors are exploiting multiple SharePoint Server vulnerabilities, including CVE-2026-32201, CVE-2026-45659, CVE-2026-56164, and CVE-2026-58644, to gain unauthorized access to on-premises instances. "These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware," the agency said. Update CISA, on July 22, 2026, added CVE-2026-50522 to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by July 25. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Credential Theft , Cyber Attack , enterprise security , exploit , Malware , Microsoft , remote code execution , server security , Vulnerability , Web Security ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity OAuth Client ID Spoofing Lets Attackers Validate
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC
+  - Published: 2026-07-21T14:57:51+00:00
+  - Link: https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
+  - Summary: A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - Title: Two M365/SaaS identity campaigns hit hard Feb–June, neither used a CVE. What are you seeing?
+  - Published: 2026-07-20T11:50:22+00:00
+  - Link: https://www.reddit.com/r/AskNetsec/comments/1v1j9px/two_m365saas_identity_campaigns_hit_hard_febjune/
+  - Summary: Both got in through OAuth/identity abuse, no software vuln. Sharing what I've got (particularly interested in UAE/Gulf environments), curious what's landed in your queues. Device code phishing (EvilTokens) - 340+ M365 orgs across 5 countries - Abuses the legit OAuth device flow (RFC 8628), so MFA doesn't help - Tokens survive a password reset, so remediation keeps failing ShinyHunters-style SaaS extortion (UNC6661/6671) - Vishing → pose as IT → capture SSO + MFA → enroll their own device - Pivots through SharePoint, Salesforce, Slack for sensitive data - Then deletes the alert emails to stay hidden If you're in a SOC, what identity-based or other types of prominent threats have you seen lately? Especially UAE/Gulf, since public reporting skews US/EU. submitted by /u/Mind-Principle-1834 [link] [comments]
+
 ### Cluster 31d26a81e9 — score 14
 
 - Title: A new extortion cocktail: office printers, small ransoms, and BitLocker
@@ -1541,57 +1631,6 @@ Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Acce
   - Published: 2026-07-21T14:04:57+00:00
   - Link: https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
   - Summary: Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway
-
-### Cluster 7061b2c39d — score 13
-
-- Title: Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-21T14:57:51+00:00
-- Link: https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-50522, Microsoft SharePoint
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng, vulnerability_disclosure
-- actor_attribution: ShinyHunters
-- affected_industries: government
-- affected_products: Microsoft 365, Microsoft SharePoint, Salesforce
-- cve_ids: CVE-2026-32201, CVE-2026-45659, CVE-2026-50522, CVE-2026-56164, CVE-2026-58644
-- urgency_signals: poc_available, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, credential_theft, vulnerability_disclosure
-- actor_attribution: ShinyHunters
-- affected_industries: government
-- affected_products: Salesforce, Microsoft SharePoint, Microsoft 365
-- cve_ids: CVE-2026-50522, CVE-2026-56164, CVE-2026-58644, CVE-2026-32201, CVE-2026-45659
-- urgency_signals: preauth_unauth, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE
-```
-
-#### Full body
-
-```
-Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC  Ravie Lakshmanan  Jul 21, 2026 Vulnerability / Web Security A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr . The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE researcher "splitline" with discovering and reporting the flaw. "In a network-based attack, an attacker authenticated as at least a Site Owner, could write arbitrary code to inject and execute code remotely on the SharePoint Server," Redmond said in an advisory released last week. "The attack vector is Network (AV:N) because this vulnerability is remotely exploitable and can be exploited from the internet. The attack complexity is Low (AC:L) because an attacker does not require significant prior knowledge of the system and can achieve repeatable success with the payload against the vulnerable component." The tech giant also tagged CVE-2026-50522 with an exploitability assessment of "Exploitation More Likely." In a post shared on LinkedIn, watchTowr said it has detected active exploitation of the shortcoming against on-premises Microsoft SharePoint deployments following the release of a public proof-of-concept (PoC) exploit, allowing attackers to steal machine keys to maintain persistent access. "Attackers are pulling SharePoint machine keys via a single request," the security vendor said. "Patching is not enough; defenders should rotate credentials on any assets that may have been exposed." Defused Cyber has also disclosed that threat actors are likely exploiting CVE-2026-50522 to deliver a .NET deserialization payload to a SharePoint sign-in endpoint. "The captured requests carry no authentication material, matching 50522's unauthenticated profile," it said. CVE-2026-50522 is the third vulnerability in SharePoint Server after CVE-2026-56164 (CVSS score: 5.3) and CVE-2026-58644 (CVSS score: 9.8) to witness active exploitation efforts, with the latter two weaponized as zero-days prior to them being fixed in July 2026. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has since warned that threat actors are exploiting multiple SharePoint Server vulnerabilities, including CVE-2026-32201, CVE-2026-45659, CVE-2026-56164, and CVE-2026-58644, to gain unauthorized access to on-premises instances. "These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware," the agency said. Update CISA, on July 22, 2026, added CVE-2026-50522 to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by July 25. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Credential Theft , Cyber Attack , enterprise security , exploit , Malware , Microsoft , remote code execution , server security , Vulnerability , Web Security ⚡ Top Stories This Week URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity OAuth Client ID Spoofing Lets Attackers Validate
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC
-  - Published: 2026-07-21T14:57:51+00:00
-  - Link: https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
-  - Summary: A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE
 
 ### Cluster 07c378186b — score 12
 
@@ -1866,49 +1905,6 @@ Risky Bulletin Podcast July 20, 2026 Risky Bulletin: Hacker wipes Romania's enti
   - Link: https://risky.biz/RBNEWS589/
   - Summary: A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.
 
-### Cluster de2a131113 — score 10
-
-- Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-07-22T16:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
-  - Published: 2026-07-22T16:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
-  - Summary: Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
-
 ### Cluster 1ff0bf04bf — score 10
 
 - Title: Russian Global Webmail Espionage
@@ -1958,6 +1954,49 @@ Threat Research Center Threat Research Cybercrime Cybercrime Russian Global Webm
   - Link: https://unit42.paloaltonetworks.com/russian-webmail-espionage/
   - Summary: Unit 42 details a Russian cyberespionage campaign targeting Zimbra webmail servers using JavaScript injection to steal credentials. The post Russian Global Webmail Espionage appeared first on Unit 42 .
 
+### Cluster de2a131113 — score 10
+
+- Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-07-22T16:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
+  - Published: 2026-07-22T16:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
+  - Summary: Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
+
 ### Cluster 7200b1bf11 — score 10
 
 - Title: Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?
@@ -2000,6 +2039,55 @@ AI Research Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon M
   - Published: 2026-07-22T16:55:29+00:00
   - Link: https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/
   - Summary: A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.
+
+### Cluster 2bab6cab95 — score 10
+
+- Title: 20th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-20T12:18:41+00:00
+- Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain
+- affected_industries: financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, Microsoft SharePoint, WordPress
+- cve_ids: CVE-2026-15409, CVE-2026-56155, CVE-2026-56164, CVE-2026-60137, CVE-2026-63030
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach
+- affected_industries: financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, Microsoft SharePoint, WordPress
+- cve_ids: CVE-2026-56164, CVE-2026-56155, CVE-2026-63030, CVE-2026-60137, CVE-2026-15409
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July – Threat Intelligence Report July 20, 2026 https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, employee details, and other sensitive information submitted while requesting technical assistance. Jscrambler, a JavaScript code-protection package with more than 15,000 weekly downloads, has experienced a supply chain compromise after stolen npm publishing credentials distributed malicious releases. The packages deployed malware targeting developers’, cloud, browser, cryptocurrency, and messaging credentials. Jscrambler removed the affected versions. Coca-Cola’s US dairy subsidiary Fairlife has confirmed a ransomware attack that temporarily halted production across the United States. Attackers accessed systems supporting manufacturing operations, prompting the company to activate incident response and business continuity procedures. Coca-Cola has not confirmed whether data was exfiltrated in the attack. Nihon Kotsu, Japan’s largest taxi operator, has suffered a malware attack following unauthorized access to its internal network. The company shut down affected systems, disrupting taxi dispatches, telephone services, bookings, reservations, and car rentals from July 11. No theft of customer or corporate information has been confirmed. AI THREATS Researchers identified a China-linked campaign that used Claude Code and DeepSeek to automate attacks against government and financial organizations. The tools generated scripts, adapted failed exploits, created credential-harvesting pages, and executed commands. Confirmed compromises affected government systems in Thailand and Afghanistan and organizations in Taiwan. Researchers found that xAI’s Grok Build coding assistant could upload entire Git repositories while processing debugging requests. Transferred information included unopened files and complete commit histories, potentially exposing API keys, credentials, and proprietary source code. Initial privacy controls did not prevent uploads until a server-side restriction was introduced. Researchers verified a weakness in Anthropic’s Claude for Chrome extension that allowed malicious browser extensions to impersonate Claude and act through authenticated user sessions. Successful exploitation could expose Gmail, Google Drive, or GitHub information through Claude’s permissions. Anthropic released fixes, although researchers reported that a bypass remained possible. VULNERABILITIES AND PATCHES Microsoft released patches for 622 vulnerabilities in July’s Patch Tuesday, the largest monthly release recorded by the company. Two vulnerabilities were under active exploitation, including CVE-2026-56164 in SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Both vulnerabilities could allow attackers to elevate privileges. Check Point IPS provides protection against these threats (Microsoft SharePoint Authentication Bypass (CVE-2026-56164)) WordPress has issued emergency updates for CVE-2026-63030 and CVE-2026-60137, collectively called wp2shell. The critical WordPress Core vulnerabilities allow unauthenticated remote code execution and website takeover. Affected releases include versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1. Fixed versions include 6.9.5 and 7.0.2. Check Point IPS provides protection against these threats (WordPress Authentication Bypass (CVE-2026-63030)), WordPress SQL Injection (CVE-2026-60137)) SonicWall has released a hotfix for CVE-2026-15409 and CVE-2026-15410, two critical vulnerabilities affecting SMA 1000 Series gat
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 20th July – Threat Intelligence Report
+  - Published: 2026-07-20T12:18:41+00:00
+  - Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 542fdf33c7 — score 10
 
@@ -2084,55 +2172,6 @@ Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel B
   - Published: 2026-07-23T10:00:38+00:00
   - Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
   - Summary: The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
-
-### Cluster 2bab6cab95 — score 10
-
-- Title: 20th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-20T12:18:41+00:00
-- Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, Microsoft SharePoint, WordPress
-- cve_ids: CVE-2026-15409, CVE-2026-56155, CVE-2026-56164, CVE-2026-60137, CVE-2026-63030
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, Microsoft SharePoint, WordPress
-- cve_ids: CVE-2026-56164, CVE-2026-56155, CVE-2026-63030, CVE-2026-60137, CVE-2026-15409
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July – Threat Intelligence Report July 20, 2026 https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, employee details, and other sensitive information submitted while requesting technical assistance. Jscrambler, a JavaScript code-protection package with more than 15,000 weekly downloads, has experienced a supply chain compromise after stolen npm publishing credentials distributed malicious releases. The packages deployed malware targeting developers’, cloud, browser, cryptocurrency, and messaging credentials. Jscrambler removed the affected versions. Coca-Cola’s US dairy subsidiary Fairlife has confirmed a ransomware attack that temporarily halted production across the United States. Attackers accessed systems supporting manufacturing operations, prompting the company to activate incident response and business continuity procedures. Coca-Cola has not confirmed whether data was exfiltrated in the attack. Nihon Kotsu, Japan’s largest taxi operator, has suffered a malware attack following unauthorized access to its internal network. The company shut down affected systems, disrupting taxi dispatches, telephone services, bookings, reservations, and car rentals from July 11. No theft of customer or corporate information has been confirmed. AI THREATS Researchers identified a China-linked campaign that used Claude Code and DeepSeek to automate attacks against government and financial organizations. The tools generated scripts, adapted failed exploits, created credential-harvesting pages, and executed commands. Confirmed compromises affected government systems in Thailand and Afghanistan and organizations in Taiwan. Researchers found that xAI’s Grok Build coding assistant could upload entire Git repositories while processing debugging requests. Transferred information included unopened files and complete commit histories, potentially exposing API keys, credentials, and proprietary source code. Initial privacy controls did not prevent uploads until a server-side restriction was introduced. Researchers verified a weakness in Anthropic’s Claude for Chrome extension that allowed malicious browser extensions to impersonate Claude and act through authenticated user sessions. Successful exploitation could expose Gmail, Google Drive, or GitHub information through Claude’s permissions. Anthropic released fixes, although researchers reported that a bypass remained possible. VULNERABILITIES AND PATCHES Microsoft released patches for 622 vulnerabilities in July’s Patch Tuesday, the largest monthly release recorded by the company. Two vulnerabilities were under active exploitation, including CVE-2026-56164 in SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Both vulnerabilities could allow attackers to elevate privileges. Check Point IPS provides protection against these threats (Microsoft SharePoint Authentication Bypass (CVE-2026-56164)) WordPress has issued emergency updates for CVE-2026-63030 and CVE-2026-60137, collectively called wp2shell. The critical WordPress Core vulnerabilities allow unauthenticated remote code execution and website takeover. Affected releases include versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1. Fixed versions include 6.9.5 and 7.0.2. Check Point IPS provides protection against these threats (WordPress Authentication Bypass (CVE-2026-63030)), WordPress SQL Injection (CVE-2026-60137)) SonicWall has released a hotfix for CVE-2026-15409 and CVE-2026-15410, two critical vulnerabilities affecting SMA 1000 Series gat
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 20th July – Threat Intelligence Report
-  - Published: 2026-07-20T12:18:41+00:00
-  - Link: https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster b4009da441 — score 10
 
@@ -2396,48 +2435,50 @@ Sinisa Markovic , Managing Editor, Help Net Security July 24, 2026 Share Russian
   - Link: https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/
   - Summary: Russian state-backed hacker group Laundry Bear has been breaking into government and commercial networks for at least a year by exploiting a vulnerability in the Zimbra Collaboration Suite (ZCS) webmail platform. Laundry Bear (also known as Void Blizzard, CL-STA-1114, and TA488) has been running the campaign since July 2025, according to a joint advisory from the NSA, FBI, CISA, and cybersecurity agencies from the Netherlands, UK, Australia, Canada, and a dozen other countries. “Laundry Bear’s … More → The post Russian hackers exploit unpatched Zimbra servers to steal emails appeared first on Help Net Security .
 
-### Cluster 574ebfebeb — score 9
+### Cluster 1186a44566 — score 10
 
-- Title: UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-07-23T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
+- Title: GitHub issues $100,000 bounty for critical RCE vulnerability
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-07-22T22:21:24+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 4
+- Corroborating source count: 3
+- Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng
-- affected_industries: critical_infrastructure, education, government
-- content_type: news_report
-- confidence_tier: tier_1_government
+- affected_products: GitHub, GitLab, Packagist, cPanel
+- content_type: incident_report, news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, apt_espionage
-- affected_industries: government, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_government
+- affected_products: GitHub
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
+submitted by /u/ryanmerket [link] [comments]
 ```
 
-#### Full body
+#### Corroborating sources (3)
 
-```
-News Download & print article PDF Download & print article PDF UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign Russian state-supported actors develop new technique to target Western email platforms and gain persistent access to compromised networks Organisations provided with trusted advice and support to protect sensitive data in the face of evolving cyber threats Russian state-supported cyber actors have targeted Western organisations with a malicious campaign which uses a zero-click exploit coined “beehive” (or “ Ulej ”) to steal emails, the UK has warned. Today, the National Cyber Security Centre – a part of GCHQ – alongside cyber security agencies in 15 countries, has exposed activities of LAUNDRY BEAR, an advanced persistent threat group who specialise in the covert acquisition of email data. Since July 2025, LAUNDRY BEAR has successfully targeted and stolen sensitive email information from organisations that use Zimbra Collaboration Suite (ZCS) software. US organisations have been targeted in sectors including defence, government, education, energy, law enforcement, media, NGOs and technology. In a new joint advisory , the NCSC and partners warn LAUNDRY BEAR’s ongoing campaign is indicative of espionage and almost certainly carried out with Russian state support. Unlike traditional phishing campaigns, “beehive” allows the threat actors to gain extensive and sustained access to emails without requiring a user’s input. Instead of clicking a link or opening a file, the user only has to view a malicious email within a vulnerable version of the ZCS webmail service to be compromised. Organisations that use ZCS are urged to follow the mitigation advice, including to immediately patch vulnerabilities and improve network monitoring capabilities. The cyber agencies caution that it is likely “beehive” could be adapted to exploit other vulnerabilities. As more organisations update their ZCS software, it is very likely that the group will also look to target other email systems that Western organisations use. The NCSC recommends all UK organisations should sign up to the free Early Warning service for malicious network activity notifications. The government is committed to raising cyber resilience across the UK to protect businesses and safeguard growth. Earlier this month, businesses from every corner of the British economy joined a pledge publicly committing to strengthen their defences in the face of a fast-evolving threat. Today’s action shows we’re working hand-in-hand with our allies to expose Russian state-supported hackers targeting Western organisations. It’s particularly concerning that these thugs tested their methods on victims in Ukraine, before targeting members of NATO. Organisations across the UK should sign up to NCSC’s Early Warning service to ensure they can quickly secure their systems against similar activity. Security Minister, Dan Jarvis MBE This phishing campaign demonstrates how hostile actors will ruthlessly adapt techniques and exploit vulnerable technology in pursuit of their aims to steal sensitive information from Western organisations. With our international partners, we strongly encourage organisations to familiarise themselves with the ‘zero-click’ techniques described in the advisory which could be used against other platforms, and act on the mitigation advice. We will continue to call out malicious cyber activity supported by the Russian state and urge everyone to follow NCSC guidance to raise resilience, including steps to strengthen online account security. Beth Hopkins CMG, NCSC Chief Operating Officer The advisory highlights how these malicious cyber techniques were extensively trialled on Ukrainian victims before use against members of NATO, which is part of a growi
-```
-
-#### Corroborating sources (1)
-
-- **NCSC UK** (government_authoritative)
-  - Title: UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
-  - Published: 2026-07-23T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
-  - Summary: GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: GitHub issues $100,000 bounty for critical RCE vulnerability
+  - Published: 2026-07-22T22:21:24+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
+  - Summary: submitted by /u/ryanmerket [link] [comments]
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - Title: Leaked Crowdstrike API key identification
+  - Published: 2026-07-22T12:37:13+00:00
+  - Link: https://www.reddit.com/r/AskNetsec/comments/1v3exk8/leaked_crowdstrike_api_key_identification/
+  - Summary: Hi everyone, I'm interested in learning how security teams detect and validate potential CrowdStrike API credential leaks on public sources such as GitHub, GitLab, Paste sites, cloud storage exposures, CI/CD logs, etc. A few questions: What indicators do you typically look for when hunting for CrowdStrike API credential exposures? Are there unique patterns for CrowdStrike Client IDs, Client Secrets, OAuth tokens, or related artifacts that help reduce false positives? What tools or secret-scanning platforms do you use (GitHub Secret Scanning, TruffleHog, Gitleaks, custom regex, etc.)? How do you validate whether a finding is a real credential exposure versus a false positive? Thanks! submitted by /u/HotshotCyberguy [link] [comments]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers
+  - Published: 2026-07-23T11:28:54+00:00
+  - Link: https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html
+  - Summary: Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances. The activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13,
 
 ### Cluster 57268d1ce0 — score 9
 
@@ -2570,6 +2611,49 @@ We have been following issues with Hikvision cameras for a long, long time . Lik
   - Published: 2026-07-19T15:00:38+00:00
   - Link: https://isc.sans.edu/diary/rss/33164
   - Summary: We have been following issues with Hikvision cameras for a long, long time . Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects.
+
+### Cluster 574ebfebeb — score 9
+
+- Title: UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
+- Source: NCSC UK (government_authoritative)
+- Published: 2026-07-23T12:00:00+00:00
+- Link: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng
+- affected_industries: critical_infrastructure, education, government
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, apt_espionage
+- affected_industries: government, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
+```
+
+#### Full body
+
+```
+News Download & print article PDF Download & print article PDF UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign Russian state-supported actors develop new technique to target Western email platforms and gain persistent access to compromised networks Organisations provided with trusted advice and support to protect sensitive data in the face of evolving cyber threats Russian state-supported cyber actors have targeted Western organisations with a malicious campaign which uses a zero-click exploit coined “beehive” (or “ Ulej ”) to steal emails, the UK has warned. Today, the National Cyber Security Centre – a part of GCHQ – alongside cyber security agencies in 15 countries, has exposed activities of LAUNDRY BEAR, an advanced persistent threat group who specialise in the covert acquisition of email data. Since July 2025, LAUNDRY BEAR has successfully targeted and stolen sensitive email information from organisations that use Zimbra Collaboration Suite (ZCS) software. US organisations have been targeted in sectors including defence, government, education, energy, law enforcement, media, NGOs and technology. In a new joint advisory , the NCSC and partners warn LAUNDRY BEAR’s ongoing campaign is indicative of espionage and almost certainly carried out with Russian state support. Unlike traditional phishing campaigns, “beehive” allows the threat actors to gain extensive and sustained access to emails without requiring a user’s input. Instead of clicking a link or opening a file, the user only has to view a malicious email within a vulnerable version of the ZCS webmail service to be compromised. Organisations that use ZCS are urged to follow the mitigation advice, including to immediately patch vulnerabilities and improve network monitoring capabilities. The cyber agencies caution that it is likely “beehive” could be adapted to exploit other vulnerabilities. As more organisations update their ZCS software, it is very likely that the group will also look to target other email systems that Western organisations use. The NCSC recommends all UK organisations should sign up to the free Early Warning service for malicious network activity notifications. The government is committed to raising cyber resilience across the UK to protect businesses and safeguard growth. Earlier this month, businesses from every corner of the British economy joined a pledge publicly committing to strengthen their defences in the face of a fast-evolving threat. Today’s action shows we’re working hand-in-hand with our allies to expose Russian state-supported hackers targeting Western organisations. It’s particularly concerning that these thugs tested their methods on victims in Ukraine, before targeting members of NATO. Organisations across the UK should sign up to NCSC’s Early Warning service to ensure they can quickly secure their systems against similar activity. Security Minister, Dan Jarvis MBE This phishing campaign demonstrates how hostile actors will ruthlessly adapt techniques and exploit vulnerable technology in pursuit of their aims to steal sensitive information from Western organisations. With our international partners, we strongly encourage organisations to familiarise themselves with the ‘zero-click’ techniques described in the advisory which could be used against other platforms, and act on the mitigation advice. We will continue to call out malicious cyber activity supported by the Russian state and urge everyone to follow NCSC guidance to raise resilience, including steps to strengthen online account security. Beth Hopkins CMG, NCSC Chief Operating Officer The advisory highlights how these malicious cyber techniques were extensively trialled on Ukrainian victims before use against members of NATO, which is part of a growi
+```
+
+#### Corroborating sources (1)
+
+- **NCSC UK** (government_authoritative)
+  - Title: UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
+  - Published: 2026-07-23T12:00:00+00:00
+  - Link: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
+  - Summary: GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
 
 ### Cluster 9454090822 — score 9
 
@@ -2942,6 +3026,47 @@ News Center Proofpoint Research Finds 65% of Organizations Affected by Ransomwar
   - Published: 2026-07-22T06:06:41+00:00
   - Link: https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-research-finds-65-organizations-affected-ransomware-say-ai-made
 
+### Cluster 1c5982430a — score 8
+
+- Title: Inside Elastic InfoSec's agentic SOC: When to inline your agent's skills for a 5× cost reduction
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-07-24T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Apple iOS/macOS, Okta
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Okta, Apple iOS/macOS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below.
+```
+
+#### Full body
+
+```
+24 July 2026 • Aaron Jewitt Inside Elastic InfoSec's agentic SOC: When to inline your agent's skills for a 5× cost reduction We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below. 10 min read Generative AI , Detection Engineering This is Part 2 of the Inside Elastic InfoSec's Agentic SOC series. Part 1: How we triage every alert before an analyst opens it Investigating a Windows endpoint alert in Elastic InfoSec's production agentic security operations center (SOC) costs $0.69. That's what we pay running an orchestration workflow of specialized Elastic AI agents on the Elastic Inference Service (EIS). Route the same alert to a single agent working through 14 skills , and the bill jumps to $3.42, 5.7x more. At 100 investigations a day, that's an $8,000 monthly gap, and we didn't get it from a lab. It came out of 36,822 real Elastic Agent Builder conversations running in our own production environment. The gap comes down to how you build the SOC in the first place. Give one broad agent a library of skills, and it loads whatever it needs on the fly. Build a fleet of specialized agents instead, and each one runs a fixed methodology through an orchestration layer. Agent Builder handles either setup fine. At our volume, though, running the unoptimized configuration for batch triage is exactly what turns into that $8,000 a month. We'll walk through why the gap opens up, when each architecture earns its keep, and how you can run this same comparison on your own alerts. Multiple specialized agents versus a single agent with skills The single agent with skills is one broad agent paired with a library of Agent Builder skills . The agent has a thin system prompt that describes its general purpose and lists 14 skills it can invoke: macOS forensics, Windows forensics, AWS CloudTrail, Okta investigation, and others. When a new alert or analyst question arrives, the agent decides which skills are relevant, loads them on demand, and reasons over the result. No routing layer, no separate agents. One agent, one context window, one conversation. The single-agent approach is also significantly simpler to build. For teams that aren’t yet ready to invest in a full multi-agent workflow, it’s a practical starting point: Deploy a single agent with skills, scope it to critical severity alerts only, and get agentic investigation coverage running quickly. As your team builds familiarity with Agent Builder and capacity to maintain specialized agents, you can graduate your highest-volume investigation types into the specialized workflow, while the skills agent remains the front door for everything else. Skills aren’t inefficient. They’re loaded on demand, which is exactly what you want when a human analyst is exploring an alert and may need to pivot in unexpected directions. An analyst who starts with macOS forensics, discovers a lateral movement indicator, and needs to pull in the Okta investigation skill next benefits from that on-demand loading. It’s the right behavior for a conversation-driven workflow. The specialized agent workflow is built around a deterministic orchestration layer and a fleet of specialized agents. An Elastic workflow fires when an alert is generated. It enriches the alert with data from 15 or more sources using Elasticsearch Query Language (ES|QL) queries, runs infrastructure checks that close low-risk alerts with no AI cost, and routes the surviving alert to an initial triage agent that makes a first-pass verdict. If the initial triage agent is uncertain, the workflow opens a Kibana case and dispatches a set of specialized agents, each scoped to one domain. The macOS forensics agent knows exactly which tools to use, in what order, with what stop criteria. That methodology is written directly into its system promp
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Inside Elastic InfoSec's agentic SOC: When to inline your agent's skills for a 5× cost reduction
+  - Published: 2026-07-24T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture
+  - Summary: We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below.
+
 ### Cluster 6c33b3b5cf — score 8
 
 - Title: July Patch Tuesday only feels endless
@@ -2987,47 +3112,6 @@ July Patch Tuesday only feels endless AI deluge brings 575 CVEs, 479 advisories,
   - Link: https://www.sophos.com/en-us/blog/july-patch-tuesday-only-feels-endless
   - Summary: <p>AI deluge brings 575 CVEs, 479 advisories, reset to blog-post format</p> Categories: Threat Research Tags: x-ops, Patch Tuesday, MICROSOFT PATCH TUESDAY
 
-### Cluster 1c5982430a — score 8
-
-- Title: Inside Elastic InfoSec's agentic SOC: When to inline your agent's skills for a 5× cost reduction
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-07-24T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Apple iOS/macOS, Okta
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Okta, Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below.
-```
-
-#### Full body
-
-```
-24 July 2026 • Aaron Jewitt Inside Elastic InfoSec's agentic SOC: When to inline your agent's skills for a 5× cost reduction We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below. 10 min read Generative AI , Detection Engineering This is Part 2 of the Inside Elastic InfoSec's Agentic SOC series. Part 1: How we triage every alert before an analyst opens it Investigating a Windows endpoint alert in Elastic InfoSec's production agentic security operations center (SOC) costs $0.69. That's what we pay running an orchestration workflow of specialized Elastic AI agents on the Elastic Inference Service (EIS). Route the same alert to a single agent working through 14 skills , and the bill jumps to $3.42, 5.7x more. At 100 investigations a day, that's an $8,000 monthly gap, and we didn't get it from a lab. It came out of 36,822 real Elastic Agent Builder conversations running in our own production environment. The gap comes down to how you build the SOC in the first place. Give one broad agent a library of skills, and it loads whatever it needs on the fly. Build a fleet of specialized agents instead, and each one runs a fixed methodology through an orchestration layer. Agent Builder handles either setup fine. At our volume, though, running the unoptimized configuration for batch triage is exactly what turns into that $8,000 a month. We'll walk through why the gap opens up, when each architecture earns its keep, and how you can run this same comparison on your own alerts. Multiple specialized agents versus a single agent with skills The single agent with skills is one broad agent paired with a library of Agent Builder skills . The agent has a thin system prompt that describes its general purpose and lists 14 skills it can invoke: macOS forensics, Windows forensics, AWS CloudTrail, Okta investigation, and others. When a new alert or analyst question arrives, the agent decides which skills are relevant, loads them on demand, and reasons over the result. No routing layer, no separate agents. One agent, one context window, one conversation. The single-agent approach is also significantly simpler to build. For teams that aren’t yet ready to invest in a full multi-agent workflow, it’s a practical starting point: Deploy a single agent with skills, scope it to critical severity alerts only, and get agentic investigation coverage running quickly. As your team builds familiarity with Agent Builder and capacity to maintain specialized agents, you can graduate your highest-volume investigation types into the specialized workflow, while the skills agent remains the front door for everything else. Skills aren’t inefficient. They’re loaded on demand, which is exactly what you want when a human analyst is exploring an alert and may need to pivot in unexpected directions. An analyst who starts with macOS forensics, discovers a lateral movement indicator, and needs to pull in the Okta investigation skill next benefits from that on-demand loading. It’s the right behavior for a conversation-driven workflow. The specialized agent workflow is built around a deterministic orchestration layer and a fleet of specialized agents. An Elastic workflow fires when an alert is generated. It enriches the alert with data from 15 or more sources using Elasticsearch Query Language (ES|QL) queries, runs infrastructure checks that close low-risk alerts with no AI cost, and routes the surviving alert to an initial triage agent that makes a first-pass verdict. If the initial triage agent is uncertain, the workflow opens a Kibana case and dispatches a set of specialized agents, each scoped to one domain. The macOS forensics agent knows exactly which tools to use, in what order, with what stop criteria. That methodology is written directly into its system promp
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Inside Elastic InfoSec's agentic SOC: When to inline your agent's skills for a 5× cost reduction
-  - Published: 2026-07-24T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture
-  - Summary: We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below.
-
 ### Cluster 916dc6a487 — score 8
 
 - Title: JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models
@@ -3072,49 +3156,6 @@ JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Te
   - Published: 2026-07-20T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models
   - Summary: JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Team, is now using ransomware to destroy trained AI models.
-
-### Cluster 38eb29d9d7 — score 8
-
-- Title: Major Australian energy supplier confirms customer data compromised
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-23T13:20:00+00:00
-- Link: https://therecord.media/australia-origin-energy-data-breach
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.
-```
-
-#### Full body
-
-```
-A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Major Australian energy supplier confirms customer data compromised
-  - Published: 2026-07-23T13:20:00+00:00
-  - Link: https://therecord.media/australia-origin-energy-data-breach
-  - Summary: Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.
 
 ### Cluster d3be89f12a — score 8
 
@@ -3201,6 +3242,49 @@ Australian energy provider Origin says data breach exposes client data By Bill T
   - Published: 2026-07-23T20:14:35+00:00
   - Link: https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/
   - Summary: Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]
+
+### Cluster 38eb29d9d7 — score 8
+
+- Title: Major Australian energy supplier confirms customer data compromised
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-23T13:20:00+00:00
+- Link: https://therecord.media/australia-origin-energy-data-breach
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.
+```
+
+#### Full body
+
+```
+A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Major Australian energy supplier confirms customer data compromised
+  - Published: 2026-07-23T13:20:00+00:00
+  - Link: https://therecord.media/australia-origin-energy-data-breach
+  - Summary: Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.
 
 ### Cluster cef5a868eb — score 8
 
@@ -3347,53 +3431,6 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close A Russian state
   - Link: https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/
   - Summary: Laundry Bear exploited a zero-day vulnerability for five months before it was patched in November 2025, and the group is still actively exploiting vulnerable environments. The post Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries appeared first on CyberScoop .
 
-### Cluster 1258d35e57 — score 8
-
-- Title: Google gives developers an AI bug hunter that also writes patches
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-07-24T08:53:17+00:00
-- Link: https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: government
-- affected_products: Google/Gemini
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government
-- affected_products: Google/Gemini
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Sinisa Markovic , Managing Editor, Help Net Security July 24, 2026 Share Google gives developers an AI bug hunter that also writes patches Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day risk,” Google said. CodeMender is now available through Gemini Enterprise Agent Platform, using Google’s generally available Gemini models, or as a component of AI Threat Defense, Google’s AI-powered security platform. A separate version paired with Gemini 3.5 Flash Cyber is limited to a small number of governments and trusted partners, with Google planning to expand access over time. Google plans to support third-party frontier models later this year. “We’ve fine-tuned CodeMender’s harness to be continuously updated with the latest Google DeepMind research, including the up-to-date agent skills, security tools, and system prompts,” the company explained. “Operating in the secure-by-design Agent Platform, CodeMender is protected by enterprise-grade, built-in governance and security guardrails, including secure traffic routing through your VPC, data isolation and encryption, and zero retention of source code data,” Google added. How the agent works CodeMender runs in three stages. It first scans repositories for vulnerabilities that static tools often miss, including memory corruption, injection flaws, web security issues, cryptographic weaknesses, and insecure data handling. It supports C/C++, Go, Java, Python, Ruby, Rust, and TypeScript. Second, it tries to confirm a flaw is worth acting on. Rather than stopping at a pattern match, CodeMender builds a proof-of-concept exploit and runs it in a sandbox the customer controls, a step Google says cuts down on false positives. Once a flaw is confirmed, the agent writes a patch and checks it with a model acting as judge, meant to catch cases where a fix breaks something else in the application. The patch reaches a developer as a code diff, and no change reaches a repository without manual approval. When deployed within AI Threat Defense, CodeMender works alongside Wiz to link vulnerabilities with deployment context and trigger automated penetration testing. “CodeMender is a critical step towards a continuous, self-healing agentic software development lifecycle, a future where code is autonomously secured, validated, and patched before it ever hits production,” the company concluded . More about AI code cybersecurity Google vulnerability management Share
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Google gives developers an AI bug hunter that also writes patches
-  - Published: 2026-07-24T08:53:17+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/
-  - Summary: Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .
-
 ### Cluster b849eebcfc — score 8
 
 - Title: Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain
@@ -3475,6 +3512,43 @@ Security Operations Centers (SOCs) serve as a critical line of defense against t
   - Published: 2026-07-22T14:00:00+00:00
   - Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
   - Summary: Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
+
+### Cluster 1258d35e57 — score 8
+
+- Title: Google gives developers an AI bug hunter that also writes patches
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-07-24T08:53:17+00:00
+- Link: https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Google gives developers an AI bug hunter that also writes patches
+  - Published: 2026-07-24T08:53:17+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/
+  - Summary: Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .
 
 ### Cluster 76e10c02ae — score 8
 
