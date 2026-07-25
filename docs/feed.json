@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-07-25T19:17:46.766772+00:00",
+  "generated_at": "2026-07-25T20:59:59.811317+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2268,
+  "total_items": 2263,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -18,12 +11,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -39,12 +32,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -60,11 +53,25 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 1
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
     "SANS Internet Storm Center": {
@@ -81,20 +88,6 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -109,18 +102,18 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 4
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 4
     },
     "Volexity": {
@@ -130,12 +123,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 4
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -151,13 +144,6 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -165,11 +151,18 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 78,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -177,6 +170,13 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -221,6 +221,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -235,26 +242,19 @@
       "item_count": 30,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -298,12 +298,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -312,19 +312,12 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 14
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -332,6 +325,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 14
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -354,26 +354,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -382,8 +368,8 @@
       "item_count": 30,
       "in_window_count": 16
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -401,6 +387,20 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Dark Reading": {
@@ -424,6 +424,13 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Just Security": {
+      "url": "https://www.justsecurity.org/feed/",
+      "cohort": "policy_strategy_geopolitics",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -445,36 +452,8 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Just Security": {
-      "url": "https://www.justsecurity.org/feed/",
-      "cohort": "policy_strategy_geopolitics",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -487,8 +466,36 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -501,13 +508,6 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -515,19 +515,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 23
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 23
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -720,8 +720,8 @@
         "7061b2c39d",
         "07c378186b",
         "b788e3a84d",
-        "5ef02eeb29",
         "86bb601c47",
+        "5ef02eeb29",
         "c68e26f04e"
       ],
       "links": [
@@ -733,61 +733,9 @@
         "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
         "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
         "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-        "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
         "https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365",
+        "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
         "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/"
-      ]
-    },
-    {
-      "label": "CVE-2025-66376 exploitation activity",
-      "anchor_signal": "CVE-2025-66376",
-      "theme_key": "cve-2025-66376",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "apt_espionage",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "APT28"
-        ],
-        "affected_industries": [
-          "government",
-          "financial_services",
-          "manufacturing_industrial",
-          "critical_infrastructure",
-          "education"
-        ],
-        "cve_ids": [
-          "CVE-2025-66376"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 5,
-      "cohesion": 0.565,
-      "shared_strong_signals": [
-        "CVE-2025-66376"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "51bbe21d6c",
-        "332f35118d",
-        "1ff0bf04bf",
-        "abfdfb7a02",
-        "02b144b02f"
-      ],
-      "links": [
-        "https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes",
-        "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-        "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
-        "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
-        "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/"
       ]
     },
     {
@@ -840,6 +788,52 @@
         "https://www.infosecurity-magazine.com/news/researchers-wordpress-exploit/",
         "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
         "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/"
+      ]
+    },
+    {
+      "label": "CVE-2025-66376 exploitation activity",
+      "anchor_signal": "CVE-2025-66376",
+      "theme_key": "cve-2025-66376",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "apt_espionage",
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "affected_industries": [
+          "government",
+          "financial_services",
+          "critical_infrastructure",
+          "education"
+        ],
+        "cve_ids": [
+          "CVE-2025-66376"
+        ],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 4,
+      "cohesion": 0.554,
+      "shared_strong_signals": [
+        "CVE-2025-66376"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "332f35118d",
+        "1ff0bf04bf",
+        "abfdfb7a02",
+        "02b144b02f"
+      ],
+      "links": [
+        "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
+        "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
+        "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
+        "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/"
       ]
     },
     {
@@ -1229,22 +1223,6 @@
         ]
       },
       {
-        "actor": "APT28",
-        "cluster_id": "51bbe21d6c",
-        "new_industries": [
-          "manufacturing_industrial"
-        ],
-        "new_products": [],
-        "prior_top_industries": [
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "prior_top_products": [
-          "Microsoft Entra"
-        ]
-      },
-      {
         "actor": "LockBit",
         "cluster_id": "cfba3767d7",
         "new_industries": [
@@ -1328,6 +1306,36 @@
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+      "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+      "published": "2026-07-25T18:48:44+00:00",
+      "summary": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL. Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "retail_ecommerce"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -1618,7 +1626,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Simon Willison",
@@ -1686,7 +1694,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "OnTrac notifies customers of data breach after network hack By Bill Toulas July 24, 2026 03:55 PM 0 OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. The incident was detected on March 23, and an internal investigation revealed that the attacker accessed certain files between March 20 and 22. Apart from names, it is unclear what type of information was exposed, as the company redacted the data elements in the notification sample shared with authorities. OnTrac is a private American parcel-delivery company specializing in “last-mile” e-commerce deliveries, formed in 2021 from the merger of OnTrac Logistics and LaserShip. The firm operates at 102 locations across 35 states , covering roughly 70% of the U.S. population, and working with more than 7,000 independent delivery contractors. In response to the security incident, OnTrac contracted a third-party specialist to help determine the scope of the breach and took steps to “ensure the data described above was re-secured and not distributed.” This statement suggests a possible agreement between the firm and the attackers, typically a ransom payment, to make sure that the customer information is not leaked. \"We are not aware of any fraud or publication of stolen information resulting from this incident, nor do we have any reason to believe any such misuse of information will occur,\" OnTrac says in the notification. To help exposed customers mitigate the risks that may arise from the exposure of their sensitive data, OnTrac is offering free-of-charge access to a 12-month credit monitoring and identity protection service via CyberScout, with a 90-day enrollment deadline. Recipients of the letter are also recommended to review their credit reports and account statements, and consider placing a free fraud alert or credit freeze if the risk is deemed significant. BleepingComputer has contacted OnTrac to learn more about the attack, the number of impacted clients, and whether a ransom was paid, but we have not heard back by publication time. At the time of writing, no ransomware or data extortion threat groups have taken responsibility for the attack. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Ernst & Young discloses data breach after support system hack Healthtech firm Xolis suffers data breach impacting 1.4 million people Upbound says hack caused $13 million in fraudulent Acima leases Medtronic notifies customers impacted by ShinyHunters data breach LastPass confirms data breach in Klue supply chain attack",
       "fetch_status": "ok"
     },
@@ -1716,7 +1724,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Trend Micro Research",
@@ -1752,7 +1760,7 @@
           "products": []
         }
       },
-      "score": 15,
+      "score": 14,
       "full_body": "arrow_back search close Newsroom Media Coverage Global Press Releases Local Press Releases Stay connected with press releases from Trend teams in your region. Media Contacts Investor Relations TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching As a participant in Anthropic's Cyber Verification Program, TrendAI applies frontier reasoning to convert vulnerability intelligence into faster protection across hybrid environments DALLAS , July 24, 2026 / PRNewswire / -- TrendAI™, the enterprise AI security leader from Trend Micro Incorporated (TYO: 4704; TSE: 4704), today announced it is adopting Claude Opus 5, Anthropic's latest and most capable Opus model, to help security teams convert vulnerability intelligence into immediate protection, from prioritization to virtual patching. The move builds on TrendAI's collaboration with Anthropic on Claude Opus 4.8, extending the same defensive focus to a model that delivers step-change gains in advanced reasoning, agentic workflows, and long-horizon analysis. As AI makes finding vulnerabilities easier than ever, the harder problem becomes protecting organizations faster than software can be permanently patched, and that is where TrendAI is putting Opus 5 to work. As a participant in Anthropic's Cyber Verification Program, which credentials organizations for the defensive use of frontier AI models, TrendAI is positioned to apply Claude Opus 5 to defensive security as access becomes available. The model is Zero Data Retention compatible, supporting TrendAI's governance and data-protection requirements as it scales AI across security operations. The work extends to TrendAI Threat Research, where frontier AI models are combined with our proprietary frontier intelligence engine and human expertise to generate pre-disclosure intelligence. Those insights power TrendAI Vision One™, delivering stronger detection, deeper forensic insights, and proactive protection through virtual patching. Rachel Jin, Chief Platform and Business Officer, Head of TrendAI™: \"With Claude Opus 5, TrendAI can move from vulnerability intelligence to action faster than ever, prioritizing what matters most by exploitability and business impact. Finding the vulnerability was always the hard part. Now the challenge is protecting organizations faster than software can be permanently patched, and frontier reasoning is what changes that equation, extending all the way to virtual patching that protects customers before a vendor fix ships. This is what it means to secure the AI age, fearlessly.\" These capabilities support TrendAI Vision One™ in helping security analysts, AppSec teams, and SOC teams prioritize exposure, map attack paths, and accelerate mitigation, including virtual patching, across hybrid environments, moving vulnerability management from a static scanning process into a faster, context-aware risk mitigation workflow. About TrendAI™ TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk. Trusted by the largest enterprises and governments across 185 countries, TrendAI™ secures the entire organization, from identities, to infrastructure, to data. Global Fortune 500 companies rely on TrendAI™ to cut risk and stop threats up to three months earlier, powered by world-leading threat and attack intelligence. Through deep ecosystem partnerships with market leaders like NVIDIA, Anthropic, AWS, Google, and Microsoft, TrendAI™ empowers your organization to securely drive forward at the speed of AI. AI Fearlessly. Learn more: trendaisecurity.com About Anthropic Anthropic is an AI safety and research company dedicated to building reliable, interpretable, and steerable AI systems. Its Claude family of models, including Claude Opus 5, enables advanced capabilities across a wide range of applications, including code understandi",
       "fetch_status": "ok"
     },
@@ -1855,36 +1863,6 @@
         }
       },
       "score": 3
-    },
-    {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "'Wrench' attacks against crypto holders appear to be on the rise",
-      "link": "https://therecord.media/wrench-attacks-against-cryptocurrency-holders",
-      "published": "2026-07-24T15:55:00+00:00",
-      "summary": "There are more reports than ever before of strong-arm tactics like home invasions and kidnappings against cryptocurrency holders, researchers say.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -3071,7 +3049,7 @@
         }
       },
       "score": 8,
-      "full_body": "Australian energy provider Origin says data breach exposes client data By Bill Toulas July 23, 2026 04:14 PM 0 Australian energy provider Origin Energy has confirmed a data breach by an unknown threat actor that exposed customers' personally identifiable information (PII). The company has 4.8 million customers and is currently investigating how many of them have been impacted to inform them of the risk via individual notifications. Origin Energy is Australia’s largest energy retailer, providing electricity, natural gas, and broadband internet services to millions of clients across the country. The company is listed on the ASX, has annual revenue of $8.5 billion, and holds a 20% ownership stake in the UK’s renewable energy retailer Octopus. Yesterday, Origin announced that it had launched an investigation into “a potential security incident that may involve unauthorized access to some customers’ data.” An update published today confirms a data breach , listing the following data types as potentially exposed: Full name Physical address Date of birth Phone number Account information Last four digits of credit card Last three digits of bank account The company noted that the exposed financial details are “incomplete” and cannot be used to hijack accounts or make unauthorized charges to clients’ bank accounts. Origin CEO, Frank Calabria, apologized to customers for the sensitive data being exposed, and assured them that the company is taking steps to block further unauthorized access. Also, confirmed impacted clients are being contacted directly and offered support via a dedicated portal and related resources. Origin has informed the Australian Federal Police (AFP), the Australian Cyber Security Centre, and the Office of the Australian Information Commissioner about the incident, and continues to engage with the agencies as needed. Hackers claim large-scale data theft Local media outlet 7news reported that before Origin Energy released its second statement, a threat actor identifying as “John Doe” contacted them to claim the breach. The threat actor alleged to be holding the data types for 2 million Origin customers. Threat actor's message to Origin Source: 7news The hacker claimed that they contacted security teams, customer support, and even board executives, without receiving a response. The hacker has set up a site where he threatens to leak the stolen data in two weeks unless Origin contacts them via Signal to negotiate a solution. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Mount Royal University confirms breach as hackers claim attack NAIC says public data stolen in ShinyHunters' PeopleSoft breach 7-Eleven confirms data breach claimed by the ShinyHunters gang Upbound says hack caused $13 million in fraudulent Acima leases Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+      "full_body": "Australian energy provider Origin says data breach exposes client data By Bill Toulas July 23, 2026 04:14 PM 0 Australian energy provider Origin Energy has confirmed a data breach by an unknown threat actor that exposed customers' personally identifiable information (PII). The company has 4.8 million customers and is currently investigating how many of them have been impacted to inform them of the risk via individual notifications. Origin Energy is Australia’s largest energy retailer, providing electricity, natural gas, and broadband internet services to millions of clients across the country. The company is listed on the ASX, has annual revenue of $8.5 billion, and holds a 20% ownership stake in the UK’s renewable energy retailer Octopus. Yesterday, Origin announced that it had launched an investigation into “a potential security incident that may involve unauthorized access to some customers’ data.” An update published today confirms a data breach , listing the following data types as potentially exposed: Full name Physical address Date of birth Phone number Account information Last four digits of credit card Last three digits of bank account The company noted that the exposed financial details are “incomplete” and cannot be used to hijack accounts or make unauthorized charges to clients’ bank accounts. Origin CEO, Frank Calabria, apologized to customers for the sensitive data being exposed, and assured them that the company is taking steps to block further unauthorized access. Also, confirmed impacted clients are being contacted directly and offered support via a dedicated portal and related resources. Origin has informed the Australian Federal Police (AFP), the Australian Cyber Security Centre, and the Office of the Australian Information Commissioner about the incident, and continues to engage with the agencies as needed. Hackers claim large-scale data theft Local media outlet 7news reported that before Origin Energy released its second statement, a threat actor identifying as “John Doe” contacted them to claim the breach. The threat actor alleged to be holding the data types for 2 million Origin customers. Threat actor's message to Origin Source: 7news The hacker claimed that they contacted security teams, customer support, and even board executives, without receiving a response. The hacker has set up a site where he threatens to leak the stolen data in two weeks unless Origin contacts them via Signal to negotiate a solution. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Mount Royal University confirms breach as hackers claim attack NAIC says public data stolen in ShinyHunters' PeopleSoft breach 7-Eleven confirms data breach claimed by the ShinyHunters gang ShinyHunters data leaks fuel $2,000 sextortion email scam Upbound says hack caused $13 million in fraudulent Acima leases",
       "fetch_status": "ok"
     },
     {
@@ -3185,36 +3163,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "International alert spotlights Russia-linked attacks on Zimbra webmail",
-      "link": "https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear",
-      "published": "2026-07-23T16:58:00+00:00",
-      "summary": "A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Orca Security Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -3265,24 +3213,14 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng",
           "zero_day",
           "apt_espionage"
         ],
-        "actor_attribution": [
-          "APT28"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-66376"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
           "zero_day"
@@ -3295,8 +3233,8 @@
         }
       },
       "score": 14,
-      "full_body": "Image: Le Vu via Unsplash International alert spotlights Russia-linked attacks on Zimbra webmail Russian state-aligned hackers have been compromising governmental and commercial organizations throughout the West through zero-click phishing emails, federal agencies in the U.S., U.K., Europe, Australia and New Zealand warned on Thursday. The campaign, carried out by the advanced persistent threat (APT) group Laundry Bear, targets Zimbra Collaboration Suite’s webmail platform and exploits a vulnerability that was patched in November 2025. According to the advisory , the hackers carried out “extensive” targeting of Ukrainian entities before training their sights on U.S. and NATO organizations — evidence of “an increasing trend within Russian cyber threat groups to target Ukrainian users first—both as a priority target and as a testbench for malicious cyber techniques before broader global deployment.” “The covert and persistent nature of this activity, along with the absence of any known financial extortion, almost certainly indicates this group’s involvement in espionage activities with Russian government backing,” the agencies concluded. Palo Alto Networks’ Unit 42, which also published a report Thursday on the campaign, said the hackers targeted the defense and transportation sectors, as well as financial organizations in NATO member states, Ukraine, Commonwealth of Independent States countries and Africa. In its own advisory , Proofpoint said the group had compromised “government, high science, and defense industrial base targets in the United States.” Laundry Bear was first identified in May 2025 by Dutch intelligence agencies, which blamed the group for a series of hacks in the Netherlands, including on the national police. According to Microsoft, it has been active since at least 2024. Previous campaigns involved “unsophisticated” techniques, like password spraying and phishing attempts that required a recipient to click on a link. Since at least July 2025, the group has been deploying a novel exploit against the CVE-2025-66376 vulnerability in which a malicious JavaScript payload is hidden in emails sent from previously compromised email accounts. The payload is executed immediately when the emails are opened. According to the advisory, the hackers have attempted to exfiltrate the last 90 days of emails from a compromised account, passwords, contact lists, two-factor authentication tokens and other passcodes. In March 2026, the cybersecurity firm Seqrite described a zero-click phishing campaign exploiting Zimbra webmail that compromised a Ukrainian maritime agency . They attributed the activity with medium confidence to the Russian APT known as Fancy Bear. Dutch intelligence said Laundry Bear’s tactics “overlap with the modus operandi” of Fancy Bear but that they are different actors. Proofpoint researchers said the campaign reflects other activity in recent years from Russian and Belarusian hackers using cross-site scripting exploits “to pillage webmail servers.” The government agencies implored organizations using the Zimbra webmail service to immediately patch their software and, if patching is not feasible, to direct employees to use a different mail client. Nation-state News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
-      "fetch_status": "ok"
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Proofpoint Threat Insight",
@@ -3739,43 +3677,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Major Australian energy supplier confirms customer data compromised",
-      "link": "https://therecord.media/australia-origin-energy-data-breach",
-      "published": "2026-07-23T13:20:00+00:00",
-      "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare",
-          "financial_services",
-          "government",
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8,
-      "full_body": "A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
-      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -5176,7 +5077,9 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "22 Jul 2026 Active SOC , Blue Team , Incident Response , Informational , InfoSec 101 , SOC Blue Book , Infosec for Beginners , InfoSec Survival Guide , Tom DeJong The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success | Tom DeJong This article was originally published in the InfoSec Survival Guide: Blue Book — SOC Analysts. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security Operations Centers (SOCs) serve as a critical line of defense against today’s constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. Being a SOC analyst is far more than just “investigating alerts.” It’s a high-pressure balancing act that requires triage, incident response, continuous tuning, and collaboration, all while adapting to an ever-changing threat landscape. Core Responsibilities A SOC analyst’s shift typically begins with reviewing any changeover notes made by the previous team. You should also review active incidents, escalations, or any other tasks requiring follow-up. Alert Triage Analysts spend much of their time responding to alerts from tools like SIEM and EDR. Each alert must be reviewed and classified as a true positive, benign activity (false positive), or something needing deeper investigation. Proper triage also involves prioritization based on impact, severity, and asset criticality, and documenting the steps taken and decisions made. Accurate triage sets the foundation for effective response. Incident Response Once an alert is confirmed as a true threat (“true positive”), analysts shift into incident response (IR) mode. This includes isolating affected systems, investigating root causes, documenting Indicators of Compromise (IOCs), and coordinating with IT teams for remediation. Timely and accurate responses can be the difference between minor incidents and major breaches. Tuning and Detection Improvements To remain effective, SOCs must constantly tune out benign behavior (“false positives”) and improve detection logic. This involves refining SIEM rules, suppressing noisy alerts, and creating new detections based on emerging threats. Without proper tuning, analysts risk missing real threats buried in the alert noise. Tuning is essential to making the SOC more resilient and efficient. Collaboration and Documentation SOC analysts frequently collaborate with other teams such as IT, compliance, and engineering. To support this collaboration, it’s essential for analysts to produce clear and thorough documentation. Good documentation tells the full story of an investigation and helps others understand the analyst’s reasoning and the steps taken. A helpful mindset is to write with a new hire in mind: Would they be able to follow your notes, understand your conclusions, and reproduce your findings? Effective communication and documentation are critical for maintaining operational continuity and promoting knowledge sharing across the organization. Daily Challenges Alert Fatigue With numerous log sources feeding into SOC tools, analysts face a flood of alerts. Many of the alerts will be false positives. Investigating these repetitive, low-value events can lead to mental fatigue and mistakes. This is where proper tuning, automation, and risk-based alerting become essential in reducing the noise and focusing on what really matters. Time Pressure & Task Juggling Balancing triage, investigations, tuning, internal projects, and training can be overwhelming. Priorities shift constantly, requiring frequent context-switching. Without structured time management, long-term improvements will be delayed. Blocking off time for projects and professional development is critical to avoid stagnation. Keeping Skills Current Security threats evolve rapidly, and analysts must stay up-to-date on vulnerabilities, attack techniques, and changes in",
+      "fetch_status": "ok"
     },
     {
       "source": "Rapid7",
@@ -7119,40 +7022,6 @@
       "score": 4
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
-      "link": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
-      "published": "2026-07-20T14:33:43+00:00",
-      "summary": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft 365"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Microsoft 365": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -8211,6 +8080,33 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
+      "title": "13 hands-on demos to build on Gemini Enterprise Agent Platform",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform/",
+      "published": "2026-07-17T16:00:00+00:00",
+      "summary": "Earlier this year, we introduced Gemini Enterprise Agent Platform , where you can build, scale, govern, and optimize agents. Today, we’re sharing 13 demos that walk you through what Agent Platform can do. Each one teaches a concept, a pattern, or an architecture you can put to work immediately. The best part? You don't have to follow them step-by-step. Install Agents CLI into your favorite coding agent (Antigravity, Claude Code, Codex, whatever you use) and it instantly gets seven skills that make it an expert in ADK and Agent Platform. Describe what you want to build in plain English, and your coding agent scaffolds, evaluates, deploys, and monitors the agent for you. You’ll never have to leave your editor. Let’s dive in! Build AI agents These demos are all built on the code-first ADK. They start at the foundation and work up. 1. Start here: build your first agent with ADK. The ADK Foundation codelab is your perfect on-ramp. You set up your environment, define a basic conversational a",
+      "author": "Shubham Saboo",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
       "title": "Level Up Your Column-level Security: Using IAM Data Governance Tags in BigQuery",
       "link": "https://cloud.google.com/blog/products/data-analytics/level-up-your-column-level-security-using-iam-data-governance-tags-in-bigquery/",
       "published": "2026-07-17T16:00:00+00:00",
@@ -8235,33 +8131,6 @@
         "role_map": {
           "Google Cloud": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "13 hands-on demos to build on Gemini Enterprise Agent Platform",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform/",
-      "published": "2026-07-17T16:00:00+00:00",
-      "summary": "Earlier this year, we introduced Gemini Enterprise Agent Platform , where you can build, scale, govern, and optimize agents. Today, we’re sharing 13 demos that walk you through what Agent Platform can do. Each one teaches a concept, a pattern, or an architecture you can put to work immediately. The best part? You don't have to follow them step-by-step. Install Agents CLI into your favorite coding agent (Antigravity, Claude Code, Codex, whatever you use) and it instantly gets seven skills that make it an expert in ADK and Agent Platform. Describe what you want to build in plain English, and your coding agent scaffolds, evaluates, deploys, and monitors the agent for you. You’ll never have to leave your editor. Let’s dive in! Build AI agents These demos are all built on the code-first ADK. They start at the foundation and work up. 1. Start here: build your first agent with ADK. The ADK Foundation codelab is your perfect on-ramp. You set up your environment, define a basic conversational a",
-      "author": "Shubham Saboo",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }

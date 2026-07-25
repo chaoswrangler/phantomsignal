@@ -4,11 +4,20 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 25 Jul 2026 19:17:46 +0000</lastBuildDate>
+<lastBuildDate>Sat, 25 Jul 2026 20:59:59 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable</title>
+<link>https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html</link>
+<description><![CDATA[A malvertising operation dubbed SourTrade is making victims&apos; browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL. Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and]]></description>
+<pubDate>Sat, 25 Jul 2026 18:48:44 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Malicious sites use JavaScript to build malware in browser memory</title>
 <link>https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/</link>
@@ -167,15 +176,6 @@
 <category>cloud_identity_infrastructure</category>
 <category>Anthropic/Claude</category>
 <category>Google Cloud</category>
-</item>
-<item>
-<title>&apos;Wrench&apos; attacks against crypto holders appear to be on the rise</title>
-<link>https://therecord.media/wrench-attacks-against-cryptocurrency-holders</link>
-<description><![CDATA[There are more reports than ever before of strong-arm tactics like home invasions and kidnappings against cryptocurrency holders, researchers say.]]></description>
-<pubDate>Fri, 24 Jul 2026 15:55:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/wrench-attacks-against-cryptocurrency-holders</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery</title>
@@ -582,16 +582,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>International alert spotlights Russia-linked attacks on Zimbra webmail</title>
-<link>https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear</link>
-<description><![CDATA[A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 16:58:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure</title>
 <link>https://orca.security/resources/blog/openai-agent-sandbox-escape-hugging-face-breach/</link>
 <description><![CDATA[In a first-of-its-kind security incident, OpenAI’s frontier AI evaluation models autonomously escaped a sandboxed testing environment, discovered and exploited multiple zero-day vulnerabilities, and achieved remote code execution on Hugging Face’s production infrastructure. Due to the unprecedented nature and critical severity of this breach, organizations relying on Hugging Face or similar AI SaaS platforms should immediately […]<br/><br/><em>Tags: OpenAI/ChatGPT · supply_chain · zero_day</em>]]></description>
@@ -606,15 +596,13 @@
 <item>
 <title>Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes</title>
 <link>https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes</link>
-<description><![CDATA[<br/><br/><em>Tags: APT28 · CVE-2025-66376 · ransomware_extortion · phishing_social_eng · zero_day · apt_espionage</em>]]></description>
+<description><![CDATA[<br/><br/><em>Tags: zero_day · apt_espionage</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 16:13:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
-<category>APT28</category>
-<category>CVE-2025-66376</category>
-<category>ransomware_extortion</category>
-<category>phishing_social_eng</category>
+<category>zero_day</category>
+<category>apt_espionage</category>
 </item>
 <item>
 <title>US and allies say Russian hackers stole emails without social engineering</title>
@@ -750,16 +738,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>Anthropic/Claude</category>
 <category>Apple iOS/macOS</category>
-</item>
-<item>
-<title>Major Australian energy supplier confirms customer data compromised</title>
-<link>https://therecord.media/australia-origin-energy-data-breach</link>
-<description><![CDATA[Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 13:20:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/australia-origin-energy-data-breach</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge</title>
@@ -1787,17 +1765,6 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050</title>
-<link>https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html</link>
-<description><![CDATA[A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks<br/><br/><em>Tags: Microsoft 365 · apt_espionage</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 14:33:43 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft 365</category>
-<category>apt_espionage</category>
-</item>
-<item>
 <title>JadePuffer Returns With Ransomware Designed to Wipe AI Models</title>
 <link>https://www.infosecurity-magazine.com/news/jadepuffer-ai-model-ransomware/</link>
 <description><![CDATA[JadePuffer follow-up campaign deployed ENCFORGE locker built to destroy AI model artifacts<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -2130,6 +2097,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>13 hands-on demos to build on Gemini Enterprise Agent Platform</title>
+<link>https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform/</link>
+<description><![CDATA[Earlier this year, we introduced Gemini Enterprise Agent Platform , where you can build, scale, govern, and optimize agents. Today, we’re sharing 13 demos that walk you through what Agent Platform can do. Each one teaches a concept, a pattern, or an architecture you can put to work immediately. The best part? You don&apos;t have to follow them step-by-step. Install Agents CLI into your favorite coding agent (Antigravity, Claude Code, Codex, whatever you use) and it instantly gets seven skills that make it an expert in ADK and Agent Platform. Describe what you want to build in plain English, and your coding agent scaffolds, evaluates, deploys, and monitors the agent for you. You’ll never have to leave your editor. Let’s dive in! Build AI agents These demos are all built on the code-first ADK. They start at the foundation and work up. 1. Start here: build your first agent with ADK. The ADK Foundation codelab is your perfect on-ramp. You set up your environment, define a basic conversational a]]></description>
+<pubDate>Fri, 17 Jul 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Level Up Your Column-level Security: Using IAM Data Governance Tags in BigQuery</title>
 <link>https://cloud.google.com/blog/products/data-analytics/level-up-your-column-level-security-using-iam-data-governance-tags-in-bigquery/</link>
 <description><![CDATA[Many BigQuery customers rely on policy tags for protecting their sensitive information in BigQuery. Policy tags were the go-to solution for applying column-level access controls, allowing only users with the right permission to view sensitive columns like personally identifiable information (PII). It was a robust and effective system — for its time. However, data ecosystems have grown in complexity, and the tools we use to help secure them need to evolve with them. New challenges include creating and managing a taxonomy that supports multiple tags across multiple regions and locations, enabling disaster recovery, and integrating with a broad centralized governance strategy. To help you meet the needs of today’s data ecosystems, we&apos;re excited to introduce the preview of data governance tags in BigQuery . Built on Google Cloud&apos;s Identity and Access Manager’s (IAM) Resource Manager infrastructure, data governance tags provide a scalable, and robust method to help you manage access control<br/><br/><em>Tags: Google Cloud</em>]]></description>
@@ -2138,15 +2114,6 @@
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Google Cloud</category>
-</item>
-<item>
-<title>13 hands-on demos to build on Gemini Enterprise Agent Platform</title>
-<link>https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform/</link>
-<description><![CDATA[Earlier this year, we introduced Gemini Enterprise Agent Platform , where you can build, scale, govern, and optimize agents. Today, we’re sharing 13 demos that walk you through what Agent Platform can do. Each one teaches a concept, a pattern, or an architecture you can put to work immediately. The best part? You don&apos;t have to follow them step-by-step. Install Agents CLI into your favorite coding agent (Antigravity, Claude Code, Codex, whatever you use) and it instantly gets seven skills that make it an expert in ADK and Agent Platform. Describe what you want to build in plain English, and your coding agent scaffolds, evaluates, deploys, and monitors the agent for you. You’ll never have to leave your editor. Let’s dive in! Build AI agents These demos are all built on the code-first ADK. They start at the foundation and work up. 1. Start here: build your first agent with ADK. The ADK Foundation codelab is your perfect on-ramp. You set up your environment, define a basic conversational a]]></description>
-<pubDate>Fri, 17 Jul 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Scattered Spider duo sentenced to prison over TfL hack</title>
@@ -20490,7 +20457,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20499,7 +20466,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20509,7 +20476,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20518,7 +20485,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20527,7 +20494,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20536,7 +20503,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20545,7 +20512,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20554,7 +20521,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20564,7 +20531,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20573,7 +20540,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 19:17:46 +0000</pubDate>
+<pubDate>Sat, 25 Jul 2026 20:59:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
