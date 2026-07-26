@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-25T23:00:31.904961+00:00",
+  "generated_at": "2026-07-26T00:05:32.597089+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2268,
+  "total_items": 2263,
   "feed_status": {
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -18,13 +18,6 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -32,32 +25,18 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 1
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 1
     },
     "Microsoft Threat Intelligence": {
@@ -67,33 +46,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 1
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -102,12 +74,33 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 1
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -123,12 +116,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -137,19 +130,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -172,19 +172,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -228,6 +228,13 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 0
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -235,11 +242,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 30,
+      "item_count": 100,
       "in_window_count": 0
     },
     "AWS Security Blog": {
@@ -249,13 +256,6 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -263,18 +263,11 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Google Cloud Threat Intelligence": {
@@ -283,6 +276,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -298,13 +298,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -312,12 +305,19 @@
       "item_count": 20,
       "in_window_count": 14
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -326,11 +326,18 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 2
     },
     "Chainalysis": {
@@ -340,19 +347,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 2
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -361,12 +361,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 30,
+      "in_window_count": 17
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -374,6 +374,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -389,26 +396,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 17
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
+    "The Record": {
+      "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -417,6 +410,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 24
+    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -424,11 +424,11 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 100,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -438,19 +438,19 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 50
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -459,15 +459,15 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -480,13 +480,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -494,8 +487,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -508,19 +508,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 23
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -529,6 +522,13 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 23
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -536,18 +536,18 @@
       "item_count": 25,
       "in_window_count": 12
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -739,58 +739,6 @@
       ]
     },
     {
-      "label": "CVE-2025-66376 exploitation activity",
-      "anchor_signal": "CVE-2025-66376",
-      "theme_key": "cve-2025-66376",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "apt_espionage",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "APT28"
-        ],
-        "affected_industries": [
-          "government",
-          "financial_services",
-          "manufacturing_industrial",
-          "critical_infrastructure",
-          "education"
-        ],
-        "cve_ids": [
-          "CVE-2025-66376"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 5,
-      "cohesion": 0.565,
-      "shared_strong_signals": [
-        "CVE-2025-66376"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "51bbe21d6c",
-        "332f35118d",
-        "1ff0bf04bf",
-        "abfdfb7a02",
-        "02b144b02f"
-      ],
-      "links": [
-        "https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes",
-        "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-        "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
-        "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
-        "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/"
-      ]
-    },
-    {
       "label": "WordPress exploitation (2 CVEs)",
       "anchor_signal": "WordPress",
       "theme_key": "wordpress",
@@ -840,6 +788,52 @@
         "https://www.reddit.com/r/netsec/comments/1v1fbe1/exploit_brokers_pay_500000_for_a_wordpress_rce_i/",
         "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
         "https://research.checkpoint.com/2026/20th-july-threat-intelligence-report/"
+      ]
+    },
+    {
+      "label": "CVE-2025-66376 exploitation activity",
+      "anchor_signal": "CVE-2025-66376",
+      "theme_key": "cve-2025-66376",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "apt_espionage",
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "affected_industries": [
+          "government",
+          "financial_services",
+          "critical_infrastructure",
+          "education"
+        ],
+        "cve_ids": [
+          "CVE-2025-66376"
+        ],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 4,
+      "cohesion": 0.554,
+      "shared_strong_signals": [
+        "CVE-2025-66376"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "332f35118d",
+        "1ff0bf04bf",
+        "abfdfb7a02",
+        "02b144b02f"
+      ],
+      "links": [
+        "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
+        "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
+        "https://www.helpnetsecurity.com/2026/07/24/laundry-bear-zimbra-vulnerability-cve-2025-66376/",
+        "https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/"
       ]
     },
     {
@@ -1224,22 +1218,6 @@
           "Anthropic/Claude",
           "Salesforce",
           "npm"
-        ]
-      },
-      {
-        "actor": "APT28",
-        "cluster_id": "51bbe21d6c",
-        "new_industries": [
-          "manufacturing_industrial"
-        ],
-        "new_products": [],
-        "prior_top_industries": [
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "prior_top_products": [
-          "Microsoft Entra"
         ]
       },
       {
@@ -1947,36 +1925,6 @@
         }
       },
       "score": 3
-    },
-    {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "'Wrench' attacks against crypto holders appear to be on the rise",
-      "link": "https://therecord.media/wrench-attacks-against-cryptocurrency-holders",
-      "published": "2026-07-24T15:55:00+00:00",
-      "summary": "There are more reports than ever before of strong-arm tactics like home invasions and kidnappings against cryptocurrency holders, researchers say.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -3245,36 +3193,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "International alert spotlights Russia-linked attacks on Zimbra webmail",
-      "link": "https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear",
-      "published": "2026-07-23T16:58:00+00:00",
-      "summary": "A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Orca Security Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -3325,24 +3243,14 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng",
           "zero_day",
           "apt_espionage"
         ],
-        "actor_attribution": [
-          "APT28"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-66376"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
           "zero_day"
@@ -3355,8 +3263,8 @@
         }
       },
       "score": 14,
-      "full_body": "Image: Le Vu via Unsplash International alert spotlights Russia-linked attacks on Zimbra webmail Russian state-aligned hackers have been compromising governmental and commercial organizations throughout the West through zero-click phishing emails, federal agencies in the U.S., U.K., Europe, Australia and New Zealand warned on Thursday. The campaign, carried out by the advanced persistent threat (APT) group Laundry Bear, targets Zimbra Collaboration Suite’s webmail platform and exploits a vulnerability that was patched in November 2025. According to the advisory , the hackers carried out “extensive” targeting of Ukrainian entities before training their sights on U.S. and NATO organizations — evidence of “an increasing trend within Russian cyber threat groups to target Ukrainian users first—both as a priority target and as a testbench for malicious cyber techniques before broader global deployment.” “The covert and persistent nature of this activity, along with the absence of any known financial extortion, almost certainly indicates this group’s involvement in espionage activities with Russian government backing,” the agencies concluded. Palo Alto Networks’ Unit 42, which also published a report Thursday on the campaign, said the hackers targeted the defense and transportation sectors, as well as financial organizations in NATO member states, Ukraine, Commonwealth of Independent States countries and Africa. In its own advisory , Proofpoint said the group had compromised “government, high science, and defense industrial base targets in the United States.” Laundry Bear was first identified in May 2025 by Dutch intelligence agencies, which blamed the group for a series of hacks in the Netherlands, including on the national police. According to Microsoft, it has been active since at least 2024. Previous campaigns involved “unsophisticated” techniques, like password spraying and phishing attempts that required a recipient to click on a link. Since at least July 2025, the group has been deploying a novel exploit against the CVE-2025-66376 vulnerability in which a malicious JavaScript payload is hidden in emails sent from previously compromised email accounts. The payload is executed immediately when the emails are opened. According to the advisory, the hackers have attempted to exfiltrate the last 90 days of emails from a compromised account, passwords, contact lists, two-factor authentication tokens and other passcodes. In March 2026, the cybersecurity firm Seqrite described a zero-click phishing campaign exploiting Zimbra webmail that compromised a Ukrainian maritime agency . They attributed the activity with medium confidence to the Russian APT known as Fancy Bear. Dutch intelligence said Laundry Bear’s tactics “overlap with the modus operandi” of Fancy Bear but that they are different actors. Proofpoint researchers said the campaign reflects other activity in recent years from Russian and Belarusian hackers using cross-site scripting exploits “to pillage webmail servers.” The government agencies implored organizations using the Zimbra webmail service to immediately patch their software and, if patching is not feasible, to direct employees to use a different mail client. Nation-state News Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
-      "fetch_status": "ok"
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Proofpoint Threat Insight",
@@ -3799,43 +3707,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Major Australian energy supplier confirms customer data compromised",
-      "link": "https://therecord.media/australia-origin-energy-data-breach",
-      "published": "2026-07-23T13:20:00+00:00",
-      "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare",
-          "financial_services",
-          "government",
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8,
-      "full_body": "A bird on barbed wire near electricity infrastructure in Adelaide, Australia. Image: Cameron Raynes via Unsplash Major Australian energy supplier confirms customer data compromised An Australian energy company serving nearly 5 million customers announced Thursday that it suffered a data breach and that it is working with federal agencies to investigate. On Wednesday, Sydney-based Origin Energy had said in a brief announcement that it was “investigating a potential security incident” after the news outlet The Australian reported that a purported hacker had sent what they claimed to be a sample of stolen records from the company. In a second update , Origin confirmed that customer data had been compromised and that it is “working to understand the total number of impacted customers.” The data may include account information, the last four digits of credit card numbers and last three digits of bank account numbers, as well as names, addresses and dates of birth. Origin CEO Frank Calabria apologized to customers. “One of our key priorities is taking action to secure our systems and ensure no further unauthorised access,” he said. “We are working with independent cyber experts to support Origin, and that work is continuing alongside the work of authorities.” The breach of Australia’s largest electricity and gas retailer follows the recent compromise of sensitive medical data belonging to a major Australian network of healthcare clinics. Partnered Health confirmed that patients who visited at least 21 clinics may have had medical records stolen in a cyberattack. News Briefs News Cybercrime Industry Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
-      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -5236,7 +5107,9 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "22 Jul 2026 Active SOC , Blue Team , Incident Response , Informational , InfoSec 101 , SOC Blue Book , Infosec for Beginners , InfoSec Survival Guide , Tom DeJong The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success | Tom DeJong This article was originally published in the InfoSec Survival Guide: Blue Book — SOC Analysts. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Security Operations Centers (SOCs) serve as a critical line of defense against today’s constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. Being a SOC analyst is far more than just “investigating alerts.” It’s a high-pressure balancing act that requires triage, incident response, continuous tuning, and collaboration, all while adapting to an ever-changing threat landscape. Core Responsibilities A SOC analyst’s shift typically begins with reviewing any changeover notes made by the previous team. You should also review active incidents, escalations, or any other tasks requiring follow-up. Alert Triage Analysts spend much of their time responding to alerts from tools like SIEM and EDR. Each alert must be reviewed and classified as a true positive, benign activity (false positive), or something needing deeper investigation. Proper triage also involves prioritization based on impact, severity, and asset criticality, and documenting the steps taken and decisions made. Accurate triage sets the foundation for effective response. Incident Response Once an alert is confirmed as a true threat (“true positive”), analysts shift into incident response (IR) mode. This includes isolating affected systems, investigating root causes, documenting Indicators of Compromise (IOCs), and coordinating with IT teams for remediation. Timely and accurate responses can be the difference between minor incidents and major breaches. Tuning and Detection Improvements To remain effective, SOCs must constantly tune out benign behavior (“false positives”) and improve detection logic. This involves refining SIEM rules, suppressing noisy alerts, and creating new detections based on emerging threats. Without proper tuning, analysts risk missing real threats buried in the alert noise. Tuning is essential to making the SOC more resilient and efficient. Collaboration and Documentation SOC analysts frequently collaborate with other teams such as IT, compliance, and engineering. To support this collaboration, it’s essential for analysts to produce clear and thorough documentation. Good documentation tells the full story of an investigation and helps others understand the analyst’s reasoning and the steps taken. A helpful mindset is to write with a new hire in mind: Would they be able to follow your notes, understand your conclusions, and reproduce your findings? Effective communication and documentation are critical for maintaining operational continuity and promoting knowledge sharing across the organization. Daily Challenges Alert Fatigue With numerous log sources feeding into SOC tools, analysts face a flood of alerts. Many of the alerts will be false positives. Investigating these repetitive, low-value events can lead to mental fatigue and mistakes. This is where proper tuning, automation, and risk-based alerting become essential in reducing the noise and focusing on what really matters. Time Pressure & Task Juggling Balancing triage, investigations, tuning, internal projects, and training can be overwhelming. Priorities shift constantly, requiring frequent context-switching. Without structured time management, long-term improvements will be delayed. Blocking off time for projects and professional development is critical to avoid stagnation. Keeping Skills Current Security threats evolve rapidly, and analysts must stay up-to-date on vulnerabilities, attack techniques, and changes in",
+      "fetch_status": "ok"
     },
     {
       "source": "Rapid7",

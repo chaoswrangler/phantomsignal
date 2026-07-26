@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 25 Jul 2026 23:00:32 +0000</lastBuildDate>
+<lastBuildDate>Sun, 26 Jul 2026 00:05:32 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -194,15 +194,6 @@
 <category>cloud_identity_infrastructure</category>
 <category>Anthropic/Claude</category>
 <category>Google Cloud</category>
-</item>
-<item>
-<title>&apos;Wrench&apos; attacks against crypto holders appear to be on the rise</title>
-<link>https://therecord.media/wrench-attacks-against-cryptocurrency-holders</link>
-<description><![CDATA[There are more reports than ever before of strong-arm tactics like home invasions and kidnappings against cryptocurrency holders, researchers say.]]></description>
-<pubDate>Fri, 24 Jul 2026 15:55:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/wrench-attacks-against-cryptocurrency-holders</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery</title>
@@ -599,16 +590,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>International alert spotlights Russia-linked attacks on Zimbra webmail</title>
-<link>https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear</link>
-<description><![CDATA[A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 16:58:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure</title>
 <link>https://orca.security/resources/blog/openai-agent-sandbox-escape-hugging-face-breach/</link>
 <description><![CDATA[In a first-of-its-kind security incident, OpenAI’s frontier AI evaluation models autonomously escaped a sandboxed testing environment, discovered and exploited multiple zero-day vulnerabilities, and achieved remote code execution on Hugging Face’s production infrastructure. Due to the unprecedented nature and critical severity of this breach, organizations relying on Hugging Face or similar AI SaaS platforms should immediately […]<br/><br/><em>Tags: OpenAI/ChatGPT · supply_chain · zero_day</em>]]></description>
@@ -623,15 +604,13 @@
 <item>
 <title>Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes</title>
 <link>https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes</link>
-<description><![CDATA[<br/><br/><em>Tags: APT28 · CVE-2025-66376 · ransomware_extortion · phishing_social_eng · zero_day · apt_espionage</em>]]></description>
+<description><![CDATA[<br/><br/><em>Tags: zero_day · apt_espionage</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 16:13:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
-<category>APT28</category>
-<category>CVE-2025-66376</category>
-<category>ransomware_extortion</category>
-<category>phishing_social_eng</category>
+<category>zero_day</category>
+<category>apt_espionage</category>
 </item>
 <item>
 <title>US and allies say Russian hackers stole emails without social engineering</title>
@@ -767,16 +746,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>Anthropic/Claude</category>
 <category>Apple iOS/macOS</category>
-</item>
-<item>
-<title>Major Australian energy supplier confirms customer data compromised</title>
-<link>https://therecord.media/australia-origin-energy-data-breach</link>
-<description><![CDATA[Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 13:20:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/australia-origin-energy-data-breach</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge</title>
@@ -20506,7 +20475,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20515,7 +20484,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20525,7 +20494,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20534,7 +20503,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20543,7 +20512,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20552,7 +20521,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20561,7 +20530,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20570,7 +20539,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20580,7 +20549,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20589,7 +20558,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 25 Jul 2026 23:00:32 +0000</pubDate>
+<pubDate>Sun, 26 Jul 2026 00:05:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
