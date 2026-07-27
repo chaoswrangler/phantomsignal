@@ -6,9 +6,21 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 27 Jul 2026 21:18:02 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Jul 2026 23:10:35 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Arista patches VeloCloud Orchestrator zero-day exploited in attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/</link>
+<description><![CDATA[Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]<br/><br/><em>Tags: CVE-2026-16812 · zero_day · active_exploitation</em>]]></description>
+<pubDate>Mon, 27 Jul 2026 22:49:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-16812</category>
+<category>zero_day</category>
+<category>active_exploitation</category>
+</item>
 <item>
 <title>New Dysphoria DDoS botnet spreads to 200k devices worldwide</title>
 <link>https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/</link>
@@ -502,6 +514,15 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>apt_espionage</category>
+</item>
+<item>
+<title>2607-secai</title>
+<link>https://www.sophos.com/en-us/blog/2607-secai</link>
+<description><![CDATA[&lt;p&gt;What that means for Customer Protections &lt;/p&gt; Categories: Threat Research, AI Research]]></description>
+<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.sophos.com/en-us/blog/2607-secai</guid>
+<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
@@ -1411,15 +1432,6 @@
 <category>government_authoritative</category>
 </item>
 <item>
-<title>Malware is targeting AI tools in software development environments</title>
-<link>https://cyberscoop.com/sandworm-mode-malware-ai-supply-chain-crowdstrike/</link>
-<description><![CDATA[The worm blends in with thousands of other commands occurring daily in any given environment, yet its intent and origins remain unknown. The post Malware is targeting AI tools in software development environments appeared first on CyberScoop .]]></description>
-<pubDate>Wed, 22 Jul 2026 17:24:46 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/sandworm-mode-malware-ai-supply-chain-crowdstrike/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?</title>
 <link>https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/</link>
 <description><![CDATA[A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.<br/><br/><em>Tags: Linux kernel · OpenAI/ChatGPT</em>]]></description>
@@ -1433,13 +1445,11 @@
 <item>
 <title>If you pay a hacker’s ransom, chances are that they’ll come back for more</title>
 <link>https://www.proofpoint.com/us/newsroom/news/if-you-pay-hackers-ransom-chances-are-theyll-come-back-more</link>
-<description><![CDATA[<br/><br/><em>Tags: LockBit · ransomware_extortion</em>]]></description>
+<description><![CDATA[]]></description>
 <pubDate>Wed, 22 Jul 2026 16:14:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/if-you-pay-hackers-ransom-chances-are-theyll-come-back-more</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
-<category>LockBit</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Real world incident response: Microsoft and AXA XL strengthen cyber resilience</title>
@@ -1608,14 +1618,12 @@
 <item>
 <title>Proofpoint Research Finds 65% of Organizations Affected by Ransomware Say AI Made Attacks More Effective</title>
 <link>https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-research-finds-65-organizations-affected-ransomware-say-ai-made</link>
-<description><![CDATA[<br/><br/><em>Tags: ransomware_extortion · phishing_social_eng · credential_theft</em>]]></description>
+<description><![CDATA[<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Wed, 22 Jul 2026 06:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-research-finds-65-organizations-affected-ransomware-say-ai-made</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
-<category>phishing_social_eng</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library</title>
@@ -2324,15 +2332,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>White House launches AI-driven &quot;Gold Eagle&quot; clearinghouse to centralize public-private vulnerability coordination</title>
-<link>https://www.reddit.com/r/netsec/comments/1uzllm1/white_house_launches_aidriven_gold_eagle/</link>
-<description><![CDATA[The White House recently announced the Gold Eagle Initiative , a new federal program designed to use AI to centralize, prioritize, and accelerate vulnerability patching across critical infrastructure, government agencies, and tech partners. Operating out of CMU&apos;s Software Engineering Institute, it essentially acts as an AI-driven clearinghouse to fix security flaws before threat actors can exploit them. Because let&apos;s face it, our current bug reporting and patching systems are absolute speed demons. It only takes a lifetime 🤦🏻‍♂️ or two to get a critical vulnerability acknowledged and fixed, so why change anything? Btw, my candid opinion about the status of current vulnerability reporting is painfully slow, so we desperately need a framework that actually moves at the speed of the threat landscape. I think this initiative is genuinely a good idea and a step in the right direction, though the announcement is still light on the exact technical implementation. I’m personally eager to see w]]></description>
-<pubDate>Sat, 18 Jul 2026 04:10:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uzllm1/white_house_launches_aidriven_gold_eagle/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>wp2shell: Pre Authentication RCE in WordPress Core</title>
 <link>https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/</link>
 <description><![CDATA[submitted by /u/Mempodipper [link] [comments]<br/><br/><em>Tags: WordPress</em>]]></description>
@@ -2861,15 +2860,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Quoting Linus Torvalds</title>
-<link>https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything</link>
-<description><![CDATA[I realize that some people really dislike AI, but this is an area where I&apos;m willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just walk away. AI is a tool, just like other tools we use. And it&apos;s clearly a useful one. It may not have been that &quot;clearly&quot; even just a year ago, but it&apos;s no longer in question today. There are other questions around AI (like what the economy of it will actually look like in the end), but &quot;is it useful&quot; is no longer one of those questions. Anybody who doubts that clearly hasn&apos;t actually used it. — Linus Torvalds , Linux Media Mailing List Tags: open-source , linus-torvalds , linux , generative-ai , ai , llms]]></description>
-<pubDate>Thu, 16 Jul 2026 13:26:10 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>HelloNet campaign — new malicious modules launched through the ViPNet update system</title>
@@ -10484,16 +10474,6 @@
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/the-iran-war-what-you-need-to-know</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Proof-of-concept exploit available for Linux &apos;Copy Fail&apos; vulnerability (CVE-2026-31431)</title>
-<link>https://www.sophos.com/en-us/blog/proof-of-concept-exploit-available-for-linux-copy-fail-cve-2026-31431</link>
-<description><![CDATA[Categories: Threat Research Tags: advisory, Linux, Copy Fail<br/><br/><em>Tags: CVE-2026-31431</em>]]></description>
-<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.sophos.com/en-us/blog/proof-of-concept-exploit-available-for-linux-copy-fail-cve-2026-31431</guid>
-<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
-<category>detection_response_operations</category>
-<category>CVE-2026-31431</category>
 </item>
 <item>
 <title>Red Agent and Claude Opus: Securing Production Targets at Scale</title>
@@ -20600,29 +20580,11 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>5 High-Impact Use Cases for Falcon Onum</title>
-<link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
-<description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
-<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
-<description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
-<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
+<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
@@ -20630,7 +20592,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20640,7 +20602,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20649,7 +20611,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20658,7 +20620,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20667,7 +20629,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20676,7 +20638,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20685,11 +20647,29 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 21:18:02 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 <category>ai_security</category>
+</item>
+<item>
+<title>How AI-leading Security Teams Are Building the Agentic SOC</title>
+<link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
+<description><![CDATA[]]></description>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>Browser Security: Zero-Days Are Only Part of the Problem</title>
+<link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
+<description><![CDATA[]]></description>
+<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
 </item>
 </channel>
 </rss>

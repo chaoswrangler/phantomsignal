@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-27T21:18:02.733449+00:00
+- Generated: 2026-07-27T23:10:35.751404+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
 - Total items in window: 300
-- Total clusters raw: 156
-- Total clusters in packet: 74
-- Dropped low score: 82
+- Total clusters raw: 157
+- Total clusters in packet: 76
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,26 +80,31 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -110,21 +115,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 20
+  - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -135,46 +140,41 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 5
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 78
+  - Item count: 100
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -200,31 +200,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 1
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -240,25 +240,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -290,41 +290,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 15
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+  - In window count: 15
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 10
+  - In window count: 2
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -350,36 +350,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 22
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 13
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 14
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 21
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 2
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
   - In window count: 2
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -390,33 +400,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,16 +420,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 11
+  - In window count: 12
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 6
-- Article count: 15
+- Article count: 14
 - Cohesion: 0.242
 - Shared strong signals: AWS
 - Member CVEs: (none)
@@ -490,8 +490,8 @@
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
   - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
   - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
-  - https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
+  - https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
   - https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html
   - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
@@ -515,14 +515,14 @@
   - affected_industries: manufacturing_industrial, retail_ecommerce, critical_infrastructure
   - affected_products: PyPI, GitHub, Microsoft 365
   - urgency_signals: zero_day, actively_exploited
-- Cluster IDs: d8d22ce90d, e6a144d2e1, d67c75e81c, 28e41088e6, 452905488c
+- Cluster IDs: d8d22ce90d, e6a144d2e1, d67c75e81c, 452905488c, 28e41088e6
 - Links:
   - https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
   - https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
   - https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/
   - https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/
-  - https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
   - https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/
+  - https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
 
 ### Microsoft SharePoint exploitation (CVE-2026-50522)
 - Anchor signal: Microsoft SharePoint
@@ -550,7 +550,7 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 2
-- Article count: 5
+- Article count: 3
 - Cohesion: 0.463
 - Shared strong signals: WordPress
 - Member CVEs: CVE-2026-60137, CVE-2026-63030
@@ -563,9 +563,7 @@
 - Cluster IDs: 56fb338f87, c4020d76d0
 - Links:
   - https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/
   - https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
-  - https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
   - https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html
 
 ### CVE-2026-16232 exploitation activity
@@ -678,23 +676,6 @@
   - https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/
   - https://www.rapid7.com/blog/post/pt-new-products-services-q2-2026-mdr
 
-### LockBit: ransomware extortion
-- Anchor signal: LockBit
-- Theme key: lockbit
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.846
-- Shared strong signals: LockBit
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion
-  - actor_attribution: LockBit
-- Cluster IDs: cfba3767d7, e0f17bff5a
-- Links:
-  - https://www.proofpoint.com/us/newsroom/news/if-you-pay-hackers-ransom-chances-are-theyll-come-back-more
-  - https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown
-
 ### Google Cloud vulnerability activity
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
@@ -711,17 +692,36 @@
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
   - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
   - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
-  - https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
+  - https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
   - https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html
   - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/
   - https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
 
+### CVE-2026-54121 exploitation activity
+- Anchor signal: CVE-2026-54121
+- Theme key: cve-2026-54121
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.353
+- Shared strong signals: CVE-2026-54121
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-54121
+  - urgency_signals: poc_available
+- Cluster IDs: 4157a024f2, b0b9b5572f
+- Links:
+  - https://www.helpnetsecurity.com/2026/07/27/certighost-cve-2026-54121-poc-exploit-released/
+  - https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/
+  - https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2026-16812 (first seen via BleepingComputer at 2026-07-27T22:49:44+00:00, cluster e1d5f27f6c)
 - Novel actors: 0
 - Novel products: 0
 
@@ -776,11 +776,11 @@
 - cve_ids: CVE-2026-45659 (weeks observed: 5, cluster 7061b2c39d)
 - cve_ids: CVE-2026-12569 (weeks observed: 4, cluster efa5d95ebc)
 - cve_ids: CVE-2026-0257 (weeks observed: 4, cluster 17b63d385b)
+- actor_attribution: LockBit (weeks observed: 4, cluster e0f17bff5a)
 - cve_ids: CVE-2026-50751 (weeks observed: 3, cluster 049863205d)
 - cve_ids: CVE-2026-46331 (weeks observed: 3, cluster 3574a7b873)
 - cve_ids: CVE-2026-50522 (weeks observed: 3, cluster efa5d95ebc)
 - cve_ids: CVE-2026-39987 (weeks observed: 3, cluster 9454090822)
-- actor_attribution: LockBit (weeks observed: 3, cluster cfba3767d7)
 
 ### Tier inversion (2)
 - **PoC exploit released for critical AD CS domain-takeover flaw (CVE-2026-54121)**
@@ -844,15 +844,15 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-16232: Critical Check Point S
   - Link: https://thehackernews.com/2026/07/check-point-patches-exploited.html
   - Summary: Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild. The security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass affecting the Check Point SmartConsole login process that allows an
 
-### Cluster 56fb338f87 — score 55
+### Cluster 56fb338f87 — score 51
 
 - Title: WordPress Core Pre-Auth RCE Chain Exploited in the Wild
 - Source: Orca Security Research (cloud_identity_infrastructure)
 - Published: 2026-07-22T14:48:54+00:00
 - Link: https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: CVE-2026-60137, CVE-2026-63030, WordPress
 
 #### Cluster taxonomy (union across members)
@@ -860,8 +860,8 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-16232: Critical Check Point S
 - affected_products: WordPress
 - cve_ids: CVE-2026-60137, CVE-2026-63030
 - urgency_signals: actively_exploited, critical_cvss, poc_available, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
+- content_type: news_report
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
 - threat_categories: data_breach, active_exploitation
@@ -880,31 +880,21 @@ A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-
 #### Full body
 
 ```
-A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-60137 (CVSS 5.9) was disclosed affecting WordPress Core, allowing attackers to achieve unauthenticated remote code execution via chained REST API batch-route confusion and SQL injection flaws. Due to the potential for full server compromise on default installations, immediate patching is required. About CVE-2026-63030 & CVE-2026-60137 The issue originates from two components in WordPress Core. CVE-2026-63030 is a REST API batch-route confusion flaw in WP_REST_Server::serve_batch_request_v1() introduced in WordPress 6.9, while CVE-2026-60137 is a SQL injection in the author__not_in parameter of WP_Query that lacks proper type validation. By chaining specially crafted /wp-json/batch requests, attackers can forge an administrator account and gain full web-server code execution, potentially leading to persistent backdoors, data exfiltration, and lateral movement across cloud environments. No authentication is required to exploit this issue, and no plugins or special configuration are needed on the target. Affected Systems The following components are affected: WordPress Core versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1 are vulnerable to the full pre-authentication RCE chain. WordPress Core versions 6.8.0 through 6.8.5 are vulnerable to the SQL injection alone, which carries data exposure risk. Default installations released since December 2025 are at risk. Security firm research showed that 60% of WordPress organizations had vulnerable instances at the time of disclosure, dropping to 50% within 24 hours. Sites using persistent object caching (Redis/Memcached) may have narrower exploit pathways, but this is not a comprehensive mitigation. Risk Impact Users should upgrade to WordPress 7.0.2, 6.9.5, or 6.8.6, all released on July 17, 2026. WordPress.org has enabled forced automatic updates for supported installations, but teams should verify updates have been applied successfully. As interim mitigations (not substitutes for patching), defenders can block anonymous access to /wp-json/batch/v1 and ?rest_route=/batch/v1, or disable anonymous REST API access using a trusted plugin. Cloudflare has deployed WAF protections across all plan tiers. At the time of writing, public proof-of-concept exploit code is widely available, and active in-the-wild exploitation has been confirmed by multiple security firms as of July 18-20, 2026. Post-exploitation activity includes malicious plugin uploads for persistence, PHP webshells disguised as fake security plugins, and attempts to read wp-config secrets. Researchers have noted that rapid PoC development was partly aided by AI-assisted patch diffing. Both high-volume opportunistic scanning and targeted attacks have been observed. A high-fidelity detection signal is /wp-json/batch requests returning HTTP 207/200 multi-status responses, and defenders should also check for unexpected administrator accounts, new or modified plugins, and user-agent strings referencing wp2shell tools. Regardless, the severity and ease of exploitation make this vulnerability chain high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to create rogue administrator accounts, execute arbitrary code on the web server, and install persistent backdoors, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable WordPress versions, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Webinar Recap AI on Both Sides: Key Takeaways From Cloud Security LIVE 2026 Jul 22, 2026 Cloud Security Learning Affo
+A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-60137 (CVSS 5.9) was disclosed affecting WordPress Core, allowing attackers to achieve unauthenticated remote code execution via chained REST API batch-route confusion and SQL injection flaws. Due to the potential for full server compromise on default installations, immediate patching is required. About CVE-2026-63030 & CVE-2026-60137 The issue originates from two components in WordPress Core. CVE-2026-63030 is a REST API batch-route confusion flaw in WP_REST_Server::serve_batch_request_v1() introduced in WordPress 6.9, while CVE-2026-60137 is a SQL injection in the author__not_in parameter of WP_Query that lacks proper type validation. By chaining specially crafted /wp-json/batch requests, attackers can forge an administrator account and gain full web-server code execution, potentially leading to persistent backdoors, data exfiltration, and lateral movement across cloud environments. No authentication is required to exploit this issue, and no plugins or special configuration are needed on the target. Affected Systems The following components are affected: WordPress Core versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1 are vulnerable to the full pre-authentication RCE chain. WordPress Core versions 6.8.0 through 6.8.5 are vulnerable to the SQL injection alone, which carries data exposure risk. Default installations released since December 2025 are at risk. Security firm research showed that 60% of WordPress organizations had vulnerable instances at the time of disclosure, dropping to 50% within 24 hours. Sites using persistent object caching (Redis/Memcached) may have narrower exploit pathways, but this is not a comprehensive mitigation. Risk Impact Users should upgrade to WordPress 7.0.2, 6.9.5, or 6.8.6, all released on July 17, 2026. WordPress.org has enabled forced automatic updates for supported installations, but teams should verify updates have been applied successfully. As interim mitigations (not substitutes for patching), defenders can block anonymous access to /wp-json/batch/v1 and ?rest_route=/batch/v1, or disable anonymous REST API access using a trusted plugin. Cloudflare has deployed WAF protections across all plan tiers. At the time of writing, public proof-of-concept exploit code is widely available, and active in-the-wild exploitation has been confirmed by multiple security firms as of July 18-20, 2026. Post-exploitation activity includes malicious plugin uploads for persistence, PHP webshells disguised as fake security plugins, and attempts to read wp-config secrets. Researchers have noted that rapid PoC development was partly aided by AI-assisted patch diffing. Both high-volume opportunistic scanning and targeted attacks have been observed. A high-fidelity detection signal is /wp-json/batch requests returning HTTP 207/200 multi-status responses, and defenders should also check for unexpected administrator accounts, new or modified plugins, and user-agent strings referencing wp2shell tools. Regardless, the severity and ease of exploitation make this vulnerability chain high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to create rogue administrator accounts, execute arbitrary code on the web server, and install persistent backdoors, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable WordPress versions, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning Cloud Security Assessment: A Complete Guide for Security Teams Jul 24, 2026 Cloud Security Le
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (2)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: WordPress Core Pre-Auth RCE Chain Exploited in the Wild
   - Published: 2026-07-22T14:48:54+00:00
   - Link: https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
   - Summary: A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-60137 (CVSS 5.9) was disclosed affecting WordPress Core, allowing attackers to achieve unauthenticated remote code execution via chained REST API batch-route confusion and SQL injection flaws. Due to the potential for full server compromise on default installations, immediate patching is required. About CVE-2026-63030 & CVE-2026-60137 The […]
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CVE-2026-60137 / CVE-2026-63030 | WordPress Core SQL Injection and Pre-Authentication Remote Code Execution Vulnerabilities
-  - Published: 2026-07-20T22:32:11+00:00
-  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/
-  - Summary: CVE-2026-60137 and CVE-2026-63030 can be chained to enable unauthenticated remote code execution against vulnerable WordPress Core installations. Learn how to validate exposure and verify remediation.
 - **Elastic Security Labs** (detection_response_operations)
   - Title: wp2shell hits WordPress: detecting pre-auth RCE from plugin drop to command execution
   - Published: 2026-07-23T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
   - Summary: We ran the wp2shell WordPress RCE chain end-to-end with Elastic Defend. Detection rule walkthrough, IOCs, and hunt guidance.
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: 'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover
-  - Published: 2026-07-20T21:38:18+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
-  - Summary: Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.
 
 ### Cluster 8cda373323 — score 25
 
@@ -960,16 +950,16 @@ Table of contents Technical Overview Affected Systems Risk Impact How Orca Can H
   - Published: 2026-07-27T14:10:54+00:00
   - Link: https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html
   - Summary: Monday starts with the usual promise that everything is under control. Then the logs wake up. This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped. That is the mood. Here is the full recap. ⚡ Threat of the Week OpenAI Says Its AI Agent Went Rogue
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: The first known runaway AI agent - or a very bad marketing stunt?
-  - Published: 2026-07-23T22:53:08+00:00
-  - Link: https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything
-  - Summary: The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code: Hugging Face has an enormous attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams. Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely? Martin points out that: It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budge
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Tech giants form alliance to put open AI in cyber defenders’ hands
   - Published: 2026-07-27T14:43:10+00:00
   - Link: https://www.helpnetsecurity.com/2026/07/27/nvidia-open-secure-ai-alliance/
   - Summary: NVIDIA and a group of tech companies have formed an alliance to promote the use of open AI models in cybersecurity, days after OpenAI disclosed that one of its own AI models breached Hugging Face’s systems during an internal security evaluation. The new group, called the Open Secure AI Alliance, builds on work already underway at the Linux Foundation’s Akrites initiative and the Open Source Security Foundation (OpenSSF). “Open models, like any powerful technology, can … More → The post Tech giants form alliance to put open AI in cyber defenders’ hands appeared first on Help Net Security .
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: The first known runaway AI agent - or a very bad marketing stunt?
+  - Published: 2026-07-23T22:53:08+00:00
+  - Link: https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything
+  - Summary: The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code: Hugging Face has an enormous attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams. Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely? Martin points out that: It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budge
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Rogue OpenAI models were behind the Hugging Face breach
   - Published: 2026-07-22T06:22:01+00:00
@@ -1037,6 +1027,53 @@ Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Googl
   - Link: https://www.helpnetsecurity.com/2026/07/27/google-threat-actors-naming-system/
   - Summary: Google Threat Intelligence Group (GTIG) has started using a new naming system for the threat actors it tracks. The change comes after Mandiant and Google’s Threat Analysis Group (TAG) merged into one unit, leaving the company with two separate naming schemes built up over years. Previously, Mandiant and Google’s Threat Analysis Group maintained separate naming schemes, resulting in a mix of sequential identifiers, such as APT1, and other independently developed names. GTIG says this made … More → The post Google changes how it names cyber threat actors appeared first on Help Net Security .
 
+### Cluster e1d5f27f6c — score 21
+
+- Title: Arista patches VeloCloud Orchestrator zero-day exploited in attacks
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-27T22:49:44+00:00
+- Link: https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- affected_industries: government
+- cve_ids: CVE-2026-16812
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- affected_industries: government
+- cve_ids: CVE-2026-16812
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]
+```
+
+#### Full body
+
+```
+Arista patches VeloCloud Orchestrator zero-day exploited in attacks By Lawrence Abrams July 27, 2026 06:49 PM 0 Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. The vulnerability, tracked as CVE-2026-16812, is an unauthenticated OS command injection flaw with severity scores of 10.0, the maximum score that can be given to flaws. VeloCloud Orchestrator, also known as VCO, is a centralized management platform used to configure, monitor, and manage VeloCloud SD-WAN deployments and associated edge devices. According to an Arista security advisory published Monday, the vulnerability allows remote attackers to access privileged functionality that was intended only for internal use and should not be remotely accessible. "Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator," Arista warned . The company says VCO is supposed to be exposed by default, with no configuration option that can prevent this exposure. Attackers only require network access to the VCO web interface, and no VCO tenant or operator credentials are needed to exploit the flaw. Arista says CVE-2026-16812 was discovered externally and is known to be actively exploited, but has not shared when the attacks began, who is behind them, or how the vulnerability is being exploited. BleepingComputer has contacted the company with these questions. The following VeloCloud Orchestrator on-premises versions are affected: VCO 5.2.x releases before 5.2.3.14 VCO 6.1.x releases before 6.1.3.4 VCO 6.4.x releases before 6.4.2.4 VCO 7.0.x releases before 7.0.0.1 VeloCloud Orchestrator Hosted and Dedicated deployments were patched before the advisory was published and are not affected. VeloCloud Gateway and VeloCloud Edge products are also not vulnerable to the flaw. The company says the flaw is fixed in VCO versions 5.2.3.14, 6.1.3.4, and 6.4.2.4 and later. The affected software list also indicates that VCO 7.0.0.1 and later releases are not vulnerable. Arista warns that end-of-support software versions have not been assessed to determine if they are vulnerable. Customers running unsupported release trains are advised to contact the Arista Technical Assistance Center to discuss available upgrade options. The U.S. Cybersecurity and Infrastructure Security Agency has also added CVE-2026-16812 to its Known Exploited Vulnerabilities catalog, confirming that the flaw is being used in attacks. CISA has ordered U.S. federal civilian executive branch agencies to mitigate the vulnerability by Thursday, July 30, 2026, as required by Binding Operational Directive 22-01. Indicators of compromise While patches are being deployed, administrators should restrict access to the VCO web interface to administrative networks, monitor for connections from known malicious IP addresses, and review recent administrator activity for unusual changes. Arista shared three IP addresses that were seen exploiting the vulnerability: 8.19.75.217 206.72.242.124 206.72.242.162 Administrators are advised to block these IP addresses and review their logs for previous connections. However, it is possible that devices could have been compromised from other IPs, so this list is not definitive. Organizations should review VCO logs for signs of exploitation, including: Unusual web requests containing encoded characters, URL-like path components, references to local or internal services, or abnormally high request rates Connections from known malicious IP addresses Unexpected outbound HTTP or HTTPS traffic from the VCO host Unauthorized configuration changes or privileged maintenance activity Unexpected command execution, file creation, database exports, or archive files Suspicious access to VCO databases, configuration data, device inventories, credentials, certificates, or cryptographic keys If compromise is suspected, orga
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Arista patches VeloCloud Orchestrator zero-day exploited in attacks
+  - Published: 2026-07-27T22:49:44+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
+  - Summary: Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]
+
 ### Cluster 3574a7b873 — score 20
 
 - Title: TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching
@@ -1083,16 +1120,16 @@ arrow_back search close Newsroom Media Coverage Global Press Releases Local Pres
   - Published: 2026-07-24T05:53:48+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
   - Summary: submitted by /u/natcoba [link] [comments]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits
-  - Published: 2026-07-27T10:02:41+00:00
-  - Link: https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
-  - Summary: Binary-based vulnerability scanning, penetration testing, and exploit generation are blocked in Opus 5. The post Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits appeared first on SecurityWeek .
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: Quoting Boris Cherny
   - Published: 2026-07-25T00:42:59+00:00
   - Link: https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - Summary: More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here's that System Card section , page 73 Tags: prompt-injection , anthropic , claude , generative-ai , ai , llms , boris-cherny
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits
+  - Published: 2026-07-27T10:02:41+00:00
+  - Link: https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
+  - Summary: Binary-based vulnerability scanning, penetration testing, and exploit generation are blocked in Opus 5. The post Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files
   - Published: 2026-07-23T13:27:59+00:00
@@ -1283,7 +1320,7 @@ The ShinyHunters extortion gang has claimed responsibility for a recently disclo
 #### Full body
 
 ```
-Ernst & Young data breach claimed by ShinyHunters extortion gang By Lawrence Abrams July 27, 2026 11:12 AM 0 The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. Ernst & Young disclosed the breach earlier this month, saying a third-party support ticket system used by its IT personnel was compromised and support tickets that may contain client tax information were stolen. EY says it detected unusual activity on April 23 and determined that the attacker accessed the platform between March 28 and April 12, downloading multiple documents. "EY uses a third-party information technology service management platform to help EY information technology personnel provide support to EY teams performing tax-related work for clients," reads the EY data breach notification . "Support tickets submitted through the platform may include documents containing client tax information" Th notification goes on to say that the stolen documents contained personal and financial information included in or used to prepare tax filings. However, the company has not disclosed the name of the compromised support system, the specific types of information exposed, or how many people were affected. At the time the breach was disclosed, no ransomware or data extortion group had claimed responsibility for the attack. Today, the ShinyHunters extortion gang added Ernst & Young to its data leak site, claiming it conducted the attack and threatened to release the allegedly stolen data if the company does not contact the group by July 31, 2026. Ernst & Young listed on the ShinyHunters data leak site Source: BleepingComputer The threat actors claimed to BleepingComputer that EY credentials were obtained through a supply-chain attack and used to breach the company. These stolen credentials allegedly allowed them to breach Ernst & Young's Jira, GitHub, and Azure environments. The threat actor would not identify the allegedly compromised third party or disclose what data was stolen. However, it claimed that the information EY acknowledged as compromised was exposed, along with more data. BleepingComputer has no way to verify the threat actor's claims independently, and Ernst & Young has not confirmed that ShinyHunters was behind the attack. BleepingComputer contacted Ernst & Young again Monday morning to ask whether ShinyHunters was behind the attack and whether the company had received an extortion demand from the group. We also asked EY to identify the compromised support system and disclose how many people were affected by the breach. Ernst & Young previously said it secured its systems, removed the unauthorized access, and notified federal law enforcement. Affected clients are being offered 24 months of identity monitoring and restoration services through Experian. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: NAIC says public data stolen in ShinyHunters' PeopleSoft breach ShinyHunters data leaks fuel $2,000 sextortion email scam Abbott probes two cyber incidents amid extortion claims Medtronic notifies customers impacted by ShinyHunters data breach Kodak confirms data breach claimed by ShinyHunters extortion gang
+Ernst & Young data breach claimed by ShinyHunters extortion gang By Lawrence Abrams July 27, 2026 11:12 AM 0 The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. Ernst & Young disclosed the breach earlier this month, saying a third-party support ticket system used by its IT personnel was compromised and support tickets that may contain client tax information were stolen. EY says it detected unusual activity on April 23 and determined that the attacker accessed the platform between March 28 and April 12, downloading multiple documents. "EY uses a third-party information technology service management platform to help EY information technology personnel provide support to EY teams performing tax-related work for clients," reads the EY data breach notification . "Support tickets submitted through the platform may include documents containing client tax information" The notification goes on to say that the stolen documents contained personal and financial information included in or used to prepare tax filings. However, the company has not disclosed the name of the compromised support system, the specific types of information exposed, or how many people were affected. At the time the breach was disclosed, no ransomware or data extortion group had claimed responsibility for the attack. Today, the ShinyHunters extortion gang added Ernst & Young to its data leak site, claiming it conducted the attack and threatened to release the allegedly stolen data if the company does not contact the group by July 31, 2026. Ernst & Young listed on the ShinyHunters data leak site Source: BleepingComputer The threat actors claimed to BleepingComputer that EY credentials were obtained through a supply-chain attack and used to breach the company. These stolen credentials allegedly allowed them to breach Ernst & Young's Jira, GitHub, and Azure environments. The threat actor would not identify the allegedly compromised third party or disclose what data was stolen. However, it claimed that the information EY acknowledged as compromised was exposed, along with more data. BleepingComputer has no way to verify the threat actor's claims independently, and Ernst & Young has not confirmed that ShinyHunters was behind the attack. BleepingComputer contacted Ernst & Young again Monday morning to ask whether ShinyHunters was behind the attack and whether the company had received an extortion demand from the group. We also asked EY to identify the compromised support system and disclose how many people were affected by the breach. Ernst & Young previously said it secured its systems, removed the unauthorized access, and notified federal law enforcement. Affected clients are being offered 24 months of identity monitoring and restoration services through Experian. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: NAIC says public data stolen in ShinyHunters' PeopleSoft breach ShinyHunters data leaks fuel $2,000 sextortion email scam Abbott probes two cyber incidents amid extortion claims Medtronic notifies customers impacted by ShinyHunters data breach Kodak confirms data breach claimed by ShinyHunters extortion gang
 ```
 
 #### Corroborating sources (1)
@@ -1993,7 +2030,7 @@ Cyberattacks & Data Breaches Cyber Risk Application Security Vulnerabilities & T
 - Published: 2026-07-27T16:15:44+00:00
 - Link: https://aws.amazon.com/blogs/security/announcing-the-cloud-security-alliance-on-aws-compliance-guide/
 - Fetch status: ok
-- Member count: 4
+- Member count: 3
 - Corroborating source count: 2
 - Strong signals: AWS
 
@@ -2081,49 +2118,6 @@ Threat Research Center Threat Research Cybercrime Cybercrime Russian Global Webm
   - Link: https://unit42.paloaltonetworks.com/russian-webmail-espionage/
   - Summary: Unit 42 details a Russian cyberespionage campaign targeting Zimbra webmail servers using JavaScript injection to steal credentials. The post Russian Global Webmail Espionage appeared first on Unit 42 .
 
-### Cluster de2a131113 — score 10
-
-- Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-07-22T16:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
-  - Published: 2026-07-22T16:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
-  - Summary: Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
-
 ### Cluster 7200b1bf11 — score 10
 
 - Title: Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?
@@ -2166,6 +2160,49 @@ AI Research Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon M
   - Published: 2026-07-22T16:55:29+00:00
   - Link: https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/
   - Summary: A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.
+
+### Cluster de2a131113 — score 10
+
+- Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-07-22T16:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Cyber incidents don’t wait—and effective response can’t either. In the age of AI where cyber incidents unfold at machine speed, having the right partnerships in place becomes paramount. While AI is expanding what’s possible, navigating this transformation can be challenging to do alone. That’s why our collaboration with AXA XL is so important—bringing Microsoft Defender Experts Cybersecurity Incident Response services directly to cyber insurance policyholders at the moment it matters most, helping organizations coordinate technical, business, and insurance decisions in parallel rather than in sequence. Get started with Microsoft Defender Experts Cybersecurity Incident Response This collaboration reflects Microsoft’s continued investment in building an incident response model designed for real-world conditions, where speed, trust, and alignment matter as much as technology. In a live incident, security, executive, legal, and insurance teams are all acting at once. Without pre-established coordination, those parallel efforts can slow containment and increase risk. Our approach to incident response—and our work with AXA XL —starts by aligning those paths before a crisis begins. For example, during a ransomware incident, security teams may be actively containing lateral movement while leadership evaluates operational impact, legal teams assess disclosure requirements, and insurers determine coverage pathways—all within the same window of time. When those decisions aren’t aligned, response slows and risk compounds. Decades of supporting customers through high-stakes cyber incidents have reinforced a clear truth: effective incident response extends beyond technical execution. It requires coordination across teams and partners before the crisis hits. That experience continues to shape how we design Defender Experts Cybersecurity Incident Response—and how we work with partners like AXA XL. Incident response must extend beyond technology As a global insurance provider, AXA XL plays a critical role in helping organizations navigate cyber risk and response. Through this collaboration, AXA XL policyholders gain coordinated access to Microsoft’s dedicated incident response teams—combining threat containment, restoration, and recovery with insurance, legal, and regulatory workflows. By aligning AXA XL’s cyber insurance capabilities with Defender Experts Cybersecurity Incident Response, organizations benefit from a more integrated response model while gaining access to incident response teams informed by Microsoft Threat Intelligence and two decades of experience responding to some of the world’s most complex and consequential cyber incidents. Previously, organizations often brought incident responders and insurers together in the middle of a crisis. With this collaboration, that relationship is already in place, reducing friction, delays, and uncertainty when time is most critical. AXA XL policyholders and Microsoft customers can now bring Defender Experts Cybersecurity Incident Response to the table the moment it matters—creating a clearer, more predictable path from detection to recovery. The outcome is not simply faster response, but confidence: knowing who to call, how response engages, and how recovery is operationalized before the next decision becomes urgent. The threat of a cybersecurity incident has long been ‘not if, but when,’ and in the wake of AI, the ‘when’ may quickly become ‘how often.’ The risks organizations are tasked with preventing and overcoming relative to cybersecurity and data privacy are growing exponentially. Partnering with experts can make all the difference where resilience in the face of adversity may be your only saving grace. AXA XL’s strategic partnerships with cyber incident response providers underscore our commitment to expertise, preparedness, and resilience. By drawing on a deep knowledge of internal expertise and external cyber specialists, we empower our insureds to re
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Real world incident response: Microsoft and AXA XL strengthen cyber resilience
+  - Published: 2026-07-22T16:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/
+  - Summary: Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world incident response: Microsoft and AXA XL strengthen cyber resilience appeared first on Microsoft Security Blog .
 
 ### Cluster 542fdf33c7 — score 10
 
@@ -2566,54 +2603,46 @@ Coca-Cola on Monday confirmed that the recent ransomware attack on its dairy pro
   - Link: https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/
   - Summary: The Anubis cybercrime group has taken credit for the attack and is threatening to leak data. The post Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack appeared first on SecurityWeek .
 
-### Cluster 28e41088e6 — score 10
+### Cluster e8dbc4eb0f — score 10
 
-- Title: DentaQuest Data Breach Potentially Impacts Over 23 Million People
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-27T09:34:12+00:00
-- Link: https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
+- Title: JetStream Security enables on-demand shutdown of compromised AI agents
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-07-27T13:32:58+00:00
+- Link: https://www.helpnetsecurity.com/2026/07/27/jetstream-ai-kill-switch/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, ransomware_extortion, supply_chain, zero_day
-- actor_attribution: ShinyHunters
-- affected_industries: critical_infrastructure, government
-- affected_products: GitHub, Microsoft 365, PyPI
-- urgency_signals: zero_day
+- affected_industries: government
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, credential_theft, zero_day, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: government, critical_infrastructure
-- affected_products: Microsoft 365, GitHub, PyPI
-- urgency_signals: zero_day
+- affected_industries: government
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network. The post DentaQuest Data Breach Potentially Impacts Over 23 Million People appeared first on SecurityWeek .
+JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI … More → The post JetStream Security enables on-demand shutdown of compromised AI agents appeared first on Help Net Security .
 ```
 
 #### Full body
 
 ```
-Dental and vision benefits administrator DentaQuest is notifying millions of people that their personal and dental health information might have been stolen in a data breach. The incident was discovered on May 20, and DentaQuest’s investigation determined that the hackers had access to the organization’s network between May 17 and May 20. During the timeframe, the attackers accessed information such as names, addresses, Social Security numbers, member identification numbers, Medicaid and Medicare numbers, benefits provider names, diagnosis, treatment details, and billing information. DentaQuest is providing the affected individuals with 24 months of free credit monitoring, fraud consultation, and identity theft restoration services, the benefits administrator writes in an incident notice . Based on filings with Attorney General’s Offices in Texas, Massachusetts, and South Carolina, DentaQuest is sending written notification letters to at least 4.5 million people. According to the HIPAA Journal, more than 23.4 million individuals were potentially impacted by the data breach, and DentaQuest reportedly confirmed that at least 15 million were affected. Advertisement. Scroll to continue reading. While the organization has not shared details on the threat actor behind the attack, the infamous extortion group ShinyHunters claimed responsibility for the incident and leaked roughly 234 GB of data allegedly stolen from the dental benefits administrator. The leaked information, data breach notification website HaveIBeenPwned said in early June, also included email addresses, phone numbers, dates of birth, and government-issued IDs. A Sun Life subsidiary serving 35 million people in 50 states, DentaQuest is one of the largest administrators of dental benefits in the US. Related: MCBS Data Breach Affects 1.2 Million Individuals Related: Data Breach Confirmed After Australian Energy Giant Origin Is Hacked Related: Chick-fil-A Accounts Get Fried in Credential Stuffing Attack Related: Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire StrongestLayer Raises $4.1 Million in Seed Funding Extension Endpoint Security Firm Glow Launches With $180M in Funding at $1.2B Valuation Empirical Security Raises $25 Million in Series A Funding New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Clover Health Investments Discloses Data Breach Zimbra Update Patches Critical Vulnerabilities OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Latest News New GitHub, PyPI Policies Boost Supply Chain Security PTC Windchill Vulnerability Exploited in Ransomware Campaign MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection Nvidia and Tech Giants Launch AI Security Alliance Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Beelzebub Raises $3.4 Million for Hacker-Trapping Platform What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap July 22, 2026 Join this live webinar as we explore why exploitation is outpacing remediation, where risk is growing fastest, and what security leaders can do to close the gap before attackers take advantage. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps
+Industry News July 27, 2026 Share JetStream Security enables on-demand shutdown of compromised AI agents JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI systems are becoming increasingly capable and as evidenced by the recent OpenAI/Hugging Face incident, can cause significant collateral damage as they seek to attain their goals in ways that we cannot predict. This new reality means that every organization needs to have the ability to continuously monitor its AI systems and have the ability to precisely halt malicious actions using a kill switch. “Not being able to stop a runaway AI system without impacting other production systems is one of the chief reasons companies hold back on AI,” said JetStream Security CEO, Raj Rajamani . “Only 17% of organizations are running AI at production scale, held back by a lack of trust and control rather than by the models. The AI Kill Switch™ failsafe frankly reduces our customers’ anxiety. If one system goes wrong, they stop that one and everything else keeps running.” To provide this level of precision, JetStream factors together the individual who invoked the action, the agentic identity that carries it out, the intent of the system as inferred from its AI Blueprint and historic actions, and the individual product owner accountable for that agent. Access entitlements are mapped out in JetStream AI Blueprints so that every agentic action is traceable back to a responsible owner, enabling the Kill Switch to revoke exactly the right access and shut off the correct components in one pinpointed action. Because each agent’s authority is carried by its own entitlements, the AI Kill Switch affects the single agent alone, and these actions are reversible. JetStream furthers the building of trust by recording every action made by every actor with a corresponding timestamp that gives organizations a defensible account for post-incident review. That record matters beyond the incident itself. It gives companies something boards, auditors, and a growing body of AI regulation increasingly ask for: proof that a person can halt an AI system on demand, and clear evidence of who stopped it and why. “Regulators and standards bodies have quietly converged on something most enterprises haven’t caught up to which is if you can’t stop an AI agent, you don’t control it. The EU AI Act now requires a way to bring a high-risk system to a safe halt, and both the NIST AI Risk Management Framework and ISO/IEC 42001 expect organizations to be able to disengage or shut down AI that operates outside its approved boundaries. A stop button is no longer a ‘nice-to-have’, it’s the line between AI you govern and AI that’s governing itself.” Share
 ```
 
 #### Corroborating sources (1)
 
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: DentaQuest Data Breach Potentially Impacts Over 23 Million People
-  - Published: 2026-07-27T09:34:12+00:00
-  - Link: https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
-  - Summary: In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network. The post DentaQuest Data Breach Potentially Impacts Over 23 Million People appeared first on SecurityWeek .
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: JetStream Security enables on-demand shutdown of compromised AI agents
+  - Published: 2026-07-27T13:32:58+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/27/jetstream-ai-kill-switch/
+  - Summary: JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI … More → The post JetStream Security enables on-demand shutdown of compromised AI agents appeared first on Help Net Security .
 
 ### Cluster 361cf175a3 — score 10
 
@@ -2659,47 +2688,6 @@ Threat Intelligence Vulnerabilities & Threats Cyber Risk Commentary Adversaries 
   - Published: 2026-07-27T17:31:18+00:00
   - Link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
   - Summary: Confidence in autonomous security tools is declining, and here's why.
-
-### Cluster e8dbc4eb0f — score 10
-
-- Title: JetStream Security enables on-demand shutdown of compromised AI agents
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-07-27T13:32:58+00:00
-- Link: https://www.helpnetsecurity.com/2026/07/27/jetstream-ai-kill-switch/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI … More → The post JetStream Security enables on-demand shutdown of compromised AI agents appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Industry News July 27, 2026 Share JetStream Security enables on-demand shutdown of compromised AI agents JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI systems are becoming increasingly capable and as evidenced by the recent OpenAI/Hugging Face incident, can cause significant collateral damage as they seek to attain their goals in ways that we cannot predict. This new reality means that every organization needs to have the ability to continuously monitor its AI systems and have the ability to precisely halt malicious actions using a kill switch. “Not being able to stop a runaway AI system without impacting other production systems is one of the chief reasons companies hold back on AI,” said JetStream Security CEO, Raj Rajamani . “Only 17% of organizations are running AI at production scale, held back by a lack of trust and control rather than by the models. The AI Kill Switch™ failsafe frankly reduces our customers’ anxiety. If one system goes wrong, they stop that one and everything else keeps running.” To provide this level of precision, JetStream factors together the individual who invoked the action, the agentic identity that carries it out, the intent of the system as inferred from its AI Blueprint and historic actions, and the individual product owner accountable for that agent. Access entitlements are mapped out in JetStream AI Blueprints so that every agentic action is traceable back to a responsible owner, enabling the Kill Switch to revoke exactly the right access and shut off the correct components in one pinpointed action. Because each agent’s authority is carried by its own entitlements, the AI Kill Switch affects the single agent alone, and these actions are reversible. JetStream furthers the building of trust by recording every action made by every actor with a corresponding timestamp that gives organizations a defensible account for post-incident review. That record matters beyond the incident itself. It gives companies something boards, auditors, and a growing body of AI regulation increasingly ask for: proof that a person can halt an AI system on demand, and clear evidence of who stopped it and why. “Regulators and standards bodies have quietly converged on something most enterprises haven’t caught up to which is if you can’t stop an AI agent, you don’t control it. The EU AI Act now requires a way to bring a high-risk system to a safe halt, and both the NIST AI Risk Management Framework and ISO/IEC 42001 expect organizations to be able to disengage or shut down AI that operates outside its approved boundaries. A stop button is no longer a ‘nice-to-have’, it’s the line between AI you govern and AI that’s governing itself.” Share
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: JetStream Security enables on-demand shutdown of compromised AI agents
-  - Published: 2026-07-27T13:32:58+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/27/jetstream-ai-kill-switch/
-  - Summary: JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI … More → The post JetStream Security enables on-demand shutdown of compromised AI agents appeared first on Help Net Security .
 
 ### Cluster fa1ef247b7 — score 10
 
@@ -2994,6 +2982,47 @@ Not everything our honeypots detect is an attack. Sometimes it is just "odd traf
   - Link: https://isc.sans.edu/diary/rss/33172
   - Summary: Not everything our honeypots detect is an attack. Sometimes it is just "odd traffic", and this is one example: Our "First Seen" list currently includes "http://detectportal.firefox.co m/success.txt" as one of the new URLs detected by our honeypots. The hostname "detectportal" kind of gives away what is happening here.
 
+### Cluster 1bd9009eca — score 9
+
+- Title: 2607-secai
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-07-27T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/2607-secai
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government, legal_professional
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_industries: government, legal_professional
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research
+```
+
+#### Full body
+
+```
+Why Sophos Has Become Its Own AI Test Lab What that means for Customer Protections Written by Ross McKerchar Threat Research AI Research Share This Link Copied Every security vendor will tell you about the AI in their products. Far fewer will tell you how their own people use AI — which agents run in their engineering pipelines, what data those agents can touch, and who decided that was acceptable. That second conversation, in our view, is as important. When you onboard a vendor, you don't just inherit their software; you inherit their judgment. So here is how Sophos adopts AI internally: how we think about the risks, how we govern them, and where we're still learning. Why we run at the leading edge It would be easy for a security company to be the cautious one — to let others make the mistakes and write up the lessons afterwards. We've deliberately taken the opposite position: for Sophos, the greater risk is standing still . Our customers are deploying AI agents in production now. If we want to keep protecting them, we have to understand the risks firsthand — ideally before they encounter them. We run AI in production because you cannot defend against what you've never operated. The prompt-injection paths, the over-privileged tool calls, the non-human identities that quietly accumulate access — these only become intuitive once you've run agents against real work, watched them fail, and instrumented the failures. It's why we point agentic tooling at our own estate before anyone else's: we've let an autonomous agent framework loose on an internal network to see what it could reach, used frontier models to hunt for vulnerabilities in our own products before adversaries get the same uplift, and rethought what bug bounties look like when AI finds the bugs . Everything we learn improves the detections we ship and shapes where the product roadmap goes next, in order to support our customers. This holds for the whole company, but doubly for the security team. If a security team can't work out how to adopt AI safely and quickly, it's hard to see who will. A CISO organisation that bans what it doesn't understand risks understanding very little within a couple of years. And with an AI-accelerated vulnerability flood already arriving , the defenders who've built that understanding will be the ones who cope. How we think about risk: a compass, not a checklist Running at the front without judgment is just recklessness. Internally, our risk philosophy fits on a page and is summed up in six words: take smarter risks, deliver faster, earn trust . The core of it is a distinction between good risks and bad ones. Good risks have meaningful upside, a contained blast radius, a reversible path, a named owner, and a hypothesis we'll actually learn from. Bad risks have unbounded harm, no recovery plan, unclear ownership — or they skip human judgment: automated or agentic changes that directly touch customers without sufficient oversight are a bad risk regardless of the upside on offer. Most decisions don't announce themselves as either. So we map every bet onto a simple compass — two axes: upside (high or low) and downside (contained or unbounded). Figure 1: Sophos’ risk compass The reality is that most of today's agentic AI bets start in the top-right quadrant: high upside, unbounded downside. The discipline is to shrink the blast radius until they move left: read-only before write, internal before customer-facing, one workflow before a fleet. The work is in the de-risking, not the gatekeeping. Around the compass sit five non-negotiables — customer trust, safety, security, privacy, and operational stability — with legal and compliance woven through each. Being uncompromising about those is precisely what lets us be aggressive everywhere else. When you evaluate any vendor's AI posture, this is the structure worth looking for: a clear framework for saying yes, anchored by explicit boundaries for saying no. The AI Safety Board: governance at the speed
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: 2607-secai
+  - Published: 2026-07-27T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/2607-secai
+  - Summary: <p>What that means for Customer Protections </p> Categories: Threat Research, AI Research
+
 ### Cluster d78beff971 — score 9
 
 - Title: Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%
@@ -3256,6 +3285,55 @@ GitHub and the Python Package Index (PyPI) have introduced new policies meant to
   - Link: https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/
   - Summary: Dependabot gets a three-day cooldown window before opening pull requests, and PyPI rejects file uploads to releases older than 14 days. The post New GitHub, PyPI Policies Boost Supply Chain Security appeared first on SecurityWeek .
 
+### Cluster 28e41088e6 — score 9
+
+- Title: DentaQuest Data Breach Potentially Impacts Over 23 Million People
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-27T09:34:12+00:00
+- Link: https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach, ransomware_extortion, supply_chain, zero_day
+- actor_attribution: ShinyHunters
+- affected_industries: critical_infrastructure, government
+- affected_products: GitHub, Microsoft 365, PyPI
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, credential_theft, zero_day, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: government, critical_infrastructure
+- affected_products: Microsoft 365, GitHub, PyPI
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network. The post DentaQuest Data Breach Potentially Impacts Over 23 Million People appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Dental and vision benefits administrator DentaQuest is notifying millions of people that their personal and dental health information might have been stolen in a data breach. The incident was discovered on May 20, and DentaQuest’s investigation determined that the hackers had access to the organization’s network between May 17 and May 20. During the timeframe, the attackers accessed information such as names, addresses, Social Security numbers, member identification numbers, Medicaid and Medicare numbers, benefits provider names, diagnosis, treatment details, and billing information. DentaQuest is providing the affected individuals with 24 months of free credit monitoring, fraud consultation, and identity theft restoration services, the benefits administrator writes in an incident notice . Based on filings with Attorney General’s Offices in Texas, Massachusetts, and South Carolina, DentaQuest is sending written notification letters to at least 4.5 million people. According to the HIPAA Journal, more than 23.4 million individuals were potentially impacted by the data breach, and DentaQuest reportedly confirmed that at least 15 million were affected. Advertisement. Scroll to continue reading. While the organization has not shared details on the threat actor behind the attack, the infamous extortion group ShinyHunters claimed responsibility for the incident and leaked roughly 234 GB of data allegedly stolen from the dental benefits administrator. The leaked information, data breach notification website HaveIBeenPwned said in early June, also included email addresses, phone numbers, dates of birth, and government-issued IDs. A Sun Life subsidiary serving 35 million people in 50 states, DentaQuest is one of the largest administrators of dental benefits in the US. Related: MCBS Data Breach Affects 1.2 Million Individuals Related: Data Breach Confirmed After Australian Energy Giant Origin Is Hacked Related: Chick-fil-A Accounts Get Fried in Credential Stuffing Attack Related: Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire StrongestLayer Raises $4.1 Million in Seed Funding Extension Endpoint Security Firm Glow Launches With $180M in Funding at $1.2B Valuation Empirical Security Raises $25 Million in Series A Funding New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack Clover Health Investments Discloses Data Breach Zimbra Update Patches Critical Vulnerabilities OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability Latest News New GitHub, PyPI Policies Boost Supply Chain Security PTC Windchill Vulnerability Exploited in Ransomware Campaign MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection Nvidia and Tech Giants Launch AI Security Alliance Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Beelzebub Raises $3.4 Million for Hacker-Trapping Platform What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Closing the Exploitation Gap July 22, 2026 Join this live webinar as we explore why exploitation is outpacing remediation, where risk is growing fastest, and what security leaders can do to close the gap before attackers take advantage. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: DentaQuest Data Breach Potentially Impacts Over 23 Million People
+  - Published: 2026-07-27T09:34:12+00:00
+  - Link: https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
+  - Summary: In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network. The post DentaQuest Data Breach Potentially Impacts Over 23 Million People appeared first on SecurityWeek .
+
 ### Cluster bcd8bf40a8 — score 9
 
 - Title: From C2 Detection to Possible Victim Identification
@@ -3416,30 +3494,18 @@ Developers & Practitioners Generosity Under Conditions: Hardening Google Cloud A
 - Source: Proofpoint Threat Insight (detection_response_operations)
 - Published: 2026-07-22T16:14:27+00:00
 - Link: https://www.proofpoint.com/us/newsroom/news/if-you-pay-hackers-ransom-chances-are-theyll-come-back-more
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: government, healthcare
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: healthcare, government
 - content_type: news_report
 - confidence_tier: tier_2_operator
-
-#### Full body
-
-```
-Governments have long warned not to pay a hacker’s ransom demands, arguing that doing so only lets criminals profit from their cyberattacks and funds the next one. There’s also another reason: The hackers are unlikely to leave you alone if you pay up once, and many will come back demanding more. In a report published Wednesday, cybersecurity giant Proofpoint said it surveyed 953 companies and found that over one-third of companies that paid a hacker’s ransom were hit with a second extortion demand. The findings underscore the long-held understanding among security researchers and network defenders that it’s impossible to negotiate in good faith with an extortion racket because there’s no incentive for the other side to actually walk away. Proofpoint’s data shows that ransomware attacks and extortion attacks have evolved from a single transaction where hackers would get paid once and move on, into an effort using multiple forms of leverage, such as retaining stolen data under the threat of publicly releasing it. While hackers have claimed in the past that they will delete or destroy the victim’s stolen data, past incidents have shown that not to be the case. Last month, a hack at market research firm Klue exposed data belonging to its customers , including several cybersecurity firms. The company said it struck a deal with the hackers, who claimed to have deleted the data, but the company later conceded that a separate hacking group swiped a sample of the company’s stolen data, leaving its customers exposed to potential future extortion demands . A similar situation befell Change Healthcare in 2024, after a Russian-speaking ransomware gang stole the health and medical data of the majority of people in America, some 192 million people. Amid a dispute between the hackers and their affiliates (criminal groups often subcontract out attacks), Change Healthcare paid separate ransoms to both groups of criminals to keep the sensitive medical data off of the internet. Security researchers have long suspected that ransomware gangs and extortion rackets will keep hold of the victim’s stolen data, even after a payment is made. U.K. law enforcement confirmed this during their takedown efforts targeting the prolific LockBit ransomware gang in 2024 . Police said that they found victims’ stolen data stored on LockBit’s servers long after they had paid the ransom. Topics cyberattack , ransomware , Security When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Zack Whittaker Security Editor Zack Whittaker is the security editor at TechCrunch. He also authors the weekly cybersecurity newsletter, this week in security . He can be reached via encrypted message at zackwhittaker.1337 on Signal. You can also contact him by email, or to verify outreach, at zack.whittaker@techcrunch.com . View Bio October 13 – 15 San Francisco Scale faster. Grow your portfolio. Gain practical expertise. No matter your goal, Disrupt can empower you. Save up to $330 toda y! REGISTER NOW Most Popular SpaceX launches new V3 Starlink satellites but suffers another booster failure Sean O'Kane Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M Marina Temkin US accuses American of allegedly wiping his phone using a ‘duress’ password during border search Zack Whittaker Anduril reportedly in talks to raise funding at $100B valuation, more than 3x last year’s mark Ram Iyer Tesla’s robotaxis are moving in reverse Sean O'Kane Light made a flip phone — it’s colorful and it’s cheap Amanda Silberling AI music generator Suno breach affects 55M users, per Have I Been Pwned Zack Whittaker
-```
 
 #### Corroborating sources (1)
 
@@ -3454,26 +3520,20 @@ Governments have long warned not to pay a hacker’s ransom demands, arguing tha
 - Source: Proofpoint Threat Insight (detection_response_operations)
 - Published: 2026-07-22T06:06:41+00:00
 - Link: https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-research-finds-65-organizations-affected-ransomware-say-ai-made
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion
+- threat_categories: ransomware_extortion
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft
+- threat_categories: ransomware_extortion
 - content_type: news_report
 - confidence_tier: tier_2_operator
-
-#### Full body
-
-```
-News Center Proofpoint Research Finds 65% of Organizations Affected by Ransomware Say AI Made Attacks More Effective Proofpoint Research Finds 65% of Organizations Affected by Ransomware Say AI Made Attacks More Effective July 22, 2026 Global study reveals that AI is amplifying phishing, impersonation and credential theft, transforming ransomware into a human-centric extortion problem 40% of organizations said employees trusted AI-powered attacks, while 38% interacted with malicious content. More than one-third (34%) of attacks began with phishing emails or other email-based social engineering. More than two-thirds of victims had data stolen, and 37% of those who paid faced additional ransom demands. SUNNYVALE, Calif., July 22, 2026 – Proofpoint, Inc. , a global leader in human- and agent-centric security, today released its 2026 AI-Era Ransomware Report , revealing that artificial intelligence is making ransomware significantly more successful by helping attackers create more convincing phishing, impersonation and credential theft campaigns. The global study found that nearly two-thirds (65%) of global organizations affected by ransomware said AI increased the effectiveness of the attack, reinforcing a broader shift in which ransomware increasingly succeeds by exploiting people, identities and trusted communications. Based on a survey of 953 cybersecurity professionals across 12 countries, the research shows that modern ransomware has evolved beyond an encryption event into a sustained extortion campaign. Attackers are increasingly stealing credentials and sensitive data before deploying ransomware, using trusted communications to gain initial access and applying continued pressure through repeated extortion demands. "AI hasn't fundamentally changed ransomware, but it has materially improved the attacks that lead to ransomware," said Ryan Kalember, Chief Strategy Officer at Proofpoint. "Today's attackers are using AI to create highly convincing phishing emails, malware components like scripts, and credential theft campaigns that exploit human trust at scale. Organizations that continue treating ransomware and data extortion as endpoint or recovery problems are missing what these attacks most frequently begin with: people, identities and trusted communications." Key global findings from Proofpoint’s 2026 AI-Era Ransomware Report include: People are the primary ransomware attack surface, and AI is making it worse. With AI, attackers can create more convincing phishing lures, write more targeted impersonation messages, and do faster reconnaissance of organizational structures and message patterns. Among the global organizations that experienced a ransomware attack, 28% said that AI significantly increased the attack’s effectiveness. Another 37% said that it somewhat increased effectiveness. Combined, 65% said AI made the attack more effective. Only 9% reported no evidence of AI use at all. The leading entry methods are all human-dependent. When organizations identified the primary point of entry for their ransomware incident, the results pointed overwhelmingly to human interaction. Phishing emails and other email-based social engineering attacks were the initial entry vector in 34% of incidents. Malicious links (47%) were identified as the most common initial threat, followed by malicious attachments (46%), credential harvesting (36%), and Business Email Compromise (35%). This demonstrates that today's most successful ransomware campaigns continue to rely on trusted communications and user interaction throughout the attack lifecycle. Payment leads to escalation, not resolution. Despite years of guidance from law enforcement and security agencies advising against payment, more than half (54%) of affected organizations paid a ransom. Yet, more than one-third (37%) of those that paid faced a second extortion demand, highlighting ransomware's evolution from a single payment event into an ongoing negotiation in which attackers hold m
-```
 
 #### Corroborating sources (1)
 
@@ -3762,39 +3822,6 @@ A cyberattack on a food and logistics firm disrupts the supply of frozen food to
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain
   - Summary: A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.
 
-### Cluster 6490abfb48 — score 8
-
-- Title: The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-07-22T14:00:00+00:00
-- Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success
-  - Published: 2026-07-22T14:00:00+00:00
-  - Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
-  - Summary: Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
-
 ### Cluster dc50a74ec5 — score 8
 
 - Title: n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process
@@ -3866,6 +3893,39 @@ A Russian state-supported espionage group spent months reading Western mailboxes
   - Published: 2026-07-23T18:36:08+00:00
   - Link: https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
   - Summary: A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published
+
+### Cluster 6490abfb48 — score 8
+
+- Title: The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-07-22T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success
+  - Published: 2026-07-22T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
+  - Summary: Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster ac9cea3220 — score 8
 
