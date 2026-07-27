@@ -6,9 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 26 Jul 2026 22:08:23 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Jul 2026 00:06:33 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Sponsored: How AI is putting pressure on EDR</title>
+<link>https://risky.biz/RBNEWSSI137/</link>
+<description><![CDATA[In this sponsored interview James Wilson chats with Airlock Digital co-founders David Cottingham and Daniel Schell about how attackers are using LLMs to enumerate EDR detections. LLMs dramatically reduce the time and specialist labour needed to extract rulesets out of EDR products. What once might have taken months of manual reversing can now be accelerated by “burning tokens”. The takeaway is that defenders increasingly need to assume attackers have visibility into how their endpoint security products work.]]></description>
+<pubDate>Sun, 26 Jul 2026 22:39:34 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWSSI137/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+</item>
 <item>
 <title>An Inside Look at the Relay Market Powering Token Resellers and Fraud</title>
 <link>https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything</link>
@@ -18,25 +27,6 @@
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Anyone using an EASM platform that doesn&apos;t induce major alert fatigue?</title>
-<link>https://www.reddit.com/r/sysadmin/comments/1v77u0p/anyone_using_an_easm_platform_that_doesnt_induce/</link>
-<description><![CDATA[We&apos;re finally replacing the patchwork of Shodan searches and spreadsheets we&apos;ve been using to track our external attack surface. We&apos;re a multi-cloud environment with a couple of acquired companies, so new internet-facing assets seem to appear every month. The biggest issue isn&apos;t finding things, it&apos;s figuring out what actually matters. We&apos;ve demoed a few of the usual vendors and everyone claims better discovery, better prioritization, better everything. Hard to separate marketing from reality. If you&apos;ve deployed an EASM platform, what did you end up with and would you choose it again? submitted by /u/pastoral_brice [link] [comments]]]></description>
-<pubDate>Sun, 26 Jul 2026 15:59:58 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/sysadmin/comments/1v77u0p/anyone_using_an_easm_platform_that_doesnt_induce/</guid>
-<source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>Anyone ditching legacy phishing tools for modern platforms? What&apos;s working for you?</title>
-<link>https://www.reddit.com/r/sysadmin/comments/1v77nhu/anyone_ditching_legacy_phishing_tools_for_modern/</link>
-<description><![CDATA[Everyone passes the static email templates because they are obvious, the mandatory compliance video modules have atrocious completion rates and people just mute them anyway also the admin overhead to constantly tweak templates and report to leadership is higher than it hould be. We are looking to move to something that does multi channel testing ( Email, voice, SMS) and provides micro training. Any suggestions!? submitted by /u/Training_Leave_5433 [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Sun, 26 Jul 2026 15:53:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/sysadmin/comments/1v77nhu/anyone_ditching_legacy_phishing_tools_for_modern/</guid>
-<source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
-<category>reddit_practitioner_osint</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)</title>
@@ -200,15 +190,6 @@
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Known state actor knocking the door with an expired token, causing user to get marked High Risk repeatedly</title>
-<link>https://www.reddit.com/r/sysadmin/comments/1v5nny4/known_state_actor_knocking_the_door_with_an/</link>
-<description><![CDATA[Looking for any input on this one. Honestly, I feel like our team is missing something obvious here. Pardon if this feels like amateur hour... I am indeed an amateur. An employee&apos;s M365 account was compromised back in April, we got the alert right away - revoked sessions, cycled passwords, MFA, etc. Things are all good for a few months. Come this week, we start seeing failing login attempts on that account using expired tokens, happening every 30 minutes to a few hours. I wouldn&apos;t think this to be that unusual at all for threat actors, but because the IP of the sign-in is associated with a known State Actor, Microsoft instantly marks the user as High Risk. Obviously, this is by design and a good thing. The user is safe, and nobody is getting past the front door. And our CA policies beyond that would stop them even if the sign-in attempt was successful. But since MS sees this IP and says &quot;hey this is from particularly nasty bad guys&quot; and marks them as High Risk even for failed attempt, ]]></description>
-<pubDate>Fri, 24 Jul 2026 20:51:39 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/sysadmin/comments/1v5nny4/known_state_actor_knocking_the_door_with_an/</guid>
-<source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>OnTrac notifies customers of data breach after network hack</title>
@@ -467,11 +448,12 @@
 <item>
 <title>Google gives developers an AI bug hunter that also writes patches</title>
 <link>https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/</link>
-<description><![CDATA[Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .<br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .<br/><br/><em>Tags: Google/Gemini · zero_day</em>]]></description>
 <pubDate>Fri, 24 Jul 2026 08:53:17 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
+<category>Google/Gemini</category>
 <category>zero_day</category>
 </item>
 <item>
@@ -555,16 +537,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>The best-funded companies open the most phishing attachments</title>
-<link>https://www.helpnetsecurity.com/2026/07/24/phishing-simulation-benchmark-report/</link>
-<description><![CDATA[An employee gets an email dressed as a password reset. She clicks the link, types her credentials into a page built to copy her company’s login screen, and moves on with her morning. She tells no one. That silence is the exposure. Across 13.9 million simulated phishing messages, one in ten recipients flagged the attempt to their security team. The rest let it through, and a live attacker needs only one of them. John Wilson, … More → The post The best-funded companies open the most phishing attachments appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 05:00:30 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/24/phishing-simulation-benchmark-report/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Risky Bulletin: Western cyber agencies warn of Russian hacks of Zimbra servers</title>
@@ -1946,22 +1918,20 @@
 <item>
 <title>Threat Hunting: A Guide | Recorded Future</title>
 <link>https://www.recordedfuture.com/blog/cyber-threat-hunting</link>
-<description><![CDATA[Master modern cyber threat hunting by embracing real-time threat intelligence. Discover the elite tools, steps, and frameworks to expose hidden adversaries.<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Master modern cyber threat hunting by embracing real-time threat intelligence. Discover the elite tools, steps, and frameworks to expose hidden adversaries.]]></description>
 <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/cyber-threat-hunting</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-<category>apt_espionage</category>
 </item>
 <item>
 <title>JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models</title>
 <link>https://webflow.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models</link>
-<description><![CDATA[JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Team, is now using ransomware to destroy trained AI models.<br/><br/><em>Tags: CVE-2025-3248 · ransomware_extortion</em>]]></description>
+<description><![CDATA[JADEPUFFER, the agentic threat actor documented by the Sysdig Threat Research Team, is now using ransomware to destroy trained AI models.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-<category>CVE-2025-3248</category>
 <category>ransomware_extortion</category>
 </item>
 <item>
@@ -2488,7 +2458,7 @@
 <item>
 <title>Cloud CISO Perspectives: How AI leverages deep context as the defender’s advantage</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/</link>
-<description><![CDATA[Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f5d4a5517f0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, ]]></description>
+<description><![CDATA[Welcome to the first Cloud CISO Perspectives for July 2026. Today, Francis deSouza, COO, Google Cloud and President, Security Products, explains the crucial role that deep context plays in creating an AI advantage for defenders. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7feb4bb81430&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How AI leverages deep context as the defender’s advantage By Francis deSouza, COO, Google Cloud and President, ]]></description>
 <pubDate>Thu, 16 Jul 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-ai-leverages-deep-context-defenders-advantage/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -3284,15 +3254,6 @@
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/authenticate-legitimate-ai-agent-traffic-with-aws-waf-bot-control/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Patch Tuesday Megathread - (July 14, 2026)</title>
-<link>https://www.reddit.com/r/sysadmin/comments/1uw9kba/patch_tuesday_megathread_july_14_2026/</link>
-<description><![CDATA[Hello r/sysadmin , I&apos;m u/AutoModerator , and welcome to this month&apos;s Patch Megathread! This is the ( mostly ) safe location to talk about the latest patches, updates, and releases. We put this thread into place to help gather all the information about this month&apos;s updates: What is fixed, what broke, what got released and should have been caught in QA, etc. We do this both to keep clutter out of the subreddit, and provide you, the dear reader, a singular resource to read. For those of you who wish to review prior Megathreads , you can do so here . While this thread is timed to coincide with Microsoft&apos;s Patch Tuesday , feel free to discuss any patches, updates, and releases, regardless of the company or product. NOTE: This thread is usually posted before the release of Microsoft&apos;s updates, which are scheduled to come out at 5:00PM UTC. Remember the rules of safe patching: Deploy to a test/dev environment before prod. Deploy to a pilot/test group before the whole org. Have a plan to roll ]]></description>
-<pubDate>Tue, 14 Jul 2026 14:01:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/sysadmin/comments/1uw9kba/patch_tuesday_megathread_july_14_2026/</guid>
-<source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Chainalysis Supports Stable with Automatic Token Support</title>
@@ -9971,6 +9932,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -9979,15 +9949,6 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
-</item>
-<item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -12702,15 +12663,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-agents</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Between Two Nerds: Its raining iOS exploit kits!</title>
-<link>https://risky.biz/BTN159/</link>
-<description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq discuss how Google just keeps on finding iOS exploit kits. Is iPhone security busted? And why are Russian state hackers after crypto? This episode is also available on Youtube.]]></description>
-<pubDate>Mon, 23 Mar 2026 08:08:21 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/BTN159/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>TeamPCP expands: Supply chain compromise spreads from Trivy to Checkmarx GitHub Actions</title>
@@ -20553,7 +20505,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20562,7 +20514,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20572,7 +20524,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20581,7 +20533,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20590,7 +20542,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20599,7 +20551,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20608,7 +20560,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20617,7 +20569,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20627,7 +20579,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20636,7 +20588,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 26 Jul 2026 22:08:23 +0000</pubDate>
+<pubDate>Mon, 27 Jul 2026 00:06:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
