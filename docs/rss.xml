@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 28 Jul 2026 16:45:23 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jul 2026 18:20:02 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -19,6 +19,38 @@
 <category>offensive_vulnerability_research</category>
 <category>zero_day</category>
 <category>active_exploitation</category>
+</item>
+<item>
+<title>vBulletin fixes critical pre-auth RCE flaw with public exploit</title>
+<link>https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/</link>
+<description><![CDATA[A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]<br/><br/><em>Tags: Microsoft SharePoint · CVE-2026-61511 · zero_day · active_exploitation</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 18:08:50 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>CVE-2026-61511</category>
+<category>zero_day</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>FBI sees Anthropic’s Mythos as a law enforcement challenge</title>
+<link>https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/</link>
+<description><![CDATA[The post FBI sees Anthropic’s Mythos as a law enforcement challenge appeared first on CyberScoop .<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 17:18:29 +0000</pubDate>
+<guid isPermaLink="true">https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+</item>
+<item>
+<title>&apos;Certighost&apos; Flaw Haunts Microsoft Active Directory Certificates</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates</link>
+<description><![CDATA[Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.]]></description>
+<pubDate>Tue, 28 Jul 2026 16:38:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>ColdFusion Under Fire: Breaking Down CVE-2026-48283 and CVE-2026-48313</title>
@@ -978,6 +1010,16 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>CFP Open – Looking for Technical AI &amp; Security Research for Après Slopes Summit 2027</title>
+<link>https://www.reddit.com/r/netsec/comments/1v6grho/cfp_open_looking_for_technical_ai_security/</link>
+<description><![CDATA[I&apos;m helping organize Après-Cyber Slopes Summit 2027 , and our CFP is now open. We&apos;re particularly interested in technical presentations and original research involving AI and modern cybersecurity. Topics we&apos;re hoping to see include: AI red teaming LLM security Prompt injection research Agent security Offensive tooling Detection engineering Reverse engineering Malware analysis Cloud exploitation and defense Identity attacks Threat intelligence AI-assisted security tooling Novel attack techniques Defensive research We especially appreciate talks that include demonstrations, technical depth, or research that attendees can reproduce themselves. Conference: February 24–26, 2027 Location: Park City, Utah CFP: https://sessionize.com/apres-cyber-slopes-summit-2027 Conference website: https://www.aprescyber.com Happy to answer questions about the CFP or conference. submitted by /u/PilotSmooth9439 [link] [comments]<br/><br/><em>Tags: ai_security</em>]]></description>
+<pubDate>Sat, 25 Jul 2026 18:59:32 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v6grho/cfp_open_looking_for_technical_ai_security/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>ai_security</category>
+</item>
+<item>
 <title>Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable</title>
 <link>https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html</link>
 <description><![CDATA[A malvertising operation dubbed SourTrade is making victims&apos; browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL. Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and]]></description>
@@ -994,17 +1036,6 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>ShinyHunters data leaks fuel $2,000 sextortion email scam</title>
-<link>https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/</link>
-<description><![CDATA[Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]<br/><br/><em>Tags: ShinyHunters · ransomware_extortion</em>]]></description>
-<pubDate>Sat, 25 Jul 2026 14:16:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>ShinyHunters</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available</title>
@@ -1327,17 +1358,6 @@
 <pubDate>Thu, 23 Jul 2026 18:36:08 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/russian-espionage-group-exploited.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>zero_day</category>
-<category>apt_espionage</category>
-</item>
-<item>
-<title>Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries</title>
-<link>https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/</link>
-<description><![CDATA[Laundry Bear exploited a zero-day vulnerability for five months before it was patched in November 2025, and the group is still actively exploiting vulnerable environments. The post Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries appeared first on CyberScoop .<br/><br/><em>Tags: zero_day · apt_espionage</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 17:33:37 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
 <category>zero_day</category>
 <category>apt_espionage</category>
@@ -1996,6 +2016,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Representing OpenSSF at AfricaCyberFest</title>
+<link>https://openssf.org/blog/2026/07/21/representing-openssf-at-africacyberfest/</link>
+<description><![CDATA[Open source software is playing an important role in Africa&apos;s digital growth. Across the continent, more organizations, developers, and communities are adopting open source to build technology and solve local challenges.]]></description>
+<pubDate>Tue, 21 Jul 2026 17:41:23 +0000</pubDate>
+<guid isPermaLink="true">https://openssf.org/blog/2026/07/21/representing-openssf-at-africacyberfest/</guid>
+<source url="https://openssf.org/feed/">OpenSSF Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Do more with AWS WAF labels using dynamic label interpolation</title>
 <link>https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/</link>
 <description><![CDATA[AWS WAF classifies web traffic by attaching metadata to each request it evaluates. Managed rule groups such as AWS WAF Bot Control and AWS WAF Fraud Control account takeover prevention (ATP) attach labels that describe what they found. A label can record that a request came from a known bot category or that it matched […]<br/><br/><em>Tags: AWS</em>]]></description>
@@ -2406,15 +2435,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Making highly available, multi-region Cloud Run services just got easier</title>
-<link>https://cloud.google.com/blog/products/serverless/cloud-run-multi-region-services-enhanced-for-high-availability/</link>
-<description><![CDATA[Application downtime for mission-critical services can directly impact your reputation and bottom line. To avoid that, you need to be able to deploy regionally resilient workloads that detect and automatically recover from failures. But setting up multi-region, highly available deployments often involves complex configurations, and responding to incidents or outages is usually a manual process. Multi-region services on Cloud Run provide a one-command approach to deploying the same service configuration across multiple regions. When deployed with a global external application load balancer, you can serve traffic from different regions. Now, we’ve made it easier to detect regional service disruptions and automatically fail over to a healthy region within seconds with new capabilities: Readiness probes provide instance-level health checks for your Cloud Run service to determine exactly when your containers are ready to serve traffic. You can also use these probes to monitor how many healt]]></description>
-<pubDate>Mon, 20 Jul 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/serverless/cloud-run-multi-region-services-enhanced-for-high-availability/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Kimi K3: The open-weights escalation</title>
 <link>https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation</link>
 <description><![CDATA[The global implications on the AI ecosystem.]]></description>
@@ -2635,15 +2655,6 @@
 <category>CVE-2026-63030</category>
 </item>
 <item>
-<title>Pixels to Payload: Dissecting a Four-Stage Bitmap-Steganography Dropper Delivering AsyncRAT :: Rhys Downing</title>
-<link>https://www.reddit.com/r/netsec/comments/1v01uhq/pixels_to_payload_dissecting_a_fourstage/</link>
-<description><![CDATA[submitted by /u/SpectreTv [link] [comments]]]></description>
-<pubDate>Sat, 18 Jul 2026 17:26:14 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v01uhq/pixels_to_payload_dissecting_a_fourstage/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>SQLite Query Explainer</title>
 <link>https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything</link>
 <description><![CDATA[Tool: SQLite Query Explainer Julia Evan&apos;s, in Learning a few things about running SQLite : Maybe one day I’ll learn to read a query plan. Big same.... which inspired me to have Fable build this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in the browser and adds a layer of explanation to the results of both EXPLAIN and EXPLAIN QUERY PLAN. Approach with caution, since I don&apos;t know enough about SQLite query plans to verify the results myself, but it seems cromulent enough to me. Tags: sql , sqlite , tools , julia-evans , pyodide , claude-mythos-fable]]></description>
@@ -2669,25 +2680,6 @@
 <guid isPermaLink="true">https://simonwillison.net/2026/Jul/18/quixote/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>wp2shell: Pre Authentication RCE in WordPress Core</title>
-<link>https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/</link>
-<description><![CDATA[submitted by /u/Mempodipper [link] [comments]<br/><br/><em>Tags: WordPress</em>]]></description>
-<pubDate>Sat, 18 Jul 2026 01:13:16 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>WordPress</category>
-</item>
-<item>
-<title>Keeping private namespaces private - Quad9 blog</title>
-<link>https://www.reddit.com/r/netsec/comments/1uzhprd/keeping_private_namespaces_private_quad9_blog/</link>
-<description><![CDATA[submitted by /u/nicholashairs [link] [comments]]]></description>
-<pubDate>Sat, 18 Jul 2026 01:00:57 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1uzhprd/keeping_private_namespaces_private_quad9_blog/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>New North Korean campaign uses fake coding interviews to steal developer credentials</title>
@@ -2812,15 +2804,6 @@
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>13 hands-on demos to build on Gemini Enterprise Agent Platform</title>
-<link>https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform/</link>
-<description><![CDATA[Earlier this year, we introduced Gemini Enterprise Agent Platform , where you can build, scale, govern, and optimize agents. Today, we’re sharing 13 demos that walk you through what Agent Platform can do. Each one teaches a concept, a pattern, or an architecture you can put to work immediately. The best part? You don&apos;t have to follow them step-by-step. Install Agents CLI into your favorite coding agent (Antigravity, Claude Code, Codex, whatever you use) and it instantly gets seven skills that make it an expert in ADK and Agent Platform. Describe what you want to build in plain English, and your coding agent scaffolds, evaluates, deploys, and monitors the agent for you. You’ll never have to leave your editor. Let’s dive in! Build AI agents These demos are all built on the code-first ADK. They start at the foundation and work up. 1. Start here: build your first agent with ADK. The ADK Foundation codelab is your perfect on-ramp. You set up your environment, define a basic conversational a]]></description>
-<pubDate>Fri, 17 Jul 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Scattered Spider duo sentenced to prison over TfL hack</title>
@@ -3684,15 +3667,6 @@
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>Scattered Spider</category>
-</item>
-<item>
-<title>Frontier AI: The Genie&apos;s Out of the Bottle, but Where&apos;s the Rulebook?</title>
-<link>https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook</link>
-<description><![CDATA[Cutting-edge artificial intelligence models are deploying with more independence and less human oversight. Several state governments are trying to legislate transparency in their use.]]></description>
-<pubDate>Tue, 14 Jul 2026 16:02:39 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Canada’s Electronic Spy Agency Conducted Cyberattacks on Criminals Brokering Fentanyl Ingredients, Report Says</title>
@@ -5936,15 +5910,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>What the June 2026 Threat Technique Catalog update means for your AWS environment</title>
-<link>https://aws.amazon.com/blogs/security/what-the-june-2026-threat-technique-catalog-update-means-for-your-aws-environment/</link>
-<description><![CDATA[The AWS Customer Incident Response Team (AWS CIRT) encounters patterns that repeat across engagements when helping customers respond to security incidents. We’re passionate about making sure that information is accessible so that everyone can improve their security posture and their organization’s resilience to disruption. The primary method we use to share this information is the […]]]></description>
-<pubDate>Mon, 29 Jun 2026 19:30:59 +0000</pubDate>
-<guid isPermaLink="true">https://aws.amazon.com/blogs/security/what-the-june-2026-threat-technique-catalog-update-means-for-your-aws-environment/</guid>
-<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)</title>
 <link>https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/</link>
 <description><![CDATA[Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather than the thing keeping people out, and<br/><br/><em>Tags: CVE-2026-8037</em>]]></description>
@@ -7272,15 +7237,6 @@
 <description><![CDATA[Senior fellow Cynthia Khoo writes that “pillars core to a functioning democracy are [being] reoriented around the false god of AI” in The Walrus. The post Canada Finally Has a National AI Strategy. Experts Hate It. appeared first on The Citizen Lab .]]></description>
 <pubDate>Fri, 12 Jun 2026 17:43:28 +0000</pubDate>
 <guid isPermaLink="true">https://citizenlab.ca/canada-finally-has-a-national-ai-strategy-experts-hate-it/</guid>
-<source url="https://citizenlab.ca/feed/">Citizen Lab</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>Who Watches the Watchers?</title>
-<link>https://citizenlab.ca/who-watches-the-watchers/</link>
-<description><![CDATA[Citizen Lab director Ron Deibert spoke to Politiken about the spyware industry, calling it “a symptom that something is fundamentally wrong.” The post Who Watches the Watchers? appeared first on The Citizen Lab .]]></description>
-<pubDate>Fri, 12 Jun 2026 17:31:57 +0000</pubDate>
-<guid isPermaLink="true">https://citizenlab.ca/who-watches-the-watchers/</guid>
 <source url="https://citizenlab.ca/feed/">Citizen Lab</source>
 <category>threat_research_primary</category>
 </item>
@@ -20565,7 +20521,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20574,7 +20530,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20583,7 +20539,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20592,7 +20548,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20602,7 +20558,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20611,7 +20567,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20620,7 +20576,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20629,7 +20585,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20638,7 +20594,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20647,7 +20603,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 16:45:23 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 18:20:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
