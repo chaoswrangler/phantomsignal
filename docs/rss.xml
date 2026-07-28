@@ -6,9 +6,34 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 27 Jul 2026 23:10:35 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jul 2026 03:14:08 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>AI Agent Drives Espionage Attack on Thai Ministry of Finance</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance</link>
+<description><![CDATA[Attackers used Hermes, an autonomous open source tool, in unrestricted &quot;YOLO mode&quot; to conduct espionage against Thailand&apos;s Ministry of Finance.<br/><br/><em>Tags: AWS · ransomware_extortion · apt_espionage</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 01:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>AWS</category>
+<category>ransomware_extortion</category>
+<category>apt_espionage</category>
+</item>
+<item>
+<title>Hackers target US firms in FastJson RCE zero-day attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/</link>
+<description><![CDATA[Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]<br/><br/><em>Tags: Microsoft SharePoint · GitHub · CVE-2026-16723 · zero_day · active_exploitation</em>]]></description>
+<pubDate>Mon, 27 Jul 2026 23:49:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>GitHub</category>
+<category>CVE-2026-16723</category>
+<category>zero_day</category>
+</item>
 <item>
 <title>Arista patches VeloCloud Orchestrator zero-day exploited in attacks</title>
 <link>https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/</link>
@@ -236,15 +261,12 @@
 <item>
 <title>New GitHub, PyPI Policies Boost Supply Chain Security</title>
 <link>https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/</link>
-<description><![CDATA[Dependabot gets a three-day cooldown window before opening pull requests, and PyPI rejects file uploads to releases older than 14 days. The post New GitHub, PyPI Policies Boost Supply Chain Security appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft 365 · npm · PyPI · ransomware_extortion · supply_chain · zero_day · data_breach</em>]]></description>
+<description><![CDATA[Dependabot gets a three-day cooldown window before opening pull requests, and PyPI rejects file uploads to releases older than 14 days. The post New GitHub, PyPI Policies Boost Supply Chain Security appeared first on SecurityWeek .<br/><br/><em>Tags: supply_chain</em>]]></description>
 <pubDate>Mon, 27 Jul 2026 14:26:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>Microsoft 365</category>
-<category>npm</category>
-<category>PyPI</category>
-<category>ransomware_extortion</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>The New Measure of Infrastructure Readiness</title>
@@ -305,14 +327,14 @@
 <item>
 <title>PTC Windchill Vulnerability Exploited in Ransomware Campaign</title>
 <link>https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/</link>
-<description><![CDATA[The critical unsafe deserialization flaw allows attackers to execute arbitrary code remotely, without authentication. The post PTC Windchill Vulnerability Exploited in Ransomware Campaign appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft 365 · GitHub · PyPI · Cl0p · CVE-2026-12569 · ransomware_extortion · supply_chain · zero_day</em>]]></description>
+<description><![CDATA[The critical unsafe deserialization flaw allows attackers to execute arbitrary code remotely, without authentication. The post PTC Windchill Vulnerability Exploited in Ransomware Campaign appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft 365 · PyPI · GitHub · Cl0p · CVE-2026-12569 · ransomware_extortion · supply_chain · zero_day</em>]]></description>
 <pubDate>Mon, 27 Jul 2026 13:19:30 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>Microsoft 365</category>
-<category>GitHub</category>
 <category>PyPI</category>
+<category>GitHub</category>
 <category>Cl0p</category>
 </item>
 <item>
@@ -482,19 +504,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>DentaQuest Data Breach Potentially Impacts Over 23 Million People</title>
-<link>https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/</link>
-<description><![CDATA[In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network. The post DentaQuest Data Breach Potentially Impacts Over 23 Million People appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft 365 · GitHub · PyPI · ShinyHunters · ransomware_extortion · supply_chain · credential_theft · zero_day</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 09:34:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft 365</category>
-<category>GitHub</category>
-<category>PyPI</category>
-<category>ShinyHunters</category>
 </item>
 <item>
 <title>TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments</title>
@@ -732,16 +741,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/</link>
-<description><![CDATA[Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]<br/><br/><em>Tags: Microsoft 365</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 17:50:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft 365</category>
-</item>
-<item>
 <title>What’s new with Google Cloud</title>
 <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</link>
 <description><![CDATA[Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block &lt;ListValue: []&gt; Jul 20 - Jul 24 Claude Opus 5, Anthropic’s latest model, is now available on Agent Platform. It brings performance improvements over Opus 4.8 across coding, long-running agents, and knowledge work.The model is Zero Data Retention (ZDR) compatible. For safety, high-risk workflows — such as penetration testing or exploit generation — it will notify you and fall back to Opus 4.8.We’re excited to continue to offer enterprise customers options across frontier models to build, deploy, and scale AI securely. Try it here . Apigee Northam Roadshow 2026 | The AI Agent Evolution: Powering Tomorrow&apos;s Enterprise AI is evolving.<br/><br/><em>Tags: Anthropic/Claude · Google Cloud</em>]]></description>
@@ -970,15 +969,15 @@
 <item>
 <title>Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets</link>
-<description><![CDATA[A state-sponsored threat group, dubbed &quot;Laundry Bear,&quot; sends &quot;half-click&quot; phishing emails that require a victim only to open or preview the message.<br/><br/><em>Tags: APT28 · CVE-2025-66376 · ransomware_extortion · phishing_social_eng · zero_day · apt_espionage</em>]]></description>
+<description><![CDATA[A state-sponsored threat group, dubbed &quot;Laundry Bear,&quot; sends &quot;half-click&quot; phishing emails that require a victim only to open or preview the message.<br/><br/><em>Tags: APT28 · CVE-2025-66376 · phishing_social_eng · zero_day · apt_espionage</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 21:23:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>APT28</category>
 <category>CVE-2025-66376</category>
-<category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes</title>
@@ -1445,11 +1444,13 @@
 <item>
 <title>If you pay a hacker’s ransom, chances are that they’ll come back for more</title>
 <link>https://www.proofpoint.com/us/newsroom/news/if-you-pay-hackers-ransom-chances-are-theyll-come-back-more</link>
-<description><![CDATA[]]></description>
+<description><![CDATA[<br/><br/><em>Tags: LockBit · ransomware_extortion</em>]]></description>
 <pubDate>Wed, 22 Jul 2026 16:14:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/if-you-pay-hackers-ransom-chances-are-theyll-come-back-more</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
+<category>LockBit</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Real world incident response: Microsoft and AXA XL strengthen cyber resilience</title>
@@ -1618,12 +1619,14 @@
 <item>
 <title>Proofpoint Research Finds 65% of Organizations Affected by Ransomware Say AI Made Attacks More Effective</title>
 <link>https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-research-finds-65-organizations-affected-ransomware-say-ai-made</link>
-<description><![CDATA[<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[<br/><br/><em>Tags: ransomware_extortion · phishing_social_eng · credential_theft</em>]]></description>
 <pubDate>Wed, 22 Jul 2026 06:06:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-research-finds-65-organizations-affected-ransomware-say-ai-made</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library</title>
@@ -1907,11 +1910,12 @@
 <item>
 <title>The New Hotness in Phishing: Device Code Attacks in M365</title>
 <link>https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365</link>
-<description><![CDATA[&lt;p&gt;Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.&lt;/p&gt;<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<description><![CDATA[&lt;p&gt;Device code phishing is quietly becoming one of the more effective techniques targeting M365 environments. In this blog, we detail how it works and the Conditional Access controls that shut it down.&lt;/p&gt;<br/><br/><em>Tags: Microsoft Entra · phishing_social_eng</em>]]></description>
 <pubDate>Tue, 21 Jul 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://trustedsec.com/blog/the-new-hotness-in-phishing-device-code-attacks-in-m365</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
+<category>Microsoft Entra</category>
 <category>phishing_social_eng</category>
 </item>
 <item>
@@ -1926,15 +1930,20 @@
 <item>
 <title>Four ways AI has fundamentally changed the threat landscape in 2026</title>
 <link>https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026</link>
-<description><![CDATA[Sysdig TRT documents four ways agentic AI is reshaping the threat landscape — from autonomous attackers to AI infrastructure as prime target.<br/><br/><em>Tags: Kubernetes · CVE-2026-39987 · ransomware_extortion · active_exploitation</em>]]></description>
+<description><![CDATA[Sysdig TRT documents four ways agentic AI is reshaping the threat landscape — from autonomous attackers to AI infrastructure as prime target.]]></description>
 <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/four-ways-ai-has-fundamentally-changed-the-threat-landscape-in-2026</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-<category>Kubernetes</category>
-<category>CVE-2026-39987</category>
-<category>ransomware_extortion</category>
-<category>active_exploitation</category>
+</item>
+<item>
+<title>Now Available: Intelligence Dashboard in the GreyNoise Platform</title>
+<link>https://www.greynoise.io/blog/intelligence-dashboard</link>
+<description><![CDATA[With the new Intelligence Dashboard, pin any combination of CVEs, tags, countries, IPs, and GNQL queries into one persistent, always-current view.]]></description>
+<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.greynoise.io/blog/intelligence-dashboard</guid>
+<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>CVE-2026-60137 / CVE-2026-63030 | WordPress Core SQL Injection and Pre-Authentication Remote Code Execution Vulnerabilities</title>
@@ -2786,15 +2795,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Mermaid to ASCII art (mermaid-ascii)</title>
-<link>https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything</link>
-<description><![CDATA[Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build&apos;s Rust code I learned that there&apos;s an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 compile that one to WebAssembly as well so I could compare the two. This one includes support for colors! Tags: go , tools , webassembly , mermaid]]></description>
-<pubDate>Thu, 16 Jul 2026 14:57:39 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Protecting Privacy in an AI Era</title>
@@ -3711,15 +3711,6 @@
 <guid isPermaLink="true">https://www.normaltech.ai/p/what-will-be-left-for-us-to-work</guid>
 <source url="https://www.aisnakeoil.com/feed">AI Snake Oil</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>&apos;Yellow Teams&apos; Are Defining the Future of AI Security</title>
-<link>https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security</link>
-<description><![CDATA[In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.]]></description>
-<pubDate>Mon, 13 Jul 2026 18:18:30 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Open Directory Exposes Three Evilginx Phishing Operators</title>
@@ -5845,15 +5836,6 @@
 <source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
 <category>offensive_vulnerability_research</category>
 <category>GitHub</category>
-</item>
-<item>
-<title>An Ontology for Accountability: Defining What Data Quality Means in Blockchain Analytics</title>
-<link>https://www.chainalysis.com/blog/ontology-data-quality-blockchain-analytics/</link>
-<description><![CDATA[We built this to be questioned Before I came to blockchain analytics, I spent years in academia studying the formal… The post An Ontology for Accountability: Defining What Data Quality Means in Blockchain Analytics appeared first on Chainalysis .]]></description>
-<pubDate>Mon, 29 Jun 2026 15:00:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.chainalysis.com/blog/ontology-data-quality-blockchain-analytics/</guid>
-<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
-<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>OpenAI Reveals GPT-5.6 Sol Cybersecurity Model, Restricts Early Access</title>
@@ -20580,10 +20562,19 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
+<title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
+<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-goverment-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20592,7 +20583,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20602,7 +20593,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20611,7 +20602,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20620,7 +20611,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20629,7 +20620,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20638,7 +20629,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20647,7 +20638,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20657,17 +20648,8 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
+<pubDate>Tue, 28 Jul 2026 03:14:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>Browser Security: Zero-Days Are Only Part of the Problem</title>
-<link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
-<description><![CDATA[]]></description>
-<pubDate>Mon, 27 Jul 2026 23:10:35 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
