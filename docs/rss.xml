@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 29 Jul 2026 06:37:51 +0000</lastBuildDate>
+<lastBuildDate>Wed, 29 Jul 2026 09:42:54 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -21,6 +21,155 @@
 <category>active_exploitation</category>
 </item>
 <item>
+<title>Accuris uses AI to improve BOM decisions and supply chain resilience</title>
+<link>https://www.helpnetsecurity.com/2026/07/29/accuris-bom-intelligence/</link>
+<description><![CDATA[Accuris has announced new AI capabilities for BOM Intelligence, part of its Supply Chain Intelligence suite. The launch gives engineering, procurement and supply chain teams a clearer way to move from spotting component risk to acting on it: catching obsolescence early, closing compliance gaps and governing sourcing decisions across programs. Every capability runs on the same foundation: verified data covering 1.3 billion electronic components at 98%+ accuracy, built on 35+ years of direct manufacturer relationships … More → The post Accuris uses AI to improve BOM decisions and supply chain resilience appeared first on Help Net Security .<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 09:04:26 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/accuris-bom-intelligence/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass</title>
+<link>https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html</link>
+<description><![CDATA[Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that<br/><br/><em>Tags: CVE-2026-16232 · active_exploitation</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 08:58:27 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-16232</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack</title>
+<link>https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/</link>
+<description><![CDATA[The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given. The post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek .<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 08:46:30 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>Stolen Meta and Google ad accounts are worth more than the money they hold</title>
+<link>https://www.helpnetsecurity.com/2026/07/29/ad-account-theft-meta-google/</link>
+<description><![CDATA[Ad account theft, the systematic hijacking of Meta Business Manager and Google Ads accounts, has grown into a commodity-driven cybercrime economy complete with tiered pricing, escrow services, and money-back warranties for stolen accounts. Public reporting on this topic tends to focus on drained ad budgets, but according to Mimecast, that’s often a short-lived gain for attackers. “Both platforms operate on a pre-loaded credit or card-on-file model. Campaigns spend continuously until a budget cap, or the … More → The post Stolen Meta and Google ad accounts are worth more than the money they hold appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 29 Jul 2026 08:38:24 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/ad-account-theft-meta-google/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>NCSC Publishes Guidance to Aid Incident Response and Recovery</title>
+<link>https://www.infosecurity-magazine.com/news/ncsc-publishes-guidance-incident/</link>
+<description><![CDATA[The National Cyber Security Centre has released a detailed framework to assist with incident response and recovery]]></description>
+<pubDate>Wed, 29 Jul 2026 08:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ncsc-publishes-guidance-incident/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Torq makes AI SOC investigations continuously self-learning</title>
+<link>https://www.helpnetsecurity.com/2026/07/29/torq-soc-brain/</link>
+<description><![CDATA[Torq has introduced Torq SOC Brain, a new layer of the Torq AI SOC Platform that continuously learns from historical investigations, analyst decisions, and organization-specific security operations to create a unified, self-learning AI SOC. While most autonomous investigation systems claim to be self-learning, they are, in reality, memory systems, they simply retrieve past cases and pass them to a language model at decision time. Torq SOC Brain is fundamentally different. It reasons from precedent, adapts … More → The post Torq makes AI SOC investigations continuously self-learning appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 29 Jul 2026 08:17:42 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/torq-soc-brain/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Root Evidence puts real-world evidence at the center of vulnerability prioritization</title>
+<link>https://www.helpnetsecurity.com/2026/07/29/root-evidence-puts-real-world-evidence-at-the-center-of-vulnerability-prioritization/</link>
+<description><![CDATA[Root Evidence has launched the Evidence Platform, a vulnerability management platform that prioritizes vulnerabilities based on evidence of real-world exploitation and financial impact rather than severity scores alone. The platform is designed to help security teams focus on the vulnerabilities most likely to contribute to ransomware, business disruption, and financial loss. “The cybersecurity industry has become exceptionally good at finding vulnerabilities, but it has not become significantly better at preventing financial loss,” said Jeremiah Grossman, … More → The post Root Evidence puts real-world evidence at the center of vulnerability prioritization appeared first on Help Net Security .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 08:07:51 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/root-evidence-puts-real-world-evidence-at-the-center-of-vulnerability-prioritization/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Abnormal AI extends behavioral security to identities, AI systems, and insider threats</title>
+<link>https://www.helpnetsecurity.com/2026/07/29/abnormal-ai-extends-behavioral-security-to-identities-ai-systems-and-insider-threats/</link>
+<description><![CDATA[Abnormal AI has announced the expansion of its Behavioral Security Platform across the enterprise, introducing three new products: Identity Threat Protection, AI Governance, and Infiltration Prevention. Together, the launch extends the behavioral AI that already secures over 4,500 customers1 to the identities, AI systems and onboarding pipeline that attackers increasingly exploit. Additionally, customers can now activate products from the AI App Store, a new interface to turn on Abnormal products in a single click. For … More → The post Abnormal AI extends behavioral security to identities, AI systems, and insider threats appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 29 Jul 2026 07:56:58 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/abnormal-ai-extends-behavioral-security-to-identities-ai-systems-and-insider-threats/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks</title>
+<link>https://www.securityweek.com/dozens-of-minnesota-water-utilities-targeted-in-coordinated-ot-attacks/</link>
+<description><![CDATA[State and federal agencies respond after intrusions disrupt automated controls at municipal water and wastewater utilities. The post Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks appeared first on SecurityWeek .]]></description>
+<pubDate>Wed, 29 Jul 2026 07:53:22 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/dozens-of-minnesota-water-utilities-targeted-in-coordinated-ot-attacks/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach</title>
+<link>https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html</link>
+<description><![CDATA[OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face&apos;s production environment also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than previously<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 07:51:00 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>Mend.io enhances application security with AI runtime protection and faster zero-day response</title>
+<link>https://www.helpnetsecurity.com/2026/07/29/mend-io-runtime-protection/</link>
+<description><![CDATA[Mend.io has announced new capabilities across Mend AI and Mend AppSec to help organizations respond faster to both application risk and the expanding attack surface created by AI. Mend.io’s latest enhancements help teams identify meaningful risk, reduce manual investigation, accelerate response and extend protection from development into production. As development accelerates, security teams face mounting exposure: rising vulnerability volumes, zero-days, software supply chain threats, and new risks introduced by AI-powered applications. Today’s AppSec teams can … More → The post Mend.io enhances application security with AI runtime protection and faster zero-day response appeared first on Help Net Security .<br/><br/><em>Tags: supply_chain · zero_day · data_breach · ai_security</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 07:49:10 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/mend-io-runtime-protection/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>supply_chain</category>
+<category>zero_day</category>
+<category>data_breach</category>
+<category>ai_security</category>
+</item>
+<item>
+<title>New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands</title>
+<link>https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html</link>
+<description><![CDATA[Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The<br/><br/><em>Tags: Gitea · CVE-2026-60004 · active_exploitation</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 07:47:19 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Gitea</category>
+<category>CVE-2026-60004</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>Realm Security adds Detection Integrity and Data Haven Search to cut SIEM costs</title>
+<link>https://www.helpnetsecurity.com/2026/07/29/realm-security-adds-detection-integrity-and-data-haven-search-to-cut-siem-costs/</link>
+<description><![CDATA[Realm Security has announced two new capabilities. Detection Integrity proves that reducing SIEM log volume never breaks a threat detection. New search inside Realm Data Haven, the platform’s searchable retention layer, makes the data you keep out of the SIEM directly queryable when an analyst needs it. Together, they let teams cut ingestion cost and avoid vendor lock-in without gambling on coverage. AI has changed how fast attacks move. Attackers now use agents to find … More → The post Realm Security adds Detection Integrity and Data Haven Search to cut SIEM costs appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 29 Jul 2026 07:41:10 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/realm-security-adds-detection-integrity-and-data-haven-search-to-cut-siem-costs/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Apple Patches Everything (July 2026), (Wed, Jul 29th)</title>
+<link>https://isc.sans.edu/diary/rss/33196</link>
+<description><![CDATA[I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.<br/><br/><em>Tags: Apple iOS/macOS</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 07:32:37 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33196</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+<category>Apple iOS/macOS</category>
+</item>
+<item>
+<title>Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates</title>
+<link>https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html</link>
+<description><![CDATA[Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers. They linked the framework to a fake &quot;公安一网通办&quot; Public Security service application targeting Android users in China. The kit supports payment-password]]></description>
+<pubDate>Wed, 29 Jul 2026 07:07:23 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>Risky Bulletin: Cyberattack disrupts Minnesota water utilities</title>
 <link>https://risky.biz/RBNEWS593/</link>
 <description><![CDATA[A cyberattack has disrupted water utilities in more than 30 communities in Minnesota, Denmark tests a secondary banking system in case of a cyberattack, North Korea arrests bank hackers, and a new Chinese cyber contractor has been identified.]]></description>
@@ -28,17 +177,6 @@
 <guid isPermaLink="true">https://risky.biz/RBNEWS593/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>The energy sector’s OT cybersecurity talent is retiring faster than it can be replaced</title>
-<link>https://www.helpnetsecurity.com/2026/07/29/ot-cybersecurity-in-energy/</link>
-<description><![CDATA[A ransomware hit lands a chemical plant in a safe state. Nobody is hurt, the site holds steady, and the operators begin the restart. The systems stay down. Every attempt to bring them online meets encrypted processes and altered configurations. The outage runs into weeks, and the losses travel down the supply chain in both directions. Refineries, chemical plants and pipeline operators carry this exposure across control systems that run 20 to 40 years. Marco … More → The post The energy sector’s OT cybersecurity talent is retiring faster than it can be replaced appeared first on Help Net Security .<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 05:30:25 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/ot-cybersecurity-in-energy/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js</title>
@@ -49,16 +187,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>npm</category>
-</item>
-<item>
-<title>Android malware detection collapses when the context stage comes out</title>
-<link>https://www.helpnetsecurity.com/2026/07/29/android-malware-detection-research/</link>
-<description><![CDATA[A phone backup app asks for storage, contacts, SMS, and call logs. A device-management tool asks for more than that. Run either one past a machine learning malware scanner and it comes back flagged. Six Android detectors in wide research use, including Drebin, MalScan, and MaskDroid, produced that result on more than half the apps in a benign test set assembled from 49 Google Play categories. The worst performer, an LLM-based detector called LAMD, flagged … More → The post Android malware detection collapses when the context stage comes out appeared first on Help Net Security .<br/><br/><em>Tags: Android</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 04:00:58 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/android-malware-detection-research/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Android</category>
 </item>
 <item>
 <title>Measuring LLMs’ Ability to Perform Cryptanalysis</title>
@@ -248,16 +376,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Hugging Face breach reignites open-weights debate, raises liability questions</title>
-<link>https://www.helpnetsecurity.com/2026/07/28/hugging-face-breach-ciso-playbook-open-weight-llms/</link>
-<description><![CDATA[The first publicly documented cyberattack run end-to-end by an autonomous AI was an OpenAI benchmark test that escaped its sandbox and breached Hugging Face. In an incident post-mortem compiled with the input from Hugging Face and several hundred members of Cloud Security Alliance’s CISO community, the nonprofit organization laid out the most salient points for security leaders and advised on what they should do next. How the attack unfolded OpenAI was running GPT-5.6 Sol and … More → The post Hugging Face breach reignites open-weights debate, raises liability questions appeared first on Help Net Security .<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 15:55:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/28/hugging-face-breach-ciso-playbook-open-weight-llms/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>AI-assisted security tools are finding more bugs, but the threat level has not changed</title>
 <link>https://cyberscoop.com/ai-assisted-security-tools-are-finding-more-bugs-but-the-threat-level-has-not-changed/</link>
 <description><![CDATA[Analysis from vulnerability intelligence firm VulnCheck shows AI-discovered flaws aren&apos;t being exploited any faster than traditional ones. The post AI-assisted security tools are finding more bugs, but the threat level has not changed appeared first on CyberScoop .]]></description>
@@ -344,24 +462,6 @@
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
 <category>CVE-2013-4786</category>
-</item>
-<item>
-<title>Bugcrowd introduces Savant Pathseeker for agentic penetration testing with exploit validation</title>
-<link>https://www.helpnetsecurity.com/2026/07/28/bugcrowd-introduces-savant-pathseeker-for-agentic-penetration-testing-with-exploit-validation/</link>
-<description><![CDATA[Bugcrowd unveils Savant Pathseeker, the first solution in its Agentic Offensive Testing line. Savant Pathseeker gives security teams the speed and scale to test every external web application and API continuously, not just the assets that make it onto the pentest schedule, while providing the evidence to prove that the findings are genuinely exploitable. Security teams are attempting both deep and broad coverage, and getting the worst of each. Crown-jewel assets sit exposed for months … More → The post Bugcrowd introduces Savant Pathseeker for agentic penetration testing with exploit validation appeared first on Help Net Security .]]></description>
-<pubDate>Tue, 28 Jul 2026 13:14:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/28/bugcrowd-introduces-savant-pathseeker-for-agentic-penetration-testing-with-exploit-validation/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Prescient Security adds attack surface management to Cait, broadens AI-assisted pentesting</title>
-<link>https://www.helpnetsecurity.com/2026/07/28/prescient-security-cait/</link>
-<description><![CDATA[Prescient Security has announced a series of capability expansions to Cait (Cacilian AI), its continuous AI-assisted penetration testing service. The updates which will roll out through summer 2026 add attack surface management (ASM), new asset testing types and expanded environment support, extending Cait’s reach well beyond its initial web application focus. The announcements follow Cait’s general availability launch earlier this year, which introduced an autonomous, context-aware pentester that explores applications before attacking them and delivers … More → The post Prescient Security adds attack surface management to Cait, broadens AI-assisted pentesting appeared first on Help Net Security .]]></description>
-<pubDate>Tue, 28 Jul 2026 13:10:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/28/prescient-security-cait/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>The Next Evolution of MDR: Preemptive Defense and Agentic Investigation</title>
@@ -465,19 +565,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
-<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
-<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: Scattered Spider · ransomware_extortion · phishing_social_eng · data_breach · ddos</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>Scattered Spider</category>
-<category>ransomware_extortion</category>
-<category>phishing_social_eng</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
 <link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
 <description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: GitHub · GitLab · npm · TeamPCP · supply_chain · credential_theft</em>]]></description>
@@ -489,6 +576,19 @@
 <category>GitLab</category>
 <category>npm</category>
 <category>TeamPCP</category>
+</item>
+<item>
+<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
+<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
+<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: Scattered Spider · ransomware_extortion · phishing_social_eng · data_breach · ddos</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>Scattered Spider</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -506,23 +606,12 @@
 <item>
 <title>Data breach at medical billing firm MCBS affects 1.26 million people</title>
 <link>https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/</link>
-<description><![CDATA[Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]<br/><br/><em>Tags: ShinyHunters · ransomware_extortion · data_breach</em>]]></description>
+<description><![CDATA[Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Tue, 28 Jul 2026 09:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>ShinyHunters</category>
-<category>ransomware_extortion</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Google Adopts New Threat Actor Naming System</title>
-<link>https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/</link>
-<description><![CDATA[The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek .]]></description>
-<pubDate>Tue, 28 Jul 2026 08:42:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In</title>
@@ -575,19 +664,6 @@
 <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33192</guid>
 <source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
 <category>government_authoritative</category>
-</item>
-<item>
-<title>Unpatched Fastjson Vulnerability Exploited in Attacks</title>
-<link>https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/</link>
-<description><![CDATA[The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: GitHub · PyPI · Apple iOS/macOS · ShinyHunters · CVE-2026-16723 · ransomware_extortion · supply_chain · zero_day</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 07:27:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>PyPI</category>
-<category>Apple iOS/macOS</category>
-<category>ShinyHunters</category>
 </item>
 <item>
 <title>Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost</title>
@@ -1801,25 +1877,6 @@
 <category>CVE-2026-50458</category>
 </item>
 <item>
-<title>Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs</title>
-<link>https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html</link>
-<description><![CDATA[Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment. The high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as<br/><br/><em>Tags: CVE-2026-8933</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 18:07:16 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-8933</category>
-</item>
-<item>
-<title>Rondo Meets Geoserver, (Wed, Jul 22nd)</title>
-<link>https://isc.sans.edu/diary/rss/33176</link>
-<description><![CDATA[This isn&amp;#;x26;#;39;t a new attack, but something I saw &quot;pop-up&quot; in our logs this week:]]></description>
-<pubDate>Wed, 22 Jul 2026 17:35:33 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33176</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Sol Searching | Can Frontier Models Tackle Autonomous Long-Horizon Malware Analysis?</title>
 <link>https://www.sentinelone.com/labs/frontier-models-tackle-autonomous-long-horizon-malware-analysis/</link>
 <description><![CDATA[A real-world benchmark tests whether powerful AI models can keep an investigation trustworthy when new evidence invalidates their conclusions.<br/><br/><em>Tags: Linux kernel · OpenAI/ChatGPT</em>]]></description>
@@ -1858,16 +1915,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data</title>
-<link>https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html</link>
-<description><![CDATA[Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user&apos;s WhatsApp data. The shortcoming has been codenamed HermeticReader by Guardio Labs. It&apos;s officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability<br/><br/><em>Tags: CVE-2026-48294</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 15:01:21 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-48294</category>
 </item>
 <item>
 <title>WordPress Core Pre-Auth RCE Chain Exploited in the Wild</title>
@@ -1929,19 +1976,6 @@
 <category>offensive_vulnerability_research</category>
 <category>Microsoft Defender</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication</title>
-<link>https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html</link>
-<description><![CDATA[A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill&apos;s &quot;get_log_file&quot; endpoint (&quot;/api/w/{workspace}/jobs_u/get_log_file/{filename}&quot;). &quot;The filename parameter is concatenated into<br/><br/><em>Tags: WordPress · AWS · CVE-2026-29059 · CVE-2026-60137 · CVE-2026-63030 · CVE-2021-27137 · CVE-2026-0770 · active_exploitation</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 12:36:36 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>WordPress</category>
-<category>AWS</category>
-<category>CVE-2026-29059</category>
-<category>CVE-2026-60137</category>
 </item>
 <item>
 <title>Open AI Claims Its AI Models Went Rogue and Hacked Another Company</title>
@@ -5787,17 +5821,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day</title>
-<link>https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/</link>
-<description><![CDATA[Nissan says employees&apos; data was stolen via the Oracle PeopleSoft zero-day campaign<br/><br/><em>Tags: zero_day · data_breach</em>]]></description>
-<pubDate>Tue, 30 Jun 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>zero_day</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Weekly Update 510: Live From Mallorca with Scott Helme</title>
 <link>https://www.troyhunt.com/weekly-update-510/</link>
 <description><![CDATA[How&apos;s the view?! Back to business, it&apos;s now 8 years ago that Scott and I thought it would be a cool idea to build Why no HTTPS? We used the site to shame companies for not implementing their transport later security property, and to make it]]></description>
@@ -5815,15 +5838,6 @@
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Critical SimpleHelp Vulnerability Exploited For Malware Delivery</title>
-<link>https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/</link>
-<description><![CDATA[Attackers exploited a critical SimpleHelp RMM bug to deploy TaskWeaver and Djinn Stealer malware]]></description>
-<pubDate>Tue, 30 Jun 2026 15:34:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>This month in security with Tony Anscombe – June 2026 edition</title>
@@ -5920,15 +5934,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
-<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
-<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>The Hacker&apos;s 2026 Playbook: Dark Web Tactics Targeting You</title>
 <link>https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook</link>
 <description><![CDATA[Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
@@ -5937,6 +5942,15 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Microsoft 365</category>
+</item>
+<item>
+<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
+<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
+<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Bridging the Visibility Gap: A Unified Security Operating Model for Hybrid Cloud Teams</title>
@@ -6138,6 +6152,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
+<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
+<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
+<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/</link>
 <description><![CDATA[Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se<br/><br/><em>Tags: apt_espionage · web_shell_backdoor</em>]]></description>
@@ -6147,15 +6170,6 @@
 <category>threat_research_primary</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
-<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
-<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
-<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Computer-Use and TOCTOU: What You Click Is Not What You Get!</title>
@@ -7074,16 +7088,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
-<description><![CDATA[Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our <br/><br/><em>Tags: UNC6508</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>UNC6508</category>
-</item>
-<item>
 <title>The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed</title>
 <link>https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</link>
 <description><![CDATA[A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -7092,6 +7096,16 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
+<description><![CDATA[Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our <br/><br/><em>Tags: UNC6508</em>]]></description>
+<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>UNC6508</category>
 </item>
 <item>
 <title>15th June – Threat Intelligence Report</title>
@@ -7740,6 +7754,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Why Huntress Doesn’t Need FedRAMP</title>
+<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
+<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
+<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/</link>
 <description><![CDATA[Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as &quot;Luna Moth,&quot; “Chatty Spider,” and &quot;Silent Ransom Group&quot;) targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their <br/><br/><em>Tags: Silent Ransom Group · UNC3753 · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -7751,15 +7774,6 @@
 <category>UNC3753</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Why Huntress Doesn’t Need FedRAMP</title>
-<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
-<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
-<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Risky Bulletin: EU unveils digital sovereignty plan</title>
@@ -10855,20 +10869,11 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>NCSC: Leave passwords in the past - passkeys are the future</title>
-<link>https://www.ncsc.gov.uk/news/ncsc-leave-passwords-in-the-past-passkeys-are-the-future</link>
-<description><![CDATA[Passkeys are the more secure and user-friendly login method and should be the default authentication option for consumers.]]></description>
+<title>Defending against China-nexus covert networks of compromised devices</title>
+<link>https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices</link>
+<description><![CDATA[Explaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it]]></description>
 <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/ncsc-leave-passwords-in-the-past-passkeys-are-the-future</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
-<title>International cyber agencies share fresh advice to defend against China-linked covert networks</title>
-<link>https://www.ncsc.gov.uk/news/international-cyber-agencies-fresh-advice-defend-against-china-linked-covert-networks</link>
-<description><![CDATA[New advisory highlights how to defend against attacker tactics believed to be used by China-linked actors to hide malicious cyber activity.]]></description>
-<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/international-cyber-agencies-fresh-advice-defend-against-china-linked-covert-networks</guid>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -20464,7 +20469,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20473,7 +20478,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20482,7 +20487,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20491,7 +20496,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20501,7 +20506,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20510,7 +20515,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20519,7 +20524,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20528,7 +20533,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20537,7 +20542,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20546,7 +20551,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 06:37:51 +0000</pubDate>
+<pubDate>Wed, 29 Jul 2026 09:42:54 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
