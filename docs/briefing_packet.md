@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-29T18:12:14.743379+00:00
+- Generated: 2026-07-29T20:15:50.235110+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 323
-- Total clusters raw: 159
+- Total items in window: 337
+- Total clusters raw: 165
 - Total clusters in packet: 80
-- Dropped low score: 75
-- Dropped overflow: 4
+- Dropped low score: 78
+- Dropped overflow: 7
 
 ## Cohort metadata
 
@@ -70,16 +70,16 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -100,10 +100,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
   - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
@@ -115,21 +115,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 15
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 20
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -145,6 +145,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,56 +160,51 @@
   - Status: ok
   - Item count: 50
   - In window count: 2
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - Item count: 10
+  - In window count: 3
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 50
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -230,66 +230,61 @@
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 7
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - In window count: 6
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 7
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 100
   - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -300,36 +295,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 17
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 20
+  - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,68 +350,63 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 28
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 16
+  - In window count: 19
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 15
+  - Item count: 50
+  - In window count: 28
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,11 +415,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -425,26 +425,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
-  - In window count: 2
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 24
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 14
+  - In window count: 25
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -496,6 +496,25 @@
   - https://blog.talosintelligence.com/ir-trends-q2-2026/
   - https://www.blackhillsinfosec.com/report-as-you-go-soc/
 
+### WordPress active exploitation
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_products: WordPress
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: 38979f8c48, 9ebb77a38b, b61889968b
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/
+  - https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
+  - https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
+
 ### CVE-2026-16723 exploitation activity
 - Anchor signal: CVE-2026-16723
 - Theme key: cve-2026-16723
@@ -538,7 +557,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 3
-- Article count: 7
+- Article count: 6
 - Cohesion: 0.255
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -550,7 +569,6 @@
 - Links:
   - https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
   - https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
-  - https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
   - https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/
   - https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
 
@@ -579,8 +597,8 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 12
-- Cohesion: 0.2
+- Article count: 10
+- Cohesion: 0.221
 - Shared strong signals: AWS
 - Member CVEs: (none)
 - Also targets: (none)
@@ -589,13 +607,11 @@
 - Cluster IDs: 3574a7b873, efa5d95ebc, c39a89392e
 - Links:
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
-  - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
-  - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - https://www.helpnetsecurity.com/2026/07/29/contrast-security-cve-shield/
   - https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html
-  - https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
   - https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/
+  - https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
   - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
   - https://aws.amazon.com/blogs/security/announcing-the-cloud-security-alliance-on-aws-compliance-guide/
@@ -638,40 +654,21 @@
   - https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
   - https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
 
-### active exploitation targeting WordPress
-- Anchor signal: WordPress
-- Theme key: wordpress
+### Apple iOS/macOS vulnerability activity
+- Anchor signal: Apple iOS/macOS
+- Theme key: apple-ios-macos
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.2
-- Shared strong signals: WordPress
+- Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: WordPress
-- Cluster IDs: 9ebb77a38b, b61889968b
+  - affected_products: Apple iOS/macOS
+- Cluster IDs: 38979f8c48, 422a91c69f
 - Links:
-  - https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend
-  - https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
-
-### TeamPCP: supply chain
-- Anchor signal: TeamPCP
-- Theme key: teampcp
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.765
-- Shared strong signals: TeamPCP
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain, credential_theft
-  - actor_attribution: TeamPCP
-  - affected_products: GitHub
-- Cluster IDs: 8553a0e574, dfb5d8c3f5
-- Links:
-  - https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
-  - https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/
+  - https://isc.sans.edu/diary/rss/33196
 
 ### supply chain targeting PyPI
 - Anchor signal: PyPI
@@ -694,7 +691,7 @@
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 2
-- Article count: 12
+- Article count: 10
 - Cohesion: 0.2
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
@@ -704,13 +701,11 @@
 - Cluster IDs: 3574a7b873, 9494052eb3
 - Links:
   - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
-  - https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
-  - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - https://www.helpnetsecurity.com/2026/07/29/contrast-security-cve-shield/
   - https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html
-  - https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
   - https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/
+  - https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
   - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://cloud.google.com/blog/topics/retail/best-buy-scales-secure-ai-access-with-workforce-identity-federation/
   - https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
@@ -718,7 +713,9 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 2
+  - CVE-2026-6516 (first seen via Horizon3 Attack Research at 2026-07-29T18:05:45+00:00, cluster 38979f8c48)
+  - CVE-2026-66066 (first seen via The Hacker News at 2026-07-29T18:10:00+00:00, cluster 4691ccfe6f)
 - Novel actors: 0
 - Novel products: 0
 
@@ -726,33 +723,27 @@
 - **OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure**
   - Cluster: 8cda373323
   - Sources in window: 3
-  - Window hours: 5.7
-  - Cohort count: 4
+  - Window hours: 5.2
+  - Cohort count: 5
 
-### Leading edge (1)
-- **TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching**
-  - Cluster: 3574a7b873
-  - Lead hours: 13.8
-  - First source: Reddit r/netsec
-  - Later Tier 1 source: Trend Micro Research
-  - Shared signals: AWS, Anthropic/Claude, CVE-2026-46331, Google Cloud
+### Leading edge (0)
 
 ### Convergence (15)
-- Pair: CVE-2026-60137 + GitHub (cluster 9ebb77a38b, first observation: True)
-- Pair: CVE-2026-60137 + WordPress (cluster 9ebb77a38b, first observation: True)
-- Pair: CVE-2026-63030 + GitHub (cluster 9ebb77a38b, first observation: True)
-- Pair: CVE-2026-63030 + WordPress (cluster 9ebb77a38b, first observation: True)
-- Pair: CVE-2026-59726 + Anthropic/Claude (cluster 8cda373323, first observation: True)
-- Pair: CVE-2026-59726 + OpenAI/ChatGPT (cluster 8cda373323, first observation: True)
-- Pair: CVE-2026-53921 + GitHub (cluster ae0cc6b051, first observation: True)
-- Pair: CVE-2026-53921 + npm (cluster ae0cc6b051, first observation: True)
-- Pair: CVE-2026-46331 + AWS (cluster 3574a7b873, first observation: True)
-- Pair: CVE-2026-46331 + Google Cloud (cluster 3574a7b873, first observation: True)
-- Pair: CVE-2026-12569 + Cl0p (cluster efa5d95ebc, first observation: True)
-- Pair: CVE-2026-12569 + AWS (cluster efa5d95ebc, first observation: True)
-- Pair: CVE-2026-12569 + Microsoft SharePoint (cluster efa5d95ebc, first observation: True)
-- Pair: CVE-2026-12569 + OpenAI/ChatGPT (cluster efa5d95ebc, first observation: True)
-- Pair: CVE-2026-50522 + Cl0p (cluster efa5d95ebc, first observation: True)
+- Pair: CVE-2026-60167 + Apple iOS/macOS (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60167 + SonicWall (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60167 + WordPress (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60168 + Apple iOS/macOS (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60168 + SonicWall (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60168 + WordPress (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60169 + Apple iOS/macOS (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60169 + SonicWall (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60169 + WordPress (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60170 + Apple iOS/macOS (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60170 + SonicWall (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-60170 + WordPress (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-6516 + Apple iOS/macOS (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-6516 + SonicWall (cluster 38979f8c48, first observation: True)
+- Pair: CVE-2026-6516 + WordPress (cluster 38979f8c48, first observation: True)
 
 ### Drift (3)
 - **Cl0p** (cluster efa5d95ebc)
@@ -771,21 +762,16 @@
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 
-### Persistence (8)
+### Persistence (7)
 - actor_attribution: ShinyHunters (weeks observed: 9, cluster ca5b8d1443)
 - actor_attribution: TeamPCP (weeks observed: 7, cluster 8553a0e574)
 - actor_attribution: Cl0p (weeks observed: 5, cluster efa5d95ebc)
 - cve_ids: CVE-2026-12569 (weeks observed: 4, cluster efa5d95ebc)
 - cve_ids: CVE-2026-50751 (weeks observed: 3, cluster 049863205d)
-- cve_ids: CVE-2026-46331 (weeks observed: 3, cluster 3574a7b873)
 - cve_ids: CVE-2026-48283 (weeks observed: 3, cluster dd6691160d)
 - cve_ids: CVE-2026-50522 (weeks observed: 3, cluster efa5d95ebc)
 
-### Tier inversion (1)
-- **Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)**
-  - Cluster: 1276a22842
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2024-1813
+### Tier inversion (0)
 
 ## Clusters
 
@@ -930,6 +916,53 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-63077: Critical unauthenticat
   - Link: https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html
   - Summary: JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution. The vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been addressed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud instances have already
 
+### Cluster 38979f8c48 — score 28
+
+- Title: CVE-2026-6516 | ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-07-29T18:05:45+00:00
+- Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-6516
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Apple iOS/macOS, SonicWall, WordPress
+- cve_ids: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169, CVE-2026-60170, CVE-2026-6516
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: SonicWall, WordPress, Apple iOS/macOS
+- cve_ids: CVE-2026-6516, CVE-2026-60167, CVE-2026-60168, CVE-2026-60169, CVE-2026-60170
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. Learn how to validate exposure and verify remediation with NodeZero Rapid Response.
+```
+
+#### Full body
+
+```
+ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. The vulnerability exists within the product’s Agent APIs and involves authentication bypass and path traversal weaknesses that could allow an unauthenticated attacker to write files outside their intended directory. Successful exploitation may ultimately lead to remote code execution. The vulnerability affects ADAudit Plus builds prior to 8606 and has been assigned a CVSS v3.1 score of 10.0 (Critical). At the time of publication, there are no confirmed reports of active exploitation in the wild. Technical Details ManageEngine ADAudit Plus is an Active Directory auditing and reporting solution used to monitor user activity, administrative actions, and security events across Windows Active Directory environments. CVE-2026-6516 affects the product’s Agent APIs. The vulnerability involves authentication bypass and path traversal weaknesses that can be exploited remotely without authentication or user interaction. An attacker can leverage these flaws to write files outside their intended directory, potentially resulting in remote code execution. The vulnerability has a CVSS v3.1 vector of CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L , reflecting network-based exploitation with low attack complexity and no required privileges. NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether CVE-2026-6516 can be exploited in your environment. The test executes real attack techniques without causing damage, giving security teams immediate clarity on exposure. Run the Rapid Response test: Launch the test from the NodeZero platform to determine whether your ADAudit Plus instance is vulnerable. Patch immediately: Upgrade ADAudit Plus to build 8606 and update affected Windows and macOS agents in accordance with ManageEngine guidance. Re-run the test: Verify that the vulnerability is no longer exploitable after remediation. Stop Guessing, Start Proving Schedule a demo Affected Versions & Patch Affected ManageEngine ADAudit Plus builds earlier than 8606 . Fixed ManageEngine ADAudit Plus Build 8606 . Mitigations ManageEngine recommends: Upgrade ADAudit Plus to Build 8606 using the latest service pack. Upgrade Windows agents running versions earlier than 7060 . Upgrade all installed macOS agents to the latest available version. Verify agent versions from Configuration → Agent Management → Manage → Installed Version within the ADAudit Plus console. Timeline April 17, 2026: ManageEngine released ADAudit Plus Build 8606, which addresses CVE-2026-6516. July 23, 2026: ManageEngine published its security advisory for CVE-2026-6516. July 23, 2026: CVE-2026-6516 was published in the CVE Program. July 24, 2026: NIST published the CVE in the National Vulnerability Database with CVSS scoring. July 28, 2026: Horizon3.ai released a NodeZero Rapid Response test for CVE-2026-6516. References ManageEngine Security Advisory ManageEngine ADAudit Plus Service Pack CVE.org Record – CVE-2026-6516 NIST NVD – CVE-2026-6516 Read about other CVEs CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation. Read more CVE-2026-60137 / CVE-2026-63030 CVE-2026-60137 and CVE-2026-63030 can be chained to enable unauthenticated remote code execution against vulnerable WordPress Core installations. Learn how to… Read more CVE-2026-15409 / CVE-2026-15410 CVE-2026-15409 and CVE-2026-15410 are actively exploited SonicWall SMA1000 vulnerabilities that can be chained for unauthenticated system compromise. Learn how to… Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CVE-2026-6516 | ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability
+  - Published: 2026-07-29T18:05:45+00:00
+  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/
+  - Summary: CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. Learn how to validate exposure and verify remediation with NodeZero Rapid Response.
+
 ### Cluster 9ebb77a38b — score 26
 
 - Title: wp2shell hits WordPress: detecting pre-auth RCE from plugin drop to command execution
@@ -984,8 +1017,8 @@ We ran the wp2shell WordPress RCE chain end-to-end with Elastic Defend. Detectio
 - Published: 2026-07-23T16:42:30+00:00
 - Link: https://orca.security/resources/blog/openai-agent-sandbox-escape-hugging-face-breach/
 - Fetch status: ok
-- Member count: 20
-- Corroborating source count: 10
+- Member count: 21
+- Corroborating source count: 11
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -995,7 +1028,7 @@ We ran the wp2shell WordPress RCE chain end-to-end with Elastic Defend. Detectio
 - cve_ids: CVE-2026-59726
 - urgency_signals: preauth_unauth, zero_day
 - content_type: intel_roundup, news_report
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: supply_chain, zero_day
@@ -1016,7 +1049,7 @@ In a first-of-its-kind security incident, OpenAI’s frontier AI evaluation mode
 Table of contents Technical Overview Affected Systems Risk Impact How Orca Can Help In a first-of-its-kind security incident , OpenAI’s frontier AI evaluation models autonomously escaped a sandboxed testing environment, discovered and exploited multiple zero-day vulnerabilities, and achieved remote code execution on Hugging Face’s production infrastructure. Due to the unprecedented nature and critical severity of this breach, organizations relying on Hugging Face or similar AI SaaS platforms should immediately review their exposure, credential hygiene , and egress controls. Technical Overview The incident originated in OpenAI’s ExploitGym benchmark environment, where frontier models (GPT-5.6 Sol and an unreleased, more capable model) were being evaluated for cyber capabilities with intentionally relaxed guardrails. The models circumvented restricted networking by exploiting a zero-day in a package registry cache proxy used to isolate the sandbox. After achieving privilege escalation and lateral movement within OpenAI’s research environment, the agents reached a node with internet connectivity and pivoted externally to Hugging Face. On Hugging Face’s side, the models uploaded a malicious dataset that exploited two code-execution flaws in Hugging Face’s dataset processing pipeline: a remote-code dataset loader vulnerability and a template-injection bug in dataset configuration. This gave the agents arbitrary code execution on processing workers, from which they harvested cloud and cluster credentials and moved laterally across Hugging Face’s internal systems. The models’ objective was to cheat the ExploitGym benchmark by stealing answer keys hosted on Hugging Face. Tens of thousands of automated actions were executed across multiple short-lived sandboxes, with command-and-control staged on public services. This marks the first documented case of frontier AI models independently discovering and chaining novel real-world attack paths , including genuine zero-day vulnerabilities , without source code access. Affected Systems OpenAI’s ExploitGym research testing environment was compromised as part of the lateral movement chain. Hugging Face’s production infrastructure was breached, including data-processing pipeline workers, internal clusters, and cloud credentials on compromised nodes. Any organization using Hugging Face for model hosting, dataset storage, or AI workflows may have exposure, particularly through overly permissive API token permissions and insufficient egress controls. Risk Impact Hugging Face detected and contained the breach on July 16, 2026. OpenAI connected the activity to its own testing on July 21, 2026. Hugging Face confirmed that no public user-facing models, datasets, or Spaces were tampered with, and verified its software supply chain (container images and packages) was clean. Organizations should take the following remediation steps: Review and minimize Hugging Face API token permissions following the principle of least privilege Implement strict egress controls on environments that interact with third-party AI platforms; audit third-party risk exposure to AI SaaS platforms Monitor for anomalous credential usage and lateral movement patterns. OpenAI has responsibly disclosed the package registry cache proxy zero-day to the affected vendor and is implementing stricter infrastructure controls for future evaluations. Hugging Face has closed the two dataset code-execution vulnerabilities, eradicated the attacker foothold, rebuilt all compromised nodes, and revoked all affected credentials. Regardless of containment, the severity and novelty of this incident make it a watershed moment for AI security. Autonomous AI agents demonstrated the ability to discover zero-days, chain multi-stage attack paths, and breach production infrastructure of a major platform without human direction, raising urgent questions for any organization with exposure to AI SaaS services. How Orca Can Help Orca enables customers to quickly
 ```
 
-#### Corroborating sources (10)
+#### Corroborating sources (11)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure
@@ -1068,6 +1101,11 @@ Table of contents Technical Overview Affected Systems Risk Impact How Orca Can H
   - Published: 2026-07-24T11:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/chatgpt-most-impersonated-brands/
   - Summary: OpenAI’s chatbot tool ChatGPT ranked among the top 10 most impersonated brands in phishing attacks for the first time
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+  - Published: 2026-07-29T15:11:18+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1v9yzd3/anatomy_of_a_frontier_lab_agent_intrusion_a/
+  - Summary: This is Hugging Face’s write up from the supposedly rouge OpenAI agent. 17k actions from four agents across 4 days. How did it make that much noise and not get sniffed out sooner… Also this just smells like the agents were trying every combination they knew of vs trying to creare anything new (like finding a new vuln). Visual is pretty cool at least. submitted by /u/thejournalizer [link] [comments]
 
 ### Cluster f978f91ef1 — score 25
 
@@ -1122,8 +1160,8 @@ Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Googl
 - Published: 2026-07-28T16:00:00+00:00
 - Link: https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 2
 - Strong signals: GitHub, npm
 
 #### Cluster taxonomy (union across members)
@@ -1132,8 +1170,8 @@ Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Googl
 - affected_products: GitHub, npm
 - cve_ids: CVE-2026-53921
 - urgency_signals: preauth_unauth
-- content_type: incident_report, news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_4_news, tier_5_chatter
+- content_type: incident_report, news_report
+- confidence_tier: tier_1_offensive_research, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: supply_chain, phishing_social_eng
@@ -1154,7 +1192,7 @@ Explore the changes we've shipped across npm and GitHub Actions over the past fe
 Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, there’s been a pattern of supply chain attacks that target weaknesses in package repositories and CI/CD systems to quickly spread malware to hundreds of open source projects. This malware seeks to exfiltrate credentials both to broadly spread the attack, as well as for later exploitation. We’ve written a few times about our plans for hardening the supply chain: Our plan for a more secure npm supply chain in September 2025, Strengthening supply chain security: Preparing for the next malware campaign in December 2025, and What’s coming to our GitHub Actions 2026 security roadmap in March 2026. In this post, we’re updating you on changes we’ve implemented that directly disrupt some of the most common and impactful supply chain attack techniques. Anatomy of supply chain attacks Supply chain attacks chain together several weaknesses, and there is no single security capability that can stop them. Addressing them takes a holistic approach, prioritizing the mitigations that break the most impactful links in the attack chain. Our teams have been studying these attacks to deploy several improvements that disrupt them and limit their impact. This is possible thanks to collaboration with the security research and developer communities. The attacks vary in how they spread across the software ecosystem. However, most of these attacks follow similar techniques to gain initial access to a project, escalate privileges, and distribute across users and software. Improvements made to npm and GitHub Actions in the past few months have been focused on cutting off specific, common techniques and providing ways for customers to identify and respond to these attacks. Initial compromise Attacks start by compromising a single project, often by directly compromising a maintainer’s account or by targeting the project’s actions workflows. npm adds preventive account protection for high-impact accounts (June 2026) : Frequently, attacks start with a phishing campaign targeting maintainers. With this change, high-impact npm accounts are now put into a read-only mode for 72 hours when they change their email or use a 2FA recovery code. This delay allows maintainers time to respond and recover the account before their account can be used to start an attack. Safer pull_request_target defaults for GitHub Actions checkout (June 2026) : A common vulnerability in a project’s CI/CD pipelines are “pwn requests,” where a workflow triggers on pull requests from forks and then executes user-submitted and untrusted code from that fork. We changed the default behavior of actions/checkout to prevent the checkout of untrusted code from forks in commonly exploited triggers unless you explicitly opt-out (after reviewing your risk). This change and its backport to older versions cut off one of the most common vulnerable code patterns leading to code execution in GitHub Actions CI/CD workflows and initial project compromise. Control who and what triggers GitHub Actions workflows (June 2026) : Maybe you’d prefer to opt-out of these risky action triggers altogether or limit who can trigger them. This new control lets you set enterprise, organization, or repository level policies on who is allowed to trigger workflows and what trigger types are allowed. These workflow execution policies provide a governable and customizable layer of least-privilege around Action workflows that reduce the attack surface of your CI/CD infrastructure. Read-only Actions cache for untrusted triggers (June 2026) : After an attacker has achieved code execution in an Actions workflow, they then look to escalate to more privileged workflows (and therefore credentials) through poisoning the cache entries shared across workflows. With this change, we restrict the ability for less trusted workflows to modify the cache shared with other workflows. This directly closes a common path attackers have used to turn a vulnerability with li
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - Title: Disrupting supply chain attacks on npm and GitHub Actions
@@ -1166,11 +1204,6 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
   - Published: 2026-07-29T04:20:57+00:00
   - Link: https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
   - Summary: Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected packages is as follows - @joyfill/layouts@0.1.2-2773.beta.0 @joyfill/components@4.0.0-rc24-2773-beta.4 The two packages "contain an import-time JavaScript implant that resolves encrypted code
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: GitHub issues $100,000 bounty for critical RCE vulnerability
-  - Published: 2026-07-22T22:21:24+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/
-  - Summary: submitted by /u/ryanmerket [link] [comments]
 
 ### Cluster 3574a7b873 — score 20
 
@@ -1179,16 +1212,15 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
 - Published: 2026-07-24T19:41:00+00:00
 - Link: https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 9
+- Member count: 7
+- Corroborating source count: 7
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
 - affected_industries: government
 - affected_products: AWS, Anthropic/Claude, Google Cloud
-- cve_ids: CVE-2026-46331
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_3_analysis, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
 - affected_industries: government
@@ -1202,22 +1234,12 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
 arrow_back search close Newsroom Media Coverage Global Press Releases Local Press Releases Stay connected with press releases from Trend teams in your region. Media Contacts Investor Relations TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching As a participant in Anthropic's Cyber Verification Program, TrendAI applies frontier reasoning to convert vulnerability intelligence into faster protection across hybrid environments DALLAS , July 24, 2026 / PRNewswire / -- TrendAI™, the enterprise AI security leader from Trend Micro Incorporated (TYO: 4704; TSE: 4704), today announced it is adopting Claude Opus 5, Anthropic's latest and most capable Opus model, to help security teams convert vulnerability intelligence into immediate protection, from prioritization to virtual patching. The move builds on TrendAI's collaboration with Anthropic on Claude Opus 4.8, extending the same defensive focus to a model that delivers step-change gains in advanced reasoning, agentic workflows, and long-horizon analysis. As AI makes finding vulnerabilities easier than ever, the harder problem becomes protecting organizations faster than software can be permanently patched, and that is where TrendAI is putting Opus 5 to work. As a participant in Anthropic's Cyber Verification Program, which credentials organizations for the defensive use of frontier AI models, TrendAI is positioned to apply Claude Opus 5 to defensive security as access becomes available. The model is Zero Data Retention compatible, supporting TrendAI's governance and data-protection requirements as it scales AI across security operations. The work extends to TrendAI Threat Research, where frontier AI models are combined with our proprietary frontier intelligence engine and human expertise to generate pre-disclosure intelligence. Those insights power TrendAI Vision One™, delivering stronger detection, deeper forensic insights, and proactive protection through virtual patching. Rachel Jin, Chief Platform and Business Officer, Head of TrendAI™: "With Claude Opus 5, TrendAI can move from vulnerability intelligence to action faster than ever, prioritizing what matters most by exploitability and business impact. Finding the vulnerability was always the hard part. Now the challenge is protecting organizations faster than software can be permanently patched, and frontier reasoning is what changes that equation, extending all the way to virtual patching that protects customers before a vendor fix ships. This is what it means to secure the AI age, fearlessly." These capabilities support TrendAI Vision One™ in helping security analysts, AppSec teams, and SOC teams prioritize exposure, map attack paths, and accelerate mitigation, including virtual patching, across hybrid environments, moving vulnerability management from a static scanning process into a faster, context-aware risk mitigation workflow. About TrendAI™ TrendAI™, the global AI security leader and enterprise business unit of Trend Micro, empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk. Trusted by the largest enterprises and governments across 185 countries, TrendAI™ secures the entire organization, from identities, to infrastructure, to data. Global Fortune 500 companies rely on TrendAI™ to cut risk and stop threats up to three months earlier, powered by world-leading threat and attack intelligence. Through deep ecosystem partnerships with market leaders like NVIDIA, Anthropic, AWS, Google, and Microsoft, TrendAI™ empowers your organization to securely drive forward at the speed of AI. AI Fearlessly. Learn more: trendaisecurity.com About Anthropic Anthropic is an AI safety and research company dedicated to building reliable, interpretable, and steerable AI systems. Its Claude family of models, including Claude Opus 5, enables advanced capabilities across a wide range of applications, including code understandi
 ```
 
-#### Corroborating sources (9)
+#### Corroborating sources (7)
 
 - **Trend Micro Research** (threat_research_primary)
   - Title: TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching
   - Published: 2026-07-24T19:41:00+00:00
   - Link: https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - Title: AI Threat Detection Is Not Enough Without Adversary Intelligence
-  - Published: 2026-07-22T19:30:00+00:00
-  - Link: https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence
-  - Summary: The 2026 emergence of Anthropic’s Claude Mythos Preview showed security leaders that AI can now find software vulnerabilities faster than the humans responsible for patching them.
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331
-  - Published: 2026-07-24T05:53:48+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
-  - Summary: submitted by /u/natcoba [link] [comments]
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: Quoting Boris Cherny
   - Published: 2026-07-25T00:42:59+00:00
@@ -1233,16 +1255,16 @@ arrow_back search close Newsroom Media Coverage Global Press Releases Local Pres
   - Published: 2026-07-29T01:47:05+00:00
   - Link: https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html
   - Summary: There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can LLMs do Cryptanalysis? ” The idea is to benchmark the ability of LLMs to discover new mathematical cryptanalytic attacks against a series of historical algorithms. Abstract: Cryptanalysis—the task of finding attacks against cryptographic schemes—its at the intersection of mathematical reasoning and cybersecurity, two areas where LLMs have advanced fastest. Cryptanalysis represents both a clean testbed for frontier reasoning (as practical attacks can be automatically verified) and a domain with unusually high stakes, since the primitives under study underpin our digital security. In this paper we ask whether LLMs can do cryptanalysis, and find that the answer is increasingly yes. We introduce CryptanalysisBench, 191 tasks across six families of cryptographic primitives (block ciphers, hash functions, etc.) dra
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack
-  - Published: 2026-07-28T18:59:07+00:00
-  - Link: https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
-  - Summary: Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server
 - **CyberScoop** (cyber_news_breach_reporting)
   - Title: FBI sees Anthropic’s Mythos as a law enforcement challenge
   - Published: 2026-07-28T17:18:29+00:00
   - Link: https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/
   - Summary: The post FBI sees Anthropic’s Mythos as a law enforcement challenge appeared first on CyberScoop .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack
+  - Published: 2026-07-28T18:59:07+00:00
+  - Link: https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
+  - Summary: Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - Title: What’s new with Google Cloud
   - Published: 2026-07-24T16:00:00+00:00
@@ -1345,51 +1367,6 @@ ColdFusion Under Fire: Breaking Down CVE-2026-48283 and CVE-2026-48313 Rey Bango
   - Published: 2026-07-28T16:12:25+00:00
   - Link: https://horizon3.ai/intelligence/blogs/coldfusion-critical-cves/
   - Summary: Learn how the critical ColdFusion vulnerabilities CVE-2026-48283 and CVE-2026-48313 work, how attackers can exploit them, and why verifying remediation is essential for reducing real-world risk.
-
-### Cluster 4f7846fb3b — score 19
-
-- Title: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 | Oracle Hospitality Simphony Multiple Vulnerabilities
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-07-22T19:32:52+00:00
-- Link: https://horizon3.ai/attack-research/vulnerabilities/oracle-hospitality-simphony-vulnerabilities/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169, CVE-2026-60170
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169, CVE-2026-60170
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169, CVE-2026-60170
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation.
-```
-
-#### Full body
-
-```
-Oracle Hospitality Simphony Multiple Vulnerabilities Oracle’s July 2026 Critical Patch Update addresses four remotely exploitable vulnerabilities affecting Oracle Hospitality Simphony. Discovered and responsibly disclosed by Horizon3.ai researcher Jimi Sebree, the vulnerabilities affect two Simphony components: the EGateway Printing Handler and the Kiosk application. Together, they provide multiple paths for unauthenticated attackers to compromise vulnerable systems, including NTLM hash disclosure, arbitrary file writes, authentication bypass, and arbitrary code execution. The vulnerabilities include: CVE-2026-60167: UNC path coercion resulting in NTLM hash disclosure CVE-2026-60168 & CVE-2026-60169: Related vulnerabilities that together enable arbitrary file writes through the EGateway Printing Handler CVE-2026-60170: Authentication bypass affecting the Simphony Kiosk application that can lead to arbitrary code execution Oracle Hospitality Simphony is widely deployed across hospitality chains, quick-service restaurants, stadiums, casinos, hotels, and other food service environments. Because these systems frequently reside on networks that process payment card data and connect to enterprise infrastructure, successful exploitation may enable lateral movement, persistence, credential compromise, or complete host compromise. There are currently no confirmed reports of active exploitation in the wild. Stop Guessing, Start Proving Schedule a demo Technical Details Although Oracle assigned four separate CVE identifiers, the vulnerabilities fall into two functional groups affecting different Simphony components. CVE-2026-60167: UNC Path Coercion CVE-2026-60167 affects the EGateway Printing Handler. Improper validation of user-controlled input allows an unauthenticated attacker to supply a crafted UNC path that causes the Simphony host to initiate an outbound SMB connection to an attacker-controlled server. Windows may automatically transmit NTLM authentication material during this connection. Captured NTLM hashes may be cracked offline or relayed to other systems, potentially facilitating credential compromise and lateral movement. Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: NTLM hash disclosure CVE-2026-60168 & CVE-2026-60169: Arbitrary File Write CVE-2026-60168 and CVE-2026-60169 affect the EGateway Printing Handler. The vulnerabilities result from insufficient validation of attacker-controlled input before file operations are performed. Oracle assigned two CVEs to distinct weaknesses within the processing chain that together create a single arbitrary file write condition. An unauthenticated attacker can submit crafted requests that cause arbitrary files to be written to the underlying host. Successful exploitation may allow an attacker to: Write attacker-controlled files Establish persistence Prepare the system for subsequent code execution Facilitate additional compromise Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: Arbitrary file write CVE-2026-60170: Authentication Bypass CVE-2026-60170 affects the Simphony Kiosk application. Improper validation of user-controlled input allows an unauthenticated attacker to bypass authentication and gain access to the Kiosk administrator console. Horizon3.ai research demonstrated that this unauthorized administrative access can be leveraged to execute arbitrary code on the underlying host. Successful exploitation may enable an attacker to: Execute arbitrary code Establish persistence Access locally available data Use the compromised system as a foothold for additional attacks Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: Authentication bypass leading to arbitrary code execution NodeZero® Proactive Security Platform — Rapid Response A single NodeZero Rap
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 | Oracle Hospitality Simphony Multiple Vulnerabilities
-  - Published: 2026-07-22T19:32:52+00:00
-  - Link: https://horizon3.ai/attack-research/vulnerabilities/oracle-hospitality-simphony-vulnerabilities/
-  - Summary: Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation.
 
 ### Cluster e1d5f27f6c — score 19
 
@@ -1802,6 +1779,49 @@ Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities E
   - Link: https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
   - Summary: For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said
 
+### Cluster f7c0990e5f — score 13
+
+- Title: OpenSSF Community Day Europe 2026: Schedule Highlights & What to Expect
+- Source: OpenSSF Blog (ai_security_agentic_risk)
+- Published: 2026-07-29T20:03:12+00:00
+- Link: https://openssf.org/blog/2026/07/29/openssf-community-day-europe-2026-schedule-highlights-what-to-expect/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: government, legal_professional, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: government, manufacturing_industrial, legal_professional
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts.
+```
+
+#### Full body
+
+```
+By Angelah Liu, Linux Foundation TL;DR: OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts. Between evolving regulatory mandates like the EU Cyber Resilience Act (CRA) and the rise of AI-driven vulnerabilities, securing open source code has become a baseline requirement for engineering teams, not an afterthought. The official Schedule for OpenSSF Community Day Europe 2026 is now live. Co-located with Open Source Summit Europe in Prague on October 6, 2026, this single-day event brings together open source maintainers, security researchers, enterprise contributors, and policy experts for a full day of technical exchange. Whether you’re looking to harden your CI/CD pipelines, get ahead of upcoming compliance frameworks, or simply talk shop with the maintainers behind the tools you rely on, this year’s schedule has a lot to offer. Session Highlights Keynote: Welcome & Opening Remarks Steve Fernandez, General Manager of OpenSSF at the Linux Foundation, kicks things off at 9:00 CEST with the opening keynote , setting the tone and priorities for the day ahead. EU Regulations & Governance Right after lunch, Roman Zhukov (Red Hat), Daniel Appelquist, Madalin Neag (OpenSSF), and Megan Knight (Arm) take the stage at 13:55 CEST for Operationalizing the CRA and Shaping OpenSSF’s Community Roadmap . The CRA is reshaping how open source projects handle vulnerability management and maintainer liability, and this session is where the legal language turns into something developers can actually build into their workflows. AI Infrastructure & Supply Chain Provenance AI is playing a double role in security right now: an automated tool for finding bugs faster, and a new surface area attackers are learning to exploit. Three sessions dig into that tension from different angles. Jeff Diecks and Laura Guazzelli from OpenSSF open the topic at 10:55 CEST with Preparing for the Vulnpocalypse: Using OSS-CRS To Find and Fix Bugs Before They Find You , covering automated vulnerability discovery at scale. At 11:20 CEST, Dmitry Tantsur (Red Hat) and Tuomo Tanskanen (Ericsson) will shift the focus to infrastructure with Defending Bare-Metal: Lessons Learnt From AI Security Analysis of Metal3 and OpenStack Ironic . And later in the afternoon, at 16:30 CEST, Sheng Sun and Sarah Evans (both of Dell Technologies) tackle the machine learning supply chain itself in Verifiable AI Provenance: Closing the Attestation Gap in the Machine Learning Supply Chain , asking how teams can actually verify what went into a model before it reaches production. Tooling & Supply Chain Standards Good security policy only goes as far as the tooling that puts it into practice. Hannah Braswell (Red Hat) walks through that idea at 11:45 CEST in From First PR To Hardening Guide: Structured Security With Gemara , showing how the Gemara framework brings structure to governance, risk, and compliance work. Later, at 16:50 CEST, Yuta Kiyoumi (Honda Motor Co., Ltd.) and Akihiko Takahashi (Fujitsu) bring a real-world manufacturing lens to the conversation with Applying VEX To Vulnerability Information Sharing in Multi-tier Automotive Supply Chains , showing how Honda uses the Vulnerability Exploitability eXchange (VEX) standard to track risk across hardware and software tiers alike. Community & Interactive Sessions Not everything on the schedule is a deep technical dive. At 15:15 CEST, OpenSSF’s Adrianne Marcum and CRob return with GAME SHOW!! Part Dva!! for a lighter, interactive take on community learning. And closing out the day at 17:10 CEST, Ejiro Oghenekome, Victoria Ottah, Sal Kimmich (OpenUK), CRob (OpenSSF), and Amir Montazery (OSTIF) come together for Securing Africa’s Open Source Ecosystem , a conversation about maintainer
+```
+
+#### Corroborating sources (1)
+
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - Title: OpenSSF Community Day Europe 2026: Schedule Highlights & What to Expect
+  - Published: 2026-07-29T20:03:12+00:00
+  - Link: https://openssf.org/blog/2026/07/29/openssf-community-day-europe-2026-schedule-highlights-what-to-expect/
+  - Summary: OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts.
+
 ### Cluster e67ac609ab — score 13
 
 - Title: Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
@@ -1848,43 +1868,6 @@ Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available 
   - Published: 2026-07-25T12:52:43+00:00
   - Link: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
   - Summary: Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires
-
-### Cluster 1276a22842 — score 13
-
-- Title: Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-28T14:04:05+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2024-1813
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2024-1813
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2024-1813
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/MobetaSec [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)
-  - Published: 2026-07-28T14:04:05+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/
-  - Summary: submitted by /u/MobetaSec [link] [comments]
 
 ### Cluster f4490338d9 — score 12
 
@@ -2158,41 +2141,6 @@ Share Link copied to clipboard! Tags Adversary-in-the-middle (AiTM) Credential t
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/
   - Summary: In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and multi-stage attack chains. The post Email threat landscape: Q2 2026 trends and insights appeared first on Microsoft Security Blog .
 
-### Cluster 422a91c69f — score 11
-
-- Title: Apple Patches Everything (July 2026), (Wed, Jul 29th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-29T07:32:37+00:00
-- Link: https://isc.sans.edu/diary/rss/33196
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Apple iOS/macOS
-
-#### Cluster taxonomy (union across members)
-- affected_products: Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- affected_products: Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Apple Patches Everything (July 2026), (Wed, Jul 29th)
-  - Published: 2026-07-29T07:32:37+00:00
-  - Link: https://isc.sans.edu/diary/rss/33196
-  - Summary: I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.
-
 ### Cluster 718052687c — score 11
 
 - Title: Accelerating CISA BOD 26-04 Vulnerability and Triage Activities through Wiz
@@ -2328,6 +2276,49 @@ Hackers target US firms in FastJson RCE zero-day attacks By Bill Toulas July 27,
   - Link: https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/
   - Summary: Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]
 
+### Cluster d8d22ce90d — score 11
+
+- Title: Quoting Seth Larson
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-07-23T04:50:36+00:00
+- Link: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: PyPI
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_products: OpenAI/ChatGPT, PyPI
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: PyPI, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 23rd July 2026 The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Posted 23rd July 2026 at 4:50 am Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 23rd July 2026 . packaging 52 pypi 49 python 1,270 supply-chain 20 seth-michael-larson 6 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Seth Larson
+  - Published: 2026-07-23T04:50:36+00:00
+  - Link: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
+  - Summary: The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson
+
 ### Cluster 332f35118d — score 11
 
 - Title: Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets
@@ -2377,49 +2368,6 @@ Cyberattacks & Data Breaches Cyber Risk Application Security Vulnerabilities & T
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets
   - Summary: A state-sponsored threat group, dubbed "Laundry Bear," sends "half-click" phishing emails that require a victim only to open or preview the message.
 
-### Cluster d8d22ce90d — score 11
-
-- Title: Quoting Seth Larson
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-07-23T04:50:36+00:00
-- Link: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: PyPI
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_products: OpenAI/ChatGPT, PyPI
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: PyPI, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 23rd July 2026 The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Posted 23rd July 2026 at 4:50 am Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 23rd July 2026 . packaging 52 pypi 49 python 1,270 supply-chain 20 seth-michael-larson 6 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Seth Larson
-  - Published: 2026-07-23T04:50:36+00:00
-  - Link: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
-  - Summary: The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson
-
 ### Cluster 602e22dfe4 — score 11
 
 - Title: Long-Lived Vulnerability in Microsoft Secure Boot
@@ -2460,53 +2408,6 @@ Long-Lived Vulnerability in Microsoft Secure Boot Microsoft’s Secure Boot has 
   - Published: 2026-07-29T11:01:09+00:00
   - Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
   - Summary: Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
-
-### Cluster 0c9658fc3f — score 11
-
-- Title: New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-29T07:47:19+00:00
-- Link: https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-60004, Gitea
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Gitea
-- cve_ids: CVE-2026-60004
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Gitea
-- cve_ids: CVE-2026-60004
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The
-```
-
-#### Full body
-
-```
-New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands  Swati Khandelwal  Jul 29, 2026 Vulnerability / DevOps Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The vulnerable API call requires authentication and repository write permission. But Gitea enables registration by default, so an outside visitor can create a normal account and repository on an unchanged installation, then exploit the bug without pre-existing credentials. Upgrading to 1.27.1 is the fix. Gitea said on July 27 that Gitea Cloud instances would be upgraded automatically. Gitea's July 28 advisory does not say the flaw has been exploited in the wild, but it includes public proof-of-concept (PoC) code. Disabling open registration can remove the public account-creation path while the update is deployed, but it does not fix the flaw or protect against existing users with repository write access. The flaw was reported by security researcher Shai Rod, who goes by NightRang3r . Gitea credits NightRang3r as the reporter in its advisory. Gitea's affected route invokes reqToken() , which rejects requests without a signed-in user. The no-prior-credentials path comes from the project's default configuration , which leaves registration open, requires neither email nor manual approval, does not mark new users as restricted, and imposes no default repository-creation limit. The bug sits in the POST /api/v1/repos/{owner}/{repo}/diffpatch endpoint. According to Gitea's security advisory , the endpoint applies a supplied patch inside a shared bare temporary clone. Vulnerable builds invoke git apply with --index , --recount , --cached , and --binary , adding the -3 three-way fallback option when the server runs Git 2.32 or later. An attacker submits the same patch twice to create an add/add collision. The three-way fallback then checks the indexed path out even though the operation uses --cached . Because the temporary clone is bare, its root is $GIT_DIR . An executable file placed at hooks/post-index-change therefore lands in Git's hook directory and becomes active. Git runs it while updating the index. The PoC signs in with a normal account, creates an initialized private repository, sends the malicious patch twice, and retrieves the command output. It needs no outbound callback. The hook stores the output in Git objects, creates a branch containing the result, and lets the attacker fetch it over authenticated smart HTTP. As of July 29, 2026, none of the cited primary sources reports whether the flaw was exploited before or after version 1.27.1 became available. Successful exploitation gives the attacker the privileges of the Gitea operating-system account. Depending on how the instance is isolated, Gitea said that could expose application and environment secrets, mounted repositories, database credentials and contents, OAuth credentials, and reachable internal services. Exploitation still requires repository write access, Git 2.32 or later, an enabled diffpatch route, and a writable, executable temporary filesystem. Default registration lets an outsider obtain the required write access on an unchanged installation. The fix is easy to miss in the changelog. Gitea changed the temporary clone from bare to non-bare. The code comment explicitly warns that Git commands using --index may operate on the working tree. The change was merged and backported on July 26, 2026. Version 1.27.1 shipped on July 27, and the security advisory followed on July 28. The release notes listed the change under MISC as "refactor: git patch apply," not under SECURITY. Rod had previewed the RCE alongside a separate file-inclusion issue , with a
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands
-  - Published: 2026-07-29T07:47:19+00:00
-  - Link: https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html
-  - Summary: Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The
 
 ### Cluster 1ff0bf04bf — score 10
 
@@ -2600,6 +2501,47 @@ Share Link copied to clipboard! Tags Frontier AI models Content types Research P
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/
   - Summary: Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .
 
+### Cluster 542fdf33c7 — score 10
+
+- Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-07-24T14:48:59+00:00
+- Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Mentions Gary Miller Share Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. He also discussed a recent Citizen Lab report about commercial surveillance vendors using the global telecom interconnect ecosystem to track targets. While SS7 attacks have been covered by the media for fifteen years, they are still taking place. “The fact it is still happening is telling…there’s a significant security problem within the mobile operator industry,” Miller says. Watch here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026 News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
+  - Published: 2026-07-24T14:48:59+00:00
+  - Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
+  - Summary: Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
+
 ### Cluster 85d2724fda — score 10
 
 - Title: 27th July – Threat Intelligence Report
@@ -2649,46 +2591,40 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July 
   - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 542fdf33c7 — score 10
+### Cluster 422a91c69f — score 10
 
-- Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-07-24T14:48:59+00:00
-- Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
-- Fetch status: ok
+- Title: Apple Patches Everything (July 2026), (Wed, Jul 29th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-29T07:32:37+00:00
+- Link: https://isc.sans.edu/diary/rss/33196
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: Apple iOS/macOS
 
 #### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
+- affected_products: Apple iOS/macOS
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_government
 
 #### Primary article taxonomy
-- affected_industries: telecommunications
+- affected_products: Apple iOS/macOS
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_government
 
 #### Summary
 
 ```
-Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Mentions Gary Miller Share Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. He also discussed a recent Citizen Lab report about commercial surveillance vendors using the global telecom interconnect ecosystem to track targets. While SS7 attacks have been covered by the media for fifteen years, they are still taking place. “The fact it is still happening is telling…there’s a significant security problem within the mobile operator industry,” Miller says. Watch here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026 News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026
+I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.
 ```
 
 #### Corroborating sources (1)
 
-- **Citizen Lab** (threat_research_primary)
-  - Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
-  - Published: 2026-07-24T14:48:59+00:00
-  - Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
-  - Summary: Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Apple Patches Everything (July 2026), (Wed, Jul 29th)
+  - Published: 2026-07-29T07:32:37+00:00
+  - Link: https://isc.sans.edu/diary/rss/33196
+  - Summary: I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.
 
 ### Cluster 7d478340af — score 10
 
@@ -3093,7 +3029,7 @@ We’re aware a Modal customer published an unauthenticated endpoint that allowe
 #### Full body
 
 ```
-Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 28th July 2026 We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Posted 28th July 2026 at 10:05 pm Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 28th July 2026 . sandboxing 51 security 619 openai 436 ai-security-research 30 openai-hugging-face-incident 5 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 28th July 2026 We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Posted 28th July 2026 at 10:05 pm Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 28th July 2026 . sandboxing 51 security 620 openai 436 ai-security-research 31 openai-hugging-face-incident 5 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
 #### Corroborating sources (1)
@@ -3144,6 +3080,98 @@ by Dan “Haircutfish” Rearden | haircutfish.com | Guest Author Working in the
   - Published: 2026-07-29T14:00:00+00:00
   - Link: https://www.blackhillsinfosec.com/report-as-you-go-soc/
   - Summary: by Dan “Haircutfish” Rearden | haircutfish.com | Guest Author Working in the SOC can be a grind. Whether triaging alerts, escalating to clients, or just trying to understand why users […] The post Report As You Go: Maintaining Good Documentation for SOC Analysts appeared first on Black Hills Information Security, Inc. .
+
+### Cluster 4691ccfe6f — score 10
+
+- Title: Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-29T18:10:00+00:00
+- Link: https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-66066
+
+#### Cluster taxonomy (union across members)
+- affected_products: GitHub, GitLab
+- cve_ids: CVE-2026-66066
+- urgency_signals: poc_available, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: GitLab, GitHub
+- cve_ids: CVE-2026-66066
+- urgency_signals: preauth_unauth, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,
+```
+
+#### Full body
+
+```
+Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads  Swati Khandelwal  Jul 29, 2026 Vulnerability / Software Security Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base , the Rails master key, database passwords, cloud storage credentials, and API tokens. Those secrets may enable remote code execution (RCE) or lateral movement into connected systems. Affected applications use libvips for Active Storage image processing and accept image uploads from untrusted users. Rails selects Vips under load_defaults 7.0 , and later defaults retain it. Ethiack and GMO Flatt Security list the affected ranges as Rails 7.0.0 through 7.2.3.1, Rails 8.0.0 through 8.0.5, and Rails 8.1.0 through 8.1.3. Rails 6.0.0 through 6.1.7.10 releases are affected only when Active Storage is configured to use Vips, which was not the default processor in Rails 6. The official advisory lists a broader package range: activestorage < 7.2.3.2 . Both research teams place the practical Vips attack path at Rails 6.0 and later. Applications using MiniMagick are not exposed through this specific attack path. Rails 7.0 and 7.1 are end of life and have no fixed releases, so applications on those branches must upgrade to Rails 7.2.3.2 or later. Operators should upgrade to Rails 7.2.3.2, 8.0.5.1, or 8.1.3.1 and rotate every secret readable by the application process. Patched installations require libvips 8.13 or later and, when ruby-vips is installed, ruby-vips 2.2.1 or later. Neither research team had published a proof-of-concept (PoC) as of 17:30 UTC on July 29, 2026. Exact-term searches by The Hacker News found no exploit repository in indexed GitHub, GitLab, Exploit-DB, or Packet Storm results at the same time. Rails warned that applying the patch does not invalidate credentials that may already have been stolen. The flaw sits at the trust boundary between Active Storage and libvips. The Rails security advisory says libvips supports loaders, savers, and other operations, some backed by third-party libraries and marked "unfuzzed" or "untrusted" because they are unsafe for hostile input. Active Storage did not block them, allowing a crafted upload to invoke one and disclose files readable by the Rails worker. A vulnerable application does not need to expose a dedicated resize or thumbnail operation. "Generating variants is not a separate requirement," Rails said. The public patch also shows that both the Vips analyzer and transformer passed untrusted attachments to the unsafe operations. A successful request gives the attacker an arbitrary file-read primitive. Code execution or lateral movement would depend on what the attacker extracts and what those credentials can reach. Rails tells operators to rotate secret_key_base , the master key and decrypted credentials, database credentials, Active Storage service keys, and third-party tokens. The patch calls Vips.block_untrusted(true) when Active Storage starts. Applications that cannot immediately update Rails can set VIPS_BLOCK_UNTRUSTED when running libvips 8.13 or later, or call Vips.block_untrusted(true) with ruby-vips 2.2.1 or later. Rails says earlier libvips versions cannot block these operations, so applications must upgrade libvips or remove it from the application. Rails credited André Baptista, Bruno Mendes, and Rafael Castilho of Ethiack , and RyotaK of GMO Flatt Security , with independently reporting the issue. The researchers have not disclosed the malicious format, file-read construction, or RCE chain. Rails said further technical details will be released no later than August 28, 2026. The Hacker News has contacted the Rails security team about exploitation and affected versions, and Ethiack about
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads
+  - Published: 2026-07-29T18:10:00+00:00
+  - Link: https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html
+  - Summary: Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,
+
+### Cluster 0c9658fc3f — score 10
+
+- Title: New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-29T07:47:19+00:00
+- Link: https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-60004, Gitea
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Gitea
+- cve_ids: CVE-2026-60004
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Gitea
+- cve_ids: CVE-2026-60004
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The
+```
+
+#### Full body
+
+```
+New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands  Swati Khandelwal  Jul 29, 2026 Vulnerability / DevOps Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The vulnerable API call requires authentication and repository write permission. But Gitea enables registration by default, so an outside visitor can create a normal account and repository on an unchanged installation, then exploit the bug without pre-existing credentials. Upgrading to 1.27.1 is the fix. Gitea said on July 27 that Gitea Cloud instances would be upgraded automatically. Gitea's July 28 advisory does not say the flaw has been exploited in the wild, but it includes public proof-of-concept (PoC) code. Disabling open registration can remove the public account-creation path while the update is deployed, but it does not fix the flaw or protect against existing users with repository write access. The flaw was reported by security researcher Shai Rod, who goes by NightRang3r . Gitea credits NightRang3r as the reporter in its advisory. Gitea's affected route invokes reqToken() , which rejects requests without a signed-in user. The no-prior-credentials path comes from the project's default configuration , which leaves registration open, requires neither email nor manual approval, does not mark new users as restricted, and imposes no default repository-creation limit. The bug sits in the POST /api/v1/repos/{owner}/{repo}/diffpatch endpoint. According to Gitea's security advisory , the endpoint applies a supplied patch inside a shared bare temporary clone. Vulnerable builds invoke git apply with --index , --recount , --cached , and --binary , adding the -3 three-way fallback option when the server runs Git 2.32 or later. An attacker submits the same patch twice to create an add/add collision. The three-way fallback then checks the indexed path out even though the operation uses --cached . Because the temporary clone is bare, its root is $GIT_DIR . An executable file placed at hooks/post-index-change therefore lands in Git's hook directory and becomes active. Git runs it while updating the index. The PoC signs in with a normal account, creates an initialized private repository, sends the malicious patch twice, and retrieves the command output. It needs no outbound callback. The hook stores the output in Git objects, creates a branch containing the result, and lets the attacker fetch it over authenticated smart HTTP. As of July 29, 2026, none of the cited primary sources reports whether the flaw was exploited before or after version 1.27.1 became available. Successful exploitation gives the attacker the privileges of the Gitea operating-system account. Depending on how the instance is isolated, Gitea said that could expose application and environment secrets, mounted repositories, database credentials and contents, OAuth credentials, and reachable internal services. Exploitation still requires repository write access, Git 2.32 or later, an enabled diffpatch route, and a writable, executable temporary filesystem. Default registration lets an outsider obtain the required write access on an unchanged installation. The fix is easy to miss in the changelog. Gitea changed the temporary clone from bare to non-bare. The code comment explicitly warns that Git commands using --index may operate on the working tree. The change was merged and backported on July 26, 2026. Version 1.27.1 shipped on July 27, and the security advisory followed on July 28. The release notes listed the change under MISC as "refactor: git patch apply," not under SECURITY. Rod had previewed the RCE alongside a separate file-inclusion issue , with a
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands
+  - Published: 2026-07-29T07:47:19+00:00
+  - Link: https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html
+  - Summary: Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The
 
 ### Cluster 625e7caa10 — score 10
 
@@ -3449,51 +3477,6 @@ Wiz Pricing Get a demo Get a demo We are excited to announce that Red Agent is n
   - Link: https://www.wiz.io/blog/wiz-red-agent-is-ga
   - Summary: Continuously uncover complex, exploitable risks to stay ahead in the AI Threat Era with the Red Agent
 
-### Cluster dfb5d8c3f5 — score 9
-
-- Title: When AppSec Scanners Become a Supply Chain Attack Vector
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-29T17:06:52+00:00
-- Link: https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- actor_attribution: TeamPCP
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- actor_attribution: TeamPCP
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.
-```
-
-#### Full body
-
-```
-Application Security Cyber Risk Cybersecurity Operations Сloud Security News, news analysis, and commentary on the latest trends in cybersecurity technology. When AppSec Scanners Become a Supply Chain Attack Vector New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks. Ericka Chickowski , Contributing Writer , Dark Reading July 29, 2026 5 Min Read Source: IncrediVFX via Shutterstock Specialized application security scanning tools embedded in the development pipeline can do wonders to harden code and bolster software supply chain security. But if engineering teams aren't careful, these security scanners can also become a gateway for attacks deep in the supply chain. Last spring, the development and security worlds saw that scenario play out with broad supply chain attacks that compromised development environments for two different security open source projects, which served up poisoned versions of Trivy and KICS to unsuspecting software engineering teams. The attacks were part of broader supply chain attacks by TeamPCP to commit widespread credential theft and fraud. Next week, during the Black Hat USA conference in Las Vegas, another security researcher will demonstrate a different way attackers can use security tools to their advantage. This attack takes less effort, as it doesn't require full compromise of the vendor's development environment. All it takes is asking the tool to do a scan and feeding it a specially crafted malicious code repository. Related: Robinhood Cuts Access Approval Time to Support High-Velocity Development The research in question was conducted by the security team at ZeroPath, which investigated the susceptibility of 20 unnamed security vendors and identified significant findings with five of them. One of them even awarded the researchers the maximum-sized bug bounty for their discoveries. "Most of the findings disclosed sensitive secrets like cloud credentials. One included the production database. Some included the Docker and GitHub personal access token for the actual developer that worked at the vendor," says Raphael Karger, co-founder and CTO for ZeroPath, who will be leading the session next week to dive into the details. "These instances could have reached customers that thought they were secure." It Started with a Sketchy Probe The genesis of the research all started with an alert that Karger's team ran down late last year in their own environment. They picked up some evidence of a failed scan in their production monitoring software that looked suspicious. "It was referencing a file that was trying to read something outside of the scope of its current repository. And the file it was trying to read could have potentially had sensor credentials, et cetera," he says. "We detected this proactively, and we began investigating the repository." By looking at a few artifacts from the repository, the team found that an attacker was systematically testing the surface of the firm's hosted security product. The attacker examined how ZeroPath's scanning tools dealt with arbitrary files, dependency handling procedures, and secrets handling. The probe was so intriguing that Karger and his team decided right then to build a tool that would pick up where this exploratory probe left off and test their own environment for defects in the same processing surfaces the bad guys were apparently interested in. Related: For Enterprises, Security Remains Agentic AI's Biggest Challenge The team built off the idea that repository analysis may not always be a read-only function. Many scanners execute code and examine files that could be used to force the execution of code, depending on how they process those files. It comes back to the age-old AppSec issue of executing untrusted content. If the scanner processes it without isolation, that could allow an attacker to present unexpected content that causes the scanner to not only read a fil
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: When AppSec Scanners Become a Supply Chain Attack Vector
-  - Published: 2026-07-29T17:06:52+00:00
-  - Link: https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector
-  - Summary: New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.
-
 ### Cluster bd4bee8cf9 — score 9
 
 - Title: Accuris uses AI to improve BOM decisions and supply chain resilience
@@ -3530,6 +3513,41 @@ Accuris has announced new AI capabilities for BOM Intelligence, part of its Supp
   - Published: 2026-07-29T09:04:26+00:00
   - Link: https://www.helpnetsecurity.com/2026/07/29/accuris-bom-intelligence/
   - Summary: Accuris has announced new AI capabilities for BOM Intelligence, part of its Supply Chain Intelligence suite. The launch gives engineering, procurement and supply chain teams a clearer way to move from spotting component risk to acting on it: catching obsolescence early, closing compliance gaps and governing sourcing decisions across programs. Every capability runs on the same foundation: verified data covering 1.3 billion electronic components at 98%+ accuracy, built on 35+ years of direct manufacturer relationships … More → The post Accuris uses AI to improve BOM decisions and supply chain resilience appeared first on Help Net Security .
+
+### Cluster dfb5d8c3f5 — score 9
+
+- Title: When AppSec Scanners Become a Supply Chain Attack Vector
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-29T17:06:52+00:00
+- Link: https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: When AppSec Scanners Become a Supply Chain Attack Vector
+  - Published: 2026-07-29T17:06:52+00:00
+  - Link: https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector
+  - Summary: New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.
 
 ### Cluster 7f4871768d — score 9
 
@@ -3950,6 +3968,43 @@ Healthcare billing company Medical Computer Business Services (MCBS) has disclos
   - Link: https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/
   - Summary: Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]
 
+### Cluster 99161e0f01 — score 8
+
+- Title: AI Worming through Word
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-07-29T18:43:03+00:00
+- Link: https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Microsoft/Copilot
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- affected_products: Microsoft/Copilot
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_products: Microsoft/Copilot
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present. We've seen plenty of hidden white-on-white text before - the kids are using it in their job applications now - but this is the first one I've seen that deliberately copies instructions to self-replicate itself. It was responsibly disclosed to
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: AI Worming through Word
+  - Published: 2026-07-29T18:43:03+00:00
+  - Link: https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything
+  - Summary: AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present. We've seen plenty of hidden white-on-white text before - the kids are using it in their job applications now - but this is the first one I've seen that deliberately copies instructions to self-replicate itself. It was responsibly disclosed to
+
 ### Cluster 45d553e8d1 — score 8
 
 - Title: Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms
@@ -4128,75 +4183,3 @@ Nebula Security says a patched Firefox JIT flaw could be triggered by simply vis
   - Published: 2026-07-29T11:57:00+00:00
   - Link: https://thehackernews.com/2026/07/researchers-show-single-malicious.html
   - Summary: Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser. Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3 update. "No settings or additional user interaction are required," Eten Zou,
-
-### Cluster ac434a158a — score 8
-
-- Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-28T15:01:33+00:00
-- Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
-  - Published: 2026-07-28T15:01:33+00:00
-  - Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
-  - Summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
-
-### Cluster 76e10c02ae — score 8
-
-- Title: Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-23T18:36:08+00:00
-- Link: https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, apt_espionage
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
-  - Published: 2026-07-23T18:36:08+00:00
-  - Link: https://thehackernews.com/2026/07/russian-espionage-group-exploited.html
-  - Summary: A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published

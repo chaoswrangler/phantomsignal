@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-29T18:12:14.743379+00:00",
+  "generated_at": "2026-07-29T20:15:50.235110+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 323,
-  "total_clusters_raw": 159,
+  "total_items_in_window": 337,
+  "total_clusters_raw": 165,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 75,
-  "dropped_overflow": 4,
+  "dropped_low_score": 78,
+  "dropped_overflow": 7,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,19 +67,19 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -109,11 +109,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Sekoia": {
@@ -130,12 +130,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -144,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 3
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -172,6 +172,13 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -186,12 +193,12 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -200,27 +207,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
@@ -228,11 +214,18 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 50,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -242,12 +235,12 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -255,6 +248,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -291,13 +291,6 @@
       "item_count": 30,
       "in_window_count": 1
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -305,33 +298,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 7
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 6
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -340,11 +312,32 @@
       "item_count": 20,
       "in_window_count": 8
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 0
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 7
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Protect AI": {
@@ -354,11 +347,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "Wiz Research": {
@@ -368,12 +361,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -389,26 +382,12 @@
       "item_count": 20,
       "in_window_count": 17
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -417,12 +396,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -430,6 +416,34 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -445,33 +459,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 28
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 16
+      "in_window_count": 19
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -480,11 +473,32 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 28
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -494,43 +508,36 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -542,13 +549,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 50
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -564,19 +564,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 2
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -585,12 +585,12 @@
       "item_count": 100,
       "in_window_count": 24
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 14
+      "in_window_count": 25
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -986,6 +986,136 @@
       ]
     },
     {
+      "cluster_id": "38979f8c48",
+      "priority_score": 28,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-6516"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "SonicWall",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-60167",
+          "CVE-2026-60168",
+          "CVE-2026-60169",
+          "CVE-2026-60170",
+          "CVE-2026-6516"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "CVE-2026-6516 | ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability",
+        "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
+        "published": "2026-07-29T18:05:45+00:00",
+        "summary": "CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. Learn how to validate exposure and verify remediation with NodeZero Rapid Response.",
+        "full_body": "ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. The vulnerability exists within the product’s Agent APIs and involves authentication bypass and path traversal weaknesses that could allow an unauthenticated attacker to write files outside their intended directory. Successful exploitation may ultimately lead to remote code execution. The vulnerability affects ADAudit Plus builds prior to 8606 and has been assigned a CVSS v3.1 score of 10.0 (Critical). At the time of publication, there are no confirmed reports of active exploitation in the wild. Technical Details ManageEngine ADAudit Plus is an Active Directory auditing and reporting solution used to monitor user activity, administrative actions, and security events across Windows Active Directory environments. CVE-2026-6516 affects the product’s Agent APIs. The vulnerability involves authentication bypass and path traversal weaknesses that can be exploited remotely without authentication or user interaction. An attacker can leverage these flaws to write files outside their intended directory, potentially resulting in remote code execution. The vulnerability has a CVSS v3.1 vector of CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L , reflecting network-based exploitation with low attack complexity and no required privileges. NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether CVE-2026-6516 can be exploited in your environment. The test executes real attack techniques without causing damage, giving security teams immediate clarity on exposure. Run the Rapid Response test: Launch the test from the NodeZero platform to determine whether your ADAudit Plus instance is vulnerable. Patch immediately: Upgrade ADAudit Plus to build 8606 and update affected Windows and macOS agents in accordance with ManageEngine guidance. Re-run the test: Verify that the vulnerability is no longer exploitable after remediation. Stop Guessing, Start Proving Schedule a demo Affected Versions & Patch Affected ManageEngine ADAudit Plus builds earlier than 8606 . Fixed ManageEngine ADAudit Plus Build 8606 . Mitigations ManageEngine recommends: Upgrade ADAudit Plus to Build 8606 using the latest service pack. Upgrade Windows agents running versions earlier than 7060 . Upgrade all installed macOS agents to the latest available version. Verify agent versions from Configuration → Agent Management → Manage → Installed Version within the ADAudit Plus console. Timeline April 17, 2026: ManageEngine released ADAudit Plus Build 8606, which addresses CVE-2026-6516. July 23, 2026: ManageEngine published its security advisory for CVE-2026-6516. July 23, 2026: CVE-2026-6516 was published in the CVE Program. July 24, 2026: NIST published the CVE in the National Vulnerability Database with CVSS scoring. July 28, 2026: Horizon3.ai released a NodeZero Rapid Response test for CVE-2026-6516. References ManageEngine Security Advisory ManageEngine ADAudit Plus Service Pack CVE.org Record – CVE-2026-6516 NIST NVD – CVE-2026-6516 Read about other CVEs CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation. Read more CVE-2026-60137 / CVE-2026-63030 CVE-2026-60137 and CVE-2026-63030 can be chained to enable unauthenticated remote code execution against vulnerable WordPress Core installations. Learn how to… Read more CVE-2026-15409 / CVE-2026-15410 CVE-2026-15409 and CVE-2026-15410 are actively exploited SonicWall SMA1000 vulnerabilities that can be chained for unauthenticated system compromise. Learn how to… Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "SonicWall",
+            "WordPress",
+            "Apple iOS/macOS"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-6516",
+            "CVE-2026-60167",
+            "CVE-2026-60168",
+            "CVE-2026-60169",
+            "CVE-2026-60170"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "SonicWall": "target",
+            "WordPress": "target",
+            "Apple iOS/macOS": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "CVE-2026-6516 | ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability",
+          "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
+          "published": "2026-07-29T18:05:45+00:00",
+          "summary": "CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. Learn how to validate exposure and verify remediation with NodeZero Rapid Response.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "SonicWall",
+              "WordPress",
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-6516",
+              "CVE-2026-60167",
+              "CVE-2026-60168",
+              "CVE-2026-60169",
+              "CVE-2026-60170"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "SonicWall": "target",
+              "WordPress": "target",
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "9ebb77a38b",
       "priority_score": 26,
       "member_count": 1,
@@ -1107,8 +1237,8 @@
     {
       "cluster_id": "8cda373323",
       "priority_score": 25,
-      "member_count": 20,
-      "corroborating_source_count": 10,
+      "member_count": 21,
+      "corroborating_source_count": 11,
       "strong_signals": [
         "OpenAI/ChatGPT"
       ],
@@ -1142,7 +1272,8 @@
         "confidence_tier": [
           "tier_1_offensive_research",
           "tier_2_operator",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -1487,6 +1618,34 @@
               "products": []
             }
           }
+        },
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1v9yzd3/anatomy_of_a_frontier_lab_agent_intrusion_a/",
+          "published": "2026-07-29T15:11:18+00:00",
+          "summary": "This is Hugging Face’s write up from the supposedly rouge OpenAI agent. 17k actions from four agents across 4 days. How did it make that much noise and not get sniffed out sooner… Also this just smells like the agents were trying every combination they knew of vs trying to creare anything new (like finding a new vuln). Visual is pretty cool at least. submitted by /u/thejournalizer [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
         }
       ]
     },
@@ -1603,8 +1762,8 @@
     {
       "cluster_id": "ae0cc6b051",
       "priority_score": 23,
-      "member_count": 5,
-      "corroborating_source_count": 3,
+      "member_count": 4,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "GitHub",
         "npm"
@@ -1632,13 +1791,11 @@
         ],
         "content_type": [
           "incident_report",
-          "news_report",
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_1_offensive_research",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1741,42 +1898,14 @@
               "products": []
             }
           }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
-          "link": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
-          "published": "2026-07-22T22:21:24+00:00",
-          "summary": "submitted by /u/ryanmerket [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
         }
       ]
     },
     {
       "cluster_id": "3574a7b873",
       "priority_score": 20,
-      "member_count": 9,
-      "corroborating_source_count": 9,
+      "member_count": 7,
+      "corroborating_source_count": 7,
       "strong_signals": [
         "Anthropic/Claude"
       ],
@@ -1792,9 +1921,7 @@
           "Google Cloud"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-46331"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
@@ -1805,8 +1932,7 @@
           "tier_1_primary_research",
           "tier_2_operator",
           "tier_3_analysis",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1870,64 +1996,6 @@
             "role_map": {
               "Anthropic/Claude": "target",
               "AWS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Intel 471",
-          "cohort": "ransomware_ecrime_financial_crime",
-          "title": "AI Threat Detection Is Not Enough Without Adversary Intelligence",
-          "link": "https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence",
-          "published": "2026-07-22T19:30:00+00:00",
-          "summary": "The 2026 emergence of Anthropic’s Claude Mythos Preview showed security leaders that AI can now find software vulnerabilities faster than the humans responsible for patching them.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331",
-          "link": "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
-          "published": "2026-07-24T05:53:48+00:00",
-          "summary": "submitted by /u/natcoba [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-46331"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -2019,12 +2087,12 @@
           }
         },
         {
-          "source": "The Hacker News",
+          "source": "CyberScoop",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-          "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-          "published": "2026-07-28T18:59:07+00:00",
-          "summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server",
+          "title": "FBI sees Anthropic’s Mythos as a law enforcement challenge",
+          "link": "https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/",
+          "published": "2026-07-28T17:18:29+00:00",
+          "summary": "The post FBI sees Anthropic’s Mythos as a law enforcement challenge appeared first on CyberScoop .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2047,12 +2115,12 @@
           }
         },
         {
-          "source": "CyberScoop",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "FBI sees Anthropic’s Mythos as a law enforcement challenge",
-          "link": "https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/",
-          "published": "2026-07-28T17:18:29+00:00",
-          "summary": "The post FBI sees Anthropic’s Mythos as a law enforcement challenge appeared first on CyberScoop .",
+          "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+          "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+          "published": "2026-07-28T18:59:07+00:00",
+          "summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2346,116 +2414,6 @@
             ],
             "attack_techniques": [],
             "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4f7846fb3b",
-      "priority_score": 19,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-60167",
-        "CVE-2026-60168",
-        "CVE-2026-60169",
-        "CVE-2026-60170"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-60167",
-          "CVE-2026-60168",
-          "CVE-2026-60169",
-          "CVE-2026-60170"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 | Oracle Hospitality Simphony Multiple Vulnerabilities",
-        "link": "https://horizon3.ai/attack-research/vulnerabilities/oracle-hospitality-simphony-vulnerabilities/",
-        "published": "2026-07-22T19:32:52+00:00",
-        "summary": "Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation.",
-        "full_body": "Oracle Hospitality Simphony Multiple Vulnerabilities Oracle’s July 2026 Critical Patch Update addresses four remotely exploitable vulnerabilities affecting Oracle Hospitality Simphony. Discovered and responsibly disclosed by Horizon3.ai researcher Jimi Sebree, the vulnerabilities affect two Simphony components: the EGateway Printing Handler and the Kiosk application. Together, they provide multiple paths for unauthenticated attackers to compromise vulnerable systems, including NTLM hash disclosure, arbitrary file writes, authentication bypass, and arbitrary code execution. The vulnerabilities include: CVE-2026-60167: UNC path coercion resulting in NTLM hash disclosure CVE-2026-60168 & CVE-2026-60169: Related vulnerabilities that together enable arbitrary file writes through the EGateway Printing Handler CVE-2026-60170: Authentication bypass affecting the Simphony Kiosk application that can lead to arbitrary code execution Oracle Hospitality Simphony is widely deployed across hospitality chains, quick-service restaurants, stadiums, casinos, hotels, and other food service environments. Because these systems frequently reside on networks that process payment card data and connect to enterprise infrastructure, successful exploitation may enable lateral movement, persistence, credential compromise, or complete host compromise. There are currently no confirmed reports of active exploitation in the wild. Stop Guessing, Start Proving Schedule a demo Technical Details Although Oracle assigned four separate CVE identifiers, the vulnerabilities fall into two functional groups affecting different Simphony components. CVE-2026-60167: UNC Path Coercion CVE-2026-60167 affects the EGateway Printing Handler. Improper validation of user-controlled input allows an unauthenticated attacker to supply a crafted UNC path that causes the Simphony host to initiate an outbound SMB connection to an attacker-controlled server. Windows may automatically transmit NTLM authentication material during this connection. Captured NTLM hashes may be cracked offline or relayed to other systems, potentially facilitating credential compromise and lateral movement. Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: NTLM hash disclosure CVE-2026-60168 & CVE-2026-60169: Arbitrary File Write CVE-2026-60168 and CVE-2026-60169 affect the EGateway Printing Handler. The vulnerabilities result from insufficient validation of attacker-controlled input before file operations are performed. Oracle assigned two CVEs to distinct weaknesses within the processing chain that together create a single arbitrary file write condition. An unauthenticated attacker can submit crafted requests that cause arbitrary files to be written to the underlying host. Successful exploitation may allow an attacker to: Write attacker-controlled files Establish persistence Prepare the system for subsequent code execution Facilitate additional compromise Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: Arbitrary file write CVE-2026-60170: Authentication Bypass CVE-2026-60170 affects the Simphony Kiosk application. Improper validation of user-controlled input allows an unauthenticated attacker to bypass authentication and gain access to the Kiosk administrator console. Horizon3.ai research demonstrated that this unauthorized administrative access can be leveraged to execute arbitrary code on the underlying host. Successful exploitation may enable an attacker to: Execute arbitrary code Establish persistence Access locally available data Use the compromised system as a foothold for additional attacks Characteristics Attack vector: Network Attack complexity: Low Privileges required: None User interaction: None Primary impact: Authentication bypass leading to arbitrary code execution NodeZero® Proactive Security Platform — Rapid Response A single NodeZero Rap",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-60167",
-            "CVE-2026-60168",
-            "CVE-2026-60169",
-            "CVE-2026-60170"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 | Oracle Hospitality Simphony Multiple Vulnerabilities",
-          "link": "https://horizon3.ai/attack-research/vulnerabilities/oracle-hospitality-simphony-vulnerabilities/",
-          "published": "2026-07-22T19:32:52+00:00",
-          "summary": "Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation.",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-60167",
-              "CVE-2026-60168",
-              "CVE-2026-60169",
-              "CVE-2026-60170"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
               "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
@@ -3513,6 +3471,99 @@
       ]
     },
     {
+      "cluster_id": "f7c0990e5f",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government",
+          "legal_professional",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "OpenSSF Blog",
+        "cohort": "ai_security_agentic_risk",
+        "title": "OpenSSF Community Day Europe 2026: Schedule Highlights & What to Expect",
+        "link": "https://openssf.org/blog/2026/07/29/openssf-community-day-europe-2026-schedule-highlights-what-to-expect/",
+        "published": "2026-07-29T20:03:12+00:00",
+        "summary": "OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts.",
+        "full_body": "By Angelah Liu, Linux Foundation TL;DR: OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts. Between evolving regulatory mandates like the EU Cyber Resilience Act (CRA) and the rise of AI-driven vulnerabilities, securing open source code has become a baseline requirement for engineering teams, not an afterthought. The official Schedule for OpenSSF Community Day Europe 2026 is now live. Co-located with Open Source Summit Europe in Prague on October 6, 2026, this single-day event brings together open source maintainers, security researchers, enterprise contributors, and policy experts for a full day of technical exchange. Whether you’re looking to harden your CI/CD pipelines, get ahead of upcoming compliance frameworks, or simply talk shop with the maintainers behind the tools you rely on, this year’s schedule has a lot to offer. Session Highlights Keynote: Welcome & Opening Remarks Steve Fernandez, General Manager of OpenSSF at the Linux Foundation, kicks things off at 9:00 CEST with the opening keynote , setting the tone and priorities for the day ahead. EU Regulations & Governance Right after lunch, Roman Zhukov (Red Hat), Daniel Appelquist, Madalin Neag (OpenSSF), and Megan Knight (Arm) take the stage at 13:55 CEST for Operationalizing the CRA and Shaping OpenSSF’s Community Roadmap . The CRA is reshaping how open source projects handle vulnerability management and maintainer liability, and this session is where the legal language turns into something developers can actually build into their workflows. AI Infrastructure & Supply Chain Provenance AI is playing a double role in security right now: an automated tool for finding bugs faster, and a new surface area attackers are learning to exploit. Three sessions dig into that tension from different angles. Jeff Diecks and Laura Guazzelli from OpenSSF open the topic at 10:55 CEST with Preparing for the Vulnpocalypse: Using OSS-CRS To Find and Fix Bugs Before They Find You , covering automated vulnerability discovery at scale. At 11:20 CEST, Dmitry Tantsur (Red Hat) and Tuomo Tanskanen (Ericsson) will shift the focus to infrastructure with Defending Bare-Metal: Lessons Learnt From AI Security Analysis of Metal3 and OpenStack Ironic . And later in the afternoon, at 16:30 CEST, Sheng Sun and Sarah Evans (both of Dell Technologies) tackle the machine learning supply chain itself in Verifiable AI Provenance: Closing the Attestation Gap in the Machine Learning Supply Chain , asking how teams can actually verify what went into a model before it reaches production. Tooling & Supply Chain Standards Good security policy only goes as far as the tooling that puts it into practice. Hannah Braswell (Red Hat) walks through that idea at 11:45 CEST in From First PR To Hardening Guide: Structured Security With Gemara , showing how the Gemara framework brings structure to governance, risk, and compliance work. Later, at 16:50 CEST, Yuta Kiyoumi (Honda Motor Co., Ltd.) and Akihiko Takahashi (Fujitsu) bring a real-world manufacturing lens to the conversation with Applying VEX To Vulnerability Information Sharing in Multi-tier Automotive Supply Chains , showing how Honda uses the Vulnerability Exploitability eXchange (VEX) standard to track risk across hardware and software tiers alike. Community & Interactive Sessions Not everything on the schedule is a deep technical dive. At 15:15 CEST, OpenSSF’s Adrianne Marcum and CRob return with GAME SHOW!! Part Dva!! for a lighter, interactive take on community learning. And closing out the day at 17:10 CEST, Ejiro Oghenekome, Victoria Ottah, Sal Kimmich (OpenUK), CRob (OpenSSF), and Amir Montazery (OSTIF) come together for Securing Africa’s Open Source Ecosystem , a conversation about maintainer",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "manufacturing_industrial",
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "OpenSSF Blog",
+          "cohort": "ai_security_agentic_risk",
+          "title": "OpenSSF Community Day Europe 2026: Schedule Highlights & What to Expect",
+          "link": "https://openssf.org/blog/2026/07/29/openssf-community-day-europe-2026-schedule-highlights-what-to-expect/",
+          "published": "2026-07-29T20:03:12+00:00",
+          "summary": "OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "manufacturing_industrial",
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "e67ac609ab",
       "priority_score": 13,
       "member_count": 1,
@@ -3616,95 +3667,6 @@
             "role_map": {
               "GitHub": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1276a22842",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2024-1813"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2024-1813"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)",
-        "link": "https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/",
-        "published": "2026-07-28T14:04:05+00:00",
-        "summary": "submitted by /u/MobetaSec [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2024-1813"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)",
-          "link": "https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/",
-          "published": "2026-07-28T14:04:05+00:00",
-          "summary": "submitted by /u/MobetaSec [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2024-1813"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4399,93 +4361,6 @@
       ]
     },
     {
-      "cluster_id": "422a91c69f",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Apple iOS/macOS"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "Apple Patches Everything (July 2026), (Wed, Jul 29th)",
-        "link": "https://isc.sans.edu/diary/rss/33196",
-        "published": "2026-07-29T07:32:37+00:00",
-        "summary": "I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Apple iOS/macOS"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {
-            "Apple iOS/macOS": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "Apple Patches Everything (July 2026), (Wed, Jul 29th)",
-          "link": "https://isc.sans.edu/diary/rss/33196",
-          "published": "2026-07-29T07:32:37+00:00",
-          "summary": "I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "718052687c",
       "priority_score": 11,
       "member_count": 1,
@@ -4812,117 +4687,6 @@
       ]
     },
     {
-      "cluster_id": "332f35118d",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "APT28"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-66376"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-        "published": "2026-07-23T21:23:18+00:00",
-        "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
-        "full_body": "Cyberattacks & Data Breaches Cyber Risk Application Security Vulnerabilities & Threats News Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message. Rob Wright , Senior News Director , Dark Reading July 23, 2026 4 Min Read Source: Anton Petrus via Getty Images Russian state-backed threat actors are compromising networks of Western governments and enterprises through the Zimbra Collaboration Suite (ZCS), according to intelligence and cybersecurity agencies in more than a dozen countries. In a joint advisory Thursday, the US government and several allied nations warned that an advanced persistent threat (APT) dubbed \"Laundry Bear\" has been targeting ZCS customers since July 2025. Laundry Bear actors used a zero-day vulnerability in ZCS , tracked as CVE-2025-66376, in a phishing campaign that featured what experts describe as a \"half-click exploit\" to breach Zimbra webmail servers. \"Unlike traditional phishing campaigns that persuade a user into taking an action, such as clicking a link or opening a file, Laundry Bear’s latest campaign leverages a view-based exploit that only requires a user to view a malicious email within a vulnerable version of the webmail service,\" the agencies said in the advisory. Related: Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions The campaign is designed \"almost certainly to gather sensitive information for the Russian Federation,\" according the advisory. The Laundry Bear attacks mark yet another threat from Russian APTs against US organizations. Zimbra Zero-Day Activity Zimbra patched CVE-2025-66376 in November 2025 with the release of version 10.1.13, though the company did not disclose the flaw until weeks later. The initial release notes for v10.1.13 merely described the flaw as \"a stored XSS vulnerability in the Classic UI where attackers could abuse CSS @import directives in email HTML,\" with no CVE at the time. The National Institute of Standards and Technology (NIST) and Mitre did not publish entries for the Zimbra flaw until early January. Dark Reading contacted Zimbra and parent company Synacor for comment on the apparent delayed disclosure for CVE-2025-66376, but neither company responded at press time. In a March 17 blog post , cybersecurity firm Seqrite reported that Russian threat actors had exploited CVE-2025-66376 in the compromise of a Ukrainian government agency. At the time, Seqrite attributed the activity, which it called \"Operation GhostMail,\" to APT28, also known as Fancy Bear . The following day, the US Cybersecurity and Infrastructure Security Agency (CISA) added the high-severity vulnerability to its Known Exploited Vulnerabilities (KEV) catalog on March 18. Mitre also gave the vulnerability a 7.2 CVSS score. However, intelligence and cybersecurity agencies from 15 different countries revealed the exploitation activity was far more extensive and dated back to at least July 2025. They also tied the phishing campaign to a different Russian \"Bear.\" Related: Hugging Face Hack Lessons for Cyber Defenders Laundry Bear's 'Half-Click' Zimbra Exploit According to the joint advisory, the Netherlands General Intelligence and Security Service (AIVD) first identified Laundry Bear in May as a new Russian state-sponsored APT adjacent to other more well-known groups. Laundry Bear, the authoring agencies said, had previously relied on unsophisticated tactics such as password spraying and conventional phishing attacks until last year, when actors began using a \"novel exploit\" for CVE-2025-66376 that no longer required targeted victims to click on a link or open a malicious email attachment. In a blog post on Thursday, Proofpoint, which contributed to the government investigations into Laundry Bear, explained that the Zimbra vulnerability allowed the threat actors to craft \"half-click\" phishing emails that o",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "zero_day",
-            "apt_espionage"
-          ],
-          "actor_attribution": [
-            "APT28"
-          ],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2025-66376"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-          "published": "2026-07-23T21:23:18+00:00",
-          "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "zero_day",
-              "apt_espionage"
-            ],
-            "actor_attribution": [
-              "APT28"
-            ],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2025-66376"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "d8d22ce90d",
       "priority_score": 11,
       "member_count": 1,
@@ -5035,6 +4799,117 @@
       ]
     },
     {
+      "cluster_id": "332f35118d",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "APT28"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-66376"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
+        "published": "2026-07-23T21:23:18+00:00",
+        "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+        "full_body": "Cyberattacks & Data Breaches Cyber Risk Application Security Vulnerabilities & Threats News Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message. Rob Wright , Senior News Director , Dark Reading July 23, 2026 4 Min Read Source: Anton Petrus via Getty Images Russian state-backed threat actors are compromising networks of Western governments and enterprises through the Zimbra Collaboration Suite (ZCS), according to intelligence and cybersecurity agencies in more than a dozen countries. In a joint advisory Thursday, the US government and several allied nations warned that an advanced persistent threat (APT) dubbed \"Laundry Bear\" has been targeting ZCS customers since July 2025. Laundry Bear actors used a zero-day vulnerability in ZCS , tracked as CVE-2025-66376, in a phishing campaign that featured what experts describe as a \"half-click exploit\" to breach Zimbra webmail servers. \"Unlike traditional phishing campaigns that persuade a user into taking an action, such as clicking a link or opening a file, Laundry Bear’s latest campaign leverages a view-based exploit that only requires a user to view a malicious email within a vulnerable version of the webmail service,\" the agencies said in the advisory. Related: Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions The campaign is designed \"almost certainly to gather sensitive information for the Russian Federation,\" according the advisory. The Laundry Bear attacks mark yet another threat from Russian APTs against US organizations. Zimbra Zero-Day Activity Zimbra patched CVE-2025-66376 in November 2025 with the release of version 10.1.13, though the company did not disclose the flaw until weeks later. The initial release notes for v10.1.13 merely described the flaw as \"a stored XSS vulnerability in the Classic UI where attackers could abuse CSS @import directives in email HTML,\" with no CVE at the time. The National Institute of Standards and Technology (NIST) and Mitre did not publish entries for the Zimbra flaw until early January. Dark Reading contacted Zimbra and parent company Synacor for comment on the apparent delayed disclosure for CVE-2025-66376, but neither company responded at press time. In a March 17 blog post , cybersecurity firm Seqrite reported that Russian threat actors had exploited CVE-2025-66376 in the compromise of a Ukrainian government agency. At the time, Seqrite attributed the activity, which it called \"Operation GhostMail,\" to APT28, also known as Fancy Bear . The following day, the US Cybersecurity and Infrastructure Security Agency (CISA) added the high-severity vulnerability to its Known Exploited Vulnerabilities (KEV) catalog on March 18. Mitre also gave the vulnerability a 7.2 CVSS score. However, intelligence and cybersecurity agencies from 15 different countries revealed the exploitation activity was far more extensive and dated back to at least July 2025. They also tied the phishing campaign to a different Russian \"Bear.\" Related: Hugging Face Hack Lessons for Cyber Defenders Laundry Bear's 'Half-Click' Zimbra Exploit According to the joint advisory, the Netherlands General Intelligence and Security Service (AIVD) first identified Laundry Bear in May as a new Russian state-sponsored APT adjacent to other more well-known groups. Laundry Bear, the authoring agencies said, had previously relied on unsophisticated tactics such as password spraying and conventional phishing attacks until last year, when actors began using a \"novel exploit\" for CVE-2025-66376 that no longer required targeted victims to click on a link or open a malicious email attachment. In a blog post on Thursday, Proofpoint, which contributed to the government investigations into Laundry Bear, explained that the Zimbra vulnerability allowed the threat actors to craft \"half-click\" phishing emails that o",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "zero_day",
+            "apt_espionage"
+          ],
+          "actor_attribution": [
+            "APT28"
+          ],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2025-66376"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
+          "published": "2026-07-23T21:23:18+00:00",
+          "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "zero_day",
+              "apt_espionage"
+            ],
+            "actor_attribution": [
+              "APT28"
+            ],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2025-66376"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "602e22dfe4",
       "priority_score": 11,
       "member_count": 1,
@@ -5108,115 +4983,6 @@
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_3_analysis",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0c9658fc3f",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-60004",
-        "Gitea"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Gitea"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-60004"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-        "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
-        "published": "2026-07-29T07:47:19+00:00",
-        "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The",
-        "full_body": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands  Swati Khandelwal  Jul 29, 2026 Vulnerability / DevOps Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The vulnerable API call requires authentication and repository write permission. But Gitea enables registration by default, so an outside visitor can create a normal account and repository on an unchanged installation, then exploit the bug without pre-existing credentials. Upgrading to 1.27.1 is the fix. Gitea said on July 27 that Gitea Cloud instances would be upgraded automatically. Gitea's July 28 advisory does not say the flaw has been exploited in the wild, but it includes public proof-of-concept (PoC) code. Disabling open registration can remove the public account-creation path while the update is deployed, but it does not fix the flaw or protect against existing users with repository write access. The flaw was reported by security researcher Shai Rod, who goes by NightRang3r . Gitea credits NightRang3r as the reporter in its advisory. Gitea's affected route invokes reqToken() , which rejects requests without a signed-in user. The no-prior-credentials path comes from the project's default configuration , which leaves registration open, requires neither email nor manual approval, does not mark new users as restricted, and imposes no default repository-creation limit. The bug sits in the POST /api/v1/repos/{owner}/{repo}/diffpatch endpoint. According to Gitea's security advisory , the endpoint applies a supplied patch inside a shared bare temporary clone. Vulnerable builds invoke git apply with --index , --recount , --cached , and --binary , adding the -3 three-way fallback option when the server runs Git 2.32 or later. An attacker submits the same patch twice to create an add/add collision. The three-way fallback then checks the indexed path out even though the operation uses --cached . Because the temporary clone is bare, its root is $GIT_DIR . An executable file placed at hooks/post-index-change therefore lands in Git's hook directory and becomes active. Git runs it while updating the index. The PoC signs in with a normal account, creates an initialized private repository, sends the malicious patch twice, and retrieves the command output. It needs no outbound callback. The hook stores the output in Git objects, creates a branch containing the result, and lets the attacker fetch it over authenticated smart HTTP. As of July 29, 2026, none of the cited primary sources reports whether the flaw was exploited before or after version 1.27.1 became available. Successful exploitation gives the attacker the privileges of the Gitea operating-system account. Depending on how the instance is isolated, Gitea said that could expose application and environment secrets, mounted repositories, database credentials and contents, OAuth credentials, and reachable internal services. Exploitation still requires repository write access, Git 2.32 or later, an enabled diffpatch route, and a writable, executable temporary filesystem. Default registration lets an outsider obtain the required write access on an unchanged installation. The fix is easy to miss in the changelog. Gitea changed the temporary clone from bare to non-bare. The code comment explicitly warns that Git commands using --index may operate on the working tree. The change was merged and backported on July 26, 2026. Version 1.27.1 shipped on July 27, and the security advisory followed on July 28. The release notes listed the change under MISC as \"refactor: git patch apply,\" not under SECURITY. Rod had previewed the RCE alongside a separate file-inclusion issue , with a ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Gitea"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-60004"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Gitea": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-          "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
-          "published": "2026-07-29T07:47:19+00:00",
-          "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Gitea"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-60004"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gitea": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -5427,6 +5193,87 @@
       ]
     },
     {
+      "cluster_id": "542fdf33c7",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "How Iran Uses Cellular Infrastructure to Target US Military Phones",
+        "link": "https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/",
+        "published": "2026-07-24T14:48:59+00:00",
+        "summary": "Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .",
+        "full_body": "Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Mentions Gary Miller Share Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. He also discussed a recent Citizen Lab report about commercial surveillance vendors using the global telecom interconnect ecosystem to track targets. While SS7 attacks have been covered by the media for fifteen years, they are still taking place. “The fact it is still happening is telling…there’s a significant security problem within the mobile operator industry,” Miller says. Watch here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026 News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "How Iran Uses Cellular Infrastructure to Target US Military Phones",
+          "link": "https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/",
+          "published": "2026-07-24T14:48:59+00:00",
+          "summary": "Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "85d2724fda",
       "priority_score": 10,
       "member_count": 1,
@@ -5559,18 +5406,20 @@
       ]
     },
     {
-      "cluster_id": "542fdf33c7",
+      "cluster_id": "422a91c69f",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [],
+      "strong_signals": [
+        "Apple iOS/macOS"
+      ],
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
+        "affected_industries": [],
+        "affected_products": [
+          "Apple iOS/macOS"
         ],
-        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -5579,32 +5428,34 @@
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_1_government"
         ]
       },
       "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "How Iran Uses Cellular Infrastructure to Target US Military Phones",
-        "link": "https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/",
-        "published": "2026-07-24T14:48:59+00:00",
-        "summary": "Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .",
-        "full_body": "Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Mentions Gary Miller Share Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. He also discussed a recent Citizen Lab report about commercial surveillance vendors using the global telecom interconnect ecosystem to track targets. While SS7 attacks have been covered by the media for fifteen years, they are still taking place. “The fact it is still happening is telling…there’s a significant security problem within the mobile operator industry,” Miller says. Watch here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026 News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026",
-        "fetch_status": "ok",
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "Apple Patches Everything (July 2026), (Wed, Jul 29th)",
+        "link": "https://isc.sans.edu/diary/rss/33196",
+        "published": "2026-07-29T07:32:37+00:00",
+        "summary": "I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
+          "affected_industries": [],
+          "affected_products": [
+            "Apple iOS/macOS"
           ],
-          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
+          "confidence_tier": "tier_1_government",
+          "role_map": {
+            "Apple iOS/macOS": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -5612,26 +5463,28 @@
       },
       "corroborating_sources": [
         {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "How Iran Uses Cellular Infrastructure to Target US Military Phones",
-          "link": "https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/",
-          "published": "2026-07-24T14:48:59+00:00",
-          "summary": "Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .",
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "Apple Patches Everything (July 2026), (Wed, Jul 29th)",
+          "link": "https://isc.sans.edu/diary/rss/33196",
+          "published": "2026-07-29T07:32:37+00:00",
+          "summary": "I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
             ],
-            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
+            "confidence_tier": "tier_1_government",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -6452,7 +6305,7 @@
         "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
         "published": "2026-07-28T22:05:55+00:00",
         "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident",
-        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 28th July 2026 We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Posted 28th July 2026 at 10:05 pm Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 28th July 2026 . sandboxing 51 security 619 openai 436 ai-security-research 30 openai-hugging-face-incident 5 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 28th July 2026 We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Posted 28th July 2026 at 10:05 pm Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 28th July 2026 . sandboxing 51 security 620 openai 436 ai-security-research 31 openai-hugging-face-incident 5 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
@@ -6601,6 +6454,222 @@
             "confidence_tier": "tier_2_operator",
             "role_map": {
               "Microsoft SharePoint": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4691ccfe6f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-66066"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "GitLab"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-66066"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+        "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+        "published": "2026-07-29T18:10:00+00:00",
+        "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,",
+        "full_body": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads  Swati Khandelwal  Jul 29, 2026 Vulnerability / Software Security Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base , the Rails master key, database passwords, cloud storage credentials, and API tokens. Those secrets may enable remote code execution (RCE) or lateral movement into connected systems. Affected applications use libvips for Active Storage image processing and accept image uploads from untrusted users. Rails selects Vips under load_defaults 7.0 , and later defaults retain it. Ethiack and GMO Flatt Security list the affected ranges as Rails 7.0.0 through 7.2.3.1, Rails 8.0.0 through 8.0.5, and Rails 8.1.0 through 8.1.3. Rails 6.0.0 through 6.1.7.10 releases are affected only when Active Storage is configured to use Vips, which was not the default processor in Rails 6. The official advisory lists a broader package range: activestorage < 7.2.3.2 . Both research teams place the practical Vips attack path at Rails 6.0 and later. Applications using MiniMagick are not exposed through this specific attack path. Rails 7.0 and 7.1 are end of life and have no fixed releases, so applications on those branches must upgrade to Rails 7.2.3.2 or later. Operators should upgrade to Rails 7.2.3.2, 8.0.5.1, or 8.1.3.1 and rotate every secret readable by the application process. Patched installations require libvips 8.13 or later and, when ruby-vips is installed, ruby-vips 2.2.1 or later. Neither research team had published a proof-of-concept (PoC) as of 17:30 UTC on July 29, 2026. Exact-term searches by The Hacker News found no exploit repository in indexed GitHub, GitLab, Exploit-DB, or Packet Storm results at the same time. Rails warned that applying the patch does not invalidate credentials that may already have been stolen. The flaw sits at the trust boundary between Active Storage and libvips. The Rails security advisory says libvips supports loaders, savers, and other operations, some backed by third-party libraries and marked \"unfuzzed\" or \"untrusted\" because they are unsafe for hostile input. Active Storage did not block them, allowing a crafted upload to invoke one and disclose files readable by the Rails worker. A vulnerable application does not need to expose a dedicated resize or thumbnail operation. \"Generating variants is not a separate requirement,\" Rails said. The public patch also shows that both the Vips analyzer and transformer passed untrusted attachments to the unsafe operations. A successful request gives the attacker an arbitrary file-read primitive. Code execution or lateral movement would depend on what the attacker extracts and what those credentials can reach. Rails tells operators to rotate secret_key_base , the master key and decrypted credentials, database credentials, Active Storage service keys, and third-party tokens. The patch calls Vips.block_untrusted(true) when Active Storage starts. Applications that cannot immediately update Rails can set VIPS_BLOCK_UNTRUSTED when running libvips 8.13 or later, or call Vips.block_untrusted(true) with ruby-vips 2.2.1 or later. Rails says earlier libvips versions cannot block these operations, so applications must upgrade libvips or remove it from the application. Rails credited André Baptista, Bruno Mendes, and Rafael Castilho of Ethiack , and RyotaK of GMO Flatt Security , with independently reporting the issue. The researchers have not disclosed the malicious format, file-read construction, or RCE chain. Rails said further technical details will be released no later than August 28, 2026. The Hacker News has contacted the Rails security team about exploitation and affected versions, and Ethiack about ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitLab",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-66066"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "GitLab": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+          "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+          "published": "2026-07-29T18:10:00+00:00",
+          "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitLab",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-66066"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitLab": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0c9658fc3f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-60004",
+        "Gitea"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Gitea"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-60004"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+        "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+        "published": "2026-07-29T07:47:19+00:00",
+        "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The",
+        "full_body": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands  Swati Khandelwal  Jul 29, 2026 Vulnerability / DevOps Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The vulnerable API call requires authentication and repository write permission. But Gitea enables registration by default, so an outside visitor can create a normal account and repository on an unchanged installation, then exploit the bug without pre-existing credentials. Upgrading to 1.27.1 is the fix. Gitea said on July 27 that Gitea Cloud instances would be upgraded automatically. Gitea's July 28 advisory does not say the flaw has been exploited in the wild, but it includes public proof-of-concept (PoC) code. Disabling open registration can remove the public account-creation path while the update is deployed, but it does not fix the flaw or protect against existing users with repository write access. The flaw was reported by security researcher Shai Rod, who goes by NightRang3r . Gitea credits NightRang3r as the reporter in its advisory. Gitea's affected route invokes reqToken() , which rejects requests without a signed-in user. The no-prior-credentials path comes from the project's default configuration , which leaves registration open, requires neither email nor manual approval, does not mark new users as restricted, and imposes no default repository-creation limit. The bug sits in the POST /api/v1/repos/{owner}/{repo}/diffpatch endpoint. According to Gitea's security advisory , the endpoint applies a supplied patch inside a shared bare temporary clone. Vulnerable builds invoke git apply with --index , --recount , --cached , and --binary , adding the -3 three-way fallback option when the server runs Git 2.32 or later. An attacker submits the same patch twice to create an add/add collision. The three-way fallback then checks the indexed path out even though the operation uses --cached . Because the temporary clone is bare, its root is $GIT_DIR . An executable file placed at hooks/post-index-change therefore lands in Git's hook directory and becomes active. Git runs it while updating the index. The PoC signs in with a normal account, creates an initialized private repository, sends the malicious patch twice, and retrieves the command output. It needs no outbound callback. The hook stores the output in Git objects, creates a branch containing the result, and lets the attacker fetch it over authenticated smart HTTP. As of July 29, 2026, none of the cited primary sources reports whether the flaw was exploited before or after version 1.27.1 became available. Successful exploitation gives the attacker the privileges of the Gitea operating-system account. Depending on how the instance is isolated, Gitea said that could expose application and environment secrets, mounted repositories, database credentials and contents, OAuth credentials, and reachable internal services. Exploitation still requires repository write access, Git 2.32 or later, an enabled diffpatch route, and a writable, executable temporary filesystem. Default registration lets an outsider obtain the required write access on an unchanged installation. The fix is easy to miss in the changelog. Gitea changed the temporary clone from bare to non-bare. The code comment explicitly warns that Git commands using --index may operate on the working tree. The change was merged and backported on July 26, 2026. Version 1.27.1 shipped on July 27, and the security advisory followed on July 28. The release notes listed the change under MISC as \"refactor: git patch apply,\" not under SECURITY. Rod had previewed the RCE alongside a separate file-inclusion issue , with a ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Gitea"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-60004"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Gitea": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+          "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+          "published": "2026-07-29T07:47:19+00:00",
+          "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Gitea"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-60004"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gitea": "target"
             },
             "weak_tags": {
               "products": []
@@ -7258,106 +7327,6 @@
       ]
     },
     {
-      "cluster_id": "dfb5d8c3f5",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
-        "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
-        "published": "2026-07-29T17:06:52+00:00",
-        "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
-        "full_body": "Application Security Cyber Risk Cybersecurity Operations Сloud Security News, news analysis, and commentary on the latest trends in cybersecurity technology. When AppSec Scanners Become a Supply Chain Attack Vector New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks. Ericka Chickowski , Contributing Writer , Dark Reading July 29, 2026 5 Min Read Source: IncrediVFX via Shutterstock Specialized application security scanning tools embedded in the development pipeline can do wonders to harden code and bolster software supply chain security. But if engineering teams aren't careful, these security scanners can also become a gateway for attacks deep in the supply chain. Last spring, the development and security worlds saw that scenario play out with broad supply chain attacks that compromised development environments for two different security open source projects, which served up poisoned versions of Trivy and KICS to unsuspecting software engineering teams. The attacks were part of broader supply chain attacks by TeamPCP to commit widespread credential theft and fraud. Next week, during the Black Hat USA conference in Las Vegas, another security researcher will demonstrate a different way attackers can use security tools to their advantage. This attack takes less effort, as it doesn't require full compromise of the vendor's development environment. All it takes is asking the tool to do a scan and feeding it a specially crafted malicious code repository. Related: Robinhood Cuts Access Approval Time to Support High-Velocity Development The research in question was conducted by the security team at ZeroPath, which investigated the susceptibility of 20 unnamed security vendors and identified significant findings with five of them. One of them even awarded the researchers the maximum-sized bug bounty for their discoveries. \"Most of the findings disclosed sensitive secrets like cloud credentials. One included the production database. Some included the Docker and GitHub personal access token for the actual developer that worked at the vendor,\" says Raphael Karger, co-founder and CTO for ZeroPath, who will be leading the session next week to dive into the details. \"These instances could have reached customers that thought they were secure.\" It Started with a Sketchy Probe The genesis of the research all started with an alert that Karger's team ran down late last year in their own environment. They picked up some evidence of a failed scan in their production monitoring software that looked suspicious. \"It was referencing a file that was trying to read something outside of the scope of its current repository. And the file it was trying to read could have potentially had sensor credentials, et cetera,\" he says. \"We detected this proactively, and we began investigating the repository.\" By looking at a few artifacts from the repository, the team found that an attacker was systematically testing the surface of the firm's hosted security product. The attacker examined how ZeroPath's scanning tools dealt with arbitrary files, dependency handling procedures, and secrets handling. The probe was so intriguing that Karger and his team decided right then to build a tool that would pick up where this exploratory probe left off and test their own environment for defects in the same processing surfaces the bad guys were apparently interested in. Related: For Enterprises, Security Remains Agentic AI's Biggest Challenge The team built off the idea that repository analysis may not always be a read-only function. Many scanners execute code and examine files that could be used to force the execution of code, depending on how they process those files. It comes back to the age-old AppSec issue of executing untrusted content. If the scanner processes it without isolation, that could allow an attacker to present unexpected content that causes the scanner to not only read a fil",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "credential_theft"
-          ],
-          "actor_attribution": [
-            "TeamPCP"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
-          "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
-          "published": "2026-07-29T17:06:52+00:00",
-          "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "credential_theft"
-            ],
-            "actor_attribution": [
-              "TeamPCP"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bd4bee8cf9",
       "priority_score": 9,
       "member_count": 1,
@@ -7432,6 +7401,87 @@
               "government",
               "manufacturing_industrial"
             ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "dfb5d8c3f5",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
+        "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
+        "published": "2026-07-29T17:06:52+00:00",
+        "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
+          "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
+          "published": "2026-07-29T17:06:52+00:00",
+          "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -8500,6 +8550,99 @@
       ]
     },
     {
+      "cluster_id": "99161e0f01",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Microsoft/Copilot"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft/Copilot"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Simon Willison",
+        "cohort": "ai_security_agentic_risk",
+        "title": "AI Worming through Word",
+        "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+        "published": "2026-07-29T18:43:03+00:00",
+        "summary": "AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present. We've seen plenty of hidden white-on-white text before - the kids are using it in their job applications now - but this is the first one I've seen that deliberately copies instructions to self-replicate itself. It was responsibly disclosed to",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft/Copilot"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Microsoft/Copilot": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "AI Worming through Word",
+          "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+          "published": "2026-07-29T18:43:03+00:00",
+          "summary": "AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present. We've seen plenty of hidden white-on-white text before - the kids are using it in their job applications now - but this is the first one I've seen that deliberately copies instructions to self-replicate itself. It was responsibly disclosed to",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft/Copilot"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Microsoft/Copilot": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "45d553e8d1",
       "priority_score": 8,
       "member_count": 1,
@@ -8917,177 +9060,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "ac434a158a",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-        "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-        "published": "2026-07-28T15:01:33+00:00",
-        "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-          "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-          "published": "2026-07-28T15:01:33+00:00",
-          "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
-          "taxonomy": {
-            "threat_categories": [
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "76e10c02ae",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-        "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-        "published": "2026-07-23T18:36:08+00:00",
-        "summary": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-          "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-          "published": "2026-07-23T18:36:08+00:00",
-          "summary": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it. The NSA, CISA and partner agencies published",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -9131,6 +9103,41 @@
         "https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/",
         "https://blog.talosintelligence.com/ir-trends-q2-2026/",
         "https://www.blackhillsinfosec.com/report-as-you-go-soc/"
+      ]
+    },
+    {
+      "label": "WordPress active exploitation",
+      "anchor_signal": "WordPress",
+      "theme_key": "wordpress",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "WordPress"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "WordPress"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "38979f8c48",
+        "9ebb77a38b",
+        "b61889968b"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
+        "https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend",
+        "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/"
       ]
     },
     {
@@ -9217,7 +9224,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 7,
+      "article_count": 6,
       "cohesion": 0.255,
       "shared_strong_signals": [
         "npm"
@@ -9232,7 +9239,6 @@
       "links": [
         "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
         "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
-        "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
         "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/",
         "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows"
       ]
@@ -9290,8 +9296,8 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 12,
-      "cohesion": 0.2,
+      "article_count": 10,
+      "cohesion": 0.221,
       "shared_strong_signals": [
         "AWS"
       ],
@@ -9304,13 +9310,11 @@
       ],
       "links": [
         "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
-        "https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence",
-        "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
         "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
         "https://www.helpnetsecurity.com/2026/07/29/contrast-security-cve-shield/",
         "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html",
-        "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
         "https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/",
+        "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
         "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
         "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
         "https://aws.amazon.com/blogs/security/announcing-the-cloud-security-alliance-on-aws-compliance-guide/",
@@ -9390,65 +9394,29 @@
       ]
     },
     {
-      "label": "active exploitation targeting WordPress",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
+      "label": "Apple iOS/macOS vulnerability activity",
+      "anchor_signal": "Apple iOS/macOS",
+      "theme_key": "apple-ios-macos",
       "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
         "affected_products": [
-          "WordPress"
+          "Apple iOS/macOS"
         ]
       },
       "cluster_count": 2,
       "article_count": 2,
       "cohesion": 0.2,
       "shared_strong_signals": [
-        "WordPress"
+        "Apple iOS/macOS"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "9ebb77a38b",
-        "b61889968b"
+        "38979f8c48",
+        "422a91c69f"
       ],
       "links": [
-        "https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend",
-        "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/"
-      ]
-    },
-    {
-      "label": "TeamPCP: supply chain",
-      "anchor_signal": "TeamPCP",
-      "theme_key": "teampcp",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain",
-          "credential_theft"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_products": [
-          "GitHub"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.765,
-      "shared_strong_signals": [
-        "TeamPCP"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "8553a0e574",
-        "dfb5d8c3f5"
-      ],
-      "links": [
-        "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-        "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector"
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
+        "https://isc.sans.edu/diary/rss/33196"
       ]
     },
     {
@@ -9490,7 +9458,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 12,
+      "article_count": 10,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Google Cloud"
@@ -9503,13 +9471,11 @@
       ],
       "links": [
         "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
-        "https://www.intel471.com/blog/ai-threat-detection-is-not-enough-without-adversary-intelligence",
-        "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
         "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
         "https://www.helpnetsecurity.com/2026/07/29/contrast-security-cve-shield/",
         "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html",
-        "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
         "https://fedscoop.com/fbi-anthropic-mythos-law-enforcement-challenge/",
+        "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
         "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
         "https://cloud.google.com/blog/topics/retail/best-buy-scales-secure-ai-access-with-workforce-identity-federation/",
         "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure"
@@ -9518,7 +9484,20 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2026-6516",
+          "cluster_id": "38979f8c48",
+          "first_source": "Horizon3 Attack Research",
+          "first_published": "2026-07-29T18:05:45+00:00"
+        },
+        {
+          "value": "CVE-2026-66066",
+          "cluster_id": "4691ccfe6f",
+          "first_source": "The Hacker News",
+          "first_published": "2026-07-29T18:10:00+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -9527,99 +9506,85 @@
         "cluster_id": "8cda373323",
         "title": "OpenAI Agents Escape Testing Sandbox and Breach Hugging Face Production Infrastructure",
         "sources_in_window": 3,
-        "window_hours": 5.7,
-        "cohort_count": 4
+        "window_hours": 5.2,
+        "cohort_count": 5
       }
     ],
-    "leading_edge": [
-      {
-        "cluster_id": "3574a7b873",
-        "title": "TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching",
-        "lead_hours": 13.8,
-        "first_source": "Reddit r/netsec",
-        "later_tier1_source": "Trend Micro Research",
-        "shared_signals": [
-          "AWS",
-          "Anthropic/Claude",
-          "CVE-2026-46331",
-          "Google Cloud"
-        ]
-      }
-    ],
+    "leading_edge": [],
     "convergence": [
       {
-        "cluster_id": "9ebb77a38b",
-        "pair": "CVE-2026-60137 + GitHub",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60167 + Apple iOS/macOS",
         "first_observation": true
       },
       {
-        "cluster_id": "9ebb77a38b",
-        "pair": "CVE-2026-60137 + WordPress",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60167 + SonicWall",
         "first_observation": true
       },
       {
-        "cluster_id": "9ebb77a38b",
-        "pair": "CVE-2026-63030 + GitHub",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60167 + WordPress",
         "first_observation": true
       },
       {
-        "cluster_id": "9ebb77a38b",
-        "pair": "CVE-2026-63030 + WordPress",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60168 + Apple iOS/macOS",
         "first_observation": true
       },
       {
-        "cluster_id": "8cda373323",
-        "pair": "CVE-2026-59726 + Anthropic/Claude",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60168 + SonicWall",
         "first_observation": true
       },
       {
-        "cluster_id": "8cda373323",
-        "pair": "CVE-2026-59726 + OpenAI/ChatGPT",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60168 + WordPress",
         "first_observation": true
       },
       {
-        "cluster_id": "ae0cc6b051",
-        "pair": "CVE-2026-53921 + GitHub",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60169 + Apple iOS/macOS",
         "first_observation": true
       },
       {
-        "cluster_id": "ae0cc6b051",
-        "pair": "CVE-2026-53921 + npm",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60169 + SonicWall",
         "first_observation": true
       },
       {
-        "cluster_id": "3574a7b873",
-        "pair": "CVE-2026-46331 + AWS",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60169 + WordPress",
         "first_observation": true
       },
       {
-        "cluster_id": "3574a7b873",
-        "pair": "CVE-2026-46331 + Google Cloud",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60170 + Apple iOS/macOS",
         "first_observation": true
       },
       {
-        "cluster_id": "efa5d95ebc",
-        "pair": "CVE-2026-12569 + Cl0p",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60170 + SonicWall",
         "first_observation": true
       },
       {
-        "cluster_id": "efa5d95ebc",
-        "pair": "CVE-2026-12569 + AWS",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-60170 + WordPress",
         "first_observation": true
       },
       {
-        "cluster_id": "efa5d95ebc",
-        "pair": "CVE-2026-12569 + Microsoft SharePoint",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-6516 + Apple iOS/macOS",
         "first_observation": true
       },
       {
-        "cluster_id": "efa5d95ebc",
-        "pair": "CVE-2026-12569 + OpenAI/ChatGPT",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-6516 + SonicWall",
         "first_observation": true
       },
       {
-        "cluster_id": "efa5d95ebc",
-        "pair": "CVE-2026-50522 + Cl0p",
+        "cluster_id": "38979f8c48",
+        "pair": "CVE-2026-6516 + WordPress",
         "first_observation": true
       }
     ],
@@ -9716,12 +9681,6 @@
       },
       {
         "axis": "cve_ids",
-        "value": "CVE-2026-46331",
-        "cluster_id": "3574a7b873",
-        "weeks_observed": 3
-      },
-      {
-        "axis": "cve_ids",
         "value": "CVE-2026-48283",
         "cluster_id": "dd6691160d",
         "weeks_observed": 3
@@ -9733,15 +9692,6 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": [
-      {
-        "cluster_id": "1276a22842",
-        "title": "Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)",
-        "primary_source": "Reddit r/netsec",
-        "strong_signals": [
-          "CVE-2024-1813"
-        ]
-      }
-    ]
+    "tier_inversion": []
   }
 }
