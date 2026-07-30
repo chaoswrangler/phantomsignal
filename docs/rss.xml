@@ -6,9 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 29 Jul 2026 23:10:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 02:50:24 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>&apos;Flying Eagle&apos; Full-Service Mobile RAT Builder Wings Across China</title>
+<link>https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</link>
+<description><![CDATA[A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims&apos; bank accounts.]]></description>
+<pubDate>Thu, 30 Jul 2026 00:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Dealing with AI-Generated Extortion</title>
 <link>https://www.recordedfuture.com/blog/ai-generated-extortion</link>
@@ -18,6 +27,28 @@
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>Russian hackers exploit Exchange OWA zero-day for long-term mailbox access</title>
+<link>https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/</link>
+<description><![CDATA[The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]<br/><br/><em>Tags: CVE-2026-42897 · CVE-2025-66376 · supply_chain · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 23:44:07 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-42897</category>
+<category>CVE-2025-66376</category>
+<category>supply_chain</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>Smashing Security podcast #478: This job interview could destroy your company</title>
+<link>https://grahamcluley.com/smashing-security-podcast-478/</link>
+<description><![CDATA[You&apos;ve been headhunted for a great job in cryptocurrency. All you have to do is complete a short online assessment - with your webcam on, of course, so they can verify who you really are. Which is ironic, because the person recruiting you doesn&apos;t exist. And North Korean hackers using this trick have already made off with $643 million in crypto this year alone. Meanwhile, researchers at UC San Diego have discovered that 2.2 million cars across the United States can be unlocked or immobilised by anyone with a bit of Bluetooth kit - thanks to one aftermarket car alarm that made a truly spectacular cryptographic blunder. The bug has been sitting there since 2017. Nobody noticed. All this and more in episode 478 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.]]></description>
+<pubDate>Wed, 29 Jul 2026 23:09:41 +0000</pubDate>
+<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-478/</guid>
+<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Cisco warns of FMC static credential flaw exploited in zero-day attacks</title>
@@ -161,12 +192,15 @@
 <item>
 <title>When AppSec Scanners Become a Supply Chain Attack Vector</title>
 <link>https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector</link>
-<description><![CDATA[New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<description><![CDATA[New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.<br/><br/><em>Tags: GitHub · TeamPCP · supply_chain · credential_theft</em>]]></description>
 <pubDate>Wed, 29 Jul 2026 17:06:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>TeamPCP</category>
 <category>supply_chain</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>CVE-2026-63077: Critical unauthenticated remote code execution in JetBrains TeamCity</title>
@@ -500,11 +534,12 @@
 <item>
 <title>The Average Cost of a Data Breach Rises to $5 Million</title>
 <link>https://www.infosecurity-magazine.com/news/cost-of-a-data-breach-5m-ibm/</link>
-<description><![CDATA[IBM Cost of a Data Breach Report warns that the global average cost of a data breach has reached a record high of $4.99m – and AI-backed attacks have played a role<br/><br/><em>Tags: data_breach</em>]]></description>
+<description><![CDATA[IBM Cost of a Data Breach Report warns that the global average cost of a data breach has reached a record high of $4.99m – and AI-backed attacks have played a role<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
 <pubDate>Wed, 29 Jul 2026 11:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/cost-of-a-data-breach-5m-ibm/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -689,11 +724,12 @@
 <item>
 <title>Quoting Akshat Bubna</title>
 <link>https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything</link>
-<description><![CDATA[We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal&apos;s CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident]]></description>
+<description><![CDATA[We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal&apos;s CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
 <pubDate>Tue, 28 Jul 2026 22:05:55 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
+<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident</title>
@@ -1039,16 +1075,6 @@
 <category>Microsoft SharePoint</category>
 <category>Cisco</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Data breach at medical billing firm MCBS affects 1.26 million people</title>
-<link>https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/</link>
-<description><![CDATA[Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 09:10:03 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In</title>
@@ -1881,15 +1907,6 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>When the &quot;Autonomous Attacker&quot; Is Your Own AI Model, (Thu, Jul 23rd)</title>
-<link>https://isc.sans.edu/diary/rss/33180</link>
-<description><![CDATA[Two disclosures, five days apart, described the same intrusion from opposite ends â€” one from the victim, one from the party that turned out to be responsible â€” and together they make one of the more instructive incidents of the year for defenders.]]></description>
-<pubDate>Thu, 23 Jul 2026 13:40:27 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33180</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Iranian Hackers Target Siemens and Schneider Industrial Systems, CISA Warns</title>
 <link>https://www.infosecurity-magazine.com/news/iran-hackers-siemen-schneider-ics/</link>
 <description><![CDATA[US government agencies have warned that Iranian cyber actors are targeting US-based Siemens and Schneider industrial equipment]]></description>
@@ -2009,26 +2026,39 @@
 <item>
 <title>TAG-195 Upgrades MaaS Ecosystem with Modular Tools</title>
 <link>https://www.recordedfuture.com/research/tag-195-evolves-maas-ecosystem</link>
-<description><![CDATA[Insikt Group identifies four new TAG-195 malware families, revealing an architectural transition toward modular, operator-driven tooling in the MaaS ecosystem<br/><br/><em>Tags: credential_theft · web_shell_backdoor</em>]]></description>
+<description><![CDATA[Insikt Group identifies four new TAG-195 malware families, revealing an architectural transition toward modular, operator-driven tooling in the MaaS ecosystem]]></description>
 <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.recordedfuture.com/research/tag-195-evolves-maas-ecosystem</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-<category>credential_theft</category>
-<category>web_shell_backdoor</category>
+</item>
+<item>
+<title>How Elasticsearch ES|QL COMPLETION turns noisy curl and wget rules into high-fidelity cloud security alerts</title>
+<link>https://www.elastic.co/security-labs/esql-completion-curl-wget-detection-triage</link>
+<description><![CDATA[Elastic InfoSec tested this detection rule pattern on their own cloud fleet, filtering noisy curl and wget events with deterministic logic and LLM triage so only genuine threats reach an analyst.]]></description>
+<pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/esql-completion-curl-wget-detection-triage</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>wp2shell hits WordPress: detecting pre-auth RCE from plugin drop to command execution</title>
 <link>https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend</link>
-<description><![CDATA[We ran the wp2shell WordPress RCE chain end-to-end with Elastic Defend. Detection rule walkthrough, IOCs, and hunt guidance.<br/><br/><em>Tags: WordPress · GitHub · CVE-2026-63030 · CVE-2026-60137 · web_shell_backdoor · active_exploitation</em>]]></description>
+<description><![CDATA[We ran the wp2shell WordPress RCE chain end-to-end with Elastic Defend. Detection rule walkthrough, IOCs, and hunt guidance.<br/><br/><em>Tags: WordPress</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/wp2shell-wordpress-rce-detection-elastic-defend</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
 <category>WordPress</category>
-<category>GitHub</category>
-<category>CVE-2026-63030</category>
-<category>CVE-2026-60137</category>
+</item>
+<item>
+<title>Quoting Thomas Ptacek</title>
+<link>https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything</link>
+<description><![CDATA[I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes. — Thomas Ptacek , doesn&apos;t think this even needs a frontier model Tags: thomas-ptacek , openai , security , generative-ai , ai-security-research , ai , llms , sandboxing , openai-hugging-face-incident]]></description>
+<pubDate>Wed, 22 Jul 2026 23:59:01 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened</title>
@@ -2931,15 +2961,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Escalating All The Privileges With Foxit PDF Reader (CVE-2026–57239)</title>
-<link>https://www.reddit.com/r/netsec/comments/1v1ffuz/escalating_all_the_privileges_with_foxit_pdf/</link>
-<description><![CDATA[submitted by /u/luke-paradoxis [link] [comments]]]></description>
-<pubDate>Mon, 20 Jul 2026 08:19:53 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v1ffuz/escalating_all_the_privileges_with_foxit_pdf/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Exploit brokers pay $500,000 for a WordPress RCE. I found one with GPT5.6 Sol Ultra and $25</title>
 <link>https://www.reddit.com/r/netsec/comments/1v1fbe1/exploit_brokers_pay_500000_for_a_wordpress_rce_i/</link>
 <description><![CDATA[submitted by /u/Mempodipper [link] [comments]<br/><br/><em>Tags: OpenAI/ChatGPT · WordPress</em>]]></description>
@@ -3482,15 +3503,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Police Disrupt a €140M Cyber Fraud Ring in Spain</title>
-<link>https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain</link>
-<description><![CDATA[Iberian hackers carried out a variety of cyberattacks and laundered the winnings through complex financial networks.]]></description>
-<pubDate>Thu, 16 Jul 2026 07:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>CMMC is (Not) Cancelled</title>
 <link>https://trustedsec.com/blog/cmmc-is-not-cancelled</link>
 <description><![CDATA[&lt;p&gt;Just because CMMC Phase II audits are paused doesn&apos;t mean compliance is. In this blog, we clarify what the suspension means for defense contractors and why self-assessments and core regulations remain in effect.&lt;/p&gt;]]></description>
@@ -3567,15 +3579,6 @@
 <guid isPermaLink="true">https://www.chainalysis.com/blog/ofac-sanctions-iran-central-bank-crypto-wallets-freezing-131m-in-stablecoins/</guid>
 <source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
 <category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>Forgotten Bootloaders Expose Secure Boot Blind Spot</title>
-<link>https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot</link>
-<description><![CDATA[Nearly a dozen vulnerable and now revoked UEFI shim bootloaders remained trusted for years, giving attackers a path to bypass Secure Boot.]]></description>
-<pubDate>Wed, 15 Jul 2026 21:19:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Operation Fake KickOff: Attackers Abuse Recruiters and SaaS to Harvest Work Credentials</title>
@@ -7154,16 +7157,6 @@
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
 <category>ShinyHunters</category>
-<category>data_breach</category>
-</item>
-<item>
-<title>Maine forced to take down data breach portal after fake notices filed with authorities</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/maine-take-down-data-breach-portal</link>
-<description><![CDATA[The US state of Maine has taken its public data breach notification portal offline after someone submitted fraudulent breach disclosures impersonating two well-known technology companies. Read more in my article on the Hot for Security blog.<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 13:23:44 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/maine-take-down-data-breach-portal</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -20434,7 +20427,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20443,7 +20436,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20452,7 +20445,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20461,7 +20454,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20471,7 +20464,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20480,7 +20473,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20489,7 +20482,7 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20498,7 +20491,7 @@
 <title>Why AI Governance Without Guardrails Is Theater</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20507,7 +20500,7 @@
 <title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20516,7 +20509,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 23:10:06 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
