@@ -6,9 +6,29 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 30 Jul 2026 02:50:24 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 05:49:05 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Product showcase: Dashlane Password Manager is more security toolkit than password vault</title>
+<link>https://www.helpnetsecurity.com/2026/07/30/product-showcase-dashlane-password-manager/</link>
+<description><![CDATA[Dashlane is a password manager for individuals and families that stores passwords, passkeys, payment cards, personal information and secure notes in an encrypted vault. It also includes a password generator, password health reports, an authenticator, credential sharing, dark web monitoring and phishing protection. The service is available on Windows, macOS, Linux (web app), Android, iPhone and iPad, with browser extensions for Chrome, Edge, Firefox, Safari and other Chromium-based browsers. Passwords, passkeys and other vault items … More → The post Product showcase: Dashlane Password Manager is more security toolkit than password vault appeared first on Help Net Security .<br/><br/><em>Tags: Apple iOS/macOS · phishing_social_eng</em>]]></description>
+<pubDate>Thu, 30 Jul 2026 04:30:39 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/30/product-showcase-dashlane-password-manager/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>Apple iOS/macOS</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Exposed credentials are giving attackers a head start many organizations don’t see</title>
+<link>https://www.helpnetsecurity.com/2026/07/30/enzoic-credential-exposure-risks-report/</link>
+<description><![CDATA[Compromised credentials can remain active long after passwords are created, leaving organizations trying to identify exposed accounts before attackers can use them. The 2026 Credential Risk Report from Enzoic shows growing awareness of the problem, but monitoring and response capabilities continue to lag. Even with MFA deployed, which credential-related risks remain a concern for your organization? (Source: Enzoic) The growing risk of exposed credentials 73% of organizations identified employee or contractor credentials in breach data, … More → The post Exposed credentials are giving attackers a head start many organizations don’t see appeared first on Help Net Security .]]></description>
+<pubDate>Thu, 30 Jul 2026 04:00:36 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/30/enzoic-credential-exposure-risks-report/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>&apos;Flying Eagle&apos; Full-Service Mobile RAT Builder Wings Across China</title>
 <link>https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</link>
@@ -137,12 +157,11 @@
 <item>
 <title>Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads</title>
 <link>https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html</link>
-<description><![CDATA[Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,<br/><br/><em>Tags: GitLab · GitHub · CVE-2026-66066</em>]]></description>
+<description><![CDATA[Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,<br/><br/><em>Tags: GitHub · CVE-2026-66066</em>]]></description>
 <pubDate>Wed, 29 Jul 2026 18:10:00 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>GitLab</category>
 <category>GitHub</category>
 <category>CVE-2026-66066</category>
 </item>
@@ -192,15 +211,12 @@
 <item>
 <title>When AppSec Scanners Become a Supply Chain Attack Vector</title>
 <link>https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector</link>
-<description><![CDATA[New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.<br/><br/><em>Tags: GitHub · TeamPCP · supply_chain · credential_theft</em>]]></description>
+<description><![CDATA[New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.<br/><br/><em>Tags: supply_chain</em>]]></description>
 <pubDate>Wed, 29 Jul 2026 17:06:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>TeamPCP</category>
 <category>supply_chain</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>CVE-2026-63077: Critical unauthenticated remote code execution in JetBrains TeamCity</title>
@@ -576,16 +592,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Accuris uses AI to improve BOM decisions and supply chain resilience</title>
-<link>https://www.helpnetsecurity.com/2026/07/29/accuris-bom-intelligence/</link>
-<description><![CDATA[Accuris has announced new AI capabilities for BOM Intelligence, part of its Supply Chain Intelligence suite. The launch gives engineering, procurement and supply chain teams a clearer way to move from spotting component risk to acting on it: catching obsolescence early, closing compliance gaps and governing sourcing decisions across programs. Every capability runs on the same foundation: verified data covering 1.3 billion electronic components at 98%+ accuracy, built on 35+ years of direct manufacturer relationships … More → The post Accuris uses AI to improve BOM decisions and supply chain resilience appeared first on Help Net Security .<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 09:04:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/accuris-bom-intelligence/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass</title>
 <link>https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html</link>
 <description><![CDATA[Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that<br/><br/><em>Tags: CVE-2026-16232 · active_exploitation</em>]]></description>
@@ -605,15 +611,6 @@
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Stolen Meta and Google ad accounts are worth more than the money they hold</title>
-<link>https://www.helpnetsecurity.com/2026/07/29/ad-account-theft-meta-google/</link>
-<description><![CDATA[Ad account theft, the systematic hijacking of Meta Business Manager and Google Ads accounts, has grown into a commodity-driven cybercrime economy complete with tiered pricing, escrow services, and money-back warranties for stolen accounts. Public reporting on this topic tends to focus on drained ad budgets, but according to Mimecast, that’s often a short-lived gain for attackers. “Both platforms operate on a pre-loaded credit or card-on-file model. Campaigns spend continuously until a budget cap, or the … More → The post Stolen Meta and Google ad accounts are worth more than the money they hold appeared first on Help Net Security .]]></description>
-<pubDate>Wed, 29 Jul 2026 08:38:24 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/29/ad-account-theft-meta-google/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>NCSC Publishes Guidance to Aid Incident Response and Recovery</title>
@@ -2004,14 +2001,22 @@
 <item>
 <title>Quoting Seth Larson</title>
 <link>https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything</link>
-<description><![CDATA[The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren&apos;t aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson<br/><br/><em>Tags: PyPI · OpenAI/ChatGPT · supply_chain</em>]]></description>
+<description><![CDATA[The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren&apos;t aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson<br/><br/><em>Tags: PyPI · supply_chain</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 04:50:36 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 <category>PyPI</category>
-<category>OpenAI/ChatGPT</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>CCPA Update: Who’s In Scope (Part 1)</title>
+<link>https://trustedsec.com/blog/ccpa-update-whos-in-scope-part-1</link>
+<description><![CDATA[&lt;p&gt;California updated CCPA... again. Before you do anything else, does it apply to you? In Part 1 of this blog series, we clarify who falls under scope, what data is covered, and how enforcement works.&lt;/p&gt;]]></description>
+<pubDate>Thu, 23 Jul 2026 04:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://trustedsec.com/blog/ccpa-update-whos-in-scope-part-1</guid>
+<source url="https://www.trustedsec.com/feed/">TrustedSec</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain</title>
@@ -20424,10 +20429,37 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
+<title>Inside Astaroth&apos;s New Spambot Component</title>
+<link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
+<link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
+<link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20436,7 +20468,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20445,7 +20477,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20454,7 +20486,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20464,7 +20496,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20473,7 +20505,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20482,38 +20514,10 @@
 <title>July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 05:49:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Why AI Governance Without Guardrails Is Theater</title>
-<link>https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</link>
-<description><![CDATA[]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>Falcon Secure Access Sets the Standard for Zero Trust Browser Security</title>
-<link>https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</link>
-<description><![CDATA[]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
-<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
-<description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Thu, 30 Jul 2026 02:50:24 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-<category>ai_security</category>
 </item>
 </channel>
 </rss>
