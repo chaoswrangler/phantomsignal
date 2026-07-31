@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 31 Jul 2026 17:46:32 +0000</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2026 19:44:11 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -17,6 +17,24 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk</title>
+<link>https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html</link>
+<description><![CDATA[A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025. These targeted organizations operate across several sectors, such as healthcare, research, government offices,]]></description>
+<pubDate>Fri, 31 Jul 2026 18:52:04 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>CISA warns of spike in attacks on water systems as Minnesota incidents probed</title>
+<link>https://therecord.media/cisa-warns-of-spike-in-water-system-attacks</link>
+<description><![CDATA[The Cybersecurity and Infrastructure Security Agency said in a public alert on Thursday that facilities should “remove publicly exposed PLCs and other operational technology (OT) from the internet as soon as possible.&quot;]]></description>
+<pubDate>Fri, 31 Jul 2026 17:47:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/cisa-warns-of-spike-in-water-system-attacks</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Hacker uses DeepSeek AI to autonomously attack vulnerable servers</title>
@@ -46,6 +64,19 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm</title>
+<link>https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html</link>
+<description><![CDATA[Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that<br/><br/><em>Tags: GitHub · Microsoft Defender · phishing_social_eng · credential_theft · web_shell_backdoor</em>]]></description>
+<pubDate>Fri, 31 Jul 2026 16:39:31 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>Microsoft Defender</category>
+<category>phishing_social_eng</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>What’s new with Google Cloud</title>
@@ -97,6 +128,16 @@
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/31/infoblox-domain-abuse-campaigns-report/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Cloud CISO Perspectives: Why AI Threat Defense is the new boardroom baseline</title>
+<link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-why-ai-threat-defense-is-the-new-boardroom-baseline/</link>
+<description><![CDATA[Welcome to the second Cloud CISO Perspectives for July 2026. Today, Chris Betz, CISO, Google Cloud, and Alicja Cade, Senior Director, Office of the CISO, Google Cloud, explain what boards of directors need to know about AI security and how to prepare their organizations for security governance and business agility in the AI era. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f95c207e5e0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; Why AI Th<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Fri, 31 Jul 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-why-ai-threat-defense-is-the-new-boardroom-baseline/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
 </item>
 <item>
 <title>Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined</title>
@@ -470,13 +511,11 @@
 <item>
 <title>Semiconductor chip titan Analog Devices reports data breach</title>
 <link>https://therecord.media/analog-devices-semiconductor-company-data-breach</link>
-<description><![CDATA[In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.<br/><br/><em>Tags: Play · ransomware_extortion · data_breach</em>]]></description>
+<description><![CDATA[In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Thu, 30 Jul 2026 19:10:00 +0000</pubDate>
 <guid isPermaLink="true">https://therecord.media/analog-devices-semiconductor-company-data-breach</guid>
 <source url="https://therecord.media/feed">The Record</source>
 <category>cyber_news_breach_reporting</category>
-<category>Play</category>
-<category>ransomware_extortion</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -575,13 +614,14 @@
 <item>
 <title>Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)</title>
 <link>https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/</link>
-<description><![CDATA[This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Claude Code was also excited finding this: Once discovered, I repro’d it manually to make sure it’s legit and then submitted it to Red Hat.<br/><br/><em>Tags: Anthropic/Claude · CVE-2026-5674</em>]]></description>
+<description><![CDATA[This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Claude Code was also excited finding this: Once discovered, I repro’d it manually to make sure it’s legit and then submitted it to Red Hat.<br/><br/><em>Tags: Anthropic/Claude · CVE-2026-5674 · CVE-2025-60616</em>]]></description>
 <pubDate>Thu, 30 Jul 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/</guid>
 <source url="https://embracethered.com/blog/index.xml">Embrace the Red</source>
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
 <category>CVE-2026-5674</category>
+<category>CVE-2025-60616</category>
 </item>
 <item>
 <title>Microsoft Teams vishing attacks lead to Chaos ransomware attacks</title>
@@ -690,17 +730,6 @@
 <category>PyPI</category>
 <category>npm</category>
 <category>APT29</category>
-</item>
-<item>
-<title>North Korea’s Lazarus Group sharing tools with ransomware hackers, South Korean agencies warn</title>
-<link>https://therecord.media/north-korea-hackers-ransomware</link>
-<description><![CDATA[Cyberattack tools and infrastructure used by North Korea’s Lazarus Group appear to have been shared with ransomware criminals targeting South Korean organizations — further evidence of deepening entanglement between Pyongyang-backed hackers and the ransomware ecosystem.<br/><br/><em>Tags: Lazarus · ransomware_extortion</em>]]></description>
-<pubDate>Thu, 30 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/north-korea-hackers-ransomware</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>Lazarus</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise</title>
@@ -1696,17 +1725,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
-<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
-<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
 <link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
 <description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: GitHub · GitLab · npm · TeamPCP · supply_chain · credential_theft</em>]]></description>
@@ -1718,6 +1736,17 @@
 <category>GitLab</category>
 <category>npm</category>
 <category>TeamPCP</category>
+</item>
+<item>
+<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
+<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
+<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -2057,15 +2086,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments</title>
-<link>https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html</link>
-<description><![CDATA[Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.]]></description>
-<pubDate>Mon, 27 Jul 2026 08:48:47 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Risky Bulletin: A JSON RCE bug is about to rock the Java world</title>
 <link>https://risky.biz/RBNEWS592/</link>
 <description><![CDATA[A JSON bug is about to rock the Java world, scam compounds continue in Myanmar despite the junta crackdown, and Google has a new APT naming scheme.<br/><br/><em>Tags: apt_espionage</em>]]></description>
@@ -2152,13 +2172,21 @@
 <item>
 <title>TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching</title>
 <link>https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching</link>
-<description><![CDATA[<br/><br/><em>Tags: Anthropic/Claude · AWS</em>]]></description>
+<description><![CDATA[<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
 <pubDate>Fri, 24 Jul 2026 19:41:00 +0000</pubDate>
 <guid isPermaLink="true">https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching</guid>
 <source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
 <category>threat_research_primary</category>
 <category>Anthropic/Claude</category>
-<category>AWS</category>
+</item>
+<item>
+<title>The EU’s 21st Russia Sanctions Package Targets Crypto Platforms for Sanctions Evasion, Introduces Third-Country Ban Mechanism</title>
+<link>https://www.chainalysis.com/blog/eu-21st-russia-sanctions-package-crypto-patforms-july-2026/</link>
+<description><![CDATA[Summary The EU’s 21st Russia sanctions package introduces a transaction ban on 14 crypto-related service platforms across six jurisdictions: Georgia,… The post The EU’s 21st Russia Sanctions Package Targets Crypto Platforms for Sanctions Evasion, Introduces Third-Country Ban Mechanism appeared first on Chainalysis .]]></description>
+<pubDate>Fri, 24 Jul 2026 19:23:06 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/eu-21st-russia-sanctions-package-crypto-patforms-july-2026/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Open Knowledge format v0.2 tackles agentic trust</title>
@@ -3338,16 +3366,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Attackers Combo Up Evasion Tactics for BEC Phishing</title>
-<link>https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing</link>
-<description><![CDATA[&quot;The TFF Trap&quot; uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 18:30:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>Exploitation in the Wild of wp2shell</title>
 <link>https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137</link>
 <description><![CDATA[Wiz Research has identified exploitation of &quot;wp2shell&quot;, a critical pre-auth RCE vulnerability chain impacting WordPress Core (CVE-2026-63030 &amp; CVE-2026-60137). Attackers are deploying persistent webshells on vulnerable servers. Organizations should prioritize patching or applying WAF mitigations.<br/><br/><em>Tags: WordPress · CVE-2026-63030 · CVE-2026-60137 · active_exploitation</em>]]></description>
@@ -4005,15 +4023,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Eleven Vulnerable UEFI Shims Enable Secure Boot Bypass</title>
-<link>https://www.infosecurity-magazine.com/news/uefi-shims-secure-boot-bypass/</link>
-<description><![CDATA[Eleven forgotten Microsoft-signed UEFI shims can bypass Secure Boot on almost any machine]]></description>
-<pubDate>Wed, 15 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/uefi-shims-secure-boot-bypass/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>KAPE 101: A Kroll Artifact Parser and Extractor Cheatsheet</title>
 <link>https://www.blackhillsinfosec.com/kape-cheatsheet/</link>
 <description><![CDATA[Spend time performing forensic analysis on the Windows Operating System and you&apos;ll see a host of artifacts that can be used to identify adversary activity. From changes to the registry to the System Resource Utilization Monitor, Windows artifacts run deep. The challenge is locating, extracting, and parsing these artifacts in an efficient manner. The post KAPE 101: A Kroll Artifact Parser and Extractor Cheatsheet appeared first on Black Hills Information Security, Inc. .]]></description>
@@ -4021,6 +4030,15 @@
 <guid isPermaLink="true">https://www.blackhillsinfosec.com/kape-cheatsheet/</guid>
 <source url="https://www.blackhillsinfosec.com/feed/">Black Hills Information Security</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Eleven Vulnerable UEFI Shims Enable Secure Boot Bypass</title>
+<link>https://www.infosecurity-magazine.com/news/uefi-shims-secure-boot-bypass/</link>
+<description><![CDATA[Eleven forgotten Microsoft-signed UEFI shims can bypass Secure Boot on almost any machine]]></description>
+<pubDate>Wed, 15 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/uefi-shims-secure-boot-bypass/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System</title>
@@ -7351,15 +7369,6 @@
 <source url="https://labs.watchtowr.com/rss/">watchTowr Labs</source>
 <category>offensive_vulnerability_research</category>
 <category>CVE-2026-20253</category>
-</item>
-<item>
-<title>Canada Finally Has a National AI Strategy. Experts Hate It.</title>
-<link>https://citizenlab.ca/canada-finally-has-a-national-ai-strategy-experts-hate-it/</link>
-<description><![CDATA[Senior fellow Cynthia Khoo writes that “pillars core to a functioning democracy are [being] reoriented around the false god of AI” in The Walrus. The post Canada Finally Has a National AI Strategy. Experts Hate It. appeared first on The Citizen Lab .]]></description>
-<pubDate>Fri, 12 Jun 2026 17:43:28 +0000</pubDate>
-<guid isPermaLink="true">https://citizenlab.ca/canada-finally-has-a-national-ai-strategy-experts-hate-it/</guid>
-<source url="https://citizenlab.ca/feed/">Citizen Lab</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>TrendAI™ Integrates Claude Compliance API Into TrendAI Vision One™</title>
@@ -19375,17 +19384,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Understanding the Election Cybersecurity Landscape</title>
-<link>https://www.greynoise.io/blog/understanding-the-election-cybersecurity-landscape</link>
-<description><![CDATA[GreyNoise is launching a multipart series on election cybersecurity. This series will cover the key threats and offer actionable steps to protect the integrity of our elections. Today, we start with an overview of the main risks and the adversaries involved. Stay tuned for insights on state-sponsored actors, phishing, social engineering, and the dangers of deepfakes and disinformation.<br/><br/><em>Tags: phishing_social_eng · apt_espionage</em>]]></description>
-<pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/understanding-the-election-cybersecurity-landscape</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
-<category>phishing_social_eng</category>
-<category>apt_espionage</category>
-</item>
-<item>
 <title>Fickle PDFs: exploiting browser rendering discrepancies</title>
 <link>https://portswigger.net/research/fickle-pdfs-exploiting-browser-rendering-discrepancies</link>
 <description><![CDATA[Imagine the CEO of a random company receives an email containing a PDF invoice file. In Safari and MacOS Preview, the total price displayed is £399. After approval, the invoice is sent to the accounti]]></description>
@@ -20355,7 +20353,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20364,7 +20362,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20373,7 +20371,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20382,7 +20380,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20391,7 +20389,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20400,7 +20398,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20409,7 +20407,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20418,7 +20416,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20428,7 +20426,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20437,7 +20435,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 17:46:32 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
