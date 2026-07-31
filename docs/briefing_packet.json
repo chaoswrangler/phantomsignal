@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-31T04:28:27.424618+00:00",
+  "generated_at": "2026-07-31T07:55:36.619661+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 334,
-  "total_clusters_raw": 158,
+  "total_items_in_window": 343,
+  "total_clusters_raw": 164,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 74,
-  "dropped_overflow": 4,
+  "dropped_low_score": 83,
+  "dropped_overflow": 1,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,12 +67,19 @@
     }
   },
   "feed_status": {
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
@@ -81,8 +88,22 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 2
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -95,27 +116,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 2
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -123,18 +123,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 2
     },
     "Check Point Research": {
@@ -144,18 +144,11 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
+      "item_count": 20,
       "in_window_count": 2
     },
     "SANS Internet Storm Center": {
@@ -171,6 +164,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -193,18 +193,25 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -221,20 +228,6 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -242,8 +235,8 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -263,6 +256,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -277,13 +277,6 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 10
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
@@ -291,12 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
+      "item_count": 20,
+      "in_window_count": 10
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -304,6 +297,13 @@
       "status": "ok",
       "item_count": 30,
       "in_window_count": 1
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -319,12 +319,12 @@
       "item_count": 20,
       "in_window_count": 9
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -340,12 +340,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -360,6 +360,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -382,13 +389,6 @@
       "item_count": 20,
       "in_window_count": 17
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -396,16 +396,23 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 0
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
@@ -417,13 +424,6 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -431,12 +431,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 10
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -452,12 +452,12 @@
       "item_count": 30,
       "in_window_count": 21
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 0
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -473,33 +473,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 28
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 27
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -508,6 +494,20 @@
       "item_count": 10,
       "in_window_count": 9
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
@@ -515,12 +515,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -550,15 +564,15 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -571,26 +585,12 @@
       "item_count": 100,
       "in_window_count": 24
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 16
+      "in_window_count": 25
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -611,7 +611,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 5
+      "in_window_count": 6
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -886,34 +886,6 @@
           }
         },
         {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
-          "link": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
-          "published": "2026-07-30T18:00:51+00:00",
-          "summary": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execute arbitrary code, or escape from a virtual machine to the host. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "VMware"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "VMware": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
@@ -942,14 +914,42 @@
               "products": []
             }
           }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
+          "link": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
+          "published": "2026-07-30T18:00:51+00:00",
+          "summary": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execute arbitrary code, or escape from a virtual machine to the host. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "VMware"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "VMware": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
         }
       ]
     },
     {
       "cluster_id": "513073eb52",
       "priority_score": 37,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "CVE-2026-66066"
       ],
@@ -976,8 +976,7 @@
         ],
         "confidence_tier": [
           "tier_1_offensive_research",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1041,34 +1040,6 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "KindaRails2Shell: arbitrary file read to RCE in Rails Active Storage via libvips (CVE-2026-66066)",
-          "link": "https://www.reddit.com/r/netsec/comments/1vauljz/kindarails2shell_arbitrary_file_read_to_rce_in/",
-          "published": "2026-07-30T14:04:52+00:00",
-          "summary": "Active Storage's default vips variant processor exposes an arbitrary file read that chains to RCE on stock Rails 7.x and 8.x, where the app serves back processed variants of user-supplied images. No authentication required in certain setups. Only vips is affected, Magick is not. Patched in 7.2.3.2, 8.0.5.1, and 8.1.3.1, and the fix requires libvips 8.13+. Chain and PoC withheld while patches roll out. submitted by /u/ZealousidealHunter80 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-66066"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -1201,8 +1172,8 @@
     {
       "cluster_id": "495c7fe201",
       "priority_score": 36,
-      "member_count": 2,
-      "corroborating_source_count": 2,
+      "member_count": 3,
+      "corroborating_source_count": 3,
       "strong_signals": [
         "CVE-2026-63077"
       ],
@@ -1281,6 +1252,32 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Code Execution Vulnerability Patched in TeamCity",
+          "link": "https://www.securityweek.com/critical-code-execution-vulnerability-patched-in-teamcity/",
+          "published": "2026-07-31T06:50:30+00:00",
+          "summary": "Tracked as CVE-2026-63077, the security defect can be exploited without authentication via the agent polling protocol. The post Critical Code Execution Vulnerability Patched in TeamCity appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-63077"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -1617,10 +1614,126 @@
       ]
     },
     {
-      "cluster_id": "e2f6a950f1",
+      "cluster_id": "f978f91ef1",
       "priority_score": 25,
-      "member_count": 4,
-      "corroborating_source_count": 4,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "APT1"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "APT1",
+          "APT33",
+          "APT34"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research",
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Google Cloud Threat Intelligence",
+        "cohort": "threat_research_primary",
+        "title": "Updated Cyber Threat Actor Naming System",
+        "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
+        "published": "2026-07-24T14:00:00+00:00",
+        "summary": "Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i",
+        "full_body": "Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approach, employing memorable two-word combinations for each distinct threat actor: The first word is a unique and memorable term chosen to represent the specific actor, particularly names that may have been used in prior public reporting. If no previously used term exists, this word is randomly generated to remove bias, then vetted by our analysts. The second word categorizes threat clusters by motivation, attribution, or activity type based on which category we consider to be most important for defense and response strategies. The table below provides a sample of how threat actor categories will map to the second word in each cryptonym: Origin or Type Group Name People’s Republic of China CASTLE Iran ION North Korea NEPTUNE Russia RELIC Cybercriminal COMET Table 1: Examples of Google’s new threat actor naming system categories We know there are many threat actor tracking schemas in the industry, so we are intentionally seeking to keep this system as simple as possible to streamline operations and facilitate mapping to other naming taxonomies. However, a significant caveat remains: because no two organizations have the exact same visibility into the threat landscape, direct, apples-to-apples comparisons between threat actors are rarely possible. Transitioning to a convention that is simpler to follow and remember is a practical step toward managing a highly intricate tracking problem. A Work in Progress We have initially prioritized renaming several dozen of the most active groups, and will continue this process on a rolling basis. Previous names will remain indexed and searchable in the Google Threat Intelligence (GTI) platform, with MITRE ATT&CK mappings and other vendor aliases preserved, see Figure 1. Figure 1: Threat actor name appearance in GTI platform on initial rollout We will continue to use UNC, or “uncategorized” designations for threat clusters that are still in the early stages of investigation, as described here . Selection of Re-Named Threat Actors Origin or Type Previously Used Names New Names Cybercriminal FIN11 RAZOR COMET Cybercriminal FIN6 SQUID COMET Cybercriminal FIN7 WILD COMET Cybercriminal FIN8 PUNCH COMET Iran APT33 BLEAK ION Iran APT34 SOLAR ION Iran APT35 RICH ION Iran APT39 CINDER ION Iran APT42, CALANQUE CALANQUE ION Iran TEMP.Zagros, MUDDYCOAST MUDDY ION North Korea APT37 PLAIN NEPTUNE North Korea APT45 GRASS NEPTUNE North Korea UNC1069, MASAN MIDNIGHT NEPTUNE North Korea Temp.Hermit HERMIT NEPTUNE People’s Republic of China (PRC) APT15 RIVER CASTLE PRC APT20 RIDGE CASTLE PRC UNC1088 RAVINE CASTLE PRC APT27 SHORE CASTLE PRC APT30 ISTHMUS CASTLE PRC APT31 TIDE CASTLE PRC APT40 ISLAND CASTLE PRC APT41 SP",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [
+            "APT1",
+            "APT33",
+            "APT34"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Google Cloud Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "Updated Cyber Threat Actor Naming System",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
+          "published": "2026-07-24T14:00:00+00:00",
+          "summary": "Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "APT1",
+              "APT33",
+              "APT34"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Updated Cyber Threat Actor Naming System",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
+          "published": "2026-07-24T14:00:00+00:00",
+          "summary": "Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "APT1"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "e2f6a950f1",
+      "priority_score": 24,
+      "member_count": 3,
+      "corroborating_source_count": 3,
       "strong_signals": [
         "CVE-2026-20316",
         "Cisco"
@@ -1652,8 +1765,7 @@
           "zero_day"
         ],
         "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_4_news"
@@ -1781,36 +1893,6 @@
           }
         },
         {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Cisco FMC static credentials exploited by attackers (CVE-2026-20316)",
-          "link": "https://www.helpnetsecurity.com/2026/07/30/cisco-fmc-cve-2026-20316-exploited/",
-          "published": "2026-07-30T10:44:09+00:00",
-          "summary": "A static credentials vulnerability (CVE-2026-20316) in Cisco Secure Firewall Management Center (FMC), a platform for centrally managing multiple Cisco Secure Firewall devices across a network, is being leveraged by attackers, CISA warned. Two FMC flaws, one indicator of compromise CVE-2026-20316, reported by Jimi Sebree of Horizon3.ai, is found in the FMC software’s web interface. The static user credentials are for a low-privileged account, and they can be used by attackers to log in to an … More → The post Cisco FMC static credentials exploited by attackers (CVE-2026-20316) appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-20316"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Cisco": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
           "title": "Phishing Dominates as Initial Entry Method for Cyber-Attacks, as Hackers Hone Evasion Techniques",
@@ -1835,122 +1917,6 @@
             "role_map": {
               "Cisco": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f978f91ef1",
-      "priority_score": 25,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "APT1"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "APT1",
-          "APT33",
-          "APT34"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research",
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Threat Intelligence",
-        "cohort": "threat_research_primary",
-        "title": "Updated Cyber Threat Actor Naming System",
-        "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
-        "published": "2026-07-24T14:00:00+00:00",
-        "summary": "Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i",
-        "full_body": "Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approach, employing memorable two-word combinations for each distinct threat actor: The first word is a unique and memorable term chosen to represent the specific actor, particularly names that may have been used in prior public reporting. If no previously used term exists, this word is randomly generated to remove bias, then vetted by our analysts. The second word categorizes threat clusters by motivation, attribution, or activity type based on which category we consider to be most important for defense and response strategies. The table below provides a sample of how threat actor categories will map to the second word in each cryptonym: Origin or Type Group Name People’s Republic of China CASTLE Iran ION North Korea NEPTUNE Russia RELIC Cybercriminal COMET Table 1: Examples of Google’s new threat actor naming system categories We know there are many threat actor tracking schemas in the industry, so we are intentionally seeking to keep this system as simple as possible to streamline operations and facilitate mapping to other naming taxonomies. However, a significant caveat remains: because no two organizations have the exact same visibility into the threat landscape, direct, apples-to-apples comparisons between threat actors are rarely possible. Transitioning to a convention that is simpler to follow and remember is a practical step toward managing a highly intricate tracking problem. A Work in Progress We have initially prioritized renaming several dozen of the most active groups, and will continue this process on a rolling basis. Previous names will remain indexed and searchable in the Google Threat Intelligence (GTI) platform, with MITRE ATT&CK mappings and other vendor aliases preserved, see Figure 1. Figure 1: Threat actor name appearance in GTI platform on initial rollout We will continue to use UNC, or “uncategorized” designations for threat clusters that are still in the early stages of investigation, as described here . Selection of Re-Named Threat Actors Origin or Type Previously Used Names New Names Cybercriminal FIN11 RAZOR COMET Cybercriminal FIN6 SQUID COMET Cybercriminal FIN7 WILD COMET Cybercriminal FIN8 PUNCH COMET Iran APT33 BLEAK ION Iran APT34 SOLAR ION Iran APT35 RICH ION Iran APT39 CINDER ION Iran APT42, CALANQUE CALANQUE ION Iran TEMP.Zagros, MUDDYCOAST MUDDY ION North Korea APT37 PLAIN NEPTUNE North Korea APT45 GRASS NEPTUNE North Korea UNC1069, MASAN MIDNIGHT NEPTUNE North Korea Temp.Hermit HERMIT NEPTUNE People’s Republic of China (PRC) APT15 RIVER CASTLE PRC APT20 RIDGE CASTLE PRC UNC1088 RAVINE CASTLE PRC APT27 SHORE CASTLE PRC APT30 ISTHMUS CASTLE PRC APT31 TIDE CASTLE PRC APT40 ISLAND CASTLE PRC APT41 SP",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [
-            "APT1",
-            "APT33",
-            "APT34"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Threat Intelligence",
-          "cohort": "threat_research_primary",
-          "title": "Updated Cyber Threat Actor Naming System",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
-          "published": "2026-07-24T14:00:00+00:00",
-          "summary": "Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "APT1",
-              "APT33",
-              "APT34"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Updated Cyber Threat Actor Naming System",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
-          "published": "2026-07-24T14:00:00+00:00",
-          "summary": "Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "APT1"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -2193,8 +2159,8 @@
     {
       "cluster_id": "b1e900a5a7",
       "priority_score": 21,
-      "member_count": 9,
-      "corroborating_source_count": 8,
+      "member_count": 8,
+      "corroborating_source_count": 7,
       "strong_signals": [
         "Anthropic/Claude",
         "CVE-2026-5674"
@@ -2212,7 +2178,6 @@
         "tools_used": [],
         "cve_ids": [
           "CVE-2025-60616",
-          "CVE-2026-46331",
           "CVE-2026-5674",
           "CVE-2026-59726"
         ],
@@ -2228,8 +2193,7 @@
           "tier_1_primary_research",
           "tier_2_operator",
           "tier_3_analysis",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -2353,36 +2317,6 @@
             "role_map": {
               "Anthropic/Claude": "target",
               "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331",
-          "link": "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
-          "published": "2026-07-24T05:53:48+00:00",
-          "summary": "submitted by /u/natcoba [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-46331"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -2803,7 +2737,7 @@
         "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
         "published": "2026-07-28T21:28:54+00:00",
         "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches. We're still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog's Artifactor, and JFrog and OpenAI Collaboration on Zero-Day Security Findings from JFrog links to the Artifactory 7.161.15 release notes which list 8 separate CVEs credited to OpenAI staff members. Having broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack: [...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permi",
-        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 28th July 2026 - Link Blog Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident . Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches. We're still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog's Artifactor, and JFrog and OpenAI Collaboration on Zero-Day Security Findings from JFrog links to the Artifactory 7.161.15 release notes which list 8 separate CVEs credited to OpenAI staff members. Having broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack: [...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation external sandbox hosted on a third-party provider's infrastructure. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent. (That \"third-party provider\" turned out to be Modal .) It then spent five days - from Thursday 8th to Monday 13th July - executing a classic attack pattern: establishing C2 (command and control), reconnaissance, escalating privileges, dumping configuration information, exfiltrating the target data, and cleaning up after itself. (The first Hugging Face post about the incident followed on Thursday 16th , and OpenAI's confession came on Tuesday 21st .) Along the way it used all kinds of neat tricks. At one point it found an unsafe Jinja2 template execution and used it to execute arbitrary code: {{ cycler.__init__.__globals__.__builtins__.exec( \"import gzip,base64; exec(gzip.decompress(base64.b64decode('<payload>')))\" ) }} It broke out of a container within Hugging Face, stole a Kubernetes service-account token, and used that to further explore the network. It monkey-patched the Python socket library to hard-code an IP address when \"DNS got in the way\": socket.getaddrinfo = lambda *a, **k: [(2, 1, 6, '', ('<pinned-ip>', 443))] It even fired up its own Tailscale network to help exfiltrate data! tailscaled --tun=userspace-networking \\ --state=mem: --socket=/tmp/ts.sock \\ --socks5-server=127.0.0.1:1055 \\ --no-logs-no-support >/tmp/td 2>&1 & The Hugging Face team note that, while a human attacker could have discovered and used the same exploits, the key difference here was speed : Our learning from this type of attack is that machine-speed offense makes ordinary weaknesses more expensive for defenders. LLM agents bring a step increase in the number of paths an attacker can test, the speed at which failed paths can be replaced, and the volume of evidence defenders must interpret. What's clear to me from this is that the very best frontier models, unencumbered by additional guardrails, will find an exploit if there is one to be found. The entire software industry needs to up its security game. Posted 28th July 2026 at 9:28 pm Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a link post by Simon Willison, posted on 28th July 2026 . jinja 9 python 1,271 security 620 ai 2,153 openai 438 generative-ai 1,905 llms 1,872 hugging-face 25 coding-agents 227 ai-security-research 32 openai-hugging-fac",
+        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for ISVs turns vision into results 28th July 2026 - Link Blog Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident . Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches. We're still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog's Artifactor, and JFrog and OpenAI Collaboration on Zero-Day Security Findings from JFrog links to the Artifactory 7.161.15 release notes which list 8 separate CVEs credited to OpenAI staff members. Having broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack: [...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation external sandbox hosted on a third-party provider's infrastructure. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent. (That \"third-party provider\" turned out to be Modal .) It then spent five days - from Thursday 8th to Monday 13th July - executing a classic attack pattern: establishing C2 (command and control), reconnaissance, escalating privileges, dumping configuration information, exfiltrating the target data, and cleaning up after itself. (The first Hugging Face post about the incident followed on Thursday 16th , and OpenAI's confession came on Tuesday 21st .) Along the way it used all kinds of neat tricks. At one point it found an unsafe Jinja2 template execution and used it to execute arbitrary code: {{ cycler.__init__.__globals__.__builtins__.exec( \"import gzip,base64; exec(gzip.decompress(base64.b64decode('<payload>')))\" ) }} It broke out of a container within Hugging Face, stole a Kubernetes service-account token, and used that to further explore the network. It monkey-patched the Python socket library to hard-code an IP address when \"DNS got in the way\": socket.getaddrinfo = lambda *a, **k: [(2, 1, 6, '', ('<pinned-ip>', 443))] It even fired up its own Tailscale network to help exfiltrate data! tailscaled --tun=userspace-networking \\ --state=mem: --socket=/tmp/ts.sock \\ --socks5-server=127.0.0.1:1055 \\ --no-logs-no-support >/tmp/td 2>&1 & The Hugging Face team note that, while a human attacker could have discovered and used the same exploits, the key difference here was speed : Our learning from this type of attack is that machine-speed offense makes ordinary weaknesses more expensive for defenders. LLM agents bring a step increase in the number of paths an attacker can test, the speed at which failed paths can be replaced, and the volume of evidence defenders must interpret. What's clear to me from this is that the very best frontier models, unencumbered by additional guardrails, will find an exploit if there is one to be found. The entire software industry needs to up its security game. Posted 28th July 2026 at 9:28 pm Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a link post by Simon Willison, posted on 28th July 2026 . jinja 9 python 1,271 security 620 ai 2,153 openai 438 generative-ai 1,905 llms 1,872 hugging-face 25 coding-agents 227 ai-security-research 32 openai-huggin",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -2826,10 +2760,16 @@
           "role_map": {
             "OpenAI/ChatGPT": "target",
             "Kubernetes": "target",
+            "AWS": "mention",
             "Anthropic/Claude": "mention"
           },
           "weak_tags": {
             "products": [
+              [
+                "AWS",
+                "mention",
+                0.36
+              ],
               [
                 "Anthropic/Claude",
                 "mention",
@@ -2868,10 +2808,16 @@
             "role_map": {
               "OpenAI/ChatGPT": "target",
               "Kubernetes": "target",
+              "AWS": "mention",
               "Anthropic/Claude": "mention"
             },
             "weak_tags": {
               "products": [
+                [
+                  "AWS",
+                  "mention",
+                  0.36
+                ],
                 [
                   "Anthropic/Claude",
                   "mention",
@@ -4065,95 +4011,6 @@
       ]
     },
     {
-      "cluster_id": "1276a22842",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2024-1813"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2024-1813"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)",
-        "link": "https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/",
-        "published": "2026-07-28T14:04:05+00:00",
-        "summary": "submitted by /u/MobetaSec [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2024-1813"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)",
-          "link": "https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/",
-          "published": "2026-07-28T14:04:05+00:00",
-          "summary": "submitted by /u/MobetaSec [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2024-1813"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2675bb2bb6",
       "priority_score": 12,
       "member_count": 1,
@@ -4256,190 +4113,70 @@
       ]
     },
     {
-      "cluster_id": "73084b3bd7",
-      "priority_score": 12,
-      "member_count": 2,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "ShinyHunters"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [
-          "Microsoft Entra",
-          "Salesforce"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report",
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
-        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
-        "published": "2026-07-30T16:46:15+00:00",
-        "summary": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
-        "full_body": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data By Ionut Ilascu July 30, 2026 12:46 PM 1 Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. ​The company identified the attack on July 20 and immediately activated its incident response procedure to contain the breach. William Niles, CEO at Brinks Home, said that the company’s team was working with “leading forensics experts to address this issue.” The intrusion did not impact in any way the company’s alarm monitoring and system functionality. At the beginning of the week, the ShinyHunters extortion gang claimed the attack on Brinks Home, alleging that they stole more than 4.9 million Salesforce records with personally identifiable information (PII). Brinks Home listed on ShinyHunters data leak site source: BleepingComputer Brinks Home generates approximately $830 million in annual revenue, employs up to 1,500 people, and provides home security services to more than 1 million customers across the United States, Canada, and Puerto Rico. ​It provides home security systems and services, like sensors, panels, and cameras, as well as smart home automation products (e.g., locks, thermostats, plugs). In a conversation with BleepingComputer, ShinyHunters said that they breached Brinks Home on July 13 in a Microsoft Entra voice phishing (vishing) attack. During this type of social engineering attack, the threat actor calls an employee and convinces them to complete a Microsoft Entra authentication or registration process, resulting in the hacker getting access to the victim’s account. According to the threat actor, they exfiltrated more than 1.1 million rows of customer data from the \"Contacts\" Salesforce Object. ShinyHunters also said that they stole more than 4,000 rows of PII data associated with Brinks Home employees, including full names, email addresses, job titles, and phone numbers. Additionally, the extortion group claimed to have stolen more than 3.8 million customer support chat logs from the Brinks Care Cresta instance. BleepingComputer has not reviewed any of the data allegedly stolen from Brinks Home and has been unable to verify the accuracy of Shiny Hunter's claims. However, Brinks Home confirmed that the attacker “has threatened to release information it claims to have taken” and that “such material may be posted publicly.” In the latest updates on the incident, the company said that it was investigating and had “not yet confirmed exactly what information was involved or whose.” “If we determine that your information was affected, we will notify you and explain what steps, if any, you should take,” Brinks Home says in an FAQ for the incident. The company is warning that threat actors may exploit the incident by sending fraudulent messages impersonating Brinks Home or other parties involved in the response. Customers are advised not to respond to suspicious communication or click on any links and to delete the message instead. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare Ernst & Young data breach claimed by ShinyHunters extortion gang DentaQuest data breach exposed info of 2.6 million accounts ShinyHunters data leaks fuel $2,000 sextortion email scam Abbott probes two cyber incidents amid extortion claims",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "healthcare"
-          ],
-          "affected_products": [
-            "Salesforce",
-            "Microsoft Entra"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Salesforce": "target",
-            "Microsoft Entra": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
-          "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
-          "published": "2026-07-30T16:46:15+00:00",
-          "summary": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "healthcare"
-            ],
-            "affected_products": [
-              "Salesforce",
-              "Microsoft Entra"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Salesforce": "target",
-              "Microsoft Entra": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b61889968b",
+      "cluster_id": "8553a0e574",
       "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng",
-          "zero_day"
+          "credential_theft",
+          "supply_chain"
         ],
-        "actor_attribution": [],
+        "actor_attribution": [
+          "TeamPCP"
+        ],
         "affected_industries": [],
         "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT",
-          "WordPress"
+          "GitHub",
+          "GitLab",
+          "npm"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "news_report"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_2_operator"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows",
-        "link": "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/",
-        "published": "2026-07-29T10:15:00+00:00",
-        "summary": "For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said",
-        "full_body": "Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows News 29 July 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Software vulnerabilities discovered using AI tools are being exploited at the same rate as those discovered without the use of AI, a VulnCheck researcher has found. In VulnCheck’s State of Exploitation H1 2026 report , Patrick Garrity, vulnerability researcher, observed that 14 of the 1061 vulnerabilities attributed to AI-assisted discovery have been confirmed as exploited in the wild. This represents 1.3% of vulnerabilities identified using AI, roughly matching the overall exploitation rate of all vulnerabilities for the reported period. The researcher also found that while Anthropic reported more than 23,000 findings through its Project Glasswing , only 126 have resulted in published CVEs and just one has been confirmed as exploited in the wild. These findings add nuance to warnings from some quarters that AI tools like Anthropic's Mythos and other frontier models could trigger a ‘vulnpocalypse,’ flooding the security landscape with a wave of newly discovered, mass-exploited vulnerabilities. Garrity said that for now, vulnerability intelligence shows evidence that the use of frontier AI models is “more likely to give cyber defenders an advantage in strengthening software than to give attackers an advantage in discovering vulnerabilities before the software producers do.” KEV Exploitation Growth Lags Behind Rising CVE Volume VulnCheck identified nearly 500 known exploited vulnerabilities (KEVs) in the first half of 2026. These appear to be being exploited faster than ever before, with the median time from CVE publication to KEV falling from 120 days in 2025 to 80 days during the first half of 2026. However, the research found that 23.43% of KEVs recorded in the first half of 2026 showed evidence of exploitation on or before the day the CVE was published, a slight drop from the 28.93% of one-day and zero-day KEVs observed in 2025. Additionally, exploitation activity early in the CVE lifecycle remained steady, with roughly 200 CVEs becoming exploited within 31 days in the first half of 2026. “Early exploitation activity has not scaled at the same pace as CVE issuance,” said Garrity. Source: VulnCheck Content management systems (CMS) remained the most targeted technology category, accounting for 163 KEVs, one-third of all recorded KEVs. They are followed by network edge devices (68), operating systems (44) and server software (40). Meanwhile, AI products are emerging as a new attack surface , with known exploitation affecting model-building tools, workload-scaling platforms, AI gateways, agents and workflow automation. Source: VulnCheck The VulnCheck report includes every KEV added to VulnCheck’s own KEV catalog during the first half of 2026, based on CVE publication date and earliest evidence of exploitation. The AI-discovered vulnerabilities mentioned in this report come from both Garrity’s own recording of vulnerabilities reported through Anthropic’s Project Glaswing and telemetry from the Berkeley Vulnerability Research Initiative . You may also like Researchers Build WordPress Exploit Using OpenAI's GPT News 20 July 2026 Infosecurity Europe: Patch Responsibility Remains Up for Grabs as AI Unearths Decades of Flaws News 3 June 2026 Two Critical Flaws in n8n AI Workflow Automation Platform Allow Complete Takeover News 4 February 2026 Organizations Found to Address Only 21% of GenAI-Related Vulnerabilities News 15 April 2025 Microsoft Condemns \"Uncoordinated\" Zero Day Disclosures News 28 May 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows News 29 July 2026 1 Phishing Dominates as Initial Entry Method for Cyber-Atta",
+        "source": "Intel 471",
+        "cohort": "ransomware_ecrime_financial_crime",
+        "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
+        "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
+        "published": "2026-07-28T11:00:00+00:00",
+        "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
+        "full_body": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "phishing_social_eng",
-            "zero_day",
-            "active_exploitation"
+            "supply_chain",
+            "credential_theft"
           ],
-          "actor_attribution": [],
+          "actor_attribution": [
+            "TeamPCP"
+          ],
           "affected_industries": [],
           "affected_products": [
-            "WordPress",
-            "OpenAI/ChatGPT",
-            "Anthropic/Claude"
+            "GitHub",
+            "GitLab",
+            "npm"
           ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day"
-          ],
+          "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
+          "confidence_tier": "tier_2_operator",
           "role_map": {
-            "WordPress": "target",
-            "OpenAI/ChatGPT": "target",
-            "Anthropic/Claude": "target"
+            "GitHub": "target",
+            "GitLab": "target",
+            "npm": "target",
+            "PyPI": "target"
           },
           "weak_tags": {
             "products": []
@@ -4448,38 +4185,37 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows",
-          "link": "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/",
-          "published": "2026-07-29T10:15:00+00:00",
-          "summary": "For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said",
+          "source": "Intel 471",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
+          "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
+          "published": "2026-07-28T11:00:00+00:00",
+          "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
           "taxonomy": {
             "threat_categories": [
-              "phishing_social_eng",
-              "zero_day",
-              "active_exploitation"
+              "supply_chain",
+              "credential_theft"
             ],
-            "actor_attribution": [],
+            "actor_attribution": [
+              "TeamPCP"
+            ],
             "affected_industries": [],
             "affected_products": [
-              "WordPress",
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
+              "GitHub",
+              "GitLab",
+              "npm"
             ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
+            "confidence_tier": "tier_2_operator",
             "role_map": {
-              "WordPress": "target",
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
+              "GitHub": "target",
+              "GitLab": "target",
+              "npm": "target",
+              "PyPI": "target"
             },
             "weak_tags": {
               "products": []
@@ -4594,70 +4330,73 @@
       ]
     },
     {
-      "cluster_id": "8553a0e574",
+      "cluster_id": "b61889968b",
       "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "credential_theft",
-          "supply_chain"
+          "active_exploitation",
+          "phishing_social_eng",
+          "zero_day"
         ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
+        "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "GitHub",
-          "GitLab",
-          "npm"
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT",
+          "WordPress"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ],
         "content_type": [
           "news_report"
         ],
         "confidence_tier": [
-          "tier_2_operator"
+          "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Intel 471",
-        "cohort": "ransomware_ecrime_financial_crime",
-        "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
-        "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-        "published": "2026-07-28T11:00:00+00:00",
-        "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
-        "full_body": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s",
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows",
+        "link": "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/",
+        "published": "2026-07-29T10:15:00+00:00",
+        "summary": "For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said",
+        "full_body": "Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows News 29 July 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Software vulnerabilities discovered using AI tools are being exploited at the same rate as those discovered without the use of AI, a VulnCheck researcher has found. In VulnCheck’s State of Exploitation H1 2026 report , Patrick Garrity, vulnerability researcher, observed that 14 of the 1061 vulnerabilities attributed to AI-assisted discovery have been confirmed as exploited in the wild. This represents 1.3% of vulnerabilities identified using AI, roughly matching the overall exploitation rate of all vulnerabilities for the reported period. The researcher also found that while Anthropic reported more than 23,000 findings through its Project Glasswing , only 126 have resulted in published CVEs and just one has been confirmed as exploited in the wild. These findings add nuance to warnings from some quarters that AI tools like Anthropic's Mythos and other frontier models could trigger a ‘vulnpocalypse,’ flooding the security landscape with a wave of newly discovered, mass-exploited vulnerabilities. Garrity said that for now, vulnerability intelligence shows evidence that the use of frontier AI models is “more likely to give cyber defenders an advantage in strengthening software than to give attackers an advantage in discovering vulnerabilities before the software producers do.” KEV Exploitation Growth Lags Behind Rising CVE Volume VulnCheck identified nearly 500 known exploited vulnerabilities (KEVs) in the first half of 2026. These appear to be being exploited faster than ever before, with the median time from CVE publication to KEV falling from 120 days in 2025 to 80 days during the first half of 2026. However, the research found that 23.43% of KEVs recorded in the first half of 2026 showed evidence of exploitation on or before the day the CVE was published, a slight drop from the 28.93% of one-day and zero-day KEVs observed in 2025. Additionally, exploitation activity early in the CVE lifecycle remained steady, with roughly 200 CVEs becoming exploited within 31 days in the first half of 2026. “Early exploitation activity has not scaled at the same pace as CVE issuance,” said Garrity. Source: VulnCheck Content management systems (CMS) remained the most targeted technology category, accounting for 163 KEVs, one-third of all recorded KEVs. They are followed by network edge devices (68), operating systems (44) and server software (40). Meanwhile, AI products are emerging as a new attack surface , with known exploitation affecting model-building tools, workload-scaling platforms, AI gateways, agents and workflow automation. Source: VulnCheck The VulnCheck report includes every KEV added to VulnCheck’s own KEV catalog during the first half of 2026, based on CVE publication date and earliest evidence of exploitation. The AI-discovered vulnerabilities mentioned in this report come from both Garrity’s own recording of vulnerabilities reported through Anthropic’s Project Glaswing and telemetry from the Berkeley Vulnerability Research Initiative . You may also like Researchers Build WordPress Exploit Using OpenAI's GPT News 20 July 2026 Infosecurity Europe: Patch Responsibility Remains Up for Grabs as AI Unearths Decades of Flaws News 3 June 2026 Two Critical Flaws in n8n AI Workflow Automation Platform Allow Complete Takeover News 4 February 2026 Organizations Found to Address Only 21% of GenAI-Related Vulnerabilities News 15 April 2025 Microsoft Condemns \"Uncoordinated\" Zero Day Disclosures News 28 May 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Teams-Themed Phishing Campaign Abused Legitimate Microsoft Login Pages News 30 July 2026 1 Google Releases Patches for 370 Vulnerabilities in Chrome 151 New",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "supply_chain",
-            "credential_theft"
+            "phishing_social_eng",
+            "zero_day",
+            "active_exploitation"
           ],
-          "actor_attribution": [
-            "TeamPCP"
-          ],
+          "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
-            "GitHub",
-            "GitLab",
-            "npm"
+            "WordPress",
+            "OpenAI/ChatGPT",
+            "Anthropic/Claude"
           ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day"
+          ],
           "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
+          "confidence_tier": "tier_4_news",
           "role_map": {
-            "GitHub": "target",
-            "GitLab": "target",
-            "npm": "target",
-            "PyPI": "target"
+            "WordPress": "target",
+            "OpenAI/ChatGPT": "target",
+            "Anthropic/Claude": "target"
           },
           "weak_tags": {
             "products": []
@@ -4666,25 +4405,187 @@
       },
       "corroborating_sources": [
         {
-          "source": "Intel 471",
-          "cohort": "ransomware_ecrime_financial_crime",
-          "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
-          "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-          "published": "2026-07-28T11:00:00+00:00",
-          "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows",
+          "link": "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/",
+          "published": "2026-07-29T10:15:00+00:00",
+          "summary": "For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain",
-              "credential_theft"
+              "phishing_social_eng",
+              "zero_day",
+              "active_exploitation"
             ],
-            "actor_attribution": [
-              "TeamPCP"
-            ],
+            "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "GitHub",
-              "GitLab",
-              "npm"
+              "WordPress",
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target",
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "cef34fdd67",
+      "priority_score": 12,
+      "member_count": 4,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "AWS"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ddos",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [
+          "AWS",
+          "Okta",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report",
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "CareCloud Data Breach Impacts Over 350,000",
+        "link": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
+        "published": "2026-07-31T07:51:43+00:00",
+        "summary": "In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .",
+        "full_body": "Healthcare information technology company CareCloud is notifying at least 350,000 people that their information was stolen in a data breach. The incident involved an electronic health record environment within the CareCloud Health division, which was disrupted on March 16, 2026. CareCloud’s investigation determined that hackers accessed one of its AWS environments between March 10 and March 16, and likely exfiltrated data from it. On June 24, the investigation determined that personal, financial, and medical information was compromised in the incident, the company notes in the notification letter sent to the potentially affected individuals, a copy of which was filed with the Massachusetts Office of Consumer Affairs and Business Regulation. The potentially affected information, it says, includes names, addresses, Social Security numbers, dates of birth, driver’s license numbers, government ID numbers, financial account numbers, credit/debit card numbers, and medical and health insurance information. Based on filings with the Attorney General’s Offices in several states, at least 350,000 individuals have had their information stolen. Advertisement. Scroll to continue reading. The company is providing them with up to 24 months of free identity theft protection, credit monitoring, and ID theft recovery services, which include a $1,000,000 insurance reimbursement policy. “CareCloud engaged external cybersecurity experts and, with their assistance, secured the affected environment, eliminated the threat, and confirmed that no persistent unauthorized access remained. CareCloud is continuing to strengthen the security of its systems and environments,” the company says. The healthcare organization has yet to share the total number of impacted individuals and details on the threat actor responsible for the attack. SecurityWeek has emailed CareCloud for additional details and will update this article if the company responds. Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms US and Allies Update SBOM Guidance Chrome 151 Patches 370 Vulnerabilities Mate Security Raises $35 Million for Agentic SOC US, Australia Release OT Isolation Guidance for Critical Infrastructure Spur Raises $200 Million for IP Intelligence Platform JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack ShinyHunters Claims Ernst & Young Hack Latest News Critical Code Execution Vulnerability Patched in TeamCity CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs Bank of America to Acquire Cybersecurity Firm MDSec Okta to Acquire Identity Threat Detection Firm Permiso Timeless Compliance: Why Better Questions Beat Bigger Frameworks DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "OpenAI/ChatGPT",
+            "Okta",
+            "AWS"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "target",
+            "Okta": "target",
+            "AWS": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CareCloud Data Breach Impacts Over 350,000",
+          "link": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
+          "published": "2026-07-31T07:51:43+00:00",
+          "summary": "In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government",
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "Okta",
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "Okta": "target",
+              "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "AWS Security Blog",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Extend Amazon Inspector SBOM Generator with Plugins",
+          "link": "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
+          "published": "2026-07-30T17:22:54+00:00",
+          "summary": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS"
             ],
             "tools_used": [],
             "cve_ids": [],
@@ -4693,10 +4594,7 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {
-              "GitHub": "target",
-              "GitLab": "target",
-              "npm": "target",
-              "PyPI": "target"
+              "AWS": "target"
             },
             "weak_tags": {
               "products": []
@@ -5444,6 +5342,123 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "73084b3bd7",
+      "priority_score": 11,
+      "member_count": 2,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "ShinyHunters"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "healthcare"
+        ],
+        "affected_products": [
+          "Microsoft Entra",
+          "Salesforce"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report",
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+        "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+        "published": "2026-07-30T16:46:15+00:00",
+        "summary": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
+        "full_body": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data By Ionut Ilascu July 30, 2026 12:46 PM 1 Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. ​The company identified the attack on July 20 and immediately activated its incident response procedure to contain the breach. William Niles, CEO at Brinks Home, said that the company’s team was working with “leading forensics experts to address this issue.” The intrusion did not impact in any way the company’s alarm monitoring and system functionality. At the beginning of the week, the ShinyHunters extortion gang claimed the attack on Brinks Home, alleging that they stole more than 4.9 million Salesforce records with personally identifiable information (PII). Brinks Home listed on ShinyHunters data leak site source: BleepingComputer Brinks Home generates approximately $830 million in annual revenue, employs up to 1,500 people, and provides home security services to more than 1 million customers across the United States, Canada, and Puerto Rico. ​It provides home security systems and services, like sensors, panels, and cameras, as well as smart home automation products (e.g., locks, thermostats, plugs). In a conversation with BleepingComputer, ShinyHunters said that they breached Brinks Home on July 13 in a Microsoft Entra voice phishing (vishing) attack. During this type of social engineering attack, the threat actor calls an employee and convinces them to complete a Microsoft Entra authentication or registration process, resulting in the hacker getting access to the victim’s account. According to the threat actor, they exfiltrated more than 1.1 million rows of customer data from the \"Contacts\" Salesforce Object. ShinyHunters also said that they stole more than 4,000 rows of PII data associated with Brinks Home employees, including full names, email addresses, job titles, and phone numbers. Additionally, the extortion group claimed to have stolen more than 3.8 million customer support chat logs from the Brinks Care Cresta instance. BleepingComputer has not reviewed any of the data allegedly stolen from Brinks Home and has been unable to verify the accuracy of Shiny Hunter's claims. However, Brinks Home confirmed that the attacker “has threatened to release information it claims to have taken” and that “such material may be posted publicly.” In the latest updates on the incident, the company said that it was investigating and had “not yet confirmed exactly what information was involved or whose.” “If we determine that your information was affected, we will notify you and explain what steps, if any, you should take,” Brinks Home says in an FAQ for the incident. The company is warning that threat actors may exploit the incident by sending fraudulent messages impersonating Brinks Home or other parties involved in the response. Customers are advised not to respond to suspicious communication or click on any links and to delete the message instead. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare Ernst & Young data breach claimed by ShinyHunters extortion gang DentaQuest data breach exposed info of 2.6 million accounts ShinyHunters data leaks fuel $2,000 sextortion email scam Abbott probes two cyber incidents amid extortion claims",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [
+            "healthcare"
+          ],
+          "affected_products": [
+            "Salesforce",
+            "Microsoft Entra"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Salesforce": "target",
+            "Microsoft Entra": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+          "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+          "published": "2026-07-30T16:46:15+00:00",
+          "summary": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [
+              "healthcare"
+            ],
+            "affected_products": [
+              "Salesforce",
+              "Microsoft Entra"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Salesforce": "target",
+              "Microsoft Entra": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -6654,105 +6669,6 @@
       ]
     },
     {
-      "cluster_id": "e79852f470",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "Play"
-        ],
-        "affected_industries": [
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Record",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Semiconductor chip titan Analog Devices reports data breach",
-        "link": "https://therecord.media/analog-devices-semiconductor-company-data-breach",
-        "published": "2026-07-30T19:10:00+00:00",
-        "summary": "In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.",
-        "full_body": "An Analog Devices display at the Smart Production Solutions expo in Germany in 2023. Image: @ADI_News / X Semiconductor chip titan Analog Devices reports data breach The semiconductor company Analog Devices reported an intrusion into its systems and the exfiltration of data in a filing Wednesday with the Securities and Exchange Commission. The Massachusetts-based chip manufacturer told regulators that on June 23 it identified “unauthorized access” to certain systems and activated incident response. It brought in outside cybersecurity experts and began coordinating with law enforcement. While investigating the incident, the company discovered “certain files” had been exfiltrated but the scope of the breach is not yet known. Analog Devices does not expect the intrusion will have any material impact on its business. “To the Company’s knowledge, the data has not been publicly released or used for fraudulent purposes,” the filing says. Analog Devices noted that it was informed of another “disparate cybersecurity matter” on July 26 that it claims is not connected to the infiltration in June. The firm is “assessing its validity, scope, and any potential impact.” The company did not provide any further information about this purported incident, but it may be related to claims posted by the ransomware group ExfilSquad that it had stolen more than 570,000 records related to Analog Devices customers. An Analog Devices spokesperson did not address questions about the ransomware claims. With a market cap of more than $178 billion and more than $11 billion in revenue last year, the company is a major player in the chip manufacturing boom. It specializes in chips and circuits for data conversion and signal processing. Globally, semiconductor companies have in recent years been the target of ransomware attacks and cyberespionage. Microchip Technology was attacked by the Play ransomware gang in 2024 while Applied Materials was hit in 2023 . The California-based semiconductor testing company Trio-Tech International reported a ransomware attack on its Singapore subsidiary in March, and the Taiwanese manufacturer Foxconn dealt with a cyberattack in May that affected production at several American factories. Industry Cybercrime News News Briefs Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "Play"
-          ],
-          "affected_industries": [
-            "government",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Record",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Semiconductor chip titan Analog Devices reports data breach",
-          "link": "https://therecord.media/analog-devices-semiconductor-company-data-breach",
-          "published": "2026-07-30T19:10:00+00:00",
-          "summary": "In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "Play"
-            ],
-            "affected_industries": [
-              "government",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "5158be75f5",
       "priority_score": 10,
       "member_count": 1,
@@ -7246,58 +7162,64 @@
       ]
     },
     {
-      "cluster_id": "37a54c4646",
+      "cluster_id": "e79852f470",
       "priority_score": 9,
-      "member_count": 3,
+      "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "AWS"
-      ],
+      "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "ddos"
+          "data_breach",
+          "ransomware_extortion"
         ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS"
+        "actor_attribution": [
+          "Play"
         ],
+        "affected_industries": [
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "incident_report"
         ],
         "confidence_tier": [
-          "tier_2_operator"
+          "tier_4_news"
         ]
       },
       "primary": {
-        "source": "AWS Security Blog",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Extend Amazon Inspector SBOM Generator with Plugins",
-        "link": "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
-        "published": "2026-07-30T17:22:54+00:00",
-        "summary": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]",
-        "full_body": "AWS Security Blog Extend Amazon Inspector SBOM Generator with Plugins Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container images, directories, archives, local systems, compiled binaries, and more. Over the past two years, we’ve expanded inspector-sbomgen’s coverage across dozens of programming language ecosystems, operating systems, and widely deployed applications. We’re pleased to announce a new capability for builders using inspector-sbomgen: a plugin system for writing your own custom package collectors that you can use right away, without requiring source code compilation nor waiting for an official release. You can download the latest version of inspector-sbomgen from the Amazon Inspector User Guide . In this post, we walk you through what the inspector-sbomgen plugin system does, why we built it, and how you can write your first plugin in a few minutes. Along the way, we also cover how plugin-generated package components integrate with Amazon Inspector for vulnerability scanning, and we explore the plugin safety model, which helps ensure security-hardened and predictable plugin behavior. Why we built a plugin system Software ecosystems are dynamic. New language package managers, lockfile formats, and end user applications ship constantly, and many are adopted quickly, in some cases with little security scrutiny. That leaves security teams with a visibility gap: production workloads running software that their SBOM tooling doesn’t yet recognize. Customers have asked us to inventory many of these ecosystems directly, and until recently, the only path to support was to open a feature request and wait for the inspector-sbomgen team to onboard the ecosystem and deploy a new release. The inspector-sbomgen plugin system changes that. With plugins, you can: Onboard ecosystems that inspector-sbomgen doesn’t support out of the box. New open source ecosystems, niche or fast-moving package formats, and internal or proprietary tooling can all be inventoried without modifying inspector-sbomgen. Prototype detection for an ecosystem quickly. We designed a plugin system that is friendly to developers and AI coding assistants alike. Plugins are written in Lua, loaded at runtime, and require no Go toolchain nor compilation. You can use the built in test harness to iterate on a plugin and see results immediately. Build on a stable foundation. The plugin API abstracts away artifact-type differences, so you write your detection logic once and it works seamlessly across container images, archives, local systems, and more. And because plugins stay decoupled from the internals of sbomgen, the core tool’s regression surface stays small. Internally, we’ve used the plugin system to ship new ecosystem coverage faster than before. In our 1.13 release , more than 20 ecosystems that were previously implemented in Go, including Apache Tomcat, NGINX, MySQL, Redis, WordPress, and the OpenSSH toolchain, are now embedded as plugins inside the sbomgen binary. The same release also added more than ten brand-new ecosystems as plugins, including Apache Cassandra, Apache Struts, Conda, Swift packages, and AI-agent collectors (Amazon Q Developer, Kiro CLI, Claude Code, GitHub Copilot, and Ollama). How inspector-sbomgen plugins work Sbomgen plugins follow a two-step pipeline: Discovery – Scan the artifact’s file system to identify files that contain installed package metadata. Collection – Open each discovered file, parse file contents, and publish findings into the SBOM. Under the hood, an event bus connects discovery and collection plugins. Discovery plugins publish events listing discovered files, a",
+        "source": "The Record",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Semiconductor chip titan Analog Devices reports data breach",
+        "link": "https://therecord.media/analog-devices-semiconductor-company-data-breach",
+        "published": "2026-07-30T19:10:00+00:00",
+        "summary": "In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.",
+        "full_body": "An Analog Devices display at the Smart Production Solutions expo in Germany in 2023. Image: @ADI_News / X Semiconductor chip titan Analog Devices reports data breach The semiconductor company Analog Devices reported an intrusion into its systems and the exfiltration of data in a filing Wednesday with the Securities and Exchange Commission. The Massachusetts-based chip manufacturer told regulators that on June 23 it identified “unauthorized access” to certain systems and activated incident response. It brought in outside cybersecurity experts and began coordinating with law enforcement. While investigating the incident, the company discovered “certain files” had been exfiltrated but the scope of the breach is not yet known. Analog Devices does not expect the intrusion will have any material impact on its business. “To the Company’s knowledge, the data has not been publicly released or used for fraudulent purposes,” the filing says. Analog Devices noted that it was informed of another “disparate cybersecurity matter” on July 26 that it claims is not connected to the infiltration in June. The firm is “assessing its validity, scope, and any potential impact.” The company did not provide any further information about this purported incident, but it may be related to claims posted by the ransomware group ExfilSquad that it had stolen more than 570,000 records related to Analog Devices customers. An Analog Devices spokesperson did not address questions about the ransomware claims. With a market cap of more than $178 billion and more than $11 billion in revenue last year, the company is a major player in the chip manufacturing boom. It specializes in chips and circuits for data conversion and signal processing. Globally, semiconductor companies have in recent years been the target of ransomware attacks and cyberespionage. Microchip Technology was attacked by the Play ransomware gang in 2024 while Applied Materials was hit in 2023 . The California-based semiconductor testing company Trio-Tech International reported a ransomware attack on its Singapore subsidiary in March, and the Taiwanese manufacturer Foxconn dealt with a cyberattack in May that affected production at several American factories. Industry Cybercrime News News Briefs Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS"
+          "threat_categories": [
+            "ransomware_extortion",
+            "data_breach"
           ],
+          "actor_attribution": [
+            "Play"
+          ],
+          "affected_industries": [
+            "government",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "AWS": "target"
-          },
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -7305,28 +7227,32 @@
       },
       "corroborating_sources": [
         {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Extend Amazon Inspector SBOM Generator with Plugins",
-          "link": "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
-          "published": "2026-07-30T17:22:54+00:00",
-          "summary": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]",
+          "source": "The Record",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Semiconductor chip titan Analog Devices reports data breach",
+          "link": "https://therecord.media/analog-devices-semiconductor-company-data-breach",
+          "published": "2026-07-30T19:10:00+00:00",
+          "summary": "In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.",
           "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS"
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach"
             ],
+            "actor_attribution": [
+              "Play"
+            ],
+            "affected_industries": [
+              "government",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "AWS": "target"
-            },
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7632,7 +7558,9 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -7653,13 +7581,15 @@
         "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
         "published": "2026-07-28T22:05:55+00:00",
         "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for ISVs turns vision into results 28th July 2026 We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Posted 28th July 2026 at 10:05 pm Recent articles OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 This is a quotation collected by Simon Willison, posted on 28th July 2026 . sandboxing 52 security 620 openai 438 ai-security-research 32 openai-hugging-face-incident 5 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
@@ -7669,14 +7599,21 @@
           "content_type": "news_report",
           "confidence_tier": "tier_2_operator",
           "role_map": {
-            "OpenAI/ChatGPT": "mention"
+            "OpenAI/ChatGPT": "target",
+            "AWS": "mention",
+            "Anthropic/Claude": "mention"
           },
           "weak_tags": {
             "products": [
               [
-                "OpenAI/ChatGPT",
+                "AWS",
                 "mention",
-                0.31
+                0.36
+              ],
+              [
+                "Anthropic/Claude",
+                "mention",
+                0.3
               ]
             ]
           }
@@ -7694,7 +7631,9 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
@@ -7704,14 +7643,21 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {
-              "OpenAI/ChatGPT": "mention"
+              "OpenAI/ChatGPT": "target",
+              "AWS": "mention",
+              "Anthropic/Claude": "mention"
             },
             "weak_tags": {
               "products": [
                 [
-                  "OpenAI/ChatGPT",
+                  "AWS",
                   "mention",
-                  0.31
+                  0.36
+                ],
+                [
+                  "Anthropic/Claude",
+                  "mention",
+                  0.3
                 ]
               ]
             }
@@ -7720,51 +7666,51 @@
       ]
     },
     {
-      "cluster_id": "6e77324d55",
+      "cluster_id": "602e22dfe4",
       "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "incident_report"
+          "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_3_analysis"
         ]
       },
       "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Semiconductor Firm Analog Devices Discloses Data Breach",
-        "link": "https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/",
-        "published": "2026-07-30T11:16:23+00:00",
-        "summary": "Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek .",
+        "source": "Schneier on Security",
+        "cohort": "practitioner_analysis",
+        "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
+        "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
+        "published": "2026-07-29T11:01:09+00:00",
+        "summary": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "data_breach"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "critical_infrastructure"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_3_analysis",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -7773,25 +7719,25 @@
       },
       "corroborating_sources": [
         {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Semiconductor Firm Analog Devices Discloses Data Breach",
-          "link": "https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/",
-          "published": "2026-07-30T11:16:23+00:00",
-          "summary": "Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek .",
+          "source": "Schneier on Security",
+          "cohort": "practitioner_analysis",
+          "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
+          "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
+          "published": "2026-07-29T11:01:09+00:00",
+          "summary": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..",
           "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_3_analysis",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -7872,87 +7818,6 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "incident_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "602e22dfe4",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Schneier on Security",
-        "cohort": "practitioner_analysis",
-        "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
-        "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
-        "published": "2026-07-29T11:01:09+00:00",
-        "summary": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Schneier on Security",
-          "cohort": "practitioner_analysis",
-          "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
-          "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
-          "published": "2026-07-29T11:01:09+00:00",
-          "summary": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_3_analysis",
             "role_map": {},
             "weak_tags": {
@@ -8852,6 +8717,81 @@
       ]
     },
     {
+      "cluster_id": "73e9449bb7",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Black Hills Information Security",
+        "cohort": "detection_response_operations",
+        "title": "Report As You Go: Maintaining Good Documentation for SOC Analysts",
+        "link": "https://www.blackhillsinfosec.com/report-as-you-go-soc/",
+        "published": "2026-07-29T14:00:00+00:00",
+        "summary": "by Dan “Haircutfish” Rearden | haircutfish.com | Guest Author Working in the SOC can be a grind. Whether triaging alerts, escalating to clients, or just trying to understand why users […] The post Report As You Go: Maintaining Good Documentation for SOC Analysts appeared first on Black Hills Information Security, Inc. .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Black Hills Information Security",
+          "cohort": "detection_response_operations",
+          "title": "Report As You Go: Maintaining Good Documentation for SOC Analysts",
+          "link": "https://www.blackhillsinfosec.com/report-as-you-go-soc/",
+          "published": "2026-07-29T14:00:00+00:00",
+          "summary": "by Dan “Haircutfish” Rearden | haircutfish.com | Guest Author Working in the SOC can be a grind. Whether triaging alerts, escalating to clients, or just trying to understand why users […] The post Report As You Go: Maintaining Good Documentation for SOC Analysts appeared first on Black Hills Information Security, Inc. .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "39354a1568",
       "priority_score": 8,
       "member_count": 1,
@@ -9026,13 +8966,15 @@
       ]
     },
     {
-      "cluster_id": "73e9449bb7",
+      "cluster_id": "ac434a158a",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "ddos"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -9041,23 +8983,25 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "incident_report"
         ],
         "confidence_tier": [
-          "tier_2_operator"
+          "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Black Hills Information Security",
-        "cohort": "detection_response_operations",
-        "title": "Report As You Go: Maintaining Good Documentation for SOC Analysts",
-        "link": "https://www.blackhillsinfosec.com/report-as-you-go-soc/",
-        "published": "2026-07-29T14:00:00+00:00",
-        "summary": "by Dan “Haircutfish” Rearden | haircutfish.com | Guest Author Working in the SOC can be a grind. Whether triaging alerts, escalating to clients, or just trying to understand why users […] The post Report As You Go: Maintaining Good Documentation for SOC Analysts appeared first on Black Hills Information Security, Inc. .",
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+        "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+        "published": "2026-07-28T15:01:33+00:00",
+        "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "ddos"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -9065,8 +9009,8 @@
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -9075,14 +9019,16 @@
       },
       "corroborating_sources": [
         {
-          "source": "Black Hills Information Security",
-          "cohort": "detection_response_operations",
-          "title": "Report As You Go: Maintaining Good Documentation for SOC Analysts",
-          "link": "https://www.blackhillsinfosec.com/report-as-you-go-soc/",
-          "published": "2026-07-29T14:00:00+00:00",
-          "summary": "by Dan “Haircutfish” Rearden | haircutfish.com | Guest Author Working in the SOC can be a grind. Whether triaging alerts, escalating to clients, or just trying to understand why users […] The post Report As You Go: Maintaining Good Documentation for SOC Analysts appeared first on Black Hills Information Security, Inc. .",
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+          "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+          "published": "2026-07-28T15:01:33+00:00",
+          "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "ddos"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -9090,8 +9036,8 @@
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -9264,6 +9210,87 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "ac9cea3220",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors",
+        "link": "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/",
+        "published": "2026-07-24T12:00:00+00:00",
+        "summary": "Researchers at ReliaQuest warned of widespread DNS poisoning attacks targeting the hospitality sector as part of a cyber espionage campaign",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors",
+          "link": "https://www.infosecurity-magazine.com/news/hotel-wifi-dns-poisoning/",
+          "published": "2026-07-24T12:00:00+00:00",
+          "summary": "Researchers at ReliaQuest warned of widespread DNS poisoning attacks targeting the hospitality sector as part of a cyber espionage campaign",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
@@ -9339,7 +9366,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 7,
+      "article_count": 6,
       "cohesion": 0.225,
       "shared_strong_signals": [
         "Microsoft SharePoint"
@@ -9355,7 +9382,6 @@
       "links": [
         "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
         "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
-        "https://www.helpnetsecurity.com/2026/07/30/cisco-fmc-cve-2026-20316-exploited/",
         "https://www.infosecurity-magazine.com/news/phishing-dominates-initial-entry/",
         "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
         "https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/",
@@ -9376,7 +9402,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 12,
+      "article_count": 11,
       "cohesion": 0.206,
       "shared_strong_signals": [
         "PyPI"
@@ -9393,7 +9419,6 @@
         "https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/",
         "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
         "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
-        "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
         "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
         "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
         "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html",
@@ -9455,7 +9480,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 3,
+      "article_count": 4,
       "cohesion": 0.738,
       "shared_strong_signals": [
         "CVE-2026-63077"
@@ -9468,6 +9493,7 @@
       ],
       "links": [
         "https://www.rapid7.com/blog/post/etr-cve-2026-63077-critical-unauthenticated-remote-code-execution-in-jetbrains-teamcity",
+        "https://www.securityweek.com/critical-code-execution-vulnerability-patched-in-teamcity/",
         "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
         "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/"
       ]
@@ -9566,6 +9592,40 @@
       ]
     },
     {
+      "label": "ShinyHunters: ransomware extortion",
+      "anchor_signal": "ShinyHunters",
+      "theme_key": "shinyhunters",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "data_breach"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "healthcare"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 6,
+      "cohesion": 0.553,
+      "shared_strong_signals": [
+        "ShinyHunters"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "cef34fdd67",
+        "73084b3bd7"
+      ],
+      "links": [
+        "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
+        "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
+        "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/"
+      ]
+    },
+    {
       "label": "CVE-2026-16723 exploitation activity",
       "anchor_signal": "CVE-2026-16723",
       "theme_key": "cve-2026-16723",
@@ -9604,7 +9664,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 12,
+      "article_count": 11,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Google Cloud"
@@ -9619,7 +9679,6 @@
         "https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/",
         "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
         "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
-        "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
         "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
         "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
         "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html",
@@ -9628,53 +9687,21 @@
       ]
     },
     {
-      "label": "CVE-2026-42897 exploitation activity",
-      "anchor_signal": "CVE-2026-42897",
-      "theme_key": "cve-2026-42897",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "apt_espionage",
-          "web_shell_backdoor"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "cve_ids": [
-          "CVE-2026-42897"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.375,
-      "shared_strong_signals": [
-        "CVE-2026-42897"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "8711a18902",
-        "619059b8b8"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
-        "https://www.helpnetsecurity.com/2026/07/30/cve-2026-42897-microsoft-exchange-email-attack/"
-      ]
-    },
-    {
-      "label": "AWS vulnerability activity",
+      "label": "ransomware extortion targeting AWS",
       "anchor_signal": "AWS",
       "theme_key": "aws",
       "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "data_breach"
+        ],
         "affected_products": [
-          "AWS"
+          "AWS",
+          "OpenAI/ChatGPT"
         ]
       },
       "cluster_count": 2,
-      "article_count": 4,
+      "article_count": 5,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "AWS"
@@ -9683,10 +9710,11 @@
       "also_targets": [],
       "cluster_ids": [
         "efa5d95ebc",
-        "37a54c4646"
+        "cef34fdd67"
       ],
       "links": [
         "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+        "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
         "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/"
       ]
     }
@@ -9698,25 +9726,7 @@
       "products": []
     },
     "velocity": [],
-    "leading_edge": [
-      {
-        "cluster_id": "b1e900a5a7",
-        "title": "Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)",
-        "lead_hours": 13.8,
-        "first_source": "Reddit r/netsec",
-        "later_tier1_source": "Trend Micro Research",
-        "shared_signals": [
-          "Anthropic/Claude",
-          "CVE-2025-60616",
-          "CVE-2026-46331",
-          "CVE-2026-5674",
-          "CVE-2026-59726",
-          "Google Cloud",
-          "OpenAI/ChatGPT",
-          "PyPI"
-        ]
-      }
-    ],
+    "leading_edge": [],
     "convergence": [
       {
         "cluster_id": "4a06e44c92",
@@ -9850,11 +9860,16 @@
       },
       {
         "actor": "ShinyHunters",
-        "cluster_id": "73084b3bd7",
+        "cluster_id": "cef34fdd67",
         "new_industries": [
+          "critical_infrastructure",
           "healthcare"
         ],
-        "new_products": [],
+        "new_products": [
+          "AWS",
+          "Okta",
+          "OpenAI/ChatGPT"
+        ],
         "prior_top_industries": [
           "education",
           "financial_services",
@@ -9890,7 +9905,7 @@
       {
         "axis": "actor_attribution",
         "value": "ShinyHunters",
-        "cluster_id": "73084b3bd7",
+        "cluster_id": "cef34fdd67",
         "weeks_observed": 9
       },
       {
@@ -9904,12 +9919,6 @@
         "value": "Cl0p",
         "cluster_id": "efa5d95ebc",
         "weeks_observed": 5
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-46331",
-        "cluster_id": "b1e900a5a7",
-        "weeks_observed": 4
       },
       {
         "axis": "cve_ids",
@@ -9942,15 +9951,6 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": [
-      {
-        "cluster_id": "1276a22842",
-        "title": "Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)",
-        "primary_source": "Reddit r/netsec",
-        "strong_signals": [
-          "CVE-2024-1813"
-        ]
-      }
-    ]
+    "tier_inversion": []
   }
 }
