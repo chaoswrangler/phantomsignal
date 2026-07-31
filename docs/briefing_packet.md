@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-30T22:12:45.023308+00:00
+- Generated: 2026-07-31T00:08:51.510723+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 331
-- Total clusters raw: 158
+- Total items in window: 330
+- Total clusters raw: 157
 - Total clusters in packet: 80
-- Dropped low score: 70
-- Dropped overflow: 8
+- Dropped low score: 71
+- Dropped overflow: 6
 
 ## Cohort metadata
 
@@ -70,23 +70,13 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -105,11 +95,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -125,6 +120,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -145,46 +145,46 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 50
   - In window count: 2
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,21 +195,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -224,52 +224,52 @@
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 4
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
+  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -280,11 +280,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -300,13 +295,13 @@
   - Status: ok
   - Item count: 20
   - In window count: 17
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
@@ -315,6 +310,16 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -325,21 +330,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 18
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -350,33 +350,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 30
-  - In window count: 17
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 28
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
@@ -385,18 +375,28 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,13 +405,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,21 +415,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -584,48 +584,6 @@
   - https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html
   - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
 
-### Cisco active exploitation
-- Anchor signal: Cisco
-- Theme key: cisco
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.2
-- Shared strong signals: Cisco
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, ransomware_extortion
-  - affected_products: Cisco, Microsoft SharePoint
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: e2f6a950f1, 7d478340af, 6e77324d55
-- Links:
-  - https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
-  - https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/
-  - https://www.helpnetsecurity.com/2026/07/30/cisco-fmc-cve-2026-20316-exploited/
-  - https://www.infosecurity-magazine.com/news/phishing-dominates-initial-entry/
-  - https://blog.talosintelligence.com/ir-trends-q2-2026/
-  - https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
-
-### VMware active exploitation
-- Anchor signal: VMware
-- Theme key: vmware
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: VMware
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: VMware
-  - urgency_signals: actively_exploited
-- Cluster IDs: 4a06e44c92, 6e77324d55
-- Links:
-  - https://www.rapid7.com/blog/post/etr-critical-vmware-vcenter-vulnerabilities-allow-authentication-bypass-and-remote-code-execution-cve-2026-59309-cve-2026-59310
-  - https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/
-  - https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html
-  - https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
-
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
@@ -661,6 +619,29 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/
   - https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
 
+### Google Cloud vulnerability activity
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
+- Cluster count: 2
+- Article count: 12
+- Cohesion: 0.2
+- Shared strong signals: Google Cloud
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Google Cloud
+- Cluster IDs: b1e900a5a7, c4180d1ad6
+- Links:
+  - https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/
+  - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
+  - https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html
+  - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
+  - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
+  - https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html
+  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - https://cloud.google.com/blog/products/databases/alloydb-adds-group-authentication-to-secure-enterprise-scale-and-ai-agents/
+  - https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
+
 ### CVE-2026-16723 exploitation activity
 - Anchor signal: CVE-2026-16723
 - Theme key: cve-2026-16723
@@ -678,52 +659,46 @@
   - https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
   - https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
 
-### Google Cloud vulnerability activity
-- Anchor signal: Google Cloud
-- Theme key: google-cloud
+### CVE-2026-42897 exploitation activity
+- Anchor signal: CVE-2026-42897
+- Theme key: cve-2026-42897
 - Cluster count: 2
-- Article count: 11
-- Cohesion: 0.2
-- Shared strong signals: Google Cloud
+- Article count: 2
+- Cohesion: 0.375
+- Shared strong signals: CVE-2026-42897
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Google Cloud
-- Cluster IDs: b1e900a5a7, c4180d1ad6
+  - threat_categories: zero_day, apt_espionage, web_shell_backdoor
+  - affected_industries: government
+  - cve_ids: CVE-2026-42897
+  - urgency_signals: zero_day
+- Cluster IDs: 619059b8b8, 8711a18902
 - Links:
-  - https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/
-  - https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching
-  - https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html
-  - https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/
-  - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
-  - https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html
-  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - https://cloud.google.com/blog/products/databases/alloydb-adds-group-authentication-to-secure-enterprise-scale-and-ai-agents/
+  - https://www.helpnetsecurity.com/2026/07/30/cve-2026-42897-microsoft-exchange-email-attack/
+  - https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
 
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
+### AWS vulnerability activity
+- Anchor signal: AWS
+- Theme key: aws
 - Cluster count: 2
-- Article count: 3
-- Cohesion: 0.46
-- Shared strong signals: ShinyHunters
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: AWS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, data_breach
-  - actor_attribution: ShinyHunters
-- Cluster IDs: 73084b3bd7, 6e77324d55
+  - affected_products: AWS
+- Cluster IDs: efa5d95ebc, 37a54c4646
 - Links:
-  - https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
-  - https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
+  - https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+  - https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
 
 ## Forward signals
 
 ### Novelty
 - Novel cves: 0
-- Novel actors: 2
-  - APT33 (first seen via Google Cloud Threat Intelligence at 2026-07-24T14:00:00+00:00, cluster f978f91ef1)
-  - APT34 (first seen via Google Cloud Threat Intelligence at 2026-07-24T14:00:00+00:00, cluster f978f91ef1)
+- Novel actors: 0
 - Novel products: 0
 
 ### Velocity bursts (0)
@@ -849,7 +824,7 @@ Back to Blog Vulnerabilities and Exploits Check Point SmartConsole Authenticatio
   - Link: https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html
   - Summary: Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that
 
-### Cluster 4a06e44c92 — score 46
+### Cluster 4a06e44c92 — score 45
 
 - Title: Critical VMware vCenter Vulnerabilities Allow Authentication Bypass and Remote Code Execution (CVE-2026-59309, CVE-2026-59310)
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -1239,7 +1214,7 @@ Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive
 #### Summary
 
 ```
-Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approa
+Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i
 ```
 
 #### Full body
@@ -1254,7 +1229,7 @@ Threat Intelligence Updated Cyber Threat Actor Naming System July 24, 2026 Googl
   - Title: Updated Cyber Threat Actor Naming System
   - Published: 2026-07-24T14:00:00+00:00
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/
-  - Summary: Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with industry standard threat actor naming systems. Our New Schema Our new schema utilizes a cryptonym-based approa
+  - Summary: Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - Title: Updated Cyber Threat Actor Naming System
   - Published: 2026-07-24T14:00:00+00:00
@@ -1665,49 +1640,6 @@ arrow_back search close Newsroom Media Coverage Global Press Releases Local Pres
   - Published: 2026-07-29T13:00:00+00:00
   - Link: https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup
 
-### Cluster 854ba4d3df — score 15
-
-- Title: Dealing with AI-Generated Extortion
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-30T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ai-generated-extortion
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.
-```
-
-#### Full body
-
-```
-Dealing with AI-Generated Extortion Proving a Negative How do you prove a negative in cybersecurity? How do you prove that you weren’t attacked, or that there is no intruder in your network? These are questions that security teams have been forced to ask for a while, but there is a new question that is becoming increasingly common: How do you prove that files weren’t stolen from your network? Or, even more of a challenge, how do you prove that files weren’t stolen from your partners, vendors, or their partners or vendors? This is a surprisingly challenging question to answer. Finding the answer is also more difficult because data governance has not been the traditional purview of security teams. Data governance has long been thought of as a compliance problem, unfortunately that is no longer the case. Security teams are now, whether they want to be or not, need to consider data governance. This means they have to be able to confidently say whether leaked data is real or not. How do you do that? History of Ransomware What we call ransomware has evolved over the years. Ransomware has gone from largely focused on encryption to a combination of encryption and data theft to today’s reality where data theft alone is the most common version of a “ransomware” attack. Threat actors have figured out that managing encryption keys is challenging, stealing data and holding it hostage is significantly easier. They’ve also figured out that stealing the right data can be just as profitable as encryption and, as we’ve seen from ransomware trends, switching to data theft only allows groups to accelerate the number of attacks. Compare the number of victims from 2024 to 2025 in the Recorded Future® Ransomware dashboard with a noticeable rise in ransomware trends. Figure 1: Rise in ransomware trends increasing from 2024 to 2025 (Source: Recorded Future) Enter 0APT If data theft is easier than encryption, then just making up data using generative AI is even easier than that. Which is what we saw with “0APT” (their name, not a designation that Recorded Future provided), who created a list of victims that were completely made up, including fake leaked data. From Insikt Group® reporting at the time: In late January 2026, Insikt Group reported the launch of 0APT Blog, an extortion blog operated by 0APT Ransomware Group, which allegedly runs an affiliate program via its ransomware-as-a-service (RaaS) model. As of February 5, 2026, the extortion blog listed 61 breached victims, with operators stating they planned to leak an additional 115 victims located in multiple countries and operating across various sectors and industries. Insikt Group identified multiple reports regarding the functionality of 0APT ransomware and listed victims, indicating that the ransomware is fake and that all their victims listed on the blog were AI-generated. Among the primary reasons discussed include: Multiple uploaded files were empty. Low-programming practices, including a combination of AI-generated scripts and unprofessional web development. Source code analysis found that some comments were in Hindi and Urdu, which likely indicates that the operators of 0APT ransomware are based in Southern Asia, while the majority of top-tier ransomware groups primarily operate from Russia or a nation within the Commonwealth of Independent States (CIS). Such a large number of victims compromised within a very short period can be carried out by a well-established, organized ransomware group; however, 0APT Blog states that the threat group is currently recruiting penetration testers with network access to join their RaaS affiliate program. 0APT is not alone; other groups are starting to latch on to this trend (ransomware groups are really good at copying each other). ALP-001 is another threat group that surfaced in March with questionable data that may have been AI-generated. According to Reliaquest reporting at the time: The main significance of 0APT and ALP-001 is not that they’re estab
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Dealing with AI-Generated Extortion
-  - Published: 2026-07-30T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ai-generated-extortion
-  - Summary: Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.
-
 ### Cluster c7d4f5e8ea — score 15
 
 - Title: Exploring the Hugging Face Breach: mapping AI agent tactics to Elastic Defend
@@ -1842,6 +1774,49 @@ I am a bit late with this summary, but this week Apple released updates to all i
   - Published: 2026-07-30T18:18:24+00:00
   - Link: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
   - Summary: Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Contagious Interview campaign. The defining aspect of the attack is that bogus macOS software update screen stealthily
+
+### Cluster 854ba4d3df — score 14
+
+- Title: Dealing with AI-Generated Extortion
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-30T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/ai-generated-extortion
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.
+```
+
+#### Full body
+
+```
+Dealing with AI-Generated Extortion Proving a Negative How do you prove a negative in cybersecurity? How do you prove that you weren’t attacked, or that there is no intruder in your network? These are questions that security teams have been forced to ask for a while, but there is a new question that is becoming increasingly common: How do you prove that files weren’t stolen from your network? Or, even more of a challenge, how do you prove that files weren’t stolen from your partners, vendors, or their partners or vendors? This is a surprisingly challenging question to answer. Finding the answer is also more difficult because data governance has not been the traditional purview of security teams. Data governance has long been thought of as a compliance problem, unfortunately that is no longer the case. Security teams are now, whether they want to be or not, need to consider data governance. This means they have to be able to confidently say whether leaked data is real or not. How do you do that? History of Ransomware What we call ransomware has evolved over the years. Ransomware has gone from largely focused on encryption to a combination of encryption and data theft to today’s reality where data theft alone is the most common version of a “ransomware” attack. Threat actors have figured out that managing encryption keys is challenging, stealing data and holding it hostage is significantly easier. They’ve also figured out that stealing the right data can be just as profitable as encryption and, as we’ve seen from ransomware trends, switching to data theft only allows groups to accelerate the number of attacks. Compare the number of victims from 2024 to 2025 in the Recorded Future® Ransomware dashboard with a noticeable rise in ransomware trends. Figure 1: Rise in ransomware trends increasing from 2024 to 2025 (Source: Recorded Future) Enter 0APT If data theft is easier than encryption, then just making up data using generative AI is even easier than that. Which is what we saw with “0APT” (their name, not a designation that Recorded Future provided), who created a list of victims that were completely made up, including fake leaked data. From Insikt Group® reporting at the time: In late January 2026, Insikt Group reported the launch of 0APT Blog, an extortion blog operated by 0APT Ransomware Group, which allegedly runs an affiliate program via its ransomware-as-a-service (RaaS) model. As of February 5, 2026, the extortion blog listed 61 breached victims, with operators stating they planned to leak an additional 115 victims located in multiple countries and operating across various sectors and industries. Insikt Group identified multiple reports regarding the functionality of 0APT ransomware and listed victims, indicating that the ransomware is fake and that all their victims listed on the blog were AI-generated. Among the primary reasons discussed include: Multiple uploaded files were empty. Low-programming practices, including a combination of AI-generated scripts and unprofessional web development. Source code analysis found that some comments were in Hindi and Urdu, which likely indicates that the operators of 0APT ransomware are based in Southern Asia, while the majority of top-tier ransomware groups primarily operate from Russia or a nation within the Commonwealth of Independent States (CIS). Such a large number of victims compromised within a very short period can be carried out by a well-established, organized ransomware group; however, 0APT Blog states that the threat group is currently recruiting penetration testers with network access to join their RaaS affiliate program. 0APT is not alone; other groups are starting to latch on to this trend (ransomware groups are really good at copying each other). ALP-001 is another threat group that surfaced in March with questionable data that may have been AI-generated. According to Reliaquest reporting at the time: The main significance of 0APT and ALP-001 is not that they’re estab
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Dealing with AI-Generated Extortion
+  - Published: 2026-07-30T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/ai-generated-extortion
+  - Summary: Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.
 
 ### Cluster 07328bc0d0 — score 13
 
@@ -2017,88 +1992,6 @@ submitted by /u/MobetaSec [link] [comments]
   - Link: https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/
   - Summary: submitted by /u/MobetaSec [link] [comments]
 
-### Cluster ba4ef137f5 — score 12
-
-- Title: OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-30T11:00:12+00:00
-- Link: https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: critical_infrastructure, government, healthcare
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: healthcare, government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction OctLurk OctLurk Deployment LurkPoxy Deployment OctLurk loader OctLurk backdoor Post-compromise activity Victim fingerprinting Event log collection Credential harvesting Impacket — secretsdump Keylogger Browser Password Decryptor Remote access : Pandora FMS agents (Pandora RC agent) Network scan: FSCAN Email harvesting LurkProxy SilkLurk Deployment SilkLurk loader SilkLurk backdoor Post-compromise activity Second-stage payload PlugX Infrastructure Attribution Conclusions Indicators of Compromise Backdoor domains and IPs OctLurk C2 LurkProxy C2 SilkLurk C2 Loaders OctLurk loader SilkLurk loader PlugX dropper PlugX loader OctLurk backdoor OctLurk File Manager plugin OctLurk Command Shell plugin OctLurk Interaction Manager plugin Impacket’s secretsdump (not available) Keylogger Browser password stealer FSCAN Batch scripts (not available) Archive utilities WinRAR 7zip File paths OctLurk file paths SilkLurk file paths PlugX file paths WinRAR and 7z file paths Authors Saurabh Sharma Yaroslav Kikel Introduction We have been tracking two new backdoors, OctLurk and SilkLurk , observed in attacks against government organizations primarily in Central Asia since January 2025. Identified victims are located in Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic. These organizations operate across several sectors, including healthcare, research, government offices, ministries of foreign affairs, logistics, law‑enforcement agencies, urban planning and facilities management, and public educational establishments. The backdoor loaders are customized for each victim and use information from the victim’s machine to decrypt the payload. Both the loaders and the backdoors are heavily obfuscated, making analysis more complicated. OctLurk and SilkLurk can download and inject additional plugins to perform further malicious actions, including launching command shells, performing file system activity, synthesizing keyboard and mouse events, network scanning, credential dumping, keylogging, password theft from browsers, email collection, and remote access. Furthermore, the attackers deployed a specialized utility we named LurkProxy , which we also cover in this report. While it has a highly similar architecture to the OctLurk backdoor, it is not a backdoor itself. Our investigation shows that the same threat actor operates both SilkLurk and OctLurk , and some victims infected with SilkLurk also contain OctLurk. We assess with medium confidence that the same actor is behind both backdoors, and that they are Chinese‑speaking. However, at the time of publication, we couldn’t attribute this activity to any known group. OctLurk OctLurk Deployment The attacker created a scheduled task named GoogleUpDate on remote machines using admin credentials. The task runs once with System account privileges right after it was created, executing the batch script located at C:\Users\<username>\Videos\1.bat (MD5 6ecf84fb18f6747ed08d7598364d853a ). Prior to executing the task, the actor queries its status. It is then run, as shown below. The 1.bat script creates a service named NgcCIntSvc , which loads the loader DLL named oleasapi.dll (MD5 082d49ef9f14e6811d68c7e0e82e5069 ). The ServiceMain parameter in the service’s registry entry is set to invoke the RegisterService function of oleasapi.dll as shown below. LurkPoxy Deployment In another case, the attacker at first checked connectivity to the domain dns[.]ssentialserv[.]xyz as shown below. At the time of our research, the domain was resolving to the address 154[.]196[.]162[.]76 which is used as a LurkProxy C2 server. After confirming that the C2 server was reachable, the attacker executed the batch script C:\Users\[username]\Desktop\auto.bat (MD5 b874123a80fc4f40e06872b9cb54ebc6 ). The script created a service named Cusrxsrv , which loads a DLL named msbasesysdc.dll . In the service registry, the ServiceMain parameter was set to call the RegisterService fu
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia
-  - Published: 2026-07-30T11:00:12+00:00
-  - Link: https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/
-  - Summary: Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.
-
-### Cluster b1e5db3b13 — score 12
-
-- Title: Building secure Uniswap v4 hooks
-- Source: Trail of Bits (offensive_vulnerability_research)
-- Published: 2026-07-30T11:00:00+00:00
-- Link: https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t
-```
-
-#### Full body
-
-```
-Page content Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them to focus their review. What the PoolManager guarantees If you’re familiar with Uniswap v3, where each pool was a separate contract, v4 inverts the model. All pool state now lives in a singleton PoolManager contract, with each pool represented in its storage. Uniswap v4 adds hooks: independent contracts that execute custom logic at specific points in the swap and liquidity lifecycle. Figure 1: Pools live inside the singleton PoolManager, and multiple pools can use the same hook contract. Here’s what a pool looks like in v4: struct PoolKey { Currency currency0; Currency currency1; uint24 fee; int24 tickSpacing; IHooks hooks; } Figure 2: A pool's PoolKey includes both currencies, the fee, tick spacing, and the hook address ( v4-core/src/types/PoolKey.sol ). Notice that the hook address ( IHooks hooks; ) is part of the pool’s identity. If you change any of these fields, you’re talking to a different pool. This matters because trusting the wrong PoolKey means trusting the wrong pool. v4 also introduces a session-based model that works like a flash loan. Your contract calls unlock() on the PoolManager, which triggers a callback into your code. At the end, the PoolManager checks that no unsettled currency deltas remain: function unlock(bytes calldata data) external returns (bytes memory result) { Lock.unlock(); // ... callback execution happens here ... if (NonzeroDeltaCount.read() != 0) revert CurrencyNotSettled(); Lock.lock(); } Figure 3: Simplified PoolManager.unlock() flow: unlock the session, execute the callback, and revert unless all currency deltas settle to zero ( v4-core/src/PoolManager.sol ). Figure 4: A periphery or hook calls PoolManager.unlock(), handles unlockCallback(), and calls swap() inside the unlocked session. The PoolManager enforces v4’s protocol mechanics, including pool initialization rules, swap and liquidity math, hook-callback sequencing, and end-of-session settlement. Hook developers are responsible for validating the application-specific assumptions their hooks add. Each hook must decide: Who can call its privileged paths Which pools are legitimate How custom balances and deltas should be accounted for Whether external integrations can fail or reenter safely 1. Anyone can call your hook Hook callbacks are external functions on your contract. If you don’t check the caller, an attacker can call those callbacks directly with malicious parameters. A loose unlockCallback path can also reach internal actions that should never be callable. The fix: use BaseHook for hook entrypoints and SafeCallback for unlockCallback . Together, they enforce caller checks on the callback paths they cover: modifier onlyPoolManager() { if (msg.sender != address(poolManager)) revert NotPoolManager(); _; } Figure 5: onlyPoolManager restricts hook callbacks to the configured PoolManager. Add an equivalent caller check only on paths those contracts don’t cover. Real-world example: The Cork exploit (~$12M, May 2025) shows why this check matte
-```
-
-#### Corroborating sources (1)
-
-- **Trail of Bits** (offensive_vulnerability_research)
-  - Title: Building secure Uniswap v4 hooks
-  - Published: 2026-07-30T11:00:00+00:00
-  - Link: https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/
-  - Summary: Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t
-
 ### Cluster 2675bb2bb6 — score 12
 
 - Title: Secure your npm and pip package updates in Amazon Linux
@@ -2190,53 +2083,6 @@ ShinyHunters claims Brinks Home breach, threatens to leak stolen data By Ionut I
   - Published: 2026-07-30T16:46:15+00:00
   - Link: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
   - Summary: Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]
-
-### Cluster 8711a18902 — score 12
-
-- Title: Russian hackers exploit Exchange OWA zero-day for long-term mailbox access
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-29T23:44:07+00:00
-- Link: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain, web_shell_backdoor, zero_day
-- affected_industries: aviation_defense, financial_services, government, telecommunications
-- cve_ids: CVE-2025-66376, CVE-2026-42897
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, zero_day, apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government, telecommunications, aviation_defense
-- cve_ids: CVE-2026-42897, CVE-2025-66376
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]
-```
-
-#### Full body
-
-```
-Russian hackers exploit Exchange OWA zero-day for long-term mailbox access By Ionut Ilascu July 29, 2026 07:44 PM 2 The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. Email security company Proofpoint spotted the activity a week ago targeting various organizations, including government entities in the U.S. and Europe, and companies in the telecommunications, financial, hospitality, and aerospace sectors. Laundry Bear exploited CVE-2026-42897, a cross-site scripting (XSS) vulnerability that allows executing arbitrary JavaScript in the browser context when users open a specially crafted email in the Outlook Web Access (OWA) app. Previously, the same hackers leveraged another XSS vulnerability (CVE-2025-66376) as a zero-day in Zimbra email servers to deliver malware ZimReaper that steals email communication, two-factor authentication (2FA) codes, application passcodes, and passwords. Proofpoint researchers refer to this sort of XSS activity on webmail platforms as a “half-click exploit” because users only need to open the malicious email to trigger the exploited vulnerability. Improper HTML sanitization In a new report today, Proofpoint describes Laundry Bear’s new half-click exploit campaign as a significant “improvement in the group’s tradecraft and capability.” Based on Microsoft’s advisory on May 14 for the CVE-2026-42897 flaw in OWA, the threat actor was already exploiting it as a zero-day . The security issue causes the server to improperly sanitize the HTML code in the message body, which could be leveraged to run JavaScript when opening the email. According to Proofpoint, Laundry Bear, which the company tracks as TA488, had created the attack infrastructure for the OWAReaper campaign in March, almost two months before Microsoft’s warning. In the latest observed activity, the threat actor used messages on topics of interest to the target, such as supply-chain analyses, research updates, and performance indicators for tourism and gas markets. “The subject lines and lures are banal, likely so the targeted user opens and skims the message, but dismisses the message as junk without reporting it, especially given that there are no suspicious URLs or attachments present.” Proofpoint explains that the attacker leverages the improper sanitization issue to include malicious code in the messages to add HTML and JavaScript in the malicious messages. Emails contained a JavaScript loader and Base64-encoded payload blobs embedded in social media icon URLs after the ‘#’ character. Improper HTML sanitization triggers JavaScript loader source: Proofpoint The exploit delivers a backdoor that researchers call OWAReaper and describe as “the most sophisticated backdoor delivered via half-click exploits” they saw. Analysis revealed a “suite of subtle persistence mechanisms” and revealed it to be an evolution of the ZimReaper malware observed in the attacks against Zimbra email servers. “OWAReaper is executed entirely in the Outlook Web Access (OWA) reading pane. Upon execution, it uses Outlook APIs to rewrite the email on the Exchange server and remove the exploit content. Simultaneously, it disables OWA pop-ups and right-click ability while it runs,” Proofpoint says . The malware collects the compromised account’s email address, username, and Outlook settings. It also tries to steal the access credentials by creating invisible elements in the Document Object Model (DOM) and waiting for the browser to automatically fill them in. Long-term persistence mechanism Proofpoint researchers discovered that TA488 (Laundry Bear, Void Blizzard) can maintain access to a target’s mailbox even if their system is restored from a clean image or credentials are rotated. The threat actor achieves this through OWAReaper, which checks for installed Outlook add-ins that have ReadWriteMailbox permission
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Russian hackers exploit Exchange OWA zero-day for long-term mailbox access
-  - Published: 2026-07-29T23:44:07+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
-  - Summary: The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]
 
 ### Cluster 619059b8b8 — score 12
 
@@ -2463,6 +2309,49 @@ Threat Research Center Threat Research Vulnerabilities Vulnerabilities Chinese-S
   - Link: https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/
   - Summary: Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .
 
+### Cluster ba4ef137f5 — score 11
+
+- Title: OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-30T11:00:12+00:00
+- Link: https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: critical_infrastructure, government, healthcare
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: healthcare, government, critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction OctLurk OctLurk Deployment LurkPoxy Deployment OctLurk loader OctLurk backdoor Post-compromise activity Victim fingerprinting Event log collection Credential harvesting Impacket — secretsdump Keylogger Browser Password Decryptor Remote access : Pandora FMS agents (Pandora RC agent) Network scan: FSCAN Email harvesting LurkProxy SilkLurk Deployment SilkLurk loader SilkLurk backdoor Post-compromise activity Second-stage payload PlugX Infrastructure Attribution Conclusions Indicators of Compromise Backdoor domains and IPs OctLurk C2 LurkProxy C2 SilkLurk C2 Loaders OctLurk loader SilkLurk loader PlugX dropper PlugX loader OctLurk backdoor OctLurk File Manager plugin OctLurk Command Shell plugin OctLurk Interaction Manager plugin Impacket’s secretsdump (not available) Keylogger Browser password stealer FSCAN Batch scripts (not available) Archive utilities WinRAR 7zip File paths OctLurk file paths SilkLurk file paths PlugX file paths WinRAR and 7z file paths Authors Saurabh Sharma Yaroslav Kikel Introduction We have been tracking two new backdoors, OctLurk and SilkLurk , observed in attacks against government organizations primarily in Central Asia since January 2025. Identified victims are located in Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic. These organizations operate across several sectors, including healthcare, research, government offices, ministries of foreign affairs, logistics, law‑enforcement agencies, urban planning and facilities management, and public educational establishments. The backdoor loaders are customized for each victim and use information from the victim’s machine to decrypt the payload. Both the loaders and the backdoors are heavily obfuscated, making analysis more complicated. OctLurk and SilkLurk can download and inject additional plugins to perform further malicious actions, including launching command shells, performing file system activity, synthesizing keyboard and mouse events, network scanning, credential dumping, keylogging, password theft from browsers, email collection, and remote access. Furthermore, the attackers deployed a specialized utility we named LurkProxy , which we also cover in this report. While it has a highly similar architecture to the OctLurk backdoor, it is not a backdoor itself. Our investigation shows that the same threat actor operates both SilkLurk and OctLurk , and some victims infected with SilkLurk also contain OctLurk. We assess with medium confidence that the same actor is behind both backdoors, and that they are Chinese‑speaking. However, at the time of publication, we couldn’t attribute this activity to any known group. OctLurk OctLurk Deployment The attacker created a scheduled task named GoogleUpDate on remote machines using admin credentials. The task runs once with System account privileges right after it was created, executing the batch script located at C:\Users\<username>\Videos\1.bat (MD5 6ecf84fb18f6747ed08d7598364d853a ). Prior to executing the task, the actor queries its status. It is then run, as shown below. The 1.bat script creates a service named NgcCIntSvc , which loads the loader DLL named oleasapi.dll (MD5 082d49ef9f14e6811d68c7e0e82e5069 ). The ServiceMain parameter in the service’s registry entry is set to invoke the RegisterService function of oleasapi.dll as shown below. LurkPoxy Deployment In another case, the attacker at first checked connectivity to the domain dns[.]ssentialserv[.]xyz as shown below. At the time of our research, the domain was resolving to the address 154[.]196[.]162[.]76 which is used as a LurkProxy C2 server. After confirming that the C2 server was reachable, the attacker executed the batch script C:\Users\[username]\Desktop\auto.bat (MD5 b874123a80fc4f40e06872b9cb54ebc6 ). The script created a service named Cusrxsrv , which loads a DLL named msbasesysdc.dll . In the service registry, the ServiceMain parameter was set to call the RegisterService fu
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia
+  - Published: 2026-07-30T11:00:12+00:00
+  - Link: https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/
+  - Summary: Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.
+
 ### Cluster f6cd02268d — score 11
 
 - Title: Toy Ghouls’ new toy: the GenieLocker ransomware
@@ -2546,6 +2435,45 @@ Black Hat special: Rewind and revisit By Amy Ciminnisi Thursday, July 30, 2026 0
   - Published: 2026-07-30T10:00:08+00:00
   - Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
   - Summary: Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
+
+### Cluster b1e5db3b13 — score 11
+
+- Title: Building secure Uniswap v4 hooks
+- Source: Trail of Bits (offensive_vulnerability_research)
+- Published: 2026-07-30T11:00:00+00:00
+- Link: https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t
+```
+
+#### Full body
+
+```
+Page content Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them to focus their review. What the PoolManager guarantees If you’re familiar with Uniswap v3, where each pool was a separate contract, v4 inverts the model. All pool state now lives in a singleton PoolManager contract, with each pool represented in its storage. Uniswap v4 adds hooks: independent contracts that execute custom logic at specific points in the swap and liquidity lifecycle. Figure 1: Pools live inside the singleton PoolManager, and multiple pools can use the same hook contract. Here’s what a pool looks like in v4: struct PoolKey { Currency currency0; Currency currency1; uint24 fee; int24 tickSpacing; IHooks hooks; } Figure 2: A pool's PoolKey includes both currencies, the fee, tick spacing, and the hook address ( v4-core/src/types/PoolKey.sol ). Notice that the hook address ( IHooks hooks; ) is part of the pool’s identity. If you change any of these fields, you’re talking to a different pool. This matters because trusting the wrong PoolKey means trusting the wrong pool. v4 also introduces a session-based model that works like a flash loan. Your contract calls unlock() on the PoolManager, which triggers a callback into your code. At the end, the PoolManager checks that no unsettled currency deltas remain: function unlock(bytes calldata data) external returns (bytes memory result) { Lock.unlock(); // ... callback execution happens here ... if (NonzeroDeltaCount.read() != 0) revert CurrencyNotSettled(); Lock.lock(); } Figure 3: Simplified PoolManager.unlock() flow: unlock the session, execute the callback, and revert unless all currency deltas settle to zero ( v4-core/src/PoolManager.sol ). Figure 4: A periphery or hook calls PoolManager.unlock(), handles unlockCallback(), and calls swap() inside the unlocked session. The PoolManager enforces v4’s protocol mechanics, including pool initialization rules, swap and liquidity math, hook-callback sequencing, and end-of-session settlement. Hook developers are responsible for validating the application-specific assumptions their hooks add. Each hook must decide: Who can call its privileged paths Which pools are legitimate How custom balances and deltas should be accounted for Whether external integrations can fail or reenter safely 1. Anyone can call your hook Hook callbacks are external functions on your contract. If you don’t check the caller, an attacker can call those callbacks directly with malicious parameters. A loose unlockCallback path can also reach internal actions that should never be callable. The fix: use BaseHook for hook entrypoints and SafeCallback for unlockCallback . Together, they enforce caller checks on the callback paths they cover: modifier onlyPoolManager() { if (msg.sender != address(poolManager)) revert NotPoolManager(); _; } Figure 5: onlyPoolManager restricts hook callbacks to the configured PoolManager. Add an equivalent caller check only on paths those contracts don’t cover. Real-world example: The Cork exploit (~$12M, May 2025) shows why this check matte
+```
+
+#### Corroborating sources (1)
+
+- **Trail of Bits** (offensive_vulnerability_research)
+  - Title: Building secure Uniswap v4 hooks
+  - Published: 2026-07-30T11:00:00+00:00
+  - Link: https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/
+  - Summary: Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t
 
 ### Cluster 718052687c — score 11
 
@@ -2676,51 +2604,95 @@ By Angelah Liu, Linux Foundation TL;DR: OpenSSF Community Day Europe 2026 (Octob
   - Link: https://openssf.org/blog/2026/07/29/openssf-community-day-europe-2026-schedule-highlights-what-to-expect/
   - Summary: OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts.
 
-### Cluster f0a862553c — score 11
+### Cluster 8711a18902 — score 11
 
-- Title: CosmosEscape: Taking Over Every Database in Azure Cosmos DB
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-07-30T12:00:01+00:00
-- Link: https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db
+- Title: Russian hackers exploit Exchange OWA zero-day for long-term mailbox access
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-29T23:44:07+00:00
+- Link: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 3
-- Strong signals: Azure
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: Azure, Google Cloud, Microsoft/Copilot
+- threat_categories: apt_espionage, supply_chain, web_shell_backdoor, zero_day
+- affected_industries: aviation_defense, financial_services, government, telecommunications
+- cve_ids: CVE-2025-66376, CVE-2026-42897
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, zero_day, apt_espionage, web_shell_backdoor
+- affected_industries: financial_services, government, telecommunications, aviation_defense
+- cve_ids: CVE-2026-42897, CVE-2025-66376
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]
+```
+
+#### Full body
+
+```
+Russian hackers exploit Exchange OWA zero-day for long-term mailbox access By Ionut Ilascu July 29, 2026 07:44 PM 2 The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. Email security company Proofpoint spotted the activity a week ago targeting various organizations, including government entities in the U.S. and Europe, and companies in the telecommunications, financial, hospitality, and aerospace sectors. Laundry Bear exploited CVE-2026-42897, a cross-site scripting (XSS) vulnerability that allows executing arbitrary JavaScript in the browser context when users open a specially crafted email in the Outlook Web Access (OWA) app. Previously, the same hackers leveraged another XSS vulnerability (CVE-2025-66376) as a zero-day in Zimbra email servers to deliver malware ZimReaper that steals email communication, two-factor authentication (2FA) codes, application passcodes, and passwords. Proofpoint researchers refer to this sort of XSS activity on webmail platforms as a “half-click exploit” because users only need to open the malicious email to trigger the exploited vulnerability. Improper HTML sanitization In a new report today, Proofpoint describes Laundry Bear’s new half-click exploit campaign as a significant “improvement in the group’s tradecraft and capability.” Based on Microsoft’s advisory on May 14 for the CVE-2026-42897 flaw in OWA, the threat actor was already exploiting it as a zero-day . The security issue causes the server to improperly sanitize the HTML code in the message body, which could be leveraged to run JavaScript when opening the email. According to Proofpoint, Laundry Bear, which the company tracks as TA488, had created the attack infrastructure for the OWAReaper campaign in March, almost two months before Microsoft’s warning. In the latest observed activity, the threat actor used messages on topics of interest to the target, such as supply-chain analyses, research updates, and performance indicators for tourism and gas markets. “The subject lines and lures are banal, likely so the targeted user opens and skims the message, but dismisses the message as junk without reporting it, especially given that there are no suspicious URLs or attachments present.” Proofpoint explains that the attacker leverages the improper sanitization issue to include malicious code in the messages to add HTML and JavaScript in the malicious messages. Emails contained a JavaScript loader and Base64-encoded payload blobs embedded in social media icon URLs after the ‘#’ character. Improper HTML sanitization triggers JavaScript loader source: Proofpoint The exploit delivers a backdoor that researchers call OWAReaper and describe as “the most sophisticated backdoor delivered via half-click exploits” they saw. Analysis revealed a “suite of subtle persistence mechanisms” and revealed it to be an evolution of the ZimReaper malware observed in the attacks against Zimbra email servers. “OWAReaper is executed entirely in the Outlook Web Access (OWA) reading pane. Upon execution, it uses Outlook APIs to rewrite the email on the Exchange server and remove the exploit content. Simultaneously, it disables OWA pop-ups and right-click ability while it runs,” Proofpoint says . The malware collects the compromised account’s email address, username, and Outlook settings. It also tries to steal the access credentials by creating invisible elements in the Document Object Model (DOM) and waiting for the browser to automatically fill them in. Long-term persistence mechanism Proofpoint researchers discovered that TA488 (Laundry Bear, Void Blizzard) can maintain access to a target’s mailbox even if their system is restored from a clean image or credentials are rotated. The threat actor achieves this through OWAReaper, which checks for installed Outlook add-ins that have ReadWriteMailbox permission
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Russian hackers exploit Exchange OWA zero-day for long-term mailbox access
+  - Published: 2026-07-29T23:44:07+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
+  - Summary: The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]
+
+### Cluster c4180d1ad6 — score 11
+
+- Title: AlloyDB adds group authentication to secure enterprise scale and AI agents
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-30T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/databases/alloydb-adds-group-authentication-to-secure-enterprise-scale-and-ai-agents/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 2
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services
+- affected_products: Azure, Google Cloud
 - content_type: news_report
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- affected_products: Azure, Microsoft/Copilot
+- affected_industries: financial_services
+- affected_products: Google Cloud
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.
+Database security traditionally relies on a fragile balance between the granular control developers need and the administrative overhead of managing thousands of individual database passwords. Between managing AI agent access, rotating static credentials, handling employee on-boarding and off-boarding, and auditing access logs, passwords remain an operational tax — and a potential security vulnerability. At Google Cloud, our goal is to help make database access transparent, secure, and passwordless. Today, we are taking an important step forward in that journey. We’re announcing Identity and Access Management (IAM) group authentication for AlloyDB , available in preview. This capability brings identity-driven access control to your enterprise workloads. Cloud SQL customers have already adopted this authentication pattern with great success, and this launch unifies our security stance across both services. The problem with individual scale For years, both Cloud SQL and AlloyDB have mapp
 ```
 
 #### Full body
 
 ```
-Wiz Pricing Get a demo Get a demo Wiz Research uncovered CosmosEscape , a critical vulnerability in Azure’s flagship database service, Azure Cosmos DB, via its Gremlin API. The vulnerability could have been exploited to compromise every database in the service, including Microsoft's own internal databases - potentially enabling a cross-service attack. Through CosmosEscape, attackers could have acquired what we’ve dubbed the Cosmos Master Key - a platform-wide secret that granted two incredibly powerful capabilities: Takeover - retrieving the primary key of any Cosmos DB account on demand, resulting in full read & write access. Enumeration - listing all databases on the service with the ability to filter by specific organization identifiers like subscription and tenant IDs. Chained together, these capabilities could have enabled precision targeting at platform scale: from identifying a specific organization's databases to compromising them, all from publicly accessible endpoints. Cosmos DB is used internally across Microsoft - services like Microsoft Entra ID , Microsoft Teams , and Microsoft Copilot all store data in Cosmos DB. Their databases were potentially accessible via this vulnerability. Microsoft has now fully remediated the issue, including eliminating the Cosmos Master Key. Microsoft also introduced new guardrails to Cosmos DB to prevent similar attacks. Figure 1: CosmosEscape’s impact This research was assisted by an early version of Atlas , our AI vulnerability researcher. Expect more from Atlas soon. Required Actions Microsoft has fully remediated this issue. No customer action is required. Microsoft conducted a thorough investigation and found no evidence of exploitation of this vulnerability beyond the research described in this blog. From a Single Query to Unlocking Every Database Cosmos DB supports multiple query APIs, and among them is Gremlin , a popular graph query language: // Find all users over 30 and return their friends ' names g.V().hasLabel(' user ').has(' age ', gt(30)).out(' knows ').values(' name ') While running Gremlin queries against Cosmos DB, we noticed a suspicious .NET exception. Since most open-source Gremlin stacks are JVM-based, the exception suggested that Cosmos DB was using a custom Gremlin engine . This was interesting - unlike standard SQL, where the engine maps queries to a fixed set of built-in operations, Gremlin servers often compile queries into executable code and run it in a restricted environment. Historically, these sandboxes haven't held up well . We suspected Cosmos DB's Gremlin sandbox may be vulnerable as well. And it was. Cosmos DB's engine translated Gremlin queries into .NET code, enforcing a set of restrictions designed to prevent queries from reaching beyond Gremlin operations. These restrictions, however, didn't sufficiently account for .NET reflection - allowing us to develop file read, write, and ultimately arbitrary code execution primitives, all through queries against our own database. The following image shows the output of a specially crafted Gremlin query ran against our database, resulting in the hostname command being executed on the Cosmos DB backend: Figure 2: Executing hostname on the Cosmos DB backend via the Gremlin API. See the full query in our upcoming BlackHat USA talk. By bypassing the Gremlin sandbox, we’ve gained code execution on the DB Gateway , a service that executes customer queries on their behalf, running on multi-tenant Service Fabric clusters. Looking around, customer databases weren’t hosted on these clusters, but the DB Gateway still had to reach them somehow. It turned out that it did so like any Cosmos DB client would - using the target account’s primary key , which grants full read-write access to the account’s databases. But how can the DB Gateway retrieve the primary key of our Cosmos DB account? The Cosmos Master Key Through credentials available on the cluster, the DB Gateway accessed a signing key that could retrieve the re
+Databases AlloyDB adds group authentication to secure enterprise scale and AI agents July 30, 2026 Bjoern Rost Product Manager Alok Srivastava Product Manager Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Database security traditionally relies on a fragile balance between the granular control developers need and the administrative overhead of managing thousands of individual database passwords. Between managing AI agent access, rotating static credentials, handling employee on-boarding and off-boarding, and auditing access logs, passwords remain an operational tax — and a potential security vulnerability. At Google Cloud, our goal is to help make database access transparent, secure, and passwordless. Today, we are taking an important step forward in that journey. We’re announcing Identity and Access Management (IAM) group authentication for AlloyDB , available in preview. This capability brings identity-driven access control to your enterprise workloads. Cloud SQL customers have already adopted this authentication pattern with great success, and this launch unifies our security stance across both services. The problem with individual scale For years, both Cloud SQL and AlloyDB have mapped individual Google Cloud identities directly to database users using native IAM authentication. However, at enterprise scale, managing access on an individual basis can introduce significant complexity. Without group-based management, scaling to hundreds of instances and thousands of users creates distinct challenges: On-boarding bottlenecks : Every new team member requires individual database user provisioning. Off-boarding risks : Ensuring an employee’s access is entirely removed across a distributed database environment can complicate auditing. Policy drift : Maintaining identical permissions across development, staging, and production systems becomes highly error-prone. Faced with these challenges, it is tempting to use a single, powerful user or service account to serve a whole application. However, oversimplifying access for such powerful application accounts comes at the cost of risk exposure and loss of granular auditing capabilities. Securing the future of agentic AI The scale challenge isn't just about human users anymore. As organizations deploy an increasing number of AI agents, managing database identity and access controls will become more complex. If an AI agent connects to a database using a generic, shared account, or a broad service account, it risks acting as a confused deputy . When using credentials with overly-powerful permissions instead of carrying through the user’s identity, an agent could access or modify data beyond what the end user requesting the action is authorized to see. Crucially, it can hide individual accountability from audit logs because actions map to a generic service account. Granular authentication can help mitigate this risk. Agents can pass the end user’s specific identity and authentication scope through to the database layer so that queries are run on behalf of the user, limiting data access to objects that an end user is allowed to. Passing user group identity through an AI agent to AlloyDB allows the database to authorize access and record precise audit trails. IAM group authentication simplifies this architecture. Instead of managing micro-permissions for every combination of agent and user, security teams can define up to 200 functional Google Groups (such as financial-agents@company.com or regional-analysts@company.com ). Google Cloud’s managed database infrastructure validates the user's group context, helping ensure the database authorizes data access at the database or table level while audit logs capture exactly what data was accessed, modified, and on whose behalf. Proven value for digital leaders Enterprises are already improving their operational velocity by adopting centralized identity principles. Bilt, a leading platform rewards program,
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: CosmosEscape: Taking Over Every Database in Azure Cosmos DB
-  - Published: 2026-07-30T12:00:01+00:00
-  - Link: https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db
-  - Summary: A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
-  - Published: 2026-07-30T13:34:09+00:00
-  - Link: https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
-  - Summary: A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz. Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: AlloyDB adds group authentication to secure enterprise scale and AI agents
+  - Published: 2026-07-30T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/databases/alloydb-adds-group-authentication-to-secure-enterprise-scale-and-ai-agents/
+  - Summary: Database security traditionally relies on a fragile balance between the granular control developers need and the administrative overhead of managing thousands of individual database passwords. Between managing AI agent access, rotating static credentials, handling employee on-boarding and off-boarding, and auditing access logs, passwords remain an operational tax — and a potential security vulnerability. At Google Cloud, our goal is to help make database access transparent, secure, and passwordless. Today, we are taking an important step forward in that journey. We’re announcing Identity and Access Management (IAM) group authentication for AlloyDB , available in preview. This capability brings identity-driven access control to your enterprise workloads. Cloud SQL customers have already adopted this authentication pattern with great success, and this launch unifies our security stance across both services. The problem with individual scale For years, both Cloud SQL and AlloyDB have mapp
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: 'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure
   - Published: 2026-07-27T20:57:26+00:00
@@ -2770,6 +2742,47 @@ Share Link copied to clipboard! Tags Frontier AI models Content types Research P
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/
   - Summary: Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .
 
+### Cluster 542fdf33c7 — score 10
+
+- Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-07-24T14:48:59+00:00
+- Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Mentions Gary Miller Share Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. He also discussed a recent Citizen Lab report about commercial surveillance vendors using the global telecom interconnect ecosystem to track targets. While SS7 attacks have been covered by the media for fifteen years, they are still taking place. “The fact it is still happening is telling…there’s a significant security problem within the mobile operator industry,” Miller says. Watch here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026 News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
+  - Published: 2026-07-24T14:48:59+00:00
+  - Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
+  - Summary: Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
+
 ### Cluster 85d2724fda — score 10
 
 - Title: 27th July – Threat Intelligence Report
@@ -2818,47 +2831,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July 
   - Published: 2026-07-27T16:00:39+00:00
   - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 542fdf33c7 — score 10
-
-- Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-07-24T14:48:59+00:00
-- Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published July 24, 2026 Topics Targeted Surveillance telecommunications Mentions Gary Miller Share Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. He also discussed a recent Citizen Lab report about commercial surveillance vendors using the global telecom interconnect ecosystem to track targets. While SS7 attacks have been covered by the media for fifteen years, they are still taking place. “The fact it is still happening is telling…there’s a significant security problem within the mobile operator industry,” Miller says. Watch here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026 News + Updates → In the Media WhatsApp Accuses NSO of Fresh Pegasus Targeting JUNE 19, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: How Iran Uses Cellular Infrastructure to Target US Military Phones
-  - Published: 2026-07-24T14:48:59+00:00
-  - Link: https://citizenlab.ca/how-iran-uses-cellular-infrastructure-to-target-us-military-phones/
-  - Summary: Senior fellow Gary Miller spoke with Cape Cellular about the exploitation of mobile network vulnerabilities to track US personnel during the Iran war. The post How Iran Uses Cellular Infrastructure to Target US Military Phones appeared first on The Citizen Lab .
 
 ### Cluster 7d478340af — score 10
 
@@ -3063,49 +3035,6 @@ The New Measure of Infrastructure Readiness Tim Finnell July 27, 2026 Blogs How 
   - Link: https://horizon3.ai/intelligence/blogs/infrastructure-readiness/
   - Summary: Discover how World Wide Technology and Horizon3.ai help enterprises validate infrastructure readiness through continuous attack path validation and evidence-based cyber resilience.
 
-### Cluster b4009da441 — score 10
-
-- Title: Ransomware is the Scoreboard
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-24T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ransomware-is-the-scoreboard
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
-- affected_industries: government, legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
-- affected_industries: government, legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Ransomware is the scoreboard for defensive architecture. Learn why traditional security methods fail and how to use AI and threat intelligence to identify and remediate critical attack paths.
-```
-
-#### Full body
-
-```
-Ransomware is the Scoreboard Every Victim is a Verdict on Defensive Architecture 13,000. That’s the number of ransomware victims Recorded Future has observed over the past two years. Watching the near-real-time ransomware attacks on businesses, non-profits, and government agencies has left me, like many security professionals and board directors, pondering how and why cyber defense keeps losing this particular fight. Adversaries like Interlock and RansomHub have continued their successful march to riches over the past 18 months. The multi-billion-ruble question is, “How?” BloodHound and the defensive graph concept debuted over a decade ago and still maintain a vibrant open-source community. Continuous Threat Exposure Management (CTEM) (and attack path management) is an established cyber vendor category, yet ransomware crews are demonstrably eating many organizations’ lunch. Let’s explore the problems (which are relatively easy to enumerate) and a solution (harder): modeling defense as the graph attackers actually traverse, at the speed they traverse it, which, of course, involves intelligence. The Barometer Ransomware is a solid barometer of operational defensive success, specifically because, unlike espionage, it’s noisy, financially motivated, and opportunistic. Certainly, ransomware also benefits from an optimal ecosystem, including payment economics, cyber insurance playbooks, and jurisdictional safe havens, which help incentivize ransomware gangs to find the cheapest attack paths. Relatively inexperienced actors can pick up commodity tools and reach the crown jewels. That highly repeated Ransomware-as-a-Service (RaaS) dynamic is a verdict on the availability of attack paths, regardless of payment incentives. tkhlbp1eyn The prior two years of Recorded Future data revealed 834 unique ransomware families (or brands). The ransomware playbook is only becoming more effective over time, particularly as regional and industry-specific data privacy compliance regulations proliferate. The risk impact is now less about operational disruption, as offline backup resilience has increased, and more squarely focused on the legal or compliance failure of losing legislatively protected information. What’s in a Graph? It’s helpful to visualize an organization as an interconnected graph of nodes and edges, comprising hosts, configurations, credentials, and more. Adversaries attempt to traverse the graph and identify any available weaknesses that, when combined (via attack paths), lead to risk impacts. If operational defense shifts focus from compliance-driven lists and categories, and we model the environment as a graph, will we better understand and remediate attack paths to prevent ransomware? Only if we can match adversarial velocity. hiccbodazp For an enterprise, the graph is combinatorially large, changes hourly, and humans can’t maintain or query it at the tempo at which attackers traverse it. Graphs provide the structure. Threat intelligence supplies the edge weights, and AI agents deliver the speed. In practice, that means agents recompute attack paths whenever the graph changes, test whether a newly reported adversary technique actually traverses your environment, and push the choke point to the top of the remediation queue, continuously, without waiting on an analyst. Interlock ransomware is a good example of an attack path. Interlock uses multiple tactics to acquire unauthorized access. One of their favorites is ClickFix-style social engineering : a fake CAPTCHA convinces a user to paste a command into the Windows Run dialog or PowerShell, which executes malware that harvests credentials, and the group moves laterally from there. That initial access is CVE-free at the point of entry, and it doesn’t appear on any vulnerability list. The entire path is identity and configuration edges. A defender with a perfect, fully patched vuln list has zero visibility into the path Interlock actually takes. That’s one example of an attack path. I
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Ransomware is the Scoreboard
-  - Published: 2026-07-24T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ransomware-is-the-scoreboard
-  - Summary: Ransomware is the scoreboard for defensive architecture. Learn why traditional security methods fail and how to use AI and threat intelligence to identify and remediate critical attack paths.
-
 ### Cluster 8d776f4b56 — score 10
 
 - Title: The Next Evolution of MDR: Preemptive Defense and Agentic Investigation
@@ -3227,6 +3156,94 @@ Wiz Pricing Get a demo Get a demo Model Context Protocol has been rapidly gainin
   - Link: https://www.wiz.io/blog/the-risk-hiding-behind-exposed-mcp-servers
   - Summary: How unauthenticated Model Context Protocol (MCP) servers are opening doors to sensitive cloud data, IAM, and command execution.
 
+### Cluster e79852f470 — score 10
+
+- Title: Semiconductor chip titan Analog Devices reports data breach
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-30T19:10:00+00:00
+- Link: https://therecord.media/analog-devices-semiconductor-company-data-breach
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- actor_attribution: Play
+- affected_industries: government, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: Play
+- affected_industries: government, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
+```
+
+#### Full body
+
+```
+An Analog Devices display at the Smart Production Solutions expo in Germany in 2023. Image: @ADI_News / X Semiconductor chip titan Analog Devices reports data breach The semiconductor company Analog Devices reported an intrusion into its systems and the exfiltration of data in a filing Wednesday with the Securities and Exchange Commission. The Massachusetts-based chip manufacturer told regulators that on June 23 it identified “unauthorized access” to certain systems and activated incident response. It brought in outside cybersecurity experts and began coordinating with law enforcement. While investigating the incident, the company discovered “certain files” had been exfiltrated but the scope of the breach is not yet known. Analog Devices does not expect the intrusion will have any material impact on its business. “To the Company’s knowledge, the data has not been publicly released or used for fraudulent purposes,” the filing says. Analog Devices noted that it was informed of another “disparate cybersecurity matter” on July 26 that it claims is not connected to the infiltration in June. The firm is “assessing its validity, scope, and any potential impact.” The company did not provide any further information about this purported incident, but it may be related to claims posted by the ransomware group ExfilSquad that it had stolen more than 570,000 records related to Analog Devices customers. An Analog Devices spokesperson did not address questions about the ransomware claims. With a market cap of more than $178 billion and more than $11 billion in revenue last year, the company is a major player in the chip manufacturing boom. It specializes in chips and circuits for data conversion and signal processing. Globally, semiconductor companies have in recent years been the target of ransomware attacks and cyberespionage. Microchip Technology was attacked by the Play ransomware gang in 2024 while Applied Materials was hit in 2023 . The California-based semiconductor testing company Trio-Tech International reported a ransomware attack on its Singapore subsidiary in March, and the Taiwanese manufacturer Foxconn dealt with a cyberattack in May that affected production at several American factories. Industry Cybercrime News News Briefs Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Semiconductor chip titan Analog Devices reports data breach
+  - Published: 2026-07-30T19:10:00+00:00
+  - Link: https://therecord.media/analog-devices-semiconductor-company-data-breach
+  - Summary: In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
+
+### Cluster 5158be75f5 — score 10
+
+- Title: South Korea fines telco giant KT $39 million for customer data breach
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-30T22:28:30+00:00
+- Link: https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, data_breach, web_shell_backdoor
+- affected_industries: government, telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach, apt_espionage, web_shell_backdoor
+- affected_industries: government, telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]
+```
+
+#### Full body
+
+```
+South Korea fines telco giant KT $39 million for customer data breach By Bill Toulas July 30, 2026 06:28 PM 0 South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. The penalty was imposed for an internal network compromise that persisted for nearly 11 months, between October 8, 2024 and September 5, 2025. PIPC launched an investigation into a potential data breach on September 10, 2025, following user reports of fraudulent micropayments. A day later, the company filed its initial data breach notification, reporting that data of roughly 5,500 customers had been exposed. The government agency's investigation determined that the incident exposed the personal information of 16,647 KT subscribers and caused fraudulent mobile payments of KRW 240 million ($167,400) for at least 368 of them. KT Corporation is South Korea's largest telecommunications operator, providing mobile and fixed-line communications, broadband internet, IPTV, cloud, data center, and enterprise IT services. The company, which employs 23,300 people, serves over 13.5 million mobile subscribers, 90% of the country’s fixed-line subscribers, and 45% of high-speed internet users. Rogue mobile station The point of breach was a lost KT cellular base station called a femtocell, which contained a valid authentication certificate. The attackers retrieved this certificate and installed it on a self-made device, which then appeared as a legitimate part of KT’s network, capturing cellular traffic from nearby devices connecting to the rogue femtocell. This allowed the hacker to intercept communications between users’ devices and KT’s core network, including mobile phone numbers, IMSI, and IMEI numbers. Eventually, the attackers combined the intercepted data with additional personal information and captured SMS and ARS authentication codes used for mobile micro-payments. PIPC notes that KT installed femtocells itself, fully owned the devices, and controlled network authentication and authorization. The Commission alleges that KT’s security controls were inadequate because femtocell certificates remained valid for 10 years, connections weren’t restricted by source IP addresses, and a route existed that bypassed the femtocell management server. These weaknesses allowed the hackers to remain connected to KT’s network and collect sensitive client data for 11 months, without being detected. BFDoor malware infection During the investigation, PIPC also discovered that 38 KT IT service network servers had been compromised by malware, including BPFDoor, in March 2024. BPFDoor is a stealthy Linux and Solaris backdoor publicly documented in 2022 that evaded detection for more than five years. PwC later linked its use to the China-nexus Red Menshen espionage group that targeted telecommunications providers and organizations in other critical sectors. The malware uses Berkeley Packet Filter (BPF) technology to passively monitor network traffic, allowing attackers to activate the malware with specially crafted "magic" packets without opening listening ports, effectively bypassing firewall protections and enabling covert remote shell access. The Commission alleges that KT knew about the malware infection since March 2024, but failed to report it to the authorities, and handled the incident internally with no transparency towards its customers. Later, the firm even deleted logs from some compromised servers while conducting malware inspection, following a malware breach on another telecom firm, LG U+. LG U+ followed a similar evidence-wiping approach, reinstalling the operating system OS and disposing of servers before the investigators could determine the full impact of the breach. Due to KT wiping those historical network logs, the Commission says it could not determine whether additional customer data had been stolen. As part of the enforcement action, PIPC ordered KT
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: South Korea fines telco giant KT $39 million for customer data breach
+  - Published: 2026-07-30T22:28:30+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/
+  - Summary: South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]
+
 ### Cluster afb038a2c7 — score 10
 
 - Title: Microsoft Teams vishing attacks lead to Chaos ransomware attacks
@@ -3313,142 +3330,56 @@ Analog Devices discloses data breach, says operations unaffected By Bill Toulas 
   - Link: https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/
   - Summary: American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]
 
-### Cluster e79852f470 — score 10
+### Cluster f0a862553c — score 10
 
-- Title: Semiconductor chip titan Analog Devices reports data breach
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-30T19:10:00+00:00
-- Link: https://therecord.media/analog-devices-semiconductor-company-data-breach
+- Title: CosmosEscape: Taking Over Every Database in Azure Cosmos DB
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-07-30T12:00:01+00:00
+- Link: https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Azure
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: Play
-- affected_industries: government, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
+- affected_products: Azure, Microsoft/Copilot
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: Play
-- affected_industries: government, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
+- affected_products: Azure, Microsoft/Copilot
+- content_type: news_report
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
+A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.
 ```
 
 #### Full body
 
 ```
-An Analog Devices display at the Smart Production Solutions expo in Germany in 2023. Image: @ADI_News / X Semiconductor chip titan Analog Devices reports data breach The semiconductor company Analog Devices reported an intrusion into its systems and the exfiltration of data in a filing Wednesday with the Securities and Exchange Commission. The Massachusetts-based chip manufacturer told regulators that on June 23 it identified “unauthorized access” to certain systems and activated incident response. It brought in outside cybersecurity experts and began coordinating with law enforcement. While investigating the incident, the company discovered “certain files” had been exfiltrated but the scope of the breach is not yet known. Analog Devices does not expect the intrusion will have any material impact on its business. “To the Company’s knowledge, the data has not been publicly released or used for fraudulent purposes,” the filing says. Analog Devices noted that it was informed of another “disparate cybersecurity matter” on July 26 that it claims is not connected to the infiltration in June. The firm is “assessing its validity, scope, and any potential impact.” The company did not provide any further information about this purported incident, but it may be related to claims posted by the ransomware group ExfilSquad that it had stolen more than 570,000 records related to Analog Devices customers. An Analog Devices spokesperson did not address questions about the ransomware claims. With a market cap of more than $178 billion and more than $11 billion in revenue last year, the company is a major player in the chip manufacturing boom. It specializes in chips and circuits for data conversion and signal processing. Globally, semiconductor companies have in recent years been the target of ransomware attacks and cyberespionage. Microchip Technology was attacked by the Play ransomware gang in 2024 while Applied Materials was hit in 2023 . The California-based semiconductor testing company Trio-Tech International reported a ransomware attack on its Singapore subsidiary in March, and the Taiwanese manufacturer Foxconn dealt with a cyberattack in May that affected production at several American factories. Industry Cybercrime News News Briefs Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles James Reddick has worked as a journalist around the world, including in Lebanon and in Cambodia, where he was Deputy Managing Editor of The Phnom Penh Post. He is also a radio and podcast producer for outlets like Snap Judgment.
+Wiz Pricing Get a demo Get a demo Wiz Research uncovered CosmosEscape , a critical vulnerability in Azure’s flagship database service, Azure Cosmos DB, via its Gremlin API. The vulnerability could have been exploited to compromise every database in the service, including Microsoft's own internal databases - potentially enabling a cross-service attack. Through CosmosEscape, attackers could have acquired what we’ve dubbed the Cosmos Master Key - a platform-wide secret that granted two incredibly powerful capabilities: Takeover - retrieving the primary key of any Cosmos DB account on demand, resulting in full read & write access. Enumeration - listing all databases on the service with the ability to filter by specific organization identifiers like subscription and tenant IDs. Chained together, these capabilities could have enabled precision targeting at platform scale: from identifying a specific organization's databases to compromising them, all from publicly accessible endpoints. Cosmos DB is used internally across Microsoft - services like Microsoft Entra ID , Microsoft Teams , and Microsoft Copilot all store data in Cosmos DB. Their databases were potentially accessible via this vulnerability. Microsoft has now fully remediated the issue, including eliminating the Cosmos Master Key. Microsoft also introduced new guardrails to Cosmos DB to prevent similar attacks. Figure 1: CosmosEscape’s impact This research was assisted by an early version of Atlas , our AI vulnerability researcher. Expect more from Atlas soon. Required Actions Microsoft has fully remediated this issue. No customer action is required. Microsoft conducted a thorough investigation and found no evidence of exploitation of this vulnerability beyond the research described in this blog. From a Single Query to Unlocking Every Database Cosmos DB supports multiple query APIs, and among them is Gremlin , a popular graph query language: // Find all users over 30 and return their friends ' names g.V().hasLabel(' user ').has(' age ', gt(30)).out(' knows ').values(' name ') While running Gremlin queries against Cosmos DB, we noticed a suspicious .NET exception. Since most open-source Gremlin stacks are JVM-based, the exception suggested that Cosmos DB was using a custom Gremlin engine . This was interesting - unlike standard SQL, where the engine maps queries to a fixed set of built-in operations, Gremlin servers often compile queries into executable code and run it in a restricted environment. Historically, these sandboxes haven't held up well . We suspected Cosmos DB's Gremlin sandbox may be vulnerable as well. And it was. Cosmos DB's engine translated Gremlin queries into .NET code, enforcing a set of restrictions designed to prevent queries from reaching beyond Gremlin operations. These restrictions, however, didn't sufficiently account for .NET reflection - allowing us to develop file read, write, and ultimately arbitrary code execution primitives, all through queries against our own database. The following image shows the output of a specially crafted Gremlin query ran against our database, resulting in the hostname command being executed on the Cosmos DB backend: Figure 2: Executing hostname on the Cosmos DB backend via the Gremlin API. See the full query in our upcoming BlackHat USA talk. By bypassing the Gremlin sandbox, we’ve gained code execution on the DB Gateway , a service that executes customer queries on their behalf, running on multi-tenant Service Fabric clusters. Looking around, customer databases weren’t hosted on these clusters, but the DB Gateway still had to reach them somehow. It turned out that it did so like any Cosmos DB client would - using the target account’s primary key , which grants full read-write access to the account’s databases. But how can the DB Gateway retrieve the primary key of our Cosmos DB account? The Cosmos Master Key Through credentials available on the cluster, the DB Gateway accessed a signing key that could retrieve the re
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (3)
 
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Semiconductor chip titan Analog Devices reports data breach
-  - Published: 2026-07-30T19:10:00+00:00
-  - Link: https://therecord.media/analog-devices-semiconductor-company-data-breach
-  - Summary: In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
-
-### Cluster 956be73db9 — score 10
-
-- Title: Cyber extortionists steal data from UK Department for Education
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-30T12:00:00+00:00
-- Link: https://therecord.media/united-kingdom-ransomware-education
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: education, government, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: government, education, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybercriminals are attempting to extort Britain’s Department for Education (DfE) after compromising what the hackers said was more than 600,000 pieces of data allegedly including names, email addresses and phone numbers.
-```
-
-#### Full body
-
-```
-Image: Sebastian Doe / Wikimedia Commons Cyber extortionists steal data from UK Department for Education Cybercriminals are attempting to extort Britain’s Department for Education (DfE) after compromising what the criminals said was more than 600,000 pieces of data allegedly including names, email addresses and phone numbers. A spokesperson for the DfE said the number refers to lines of data, rather than the count of individuals affected. They said two portals used by the department — the DfE Help Desk Self-Service Portal, and the Turing Scheme Portal — were impacted and that the risk to individuals is not considered high. The breach was claimed by extortionists calling themselves ExfilSquad who are demanding a ransom in exchange for not releasing the information. There is no claim that the hackers encrypted the compromised systems. Separately impacted was the Police National Legal Database (PNLD) with 135,000 pieces of data potentially identifying the names, forces and work email addresses of police officers and others working in the criminal justice system. It does not contain protected information from investigations or witnesses. The Home Office declined to comment on the PNLD breach. A spokesperson for the National Cyber Security Centre said they are “supporting law enforcement colleagues in response to an incident affecting the Police National Legal Database.” As a matter of policy, the British government does not make ransom payments. Although it is not yet law, last year the government moved forward with plans to suffocate the ransomware industry by making it illegal for public sector entities and organizations working within critical national infrastructure to make a payment in response to ransomware attacks. Ransomware attacks on central government have dwindled in recent years, according to data from Britain's privacy regulator. After 11 incidents in 2023, just four were reported in the two years that followed. More recent data is unavailable. A spokesperson for the Department for Education said: “We have robust processes in place to protect information and took swift action to contain this incident.The information involved is limited to customer service contact details relating to individuals and organisations. No other data has been accessed.” News Government Cybercrime Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Alexander Martin is the UK Editor for Recorded Future News. He was previously a technology reporter for Sky News and a fellow at the European Cyber Conflict Research Initiative, now Virtual Routes. He can be reached securely using Signal on: AlexanderMartin.79
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Cyber extortionists steal data from UK Department for Education
-  - Published: 2026-07-30T12:00:00+00:00
-  - Link: https://therecord.media/united-kingdom-ransomware-education
-  - Summary: Cybercriminals are attempting to extort Britain’s Department for Education (DfE) after compromising what the hackers said was more than 600,000 pieces of data allegedly including names, email addresses and phone numbers.
-
-### Cluster 6e77324d55 — score 10
-
-- Title: Semiconductor Firm Analog Devices Discloses Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-30T11:16:23+00:00
-- Link: https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, ransomware_extortion, zero_day
-- actor_attribution: ShinyHunters
-- affected_industries: critical_infrastructure, education, financial_services, manufacturing_industrial
-- affected_products: Cisco, OpenAI/ChatGPT, VMware
-- urgency_signals: actively_exploited, zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach, active_exploitation
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, critical_infrastructure, manufacturing_industrial, education
-- affected_products: Cisco, VMware, OpenAI/ChatGPT
-- urgency_signals: actively_exploited, zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Semiconductor company Analog Devices, Inc. (NASDAQ: ADI) has disclosed a data breach stemming from a hacker attack detected last month. Analog Devices is a Massachusetts-based company with roughly 24,000 employees and $12 billion in annual revenue that designs and manufactures analog, mixed-signal, and digital signal processing chips used across industrial, automotive, and communications equipment. In a Wednesday filing with the SEC, Analog Devices said it detected unauthorized access to certain systems on June 23. An investigation conducted with the aid of outside security experts revealed that hackers stole certain files, but no information has been shared on what type of information was compromised. The company said the incident did not disrupt its operations and it’s not aware of the files being leaked or used for malicious purposes. According to Analog Devices, this cybersecurity incident is not expected to have a material impact on its business, operations, or financial condition. Advertisement. Scroll to continue reading. Importantly, the semiconductor firm noted in its SEC filing that “Separately and unrelated, on July 26, 2026, the Company was made aware of public reports regarding a disparate cybersecurity matter and is currently assessing its validity, scope, and any potential impact.” This likely refers to a new extortion group named ExfilSquad claiming to have stolen 570,000 records from Analog Devices. ExfilSquad specializes in data theft and does not appear to use file-encrypting ransomware in its attacks. Its leak website currently lists Microsoft, the cities of Atlanta and Houston, and the UK Department of Education as victims, but SOCRadar pointed out in an analysis this week that some of the group’s claims seem exaggerated or fabricated. Interestingly, Analog Devices no longer appears to show up on the cybercrime group’s website at the time of writing. SecurityWeek has reached out to Analog Devices for additional information. Related : ShinyHunters Claims Ernst & Young Hack Related : Origin Energy Data Breach Affects 900,000 Australians Related : Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs 1 in 5 Data Center Assets Are Within Easy Reach of Attackers Cisco Secure FMC Zero-Day Exploited in the Wild ThreatLocker Raises $190 Million in Series F Funding Critical VM Escape Vulnerability Patched in VMware ESXi OpenAI’s Rogue AI Ventured Beyond Hugging Face Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks Cyera Acquiring Oasis Security in $1 Billion Deal Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe Latest News Bank of America to Acquire Cybersecurity Firm MDSec Okta to Acquire Identity Threat Detection Firm Permiso Timeless Compliance: Why Better Questions Beat Bigger Frameworks DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Onyx Security Raises $113 Million to Control AI Agents in the Enterprise ‘DangleGeddon’: AI Could Weaponize Forgotten DNS Records at Global Scale Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink pr
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Semiconductor Firm Analog Devices Discloses Data Breach
-  - Published: 2026-07-30T11:16:23+00:00
-  - Link: https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
-  - Summary: Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek .
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: CosmosEscape: Taking Over Every Database in Azure Cosmos DB
+  - Published: 2026-07-30T12:00:01+00:00
+  - Link: https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db
+  - Summary: A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
+  - Published: 2026-07-30T13:34:09+00:00
+  - Link: https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
+  - Summary: A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz. Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Default Azure Automation Setting Enables Cross-Tenant Identity Takeover
+  - Published: 2026-07-24T12:48:16+00:00
+  - Link: https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover
+  - Summary: Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' data, credentials, and cloud workloads.
 
 ### Cluster b34544d592 — score 9
 
@@ -3557,6 +3488,48 @@ Blog Post Download & print article PDF Download & print article PDF When cyber a
   - Link: https://www.ncsc.gov.uk/blogs/when-cyber-attacks-happen-helping-organisations-recover
   - Summary: A highly disruptive incident can feel overwhelming. New guidance provides a framework for response and recovery.
 
+### Cluster 37a54c4646 — score 9
+
+- Title: Extend Amazon Inspector SBOM Generator with Plugins
+- Source: AWS Security Blog (cloud_identity_infrastructure)
+- Published: 2026-07-30T17:22:54+00:00
+- Link: https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 1
+- Strong signals: AWS
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_products: AWS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: AWS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]
+```
+
+#### Full body
+
+```
+AWS Security Blog Extend Amazon Inspector SBOM Generator with Plugins Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container images, directories, archives, local systems, compiled binaries, and more. Over the past two years, we’ve expanded inspector-sbomgen’s coverage across dozens of programming language ecosystems, operating systems, and widely deployed applications. We’re pleased to announce a new capability for builders using inspector-sbomgen: a plugin system for writing your own custom package collectors that you can use right away, without requiring source code compilation nor waiting for an official release. You can download the latest version of inspector-sbomgen from the Amazon Inspector User Guide . In this post, we walk you through what the inspector-sbomgen plugin system does, why we built it, and how you can write your first plugin in a few minutes. Along the way, we also cover how plugin-generated package components integrate with Amazon Inspector for vulnerability scanning, and we explore the plugin safety model, which helps ensure security-hardened and predictable plugin behavior. Why we built a plugin system Software ecosystems are dynamic. New language package managers, lockfile formats, and end user applications ship constantly, and many are adopted quickly, in some cases with little security scrutiny. That leaves security teams with a visibility gap: production workloads running software that their SBOM tooling doesn’t yet recognize. Customers have asked us to inventory many of these ecosystems directly, and until recently, the only path to support was to open a feature request and wait for the inspector-sbomgen team to onboard the ecosystem and deploy a new release. The inspector-sbomgen plugin system changes that. With plugins, you can: Onboard ecosystems that inspector-sbomgen doesn’t support out of the box. New open source ecosystems, niche or fast-moving package formats, and internal or proprietary tooling can all be inventoried without modifying inspector-sbomgen. Prototype detection for an ecosystem quickly. We designed a plugin system that is friendly to developers and AI coding assistants alike. Plugins are written in Lua, loaded at runtime, and require no Go toolchain nor compilation. You can use the built in test harness to iterate on a plugin and see results immediately. Build on a stable foundation. The plugin API abstracts away artifact-type differences, so you write your detection logic once and it works seamlessly across container images, archives, local systems, and more. And because plugins stay decoupled from the internals of sbomgen, the core tool’s regression surface stays small. Internally, we’ve used the plugin system to ship new ecosystem coverage faster than before. In our 1.13 release , more than 20 ecosystems that were previously implemented in Go, including Apache Tomcat, NGINX, MySQL, Redis, WordPress, and the OpenSSH toolchain, are now embedded as plugins inside the sbomgen binary. The same release also added more than ten brand-new ecosystems as plugins, including Apache Cassandra, Apache Struts, Conda, Swift packages, and AI-agent collectors (Amazon Q Developer, Kiro CLI, Claude Code, GitHub Copilot, and Ollama). How inspector-sbomgen plugins work Sbomgen plugins follow a two-step pipeline: Discovery – Scan the artifact’s file system to identify files that contain installed package metadata. Collection – Open each discovered file, parse file contents, and publish findings into the SBOM. Under the hood, an event bus connects discovery and collection plugins. Discovery plugins publish events listing discovered files, a
+```
+
+#### Corroborating sources (1)
+
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Extend Amazon Inspector SBOM Generator with Plugins
+  - Published: 2026-07-30T17:22:54+00:00
+  - Link: https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+  - Summary: Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]
+
 ### Cluster 00e194ce31 — score 9
 
 - Title: Incident Response Tools: Top 12 Platforms Compared
@@ -3623,77 +3596,6 @@ Key Takeaways AI threat detection uses machine learning models to find attacker 
   - Link: https://orca.security/resources/blog/ai-threat-detection/
   - Summary: Key Takeaways AI threat detection uses machine learning models to find attacker activity in security telemetry that nobody wrote a rule for. The models score events against a learned baseline or pattern, then hand a ranked finding to an analyst. This article focuses on AI doing the detecting, not protecting AI systems from attack, which […]
 
-### Cluster 37a54c4646 — score 9
-
-- Title: Extend Amazon Inspector SBOM Generator with Plugins
-- Source: AWS Security Blog (cloud_identity_infrastructure)
-- Published: 2026-07-30T17:22:54+00:00
-- Link: https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
-- Fetch status: not_attempted
-- Member count: 3
-- Corroborating source count: 1
-- Strong signals: AWS
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- affected_products: AWS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: AWS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]
-```
-
-#### Corroborating sources (1)
-
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Extend Amazon Inspector SBOM Generator with Plugins
-  - Published: 2026-07-30T17:22:54+00:00
-  - Link: https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
-  - Summary: Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]
-
-### Cluster c4180d1ad6 — score 9
-
-- Title: AlloyDB adds group authentication to secure enterprise scale and AI agents
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-30T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/databases/alloydb-adds-group-authentication-to-secure-enterprise-scale-and-ai-agents/
-- Fetch status: not_attempted
-- Member count: 3
-- Corroborating source count: 1
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Database security traditionally relies on a fragile balance between the granular control developers need and the administrative overhead of managing thousands of individual database passwords. Between managing AI agent access, rotating static credentials, handling employee on-boarding and off-boarding, and auditing access logs, passwords remain an operational tax — and a potential security vulnerability. At Google Cloud, our goal is to help make database access transparent, secure, and passwordless. Today, we are taking an important step forward in that journey. We’re announcing Identity and Access Management (IAM) group authentication for AlloyDB , available in preview. This capability brings identity-driven access control to your enterprise workloads. Cloud SQL customers have already adopted this authentication pattern with great success, and this launch unifies our security stance across both services. The problem with individual scale For years, both Cloud SQL and AlloyDB have mapp
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: AlloyDB adds group authentication to secure enterprise scale and AI agents
-  - Published: 2026-07-30T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/databases/alloydb-adds-group-authentication-to-secure-enterprise-scale-and-ai-agents/
-  - Summary: Database security traditionally relies on a fragile balance between the granular control developers need and the administrative overhead of managing thousands of individual database passwords. Between managing AI agent access, rotating static credentials, handling employee on-boarding and off-boarding, and auditing access logs, passwords remain an operational tax — and a potential security vulnerability. At Google Cloud, our goal is to help make database access transparent, secure, and passwordless. Today, we are taking an important step forward in that journey. We’re announcing Identity and Access Management (IAM) group authentication for AlloyDB , available in preview. This capability brings identity-driven access control to your enterprise workloads. Cloud SQL customers have already adopted this authentication pattern with great success, and this launch unifies our security stance across both services. The problem with individual scale For years, both Cloud SQL and AlloyDB have mapp
-
 ### Cluster 37b8e83eb1 — score 9
 
 - Title: North Korean hackers behind major open-source supply chain attacks, Amazon says
@@ -3728,6 +3630,76 @@ A North Korea-linked hacker group was behind several high-profile compromises of
   - Published: 2026-07-30T13:00:00+00:00
   - Link: https://therecord.media/north-korea-hackers-amazon-malware
   - Summary: A North Korea-linked hacker group was behind several high-profile compromises of open-source software libraries used by developers worldwide, researchers have found.
+
+### Cluster 956be73db9 — score 9
+
+- Title: Cyber extortionists steal data from UK Department for Education
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-30T12:00:00+00:00
+- Link: https://therecord.media/united-kingdom-ransomware-education
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: education
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: education
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybercriminals are attempting to extort Britain’s Department for Education (DfE) after compromising what the hackers said was more than 600,000 pieces of data allegedly including names, email addresses and phone numbers.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Cyber extortionists steal data from UK Department for Education
+  - Published: 2026-07-30T12:00:00+00:00
+  - Link: https://therecord.media/united-kingdom-ransomware-education
+  - Summary: Cybercriminals are attempting to extort Britain’s Department for Education (DfE) after compromising what the hackers said was more than 600,000 pieces of data allegedly including names, email addresses and phone numbers.
+
+### Cluster 6e77324d55 — score 9
+
+- Title: Semiconductor Firm Analog Devices Discloses Data Breach
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-30T11:16:23+00:00
+- Link: https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek .
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Semiconductor Firm Analog Devices Discloses Data Breach
+  - Published: 2026-07-30T11:16:23+00:00
+  - Link: https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
+  - Summary: Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek .
 
 ### Cluster 532de505b8 — score 9
 
@@ -3801,41 +3773,6 @@ The US Cybersecurity and Infrastructure Security Agency (CISA), together with it
   - Link: https://www.helpnetsecurity.com/2026/07/30/cisa-sbom-guidance-updated/
   - Summary: The US Cybersecurity and Infrastructure Security Agency (CISA), together with its co-authoring partners, has released the 2026 Minimum Elements for a Software Bill of Materials (SBOM), replacing the 2021 guidance published by the National Telecommunications and Information Administration (NTIA). An SBOM is a list of the components that make up a software package and their supply chain relationships. It helps organizations understand what is included in their software, assess software supply chain risks, and make … More → The post CISA sets a new SBOM baseline appeared first on Help Net Security .
 
-### Cluster 7f4871768d — score 9
-
-- Title: Weekly Update 514: This Week in Data Breaches
-- Source: Troy Hunt (practitioner_analysis)
-- Published: 2026-07-26T09:14:51+00:00
-- Link: https://www.troyhunt.com/weekly-update-514/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
-```
-
-#### Corroborating sources (1)
-
-- **Troy Hunt** (practitioner_analysis)
-  - Title: Weekly Update 514: This Week in Data Breaches
-  - Published: 2026-07-26T09:14:51+00:00
-  - Link: https://www.troyhunt.com/weekly-update-514/
-  - Summary: The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
-
 ### Cluster 602e22dfe4 — score 9
 
 - Title: Long-Lived Vulnerability in Microsoft Secure Boot
@@ -3870,6 +3807,41 @@ Microsoft’s Secure Boot has had a serious vulnerability for most of its existe
   - Published: 2026-07-29T11:01:09+00:00
   - Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
   - Summary: Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
+
+### Cluster 7f4871768d — score 9
+
+- Title: Weekly Update 514: This Week in Data Breaches
+- Source: Troy Hunt (practitioner_analysis)
+- Published: 2026-07-26T09:14:51+00:00
+- Link: https://www.troyhunt.com/weekly-update-514/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- affected_industries: critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
+```
+
+#### Corroborating sources (1)
+
+- **Troy Hunt** (practitioner_analysis)
+  - Title: Weekly Update 514: This Week in Data Breaches
+  - Published: 2026-07-26T09:14:51+00:00
+  - Link: https://www.troyhunt.com/weekly-update-514/
+  - Summary: The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
 
 ### Cluster 0c9658fc3f — score 9
 
@@ -4077,39 +4049,6 @@ We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 1
   - Link: https://www.elastic.co/security-labs/ai-agent-optimization-production-scale
   - Summary: We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.
 
-### Cluster 1c5982430a — score 8
-
-- Title: Inside Elastic InfoSec's agentic SOC: When to inline your agent's skills for a 5× cost reduction
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-07-24T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below.
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Inside Elastic InfoSec's agentic SOC: When to inline your agent's skills for a 5× cost reduction
-  - Published: 2026-07-24T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture
-  - Summary: We tested two agentic SOC architectures in parallel across 36,822 real Agent Builder conversations. One won by 5.7x: a specialized workflow triaging alerts for $0.69 each, against $3.42 for a single agent juggling 14 Skills. The data and the decision framework are both below.
-
 ### Cluster 9cbc63ad28 — score 8
 
 - Title: North Korea’s Lazarus Group sharing tools with ransomware hackers, South Korean agencies warn
@@ -4257,3 +4196,36 @@ Confidence in autonomous security tools is declining, and here's why.
   - Published: 2026-07-27T17:31:18+00:00
   - Link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
   - Summary: Confidence in autonomous security tools is declining, and here's why.
+
+### Cluster 73e9449bb7 — score 8
+
+- Title: Report As You Go: Maintaining Good Documentation for SOC Analysts
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-07-29T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/report-as-you-go-soc/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+by Dan “Haircutfish” Rearden | haircutfish.com | Guest Author Working in the SOC can be a grind. Whether triaging alerts, escalating to clients, or just trying to understand why users […] The post Report As You Go: Maintaining Good Documentation for SOC Analysts appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Report As You Go: Maintaining Good Documentation for SOC Analysts
+  - Published: 2026-07-29T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/report-as-you-go-soc/
+  - Summary: by Dan “Haircutfish” Rearden | haircutfish.com | Guest Author Working in the SOC can be a grind. Whether triaging alerts, escalating to clients, or just trying to understand why users […] The post Report As You Go: Maintaining Good Documentation for SOC Analysts appeared first on Black Hills Information Security, Inc. .
