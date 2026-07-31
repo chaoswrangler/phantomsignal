@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 31 Jul 2026 19:44:11 +0000</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2026 21:13:52 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -17,6 +17,25 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Online ad firm Adform’s script compromised to steal cryptocurrency</title>
+<link>https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/</link>
+<description><![CDATA[Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors&apos; clipboards with ones controlled by an attacker. [...]<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Fri, 31 Jul 2026 21:09:25 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>Investigating three real-world incidents in Anthropic&apos;s evaluations</title>
+<link>https://www.reddit.com/r/netsec/comments/1vc3djn/investigating_three_realworld_incidents_in/</link>
+<description><![CDATA[In three incidents across six runs, the agents treated real systems as simulated targets and tried weak passwords or unauthenticated endpoints. submitted by /u/luckokkkk [link] [comments]]]></description>
+<pubDate>Fri, 31 Jul 2026 21:07:52 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vc3djn/investigating_three_realworld_incidents_in/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk</title>
@@ -128,16 +147,6 @@
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/31/infoblox-domain-abuse-campaigns-report/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Cloud CISO Perspectives: Why AI Threat Defense is the new boardroom baseline</title>
-<link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-why-ai-threat-defense-is-the-new-boardroom-baseline/</link>
-<description><![CDATA[Welcome to the second Cloud CISO Perspectives for July 2026. Today, Chris Betz, CISO, Google Cloud, and Alicja Cade, Senior Director, Office of the CISO, Google Cloud, explain what boards of directors need to know about AI security and how to prepare their organizations for security governance and business agility in the AI era. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f95c207e5e0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; Why AI Th<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Fri, 31 Jul 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-why-ai-threat-defense-is-the-new-boardroom-baseline/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined</title>
@@ -968,17 +977,13 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Russian hackers exploit Exchange OWA zero-day for long-term mailbox access</title>
-<link>https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/</link>
-<description><![CDATA[The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]<br/><br/><em>Tags: CVE-2026-42897 · CVE-2025-66376 · supply_chain · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 23:44:07 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-42897</category>
-<category>CVE-2025-66376</category>
-<category>supply_chain</category>
-<category>zero_day</category>
+<title>Enhanced Detection Engineering at Scale in the Agentic Era</title>
+<link>https://www.greynoise.io/blog/enhanced-detection-engineering-at-scale-in-the-agentic-era</link>
+<description><![CDATA[Check out GreyNoise&apos;s new Head of Adversary Engagement, Mark Mager, on why traditional detection engineering can&apos;t keep pace with CVE growth — and the agentic pipeline replacing it.]]></description>
+<pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.greynoise.io/blog/enhanced-detection-engineering-at-scale-in-the-agentic-era</guid>
+<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Smashing Security podcast #478: This job interview could destroy your company</title>
@@ -1357,16 +1362,6 @@
 <category>OpenAI/ChatGPT</category>
 <category>Anthropic/Claude</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>OpenAI’s rogue AI agent shows why we need federal rules for autonomous systems</title>
-<link>https://cyberscoop.com/openai-rogue-agent-federal-rules-autonomous-ai/</link>
-<description><![CDATA[The Hugging Face breach shows there is a gap in federal policy. The frameworks to govern autonomous AI already exist—there just needs to be the desire to apply them. The post OpenAI’s rogue AI agent shows why we need federal rules for autonomous systems appeared first on CyberScoop .<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/openai-rogue-agent-federal-rules-autonomous-ai/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass</title>
@@ -2170,6 +2165,24 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
+<title>Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent</title>
+<link>https://aws.amazon.com/blogs/security/accelerating-aws-network-firewall-troubleshooting-with-aws-devops-agent/</link>
+<description><![CDATA[When an administrator introduces a rule change in AWS Network Firewall and network connectivity is disrupted, pinpointing the cause requires inspecting multiple points in the traffic path. The firewall gives you stateless and stateful rule engines, domain rules, and routing to the firewall endpoint inside your Amazon Virtual Private Cloud (Amazon VPC). A network drop […]]]></description>
+<pubDate>Fri, 24 Jul 2026 19:54:48 +0000</pubDate>
+<guid isPermaLink="true">https://aws.amazon.com/blogs/security/accelerating-aws-network-firewall-troubleshooting-with-aws-devops-agent/</guid>
+<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Escape Artists: &apos;Incorrigible&apos; AI Models Resist Rehabilitation</title>
+<link>https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation</link>
+<description><![CDATA[The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising — and preventing the next AI model escape will be difficult, at best.]]></description>
+<pubDate>Fri, 24 Jul 2026 19:45:02 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching</title>
 <link>https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching</link>
 <description><![CDATA[<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
@@ -2811,17 +2824,6 @@
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>CVE-2026-50458: Finding a UAF in the Windows Brokering File System</title>
-<link>https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/</link>
-<description><![CDATA[Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month&apos;s Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]<br/><br/><em>Tags: Microsoft Windows · CVE-2026-50458</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 19:08:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Microsoft Windows</category>
-<category>CVE-2026-50458</category>
 </item>
 <item>
 <title>OpenSSF Community Day North America (NA) First-time Experience</title>
@@ -4981,15 +4983,6 @@
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Designing for the inevitable: System prompt leakage and mitigations in generative AI applications</title>
-<link>https://aws.amazon.com/blogs/security/designing-for-the-inevitable-system-prompt-leakage-and-mitigations-in-generative-ai-applications/</link>
-<description><![CDATA[System prompts form the foundation of generative AI applications. A system prompt is a collection of instructions and operational context provided to a large language model (LLM) that shapes how the model behaves and interacts with users and tools. System prompts often contain proprietary information, including role definitions, behavioral guidelines, tool descriptions and usage instructions, […]]]></description>
-<pubDate>Wed, 08 Jul 2026 18:58:42 +0000</pubDate>
-<guid isPermaLink="true">https://aws.amazon.com/blogs/security/designing-for-the-inevitable-system-prompt-leakage-and-mitigations-in-generative-ai-applications/</guid>
-<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>AI Surveillance Is Being Supercharged–And It Will Chill Social Progress</title>
@@ -19347,15 +19340,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>The Tortilla Test: Ensuring Your Vulnerability Intelligence is Always Fresh</title>
-<link>https://www.greynoise.io/blog/the-tortilla-test-ensuring-your-vulnerability-intelligence-is-always-fresh</link>
-<description><![CDATA[Discover how GreyNoise’s fresh, real-time vulnerability prioritization tool offers actionable insights into current threats, just like homemade tortillas are always better when made from scratch. Find out how to keep your security team ahead with up-to-date intelligence that ensures you’re tackling the most pressing vulnerabilities effectively.]]></description>
-<pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/the-tortilla-test-ensuring-your-vulnerability-intelligence-is-always-fresh</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Protect Your Copilots: Preventing Data Leaks in Copilot Studio</title>
 <link>https://embracethered.com/blog/posts/2024/copilot-studio-protect-your-copilots/</link>
 <description><![CDATA[Microsoft’s Copilot Studio is a powerful, easy-to-use, low-code platform that enables employees in an organization to create chatbots. Previously known as Power Virtual Agents , it has been updated (including GenAI features) and rebranded to Copilot Studio, likely to align with current AI trends. This post discusses security risks to be aware of when using Copilot Studio, focusing on data leaks, unauthorized access, and how external adversaries can find and interact with misconfigured Copilots. Learn about security controls, like enabling Data Loss Prevention (DLP), which is currently off by default, to protect your organization’s data.]]></description>
@@ -20353,7 +20337,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20362,7 +20346,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20371,7 +20355,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20380,7 +20364,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20389,7 +20373,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20398,7 +20382,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20407,7 +20391,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20416,7 +20400,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20426,7 +20410,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20435,7 +20419,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 19:44:11 +0000</pubDate>
+<pubDate>Fri, 31 Jul 2026 21:13:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

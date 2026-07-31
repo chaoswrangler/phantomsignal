@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-31T19:44:11.326496+00:00
+- Generated: 2026-07-31T21:13:52.095956+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 347
-- Total clusters raw: 157
+- Total items in window: 348
+- Total clusters raw: 159
 - Total clusters in packet: 75
-- Dropped low score: 82
+- Dropped low score: 84
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,65 +75,45 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 1
+  - In window count: 2
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 10
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
   - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
@@ -145,6 +125,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,16 +150,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -175,25 +160,40 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - Item count: 50
+  - In window count: 2
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
@@ -215,36 +215,36 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 11
+  - In window count: 6
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 9
+  - In window count: 11
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -280,21 +280,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -310,33 +310,33 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 17
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 20
+  - In window count: 17
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 5
+  - In window count: 5
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,43 +345,48 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 29
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 21
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 30
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 1
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
@@ -390,31 +395,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -425,16 +420,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 17
+  - In window count: 18
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -520,8 +520,8 @@
   - https://therecord.media/anthropic-ai-hacked-three-real-companies
   - https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations/
   - https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
-  - https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
   - https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
+  - https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
   - https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/
 
 ### CVE-2026-63077 exploitation activity
@@ -547,7 +547,7 @@
 - Anchor signal: Kubernetes
 - Theme key: kubernetes
 - Cluster count: 3
-- Article count: 15
+- Article count: 14
 - Cohesion: 0.4
 - Shared strong signals: Kubernetes
 - Member CVEs: (none)
@@ -590,7 +590,7 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 26
+- Article count: 25
 - Cohesion: 0.2
 - Shared strong signals: AWS
 - Member CVEs: (none)
@@ -629,12 +629,12 @@
   - affected_products: Microsoft SharePoint, Cisco
   - cve_ids: CVE-2026-50522
   - urgency_signals: zero_day
-- Cluster IDs: e2f6a950f1, 85d2724fda, 7d478340af
+- Cluster IDs: e2f6a950f1, 7d478340af, 85d2724fda
 - Links:
   - https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
   - https://www.infosecurity-magazine.com/news/phishing-dominates-initial-entry/
-  - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - https://blog.talosintelligence.com/ir-trends-q2-2026/
+  - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
 
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
@@ -712,7 +712,7 @@
 - Anchor signal: Salesforce
 - Theme key: salesforce
 - Cluster count: 2
-- Article count: 7
+- Article count: 6
 - Cohesion: 0.2
 - Shared strong signals: Salesforce
 - Member CVEs: (none)
@@ -1454,16 +1454,16 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
   - Published: 2026-07-25T00:42:59+00:00
   - Link: https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything
   - Summary: More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here's that System Card section , page 73 Tags: prompt-injection , anthropic , claude , generative-ai , ai , llms , boris-cherny
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Anthropic Reveals Claude Escaped Testing, Breaching Three Companies
-  - Published: 2026-07-31T08:35:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
-  - Summary: Anthropic has revealed that Claude AI models compromised third-party organizations
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests
   - Published: 2026-07-31T00:57:25+00:00
   - Link: https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
   - Summary: One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Anthropic Reveals Claude Escaped Testing, Breaching Three Companies
+  - Published: 2026-07-31T08:35:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
+  - Summary: Anthropic has revealed that Claude AI models compromised third-party organizations
 
 ### Cluster 90d3c1c1e2 — score 18
 
@@ -1526,13 +1526,13 @@ Threat Research Center Threat Research Malware Malware The Xcode Assassin Return
 - Published: 2026-07-28T21:28:54+00:00
 - Link: https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything
 - Fetch status: ok
-- Member count: 13
+- Member count: 12
 - Corroborating source count: 6
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
 - threat_categories: zero_day
-- affected_industries: education, financial_services, government
+- affected_industries: education, financial_services
 - affected_products: AWS, Kubernetes, OpenAI/ChatGPT
 - urgency_signals: zero_day
 - content_type: intel_roundup, news_report
@@ -1811,6 +1811,49 @@ AI & Machine Learning What’s new in Gemini Enterprise Agent Platform July 29, 
   - Published: 2026-07-29T16:00:00+00:00
   - Link: https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform/
   - Summary: Since we launched Gemini Enterprise Agent Platform a few months ago, we’ve seen inspiring progress from businesses and builders alike. To stir up development, we’ve also shared 13 demos that can walk you through the versatility and power of Agent Platform, and 20 questions you can ask your teams about building a solid agentic foundation. Meanwhile at Google Cloud, our teams have been hard at work to make more features available and continue delivering on our promise to give you better ways to simply and securely scale your agents. That’s why today, we are announcing some of our most popular capabilities are available for everyone, from Agent Runtime to Agent Identity. We also recently just announced CodeMender , our new managed code security agent to help you advance from passive scanning to automated code remediation, and reduce zero-day risk. Read on to learn more. Automate your long-running agents faster and with better memory Think about your long-running agentic workflows. Maybe i
+
+### Cluster 5da08d22f3 — score 13
+
+- Title: Online ad firm Adform’s script compromised to steal cryptocurrency
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-31T21:09:25+00:00
+- Link: https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]
+```
+
+#### Full body
+
+```
+Online ad firm Adform’s script compromised to steal cryptocurrency By Bill Toulas July 31, 2026 05:09 PM 0 Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors’ clipboards with ones controlled by an attacker. Adform is one of Europe’s largest adtech firms, providing a full-stack platform that includes Demand-Side Platform (DSP), Supply-Side Platform (SSP), ad servers, and management tools. Security researcher Kevin Beaumont discovered the malicious activity, saying that it stemmed from ‘trackpoint-async.js,’ Adform’s JavaScript tracking script served from ‘s2.adform.net’ and embedded in every website using the advertising platform. According to the researcher, the trojanized JavaScript continuously monitors the clipboard of users visiting websites that embed trackpoint-async.js . If the script detected Bitcoin, Ethereum, or TRON wallet addresses, it replaced them with an attacker-controlled address to redirect cryptocurrency payments. Compromised Adform script replacing crypto addresses source: BleepingComputer “This allows end-user devices of downstream websites to be compromised with crypto-stealing malware. Meaning if you visit example.com and they use Adform, example.com will compromise your device,” Beaumont explains . The researcher also observed other malicious Adform-hosted scripts communicating with an attacker-controlled server at 84.32.102[.]230:7744, sending the victim's IP address, referring website, and URL path. Running the script through the VirusTotal scanning platform shows that it is not flagged as malicious by any of the available antivirus engines. VirusTotal scan of the script gives clean result Source: doublepulsar.com Current status Beaumont notes that the malicious code was removed from Adform’s tracking script soon after his discovery. Adform confirmed its detected suspicious activity on July 27 and discovered a "cybersecurity threat." The company said that it removed the malicious code and "took further measures to protect website visitors, our clients, and the Adform platform." "To our knowledge, the code was not designed to install software on a user’s device or establish persistence. It operated only while an affected webpage was open," Adform says . The company states that its services are now safe to use but its investigation continues. Individuals who visited websites that embedded the "affected Adform technology on 27 July 2026" are impacted and the recommendation is to clear browser cookies to eliminate the malicious code. "Adform has informed affected clients through dedicated communications and provided them with relevant information and recommended actions." Beaumont has shared a sample of the malicious script via Pastebin for security engineers to analyze. BleepingComputer's analysis of a sample stored on Archive.org also confirmed that a self-executing payload had been injected into the Adform tracking library served from the company's infrastructure. The malicious code was appended in obfuscated form at the end of the legitimate library and included a function that replaced any string matching a crypto wallet address format. Apart from hijacking clipboard content, the malware can also rewrite wallet addresses on web pages. This way, if a payment address is displayed, it would be the attacker's. Beaumont says the malicious activity delivered through Adform has been ongoing for the past week without being detected. The oldest sample BleepingComputer could find was from from the Archive.org snapshot on July 26, taken at 23:29:03 GMT. BleepingComputer has contacted Adform to request a statement regarding Beaumont’s findings and will update the story if we receive a response. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how b
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Online ad firm Adform’s script compromised to steal cryptocurrency
+  - Published: 2026-07-31T21:09:25+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/
+  - Summary: Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]
 
 ### Cluster 1276a22842 — score 13
 
@@ -2154,58 +2197,6 @@ Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities E
   - Link: https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
   - Summary: For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said
 
-### Cluster cef34fdd67 — score 12
-
-- Title: CareCloud Data Breach Impacts Over 350,000
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-31T07:51:43+00:00
-- Link: https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 2
-- Strong signals: AWS
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ddos, ransomware_extortion
-- actor_attribution: ShinyHunters
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- affected_products: AWS, Anthropic/Claude, OpenAI/ChatGPT
-- content_type: incident_report, news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude, AWS
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Healthcare information technology company CareCloud is notifying at least 350,000 people that their information was stolen in a data breach. The incident involved an electronic health record environment within the CareCloud Health division, which was disrupted on March 16, 2026. CareCloud’s investigation determined that hackers accessed one of its AWS environments between March 10 and March 16, and likely exfiltrated data from it. On June 24, the investigation determined that personal, financial, and medical information was compromised in the incident, the company notes in the notification letter sent to the potentially affected individuals, a copy of which was filed with the Massachusetts Office of Consumer Affairs and Business Regulation. The potentially affected information, it says, includes names, addresses, Social Security numbers, dates of birth, driver’s license numbers, government ID numbers, financial account numbers, credit/debit card numbers, and medical and health insurance information. For a limited number of individuals, the compromised data also included full credit card information, including CVV, the company notes in an incident notification . CareCloud says it has no evidence that the stolen data has been misused. Advertisement. Scroll to continue reading. Based on filings with the Attorney General’s Offices in several states, at least 350,000 individuals have had their information stolen. The company is providing them with up to 24 months of free identity theft protection, credit monitoring, and ID theft recovery services, which include a $1,000,000 insurance reimbursement policy. “CareCloud engaged external cybersecurity experts and, with their assistance, secured the affected environment, eliminated the threat, and confirmed that no persistent unauthorized access remained. CareCloud is continuing to strengthen the security of its systems and environments,” the company says. The healthcare organization has yet to share the total number of impacted individuals and details on the threat actor responsible for the attack. SecurityWeek has emailed CareCloud for additional details and will update this article if the company responds. *Updated with additional information and link to CareCloud’s incident notice. Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms US and Allies Update SBOM Guidance Chrome 151 Patches 370 Vulnerabilities Mate Security Raises $35 Million for Agentic SOC US, Australia Release OT Isolation Guidance for Critical Infrastructure Latest News In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Critical Flaw Allowed to Azure Cosmos DB Pwnage Critical Code Execution Vulnerability Patched in TeamCity CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from indus
-```
-
-#### Corroborating sources (2)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: CareCloud Data Breach Impacts Over 350,000
-  - Published: 2026-07-31T07:51:43+00:00
-  - Link: https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
-  - Summary: In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Extend Amazon Inspector SBOM Generator with Plugins
-  - Published: 2026-07-30T17:22:54+00:00
-  - Link: https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
-  - Summary: Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]
-
 ### Cluster 718052687c — score 11
 
 - Title: Accelerating CISA BOD 26-04 Vulnerability and Triage Activities through Wiz
@@ -2335,53 +2326,6 @@ By Angelah Liu, Linux Foundation TL;DR: OpenSSF Community Day Europe 2026 (Octob
   - Link: https://openssf.org/blog/2026/07/29/openssf-community-day-europe-2026-schedule-highlights-what-to-expect/
   - Summary: OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts.
 
-### Cluster 8711a18902 — score 11
-
-- Title: Russian hackers exploit Exchange OWA zero-day for long-term mailbox access
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-29T23:44:07+00:00
-- Link: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain, web_shell_backdoor, zero_day
-- affected_industries: aviation_defense, financial_services, government, telecommunications
-- cve_ids: CVE-2025-66376, CVE-2026-42897
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, zero_day, apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government, telecommunications, aviation_defense
-- cve_ids: CVE-2026-42897, CVE-2025-66376
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]
-```
-
-#### Full body
-
-```
-Russian hackers exploit Exchange OWA zero-day for long-term mailbox access By Ionut Ilascu July 29, 2026 07:44 PM 2 The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. Email security company Proofpoint spotted the activity a week ago targeting various organizations, including government entities in the U.S. and Europe, and companies in the telecommunications, financial, hospitality, and aerospace sectors. Laundry Bear exploited CVE-2026-42897, a cross-site scripting (XSS) vulnerability that allows executing arbitrary JavaScript in the browser context when users open a specially crafted email in the Outlook Web Access (OWA) app. Previously, the same hackers leveraged another XSS vulnerability (CVE-2025-66376) as a zero-day in Zimbra email servers to deliver malware ZimReaper that steals email communication, two-factor authentication (2FA) codes, application passcodes, and passwords. Proofpoint researchers refer to this sort of XSS activity on webmail platforms as a “half-click exploit” because users only need to open the malicious email to trigger the exploited vulnerability. Improper HTML sanitization In a new report today, Proofpoint describes Laundry Bear’s new half-click exploit campaign as a significant “improvement in the group’s tradecraft and capability.” Based on Microsoft’s advisory on May 14 for the CVE-2026-42897 flaw in OWA, the threat actor was already exploiting it as a zero-day . The security issue causes the server to improperly sanitize the HTML code in the message body, which could be leveraged to run JavaScript when opening the email. According to Proofpoint, Laundry Bear, which the company tracks as TA488, had created the attack infrastructure for the OWAReaper campaign in March, almost two months before Microsoft’s warning. In the latest observed activity, the threat actor used messages on topics of interest to the target, such as supply-chain analyses, research updates, and performance indicators for tourism and gas markets. “The subject lines and lures are banal, likely so the targeted user opens and skims the message, but dismisses the message as junk without reporting it, especially given that there are no suspicious URLs or attachments present.” Proofpoint explains that the attacker leverages the improper sanitization issue to include malicious code in the messages to add HTML and JavaScript in the malicious messages. Emails contained a JavaScript loader and Base64-encoded payload blobs embedded in social media icon URLs after the ‘#’ character. Improper HTML sanitization triggers JavaScript loader source: Proofpoint The exploit delivers a backdoor that researchers call OWAReaper and describe as “the most sophisticated backdoor delivered via half-click exploits” they saw. Analysis revealed a “suite of subtle persistence mechanisms” and revealed it to be an evolution of the ZimReaper malware observed in the attacks against Zimbra email servers. “OWAReaper is executed entirely in the Outlook Web Access (OWA) reading pane. Upon execution, it uses Outlook APIs to rewrite the email on the Exchange server and remove the exploit content. Simultaneously, it disables OWA pop-ups and right-click ability while it runs,” Proofpoint says . The malware collects the compromised account’s email address, username, and Outlook settings. It also tries to steal the access credentials by creating invisible elements in the Document Object Model (DOM) and waiting for the browser to automatically fill them in. Long-term persistence mechanism Proofpoint researchers discovered that TA488 (Laundry Bear, Void Blizzard) can maintain access to a target’s mailbox even if their system is restored from a clean image or credentials are rotated. The threat actor achieves this through OWAReaper, which checks for installed Outlook add-ins that have ReadWriteMailbox permission
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Russian hackers exploit Exchange OWA zero-day for long-term mailbox access
-  - Published: 2026-07-29T23:44:07+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
-  - Summary: The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]
-
 ### Cluster ab440398cd — score 11
 
 - Title: What’s new with Google Cloud
@@ -2389,7 +2333,7 @@ Russian hackers exploit Exchange OWA zero-day for long-term mailbox access By Io
 - Published: 2026-07-31T16:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
 - Fetch status: ok
-- Member count: 6
+- Member count: 5
 - Corroborating source count: 2
 - Strong signals: Google Cloud
 
@@ -2430,46 +2374,57 @@ Inside Google Cloud What’s new with Google Cloud July 31, 2026 Google Cloud Co
   - Link: https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
   - Summary: This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.
 
-### Cluster 75acd25c40 — score 10
+### Cluster cef34fdd67 — score 11
 
-- Title: Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-07-30T10:00:52+00:00
-- Link: https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/
+- Title: CareCloud Data Breach Impacts Over 350,000
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-31T07:51:43+00:00
+- Link: https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
+- Member count: 4
+- Corroborating source count: 2
+- Strong signals: AWS
 
 #### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
+- threat_categories: data_breach, ddos, ransomware_extortion
+- actor_attribution: ShinyHunters
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- affected_products: AWS, Anthropic/Claude, OpenAI/ChatGPT
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude, GitHub
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude, AWS
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .
+In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Threat Research Center Threat Research Vulnerabilities Vulnerabilities Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks 10 min read Related Products Advanced Threat Prevention Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex Xpanse Cortex XSIAM Next-Generation Firewall Unit 42 AI Security Assessment Unit 42 Frontier AI Defense Unit 42 Incident Response By: Andy Piazza Published: July 30, 2026 Categories: Threat Research Vulnerabilities Tags: ChatGPT Claude code CVEs DeepSeek Exploitation Hermes Agent Share Executive Summary Unit 42 identified an AI-enabled autonomous hacking campaign carried out by a Chinese-speaking threat actor. They targeted infrastructure using seven vulnerabilities, combining autonomous AI-driven enumeration with manual exploitation that achieved confirmed impact. The actor, operating under the aliases knaithe and KnYuan , leveraged DeepSeek , via the Hermes Agent framework, as their autonomous offensive operator. They orchestrated this operator via Telegram for the following activities: Independently enumerating targets and their vulnerabilities using FOFA Sourcing exploit tools Initiating attacks without human intervention In parallel with their use of DeepSeek as their autonomous operator platform, the actor configured multiple large language models (LLMs) ( Qwen , GLM, Kimi, MiniMax). We also identified limited usage and testing of Western platforms. This includes Claude Code for connectivity testing and proxy validation. There were also signs of usage of Codex on exploit development directories. This limited usage is consistent with evaluating the AI-market to identify their preferred tool set. When initial exploitation failed due to the target environment's restrictive configurations, their Hermes Agent autonomously conducted searches for known critical-severity Common Vulnerabilities and Exposures (CVEs). It initially surveyed 10 product families, scanning GitHub for trending proofs of concept (PoCs) and prioritizing vulnerabilities by attack surface. This research led the agent to pivot to higher-value vulnerabilities, the seven covered in Table 2 below. While the observed campaign had limited impacts, the workflow confirms a functional, end-to-end autonomous offensive capability. Palo Alto Networks customers are better protected from the threats described here through the following products and services: Cortex XDR and XSIAM Cortex Xpanse Next-Generation Firewall with Advanced Threat Prevention The Unit 42 AI Security Assessment and Unit 42 Frontier AI Defense service can help identify and mitigate complex AI-enabled risks. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics GenAI , Vulnerabilities , LLM Technical Analysis We gained unique insights into this autonomous attack capability when the autonomous agent inadvertently exposed its infrastructure by starting a file server in its home directory. This revealed the full operational environment to our threat researchers. This visibility enabled us to understand their full tool set, how the attackers orchestrated multiple AI platforms and gave us a peek into their targeting. Based on our analysis of their session logs and configuration files, the actor primarily used the Hermes Agent with DeepSeek as its reasoning agent for the attack phase of this campaign. Their Hermes Agent conducted autonomous vulnerability enumeration, downloaded public exploit code from the internet and attempted exploits against targets. Additionally, the threat actor leveraged the following tools in a limited capacity, likely indicating an ongoing assessment of the AI market for their use cases: Claude Code: The actor only used this for connectivity testing and proxy validation. Session history (10 entries across three sessions) contained only /model checks, connectivity tests and one npm install request. Codex : There were signs
+Healthcare information technology company CareCloud is notifying at least 350,000 people that their information was stolen in a data breach. The incident involved an electronic health record environment within the CareCloud Health division, which was disrupted on March 16, 2026. CareCloud’s investigation determined that hackers accessed one of its AWS environments between March 10 and March 16, and likely exfiltrated data from it. On June 24, the investigation determined that personal, financial, and medical information was compromised in the incident, the company notes in the notification letter sent to the potentially affected individuals, a copy of which was filed with the Massachusetts Office of Consumer Affairs and Business Regulation. The potentially affected information, it says, includes names, addresses, Social Security numbers, dates of birth, driver’s license numbers, government ID numbers, financial account numbers, credit/debit card numbers, and medical and health insurance information. For a limited number of individuals, the compromised data also included full credit card information, including CVV, the company notes in an incident notification . CareCloud says it has no evidence that the stolen data has been misused. Advertisement. Scroll to continue reading. Based on filings with the Attorney General’s Offices in several states, at least 350,000 individuals have had their information stolen. The company is providing them with up to 24 months of free identity theft protection, credit monitoring, and ID theft recovery services, which include a $1,000,000 insurance reimbursement policy. “CareCloud engaged external cybersecurity experts and, with their assistance, secured the affected environment, eliminated the threat, and confirmed that no persistent unauthorized access remained. CareCloud is continuing to strengthen the security of its systems and environments,” the company says. The healthcare organization has yet to share the total number of impacted individuals and details on the threat actor responsible for the attack. SecurityWeek has emailed CareCloud for additional details and will update this article if the company responds. *Updated with additional information and link to CareCloud’s incident notice. Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms US and Allies Update SBOM Guidance Chrome 151 Patches 370 Vulnerabilities Mate Security Raises $35 Million for Agentic SOC US, Australia Release OT Isolation Guidance for Critical Infrastructure Latest News In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Critical Flaw Allowed to Azure Cosmos DB Pwnage Critical Code Execution Vulnerability Patched in TeamCity CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from indus
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
-- **Unit 42** (threat_research_primary)
-  - Title: Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks
-  - Published: 2026-07-30T10:00:52+00:00
-  - Link: https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/
-  - Summary: Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: CareCloud Data Breach Impacts Over 350,000
+  - Published: 2026-07-31T07:51:43+00:00
+  - Link: https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
+  - Summary: In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Extend Amazon Inspector SBOM Generator with Plugins
+  - Published: 2026-07-30T17:22:54+00:00
+  - Link: https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+  - Summary: Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]
 
 ### Cluster d7e33e13d3 — score 10
 
@@ -2514,54 +2469,46 @@ Share Link copied to clipboard! Tags Frontier AI models Content types Research P
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/
   - Summary: Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .
 
-### Cluster 85d2724fda — score 10
+### Cluster 75acd25c40 — score 10
 
-- Title: 27th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-27T16:00:39+00:00
-- Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+- Title: Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-07-30T10:00:52+00:00
+- Link: https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
-- cve_ids: CVE-2026-16232, CVE-2026-50522
-- urgency_signals: poc_available, zero_day
+- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, Microsoft SharePoint
-- cve_ids: CVE-2026-16232, CVE-2026-50522
-- urgency_signals: zero_day, poc_available
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude, GitHub
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
+Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .
 ```
 
 #### Full body
 
 ```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July – Threat Intelligence Report July 27, 2026 https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, while the RansomHouse group claimed responsibility and published a subset of the stolen information. Stadler Rail, a Switzerland-based global rail equipment manufacturer, has disclosed a supplier-related data breach after attackers compromised credentials for a third-party file-sharing platform. The Everest group stole technical documents belonging to the supplier and demanded $12.3 million. Stadler refused payment and said its systems and production remained unaffected. Origin Energy, one of Australia’s largest electricity and natural gas providers, has confirmed unauthorized access to customer information. Exposed data may include names, addresses, birth dates, phone numbers, account details, and partial payment information. Threat actors claimed to have stolen two million records and threatened to publish them. Romania’s National Agency for Cadastre and Land Registration has suffered a cyberattack that disabled internal systems and the nationwide e-Terra platform. The disruption halted property transactions for nearly a week. Officials said core land registries remained intact, although credentials and portions of source code may have been exposed. AI THREATS OpenAI disclosed that AI models escaped a restricted cyber evaluation environment and compromised Hugging Face while seeking benchmark solutions. They exploited zero-day vulnerabilities, stole credentials, escalated privileges, and accessed production systems. Both companies contained the activity and are conducting a joint investigation. Researchers have described a threat actor known as Trim who promoted an AI-assisted penetration-testing platform built with jailbroken language models. The platform combines AI with established scanning tools to automate reconnaissance, vulnerability validation, and reporting, potentially reducing the expertise and time required to prepare and conduct cyber intrusions. Researchers have examined a generative AI-assisted malware operation exposed through an accessible WebDAV server. The infrastructure produced phishing material and malicious Windows shortcuts used to distribute information stealers and remote access tools. Researchers identified more than 1,000 artifacts and a campaign that recorded over 77,000 requests. VULNERABILITIES AND PATCHES Check Point has addressed CVE-2026-16232, an authentication bypass vulnerability in SmartConsole that is under active exploitation, affecting a handful of customers. The flaw allows remote attackers to bypass authentication and gain administrative access to Check Point management servers. Security hotfixes are available for supported versions of the affected management software. Oracle has released its July 2026 Critical Patch Update, addressing 1,449 vulnerabilities across numerous product families. The update includes remotely exploitable flaws that require no authentication, with critical issues affecting Oracle Database Server, SQL Developer, and TimesTen In-Memory Database, among others. Microsoft has addressed CVE-2026-50522, a critical remote code execution vulnerability affecting on-premises SharePoint Server. An authenticated site owner can exploit the flaw to execute code and steal machine keys for persistent access. Active exploitation was reported after proof-of-concept code became publicly available. Check Point IPS provides protection against this threat (Microsoft SharePoint Remote
+Threat Research Center Threat Research Vulnerabilities Vulnerabilities Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks 10 min read Related Products Advanced Threat Prevention Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex Xpanse Cortex XSIAM Next-Generation Firewall Unit 42 AI Security Assessment Unit 42 Frontier AI Defense Unit 42 Incident Response By: Andy Piazza Published: July 30, 2026 Categories: Threat Research Vulnerabilities Tags: ChatGPT Claude code CVEs DeepSeek Exploitation Hermes Agent Share Executive Summary Unit 42 identified an AI-enabled autonomous hacking campaign carried out by a Chinese-speaking threat actor. They targeted infrastructure using seven vulnerabilities, combining autonomous AI-driven enumeration with manual exploitation that achieved confirmed impact. The actor, operating under the aliases knaithe and KnYuan , leveraged DeepSeek , via the Hermes Agent framework, as their autonomous offensive operator. They orchestrated this operator via Telegram for the following activities: Independently enumerating targets and their vulnerabilities using FOFA Sourcing exploit tools Initiating attacks without human intervention In parallel with their use of DeepSeek as their autonomous operator platform, the actor configured multiple large language models (LLMs) ( Qwen , GLM, Kimi, MiniMax). We also identified limited usage and testing of Western platforms. This includes Claude Code for connectivity testing and proxy validation. There were also signs of usage of Codex on exploit development directories. This limited usage is consistent with evaluating the AI-market to identify their preferred tool set. When initial exploitation failed due to the target environment's restrictive configurations, their Hermes Agent autonomously conducted searches for known critical-severity Common Vulnerabilities and Exposures (CVEs). It initially surveyed 10 product families, scanning GitHub for trending proofs of concept (PoCs) and prioritizing vulnerabilities by attack surface. This research led the agent to pivot to higher-value vulnerabilities, the seven covered in Table 2 below. While the observed campaign had limited impacts, the workflow confirms a functional, end-to-end autonomous offensive capability. Palo Alto Networks customers are better protected from the threats described here through the following products and services: Cortex XDR and XSIAM Cortex Xpanse Next-Generation Firewall with Advanced Threat Prevention The Unit 42 AI Security Assessment and Unit 42 Frontier AI Defense service can help identify and mitigate complex AI-enabled risks. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics GenAI , Vulnerabilities , LLM Technical Analysis We gained unique insights into this autonomous attack capability when the autonomous agent inadvertently exposed its infrastructure by starting a file server in its home directory. This revealed the full operational environment to our threat researchers. This visibility enabled us to understand their full tool set, how the attackers orchestrated multiple AI platforms and gave us a peek into their targeting. Based on our analysis of their session logs and configuration files, the actor primarily used the Hermes Agent with DeepSeek as its reasoning agent for the attack phase of this campaign. Their Hermes Agent conducted autonomous vulnerability enumeration, downloaded public exploit code from the internet and attempted exploits against targets. Additionally, the threat actor leveraged the following tools in a limited capacity, likely indicating an ongoing assessment of the AI market for their use cases: Claude Code: The actor only used this for connectivity testing and proxy validation. Session history (10 entries across three sessions) contained only /model checks, connectivity tests and one npm install request. Codex : There were signs
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: 27th July – Threat Intelligence Report
-  - Published: 2026-07-27T16:00:39+00:00
-  - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
+- **Unit 42** (threat_research_primary)
+  - Title: Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks
+  - Published: 2026-07-30T10:00:52+00:00
+  - Link: https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/
+  - Summary: Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .
 
 ### Cluster ba4ef137f5 — score 10
 
@@ -2732,6 +2679,55 @@ IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack 
   - Published: 2026-07-28T10:00:01+00:00
   - Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
   - Summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
+
+### Cluster 85d2724fda — score 10
+
+- Title: 27th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-27T16:00:39+00:00
+- Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
+- cve_ids: CVE-2026-16232, CVE-2026-50522
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: OpenAI/ChatGPT, Microsoft SharePoint
+- cve_ids: CVE-2026-16232, CVE-2026-50522
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July – Threat Intelligence Report July 27, 2026 https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, while the RansomHouse group claimed responsibility and published a subset of the stolen information. Stadler Rail, a Switzerland-based global rail equipment manufacturer, has disclosed a supplier-related data breach after attackers compromised credentials for a third-party file-sharing platform. The Everest group stole technical documents belonging to the supplier and demanded $12.3 million. Stadler refused payment and said its systems and production remained unaffected. Origin Energy, one of Australia’s largest electricity and natural gas providers, has confirmed unauthorized access to customer information. Exposed data may include names, addresses, birth dates, phone numbers, account details, and partial payment information. Threat actors claimed to have stolen two million records and threatened to publish them. Romania’s National Agency for Cadastre and Land Registration has suffered a cyberattack that disabled internal systems and the nationwide e-Terra platform. The disruption halted property transactions for nearly a week. Officials said core land registries remained intact, although credentials and portions of source code may have been exposed. AI THREATS OpenAI disclosed that AI models escaped a restricted cyber evaluation environment and compromised Hugging Face while seeking benchmark solutions. They exploited zero-day vulnerabilities, stole credentials, escalated privileges, and accessed production systems. Both companies contained the activity and are conducting a joint investigation. Researchers have described a threat actor known as Trim who promoted an AI-assisted penetration-testing platform built with jailbroken language models. The platform combines AI with established scanning tools to automate reconnaissance, vulnerability validation, and reporting, potentially reducing the expertise and time required to prepare and conduct cyber intrusions. Researchers have examined a generative AI-assisted malware operation exposed through an accessible WebDAV server. The infrastructure produced phishing material and malicious Windows shortcuts used to distribute information stealers and remote access tools. Researchers identified more than 1,000 artifacts and a campaign that recorded over 77,000 requests. VULNERABILITIES AND PATCHES Check Point has addressed CVE-2026-16232, an authentication bypass vulnerability in SmartConsole that is under active exploitation, affecting a handful of customers. The flaw allows remote attackers to bypass authentication and gain administrative access to Check Point management servers. Security hotfixes are available for supported versions of the affected management software. Oracle has released its July 2026 Critical Patch Update, addressing 1,449 vulnerabilities across numerous product families. The update includes remotely exploitable flaws that require no authentication, with critical issues affecting Oracle Database Server, SQL Developer, and TimesTen In-Memory Database, among others. Microsoft has addressed CVE-2026-50522, a critical remote code execution vulnerability affecting on-premises SharePoint Server. An authenticated site owner can exploit the flaw to execute code and steal machine keys for persistent access. Active exploitation was reported after proof-of-concept code became publicly available. Check Point IPS provides protection against this threat (Microsoft SharePoint Remote
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 27th July – Threat Intelligence Report
+  - Published: 2026-07-27T16:00:39+00:00
+  - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster f4490338d9 — score 10
 
@@ -3732,43 +3728,6 @@ We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 1
   - Link: https://www.elastic.co/security-labs/ai-agent-optimization-production-scale
   - Summary: We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.
 
-### Cluster e79852f470 — score 8
-
-- Title: Semiconductor chip titan Analog Devices reports data breach
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-30T19:10:00+00:00
-- Link: https://therecord.media/analog-devices-semiconductor-company-data-breach
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Semiconductor chip titan Analog Devices reports data breach
-  - Published: 2026-07-30T19:10:00+00:00
-  - Link: https://therecord.media/analog-devices-semiconductor-company-data-breach
-  - Summary: In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
-
 ### Cluster afb038a2c7 — score 8
 
 - Title: Microsoft Teams vishing attacks lead to Chaos ransomware attacks
@@ -3838,6 +3797,43 @@ American semiconductor company Analog Devices announced that an unauthorized par
   - Published: 2026-07-30T15:12:25+00:00
   - Link: https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/
   - Summary: American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]
+
+### Cluster e79852f470 — score 8
+
+- Title: Semiconductor chip titan Analog Devices reports data breach
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-07-30T19:10:00+00:00
+- Link: https://therecord.media/analog-devices-semiconductor-company-data-breach
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Semiconductor chip titan Analog Devices reports data breach
+  - Published: 2026-07-30T19:10:00+00:00
+  - Link: https://therecord.media/analog-devices-semiconductor-company-data-breach
+  - Summary: In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.
 
 ### Cluster 39354a1568 — score 8
 
