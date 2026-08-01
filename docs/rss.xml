@@ -6,9 +6,42 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 01 Aug 2026 06:35:59 +0000</lastBuildDate>
+<lastBuildDate>Sat, 01 Aug 2026 09:11:25 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)</title>
+<link>https://isc.sans.edu/diary/rss/33206</link>
+<description><![CDATA[Most phishing campaigns rely on the fact that the victim is afraid to loose &quot;something&quot;: money, access to information, ... Many brands have been impersonated by campaigns but I spotted some phishing emails that focus on AI services like ChatGPT.<br/><br/><em>Tags: OpenAI/ChatGPT · phishing_social_eng</em>]]></description>
+<pubDate>Sat, 01 Aug 2026 07:22:32 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33206</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+<category>OpenAI/ChatGPT</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction</title>
+<link>https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html</link>
+<description><![CDATA[Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in<br/><br/><em>Tags: Microsoft SharePoint · GitHub · OpenAI/ChatGPT · CVE-2026-48449 · CVE-2026-48448 · CVE-2026-48395 · CVE-2026-48396 · CVE-2026-48390</em>]]></description>
+<pubDate>Sat, 01 Aug 2026 07:12:42 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>GitHub</category>
+<category>OpenAI/ChatGPT</category>
+<category>CVE-2026-48449</category>
+</item>
+<item>
+<title>Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware</title>
+<link>https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html</link>
+<description><![CDATA[A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report. Researchers track the operation as CaptiveCrunch and attribute it to Storm-2945. It assesses Storm-2945 to be an operational sub-cluster of Midnight Blizzard, also known as]]></description>
+<pubDate>Sat, 01 Aug 2026 06:29:05 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Elastic goes all-in on Hacker Summer Camp at Black Hat and DEF CON in Las Vegas</title>
 <link>https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026</link>
@@ -1796,17 +1829,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
-<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
-<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
 <link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
 <description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: GitHub · GitLab · npm · TeamPCP · supply_chain · credential_theft</em>]]></description>
@@ -1818,6 +1840,17 @@
 <category>GitLab</category>
 <category>npm</category>
 <category>TeamPCP</category>
+</item>
+<item>
+<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
+<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
+<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -2117,17 +2150,6 @@
 <category>CVE-2026-27577</category>
 </item>
 <item>
-<title>Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update</title>
-<link>https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html</link>
-<description><![CDATA[Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs &quot;secure document&quot; lures to deliver legitimate remote monitoring and management (RMM) tools. &quot;The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming that Microsoft Teams had to be updated before the shared document could be opened,&quot; ZeroBEC said in<br/><br/><em>Tags: ScreenConnect · phishing_social_eng</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 12:37:49 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>ScreenConnect</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>SourTrade Malvertising Campaign Secretly Builds Malware in the Browser</title>
 <link>https://www.infosecurity-magazine.com/news/malvertising-builds-malware-in/</link>
 <description><![CDATA[Impersonating well-known cryptocurrency and trading sites, SourTrade has developed a novel technique to drop infostealers to victims]]></description>
@@ -2135,16 +2157,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/malvertising-builds-malware-in/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware</title>
-<link>https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html</link>
-<description><![CDATA[The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra. According to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 10:51:45 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Ransomware Groups Increasingly Deploy EDR Kill Techniques</title>
@@ -10165,6 +10177,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -10173,15 +10194,6 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
-</item>
-<item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -20336,7 +20348,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20345,7 +20357,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20354,7 +20366,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20363,7 +20375,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20372,7 +20384,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20381,7 +20393,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20390,7 +20402,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20399,7 +20411,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20409,7 +20421,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20418,7 +20430,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 01 Aug 2026 06:35:59 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 09:11:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
