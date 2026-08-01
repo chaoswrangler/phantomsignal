@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-01T17:07:50.587613+00:00
+- Generated: 2026-08-01T19:19:15.257288+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 358
+- Total items in window: 357
 - Total clusters raw: 163
 - Total clusters in packet: 78
 - Dropped low score: 85
@@ -70,25 +70,15 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
@@ -100,65 +90,85 @@
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 10
+  - In window count: 1
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 50
+  - Item count: 100
+  - In window count: 2
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
@@ -170,21 +180,11 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -200,16 +200,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -230,46 +230,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 11
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 30
   - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -280,26 +280,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 17
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -310,11 +315,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -345,16 +345,16 @@
   - Status: ok
   - Item count: 30
   - In window count: 25
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -362,16 +362,6 @@
   - In window count: 28
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -385,23 +375,43 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,41 +420,31 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 24
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 19
+  - In window count: 18
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -664,11 +664,11 @@
   - affected_industries: manufacturing_industrial
   - affected_products: Microsoft SharePoint, OpenAI/ChatGPT
   - urgency_signals: poc_available
-- Cluster IDs: b138851666, 85d2724fda, 7d478340af
+- Cluster IDs: 7d478340af, 85d2724fda, b138851666
 - Links:
-  - https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
-  - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - https://blog.talosintelligence.com/ir-trends-q2-2026/
+  - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+  - https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
 
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
@@ -1236,7 +1236,7 @@ ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability
 - Published: 2026-07-31T14:14:15+00:00
 - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/
 - Fetch status: ok
-- Member count: 17
+- Member count: 16
 - Corroborating source count: 9
 - Strong signals: OpenAI/ChatGPT
 
@@ -1246,7 +1246,7 @@ ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability
 - affected_products: AWS, Anthropic/Claude, OpenAI/ChatGPT
 - cve_ids: CVE-2026-59726
 - urgency_signals: preauth_unauth, zero_day
-- content_type: intel_roundup, news_report, threat_research
+- content_type: news_report, threat_research
 - confidence_tier: tier_1_government, tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
@@ -2008,51 +2008,6 @@ Online ad firm Adform’s script compromised to steal cryptocurrency By Bill Tou
   - Link: https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/
   - Summary: Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]
 
-### Cluster 2d87c8dc74 — score 12
-
-- Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-27T14:40:00+00:00
-- Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- cve_ids: CVE-2026-61511
-- urgency_signals: no_patch_yet, poc_available, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- cve_ids: CVE-2026-61511
-- urgency_signals: zero_day, preauth_unauth, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
-```
-
-#### Full body
-
-```
-Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw  Swati Khandelwal  Jul 27, 2026 Vulnerability / Website Security Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version boundary. vBulletin issued security patches for 6.2.1, 6.2.0, and 6.1.6 at the end of June and released the fixed version 6.2.2 on July 1, nearly four weeks before the exploit went public Administrators running self-hosted installations should apply the patch for their branch or upgrade to 6.2.2. vBulletin says its Cloud sites have already been patched against the flaw. SSD did not report active exploitation. As of July 27, 2026, no source had confirmed in-the-wild attacks, and CVE-2026-61511 was not listed in CISA's Known Exploited Vulnerabilities catalog. The company published an interactive proof-of-concept, but the script as posted contains a one-character error, a letter where a digit belongs, that stops it running unchanged. The mistake is trivial to correct and does not affect the underlying vulnerability. One thing the public record does not settle is whether the flaw was used in the roughly four weeks between the late-June patch and the July 27 disclosure; neither SSD's advisory nor vBulletin's notices address that window. SSD's technical analysis identifies it as CVE-2026-61511 , an unauthenticated remote code execution flaw in vBulletin's template engine. No CVE.org or National Vulnerability Database record, and so no official severity score, was available at the time of writing; the NVD stopped routinely enriching new CVEs with CVSS scores earlier this year. SSD credits an unnamed independent researcher, though the published exploit is signed "EgiX," the handle of Egidio Romano , who disclosed vBulletin's 2025 template-engine code-execution chain. The vulnerable code sits in /includes/vb5/template/runtime.php , inside the vB5_Template_Runtime::runMaths() method, which handles inline math in templates. The function strips characters outside a restricted set, then passes what remains directly to eval() . The filter blocks letters but permits digits, parentheses, concatenation, arithmetic operators, and binary operators such as XOR, enough to reconstruct PHP strings and callable function names without any letters, using a restricted-character technique the advisory calls "phpfuck." Reaching it does not require the admin panel. vBulletin renders templates over a public route, ajax/render/pagenav , and the stock pagenav template copies a visitor-supplied pagenav[pagenumber] value into a {vb:math} tag, which passes it to runMaths() . That chain is what turns a template bug into pre-authentication remote code execution; SSD's PoC uses it to rebuild PHP's system function and run an operating-system command, returning the output in the HTTP response. The Hacker News reproduced the disclosed filtering and evaluation logic locally to check the reported error. With the typo corrected, a harmless strlen() test payload executed; without it, the allowlist stripped the stray letter and left syntactically invalid PHP. The test confirmed the expression-building flaw, not a complete attack against a live vBulletin server. The exploit's own banner calls the issue a zero-day, but the vendor's patches and the 6.2.2 release preceded public disclosure by nearly four weeks. The exploit code is new; the flaw it targets was already fixed. With Cloud reportedly patched and the self-hosted fixes nearly a month old, the live risk is concentrated in self-hosted, internet-facing forums that have not updated, a more specific population than a bare "vBulletin RCE" implies. Defenders can review POST requests carrying routestri
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
-  - Published: 2026-07-27T14:40:00+00:00
-  - Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
-  - Summary: Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
-
 ### Cluster 8553a0e574 — score 12
 
 - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
@@ -2097,6 +2052,51 @@ Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2
   - Published: 2026-07-28T11:00:00+00:00
   - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
   - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
+
+### Cluster 2d87c8dc74 — score 12
+
+- Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-27T14:40:00+00:00
+- Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- cve_ids: CVE-2026-61511
+- urgency_signals: no_patch_yet, poc_available, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- cve_ids: CVE-2026-61511
+- urgency_signals: zero_day, preauth_unauth, no_patch_yet, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
+```
+
+#### Full body
+
+```
+Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw  Swati Khandelwal  Jul 27, 2026 Vulnerability / Website Security Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version boundary. vBulletin issued security patches for 6.2.1, 6.2.0, and 6.1.6 at the end of June and released the fixed version 6.2.2 on July 1, nearly four weeks before the exploit went public Administrators running self-hosted installations should apply the patch for their branch or upgrade to 6.2.2. vBulletin says its Cloud sites have already been patched against the flaw. SSD did not report active exploitation. As of July 27, 2026, no source had confirmed in-the-wild attacks, and CVE-2026-61511 was not listed in CISA's Known Exploited Vulnerabilities catalog. The company published an interactive proof-of-concept, but the script as posted contains a one-character error, a letter where a digit belongs, that stops it running unchanged. The mistake is trivial to correct and does not affect the underlying vulnerability. One thing the public record does not settle is whether the flaw was used in the roughly four weeks between the late-June patch and the July 27 disclosure; neither SSD's advisory nor vBulletin's notices address that window. SSD's technical analysis identifies it as CVE-2026-61511 , an unauthenticated remote code execution flaw in vBulletin's template engine. No CVE.org or National Vulnerability Database record, and so no official severity score, was available at the time of writing; the NVD stopped routinely enriching new CVEs with CVSS scores earlier this year. SSD credits an unnamed independent researcher, though the published exploit is signed "EgiX," the handle of Egidio Romano , who disclosed vBulletin's 2025 template-engine code-execution chain. The vulnerable code sits in /includes/vb5/template/runtime.php , inside the vB5_Template_Runtime::runMaths() method, which handles inline math in templates. The function strips characters outside a restricted set, then passes what remains directly to eval() . The filter blocks letters but permits digits, parentheses, concatenation, arithmetic operators, and binary operators such as XOR, enough to reconstruct PHP strings and callable function names without any letters, using a restricted-character technique the advisory calls "phpfuck." Reaching it does not require the admin panel. vBulletin renders templates over a public route, ajax/render/pagenav , and the stock pagenav template copies a visitor-supplied pagenav[pagenumber] value into a {vb:math} tag, which passes it to runMaths() . That chain is what turns a template bug into pre-authentication remote code execution; SSD's PoC uses it to rebuild PHP's system function and run an operating-system command, returning the output in the HTTP response. The Hacker News reproduced the disclosed filtering and evaluation logic locally to check the reported error. With the typo corrected, a harmless strlen() test payload executed; without it, the allowlist stripped the stray letter and left syntactically invalid PHP. The test confirmed the expression-building flaw, not a complete attack against a live vBulletin server. The exploit's own banner calls the issue a zero-day, but the vendor's patches and the 6.2.2 release preceded public disclosure by nearly four weeks. The exploit code is new; the flaw it targets was already fixed. With Cloud reportedly patched and the self-hosted fixes nearly a month old, the live risk is concentrated in self-hosted, internet-facing forums that have not updated, a more specific population than a bare "vBulletin RCE" implies. Defenders can review POST requests carrying routestri
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
+  - Published: 2026-07-27T14:40:00+00:00
+  - Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
+  - Summary: Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
 
 ### Cluster b61889968b — score 12
 
@@ -2401,55 +2401,6 @@ JetBrains warns of critical TeamCity remote code execution flaw By Bill Toulas J
   - Link: https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/
   - Summary: JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...]
 
-### Cluster b138851666 — score 11
-
-- Title: Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-01T07:12:42+00:00
-- Link: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-48449
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ai_security
-- affected_industries: manufacturing_industrial
-- affected_products: GitHub, Microsoft SharePoint, OpenAI/ChatGPT
-- cve_ids: CVE-2026-48390, CVE-2026-48395, CVE-2026-48396, CVE-2026-48448, CVE-2026-48449
-- urgency_signals: actively_exploited, critical_cvss, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ai_security, active_exploitation
-- affected_industries: manufacturing_industrial
-- affected_products: Microsoft SharePoint, GitHub, OpenAI/ChatGPT
-- cve_ids: CVE-2026-48449, CVE-2026-48448, CVE-2026-48395, CVE-2026-48396, CVE-2026-48390
-- urgency_signals: actively_exploited, poc_available, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in
-```
-
-#### Full body
-
-```
-Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction  Ravie Lakshmanan  Aug 01, 2026 Vulnerability / Enterprise Security Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449 , carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in arbitrary code execution in the context of the current user without requiring any user interaction. The update also resolves another high-severity flaw ( CVE-2026-48448 , CVSS score: 8.6) stemming from SQL injection that could pave the way for arbitrary file reads. "This update addresses critical vulnerabilities that could result in arbitrary code execution and arbitrary file system read," Adobe said in an advisory. The company noted that it's not aware of any of the flaws being exploited in the wild. Both shortcomings have been addressed in ACC v7: 7.4.3 build 9398 for Windows and Linux. Separately, Adobe has also shipped updates to remediate eight critical-rated flaws in Adobe Bridge that could lead to privilege escalation and arbitrary code execution - CVE-2026-48395 (CVSS score: 8.6) - An untrusted search path vulnerability that leads to arbitrary code execution CVE-2026-48396 (CVSS score: 8.6) - An incorrect authorization vulnerability that leads to arbitrary code execution CVE-2026-48390 (CVSS score: 8.6) - An incorrect authorization vulnerability that leads to privilege escalation CVE-2026-48391 (CVSS score: 8.2) - An untrusted search path vulnerability that leads to arbitrary code execution CVE-2026-48374 (CVSS score: 7.8) - A path traversal vulnerability that leads to arbitrary code execution CVE-2026-48392 (CVSS score: 7.8) - An out-of-bounds write vulnerability that leads to arbitrary code execution CVE-2026-48393 (CVSS score: 7.8) - An out-of-bounds write vulnerability that leads to arbitrary code execution CVE-2026-48394 (CVSS score: 7.8) - An out-of-bounds write vulnerability that leads to arbitrary code execution Adobe credited security researcher Kieran ("kaiksi") with discovering and reporting CVE-2026-48390, CVE-2026-48391, CVE-2026-48395, CVE-2026-48396, and CVE-2026-48374, and "yjdfy" for CVE-2026-48392, CVE-2026-48393, and CVE-2026-48394. Users are advised to apply the latest updates for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Adobe , Application Security , Code Execution , enterprise security , Linux security , privilege escalation , SQL Injection , Vulnerability , Windows Security ⚡ Top Stories This Week New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say Hacker Runs Hermes AI Agent Unattended
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
-  - Published: 2026-08-01T07:12:42+00:00
-  - Link: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
-  - Summary: Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in
-
 ### Cluster 75acd25c40 — score 10
 
 - Title: Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks
@@ -2533,6 +2484,88 @@ Share Link copied to clipboard! Tags Frontier AI models Content types Research P
   - Published: 2026-07-27T16:25:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/
   - Summary: Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .
+
+### Cluster d2bbfb6b89 — score 10
+
+- Title: Black Hat special: Rewind and revisit
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-30T10:00:08+00:00
+- Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
+```
+
+#### Full body
+
+```
+Black Hat special: Rewind and revisit By Amy Ciminnisi Thursday, July 30, 2026 06:00 Humans of Talos Cybersecurity is rarely a straight line. In this special Black Hat edition of Humans of Talos, Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. From forensic labs and newsrooms to the kitchen line, we’re revisiting the stories and lessons that define the people behind the threat intelligence. Heading to Black Hat? We have a presence within the Cisco and Splunk booth (2633) during Black Hat where you can chat to us about our latest threat research and incident response, and grab the newest Snorty. Check out our schedule here . Want more episodes? Watch the full episode , and don’t forget to subscribe to our YouTube channel for the next Humans of Talos. Share this post Related Content Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons. Breaking things to keep them safe with Philippe Laulheret May 13, 2026 06:00 Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Black Hat special: Rewind and revisit
+  - Published: 2026-07-30T10:00:08+00:00
+  - Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
+  - Summary: Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
+
+### Cluster 7d478340af — score 10
+
+- Title: IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-28T10:00:01+00:00
+- Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, mfa_bypass, phishing_social_eng, ransomware_extortion
+- affected_products: Cisco, Microsoft 365, Microsoft SharePoint
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, mfa_bypass
+- affected_products: Microsoft 365, Microsoft SharePoint, Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
+```
+
+#### Full body
+
+```
+IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains By Lexi DiScola , Dave Liebenberg Tuesday, July 28, 2026 06:00 Talos IR trends CTIR trends Cisco Talos Incident Response Phishing was the primary means of gaining initial access this quarter, appearing in over half of all Cisco Talos Incident Response (Talos IR) engagements – an increase from approximately a third of engagements last quarter. Attackers continued to innovate their delivery methods to evade defenses, deploying QR code-embedded PDFs to bypass traditional email gateways and hosting links on trusted cloud platforms. We also saw a spike in authentication abuse this quarter — observed in 65 percent of engagements compared to 35 percent last quarter — with attackers frequently bypassing or defeating multi-factor authentication (MFA) using adversary-in-the-middle (AitM) proxies, session-token theft, MFA fatigue attacks, and self-enrolled devices, amongst other methods. Ransomware incidents made up over 20 percent of engagements this quarter, similar to just under 20 percent last quarter. Talos IR responded to Sinobi ransomware for the first time, as well as previously seen variants Nitrogen and Warlock. We observed ransomware operators leveraging legitimate remote monitoring and management (RMM) tools, such as trojanized MeshAgent binary and Zoho Assist, for stealthy access, requiring defenders to prioritize behavior-based monitoring and strict control over administrative binaries. In the latest Talos Threat Perspective episode, we explore these trends, and highlight where defenders have the best opportunities to detect attackers: QR phishing campaign leverages trusted infrastructure to target Australian organizations Starting in April, we observed a persistent QR code phishing campaign targeting primarily Australian organizations that leverages compromised Microsoft 365 accounts to harvest credentials and propagate the attack via internal contact lists. The campaign, which remained ongoing as of late June 2026, employs auto-generated, victim-tailored PDF documents containing QR codes that direct to adversary-controlled M365 credential harvesting pages. If credentials are successfully captured, the adversary attempts access to the victim’s Microsoft account and conducts various post-compromise actions including creating email inbox rules for defense evasion, leveraging SharePoint to host malicious documents, and sending additional internal and external phishing emails to continue the compromise chain. We assess with high confidence that the threat actor, who we have dubbed UAT-11764, will almost certainly continue leveraging this QR code phishing operation, using each newly compromised mailbox's contact lists to expand its reach and sustain the campaign's momentum. By weaponizing existing, trusted infrastructure like SharePoint and M365, UAT-11764 can bypass many standard email security gateways. As such, network defenders should implement policies that block or flag emails containing QR codes within PDF attachments, enforce phishing-resistant MFA on M365 accounts, and monitor for suspicious inbox rule creation and anomalous SharePoint file staging as indicators of post-compromise activity. ARToken platform provides toolkit for Microsoft 365 account compromise Talos uncovered a phishing-as-a-service (PhaaS) operator platform, ARToken, in an engagement this quarter that is closely linked to the EvilTokens platform. According to our analysis, the ARToken panel exposes 80+ API endpoints for device code phishing, primary refresh token (PRT) persistence, email access, business email compromise (BEC) operations, and SharePoint exfiltration — all accessible to operators through a React-based dashboard. Our investigation into the platform found phishing lures that impersonate trusted vendors and abuse legitimate Microsoft services, allowing attackers to bypass MFA through the OAuth device authorization flow rather than stealing passwords. AR
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains
+  - Published: 2026-07-28T10:00:01+00:00
+  - Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
+  - Summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
 
 ### Cluster 1d6332ec8a — score 10
 
@@ -2709,88 +2742,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July 
   - Published: 2026-07-27T16:00:39+00:00
   - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster d2bbfb6b89 — score 10
-
-- Title: Black Hat special: Rewind and revisit
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-30T10:00:08+00:00
-- Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
-```
-
-#### Full body
-
-```
-Black Hat special: Rewind and revisit By Amy Ciminnisi Thursday, July 30, 2026 06:00 Humans of Talos Cybersecurity is rarely a straight line. In this special Black Hat edition of Humans of Talos, Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. From forensic labs and newsrooms to the kitchen line, we’re revisiting the stories and lessons that define the people behind the threat intelligence. Heading to Black Hat? We have a presence within the Cisco and Splunk booth (2633) during Black Hat where you can chat to us about our latest threat research and incident response, and grab the newest Snorty. Check out our schedule here . Want more episodes? Watch the full episode , and don’t forget to subscribe to our YouTube channel for the next Humans of Talos. Share this post Related Content Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons. Breaking things to keep them safe with Philippe Laulheret May 13, 2026 06:00 Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Black Hat special: Rewind and revisit
-  - Published: 2026-07-30T10:00:08+00:00
-  - Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
-  - Summary: Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
-
-### Cluster 7d478340af — score 10
-
-- Title: IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-28T10:00:01+00:00
-- Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, mfa_bypass, phishing_social_eng, ransomware_extortion
-- affected_products: Cisco, Microsoft 365, Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, mfa_bypass
-- affected_products: Microsoft 365, Microsoft SharePoint, Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
-```
-
-#### Full body
-
-```
-IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains By Lexi DiScola , Dave Liebenberg Tuesday, July 28, 2026 06:00 Talos IR trends CTIR trends Cisco Talos Incident Response Phishing was the primary means of gaining initial access this quarter, appearing in over half of all Cisco Talos Incident Response (Talos IR) engagements – an increase from approximately a third of engagements last quarter. Attackers continued to innovate their delivery methods to evade defenses, deploying QR code-embedded PDFs to bypass traditional email gateways and hosting links on trusted cloud platforms. We also saw a spike in authentication abuse this quarter — observed in 65 percent of engagements compared to 35 percent last quarter — with attackers frequently bypassing or defeating multi-factor authentication (MFA) using adversary-in-the-middle (AitM) proxies, session-token theft, MFA fatigue attacks, and self-enrolled devices, amongst other methods. Ransomware incidents made up over 20 percent of engagements this quarter, similar to just under 20 percent last quarter. Talos IR responded to Sinobi ransomware for the first time, as well as previously seen variants Nitrogen and Warlock. We observed ransomware operators leveraging legitimate remote monitoring and management (RMM) tools, such as trojanized MeshAgent binary and Zoho Assist, for stealthy access, requiring defenders to prioritize behavior-based monitoring and strict control over administrative binaries. In the latest Talos Threat Perspective episode, we explore these trends, and highlight where defenders have the best opportunities to detect attackers: QR phishing campaign leverages trusted infrastructure to target Australian organizations Starting in April, we observed a persistent QR code phishing campaign targeting primarily Australian organizations that leverages compromised Microsoft 365 accounts to harvest credentials and propagate the attack via internal contact lists. The campaign, which remained ongoing as of late June 2026, employs auto-generated, victim-tailored PDF documents containing QR codes that direct to adversary-controlled M365 credential harvesting pages. If credentials are successfully captured, the adversary attempts access to the victim’s Microsoft account and conducts various post-compromise actions including creating email inbox rules for defense evasion, leveraging SharePoint to host malicious documents, and sending additional internal and external phishing emails to continue the compromise chain. We assess with high confidence that the threat actor, who we have dubbed UAT-11764, will almost certainly continue leveraging this QR code phishing operation, using each newly compromised mailbox's contact lists to expand its reach and sustain the campaign's momentum. By weaponizing existing, trusted infrastructure like SharePoint and M365, UAT-11764 can bypass many standard email security gateways. As such, network defenders should implement policies that block or flag emails containing QR codes within PDF attachments, enforce phishing-resistant MFA on M365 accounts, and monitor for suspicious inbox rule creation and anomalous SharePoint file staging as indicators of post-compromise activity. ARToken platform provides toolkit for Microsoft 365 account compromise Talos uncovered a phishing-as-a-service (PhaaS) operator platform, ARToken, in an engagement this quarter that is closely linked to the EvilTokens platform. According to our analysis, the ARToken panel exposes 80+ API endpoints for device code phishing, primary refresh token (PRT) persistence, email access, business email compromise (BEC) operations, and SharePoint exfiltration — all accessible to operators through a React-based dashboard. Our investigation into the platform found phishing lures that impersonate trusted vendors and abuse legitimate Microsoft services, allowing attackers to bypass MFA through the OAuth device authorization flow rather than stealing passwords. AR
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains
-  - Published: 2026-07-28T10:00:01+00:00
-  - Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
-  - Summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
 
 ### Cluster f4490338d9 — score 10
 
@@ -3159,6 +3110,55 @@ ShinyHunters claims Brinks Home breach, threatens to leak stolen data By Ionut I
   - Link: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
   - Summary: Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]
 
+### Cluster b138851666 — score 10
+
+- Title: Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-01T07:12:42+00:00
+- Link: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-48449
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ai_security
+- affected_industries: manufacturing_industrial
+- affected_products: GitHub, Microsoft SharePoint, OpenAI/ChatGPT
+- cve_ids: CVE-2026-48390, CVE-2026-48395, CVE-2026-48396, CVE-2026-48448, CVE-2026-48449
+- urgency_signals: actively_exploited, critical_cvss, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ai_security, active_exploitation
+- affected_industries: manufacturing_industrial
+- affected_products: Microsoft SharePoint, GitHub, OpenAI/ChatGPT
+- cve_ids: CVE-2026-48449, CVE-2026-48448, CVE-2026-48395, CVE-2026-48396, CVE-2026-48390
+- urgency_signals: actively_exploited, poc_available, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in
+```
+
+#### Full body
+
+```
+Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction  Ravie Lakshmanan  Aug 01, 2026 Vulnerability / Enterprise Security Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449 , carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in arbitrary code execution in the context of the current user without requiring any user interaction. The update also resolves another high-severity flaw ( CVE-2026-48448 , CVSS score: 8.6) stemming from SQL injection that could pave the way for arbitrary file reads. "This update addresses critical vulnerabilities that could result in arbitrary code execution and arbitrary file system read," Adobe said in an advisory. The company noted that it's not aware of any of the flaws being exploited in the wild. Both shortcomings have been addressed in ACC v7: 7.4.3 build 9398 for Windows and Linux. Separately, Adobe has also shipped updates to remediate eight critical-rated flaws in Adobe Bridge that could lead to privilege escalation and arbitrary code execution - CVE-2026-48395 (CVSS score: 8.6) - An untrusted search path vulnerability that leads to arbitrary code execution CVE-2026-48396 (CVSS score: 8.6) - An incorrect authorization vulnerability that leads to arbitrary code execution CVE-2026-48390 (CVSS score: 8.6) - An incorrect authorization vulnerability that leads to privilege escalation CVE-2026-48391 (CVSS score: 8.2) - An untrusted search path vulnerability that leads to arbitrary code execution CVE-2026-48374 (CVSS score: 7.8) - A path traversal vulnerability that leads to arbitrary code execution CVE-2026-48392 (CVSS score: 7.8) - An out-of-bounds write vulnerability that leads to arbitrary code execution CVE-2026-48393 (CVSS score: 7.8) - An out-of-bounds write vulnerability that leads to arbitrary code execution CVE-2026-48394 (CVSS score: 7.8) - An out-of-bounds write vulnerability that leads to arbitrary code execution Adobe credited security researcher Kieran ("kaiksi") with discovering and reporting CVE-2026-48390, CVE-2026-48391, CVE-2026-48395, CVE-2026-48396, and CVE-2026-48374, and "yjdfy" for CVE-2026-48392, CVE-2026-48393, and CVE-2026-48394. Users are advised to apply the latest updates for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Adobe , Application Security , Code Execution , enterprise security , Linux security , privilege escalation , SQL Injection , Vulnerability , Windows Security ⚡ Top Stories This Week New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say Hacker Runs Hermes AI Agent Unattended
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
+  - Published: 2026-08-01T07:12:42+00:00
+  - Link: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
+  - Summary: Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in
+
 ### Cluster cef34fdd67 — score 10
 
 - Title: CareCloud Data Breach Impacts Over 350,000
@@ -3412,47 +3412,6 @@ Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agen
   - Link: https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
   - Summary: We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident
 
-### Cluster 602e22dfe4 — score 9
-
-- Title: Long-Lived Vulnerability in Microsoft Secure Boot
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-07-29T11:01:09+00:00
-- Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: critical_infrastructure
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
-```
-
-#### Full body
-
-```
-Long-Lived Vulnerability in Microsoft Secure Boot Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them. Tags: firmware , Microsoft , vulnerabilities Posted on July 29, 2026 at 7:01 AM • 7 Comments
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Long-Lived Vulnerability in Microsoft Secure Boot
-  - Published: 2026-07-29T11:01:09+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
-  - Summary: Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
-
 ### Cluster 7f4871768d — score 9
 
 - Title: Weekly Update 514: This Week in Data Breaches
@@ -3493,6 +3452,47 @@ The Origin Energy breach down here in Aus is all over the news this week, and as
   - Published: 2026-07-26T09:14:51+00:00
   - Link: https://www.troyhunt.com/weekly-update-514/
   - Summary: The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
+
+### Cluster 602e22dfe4 — score 9
+
+- Title: Long-Lived Vulnerability in Microsoft Secure Boot
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-07-29T11:01:09+00:00
+- Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- affected_industries: critical_infrastructure
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
+```
+
+#### Full body
+
+```
+Long-Lived Vulnerability in Microsoft Secure Boot Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them. Tags: firmware , Microsoft , vulnerabilities Posted on July 29, 2026 at 7:01 AM • 7 Comments
+```
+
+#### Corroborating sources (1)
+
+- **Schneier on Security** (practitioner_analysis)
+  - Title: Long-Lived Vulnerability in Microsoft Secure Boot
+  - Published: 2026-07-29T11:01:09+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
+  - Summary: Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
 
 ### Cluster 0c9658fc3f — score 9
 
