@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 31 Jul 2026 23:09:11 +0000</lastBuildDate>
+<lastBuildDate>Sat, 01 Aug 2026 03:33:10 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -17,6 +17,15 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
+<link>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</link>
+<description><![CDATA[deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek&apos;s V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It&apos;s 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It&apos;s $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It&apos;s looking very good on the Intelligence Index vs. Cost per Intelligence Index Task chart: I got a disappointing pelican from it using the default reasoning level via OpenRouter: But when I bumped reasoning level up to high I got something much better : llm -m openrouter/deepseek/deepseek-v4-flash-0731 -t pelican -o reasoning_effort high Via Hacker News Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , deepseek , llm-release , openrouter , ai-in-china , artificial-analysis]]></description>
+<pubDate>Fri, 31 Jul 2026 23:59:44 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Amgen says cloud data breach exposed patient health, proprietary info</title>
@@ -87,7 +96,7 @@
 <description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
 <pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>APT29</category>
 <category>credential_theft</category>
@@ -98,7 +107,7 @@
 <description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
 <pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>APT29</category>
 <category>credential_theft</category>
@@ -110,6 +119,15 @@
 <pubDate>Fri, 31 Jul 2026 18:52:04 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>CISA warns of spike in attacks on water systems as Minnesota incidents probed</title>
+<link>https://therecord.media/cisa-warns-of-spike-in-water-system-attacks</link>
+<description><![CDATA[The Cybersecurity and Infrastructure Security Agency said in a public alert on Thursday that facilities should “remove publicly exposed PLCs and other operational technology (OT) from the internet as soon as possible.&quot;]]></description>
+<pubDate>Fri, 31 Jul 2026 17:47:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/cisa-warns-of-spike-in-water-system-attacks</guid>
+<source url="https://therecord.media/feed">The Record</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -187,6 +205,19 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>Chinese Hacker Uses DeepSeek AI to Orchestrate Vulnerability Exploits</title>
+<link>https://www.infosecurity-magazine.com/news/chinese-hacker-deepseek-ai/</link>
+<description><![CDATA[A Chinese-speaking threat actor has been using DeepSeek’s AI models to orchestrate cyber-attacks targeting Asian organizations<br/><br/><em>Tags: Palo Alto Networks · OpenAI/ChatGPT · Citrix · CVE-2026-33017 · CVE-2026-21858 · CVE-2025-68613 · CVE-2026-3055 · CVE-2026-34486</em>]]></description>
+<pubDate>Fri, 31 Jul 2026 15:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/chinese-hacker-deepseek-ai/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>Palo Alto Networks</category>
+<category>OpenAI/ChatGPT</category>
+<category>Citrix</category>
+<category>CVE-2026-33017</category>
+</item>
+<item>
 <title>ESET tracks rise in malicious AI skills and adaptable malware</title>
 <link>https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/</link>
 <description><![CDATA[Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET&apos;s new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, record quishing activity, and ransomware tools designed to disable security software. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -213,6 +244,16 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Anthropic says its AI hacked real-world companies in three incidents</title>
+<link>https://therecord.media/anthropic-ai-hacked-three-real-companies</link>
+<description><![CDATA[Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<pubDate>Fri, 31 Jul 2026 12:15:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/anthropic-ai-hacked-three-real-companies</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
 </item>
 <item>
 <title>Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw</title>
@@ -561,6 +602,25 @@
 <guid isPermaLink="true">https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Semiconductor chip titan Analog Devices reports data breach</title>
+<link>https://therecord.media/analog-devices-semiconductor-company-data-breach</link>
+<description><![CDATA[In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.<br/><br/><em>Tags: data_breach</em>]]></description>
+<pubDate>Thu, 30 Jul 2026 19:10:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/analog-devices-semiconductor-company-data-breach</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+<category>data_breach</category>
+</item>
+<item>
+<title>Max-severity Exchange server flaw under active exploitation by Kremlin hackers</title>
+<link>https://www.proofpoint.com/us/newsroom/news/max-severity-exchange-server-flaw-under-active-exploitation-kremlin-hackers</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 30 Jul 2026 19:01:12 +0000</pubDate>
+<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/max-severity-exchange-server-flaw-under-active-exploitation-kremlin-hackers</guid>
+<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware</title>
@@ -1736,6 +1796,17 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
+<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
+<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>data_breach</category>
+</item>
+<item>
 <title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
 <link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
 <description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: GitHub · GitLab · npm · TeamPCP · supply_chain · credential_theft</em>]]></description>
@@ -1747,17 +1818,6 @@
 <category>GitLab</category>
 <category>npm</category>
 <category>TeamPCP</category>
-</item>
-<item>
-<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
-<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
-<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -2181,6 +2241,15 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
+<title>Introducing Claude Opus 5</title>
+<link>https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything</link>
+<description><![CDATA[Introducing Claude Opus 5 I&apos;ve been offline kayaking with sea otters for much of today so I haven&apos;t had a chance to put Anthropic&apos;s new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic&apos;s description of it as a &quot;thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price&quot; sounds promising. It&apos;s currently leading the Artificial Analysis leaderboard , in front of even Fable 5. It&apos;s priced the same as Opus 4.8, and continues to offer a &quot;fast mode&quot; at twice the cost of the base model. Based on this anecdote in the release post it sounds like it might be relentlessly proactive : On one Frontier-Bench task, Opus 5 was given a drawing of a machine part and asked to write code to rebuild it as a 3D FreeCAD model. However, in this task, the model was intentionally given no way to directly viewthe drawing. Opus 5 responded by writing its own computer vision pipeline to pull the geometry from the raw pixels, then re]]></description>
+<pubDate>Fri, 24 Jul 2026 23:48:50 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>CISOs vs. Boards: Myth or Misunderstanding?</title>
 <link>https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-</link>
 <description><![CDATA[Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.]]></description>
@@ -2421,6 +2490,15 @@
 <category>apt_espionage</category>
 </item>
 <item>
+<title>New warnings that Russian operatives are targeting the emails of US nuclear scientists and defense contractors</title>
+<link>https://www.proofpoint.com/us/newsroom/news/new-warnings-russian-operatives-are-targeting-emails-us-nuclear-scientists-and-defense</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 23 Jul 2026 18:59:25 +0000</pubDate>
+<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/new-warnings-russian-operatives-are-targeting-emails-us-nuclear-scientists-and-defense</guid>
+<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Thailand&apos;s Ministry of Finance targeted with an AI agent running with approval prompts disabled</title>
 <link>https://www.reddit.com/r/netsec/comments/1v4mg4l/thailands_ministry_of_finance_targeted_with_an_ai/</link>
 <description><![CDATA[Caught this in three open directories on a Hong Kong server, exposed July 9 to 13. The agent is Hermes, open source, and the recovered logs show it running LinPEAS and walking a ministry web root without a human in the loop. Target was Thailand&apos;s Ministry of Finance. submitted by /u/Straight-Practice-99 [link] [comments]]]></description>
@@ -2519,7 +2597,7 @@
 <description><![CDATA[In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and multi-stage attack chains. The post Email threat landscape: Q2 2026 trends and insights appeared first on Microsoft Security Blog .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>phishing_social_eng</category>
 </item>
@@ -2529,7 +2607,7 @@
 <description><![CDATA[In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and multi-stage attack chains. The post Email threat landscape: Q2 2026 trends and insights appeared first on Microsoft Security Blog .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Thu, 23 Jul 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>phishing_social_eng</category>
 </item>
@@ -2763,16 +2841,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened</title>
-<link>https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything</link>
-<description><![CDATA[This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model&apos;s guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI&apos;s sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software. Here&apos;s what happened We currently have three documents to help us understand what happened here. ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks? is a paper published on 11th May 2026 describing ExploitGym, a new eval suite for LLM-powered agent systems. Security incident disclosure — July 2026 by Hugging Face on 16th July 2026 describes how they detected an attack from an &quot;agentic security-research harness - used LLM still not known&quot; that breached some of their systems. OpenAI and Hu<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 23:51:33 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>Flaws in Passkey Implementation Show Old Attacks Still Work</title>
 <link>https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work</link>
 <description><![CDATA[Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.]]></description>
@@ -2789,15 +2857,6 @@
 <guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-477/</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Are AI labs pelicanmaxxing?</title>
-<link>https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything</link>
-<description><![CDATA[Are AI labs pelicanmaxxing? Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicycles in response to my deeply unscientific benchmark . I&apos;ve been randomly spot-checking this in the past by testing models against other animals riding other types of vehicle, but never with anything close to the diligence of Dylan&apos;s methodology here. Dylan took 8 animals × 6 vehicles = 48 prompts and ran them three times each through 7 different models ( GPT-5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Grok 4.5, Qwen3.7-Max, GLM-5.2, and DeepSeek V4 Pro). He then used GPT-5.6 Luna and Gemini 3.1 Flash-Lite to help evaluate the results. There&apos;s a neat filter view for exploring the results: For the models he tested he could find no evidence of pelimaxxing: The pelicans on bicycles don’t look any better Labs are not better at drawing pelicans Labs are not better at drawi]]></description>
-<pubDate>Wed, 22 Jul 2026 23:01:00 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>GitHub issues $100,000 bounty for critical RCE vulnerability</title>
@@ -2849,6 +2908,17 @@
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>Anthropic/Claude</category>
+</item>
+<item>
+<title>CVE-2026-50458: Finding a UAF in the Windows Brokering File System</title>
+<link>https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/</link>
+<description><![CDATA[Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month&apos;s Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]<br/><br/><em>Tags: Microsoft Windows · CVE-2026-50458</em>]]></description>
+<pubDate>Wed, 22 Jul 2026 19:08:40 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>Microsoft Windows</category>
+<category>CVE-2026-50458</category>
 </item>
 <item>
 <title>OpenSSF Community Day North America (NA) First-time Experience</title>
@@ -2913,15 +2983,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/trickbot-dns-tunneling-c2/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Orchestrions</title>
-<link>https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything</link>
-<description><![CDATA[San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in Musée Mécanique . And because most people are bad at allocating their funds you may well be the ONLY person activating the Orchestrions, which means you get to craft the soundscape for the entire museum. Tags: san-francisco]]></description>
-<pubDate>Wed, 22 Jul 2026 14:48:52 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>I was reporter #11 for a WPForms PayPal webhook vulnerability (CVE-2026-4986)</title>
@@ -3083,15 +3144,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>California Sea Lion</title>
-<link>https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything</link>
-<description><![CDATA[California Sea Lion, in San Francisco County, US, CA We took some visiting family to Pier 39 to see the sea lions. They&apos;re somehow always even more fun than I remember them being last time. Tags: san-francisco , wildlife]]></description>
-<pubDate>Tue, 21 Jul 2026 19:51:03 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Hacker Turns AI Jailbreaks Into Offensive Attack Platform</title>
@@ -3680,7 +3732,7 @@
 <description><![CDATA[From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments. The post ACR Stealer: Two observed intrusion chains amid increased threat activity appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 23:12:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 </item>
@@ -3690,7 +3742,7 @@
 <description><![CDATA[From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments. The post ACR Stealer: Two observed intrusion chains amid increased threat activity appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender</em>]]></description>
 <pubDate>Thu, 16 Jul 2026 23:12:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 </item>
@@ -5506,16 +5558,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Researchers Claim First Fully Agentic Ransomware: JadePuffer</title>
-<link>https://www.infosecurity-magazine.com/news/researchers-first-agentic/</link>
-<description><![CDATA[Researchers have revealed JadePuffer, the first agentic AI-powered ransomware campaign, highlighting how autonomous agents can automate cyber-attacks<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 06 Jul 2026 08:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/researchers-first-agentic/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>Risky Bulletin: EU official’s phone infected with Pegasus</title>
 <link>https://risky.biz/RBNEWS586/</link>
 <description><![CDATA[A European MP’s phone was infected by Pegasus spyware, Android drops its PIN guessing limit from 1,800 attempts to 20, Alibaba bans employees from using Claude at work, and there’s a new vulnerability in the Linux kernel.<br/><br/><em>Tags: Linux kernel · Anthropic/Claude</em>]]></description>
@@ -6039,16 +6081,6 @@
 <guid isPermaLink="true">https://www.troyhunt.com/weekly-update-510/</guid>
 <source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Defending the Authentication Flow: Device Code Phishing with Selena Larson</title>
-<link>https://www.proofpoint.com/us/newsroom/news/defending-authentication-flow-device-code-phishing-selena-larson</link>
-<description><![CDATA[<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Tue, 30 Jun 2026 15:35:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/defending-authentication-flow-device-code-phishing-selena-larson</guid>
-<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
-<category>detection_response_operations</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>This month in security with Tony Anscombe – June 2026 edition</title>
@@ -6796,15 +6828,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Proofpoint Joins the OpenAI Daybreak Cyber Partner Program to Advance Responsible AI-Powered Cyber Defense</title>
-<link>https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-joins-openai-daybreak-cyber-partner-program-advance-responsible</link>
-<description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 10:31:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-joins-openai-daybreak-cyber-partner-program-advance-responsible</guid>
-<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Risky Bulletin: Klue breach impacts security firms</title>
@@ -20313,7 +20336,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20322,7 +20345,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20331,7 +20354,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20340,7 +20363,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20349,7 +20372,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20358,7 +20381,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20367,7 +20390,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20376,7 +20399,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20386,7 +20409,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20395,7 +20418,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 31 Jul 2026 23:09:11 +0000</pubDate>
+<pubDate>Sat, 01 Aug 2026 03:33:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
