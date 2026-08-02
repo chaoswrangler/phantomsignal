@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-02T15:07:59.146936+00:00
+- Generated: 2026-08-02T17:07:29.675673+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 362
-- Total clusters raw: 160
-- Total clusters in packet: 76
-- Dropped low score: 84
+- Feeds OK: 75
+- Total items in window: 360
+- Total clusters raw: 158
+- Total clusters in packet: 75
+- Dropped low score: 83
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,11 +75,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -90,21 +85,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -115,11 +120,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 4
+  - Item count: 15
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -130,61 +135,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
+  - In window count: 2
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,6 +190,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -220,9 +220,9 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: fetch_error
   - Item count: 0
   - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
@@ -230,46 +230,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 11
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
-  - Item count: 30
-  - In window count: 1
+  - Item count: 10
+  - In window count: 8
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 9
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
+  - Item count: 30
   - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -285,16 +285,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 8
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -315,16 +315,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 17
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -335,11 +335,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -350,6 +345,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -365,6 +365,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -375,28 +390,8 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,13 +400,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,31 +410,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 24
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 18
+  - In window count: 17
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -535,13 +535,13 @@
   - affected_products: Microsoft SharePoint, Cisco, OpenAI/ChatGPT
   - cve_ids: CVE-2026-50522
   - urgency_signals: actively_exploited, zero_day, poc_available
-- Cluster IDs: e2f6a950f1, 7d478340af, 85d2724fda, b138851666
+- Cluster IDs: e2f6a950f1, 85d2724fda, 7d478340af, b138851666
 - Links:
   - https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/
   - https://www.infosecurity-magazine.com/news/phishing-dominates-initial-entry/
-  - https://blog.talosintelligence.com/ir-trends-q2-2026/
   - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+  - https://blog.talosintelligence.com/ir-trends-q2-2026/
   - https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
 
 ### Cisco active exploitation
@@ -1539,7 +1539,7 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
   - Title: Open letters about AI development
   - Published: 2026-08-02T04:16:52+00:00
   - Link: https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
-  - Summary: Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA, Amazon, Y Combinator, The Linux Foundation and (a later signer) OpenAI. It's clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over "safety" concerns - a reasonable consideration given what happened to Claude Fable 5 ! Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the hands of a few providers. Open weigh
+  - Summary: Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen's first ever tweet ), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI. It's clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over "safety" concerns - a reasonable consideration given what happened to Claude Fable 5 ! Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the ha
 - **Schneier on Security** (practitioner_analysis)
   - Title: Anthropic’s Opus 5 Is Better at Resisting Prompt Injection
   - Published: 2026-07-31T17:23:16+00:00
@@ -1619,46 +1619,6 @@ Threat Research Center Threat Research Malware Malware The Xcode Assassin Return
   - Published: 2026-07-30T18:18:24+00:00
   - Link: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
   - Summary: Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Contagious Interview campaign. The defining aspect of the attack is that bogus macOS software update screen stealthily
-
-### Cluster 06319fc0de — score 15
-
-- Title: TrendAI™ Reports Nation-State Activity in H1 2026 APT Activity Roundup
-- Source: Trend Micro Research (threat_research_primary)
-- Published: 2026-07-29T13:00:00+00:00
-- Link: https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain, zero_day
-- affected_industries: government
-- affected_products: Ivanti
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, zero_day, apt_espionage
-- affected_industries: government
-- affected_products: Ivanti
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Full body
-
-```
-arrow_back search close Newsroom Media Coverage Global Press Releases Local Press Releases Stay connected with press releases from Trend teams in your region. Media Contacts Investor Relations TrendAI™ Reports Nation-State Activity in H1 2026 APT Activity Roundup Generative AI is now sharpening nation-state exploits and powering autonomous reconnaissance, mid-year findings show DALLAS , July 29, 2026 / PRNewswire / -- TrendAI™, the global AI security leader and enterprise business unit of Trend Micro Incorporated (TYO: 4704; TSE: 4704), today released its H1 2026 APT Activity Roundup. The mid-year findings on the H1 2026 threat landscape showed that AI has moved beyond isolated experiments. Nation states used AI in more stages of the intrusion lifecycle than any other prior half TrendAI™ has tracked. Between January and June 2026, TrendAI™ detected the following APT (advanced persistent threat) nation-state activity: China-aligned threat actors used generative AI to sharpen exploits and iteratively build malware through vibe coding. One AI agent independently ran its own reconnaissance and lateral movement inside a target network. Russia-aligned Pawn Storm opened the year with an Office zero-day vulnerability and kept pressing Ukraine and its partners across government, defense, and wartime-aid organizations. DPRK-aligned actors folded commercial AI into their operations and poisoned a widely used software package to reach downstream developers. Iran-aligned Earth Vetala scanned for a newly disclosed Ivanti vulnerability within days of its release, and other Iran-aligned actors carried out hands-on attacks against internet-exposed operational technology, tampering with fuel-tank gauges at sites in the United States. Robert McArdle, Director of Cybercrime Research at TrendAI ™ : "Artificial intelligence has stopped being a side tool for attackers and has become a teammate embedded in the operation itself. We are watching nation-state actors hand reconnaissance and lateral movement to an AI agent, and use generative models to iterate on malware the way a developer ships code. Defenders now have to assume the adversary on the other end of an intrusion may not be a person typing commands, but a system executing a plan." Key findings include: AI now touches more stages of the intrusion lifecycle, from exploit development to autonomous reconnaissance and lateral movement Known and zero-day vulnerabilities are weaponized within days of disclosure, and the software supply chain remains a favored entry point Operational technology and physical-world targets — including fuel-tank monitoring systems — are back in attackers' crosshairs A newer tracking method, ADINT, harvests location and device data from online ad auctions without deploying any malware Threat actors increasingly hide command-and-control on trusted cloud platforms, developer tunnels, blockchains, and paste sites Malware-as-a-service and shared tooling make attribution harder, even as nation-state motives remain durable through year end To read a full copy of the report, visit our website . About TrendAI™ TrendAI™ , the global AI security leader and enterprise business unit of Trend Micro , empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk. Trusted by the largest enterprises and governments across 185 countries, TrendAI™ secures the entire organization, from identities to infrastructure to data. AI Fearlessly. trendaisecurity.com SOURCE TrendAI For further information: For further information: Trend Micro Communications, media_relations@trendmicro.com Try our services free for 30 days Start your free trial today LinkedIn Facebook Twitter Instagram YouTube Resources Blog Newsroom Threat Reports Find a Partner Support Business Support Portal Contact Us Downloads Free Trials About Trend About us Careers Locations Upcoming Events Trust Center Select a country / region United States Close Me
-```
-
-#### Corroborating sources (1)
-
-- **Trend Micro Research** (threat_research_primary)
-  - Title: TrendAI™ Reports Nation-State Activity in H1 2026 APT Activity Roundup
-  - Published: 2026-07-29T13:00:00+00:00
-  - Link: https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup
 
 ### Cluster 304bd4a378 — score 15
 
@@ -1973,51 +1933,6 @@ AWS Security Blog Secure your npm and pip package updates in Amazon Linux If you
   - Link: https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/
   - Summary: If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can’t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and removed within hours. However, while those packages were available to the general public, it’s […]
 
-### Cluster 8553a0e574 — score 12
-
-- Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
-- Source: Intel 471 (ransomware_ecrime_financial_crime)
-- Published: 2026-07-28T11:00:00+00:00
-- Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- actor_attribution: TeamPCP
-- affected_products: GitHub, GitLab, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- actor_attribution: TeamPCP
-- affected_products: GitHub, GitLab, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
-```
-
-#### Full body
-
-```
-Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s
-```
-
-#### Corroborating sources (1)
-
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
-  - Published: 2026-07-28T11:00:00+00:00
-  - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
-  - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
-
 ### Cluster 2d87c8dc74 — score 12
 
 - Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
@@ -2107,6 +2022,51 @@ Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities E
   - Published: 2026-07-29T10:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
   - Summary: For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said
+
+### Cluster 8553a0e574 — score 12
+
+- Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
+- Source: Intel 471 (ransomware_ecrime_financial_crime)
+- Published: 2026-07-28T11:00:00+00:00
+- Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain
+- actor_attribution: TeamPCP
+- affected_products: GitHub, GitLab, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft
+- actor_attribution: TeamPCP
+- affected_products: GitHub, GitLab, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
+```
+
+#### Full body
+
+```
+Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s
+```
+
+#### Corroborating sources (1)
+
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
+  - Published: 2026-07-28T11:00:00+00:00
+  - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
+  - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
 
 ### Cluster 94fd56afbc — score 11
 
@@ -2577,6 +2537,55 @@ Table of Contents Introduction Technical details Modus operandi Initial Access D
   - Link: https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/
   - Summary: Kaspersky experts dissect GenieLocker: new custom ransomware variants for Windows, Linux, and ESXi systems. We found this family in attacks by Toy Ghouls, a financially motivated extortion group.
 
+### Cluster 85d2724fda — score 10
+
+- Title: 27th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-27T16:00:39+00:00
+- Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
+- cve_ids: CVE-2026-16232, CVE-2026-50522
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: OpenAI/ChatGPT, Microsoft SharePoint
+- cve_ids: CVE-2026-16232, CVE-2026-50522
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July – Threat Intelligence Report July 27, 2026 https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, while the RansomHouse group claimed responsibility and published a subset of the stolen information. Stadler Rail, a Switzerland-based global rail equipment manufacturer, has disclosed a supplier-related data breach after attackers compromised credentials for a third-party file-sharing platform. The Everest group stole technical documents belonging to the supplier and demanded $12.3 million. Stadler refused payment and said its systems and production remained unaffected. Origin Energy, one of Australia’s largest electricity and natural gas providers, has confirmed unauthorized access to customer information. Exposed data may include names, addresses, birth dates, phone numbers, account details, and partial payment information. Threat actors claimed to have stolen two million records and threatened to publish them. Romania’s National Agency for Cadastre and Land Registration has suffered a cyberattack that disabled internal systems and the nationwide e-Terra platform. The disruption halted property transactions for nearly a week. Officials said core land registries remained intact, although credentials and portions of source code may have been exposed. AI THREATS OpenAI disclosed that AI models escaped a restricted cyber evaluation environment and compromised Hugging Face while seeking benchmark solutions. They exploited zero-day vulnerabilities, stole credentials, escalated privileges, and accessed production systems. Both companies contained the activity and are conducting a joint investigation. Researchers have described a threat actor known as Trim who promoted an AI-assisted penetration-testing platform built with jailbroken language models. The platform combines AI with established scanning tools to automate reconnaissance, vulnerability validation, and reporting, potentially reducing the expertise and time required to prepare and conduct cyber intrusions. Researchers have examined a generative AI-assisted malware operation exposed through an accessible WebDAV server. The infrastructure produced phishing material and malicious Windows shortcuts used to distribute information stealers and remote access tools. Researchers identified more than 1,000 artifacts and a campaign that recorded over 77,000 requests. VULNERABILITIES AND PATCHES Check Point has addressed CVE-2026-16232, an authentication bypass vulnerability in SmartConsole that is under active exploitation, affecting a handful of customers. The flaw allows remote attackers to bypass authentication and gain administrative access to Check Point management servers. Security hotfixes are available for supported versions of the affected management software. Oracle has released its July 2026 Critical Patch Update, addressing 1,449 vulnerabilities across numerous product families. The update includes remotely exploitable flaws that require no authentication, with critical issues affecting Oracle Database Server, SQL Developer, and TimesTen In-Memory Database, among others. Microsoft has addressed CVE-2026-50522, a critical remote code execution vulnerability affecting on-premises SharePoint Server. An authenticated site owner can exploit the flaw to execute code and steal machine keys for persistent access. Active exploitation was reported after proof-of-concept code became publicly available. Check Point IPS provides protection against this threat (Microsoft SharePoint Remote
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 27th July – Threat Intelligence Report
+  - Published: 2026-07-27T16:00:39+00:00
+  - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
+
 ### Cluster d2bbfb6b89 — score 10
 
 - Title: Black Hat special: Rewind and revisit
@@ -2658,55 +2667,6 @@ IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack 
   - Published: 2026-07-28T10:00:01+00:00
   - Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
   - Summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
-
-### Cluster 85d2724fda — score 10
-
-- Title: 27th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-27T16:00:39+00:00
-- Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
-- cve_ids: CVE-2026-16232, CVE-2026-50522
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, Microsoft SharePoint
-- cve_ids: CVE-2026-16232, CVE-2026-50522
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July – Threat Intelligence Report July 27, 2026 https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, while the RansomHouse group claimed responsibility and published a subset of the stolen information. Stadler Rail, a Switzerland-based global rail equipment manufacturer, has disclosed a supplier-related data breach after attackers compromised credentials for a third-party file-sharing platform. The Everest group stole technical documents belonging to the supplier and demanded $12.3 million. Stadler refused payment and said its systems and production remained unaffected. Origin Energy, one of Australia’s largest electricity and natural gas providers, has confirmed unauthorized access to customer information. Exposed data may include names, addresses, birth dates, phone numbers, account details, and partial payment information. Threat actors claimed to have stolen two million records and threatened to publish them. Romania’s National Agency for Cadastre and Land Registration has suffered a cyberattack that disabled internal systems and the nationwide e-Terra platform. The disruption halted property transactions for nearly a week. Officials said core land registries remained intact, although credentials and portions of source code may have been exposed. AI THREATS OpenAI disclosed that AI models escaped a restricted cyber evaluation environment and compromised Hugging Face while seeking benchmark solutions. They exploited zero-day vulnerabilities, stole credentials, escalated privileges, and accessed production systems. Both companies contained the activity and are conducting a joint investigation. Researchers have described a threat actor known as Trim who promoted an AI-assisted penetration-testing platform built with jailbroken language models. The platform combines AI with established scanning tools to automate reconnaissance, vulnerability validation, and reporting, potentially reducing the expertise and time required to prepare and conduct cyber intrusions. Researchers have examined a generative AI-assisted malware operation exposed through an accessible WebDAV server. The infrastructure produced phishing material and malicious Windows shortcuts used to distribute information stealers and remote access tools. Researchers identified more than 1,000 artifacts and a campaign that recorded over 77,000 requests. VULNERABILITIES AND PATCHES Check Point has addressed CVE-2026-16232, an authentication bypass vulnerability in SmartConsole that is under active exploitation, affecting a handful of customers. The flaw allows remote attackers to bypass authentication and gain administrative access to Check Point management servers. Security hotfixes are available for supported versions of the affected management software. Oracle has released its July 2026 Critical Patch Update, addressing 1,449 vulnerabilities across numerous product families. The update includes remotely exploitable flaws that require no authentication, with critical issues affecting Oracle Database Server, SQL Developer, and TimesTen In-Memory Database, among others. Microsoft has addressed CVE-2026-50522, a critical remote code execution vulnerability affecting on-premises SharePoint Server. An authenticated site owner can exploit the flaw to execute code and steal machine keys for persistent access. Active exploitation was reported after proof-of-concept code became publicly available. Check Point IPS provides protection against this threat (Microsoft SharePoint Remote
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 27th July – Threat Intelligence Report
-  - Published: 2026-07-27T16:00:39+00:00
-  - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster f4490338d9 — score 10
 
@@ -3604,7 +3564,7 @@ Why Sophos Has Become Its Own AI Test Lab What that means for Customer Protectio
 - Source: Elastic Security Labs (detection_response_operations)
 - Published: 2026-07-31T23:59:59+00:00
 - Link: https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3621,6 +3581,12 @@ Why Sophos Has Become Its Own AI Test Lab What that means for Customer Protectio
 
 ```
 Attack Discovery turns raw alerts into validated threats and Elastic Defend closes vulnerable driver gaps as fast as they're disclosed. Watch it all run against real attacks at the booth.
+```
+
+#### Full body
+
+```
+31 July 2026 • Jackie McGuire Elastic goes all-in on Hacker Summer Camp at Black Hat and DEF CON in Las Vegas Attack Discovery turns raw alerts into validated threats and Elastic Defend closes vulnerable driver gaps as fast as they're disclosed. Watch it all run against real attacks at the booth. 7 min read Product Updates , Detection Engineering At Elastic, we know that the best way to build security tools is to bring them to the community, have security pros use them, and let them tell us what features and functionality matter and why. This year, we’re excited to do this at Black Hat and DEFCON, the weeklong security marathon affectionately known as Hacker Summer Camp. Our smartest technical experts and practitioners will be at Black Hat showing off our latest innovations, sponsoring and hosting events to help security experts and leaders connect, and at DEFCON’s Blue Team Village with our new Capture the Flag challenge to help defenders sharpen their investigation skills. This community-powered innovation is evident in everything we do. Elastic is a security tool built by security users, for security users. We’ve sat in the seat. We’ve worked the queue at 2 a.m. We’ve chased an alert that turned out to be nothing and missed the one that turned out to be everything. What we're continually building and improving is the security operations center (SOC) we wished we'd had back then. This means agents that carry the machine-speed work, leave critical judgment to analysts, and a platform that connects the two. With Elastic, machine speed and human judgment work together in a single loop. Stopping more at the endpoint reduces the number of alerts. Those that remain surface the real threats, and you can validate them before they reach a queue. The work underneath is increasingly automated. Each piece makes the next one lighter, and none of it asks you to hand judgment over to a black box. Alert Zero: From alert queue to validated threats Every SOC is chasing a queue worked down to what actually matters, the SOC's version of “inbox zero.” When we built our suite of tools, our goal was Alert Zero , a state that always felt out of reach. It’s a goal that teams move toward, with agents and analysts working together. It doesn’t mean zero alerts or replacing the analysts. How Attack Discovery investigates alerts like an analyst Attack Discovery has always pulled related alerts together into a single view of an attack. Now it goes further, working through them the way a human analyst would: Threat-hunts raw events beyond the initial alerts. Checks entity risk for the users and hosts involved. Corroborates findings across other data sources. Classifies the event as a validated attack. Your team gets a short list of validated attacks to work, instead of a wall of raw alerts to triage. Closing detection gaps with auto-drafted rules When Attack Discovery finds something that your rules missed, it drafts a detection rule to close the gap and hands it to an analyst to approve, helping to make the entire workflow more efficient and to reduce the source of false positives. Security teams need the how, not just the what , and Attack Discovery shows its work, so you can see how it got to each answer and recommended action. Every step of the reasoning is visible, so an analyst knows why an alert became an attack. You can run it however fits your team, whether you kick it off yourself or set a recurring cadence. You can even trigger it from Elastic Workflows. A separate alert analysis workflow addresses the volume from the other side, differentiating between likely false and true positives, so analysts lose fewer hours to low-fidelity alerts, and leaving Attack Discovery a cleaner set to investigate. Elastic Defend endpoint protection: vulnerable driver coverage and Windows on ARM Fewer alerts reach the queue when more threats are stopped on the device, so prevention starts at the endpoint. Vulnerable driver coverage that keeps pace with disclosure E
 ```
 
 #### Corroborating sources (1)
