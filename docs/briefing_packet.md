@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-02T13:41:59.107178+00:00
+- Generated: 2026-08-02T15:07:59.146936+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
 - Total items in window: 362
-- Total clusters raw: 161
-- Total clusters in packet: 77
+- Total clusters raw: 160
+- Total clusters in packet: 76
 - Dropped low score: 84
 - Dropped overflow: 0
 
@@ -75,6 +75,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -95,76 +100,66 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
   - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 10
+  - In window count: 4
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 2
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -175,16 +170,21 @@
   - Status: ok
   - Item count: 50
   - In window count: 2
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,11 +195,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -215,16 +210,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 6
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -235,16 +235,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -255,16 +255,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -280,11 +280,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -295,76 +290,96 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 17
+  - Item count: 100
+  - In window count: 8
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 17
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 29
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 50
+  - In window count: 28
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -375,23 +390,13 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -400,8 +405,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,21 +420,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 24
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 28
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -440,6 +430,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 24
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -535,13 +535,13 @@
   - affected_products: Microsoft SharePoint, Cisco, OpenAI/ChatGPT
   - cve_ids: CVE-2026-50522
   - urgency_signals: actively_exploited, zero_day, poc_available
-- Cluster IDs: e2f6a950f1, 85d2724fda, 7d478340af, b138851666
+- Cluster IDs: e2f6a950f1, 7d478340af, 85d2724fda, b138851666
 - Links:
   - https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/
   - https://www.infosecurity-magazine.com/news/phishing-dominates-initial-entry/
-  - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - https://blog.talosintelligence.com/ir-trends-q2-2026/
+  - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
 
 ### Cisco active exploitation
@@ -708,24 +708,21 @@
   - https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
   - https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/
 
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
+### Kubernetes vulnerability activity
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
 - Cluster count: 2
-- Article count: 5
-- Cohesion: 0.553
-- Shared strong signals: ShinyHunters
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Kubernetes
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, data_breach
-  - actor_attribution: ShinyHunters
-  - affected_industries: healthcare
-- Cluster IDs: 73084b3bd7, cef34fdd67
+  - affected_products: Kubernetes
+- Cluster IDs: c7d4f5e8ea, 7dfa7dd627
 - Links:
-  - https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
-  - https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
-  - https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+  - https://www.elastic.co/security-labs/ai-agent-attack-detection-hugging-face-breach
+  - https://www.wiz.io/blog/atlas-ai-vulnerability-researcher
 
 ## Forward signals
 
@@ -776,9 +773,9 @@
   - New products: SolarWinds
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: GitHub, PyPI, npm
-- **ShinyHunters** (cluster 73084b3bd7)
-  - New industries: healthcare
-  - New products: (none)
+- **ShinyHunters** (cluster cef34fdd67)
+  - New industries: critical_infrastructure, healthcare
+  - New products: AWS, OpenAI/ChatGPT
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 - **Black Basta** (cluster 3ed06f107d)
@@ -788,7 +785,7 @@
   - Prior top products: Salesforce, Ubiquiti UniFi, WordPress
 
 ### Persistence (6)
-- actor_attribution: ShinyHunters (weeks observed: 9, cluster 73084b3bd7)
+- actor_attribution: ShinyHunters (weeks observed: 9, cluster cef34fdd67)
 - actor_attribution: TeamPCP (weeks observed: 7, cluster 4c8ed8c5fa)
 - actor_attribution: LockBit (weeks observed: 4, cluster f6cd02268d)
 - actor_attribution: APT29 (weeks observed: 3, cluster 4c8ed8c5fa)
@@ -1976,6 +1973,51 @@ AWS Security Blog Secure your npm and pip package updates in Amazon Linux If you
   - Link: https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/
   - Summary: If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can’t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and removed within hours. However, while those packages were available to the general public, it’s […]
 
+### Cluster 8553a0e574 — score 12
+
+- Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
+- Source: Intel 471 (ransomware_ecrime_financial_crime)
+- Published: 2026-07-28T11:00:00+00:00
+- Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain
+- actor_attribution: TeamPCP
+- affected_products: GitHub, GitLab, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft
+- actor_attribution: TeamPCP
+- affected_products: GitHub, GitLab, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
+```
+
+#### Full body
+
+```
+Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s
+```
+
+#### Corroborating sources (1)
+
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
+  - Published: 2026-07-28T11:00:00+00:00
+  - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
+  - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
+
 ### Cluster 2d87c8dc74 — score 12
 
 - Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
@@ -2065,51 +2107,6 @@ Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities E
   - Published: 2026-07-29T10:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
   - Summary: For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said
-
-### Cluster 8553a0e574 — score 12
-
-- Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
-- Source: Intel 471 (ransomware_ecrime_financial_crime)
-- Published: 2026-07-28T11:00:00+00:00
-- Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- actor_attribution: TeamPCP
-- affected_products: GitHub, GitLab, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- actor_attribution: TeamPCP
-- affected_products: GitHub, GitLab, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
-```
-
-#### Full body
-
-```
-Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s
-```
-
-#### Corroborating sources (1)
-
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
-  - Published: 2026-07-28T11:00:00+00:00
-  - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
-  - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
 
 ### Cluster 94fd56afbc — score 11
 
@@ -2580,55 +2577,6 @@ Table of Contents Introduction Technical details Modus operandi Initial Access D
   - Link: https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/
   - Summary: Kaspersky experts dissect GenieLocker: new custom ransomware variants for Windows, Linux, and ESXi systems. We found this family in attacks by Toy Ghouls, a financially motivated extortion group.
 
-### Cluster 85d2724fda — score 10
-
-- Title: 27th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-27T16:00:39+00:00
-- Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
-- cve_ids: CVE-2026-16232, CVE-2026-50522
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, Microsoft SharePoint
-- cve_ids: CVE-2026-16232, CVE-2026-50522
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July – Threat Intelligence Report July 27, 2026 https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, while the RansomHouse group claimed responsibility and published a subset of the stolen information. Stadler Rail, a Switzerland-based global rail equipment manufacturer, has disclosed a supplier-related data breach after attackers compromised credentials for a third-party file-sharing platform. The Everest group stole technical documents belonging to the supplier and demanded $12.3 million. Stadler refused payment and said its systems and production remained unaffected. Origin Energy, one of Australia’s largest electricity and natural gas providers, has confirmed unauthorized access to customer information. Exposed data may include names, addresses, birth dates, phone numbers, account details, and partial payment information. Threat actors claimed to have stolen two million records and threatened to publish them. Romania’s National Agency for Cadastre and Land Registration has suffered a cyberattack that disabled internal systems and the nationwide e-Terra platform. The disruption halted property transactions for nearly a week. Officials said core land registries remained intact, although credentials and portions of source code may have been exposed. AI THREATS OpenAI disclosed that AI models escaped a restricted cyber evaluation environment and compromised Hugging Face while seeking benchmark solutions. They exploited zero-day vulnerabilities, stole credentials, escalated privileges, and accessed production systems. Both companies contained the activity and are conducting a joint investigation. Researchers have described a threat actor known as Trim who promoted an AI-assisted penetration-testing platform built with jailbroken language models. The platform combines AI with established scanning tools to automate reconnaissance, vulnerability validation, and reporting, potentially reducing the expertise and time required to prepare and conduct cyber intrusions. Researchers have examined a generative AI-assisted malware operation exposed through an accessible WebDAV server. The infrastructure produced phishing material and malicious Windows shortcuts used to distribute information stealers and remote access tools. Researchers identified more than 1,000 artifacts and a campaign that recorded over 77,000 requests. VULNERABILITIES AND PATCHES Check Point has addressed CVE-2026-16232, an authentication bypass vulnerability in SmartConsole that is under active exploitation, affecting a handful of customers. The flaw allows remote attackers to bypass authentication and gain administrative access to Check Point management servers. Security hotfixes are available for supported versions of the affected management software. Oracle has released its July 2026 Critical Patch Update, addressing 1,449 vulnerabilities across numerous product families. The update includes remotely exploitable flaws that require no authentication, with critical issues affecting Oracle Database Server, SQL Developer, and TimesTen In-Memory Database, among others. Microsoft has addressed CVE-2026-50522, a critical remote code execution vulnerability affecting on-premises SharePoint Server. An authenticated site owner can exploit the flaw to execute code and steal machine keys for persistent access. Active exploitation was reported after proof-of-concept code became publicly available. Check Point IPS provides protection against this threat (Microsoft SharePoint Remote
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 27th July – Threat Intelligence Report
-  - Published: 2026-07-27T16:00:39+00:00
-  - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster d2bbfb6b89 — score 10
 
 - Title: Black Hat special: Rewind and revisit
@@ -2710,6 +2658,55 @@ IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack 
   - Published: 2026-07-28T10:00:01+00:00
   - Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
   - Summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
+
+### Cluster 85d2724fda — score 10
+
+- Title: 27th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-27T16:00:39+00:00
+- Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
+- cve_ids: CVE-2026-16232, CVE-2026-50522
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: OpenAI/ChatGPT, Microsoft SharePoint
+- cve_ids: CVE-2026-16232, CVE-2026-50522
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July – Threat Intelligence Report July 27, 2026 https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, while the RansomHouse group claimed responsibility and published a subset of the stolen information. Stadler Rail, a Switzerland-based global rail equipment manufacturer, has disclosed a supplier-related data breach after attackers compromised credentials for a third-party file-sharing platform. The Everest group stole technical documents belonging to the supplier and demanded $12.3 million. Stadler refused payment and said its systems and production remained unaffected. Origin Energy, one of Australia’s largest electricity and natural gas providers, has confirmed unauthorized access to customer information. Exposed data may include names, addresses, birth dates, phone numbers, account details, and partial payment information. Threat actors claimed to have stolen two million records and threatened to publish them. Romania’s National Agency for Cadastre and Land Registration has suffered a cyberattack that disabled internal systems and the nationwide e-Terra platform. The disruption halted property transactions for nearly a week. Officials said core land registries remained intact, although credentials and portions of source code may have been exposed. AI THREATS OpenAI disclosed that AI models escaped a restricted cyber evaluation environment and compromised Hugging Face while seeking benchmark solutions. They exploited zero-day vulnerabilities, stole credentials, escalated privileges, and accessed production systems. Both companies contained the activity and are conducting a joint investigation. Researchers have described a threat actor known as Trim who promoted an AI-assisted penetration-testing platform built with jailbroken language models. The platform combines AI with established scanning tools to automate reconnaissance, vulnerability validation, and reporting, potentially reducing the expertise and time required to prepare and conduct cyber intrusions. Researchers have examined a generative AI-assisted malware operation exposed through an accessible WebDAV server. The infrastructure produced phishing material and malicious Windows shortcuts used to distribute information stealers and remote access tools. Researchers identified more than 1,000 artifacts and a campaign that recorded over 77,000 requests. VULNERABILITIES AND PATCHES Check Point has addressed CVE-2026-16232, an authentication bypass vulnerability in SmartConsole that is under active exploitation, affecting a handful of customers. The flaw allows remote attackers to bypass authentication and gain administrative access to Check Point management servers. Security hotfixes are available for supported versions of the affected management software. Oracle has released its July 2026 Critical Patch Update, addressing 1,449 vulnerabilities across numerous product families. The update includes remotely exploitable flaws that require no authentication, with critical issues affecting Oracle Database Server, SQL Developer, and TimesTen In-Memory Database, among others. Microsoft has addressed CVE-2026-50522, a critical remote code execution vulnerability affecting on-premises SharePoint Server. An authenticated site owner can exploit the flaw to execute code and steal machine keys for persistent access. Active exploitation was reported after proof-of-concept code became publicly available. Check Point IPS provides protection against this threat (Microsoft SharePoint Remote
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 27th July – Threat Intelligence Report
+  - Published: 2026-07-27T16:00:39+00:00
+  - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster f4490338d9 — score 10
 
@@ -3031,96 +3028,6 @@ Wiz Pricing Get a demo Get a demo Model Context Protocol has been rapidly gainin
   - Link: https://www.wiz.io/blog/the-risk-hiding-behind-exposed-mcp-servers
   - Summary: How unauthenticated Model Context Protocol (MCP) servers are opening doors to sensitive cloud data, IAM, and command execution.
 
-### Cluster 2126e62d58 — score 10
-
-- Title: Rails patches critical Active Storage flaw with RCE potential
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-01T14:20:30+00:00
-- Link: https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-66066
-- urgency_signals: poc_available, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-66066
-- urgency_signals: preauth_unauth, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]
-```
-
-#### Full body
-
-```
-Rails patches critical Active Storage flaw with RCE potential By Bill Toulas August 1, 2026 10:20 AM 0 A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). Rails is a popular open-source web application framework written in Ruby for building websites and web apps. It uses the built-in Rails component Active Storage for handling file uploads and attachments. Rails maintainers published an advisory about the CVE-2026-66066 flaw, which received a critical severity rating. Active Storage may also generate image thumbnails from uploaded media using image processing libraries such as libvips or ImageMagick . According to the security bulletin , CVE-2026-66066 is exploitable when libvips is used, allowing an attacker to upload a specially crafted image to a vulnerable application and read arbitrary files on the server. Another prerequisite for the attack is that the server needs to allow image uploads from untrusted users. If these requirements are met, an attacker may access app files, including the process environment, which typically contains ‘secret_key_base’ and credentials for databases, cloud storage, and other services. CVE-2026-66066 impacts Active Storage before 7.2.3.2, 8.0.x before 8.0.5.1, and 8.1.x before 8.1.3.1. Rails 6.x is only affected if Active Storage has been configured outside its defaults. The Rails team recommends upgrading to libvips 8.13 or later and rotating the ‘secret_key_base’ (the Rails master key), database credentials, Active Storage service credentials, and any other secrets accessible to the application process. For systems running libvips 8.13 or later, administrators can temporarily disable the vulnerable functionality by setting the VIPS_BLOCK_UNTRUSTED environment variable or calling Vips.block_untrusted(true) when using ruby-vips 2.2.1 or newer. There is no workaround available for apps that use libvips before 8.13. ImageMagick users are not affected by this vector. However, libvips is the default processor in the official Rails Docker images, and also Debian and Ubuntu setups. The Rails team said it has intentionally withheld technical details for the vulnerability to reduce the risk of exploitation before users have time to apply the updates. Full technical details were initially scheduled to be disclosed on August 28 on the Rails forums . However, because public proof-of-concept (PoC) exploits became available very quickly, the maintainers decided to publish the full details as well as forensic investigation tooling . The vulnerability was discovered and responsibly reported to the Rails team by researchers from Ethiack and GMO Flatt Security Inc. Security firm Akamai has also published a warning about CVE-2026-66066, naming the attack chain “KindaRails2Shell,” and warning about its RCE potential. “With the secret_key_base compromised, the attacker holds the master cryptographic key to the application,” explains Akamai . “They can forge session cookies, sign global IDs, and manipulate serialized data, which directly translates into full RCE on the underlying server.” Akamai says it coordinated with Ethiack before public disclosure to prepare protections for customers, and has now released web application firewall (WAF) protections. Ethiack noted that a WAF might buy admins some time, but attackers using AI tooling should be able to reconstruct the attack chain based on the patch diffs. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: JetBrains warns of critical TeamCity remote code execution flaw vBulletin fixes critical pre-auth RCE flaw with public exploit Hackers target US firm
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Rails patches critical Active Storage flaw with RCE potential
-  - Published: 2026-08-01T14:20:30+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
-  - Summary: A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]
-
-### Cluster 73084b3bd7 — score 10
-
-- Title: ShinyHunters claims Brinks Home breach, threatens to leak stolen data
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-30T16:46:15+00:00
-- Link: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: ShinyHunters
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare
-- affected_products: Microsoft Entra, Salesforce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare
-- affected_products: Salesforce, Microsoft Entra
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]
-```
-
-#### Full body
-
-```
-ShinyHunters claims Brinks Home breach, threatens to leak stolen data By Ionut Ilascu July 30, 2026 12:46 PM 1 Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. ​The company identified the attack on July 20 and immediately activated its incident response procedure to contain the breach. William Niles, CEO at Brinks Home, said that the company’s team was working with “leading forensics experts to address this issue.” The intrusion did not impact in any way the company’s alarm monitoring and system functionality. At the beginning of the week, the ShinyHunters extortion gang claimed the attack on Brinks Home, alleging that they stole more than 4.9 million Salesforce records with personally identifiable information (PII). Brinks Home listed on ShinyHunters data leak site source: BleepingComputer Brinks Home generates approximately $830 million in annual revenue, employs up to 1,500 people, and provides home security services to more than 1 million customers across the United States, Canada, and Puerto Rico. ​It provides home security systems and services, like sensors, panels, and cameras, as well as smart home automation products (e.g., locks, thermostats, plugs). In a conversation with BleepingComputer, ShinyHunters said that they breached Brinks Home on July 13 in a Microsoft Entra voice phishing (vishing) attack. During this type of social engineering attack, the threat actor calls an employee and convinces them to complete a Microsoft Entra authentication or registration process, resulting in the hacker getting access to the victim’s account. According to the threat actor, they exfiltrated more than 1.1 million rows of customer data from the "Contacts" Salesforce Object. ShinyHunters also said that they stole more than 4,000 rows of PII data associated with Brinks Home employees, including full names, email addresses, job titles, and phone numbers. Additionally, the extortion group claimed to have stolen more than 3.8 million customer support chat logs from the Brinks Care Cresta instance. BleepingComputer has not reviewed any of the data allegedly stolen from Brinks Home and has been unable to verify the accuracy of Shiny Hunter's claims. However, Brinks Home confirmed that the attacker “has threatened to release information it claims to have taken” and that “such material may be posted publicly.” In the latest updates on the incident, the company said that it was investigating and had “not yet confirmed exactly what information was involved or whose.” “If we determine that your information was affected, we will notify you and explain what steps, if any, you should take,” Brinks Home says in an FAQ for the incident. The company is warning that threat actors may exploit the incident by sending fraudulent messages impersonating Brinks Home or other parties involved in the response. Customers are advised not to respond to suspicious communication or click on any links and to delete the message instead. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare Ernst & Young data breach claimed by ShinyHunters extortion gang DentaQuest data breach exposed info of 2.6 million accounts ShinyHunters data leaks fuel $2,000 sextortion email scam Abbott probes two cyber incidents amid extortion claims
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: ShinyHunters claims Brinks Home breach, threatens to leak stolen data
-  - Published: 2026-07-30T16:46:15+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
-  - Summary: Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]
-
 ### Cluster cef34fdd67 — score 10
 
 - Title: CareCloud Data Breach Impacts Over 350,000
@@ -3246,6 +3153,49 @@ For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Th
   - Published: 2026-07-28T07:42:27+00:00
   - Link: https://isc.sans.edu/diary/rss/33192
   - Summary: For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you'll see below.
+
+### Cluster 2126e62d58 — score 9
+
+- Title: Rails patches critical Active Storage flaw with RCE potential
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-01T14:20:30+00:00
+- Link: https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-66066
+- urgency_signals: poc_available, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-66066
+- urgency_signals: preauth_unauth, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]
+```
+
+#### Full body
+
+```
+Rails patches critical Active Storage flaw with RCE potential By Bill Toulas August 1, 2026 10:20 AM 0 A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). Rails is a popular open-source web application framework written in Ruby for building websites and web apps. It uses the built-in Rails component Active Storage for handling file uploads and attachments. Rails maintainers published an advisory about the CVE-2026-66066 flaw, which received a critical severity rating. Active Storage may also generate image thumbnails from uploaded media using image processing libraries such as libvips or ImageMagick . According to the security bulletin , CVE-2026-66066 is exploitable when libvips is used, allowing an attacker to upload a specially crafted image to a vulnerable application and read arbitrary files on the server. Another prerequisite for the attack is that the server needs to allow image uploads from untrusted users. If these requirements are met, an attacker may access app files, including the process environment, which typically contains ‘secret_key_base’ and credentials for databases, cloud storage, and other services. CVE-2026-66066 impacts Active Storage before 7.2.3.2, 8.0.x before 8.0.5.1, and 8.1.x before 8.1.3.1. Rails 6.x is only affected if Active Storage has been configured outside its defaults. The Rails team recommends upgrading to libvips 8.13 or later and rotating the ‘secret_key_base’ (the Rails master key), database credentials, Active Storage service credentials, and any other secrets accessible to the application process. For systems running libvips 8.13 or later, administrators can temporarily disable the vulnerable functionality by setting the VIPS_BLOCK_UNTRUSTED environment variable or calling Vips.block_untrusted(true) when using ruby-vips 2.2.1 or newer. There is no workaround available for apps that use libvips before 8.13. ImageMagick users are not affected by this vector. However, libvips is the default processor in the official Rails Docker images, and also Debian and Ubuntu setups. The Rails team said it has intentionally withheld technical details for the vulnerability to reduce the risk of exploitation before users have time to apply the updates. Full technical details were initially scheduled to be disclosed on August 28 on the Rails forums . However, because public proof-of-concept (PoC) exploits became available very quickly, the maintainers decided to publish the full details as well as forensic investigation tooling . The vulnerability was discovered and responsibly reported to the Rails team by researchers from Ethiack and GMO Flatt Security Inc. Security firm Akamai has also published a warning about CVE-2026-66066, naming the attack chain “KindaRails2Shell,” and warning about its RCE potential. “With the secret_key_base compromised, the attacker holds the master cryptographic key to the application,” explains Akamai . “They can forge session cookies, sign global IDs, and manipulate serialized data, which directly translates into full RCE on the underlying server.” Akamai says it coordinated with Ethiack before public disclosure to prepare protections for customers, and has now released web application firewall (WAF) protections. Ethiack noted that a WAF might buy admins some time, but attackers using AI tooling should be able to reconstruct the attack chain based on the patch diffs. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: JetBrains warns of critical TeamCity remote code execution flaw vBulletin fixes critical pre-auth RCE flaw with public exploit Hackers target US firm
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Rails patches critical Active Storage flaw with RCE potential
+  - Published: 2026-08-01T14:20:30+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
+  - Summary: A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]
 
 ### Cluster 532de505b8 — score 9
 
@@ -3513,16 +3463,16 @@ Wiz Pricing Get a demo Get a demo Wiz Research uncovered CosmosEscape , a critic
   - Published: 2026-07-31T09:04:02+00:00
   - Link: https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/
   - Summary: Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access. The post Critical Flaw Allowed to Azure Cosmos DB Pwnage appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
-  - Published: 2026-07-30T13:34:09+00:00
-  - Link: https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
-  - Summary: A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz. Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: 'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure
   - Published: 2026-07-27T20:57:26+00:00
   - Link: https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
   - Summary: This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
+  - Published: 2026-07-30T13:34:09+00:00
+  - Link: https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
+  - Summary: A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz. Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a
 
 ### Cluster c99323e585 — score 8
 
@@ -3613,16 +3563,18 @@ Chaos in Teams vishing Attackers used Microsoft Teams vishing, custom malware, a
 - Source: Sophos X-Ops (detection_response_operations)
 - Published: 2026-07-27T00:00:00+00:00
 - Link: https://www.sophos.com/en-us/blog/2607-secai
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_industries: government, legal_professional
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- affected_industries: government, legal_professional
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3630,6 +3582,12 @@ Chaos in Teams vishing Attackers used Microsoft Teams vishing, custom malware, a
 
 ```
 <p>What that means for Customer Protections </p> Categories: Threat Research, AI Research
+```
+
+#### Full body
+
+```
+Why Sophos Has Become Its Own AI Test Lab What that means for Customer Protections Written by Ross McKerchar Threat Research AI Research Share This Link Copied Every security vendor will tell you about the AI in their products. Far fewer will tell you how their own people use AI — which agents run in their engineering pipelines, what data those agents can touch, and who decided that was acceptable. That second conversation, in our view, is as important. When you onboard a vendor, you don't just inherit their software; you inherit their judgment. So here is how Sophos adopts AI internally: how we think about the risks, how we govern them, and where we're still learning. Why we run at the leading edge It would be easy for a security company to be the cautious one — to let others make the mistakes and write up the lessons afterwards. We've deliberately taken the opposite position: for Sophos, the greater risk is standing still . Our customers are deploying AI agents in production now. If we want to keep protecting them, we have to understand the risks firsthand — ideally before they encounter them. We run AI in production because you cannot defend against what you've never operated. The prompt-injection paths, the over-privileged tool calls, the non-human identities that quietly accumulate access — these only become intuitive once you've run agents against real work, watched them fail, and instrumented the failures. It's why we point agentic tooling at our own estate before anyone else's: we've let an autonomous agent framework loose on an internal network to see what it could reach, used frontier models to hunt for vulnerabilities in our own products before adversaries get the same uplift, and rethought what bug bounties look like when AI finds the bugs . Everything we learn improves the detections we ship and shapes where the product roadmap goes next, in order to support our customers. This holds for the whole company, but doubly for the security team. If a security team can't work out how to adopt AI safely and quickly, it's hard to see who will. A CISO organisation that bans what it doesn't understand risks understanding very little within a couple of years. And with an AI-accelerated vulnerability flood already arriving , the defenders who've built that understanding will be the ones who cope. How we think about risk: a compass, not a checklist Running at the front without judgment is just recklessness. Internally, our risk philosophy fits on a page and is summed up in seven words: take smarter risks, deliver faster, earn trust . The core of it is a distinction between good risks and bad ones. Good risks have meaningful upside, a contained blast radius, a reversible path, a named owner, and a hypothesis we'll actually learn from. Bad risks have unbounded harm, no recovery plan, unclear ownership — or they skip human judgment: automated or agentic changes that directly touch customers without sufficient oversight are a bad risk regardless of the upside on offer. Most decisions don't announce themselves as either. So we map every bet onto a simple compass — two axes: upside (high or low) and downside (contained or unbounded). Figure 1: Sophos’ risk compass The reality is that most of today's agentic AI bets start in the top-right quadrant: high upside, unbounded downside. The discipline is to shrink the blast radius until they move left: read-only before write, internal before customer-facing, one workflow before a fleet. The work is in the de-risking, not the gatekeeping. Around the compass sit five non-negotiables — customer trust, safety, security, privacy, and operational stability — with legal and compliance woven through each. Being uncompromising about those is precisely what lets us be aggressive everywhere else. When you evaluate any vendor's AI posture, this is the structure worth looking for: a clear framework for saying yes, anchored by explicit boundaries for saying no. The AI Safety Board: governance at the spee
 ```
 
 #### Corroborating sources (1)
@@ -3881,6 +3839,80 @@ South Korea's Personal Information Protection Commission (PIPC) has fined teleco
   - Link: https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/
   - Summary: South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]
 
+### Cluster 39354a1568 — score 8
+
+- Title: AI Agent Drives Espionage Attack on Thai Ministry of Finance
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-28T01:00:00+00:00
+- Link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mode" to conduct espionage against Thailand's Ministry of Finance.
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: AI Agent Drives Espionage Attack on Thai Ministry of Finance
+  - Published: 2026-07-28T01:00:00+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
+  - Summary: Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mode" to conduct espionage against Thailand's Ministry of Finance.
+
+### Cluster 361cf175a3 — score 8
+
+- Title: Adversaries Don't Need a Zero-Day — They Read Your Rulebook
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-27T17:31:18+00:00
+- Link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Confidence in autonomous security tools is declining, and here's why.
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Adversaries Don't Need a Zero-Day — They Read Your Rulebook
+  - Published: 2026-07-27T17:31:18+00:00
+  - Link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
+  - Summary: Confidence in autonomous security tools is declining, and here's why.
+
 ### Cluster 73e9449bb7 — score 8
 
 - Title: Report As You Go: Maintaining Good Documentation for SOC Analysts
@@ -4088,80 +4120,6 @@ Coca Cola claims data was stolen from its Fairlife business after a recent ranso
   - Published: 2026-07-28T11:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/
   - Summary: Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack
-
-### Cluster 39354a1568 — score 8
-
-- Title: AI Agent Drives Espionage Attack on Thai Ministry of Finance
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-28T01:00:00+00:00
-- Link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mode" to conduct espionage against Thailand's Ministry of Finance.
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: AI Agent Drives Espionage Attack on Thai Ministry of Finance
-  - Published: 2026-07-28T01:00:00+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
-  - Summary: Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mode" to conduct espionage against Thailand's Ministry of Finance.
-
-### Cluster 361cf175a3 — score 8
-
-- Title: Adversaries Don't Need a Zero-Day — They Read Your Rulebook
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-27T17:31:18+00:00
-- Link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Confidence in autonomous security tools is declining, and here's why.
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Adversaries Don't Need a Zero-Day — They Read Your Rulebook
-  - Published: 2026-07-27T17:31:18+00:00
-  - Link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
-  - Summary: Confidence in autonomous security tools is declining, and here's why.
 
 ### Cluster fa1ef247b7 — score 8
 
