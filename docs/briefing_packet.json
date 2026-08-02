@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T17:07:29.675673+00:00",
+  "generated_at": "2026-08-02T19:20:04.508574+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 75,
-  "total_items_in_window": 360,
-  "total_clusters_raw": 158,
-  "total_clusters_in_packet": 75,
+  "feeds_ok": 76,
+  "total_items_in_window": 362,
+  "total_clusters_raw": 159,
+  "total_clusters_in_packet": 76,
   "dropped_low_score": 83,
   "dropped_overflow": 0,
   "cohort_metadata": {
@@ -74,13 +74,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -88,12 +81,12 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -102,8 +95,29 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 1
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -116,12 +130,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -130,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -151,18 +165,32 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 2
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 2
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 2
     },
     "Volexity": {
@@ -172,32 +200,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -207,18 +214,11 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
+      "item_count": 10,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -226,6 +226,13 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -277,12 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "fetch_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -290,13 +297,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 11
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -312,25 +312,25 @@
       "item_count": 20,
       "in_window_count": 9
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "Protect AI": {
@@ -361,13 +361,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -382,19 +375,26 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -431,27 +431,6 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 29
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -465,6 +444,27 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 29
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -480,12 +480,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -494,6 +494,13 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -501,12 +508,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -514,13 +521,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -535,13 +535,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -571,12 +564,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 24
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -585,12 +578,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 24
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 17
+      "in_window_count": 18
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -3254,6 +3254,115 @@
       ]
     },
     {
+      "cluster_id": "06319fc0de",
+      "priority_score": 15,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "supply_chain",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Ivanti"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Trend Micro Research",
+        "cohort": "threat_research_primary",
+        "title": "TrendAI™ Reports Nation-State Activity in H1 2026 APT Activity Roundup",
+        "link": "https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup",
+        "published": "2026-07-29T13:00:00+00:00",
+        "summary": "",
+        "full_body": "arrow_back search close Newsroom Media Coverage Global Press Releases Local Press Releases Stay connected with press releases from Trend teams in your region. Media Contacts Investor Relations TrendAI™ Reports Nation-State Activity in H1 2026 APT Activity Roundup Generative AI is now sharpening nation-state exploits and powering autonomous reconnaissance, mid-year findings show DALLAS , July 29, 2026 / PRNewswire / -- TrendAI™, the global AI security leader and enterprise business unit of Trend Micro Incorporated (TYO: 4704; TSE: 4704), today released its H1 2026 APT Activity Roundup. The mid-year findings on the H1 2026 threat landscape showed that AI has moved beyond isolated experiments. Nation states used AI in more stages of the intrusion lifecycle than any other prior half TrendAI™ has tracked. Between January and June 2026, TrendAI™ detected the following APT (advanced persistent threat) nation-state activity: China-aligned threat actors used generative AI to sharpen exploits and iteratively build malware through vibe coding. One AI agent independently ran its own reconnaissance and lateral movement inside a target network. Russia-aligned Pawn Storm opened the year with an Office zero-day vulnerability and kept pressing Ukraine and its partners across government, defense, and wartime-aid organizations. DPRK-aligned actors folded commercial AI into their operations and poisoned a widely used software package to reach downstream developers. Iran-aligned Earth Vetala scanned for a newly disclosed Ivanti vulnerability within days of its release, and other Iran-aligned actors carried out hands-on attacks against internet-exposed operational technology, tampering with fuel-tank gauges at sites in the United States. Robert McArdle, Director of Cybercrime Research at TrendAI ™ : \"Artificial intelligence has stopped being a side tool for attackers and has become a teammate embedded in the operation itself. We are watching nation-state actors hand reconnaissance and lateral movement to an AI agent, and use generative models to iterate on malware the way a developer ships code. Defenders now have to assume the adversary on the other end of an intrusion may not be a person typing commands, but a system executing a plan.\" Key findings include: AI now touches more stages of the intrusion lifecycle, from exploit development to autonomous reconnaissance and lateral movement Known and zero-day vulnerabilities are weaponized within days of disclosure, and the software supply chain remains a favored entry point Operational technology and physical-world targets — including fuel-tank monitoring systems — are back in attackers' crosshairs A newer tracking method, ADINT, harvests location and device data from online ad auctions without deploying any malware Threat actors increasingly hide command-and-control on trusted cloud platforms, developer tunnels, blockchains, and paste sites Malware-as-a-service and shared tooling make attribution harder, even as nation-state motives remain durable through year end To read a full copy of the report, visit our website . About TrendAI™ TrendAI™ , the global AI security leader and enterprise business unit of Trend Micro , empowers organizations with full AI visibility and consolidated security that inspires confidence, drives innovation, and eliminates risk. Trusted by the largest enterprises and governments across 185 countries, TrendAI™ secures the entire organization, from identities to infrastructure to data. AI Fearlessly. trendaisecurity.com SOURCE TrendAI For further information: For further information: Trend Micro Communications, media_relations@trendmicro.com Try our services free for 30 days Start your free trial today LinkedIn Facebook Twitter Instagram YouTube Resources Blog Newsroom Threat Reports Find a Partner Support Business Support Portal Contact Us Downloads Free Trials About Trend About us Careers Locations Upcoming Events Trust Center Select a country / region United States Close Me",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "zero_day",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "Ivanti"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Ivanti": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Trend Micro Research",
+          "cohort": "threat_research_primary",
+          "title": "TrendAI™ Reports Nation-State Activity in H1 2026 APT Activity Roundup",
+          "link": "https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup",
+          "published": "2026-07-29T13:00:00+00:00",
+          "summary": "",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "zero_day",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "Ivanti"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Ivanti": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "304bd4a378",
       "priority_score": 15,
       "member_count": 1,
@@ -4085,6 +4194,118 @@
       ]
     },
     {
+      "cluster_id": "8553a0e574",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "TeamPCP"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "GitLab",
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Intel 471",
+        "cohort": "ransomware_ecrime_financial_crime",
+        "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
+        "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
+        "published": "2026-07-28T11:00:00+00:00",
+        "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
+        "full_body": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "credential_theft"
+          ],
+          "actor_attribution": [
+            "TeamPCP"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub",
+            "GitLab",
+            "npm"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "GitHub": "target",
+            "GitLab": "target",
+            "npm": "target",
+            "PyPI": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Intel 471",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
+          "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
+          "published": "2026-07-28T11:00:00+00:00",
+          "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "credential_theft"
+            ],
+            "actor_attribution": [
+              "TeamPCP"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub",
+              "GitLab",
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "GitHub": "target",
+              "GitLab": "target",
+              "npm": "target",
+              "PyPI": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b61889968b",
       "priority_score": 12,
       "member_count": 1,
@@ -4192,118 +4413,6 @@
               "WordPress": "target",
               "OpenAI/ChatGPT": "target",
               "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8553a0e574",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub",
-          "GitLab",
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Intel 471",
-        "cohort": "ransomware_ecrime_financial_crime",
-        "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
-        "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-        "published": "2026-07-28T11:00:00+00:00",
-        "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
-        "full_body": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "credential_theft"
-          ],
-          "actor_attribution": [
-            "TeamPCP"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub",
-            "GitLab",
-            "npm"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "GitHub": "target",
-            "GitLab": "target",
-            "npm": "target",
-            "PyPI": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Intel 471",
-          "cohort": "ransomware_ecrime_financial_crime",
-          "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
-          "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-          "published": "2026-07-28T11:00:00+00:00",
-          "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "credential_theft"
-            ],
-            "actor_attribution": [
-              "TeamPCP"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "GitLab",
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "GitHub": "target",
-              "GitLab": "target",
-              "npm": "target",
-              "PyPI": "target"
             },
             "weak_tags": {
               "products": []
@@ -4881,6 +4990,93 @@
       ]
     },
     {
+      "cluster_id": "d7e33e13d3",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Enhancing AI security through global AI red teaming",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+        "published": "2026-07-27T16:25:00+00:00",
+        "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Tags Frontier AI models Content types Research Products and services Microsoft Security Copilot Topics Actionable threat insights Most AI safety testing still happens inside the walls of individual organizations. That has resulted in a fundamental disconnect: many of the highest-risk failure modes in modern AI systems require deep domain expertise, multilingual context, or regional understanding that no single internal team can fully replicate on its own. As frontier models become more capable, the attack surface expands with them. AI red teaming is no longer just about prompt injection or content safety edge cases. It increasingly involves security operations, misuse scenarios, multilingual harms, alignment failures, and domain-specific abuse patterns that can vary significantly across geographies and languages. Microsoft’s AI Red Team has observed that meaningful testing of advanced AI systems- and models similarly requires broader participation from researchers and practitioners who operate outside traditional corporate security boundaries. To address that gap, today we are announcing the External Red Team Alliance (EXTRA), a formalized global extension of Microsoft’s AI Red Team designed to support and encourage external expertise to advance AI safety and security testing. We are proud to share we are funding the development of new AI safety assessments on six continents through unrestricted gifts. Building a global alliance EXTRA is a two-part initiative focused on expanding AI safety research and strengthening external collaboration. The first component supports a global academic network focused on advancing AI safety and security research. Microsoft’s AI Red Team has provided unrestricted gifts to 18 university labs spanning six continents. The goal is intentionally broad: support researchers who are already investigating difficult, unresolved questions in AI safety and help them continue pushing that work forward independently. Some of the supporting institutions include: Carnegie Mellon University Security and Privacy Institute (CyLab) , United States Georgetown University – Georgetown Security Lab (SecLab) , United States Harvard University Berkman Klein Center for Internet & Society (BKC) , United States Howard University Research Institute for Tactical Autonomy (RITA) , United States Indian Institute of Technology Madras – Centre for Responsible AI (CeRAI) , India Korea Advanced Institute of Science & Technology – KAIST Web Security & Privacy (WSP) Lab , Korea New York University – NYU Alignment Research Group (ARG) , United States Northeastern University Network and Distributed Systems Security (NDS2) Lab, United States University College London – UCL Information Security Research Group (UCL ISec) , United Kingdom University of Cagliari Pattern Recognition and Applications (PRA) Lab , Italy University of California – Berkeley Risk and Security Lab; Center for Responsible, Decentralized Intelligence (CRDI) , United States University of Melbourne Artificial Intelligence Assurance Lab , Australia University of Pretoria Data Science for Social Impact (DSFSI) Research Group , South Africa University of São Paulo Center for Artificial Intelligence (C4AI) , Brazil University of Toronto CleverHans Lab , Canada University of Washington Department of Human Centered Design & Engineering (HCDE) , United States “Academic research is critical to understanding the cyber security landscape and finding solutions that work for all of society – and partnerships like this with industry are essential to delivering on that promise. Through partnerships, civil society and public institutions researchers gain access to frontier technology to understand how models work and bring their expertise to the task of determining risk and developing more effective countermeasures for the benefit of society as a whole.” Nicolas Papernot, professor, University of Toronto. The second component of EXTRA focuses on opera",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Enhancing AI security through global AI red teaming",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+          "published": "2026-07-27T16:25:00+00:00",
+          "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "75acd25c40",
       "priority_score": 10,
       "member_count": 1,
@@ -4984,93 +5180,6 @@
                   0.26
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d7e33e13d3",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Enhancing AI security through global AI red teaming",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-        "published": "2026-07-27T16:25:00+00:00",
-        "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Frontier AI models Content types Research Products and services Microsoft Security Copilot Topics Actionable threat insights Most AI safety testing still happens inside the walls of individual organizations. That has resulted in a fundamental disconnect: many of the highest-risk failure modes in modern AI systems require deep domain expertise, multilingual context, or regional understanding that no single internal team can fully replicate on its own. As frontier models become more capable, the attack surface expands with them. AI red teaming is no longer just about prompt injection or content safety edge cases. It increasingly involves security operations, misuse scenarios, multilingual harms, alignment failures, and domain-specific abuse patterns that can vary significantly across geographies and languages. Microsoft’s AI Red Team has observed that meaningful testing of advanced AI systems- and models similarly requires broader participation from researchers and practitioners who operate outside traditional corporate security boundaries. To address that gap, today we are announcing the External Red Team Alliance (EXTRA), a formalized global extension of Microsoft’s AI Red Team designed to support and encourage external expertise to advance AI safety and security testing. We are proud to share we are funding the development of new AI safety assessments on six continents through unrestricted gifts. Building a global alliance EXTRA is a two-part initiative focused on expanding AI safety research and strengthening external collaboration. The first component supports a global academic network focused on advancing AI safety and security research. Microsoft’s AI Red Team has provided unrestricted gifts to 18 university labs spanning six continents. The goal is intentionally broad: support researchers who are already investigating difficult, unresolved questions in AI safety and help them continue pushing that work forward independently. Some of the supporting institutions include: Carnegie Mellon University Security and Privacy Institute (CyLab) , United States Georgetown University – Georgetown Security Lab (SecLab) , United States Harvard University Berkman Klein Center for Internet & Society (BKC) , United States Howard University Research Institute for Tactical Autonomy (RITA) , United States Indian Institute of Technology Madras – Centre for Responsible AI (CeRAI) , India Korea Advanced Institute of Science & Technology – KAIST Web Security & Privacy (WSP) Lab , Korea New York University – NYU Alignment Research Group (ARG) , United States Northeastern University Network and Distributed Systems Security (NDS2) Lab, United States University College London – UCL Information Security Research Group (UCL ISec) , United Kingdom University of Cagliari Pattern Recognition and Applications (PRA) Lab , Italy University of California – Berkeley Risk and Security Lab; Center for Responsible, Decentralized Intelligence (CRDI) , United States University of Melbourne Artificial Intelligence Assurance Lab , Australia University of Pretoria Data Science for Social Impact (DSFSI) Research Group , South Africa University of São Paulo Center for Artificial Intelligence (C4AI) , Brazil University of Toronto CleverHans Lab , Canada University of Washington Department of Human Centered Design & Engineering (HCDE) , United States “Academic research is critical to understanding the cyber security landscape and finding solutions that work for all of society – and partnerships like this with industry are essential to delivering on that promise. Through partnerships, civil society and public institutions researchers gain access to frontier technology to understand how models work and bring their expertise to the task of determining risk and developing more effective countermeasures for the benefit of society as a whole.” Nicolas Papernot, professor, University of Toronto. The second component of EXTRA focuses on opera",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Enhancing AI security through global AI red teaming",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-          "published": "2026-07-27T16:25:00+00:00",
-          "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -7758,8 +7867,8 @@
         "link": "https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026",
         "published": "2026-07-31T23:59:59+00:00",
         "summary": "Attack Discovery turns raw alerts into validated threats and Elastic Defend closes vulnerable driver gaps as fast as they're disclosed. Watch it all run against real attacks at the booth.",
-        "full_body": "31 July 2026 • Jackie McGuire Elastic goes all-in on Hacker Summer Camp at Black Hat and DEF CON in Las Vegas Attack Discovery turns raw alerts into validated threats and Elastic Defend closes vulnerable driver gaps as fast as they're disclosed. Watch it all run against real attacks at the booth. 7 min read Product Updates , Detection Engineering At Elastic, we know that the best way to build security tools is to bring them to the community, have security pros use them, and let them tell us what features and functionality matter and why. This year, we’re excited to do this at Black Hat and DEFCON, the weeklong security marathon affectionately known as Hacker Summer Camp. Our smartest technical experts and practitioners will be at Black Hat showing off our latest innovations, sponsoring and hosting events to help security experts and leaders connect, and at DEFCON’s Blue Team Village with our new Capture the Flag challenge to help defenders sharpen their investigation skills. This community-powered innovation is evident in everything we do. Elastic is a security tool built by security users, for security users. We’ve sat in the seat. We’ve worked the queue at 2 a.m. We’ve chased an alert that turned out to be nothing and missed the one that turned out to be everything. What we're continually building and improving is the security operations center (SOC) we wished we'd had back then. This means agents that carry the machine-speed work, leave critical judgment to analysts, and a platform that connects the two. With Elastic, machine speed and human judgment work together in a single loop. Stopping more at the endpoint reduces the number of alerts. Those that remain surface the real threats, and you can validate them before they reach a queue. The work underneath is increasingly automated. Each piece makes the next one lighter, and none of it asks you to hand judgment over to a black box. Alert Zero: From alert queue to validated threats Every SOC is chasing a queue worked down to what actually matters, the SOC's version of “inbox zero.” When we built our suite of tools, our goal was Alert Zero , a state that always felt out of reach. It’s a goal that teams move toward, with agents and analysts working together. It doesn’t mean zero alerts or replacing the analysts. How Attack Discovery investigates alerts like an analyst Attack Discovery has always pulled related alerts together into a single view of an attack. Now it goes further, working through them the way a human analyst would: Threat-hunts raw events beyond the initial alerts. Checks entity risk for the users and hosts involved. Corroborates findings across other data sources. Classifies the event as a validated attack. Your team gets a short list of validated attacks to work, instead of a wall of raw alerts to triage. Closing detection gaps with auto-drafted rules When Attack Discovery finds something that your rules missed, it drafts a detection rule to close the gap and hands it to an analyst to approve, helping to make the entire workflow more efficient and to reduce the source of false positives. Security teams need the how, not just the what , and Attack Discovery shows its work, so you can see how it got to each answer and recommended action. Every step of the reasoning is visible, so an analyst knows why an alert became an attack. You can run it however fits your team, whether you kick it off yourself or set a recurring cadence. You can even trigger it from Elastic Workflows. A separate alert analysis workflow addresses the volume from the other side, differentiating between likely false and true positives, so analysts lose fewer hours to low-fidelity alerts, and leaving Attack Discovery a cleaner set to investigate. Elastic Defend endpoint protection: vulnerable driver coverage and Windows on ARM Fewer alerts reach the queue when more threats are stopped on the device, so prevention starts at the endpoint. Vulnerable driver coverage that keeps pace with disclosure E",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],

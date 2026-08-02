@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 02 Aug 2026 17:07:29 +0000</lastBuildDate>
+<lastBuildDate>Sun, 02 Aug 2026 19:20:04 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -1424,6 +1424,19 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>TrendAI™ Reports Nation-State Activity in H1 2026 APT Activity Roundup</title>
+<link>https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup</link>
+<description><![CDATA[<br/><br/><em>Tags: Ivanti · supply_chain · zero_day · apt_espionage</em>]]></description>
+<pubDate>Wed, 29 Jul 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+<category>Ivanti</category>
+<category>supply_chain</category>
+<category>zero_day</category>
+<category>apt_espionage</category>
+</item>
+<item>
 <title>How AI is Rewriting the Zero-Day Playbook for Preemptive Security</title>
 <link>https://www.rapid7.com/blog/post/ai-rewriting-zero-day-playbook-for-preemptive-security</link>
 <description><![CDATA[The scenario is all too familiar for any cybersecurity professional: It’s late in the day, and a critical zero-day vulnerability is disclosed. When this happens, CISOs from every industry immediately turn to their Security Operations Centers (SOC) with the single most important, and often most difficult, question: &quot;Are we exposed?” Answering questions like these when zero-days drop tends to trigger a frantic, high-stress fire drill. Analysts scramble to cross-reference outdated Configuration Management Databases (CMDBs), query disparate endpoint detection tools, and ping IT administrators. The data is siloed, context is missing, and time rapidly slips away. Today, the window between a vulnerability’s disclosure and its active exploitation in the wild has essentially collapsed, making predictive lead time a thing of the past. As adversaries integrate AI into their playbooks to automate attacks, defending against them requires us to operate at machine speed. We believe preemptive securit<br/><br/><em>Tags: zero_day · active_exploitation</em>]]></description>
@@ -1859,17 +1872,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
-<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
-<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
 <link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
 <description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: GitHub · GitLab · npm · TeamPCP · supply_chain · credential_theft</em>]]></description>
@@ -1881,6 +1883,17 @@
 <category>GitLab</category>
 <category>npm</category>
 <category>TeamPCP</category>
+</item>
+<item>
+<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
+<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
+<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -2280,6 +2293,16 @@
 <guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching</title>
+<link>https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching</link>
+<description><![CDATA[<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<pubDate>Fri, 24 Jul 2026 19:41:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+<category>Anthropic/Claude</category>
 </item>
 <item>
 <title>The EU’s 21st Russia Sanctions Package Targets Crypto Platforms for Sanctions Evasion, Introduces Third-Country Ban Mechanism</title>
@@ -2873,17 +2896,6 @@
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>CVE-2026-50458: Finding a UAF in the Windows Brokering File System</title>
-<link>https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/</link>
-<description><![CDATA[Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month&apos;s Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]<br/><br/><em>Tags: Microsoft Windows · CVE-2026-50458</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 19:08:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Microsoft Windows</category>
-<category>CVE-2026-50458</category>
 </item>
 <item>
 <title>OpenSSF Community Day North America (NA) First-time Experience</title>
@@ -6720,6 +6732,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>TrendAI™ Named Trusted Partner in the OpenAI Daybreak Cyber Partner Program</title>
+<link>https://newsroom.trendmicro.com/2026-06-22-TrendAI-TM-Named-Trusted-Partner-in-the-OpenAI-Daybreak-Cyber-Partner-Program</link>
+<description><![CDATA[]]></description>
+<pubDate>Mon, 22 Jun 2026 17:03:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2026-06-22-TrendAI-TM-Named-Trusted-Partner-in-the-OpenAI-Daybreak-Cyber-Partner-Program</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Introducing Patch the Planet</title>
 <link>https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/</link>
 <description><![CDATA[What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across 19 projects (with many more still undergoing coordinated disclosure). That was just the first week of Patch the Planet . Frontier models like GPT-5.5-Cyber are producing a firehose of security findings, and already-stretched maintainers must sift through all of it to separate real vulnerabilities from plausible-sounding false positives. Patch the Planet is different: with our experts orchestrating and triaging findings, we handle the work of fixing and hardening the code alongside the people who maintain it. The first week of Patch the Planet covered 19 projects across cryptography, networkin<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
@@ -7319,6 +7340,15 @@
 <source url="https://labs.watchtowr.com/rss/">watchTowr Labs</source>
 <category>offensive_vulnerability_research</category>
 <category>CVE-2026-20253</category>
+</item>
+<item>
+<title>TrendAI™ Integrates Claude Compliance API Into TrendAI Vision One™</title>
+<link>https://newsroom.trendmicro.com/2026-06-12-TrendAI-TM-Integrates-Claude-Compliance-API-Into-TrendAI-Vision-One-TM</link>
+<description><![CDATA[]]></description>
+<pubDate>Fri, 12 Jun 2026 16:26:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2026-06-12-TrendAI-TM-Integrates-Claude-Compliance-API-Into-TrendAI-Vision-One-TM</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Navigating the New Federal Logging Mandate | OMB Memorandum M-26-14</title>
@@ -7944,6 +7974,15 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>apt_espionage</category>
+</item>
+<item>
+<title>TrendAI™ Joins Anthropic&apos;s Project Glasswing</title>
+<link>https://newsroom.trendmicro.com/2026-06-03-TrendAI-TM-Joins-Anthropics-Project-Glasswing</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 04 Jun 2026 01:06:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2026-06-03-TrendAI-TM-Joins-Anthropics-Project-Glasswing</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Threats to the 2026 FIFA World Cup</title>
@@ -12464,6 +12503,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Organizations Overlook AI Risk as Governance Fails to Keep Up</title>
+<link>https://newsroom.trendmicro.com/2026-03-25-Organizations-Overlook-AI-Risk-as-Governance-Fails-to-Keep-Up,1</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 25 Mar 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2026-03-25-Organizations-Overlook-AI-Risk-as-Governance-Fails-to-Keep-Up,1</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Virtual machines, virtually everywhere – and with real security gaps</title>
 <link>https://www.welivesecurity.com/en/business-security/virtual-machines-virtually-everywhere-real-security-gaps/</link>
 <description><![CDATA[Cloud VMs offer unmatched speed, scale and flexibility – all of which could eventually count for little if they’re left to fend for themselves]]></description>
@@ -14775,6 +14823,15 @@
 <category>SonicWall</category>
 </item>
 <item>
+<title>Trend Micro Predicts 2026 as the Year Scams Become AI-Driven, AI-Scaled, and Emotion-Engineered</title>
+<link>https://newsroom.trendmicro.com/2025-12-03-Trend-Micro-Predicts-2026-as-the-Year-Scams-Become-AI-Driven,-AI-Scaled,-and-Emotion-Engineered</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 03 Dec 2025 22:18:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-12-03-Trend-Micro-Predicts-2026-as-the-Year-Scams-Become-AI-Driven,-AI-Scaled,-and-Emotion-Engineered</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Inside the BHIS SOC: A Conversation with Hayden Covington</title>
 <link>https://www.blackhillsinfosec.com/inside-the-bhis-soc/</link>
 <description><![CDATA[What happens when you ditch the tiered ticket queues and replace them with collaboration, agility, and real-time response? In this interview, Hayden Covington takes us behind the scenes of the BHIS Security Operations Center, which is where analysts don’t escalate tickets, they solve them. The post Inside the BHIS SOC: A Conversation with Hayden Covington appeared first on Black Hills Information Security, Inc. .]]></description>
@@ -14849,6 +14906,15 @@
 <guid isPermaLink="true">https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/</guid>
 <source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
 <category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Trend Micro Predicts 2026 as the Year Cybercrime Becomes Fully Industrialized</title>
+<link>https://newsroom.trendmicro.com/2025-11-25-Trend-Micro-Predicts-2026-as-the-Year-Cybercrime-Becomes-Fully-Industrialized</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 25 Nov 2025 13:01:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-11-25-Trend-Micro-Predicts-2026-as-the-Year-Cybercrime-Becomes-Fully-Industrialized</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Antigravity Grounded! Security Vulnerabilities in Google&apos;s Latest IDE</title>
@@ -14976,6 +15042,15 @@
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>New Trend Micro Survey Shows Economic Strain and Overconfidence put Holiday Shoppers at Greater Risk of Online Scams</title>
+<link>https://newsroom.trendmicro.com/2025-11-19-New-Trend-Micro-Survey-Shows-Economic-Strain-and-Overconfidence-put-Holiday-Shoppers-at-Greater-Risk-of-Online-Scams</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 19 Nov 2025 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-11-19-New-Trend-Micro-Survey-Shows-Economic-Strain-and-Overconfidence-put-Holiday-Shoppers-at-Greater-Risk-of-Online-Scams</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>PlushDaemon compromises network devices for adversary-in-the-middle attacks</title>
@@ -15335,6 +15410,15 @@
 <guid isPermaLink="true">https://blog.cloudflare.com/q3-2025-internet-disruption-summary/</guid>
 <source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Trend Micro Awards Over $1,000,000 to Ethical Hackers</title>
+<link>https://newsroom.trendmicro.com/2025-10-27-Trend-Micro-Awards-Over-1,000,000-to-Ethical-Hackers</link>
+<description><![CDATA[]]></description>
+<pubDate>Mon, 27 Oct 2025 12:01:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-10-27-Trend-Micro-Awards-Over-1,000,000-to-Ethical-Hackers</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Making the Internet observable: the evolution of Cloudflare Radar</title>
@@ -16194,6 +16278,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Trend Micro Unmasks Global &quot;Task Scam&quot; Industry</title>
+<link>https://newsroom.trendmicro.com/2025-08-19-Trend-Micro-Unmasks-Global-Task-Scam-Industry</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 19 Aug 2025 12:02:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-08-19-Trend-Micro-Unmasks-Global-Task-Scam-Industry</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>AllaKore(d) the SideCopy Train</title>
 <link>https://www.team-cymru.com/post/allakore-d-the-sidecopy-train</link>
 <description><![CDATA[Explore new findings on SideCopy’s use of AllaKore RAT, revealing connected C2 infrastructure and management activity linked to Pakistan-based threat actors.]]></description>
@@ -16704,6 +16797,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Trend Micro Warns of Thousands of Exposed AI Servers</title>
+<link>https://newsroom.trendmicro.com/2025-07-29-Trend-Micro-Warns-of-Thousands-of-Exposed-AI-Servers</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 29 Jul 2025 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-07-29-Trend-Micro-Warns-of-Thousands-of-Exposed-AI-Servers</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>FileFix Social Engineering Technique</title>
 <link>https://www.intel471.com/blog/filefix-social-engineering-technique</link>
 <description><![CDATA[The FileFix social engineering technique is a sophisticated phishing method that builds upon the previously known (and abused) ClickFix tactic.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -16848,6 +16950,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>AI-Generated Media Drives Real-World Fraud, Identity Theft, and Business Compromise</title>
+<link>https://newsroom.trendmicro.com/2025-07-09-AI-Generated-Media-Drives-Real-World-Fraud,-Identity-Theft,-and-Business-Compromise</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 09 Jul 2025 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-07-09-AI-Generated-Media-Drives-Real-World-Fraud,-Identity-Theft,-and-Business-Compromise</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>GreyNoise Identifies New Scraper Botnet Concentrated in Taiwan</title>
 <link>https://www.greynoise.io/blog/new-scraper-botnet-concentrated-in-taiwan</link>
 <description><![CDATA[GreyNoise has identified a previously untracked variant of a scraper botnet, detectable through a globally unique network fingerprint. To detect it, GreyNoise analysts created a signature using JA4+, the suite of JA4 signatures used to fingerprint network traffic.]]></description>
@@ -16892,6 +17003,15 @@
 <guid isPermaLink="true">https://www.blackhillsinfosec.com/how-to-use-dirsearch/</guid>
 <source url="https://www.blackhillsinfosec.com/feed/">Black Hills Information Security</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>AI on the Frontline: Global Firms Back Innovation, Brace for New Cyber Threats</title>
+<link>https://newsroom.trendmicro.com/2025-07-01-AI-on-the-Frontline-Global-Firms-Back-Innovation,-Brace-for-New-Cyber-Threats</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 01 Jul 2025 18:55:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-07-01-AI-on-the-Frontline-Global-Firms-Back-Innovation,-Brace-for-New-Cyber-Threats</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Threat Intelligence: A CISO ROI Guide - Elite Threat Hunters Prevent Supply Chain Breaches</title>
@@ -17578,6 +17698,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>New Research Reveals Three Quarters of Cybersecurity Incidents Occur Due to Unmanaged Assets</title>
+<link>https://newsroom.trendmicro.com/2025-04-29-New-Research-Reveals-Three-Quarters-of-Cybersecurity-Incidents-Occur-Due-to-Unmanaged-Assets</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 29 Apr 2025 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-04-29-New-Research-Reveals-Three-Quarters-of-Cybersecurity-Incidents-Occur-Due-to-Unmanaged-Assets</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Spike in Git Config Crawling Highlights Risk of Codebase Exposure</title>
 <link>https://www.greynoise.io/blog/spike-git-configuration-crawling-risk-codebase-exposure</link>
 <description><![CDATA[GreyNoise observed a significant increase in crawling activity targeting Git configuration files. While the crawling itself is reconnaissance, successful discovery of exposed Git configuration files can lead to exposure of internal codebases, developer workflows, and potentially sensitive credentials.]]></description>
@@ -17864,6 +17993,15 @@
 <guid isPermaLink="true">https://medium.com/specter-ops-posts/getting-the-most-value-out-of-the-oscp-the-pen-200-labs-81ea65f29c0e?source=rss----f05f8696e3cc---4</guid>
 <source url="https://medium.com/feed/specter-ops-posts">SpecterOps</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Trend Micro Customers Lower Cyber Risk Scores Through Proactive Security</title>
+<link>https://newsroom.trendmicro.com/2025-03-25-Trend-Micro-Customers-Lower-Cyber-Risk-Scores-Through-Proactive-Security</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 25 Mar 2025 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2025-03-25-Trend-Micro-Customers-Lower-Cyber-Risk-Scores-Through-Proactive-Security</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Amid Reports of Worldwide Reboots, GreyNoise Observes In-the-Wild Activity Against DrayTek Routers</title>
@@ -18765,6 +18903,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>Trend Micro Predicts Emergence of Deepfake-Powered Malicious Digital Twins</title>
+<link>https://newsroom.trendmicro.com/2024-12-16-Trend-Micro-Predicts-Emergence-of-Deepfake-Powered-Malicious-Digital-Twins</link>
+<description><![CDATA[]]></description>
+<pubDate>Mon, 16 Dec 2024 13:02:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2024-12-16-Trend-Micro-Predicts-Emergence-of-Deepfake-Powered-Malicious-Digital-Twins</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Security ProbLLMs in xAI&apos;s Grok: A Deep Dive</title>
 <link>https://embracethered.com/blog/posts/2024/security-probllms-in-xai-grok/</link>
 <description><![CDATA[Grok is the chatbot of xAI. It’s a state-of-the-art model, chatbot and recently also API. It has a Web UI and is integrated into the X (former Twitter) app, and recently it’s also accessible via an API . Since this post is a bit longer, I’m adding an index for convenience: Table of Contents High Level Overview Analyzing Grok’s System Prompt Prompt Injection from Other User’s Posts Prompt Injection from Images Prompt Injection from PDFs Conditional Prompt Injection and Targeted Disinformation Data Exfiltration - End-to-End Demonstration Rendering of Clickable Hyperlinks to Phishing Sites ASCII Smuggling - Crafting Invisible Text and Decoding Hidden Secrets Hidden Prompt Injection Creation of Invisible Text Grok API is also Vulnerable to ASCII Smuggling Developer Guidance for Grok API Automatic Tool Invocation Responsible Disclosure Conclusion High Level Overview Over the last year I have used Grok quite a bit. It’s pretty good and I use it daily, especially the recent image creation cap<br/><br/><em>Tags: phishing_social_eng · ai_security</em>]]></description>
@@ -18968,6 +19115,15 @@
 <category>CVE-2024-28995</category>
 </item>
 <item>
+<title>Trend Micro Warns Devices and Accounts are Highest-Risk Assets</title>
+<link>https://newsroom.trendmicro.com/2024-09-25-Trend-Micro-Warns-Devices-and-Accounts-are-Highest-Risk-Assets</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 25 Sep 2024 12:03:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2024-09-25-Trend-Micro-Warns-Devices-and-Accounts-are-Highest-Risk-Assets</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Phishing and Social Engineering: The Human Factor in Election Security</title>
 <link>https://www.greynoise.io/blog/phishing-and-social-engineering-the-human-factor-in-election-security</link>
 <description><![CDATA[Discover how phishing and social engineering threaten the 2024 U.S. elections in part three of our &apos;Election Cybersecurity&apos; series. Learn how attackers exploit human vulnerabilities to compromise systems and how to defend against these evolving threats.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -18997,6 +19153,15 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/challenging-assumptions-enhancing-the-understanding-of-securing-internet-exposed-industrial-control-systems</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Only One Third of Organizations Run Round-the-Clock Cybersecurity</title>
+<link>https://newsroom.trendmicro.com/2024-09-19-Only-One-Third-of-Organizations-Run-Round-the-Clock-Cybersecurity</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 19 Sep 2024 12:02:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2024-09-19-Only-One-Third-of-Organizations-Run-Round-the-Clock-Cybersecurity</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Can AI automate computational reproducibility?</title>
@@ -19171,6 +19336,25 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Trend Micro #1 in Vulnerability Disclosure, Helping Prevent Breaches and Save Businesses Millions</title>
+<link>https://newsroom.trendmicro.com/2024-06-25-Trend-Micro-1-in-Vulnerability-Disclosure,-Helping-Prevent-Breaches-and-Save-Businesses-Millions</link>
+<description><![CDATA[<br/><br/><em>Tags: vulnerability_disclosure</em>]]></description>
+<pubDate>Tue, 25 Jun 2024 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2024-06-25-Trend-Micro-1-in-Vulnerability-Disclosure,-Helping-Prevent-Breaches-and-Save-Businesses-Millions</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+<category>vulnerability_disclosure</category>
+</item>
+<item>
+<title>Trend Micro Scores 100% on Attack Visibility in Latest MITRE Engenuity ATT&amp;CK® Evaluations</title>
+<link>https://newsroom.trendmicro.com/2024-06-18-Trend-Micro-Scores-100-on-Attack-Visibility-in-Latest-MITRE-Engenuity-ATT-CK-R-Evaluations,1</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 18 Jun 2024 14:54:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2024-06-18-Trend-Micro-Scores-100-on-Attack-Visibility-in-Latest-MITRE-Engenuity-ATT-CK-R-Evaluations,1</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>GitHub Copilot Chat: From Prompt Injection to Data Exfiltration</title>
 <link>https://embracethered.com/blog/posts/2024/github-copilot-chat-prompt-injection-data-exfiltration/</link>
 <description><![CDATA[This post highlights how the GitHub Copilot Chat VS Code Extension was vulnerable to data exfiltration via prompt injection when analyzing untrusted source code. GitHub Copilot Chat GitHub Copilot Chat is a VS Code Extension that allows a user to chat with source code, refactor code, get info about terminal output, or general help about VS Code, and things along those lines. It does so by sending source code, along with the user’s questions to a large language model (LLM). A bit of a segue, but if you are curious, here are its system instructions, highlighting some interesting prompting strategies and that it is powered by GPT-4:<br/><br/><em>Tags: GitHub · ai_security</em>]]></description>
@@ -19227,6 +19411,15 @@
 <guid isPermaLink="true">https://portswigger.net/research/introducing-signsaboteur-forge-signed-web-tokens-with-ease</guid>
 <source url="https://portswigger.net/research/rss">PortSwigger Research</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>IT Security Leaders Are Failing to Close a Boardroom Credibility Gap</title>
+<link>https://newsroom.trendmicro.com/2024-05-21-IT-Security-Leaders-Are-Failing-to-Close-a-Boardroom-Credibility-Gap</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 21 May 2024 15:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2024-05-21-IT-Security-Leaders-Are-Failing-to-Close-a-Boardroom-Credibility-Gap</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Machine Learning Attack Series: Backdooring Keras Models and How to Detect It</title>
@@ -19296,6 +19489,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Cyber Threat Surge: Trend Micro Blocks 160 billion Incidents in 2023</title>
+<link>https://newsroom.trendmicro.com/2024-03-06-Cyber-Threat-Surge-Trend-Micro-Blocks-160-billion-Incidents-in-2023</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 06 Mar 2024 19:57:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2024-03-06-Cyber-Threat-Surge-Trend-Micro-Blocks-160-billion-Incidents-in-2023</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Using form hijacking to bypass CSP</title>
 <link>https://portswigger.net/research/using-form-hijacking-to-bypass-csp</link>
 <description><![CDATA[In this post we&apos;ll show you how to bypass CSP by using an often overlooked technique that can enable password theft in a seemingly secure configuration. What is form hijacking? Form hijacking isn&apos;t re]]></description>
@@ -19333,6 +19535,17 @@
 <source url="https://embracethered.com/blog/index.xml">Embrace the Red</source>
 <category>ai_security_agentic_risk</category>
 <category>Google/Gemini</category>
+</item>
+<item>
+<title>Global Law Enforcers Seek Trend Micro&apos;s Help in Taking Down Top Ransomware Threat Group LockBit</title>
+<link>https://newsroom.trendmicro.com/2024-02-22-Global-Law-Enforcers-Seek-Trend-Micros-Help-in-Taking-Down-Top-Ransomware-Threat-Group-LockBit</link>
+<description><![CDATA[<br/><br/><em>Tags: LockBit · ransomware_extortion</em>]]></description>
+<pubDate>Thu, 22 Feb 2024 11:12:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2024-02-22-Global-Law-Enforcers-Seek-Trend-Micros-Help-in-Taking-Down-Top-Ransomware-Threat-Group-LockBit</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+<category>LockBit</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Top 10 web hacking techniques of 2023</title>
@@ -19948,6 +20161,15 @@
 <category>ai_security</category>
 </item>
 <item>
+<title>Trend Micro Named a Leader in Endpoint Security</title>
+<link>https://newsroom.trendmicro.com/2023-10-19-Trend-Micro-Named-a-Leader-in-Endpoint-Security</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 19 Oct 2023 16:23:00 +0000</pubDate>
+<guid isPermaLink="true">https://newsroom.trendmicro.com/2023-10-19-Trend-Micro-Named-a-Leader-in-Endpoint-Security</guid>
+<source url="https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787">Trend Micro Research</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Google Cloud Vertex AI - Data Exfiltration Vulnerability Fixed in Generative AI Studio</title>
 <link>https://embracethered.com/blog/posts/2023/google-gcp-generative-ai-studio-data-exfiltration-fixed/</link>
 <description><![CDATA[Large Language Model (LLM) applications and chatbots are quite commonly vulnerable to data exfiltration. In particular data exfiltration via Image Markdown Injection is frequent. This post describes how Google Cloud’s Vertex AI - Generative AI Studio had this vulnerability that I responsibly disclosed and Google fixed. A big shout out to the Google Security team upfront, it took 22 minutes from report submission to receiving a confirmation from Google that this is a security issue that will be fixed.<br/><br/><em>Tags: Google Cloud</em>]]></description>
@@ -20053,7 +20275,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20062,7 +20284,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20071,7 +20293,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20080,7 +20302,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20089,7 +20311,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20098,7 +20320,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20107,7 +20329,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20116,7 +20338,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20126,7 +20348,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20135,7 +20357,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 02 Aug 2026 17:07:29 +0000</pubDate>
+<pubDate>Sun, 02 Aug 2026 19:20:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
