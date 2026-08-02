@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T19:20:04.527046+00:00",
+  "generated_at": "2026-08-02T21:02:25.395040+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2268,
@@ -32,13 +32,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
@@ -60,19 +53,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -81,19 +74,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -102,12 +95,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 10
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -116,6 +109,13 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -123,19 +123,19 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -151,8 +151,22 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -163,20 +177,6 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -221,13 +221,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -242,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
+      "item_count": 30,
+      "in_window_count": 1
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -256,13 +249,6 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
@@ -270,11 +256,18 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Google Cloud Threat Intelligence": {
@@ -283,6 +276,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -305,6 +305,13 @@
       "item_count": 100,
       "in_window_count": 8
     },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -319,19 +326,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 17
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -347,13 +354,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 17
-    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -367,6 +367,27 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 28
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -382,26 +403,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 29
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -410,33 +417,12 @@
       "item_count": 50,
       "in_window_count": 28
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -445,6 +431,20 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -452,11 +452,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Reddit r/blueteamsec": {
@@ -473,12 +473,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -486,6 +486,13 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -501,12 +508,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 100,
+      "in_window_count": 24
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -514,13 +521,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 24
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -1273,24 +1273,6 @@
           "Microsoft Entra",
           "Salesforce"
         ]
-      },
-      {
-        "actor": "Black Basta",
-        "cluster_id": "3ed06f107d",
-        "new_industries": [
-          "manufacturing_industrial"
-        ],
-        "new_products": [],
-        "prior_top_industries": [
-          "critical_infrastructure",
-          "education",
-          "legal_professional"
-        ],
-        "prior_top_products": [
-          "Salesforce",
-          "Ubiquiti UniFi",
-          "WordPress"
-        ]
       }
     ],
     "persistence": [
@@ -1385,7 +1367,7 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 8
     },
     {
       "source": "Simon Willison",
@@ -7398,6 +7380,37 @@
       "score": 10
     },
     {
+      "source": "Infosecurity Magazine",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach",
+      "link": "https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/",
+      "published": "2026-07-28T11:00:00+00:00",
+      "summary": "Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 8
+    },
+    {
       "source": "Intel 471",
       "cohort": "ransomware_ecrime_financial_crime",
       "category": "ransomware_ecrime_financial_crime",
@@ -7440,37 +7453,6 @@
       "score": 12,
       "full_body": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s",
       "fetch_status": "ok"
-    },
-    {
-      "source": "Infosecurity Magazine",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach",
-      "link": "https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/",
-      "published": "2026-07-28T11:00:00+00:00",
-      "summary": "Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
     },
     {
       "source": "Cisco Talos",
@@ -8560,7 +8542,7 @@
       "published": "2026-07-26T19:30:54+00:00",
       "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks. The software they are using for these proxies is open source - mostly one-api and its more actively developed fork new-api , both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials. The buyers are seeking cheap tokens, avoiding geo-restrictions, and in some cases collecting data for model distillation. I've been cautious about exposing my own LLM-driven applications publicly out of fear of abuse leading to big token bills.",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -8576,8 +8558,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 6
+      }
     },
     {
       "source": "Troy Hunt",

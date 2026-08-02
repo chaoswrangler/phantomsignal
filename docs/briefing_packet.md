@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-02T19:20:04.508574+00:00
+- Generated: 2026-08-02T21:02:25.375116+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 362
-- Total clusters raw: 159
+- Total items in window: 361
+- Total clusters raw: 158
 - Total clusters in packet: 76
-- Dropped low score: 83
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -90,11 +90,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -110,61 +105,66 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 2
+  - Item count: 10
+  - In window count: 10
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 2
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -175,8 +175,18 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -184,16 +194,6 @@
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
@@ -225,11 +225,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -240,36 +235,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 9
+  - Item count: 30
+  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -285,6 +285,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 8
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -295,16 +300,16 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 17
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -315,11 +320,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 17
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,6 +330,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 28
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,60 +355,45 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 29
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 28
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+  - Item count: 50
+  - In window count: 28
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
@@ -405,16 +405,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 20
+  - In window count: 3
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -425,21 +430,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 24
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -762,7 +762,7 @@
 - Pair: CVE-2026-50522 + Cisco (cluster e2f6a950f1, first observation: True)
 - Pair: CVE-2026-50522 + Microsoft SharePoint (cluster e2f6a950f1, first observation: True)
 
-### Drift (4)
+### Drift (3)
 - **APT29** (cluster 4c8ed8c5fa)
   - New industries: (none)
   - New products: npm
@@ -778,11 +778,6 @@
   - New products: AWS, OpenAI/ChatGPT
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
-- **Black Basta** (cluster 3ed06f107d)
-  - New industries: manufacturing_industrial
-  - New products: (none)
-  - Prior top industries: critical_infrastructure, education, legal_professional
-  - Prior top products: Salesforce, Ubiquiti UniFi, WordPress
 
 ### Persistence (6)
 - actor_attribution: ShinyHunters (weeks observed: 9, cluster cef34fdd67)
@@ -2018,51 +2013,6 @@ Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw  S
   - Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
   - Summary: Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
 
-### Cluster 8553a0e574 — score 12
-
-- Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
-- Source: Intel 471 (ransomware_ecrime_financial_crime)
-- Published: 2026-07-28T11:00:00+00:00
-- Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- actor_attribution: TeamPCP
-- affected_products: GitHub, GitLab, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- actor_attribution: TeamPCP
-- affected_products: GitHub, GitLab, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
-```
-
-#### Full body
-
-```
-Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s
-```
-
-#### Corroborating sources (1)
-
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
-  - Published: 2026-07-28T11:00:00+00:00
-  - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
-  - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
-
 ### Cluster b61889968b — score 12
 
 - Title: Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows
@@ -2107,6 +2057,51 @@ Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities E
   - Published: 2026-07-29T10:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
   - Summary: For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said
+
+### Cluster 8553a0e574 — score 12
+
+- Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
+- Source: Intel 471 (ransomware_ecrime_financial_crime)
+- Published: 2026-07-28T11:00:00+00:00
+- Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain
+- actor_attribution: TeamPCP
+- affected_products: GitHub, GitLab, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft
+- actor_attribution: TeamPCP
+- affected_products: GitHub, GitLab, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
+```
+
+#### Full body
+
+```
+Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2026 From Shai-Hulud to the leaked Miasma source code — here's how adversaries are exploiting trusted developer workflows. Security teams have spent years preparing for operational supply chain compromise, where a breached vendor, managed service provider, or software-as-a-service platform becomes a pathway into downstream organizations. That risk remains, but threat actors are increasingly going up the chain, infiltrating the systems and workflows developers use to build and ship software in the first place. These software supply chain attacks now target packages, maintainer accounts, repositories, developer tools, CI/CD pipelines, and publishing credentials. The target isn't just the software an enterprise runs — it's the trusted process that builds and releases it. That shift has opened up a much larger attack surface that's proven difficult to defend. Targeting how software is built Our new report, Poisoned Trust: How Supply Chain Attacks Weaponize Developer Ecosystems , focuses on software supply chain compromise, which exploits the people, tools, and systems involved in building and releasing software — leveraging the speed and automation of modern development processes for scale and impact. In software supply chain campaigns, the primary goal is often the theft of credentials and secrets, which can be monetized directly or used to compromise more of the pipeline. The initial foothold might be a maintainer account, a publishing token, a CI/CD runner, a repository, or a developer extension. These attacks proliferate because modern developer environments are so interconnected. A single workstation or CI/CD runner can hold source code, package-publishing permissions, GitHub or GitLab credentials, cloud keys, deployment secrets, private repo tokens, OAuth tokens, and more. Once an attacker has that, they can pivot into more packages, repositories, build systems, cloud environments, or downstream organizations. From Shai-Hulud to TeamPCP: two campaign timelines Intel 471 research shows attacker tradecraft targeting the software production chain has advanced substantially since the first Shai-Hulud campaign in September 2025 — which targeted primarily node package manager (npm) packages — through the cluster of multi-ecosystem attacks that the threat group TeamPCP conducted before May 2026 (see timeline below). TeamPCP, which emerged in November 2025 , quickly became one of the most active and effective publicly reported threat groups targeting software supply chains. A timeline of Shai-Hulud-related events from Sept. 14, 2025, to May 31, 2026. Shai-Hulud and Shai-Hulud 2.0 were early examples of worm-driven campaigns, pairing credential theft with self-propagation across trusted software ecosystems. Related and copycat activity since then — Mini Shai-Hulud, and campaigns branded Miasma, Hades, IronWorm, and GlassWorm — shows how the same propagation logic keeps getting adapted across package registries, repositories, IDE marketplaces, and developer environments. Complicating defense further, on May 13, 2026, TeamPCP published Shai-Hulud as an open-source attack tool on GitHub, alongside a forum contest offering roughly $1,000 in Monero for the largest package compromise. Then on June 9, 2026, an actor released Miasma's source code, extending TeamPCP 's leaked codebase into a multi-ecosystem framework for targeting npm, PyPI, RubyGems, and JFrog Artifactory. An overview of TeamPCP-related campaigns reported from November 2025 through May 2026. Releasing that source likely served both operational and psychological purposes: it raises the odds of copycat campaigns, complicates attribution, and keeps the toolkit useful even after the original campaign's repos, credentials, and package versions are pulled by maintainers. It's a signal to affected organizations that cleaning up the original incident won't stop others from picking up the same tool. That s
+```
+
+#### Corroborating sources (1)
+
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
+  - Published: 2026-07-28T11:00:00+00:00
+  - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
+  - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
 
 ### Cluster 94fd56afbc — score 11
 
