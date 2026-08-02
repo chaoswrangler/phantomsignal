@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T21:02:25.375116+00:00",
+  "generated_at": "2026-08-02T22:02:45.501437+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 76,
-  "total_items_in_window": 361,
-  "total_clusters_raw": 158,
-  "total_clusters_in_packet": 76,
+  "feeds_ok": 75,
+  "total_items_in_window": 351,
+  "total_clusters_raw": 157,
+  "total_clusters_in_packet": 75,
   "dropped_low_score": 82,
   "dropped_overflow": 0,
   "cohort_metadata": {
@@ -67,8 +67,22 @@
     }
   },
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -80,20 +94,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 5
-    },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -109,26 +109,19 @@
       "item_count": 25,
       "in_window_count": 1
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -137,12 +130,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 1
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -157,13 +157,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -186,11 +179,11 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
     "Recorded Future": {
@@ -200,18 +193,25 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 2
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -221,12 +221,12 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -235,19 +235,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 4
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -256,12 +249,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -270,12 +263,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
+      "item_count": 10,
+      "in_window_count": 0
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -284,12 +277,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 11
+      "in_window_count": 6
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -298,13 +291,6 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -312,12 +298,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 11
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -326,6 +319,13 @@
       "item_count": 20,
       "in_window_count": 9
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -333,12 +333,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -361,19 +361,19 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 8
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 8
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -382,26 +382,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
       "item_count": 20,
-      "in_window_count": 17
+      "in_window_count": 1
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -410,12 +396,26 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 17
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -423,6 +423,27 @@
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 28
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -438,36 +459,8 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 28
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -480,9 +473,23 @@
       "item_count": 50,
       "in_window_count": 28
     },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
@@ -501,11 +508,11 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
@@ -514,13 +521,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -536,13 +536,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -557,6 +550,13 @@
       "item_count": 50,
       "in_window_count": 50
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -564,12 +564,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -1899,14 +1899,13 @@
     {
       "cluster_id": "974cdece8d",
       "priority_score": 23,
-      "member_count": 17,
-      "corroborating_source_count": 9,
+      "member_count": 16,
+      "corroborating_source_count": 8,
       "strong_signals": [
         "OpenAI/ChatGPT"
       ],
       "taxonomy": {
         "threat_categories": [
-          "phishing_social_eng",
           "ransomware_extortion",
           "supply_chain",
           "zero_day"
@@ -1935,7 +1934,6 @@
           "threat_research"
         ],
         "confidence_tier": [
-          "tier_1_government",
           "tier_1_offensive_research",
           "tier_1_primary_research",
           "tier_2_operator",
@@ -2124,36 +2122,6 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Anthropic/Claude": "target",
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)",
-          "link": "https://isc.sans.edu/diary/rss/33206",
-          "published": "2026-08-01T07:22:32+00:00",
-          "summary": "Most phishing campaigns rely on the fact that the victim is afraid to loose \"something\": money, access to information, ... Many brands have been impersonated by campaigns but I spotted some phishing emails that focus on AI services like ChatGPT.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {
               "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
@@ -3085,8 +3053,8 @@
     {
       "cluster_id": "90d3c1c1e2",
       "priority_score": 16,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "Apple iOS/macOS"
       ],
@@ -3113,7 +3081,6 @@
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_government",
           "tier_1_primary_research",
           "tier_4_news"
         ]
@@ -3187,34 +3154,6 @@
               "Apple iOS/macOS": "target",
               "GitHub": "target",
               "Palo Alto Networks": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "Apple Patches Everything (July 2026), (Wed, Jul 29th)",
-          "link": "https://isc.sans.edu/diary/rss/33196",
-          "published": "2026-07-29T07:32:37+00:00",
-          "summary": "I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {
-              "Apple iOS/macOS": "target"
             },
             "weak_tags": {
               "products": []
@@ -4990,93 +4929,6 @@
       ]
     },
     {
-      "cluster_id": "d7e33e13d3",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Enhancing AI security through global AI red teaming",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-        "published": "2026-07-27T16:25:00+00:00",
-        "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Frontier AI models Content types Research Products and services Microsoft Security Copilot Topics Actionable threat insights Most AI safety testing still happens inside the walls of individual organizations. That has resulted in a fundamental disconnect: many of the highest-risk failure modes in modern AI systems require deep domain expertise, multilingual context, or regional understanding that no single internal team can fully replicate on its own. As frontier models become more capable, the attack surface expands with them. AI red teaming is no longer just about prompt injection or content safety edge cases. It increasingly involves security operations, misuse scenarios, multilingual harms, alignment failures, and domain-specific abuse patterns that can vary significantly across geographies and languages. Microsoft’s AI Red Team has observed that meaningful testing of advanced AI systems- and models similarly requires broader participation from researchers and practitioners who operate outside traditional corporate security boundaries. To address that gap, today we are announcing the External Red Team Alliance (EXTRA), a formalized global extension of Microsoft’s AI Red Team designed to support and encourage external expertise to advance AI safety and security testing. We are proud to share we are funding the development of new AI safety assessments on six continents through unrestricted gifts. Building a global alliance EXTRA is a two-part initiative focused on expanding AI safety research and strengthening external collaboration. The first component supports a global academic network focused on advancing AI safety and security research. Microsoft’s AI Red Team has provided unrestricted gifts to 18 university labs spanning six continents. The goal is intentionally broad: support researchers who are already investigating difficult, unresolved questions in AI safety and help them continue pushing that work forward independently. Some of the supporting institutions include: Carnegie Mellon University Security and Privacy Institute (CyLab) , United States Georgetown University – Georgetown Security Lab (SecLab) , United States Harvard University Berkman Klein Center for Internet & Society (BKC) , United States Howard University Research Institute for Tactical Autonomy (RITA) , United States Indian Institute of Technology Madras – Centre for Responsible AI (CeRAI) , India Korea Advanced Institute of Science & Technology – KAIST Web Security & Privacy (WSP) Lab , Korea New York University – NYU Alignment Research Group (ARG) , United States Northeastern University Network and Distributed Systems Security (NDS2) Lab, United States University College London – UCL Information Security Research Group (UCL ISec) , United Kingdom University of Cagliari Pattern Recognition and Applications (PRA) Lab , Italy University of California – Berkeley Risk and Security Lab; Center for Responsible, Decentralized Intelligence (CRDI) , United States University of Melbourne Artificial Intelligence Assurance Lab , Australia University of Pretoria Data Science for Social Impact (DSFSI) Research Group , South Africa University of São Paulo Center for Artificial Intelligence (C4AI) , Brazil University of Toronto CleverHans Lab , Canada University of Washington Department of Human Centered Design & Engineering (HCDE) , United States “Academic research is critical to understanding the cyber security landscape and finding solutions that work for all of society – and partnerships like this with industry are essential to delivering on that promise. Through partnerships, civil society and public institutions researchers gain access to frontier technology to understand how models work and bring their expertise to the task of determining risk and developing more effective countermeasures for the benefit of society as a whole.” Nicolas Papernot, professor, University of Toronto. The second component of EXTRA focuses on opera",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Enhancing AI security through global AI red teaming",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-          "published": "2026-07-27T16:25:00+00:00",
-          "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "75acd25c40",
       "priority_score": 10,
       "member_count": 1,
@@ -5186,96 +5038,18 @@
       ]
     },
     {
-      "cluster_id": "1d6332ec8a",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Network Anomaly Detection in KATA",
-        "link": "https://securelist.com/tr/network-anomaly-detection-in-kata/120892/",
-        "published": "2026-07-31T10:00:25+00:00",
-        "summary": "An analysis of how Network Anomaly Detection (NAD) rules work within Kaspersky Anti Targeted Attack, using Kerberoasting and DNS tunneling attacks as examples.",
-        "full_body": "Threat Response Table of Contents Introduction Kerberoasting attack detection by KATA Why standard tools have a hard time detecting Kerberoasting Creating a Network Anomaly Detection rule Detecting DNS tunneling in KATA How DNS tunnels work DNS tunneling detection logic Prebuilt rules for detecting network anomalies in KATA Conclusion Introduction Once the attacker has breached the corporate network, subsequent stages of the attack often involve leveraging standard domain infrastructure protocols: using Kerberos, running DNS queries, accessing internal services, opening network shares, and other common networking actions. Because this activity is virtually indistinguishable from legitimate network traffic, it is extremely difficult to detect it with traditional network attack detection tools. Kerberoasting and DNS tunneling have long ceased to be exotic techniques. They are becoming standard methods in modern attacks because they allow attackers to execute critical compromise stages while remaining undetected by traditional security tools. A clear example of this trend is seen in latest campaigns, employing both Kerberoasting and DNS tunneling . Traditional network security tools perform well when the attack features a distinct and identifiable indicator: a characteristic query string, a known malicious traffic pattern, or the source code of an already discovered exploit. While this approach to threat detection remains effective, it cannot always be applied to discovering network attacks that blend seamlessly with legitimate traffic inside a corporate network. Instead of searching for explicit indicators of attack, Network Anomaly Detection (NAD) analyzes all traffic for suspicious artifacts that deviate from the host’s typical network activity. Within Kaspersky’s solution portfolio, this technology is implemented specifically in the Kaspersky Anti Targeted Attack (KATA) platform. The system analyzes network traffic data (DNS, DCE/RPC, Kerberos and other packets) and extracts key parameters used to identify anomalous behavior. This approach enables searching for attacks on domain controllers, signs of traffic tunneling and exfiltration, C2 communications, and other scenarios that may point to compromise of network infrastructure. However, Network Anomaly Detection is not built on a single, universal set of indicators. Each attack scenario employs tailored detection models that account for the specifics of the corresponding network protocol, typical host behavior, and characteristic deviations from that baseline. This article examines two practical examples – detecting Kerberoasting and DNS tunneling – to demonstrate how these principles are implemented in KATA’s NAD rules and why this approach proves more effective than traditional signature-based analysis. Kerberoasting attack detection by KATA Why standard tools have a hard time detecting Kerberoasting The Kerberoasting attack leverages the standard operational logic of the Kerberos protocol. The attacker identifies service accounts configured with a Service Principal Name (SPN), requests a Ticket-Granting Service (TGS) ticket for them, and attempts to crack the password offline using a dictionary attack against the retrieved ticket. If the password is weak or hasn’t been changed in a long time, the adversary can bruteforce it to get it in cleartext. Subsequently, these compromised credentials can be leveraged for both vertical and horizontal movement across the network. The essence of a Kerberoasting attack is that an adversary possessing a compromised low-privileged account and a valid Ticket-Granting Ticket (TGT) for that account can request TGS tickets with weakened encryption for service accounts with SPNs. Crucially, it doesn’t matter whether the compromised account actually holds access permissions for those services. Having obtained these tickets, the attacker can then take them offline and bruteforce the service account’s password by trying to decrypt the correspond",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Network Anomaly Detection in KATA",
-          "link": "https://securelist.com/tr/network-anomaly-detection-in-kata/120892/",
-          "published": "2026-07-31T10:00:25+00:00",
-          "summary": "An analysis of how Network Anomaly Detection (NAD) rules work within Kaspersky Anti Targeted Attack, using Kerberoasting and DNS tunneling attacks as examples.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ba4ef137f5",
+      "cluster_id": "d7e33e13d3",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage",
-          "web_shell_backdoor"
+          "ai_security"
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "critical_infrastructure",
-          "government",
-          "healthcare"
+          "education"
         ],
         "affected_products": [],
         "tools_used": [],
@@ -5290,24 +5064,21 @@
         ]
       },
       "primary": {
-        "source": "Kaspersky Securelist",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
-        "title": "OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia",
-        "link": "https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/",
-        "published": "2026-07-30T11:00:12+00:00",
-        "summary": "Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.",
-        "full_body": "Table of Contents Introduction OctLurk OctLurk Deployment LurkPoxy Deployment OctLurk loader OctLurk backdoor Post-compromise activity Victim fingerprinting Event log collection Credential harvesting Impacket — secretsdump Keylogger Browser Password Decryptor Remote access : Pandora FMS agents (Pandora RC agent) Network scan: FSCAN Email harvesting LurkProxy SilkLurk Deployment SilkLurk loader SilkLurk backdoor Post-compromise activity Second-stage payload PlugX Infrastructure Attribution Conclusions Indicators of Compromise Backdoor domains and IPs OctLurk C2 LurkProxy C2 SilkLurk C2 Loaders OctLurk loader SilkLurk loader PlugX dropper PlugX loader OctLurk backdoor OctLurk File Manager plugin OctLurk Command Shell plugin OctLurk Interaction Manager plugin Impacket’s secretsdump (not available) Keylogger Browser password stealer FSCAN Batch scripts (not available) Archive utilities WinRAR 7zip File paths OctLurk file paths SilkLurk file paths PlugX file paths WinRAR and 7z file paths Authors Saurabh Sharma Yaroslav Kikel Introduction We have been tracking two new backdoors, OctLurk and SilkLurk , observed in attacks against government organizations primarily in Central Asia since January 2025. Identified victims are located in Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic. These organizations operate across several sectors, including healthcare, research, government offices, ministries of foreign affairs, logistics, law‑enforcement agencies, urban planning and facilities management, and public educational establishments. The backdoor loaders are customized for each victim and use information from the victim’s machine to decrypt the payload. Both the loaders and the backdoors are heavily obfuscated, making analysis more complicated. OctLurk and SilkLurk can download and inject additional plugins to perform further malicious actions, including launching command shells, performing file system activity, synthesizing keyboard and mouse events, network scanning, credential dumping, keylogging, password theft from browsers, email collection, and remote access. Furthermore, the attackers deployed a specialized utility we named LurkProxy , which we also cover in this report. While it has a highly similar architecture to the OctLurk backdoor, it is not a backdoor itself. Our investigation shows that the same threat actor operates both SilkLurk and OctLurk , and some victims infected with SilkLurk also contain OctLurk. We assess with medium confidence that the same actor is behind both backdoors, and that they are Chinese‑speaking. However, at the time of publication, we couldn’t attribute this activity to any known group. OctLurk OctLurk Deployment The attacker created a scheduled task named GoogleUpDate on remote machines using admin credentials. The task runs once with System account privileges right after it was created, executing the batch script located at C:\\Users\\<username>\\Videos\\1.bat (MD5 6ecf84fb18f6747ed08d7598364d853a ). Prior to executing the task, the actor queries its status. It is then run, as shown below. The 1.bat script creates a service named NgcCIntSvc , which loads the loader DLL named oleasapi.dll (MD5 082d49ef9f14e6811d68c7e0e82e5069 ). The ServiceMain parameter in the service’s registry entry is set to invoke the RegisterService function of oleasapi.dll as shown below. LurkPoxy Deployment In another case, the attacker at first checked connectivity to the domain dns[.]ssentialserv[.]xyz as shown below. At the time of our research, the domain was resolving to the address 154[.]196[.]162[.]76 which is used as a LurkProxy C2 server. After confirming that the C2 server was reachable, the attacker executed the batch script C:\\Users\\[username]\\Desktop\\auto.bat (MD5 b874123a80fc4f40e06872b9cb54ebc6 ). The script created a service named Cusrxsrv , which loads a DLL named msbasesysdc.dll . In the service registry, the ServiceMain parameter was set to call the RegisterService fu",
+        "title": "Enhancing AI security through global AI red teaming",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+        "published": "2026-07-27T16:25:00+00:00",
+        "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Tags Frontier AI models Content types Research Products and services Microsoft Security Copilot Topics Actionable threat insights Most AI safety testing still happens inside the walls of individual organizations. That has resulted in a fundamental disconnect: many of the highest-risk failure modes in modern AI systems require deep domain expertise, multilingual context, or regional understanding that no single internal team can fully replicate on its own. As frontier models become more capable, the attack surface expands with them. AI red teaming is no longer just about prompt injection or content safety edge cases. It increasingly involves security operations, misuse scenarios, multilingual harms, alignment failures, and domain-specific abuse patterns that can vary significantly across geographies and languages. Microsoft’s AI Red Team has observed that meaningful testing of advanced AI systems- and models similarly requires broader participation from researchers and practitioners who operate outside traditional corporate security boundaries. To address that gap, today we are announcing the External Red Team Alliance (EXTRA), a formalized global extension of Microsoft’s AI Red Team designed to support and encourage external expertise to advance AI safety and security testing. We are proud to share we are funding the development of new AI safety assessments on six continents through unrestricted gifts. Building a global alliance EXTRA is a two-part initiative focused on expanding AI safety research and strengthening external collaboration. The first component supports a global academic network focused on advancing AI safety and security research. Microsoft’s AI Red Team has provided unrestricted gifts to 18 university labs spanning six continents. The goal is intentionally broad: support researchers who are already investigating difficult, unresolved questions in AI safety and help them continue pushing that work forward independently. Some of the supporting institutions include: Carnegie Mellon University Security and Privacy Institute (CyLab) , United States Georgetown University – Georgetown Security Lab (SecLab) , United States Harvard University Berkman Klein Center for Internet & Society (BKC) , United States Howard University Research Institute for Tactical Autonomy (RITA) , United States Indian Institute of Technology Madras – Centre for Responsible AI (CeRAI) , India Korea Advanced Institute of Science & Technology – KAIST Web Security & Privacy (WSP) Lab , Korea New York University – NYU Alignment Research Group (ARG) , United States Northeastern University Network and Distributed Systems Security (NDS2) Lab, United States University College London – UCL Information Security Research Group (UCL ISec) , United Kingdom University of Cagliari Pattern Recognition and Applications (PRA) Lab , Italy University of California – Berkeley Risk and Security Lab; Center for Responsible, Decentralized Intelligence (CRDI) , United States University of Melbourne Artificial Intelligence Assurance Lab , Australia University of Pretoria Data Science for Social Impact (DSFSI) Research Group , South Africa University of São Paulo Center for Artificial Intelligence (C4AI) , Brazil University of Toronto CleverHans Lab , Canada University of Washington Department of Human Centered Design & Engineering (HCDE) , United States “Academic research is critical to understanding the cyber security landscape and finding solutions that work for all of society – and partnerships like this with industry are essential to delivering on that promise. Through partnerships, civil society and public institutions researchers gain access to frontier technology to understand how models work and bring their expertise to the task of determining risk and developing more effective countermeasures for the benefit of society as a whole.” Nicolas Papernot, professor, University of Toronto. The second component of EXTRA focuses on opera",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "apt_espionage",
-            "web_shell_backdoor"
+            "ai_security"
           ],
           "actor_attribution": [],
           "affected_industries": [
-            "healthcare",
-            "government",
-            "critical_infrastructure"
+            "education"
           ],
           "affected_products": [],
           "tools_used": [],
@@ -5324,118 +5095,19 @@
       },
       "corroborating_sources": [
         {
-          "source": "Kaspersky Securelist",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
-          "title": "OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia",
-          "link": "https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/",
-          "published": "2026-07-30T11:00:12+00:00",
-          "summary": "Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.",
+          "title": "Enhancing AI security through global AI red teaming",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+          "published": "2026-07-27T16:25:00+00:00",
+          "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
           "taxonomy": {
             "threat_categories": [
-              "apt_espionage",
-              "web_shell_backdoor"
+              "ai_security"
             ],
             "actor_attribution": [],
             "affected_industries": [
-              "healthcare",
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f6cd02268d",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "LockBit"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
-        "link": "https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/",
-        "published": "2026-07-30T08:00:57+00:00",
-        "summary": "Kaspersky experts dissect GenieLocker: new custom ransomware variants for Windows, Linux, and ESXi systems. We found this family in attacks by Toy Ghouls, a financially motivated extortion group.",
-        "full_body": "Table of Contents Introduction Technical details Modus operandi Initial Access Discovery and Credential Access Lateral Movement and Command and Control Impact Encryption Trojan for Windows Arguments and launch Anti-debugging Preparing for encryption File encryption and cryptography Encryption Trojan for ESXi and Linux ESXi and Linux features File encryption Victims Conclusions Indicators of compromise GenieLocker for Windows GenieLocker for Linux and ESXi C2 Authors Fedor Sinitsyn Yanis Zinchenko Introduction The new GenieLocker ransomware family has been active since March 2026. It has been used in attacks against organizations in the Russian Federation, primarily in the manufacturing sector, and attributed to the Toy Ghouls group by open-source intelligence (link in Russian). The Toy Ghouls, also known as Bearlyfy, Labubu and Laboo.boo, is a financially motivated extortion group, which previously relied on third-party encryption Trojans like RedAlert, LockBit, and Babuk. GenieLocker, apparently a custom design, upgrades their toolkit and reduces their reliance on third-party software. We discovered multiple samples of this Trojan in two variants: PE builds for Windows and ELF builds for Linux and ESXi. Technical details Modus operandi We described typical TTPs and modus operandi of the Toy Ghouls threat actor in the previous post (link in Russian). In this article, we aim to thoroughly describe the capabilities of Windows and Linux builds of the custom encryption Trojan GenieLocker. To give more context, we will also provide a brief overview of the attack that took place at the end of March 2026, where GenieLocker was deployed on the victim’s systems. Initial Access During the incident, the attackers first entered the environment through an OpenVPN connection originating from an external partner’s network. They likely exploited the trusted relationship with that partner and used stolen, yet still valid, credentials to connect. Discovery and Credential Access After breaching the target’s network, the attackers installed additional tools on the compromised hosts, including OpenSSH, socks5.exe, SoftPerfect Network Scanner, and Mimikatz. They employed SoftPerfect Network Scanner for discovery and used Mimikatz to dump credentials. Forensic analysis also shows that they accessed the KeePassXC password manager already installed on several compromised machines, likely attempting to extract the stored credentials from the KeePass databases. Lateral Movement and Command and Control Lateral movement was performed by using RDP to reach Windows machines and SSH for Linux servers. The widespread deployment of the encryption Trojan was conducted with the legitimate utilities PsExec and PAExec. Additionally, the attackers established a reverse SSH tunnel to communicate with their command‑and‑control server. Impact During the impact phase, the attackers encrypted files on the compromised Windows machines with the PE version of the GenieLocker ransomware. On the compromised Linux and ESXi servers, they stopped active virtual machines and encrypted their disks using the ELF version of GenieLocker. The tactics, techniques, and procedures seen here match those documented in earlier attacks attributed to the Toy Ghouls group. As in those prior incidents, forensic analysis found no evidence of data exfiltration, which is typical behavior for this threat actor. Toy Ghouls have not employed a double‑extortion model and do not run a data‑leak website. Encryption Trojan for Windows The Windows version of GenieLocker (MD5: 5d62c1349b8981c396c9a23f4f8f053c) is primarily written in C, but compiled with the C++ libraries using Microsoft Visual C/C++. The malware incorporates several ransom‑related capabilities, including process termination, service shutdown, debugger evasion, and a sophisticated encryption routine. For its cryptographic operations, it relies on the open‑source libsodium library. Aligned with the recent trend supported by our expertise, ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [
-            "LockBit"
-          ],
-          "affected_industries": [
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
-          "link": "https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/",
-          "published": "2026-07-30T08:00:57+00:00",
-          "summary": "Kaspersky experts dissect GenieLocker: new custom ransomware variants for Windows, Linux, and ESXi systems. We found this family in attacks by Toy Ghouls, a financially motivated extortion group.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "LockBit"
-            ],
-            "affected_industries": [
-              "critical_infrastructure",
-              "manufacturing_industrial"
+              "education"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -6085,6 +5757,348 @@
       ]
     },
     {
+      "cluster_id": "1d6332ec8a",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Network Anomaly Detection in KATA",
+        "link": "https://securelist.com/tr/network-anomaly-detection-in-kata/120892/",
+        "published": "2026-07-31T10:00:25+00:00",
+        "summary": "An analysis of how Network Anomaly Detection (NAD) rules work within Kaspersky Anti Targeted Attack, using Kerberoasting and DNS tunneling attacks as examples.",
+        "full_body": "Threat Response Table of Contents Introduction Kerberoasting attack detection by KATA Why standard tools have a hard time detecting Kerberoasting Creating a Network Anomaly Detection rule Detecting DNS tunneling in KATA How DNS tunnels work DNS tunneling detection logic Prebuilt rules for detecting network anomalies in KATA Conclusion Introduction Once the attacker has breached the corporate network, subsequent stages of the attack often involve leveraging standard domain infrastructure protocols: using Kerberos, running DNS queries, accessing internal services, opening network shares, and other common networking actions. Because this activity is virtually indistinguishable from legitimate network traffic, it is extremely difficult to detect it with traditional network attack detection tools. Kerberoasting and DNS tunneling have long ceased to be exotic techniques. They are becoming standard methods in modern attacks because they allow attackers to execute critical compromise stages while remaining undetected by traditional security tools. A clear example of this trend is seen in latest campaigns, employing both Kerberoasting and DNS tunneling . Traditional network security tools perform well when the attack features a distinct and identifiable indicator: a characteristic query string, a known malicious traffic pattern, or the source code of an already discovered exploit. While this approach to threat detection remains effective, it cannot always be applied to discovering network attacks that blend seamlessly with legitimate traffic inside a corporate network. Instead of searching for explicit indicators of attack, Network Anomaly Detection (NAD) analyzes all traffic for suspicious artifacts that deviate from the host’s typical network activity. Within Kaspersky’s solution portfolio, this technology is implemented specifically in the Kaspersky Anti Targeted Attack (KATA) platform. The system analyzes network traffic data (DNS, DCE/RPC, Kerberos and other packets) and extracts key parameters used to identify anomalous behavior. This approach enables searching for attacks on domain controllers, signs of traffic tunneling and exfiltration, C2 communications, and other scenarios that may point to compromise of network infrastructure. However, Network Anomaly Detection is not built on a single, universal set of indicators. Each attack scenario employs tailored detection models that account for the specifics of the corresponding network protocol, typical host behavior, and characteristic deviations from that baseline. This article examines two practical examples – detecting Kerberoasting and DNS tunneling – to demonstrate how these principles are implemented in KATA’s NAD rules and why this approach proves more effective than traditional signature-based analysis. Kerberoasting attack detection by KATA Why standard tools have a hard time detecting Kerberoasting The Kerberoasting attack leverages the standard operational logic of the Kerberos protocol. The attacker identifies service accounts configured with a Service Principal Name (SPN), requests a Ticket-Granting Service (TGS) ticket for them, and attempts to crack the password offline using a dictionary attack against the retrieved ticket. If the password is weak or hasn’t been changed in a long time, the adversary can bruteforce it to get it in cleartext. Subsequently, these compromised credentials can be leveraged for both vertical and horizontal movement across the network. The essence of a Kerberoasting attack is that an adversary possessing a compromised low-privileged account and a valid Ticket-Granting Ticket (TGT) for that account can request TGS tickets with weakened encryption for service accounts with SPNs. Crucially, it doesn’t matter whether the compromised account actually holds access permissions for those services. Having obtained these tickets, the attacker can then take them offline and bruteforce the service account’s password by trying to decrypt the correspond",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Network Anomaly Detection in KATA",
+          "link": "https://securelist.com/tr/network-anomaly-detection-in-kata/120892/",
+          "published": "2026-07-31T10:00:25+00:00",
+          "summary": "An analysis of how Network Anomaly Detection (NAD) rules work within Kaspersky Anti Targeted Attack, using Kerberoasting and DNS tunneling attacks as examples.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ba4ef137f5",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia",
+        "link": "https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/",
+        "published": "2026-07-30T11:00:12+00:00",
+        "summary": "Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.",
+        "full_body": "Table of Contents Introduction OctLurk OctLurk Deployment LurkPoxy Deployment OctLurk loader OctLurk backdoor Post-compromise activity Victim fingerprinting Event log collection Credential harvesting Impacket — secretsdump Keylogger Browser Password Decryptor Remote access : Pandora FMS agents (Pandora RC agent) Network scan: FSCAN Email harvesting LurkProxy SilkLurk Deployment SilkLurk loader SilkLurk backdoor Post-compromise activity Second-stage payload PlugX Infrastructure Attribution Conclusions Indicators of Compromise Backdoor domains and IPs OctLurk C2 LurkProxy C2 SilkLurk C2 Loaders OctLurk loader SilkLurk loader PlugX dropper PlugX loader OctLurk backdoor OctLurk File Manager plugin OctLurk Command Shell plugin OctLurk Interaction Manager plugin Impacket’s secretsdump (not available) Keylogger Browser password stealer FSCAN Batch scripts (not available) Archive utilities WinRAR 7zip File paths OctLurk file paths SilkLurk file paths PlugX file paths WinRAR and 7z file paths Authors Saurabh Sharma Yaroslav Kikel Introduction We have been tracking two new backdoors, OctLurk and SilkLurk , observed in attacks against government organizations primarily in Central Asia since January 2025. Identified victims are located in Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic. These organizations operate across several sectors, including healthcare, research, government offices, ministries of foreign affairs, logistics, law‑enforcement agencies, urban planning and facilities management, and public educational establishments. The backdoor loaders are customized for each victim and use information from the victim’s machine to decrypt the payload. Both the loaders and the backdoors are heavily obfuscated, making analysis more complicated. OctLurk and SilkLurk can download and inject additional plugins to perform further malicious actions, including launching command shells, performing file system activity, synthesizing keyboard and mouse events, network scanning, credential dumping, keylogging, password theft from browsers, email collection, and remote access. Furthermore, the attackers deployed a specialized utility we named LurkProxy , which we also cover in this report. While it has a highly similar architecture to the OctLurk backdoor, it is not a backdoor itself. Our investigation shows that the same threat actor operates both SilkLurk and OctLurk , and some victims infected with SilkLurk also contain OctLurk. We assess with medium confidence that the same actor is behind both backdoors, and that they are Chinese‑speaking. However, at the time of publication, we couldn’t attribute this activity to any known group. OctLurk OctLurk Deployment The attacker created a scheduled task named GoogleUpDate on remote machines using admin credentials. The task runs once with System account privileges right after it was created, executing the batch script located at C:\\Users\\<username>\\Videos\\1.bat (MD5 6ecf84fb18f6747ed08d7598364d853a ). Prior to executing the task, the actor queries its status. It is then run, as shown below. The 1.bat script creates a service named NgcCIntSvc , which loads the loader DLL named oleasapi.dll (MD5 082d49ef9f14e6811d68c7e0e82e5069 ). The ServiceMain parameter in the service’s registry entry is set to invoke the RegisterService function of oleasapi.dll as shown below. LurkPoxy Deployment In another case, the attacker at first checked connectivity to the domain dns[.]ssentialserv[.]xyz as shown below. At the time of our research, the domain was resolving to the address 154[.]196[.]162[.]76 which is used as a LurkProxy C2 server. After confirming that the C2 server was reachable, the attacker executed the batch script C:\\Users\\[username]\\Desktop\\auto.bat (MD5 b874123a80fc4f40e06872b9cb54ebc6 ). The script created a service named Cusrxsrv , which loads a DLL named msbasesysdc.dll . In the service registry, the ServiceMain parameter was set to call the RegisterService fu",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia",
+          "link": "https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/",
+          "published": "2026-07-30T11:00:12+00:00",
+          "summary": "Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "government",
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f6cd02268d",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "LockBit"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
+        "link": "https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/",
+        "published": "2026-07-30T08:00:57+00:00",
+        "summary": "Kaspersky experts dissect GenieLocker: new custom ransomware variants for Windows, Linux, and ESXi systems. We found this family in attacks by Toy Ghouls, a financially motivated extortion group.",
+        "full_body": "Table of Contents Introduction Technical details Modus operandi Initial Access Discovery and Credential Access Lateral Movement and Command and Control Impact Encryption Trojan for Windows Arguments and launch Anti-debugging Preparing for encryption File encryption and cryptography Encryption Trojan for ESXi and Linux ESXi and Linux features File encryption Victims Conclusions Indicators of compromise GenieLocker for Windows GenieLocker for Linux and ESXi C2 Authors Fedor Sinitsyn Yanis Zinchenko Introduction The new GenieLocker ransomware family has been active since March 2026. It has been used in attacks against organizations in the Russian Federation, primarily in the manufacturing sector, and attributed to the Toy Ghouls group by open-source intelligence (link in Russian). The Toy Ghouls, also known as Bearlyfy, Labubu and Laboo.boo, is a financially motivated extortion group, which previously relied on third-party encryption Trojans like RedAlert, LockBit, and Babuk. GenieLocker, apparently a custom design, upgrades their toolkit and reduces their reliance on third-party software. We discovered multiple samples of this Trojan in two variants: PE builds for Windows and ELF builds for Linux and ESXi. Technical details Modus operandi We described typical TTPs and modus operandi of the Toy Ghouls threat actor in the previous post (link in Russian). In this article, we aim to thoroughly describe the capabilities of Windows and Linux builds of the custom encryption Trojan GenieLocker. To give more context, we will also provide a brief overview of the attack that took place at the end of March 2026, where GenieLocker was deployed on the victim’s systems. Initial Access During the incident, the attackers first entered the environment through an OpenVPN connection originating from an external partner’s network. They likely exploited the trusted relationship with that partner and used stolen, yet still valid, credentials to connect. Discovery and Credential Access After breaching the target’s network, the attackers installed additional tools on the compromised hosts, including OpenSSH, socks5.exe, SoftPerfect Network Scanner, and Mimikatz. They employed SoftPerfect Network Scanner for discovery and used Mimikatz to dump credentials. Forensic analysis also shows that they accessed the KeePassXC password manager already installed on several compromised machines, likely attempting to extract the stored credentials from the KeePass databases. Lateral Movement and Command and Control Lateral movement was performed by using RDP to reach Windows machines and SSH for Linux servers. The widespread deployment of the encryption Trojan was conducted with the legitimate utilities PsExec and PAExec. Additionally, the attackers established a reverse SSH tunnel to communicate with their command‑and‑control server. Impact During the impact phase, the attackers encrypted files on the compromised Windows machines with the PE version of the GenieLocker ransomware. On the compromised Linux and ESXi servers, they stopped active virtual machines and encrypted their disks using the ELF version of GenieLocker. The tactics, techniques, and procedures seen here match those documented in earlier attacks attributed to the Toy Ghouls group. As in those prior incidents, forensic analysis found no evidence of data exfiltration, which is typical behavior for this threat actor. Toy Ghouls have not employed a double‑extortion model and do not run a data‑leak website. Encryption Trojan for Windows The Windows version of GenieLocker (MD5: 5d62c1349b8981c396c9a23f4f8f053c) is primarily written in C, but compiled with the C++ libraries using Microsoft Visual C/C++. The malware incorporates several ransom‑related capabilities, including process termination, service shutdown, debugger evasion, and a sophisticated encryption routine. For its cryptographic operations, it relies on the open‑source libsodium library. Aligned with the recent trend supported by our expertise, ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "LockBit"
+          ],
+          "affected_industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
+          "link": "https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/",
+          "published": "2026-07-30T08:00:57+00:00",
+          "summary": "Kaspersky experts dissect GenieLocker: new custom ransomware variants for Windows, Linux, and ESXi systems. We found this family in attacks by Toy Ghouls, a financially motivated extortion group.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "LockBit"
+            ],
+            "affected_industries": [
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "b1e5db3b13",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Trail of Bits",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Building secure Uniswap v4 hooks",
+        "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
+        "published": "2026-07-30T11:00:00+00:00",
+        "summary": "Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t",
+        "full_body": "Page content Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them to focus their review. What the PoolManager guarantees If you’re familiar with Uniswap v3, where each pool was a separate contract, v4 inverts the model. All pool state now lives in a singleton PoolManager contract, with each pool represented in its storage. Uniswap v4 adds hooks: independent contracts that execute custom logic at specific points in the swap and liquidity lifecycle. Figure 1: Pools live inside the singleton PoolManager, and multiple pools can use the same hook contract. Here’s what a pool looks like in v4: struct PoolKey { Currency currency0; Currency currency1; uint24 fee; int24 tickSpacing; IHooks hooks; } Figure 2: A pool's PoolKey includes both currencies, the fee, tick spacing, and the hook address ( v4-core/src/types/PoolKey.sol ). Notice that the hook address ( IHooks hooks; ) is part of the pool’s identity. If you change any of these fields, you’re talking to a different pool. This matters because trusting the wrong PoolKey means trusting the wrong pool. v4 also introduces a session-based model that works like a flash loan. Your contract calls unlock() on the PoolManager, which triggers a callback into your code. At the end, the PoolManager checks that no unsettled currency deltas remain: function unlock(bytes calldata data) external returns (bytes memory result) { Lock.unlock(); // ... callback execution happens here ... if (NonzeroDeltaCount.read() != 0) revert CurrencyNotSettled(); Lock.lock(); } Figure 3: Simplified PoolManager.unlock() flow: unlock the session, execute the callback, and revert unless all currency deltas settle to zero ( v4-core/src/PoolManager.sol ). Figure 4: A periphery or hook calls PoolManager.unlock(), handles unlockCallback(), and calls swap() inside the unlocked session. The PoolManager enforces v4’s protocol mechanics, including pool initialization rules, swap and liquidity math, hook-callback sequencing, and end-of-session settlement. Hook developers are responsible for validating the application-specific assumptions their hooks add. Each hook must decide: Who can call its privileged paths Which pools are legitimate How custom balances and deltas should be accounted for Whether external integrations can fail or reenter safely 1. Anyone can call your hook Hook callbacks are external functions on your contract. If you don’t check the caller, an attacker can call those callbacks directly with malicious parameters. A loose unlockCallback path can also reach internal actions that should never be callable. The fix: use BaseHook for hook entrypoints and SafeCallback for unlockCallback . Together, they enforce caller checks on the callback paths they cover: modifier onlyPoolManager() { if (msg.sender != address(poolManager)) revert NotPoolManager(); _; } Figure 5: onlyPoolManager restricts hook callbacks to the configured PoolManager. Add an equivalent caller check only on paths those contracts don’t cover. Real-world example: The Cork exploit (~$12M, May 2025) shows why this check matte",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Trail of Bits",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Building secure Uniswap v4 hooks",
+          "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
+          "published": "2026-07-30T11:00:00+00:00",
+          "summary": "Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "8d776f4b56",
       "priority_score": 10,
       "member_count": 1,
@@ -6221,81 +6235,6 @@
           "link": "https://www.rapid7.com/blog/post/c-exclusive-networks-partnership-accelerating-customer-success",
           "published": "2026-07-28T08:00:00+00:00",
           "summary": "Claudia Zoon is Senior Manager, Channel Sales at Rapid7. Across Belgium, the Netherlands, and Luxembourg, organizations are accelerating digital transformation through AI, cloud adoption, and increasingly connected business operations. These investments are creating new opportunities for innovation, but also reshaping the cybersecurity landscape. In this dynamic environment, Rapid7 is excited to announce an expanded strategic distribution partnership with Exclusive Networks across the Benelux region. Why now? Because as organizations grow, so too do the expectations of security teams. As attack surfaces expand, more sophisticated AI-enabled threats emerge; as compliance requirements evolve, leaders expect security to scale right along with the business – all without adding unnecessary complexity. In this chaotic environment, cybersecurity customers are demanding experiences that create more calm. This means no more disconnected security tools or reactive approaches, but integrated secu",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b1e5db3b13",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Trail of Bits",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Building secure Uniswap v4 hooks",
-        "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
-        "published": "2026-07-30T11:00:00+00:00",
-        "summary": "Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t",
-        "full_body": "Page content Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them to focus their review. What the PoolManager guarantees If you’re familiar with Uniswap v3, where each pool was a separate contract, v4 inverts the model. All pool state now lives in a singleton PoolManager contract, with each pool represented in its storage. Uniswap v4 adds hooks: independent contracts that execute custom logic at specific points in the swap and liquidity lifecycle. Figure 1: Pools live inside the singleton PoolManager, and multiple pools can use the same hook contract. Here’s what a pool looks like in v4: struct PoolKey { Currency currency0; Currency currency1; uint24 fee; int24 tickSpacing; IHooks hooks; } Figure 2: A pool's PoolKey includes both currencies, the fee, tick spacing, and the hook address ( v4-core/src/types/PoolKey.sol ). Notice that the hook address ( IHooks hooks; ) is part of the pool’s identity. If you change any of these fields, you’re talking to a different pool. This matters because trusting the wrong PoolKey means trusting the wrong pool. v4 also introduces a session-based model that works like a flash loan. Your contract calls unlock() on the PoolManager, which triggers a callback into your code. At the end, the PoolManager checks that no unsettled currency deltas remain: function unlock(bytes calldata data) external returns (bytes memory result) { Lock.unlock(); // ... callback execution happens here ... if (NonzeroDeltaCount.read() != 0) revert CurrencyNotSettled(); Lock.lock(); } Figure 3: Simplified PoolManager.unlock() flow: unlock the session, execute the callback, and revert unless all currency deltas settle to zero ( v4-core/src/PoolManager.sol ). Figure 4: A periphery or hook calls PoolManager.unlock(), handles unlockCallback(), and calls swap() inside the unlocked session. The PoolManager enforces v4’s protocol mechanics, including pool initialization rules, swap and liquidity math, hook-callback sequencing, and end-of-session settlement. Hook developers are responsible for validating the application-specific assumptions their hooks add. Each hook must decide: Who can call its privileged paths Which pools are legitimate How custom balances and deltas should be accounted for Whether external integrations can fail or reenter safely 1. Anyone can call your hook Hook callbacks are external functions on your contract. If you don’t check the caller, an attacker can call those callbacks directly with malicious parameters. A loose unlockCallback path can also reach internal actions that should never be callable. The fix: use BaseHook for hook entrypoints and SafeCallback for unlockCallback . Together, they enforce caller checks on the callback paths they cover: modifier onlyPoolManager() { if (msg.sender != address(poolManager)) revert NotPoolManager(); _; } Figure 5: onlyPoolManager restricts hook callbacks to the configured PoolManager. Add an equivalent caller check only on paths those contracts don’t cover. Real-world example: The Cork exploit (~$12M, May 2025) shows why this check matte",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Trail of Bits",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Building secure Uniswap v4 hooks",
-          "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
-          "published": "2026-07-30T11:00:00+00:00",
-          "summary": "Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -6638,187 +6577,6 @@
       ]
     },
     {
-      "cluster_id": "b34544d592",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "AutoIT Payload Injector , (Tue, Jul 28th)",
-        "link": "https://isc.sans.edu/diary/rss/33192",
-        "published": "2026-07-28T07:42:27+00:00",
-        "summary": "For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you'll see below.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "AutoIT Payload Injector , (Tue, Jul 28th)",
-          "link": "https://isc.sans.edu/diary/rss/33192",
-          "published": "2026-07-28T07:42:27+00:00",
-          "summary": "For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you'll see below.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "2126e62d58",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-66066"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Rails patches critical Active Storage flaw with RCE potential",
-        "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
-        "published": "2026-08-01T14:20:30+00:00",
-        "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
-        "full_body": "Rails patches critical Active Storage flaw with RCE potential By Bill Toulas August 1, 2026 10:20 AM 0 A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). Rails is a popular open-source web application framework written in Ruby for building websites and web apps. It uses the built-in Rails component Active Storage for handling file uploads and attachments. Rails maintainers published an advisory about the CVE-2026-66066 flaw, which received a critical severity rating. Active Storage may also generate image thumbnails from uploaded media using image processing libraries such as libvips or ImageMagick . According to the security bulletin , CVE-2026-66066 is exploitable when libvips is used, allowing an attacker to upload a specially crafted image to a vulnerable application and read arbitrary files on the server. Another prerequisite for the attack is that the server needs to allow image uploads from untrusted users. If these requirements are met, an attacker may access app files, including the process environment, which typically contains ‘secret_key_base’ and credentials for databases, cloud storage, and other services. CVE-2026-66066 impacts Active Storage before 7.2.3.2, 8.0.x before 8.0.5.1, and 8.1.x before 8.1.3.1. Rails 6.x is only affected if Active Storage has been configured outside its defaults. The Rails team recommends upgrading to libvips 8.13 or later and rotating the ‘secret_key_base’ (the Rails master key), database credentials, Active Storage service credentials, and any other secrets accessible to the application process. For systems running libvips 8.13 or later, administrators can temporarily disable the vulnerable functionality by setting the VIPS_BLOCK_UNTRUSTED environment variable or calling Vips.block_untrusted(true) when using ruby-vips 2.2.1 or newer. There is no workaround available for apps that use libvips before 8.13. ImageMagick users are not affected by this vector. However, libvips is the default processor in the official Rails Docker images, and also Debian and Ubuntu setups. The Rails team said it has intentionally withheld technical details for the vulnerability to reduce the risk of exploitation before users have time to apply the updates. Full technical details were initially scheduled to be disclosed on August 28 on the Rails forums . However, because public proof-of-concept (PoC) exploits became available very quickly, the maintainers decided to publish the full details as well as forensic investigation tooling . The vulnerability was discovered and responsibly reported to the Rails team by researchers from Ethiack and GMO Flatt Security Inc. Security firm Akamai has also published a warning about CVE-2026-66066, naming the attack chain “KindaRails2Shell,” and warning about its RCE potential. “With the secret_key_base compromised, the attacker holds the master cryptographic key to the application,” explains Akamai . “They can forge session cookies, sign global IDs, and manipulate serialized data, which directly translates into full RCE on the underlying server.” Akamai says it coordinated with Ethiack before public disclosure to prepare protections for customers, and has now released web application firewall (WAF) protections. Ethiack noted that a WAF might buy admins some time, but attackers using AI tooling should be able to reconstruct the attack chain based on the patch diffs. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: JetBrains warns of critical TeamCity remote code execution flaw vBulletin fixes critical pre-auth RCE flaw with public exploit Hackers target US firm",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-66066"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Docker": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Docker",
-                "mention",
-                0.3
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Rails patches critical Active Storage flaw with RCE potential",
-          "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
-          "published": "2026-08-01T14:20:30+00:00",
-          "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-66066"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Docker": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Docker",
-                  "mention",
-                  0.3
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "532de505b8",
       "priority_score": 9,
       "member_count": 1,
@@ -6926,6 +6684,112 @@
                 ],
                 [
                   "Anthropic/Claude",
+                  "mention",
+                  0.3
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "2126e62d58",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-66066"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Rails patches critical Active Storage flaw with RCE potential",
+        "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+        "published": "2026-08-01T14:20:30+00:00",
+        "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+        "full_body": "Rails patches critical Active Storage flaw with RCE potential By Bill Toulas August 1, 2026 10:20 AM 0 A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). Rails is a popular open-source web application framework written in Ruby for building websites and web apps. It uses the built-in Rails component Active Storage for handling file uploads and attachments. Rails maintainers published an advisory about the CVE-2026-66066 flaw, which received a critical severity rating. Active Storage may also generate image thumbnails from uploaded media using image processing libraries such as libvips or ImageMagick . According to the security bulletin , CVE-2026-66066 is exploitable when libvips is used, allowing an attacker to upload a specially crafted image to a vulnerable application and read arbitrary files on the server. Another prerequisite for the attack is that the server needs to allow image uploads from untrusted users. If these requirements are met, an attacker may access app files, including the process environment, which typically contains ‘secret_key_base’ and credentials for databases, cloud storage, and other services. CVE-2026-66066 impacts Active Storage before 7.2.3.2, 8.0.x before 8.0.5.1, and 8.1.x before 8.1.3.1. Rails 6.x is only affected if Active Storage has been configured outside its defaults. The Rails team recommends upgrading to libvips 8.13 or later and rotating the ‘secret_key_base’ (the Rails master key), database credentials, Active Storage service credentials, and any other secrets accessible to the application process. For systems running libvips 8.13 or later, administrators can temporarily disable the vulnerable functionality by setting the VIPS_BLOCK_UNTRUSTED environment variable or calling Vips.block_untrusted(true) when using ruby-vips 2.2.1 or newer. There is no workaround available for apps that use libvips before 8.13. ImageMagick users are not affected by this vector. However, libvips is the default processor in the official Rails Docker images, and also Debian and Ubuntu setups. The Rails team said it has intentionally withheld technical details for the vulnerability to reduce the risk of exploitation before users have time to apply the updates. Full technical details were initially scheduled to be disclosed on August 28 on the Rails forums . However, because public proof-of-concept (PoC) exploits became available very quickly, the maintainers decided to publish the full details as well as forensic investigation tooling . The vulnerability was discovered and responsibly reported to the Rails team by researchers from Ethiack and GMO Flatt Security Inc. Security firm Akamai has also published a warning about CVE-2026-66066, naming the attack chain “KindaRails2Shell,” and warning about its RCE potential. “With the secret_key_base compromised, the attacker holds the master cryptographic key to the application,” explains Akamai . “They can forge session cookies, sign global IDs, and manipulate serialized data, which directly translates into full RCE on the underlying server.” Akamai says it coordinated with Ethiack before public disclosure to prepare protections for customers, and has now released web application firewall (WAF) protections. Ethiack noted that a WAF might buy admins some time, but attackers using AI tooling should be able to reconstruct the attack chain based on the patch diffs. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: JetBrains warns of critical TeamCity remote code execution flaw vBulletin fixes critical pre-auth RCE flaw with public exploit Hackers target US firm",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-66066"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Docker": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Docker",
+                "mention",
+                0.3
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Rails patches critical Active Storage flaw with RCE potential",
+          "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+          "published": "2026-08-01T14:20:30+00:00",
+          "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-66066"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Docker": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Docker",
                   "mention",
                   0.3
                 ]
@@ -7867,8 +7731,8 @@
         "link": "https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026",
         "published": "2026-07-31T23:59:59+00:00",
         "summary": "Attack Discovery turns raw alerts into validated threats and Elastic Defend closes vulnerable driver gaps as fast as they're disclosed. Watch it all run against real attacks at the booth.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "31 July 2026 • Jackie McGuire Elastic goes all-in on Hacker Summer Camp at Black Hat and DEF CON in Las Vegas Attack Discovery turns raw alerts into validated threats and Elastic Defend closes vulnerable driver gaps as fast as they're disclosed. Watch it all run against real attacks at the booth. 7 min read Product Updates , Detection Engineering At Elastic, we know that the best way to build security tools is to bring them to the community, have security pros use them, and let them tell us what features and functionality matter and why. This year, we’re excited to do this at Black Hat and DEFCON, the weeklong security marathon affectionately known as Hacker Summer Camp. Our smartest technical experts and practitioners will be at Black Hat showing off our latest innovations, sponsoring and hosting events to help security experts and leaders connect, and at DEFCON’s Blue Team Village with our new Capture the Flag challenge to help defenders sharpen their investigation skills. This community-powered innovation is evident in everything we do. Elastic is a security tool built by security users, for security users. We’ve sat in the seat. We’ve worked the queue at 2 a.m. We’ve chased an alert that turned out to be nothing and missed the one that turned out to be everything. What we're continually building and improving is the security operations center (SOC) we wished we'd had back then. This means agents that carry the machine-speed work, leave critical judgment to analysts, and a platform that connects the two. With Elastic, machine speed and human judgment work together in a single loop. Stopping more at the endpoint reduces the number of alerts. Those that remain surface the real threats, and you can validate them before they reach a queue. The work underneath is increasingly automated. Each piece makes the next one lighter, and none of it asks you to hand judgment over to a black box. Alert Zero: From alert queue to validated threats Every SOC is chasing a queue worked down to what actually matters, the SOC's version of “inbox zero.” When we built our suite of tools, our goal was Alert Zero , a state that always felt out of reach. It’s a goal that teams move toward, with agents and analysts working together. It doesn’t mean zero alerts or replacing the analysts. How Attack Discovery investigates alerts like an analyst Attack Discovery has always pulled related alerts together into a single view of an attack. Now it goes further, working through them the way a human analyst would: Threat-hunts raw events beyond the initial alerts. Checks entity risk for the users and hosts involved. Corroborates findings across other data sources. Classifies the event as a validated attack. Your team gets a short list of validated attacks to work, instead of a wall of raw alerts to triage. Closing detection gaps with auto-drafted rules When Attack Discovery finds something that your rules missed, it drafts a detection rule to close the gap and hands it to an analyst to approve, helping to make the entire workflow more efficient and to reduce the source of false positives. Security teams need the how, not just the what , and Attack Discovery shows its work, so you can see how it got to each answer and recommended action. Every step of the reasoning is visible, so an analyst knows why an alert became an attack. You can run it however fits your team, whether you kick it off yourself or set a recurring cadence. You can even trigger it from Elastic Workflows. A separate alert analysis workflow addresses the volume from the other side, differentiating between likely false and true positives, so analysts lose fewer hours to low-fidelity alerts, and leaving Attack Discovery a cleaner set to investigate. Elastic Defend endpoint protection: vulnerable driver coverage and Windows on ARM Fewer alerts reach the queue when more threats are stopped on the device, so prevention starts at the endpoint. Vulnerable driver coverage that keeps pace with disclosure E",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -9477,7 +9341,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 4,
+      "article_count": 3,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -9491,7 +9355,6 @@
       "links": [
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
         "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
-        "https://isc.sans.edu/diary/rss/33196",
         "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
       ]
     },
@@ -9595,7 +9458,7 @@
         "title": "This month in security with Tony Anscombe – July 2026 edition",
         "sources_in_window": 3,
         "window_hours": 4.5,
-        "cohort_count": 5
+        "cohort_count": 4
       },
       {
         "cluster_id": "b1e900a5a7",
