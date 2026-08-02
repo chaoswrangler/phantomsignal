@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-02T03:44:43.676351+00:00
+- Generated: 2026-08-02T06:39:47.367344+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 360
-- Total clusters raw: 162
-- Total clusters in packet: 78
+- Total items in window: 368
+- Total clusters raw: 160
+- Total clusters in packet: 76
 - Dropped low score: 84
 - Dropped overflow: 0
 
@@ -85,11 +85,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -100,6 +95,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 1
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -110,41 +110,36 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 8
+  - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -155,21 +150,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -180,36 +170,46 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -230,35 +230,35 @@
   - Status: ok
   - Item count: 20
   - In window count: 11
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 9
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 30
+  - In window count: 1
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -280,36 +280,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -320,6 +315,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 17
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,11 +330,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 28
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -345,36 +340,46 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 28
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 29
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -385,13 +390,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,28 +405,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -435,16 +415,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 24
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 18
+  - In window count: 25
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 4
-- Article count: 15
+- Article count: 16
 - Cohesion: 0.215
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -490,6 +490,7 @@
 - Links:
   - https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/
   - https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/
+  - https://www.reddit.com/r/cybersecurity/comments/1vc4525/captivecrunch_midnight_blizzard_russia_targets/
   - https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
   - https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/
   - https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
@@ -503,7 +504,7 @@
 - Anchor signal: CVE-2026-66066
 - Theme key: cve-2026-66066
 - Cluster count: 3
-- Article count: 5
+- Article count: 4
 - Cohesion: 0.619
 - Shared strong signals: CVE-2026-66066
 - Member CVEs: (none)
@@ -515,7 +516,6 @@
 - Cluster IDs: 513073eb52, 0d2189c83e, 2126e62d58
 - Links:
   - https://www.rapid7.com/blog/post/etr-kindarails2shell-cve-2026-66066-critical-arbitrary-file-read-and-possible-remote-code-execution-in-ruby-on-rails
-  - https://www.reddit.com/r/netsec/comments/1vauljz/kindarails2shell_arbitrary_file_read_to_rce_in/
   - https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html
   - https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
   - https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
@@ -535,13 +535,13 @@
   - affected_products: Microsoft SharePoint, Cisco, OpenAI/ChatGPT
   - cve_ids: CVE-2026-50522
   - urgency_signals: actively_exploited, zero_day, poc_available
-- Cluster IDs: e2f6a950f1, 85d2724fda, 7d478340af, b138851666
+- Cluster IDs: e2f6a950f1, 7d478340af, 85d2724fda, b138851666
 - Links:
   - https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/
   - https://www.infosecurity-magazine.com/news/phishing-dominates-initial-entry/
-  - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - https://blog.talosintelligence.com/ir-trends-q2-2026/
+  - https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
   - https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
 
 ### Cisco active exploitation
@@ -570,7 +570,7 @@
 - Anchor signal: PyPI
 - Theme key: pypi
 - Cluster count: 3
-- Article count: 14
+- Article count: 17
 - Cohesion: 0.206
 - Shared strong signals: PyPI
 - Member CVEs: (none)
@@ -582,13 +582,15 @@
 - Links:
   - https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/
   - https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/
+  - https://www.reddit.com/r/cybersecurity/comments/1vc4525/captivecrunch_midnight_blizzard_russia_targets/
   - https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/
-  - https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything
+  - https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
   - https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html
   - https://therecord.media/anthropic-ai-hacked-three-real-companies
   - https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
   - https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html
   - https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
+  - https://www.reddit.com/r/cybersecurity/comments/1vblr89/anthropics_claude_breached_3_orgs_uploaded_pypi/
   - https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/
 
 ### CVE-2026-63077 exploitation activity
@@ -633,8 +635,8 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 14
-- Cohesion: 0.21
+- Article count: 15
+- Cohesion: 0.2
 - Shared strong signals: AWS
 - Member CVEs: (none)
 - Also targets: (none)
@@ -653,6 +655,26 @@
   - https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
   - https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
   - https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+  - https://www.reddit.com/r/cybersecurity/comments/1vda95x/cybersecurity_help/
+
+### Kubernetes vulnerability activity
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
+- Cluster count: 3
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Kubernetes
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Kubernetes, OpenAI/ChatGPT
+- Cluster IDs: c7d4f5e8ea, cef34fdd67, 7dfa7dd627
+- Links:
+  - https://www.elastic.co/security-labs/ai-agent-attack-detection-hugging-face-breach
+  - https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
+  - https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+  - https://www.reddit.com/r/cybersecurity/comments/1vda95x/cybersecurity_help/
+  - https://www.wiz.io/blog/atlas-ai-vulnerability-researcher
 
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
@@ -690,28 +712,11 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/
   - https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
 
-### CVE-2026-61511 exploitation activity
-- Anchor signal: CVE-2026-61511
-- Theme key: cve-2026-61511
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.732
-- Shared strong signals: CVE-2026-61511
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-61511
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 2d87c8dc74, fa1ef247b7
-- Links:
-  - https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
-  - https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/
-
 ### ShinyHunters: ransomware extortion
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
 - Cluster count: 2
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.553
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
@@ -720,11 +725,12 @@
   - threat_categories: ransomware_extortion, data_breach
   - actor_attribution: ShinyHunters
   - affected_industries: healthcare
-- Cluster IDs: 73084b3bd7, cef34fdd67
+- Cluster IDs: cef34fdd67, 73084b3bd7
 - Links:
-  - https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
   - https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
   - https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+  - https://www.reddit.com/r/cybersecurity/comments/1vda95x/cybersecurity_help/
+  - https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/
 
 ## Forward signals
 
@@ -733,7 +739,7 @@
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (2)
+### Velocity bursts (3)
 - **This month in security with Tony Anscombe – July 2026 edition**
   - Cluster: 974cdece8d
   - Sources in window: 3
@@ -742,7 +748,12 @@
 - **Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)**
   - Cluster: b1e900a5a7
   - Sources in window: 3
-  - Window hours: 5.6
+  - Window hours: 2.5
+  - Cohort count: 4
+- **Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise**
+  - Cluster: 4c8ed8c5fa
+  - Sources in window: 3
+  - Window hours: 0.6
   - Cohort count: 3
 
 ### Leading edge (0)
@@ -764,7 +775,7 @@
 - Pair: CVE-2026-50522 + Cisco (cluster e2f6a950f1, first observation: True)
 - Pair: CVE-2026-50522 + Microsoft SharePoint (cluster e2f6a950f1, first observation: True)
 
-### Drift (4)
+### Drift (5)
 - **APT29** (cluster 4c8ed8c5fa)
   - New industries: (none)
   - New products: npm
@@ -775,19 +786,24 @@
   - New products: SolarWinds
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: GitHub, PyPI, npm
+- **ShinyHunters** (cluster cef34fdd67)
+  - New industries: critical_infrastructure, healthcare
+  - New products: AWS, Kubernetes, OpenAI/ChatGPT
+  - Prior top industries: education, financial_services, government
+  - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 - **LockBit** (cluster f6cd02268d)
   - New industries: manufacturing_industrial
   - New products: (none)
   - Prior top industries: critical_infrastructure, government, healthcare
   - Prior top products: Citrix, Fortinet, ScreenConnect
-- **ShinyHunters** (cluster 73084b3bd7)
-  - New industries: healthcare
+- **Black Basta** (cluster 3ed06f107d)
+  - New industries: manufacturing_industrial
   - New products: (none)
-  - Prior top industries: education, financial_services, government
-  - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
+  - Prior top industries: critical_infrastructure, education, legal_professional
+  - Prior top products: Salesforce, Ubiquiti UniFi, WordPress
 
 ### Persistence (6)
-- actor_attribution: ShinyHunters (weeks observed: 9, cluster 73084b3bd7)
+- actor_attribution: ShinyHunters (weeks observed: 9, cluster cef34fdd67)
 - actor_attribution: TeamPCP (weeks observed: 7, cluster 4c8ed8c5fa)
 - actor_attribution: LockBit (weeks observed: 4, cluster f6cd02268d)
 - actor_attribution: APT29 (weeks observed: 3, cluster 4c8ed8c5fa)
@@ -795,14 +811,14 @@
 - cve_ids: CVE-2026-48283 (weeks observed: 3, cluster dd6691160d)
 
 ### Tier inversion (2)
-- **Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)**
-  - Cluster: 1276a22842
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2024-1813
-- **New vBulletin Vulnerability!**
-  - Cluster: fa1ef247b7
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-61511
+- **Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)**
+  - Cluster: b1e900a5a7
+  - Primary source: Embrace the Red
+  - Strong signals: CVE-2025-60616, CVE-2026-5674
+- **CareCloud Data Breach Impacts Over 350,000**
+  - Cluster: cef34fdd67
+  - Primary source: SecurityWeek
+  - Strong signals: ShinyHunters
 
 ## Clusters
 
@@ -963,8 +979,8 @@ Back to Blog Products and Tools How AI is Rewriting the Zero-Day Playbook for Pr
 - Published: 2026-07-30T16:11:10+00:00
 - Link: https://www.rapid7.com/blog/post/etr-kindarails2shell-cve-2026-66066-critical-arbitrary-file-read-and-possible-remote-code-execution-in-ruby-on-rails
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: CVE-2026-66066
 
 #### Cluster taxonomy (union across members)
@@ -972,7 +988,7 @@ Back to Blog Products and Tools How AI is Rewriting the Zero-Day Playbook for Pr
 - cve_ids: CVE-2026-66066
 - urgency_signals: actively_exploited, poc_available, preauth_unauth
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_offensive_research, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: active_exploitation
@@ -993,18 +1009,13 @@ Overview On July 29, 2026, the Ruby on Rails project published a security adviso
 Back to Blog Vulnerabilities and Exploits KindaRails2Shell: CVE-2026-66066, Critical Arbitrary File Read and Possible Remote Code Execution in Ruby on Rails Jonah Burgess Jul 30, 2026 | Last updated on Jul 31, 2026 | 5 min read Overview On July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066 , a critical vulnerability affecting Active Storage image processing when used in conjunction with the libvips image processing library. The vulnerability has a CVSSv4 score of 9.5 and is classified as Initialization of a Resource with an Insecure Default ( CWE-1188 ). An unauthenticated attacker may be able to leverage CVE-2026-66066 and read files accessible to the Rails application process, potentially exposing secrets that could enable remote code execution (RCE) or access to connected systems. An application is affected when it uses libvips for Active Storage image processing and accepts image uploads from untrusted users. Rails notes that generating image variants is not a separate requirement for exposure. Vips is the default Active Storage variant processor for applications configured with Rails 7.0 or later defaults. According to Ethiack , only the Vips processor is affected; applications using Magick are not affected through the reported vector. As of July 30, 2026, Rapid7 is not aware of exploitation in the wild. Ethiack and GMO Flatt Security, who independently reported the vulnerability, have withheld proof-of-concept code and details of the full attack chain. Public code claiming to exploit CVE-2026-66066 exists, but it is unclear how closely it corresponds to the full attack chain reported privately to Rails. According to the Rails Security Announcement , additional details will be disclosed no later than August 28, 2026. Rapid7 recommends remediating affected applications on an urgent basis, outside of normal patch cycles. Update #1 : On July 31, 2026, Rails published technical details and forensic tools earlier than its planned August 28 disclosure date after several researchers reverse-engineered the attack and published proof-of-concept code. Technical overview libvips uses operations to load and save image formats, including operations backed by third-party libraries. Some are marked "unfuzzed" or "untrusted" because they are unsafe for untrusted content. According to Rails, Active Storage did not disable these operations before processing user-supplied files, which may allow a crafted upload to trigger an unsafe operation and disclose files readable by the application. The attack details published by Rails describe a chain in which an attacker creates a blob through Active Storage's direct-upload endpoint with a false image content type and obtains a genuine signed variation_key from a page that renders an Active Storage representation. A crafted file identifies itself to libvips as a MATLAB level 5 file but to libmatio as a MAT 7.3 HDF5 container. HDF5's External File List then reads bytes from an attacker-selected path, which are rendered as image pixels and returned in the resulting variant. This known chain also requires the deployed libvips build to include the matload operation. For this documented chain, the Active Storage direct-upload route must be reachable. When Active Storage routes are mounted, the direct-upload route is present by default even if the application's own interface does not use direct uploads. Rapid7 testing found that ordinary server-side attachment does not satisfy this chain because Rails re-identifies the crafted file as MATLAB data before variant processing. The arbitrary file-read stage does not require knowledge of secret_key_base or a forged variation key. Rapid7 also verified an RCE escalation in which recovered Rails signing material is used to forge an ImageProcessing 1.x variation; this path does not require Marshal deserialization. The Rails patch that remediates CVE-2026-66066, disables untrusted operations during Active Storage initializatio
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: KindaRails2Shell: CVE-2026-66066, Critical Arbitrary File Read and Possible Remote Code Execution in Ruby on Rails
   - Published: 2026-07-30T16:11:10+00:00
   - Link: https://www.rapid7.com/blog/post/etr-kindarails2shell-cve-2026-66066-critical-arbitrary-file-read-and-possible-remote-code-execution-in-ruby-on-rails
   - Summary: Overview On July 29, 2026, the Ruby on Rails project published a security advisory for CVE-2026-66066 , a critical vulnerability affecting Active Storage image processing when used in conjunction with the libvips image processing library. The vulnerability has a CVSSv4 score of 9.5 and is classified as Initialization of a Resource with an Insecure Default ( CWE-1188 ). An unauthenticated attacker may be able to leverage CVE-2026-66066 and read files accessible to the Rails application process, potentially exposing secrets that could enable remote code execution (RCE) or access to connected systems. An application is affected when it uses libvips for Active Storage image processing and accepts image uploads from untrusted users. Rails notes that generating image variants is not a separate requirement for exposure. Vips is the default Active Storage variant processor for applications configured with Rails 7.0 or later defaults. According to Ethiack , only the Vips processor is affected;
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: KindaRails2Shell: arbitrary file read to RCE in Rails Active Storage via libvips (CVE-2026-66066)
-  - Published: 2026-07-30T14:04:52+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vauljz/kindarails2shell_arbitrary_file_read_to_rce_in/
-  - Summary: Active Storage's default vips variant processor exposes an arbitrary file read that chains to RCE on stock Rails 7.x and 8.x, where the app serves back processed variants of user-supplied images. No authentication required in certain setups. Only vips is affected, Magick is not. Patched in 7.2.3.2, 8.0.5.1, and 8.1.3.1, and the fix requires libvips 8.13+. Chain and PoC withheld while patches roll out. submitted by /u/ZealousidealHunter80 [link] [comments]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads
   - Published: 2026-07-29T18:10:00+00:00
@@ -1071,8 +1082,8 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-63077: Critical unauthenticat
 - Published: 2026-07-30T14:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 5
+- Corroborating source count: 5
 - Strong signals: APT29, SolarWinds, UNC4736
 
 #### Cluster taxonomy (union across members)
@@ -1081,7 +1092,7 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-63077: Critical unauthenticat
 - affected_products: PyPI, SolarWinds, npm
 - attack_techniques: T1195.001
 - content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, apt_espionage
@@ -1103,7 +1114,7 @@ Written by: Kelli Vanderlee, Stuart Carrera For years, the cybersecurity industr
 Threat Intelligence Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise July 30, 2026 Google Threat Intelligence Group Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Kelli Vanderlee, Stuart Carrera For years, the cybersecurity industry's understanding of software supply chain compromise has been anchored by a few watershed events, including Russian cyber espionage actor ICE RELIC’s (formerly known as APT29) 2020 compromise of SolarWinds and North Korean cyber espionage actor UNC4736's 2023 compromise of 3CX . However, Google Threat Intelligence Group (GTIG) has been tracking growth in threat activity targeting open source software repositories to conduct supply chain compromises over the past several years. A series of large scale open source software supply chain compromise campaigns in 2025 and the first half of 2026 underscore how important it is that organizations implement defensive strategies that directly address this threat vector. In this blog post, GTIG and Mandiant discuss trends we have observed in threat actor use of software supply chain compromise, and provide mitigation and hardening recommendations that incorporate insights we have developed as a result of supporting customers through recent campaigns in which threat actors manipulated open source packages. Open Source Supply Chain Compromise Grows in Volume and Impact in 2025 and Early 2026 The majority of the most impactful and far-reaching supply chain compromise incidents that GTIG tracked in 2025 and early 2026 involved the compromise of code repositories, software dependencies and developer tools (T1195.001). Open source supply chain compromises offer attackers the same efficiency, scale, and initial stealth as traditional supply chain compromises, but typically require significantly less planning and resources to execute. However, open source supply chain compromises are also noisy once enabled; malicious open source packages are often discovered and publicized much more quickly than traditional supply chain compromises. GTIG assesses with high confidence that the growth in very large-scale, open-source supply chain compromise campaigns , including use of worms and iterative compromises in 2025 and early 2026, represent a significant expansion in use of this tactic compared to prior years. We anticipate that threat actors will emulate the tactics of these campaigns and contribute to growth in open-source supply chain compromise through the rest of 2026 and years to come. GTIG identified several notable supply chain compromises in 2025 and early 2026 that we believe exemplify this trend of exceptionally large campaigns, as measured by size and/or impact (Figure 1). Figure 1: Notable open source supply chain compromises, 2025 - early 2026 For example from February to May 2026, UNC6780 (aka "TeamPCP") conducted extensive open source supply chain compromises targeting ecosystems like PyPI, npm, and Docker Hub. Initial infection vectors varied across incidents, and included abuse of the pull_request_target GitHub Actions trigger to obtain base repository secrets and write permissions. The threat actor typically used compromised packages to deploy credential stealers, including SANDCLOCK, to obtain high value secrets. In incident response engagements, we observed UNC6780 attempting to pivot from compromised artificial intelligence (AI) software to broader network environments. UNC6780 has monetized stolen credentials through either direct sale of the stolen data, or through partnerships with ransomware and data theft extortion groups. In March 2026, GTIG observed the introduction of a malicious dependency in the legitimate axios package. GTIG analysis and the maintainer's post mortem indicate that the maintainer account was compromised via social engineering and used to publish the updated versions. We identified the malicious dependency as a dropper that deploys the WAVESHA
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - Title: Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise
@@ -1125,6 +1136,11 @@ Threat Intelligence Batten Down Your Packages: Mitigation Guidance for Supply Ch
   - Published: 2026-07-31T21:01:37+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/
   - Summary: Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: CaptiveCrunch: Midnight Blizzard (Russia) targets travelers worldwide for malware delivery and credential theft | Microsoft Threat Intelligence
+  - Published: 2026-07-31T21:37:45+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1vc4525/captivecrunch_midnight_blizzard_russia_targets/
+  - Summary: submitted by /u/thejournalizer [link] [comments]
 
 ### Cluster e2f6a950f1 — score 30
 
@@ -1239,7 +1255,7 @@ ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability
 - Published: 2026-07-31T14:14:15+00:00
 - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/
 - Fetch status: ok
-- Member count: 16
+- Member count: 17
 - Corroborating source count: 9
 - Strong signals: OpenAI/ChatGPT
 
@@ -1494,16 +1510,17 @@ ColdFusion Under Fire: Breaking Down CVE-2026-48283 and CVE-2026-48313 Rey Bango
 - Published: 2026-07-30T16:00:00+00:00
 - Link: https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 7
+- Member count: 11
+- Corroborating source count: 8
 - Strong signals: Anthropic/Claude, CVE-2026-5674
 
 #### Cluster taxonomy (union across members)
 - threat_categories: ai_security
+- affected_industries: government
 - affected_products: Anthropic/Claude, PyPI
 - cve_ids: CVE-2025-60616, CVE-2026-5674
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
+- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - affected_products: Anthropic/Claude
@@ -1523,7 +1540,7 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
 This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Claude Code was also excited finding this: Once discovered, I repro’d it manually to make sure it’s legit and then submitted it to Red Hat. Let’s dive into it. PipeWire and PulseAudio PipeWire is the default audio server on all modern Linux desktops now. Fedora, Ubuntu 24.04+, Debian 13,… It replaced PulseAudio but maintains backward compatibility. Flatpak apps that need audio request --socket=pulseaudio . At the core, a basic “Hello World” app with standard audio permission breaks out of the sandbox and gets full access to the user’s desktop, files, and credentials. The same attack applies to other Linux sandbox tech that connects a socket to PipeWire (e.g. Docker, etc..). Let’s look at the vulns and exploit. The Vulnerabilities The escape relies on three separate issues. 1. Authentication Cookie Is Never Validated PulseAudio code contains cookie-based authentication. This is not a typical web cookie, just a name for an authentication token. It’s a 256-byte random value that lives at ~/.config/pulse/cookie , and clients must present it to connect. PipeWire reads the cookie from the client, checks the length is 256 bytes, and then just… throws it away. The relevant code in pulse-server.c : if (len != NATIVE_COOKIE_LENGTH) return -EINVAL; client->version = version; client->authenticated = true; // cookie value never compared The cookie variable is never referenced again after being read. Any 256 bytes of garbage will do. No comments in the code explain why the value is set to true . The original PulseAudio validates the cookie, however PipeWire does not. I looked through the git history. This has been the behavior since the PulseAudio compatibility layer was first implemented. 2. Module Loading Is Enabled by Default #define DEFAULT_ALLOW_MODULE_LOADING "true" Any “authenticated” client can send LOAD_MODULE to load arbitrary PipeWire modules. A config option ( pulse.allow-module-loading ) was added in May 2024, but it defaults to true . Since authentication is broken, this means any process with socket access can load modules. 3. dlopen() With No Path Validation When module-ladspa-sink is loaded, it takes a plugin= parameter and calls dlopen() on it directly: handle = dlopen (path, RTLD_NOW); There is no path validation or directory allowlist. So, we can load arbitrary libraries. ELF constructors ( __attribute__((constructor)) ) run immediately on dlopen() . This is the same pattern as CVE-2025-60616 in FFmpeg’s LADSPA loader. Oh, and if you are wondering what LADSPA means, it stands for Linux Audio Developer's Simple Plugin API . That’s something new I learned along the way. The Sandbox Escape Flatpak’s --socket=pulseaudio grants access to the PulseAudio socket. Combined with any host-writable path (like --filesystem=/tmp in the demo), an app can escape the sandbox. The exploit chain: Write a malicious .so to a host-visible path (e.g. /tmp ) Connect to the PulseAudio socket Send PA_COMMAND_AUTH with 256 bytes of garbage Send PA_COMMAND_LOAD_MODULE module-ladspa-sink plugin=/tmp/payload.so PipeWire, running outside the sandbox , calls dlopen() on the .so The constructor executes in the user’s full context (outside the sandbox) The app has no home directory access, no display access, no network. Yet after the exploit it can read your files, launch apps on your desktop, and access your credentials. Note that PipeWire runs as a user-level service, not root. This is a sandbox escape, not privilege escalation. But the attacker goes from “sandboxed, can only play audio” to “full, unrestricted user context.” Proof of Concept I built a Flatpak app called net.wuzzi.Hello that demonstrates this. It looks completely harmless: $ flatpak info --show-permissions net.wuzz
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (8)
 
 - **Embrace the Red** (ai_security_agentic_risk)
   - Title: Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)
@@ -1531,10 +1548,10 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
   - Link: https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/
   - Summary: This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Claude Code was also excited finding this: Once discovered, I repro’d it manually to make sure it’s legit and then submitted it to Red Hat.
 - **Simon Willison** (ai_security_agentic_risk)
-  - Title: Oxide and Friends: The Open Weight Revolution with Simon Willison
-  - Published: 2026-07-31T21:33:13+00:00
-  - Link: https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything
-  - Summary: Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and public letters about Open Weights and American AI Leadership signed by almost every big name in AI (with one notable exception ). It was a great conversation, even though it's already out-of-date! DeepSeek V4 Flash 0731 and Anthropic's own embarrassing cyber incident would absolutely have made the cut if we had recorded just a few days later. We also talk about Golden Gate Claude , the Zizians , Alameda wild turkey attacks , Soviet Marburg virus research , the Lead-crime hypothesis , and a bunch of other worthy digressions. Finally, we revisited some of our predictions from January , and we added a new Pope prediction : Prediction by the end of this year: the Pope says somethi
+  - Title: Open letters about AI development
+  - Published: 2026-08-02T04:16:52+00:00
+  - Link: https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
+  - Summary: Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA, Amazon, Y Combinator, The Linux Foundation and (a later signer) OpenAI. It's clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over "safety" concerns - a reasonable consideration given what happened to Claude Fable 5 ! Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the hands of a few providers. Open weigh
 - **Schneier on Security** (practitioner_analysis)
   - Title: Anthropic’s Opus 5 Is Better at Resisting Prompt Injection
   - Published: 2026-07-31T17:23:16+00:00
@@ -1560,6 +1577,11 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
   - Published: 2026-07-31T08:35:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
   - Summary: Anthropic has revealed that Claude AI models compromised third-party organizations
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests
+  - Published: 2026-07-31T09:12:38+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1vblr89/anthropics_claude_breached_3_orgs_uploaded_pypi/
+  - Summary: submitted by /u/Altruistic_Hope_2559 [link] [comments]
 
 ### Cluster 90d3c1c1e2 — score 16
 
@@ -1886,43 +1908,6 @@ AI & Machine Learning What’s new in Gemini Enterprise Agent Platform July 29, 
   - Link: https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform/
   - Summary: Since we launched Gemini Enterprise Agent Platform a few months ago, we’ve seen inspiring progress from businesses and builders alike. To stir up development, we’ve also shared 13 demos that can walk you through the versatility and power of Agent Platform, and 20 questions you can ask your teams about building a solid agentic foundation. Meanwhile at Google Cloud, our teams have been hard at work to make more features available and continue delivering on our promise to give you better ways to simply and securely scale your agents. That’s why today, we are announcing some of our most popular capabilities are available for everyone, from Agent Runtime to Agent Identity. We also recently just announced CodeMender , our new managed code security agent to help you advance from passive scanning to automated code remediation, and reduce zero-day risk. Read on to learn more. Automate your long-running agents faster and with better memory Think about your long-running agentic workflows. Maybe i
 
-### Cluster 1276a22842 — score 13
-
-- Title: Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-28T14:04:05+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2024-1813
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2024-1813
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2024-1813
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/MobetaSec [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)
-  - Published: 2026-07-28T14:04:05+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/
-  - Summary: submitted by /u/MobetaSec [link] [comments]
-
 ### Cluster 2675bb2bb6 — score 12
 
 - Title: Secure your npm and pip package updates in Amazon Linux
@@ -2102,6 +2087,63 @@ Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities E
   - Published: 2026-07-29T10:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
   - Summary: For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said
+
+### Cluster cef34fdd67 — score 12
+
+- Title: CareCloud Data Breach Impacts Over 350,000
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-31T07:51:43+00:00
+- Link: https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
+- Fetch status: ok
+- Member count: 5
+- Corroborating source count: 3
+- Strong signals: AWS
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ddos, ransomware_extortion, supply_chain
+- actor_attribution: ShinyHunters
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- affected_products: AWS, Anthropic/Claude, Kubernetes, OpenAI/ChatGPT
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude, AWS
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Healthcare information technology company CareCloud is notifying at least 350,000 people that their information was stolen in a data breach. The incident involved an electronic health record environment within the CareCloud Health division, which was disrupted on March 16, 2026. CareCloud’s investigation determined that hackers accessed one of its AWS environments between March 10 and March 16, and likely exfiltrated data from it. On June 24, the investigation determined that personal, financial, and medical information was compromised in the incident, the company notes in the notification letter sent to the potentially affected individuals, a copy of which was filed with the Massachusetts Office of Consumer Affairs and Business Regulation. The potentially affected information, it says, includes names, addresses, Social Security numbers, dates of birth, driver’s license numbers, government ID numbers, financial account numbers, credit/debit card numbers, and medical and health insurance information. For a limited number of individuals, the compromised data also included full credit card information, including CVV, the company notes in an incident notification . CareCloud says it has no evidence that the stolen data has been misused. Advertisement. Scroll to continue reading. Based on filings with the Attorney General’s Offices in several states, at least 350,000 individuals have had their information stolen. The company is providing them with up to 24 months of free identity theft protection, credit monitoring, and ID theft recovery services, which include a $1,000,000 insurance reimbursement policy. “CareCloud engaged external cybersecurity experts and, with their assistance, secured the affected environment, eliminated the threat, and confirmed that no persistent unauthorized access remained. CareCloud is continuing to strengthen the security of its systems and environments,” the company says. The healthcare organization has yet to share the total number of impacted individuals and details on the threat actor responsible for the attack. SecurityWeek has emailed CareCloud for additional details and will update this article if the company responds. *Updated with additional information and link to CareCloud’s incident notice. Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms US and Allies Update SBOM Guidance Chrome 151 Patches 370 Vulnerabilities Mate Security Raises $35 Million for Agentic SOC Latest News Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments Ruby on Rails Patches Critical Vulnerability In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Critical Flaw Allowed to Azure Cosmos DB Pwnage Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts.
+```
+
+#### Corroborating sources (3)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: CareCloud Data Breach Impacts Over 350,000
+  - Published: 2026-07-31T07:51:43+00:00
+  - Link: https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
+  - Summary: In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Extend Amazon Inspector SBOM Generator with Plugins
+  - Published: 2026-07-30T17:22:54+00:00
+  - Link: https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+  - Summary: Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Cybersecurity Help
+  - Published: 2026-08-02T06:16:09+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1vda95x/cybersecurity_help/
+  - Summary: Will these projects help me stand out during the placements and when I apply for companies : AI Augmented SAST Tool AWS Attack Path Graph (mini BloodHound for cloud IAM) Kubernetes Security Posture Scanner CI / CD Security Gate (Supply Chain Security) These are my projects (not done by AI - I can explain each and every bit of my project). Are these enough to get a good high paying salary job as a fresher in India. Currently I'm in my 3rd year and my placements are starting from January. Any guidance will be very helpful 🙂. submitted by /u/New-Plankton538 [link] [comments]
 
 ### Cluster 94fd56afbc — score 11
 
@@ -2445,55 +2487,6 @@ Share Link copied to clipboard! Tags Frontier AI models Content types Research P
   - Link: https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/
   - Summary: Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .
 
-### Cluster 85d2724fda — score 10
-
-- Title: 27th July – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-27T16:00:39+00:00
-- Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
-- cve_ids: CVE-2026-16232, CVE-2026-50522
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, Microsoft SharePoint
-- cve_ids: CVE-2026-16232, CVE-2026-50522
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July – Threat Intelligence Report July 27, 2026 https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, while the RansomHouse group claimed responsibility and published a subset of the stolen information. Stadler Rail, a Switzerland-based global rail equipment manufacturer, has disclosed a supplier-related data breach after attackers compromised credentials for a third-party file-sharing platform. The Everest group stole technical documents belonging to the supplier and demanded $12.3 million. Stadler refused payment and said its systems and production remained unaffected. Origin Energy, one of Australia’s largest electricity and natural gas providers, has confirmed unauthorized access to customer information. Exposed data may include names, addresses, birth dates, phone numbers, account details, and partial payment information. Threat actors claimed to have stolen two million records and threatened to publish them. Romania’s National Agency for Cadastre and Land Registration has suffered a cyberattack that disabled internal systems and the nationwide e-Terra platform. The disruption halted property transactions for nearly a week. Officials said core land registries remained intact, although credentials and portions of source code may have been exposed. AI THREATS OpenAI disclosed that AI models escaped a restricted cyber evaluation environment and compromised Hugging Face while seeking benchmark solutions. They exploited zero-day vulnerabilities, stole credentials, escalated privileges, and accessed production systems. Both companies contained the activity and are conducting a joint investigation. Researchers have described a threat actor known as Trim who promoted an AI-assisted penetration-testing platform built with jailbroken language models. The platform combines AI with established scanning tools to automate reconnaissance, vulnerability validation, and reporting, potentially reducing the expertise and time required to prepare and conduct cyber intrusions. Researchers have examined a generative AI-assisted malware operation exposed through an accessible WebDAV server. The infrastructure produced phishing material and malicious Windows shortcuts used to distribute information stealers and remote access tools. Researchers identified more than 1,000 artifacts and a campaign that recorded over 77,000 requests. VULNERABILITIES AND PATCHES Check Point has addressed CVE-2026-16232, an authentication bypass vulnerability in SmartConsole that is under active exploitation, affecting a handful of customers. The flaw allows remote attackers to bypass authentication and gain administrative access to Check Point management servers. Security hotfixes are available for supported versions of the affected management software. Oracle has released its July 2026 Critical Patch Update, addressing 1,449 vulnerabilities across numerous product families. The update includes remotely exploitable flaws that require no authentication, with critical issues affecting Oracle Database Server, SQL Developer, and TimesTen In-Memory Database, among others. Microsoft has addressed CVE-2026-50522, a critical remote code execution vulnerability affecting on-premises SharePoint Server. An authenticated site owner can exploit the flaw to execute code and steal machine keys for persistent access. Active exploitation was reported after proof-of-concept code became publicly available. Check Point IPS provides protection against this threat (Microsoft SharePoint Remote
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 27th July – Threat Intelligence Report
-  - Published: 2026-07-27T16:00:39+00:00
-  - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster 1d6332ec8a — score 10
 
 - Title: Network Anomaly Detection in KATA
@@ -2702,6 +2695,55 @@ IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack 
   - Published: 2026-07-28T10:00:01+00:00
   - Link: https://blog.talosintelligence.com/ir-trends-q2-2026/
   - Summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.
+
+### Cluster 85d2724fda — score 10
+
+- Title: 27th July – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-27T16:00:39+00:00
+- Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
+- cve_ids: CVE-2026-16232, CVE-2026-50522
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: OpenAI/ChatGPT, Microsoft SharePoint
+- cve_ids: CVE-2026-16232, CVE-2026-50522
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 27th July – Threat Intelligence Report July 27, 2026 https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, while the RansomHouse group claimed responsibility and published a subset of the stolen information. Stadler Rail, a Switzerland-based global rail equipment manufacturer, has disclosed a supplier-related data breach after attackers compromised credentials for a third-party file-sharing platform. The Everest group stole technical documents belonging to the supplier and demanded $12.3 million. Stadler refused payment and said its systems and production remained unaffected. Origin Energy, one of Australia’s largest electricity and natural gas providers, has confirmed unauthorized access to customer information. Exposed data may include names, addresses, birth dates, phone numbers, account details, and partial payment information. Threat actors claimed to have stolen two million records and threatened to publish them. Romania’s National Agency for Cadastre and Land Registration has suffered a cyberattack that disabled internal systems and the nationwide e-Terra platform. The disruption halted property transactions for nearly a week. Officials said core land registries remained intact, although credentials and portions of source code may have been exposed. AI THREATS OpenAI disclosed that AI models escaped a restricted cyber evaluation environment and compromised Hugging Face while seeking benchmark solutions. They exploited zero-day vulnerabilities, stole credentials, escalated privileges, and accessed production systems. Both companies contained the activity and are conducting a joint investigation. Researchers have described a threat actor known as Trim who promoted an AI-assisted penetration-testing platform built with jailbroken language models. The platform combines AI with established scanning tools to automate reconnaissance, vulnerability validation, and reporting, potentially reducing the expertise and time required to prepare and conduct cyber intrusions. Researchers have examined a generative AI-assisted malware operation exposed through an accessible WebDAV server. The infrastructure produced phishing material and malicious Windows shortcuts used to distribute information stealers and remote access tools. Researchers identified more than 1,000 artifacts and a campaign that recorded over 77,000 requests. VULNERABILITIES AND PATCHES Check Point has addressed CVE-2026-16232, an authentication bypass vulnerability in SmartConsole that is under active exploitation, affecting a handful of customers. The flaw allows remote attackers to bypass authentication and gain administrative access to Check Point management servers. Security hotfixes are available for supported versions of the affected management software. Oracle has released its July 2026 Critical Patch Update, addressing 1,449 vulnerabilities across numerous product families. The update includes remotely exploitable flaws that require no authentication, with critical issues affecting Oracle Database Server, SQL Developer, and TimesTen In-Memory Database, among others. Microsoft has addressed CVE-2026-50522, a critical remote code execution vulnerability affecting on-premises SharePoint Server. An authenticated site owner can exploit the flaw to execute code and steal machine keys for persistent access. Active exploitation was reported after proof-of-concept code became publicly available. Check Point IPS provides protection against this threat (Microsoft SharePoint Remote
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 27th July – Threat Intelligence Report
+  - Published: 2026-07-27T16:00:39+00:00
+  - Link: https://research.checkpoint.com/2026/27th-july-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Nichirei, a Japan-based frozen-food supplier and logistics company, has experienced a ransomware attack that disrupted shipping operations and affected approximately 5,000 customers. KFC Japan warned of possible shortages. Nichirei confirmed personal data theft, […] The post 27th July – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster f4490338d9 — score 10
 
@@ -3162,91 +3204,6 @@ Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction �
   - Link: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
   - Summary: Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in
 
-### Cluster cef34fdd67 — score 10
-
-- Title: CareCloud Data Breach Impacts Over 350,000
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-31T07:51:43+00:00
-- Link: https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 2
-- Strong signals: AWS
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ddos, ransomware_extortion
-- actor_attribution: ShinyHunters
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- affected_products: AWS, Anthropic/Claude, OpenAI/ChatGPT
-- content_type: incident_report, news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude, AWS
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Healthcare information technology company CareCloud is notifying at least 350,000 people that their information was stolen in a data breach. The incident involved an electronic health record environment within the CareCloud Health division, which was disrupted on March 16, 2026. CareCloud’s investigation determined that hackers accessed one of its AWS environments between March 10 and March 16, and likely exfiltrated data from it. On June 24, the investigation determined that personal, financial, and medical information was compromised in the incident, the company notes in the notification letter sent to the potentially affected individuals, a copy of which was filed with the Massachusetts Office of Consumer Affairs and Business Regulation. The potentially affected information, it says, includes names, addresses, Social Security numbers, dates of birth, driver’s license numbers, government ID numbers, financial account numbers, credit/debit card numbers, and medical and health insurance information. For a limited number of individuals, the compromised data also included full credit card information, including CVV, the company notes in an incident notification . CareCloud says it has no evidence that the stolen data has been misused. Advertisement. Scroll to continue reading. Based on filings with the Attorney General’s Offices in several states, at least 350,000 individuals have had their information stolen. The company is providing them with up to 24 months of free identity theft protection, credit monitoring, and ID theft recovery services, which include a $1,000,000 insurance reimbursement policy. “CareCloud engaged external cybersecurity experts and, with their assistance, secured the affected environment, eliminated the threat, and confirmed that no persistent unauthorized access remained. CareCloud is continuing to strengthen the security of its systems and environments,” the company says. The healthcare organization has yet to share the total number of impacted individuals and details on the threat actor responsible for the attack. SecurityWeek has emailed CareCloud for additional details and will update this article if the company responds. *Updated with additional information and link to CareCloud’s incident notice. Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms US and Allies Update SBOM Guidance Chrome 151 Patches 370 Vulnerabilities Mate Security Raises $35 Million for Agentic SOC Latest News Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments Ruby on Rails Patches Critical Vulnerability In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Critical Flaw Allowed to Azure Cosmos DB Pwnage Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts.
-```
-
-#### Corroborating sources (2)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: CareCloud Data Breach Impacts Over 350,000
-  - Published: 2026-07-31T07:51:43+00:00
-  - Link: https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/
-  - Summary: In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Extend Amazon Inspector SBOM Generator with Plugins
-  - Published: 2026-07-30T17:22:54+00:00
-  - Link: https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
-  - Summary: Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]
-
-### Cluster b34544d592 — score 9
-
-- Title: AutoIT Payload Injector , (Tue, Jul 28th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-28T07:42:27+00:00
-- Link: https://isc.sans.edu/diary/rss/33192
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you'll see below.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: AutoIT Payload Injector , (Tue, Jul 28th)
-  - Published: 2026-07-28T07:42:27+00:00
-  - Link: https://isc.sans.edu/diary/rss/33192
-  - Summary: For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you'll see below.
-
 ### Cluster 2acf38b121 — score 9
 
 - Title: When cyber attacks happen: helping organisations recover
@@ -3288,6 +3245,39 @@ Blog Post Download & print article PDF Download & print article PDF When cyber a
   - Link: https://www.ncsc.gov.uk/blogs/when-cyber-attacks-happen-helping-organisations-recover
   - Summary: A highly disruptive incident can feel overwhelming. New guidance provides a framework for response and recovery.
 
+### Cluster b34544d592 — score 9
+
+- Title: AutoIT Payload Injector , (Tue, Jul 28th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-28T07:42:27+00:00
+- Link: https://isc.sans.edu/diary/rss/33192
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you'll see below.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: AutoIT Payload Injector , (Tue, Jul 28th)
+  - Published: 2026-07-28T07:42:27+00:00
+  - Link: https://isc.sans.edu/diary/rss/33192
+  - Summary: For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you'll see below.
+
 ### Cluster 532de505b8 — score 9
 
 - Title: Quoting Akshat Bubna
@@ -3320,7 +3310,7 @@ We’re aware a Modal customer published an unauthenticated endpoint that allowe
 #### Full body
 
 ```
-Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for ISVs turns vision into results 28th July 2026 We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Posted 28th July 2026 at 10:05 pm Recent articles Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp) - 31st July 2026 OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 This is a quotation collected by Simon Willison, posted on 28th July 2026 . sandboxing 52 security 620 openai 440 ai-security-research 33 openai-hugging-face-incident 6 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for ISVs turns vision into results 28th July 2026 We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Posted 28th July 2026 at 10:05 pm Recent articles Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp) - 31st July 2026 OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened - 22nd July 2026 A Fireside Chat with Cat and Thariq from the Claude Code team - 21st July 2026 This is a quotation collected by Simon Willison, posted on 28th July 2026 . sandboxing 52 security 620 openai 441 ai-security-research 33 openai-hugging-face-incident 6 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
 #### Corroborating sources (1)
@@ -3601,18 +3591,22 @@ Text settings Story text Size Small Standard Large Width * Standard Wide Links S
 - Source: Sophos X-Ops (detection_response_operations)
 - Published: 2026-07-28T00:00:00+00:00
 - Link: https://www.sophos.com/en-us/blog/chaos-in-teams-vishing
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
+- threat_categories: phishing_social_eng, ransomware_extortion, web_shell_backdoor
+- actor_attribution: Black Basta
+- affected_industries: critical_infrastructure, legal_professional, manufacturing_industrial
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
+- threat_categories: ransomware_extortion, phishing_social_eng, web_shell_backdoor
+- actor_attribution: Black Basta
+- affected_industries: critical_infrastructure, manufacturing_industrial, legal_professional
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3620,6 +3614,12 @@ Text settings Story text Size Small Standard Large Width * Standard Wide Links S
 
 ```
 Attackers used Microsoft Teams vishing, custom malware, and remote access tools to facilitate ransomware deployment Categories: Threat Research Tags: Microsoft Teams, vishing, Ransomware, Chaos
+```
+
+#### Full body
+
+```
+Chaos in Teams vishing Attackers used Microsoft Teams vishing, custom malware, and remote access tools to facilitate ransomware deployment Written by Morgan Demboski Threat Research Microsoft Teams vishing Ransomware Chaos Share This Link Copied Sophos analysts investigated a Microsoft Teams voice phishing (vishing) campaign tracked as STAC4749 that used a consistent set of IT-themed cloud domains and personas to gain remote access to victims’ systems. Between February and June 2026, Sophos analysts observed the threat actors targeting dozens of North American organizations. Following initial access, STAC4749 operators deployed a modular post‑exploitation toolset, including a custom loader and backdoor to maintain persistent, controlled access and support follow‑on activity. In several incidents, attackers later leveraged this access to deploy Chaos ransomware. Throughout the campaign, Sophos analysts observed the threat actors continually refining their deployment and evasion techniques, indicating a financially motivated operation that prioritized speed and reliability to pave the way for exfiltration and ransomware deployment. Microsoft Teams vishing trends Microsoft Teams vishing has become a widely used technique among threat actors. Microsoft first publicly documented abuse of Teams for IT‑themed vishing in mid‑2024, describing campaigns that impersonated helpdesk or support personnel to socially engineer users into granting remote access. In late 2024, Counter Threat Unit™ (CTU) researchers identified similar activity by the GOLD REBELLION threat group, which is associated with Black Basta ransomware. Sophos published additional research on this tactic in January 2025, including campaigns tracked as STAC5777 and STAC5143 that combined email bombing with Teams vishing to facilitate ransomware deployment. In January 2026, Sophos analysts observed a sharp increase in Managed Detection & Response (MDR) cases involving Teams vishing across multiple threat groups and campaigns, with additional jumps in March and May (see Figure 1). While improved detections may partially explain these increases, the trend more strongly suggests that Teams vishing has become an increasingly common initial access vector. Figure 1: Number of Sophos MDR cases each month from January 2025 through May 2026 involving confirmed malicious activity for detections related to M365 scams STAC4749 victimology Analysis of STAC4749 targeting suggests a strong focus on North America. As shown in Figure 2, nearly 95% of observed cases between February and June 2026 targeted organizations based in Canada (50%) and the U.S. (44%) Figure 2: Pie chart showing distribution of STAC4749 targeting by country between February and June 2026 Industry-specific targeting was distributed across many sectors (see Figure 3). Services organizations were impacted in 20% of the incidents, followed by manufacturing (17%), energy (12%), and construction and engineering (12%) organizations. Notably, all the legal organizations targeted in the campaign specialize in intellectual property (IP) law or services. Figure 3: Pie chart showing distribution of STAC4749 targeting by sector between February and June 2026 Initial access STAC4749 operators initiated contact through Teams chats and calls, impersonating helpdesk or IT support staff. Sophos analysts observed scam calls ranging from 90 seconds to more than 20 minutes, with most lasting between two to two‑and‑a‑half minutes. Unlike many earlier Teams abuse campaigns in which attackers spoofed onmicrosoft[.]com tenants, STAC4749 operators created IT-themed cloud domains under the “.top” top-level domain (TLD) and leveraged plausible employee usernames to make the accounts appear legitimate (see Table 1). Username Associated Domains AnthonyBrooks sequrityupdate[.]top, scan-security[.]top, system-online[.]top, system-connect[.]top, corp-connect[.]top, info-secure[.]top, supportsoft[.]top, update-syscontrol[.]top DylanHarper sequpdate[.
 ```
 
 #### Corroborating sources (1)
@@ -4185,40 +4185,3 @@ Coca Cola claims data was stolen from its Fairlife business after a recent ranso
   - Published: 2026-07-28T11:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/
   - Summary: Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack
-
-### Cluster fa1ef247b7 — score 8
-
-- Title: New vBulletin Vulnerability!
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-27T14:00:29+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-61511
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-61511
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-61511
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-CVE-2026-61511 - a critical vulnerability in vBulletin that allows an unauthenticated attacker to execute arbitrary code on a remote server. submitted by /u/SSDisclosure [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: New vBulletin Vulnerability!
-  - Published: 2026-07-27T14:00:29+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/
-  - Summary: CVE-2026-61511 - a critical vulnerability in vBulletin that allows an unauthenticated attacker to execute arbitrary code on a remote server. submitted by /u/SSDisclosure [link] [comments]
