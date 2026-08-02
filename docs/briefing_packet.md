@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-02T09:14:10.875746+00:00
+- Generated: 2026-08-02T11:21:20.095370+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
 - Total items in window: 361
-- Total clusters raw: 162
-- Total clusters in packet: 78
+- Total clusters raw: 161
+- Total clusters in packet: 77
 - Dropped low score: 84
 - Dropped overflow: 0
 
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,18 +80,28 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 25
-  - In window count: 1
+  - Item count: 15
+  - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -105,16 +110,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -125,16 +120,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -150,46 +150,51 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
+  - Item count: 40
+  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 40
+  - Item count: 10
+  - In window count: 2
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -197,11 +202,6 @@
   - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -225,11 +225,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 11
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -240,11 +235,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 11
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 9
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -255,41 +260,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 20
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -300,26 +295,31 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 17
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,21 +330,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -355,6 +350,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -365,13 +365,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
@@ -379,7 +384,7 @@
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 1
+  - In window count: 0
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -390,11 +395,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -410,31 +410,31 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -445,15 +445,15 @@
   - Status: ok
   - Item count: 25
   - In window count: 18
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -776,16 +776,16 @@
   - New products: SolarWinds
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: GitHub, PyPI, npm
-- **LockBit** (cluster f6cd02268d)
-  - New industries: manufacturing_industrial
-  - New products: (none)
-  - Prior top industries: critical_infrastructure, government, healthcare
-  - Prior top products: Citrix, Fortinet, ScreenConnect
 - **ShinyHunters** (cluster 73084b3bd7)
   - New industries: healthcare
   - New products: (none)
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
+- **Black Basta** (cluster 3ed06f107d)
+  - New industries: manufacturing_industrial
+  - New products: (none)
+  - Prior top industries: critical_infrastructure, education, legal_professional
+  - Prior top products: Salesforce, Ubiquiti UniFi, WordPress
 
 ### Persistence (6)
 - actor_attribution: ShinyHunters (weeks observed: 9, cluster 73084b3bd7)
@@ -1755,55 +1755,6 @@ Dealing with AI-Generated Extortion Proving a Negative How do you prove a negati
   - Link: https://www.recordedfuture.com/blog/ai-generated-extortion
   - Summary: Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.
 
-### Cluster 0d2189c83e — score 14
-
-- Title: Ruby on Rails Patches Critical Vulnerability
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-01T11:15:00+00:00
-- Link: https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach
-- affected_industries: financial_services
-- affected_products: AWS, Anthropic/Claude, OpenAI/ChatGPT
-- cve_ids: CVE-2026-66066
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach, active_exploitation
-- affected_industries: financial_services
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude, AWS
-- cve_ids: CVE-2026-66066
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE). The post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Ruby on Rails this week rolled out patches for a critical vulnerability that could allow unauthenticated attackers to achieve remote code execution (RCE). A server-side web application framework written in Ruby, Ruby on Rails is used for the fast building of full-stack web applications and APIs. Tracked as CVE-2026-66066 (CVSS score of 9.5), the critical security defect is described as an arbitrary file read that potentially exposes secrets, allowing remote attackers to execute code or move laterally to other systems. “In its default configuration, a Rails application that displays image variants may allow an unauthenticated attacker to read arbitrary files from the server, including the process environment,” Ruby on Rails’ maintainers note in an advisory . Within the exposed environment, the advisory explains, attackers could find secret_key_base and credentials for external systems, which can be abused to escalate the attack to RCE. The issue impacts applications that use the libvips library for Active Storage image processing and that allow image uploads from untrusted users. Advertisement. Scroll to continue reading. Because libvips marks some file read and write operations as ‘unfuzzed’ (unsafe for untrusted content) and Active Storage did not disable the unfuzzed operations, an attacker could upload a crafted file to invoke one of these operations. “We are aware of a mechanism by which an attacker, by uploading a crafted file, is able to cause disclosure of the contents of arbitrary files accessible on the filesystem of the targeted application,” Ruby on Rails’ advisory reads. CVE-2026-66066 was patched in Active Storage versions 7.2.3.2, 8.0.5.1, and 8.1.3.1. Users are advised to update their deployments as soon as possible, as well as to update libvips to at least version 8.13, as previous library releases do not support disabling unfuzzed operations. “Upgrading closes the vulnerability but does not undo an exfiltrated secret if that already occurred. An affected application should treat every secret readable by the application process as potentially exposed and change it,” Ruby on Rails notes. According to cybersecurity firm Rapid7 , as of July 30, there is no evidence that the security defect has been exploited in the wild. Related: Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Related: Critical Flaw Led to Azure Cosmos DB Pwnage Related: Critical Code Execution Vulnerability Patched in TeamCity Related: ‘DangleGeddon’: AI Could Weaponize Forgotten DNS Records at Global Scale Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms US and Allies Update SBOM Guidance Chrome 151 Patches 370 Vulnerabilities Mate Security Raises $35 Million for Agentic SOC Latest News Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with ins
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Ruby on Rails Patches Critical Vulnerability
-  - Published: 2026-08-01T11:15:00+00:00
-  - Link: https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
-  - Summary: The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE). The post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek .
-
 ### Cluster c7d4f5e8ea — score 13
 
 - Title: Exploring the Hugging Face Breach: mapping AI agent tactics to Elastic Defend
@@ -1894,6 +1845,55 @@ AI & Machine Learning What’s new in Gemini Enterprise Agent Platform July 29, 
   - Link: https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform/
   - Summary: Since we launched Gemini Enterprise Agent Platform a few months ago, we’ve seen inspiring progress from businesses and builders alike. To stir up development, we’ve also shared 13 demos that can walk you through the versatility and power of Agent Platform, and 20 questions you can ask your teams about building a solid agentic foundation. Meanwhile at Google Cloud, our teams have been hard at work to make more features available and continue delivering on our promise to give you better ways to simply and securely scale your agents. That’s why today, we are announcing some of our most popular capabilities are available for everyone, from Agent Runtime to Agent Identity. We also recently just announced CodeMender , our new managed code security agent to help you advance from passive scanning to automated code remediation, and reduce zero-day risk. Read on to learn more. Automate your long-running agents faster and with better memory Think about your long-running agentic workflows. Maybe i
 
+### Cluster 0d2189c83e — score 13
+
+- Title: Ruby on Rails Patches Critical Vulnerability
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-01T11:15:00+00:00
+- Link: https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach
+- affected_industries: financial_services
+- affected_products: AWS, Anthropic/Claude, OpenAI/ChatGPT
+- cve_ids: CVE-2026-66066
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach, active_exploitation
+- affected_industries: financial_services
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude, AWS
+- cve_ids: CVE-2026-66066
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE). The post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Ruby on Rails this week rolled out patches for a critical vulnerability that could allow unauthenticated attackers to achieve remote code execution (RCE). A server-side web application framework written in Ruby, Ruby on Rails is used for the fast building of full-stack web applications and APIs. Tracked as CVE-2026-66066 (CVSS score of 9.5), the critical security defect is described as an arbitrary file read that potentially exposes secrets, allowing remote attackers to execute code or move laterally to other systems. “In its default configuration, a Rails application that displays image variants may allow an unauthenticated attacker to read arbitrary files from the server, including the process environment,” Ruby on Rails’ maintainers note in an advisory . Within the exposed environment, the advisory explains, attackers could find secret_key_base and credentials for external systems, which can be abused to escalate the attack to RCE. The issue impacts applications that use the libvips library for Active Storage image processing and that allow image uploads from untrusted users. Advertisement. Scroll to continue reading. Because libvips marks some file read and write operations as ‘unfuzzed’ (unsafe for untrusted content) and Active Storage did not disable the unfuzzed operations, an attacker could upload a crafted file to invoke one of these operations. “We are aware of a mechanism by which an attacker, by uploading a crafted file, is able to cause disclosure of the contents of arbitrary files accessible on the filesystem of the targeted application,” Ruby on Rails’ advisory reads. CVE-2026-66066 was patched in Active Storage versions 7.2.3.2, 8.0.5.1, and 8.1.3.1. Users are advised to update their deployments as soon as possible, as well as to update libvips to at least version 8.13, as previous library releases do not support disabling unfuzzed operations. “Upgrading closes the vulnerability but does not undo an exfiltrated secret if that already occurred. An affected application should treat every secret readable by the application process as potentially exposed and change it,” Ruby on Rails notes. According to cybersecurity firm Rapid7 , as of July 30, there is no evidence that the security defect has been exploited in the wild. Related: Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Related: Critical Flaw Led to Azure Cosmos DB Pwnage Related: Critical Code Execution Vulnerability Patched in TeamCity Related: ‘DangleGeddon’: AI Could Weaponize Forgotten DNS Records at Global Scale Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms US and Allies Update SBOM Guidance Chrome 151 Patches 370 Vulnerabilities Mate Security Raises $35 Million for Agentic SOC Latest News Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with ins
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Ruby on Rails Patches Critical Vulnerability
+  - Published: 2026-08-01T11:15:00+00:00
+  - Link: https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
+  - Summary: The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE). The post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek .
+
 ### Cluster 1276a22842 — score 13
 
 - Title: Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)
@@ -1976,51 +1976,6 @@ AWS Security Blog Secure your npm and pip package updates in Amazon Linux If you
   - Link: https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/
   - Summary: If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can’t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and removed within hours. However, while those packages were available to the general public, it’s […]
 
-### Cluster 2d87c8dc74 — score 12
-
-- Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-27T14:40:00+00:00
-- Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- cve_ids: CVE-2026-61511
-- urgency_signals: no_patch_yet, poc_available, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- cve_ids: CVE-2026-61511
-- urgency_signals: zero_day, preauth_unauth, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
-```
-
-#### Full body
-
-```
-Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw  Swati Khandelwal  Jul 27, 2026 Vulnerability / Website Security Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version boundary. vBulletin issued security patches for 6.2.1, 6.2.0, and 6.1.6 at the end of June and released the fixed version 6.2.2 on July 1, nearly four weeks before the exploit went public Administrators running self-hosted installations should apply the patch for their branch or upgrade to 6.2.2. vBulletin says its Cloud sites have already been patched against the flaw. SSD did not report active exploitation. As of July 27, 2026, no source had confirmed in-the-wild attacks, and CVE-2026-61511 was not listed in CISA's Known Exploited Vulnerabilities catalog. The company published an interactive proof-of-concept, but the script as posted contains a one-character error, a letter where a digit belongs, that stops it running unchanged. The mistake is trivial to correct and does not affect the underlying vulnerability. One thing the public record does not settle is whether the flaw was used in the roughly four weeks between the late-June patch and the July 27 disclosure; neither SSD's advisory nor vBulletin's notices address that window. SSD's technical analysis identifies it as CVE-2026-61511 , an unauthenticated remote code execution flaw in vBulletin's template engine. No CVE.org or National Vulnerability Database record, and so no official severity score, was available at the time of writing; the NVD stopped routinely enriching new CVEs with CVSS scores earlier this year. SSD credits an unnamed independent researcher, though the published exploit is signed "EgiX," the handle of Egidio Romano , who disclosed vBulletin's 2025 template-engine code-execution chain. The vulnerable code sits in /includes/vb5/template/runtime.php , inside the vB5_Template_Runtime::runMaths() method, which handles inline math in templates. The function strips characters outside a restricted set, then passes what remains directly to eval() . The filter blocks letters but permits digits, parentheses, concatenation, arithmetic operators, and binary operators such as XOR, enough to reconstruct PHP strings and callable function names without any letters, using a restricted-character technique the advisory calls "phpfuck." Reaching it does not require the admin panel. vBulletin renders templates over a public route, ajax/render/pagenav , and the stock pagenav template copies a visitor-supplied pagenav[pagenumber] value into a {vb:math} tag, which passes it to runMaths() . That chain is what turns a template bug into pre-authentication remote code execution; SSD's PoC uses it to rebuild PHP's system function and run an operating-system command, returning the output in the HTTP response. The Hacker News reproduced the disclosed filtering and evaluation logic locally to check the reported error. With the typo corrected, a harmless strlen() test payload executed; without it, the allowlist stripped the stray letter and left syntactically invalid PHP. The test confirmed the expression-building flaw, not a complete attack against a live vBulletin server. The exploit's own banner calls the issue a zero-day, but the vendor's patches and the 6.2.2 release preceded public disclosure by nearly four weeks. The exploit code is new; the flaw it targets was already fixed. With Cloud reportedly patched and the self-hosted fixes nearly a month old, the live risk is concentrated in self-hosted, internet-facing forums that have not updated, a more specific population than a bare "vBulletin RCE" implies. Defenders can review POST requests carrying routestri
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
-  - Published: 2026-07-27T14:40:00+00:00
-  - Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
-  - Summary: Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
-
 ### Cluster 8553a0e574 — score 12
 
 - Title: Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows
@@ -2065,6 +2020,51 @@ Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows Jul 28, 2
   - Published: 2026-07-28T11:00:00+00:00
   - Link: https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
   - Summary: While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.
+
+### Cluster 2d87c8dc74 — score 12
+
+- Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-27T14:40:00+00:00
+- Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- cve_ids: CVE-2026-61511
+- urgency_signals: no_patch_yet, poc_available, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- cve_ids: CVE-2026-61511
+- urgency_signals: zero_day, preauth_unauth, no_patch_yet, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
+```
+
+#### Full body
+
+```
+Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw  Swati Khandelwal  Jul 27, 2026 Vulnerability / Website Security Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version boundary. vBulletin issued security patches for 6.2.1, 6.2.0, and 6.1.6 at the end of June and released the fixed version 6.2.2 on July 1, nearly four weeks before the exploit went public Administrators running self-hosted installations should apply the patch for their branch or upgrade to 6.2.2. vBulletin says its Cloud sites have already been patched against the flaw. SSD did not report active exploitation. As of July 27, 2026, no source had confirmed in-the-wild attacks, and CVE-2026-61511 was not listed in CISA's Known Exploited Vulnerabilities catalog. The company published an interactive proof-of-concept, but the script as posted contains a one-character error, a letter where a digit belongs, that stops it running unchanged. The mistake is trivial to correct and does not affect the underlying vulnerability. One thing the public record does not settle is whether the flaw was used in the roughly four weeks between the late-June patch and the July 27 disclosure; neither SSD's advisory nor vBulletin's notices address that window. SSD's technical analysis identifies it as CVE-2026-61511 , an unauthenticated remote code execution flaw in vBulletin's template engine. No CVE.org or National Vulnerability Database record, and so no official severity score, was available at the time of writing; the NVD stopped routinely enriching new CVEs with CVSS scores earlier this year. SSD credits an unnamed independent researcher, though the published exploit is signed "EgiX," the handle of Egidio Romano , who disclosed vBulletin's 2025 template-engine code-execution chain. The vulnerable code sits in /includes/vb5/template/runtime.php , inside the vB5_Template_Runtime::runMaths() method, which handles inline math in templates. The function strips characters outside a restricted set, then passes what remains directly to eval() . The filter blocks letters but permits digits, parentheses, concatenation, arithmetic operators, and binary operators such as XOR, enough to reconstruct PHP strings and callable function names without any letters, using a restricted-character technique the advisory calls "phpfuck." Reaching it does not require the admin panel. vBulletin renders templates over a public route, ajax/render/pagenav , and the stock pagenav template copies a visitor-supplied pagenav[pagenumber] value into a {vb:math} tag, which passes it to runMaths() . That chain is what turns a template bug into pre-authentication remote code execution; SSD's PoC uses it to rebuild PHP's system function and run an operating-system command, returning the output in the HTTP response. The Hacker News reproduced the disclosed filtering and evaluation logic locally to check the reported error. With the typo corrected, a harmless strlen() test payload executed; without it, the allowlist stripped the stray letter and left syntactically invalid PHP. The test confirmed the expression-building flaw, not a complete attack against a live vBulletin server. The exploit's own banner calls the issue a zero-day, but the vendor's patches and the 6.2.2 release preceded public disclosure by nearly four weeks. The exploit code is new; the flaw it targets was already fixed. With Cloud reportedly patched and the self-hosted fixes nearly a month old, the live risk is concentrated in self-hosted, internet-facing forums that have not updated, a more specific population than a bare "vBulletin RCE" implies. Defenders can review POST requests carrying routestri
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
+  - Published: 2026-07-27T14:40:00+00:00
+  - Link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
+  - Summary: Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
 
 ### Cluster b61889968b — score 12
 
@@ -3290,47 +3290,6 @@ Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agen
   - Link: https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
   - Summary: We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident
 
-### Cluster 7f4871768d — score 9
-
-- Title: Weekly Update 514: This Week in Data Breaches
-- Source: Troy Hunt (practitioner_analysis)
-- Published: 2026-07-26T09:14:51+00:00
-- Link: https://www.troyhunt.com/weekly-update-514/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
-```
-
-#### Full body
-
-```
-The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn't respond when I tried to report it", and now news that the two parties have "come to an agreement". Maybe money was paid, or maybe Origin made some promises to restrain the hounds if commitments about data deletion were made. But both outcomes, of course, provide no guarantee that data has been nuked, so now they get to spend perpetuity waiting for the data that maybe - just maybe - it leaks. And we all should be working on precisely that assumption, just like we did with Optus and Medibank and Latitude and Ticketek and Qantas... References Sponsored by: CoreView: Misconfigurations in Microsoft 365 leave doors open. Scan your tenant for free. Weekly update
-```
-
-#### Corroborating sources (1)
-
-- **Troy Hunt** (practitioner_analysis)
-  - Title: Weekly Update 514: This Week in Data Breaches
-  - Published: 2026-07-26T09:14:51+00:00
-  - Link: https://www.troyhunt.com/weekly-update-514/
-  - Summary: The Origin Energy breach down here in Aus is all over the news this week, and as with many breaches, it's multi-faceted. You've got them leading with "don't worry, your credit card is fine", the hacker leading with "they didn&
-
 ### Cluster 602e22dfe4 — score 9
 
 - Title: Long-Lived Vulnerability in Microsoft Secure Boot
@@ -3609,18 +3568,22 @@ Text settings Story text Size Small Standard Large Width * Standard Wide Links S
 - Source: Sophos X-Ops (detection_response_operations)
 - Published: 2026-07-28T00:00:00+00:00
 - Link: https://www.sophos.com/en-us/blog/chaos-in-teams-vishing
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
+- threat_categories: phishing_social_eng, ransomware_extortion, web_shell_backdoor
+- actor_attribution: Black Basta
+- affected_industries: critical_infrastructure, legal_professional, manufacturing_industrial
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
+- threat_categories: ransomware_extortion, phishing_social_eng, web_shell_backdoor
+- actor_attribution: Black Basta
+- affected_industries: critical_infrastructure, manufacturing_industrial, legal_professional
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3628,6 +3591,12 @@ Text settings Story text Size Small Standard Large Width * Standard Wide Links S
 
 ```
 Attackers used Microsoft Teams vishing, custom malware, and remote access tools to facilitate ransomware deployment Categories: Threat Research Tags: Microsoft Teams, vishing, Ransomware, Chaos
+```
+
+#### Full body
+
+```
+Chaos in Teams vishing Attackers used Microsoft Teams vishing, custom malware, and remote access tools to facilitate ransomware deployment Written by Morgan Demboski Threat Research Microsoft Teams vishing Ransomware Chaos Share This Link Copied Sophos analysts investigated a Microsoft Teams voice phishing (vishing) campaign tracked as STAC4749 that used a consistent set of IT-themed cloud domains and personas to gain remote access to victims’ systems. Between February and June 2026, Sophos analysts observed the threat actors targeting dozens of North American organizations. Following initial access, STAC4749 operators deployed a modular post‑exploitation toolset, including a custom loader and backdoor to maintain persistent, controlled access and support follow‑on activity. In several incidents, attackers later leveraged this access to deploy Chaos ransomware. Throughout the campaign, Sophos analysts observed the threat actors continually refining their deployment and evasion techniques, indicating a financially motivated operation that prioritized speed and reliability to pave the way for exfiltration and ransomware deployment. Microsoft Teams vishing trends Microsoft Teams vishing has become a widely used technique among threat actors. Microsoft first publicly documented abuse of Teams for IT‑themed vishing in mid‑2024, describing campaigns that impersonated helpdesk or support personnel to socially engineer users into granting remote access. In late 2024, Counter Threat Unit™ (CTU) researchers identified similar activity by the GOLD REBELLION threat group, which is associated with Black Basta ransomware. Sophos published additional research on this tactic in January 2025, including campaigns tracked as STAC5777 and STAC5143 that combined email bombing with Teams vishing to facilitate ransomware deployment. In January 2026, Sophos analysts observed a sharp increase in Managed Detection & Response (MDR) cases involving Teams vishing across multiple threat groups and campaigns, with additional jumps in March and May (see Figure 1). While improved detections may partially explain these increases, the trend more strongly suggests that Teams vishing has become an increasingly common initial access vector. Figure 1: Number of Sophos MDR cases each month from January 2025 through May 2026 involving confirmed malicious activity for detections related to M365 scams STAC4749 victimology Analysis of STAC4749 targeting suggests a strong focus on North America. As shown in Figure 2, nearly 95% of observed cases between February and June 2026 targeted organizations based in Canada (50%) and the U.S. (44%) Figure 2: Pie chart showing distribution of STAC4749 targeting by country between February and June 2026 Industry-specific targeting was distributed across many sectors (see Figure 3). Services organizations were impacted in 20% of the incidents, followed by manufacturing (17%), energy (12%), and construction and engineering (12%) organizations. Notably, all the legal organizations targeted in the campaign specialize in intellectual property (IP) law or services. Figure 3: Pie chart showing distribution of STAC4749 targeting by sector between February and June 2026 Initial access STAC4749 operators initiated contact through Teams chats and calls, impersonating helpdesk or IT support staff. Sophos analysts observed scam calls ranging from 90 seconds to more than 20 minutes, with most lasting between two to two‑and‑a‑half minutes. Unlike many earlier Teams abuse campaigns in which attackers spoofed onmicrosoft[.]com tenants, STAC4749 operators created IT-themed cloud domains under the “.top” top-level domain (TLD) and leveraged plausible employee usernames to make the accounts appear legitimate (see Table 1). Username Associated Domains AnthonyBrooks sequrityupdate[.]top, scan-security[.]top, system-online[.]top, system-connect[.]top, corp-connect[.]top, info-secure[.]top, supportsoft[.]top, update-syscontrol[.]top DylanHarper sequpdate[.
 ```
 
 #### Corroborating sources (1)
