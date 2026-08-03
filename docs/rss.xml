@@ -4,11 +4,62 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 03 Aug 2026 00:06:51 +0000</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 04:35:27 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Product showcase: Guardio Mobile Security turns breach alerts into a recovery plan</title>
+<link>https://www.helpnetsecurity.com/2026/08/03/product-showcase-guardio-mobile-security/</link>
+<description><![CDATA[Guardio Mobile Security brings several protection features to iPhone and Android, allowing users to monitor exposed personal information, identify phishing attempts, and receive alerts about emerging threats from a single application. It is available on smartphones and tablets, while browser extensions support Chrome and Microsoft Edge on laptops and desktop computers. After signing in or creating an account, users are guided through the onboarding process, which introduces the app’s security features and begins an initial … More → The post Product showcase: Guardio Mobile Security turns breach alerts into a recovery plan appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Mon, 03 Aug 2026 04:30:11 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/03/product-showcase-guardio-mobile-security/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Buying TikTok followers can expose users to scams and account theft</title>
+<link>https://www.helpnetsecurity.com/2026/08/03/malwarebytes-tiktok-followers-scam-risks-report/</link>
+<description><![CDATA[Buying TikTok followers, likes, or views could do more than inflate engagement metrics. According to Malwarebytes, many services selling social media growth operate through deceptive practices that can expose customers to scams, stolen accounts, and financial loss. The market for artificial social media engagement also creates security risks for both buyers and other platform users. Behind the promises of instant engagement Websites selling bulk engagement present themselves as legitimate marketing companies, offering likes, comments, followers, … More → The post Buying TikTok followers can expose users to scams and account theft appeared first on Help Net Security .]]></description>
+<pubDate>Mon, 03 Aug 2026 04:00:04 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/03/malwarebytes-tiktok-followers-scam-risks-report/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Risky Bulletin: Anthropic models also did the hacky-hacky</title>
+<link>https://risky.biz/RBNEWS595/</link>
+<description><![CDATA[Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.<br/><br/><em>Tags: npm · Anthropic/Claude</em>]]></description>
+<pubDate>Mon, 03 Aug 2026 03:52:50 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS595/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>npm</category>
+<category>Anthropic/Claude</category>
+</item>
+<item>
+<title>Sources for post-infection PCAP (C2 beaconing, exfiltration) - what am I missing?</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1ve05h4/sources_for_postinfection_pcap_c2_beaconing/</link>
+<description><![CDATA[Been going in circles on this and want to check whether there&apos;s something obvious I&apos;ve overlooked. Pre-infection traffic is easy to collect. URLhaus gives you live malware delivery URLs daily, a honeypot gives you scanning, brute force and exploit attempts. Both free, both refresh constantly, both self-labeling. Post-infection is where I&apos;m stuck. C2 beaconing and exfiltration only exist if there&apos;s an actually compromised host emitting traffic, and nobody publishes captures of that at any useful cadence. What I&apos;ve checked so far: abuse.ch across all platforms. Indicators only, no traffic. Feodo Tracker is empty post-Endgame. SSLBL cert and C2 IP lists are current and useful as labels but aren&apos;t packets. Sandnet exists behind the commercial feed but the dataset description says signals and metadata, contextual data only, so flow records rather than PCAP. CTU/MCFP. Real long-duration captures with actual beaconing, which is exactly right, but new botnet captures stop around 2018. Recent d]]></description>
+<pubDate>Mon, 03 Aug 2026 01:55:26 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1ve05h4/sources_for_postinfection_pcap_c2_beaconing/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>Sponsored: The intrusion signals hiding in plain sight</title>
+<link>https://risky.biz/RBNEWSSI138/</link>
+<description><![CDATA[In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permiso’s platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours.<br/><br/><em>Tags: AWS · ShinyHunters · ransomware_extortion</em>]]></description>
+<pubDate>Mon, 03 Aug 2026 00:22:38 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWSSI138/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>AWS</category>
+<category>ShinyHunters</category>
+<category>ransomware_extortion</category>
+</item>
 <item>
 <title>COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft</title>
 <link>https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/</link>
@@ -17,6 +68,25 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Implications of Recent CISA Disclosures on Iranian OT Targeting</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vdeabn/implications_of_recent_cisa_disclosures_on/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Sun, 02 Aug 2026 10:11:13 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vdeabn/implications_of_recent_cisa_disclosures_on/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>Apple Screen Sharing Pre-Auth RCE (macOS ≤ 26.5)</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vddl1g/apple_screen_sharing_preauth_rce_macos_265/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]<br/><br/><em>Tags: Apple iOS/macOS</em>]]></description>
+<pubDate>Sun, 02 Aug 2026 09:29:51 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vddl1g/apple_screen_sharing_preauth_rce_macos_265/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>Apple iOS/macOS</category>
 </item>
 <item>
 <title>Week in review: Claude breached three companies during tests, AD CS domain-takeover PoC released</title>
@@ -28,6 +98,25 @@
 <category>cyber_news_breach_reporting</category>
 <category>Anthropic/Claude</category>
 <category>ai_security</category>
+</item>
+<item>
+<title>Application logs are often the missing piece in blue team visibility</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vd8o6v/application_logs_are_often_the_missing_piece_in/</link>
+<description><![CDATA[Most SOC telemetry is built around endpoints, authentication, and network events. Those sources are valuable, but they don&apos;t explain what happened inside the application. During a recent review, I found that several security checks could be bypassed without generating useful infrastructure alerts. The only reliable indicators came from application-specific logging around authorization decisions and sensitive business actions. If your organization develops its own software, application telemetry deserves the same attention as endpoint and network telemetry. submitted by /u/Ok_Host1989 [link] [comments]]]></description>
+<pubDate>Sun, 02 Aug 2026 04:51:06 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vd8o6v/application_logs_are_often_the_missing_piece_in/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>wisp – a single static-binary honeypot with cloud/container/LLM decoys (a modern take on OpenCanary)</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vd8ap7/wisp_a_single_staticbinary_honeypot_with/</link>
+<description><![CDATA[A honeypot is only useful if it&apos;s actually running, and I kept watching them die at the dependency install. OpenCanary proved the model and is still the more battle-tested tool, but it needs Python 3.10+, Twisted, Scapy, and — for SMB — a full Samba install with a full_audit module tailing syslog. So I rebuilt it as one static Go binary . ./wispd and it&apos;s running, no root, no runtime: All 21 of OpenCanary&apos;s protocol modules , reimplemented. 9 decoys it doesn&apos;t have for the modern surface: k8s , kubelet , docker , imds (cloud metadata), elasticsearch , jenkins , gitlab , ollama , mcp — capturing stolen service-account tokens, the container spec an attacker tries to run ( Privileged: true , host mounts), the prompts sent to a fake GPU, and so on. Native SMB — NetNTLMv2 hashes (hashcat 5600), no Samba. A self-hosted fleet console (scriptless UI, per-sensor tokens, dedup) and honeytokens (DNS/HTTP/docx/kubeconfig/MCP). It&apos;s pre-1.0 and younger than OpenCanary — the README keeps an honest c<br/><br/><em>Tags: GitLab</em>]]></description>
+<pubDate>Sun, 02 Aug 2026 04:31:30 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vd8ap7/wisp_a_single_staticbinary_honeypot_with/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>GitLab</category>
 </item>
 <item>
 <title>Open letters about AI development</title>
@@ -51,6 +140,26 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>KQL detection library for Azure/Sentinel</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vcx7kh/kql_detection_library_for_azuresentinel/</link>
+<description><![CDATA[Put together a KQL detection library for Azure/Sentinel — 32 rules across 10 MITRE ATT&amp;CK tactics. Each rule has description, false positive considerations, and tuning notes baked into the file so it&apos;s actually usable in production without guesswork. Covers things like MFA fatigue, impossible travel, federated identity credential abuse, Conditional Access policy modification, VM extension installation, and subscription ownership transfer — some of the less commonly documented ones. github.com/neelkotnis/kql-detection-rules submitted by /u/Ok-Code4306 [link] [comments]<br/><br/><em>Tags: Azure · mfa_bypass</em>]]></description>
+<pubDate>Sat, 01 Aug 2026 20:03:45 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vcx7kh/kql_detection_library_for_azuresentinel/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>Azure</category>
+<category>mfa_bypass</category>
+</item>
+<item>
+<title>Tailscale didn’t stop the Hugging Face intrusion</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vcunz8/tailscale_didnt_stop_the_hugging_face_intrusion/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Sat, 01 Aug 2026 18:23:02 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vcunz8/tailscale_didnt_stop_the_hugging_face_intrusion/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes</title>
 <link>https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html</link>
 <description><![CDATA[An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite. A March 2021 firmware integration error routed seed generation to a deterministic software pseudorandom number generator (PRNG]]></description>
@@ -58,6 +167,17 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>[Open Source] Lightweight PowerShell Hardening Script for Windows 11</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vcs0b8/open_source_lightweight_powershell_hardening/</link>
+<description><![CDATA[Hi everyone, I built a lightweight, open-source PowerShell script designed to harden **Windows 11** endpoints using native OS security capabilities—without relying on heavy third-party software/bloat. ### 🛡️ What it does: * **PowerShell Execution Restriction:** Sets execution policy to `RemoteSigned` to prevent unauthorized local script execution. * **WinRM &amp; WSH Mitigation:** Disables Windows Script Host to block `.vbs` / `.js` malware vectors and closes remote management ports. * **Network Hardening:** Disables SMBv1 to protect against network-based lateral movement and exploits (e.g., WannaCry). * **Defender ASR &amp; Exploit Guard:** Enables Controlled Folder Access (ransomware protection) and blocks malicious downloads via PowerShell. * **Admin Share Lockdown:** Disables hidden admin shares (`C$`, `ADMIN$`) to restrict unauthorized lateral movement. --- ### 🚀 How to use: Open PowerShell as Administrator. Run: `.\Windows11_Hardening.ps1` Reboot to apply all policies. --- 🔗 **GitHub Rep<br/><br/><em>Tags: Microsoft Windows · ransomware_extortion</em>]]></description>
+<pubDate>Sat, 01 Aug 2026 16:36:42 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vcs0b8/open_source_lightweight_powershell_hardening/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>Microsoft Windows</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Rails patches critical Active Storage flaw with RCE potential</title>
@@ -90,6 +210,27 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vcgwmu/captivecrunch_midnight_blizzard_targets_travelers/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
+<pubDate>Sat, 01 Aug 2026 07:42:11 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vcgwmu/captivecrunch_midnight_blizzard_targets_travelers/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>APT29</category>
+<category>credential_theft</category>
+</item>
+<item>
+<title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vcgtd3/ir_trends_q2_2026_phishing_and_weaponized_remote/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Sat, 01 Aug 2026 07:36:46 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vcgtd3/ir_trends_q2_2026_phishing_and_weaponized_remote/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)</title>
@@ -231,6 +372,16 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>DLL-injection detection QA harness: deterministic five-event fixtures with JSONL and SARIF output</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1vbzmyz/dllinjection_detection_qa_harness_deterministic/</link>
+<description><![CDATA[Sharing an open-source validation harness for teams that need repeatable fixtures for testing process-injection correlations without running live injection code. It emits the same five ordered signals each run: cross-process open, remote allocation, remote memory write, remote thread start, and module image load. The CLI produces JSONL for ingestion tests, Markdown for analyst review, and SARIF for CI surfaces. It has no runtime dependencies, needs no admin privileges, and never manipulates a process. Operational use: regression-testing parser or rule changes, validating correlation ordering, and giving analysts a known-positive case before moving to real EDR telemetry. Limitation: synthetic events validate detector and pipeline logic, not endpoint sensor fidelity or coverage against evasive injection variants. Repo: https://github.com/bsmensah-ctrl/DLL-Injection-Lab Zero-install browser demo: https://bsmensah-ctrl.github.io/DLL-Injection-Lab/ submitted by /u/Technical-Resort-275 [link<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Fri, 31 Jul 2026 18:47:14 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1vbzmyz/dllinjection_detection_qa_harness_deterministic/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>GitHub</category>
 </item>
 <item>
 <title>CISA warns of spike in attacks on water systems as Minnesota incidents probed</title>
@@ -529,15 +680,13 @@
 <item>
 <title>CareCloud Data Breach Impacts Over 350,000</title>
 <link>https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/</link>
-<description><![CDATA[In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude · AWS · ShinyHunters · ransomware_extortion · data_breach</em>]]></description>
+<description><![CDATA[In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .<br/><br/><em>Tags: AWS · data_breach</em>]]></description>
 <pubDate>Fri, 31 Jul 2026 07:51:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-<category>Anthropic/Claude</category>
 <category>AWS</category>
-<category>ShinyHunters</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>Resecurity expands threat intelligence integration ecosystem with IBM QRadar</title>
@@ -567,24 +716,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Aviation cyber risk sits on the ground, the blindness sits in the air</title>
-<link>https://www.helpnetsecurity.com/2026/07/31/eliran-almong-cyviation-aviation-cyber-risk/</link>
-<description><![CDATA[In this interview with Help Net Security, Eliran Almog, CEO of Cyviation, explains why airline cyber losses happen on the ground while the aircraft stays unmonitored. He walks through GNSS jamming that leaves no trace in a SIEM, and a PX4 Autopilot flaw his team disclosed where drone command channels accept unsigned messages. He argues the Electronic Flight Bag matters less than the data loading chain behind it, makes the case for digital twins, and … More → The post Aviation cyber risk sits on the ground, the blindness sits in the air appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 31 Jul 2026 05:30:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/31/eliran-almong-cyviation-aviation-cyber-risk/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Companies push AI, sysadmins keep it on a short leash</title>
-<link>https://www.helpnetsecurity.com/2026/07/31/action1-sysadmins-ai-expectations-report/</link>
-<description><![CDATA[In 2024, sysadmins expected AI to automate patch management optimization, vulnerability prioritization, infrastructure monitoring, and incident response within two years. Action1’s 2026 Survey Report: AI Impact on Sysadmins found that those expectations proved overly optimistic. The largest shortfalls appeared in high-impact operational and security functions, where AI needs to understand business context, system dependencies, risk, and the consequences of an incorrect action. Areas with the widest expectation-reality gaps (Source: Action1) Sysadmins view patch management and … More → The post Companies push AI, sysadmins keep it on a short leash appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 31 Jul 2026 05:00:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/07/31/action1-sysadmins-ai-expectations-report/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Risky Bulletin: Crime Stoppers puts bounty on INC ransomware group</title>
@@ -682,15 +813,6 @@
 <category>active_exploitation</category>
 </item>
 <item>
-<title>Minnesota Water Utility Attacks Expose Sector&apos;s Cyber-Risks</title>
-<link>https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks</link>
-<description><![CDATA[A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.]]></description>
-<pubDate>Thu, 30 Jul 2026 21:16:13 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Okta’s deal for Permiso aims to close gaps in identity threat detection</title>
 <link>https://cyberscoop.com/okta-acquires-permiso-security-ai-identity-threat-detection/</link>
 <description><![CDATA[Ely Kahn, Okta&apos;s chief product officer, told CyberScoop the deal enriches the company&apos;s current threat detection tools and gives it deeper visibility into AI agent activity across enterprise systems. The post Okta’s deal for Permiso aims to close gaps in identity threat detection appeared first on CyberScoop .<br/><br/><em>Tags: Okta</em>]]></description>
@@ -699,15 +821,6 @@
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
 <category>Okta</category>
-</item>
-<item>
-<title>AI Harnesses Burst With Potential Exploit Opps</title>
-<link>https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps</link>
-<description><![CDATA[A myriad of software makes up the typical AI harness, and trust issues between the components can create concerning attack vectors.]]></description>
-<pubDate>Thu, 30 Jul 2026 19:40:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Semiconductor chip titan Analog Devices reports data breach</title>
@@ -1101,15 +1214,6 @@
 <category>CVE-2026-20079</category>
 </item>
 <item>
-<title>&apos;Flying Eagle&apos; Full-Service Mobile RAT Builder Wings Across China</title>
-<link>https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</link>
-<description><![CDATA[A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims&apos; bank accounts.]]></description>
-<pubDate>Thu, 30 Jul 2026 00:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Dealing with AI-Generated Extortion</title>
 <link>https://www.recordedfuture.com/blog/ai-generated-extortion</link>
 <description><![CDATA[Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -1179,25 +1283,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>OpenAI&apos;s Rogue Model Claims More Victims Beyond Hugging Face</title>
-<link>https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face</link>
-<description><![CDATA[OpenAI&apos;s goal-seeking agent compromised a Modal customer environment and others during its sandbox escape.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 19:48:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Red Agents vs. Blue Agents: How to Make AI Better at Defense</title>
-<link>https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense</link>
-<description><![CDATA[The agentic AI playing field was heavily tilted toward offense, so researchers began using red team agents to help teach their blue counterparts.]]></description>
-<pubDate>Wed, 29 Jul 2026 19:46:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>AI Worming through Word</title>
 <link>https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything</link>
 <description><![CDATA[AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present. We&apos;ve seen plenty of hidden white-on-white text before - the kids are using it in their job applications now - but this is the first one I&apos;ve seen that deliberately copies instructions to self-replicate itself. It was responsibly disclosed to<br/><br/><em>Tags: Microsoft/Copilot · ai_security</em>]]></description>
@@ -1230,36 +1315,6 @@
 <category>Cisco</category>
 <category>Apple iOS/macOS</category>
 <category>CVE-2026-6516</category>
-</item>
-<item>
-<title>Who&apos;s Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions</link>
-<description><![CDATA[Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI&apos;s agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 17:43:38 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Hugging Face Hack: Lessons for Cyber Defenders</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders</link>
-<description><![CDATA[Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent&apos;s attack on Hugging Face.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 17:35:23 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>When AppSec Scanners Become a Supply Chain Attack Vector</title>
-<link>https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector</link>
-<description><![CDATA[New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 17:06:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>CVE-2026-63077: Critical unauthenticated remote code execution in JetBrains TeamCity</title>
@@ -1365,15 +1420,6 @@
 <guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v9yd7p/anatomy_of_a_frontier_lab_agent_intrusion_a/</guid>
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>Patch-Resistant &apos;RufRoot&apos; Flaw Can Unleash Malicious AI Agent Swarms</title>
-<link>https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms</link>
-<description><![CDATA[The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.]]></description>
-<pubDate>Wed, 29 Jul 2026 14:40:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Report As You Go: Maintaining Good Documentation for SOC Analysts</title>
@@ -1636,15 +1682,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>Thousands of Data Center Controllers Open to Takeover</title>
-<link>https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover</link>
-<description><![CDATA[A host of Internet-exposed remote hardware management processors are subject to offline password-cracking attacks — and adversaries have taken note.]]></description>
-<pubDate>Tue, 28 Jul 2026 21:07:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack</title>
 <link>https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html</link>
 <description><![CDATA[Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic&apos;s released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
@@ -1665,15 +1702,6 @@
 <category>CVE-2026-16232</category>
 <category>zero_day</category>
 <category>active_exploitation</category>
-</item>
-<item>
-<title>&apos;Certighost&apos; Flaw Haunts Microsoft Active Directory Certificates</title>
-<link>https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates</link>
-<description><![CDATA[Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.]]></description>
-<pubDate>Tue, 28 Jul 2026 16:38:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>ColdFusion Under Fire: Breaking Down CVE-2026-48283 and CVE-2026-48313</title>
@@ -1862,6 +1890,17 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
+<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
+<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>data_breach</category>
+</item>
+<item>
 <title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
 <link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
 <description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: GitHub · GitLab · npm · TeamPCP · supply_chain · credential_theft</em>]]></description>
@@ -1873,17 +1912,6 @@
 <category>GitLab</category>
 <category>npm</category>
 <category>TeamPCP</category>
-</item>
-<item>
-<title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
-<link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
-<description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -1974,16 +2002,6 @@
 <category>CVE-2026-16723</category>
 </item>
 <item>
-<title>AI Agent Drives Espionage Attack on Thai Ministry of Finance</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance</link>
-<description><![CDATA[Attackers used Hermes, an autonomous open source tool, in unrestricted &quot;YOLO mode&quot; to conduct espionage against Thailand&apos;s Ministry of Finance.<br/><br/><em>Tags: apt_espionage</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 01:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>apt_espionage</category>
-</item>
-<item>
 <title>Chaos in Teams vishing</title>
 <link>https://www.sophos.com/en-us/blog/chaos-in-teams-vishing</link>
 <description><![CDATA[Attackers used Microsoft Teams vishing, custom malware, and remote access tools to facilitate ransomware deployment Categories: Threat Research Tags: Microsoft Teams, vishing, Ransomware, Chaos<br/><br/><em>Tags: Black Basta · ransomware_extortion · phishing_social_eng · web_shell_backdoor</em>]]></description>
@@ -1997,28 +2015,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>&apos;Confused Deputy&apos; Flaws Persist in Google Cloud, Microsoft Azure</title>
-<link>https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure</link>
-<description><![CDATA[This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers&apos; access controls.<br/><br/><em>Tags: Azure · Google Cloud</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 20:57:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>Azure</category>
-<category>Google Cloud</category>
-</item>
-<item>
-<title>FBI: Breaking Affiliate Trust Sped Along LockBit&apos;s Takedown</title>
-<link>https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown</link>
-<description><![CDATA[An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.<br/><br/><em>Tags: LockBit · ransomware_extortion</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 20:33:29 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>LockBit</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>AWS Shield Advanced is embracing the AWS WAF Anti-DDoS managed rule group: What changes and how to prepare</title>
 <link>https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/</link>
 <description><![CDATA[July 29, 2026: We’ve updated this post to clarify the AWS Firewall Manager migration path. Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that blend in with normal user activity. […]<br/><br/><em>Tags: AWS · ddos</em>]]></description>
@@ -2028,26 +2024,6 @@
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
 <category>ddos</category>
-</item>
-<item>
-<title>Why Resetting Passwords No Longer Stops Attackers</title>
-<link>https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks</link>
-<description><![CDATA[As attackers shift from password theft to session and token theft to bypass multifactor authentication controls, organizations must move beyond login security and protect authenticated sessions.<br/><br/><em>Tags: credential_theft</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 18:39:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>credential_theft</category>
-</item>
-<item>
-<title>Adversaries Don&apos;t Need a Zero-Day — They Read Your Rulebook</title>
-<link>https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook</link>
-<description><![CDATA[Confidence in autonomous security tools is declining, and here&apos;s why.<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 17:31:18 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption</title>
@@ -2258,15 +2234,6 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>CISOs vs. Boards: Myth or Misunderstanding?</title>
-<link>https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-</link>
-<description><![CDATA[Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.]]></description>
-<pubDate>Fri, 24 Jul 2026 21:31:53 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent</title>
 <link>https://aws.amazon.com/blogs/security/accelerating-aws-network-firewall-troubleshooting-with-aws-devops-agent/</link>
 <description><![CDATA[When an administrator introduces a rule change in AWS Network Firewall and network connectivity is disrupted, pinpointing the cause requires inspecting multiple points in the traffic path. The firewall gives you stateless and stateful rule engines, domain rules, and routing to the firewall endpoint inside your Amazon Virtual Private Cloud (Amazon VPC). A network drop […]]]></description>
@@ -2274,15 +2241,6 @@
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/accelerating-aws-network-firewall-troubleshooting-with-aws-devops-agent/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Escape Artists: &apos;Incorrigible&apos; AI Models Resist Rehabilitation</title>
-<link>https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation</link>
-<description><![CDATA[The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising — and preventing the next AI model escape will be difficult, at best.]]></description>
-<pubDate>Fri, 24 Jul 2026 19:45:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching</title>
@@ -2342,15 +2300,6 @@
 <category>APT1</category>
 </item>
 <item>
-<title>Vatican&apos;s Official Prayer App Leaks 700K+ Global Users&apos; PII</title>
-<link>https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii</link>
-<description><![CDATA[A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.]]></description>
-<pubDate>Fri, 24 Jul 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Security as a Business Enabler: A Guide for Modern CISOs</title>
 <link>https://orca.security/resources/blog/security-as-a-business-enabler/</link>
 <description><![CDATA[Key Takeaways Security as a business enabler is a claim most CISOs have already made in a board deck, and it usually dies in a queue. A payments team finishes a feature on a Tuesday. The launch slips two weeks, because the review queue is four deep and the one reviewer who knows the service […]]]></description>
@@ -2367,16 +2316,6 @@
 <guid isPermaLink="true">https://orca.security/resources/blog/cloud-security-assessment/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Default Azure Automation Setting Enables Cross-Tenant Identity Takeover</title>
-<link>https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover</link>
-<description><![CDATA[Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant&apos;s identity and access others&apos; data, credentials, and cloud workloads.<br/><br/><em>Tags: Azure</em>]]></description>
-<pubDate>Fri, 24 Jul 2026 12:48:16 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>Azure</category>
 </item>
 <item>
 <title>Hotel Wi-Fi Routers Compromised to Steal Corporate Login Credentials From Visitors</title>
@@ -2408,15 +2347,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Europe&apos;s Multilingual Reality Exposes AI Security Gaps</title>
-<link>https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps</link>
-<description><![CDATA[The AI security layer and guardrails for many AI products don&apos;t evenly protect against jailbreaking and unsafe actions in every single language.]]></description>
-<pubDate>Fri, 24 Jul 2026 07:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331</title>
@@ -2474,18 +2404,6 @@
 <guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/</guid>
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets</link>
-<description><![CDATA[A state-sponsored threat group, dubbed &quot;Laundry Bear,&quot; sends &quot;half-click&quot; phishing emails that require a victim only to open or preview the message.<br/><br/><em>Tags: phishing_social_eng · zero_day · apt_espionage</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 21:23:18 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-<category>zero_day</category>
-<category>apt_espionage</category>
 </item>
 <item>
 <title>New warnings that Russian operatives are targeting the emails of US nuclear scientists and defense contractors</title>
@@ -2706,15 +2624,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Agentic AI Challenges Progress in Confidential Computing</title>
-<link>https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing</link>
-<description><![CDATA[Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.]]></description>
-<pubDate>Thu, 23 Jul 2026 11:17:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>New Dolphin X Stealer Employs AI Profiling to Prioritize Targets</title>
 <link>https://www.infosecurity-magazine.com/news/new-dolphin-x-stealer-ai-targets/</link>
 <description><![CDATA[Dolphin X is a new infostealer that uses AI to sort and rank victims, giving cybercriminals a faster way to identify lucrative targets<br/><br/><em>Tags: credential_theft</em>]]></description>
@@ -2763,15 +2672,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Brazilian Banking Trojan Actively Spreading in Portugal</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal</link>
-<description><![CDATA[Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.]]></description>
-<pubDate>Thu, 23 Jul 2026 07:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>CCPA Update: Who’s In Scope (Part 1)</title>
 <link>https://trustedsec.com/blog/ccpa-update-whos-in-scope-part-1</link>
 <description><![CDATA[&lt;p&gt;California updated CCPA... again. Before you do anything else, does it apply to you? In Part 1 of this blog series, we clarify who falls under scope, what data is covered, and how enforcement works.&lt;/p&gt;]]></description>
@@ -2779,16 +2679,6 @@
 <guid isPermaLink="true">https://trustedsec.com/blog/ccpa-update-whos-in-scope-part-1</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain</link>
-<description><![CDATA[A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 01:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>TAG-195 Upgrades MaaS Ecosystem with Modular Tools</title>
@@ -2819,15 +2709,6 @@
 <category>WordPress</category>
 </item>
 <item>
-<title>Flaws in Passkey Implementation Show Old Attacks Still Work</title>
-<link>https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work</link>
-<description><![CDATA[Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.]]></description>
-<pubDate>Wed, 22 Jul 2026 23:50:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Smashing Security podcast #477: How 14 orders of chicken McNuggets helped nail a suspected Russian hacker</title>
 <link>https://grahamcluley.com/smashing-security-podcast-477/</link>
 <description><![CDATA[A Russian intelligence-linked hacker is arrested in Thailand while enjoying a beach holiday - and the trail of evidence that nailed him to the Russian government includes 14 separate orders of chicken McNuggets. Meanwhile, AI music generator Suno has been hacked - and the stolen data appears to show exactly how much copyrighted music they hoovered up to train their models. All this and more in episode 477 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest James Ball.]]></description>
@@ -2845,24 +2726,6 @@
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
 <category>GitHub</category>
-</item>
-<item>
-<title>Attackers Are Learning to Live Off the AI Toolchain</title>
-<link>https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain</link>
-<description><![CDATA[Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.]]></description>
-<pubDate>Wed, 22 Jul 2026 21:29:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Fake Bahrain Alert App Deploys Android Surveillance Malware</title>
-<link>https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware</link>
-<description><![CDATA[A malicious application delivers four-stage Android spyware via phony Google Play sites, exploiting civilian fear during Iranian missile strikes.]]></description>
-<pubDate>Wed, 22 Jul 2026 19:42:42 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 &amp; CVE-2026-60170 | Oracle Hospitality Simphony Multiple Vulnerabilities</title>
@@ -2931,16 +2794,6 @@
 <guid isPermaLink="true">https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/</guid>
 <source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>When AI Attacks: OpenAI Models Autonomously Hack Hugging Face</title>
-<link>https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face</link>
-<description><![CDATA[Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 15:53:47 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>TrickBot Ditches HTTP for DNS Tunneling in Latest Variant</title>
@@ -3027,15 +2880,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>EU Financial Institutions Leak Data Through Cookie Trackers</title>
-<link>https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers</link>
-<description><![CDATA[European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.]]></description>
-<pubDate>Wed, 22 Jul 2026 11:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Ubuntu snap-confine Vulnerability Enables Local Root Access</title>
 <link>https://www.infosecurity-magazine.com/news/ubuntu-snap-confine-local-root-cve/</link>
 <description><![CDATA[New Ubuntu snap-confine race condition lets local users escalate to root on default installs]]></description>
@@ -3092,34 +2936,6 @@
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/modern-attack-vectors</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Ransomware Is Accelerating, but It&apos;s Not Because of AI</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai</link>
-<description><![CDATA[Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Tue, 21 Jul 2026 21:48:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
-<title>Using LLMs to Find &amp; Prioritize Vulnerabilities Is No Easy Task</title>
-<link>https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task</link>
-<description><![CDATA[The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.]]></description>
-<pubDate>Tue, 21 Jul 2026 21:27:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Hacker Turns AI Jailbreaks Into Offensive Attack Platform</title>
-<link>https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform</link>
-<description><![CDATA[A Russian-speaking actor, &quot;Trim,&quot; dismantled publicly available frontier models and integrated them with offensive security tools.]]></description>
-<pubDate>Tue, 21 Jul 2026 18:38:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Representing OpenSSF at AfricaCyberFest</title>
@@ -3195,15 +3011,6 @@
 <guid isPermaLink="true">https://www.sentinelone.com/labs/iran-war-cyber-threat-landscape-a-midyear-assessment-on-what-matters/</guid>
 <source url="https://www.sentinelone.com/labs/feed/">SentinelOne Labs</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Choose Wisely: AI-Generated Coding Risk Varies, a Lot</title>
-<link>https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies</link>
-<description><![CDATA[AI-generated code introduces 15 vulnerabilities on average per codebase, but the actual risk depends on framework pairing more than the model used.]]></description>
-<pubDate>Tue, 21 Jul 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>A New Ransomware Threat Actor Emerges Every Week, Warns Report</title>
@@ -3336,28 +3143,6 @@
 <category>AWS</category>
 </item>
 <item>
-<title>&apos;WP2Shell&apos; Opens Millions of WordPress Sites to Remote Takeover</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover</link>
-<description><![CDATA[Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.<br/><br/><em>Tags: WordPress · CVE-2026-60137 · CVE-2026-63030</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 21:38:18 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>WordPress</category>
-<category>CVE-2026-60137</category>
-<category>CVE-2026-63030</category>
-</item>
-<item>
-<title>Remediating Vulnerabilities With LLMs: Inside Ivanti&apos;s Automation Push</title>
-<link>https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation</link>
-<description><![CDATA[Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages, but cost and human-in-the-loop viability remain open questions.<br/><br/><em>Tags: Ivanti</em>]]></description>
-<pubDate>Mon, 20 Jul 2026 20:26:56 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>Ivanti</category>
-</item>
-<item>
 <title>Between Two Nerds: What China gets wrong about Russia&apos;s cyber war in Ukraine</title>
 <link>https://risky.biz/BTN175/</link>
 <description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq discuss what mainland Chinese analysts think about Russia’s use of cyber operations in the war in Ukraine. This episode is also available on YouTube.]]></description>
@@ -3365,24 +3150,6 @@
 <guid isPermaLink="true">https://risky.biz/BTN175/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>25 Years After Code Red: What the Worm Era Can Teach Us About AI Security</title>
-<link>https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2</link>
-<description><![CDATA[Marc Maiffret reflects on Code Red&apos;s legacy and the security lessons helping organizations navigate AI risk today.]]></description>
-<pubDate>Mon, 20 Jul 2026 19:32:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>CISOs Feel the Heat Over AI Risk</title>
-<link>https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk</link>
-<description><![CDATA[Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.]]></description>
-<pubDate>Mon, 20 Jul 2026 19:07:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Exploitation in the Wild of wp2shell</title>
@@ -9334,15 +9101,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>Weekly Update 504</title>
-<link>https://www.troyhunt.com/weekly-update-504/</link>
-<description><![CDATA[It&apos;s a hot topic, the old &quot;pay or don&apos;t pay&quot; for hackers not to leak your data. Since recording this a few days ago, we&apos;ve had Grafana go with the &quot;no pay&quot; approach , and I&apos;ve seen a raft]]></description>
-<pubDate>Mon, 18 May 2026 03:46:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.troyhunt.com/weekly-update-504/</guid>
-<source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Pathfinding Labs: Deploy, test, and learn from 100+ intentionally vulnerable AWS environments</title>
 <link>https://securitylabs.datadoghq.com/articles/introducing-pathfinding-labs/</link>
 <description><![CDATA[Introducing Pathfinding Labs, a collection of intentionally vulnerable AWS environments for red teamers and blue teamers to deploy, exploit, and use for detection validation.<br/><br/><em>Tags: AWS</em>]]></description>
@@ -10908,11 +10666,11 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Defending against China-nexus covert networks of compromised devices</title>
-<link>https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices</link>
-<description><![CDATA[Explaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it]]></description>
+<title>Executive Summary: Defending against China-nexus covert networks of compromised devices</title>
+<link>https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices</link>
+<description><![CDATA[Organisations should map and baseline their edge device traffic, especially VPN and remote access connections, and adopt dynamic threat feed filtering that includes known covert network indicators.]]></description>
 <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices</guid>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -12177,15 +11935,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Risky Bulletin: Iranian password sprays came first, then came the missiles</title>
-<link>https://risky.biz/RBNEWS545/</link>
-<description><![CDATA[Iranian password spraying targets Israel ahead of missile strikes, a major npm package gets hacked, Iran says it will bomb US tech firms in the Middle East, and Flint24 hackers are sentenced to prison in Russia.]]></description>
-<pubDate>Wed, 01 Apr 2026 04:45:10 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS545/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Supply Chain Compromise of axios npm Package</title>
 <link>https://www.huntress.com/blog/supply-chain-compromise-axios-npm-package</link>
 <description><![CDATA[An NPM supply chain attack struck the ubiquitous open-source axios library and Huntress has observed over a hundred affected devices.<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
@@ -12264,15 +12013,6 @@
 <category>TeamPCP</category>
 <category>supply_chain</category>
 <category>active_exploitation</category>
-</item>
-<item>
-<title>Between Two Nerds: More secure but less safe</title>
-<link>https://risky.biz/BTN160/</link>
-<description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq talk about hacking and scams. While hacking is disappearing as a threat for most people, it is a new golden age for scammers. Even Tom has been scammed! This episode is also available on Youtube.]]></description>
-<pubDate>Mon, 30 Mar 2026 19:57:38 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/BTN160/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>The Wiz Blue Agent, now Generally Available</title>
@@ -13059,6 +12799,15 @@
 <guid isPermaLink="true">https://deepmind.google/blog/10-years-of-alphago/</guid>
 <source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
 <category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Daily BlueTeamSec Briefing Archive - daily AI generated podcast of the last 24hours of posts</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1rowtkz/daily_blueteamsec_briefing_archive_daily_ai/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Mon, 09 Mar 2026 10:43:26 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1rowtkz/daily_blueteamsec_briefing_archive_daily_ai/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Behind the console: Active phishing campaign targeting AWS console credentials</title>
@@ -20265,7 +20014,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20274,7 +20023,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20283,7 +20032,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20292,7 +20041,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20301,7 +20050,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20310,7 +20059,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20319,7 +20068,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20328,7 +20077,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20338,7 +20087,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20347,7 +20096,7 @@
 <title>AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity</title>
 <link>https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 00:06:51 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 04:35:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T00:06:51.116665+00:00",
+  "generated_at": "2026-08-03T04:35:27.070081+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 76,
-  "total_items_in_window": 358,
-  "total_clusters_raw": 155,
-  "total_clusters_in_packet": 74,
-  "dropped_low_score": 81,
+  "feeds_ok": 75,
+  "total_items_in_window": 357,
+  "total_clusters_raw": 150,
+  "total_clusters_in_packet": 72,
+  "dropped_low_score": 78,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,6 +74,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -87,13 +94,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -109,13 +109,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -123,12 +116,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -144,11 +137,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 20,
       "in_window_count": 2
     },
     "Cisco Talos": {
@@ -172,6 +165,20 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
@@ -179,12 +186,33 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 8
+      "in_window_count": 2
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -200,34 +228,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -242,19 +242,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -277,13 +277,6 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 11
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
@@ -291,12 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 9
+      "in_window_count": 11
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -312,19 +305,19 @@
       "item_count": 30,
       "in_window_count": 0
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -333,12 +326,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -346,6 +339,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -361,13 +361,6 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -381,6 +374,20 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -396,20 +403,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 17
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -417,12 +410,26 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 17
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -438,6 +445,13 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -452,12 +466,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 30,
+      "in_window_count": 29
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -466,32 +480,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 29
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 28
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Troy Hunt": {
@@ -499,14 +492,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -515,12 +501,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -529,12 +515,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -550,33 +550,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -585,6 +564,20 @@
       "item_count": 100,
       "in_window_count": 24
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -592,12 +585,12 @@
       "item_count": 25,
       "in_window_count": 18
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 25,
+      "in_window_count": 24
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -606,12 +599,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 5
+      "in_window_count": 7
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -1316,8 +1316,8 @@
     {
       "cluster_id": "4c8ed8c5fa",
       "priority_score": 32,
-      "member_count": 4,
-      "corroborating_source_count": 4,
+      "member_count": 5,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "APT29",
         "SolarWinds",
@@ -1353,7 +1353,8 @@
         ],
         "confidence_tier": [
           "tier_1_primary_research",
-          "tier_2_operator"
+          "tier_2_operator",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -1533,6 +1534,34 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1vcgwmu/captivecrunch_midnight_blizzard_targets_travelers/",
+          "published": "2026-08-01T07:42:11+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [
+              "APT29"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -1871,8 +1900,8 @@
     {
       "cluster_id": "974cdece8d",
       "priority_score": 23,
-      "member_count": 17,
-      "corroborating_source_count": 9,
+      "member_count": 14,
+      "corroborating_source_count": 8,
       "strong_signals": [
         "OpenAI/ChatGPT"
       ],
@@ -2193,42 +2222,14 @@
               "products": []
             }
           }
-        },
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "OpenAI's Rogue Model Claims More Victims Beyond Hugging Face",
-          "link": "https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face",
-          "published": "2026-07-29T19:48:12+00:00",
-          "summary": "OpenAI's goal-seeking agent compromised a Modal customer environment and others during its sandbox escape.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
         }
       ]
     },
     {
       "cluster_id": "ae0cc6b051",
       "priority_score": 23,
-      "member_count": 9,
-      "corroborating_source_count": 6,
+      "member_count": 11,
+      "corroborating_source_count": 8,
       "strong_signals": [
         "GitHub",
         "npm"
@@ -2245,6 +2246,7 @@
         ],
         "affected_products": [
           "AWS",
+          "Anthropic/Claude",
           "GitHub",
           "npm"
         ],
@@ -2263,7 +2265,9 @@
         "confidence_tier": [
           "tier_1_offensive_research",
           "tier_2_operator",
-          "tier_4_news"
+          "tier_3_analysis",
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -2460,6 +2464,36 @@
           }
         },
         {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Anthropic models also did the hacky-hacky",
+          "link": "https://risky.biz/RBNEWS595/",
+          "published": "2026-08-03T03:52:50+00:00",
+          "summary": "Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "npm": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
           "source": "CyberScoop",
           "cohort": "cyber_news_breach_reporting",
           "title": "A little-known npm package was North Korea’s warm-up act for the axios hack",
@@ -2481,6 +2515,34 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "DLL-injection detection QA harness: deterministic five-event fixtures with JSONL and SARIF output",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1vbzmyz/dllinjection_detection_qa_harness_deterministic/",
+          "published": "2026-07-31T18:47:14+00:00",
+          "summary": "Sharing an open-source validation harness for teams that need repeatable fixtures for testing process-injection correlations without running live injection code. It emits the same five ordered signals each run: cross-process open, remote allocation, remote memory write, remote thread start, and module image load. The CLI produces JSONL for ingestion tests, Markdown for analyst review, and SARIF for CI surfaces. It has no runtime dependencies, needs no admin privileges, and never manipulates a process. Operational use: regression-testing parser or rule changes, validating correlation ordering, and giving analysts a known-positive case before moving to real EDR telemetry. Limitation: synthetic events validate detector and pipeline logic, not endpoint sensor fidelity or coverage against evasive injection variants. Repo: https://github.com/bsmensah-ctrl/DLL-Injection-Lab Zero-install browser demo: https://bsmensah-ctrl.github.io/DLL-Injection-Lab/ submitted by /u/Technical-Resort-275 [link",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -2997,34 +3059,6 @@
           }
         },
         {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-          "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-          "published": "2026-07-31T06:41:44+00:00",
-          "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge. The AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a \"",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
           "title": "Anthropic Reveals Claude Escaped Testing, Breaching Three Companies",
@@ -3051,14 +3085,42 @@
               "products": []
             }
           }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+          "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+          "published": "2026-07-31T06:41:44+00:00",
+          "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge. The AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a \"",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
         }
       ]
     },
     {
       "cluster_id": "90d3c1c1e2",
       "priority_score": 16,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 4,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "Apple iOS/macOS"
       ],
@@ -3080,14 +3142,17 @@
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
         "content_type": [
           "news_report"
         ],
         "confidence_tier": [
           "tier_1_government",
           "tier_1_primary_research",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -3185,6 +3250,36 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_government",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Apple Screen Sharing Pre-Auth RCE (macOS ≤ 26.5)",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1vddl1g/apple_screen_sharing_preauth_rce_macos_265/",
+          "published": "2026-08-02T09:29:51+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Apple iOS/macOS": "target"
             },
@@ -3959,6 +4054,175 @@
       ]
     },
     {
+      "cluster_id": "c97bc0e859",
+      "priority_score": 13,
+      "member_count": 5,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "AWS",
+        "ShinyHunters"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ddos",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "healthcare"
+        ],
+        "affected_products": [
+          "AWS"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report",
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_3_analysis",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Risky Business News",
+        "cohort": "practitioner_analysis",
+        "title": "Sponsored: The intrusion signals hiding in plain sight",
+        "link": "https://risky.biz/RBNEWSSI138/",
+        "published": "2026-08-03T00:22:38+00:00",
+        "summary": "In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permiso’s platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours.",
+        "full_body": "Risky Bulletin Podcast August 03, 2026 Sponsored: The intrusion signals hiding in plain sight Presented by James Wilson Technology Editor In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permisoâs platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours. Your browser does not support the audio element. Sponsored: The intrusion signals hiding in plain sight â¶ 0:00 / 15:36 Subscribe Brought to you by Permiso Monitor All Identities In All Environments",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "AWS"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {
+            "AWS": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Sponsored: The intrusion signals hiding in plain sight",
+          "link": "https://risky.biz/RBNEWSSI138/",
+          "published": "2026-08-03T00:22:38+00:00",
+          "summary": "In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permiso’s platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CareCloud Data Breach Impacts Over 350,000",
+          "link": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
+          "published": "2026-07-31T07:51:43+00:00",
+          "summary": "In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services"
+            ],
+            "affected_products": [
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "AWS Security Blog",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Extend Amazon Inspector SBOM Generator with Plugins",
+          "link": "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
+          "published": "2026-07-30T17:22:54+00:00",
+          "summary": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "2675bb2bb6",
       "priority_score": 12,
       "member_count": 1,
@@ -4061,7 +4325,7 @@
       ]
     },
     {
-      "cluster_id": "2d87c8dc74",
+      "cluster_id": "b61889968b",
       "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -4069,20 +4333,21 @@
       "taxonomy": {
         "threat_categories": [
           "active_exploitation",
+          "phishing_social_eng",
           "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-61511"
+        "affected_products": [
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT",
+          "WordPress"
         ],
+        "tools_used": [],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "no_patch_yet",
-          "poc_available",
-          "preauth_unauth",
+          "actively_exploited",
           "zero_day"
         ],
         "content_type": [
@@ -4093,36 +4358,41 @@
         ]
       },
       "primary": {
-        "source": "The Hacker News",
+        "source": "Infosecurity Magazine",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
-        "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-        "published": "2026-07-27T14:40:00+00:00",
-        "summary": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",
-        "full_body": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw  Swati Khandelwal  Jul 27, 2026 Vulnerability / Website Security Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version boundary. vBulletin issued security patches for 6.2.1, 6.2.0, and 6.1.6 at the end of June and released the fixed version 6.2.2 on July 1, nearly four weeks before the exploit went public Administrators running self-hosted installations should apply the patch for their branch or upgrade to 6.2.2. vBulletin says its Cloud sites have already been patched against the flaw. SSD did not report active exploitation. As of July 27, 2026, no source had confirmed in-the-wild attacks, and CVE-2026-61511 was not listed in CISA's Known Exploited Vulnerabilities catalog. The company published an interactive proof-of-concept, but the script as posted contains a one-character error, a letter where a digit belongs, that stops it running unchanged. The mistake is trivial to correct and does not affect the underlying vulnerability. One thing the public record does not settle is whether the flaw was used in the roughly four weeks between the late-June patch and the July 27 disclosure; neither SSD's advisory nor vBulletin's notices address that window. SSD's technical analysis identifies it as CVE-2026-61511 , an unauthenticated remote code execution flaw in vBulletin's template engine. No CVE.org or National Vulnerability Database record, and so no official severity score, was available at the time of writing; the NVD stopped routinely enriching new CVEs with CVSS scores earlier this year. SSD credits an unnamed independent researcher, though the published exploit is signed \"EgiX,\" the handle of Egidio Romano , who disclosed vBulletin's 2025 template-engine code-execution chain. The vulnerable code sits in /includes/vb5/template/runtime.php , inside the vB5_Template_Runtime::runMaths() method, which handles inline math in templates. The function strips characters outside a restricted set, then passes what remains directly to eval() . The filter blocks letters but permits digits, parentheses, concatenation, arithmetic operators, and binary operators such as XOR, enough to reconstruct PHP strings and callable function names without any letters, using a restricted-character technique the advisory calls \"phpfuck.\" Reaching it does not require the admin panel. vBulletin renders templates over a public route, ajax/render/pagenav , and the stock pagenav template copies a visitor-supplied pagenav[pagenumber] value into a {vb:math} tag, which passes it to runMaths() . That chain is what turns a template bug into pre-authentication remote code execution; SSD's PoC uses it to rebuild PHP's system function and run an operating-system command, returning the output in the HTTP response. The Hacker News reproduced the disclosed filtering and evaluation logic locally to check the reported error. With the typo corrected, a harmless strlen() test payload executed; without it, the allowlist stripped the stray letter and left syntactically invalid PHP. The test confirmed the expression-building flaw, not a complete attack against a live vBulletin server. The exploit's own banner calls the issue a zero-day, but the vendor's patches and the 6.2.2 release preceded public disclosure by nearly four weeks. The exploit code is new; the flaw it targets was already fixed. With Cloud reportedly patched and the self-hosted fixes nearly a month old, the live risk is concentrated in self-hosted, internet-facing forums that have not updated, a more specific population than a bare \"vBulletin RCE\" implies. Defenders can review POST requests carrying routestri",
+        "title": "Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows",
+        "link": "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/",
+        "published": "2026-07-29T10:15:00+00:00",
+        "summary": "For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said",
+        "full_body": "Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows News 29 July 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Software vulnerabilities discovered using AI tools are being exploited at the same rate as those discovered without the use of AI, a VulnCheck researcher has found. In VulnCheck’s State of Exploitation H1 2026 report , Patrick Garrity, vulnerability researcher, observed that 14 of the 1061 vulnerabilities attributed to AI-assisted discovery have been confirmed as exploited in the wild. This represents 1.3% of vulnerabilities identified using AI, roughly matching the overall exploitation rate of all vulnerabilities for the reported period. The researcher also found that while Anthropic reported more than 23,000 findings through its Project Glasswing , only 126 have resulted in published CVEs and just one has been confirmed as exploited in the wild. These findings add nuance to warnings from some quarters that AI tools like Anthropic's Mythos and other frontier models could trigger a ‘vulnpocalypse,’ flooding the security landscape with a wave of newly discovered, mass-exploited vulnerabilities. Garrity said that for now, vulnerability intelligence shows evidence that the use of frontier AI models is “more likely to give cyber defenders an advantage in strengthening software than to give attackers an advantage in discovering vulnerabilities before the software producers do.” KEV Exploitation Growth Lags Behind Rising CVE Volume VulnCheck identified nearly 500 known exploited vulnerabilities (KEVs) in the first half of 2026. These appear to be being exploited faster than ever before, with the median time from CVE publication to KEV falling from 120 days in 2025 to 80 days during the first half of 2026. However, the research found that 23.43% of KEVs recorded in the first half of 2026 showed evidence of exploitation on or before the day the CVE was published, a slight drop from the 28.93% of one-day and zero-day KEVs observed in 2025. Additionally, exploitation activity early in the CVE lifecycle remained steady, with roughly 200 CVEs becoming exploited within 31 days in the first half of 2026. “Early exploitation activity has not scaled at the same pace as CVE issuance,” said Garrity. Source: VulnCheck Content management systems (CMS) remained the most targeted technology category, accounting for 163 KEVs, one-third of all recorded KEVs. They are followed by network edge devices (68), operating systems (44) and server software (40). Meanwhile, AI products are emerging as a new attack surface , with known exploitation affecting model-building tools, workload-scaling platforms, AI gateways, agents and workflow automation. Source: VulnCheck The VulnCheck report includes every KEV added to VulnCheck’s own KEV catalog during the first half of 2026, based on CVE publication date and earliest evidence of exploitation. The AI-discovered vulnerabilities mentioned in this report come from both Garrity’s own recording of vulnerabilities reported through Anthropic’s Project Glaswing and telemetry from the Berkeley Vulnerability Research Initiative . You may also like Researchers Build WordPress Exploit Using OpenAI's GPT News 20 July 2026 Infosecurity Europe: Patch Responsibility Remains Up for Grabs as AI Unearths Decades of Flaws News 3 June 2026 Two Critical Flaws in n8n AI Workflow Automation Platform Allow Complete Takeover News 4 February 2026 Organizations Found to Address Only 21% of GenAI-Related Vulnerabilities News 15 April 2025 Microsoft Condemns \"Uncoordinated\" Zero Day Disclosures News 28 May 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Teams-Themed Phishing Campaign Abused Legitimate Microsoft Login Pages News 30 July 2026 1 Google Releases Patches for 370 Vulnerabilities in Chrome 151 New",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
+            "phishing_social_eng",
             "zero_day",
             "active_exploitation"
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-61511"
+          "affected_products": [
+            "WordPress",
+            "OpenAI/ChatGPT",
+            "Anthropic/Claude"
           ],
+          "tools_used": [],
+          "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [
-            "zero_day",
-            "preauth_unauth",
-            "no_patch_yet",
-            "poc_available"
+            "actively_exploited",
+            "zero_day"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "WordPress": "target",
+            "OpenAI/ChatGPT": "target",
+            "Anthropic/Claude": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -4130,34 +4400,39 @@
       },
       "corroborating_sources": [
         {
-          "source": "The Hacker News",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
-          "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-          "published": "2026-07-27T14:40:00+00:00",
-          "summary": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",
+          "title": "Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows",
+          "link": "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/",
+          "published": "2026-07-29T10:15:00+00:00",
+          "summary": "For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said",
           "taxonomy": {
             "threat_categories": [
+              "phishing_social_eng",
               "zero_day",
               "active_exploitation"
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-61511"
+            "affected_products": [
+              "WordPress",
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
             ],
+            "tools_used": [],
+            "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [
-              "zero_day",
-              "preauth_unauth",
-              "no_patch_yet",
-              "poc_available"
+              "actively_exploited",
+              "zero_day"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "WordPress": "target",
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -4278,7 +4553,7 @@
       ]
     },
     {
-      "cluster_id": "b61889968b",
+      "cluster_id": "2d87c8dc74",
       "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -4286,21 +4561,20 @@
       "taxonomy": {
         "threat_categories": [
           "active_exploitation",
-          "phishing_social_eng",
           "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT",
-          "WordPress"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-61511"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
-          "actively_exploited",
+          "no_patch_yet",
+          "poc_available",
+          "preauth_unauth",
           "zero_day"
         ],
         "content_type": [
@@ -4311,41 +4585,36 @@
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
+        "source": "The Hacker News",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows",
-        "link": "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/",
-        "published": "2026-07-29T10:15:00+00:00",
-        "summary": "For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said",
-        "full_body": "Infosecurity Magazine Home » News » Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows News 29 July 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Software vulnerabilities discovered using AI tools are being exploited at the same rate as those discovered without the use of AI, a VulnCheck researcher has found. In VulnCheck’s State of Exploitation H1 2026 report , Patrick Garrity, vulnerability researcher, observed that 14 of the 1061 vulnerabilities attributed to AI-assisted discovery have been confirmed as exploited in the wild. This represents 1.3% of vulnerabilities identified using AI, roughly matching the overall exploitation rate of all vulnerabilities for the reported period. The researcher also found that while Anthropic reported more than 23,000 findings through its Project Glasswing , only 126 have resulted in published CVEs and just one has been confirmed as exploited in the wild. These findings add nuance to warnings from some quarters that AI tools like Anthropic's Mythos and other frontier models could trigger a ‘vulnpocalypse,’ flooding the security landscape with a wave of newly discovered, mass-exploited vulnerabilities. Garrity said that for now, vulnerability intelligence shows evidence that the use of frontier AI models is “more likely to give cyber defenders an advantage in strengthening software than to give attackers an advantage in discovering vulnerabilities before the software producers do.” KEV Exploitation Growth Lags Behind Rising CVE Volume VulnCheck identified nearly 500 known exploited vulnerabilities (KEVs) in the first half of 2026. These appear to be being exploited faster than ever before, with the median time from CVE publication to KEV falling from 120 days in 2025 to 80 days during the first half of 2026. However, the research found that 23.43% of KEVs recorded in the first half of 2026 showed evidence of exploitation on or before the day the CVE was published, a slight drop from the 28.93% of one-day and zero-day KEVs observed in 2025. Additionally, exploitation activity early in the CVE lifecycle remained steady, with roughly 200 CVEs becoming exploited within 31 days in the first half of 2026. “Early exploitation activity has not scaled at the same pace as CVE issuance,” said Garrity. Source: VulnCheck Content management systems (CMS) remained the most targeted technology category, accounting for 163 KEVs, one-third of all recorded KEVs. They are followed by network edge devices (68), operating systems (44) and server software (40). Meanwhile, AI products are emerging as a new attack surface , with known exploitation affecting model-building tools, workload-scaling platforms, AI gateways, agents and workflow automation. Source: VulnCheck The VulnCheck report includes every KEV added to VulnCheck’s own KEV catalog during the first half of 2026, based on CVE publication date and earliest evidence of exploitation. The AI-discovered vulnerabilities mentioned in this report come from both Garrity’s own recording of vulnerabilities reported through Anthropic’s Project Glaswing and telemetry from the Berkeley Vulnerability Research Initiative . You may also like Researchers Build WordPress Exploit Using OpenAI's GPT News 20 July 2026 Infosecurity Europe: Patch Responsibility Remains Up for Grabs as AI Unearths Decades of Flaws News 3 June 2026 Two Critical Flaws in n8n AI Workflow Automation Platform Allow Complete Takeover News 4 February 2026 Organizations Found to Address Only 21% of GenAI-Related Vulnerabilities News 15 April 2025 Microsoft Condemns \"Uncoordinated\" Zero Day Disclosures News 28 May 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Teams-Themed Phishing Campaign Abused Legitimate Microsoft Login Pages News 30 July 2026 1 Google Releases Patches for 370 Vulnerabilities in Chrome 151 New",
+        "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+        "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+        "published": "2026-07-27T14:40:00+00:00",
+        "summary": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",
+        "full_body": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw  Swati Khandelwal  Jul 27, 2026 Vulnerability / Website Security Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version boundary. vBulletin issued security patches for 6.2.1, 6.2.0, and 6.1.6 at the end of June and released the fixed version 6.2.2 on July 1, nearly four weeks before the exploit went public Administrators running self-hosted installations should apply the patch for their branch or upgrade to 6.2.2. vBulletin says its Cloud sites have already been patched against the flaw. SSD did not report active exploitation. As of July 27, 2026, no source had confirmed in-the-wild attacks, and CVE-2026-61511 was not listed in CISA's Known Exploited Vulnerabilities catalog. The company published an interactive proof-of-concept, but the script as posted contains a one-character error, a letter where a digit belongs, that stops it running unchanged. The mistake is trivial to correct and does not affect the underlying vulnerability. One thing the public record does not settle is whether the flaw was used in the roughly four weeks between the late-June patch and the July 27 disclosure; neither SSD's advisory nor vBulletin's notices address that window. SSD's technical analysis identifies it as CVE-2026-61511 , an unauthenticated remote code execution flaw in vBulletin's template engine. No CVE.org or National Vulnerability Database record, and so no official severity score, was available at the time of writing; the NVD stopped routinely enriching new CVEs with CVSS scores earlier this year. SSD credits an unnamed independent researcher, though the published exploit is signed \"EgiX,\" the handle of Egidio Romano , who disclosed vBulletin's 2025 template-engine code-execution chain. The vulnerable code sits in /includes/vb5/template/runtime.php , inside the vB5_Template_Runtime::runMaths() method, which handles inline math in templates. The function strips characters outside a restricted set, then passes what remains directly to eval() . The filter blocks letters but permits digits, parentheses, concatenation, arithmetic operators, and binary operators such as XOR, enough to reconstruct PHP strings and callable function names without any letters, using a restricted-character technique the advisory calls \"phpfuck.\" Reaching it does not require the admin panel. vBulletin renders templates over a public route, ajax/render/pagenav , and the stock pagenav template copies a visitor-supplied pagenav[pagenumber] value into a {vb:math} tag, which passes it to runMaths() . That chain is what turns a template bug into pre-authentication remote code execution; SSD's PoC uses it to rebuild PHP's system function and run an operating-system command, returning the output in the HTTP response. The Hacker News reproduced the disclosed filtering and evaluation logic locally to check the reported error. With the typo corrected, a harmless strlen() test payload executed; without it, the allowlist stripped the stray letter and left syntactically invalid PHP. The test confirmed the expression-building flaw, not a complete attack against a live vBulletin server. The exploit's own banner calls the issue a zero-day, but the vendor's patches and the 6.2.2 release preceded public disclosure by nearly four weeks. The exploit code is new; the flaw it targets was already fixed. With Cloud reportedly patched and the self-hosted fixes nearly a month old, the live risk is concentrated in self-hosted, internet-facing forums that have not updated, a more specific population than a bare \"vBulletin RCE\" implies. Defenders can review POST requests carrying routestri",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "phishing_social_eng",
             "zero_day",
             "active_exploitation"
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "WordPress",
-            "OpenAI/ChatGPT",
-            "Anthropic/Claude"
-          ],
+          "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-61511"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
-            "actively_exploited",
-            "zero_day"
+            "zero_day",
+            "preauth_unauth",
+            "no_patch_yet",
+            "poc_available"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "WordPress": "target",
-            "OpenAI/ChatGPT": "target",
-            "Anthropic/Claude": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -4353,39 +4622,34 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows",
-          "link": "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/",
-          "published": "2026-07-29T10:15:00+00:00",
-          "summary": "For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said",
+          "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+          "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+          "published": "2026-07-27T14:40:00+00:00",
+          "summary": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",
           "taxonomy": {
             "threat_categories": [
-              "phishing_social_eng",
               "zero_day",
               "active_exploitation"
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "WordPress",
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
-            ],
+            "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-61511"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
-              "actively_exploited",
-              "zero_day"
+              "zero_day",
+              "preauth_unauth",
+              "no_patch_yet",
+              "poc_available"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target",
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4962,6 +5226,289 @@
       ]
     },
     {
+      "cluster_id": "f0a862553c",
+      "priority_score": 11,
+      "member_count": 4,
+      "corroborating_source_count": 4,
+      "strong_signals": [
+        "Azure"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "mfa_bypass"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure",
+          "Microsoft/Copilot"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Wiz Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "CosmosEscape: Taking Over Every Database in Azure Cosmos DB",
+        "link": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+        "published": "2026-07-30T12:00:01+00:00",
+        "summary": "A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.",
+        "full_body": "Wiz Pricing Get a demo Get a demo Wiz Research uncovered CosmosEscape , a critical vulnerability in Azure’s flagship database service, Azure Cosmos DB, via its Gremlin API. The vulnerability could have been exploited to compromise every database in the service, including Microsoft's own internal databases - potentially enabling a cross-service attack. Through CosmosEscape, attackers could have acquired what we’ve dubbed the Cosmos Master Key - a platform-wide secret that granted two incredibly powerful capabilities: Takeover - retrieving the primary key of any Cosmos DB account on demand, resulting in full read & write access. Enumeration - listing all databases on the service with the ability to filter by specific organization identifiers like subscription and tenant IDs. Chained together, these capabilities could have enabled precision targeting at platform scale: from identifying a specific organization's databases to compromising them, all from publicly accessible endpoints. Cosmos DB is used internally across Microsoft - services like Microsoft Entra ID , Microsoft Teams , and Microsoft Copilot all store data in Cosmos DB. Their databases were potentially accessible via this vulnerability. Microsoft has now fully remediated the issue, including eliminating the Cosmos Master Key. Microsoft also introduced new guardrails to Cosmos DB to prevent similar attacks. Figure 1: CosmosEscape’s impact This research was assisted by an early version of Atlas , our AI vulnerability researcher. Expect more from Atlas soon. Required Actions Microsoft has fully remediated this issue. No customer action is required. Microsoft conducted a thorough investigation and found no evidence of exploitation of this vulnerability beyond the research described in this blog. From a Single Query to Unlocking Every Database Cosmos DB supports multiple query APIs, and among them is Gremlin , a popular graph query language: // Find all users over 30 and return their friends ' names g.V().hasLabel(' user ').has(' age ', gt(30)).out(' knows ').values(' name ') While running Gremlin queries against Cosmos DB, we noticed a suspicious .NET exception. Since most open-source Gremlin stacks are JVM-based, the exception suggested that Cosmos DB was using a custom Gremlin engine . This was interesting - unlike standard SQL, where the engine maps queries to a fixed set of built-in operations, Gremlin servers often compile queries into executable code and run it in a restricted environment. Historically, these sandboxes haven't held up well . We suspected Cosmos DB's Gremlin sandbox may be vulnerable as well. And it was. Cosmos DB's engine translated Gremlin queries into .NET code, enforcing a set of restrictions designed to prevent queries from reaching beyond Gremlin operations. These restrictions, however, didn't sufficiently account for .NET reflection - allowing us to develop file read, write, and ultimately arbitrary code execution primitives, all through queries against our own database. The following image shows the output of a specially crafted Gremlin query ran against our database, resulting in the hostname command being executed on the Cosmos DB backend: Figure 2: Executing hostname on the Cosmos DB backend via the Gremlin API. See the full query in our upcoming BlackHat USA talk. By bypassing the Gremlin sandbox, we’ve gained code execution on the DB Gateway , a service that executes customer queries on their behalf, running on multi-tenant Service Fabric clusters. Looking around, customer databases weren’t hosted on these clusters, but the DB Gateway still had to reach them somehow. It turned out that it did so like any Cosmos DB client would - using the target account’s primary key , which grants full read-write access to the account’s databases. But how can the DB Gateway retrieve the primary key of our Cosmos DB account? The Cosmos Master Key Through credentials available on the cluster, the DB Gateway accessed a signing key that could retrieve the re",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Azure",
+            "Microsoft/Copilot"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Azure": "target",
+            "Microsoft/Copilot": "target",
+            "Microsoft Entra": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Microsoft Entra",
+                "mention",
+                0.31
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Wiz Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "CosmosEscape: Taking Over Every Database in Azure Cosmos DB",
+          "link": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+          "published": "2026-07-30T12:00:01+00:00",
+          "summary": "A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Azure",
+              "Microsoft/Copilot"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Azure": "target",
+              "Microsoft/Copilot": "target",
+              "Microsoft Entra": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Microsoft Entra",
+                  "mention",
+                  0.31
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "KQL detection library for Azure/Sentinel",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1vcx7kh/kql_detection_library_for_azuresentinel/",
+          "published": "2026-08-01T20:03:45+00:00",
+          "summary": "Put together a KQL detection library for Azure/Sentinel — 32 rules across 10 MITRE ATT&CK tactics. Each rule has description, false positive considerations, and tuning notes baked into the file so it's actually usable in production without guesswork. Covers things like MFA fatigue, impossible travel, federated identity credential abuse, Conditional Access policy modification, VM extension installation, and subscription ownership transfer — some of the less commonly documented ones. github.com/neelkotnis/kql-detection-rules submitted by /u/Ok-Code4306 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "mfa_bypass"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Azure"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Flaw Allowed to Azure Cosmos DB Pwnage",
+          "link": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/",
+          "published": "2026-07-31T09:04:02+00:00",
+          "summary": "Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access. The post Critical Flaw Allowed to Azure Cosmos DB Pwnage appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Azure"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+          "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+          "published": "2026-07-30T13:34:09+00:00",
+          "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz. Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Azure"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d7e33e13d3",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Enhancing AI security through global AI red teaming",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+        "published": "2026-07-27T16:25:00+00:00",
+        "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Tags Frontier AI models Content types Research Products and services Microsoft Security Copilot Topics Actionable threat insights Most AI safety testing still happens inside the walls of individual organizations. That has resulted in a fundamental disconnect: many of the highest-risk failure modes in modern AI systems require deep domain expertise, multilingual context, or regional understanding that no single internal team can fully replicate on its own. As frontier models become more capable, the attack surface expands with them. AI red teaming is no longer just about prompt injection or content safety edge cases. It increasingly involves security operations, misuse scenarios, multilingual harms, alignment failures, and domain-specific abuse patterns that can vary significantly across geographies and languages. Microsoft’s AI Red Team has observed that meaningful testing of advanced AI systems- and models similarly requires broader participation from researchers and practitioners who operate outside traditional corporate security boundaries. To address that gap, today we are announcing the External Red Team Alliance (EXTRA), a formalized global extension of Microsoft’s AI Red Team designed to support and encourage external expertise to advance AI safety and security testing. We are proud to share we are funding the development of new AI safety assessments on six continents through unrestricted gifts. Building a global alliance EXTRA is a two-part initiative focused on expanding AI safety research and strengthening external collaboration. The first component supports a global academic network focused on advancing AI safety and security research. Microsoft’s AI Red Team has provided unrestricted gifts to 18 university labs spanning six continents. The goal is intentionally broad: support researchers who are already investigating difficult, unresolved questions in AI safety and help them continue pushing that work forward independently. Some of the supporting institutions include: Carnegie Mellon University Security and Privacy Institute (CyLab) , United States Georgetown University – Georgetown Security Lab (SecLab) , United States Harvard University Berkman Klein Center for Internet & Society (BKC) , United States Howard University Research Institute for Tactical Autonomy (RITA) , United States Indian Institute of Technology Madras – Centre for Responsible AI (CeRAI) , India Korea Advanced Institute of Science & Technology – KAIST Web Security & Privacy (WSP) Lab , Korea New York University – NYU Alignment Research Group (ARG) , United States Northeastern University Network and Distributed Systems Security (NDS2) Lab, United States University College London – UCL Information Security Research Group (UCL ISec) , United Kingdom University of Cagliari Pattern Recognition and Applications (PRA) Lab , Italy University of California – Berkeley Risk and Security Lab; Center for Responsible, Decentralized Intelligence (CRDI) , United States University of Melbourne Artificial Intelligence Assurance Lab , Australia University of Pretoria Data Science for Social Impact (DSFSI) Research Group , South Africa University of São Paulo Center for Artificial Intelligence (C4AI) , Brazil University of Toronto CleverHans Lab , Canada University of Washington Department of Human Centered Design & Engineering (HCDE) , United States “Academic research is critical to understanding the cyber security landscape and finding solutions that work for all of society – and partnerships like this with industry are essential to delivering on that promise. Through partnerships, civil society and public institutions researchers gain access to frontier technology to understand how models work and bring their expertise to the task of determining risk and developing more effective countermeasures for the benefit of society as a whole.” Nicolas Papernot, professor, University of Toronto. The second component of EXTRA focuses on opera",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Enhancing AI security through global AI red teaming",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+          "published": "2026-07-27T16:25:00+00:00",
+          "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "75acd25c40",
       "priority_score": 10,
       "member_count": 1,
@@ -5065,93 +5612,6 @@
                   0.26
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d7e33e13d3",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Enhancing AI security through global AI red teaming",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-        "published": "2026-07-27T16:25:00+00:00",
-        "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Frontier AI models Content types Research Products and services Microsoft Security Copilot Topics Actionable threat insights Most AI safety testing still happens inside the walls of individual organizations. That has resulted in a fundamental disconnect: many of the highest-risk failure modes in modern AI systems require deep domain expertise, multilingual context, or regional understanding that no single internal team can fully replicate on its own. As frontier models become more capable, the attack surface expands with them. AI red teaming is no longer just about prompt injection or content safety edge cases. It increasingly involves security operations, misuse scenarios, multilingual harms, alignment failures, and domain-specific abuse patterns that can vary significantly across geographies and languages. Microsoft’s AI Red Team has observed that meaningful testing of advanced AI systems- and models similarly requires broader participation from researchers and practitioners who operate outside traditional corporate security boundaries. To address that gap, today we are announcing the External Red Team Alliance (EXTRA), a formalized global extension of Microsoft’s AI Red Team designed to support and encourage external expertise to advance AI safety and security testing. We are proud to share we are funding the development of new AI safety assessments on six continents through unrestricted gifts. Building a global alliance EXTRA is a two-part initiative focused on expanding AI safety research and strengthening external collaboration. The first component supports a global academic network focused on advancing AI safety and security research. Microsoft’s AI Red Team has provided unrestricted gifts to 18 university labs spanning six continents. The goal is intentionally broad: support researchers who are already investigating difficult, unresolved questions in AI safety and help them continue pushing that work forward independently. Some of the supporting institutions include: Carnegie Mellon University Security and Privacy Institute (CyLab) , United States Georgetown University – Georgetown Security Lab (SecLab) , United States Harvard University Berkman Klein Center for Internet & Society (BKC) , United States Howard University Research Institute for Tactical Autonomy (RITA) , United States Indian Institute of Technology Madras – Centre for Responsible AI (CeRAI) , India Korea Advanced Institute of Science & Technology – KAIST Web Security & Privacy (WSP) Lab , Korea New York University – NYU Alignment Research Group (ARG) , United States Northeastern University Network and Distributed Systems Security (NDS2) Lab, United States University College London – UCL Information Security Research Group (UCL ISec) , United Kingdom University of Cagliari Pattern Recognition and Applications (PRA) Lab , Italy University of California – Berkeley Risk and Security Lab; Center for Responsible, Decentralized Intelligence (CRDI) , United States University of Melbourne Artificial Intelligence Assurance Lab , Australia University of Pretoria Data Science for Social Impact (DSFSI) Research Group , South Africa University of São Paulo Center for Artificial Intelligence (C4AI) , Brazil University of Toronto CleverHans Lab , Canada University of Washington Department of Human Centered Design & Engineering (HCDE) , United States “Academic research is critical to understanding the cyber security landscape and finding solutions that work for all of society – and partnerships like this with industry are essential to delivering on that promise. Through partnerships, civil society and public institutions researchers gain access to frontier technology to understand how models work and bring their expertise to the task of determining risk and developing more effective countermeasures for the benefit of society as a whole.” Nicolas Papernot, professor, University of Toronto. The second component of EXTRA focuses on opera",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Enhancing AI security through global AI red teaming",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-          "published": "2026-07-27T16:25:00+00:00",
-          "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems. The post Enhancing AI security through global AI red teaming appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -5935,7 +6395,7 @@
         "link": "https://horizon3.ai/downloads/factsheets/nodezero-webapp-factsheet/",
         "published": "2026-07-28T16:03:10+00:00",
         "summary": "Learn how NodeZero WebApp continuously tests custom web applications the way attackers do—crawling, authenticating, exploiting, and proving business impact through autonomous pentesting.",
-        "full_body": "Different Attack Surface. Same Outcome: Security You Can Prove. Horizon3.ai July 28, 2026 Factsheets Modern attackers don’t stop at infrastructure—they target the custom web applications your business depends on every day. NodeZero® WebApp continuously validates which web application weaknesses attackers can actually exploit into business impact by crawling, authenticating, attacking, and proving consequences the way real attackers operate. Instead of generating another list of theoretical findings, NodeZero WebApp provides evidence of what is truly exploitable so your team knows exactly what to fix first. Continuously Test the Web Applications Attackers Actually Target Traditional scanners and manual penetration tests provide valuable insight, but they can’t continuously validate how attackers move through modern web applications with authenticated workflows, business logic, and interconnected attack paths. NodeZero WebApp fills that gap by autonomously testing web applications the way attackers do. NodeZero WebApp helps organizations: Continuously crawl and discover modern web applications, APIs, and hidden routes Test authenticated, role-based workflows with credential and MFA support Validate business logic flaws, broken access control, IDOR, and BOLA vulnerabilities Safely test production, staging, and development environments with graduated testing modes Connect web application weaknesses to identity, cloud, and infrastructure attack paths Deliver replayable proof, screenshots, and request/response evidence developers can immediately verify Measure exploitable business risk instead of relying on vulnerability counts alone Security Teams Get More Than Findings—They Get Proof Every autonomous pentest produces clear evidence showing exactly how NodeZero navigated the application, what it discovered, and how weaknesses can be exploited. Reports connect application-layer vulnerabilities to broader attack paths and business impact, giving security teams actionable remediation guidance while providing audit-ready evidence for leadership and stakeholders. Core NodeZero WebApp Capabilities NodeZero WebApp combines modern web application testing with the broader NodeZero Proactive Security Platform through capabilities including: Production-safe graduated testing that expands safely as confidence grows Authenticated and role-aware testing for real user workflows Discovery of SPAs, REST, SOAP, and GraphQL APIs using headless browser crawling Unified attack path validation across web applications, identity, cloud, and infrastructure Business logic and access control testing for exploitable authorization weaknesses Replayable proof with screenshots, request/response details, and route context for rapid remediation See How NodeZero WebApp Validates Real-World Web Application Risk Download the NodeZero WebApp Factsheet to learn how Horizon3 helps organizations continuously validate exploitable web application risk through production-safe autonomous pentesting, authenticated testing, business logic validation, and replayable proof. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "full_body": "Different Attack Surface. Same Outcome: Security You Can Prove. Horizon3 July 28, 2026 Factsheets Modern attackers don’t stop at infrastructure—they target the custom web applications your business depends on every day. NodeZero® WebApp continuously validates which web application weaknesses attackers can actually exploit into business impact by crawling, authenticating, attacking, and proving consequences the way real attackers operate. Instead of generating another list of theoretical findings, NodeZero WebApp provides evidence of what is truly exploitable so your team knows exactly what to fix first. Continuously Test the Web Applications Attackers Actually Target Traditional scanners and manual penetration tests provide valuable insight, but they can’t continuously validate how attackers move through modern web applications with authenticated workflows, business logic, and interconnected attack paths. NodeZero WebApp fills that gap by autonomously testing web applications the way attackers do. NodeZero WebApp helps organizations: Continuously crawl and discover modern web applications, APIs, and hidden routes Test authenticated, role-based workflows with credential and MFA support Validate business logic flaws, broken access control, IDOR, and BOLA vulnerabilities Safely test production, staging, and development environments with graduated testing modes Connect web application weaknesses to identity, cloud, and infrastructure attack paths Deliver replayable proof, screenshots, and request/response evidence developers can immediately verify Measure exploitable business risk instead of relying on vulnerability counts alone Security Teams Get More Than Findings—They Get Proof Every autonomous pentest produces clear evidence showing exactly how NodeZero navigated the application, what it discovered, and how weaknesses can be exploited. Reports connect application-layer vulnerabilities to broader attack paths and business impact, giving security teams actionable remediation guidance while providing audit-ready evidence for leadership and stakeholders. Core NodeZero WebApp Capabilities NodeZero WebApp combines modern web application testing with the broader NodeZero Proactive Security Platform through capabilities including: Production-safe graduated testing that expands safely as confidence grows Authenticated and role-aware testing for real user workflows Discovery of SPAs, REST, SOAP, and GraphQL APIs using headless browser crawling Unified attack path validation across web applications, identity, cloud, and infrastructure Business logic and access control testing for exploitable authorization weaknesses Replayable proof with screenshots, request/response details, and route context for rapid remediation See How NodeZero WebApp Validates Real-World Web Application Risk Download the NodeZero WebApp Factsheet to learn how Horizon3 helps organizations continuously validate exploitable web application risk through production-safe autonomous pentesting, authenticated testing, business logic validation, and replayable proof. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
@@ -6361,166 +6821,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "cef34fdd67",
-      "priority_score": 10,
-      "member_count": 4,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "AWS"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ddos",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [
-          "AWS",
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report",
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "CareCloud Data Breach Impacts Over 350,000",
-        "link": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
-        "published": "2026-07-31T07:51:43+00:00",
-        "summary": "In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .",
-        "full_body": "Healthcare information technology company CareCloud is notifying at least 350,000 people that their information was stolen in a data breach. The incident involved an electronic health record environment within the CareCloud Health division, which was disrupted on March 16, 2026. CareCloud’s investigation determined that hackers accessed one of its AWS environments between March 10 and March 16, and likely exfiltrated data from it. On June 24, the investigation determined that personal, financial, and medical information was compromised in the incident, the company notes in the notification letter sent to the potentially affected individuals, a copy of which was filed with the Massachusetts Office of Consumer Affairs and Business Regulation. The potentially affected information, it says, includes names, addresses, Social Security numbers, dates of birth, driver’s license numbers, government ID numbers, financial account numbers, credit/debit card numbers, and medical and health insurance information. For a limited number of individuals, the compromised data also included full credit card information, including CVV, the company notes in an incident notification . CareCloud says it has no evidence that the stolen data has been misused. Advertisement. Scroll to continue reading. Based on filings with the Attorney General’s Offices in several states, at least 350,000 individuals have had their information stolen. The company is providing them with up to 24 months of free identity theft protection, credit monitoring, and ID theft recovery services, which include a $1,000,000 insurance reimbursement policy. “CareCloud engaged external cybersecurity experts and, with their assistance, secured the affected environment, eliminated the threat, and confirmed that no persistent unauthorized access remained. CareCloud is continuing to strengthen the security of its systems and environments,” the company says. The healthcare organization has yet to share the total number of impacted individuals and details on the threat actor responsible for the attack. SecurityWeek has emailed CareCloud for additional details and will update this article if the company responds. *Updated with additional information and link to CareCloud’s incident notice. Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms US and Allies Update SBOM Guidance Chrome 151 Patches 370 Vulnerabilities Mate Security Raises $35 Million for Agentic SOC Latest News Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments Ruby on Rails Patches Critical Vulnerability In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Critical Flaw Allowed to Azure Cosmos DB Pwnage Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [
-            "OpenAI/ChatGPT",
-            "Anthropic/Claude",
-            "AWS"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "Anthropic/Claude": "target",
-            "AWS": "target",
-            "Azure": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "CareCloud Data Breach Impacts Over 350,000",
-          "link": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
-          "published": "2026-07-31T07:51:43+00:00",
-          "summary": "In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment. The post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude",
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target",
-              "AWS": "target",
-              "Azure": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Extend Amazon Inspector SBOM Generator with Plugins",
-          "link": "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
-          "published": "2026-07-30T17:22:54+00:00",
-          "summary": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "AWS": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -7329,200 +7629,6 @@
       ]
     },
     {
-      "cluster_id": "f0a862553c",
-      "priority_score": 9,
-      "member_count": 4,
-      "corroborating_source_count": 4,
-      "strong_signals": [
-        "Azure"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure",
-          "Google Cloud",
-          "Microsoft/Copilot"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Wiz Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "CosmosEscape: Taking Over Every Database in Azure Cosmos DB",
-        "link": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
-        "published": "2026-07-30T12:00:01+00:00",
-        "summary": "A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.",
-        "full_body": "Wiz Pricing Get a demo Get a demo Wiz Research uncovered CosmosEscape , a critical vulnerability in Azure’s flagship database service, Azure Cosmos DB, via its Gremlin API. The vulnerability could have been exploited to compromise every database in the service, including Microsoft's own internal databases - potentially enabling a cross-service attack. Through CosmosEscape, attackers could have acquired what we’ve dubbed the Cosmos Master Key - a platform-wide secret that granted two incredibly powerful capabilities: Takeover - retrieving the primary key of any Cosmos DB account on demand, resulting in full read & write access. Enumeration - listing all databases on the service with the ability to filter by specific organization identifiers like subscription and tenant IDs. Chained together, these capabilities could have enabled precision targeting at platform scale: from identifying a specific organization's databases to compromising them, all from publicly accessible endpoints. Cosmos DB is used internally across Microsoft - services like Microsoft Entra ID , Microsoft Teams , and Microsoft Copilot all store data in Cosmos DB. Their databases were potentially accessible via this vulnerability. Microsoft has now fully remediated the issue, including eliminating the Cosmos Master Key. Microsoft also introduced new guardrails to Cosmos DB to prevent similar attacks. Figure 1: CosmosEscape’s impact This research was assisted by an early version of Atlas , our AI vulnerability researcher. Expect more from Atlas soon. Required Actions Microsoft has fully remediated this issue. No customer action is required. Microsoft conducted a thorough investigation and found no evidence of exploitation of this vulnerability beyond the research described in this blog. From a Single Query to Unlocking Every Database Cosmos DB supports multiple query APIs, and among them is Gremlin , a popular graph query language: // Find all users over 30 and return their friends ' names g.V().hasLabel(' user ').has(' age ', gt(30)).out(' knows ').values(' name ') While running Gremlin queries against Cosmos DB, we noticed a suspicious .NET exception. Since most open-source Gremlin stacks are JVM-based, the exception suggested that Cosmos DB was using a custom Gremlin engine . This was interesting - unlike standard SQL, where the engine maps queries to a fixed set of built-in operations, Gremlin servers often compile queries into executable code and run it in a restricted environment. Historically, these sandboxes haven't held up well . We suspected Cosmos DB's Gremlin sandbox may be vulnerable as well. And it was. Cosmos DB's engine translated Gremlin queries into .NET code, enforcing a set of restrictions designed to prevent queries from reaching beyond Gremlin operations. These restrictions, however, didn't sufficiently account for .NET reflection - allowing us to develop file read, write, and ultimately arbitrary code execution primitives, all through queries against our own database. The following image shows the output of a specially crafted Gremlin query ran against our database, resulting in the hostname command being executed on the Cosmos DB backend: Figure 2: Executing hostname on the Cosmos DB backend via the Gremlin API. See the full query in our upcoming BlackHat USA talk. By bypassing the Gremlin sandbox, we’ve gained code execution on the DB Gateway , a service that executes customer queries on their behalf, running on multi-tenant Service Fabric clusters. Looking around, customer databases weren’t hosted on these clusters, but the DB Gateway still had to reach them somehow. It turned out that it did so like any Cosmos DB client would - using the target account’s primary key , which grants full read-write access to the account’s databases. But how can the DB Gateway retrieve the primary key of our Cosmos DB account? The Cosmos Master Key Through credentials available on the cluster, the DB Gateway accessed a signing key that could retrieve the re",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Azure",
-            "Microsoft/Copilot"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Azure": "target",
-            "Microsoft/Copilot": "target",
-            "Microsoft Entra": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Microsoft Entra",
-                "mention",
-                0.31
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Wiz Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "CosmosEscape: Taking Over Every Database in Azure Cosmos DB",
-          "link": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
-          "published": "2026-07-30T12:00:01+00:00",
-          "summary": "A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Azure",
-              "Microsoft/Copilot"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Azure": "target",
-              "Microsoft/Copilot": "target",
-              "Microsoft Entra": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Microsoft Entra",
-                  "mention",
-                  0.31
-                ]
-              ]
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Flaw Allowed to Azure Cosmos DB Pwnage",
-          "link": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/",
-          "published": "2026-07-31T09:04:02+00:00",
-          "summary": "Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access. The post Critical Flaw Allowed to Azure Cosmos DB Pwnage appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Azure"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Azure": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
-          "link": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
-          "published": "2026-07-27T20:57:26+00:00",
-          "summary": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Azure",
-              "Google Cloud"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Azure": "target",
-              "Google Cloud": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-          "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-          "published": "2026-07-30T13:34:09+00:00",
-          "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz. Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a crafted query against a Gremlin database controlled by the attacker. From there, code execution on a",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Azure"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Azure": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c99323e585",
       "priority_score": 8,
       "member_count": 1,
@@ -8207,180 +8313,6 @@
       ]
     },
     {
-      "cluster_id": "39354a1568",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
-        "published": "2026-07-28T01:00:00+00:00",
-        "summary": "Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
-          "published": "2026-07-28T01:00:00+00:00",
-          "summary": "Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "361cf175a3",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Adversaries Don't Need a Zero-Day — They Read Your Rulebook",
-        "link": "https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook",
-        "published": "2026-07-27T17:31:18+00:00",
-        "summary": "Confidence in autonomous security tools is declining, and here's why.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Adversaries Don't Need a Zero-Day — They Read Your Rulebook",
-          "link": "https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook",
-          "published": "2026-07-27T17:31:18+00:00",
-          "summary": "Confidence in autonomous security tools is declining, and here's why.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "73e9449bb7",
       "priority_score": 8,
       "member_count": 1,
@@ -8447,177 +8379,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "9a554b7f81",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-        "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-        "published": "2026-07-31T16:39:31+00:00",
-        "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "legal_professional"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-          "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-          "published": "2026-07-31T16:39:31+00:00",
-          "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "legal_professional"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ac434a158a",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-        "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-        "published": "2026-07-28T15:01:33+00:00",
-        "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-          "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-          "published": "2026-07-28T15:01:33+00:00",
-          "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
-          "taxonomy": {
-            "threat_categories": [
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -8867,6 +8628,177 @@
       ]
     },
     {
+      "cluster_id": "9a554b7f81",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+        "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+        "published": "2026-07-31T16:39:31+00:00",
+        "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+          "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+          "published": "2026-07-31T16:39:31+00:00",
+          "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ac434a158a",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+        "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+        "published": "2026-07-28T15:01:33+00:00",
+        "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+          "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+          "published": "2026-07-28T15:01:33+00:00",
+          "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
+          "taxonomy": {
+            "threat_categories": [
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "fa1ef247b7",
       "priority_score": 8,
       "member_count": 1,
@@ -8976,8 +8908,8 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 15,
-      "cohesion": 0.215,
+      "article_count": 18,
+      "cohesion": 0.209,
       "shared_strong_signals": [
         "npm"
       ],
@@ -8992,12 +8924,15 @@
       "links": [
         "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
         "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
+        "https://www.reddit.com/r/blueteamsec/comments/1vcgwmu/captivecrunch_midnight_blizzard_targets_travelers/",
         "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
         "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
         "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
+        "https://risky.biz/RBNEWS595/",
         "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
+        "https://www.reddit.com/r/blueteamsec/comments/1vbzmyz/dllinjection_detection_qa_harness_deterministic/",
         "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/",
         "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows"
       ]
@@ -9146,7 +9081,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 16,
+      "article_count": 17,
       "cohesion": 0.206,
       "shared_strong_signals": [
         "PyPI"
@@ -9161,14 +9096,15 @@
       "links": [
         "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
         "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
+        "https://www.reddit.com/r/blueteamsec/comments/1vcgwmu/captivecrunch_midnight_blizzard_targets_travelers/",
         "https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/",
         "https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/",
         "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
         "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
         "https://therecord.media/anthropic-ai-hacked-three-real-companies",
         "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
-        "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
         "https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/",
+        "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
         "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/"
       ]
     },
@@ -9238,26 +9174,18 @@
       ]
     },
     {
-      "label": "data breach targeting AWS",
+      "label": "AWS vulnerability activity",
       "anchor_signal": "AWS",
       "theme_key": "aws",
       "dominant_features": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "affected_industries": [
-          "government",
-          "financial_services"
-        ],
         "affected_products": [
           "AWS",
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT"
+          "Anthropic/Claude"
         ]
       },
       "cluster_count": 3,
-      "article_count": 14,
-      "cohesion": 0.21,
+      "article_count": 17,
+      "cohesion": 0.2,
       "shared_strong_signals": [
         "AWS"
       ],
@@ -9266,7 +9194,7 @@
       "cluster_ids": [
         "ae0cc6b051",
         "0d2189c83e",
-        "cef34fdd67"
+        "c97bc0e859"
       ],
       "links": [
         "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
@@ -9274,8 +9202,11 @@
         "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
         "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
+        "https://risky.biz/RBNEWS595/",
         "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
+        "https://www.reddit.com/r/blueteamsec/comments/1vbzmyz/dllinjection_detection_qa_harness_deterministic/",
         "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/",
+        "https://risky.biz/RBNEWSSI138/",
         "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
         "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/"
       ]
@@ -9290,7 +9221,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 4,
+      "article_count": 5,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -9305,6 +9236,7 @@
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
         "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
         "https://isc.sans.edu/diary/rss/33196",
+        "https://www.reddit.com/r/blueteamsec/comments/1vddl1g/apple_screen_sharing_preauth_rce_macos_265/",
         "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
       ]
     },
@@ -9531,14 +9463,12 @@
       },
       {
         "actor": "ShinyHunters",
-        "cluster_id": "cef34fdd67",
+        "cluster_id": "c97bc0e859",
         "new_industries": [
-          "critical_infrastructure",
           "healthcare"
         ],
         "new_products": [
-          "AWS",
-          "OpenAI/ChatGPT"
+          "AWS"
         ],
         "prior_top_industries": [
           "education",
@@ -9556,7 +9486,7 @@
       {
         "axis": "actor_attribution",
         "value": "ShinyHunters",
-        "cluster_id": "cef34fdd67",
+        "cluster_id": "c97bc0e859",
         "weeks_observed": 9
       },
       {
