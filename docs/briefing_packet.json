@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-03T21:11:32.160750+00:00",
+  "generated_at": "2026-08-03T23:10:02.985118+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 75,
-  "total_items_in_window": 370,
+  "total_items_in_window": 372,
   "total_clusters_raw": 159,
   "total_clusters_in_packet": 77,
   "dropped_low_score": 82,
@@ -74,19 +74,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -95,11 +95,11 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Google Threat Analysis Group": {
@@ -109,12 +109,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
+      "item_count": 25,
+      "in_window_count": 1
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -122,20 +122,6 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -158,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 5
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -172,6 +158,20 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -179,16 +179,16 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -200,12 +200,19 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 2
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -221,12 +228,12 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -235,18 +242,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -263,13 +270,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -283,13 +283,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 7
-    },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -305,19 +298,19 @@
       "item_count": 20,
       "in_window_count": 14
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 9
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -326,18 +319,18 @@
       "item_count": 20,
       "in_window_count": 7
     },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 0
     },
     "Protect AI": {
@@ -347,12 +340,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -360,6 +353,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -375,12 +382,12 @@
       "item_count": 100,
       "in_window_count": 8
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,12 +403,19 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -417,27 +431,6 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 19
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -452,6 +445,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -459,19 +459,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 19
+    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 30
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -494,12 +494,40 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -508,15 +536,8 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -528,27 +549,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -571,12 +571,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -590,7 +590,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 14
+      "in_window_count": 16
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -1395,16 +1395,14 @@
           }
         },
         {
-          "source": "SecurityWeek",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking",
-          "link": "https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/",
-          "published": "2026-08-03T09:17:37+00:00",
-          "summary": "Midnight Blizzard has been stealing Microsoft account credentials via compromised Wi-Fi networks at hospitality organizations. The post Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking appeared first on SecurityWeek .",
+          "title": "Midnight Blizzard Targets Travelers via Captive Portals",
+          "link": "https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/",
+          "published": "2026-08-03T14:30:00+00:00",
+          "summary": "Russian actor Storm-2945 hijacked hotel captive portals to push fake updates and steal tokens",
           "taxonomy": {
-            "threat_categories": [
-              "apt_espionage"
-            ],
+            "threat_categories": [],
             "actor_attribution": [
               "APT29"
             ],
@@ -1423,14 +1421,16 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
+          "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Midnight Blizzard Targets Travelers via Captive Portals",
-          "link": "https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/",
-          "published": "2026-08-03T14:30:00+00:00",
-          "summary": "Russian actor Storm-2945 hijacked hotel captive portals to push fake updates and steal tokens",
+          "title": "Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking",
+          "link": "https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/",
+          "published": "2026-08-03T09:17:37+00:00",
+          "summary": "Midnight Blizzard has been stealing Microsoft account credentials via compromised Wi-Fi networks at hospitality organizations. The post Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking appeared first on SecurityWeek .",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "apt_espionage"
+            ],
             "actor_attribution": [
               "APT29"
             ],
@@ -1867,6 +1867,301 @@
       ]
     },
     {
+      "cluster_id": "ae0cc6b051",
+      "priority_score": 23,
+      "member_count": 10,
+      "corroborating_source_count": 7,
+      "strong_signals": [
+        "GitHub",
+        "npm"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "AWS",
+          "Anthropic/Claude",
+          "GitHub",
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report",
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research",
+          "tier_2_operator",
+          "tier_3_analysis",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "GitHub Security Lab",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+        "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+        "published": "2026-07-28T16:00:00+00:00",
+        "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog .",
+        "full_body": "Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, there’s been a pattern of supply chain attacks that target weaknesses in package repositories and CI/CD systems to quickly spread malware to hundreds of open source projects. This malware seeks to exfiltrate credentials both to broadly spread the attack, as well as for later exploitation. We’ve written a few times about our plans for hardening the supply chain: Our plan for a more secure npm supply chain in September 2025, Strengthening supply chain security: Preparing for the next malware campaign in December 2025, and What’s coming to our GitHub Actions 2026 security roadmap in March 2026. In this post, we’re updating you on changes we’ve implemented that directly disrupt some of the most common and impactful supply chain attack techniques. Anatomy of supply chain attacks Supply chain attacks chain together several weaknesses, and there is no single security capability that can stop them. Addressing them takes a holistic approach, prioritizing the mitigations that break the most impactful links in the attack chain. Our teams have been studying these attacks to deploy several improvements that disrupt them and limit their impact. This is possible thanks to collaboration with the security research and developer communities. The attacks vary in how they spread across the software ecosystem. However, most of these attacks follow similar techniques to gain initial access to a project, escalate privileges, and distribute across users and software. Improvements made to npm and GitHub Actions in the past few months have been focused on cutting off specific, common techniques and providing ways for customers to identify and respond to these attacks. Initial compromise Attacks start by compromising a single project, often by directly compromising a maintainer’s account or by targeting the project’s actions workflows. npm adds preventive account protection for high-impact accounts (June 2026) : Frequently, attacks start with a phishing campaign targeting maintainers. With this change, high-impact npm accounts are now put into a read-only mode for 72 hours when they change their email or use a 2FA recovery code. This delay allows maintainers time to respond and recover the account before their account can be used to start an attack. Safer pull_request_target defaults for GitHub Actions checkout (June 2026) : A common vulnerability in a project’s CI/CD pipelines are “pwn requests,” where a workflow triggers on pull requests from forks and then executes user-submitted and untrusted code from that fork. We changed the default behavior of actions/checkout to prevent the checkout of untrusted code from forks in commonly exploited triggers unless you explicitly opt-out (after reviewing your risk). This change and its backport to older versions cut off one of the most common vulnerable code patterns leading to code execution in GitHub Actions CI/CD workflows and initial project compromise. Control who and what triggers GitHub Actions workflows (June 2026) : Maybe you’d prefer to opt-out of these risky action triggers altogether or limit who can trigger them. This new control lets you set enterprise, organization, or repository level policies on who is allowed to trigger workflows and what trigger types are allowed. These workflow execution policies provide a governable and customizable layer of least-privilege around Action workflows that reduce the attack surface of your CI/CD infrastructure. Read-only Actions cache for untrusted triggers (June 2026) : After an attacker has achieved code execution in an Actions workflow, they then look to escalate to more privileged workflows (and therefore credentials) through poisoning the cache entries shared across workflows. With this change, we restrict the ability for less trusted workflows to modify the cache shared with other workflows. This directly closes a common path attackers have used to turn a vulnerability with li",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "GitHub",
+            "npm"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "GitHub": "target",
+            "npm": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "GitHub Security Lab",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+          "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+          "published": "2026-07-28T16:00:00+00:00",
+          "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "GitHub",
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "GitHub": "target",
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "AWS Security Blog",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks",
+          "link": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
+          "published": "2026-07-29T21:00:12+00:00",
+          "summary": "Amazon is sharing new findings about how a threat actor linked to the Democratic People’s Republic of Korea (DPRK) is targeting open source software libraries, the shared building blocks that companies around the world use to develop applications. Amazon Threat Intelligence has linked several recent compromises of popular Node Package Manager (NPM) libraries to the […]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Introducing AI AppGen Security to Protect the New Generation of AI Builders",
+          "link": "https://orca.security/resources/blog/introducing-ai-appgen-security/",
+          "published": "2026-08-03T12:50:00+00:00",
+          "summary": "Thirty years ago, software developers wrote code line by line, and a handful of them per company shipped anything to production. Ten years ago, DevOps engineers automated that pipeline and multiplied what each of them could deploy. Three years ago, AI coding assistants—GitHub Copilot, Cursor, Claude Code—started writing meaningful percentages of that code alongside them. […]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+          "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+          "published": "2026-08-03T18:43:53+00:00",
+          "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is \"lib-mtop,\" an unscoped package with the same name as a private Alibaba package",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "AWS Blames North Korean Group for Axios and Other npm Supply Chain Attacks",
+          "link": "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
+          "published": "2026-07-31T09:50:00+00:00",
+          "summary": "AWS has linked North Korea to the axios campaign to other attacks on npm libraries",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm",
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "npm": "target",
+              "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Anthropic models also did the hacky-hacky",
+          "link": "https://risky.biz/RBNEWS595/",
+          "published": "2026-08-03T03:52:50+00:00",
+          "summary": "Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "npm": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "CyberScoop",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "A little-known npm package was North Korea’s warm-up act for the axios hack",
+          "link": "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
+          "published": "2026-07-29T21:09:57+00:00",
+          "summary": "Amazon's threat intelligence team traced domain records from the open-source software hack to a smaller, earlier compromise by the same North Korean group. The post A little-known npm package was North Korea’s warm-up act for the axios hack appeared first on CyberScoop .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "974cdece8d",
       "priority_score": 23,
       "member_count": 14,
@@ -2185,305 +2480,10 @@
       ]
     },
     {
-      "cluster_id": "ae0cc6b051",
-      "priority_score": 23,
-      "member_count": 10,
-      "corroborating_source_count": 7,
-      "strong_signals": [
-        "GitHub",
-        "npm"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "AWS",
-          "Anthropic/Claude",
-          "GitHub",
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report",
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_2_operator",
-          "tier_3_analysis",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "GitHub Security Lab",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Disrupting supply chain attacks on npm and GitHub Actions",
-        "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-        "published": "2026-07-28T16:00:00+00:00",
-        "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog .",
-        "full_body": "Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, there’s been a pattern of supply chain attacks that target weaknesses in package repositories and CI/CD systems to quickly spread malware to hundreds of open source projects. This malware seeks to exfiltrate credentials both to broadly spread the attack, as well as for later exploitation. We’ve written a few times about our plans for hardening the supply chain: Our plan for a more secure npm supply chain in September 2025, Strengthening supply chain security: Preparing for the next malware campaign in December 2025, and What’s coming to our GitHub Actions 2026 security roadmap in March 2026. In this post, we’re updating you on changes we’ve implemented that directly disrupt some of the most common and impactful supply chain attack techniques. Anatomy of supply chain attacks Supply chain attacks chain together several weaknesses, and there is no single security capability that can stop them. Addressing them takes a holistic approach, prioritizing the mitigations that break the most impactful links in the attack chain. Our teams have been studying these attacks to deploy several improvements that disrupt them and limit their impact. This is possible thanks to collaboration with the security research and developer communities. The attacks vary in how they spread across the software ecosystem. However, most of these attacks follow similar techniques to gain initial access to a project, escalate privileges, and distribute across users and software. Improvements made to npm and GitHub Actions in the past few months have been focused on cutting off specific, common techniques and providing ways for customers to identify and respond to these attacks. Initial compromise Attacks start by compromising a single project, often by directly compromising a maintainer’s account or by targeting the project’s actions workflows. npm adds preventive account protection for high-impact accounts (June 2026) : Frequently, attacks start with a phishing campaign targeting maintainers. With this change, high-impact npm accounts are now put into a read-only mode for 72 hours when they change their email or use a 2FA recovery code. This delay allows maintainers time to respond and recover the account before their account can be used to start an attack. Safer pull_request_target defaults for GitHub Actions checkout (June 2026) : A common vulnerability in a project’s CI/CD pipelines are “pwn requests,” where a workflow triggers on pull requests from forks and then executes user-submitted and untrusted code from that fork. We changed the default behavior of actions/checkout to prevent the checkout of untrusted code from forks in commonly exploited triggers unless you explicitly opt-out (after reviewing your risk). This change and its backport to older versions cut off one of the most common vulnerable code patterns leading to code execution in GitHub Actions CI/CD workflows and initial project compromise. Control who and what triggers GitHub Actions workflows (June 2026) : Maybe you’d prefer to opt-out of these risky action triggers altogether or limit who can trigger them. This new control lets you set enterprise, organization, or repository level policies on who is allowed to trigger workflows and what trigger types are allowed. These workflow execution policies provide a governable and customizable layer of least-privilege around Action workflows that reduce the attack surface of your CI/CD infrastructure. Read-only Actions cache for untrusted triggers (June 2026) : After an attacker has achieved code execution in an Actions workflow, they then look to escalate to more privileged workflows (and therefore credentials) through poisoning the cache entries shared across workflows. With this change, we restrict the ability for less trusted workflows to modify the cache shared with other workflows. This directly closes a common path attackers have used to turn a vulnerability with li",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "GitHub",
-            "npm"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "GitHub": "target",
-            "npm": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "GitHub Security Lab",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Disrupting supply chain attacks on npm and GitHub Actions",
-          "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-          "published": "2026-07-28T16:00:00+00:00",
-          "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "GitHub",
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "GitHub": "target",
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks",
-          "link": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
-          "published": "2026-07-29T21:00:12+00:00",
-          "summary": "Amazon is sharing new findings about how a threat actor linked to the Democratic People’s Republic of Korea (DPRK) is targeting open source software libraries, the shared building blocks that companies around the world use to develop applications. Amazon Threat Intelligence has linked several recent compromises of popular Node Package Manager (NPM) libraries to the […]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Orca Security Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Introducing AI AppGen Security to Protect the New Generation of AI Builders",
-          "link": "https://orca.security/resources/blog/introducing-ai-appgen-security/",
-          "published": "2026-08-03T12:50:00+00:00",
-          "summary": "Thirty years ago, software developers wrote code line by line, and a handful of them per company shipped anything to production. Ten years ago, DevOps engineers automated that pipeline and multiplied what each of them could deploy. Three years ago, AI coding assistants—GitHub Copilot, Cursor, Claude Code—started writing meaningful percentages of that code alongside them. […]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude",
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-          "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-          "published": "2026-08-03T18:43:53+00:00",
-          "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is \"lib-mtop,\" an unscoped package with the same name as a private Alibaba package",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "AWS Blames North Korean Group for Axios and Other npm Supply Chain Attacks",
-          "link": "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
-          "published": "2026-07-31T09:50:00+00:00",
-          "summary": "AWS has linked North Korea to the axios campaign to other attacks on npm libraries",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm",
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "npm": "target",
-              "AWS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: Anthropic models also did the hacky-hacky",
-          "link": "https://risky.biz/RBNEWS595/",
-          "published": "2026-08-03T03:52:50+00:00",
-          "summary": "Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {
-              "npm": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "CyberScoop",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "A little-known npm package was North Korea’s warm-up act for the axios hack",
-          "link": "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
-          "published": "2026-07-29T21:09:57+00:00",
-          "summary": "Amazon's threat intelligence team traced domain records from the open-source software hack to a smaller, earlier compromise by the same North Korean group. The post A little-known npm package was North Korea’s warm-up act for the axios hack appeared first on CyberScoop .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "8310d00158",
       "priority_score": 21,
-      "member_count": 4,
-      "corroborating_source_count": 4,
+      "member_count": 5,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "CVE-2026-18577"
       ],
@@ -2662,6 +2662,32 @@
           "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
           "published": "2026-08-03T17:00:56+00:00",
           "summary": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-18577"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+          "published": "2026-08-03T21:21:11+00:00",
+          "summary": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2958,10 +2984,10 @@
         {
           "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic: AI Attacks Result of Security Gaps, Not Model Issues",
+          "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
           "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
           "published": "2026-08-03T20:31:12+00:00",
-          "summary": "Last month's incidents in which Claude breached real-world systems derived from over-permissioning, especially with Internet access.",
+          "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -3185,6 +3211,34 @@
           }
         },
         {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "Apple Patches Everything (July 2026), (Wed, Jul 29th)",
+          "link": "https://isc.sans.edu/diary/rss/33196",
+          "published": "2026-07-29T07:32:37+00:00",
+          "summary": "I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
@@ -3207,34 +3261,6 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "AWS": "target",
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "Apple Patches Everything (July 2026), (Wed, Jul 29th)",
-          "link": "https://isc.sans.edu/diary/rss/33196",
-          "published": "2026-07-29T07:32:37+00:00",
-          "summary": "I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while other operating system patches only covered the current 26 versions.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {
               "Apple iOS/macOS": "target"
             },
             "weak_tags": {
@@ -3382,93 +3408,6 @@
       ]
     },
     {
-      "cluster_id": "854ba4d3df",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Dealing with AI-Generated Extortion",
-        "link": "https://www.recordedfuture.com/blog/ai-generated-extortion",
-        "published": "2026-07-30T00:00:00+00:00",
-        "summary": "Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.",
-        "full_body": "Dealing with AI-Generated Extortion Proving a Negative How do you prove a negative in cybersecurity? How do you prove that you weren’t attacked, or that there is no intruder in your network? These are questions that security teams have been forced to ask for a while, but there is a new question that is becoming increasingly common: How do you prove that files weren’t stolen from your network? Or, even more of a challenge, how do you prove that files weren’t stolen from your partners, vendors, or their partners or vendors? This is a surprisingly challenging question to answer. Finding the answer is also more difficult because data governance has not been the traditional purview of security teams. Data governance has long been thought of as a compliance problem, unfortunately that is no longer the case. Security teams are now, whether they want to be or not, need to consider data governance. This means they have to be able to confidently say whether leaked data is real or not. How do you do that? History of Ransomware What we call ransomware has evolved over the years. Ransomware has gone from largely focused on encryption to a combination of encryption and data theft to today’s reality where data theft alone is the most common version of a “ransomware” attack. Threat actors have figured out that managing encryption keys is challenging, stealing data and holding it hostage is significantly easier. They’ve also figured out that stealing the right data can be just as profitable as encryption and, as we’ve seen from ransomware trends, switching to data theft only allows groups to accelerate the number of attacks. Compare the number of victims from 2024 to 2025 in the Recorded Future® Ransomware dashboard with a noticeable rise in ransomware trends. Figure 1: Rise in ransomware trends increasing from 2024 to 2025 (Source: Recorded Future) Enter 0APT If data theft is easier than encryption, then just making up data using generative AI is even easier than that. Which is what we saw with “0APT” (their name, not a designation that Recorded Future provided), who created a list of victims that were completely made up, including fake leaked data. From Insikt Group® reporting at the time: In late January 2026, Insikt Group reported the launch of 0APT Blog, an extortion blog operated by 0APT Ransomware Group, which allegedly runs an affiliate program via its ransomware-as-a-service (RaaS) model. As of February 5, 2026, the extortion blog listed 61 breached victims, with operators stating they planned to leak an additional 115 victims located in multiple countries and operating across various sectors and industries. Insikt Group identified multiple reports regarding the functionality of 0APT ransomware and listed victims, indicating that the ransomware is fake and that all their victims listed on the blog were AI-generated. Among the primary reasons discussed include: Multiple uploaded files were empty. Low-programming practices, including a combination of AI-generated scripts and unprofessional web development. Source code analysis found that some comments were in Hindi and Urdu, which likely indicates that the operators of 0APT ransomware are based in Southern Asia, while the majority of top-tier ransomware groups primarily operate from Russia or a nation within the Commonwealth of Independent States (CIS). Such a large number of victims compromised within a very short period can be carried out by a well-established, organized ransomware group; however, 0APT Blog states that the threat group is currently recruiting penetration testers with network access to join their RaaS affiliate program. 0APT is not alone; other groups are starting to latch on to this trend (ransomware groups are really good at copying each other). ALP-001 is another threat group that surfaced in March with questionable data that may have been AI-generated. According to Reliaquest reporting at the time: The main significance of 0APT and ALP-001 is not that they’re estab",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Dealing with AI-Generated Extortion",
-          "link": "https://www.recordedfuture.com/blog/ai-generated-extortion",
-          "published": "2026-07-30T00:00:00+00:00",
-          "summary": "Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "712529d9fa",
       "priority_score": 14,
       "member_count": 1,
@@ -3567,6 +3506,93 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "854ba4d3df",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Dealing with AI-Generated Extortion",
+        "link": "https://www.recordedfuture.com/blog/ai-generated-extortion",
+        "published": "2026-07-30T00:00:00+00:00",
+        "summary": "Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.",
+        "full_body": "Dealing with AI-Generated Extortion Proving a Negative How do you prove a negative in cybersecurity? How do you prove that you weren’t attacked, or that there is no intruder in your network? These are questions that security teams have been forced to ask for a while, but there is a new question that is becoming increasingly common: How do you prove that files weren’t stolen from your network? Or, even more of a challenge, how do you prove that files weren’t stolen from your partners, vendors, or their partners or vendors? This is a surprisingly challenging question to answer. Finding the answer is also more difficult because data governance has not been the traditional purview of security teams. Data governance has long been thought of as a compliance problem, unfortunately that is no longer the case. Security teams are now, whether they want to be or not, need to consider data governance. This means they have to be able to confidently say whether leaked data is real or not. How do you do that? History of Ransomware What we call ransomware has evolved over the years. Ransomware has gone from largely focused on encryption to a combination of encryption and data theft to today’s reality where data theft alone is the most common version of a “ransomware” attack. Threat actors have figured out that managing encryption keys is challenging, stealing data and holding it hostage is significantly easier. They’ve also figured out that stealing the right data can be just as profitable as encryption and, as we’ve seen from ransomware trends, switching to data theft only allows groups to accelerate the number of attacks. Compare the number of victims from 2024 to 2025 in the Recorded Future® Ransomware dashboard with a noticeable rise in ransomware trends. Figure 1: Rise in ransomware trends increasing from 2024 to 2025 (Source: Recorded Future) Enter 0APT If data theft is easier than encryption, then just making up data using generative AI is even easier than that. Which is what we saw with “0APT” (their name, not a designation that Recorded Future provided), who created a list of victims that were completely made up, including fake leaked data. From Insikt Group® reporting at the time: In late January 2026, Insikt Group reported the launch of 0APT Blog, an extortion blog operated by 0APT Ransomware Group, which allegedly runs an affiliate program via its ransomware-as-a-service (RaaS) model. As of February 5, 2026, the extortion blog listed 61 breached victims, with operators stating they planned to leak an additional 115 victims located in multiple countries and operating across various sectors and industries. Insikt Group identified multiple reports regarding the functionality of 0APT ransomware and listed victims, indicating that the ransomware is fake and that all their victims listed on the blog were AI-generated. Among the primary reasons discussed include: Multiple uploaded files were empty. Low-programming practices, including a combination of AI-generated scripts and unprofessional web development. Source code analysis found that some comments were in Hindi and Urdu, which likely indicates that the operators of 0APT ransomware are based in Southern Asia, while the majority of top-tier ransomware groups primarily operate from Russia or a nation within the Commonwealth of Independent States (CIS). Such a large number of victims compromised within a very short period can be carried out by a well-established, organized ransomware group; however, 0APT Blog states that the threat group is currently recruiting penetration testers with network access to join their RaaS affiliate program. 0APT is not alone; other groups are starting to latch on to this trend (ransomware groups are really good at copying each other). ALP-001 is another threat group that surfaced in March with questionable data that may have been AI-generated. According to Reliaquest reporting at the time: The main significance of 0APT and ALP-001 is not that they’re estab",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Dealing with AI-Generated Extortion",
+          "link": "https://www.recordedfuture.com/blog/ai-generated-extortion",
+          "published": "2026-07-30T00:00:00+00:00",
+          "summary": "Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
@@ -3867,201 +3893,6 @@
       ]
     },
     {
-      "cluster_id": "d1c29125d3",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Google Cloud",
-          "Palo Alto Networks"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
-        "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-        "published": "2026-08-03T10:00:35+00:00",
-        "summary": "Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor. The post Pass the Passkey: A Novel Attack Surface in Passwordless Authentication appeared first on Unit 42 .",
-        "full_body": "Threat Research Center Threat Research Malware Malware Pass the Passkey: A Novel Attack Surface in Passwordless Authentication 17 min read Related Products Cortex Cortex Cloud By: Arie Olshtein Published: August 3, 2026 Categories: Malware Threat Research Tags: Google authenticator Google Chrome Google Cloud Identity Key Passkey Passwordless Share Executive Summary This article analyzes new attack classes against passwordless authentication, focusing on Google’s synced passkey ecosystem and the Cloud Authenticator used by desktop clients. The attacks demonstrate how malware on a compromised endpoint can misuse onboarding, recovery and device trust workflows to take over passkey-protected accounts. We show how an attacker can authenticate without user interaction, bypass user verification requirements and extract all synced passkey private keys. After decades of breaches and billions in losses, the attack vectors that defined the era of passwords and shared secrets are finally starting to fade. Passkeys replace passwords and traditional multi-factor authentication (MFA) with public-key cryptography, decreasing entire classes of attacks that have dominated the threat landscape for years. With no shared secret to steal, reuse or phish, many of an attacker’s most reliable tools are becoming obsolete. This represents a significant disruption for the credential theft market. Attackers, however, persist. They evolve, and defenders must prepare for a new generation of attacks. As passkeys become widely adopted and scale to billions of accounts, defenders must prepare for new attack surfaces, some of which we disclose in our research. This article is part 3 in our series examining passkey adoption from a security perspective. If you haven’t read the previous parts, we recommend starting here: Part 1: The Art of the Invisible Key – Passkey Global Breakthrough Part 2: Google Authenticator: The Hidden Mechanisms of Passwordless Authentication Palo Alto Networks customers are better protected from this new attack vector through the following products and services: Cortex Cloud Identity Security Idira Threat Detection and Response Idira Endpoint Privilege Manager Idira Privilege Access Management If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Google Authenticator , Cloud , Malware Setting the Stage Google’s synced passkey implementation is particularly instructive due to its scale and how it creates a higher standard for private key protection in two critical ways: Private keys are generated and used within a cloud-enclave isolation environment Hardware-backed, client-device-bound keys control access to cloud-based cryptographic operations, attesting to the user’s presence on a trusted device This article builds on the architectural analysis from Part 1 and Part 2 of our previous articles in this series. We now shift from how passkeys are built and deployed to how attackers can misuse them. We present three novel attacks that enable account takeover of passkey-protected accounts. Each attack challenges a different core assumption of passkey authentication security. When a client authenticates with a passkey, the following is expected: Users provide explicit consent on the device to verify user presence For MFA, users must also unlock the device to verify biometric (i.e., something you are) or knowledge-based (i.e., something you know) authentication factors Passkey private keys cannot be shared or copied The Google documentation reflects these core assumptions, describing the passkey login process as a secure alternative to passwords (as shown in Figure 1). Figure 1. Google documentation describes passkeys as requiring device access, device unlock, and non-shareable credentials. Challenging these expectations is a category of attacks we've nicknamed Pass-ta-key. This playful, layered name blends the word passkey and the phrase “pass the key,” with a ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_theft"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Palo Alto Networks",
-            "Google Cloud"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Palo Alto Networks": "target",
-            "Google Cloud": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
-          "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-          "published": "2026-08-03T10:00:35+00:00",
-          "summary": "Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor. The post Pass the Passkey: A Novel Attack Surface in Passwordless Authentication appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Palo Alto Networks",
-              "Google Cloud"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Palo Alto Networks": "target",
-              "Google Cloud": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b00983247a",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "LockBit"
-        ],
-        "affected_industries": [
-          "education",
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "An analysis of incidents at Brazilian educational institutions",
-        "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
-        "published": "2026-08-03T13:00:17+00:00",
-        "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
-        "full_body": "Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [
-            "LockBit"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "An analysis of incidents at Brazilian educational institutions",
-          "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
-          "published": "2026-08-03T13:00:17+00:00",
-          "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [
-              "LockBit"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "fe05850866",
       "priority_score": 12,
       "member_count": 1,
@@ -4192,6 +4023,105 @@
               "Anthropic/Claude": "target",
               "VMware": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "b00983247a",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "LockBit"
+        ],
+        "affected_industries": [
+          "education",
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "An analysis of incidents at Brazilian educational institutions",
+        "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
+        "published": "2026-08-03T13:00:17+00:00",
+        "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
+        "full_body": "Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [
+            "LockBit"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "An analysis of incidents at Brazilian educational institutions",
+          "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
+          "published": "2026-08-03T13:00:17+00:00",
+          "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [
+              "LockBit"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4698,6 +4628,102 @@
       ]
     },
     {
+      "cluster_id": "d1c29125d3",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud",
+          "Palo Alto Networks"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
+        "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
+        "published": "2026-08-03T10:00:35+00:00",
+        "summary": "Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor. The post Pass the Passkey: A Novel Attack Surface in Passwordless Authentication appeared first on Unit 42 .",
+        "full_body": "Threat Research Center Threat Research Malware Malware Pass the Passkey: A Novel Attack Surface in Passwordless Authentication 17 min read Related Products Cortex Cortex Cloud By: Arie Olshtein Published: August 3, 2026 Categories: Malware Threat Research Tags: Google authenticator Google Chrome Google Cloud Identity Key Passkey Passwordless Share Executive Summary This article analyzes new attack classes against passwordless authentication, focusing on Google’s synced passkey ecosystem and the Cloud Authenticator used by desktop clients. The attacks demonstrate how malware on a compromised endpoint can misuse onboarding, recovery and device trust workflows to take over passkey-protected accounts. We show how an attacker can authenticate without user interaction, bypass user verification requirements and extract all synced passkey private keys. After decades of breaches and billions in losses, the attack vectors that defined the era of passwords and shared secrets are finally starting to fade. Passkeys replace passwords and traditional multi-factor authentication (MFA) with public-key cryptography, decreasing entire classes of attacks that have dominated the threat landscape for years. With no shared secret to steal, reuse or phish, many of an attacker’s most reliable tools are becoming obsolete. This represents a significant disruption for the credential theft market. Attackers, however, persist. They evolve, and defenders must prepare for a new generation of attacks. As passkeys become widely adopted and scale to billions of accounts, defenders must prepare for new attack surfaces, some of which we disclose in our research. This article is part 3 in our series examining passkey adoption from a security perspective. If you haven’t read the previous parts, we recommend starting here: Part 1: The Art of the Invisible Key – Passkey Global Breakthrough Part 2: Google Authenticator: The Hidden Mechanisms of Passwordless Authentication Palo Alto Networks customers are better protected from this new attack vector through the following products and services: Cortex Cloud Identity Security Idira Threat Detection and Response Idira Endpoint Privilege Manager Idira Privilege Access Management If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Google Authenticator , Cloud , Malware Setting the Stage Google’s synced passkey implementation is particularly instructive due to its scale and how it creates a higher standard for private key protection in two critical ways: Private keys are generated and used within a cloud-enclave isolation environment Hardware-backed, client-device-bound keys control access to cloud-based cryptographic operations, attesting to the user’s presence on a trusted device This article builds on the architectural analysis from Part 1 and Part 2 of our previous articles in this series. We now shift from how passkeys are built and deployed to how attackers can misuse them. We present three novel attacks that enable account takeover of passkey-protected accounts. Each attack challenges a different core assumption of passkey authentication security. When a client authenticates with a passkey, the following is expected: Users provide explicit consent on the device to verify user presence For MFA, users must also unlock the device to verify biometric (i.e., something you are) or knowledge-based (i.e., something you know) authentication factors Passkey private keys cannot be shared or copied The Google documentation reflects these core assumptions, describing the passkey login process as a secure alternative to passwords (as shown in Figure 1). Figure 1. Google documentation describes passkeys as requiring device access, device unlock, and non-shareable credentials. Challenging these expectations is a category of attacks we've nicknamed Pass-ta-key. This playful, layered name blends the word passkey and the phrase “pass the key,” with a ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Palo Alto Networks",
+            "Google Cloud"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Palo Alto Networks": "target",
+            "Google Cloud": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
+          "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
+          "published": "2026-08-03T10:00:35+00:00",
+          "summary": "Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor. The post Pass the Passkey: A Novel Attack Surface in Passwordless Authentication appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Palo Alto Networks",
+              "Google Cloud"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Palo Alto Networks": "target",
+              "Google Cloud": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "94fd56afbc",
       "priority_score": 11,
       "member_count": 1,
@@ -4866,6 +4892,93 @@
       ]
     },
     {
+      "cluster_id": "5da08d22f3",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+        "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+        "published": "2026-07-31T21:09:25+00:00",
+        "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
+        "full_body": "Online ad firm Adform’s script compromised to steal cryptocurrency By Bill Toulas July 31, 2026 05:09 PM 0 Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors’ clipboards with ones controlled by an attacker. Adform is one of Europe’s largest adtech firms, providing a full-stack platform that includes Demand-Side Platform (DSP), Supply-Side Platform (SSP), ad servers, and management tools. Security researcher Kevin Beaumont discovered the malicious activity, saying that it stemmed from ‘trackpoint-async.js,’ Adform’s JavaScript tracking script served from ‘s2.adform.net’ and embedded in every website using the advertising platform. According to the researcher, the trojanized JavaScript continuously monitors the clipboard of users visiting websites that embed trackpoint-async.js . If the script detected Bitcoin, Ethereum, or TRON wallet addresses, it replaced them with an attacker-controlled address to redirect cryptocurrency payments. Compromised Adform script replacing crypto addresses source: BleepingComputer “This allows end-user devices of downstream websites to be compromised with crypto-stealing malware. Meaning if you visit example.com and they use Adform, example.com will compromise your device,” Beaumont explains . The researcher also observed other malicious Adform-hosted scripts communicating with an attacker-controlled server at 84.32.102[.]230:7744, sending the victim's IP address, referring website, and URL path. Running the script through the VirusTotal scanning platform shows that it is not flagged as malicious by any of the available antivirus engines. VirusTotal scan of the script gives clean result Source: doublepulsar.com Current status Beaumont notes that the malicious code was removed from Adform’s tracking script soon after his discovery. Adform confirmed its detected suspicious activity on July 27 and discovered a \"cybersecurity threat.\" The company said that it removed the malicious code and \"took further measures to protect website visitors, our clients, and the Adform platform.\" \"To our knowledge, the code was not designed to install software on a user’s device or establish persistence. It operated only while an affected webpage was open,\" Adform says . The company states that its services are now safe to use but its investigation continues. Individuals who visited websites that embedded the \"affected Adform technology on 27 July 2026\" are impacted and the recommendation is to clear browser cookies to eliminate the malicious code. \"Adform has informed affected clients through dedicated communications and provided them with relevant information and recommended actions.\" Beaumont has shared a sample of the malicious script via Pastebin for security engineers to analyze. BleepingComputer's analysis of a sample stored on Archive.org also confirmed that a self-executing payload had been injected into the Adform tracking library served from the company's infrastructure. The malicious code was appended in obfuscated form at the end of the legitimate library and included a function that replaced any string matching a crypto wallet address format. Apart from hijacking clipboard content, the malware can also rewrite wallet addresses on web pages. This way, if a payment address is displayed, it would be the attacker's. Beaumont says the malicious activity delivered through Adform has been ongoing for the past week without being detected. The oldest sample BleepingComputer could find was from from the Archive.org snapshot on July 26, taken at 23:29:03 GMT. BleepingComputer has contacted Adform to request a statement regarding Beaumont’s findings and will update the story if we receive a response. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how b",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+          "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+          "published": "2026-07-31T21:09:25+00:00",
+          "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "f7c0990e5f",
       "priority_score": 11,
       "member_count": 1,
@@ -4950,93 +5063,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "5da08d22f3",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-        "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-        "published": "2026-07-31T21:09:25+00:00",
-        "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
-        "full_body": "Online ad firm Adform’s script compromised to steal cryptocurrency By Bill Toulas July 31, 2026 05:09 PM 0 Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors’ clipboards with ones controlled by an attacker. Adform is one of Europe’s largest adtech firms, providing a full-stack platform that includes Demand-Side Platform (DSP), Supply-Side Platform (SSP), ad servers, and management tools. Security researcher Kevin Beaumont discovered the malicious activity, saying that it stemmed from ‘trackpoint-async.js,’ Adform’s JavaScript tracking script served from ‘s2.adform.net’ and embedded in every website using the advertising platform. According to the researcher, the trojanized JavaScript continuously monitors the clipboard of users visiting websites that embed trackpoint-async.js . If the script detected Bitcoin, Ethereum, or TRON wallet addresses, it replaced them with an attacker-controlled address to redirect cryptocurrency payments. Compromised Adform script replacing crypto addresses source: BleepingComputer “This allows end-user devices of downstream websites to be compromised with crypto-stealing malware. Meaning if you visit example.com and they use Adform, example.com will compromise your device,” Beaumont explains . The researcher also observed other malicious Adform-hosted scripts communicating with an attacker-controlled server at 84.32.102[.]230:7744, sending the victim's IP address, referring website, and URL path. Running the script through the VirusTotal scanning platform shows that it is not flagged as malicious by any of the available antivirus engines. VirusTotal scan of the script gives clean result Source: doublepulsar.com Current status Beaumont notes that the malicious code was removed from Adform’s tracking script soon after his discovery. Adform confirmed its detected suspicious activity on July 27 and discovered a \"cybersecurity threat.\" The company said that it removed the malicious code and \"took further measures to protect website visitors, our clients, and the Adform platform.\" \"To our knowledge, the code was not designed to install software on a user’s device or establish persistence. It operated only while an affected webpage was open,\" Adform says . The company states that its services are now safe to use but its investigation continues. Individuals who visited websites that embedded the \"affected Adform technology on 27 July 2026\" are impacted and the recommendation is to clear browser cookies to eliminate the malicious code. \"Adform has informed affected clients through dedicated communications and provided them with relevant information and recommended actions.\" Beaumont has shared a sample of the malicious script via Pastebin for security engineers to analyze. BleepingComputer's analysis of a sample stored on Archive.org also confirmed that a self-executing payload had been injected into the Adform tracking library served from the company's infrastructure. The malicious code was appended in obfuscated form at the end of the legitimate library and included a function that replaced any string matching a crypto wallet address format. Apart from hijacking clipboard content, the malware can also rewrite wallet addresses on web pages. This way, if a payment address is displayed, it would be the attacker's. Beaumont says the malicious activity delivered through Adform has been ongoing for the past week without being detected. The oldest sample BleepingComputer could find was from from the Archive.org snapshot on July 26, taken at 23:29:03 GMT. BleepingComputer has contacted Adform to request a statement regarding Beaumont’s findings and will update the story if we receive a response. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how b",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-          "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-          "published": "2026-07-31T21:09:25+00:00",
-          "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -6488,172 +6514,6 @@
       ]
     },
     {
-      "cluster_id": "1b4f7b92ff",
-      "priority_score": 10,
-      "member_count": 3,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "SonicWall"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "ransomware_extortion",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Azure",
-          "SonicWall"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-15409",
-          "CVE-2026-15410"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "incident_report",
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks",
-        "link": "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/",
-        "published": "2026-08-03T10:39:41+00:00",
-        "summary": "The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement. The post Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks appeared first on SecurityWeek .",
-        "full_body": "The INC Ransomware group is responsible for most of the recent activity surrounding two fresh vulnerabilities in SonicWall’s SMA1000 secure remote access appliances, Resecurity reports. Tracked as CVE-2026-15409 (CVSS score of 10) and CVE-2026-15410 (CVSS score of 7.2), the security defects allow unauthenticated remote attackers to open a WebSocket tunnel to restricted services and escalate their privileges to root. Patched on July 14 and added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on the same day, the two flaws had been exploited in the wild as zero-days since at least June 22 . Cybersecurity firm Volexity attributed the observed exploitation to a threat actor tracked as UTA0533, noting that it was harvesting credentials from the hacked appliances and deploying malicious files, but was less successful in moving laterally to other systems. Rapid7, on the other hand, observed threat actors pivoting from SMA1000 devices into internal corporate networks, likely after deploying a backdoor on the compromised appliances. Now, Resecurity says that, of the various threat actors chaining CVE-2026-15409 and CVE-2026-15410 for SMA1000 compromise, the INC Ransomware gang has emerged as the most active one. Advertisement. Scroll to continue reading. “Notably, as of the beginning of August 2026, INC Ransomware has accelerated its activity. Multiple new victims have been published on their Data Leak Site (DLS),” the company says. Over the past couple of weeks, the ransomware group has listed on its leak site private and government sector organizations from the US, Australia, UAE, Colombia, and Switzerland, among others. “Resecurity has assisted several victims with DFIR and vulnerability assessments to contain the root cause of the compromise, but also learned about the following new developments: many of the new victims received emails, as well as phone calls from unknown organizations claiming to assist with ransomware issues,” the company says. In one instance, the email came from a domain registered after the exploitation activity, through a Chinese domain registrar. The victims were also contacted by phone by a threat actor calling themselves Andrew and claiming to be representing a group of hackers. “At the end of the call, the individual provided the email address info@helprans[.]com for further negotiations and then ended the call. Such methods are frequently used by ransomware groups as ‘pressure tactics’,” Resecurity notes. As ransomware groups continue to target the SonicWall vulnerabilities, users are advised to patch their SMA1000 appliances as soon as possible and to perform threat hunting to identify potential compromises. Related: US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Related: Ruby on Rails Patches Critical Vulnerability Related: Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Related: Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "data_breach",
-            "web_shell_backdoor",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [
-            "SonicWall",
-            "Azure"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-15409",
-            "CVE-2026-15410"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "SonicWall": "target",
-            "Azure": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks",
-          "link": "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/",
-          "published": "2026-08-03T10:39:41+00:00",
-          "summary": "The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement. The post Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "data_breach",
-              "web_shell_backdoor",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [
-              "SonicWall",
-              "Azure"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-15409",
-              "CVE-2026-15410"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "SonicWall": "target",
-              "Azure": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-          "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-          "published": "2026-08-03T16:15:13+00:00",
-          "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "SonicWall"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "SonicWall": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c97bc0e859",
       "priority_score": 10,
       "member_count": 2,
@@ -7195,6 +7055,172 @@
                   0.3
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "1b4f7b92ff",
+      "priority_score": 9,
+      "member_count": 3,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "SonicWall"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "ransomware_extortion",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Azure",
+          "SonicWall"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-15409",
+          "CVE-2026-15410"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "incident_report",
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks",
+        "link": "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/",
+        "published": "2026-08-03T10:39:41+00:00",
+        "summary": "The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement. The post Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks appeared first on SecurityWeek .",
+        "full_body": "The INC Ransomware group is responsible for most of the recent activity surrounding two fresh vulnerabilities in SonicWall’s SMA1000 secure remote access appliances, Resecurity reports. Tracked as CVE-2026-15409 (CVSS score of 10) and CVE-2026-15410 (CVSS score of 7.2), the security defects allow unauthenticated remote attackers to open a WebSocket tunnel to restricted services and escalate their privileges to root. Patched on July 14 and added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on the same day, the two flaws had been exploited in the wild as zero-days since at least June 22 . Cybersecurity firm Volexity attributed the observed exploitation to a threat actor tracked as UTA0533, noting that it was harvesting credentials from the hacked appliances and deploying malicious files, but was less successful in moving laterally to other systems. Rapid7, on the other hand, observed threat actors pivoting from SMA1000 devices into internal corporate networks, likely after deploying a backdoor on the compromised appliances. Now, Resecurity says that, of the various threat actors chaining CVE-2026-15409 and CVE-2026-15410 for SMA1000 compromise, the INC Ransomware gang has emerged as the most active one. Advertisement. Scroll to continue reading. “Notably, as of the beginning of August 2026, INC Ransomware has accelerated its activity. Multiple new victims have been published on their Data Leak Site (DLS),” the company says. Over the past couple of weeks, the ransomware group has listed on its leak site private and government sector organizations from the US, Australia, UAE, Colombia, and Switzerland, among others. “Resecurity has assisted several victims with DFIR and vulnerability assessments to contain the root cause of the compromise, but also learned about the following new developments: many of the new victims received emails, as well as phone calls from unknown organizations claiming to assist with ransomware issues,” the company says. In one instance, the email came from a domain registered after the exploitation activity, through a Chinese domain registrar. The victims were also contacted by phone by a threat actor calling themselves Andrew and claiming to be representing a group of hackers. “At the end of the call, the individual provided the email address info@helprans[.]com for further negotiations and then ended the call. Such methods are frequently used by ransomware groups as ‘pressure tactics’,” Resecurity notes. As ransomware groups continue to target the SonicWall vulnerabilities, users are advised to patch their SMA1000 appliances as soon as possible and to perform threat hunting to identify potential compromises. Related: US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Related: Ruby on Rails Patches Critical Vulnerability Related: Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Related: Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "data_breach",
+            "web_shell_backdoor",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [
+            "SonicWall",
+            "Azure"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-15409",
+            "CVE-2026-15410"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "SonicWall": "target",
+            "Azure": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks",
+          "link": "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/",
+          "published": "2026-08-03T10:39:41+00:00",
+          "summary": "The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement. The post Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach",
+              "web_shell_backdoor",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [
+              "SonicWall",
+              "Azure"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-15409",
+              "CVE-2026-15410"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "SonicWall": "target",
+              "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+          "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+          "published": "2026-08-03T16:15:13+00:00",
+          "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "SonicWall"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "SonicWall": "target"
+            },
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -9174,7 +9200,7 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 9,
+      "article_count": 10,
       "cohesion": 0.205,
       "shared_strong_signals": [
         "Cisco"
@@ -9198,6 +9224,7 @@
         "https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/",
         "https://www.helpnetsecurity.com/2026/08/03/cve-2026-18577-n-able-n-central-vulnerability/",
         "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+        "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
         "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
         "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
         "https://blog.talosintelligence.com/ir-trends-q2-2026/"
@@ -9238,8 +9265,8 @@
       "links": [
         "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
         "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
-        "https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/",
         "https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/",
+        "https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/",
         "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
         "https://orca.security/resources/blog/introducing-ai-appgen-security/",
@@ -9275,7 +9302,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 9,
+      "article_count": 10,
       "cohesion": 0.264,
       "shared_strong_signals": [
         "SonicWall"
@@ -9292,6 +9319,7 @@
         "https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/",
         "https://www.helpnetsecurity.com/2026/08/03/cve-2026-18577-n-able-n-central-vulnerability/",
         "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+        "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
         "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
         "https://www.securityweek.com/river-bank-says-hackers-deleted-data-stolen-in-ransomware-attack/",
         "https://www.securityweek.com/brinks-home-discloses-data-breach-as-hackers-leak-files/",
@@ -9407,8 +9435,8 @@
         "https://risky.biz/RBNEWS595/",
         "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
         "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
-        "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
         "https://isc.sans.edu/diary/rss/33196",
+        "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
         "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
         "https://risky.biz/RBNEWSSI138/",
         "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/"
@@ -9537,8 +9565,8 @@
       "links": [
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
         "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
-        "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
         "https://isc.sans.edu/diary/rss/33196",
+        "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
         "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/"
       ]
     },

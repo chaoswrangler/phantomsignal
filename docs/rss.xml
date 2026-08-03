@@ -6,13 +6,32 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 03 Aug 2026 21:11:32 +0000</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 23:10:03 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
-<title>Anthropic: AI Attacks Result of Security Gaps, Not Model Issues</title>
+<title>Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category</title>
+<link>https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/</link>
+<description><![CDATA[submitted by /u/callmejackfrost1 [link] [comments]]]></description>
+<pubDate>Mon, 03 Aug 2026 23:08:09 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>Attackers Exploit N-able Patch Bypass Flaw on RMM Servers</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw</link>
+<description><![CDATA[Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.<br/><br/><em>Tags: CVE-2026-18577</em>]]></description>
+<pubDate>Mon, 03 Aug 2026 21:21:11 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-18577</category>
+</item>
+<item>
+<title>Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues</title>
 <link>https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps</link>
-<description><![CDATA[Last month&apos;s incidents in which Claude breached real-world systems derived from over-permissioning, especially with Internet access.<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<description><![CDATA[Last month&apos;s incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
 <pubDate>Mon, 03 Aug 2026 20:31:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
@@ -150,7 +169,7 @@
 <item>
 <title>Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm</link>
-<description><![CDATA[Researchers from Jesta intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking and to launch further attacks]]></description>
+<description><![CDATA[Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.]]></description>
 <pubDate>Mon, 03 Aug 2026 15:42:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
@@ -1483,16 +1502,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>Supply chain challenges loom large in quantum race, White House official says</title>
-<link>https://cyberscoop.com/white-house-quantum-supply-chain-challenges/</link>
-<description><![CDATA[Brad Blakestad, director of the National Quantum Coordination Office, also said encryption and measuring progress would pose challenges. The post Supply chain challenges loom large in quantum race, White House official says appeared first on CyberScoop .<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 29 Jul 2026 20:22:10 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/white-house-quantum-supply-chain-challenges/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>OpenSSF Community Day Europe 2026: Schedule Highlights &amp; What to Expect</title>
 <link>https://openssf.org/blog/2026/07/29/openssf-community-day-europe-2026-schedule-highlights-what-to-expect/</link>
 <description><![CDATA[OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts.<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -2220,6 +2229,15 @@
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Agentic Browsers Rewind Web Security by 20 Years</title>
+<link>https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years</link>
+<description><![CDATA[PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.]]></description>
+<pubDate>Mon, 27 Jul 2026 21:39:09 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>&apos;Confused Deputy&apos; Flaws Persist in Google Cloud, Microsoft Azure</title>
@@ -3041,17 +3059,6 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>CVE-2026-50458: Finding a UAF in the Windows Brokering File System</title>
-<link>https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/</link>
-<description><![CDATA[Deep dive into a UAF in the bfs.sys Windows kernel minifilter driver patched in this month&apos;s Patch Tuesday. submitted by /u/Internal-Key64 [link] [comments]<br/><br/><em>Tags: Microsoft Windows · CVE-2026-50458</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 19:08:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Microsoft Windows</category>
-<category>CVE-2026-50458</category>
-</item>
-<item>
 <title>OpenSSF Community Day North America (NA) First-time Experience</title>
 <link>https://openssf.org/blog/2026/07/22/openssf-community-day-north-america-na-first-time-experience/</link>
 <description><![CDATA[My recent experience in Minneapolis revealed that these gatherings are more than simple meetings; they are collaborative ecosystems. Whether you are a maintainer or a first-time contributor, attending provides invaluable insights, fosters transparency, and accelerates project development.]]></description>
@@ -3268,15 +3275,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Hacker Turns AI Jailbreaks Into Offensive Attack Platform</title>
-<link>https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform</link>
-<description><![CDATA[A Russian-speaking actor, &quot;Trim,&quot; dismantled publicly available frontier models and integrated them with offensive security tools.]]></description>
-<pubDate>Tue, 21 Jul 2026 18:38:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Representing OpenSSF at AfricaCyberFest</title>
 <link>https://openssf.org/blog/2026/07/21/representing-openssf-at-africacyberfest/</link>
 <description><![CDATA[Open source software is playing an important role in Africa&apos;s digital growth. Across the continent, more organizations, developers, and communities are adopting open source to build technology and solve local challenges.]]></description>
@@ -3294,15 +3292,6 @@
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
-</item>
-<item>
-<title>The Hidden CCS2 Attack Surface on EV Chargers</title>
-<link>https://www.reddit.com/r/netsec/comments/1v2mk3z/the_hidden_ccs2_attack_surface_on_ev_chargers/</link>
-<description><![CDATA[submitted by /u/self [link] [comments]]]></description>
-<pubDate>Tue, 21 Jul 2026 15:58:03 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v2mk3z/the_hidden_ccs2_attack_surface_on_ev_chargers/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber</title>
@@ -13949,6 +13938,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>What we know about Iran’s Internet shutdown</title>
+<link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
+<description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
+<pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/iran-protests-internet-shutdown/</guid>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How threat actors are using self-hosted GitHub Actions runners as backdoors</title>
 <link>https://webflow.sysdig.com/blog/how-threat-actors-are-using-self-hosted-github-actions-runners-as-backdoors</link>
 <description><![CDATA[Using Shai-Hulud as a case study, explore how attackers can abuse GitHub&apos;s self-hosted runner infrastructure to establish persistent remote access.<br/><br/><em>Tags: GitHub</em>]]></description>
@@ -13957,15 +13955,6 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>GitHub</category>
-</item>
-<item>
-<title>What we know about Iran’s Internet shutdown</title>
-<link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
-<description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
-<pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/iran-protests-internet-shutdown/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Filtering Noise in (Cyber)Space</title>
@@ -19266,7 +19255,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19275,7 +19264,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19284,7 +19273,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19293,7 +19282,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19302,7 +19291,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19311,7 +19300,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19320,7 +19309,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19329,7 +19318,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19338,7 +19327,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19348,7 +19337,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 21:11:32 +0000</pubDate>
+<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
