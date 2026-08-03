@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T17:57:20.997038+00:00",
+  "generated_at": "2026-08-03T19:47:14.189613+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2168,
@@ -25,18 +25,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
+      "item_count": 25,
       "in_window_count": 1
     },
     "Google Threat Analysis Group": {
@@ -46,19 +39,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 1
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 3
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -67,26 +53,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -95,12 +74,19 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -108,6 +94,27 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 4
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -122,13 +129,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 2
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -151,13 +151,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
@@ -165,11 +158,11 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -177,6 +170,13 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -235,33 +235,12 @@
       "item_count": 30,
       "in_window_count": 1
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 14
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 9
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 8
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -270,12 +249,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 7
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 14
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -291,6 +284,20 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -298,12 +305,12 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -326,13 +333,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -340,19 +340,19 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -368,22 +368,15 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -396,6 +389,13 @@
       "item_count": 30,
       "in_window_count": 30
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -403,12 +403,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 29
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 18
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -417,33 +424,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 30
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 2
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -452,12 +438,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -465,6 +458,27 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -475,13 +489,6 @@
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -508,13 +515,6 @@
       "item_count": 100,
       "in_window_count": 27
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -527,14 +527,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 14
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "in_window_count": 15
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -542,6 +535,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -752,7 +752,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 17,
+      "article_count": 19,
       "cohesion": 0.209,
       "shared_strong_signals": [
         "npm"
@@ -773,10 +773,11 @@
         "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
         "https://orca.security/resources/blog/introducing-ai-appgen-security/",
-        "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+        "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
         "https://risky.biz/RBNEWS595/",
         "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
+        "https://www.reddit.com/r/netsec/comments/1vemopp/xpsd_decide_if_a_cve_is_actually_reachable_in/",
         "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/",
         "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows"
       ]
@@ -827,46 +828,6 @@
         "https://www.securityweek.com/brinks-home-discloses-data-breach-as-hackers-leak-files/",
         "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/",
         "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html"
-      ]
-    },
-    {
-      "label": "supply chain targeting PyPI",
-      "anchor_signal": "PyPI",
-      "theme_key": "pypi",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "affected_products": [
-          "PyPI",
-          "npm"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 16,
-      "cohesion": 0.206,
-      "shared_strong_signals": [
-        "PyPI"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "4c8ed8c5fa",
-        "b1e900a5a7",
-        "2675bb2bb6"
-      ],
-      "links": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
-        "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
-        "https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/",
-        "https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/",
-        "https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/",
-        "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-        "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
-        "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
-        "https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/",
-        "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-        "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/"
       ]
     },
     {
@@ -956,7 +917,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 16,
+      "article_count": 17,
       "cohesion": 0.22,
       "shared_strong_signals": [
         "AWS"
@@ -972,10 +933,11 @@
         "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
         "https://orca.security/resources/blog/introducing-ai-appgen-security/",
-        "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+        "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
         "https://risky.biz/RBNEWS595/",
         "https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/",
+        "https://www.reddit.com/r/netsec/comments/1vemopp/xpsd_decide_if_a_cve_is_actually_reachable_in/",
         "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
         "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
         "https://isc.sans.edu/diary/rss/33196",
@@ -1034,7 +996,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 5,
+      "article_count": 4,
       "cohesion": 0.498,
       "shared_strong_signals": [
         "ShinyHunters"
@@ -1137,6 +1099,38 @@
       "links": [
         "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
         "https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/"
+      ]
+    },
+    {
+      "label": "WordPress active exploitation",
+      "anchor_signal": "WordPress",
+      "theme_key": "wordpress",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "WordPress"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "WordPress"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "38979f8c48",
+        "b61889968b"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
+        "https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/"
       ]
     }
   ],
@@ -1366,6 +1360,102 @@
     ]
   },
   "items": [
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
+      "published": "2026-08-03T19:25:10+00:00",
+      "summary": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Xpsd: decide if a CVE is actually reachable in your tree (SARIF / GitHub code scanning)",
+      "link": "https://www.reddit.com/r/netsec/comments/1vemopp/xpsd_decide_if_a_cve_is_actually_reachable_in/",
+      "published": "2026-08-03T19:04:38+00:00",
+      "summary": "If you have ever opened a Grype/Trivy report and thought \"cool, 200 findings, which ones can actually be hit in this codebase?\", that is basically why we built Xpsd. You feed it a CVE or a scan report. It tries to answer a simpler question: is the vulnerable code reachable here? You get a verdict, some evidence, a call path when it can find one, and SARIF so it shows up in GitHub code scanning next to everything else. It does not shove your whole repo into an LLM. The agent pokes around with tools (search, advisory lookup, pulling a dep when it has to). Works as a GitHub Action, Copilot or your own model. Just hit v1.0. Open source, Apache-2.0: https://github.com/ByteRay-AI/Xpsd submitted by /u/Emergency_Stable_923 [link] [comments]",
+      "author": "/u/Emergency_Stable_923",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {
+          "GitHub": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+      "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+      "published": "2026-08-03T18:43:53+00:00",
+      "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is \"lib-mtop,\" an unscoped package with the same name as a private Alibaba package",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "npm": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 9
+    },
     {
       "source": "The Record",
       "cohort": "cyber_news_breach_reporting",
@@ -2106,7 +2196,7 @@
         }
       },
       "score": 10,
-      "full_body": "River Financial Corporation, the bank holding company behind River Bank & Trust, says it received confirmation that data stolen in a ransomware attack was deleted. The attack occurred on June 16 and was identified three days later. River’s investigation into the incident determined that ransomware was deployed across portions of its server environment. In response, the company took the affected systems offline and disabled administrative accounts that had been compromised. “River, with the assistance of a third-party forensic firm, is investigating the nature and scope of the incident, including whether any personally identifiable information was subject to unauthorized access or exfiltration,” the company said in a June 25 filing with the US Securities and Exchange Commission (SEC). Subsequent 8-K forms filed with the SEC revealed that hackers accessed portions of River’s network and exfiltrated certain data and that at least four lawsuits have been filed against the company. The investigation into the nature, scope, and impact of the incident, however, continues, and a July 30 filing shows that River has yet to determine if the hackers stole any personal information from its systems. Advertisement. Scroll to continue reading. The filing’s wording, however, shows that the company has engaged with the hackers to have the stolen data deleted, likely as the result of a ransom payment. “As part of its response, River took steps to attempt to suppress the affected data, including obtaining representations from the threat actor that it deleted the data in its possession,” River said. The company has not shared details on the threat actor responsible for the incident, and it is unclear how the attackers compromised its network. “River has not yet confirmed whether the incident is reasonably likely to materially impact its business or financial condition,” the company said. SecurityWeek has emailed River for additional details on the ransomware attack and will update this article if the company responds. Related: Brinks Home Discloses Data Breach as Hackers Leak Files Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Related: DentaQuest Data Breach Potentially Impacts Over 23 Million People Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Brinks Home Discloses Data Breach as Hackers Leak Files Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19",
+      "full_body": "River Financial Corporation, the bank holding company behind River Bank & Trust, says it received confirmation that data stolen in a ransomware attack was deleted. The attack occurred on June 16 and was identified three days later. River’s investigation into the incident determined that ransomware was deployed across portions of its server environment. In response, the company took the affected systems offline and disabled administrative accounts that had been compromised. “River, with the assistance of a third-party forensic firm, is investigating the nature and scope of the incident, including whether any personally identifiable information was subject to unauthorized access or exfiltration,” the company said in a June 25 filing with the US Securities and Exchange Commission (SEC). Subsequent 8-K forms filed with the SEC revealed that hackers accessed portions of River’s network and exfiltrated certain data and that at least four lawsuits have been filed against the company. The investigation into the nature, scope, and impact of the incident, however, continues, and a July 30 filing shows that River has yet to determine if the hackers stole any personal information from its systems. Advertisement. Scroll to continue reading. The filing’s wording, however, shows that the company has engaged with the hackers to have the stolen data deleted, likely as the result of a ransom payment. “As part of its response, River took steps to attempt to suppress the affected data, including obtaining representations from the threat actor that it deleted the data in its possession,” River said. The company has not shared details on the threat actor responsible for the incident, and it is unclear how the attackers compromised its network. “River has not yet confirmed whether the incident is reasonably likely to materially impact its business or financial condition,” the company said. SecurityWeek has emailed River for additional details on the ransomware attack and will update this article if the company responds. Related: Brinks Home Discloses Data Breach as Hackers Leak Files Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Related: DentaQuest Data Breach Potentially Impacts Over 23 Million People Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Brinks Home Discloses Data Breach as Hackers Leak Files Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 20",
       "fetch_status": "ok"
     },
     {
@@ -2230,7 +2320,6 @@
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "financial_services",
           "critical_infrastructure",
           "manufacturing_industrial"
         ],
@@ -2266,7 +2355,7 @@
         }
       },
       "score": 21,
-      "full_body": "N‑able has released patches for a vulnerability that has been exploited in the wild against users of its N-central remote monitoring and management (RMM) product. The vulnerability, tracked as CVE-2026-18577, has been described as an authentication bypass issue that can be exploited to take over accounts in N-central versions prior to 2026.3.1.7 . Both on-premises and cloud-hosted deployments are affected. N-central is widely used by MSPs to monitor, patch, and remotely access customer servers and endpoints. CVE-2026-18577 is not a new zero-day. Instead, N‑able has described it as a new method to exploit a previously patched vulnerability tracked as CVE-2026-18556. It appears threat actors bypassed the patch for CVE-2026-18556 and started exploiting it in late July. The vendor initially saw an increase in licensing issues on July 31 and confirmed exploitation of CVE-2026-18577 on August 2. Exploitation of the vulnerability has allowed attackers to gain admin access to the hacked N-central servers. Advertisement. Scroll to continue reading. “Following exploitation, the attacker leveraged the Take Control feature and connected to systems within the N‑central managed environment. Once on those devices, the attackers registered a new service for a CloudFlare tunnel, enabling persistence into an environment after access to the N‑central server was revoked,” N-able said in its incident notice . N-able said a “limited number of customers have been impacted,” but cybersecurity firm Huntress, which has also confirmed seeing attacks exploiting CVE-2026-18577 , said many organizations had yet to patch their installations as of August 3. “From an MSP perspective, exploitation of this flaw can grant an attacker full administrative access to an N-central console — the same level of control normally reserved for trusted NOC and engineering staff,” Huntress warned. It added, “Once inside the console, a threat actor can: push new scripts and jobs to many or all managed endpoints; deploy and run dual‑use tools (for example, remote tunnels or discovery utilities) via the N-able agent; initiate remote‑control sessions into servers and workstations, including domain controllers and other critical systems; and modify security‑relevant configuration such as roles, accounts, and policies to pave the way for follow‑on activity.” Indicators of compromise (IoCs) have been made available by both N-able and Huntress. News of the exploitation of CVE-2026-18577 comes almost exactly one year after organizations were warned about the exploitation of the N-central vulnerabilities CVE-2025-8875 and CVE-2025-8876. Related : Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Related : Ruby on Rails Patches Critical Vulnerability Related : Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Semiconductor Firm Analog Devices Discloses Data Breach 1 in 5 Data Center Assets Are Within Easy Reach of Attackers Cisco Secure FMC Zero-Day Exploited in the Wild ThreatLocker Raises $190 Million in Series F Funding Critical VM Escape Vulnerability Patched in VMware ESXi OpenAI’s Rogue AI Ventured Beyond Hugging Face Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $25",
+      "full_body": "N‑able has released patches for a vulnerability that has been exploited in the wild against users of its N-central remote monitoring and management (RMM) product. The vulnerability, tracked as CVE-2026-18577, has been described as an authentication bypass issue that can be exploited to take over accounts in N-central versions prior to 2026.3.1.7 . Both on-premises and cloud-hosted deployments are affected. N-central is widely used by MSPs to monitor, patch, and remotely access customer servers and endpoints. CVE-2026-18577 is not a new zero-day. Instead, N‑able has described it as a new method to exploit a previously patched vulnerability tracked as CVE-2026-18556. It appears threat actors bypassed the patch for CVE-2026-18556 and started exploiting it in late July. The vendor initially saw an increase in licensing issues on July 31 and confirmed exploitation of CVE-2026-18577 on August 2. Exploitation of the vulnerability has allowed attackers to gain admin access to the hacked N-central servers. Advertisement. Scroll to continue reading. “Following exploitation, the attacker leveraged the Take Control feature and connected to systems within the N‑central managed environment. Once on those devices, the attackers registered a new service for a CloudFlare tunnel, enabling persistence into an environment after access to the N‑central server was revoked,” N-able said in its incident notice . N-able said a “limited number of customers have been impacted,” but cybersecurity firm Huntress, which has also confirmed seeing attacks exploiting CVE-2026-18577 , said many organizations had yet to patch their installations as of August 3. “From an MSP perspective, exploitation of this flaw can grant an attacker full administrative access to an N-central console — the same level of control normally reserved for trusted NOC and engineering staff,” Huntress warned. It added, “Once inside the console, a threat actor can: push new scripts and jobs to many or all managed endpoints; deploy and run dual‑use tools (for example, remote tunnels or discovery utilities) via the N-able agent; initiate remote‑control sessions into servers and workstations, including domain controllers and other critical systems; and modify security‑relevant configuration such as roles, accounts, and policies to pave the way for follow‑on activity.” Indicators of compromise (IoCs) have been made available by both N-able and Huntress. News of the exploitation of CVE-2026-18577 comes almost exactly one year after organizations were warned about the exploitation of the N-central vulnerabilities CVE-2025-8875 and CVE-2025-8876. Related : Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Related : Ruby on Rails Patches Critical Vulnerability Related : Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Semiconductor Firm Analog Devices Discloses Data Breach 1 in 5 Data Center Assets Are Within Easy Reach of Attackers Cisco Secure FMC Zero-Day Exploited in the Wild ThreatLocker Raises $190 Million in Series F Funding Critical VM Escape Vulnerability Patched in VMware ESXi OpenAI’s Rogue AI Ventured Beyond Hugging Face Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundatio",
       "fetch_status": "ok"
     },
     {
@@ -2342,7 +2431,7 @@
         }
       },
       "score": 10,
-      "full_body": "The infamous ShinyHunters extortion group has leaked over 41 gigabytes of data allegedly stolen from the physical security firm Brinks Home. Headquartered in Dallas, Texas, Brinks Home provides home security systems backed by an alarm response center. Last week, the company announced that hackers accessed a portion of its IT systems and that they threatened to leak information allegedly stolen during the incident. “We are aware that such material may be posted publicly. Brinks Home is working diligently to determine what information was involved and who may be affected,” the company said in an incident notice . Noting that it would notify potentially affected individuals if their personal information was compromised, Brinks Home pointed out that customers should remain “vigilant against unsolicited emails, text messages, or phone calls requesting personal information or account credentials”. According to Brinks Home, its alarm monitoring and system functionality has not been affected, as the attackers did not access its products or services. Advertisement. Scroll to continue reading. The company has not shared details on the threat actor responsible for the incident, but its disclosure came around the same time that ShinyHunters added Brinks Home to its Tor-based leak site. More than 4.9 million records were stolen from Brinks Home’s Salesforce instance during the incident, the extortion group says. Brinks Home hacked by ShinyHunters As the physical security firm did not pay a ransom, the hackers have leaked online more than 41GB of files allegedly stolen during the incident. Some of the stolen records, ShinyHunters claims, include personally identifiable information (PII). SecurityWeek has not independently confirmed the hackers’ claims. Related: Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking Related: CareCloud Data Breach Impacts Over 350,000 Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move PNC Financial Services Group has appointe",
+      "full_body": "The infamous ShinyHunters extortion group has leaked over 41 gigabytes of data allegedly stolen from the physical security firm Brinks Home. Headquartered in Dallas, Texas, Brinks Home provides home security systems backed by an alarm response center. Last week, the company announced that hackers accessed a portion of its IT systems and that they threatened to leak information allegedly stolen during the incident. “We are aware that such material may be posted publicly. Brinks Home is working diligently to determine what information was involved and who may be affected,” the company said in an incident notice . Noting that it would notify potentially affected individuals if their personal information was compromised, Brinks Home pointed out that customers should remain “vigilant against unsolicited emails, text messages, or phone calls requesting personal information or account credentials”. According to Brinks Home, its alarm monitoring and system functionality has not been affected, as the attackers did not access its products or services. Advertisement. Scroll to continue reading. The company has not shared details on the threat actor responsible for the incident, but its disclosure came around the same time that ShinyHunters added Brinks Home to its Tor-based leak site. More than 4.9 million records were stolen from Brinks Home’s Salesforce instance during the incident, the extortion group says. Brinks Home hacked by ShinyHunters As the physical security firm did not pay a ransom, the hackers have leaked online more than 41GB of files allegedly stolen during the incident. Some of the stolen records, ShinyHunters claims, include personally identifiable information (PII). SecurityWeek has not independently confirmed the hackers’ claims. Related: Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking Related: CareCloud Data Breach Impacts Over 350,000 Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move PNC Financial Services Group ",
       "fetch_status": "ok"
     },
     {
@@ -2580,7 +2669,7 @@
         }
       },
       "score": 10,
-      "full_body": "The INC Ransomware group is responsible for most of the recent activity surrounding two fresh vulnerabilities in SonicWall’s SMA1000 secure remote access appliances, Resecurity reports. Tracked as CVE-2026-15409 (CVSS score of 10) and CVE-2026-15410 (CVSS score of 7.2), the security defects allow unauthenticated remote attackers to open a WebSocket tunnel to restricted services and escalate their privileges to root. Patched on July 14 and added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on the same day, the two flaws had been exploited in the wild as zero-days since at least June 22 . Cybersecurity firm Volexity attributed the observed exploitation to a threat actor tracked as UTA0533, noting that it was harvesting credentials from the hacked appliances and deploying malicious files, but was less successful in moving laterally to other systems. Rapid7, on the other hand, observed threat actors pivoting from SMA1000 devices into internal corporate networks, likely after deploying a backdoor on the compromised appliances. Now, Resecurity says that, of the various threat actors chaining CVE-2026-15409 and CVE-2026-15410 for SMA1000 compromise, the INC Ransomware gang has emerged as the most active one. Advertisement. Scroll to continue reading. “Notably, as of the beginning of August 2026, INC Ransomware has accelerated its activity. Multiple new victims have been published on their Data Leak Site (DLS),” the company says. Over the past couple of weeks, the ransomware group has listed on its leak site private and government sector organizations from the US, Australia, UAE, Colombia, and Switzerland, among others. “Resecurity has assisted several victims with DFIR and vulnerability assessments to contain the root cause of the compromise, but also learned about the following new developments: many of the new victims received emails, as well as phone calls from unknown organizations claiming to assist with ransomware issues,” the company says. In one instance, the email came from a domain registered after the exploitation activity, through a Chinese domain registrar. The victims were also contacted by phone by a threat actor calling themselves Andrew and claiming to be representing a group of hackers. “At the end of the call, the individual provided the email address info@helprans[.]com for further negotiations and then ended the call. Such methods are frequently used by ransomware groups as ‘pressure tactics’,” Resecurity notes. As ransomware groups continue to target the SonicWall vulnerabilities, users are advised to patch their SMA1000 appliances as soon as possible and to perform threat hunting to identify potential compromises. Related: US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Related: Ruby on Rails Patches Critical Vulnerability Related: Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Related: Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Brinks Home Discloses ",
+      "full_body": "The INC Ransomware group is responsible for most of the recent activity surrounding two fresh vulnerabilities in SonicWall’s SMA1000 secure remote access appliances, Resecurity reports. Tracked as CVE-2026-15409 (CVSS score of 10) and CVE-2026-15410 (CVSS score of 7.2), the security defects allow unauthenticated remote attackers to open a WebSocket tunnel to restricted services and escalate their privileges to root. Patched on July 14 and added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on the same day, the two flaws had been exploited in the wild as zero-days since at least June 22 . Cybersecurity firm Volexity attributed the observed exploitation to a threat actor tracked as UTA0533, noting that it was harvesting credentials from the hacked appliances and deploying malicious files, but was less successful in moving laterally to other systems. Rapid7, on the other hand, observed threat actors pivoting from SMA1000 devices into internal corporate networks, likely after deploying a backdoor on the compromised appliances. Now, Resecurity says that, of the various threat actors chaining CVE-2026-15409 and CVE-2026-15410 for SMA1000 compromise, the INC Ransomware gang has emerged as the most active one. Advertisement. Scroll to continue reading. “Notably, as of the beginning of August 2026, INC Ransomware has accelerated its activity. Multiple new victims have been published on their Data Leak Site (DLS),” the company says. Over the past couple of weeks, the ransomware group has listed on its leak site private and government sector organizations from the US, Australia, UAE, Colombia, and Switzerland, among others. “Resecurity has assisted several victims with DFIR and vulnerability assessments to contain the root cause of the compromise, but also learned about the following new developments: many of the new victims received emails, as well as phone calls from unknown organizations claiming to assist with ransomware issues,” the company says. In one instance, the email came from a domain registered after the exploitation activity, through a Chinese domain registrar. The victims were also contacted by phone by a threat actor calling themselves Andrew and claiming to be representing a group of hackers. “At the end of the call, the individual provided the email address info@helprans[.]com for further negotiations and then ended the call. Such methods are frequently used by ransomware groups as ‘pressure tactics’,” Resecurity notes. As ransomware groups continue to target the SonicWall vulnerabilities, users are advised to patch their SMA1000 appliances as soon as possible and to perform threat hunting to identify potential compromises. Related: US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Related: Ruby on Rails Patches Critical Vulnerability Related: Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Related: Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑",
       "fetch_status": "ok"
     },
     {
@@ -2852,7 +2941,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2882,7 +2971,7 @@
           "products": []
         }
       },
-      "score": 12
+      "score": 11
     },
     {
       "source": "The Hacker News",
@@ -2900,29 +2989,19 @@
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-44827",
-          "CVE-2026-45804",
-          "CVE-2026-44513"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "GitHub": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code  Ravie Lakshmanan  Aug 03, 2026 Vulnerability / AI Security Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. \"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the custom pipelines loading process,\" Zafran Labs researchers Gal Zaban and Ido Shani said in an analysis published last week. The shortcomings have been collectively named FaceHugger . With Hugging Face becoming the \"GitHub of the AI era\" and its libraries and repositories prevalent in enterprise environments, vulnerabilities in libraries like Diffusers can grant attackers extensive access owing to how the library is embedded into production pipelines, CI/CD systems, and container images. Diffusers is a Python package that serves as a library of state-of-the-art (SOTA) pretrained diffusion models for generating videos, images, and audio. According to statistics shared on pepy.tech, the package has been downloaded more than 8.1 million times in July 2026. One of the key capabilities of the library is to locally load a model from a Hugging Face hub repository via the DiffusionPipeline API, which, in turn, makes use of a configuration file to initialize specific pipeline and component classes, along with custom pipeline code. The \"trust_remote_code\" parameter in Diffusers is a security safeguard that controls whether custom Python code hosted inside a model repository is allowed to execute during \"from_pretrained()\" loading. Setting it to \"True\" permits custom code execution, while \"False\" or omitting it blocks unverified code from running. \"The root cause of all different RCE variants [...] is that the trust check lives entirely in the first phase,\" Zafran explained. \"Therefore, any method that makes the loader see custom code that the gate did not, allows bypassing the trust_remote_code mechanism.\" Each variant has been traced back to a case of Time-of-Check to Time-of-Use (TOCTOU), with the model download designed as two sequential, non-atomic HTTP requests instead of one a \"single atomic operation\" and the \"trust_remote_code\" security gate configured to run only against the first. The vulnerabilities are listed below - CVE-2026-44827 (CVSS score: 8.8) - A code injection vulnerability that allows arbitrary code to be loaded through the custom_pipeline flow from a Hub repository by means of a crafted pipeline with the name \"None.py\" despite passing trust_remote_code=False (or omitting it, which is the default). CVE-2026-45804 (CVSS score: 7.5) - A race condition vulnerability that allows arbitrary code to be introduced to a repository by modifying the configuration between the hf_hub_download and snapshot_download HTTP calls to the Hub, leading to code execution. CVE-2026-44513 (CVSS score: 8.8) - A code injection vulnerability that allows arbitrary code to be loaded through the custom_pipeline flow from a Hub repository despite passing trust_remote_code=False (or omitting it). Following responsible disclosure, the vulnerabilities were addressed in Diffusers version 0.38.0, released in early May 2026. Any user who invokes \"DiffusionPipeline.from_pretrained\" with custom pipelines is impacted. \"The underlying problem is that artifacts pulled from AI repositories are frequently treated as passive data, when configuration files, loaders, and custom pipeline code can quietly cross into executable code and turn a routine model load into an initial-access vector,\" the researchers added. If immediate patching is not an option, the project maintainers have recommended the following workarounds - Only call from_pretrained with pretrained_model_name_or_path, custom_pipeline, and local snapshot directories from full",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "Risky Business News",
@@ -4385,40 +4464,6 @@
         }
       },
       "score": 5
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
-      "link": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
-      "published": "2026-07-31T00:57:25+00:00",
-      "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]",
-      "author": "Ax Sharma",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "PyPI"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Anthropic/Claude": "target",
-          "PyPI": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "Elastic Security Labs",
@@ -7167,7 +7212,9 @@
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "active_exploitation"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
@@ -7178,7 +7225,10 @@
           "CVE-2026-60004"
         ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available"
+        ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
@@ -7188,7 +7238,9 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands  Swati Khandelwal  Jul 29, 2026 Vulnerability / DevOps Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The vulnerable API call requires authentication and repository write permission. But Gitea enables registration by default, so an outside visitor can create a normal account and repository on an unchanged installation, then exploit the bug without pre-existing credentials. Upgrading to 1.27.1 is the fix. Gitea said on July 27 that Gitea Cloud instances would be upgraded automatically. Gitea's July 28 advisory does not say the flaw has been exploited in the wild, but it includes public proof-of-concept (PoC) code. Disabling open registration can remove the public account-creation path while the update is deployed, but it does not fix the flaw or protect against existing users with repository write access. The flaw was reported by security researcher Shai Rod, who goes by NightRang3r . Gitea credits NightRang3r as the reporter in its advisory. Gitea's affected route invokes reqToken() , which rejects requests without a signed-in user. The no-prior-credentials path comes from the project's default configuration , which leaves registration open, requires neither email nor manual approval, does not mark new users as restricted, and imposes no default repository-creation limit. The bug sits in the POST /api/v1/repos/{owner}/{repo}/diffpatch endpoint. According to Gitea's security advisory , the endpoint applies a supplied patch inside a shared bare temporary clone. Vulnerable builds invoke git apply with --index , --recount , --cached , and --binary , adding the -3 three-way fallback option when the server runs Git 2.32 or later. An attacker submits the same patch twice to create an add/add collision. The three-way fallback then checks the indexed path out even though the operation uses --cached . Because the temporary clone is bare, its root is $GIT_DIR . An executable file placed at hooks/post-index-change therefore lands in Git's hook directory and becomes active. Git runs it while updating the index. The PoC signs in with a normal account, creates an initialized private repository, sends the malicious patch twice, and retrieves the command output. It needs no outbound callback. The hook stores the output in Git objects, creates a branch containing the result, and lets the attacker fetch it over authenticated smart HTTP. As of July 29, 2026, none of the cited primary sources reports whether the flaw was exploited before or after version 1.27.1 became available. Successful exploitation gives the attacker the privileges of the Gitea operating-system account. Depending on how the instance is isolated, Gitea said that could expose application and environment secrets, mounted repositories, database credentials and contents, OAuth credentials, and reachable internal services. Exploitation still requires repository write access, Git 2.32 or later, an enabled diffpatch route, and a writable, executable temporary filesystem. Default registration lets an outsider obtain the required write access on an unchanged installation. The fix is easy to miss in the changelog. Gitea changed the temporary clone from bare to non-bare. The code comment explicitly warns that Git commands using --index may operate on the working tree. The change was merged and backported on July 26, 2026. Version 1.27.1 shipped on July 27, and the security advisory followed on July 28. The release notes listed the change under MISC as \"refactor: git patch apply,\" not under SECURITY. Rod had previewed the RCE alongside a separate file-inclusion issue , with a ",
+      "fetch_status": "ok"
     },
     {
       "source": "SANS Internet Storm Center",
@@ -7923,42 +7975,6 @@
       "fetch_status": "fetch_failed:HTTPError"
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-      "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-      "published": "2026-07-28T13:33:47+00:00",
-      "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "OpenAI/ChatGPT": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
-    },
-    {
       "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -8508,7 +8524,7 @@
       "published": "2026-07-27T19:01:23+00:00",
       "summary": "July 29, 2026: We’ve updated this post to clarify the AWS Firewall Manager migration path. Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that blend in with normal user activity. […]",
       "author": "Eitav Arditti",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "ddos"
@@ -8530,8 +8546,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 7
+      }
     },
     {
       "source": "Dark Reading",
@@ -8542,7 +8557,7 @@
       "published": "2026-07-27T18:39:50+00:00",
       "summary": "As attackers shift from password theft to session and token theft to bypass multifactor authentication controls, organizations must move beyond login security and protect authenticated sessions.",
       "author": "Jai Vijayan",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "credential_theft"
@@ -8560,8 +8575,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 4
+      }
     },
     {
       "source": "Dark Reading",
@@ -11675,33 +11689,6 @@
         "role_map": {
           "AWS": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "The Hidden CCS2 Attack Surface on EV Chargers",
-      "link": "https://www.reddit.com/r/netsec/comments/1v2mk3z/the_hidden_ccs2_attack_surface_on_ev_chargers/",
-      "published": "2026-07-21T15:58:03+00:00",
-      "summary": "submitted by /u/self [link] [comments]",
-      "author": "/u/self",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -20314,33 +20301,6 @@
       }
     },
     {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
-      "published": "2026-06-29T14:00:00+00:00",
-      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -20366,6 +20326,33 @@
         "role_map": {
           "Microsoft 365": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
+      "published": "2026-06-29T14:00:00+00:00",
+      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -20971,6 +20958,35 @@
       }
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "How to Spot a Client in the DoD Industrial Base That Handles CUI",
+      "link": "https://www.huntress.com/blog/how-to-identify-dod-cui-clients",
+      "published": "2026-06-25T14:00:00+00:00",
+      "summary": "Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -20996,35 +21012,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "How to Spot a Client in the DoD Industrial Base That Handles CUI",
-      "link": "https://www.huntress.com/blog/how-to-identify-dod-cui-clients",
-      "published": "2026-06-25T14:00:00+00:00",
-      "summary": "Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -23516,37 +23503,6 @@
       }
     },
     {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
-      "published": "2026-06-15T14:00:00+00:00",
-      "summary": "Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our ",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "UNC6508"
-        ],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -23571,6 +23527,37 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+      "published": "2026-06-15T14:00:00+00:00",
+      "summary": "Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our ",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "UNC6508"
+        ],
+        "affected_industries": [
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -25438,6 +25425,33 @@
       }
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Why Huntress Doesn’t Need FedRAMP",
+      "link": "https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors",
+      "published": "2026-06-05T14:00:00+00:00",
+      "summary": "Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -25468,33 +25482,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Why Huntress Doesn’t Need FedRAMP",
-      "link": "https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors",
-      "published": "2026-06-05T14:00:00+00:00",
-      "summary": "Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []

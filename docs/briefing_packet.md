@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-03T17:57:20.984213+00:00
+- Generated: 2026-08-03T19:47:14.170791+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 371
+- Total items in window: 370
 - Total clusters raw: 159
 - Total clusters in packet: 78
 - Dropped low score: 81
@@ -85,66 +85,71 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
+  - Item count: 25
   - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 3
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 2
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -155,11 +160,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -175,25 +175,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -235,36 +235,31 @@
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 14
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 8
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 7
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 14
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -275,16 +270,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -300,26 +305,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -330,18 +330,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 18
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,56 +345,71 @@
   - Status: ok
   - Item count: 30
   - In window count: 30
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 29
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 18
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 30
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 10
+  - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -407,11 +417,6 @@
   - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,11 +435,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -444,17 +444,17 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 14
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - In window count: 15
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -504,7 +504,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 4
-- Article count: 17
+- Article count: 19
 - Cohesion: 0.209
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -522,10 +522,11 @@
   - https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
   - https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/
   - https://orca.security/resources/blog/introducing-ai-appgen-security/
-  - https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
+  - https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html
   - https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/
   - https://risky.biz/RBNEWS595/
   - https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/
+  - https://www.reddit.com/r/netsec/comments/1vemopp/xpsd_decide_if_a_cve_is_actually_reachable_in/
   - https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/
   - https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows
 
@@ -553,32 +554,6 @@
   - https://www.securityweek.com/brinks-home-discloses-data-breach-as-hackers-leak-files/
   - https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/
   - https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html
-
-### supply chain targeting PyPI
-- Anchor signal: PyPI
-- Theme key: pypi
-- Cluster count: 3
-- Article count: 16
-- Cohesion: 0.206
-- Shared strong signals: PyPI
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_products: PyPI, npm
-- Cluster IDs: 4c8ed8c5fa, b1e900a5a7, 2675bb2bb6
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/
-  - https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/
-  - https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/
-  - https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/
-  - https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/
-  - https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
-  - https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html
-  - https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
-  - https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
-  - https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html
-  - https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/
 
 ### CVE-2026-66066 exploitation activity
 - Anchor signal: CVE-2026-66066
@@ -623,7 +598,7 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 16
+- Article count: 17
 - Cohesion: 0.22
 - Shared strong signals: AWS
 - Member CVEs: (none)
@@ -636,10 +611,11 @@
   - https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
   - https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/
   - https://orca.security/resources/blog/introducing-ai-appgen-security/
-  - https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
+  - https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html
   - https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/
   - https://risky.biz/RBNEWS595/
   - https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/
+  - https://www.reddit.com/r/netsec/comments/1vemopp/xpsd_decide_if_a_cve_is_actually_reachable_in/
   - https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/
   - https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html
   - https://isc.sans.edu/diary/rss/33196
@@ -671,7 +647,7 @@
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
 - Cluster count: 3
-- Article count: 5
+- Article count: 4
 - Cohesion: 0.498
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
@@ -737,6 +713,24 @@
 - Links:
   - https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
   - https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/
+
+### WordPress active exploitation
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_products: WordPress
+  - urgency_signals: actively_exploited
+- Cluster IDs: 38979f8c48, b61889968b
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/
+  - https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/
 
 ## Forward signals
 
@@ -1239,7 +1233,7 @@ ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability
 - Published: 2026-07-31T14:14:15+00:00
 - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/
 - Fetch status: ok
-- Member count: 15
+- Member count: 14
 - Corroborating source count: 8
 - Strong signals: OpenAI/ChatGPT
 
@@ -1319,8 +1313,8 @@ Video This month in security with Tony Anscombe – July 2026 edition OpenAI mod
 - Published: 2026-07-28T16:00:00+00:00
 - Link: https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 7
+- Member count: 11
+- Corroborating source count: 8
 - Strong signals: GitHub, npm
 
 #### Cluster taxonomy (union across members)
@@ -1328,7 +1322,7 @@ Video This month in security with Tony Anscombe – July 2026 edition OpenAI mod
 - affected_industries: financial_services, government
 - affected_products: AWS, Anthropic/Claude, GitHub, npm
 - content_type: incident_report, news_report
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_3_analysis, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_3_analysis, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: supply_chain, phishing_social_eng
@@ -1349,7 +1343,7 @@ Explore the changes we've shipped across npm and GitHub Actions over the past fe
 Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, there’s been a pattern of supply chain attacks that target weaknesses in package repositories and CI/CD systems to quickly spread malware to hundreds of open source projects. This malware seeks to exfiltrate credentials both to broadly spread the attack, as well as for later exploitation. We’ve written a few times about our plans for hardening the supply chain: Our plan for a more secure npm supply chain in September 2025, Strengthening supply chain security: Preparing for the next malware campaign in December 2025, and What’s coming to our GitHub Actions 2026 security roadmap in March 2026. In this post, we’re updating you on changes we’ve implemented that directly disrupt some of the most common and impactful supply chain attack techniques. Anatomy of supply chain attacks Supply chain attacks chain together several weaknesses, and there is no single security capability that can stop them. Addressing them takes a holistic approach, prioritizing the mitigations that break the most impactful links in the attack chain. Our teams have been studying these attacks to deploy several improvements that disrupt them and limit their impact. This is possible thanks to collaboration with the security research and developer communities. The attacks vary in how they spread across the software ecosystem. However, most of these attacks follow similar techniques to gain initial access to a project, escalate privileges, and distribute across users and software. Improvements made to npm and GitHub Actions in the past few months have been focused on cutting off specific, common techniques and providing ways for customers to identify and respond to these attacks. Initial compromise Attacks start by compromising a single project, often by directly compromising a maintainer’s account or by targeting the project’s actions workflows. npm adds preventive account protection for high-impact accounts (June 2026) : Frequently, attacks start with a phishing campaign targeting maintainers. With this change, high-impact npm accounts are now put into a read-only mode for 72 hours when they change their email or use a 2FA recovery code. This delay allows maintainers time to respond and recover the account before their account can be used to start an attack. Safer pull_request_target defaults for GitHub Actions checkout (June 2026) : A common vulnerability in a project’s CI/CD pipelines are “pwn requests,” where a workflow triggers on pull requests from forks and then executes user-submitted and untrusted code from that fork. We changed the default behavior of actions/checkout to prevent the checkout of untrusted code from forks in commonly exploited triggers unless you explicitly opt-out (after reviewing your risk). This change and its backport to older versions cut off one of the most common vulnerable code patterns leading to code execution in GitHub Actions CI/CD workflows and initial project compromise. Control who and what triggers GitHub Actions workflows (June 2026) : Maybe you’d prefer to opt-out of these risky action triggers altogether or limit who can trigger them. This new control lets you set enterprise, organization, or repository level policies on who is allowed to trigger workflows and what trigger types are allowed. These workflow execution policies provide a governable and customizable layer of least-privilege around Action workflows that reduce the attack surface of your CI/CD infrastructure. Read-only Actions cache for untrusted triggers (June 2026) : After an attacker has achieved code execution in an Actions workflow, they then look to escalate to more privileged workflows (and therefore credentials) through poisoning the cache entries shared across workflows. With this change, we restrict the ability for less trusted workflows to modify the cache shared with other workflows. This directly closes a common path attackers have used to turn a vulnerability with li
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (8)
 
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - Title: Disrupting supply chain attacks on npm and GitHub Actions
@@ -1367,10 +1361,10 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
   - Link: https://orca.security/resources/blog/introducing-ai-appgen-security/
   - Summary: Thirty years ago, software developers wrote code line by line, and a handful of them per company shipped anything to production. Ten years ago, DevOps engineers automated that pipeline and multiplied what each of them could deploy. Three years ago, AI coding assistants—GitHub Copilot, Cursor, Claude Code—started writing meaningful percentages of that code alongside them. […]
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js
-  - Published: 2026-07-29T04:20:57+00:00
-  - Link: https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
-  - Summary: Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected packages is as follows - @joyfill/layouts@0.1.2-2773.beta.0 @joyfill/components@4.0.0-rc24-2773-beta.4 The two packages "contain an import-time JavaScript implant that resolves encrypted code
+  - Title: 18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users
+  - Published: 2026-08-03T18:43:53+00:00
+  - Link: https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html
+  - Summary: Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is "lib-mtop," an unscoped package with the same name as a private Alibaba package
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: AWS Blames North Korean Group for Axios and Other npm Supply Chain Attacks
   - Published: 2026-07-31T09:50:00+00:00
@@ -1386,6 +1380,11 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
   - Published: 2026-07-29T21:09:57+00:00
   - Link: https://cyberscoop.com/amazon-north-korea-open-source-software-attacks/
   - Summary: Amazon's threat intelligence team traced domain records from the open-source software hack to a smaller, earlier compromise by the same North Korean group. The post A little-known npm package was North Korea’s warm-up act for the axios hack appeared first on CyberScoop .
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Xpsd: decide if a CVE is actually reachable in your tree (SARIF / GitHub code scanning)
+  - Published: 2026-08-03T19:04:38+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vemopp/xpsd_decide_if_a_cve_is_actually_reachable_in/
+  - Summary: If you have ever opened a Grype/Trivy report and thought "cool, 200 findings, which ones can actually be hit in this codebase?", that is basically why we built Xpsd. You feed it a CVE or a scan report. It tries to answer a simpler question: is the vulnerable code reachable here? You get a verdict, some evidence, a call path when it can find one, and SARIF so it shows up in GitHub code scanning next to everything else. It does not shove your whole repo into an LLM. The agent pokes around with tools (search, advisory lookup, pulling a dep when it has to). Works as a GitHub Action, Copilot or your own model. Just hit v1.0. Open source, Apache-2.0: https://github.com/ByteRay-AI/Xpsd submitted by /u/Emergency_Stable_923 [link] [comments]
 
 ### Cluster 8310d00158 — score 21
 
@@ -1400,7 +1399,7 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, data_breach, ransomware_extortion, zero_day
-- affected_industries: critical_infrastructure, financial_services, manufacturing_industrial
+- affected_industries: critical_infrastructure, manufacturing_industrial
 - affected_products: Cisco, OpenAI/ChatGPT, SonicWall
 - cve_ids: CVE-2025-8875, CVE-2025-8876, CVE-2026-18556, CVE-2026-18577
 - urgency_signals: actively_exploited, zero_day
@@ -1409,7 +1408,7 @@ Greg Ose & Zachary Steindler July 28, 2026 | 7 minutes Share: In the past year, 
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, zero_day, data_breach, active_exploitation
-- affected_industries: financial_services, critical_infrastructure, manufacturing_industrial
+- affected_industries: critical_infrastructure, manufacturing_industrial
 - affected_products: OpenAI/ChatGPT, Cisco, SonicWall
 - cve_ids: CVE-2026-18577, CVE-2026-18556, CVE-2025-8875, CVE-2025-8876
 - urgency_signals: actively_exploited, zero_day
@@ -1425,7 +1424,7 @@ The N‑central vulnerability CVE-2026-18577 has been exploited in the wild afte
 #### Full body
 
 ```
-N‑able has released patches for a vulnerability that has been exploited in the wild against users of its N-central remote monitoring and management (RMM) product. The vulnerability, tracked as CVE-2026-18577, has been described as an authentication bypass issue that can be exploited to take over accounts in N-central versions prior to 2026.3.1.7 . Both on-premises and cloud-hosted deployments are affected. N-central is widely used by MSPs to monitor, patch, and remotely access customer servers and endpoints. CVE-2026-18577 is not a new zero-day. Instead, N‑able has described it as a new method to exploit a previously patched vulnerability tracked as CVE-2026-18556. It appears threat actors bypassed the patch for CVE-2026-18556 and started exploiting it in late July. The vendor initially saw an increase in licensing issues on July 31 and confirmed exploitation of CVE-2026-18577 on August 2. Exploitation of the vulnerability has allowed attackers to gain admin access to the hacked N-central servers. Advertisement. Scroll to continue reading. “Following exploitation, the attacker leveraged the Take Control feature and connected to systems within the N‑central managed environment. Once on those devices, the attackers registered a new service for a CloudFlare tunnel, enabling persistence into an environment after access to the N‑central server was revoked,” N-able said in its incident notice . N-able said a “limited number of customers have been impacted,” but cybersecurity firm Huntress, which has also confirmed seeing attacks exploiting CVE-2026-18577 , said many organizations had yet to patch their installations as of August 3. “From an MSP perspective, exploitation of this flaw can grant an attacker full administrative access to an N-central console — the same level of control normally reserved for trusted NOC and engineering staff,” Huntress warned. It added, “Once inside the console, a threat actor can: push new scripts and jobs to many or all managed endpoints; deploy and run dual‑use tools (for example, remote tunnels or discovery utilities) via the N-able agent; initiate remote‑control sessions into servers and workstations, including domain controllers and other critical systems; and modify security‑relevant configuration such as roles, accounts, and policies to pave the way for follow‑on activity.” Indicators of compromise (IoCs) have been made available by both N-able and Huntress. News of the exploitation of CVE-2026-18577 comes almost exactly one year after organizations were warned about the exploitation of the N-central vulnerabilities CVE-2025-8875 and CVE-2025-8876. Related : Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Related : Ruby on Rails Patches Critical Vulnerability Related : Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Semiconductor Firm Analog Devices Discloses Data Breach 1 in 5 Data Center Assets Are Within Easy Reach of Attackers Cisco Secure FMC Zero-Day Exploited in the Wild ThreatLocker Raises $190 Million in Series F Funding Critical VM Escape Vulnerability Patched in VMware ESXi OpenAI’s Rogue AI Ventured Beyond Hugging Face Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $25
+N‑able has released patches for a vulnerability that has been exploited in the wild against users of its N-central remote monitoring and management (RMM) product. The vulnerability, tracked as CVE-2026-18577, has been described as an authentication bypass issue that can be exploited to take over accounts in N-central versions prior to 2026.3.1.7 . Both on-premises and cloud-hosted deployments are affected. N-central is widely used by MSPs to monitor, patch, and remotely access customer servers and endpoints. CVE-2026-18577 is not a new zero-day. Instead, N‑able has described it as a new method to exploit a previously patched vulnerability tracked as CVE-2026-18556. It appears threat actors bypassed the patch for CVE-2026-18556 and started exploiting it in late July. The vendor initially saw an increase in licensing issues on July 31 and confirmed exploitation of CVE-2026-18577 on August 2. Exploitation of the vulnerability has allowed attackers to gain admin access to the hacked N-central servers. Advertisement. Scroll to continue reading. “Following exploitation, the attacker leveraged the Take Control feature and connected to systems within the N‑central managed environment. Once on those devices, the attackers registered a new service for a CloudFlare tunnel, enabling persistence into an environment after access to the N‑central server was revoked,” N-able said in its incident notice . N-able said a “limited number of customers have been impacted,” but cybersecurity firm Huntress, which has also confirmed seeing attacks exploiting CVE-2026-18577 , said many organizations had yet to patch their installations as of August 3. “From an MSP perspective, exploitation of this flaw can grant an attacker full administrative access to an N-central console — the same level of control normally reserved for trusted NOC and engineering staff,” Huntress warned. It added, “Once inside the console, a threat actor can: push new scripts and jobs to many or all managed endpoints; deploy and run dual‑use tools (for example, remote tunnels or discovery utilities) via the N-able agent; initiate remote‑control sessions into servers and workstations, including domain controllers and other critical systems; and modify security‑relevant configuration such as roles, accounts, and policies to pave the way for follow‑on activity.” Indicators of compromise (IoCs) have been made available by both N-able and Huntress. News of the exploitation of CVE-2026-18577 comes almost exactly one year after organizations were warned about the exploitation of the N-central vulnerabilities CVE-2025-8875 and CVE-2025-8876. Related : Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Related : Ruby on Rails Patches Critical Vulnerability Related : Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations Semiconductor Firm Analog Devices Discloses Data Breach 1 in 5 Data Center Assets Are Within Easy Reach of Attackers Cisco Secure FMC Zero-Day Exploited in the Wild ThreatLocker Raises $190 Million in Series F Funding Critical VM Escape Vulnerability Patched in VMware ESXi OpenAI’s Rogue AI Ventured Beyond Hugging Face Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundatio
 ```
 
 #### Corroborating sources (4)
@@ -1505,14 +1504,14 @@ ColdFusion Under Fire: Breaking Down CVE-2026-48283 and CVE-2026-48313 Rey Bango
 - Published: 2026-07-30T16:00:00+00:00
 - Link: https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 6
+- Member count: 8
+- Corroborating source count: 5
 - Strong signals: Anthropic/Claude, CVE-2026-5674
 
 #### Cluster taxonomy (union across members)
 - threat_categories: ai_security
 - affected_industries: government
-- affected_products: Anthropic/Claude, PyPI
+- affected_products: Anthropic/Claude
 - cve_ids: CVE-2025-60616, CVE-2026-5674
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
@@ -1535,7 +1534,7 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
 This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Claude Code was also excited finding this: Once discovered, I repro’d it manually to make sure it’s legit and then submitted it to Red Hat. Let’s dive into it. PipeWire and PulseAudio PipeWire is the default audio server on all modern Linux desktops now. Fedora, Ubuntu 24.04+, Debian 13,… It replaced PulseAudio but maintains backward compatibility. Flatpak apps that need audio request --socket=pulseaudio . At the core, a basic “Hello World” app with standard audio permission breaks out of the sandbox and gets full access to the user’s desktop, files, and credentials. The same attack applies to other Linux sandbox tech that connects a socket to PipeWire (e.g. Docker, etc..). Let’s look at the vulns and exploit. The Vulnerabilities The escape relies on three separate issues. 1. Authentication Cookie Is Never Validated PulseAudio code contains cookie-based authentication. This is not a typical web cookie, just a name for an authentication token. It’s a 256-byte random value that lives at ~/.config/pulse/cookie , and clients must present it to connect. PipeWire reads the cookie from the client, checks the length is 256 bytes, and then just… throws it away. The relevant code in pulse-server.c : if (len != NATIVE_COOKIE_LENGTH) return -EINVAL; client->version = version; client->authenticated = true; // cookie value never compared The cookie variable is never referenced again after being read. Any 256 bytes of garbage will do. No comments in the code explain why the value is set to true . The original PulseAudio validates the cookie, however PipeWire does not. I looked through the git history. This has been the behavior since the PulseAudio compatibility layer was first implemented. 2. Module Loading Is Enabled by Default #define DEFAULT_ALLOW_MODULE_LOADING "true" Any “authenticated” client can send LOAD_MODULE to load arbitrary PipeWire modules. A config option ( pulse.allow-module-loading ) was added in May 2024, but it defaults to true . Since authentication is broken, this means any process with socket access can load modules. 3. dlopen() With No Path Validation When module-ladspa-sink is loaded, it takes a plugin= parameter and calls dlopen() on it directly: handle = dlopen (path, RTLD_NOW); There is no path validation or directory allowlist. So, we can load arbitrary libraries. ELF constructors ( __attribute__((constructor)) ) run immediately on dlopen() . This is the same pattern as CVE-2025-60616 in FFmpeg’s LADSPA loader. Oh, and if you are wondering what LADSPA means, it stands for Linux Audio Developer's Simple Plugin API . That’s something new I learned along the way. The Sandbox Escape Flatpak’s --socket=pulseaudio grants access to the PulseAudio socket. Combined with any host-writable path (like --filesystem=/tmp in the demo), an app can escape the sandbox. The exploit chain: Write a malicious .so to a host-visible path (e.g. /tmp ) Connect to the PulseAudio socket Send PA_COMMAND_AUTH with 256 bytes of garbage Send PA_COMMAND_LOAD_MODULE module-ladspa-sink plugin=/tmp/payload.so PipeWire, running outside the sandbox , calls dlopen() on the .so The constructor executes in the user’s full context (outside the sandbox) The app has no home directory access, no display access, no network. Yet after the exploit it can read your files, launch apps on your desktop, and access your credentials. Note that PipeWire runs as a user-level service, not root. This is a sandbox escape, not privilege escalation. But the attacker goes from “sandboxed, can only play audio” to “full, unrestricted user context.” Proof of Concept I built a Flatpak app called net.wuzzi.Hello that demonstrates this. It looks completely harmless: $ flatpak info --show-permissions net.wuzz
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (5)
 
 - **Embrace the Red** (ai_security_agentic_risk)
   - Title: Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)
@@ -1552,21 +1551,16 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
   - Published: 2026-07-31T17:23:16+00:00
   - Link: https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html
   - Summary: The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 also outperformed all non-Claude models on this benchmark. The most robust non-Claude model was Muse Spark at 16.5% within 15 attempts—more than eight times Opus 5’s rate. The most capable GPT 5.6 variant, Sol, was comparable to its predecessor GPT 5.5 (20.0% versus 20.8% within 15 attempts), and was 10 times as likely to be successfully attacked as Claude Opus 5 at 2.0%. The other GPT 5.6 variants are less robust, at 30.4% (Terra) and 43.9% (Luna). A single attempt against GPT 5.6 Sol succeeded 3.1% of the time, higher than the 2.0% an attacker achieved against Opus 5 after fifteen attempts...
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests
-  - Published: 2026-07-31T00:57:25+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
-  - Summary: One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Anthropic Reveals Claude Escaped Testing, Breaching Three Companies
-  - Published: 2026-07-31T08:35:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
-  - Summary: Anthropic has revealed that Claude AI models compromised third-party organizations
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations
   - Published: 2026-07-31T06:41:44+00:00
   - Link: https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html
   - Summary: Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge. The AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a "
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Anthropic Reveals Claude Escaped Testing, Breaching Three Companies
+  - Published: 2026-07-31T08:35:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/
+  - Summary: Anthropic has revealed that Claude AI models compromised third-party organizations
 
 ### Cluster 90d3c1c1e2 — score 16
 
@@ -1920,6 +1914,51 @@ Threat Research Center Threat Research Malware Malware Pass the Passkey: A Novel
   - Link: https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
   - Summary: Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor. The post Pass the Passkey: A Novel Attack Surface in Passwordless Authentication appeared first on Unit 42 .
 
+### Cluster b00983247a — score 12
+
+- Title: An analysis of incidents at Brazilian educational institutions
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-03T13:00:17+00:00
+- Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- actor_attribution: LockBit
+- affected_industries: education, financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng
+- actor_attribution: LockBit
+- affected_industries: financial_services, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: An analysis of incidents at Brazilian educational institutions
+  - Published: 2026-08-03T13:00:17+00:00
+  - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+  - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+
 ### Cluster fe05850866 — score 12
 
 - Title: 3rd August – Threat Intelligence Report
@@ -1968,51 +2007,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August
   - Published: 2026-08-03T13:15:55+00:00
   - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster b00983247a — score 12
-
-- Title: An analysis of incidents at Brazilian educational institutions
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-03T13:00:17+00:00
-- Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: education, financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- actor_attribution: LockBit
-- affected_industries: financial_services, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: An analysis of incidents at Brazilian educational institutions
-  - Published: 2026-08-03T13:00:17+00:00
-  - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
-  - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
 
 ### Cluster 432a5ea542 — score 12
 
@@ -3057,7 +3051,7 @@ The bank holding company was hacked in June, but the investigation into the inci
 #### Full body
 
 ```
-River Financial Corporation, the bank holding company behind River Bank & Trust, says it received confirmation that data stolen in a ransomware attack was deleted. The attack occurred on June 16 and was identified three days later. River’s investigation into the incident determined that ransomware was deployed across portions of its server environment. In response, the company took the affected systems offline and disabled administrative accounts that had been compromised. “River, with the assistance of a third-party forensic firm, is investigating the nature and scope of the incident, including whether any personally identifiable information was subject to unauthorized access or exfiltration,” the company said in a June 25 filing with the US Securities and Exchange Commission (SEC). Subsequent 8-K forms filed with the SEC revealed that hackers accessed portions of River’s network and exfiltrated certain data and that at least four lawsuits have been filed against the company. The investigation into the nature, scope, and impact of the incident, however, continues, and a July 30 filing shows that River has yet to determine if the hackers stole any personal information from its systems. Advertisement. Scroll to continue reading. The filing’s wording, however, shows that the company has engaged with the hackers to have the stolen data deleted, likely as the result of a ransom payment. “As part of its response, River took steps to attempt to suppress the affected data, including obtaining representations from the threat actor that it deleted the data in its possession,” River said. The company has not shared details on the threat actor responsible for the incident, and it is unclear how the attackers compromised its network. “River has not yet confirmed whether the incident is reasonably likely to materially impact its business or financial condition,” the company said. SecurityWeek has emailed River for additional details on the ransomware attack and will update this article if the company responds. Related: Brinks Home Discloses Data Breach as Hackers Leak Files Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Related: DentaQuest Data Breach Potentially Impacts Over 23 Million People Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Brinks Home Discloses Data Breach as Hackers Leak Files Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19
+River Financial Corporation, the bank holding company behind River Bank & Trust, says it received confirmation that data stolen in a ransomware attack was deleted. The attack occurred on June 16 and was identified three days later. River’s investigation into the incident determined that ransomware was deployed across portions of its server environment. In response, the company took the affected systems offline and disabled administrative accounts that had been compromised. “River, with the assistance of a third-party forensic firm, is investigating the nature and scope of the incident, including whether any personally identifiable information was subject to unauthorized access or exfiltration,” the company said in a June 25 filing with the US Securities and Exchange Commission (SEC). Subsequent 8-K forms filed with the SEC revealed that hackers accessed portions of River’s network and exfiltrated certain data and that at least four lawsuits have been filed against the company. The investigation into the nature, scope, and impact of the incident, however, continues, and a July 30 filing shows that River has yet to determine if the hackers stole any personal information from its systems. Advertisement. Scroll to continue reading. The filing’s wording, however, shows that the company has engaged with the hackers to have the stolen data deleted, likely as the result of a ransom payment. “As part of its response, River took steps to attempt to suppress the affected data, including obtaining representations from the threat actor that it deleted the data in its possession,” River said. The company has not shared details on the threat actor responsible for the incident, and it is unclear how the attackers compromised its network. “River has not yet confirmed whether the incident is reasonably likely to materially impact its business or financial condition,” the company said. SecurityWeek has emailed River for additional details on the ransomware attack and will update this article if the company responds. Related: Brinks Home Discloses Data Breach as Hackers Leak Files Related: Origin Energy Data Breach Affects 900,000 Australians Related: Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack Related: DentaQuest Data Breach Potentially Impacts Over 23 Million People Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Brinks Home Discloses Data Breach as Hackers Leak Files Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 20
 ```
 
 #### Corroborating sources (1)
@@ -3104,7 +3098,7 @@ The physical security firm says its alarm monitoring and system functionality ha
 #### Full body
 
 ```
-The infamous ShinyHunters extortion group has leaked over 41 gigabytes of data allegedly stolen from the physical security firm Brinks Home. Headquartered in Dallas, Texas, Brinks Home provides home security systems backed by an alarm response center. Last week, the company announced that hackers accessed a portion of its IT systems and that they threatened to leak information allegedly stolen during the incident. “We are aware that such material may be posted publicly. Brinks Home is working diligently to determine what information was involved and who may be affected,” the company said in an incident notice . Noting that it would notify potentially affected individuals if their personal information was compromised, Brinks Home pointed out that customers should remain “vigilant against unsolicited emails, text messages, or phone calls requesting personal information or account credentials”. According to Brinks Home, its alarm monitoring and system functionality has not been affected, as the attackers did not access its products or services. Advertisement. Scroll to continue reading. The company has not shared details on the threat actor responsible for the incident, but its disclosure came around the same time that ShinyHunters added Brinks Home to its Tor-based leak site. More than 4.9 million records were stolen from Brinks Home’s Salesforce instance during the incident, the extortion group says. Brinks Home hacked by ShinyHunters As the physical security firm did not pay a ransom, the hackers have leaked online more than 41GB of files allegedly stolen during the incident. Some of the stolen records, ShinyHunters claims, include personally identifiable information (PII). SecurityWeek has not independently confirmed the hackers’ claims. Related: Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking Related: CareCloud Data Breach Impacts Over 350,000 Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move PNC Financial Services Group has appointe
+The infamous ShinyHunters extortion group has leaked over 41 gigabytes of data allegedly stolen from the physical security firm Brinks Home. Headquartered in Dallas, Texas, Brinks Home provides home security systems backed by an alarm response center. Last week, the company announced that hackers accessed a portion of its IT systems and that they threatened to leak information allegedly stolen during the incident. “We are aware that such material may be posted publicly. Brinks Home is working diligently to determine what information was involved and who may be affected,” the company said in an incident notice . Noting that it would notify potentially affected individuals if their personal information was compromised, Brinks Home pointed out that customers should remain “vigilant against unsolicited emails, text messages, or phone calls requesting personal information or account credentials”. According to Brinks Home, its alarm monitoring and system functionality has not been affected, as the attackers did not access its products or services. Advertisement. Scroll to continue reading. The company has not shared details on the threat actor responsible for the incident, but its disclosure came around the same time that ShinyHunters added Brinks Home to its Tor-based leak site. More than 4.9 million records were stolen from Brinks Home’s Salesforce instance during the incident, the extortion group says. Brinks Home hacked by ShinyHunters As the physical security firm did not pay a ransom, the hackers have leaked online more than 41GB of files allegedly stolen during the incident. Some of the stolen records, ShinyHunters claims, include personally identifiable information (PII). SecurityWeek has not independently confirmed the hackers’ claims. Related: Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking Related: CareCloud Data Breach Impacts Over 350,000 Related: Semiconductor Firm Analog Devices Discloses Data Breach Related: ShinyHunters Claims Ernst & Young Hack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move PNC Financial Services Group
 ```
 
 #### Corroborating sources (1)
@@ -3153,7 +3147,7 @@ The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for roo
 #### Full body
 
 ```
-The INC Ransomware group is responsible for most of the recent activity surrounding two fresh vulnerabilities in SonicWall’s SMA1000 secure remote access appliances, Resecurity reports. Tracked as CVE-2026-15409 (CVSS score of 10) and CVE-2026-15410 (CVSS score of 7.2), the security defects allow unauthenticated remote attackers to open a WebSocket tunnel to restricted services and escalate their privileges to root. Patched on July 14 and added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on the same day, the two flaws had been exploited in the wild as zero-days since at least June 22 . Cybersecurity firm Volexity attributed the observed exploitation to a threat actor tracked as UTA0533, noting that it was harvesting credentials from the hacked appliances and deploying malicious files, but was less successful in moving laterally to other systems. Rapid7, on the other hand, observed threat actors pivoting from SMA1000 devices into internal corporate networks, likely after deploying a backdoor on the compromised appliances. Now, Resecurity says that, of the various threat actors chaining CVE-2026-15409 and CVE-2026-15410 for SMA1000 compromise, the INC Ransomware gang has emerged as the most active one. Advertisement. Scroll to continue reading. “Notably, as of the beginning of August 2026, INC Ransomware has accelerated its activity. Multiple new victims have been published on their Data Leak Site (DLS),” the company says. Over the past couple of weeks, the ransomware group has listed on its leak site private and government sector organizations from the US, Australia, UAE, Colombia, and Switzerland, among others. “Resecurity has assisted several victims with DFIR and vulnerability assessments to contain the root cause of the compromise, but also learned about the following new developments: many of the new victims received emails, as well as phone calls from unknown organizations claiming to assist with ransomware issues,” the company says. In one instance, the email came from a domain registered after the exploitation activity, through a Chinese domain registrar. The victims were also contacted by phone by a threat actor calling themselves Andrew and claiming to be representing a group of hackers. “At the end of the call, the individual provided the email address info@helprans[.]com for further negotiations and then ended the call. Such methods are frequently used by ransomware groups as ‘pressure tactics’,” Resecurity notes. As ransomware groups continue to target the SonicWall vulnerabilities, users are advised to patch their SMA1000 appliances as soon as possible and to perform threat hunting to identify potential compromises. Related: US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Related: Ruby on Rails Patches Critical Vulnerability Related: Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Related: Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑able Patches Vulnerability Exploited to Hack N-central Servers Brinks Home Discloses
+The INC Ransomware group is responsible for most of the recent activity surrounding two fresh vulnerabilities in SonicWall’s SMA1000 secure remote access appliances, Resecurity reports. Tracked as CVE-2026-15409 (CVSS score of 10) and CVE-2026-15410 (CVSS score of 7.2), the security defects allow unauthenticated remote attackers to open a WebSocket tunnel to restricted services and escalate their privileges to root. Patched on July 14 and added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on the same day, the two flaws had been exploited in the wild as zero-days since at least June 22 . Cybersecurity firm Volexity attributed the observed exploitation to a threat actor tracked as UTA0533, noting that it was harvesting credentials from the hacked appliances and deploying malicious files, but was less successful in moving laterally to other systems. Rapid7, on the other hand, observed threat actors pivoting from SMA1000 devices into internal corporate networks, likely after deploying a backdoor on the compromised appliances. Now, Resecurity says that, of the various threat actors chaining CVE-2026-15409 and CVE-2026-15410 for SMA1000 compromise, the INC Ransomware gang has emerged as the most active one. Advertisement. Scroll to continue reading. “Notably, as of the beginning of August 2026, INC Ransomware has accelerated its activity. Multiple new victims have been published on their Data Leak Site (DLS),” the company says. Over the past couple of weeks, the ransomware group has listed on its leak site private and government sector organizations from the US, Australia, UAE, Colombia, and Switzerland, among others. “Resecurity has assisted several victims with DFIR and vulnerability assessments to contain the root cause of the compromise, but also learned about the following new developments: many of the new victims received emails, as well as phone calls from unknown organizations claiming to assist with ransomware issues,” the company says. In one instance, the email came from a domain registered after the exploitation activity, through a Chinese domain registrar. The victims were also contacted by phone by a threat actor calling themselves Andrew and claiming to be representing a group of hackers. “At the end of the call, the individual provided the email address info@helprans[.]com for further negotiations and then ended the call. Such methods are frequently used by ransomware groups as ‘pressure tactics’,” Resecurity notes. As ransomware groups continue to target the SonicWall vulnerabilities, users are advised to patch their SMA1000 appliances as soon as possible and to perform threat hunting to identify potential compromises. Related: US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States Related: Ruby on Rails Patches Critical Vulnerability Related: Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Related: Critical Flaw Allowed to Azure Cosmos DB Pwnage Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Ruby on Rails Patches Critical Vulnerability Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace Critical Flaw Allowed to Azure Cosmos DB Pwnage CareCloud Data Breach Impacts Over 350,000 Critical Code Execution Vulnerability Patched in TeamCity DataBahn Raises $40 Million for Agentic Data Pipeline Management Discern Security Raises $13 Million in Series A Funding Cantina Emerges From Stealth With $8 Million in Funding Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Horizon3 Raises $250 Million to Fund Continuing Growth N‑
 ```
 
 #### Corroborating sources (2)
@@ -3176,12 +3170,12 @@ The INC Ransomware group is responsible for most of the recent activity surround
 - Published: 2026-08-03T00:22:38+00:00
 - Link: https://risky.biz/RBNEWSSI138/
 - Fetch status: ok
-- Member count: 3
+- Member count: 2
 - Corroborating source count: 2
 - Strong signals: AWS, ShinyHunters
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ddos, ransomware_extortion
+- threat_categories: ransomware_extortion
 - actor_attribution: ShinyHunters
 - affected_products: AWS
 - content_type: news_report
@@ -3500,51 +3494,6 @@ Long-Lived Vulnerability in Microsoft Secure Boot Microsoft’s Secure Boot has 
   - Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
   - Summary: Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
 
-### Cluster e948af82c6 — score 9
-
-- Title: Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-03T06:40:31+00:00
-- Link: https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_products: GitHub
-- cve_ids: CVE-2026-44513, CVE-2026-44827, CVE-2026-45804
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: GitHub
-- cve_ids: CVE-2026-44827, CVE-2026-45804, CVE-2026-44513
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. "These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the
-```
-
-#### Full body
-
-```
-Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code  Ravie Lakshmanan  Aug 03, 2026 Vulnerability / AI Security Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. "These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the custom pipelines loading process," Zafran Labs researchers Gal Zaban and Ido Shani said in an analysis published last week. The shortcomings have been collectively named FaceHugger . With Hugging Face becoming the "GitHub of the AI era" and its libraries and repositories prevalent in enterprise environments, vulnerabilities in libraries like Diffusers can grant attackers extensive access owing to how the library is embedded into production pipelines, CI/CD systems, and container images. Diffusers is a Python package that serves as a library of state-of-the-art (SOTA) pretrained diffusion models for generating videos, images, and audio. According to statistics shared on pepy.tech, the package has been downloaded more than 8.1 million times in July 2026. One of the key capabilities of the library is to locally load a model from a Hugging Face hub repository via the DiffusionPipeline API, which, in turn, makes use of a configuration file to initialize specific pipeline and component classes, along with custom pipeline code. The "trust_remote_code" parameter in Diffusers is a security safeguard that controls whether custom Python code hosted inside a model repository is allowed to execute during "from_pretrained()" loading. Setting it to "True" permits custom code execution, while "False" or omitting it blocks unverified code from running. "The root cause of all different RCE variants [...] is that the trust check lives entirely in the first phase," Zafran explained. "Therefore, any method that makes the loader see custom code that the gate did not, allows bypassing the trust_remote_code mechanism." Each variant has been traced back to a case of Time-of-Check to Time-of-Use (TOCTOU), with the model download designed as two sequential, non-atomic HTTP requests instead of one a "single atomic operation" and the "trust_remote_code" security gate configured to run only against the first. The vulnerabilities are listed below - CVE-2026-44827 (CVSS score: 8.8) - A code injection vulnerability that allows arbitrary code to be loaded through the custom_pipeline flow from a Hub repository by means of a crafted pipeline with the name "None.py" despite passing trust_remote_code=False (or omitting it, which is the default). CVE-2026-45804 (CVSS score: 7.5) - A race condition vulnerability that allows arbitrary code to be introduced to a repository by modifying the configuration between the hf_hub_download and snapshot_download HTTP calls to the Hub, leading to code execution. CVE-2026-44513 (CVSS score: 8.8) - A code injection vulnerability that allows arbitrary code to be loaded through the custom_pipeline flow from a Hub repository despite passing trust_remote_code=False (or omitting it). Following responsible disclosure, the vulnerabilities were addressed in Diffusers version 0.38.0, released in early May 2026. Any user who invokes "DiffusionPipeline.from_pretrained" with custom pipelines is impacted. "The underlying problem is that artifacts pulled from AI repositories are frequently treated as passive data, when configuration files, loaders, and custom pipeline code can quietly cross into executable code and turn a routine model load into an initial-access vector," the researchers added. If immediate patching is not an option, the project maintainers have recommended the following workarounds - Only call from_pretrained with pretrained_model_name_or_path, custom_pipeline, and local snapshot directories from full
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code
-  - Published: 2026-08-03T06:40:31+00:00
-  - Link: https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html
-  - Summary: Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. "These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the
-
 ### Cluster b138851666 — score 9
 
 - Title: Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
@@ -3600,20 +3549,24 @@ Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction �
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-07-29T07:47:19+00:00
 - Link: https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: CVE-2026-60004, Gitea
 
 #### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
 - affected_products: Gitea
 - cve_ids: CVE-2026-60004
+- urgency_signals: actively_exploited, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- threat_categories: active_exploitation
 - affected_products: Gitea
 - cve_ids: CVE-2026-60004
+- urgency_signals: actively_exploited, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3621,6 +3574,12 @@ Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction �
 
 ```
 Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The
+```
+
+#### Full body
+
+```
+New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands  Swati Khandelwal  Jul 29, 2026 Vulnerability / DevOps Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The vulnerable API call requires authentication and repository write permission. But Gitea enables registration by default, so an outside visitor can create a normal account and repository on an unchanged installation, then exploit the bug without pre-existing credentials. Upgrading to 1.27.1 is the fix. Gitea said on July 27 that Gitea Cloud instances would be upgraded automatically. Gitea's July 28 advisory does not say the flaw has been exploited in the wild, but it includes public proof-of-concept (PoC) code. Disabling open registration can remove the public account-creation path while the update is deployed, but it does not fix the flaw or protect against existing users with repository write access. The flaw was reported by security researcher Shai Rod, who goes by NightRang3r . Gitea credits NightRang3r as the reporter in its advisory. Gitea's affected route invokes reqToken() , which rejects requests without a signed-in user. The no-prior-credentials path comes from the project's default configuration , which leaves registration open, requires neither email nor manual approval, does not mark new users as restricted, and imposes no default repository-creation limit. The bug sits in the POST /api/v1/repos/{owner}/{repo}/diffpatch endpoint. According to Gitea's security advisory , the endpoint applies a supplied patch inside a shared bare temporary clone. Vulnerable builds invoke git apply with --index , --recount , --cached , and --binary , adding the -3 three-way fallback option when the server runs Git 2.32 or later. An attacker submits the same patch twice to create an add/add collision. The three-way fallback then checks the indexed path out even though the operation uses --cached . Because the temporary clone is bare, its root is $GIT_DIR . An executable file placed at hooks/post-index-change therefore lands in Git's hook directory and becomes active. Git runs it while updating the index. The PoC signs in with a normal account, creates an initialized private repository, sends the malicious patch twice, and retrieves the command output. It needs no outbound callback. The hook stores the output in Git objects, creates a branch containing the result, and lets the attacker fetch it over authenticated smart HTTP. As of July 29, 2026, none of the cited primary sources reports whether the flaw was exploited before or after version 1.27.1 became available. Successful exploitation gives the attacker the privileges of the Gitea operating-system account. Depending on how the instance is isolated, Gitea said that could expose application and environment secrets, mounted repositories, database credentials and contents, OAuth credentials, and reachable internal services. Exploitation still requires repository write access, Git 2.32 or later, an enabled diffpatch route, and a writable, executable temporary filesystem. Default registration lets an outsider obtain the required write access on an unchanged installation. The fix is easy to miss in the changelog. Gitea changed the temporary clone from bare to non-bare. The code comment explicitly warns that Git commands using --index may operate on the working tree. The change was merged and backported on July 26, 2026. Version 1.27.1 shipped on July 27, and the security advisory followed on July 28. The release notes listed the change under MISC as "refactor: git patch apply," not under SECURITY. Rod had previewed the RCE alongside a separate file-inclusion issue , with a
 ```
 
 #### Corroborating sources (1)
@@ -3971,6 +3930,148 @@ Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mod
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
   - Summary: Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mode" to conduct espionage against Thailand's Ministry of Finance.
 
+### Cluster fcc415978e — score 8
+
+- Title: Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-03T08:05:30+00:00
+- Link: https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-17583
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-17583
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-17583
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented. Thermo Fisher tracks the issue as CVE-2026-17583 and rates it
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable
+  - Published: 2026-08-03T08:05:30+00:00
+  - Link: https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html
+  - Summary: Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented. Thermo Fisher tracks the issue as CVE-2026-17583 and rates it
+
+### Cluster e948af82c6 — score 8
+
+- Title: Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-03T06:40:31+00:00
+- Link: https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. "These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code
+  - Published: 2026-08-03T06:40:31+00:00
+  - Link: https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html
+  - Summary: Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. "These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the
+
+### Cluster 9a554b7f81 — score 8
+
+- Title: HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-31T16:39:31+00:00
+- Link: https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, web_shell_backdoor
+- affected_industries: legal_professional
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, web_shell_backdoor
+- affected_industries: legal_professional
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm
+  - Published: 2026-07-31T16:39:31+00:00
+  - Link: https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html
+  - Summary: Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that
+
+### Cluster ac434a158a — score 8
+
+- Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-28T15:01:33+00:00
+- Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
+  - Published: 2026-07-28T15:01:33+00:00
+  - Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
+  - Summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
+
 ### Cluster 4bf27bba6f — score 8
 
 - Title: Chinese Hacker Uses DeepSeek AI to Orchestrate Vulnerability Exploits
@@ -4073,113 +4174,6 @@ Coca Cola claims data was stolen from its Fairlife business after a recent ranso
   - Published: 2026-07-28T11:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/
   - Summary: Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack
-
-### Cluster fcc415978e — score 8
-
-- Title: Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-03T08:05:30+00:00
-- Link: https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-17583
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-17583
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-17583
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented. Thermo Fisher tracks the issue as CVE-2026-17583 and rates it
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable
-  - Published: 2026-08-03T08:05:30+00:00
-  - Link: https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html
-  - Summary: Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented. Thermo Fisher tracks the issue as CVE-2026-17583 and rates it
-
-### Cluster 9a554b7f81 — score 8
-
-- Title: HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-31T16:39:31+00:00
-- Link: https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, web_shell_backdoor
-- affected_industries: legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, web_shell_backdoor
-- affected_industries: legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm
-  - Published: 2026-07-31T16:39:31+00:00
-  - Link: https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html
-  - Summary: Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that
-
-### Cluster ac434a158a — score 8
-
-- Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-28T15:01:33+00:00
-- Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
-  - Published: 2026-07-28T15:01:33+00:00
-  - Link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
-  - Summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (
 
 ### Cluster 73d7cd5635 — score 8
 
