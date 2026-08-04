@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-04T18:42:46.598352+00:00",
+  "generated_at": "2026-08-04T20:38:01.446240+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 75,
-  "total_items_in_window": 369,
+  "total_items_in_window": 375,
   "total_clusters_raw": 156,
-  "total_clusters_in_packet": 63,
-  "dropped_low_score": 93,
+  "total_clusters_in_packet": 64,
+  "dropped_low_score": 92,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -74,18 +81,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 5
     },
     "Trend Micro Research": {
@@ -95,22 +95,22 @@
       "item_count": 25,
       "in_window_count": 1
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -122,13 +122,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -151,12 +144,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 5
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -164,6 +157,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -186,12 +186,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "item_count": 50,
+      "in_window_count": 2
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -200,18 +200,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -228,18 +228,18 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -256,19 +256,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -298,13 +298,6 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 9
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -312,12 +305,19 @@
       "item_count": 20,
       "in_window_count": 11
     },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 9
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 7
+      "in_window_count": 6
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -329,13 +329,6 @@
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
@@ -354,12 +347,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -367,6 +360,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -382,20 +382,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -403,12 +389,12 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -417,12 +403,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,22 +431,15 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 20
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -459,12 +452,12 @@
       "item_count": 30,
       "in_window_count": 30
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
+      "item_count": 10,
+      "in_window_count": 10
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -473,12 +466,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 28
+      "in_window_count": 27
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -508,22 +508,8 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -536,12 +522,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -571,13 +571,6 @@
       "item_count": 50,
       "in_window_count": 50
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -585,12 +578,19 @@
       "item_count": 100,
       "in_window_count": 25
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 18
+      "in_window_count": 25
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -2270,8 +2270,8 @@
     {
       "cluster_id": "b77a2db924",
       "priority_score": 18,
-      "member_count": 8,
-      "corroborating_source_count": 7,
+      "member_count": 9,
+      "corroborating_source_count": 8,
       "strong_signals": [
         "npm"
       ],
@@ -2291,7 +2291,6 @@
           "AWS",
           "Anthropic/Claude",
           "GitHub",
-          "Kubernetes",
           "npm"
         ],
         "tools_used": [],
@@ -2299,12 +2298,14 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
+          "incident_report",
           "news_report"
         ],
         "confidence_tier": [
           "tier_2_operator",
           "tier_3_analysis",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -2314,7 +2315,7 @@
         "link": "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "published": "2026-08-04T11:25:22+00:00",
         "summary": "Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple keyv/cacheable npm packages.",
-        "full_body": "Wiz Pricing Get a demo Get a demo Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple npm packages in the Keyv / Cacheable ecosystem. This blog presents our initial findings based on the analysis completed so far. As our investigation continues, we will update this post with additional technical details, indicators of compromise, attribution insights, and any newly identified affected packages or infrastructure. August 4, 2026, 1345 UTC update: Many additional packages have been compromised, see the full list over on our GitHub . Wiz identified the user-agent Bun/1.3.13 performing malicious calls related to this activity, and added it to the IOCs section. August 4, 2026, 1500 UTC update: Added analysis of the malware's use of an Ethereum smart contract to dynamically retrieve C2 domains. August 4, 2026, 1525 UTC update: Added prevalence data on compromised packages (to date). What happened? Multiple npm packages in the keyv / cacheable ecosystem were compromised following the compromise of a GitHub maintainer account, resulting in the publication of malicious package versions. All versions shared a consistent payload. Starting at 9:00 UTC, the attacker first used a compromised identity to introduce IDE persistence payloads to the keyv repository, and then shortly after published a new version of keyv containing their payload. This worm has since propagated to over 400 distinct npm packages . Package prevalence Wiz analysis indicates the payload is a descendant of the \"Mini\" Shai-Hulud malware family , therefor sharing similarities with the TeamPCP and antv supply chain campaigns . The malware targets a broad range of sensitive data, including cloud credentials, infrastructure secrets, developer credentials, AI-related configuration files, and cryptocurrency wallets. It also attempts to harvest secrets from CI/CD environments, identify build runners, and enumerate cloud environments to facilitate credential theft and further compromise. Data is exfiltrated via GitHub repositories created under compromised identities, using the description Shai-Hulud: Here We Go Again , matching the Shai-Hulud code that was previously open-sourced. A new intimidation string is used in the initial commits, IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients . Wiz analysis found that the malware retrieves its command-and-control (C2) domains from an Ethereum smart contract ( StringListStore ) using an eth_call , rather than embedding them in the payload. This allows the operator to update C2 infrastructure without modifying the malware. On-chain history shows the contract was initially configured with three domains before being updated to return only npm-cache[.]com . The contract owner was funded by an address that has previously been flagged as associated with scam activity. What steps should security teams take? Identify and remove the affected package versions from development, build, and CI/CD environments. Treat affected systems as potentially compromised and rebuild them if the malicious packages were installed. Rotate exposed credentials, including cloud credentials, GitHub tokens, SSH keys, Kubernetes configurations, Terraform credentials, and other developer secrets. Review cloud and source code environments for unauthorized access or suspicious activity following package installation. Monitor for the published IOCs, including the identified domains, file artifacts, and other indicators associated with the campaign. Strengthen software supply chain defenses by enabling dependency allowlisting, package integrity verification, and provenance controls where available. Affected Packages Track the full list of impacted packages over on our GitHub . Package Malicious Version @cacheable/utils 2.5.1 @hubsync/web-sdk-react 6.3.7 @nebula.js/nucleus 0.5.1 @ornikar/babel-preset-base 6.0.3 @ornikar/babel-preset-kitt-universal 8.0.3 @ornikar/babel-preset-react 6.1.4 @ornikar/brows",
+        "full_body": "Wiz Pricing Get a demo Get a demo Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple npm packages in the Keyv / Cacheable ecosystem. This blog presents our initial findings based on the analysis completed so far. As our investigation continues, we will update this post with additional technical details, indicators of compromise, attribution insights, and any newly identified affected packages or infrastructure. August 4, 2026, 1345 UTC update: Many additional packages have been compromised, see the full list over on our GitHub . Wiz identified the user-agent Bun/1.3.13 performing malicious calls related to this activity, and added it to the IOCs section. August 4, 2026, 1500 UTC update: Added analysis of the malware's use of an Ethereum smart contract to dynamically retrieve C2 domains. August 4, 2026, 1525 UTC update: Added prevalence data on compromised packages (to date). August 4, 2026, 1950 UTC update: Added additional breakdown of the payload. What happened? Multiple npm packages in the keyv / cacheable ecosystem were compromised following the compromise of a GitHub maintainer account, resulting in the publication of malicious package versions. All versions shared a consistent payload. Starting at 9:00 UTC, the attacker first used a compromised identity to introduce IDE persistence payloads to the keyv repository, and then shortly after published a new version of keyv containing their payload. This worm has since propagated to over 400 distinct npm packages . Package prevalence Wiz analysis indicates the payload is a descendant of the \"Mini\" Shai-Hulud malware family , therefor sharing similarities with the TeamPCP and antv supply chain campaigns . Payload This is not an entirely novel payload. It is heavily based on the public \"Mini\" Shai-Hulud-Open-Source repositories published by TeamPCP, with a few crucial changes. As in the original open sourced code, the malware targets a broad range of sensitive data, including cloud credentials, infrastructure secrets, developer credentials, AI-related configuration files, and cryptocurrency wallets. It also attempts to harvest secrets from CI/CD environments, identify build runners, and enumerate cloud environments to facilitate credential theft and further compromise. Persistence is attempted via Claude Code hooks and VS Code tasks.json . Data is exfiltrated via GitHub repositories created under compromised identities, using the default description Shai-Hulud: Here We Go Again . The following changes and new features have been identified: A new intimidation string is used in the initial commits, IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients . On commits introducing IDE hooks to repositories for persistence, a minor change has been made to the commit message, which is now chore: update config . The operator has provided a new RSA key, used to encrypt exfiltrated data. However, the RSA key used to verify fallback C2s posted to GitHub has not been changed. The lock file used by the payload has been updated to tmp.dpkg_14527.lock . The dead-man's switch has been updated to be selectively armed based on response from the C2. The C2 can respond with a code value that can specify a command to arm the dead-man switch and specify the token that the switch should monitor for revocation. The revocation monitor is set up to look for a valid response from api.github.com/user , so any type of token that is valid there can be used. The malware added the feature of sending a unique value for each machine alongside the exfiltrated credentials. This value is a SHA256 hash of a concatenated list of system properties. We believe that this is likely to enable targeted delivery of customized dead-man switch values. The malware now retrieves its command-and-control (C2) domains from an Ethereum smart contract ( StringListStore ) using an eth_call , rather than embedding them in the payload. This allows the operator to upda",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -2330,7 +2331,7 @@
           "affected_products": [
             "npm",
             "GitHub",
-            "Kubernetes"
+            "Anthropic/Claude"
           ],
           "tools_used": [],
           "cve_ids": [],
@@ -2341,7 +2342,7 @@
           "role_map": {
             "npm": "target",
             "GitHub": "target",
-            "Kubernetes": "target"
+            "Anthropic/Claude": "target"
           },
           "weak_tags": {
             "products": []
@@ -2370,7 +2371,7 @@
             "affected_products": [
               "npm",
               "GitHub",
-              "Kubernetes"
+              "Anthropic/Claude"
             ],
             "tools_used": [],
             "cve_ids": [],
@@ -2381,7 +2382,7 @@
             "role_map": {
               "npm": "target",
               "GitHub": "target",
-              "Kubernetes": "target"
+              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -2410,6 +2411,36 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Keyv and friends compromised in npm supply chain attack",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1vfeftz/keyv_and_friends_compromised_in_npm_supply_chain/",
+          "published": "2026-08-04T15:59:06+00:00",
+          "summary": "submitted by /u/sdp4n6 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_5_chatter",
             "role_map": {
               "npm": "target"
             },
@@ -2734,34 +2765,6 @@
           }
         },
         {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
-          "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
-          "published": "2026-08-03T20:31:12+00:00",
-          "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Schneier on Security",
           "cohort": "practitioner_analysis",
           "title": "Anthropic’s Opus 5 Is Better at Resisting Prompt Injection",
@@ -2783,6 +2786,34 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
+          "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
+          "published": "2026-08-03T20:31:12+00:00",
+          "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {
               "Anthropic/Claude": "target"
             },
@@ -2852,8 +2883,8 @@
     {
       "cluster_id": "d2343c3939",
       "priority_score": 18,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 4,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "GitHub"
       ],
@@ -2866,6 +2897,7 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
+          "Apple iOS/macOS",
           "GitHub"
         ],
         "tools_used": [],
@@ -2873,6 +2905,7 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
+          "incident_report",
           "news_report"
         ],
         "confidence_tier": [
@@ -2969,6 +3002,36 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+          "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+          "published": "2026-08-04T19:03:09+00:00",
+          "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target",
               "GitHub": "target"
             },
             "weak_tags": {
@@ -3837,6 +3900,102 @@
       ]
     },
     {
+      "cluster_id": "b9f78fb1fa",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Microsoft Defender"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Defender"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+        "published": "2026-08-04T17:54:04+00:00",
+        "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "credential_theft"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Defender"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft Defender": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+          "published": "2026-08-04T17:54:04+00:00",
+          "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Defender"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "ef0ff97611",
       "priority_score": 12,
       "member_count": 1,
@@ -4392,6 +4551,117 @@
       ]
     },
     {
+      "cluster_id": "7789c3b55d",
+      "priority_score": 11,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-17583"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-17583"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Researchers altered a forensic DNA evidence file in 45 minutes and the analysis software raised no warning (CVE-2026-17583)",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1vfcnuo/researchers_altered_a_forensic_dna_evidence_file/",
+        "published": "2026-08-04T14:54:47+00:00",
+        "summary": "Disclosure: I write a daily security newsletter, this was today's issue. The substance is below, link at the end. Thermo Fisher's July 31 bulletin covers CVE-2026-17583 (CVSS v4.0 8.2). The .fsa and .hid files from Applied Biosystems human identification instruments can be modified between the instrument writing them and the analysis software loading them, and the change is nearly undetectable. Nothing in the file let the software confirm the bytes were the ones the instrument wrote. Nathan Adams of Forensic Bioinformatics told the WSJ his first successful modification took about 45 minutes, merging scans from two DNA profiles into one file that presented as untouched since 2015. The updates add digital signatures, which only protects files written after the upgrade. The bulletin does not address retroactive validation, the researchers found no way to detect prior tampering, and these file types have been produced since 1995. Three end-of-life product lines get no update at all. Full w",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-17583"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Researchers altered a forensic DNA evidence file in 45 minutes and the analysis software raised no warning (CVE-2026-17583)",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1vfcnuo/researchers_altered_a_forensic_dna_evidence_file/",
+          "published": "2026-08-04T14:54:47+00:00",
+          "summary": "Disclosure: I write a daily security newsletter, this was today's issue. The substance is below, link at the end. Thermo Fisher's July 31 bulletin covers CVE-2026-17583 (CVSS v4.0 8.2). The .fsa and .hid files from Applied Biosystems human identification instruments can be modified between the instrument writing them and the analysis software loading them, and the change is nearly undetectable. Nothing in the file let the software confirm the bytes were the ones the instrument wrote. Nathan Adams of Forensic Bioinformatics told the WSJ his first successful modification took about 45 minutes, merging scans from two DNA profiles into one file that presented as untouched since 2015. The updates add digital signatures, which only protects files written after the upgrade. The bulletin does not address retroactive validation, the researchers found no way to detect prior tampering, and these file types have been produced since 1995. Three end-of-life product lines get no update at all. Full w",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-17583"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
+          "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+          "published": "2026-08-03T08:05:30+00:00",
+          "summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented. Thermo Fisher tracks the issue as CVE-2026-17583 and rates it",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-17583"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "d1c29125d3",
       "priority_score": 10,
       "member_count": 1,
@@ -4591,6 +4861,144 @@
                   0.26
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "fe05850866",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "VMware"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-20316",
+          "CVE-2026-59309",
+          "CVE-2026-59310",
+          "CVE-2026-59726",
+          "CVE-2026-63077"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "3rd August – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
+        "published": "2026-08-03T13:15:55+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Anthropic/Claude",
+            "VMware"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-59726",
+            "CVE-2026-20316",
+            "CVE-2026-59309",
+            "CVE-2026-59310",
+            "CVE-2026-63077"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Anthropic/Claude": "target",
+            "VMware": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "3rd August – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
+          "published": "2026-08-03T13:15:55+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Anthropic/Claude",
+              "VMware"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-59726",
+              "CVE-2026-20316",
+              "CVE-2026-59309",
+              "CVE-2026-59310",
+              "CVE-2026-63077"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "VMware": "target"
+            },
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -4963,39 +5371,20 @@
       ]
     },
     {
-      "cluster_id": "fe05850866",
+      "cluster_id": "d2bbfb6b89",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "VMware"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20316",
-          "CVE-2026-59309",
-          "CVE-2026-59310",
-          "CVE-2026-59726",
-          "CVE-2026-63077"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "news_report"
         ],
@@ -5004,48 +5393,26 @@
         ]
       },
       "primary": {
-        "source": "Check Point Research",
+        "source": "Cisco Talos",
         "cohort": "threat_research_primary",
-        "title": "3rd August – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-        "published": "2026-08-03T13:15:55+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not",
+        "title": "Black Hat special: Rewind and revisit",
+        "link": "https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/",
+        "published": "2026-07-30T10:00:08+00:00",
+        "summary": "Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.",
+        "full_body": "Black Hat special: Rewind and revisit By Amy Ciminnisi Thursday, July 30, 2026 06:00 Humans of Talos Cybersecurity is rarely a straight line. In this special Black Hat edition of Humans of Talos, Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. From forensic labs and newsrooms to the kitchen line, we’re revisiting the stories and lessons that define the people behind the threat intelligence. Heading to Black Hat? We have a presence within the Cisco and Splunk booth (2633) during Black Hat where you can chat to us about our latest threat research and incident response, and grab the newest Snorty. Check out our schedule here . Want more episodes? Watch the full episode , and don’t forget to subscribe to our YouTube channel for the next Humans of Talos. Share this post Related Content Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons. Breaking things to keep them safe with Philippe Laulheret May 13, 2026 06:00 Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Anthropic/Claude",
-            "VMware"
-          ],
+          "affected_industries": [],
+          "affected_products": [],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-59726",
-            "CVE-2026-20316",
-            "CVE-2026-59309",
-            "CVE-2026-59310",
-            "CVE-2026-63077"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
+          "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Anthropic/Claude": "target",
-            "VMware": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -5053,46 +5420,24 @@
       },
       "corroborating_sources": [
         {
-          "source": "Check Point Research",
+          "source": "Cisco Talos",
           "cohort": "threat_research_primary",
-          "title": "3rd August – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-          "published": "2026-08-03T13:15:55+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+          "title": "Black Hat special: Rewind and revisit",
+          "link": "https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/",
+          "published": "2026-07-30T10:00:08+00:00",
+          "summary": "Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.",
           "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Anthropic/Claude",
-              "VMware"
-            ],
+            "affected_industries": [],
+            "affected_products": [],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-59726",
-              "CVE-2026-20316",
-              "CVE-2026-59309",
-              "CVE-2026-59310",
-              "CVE-2026-63077"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "VMware": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5422,81 +5767,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d2bbfb6b89",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "Black Hat special: Rewind and revisit",
-        "link": "https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/",
-        "published": "2026-07-30T10:00:08+00:00",
-        "summary": "Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.",
-        "full_body": "Black Hat special: Rewind and revisit By Amy Ciminnisi Thursday, July 30, 2026 06:00 Humans of Talos Cybersecurity is rarely a straight line. In this special Black Hat edition of Humans of Talos, Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. From forensic labs and newsrooms to the kitchen line, we’re revisiting the stories and lessons that define the people behind the threat intelligence. Heading to Black Hat? We have a presence within the Cisco and Splunk booth (2633) during Black Hat where you can chat to us about our latest threat research and incident response, and grab the newest Snorty. Check out our schedule here . Want more episodes? Watch the full episode , and don’t forget to subscribe to our YouTube channel for the next Humans of Talos. Share this post Related Content Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons. Breaking things to keep them safe with Philippe Laulheret May 13, 2026 06:00 Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "Black Hat special: Rewind and revisit",
-          "link": "https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/",
-          "published": "2026-07-30T10:00:08+00:00",
-          "summary": "Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -6447,87 +6717,6 @@
       ]
     },
     {
-      "cluster_id": "602e22dfe4",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Schneier on Security",
-        "cohort": "practitioner_analysis",
-        "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
-        "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
-        "published": "2026-07-29T11:01:09+00:00",
-        "summary": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..",
-        "full_body": "Long-Lived Vulnerability in Microsoft Secure Boot Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them. Tags: firmware , Microsoft , vulnerabilities Posted on July 29, 2026 at 7:01 AM • 7 Comments",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Schneier on Security",
-          "cohort": "practitioner_analysis",
-          "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
-          "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
-          "published": "2026-07-29T11:01:09+00:00",
-          "summary": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b138851666",
       "priority_score": 9,
       "member_count": 1,
@@ -7441,111 +7630,6 @@
       ]
     },
     {
-      "cluster_id": "77794ad638",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "healthcare",
-          "legal_professional",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-        "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-        "published": "2026-07-31T22:16:42+00:00",
-        "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
-        "full_body": "Amgen says cloud data breach exposed patient health, proprietary info By Lawrence Abrams July 31, 2026 06:16 PM 0 Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. Amgen is a California-based biotechnology company that develops and manufactures medicines for serious illnesses, including cancer, cardiovascular disease, inflammation, and rare diseases. The company said it detected the unauthorized activity in July 2026 and responded by activating its cybersecurity response plan, implementing containment measures, and hiring independent forensic experts to investigate the incident. The investigation found that the attackers stole sensitive data from the cloud environments. \"The Company has since learned that some of its data, including proprietary data, patient protected health information, and other information, has been exfiltrated from these cloud environments,\" Amgen said in a Form 8-K filing with the SEC. The company is still determining whether additional information was accessed or stolen, including confidential business information, intellectual property, research and development data, and other patient information. Amgen has not disclosed which third-party cloud providers were involved, how the environments were compromised, how many people may have been affected, or whether the attack was linked to a known threat actor. On July 29, the company determined that the incident was material after evaluating the volume of potentially impacted files and the possibility that they contained sensitive information. However, Amgen currently does not believe the incident is reasonably likely to materially affect its financial condition or operating results. The company said it is continuing to investigate the breach with the assistance of third-party cybersecurity experts. Amgen added that it is evaluating legal and regulatory notification requirements and will notify impacted patients where required. BleepingComputer contacted Amgen to ask whether the breach involved a vishing attack targeting an employee's single sign-on account, which cloud services were affected, and whether the company has been contacted or extorted by threat actors claiming to be ShinyHunters. A response was not immediately available. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare West Pharmaceutical says hackers stole data, encrypted systems Data breach at medical billing firm MCBS affects 1.26 million people DentaQuest data breach exposed info of 2.6 million accounts Medtronic notifies customers impacted by ShinyHunters data breach",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "manufacturing_industrial",
-            "legal_professional"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-          "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-          "published": "2026-07-31T22:16:42+00:00",
-          "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "manufacturing_industrial",
-              "legal_professional"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "911abb5be6",
       "priority_score": 8,
       "member_count": 1,
@@ -7983,6 +8067,93 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "8525c5166f",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Exploiting Zero Touch Provisioning (ZTP)",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1vfa1no/exploiting_zero_touch_provisioning_ztp/",
+        "published": "2026-08-04T13:14:57+00:00",
+        "summary": "Our team has just published new research about exploiting Zero Touch Provisioning (ZTP), specifically targeting TP-Link's Omada ecosystem: https://www.forescout.com/research-labs/zero-touch-provisioning-is-a-fleet-scale-attack-vector/ The research discloses 15 new vulnerabilities and some extend beyond Omada into other TP-link product lines. What led us to do this research was the fact that we see many attacks against edge devices exploiting remote code execution for individual assets, but we wondered if there were additional flaws that could extend to a whole ecosystem of devices. The vulnerabilities have been fixed by TP-link and the research will be presented at Black Hat and DEF CON this week: https://blackhat.com/us-26/briefings/schedule/index.html#zero-day-provisioning-chaining-tp-link-ztp-vulnerabilities-for-infiltrating-networks-51879 Please stop by if you are attending either conference and let us know if you have any questions about this research. submitted by /u/danielrs_ [l",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Exploiting Zero Touch Provisioning (ZTP)",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1vfa1no/exploiting_zero_touch_provisioning_ztp/",
+          "published": "2026-08-04T13:14:57+00:00",
+          "summary": "Our team has just published new research about exploiting Zero Touch Provisioning (ZTP), specifically targeting TP-Link's Omada ecosystem: https://www.forescout.com/research-labs/zero-touch-provisioning-is-a-fleet-scale-attack-vector/ The research discloses 15 new vulnerabilities and some extend beyond Omada into other TP-link product lines. What led us to do this research was the fact that we see many attacks against edge devices exploiting remote code execution for individual assets, but we wondered if there were additional flaws that could extend to a whole ecosystem of devices. The vulnerabilities have been fixed by TP-link and the research will be presented at Black Hat and DEF CON this week: https://blackhat.com/us-26/briefings/schedule/index.html#zero-day-provisioning-chaining-tp-link-ztp-vulnerabilities-for-infiltrating-networks-51879 Please stop by if you are attending either conference and let us know if you have any questions about this research. submitted by /u/danielrs_ [l",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
@@ -8045,7 +8216,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 16,
+      "article_count": 17,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "npm"
@@ -8065,6 +8236,7 @@
         "https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/",
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
+        "https://www.reddit.com/r/cybersecurity/comments/1vfeftz/keyv_and_friends_compromised_in_npm_supply_chain/",
         "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
         "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
@@ -8234,8 +8406,8 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 15,
-      "cohesion": 0.2,
+      "article_count": 16,
+      "cohesion": 0.204,
       "shared_strong_signals": [
         "AWS"
       ],
@@ -8249,6 +8421,7 @@
       "links": [
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
+        "https://www.reddit.com/r/cybersecurity/comments/1vfeftz/keyv_and_friends_compromised_in_npm_supply_chain/",
         "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
         "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
@@ -8260,41 +8433,6 @@
         "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
         "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
         "https://risky.biz/RBNEWSSI138/"
-      ]
-    },
-    {
-      "label": "ShinyHunters: data breach",
-      "anchor_signal": "ShinyHunters",
-      "theme_key": "shinyhunters",
-      "dominant_features": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "legal_professional"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 4,
-      "cohesion": 0.497,
-      "shared_strong_signals": [
-        "ShinyHunters"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "37a54c4646",
-        "a72f86573a",
-        "77794ad638"
-      ],
-      "links": [
-        "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
-        "https://risky.biz/RBNEWSSI138/",
-        "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
-        "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/"
       ]
     },
     {
@@ -8415,22 +8553,50 @@
         "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
         "https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/"
       ]
+    },
+    {
+      "label": "ShinyHunters campaign activity",
+      "anchor_signal": "ShinyHunters",
+      "theme_key": "shinyhunters",
+      "dominant_features": {
+        "actor_attribution": [
+          "ShinyHunters"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.421,
+      "shared_strong_signals": [
+        "ShinyHunters"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "37a54c4646",
+        "a72f86573a"
+      ],
+      "links": [
+        "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
+        "https://risky.biz/RBNEWSSI138/",
+        "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/"
+      ]
     }
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-58047",
-          "cluster_id": "d612fb7039",
-          "first_source": "The Hacker News",
-          "first_published": "2026-08-04T10:36:27+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
-    "velocity": [],
+    "velocity": [
+      {
+        "cluster_id": "b77a2db924",
+        "title": "keyv and cacheable npm Package Hijacked in Supply Chain Attack",
+        "sources_in_window": 3,
+        "window_hours": 4.6,
+        "cohort_count": 4
+      }
+    ],
     "leading_edge": [],
     "convergence": [
       {
@@ -8639,6 +8805,23 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": []
+    "tier_inversion": [
+      {
+        "cluster_id": "b77a2db924",
+        "title": "keyv and cacheable npm Package Hijacked in Supply Chain Attack",
+        "primary_source": "Wiz Research",
+        "strong_signals": [
+          "TeamPCP"
+        ]
+      },
+      {
+        "cluster_id": "7789c3b55d",
+        "title": "Researchers altered a forensic DNA evidence file in 45 minutes and the analysis software raised no warning (CVE-2026-17583)",
+        "primary_source": "Reddit r/cybersecurity",
+        "strong_signals": [
+          "CVE-2026-17583"
+        ]
+      }
+    ]
   }
 }

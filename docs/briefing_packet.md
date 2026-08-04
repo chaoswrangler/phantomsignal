@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-04T18:42:46.598352+00:00
+- Generated: 2026-08-04T20:38:01.446240+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 369
+- Total items in window: 375
 - Total clusters raw: 156
-- Total clusters in packet: 63
-- Dropped low score: 93
+- Total clusters in packet: 64
+- Dropped low score: 92
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,38 +70,38 @@
 
 ## Feed status
 
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
   - In window count: 5
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -110,11 +110,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -130,16 +125,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 2
+  - Item count: 10
+  - In window count: 5
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -155,25 +155,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 15
-  - In window count: 4
+  - Item count: 50
+  - In window count: 2
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
@@ -185,15 +185,15 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -205,16 +205,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -235,21 +235,21 @@
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 11
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 7
+  - In window count: 6
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -257,11 +257,6 @@
   - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
@@ -275,16 +270,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 100
-  - In window count: 5
+  - Item count: 20
+  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -295,53 +295,48 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+  - In window count: 20
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,21 +345,26 @@
   - Status: ok
   - Item count: 30
   - In window count: 30
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 20
+  - Item count: 10
+  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 28
+  - In window count: 27
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -385,18 +385,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,11 +395,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -430,21 +430,21 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 25
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 18
+  - In window count: 25
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -499,7 +499,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 3
-- Article count: 16
+- Article count: 17
 - Cohesion: 0.2
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -517,6 +517,7 @@
   - https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/
   - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
   - https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/
+  - https://www.reddit.com/r/cybersecurity/comments/1vfeftz/keyv_and_friends_compromised_in_npm_supply_chain/
   - https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/
   - https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
   - https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html
@@ -608,8 +609,8 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 15
-- Cohesion: 0.2
+- Article count: 16
+- Cohesion: 0.204
 - Shared strong signals: AWS
 - Member CVEs: (none)
 - Also targets: (none)
@@ -620,6 +621,7 @@
 - Links:
   - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
   - https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/
+  - https://www.reddit.com/r/cybersecurity/comments/1vfeftz/keyv_and_friends_compromised_in_npm_supply_chain/
   - https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/
   - https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
   - https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html
@@ -631,26 +633,6 @@
   - https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/
   - https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
   - https://risky.biz/RBNEWSSI138/
-
-### ShinyHunters: data breach
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.497
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: data_breach
-  - actor_attribution: ShinyHunters
-  - affected_industries: legal_professional
-- Cluster IDs: 37a54c4646, a72f86573a, 77794ad638
-- Links:
-  - https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
-  - https://risky.biz/RBNEWSSI138/
-  - https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/
-  - https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
 
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
@@ -723,15 +705,36 @@
   - https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
   - https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/
 
+### ShinyHunters campaign activity
+- Anchor signal: ShinyHunters
+- Theme key: shinyhunters
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.421
+- Shared strong signals: ShinyHunters
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - actor_attribution: ShinyHunters
+- Cluster IDs: 37a54c4646, a72f86573a
+- Links:
+  - https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/
+  - https://risky.biz/RBNEWSSI138/
+  - https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-58047 (first seen via The Hacker News at 2026-08-04T10:36:27+00:00, cluster d612fb7039)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (0)
+### Velocity bursts (1)
+- **keyv and cacheable npm Package Hijacked in Supply Chain Attack**
+  - Cluster: b77a2db924
+  - Sources in window: 3
+  - Window hours: 4.6
+  - Cohort count: 4
 
 ### Leading edge (0)
 
@@ -788,7 +791,15 @@
 - cve_ids: CVE-2026-59726 (weeks observed: 3, cluster 974cdece8d)
 - cve_ids: CVE-2026-15409 (weeks observed: 3, cluster 097b1c162f)
 
-### Tier inversion (0)
+### Tier inversion (2)
+- **keyv and cacheable npm Package Hijacked in Supply Chain Attack**
+  - Cluster: b77a2db924
+  - Primary source: Wiz Research
+  - Strong signals: TeamPCP
+- **Researchers altered a forensic DNA evidence file in 45 minutes and the analysis software raised no warning (CVE-2026-17583)**
+  - Cluster: 7789c3b55d
+  - Primary source: Reddit r/cybersecurity
+  - Strong signals: CVE-2026-17583
 
 ## Clusters
 
@@ -1343,23 +1354,23 @@ Video This month in security with Tony Anscombe – July 2026 edition OpenAI mod
 - Published: 2026-08-04T11:25:22+00:00
 - Link: https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
 - Fetch status: ok
-- Member count: 8
-- Corroborating source count: 7
+- Member count: 9
+- Corroborating source count: 8
 - Strong signals: npm
 
 #### Cluster taxonomy (union across members)
 - threat_categories: credential_theft, phishing_social_eng, supply_chain
 - actor_attribution: TeamPCP
 - affected_industries: financial_services
-- affected_products: AWS, Anthropic/Claude, GitHub, Kubernetes, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
+- affected_products: AWS, Anthropic/Claude, GitHub, npm
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: supply_chain, credential_theft
 - actor_attribution: TeamPCP
 - affected_industries: financial_services
-- affected_products: npm, GitHub, Kubernetes
+- affected_products: npm, GitHub, Anthropic/Claude
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -1372,10 +1383,10 @@ Wiz Research is actively investigating an ongoing software supply chain attack a
 #### Full body
 
 ```
-Wiz Pricing Get a demo Get a demo Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple npm packages in the Keyv / Cacheable ecosystem. This blog presents our initial findings based on the analysis completed so far. As our investigation continues, we will update this post with additional technical details, indicators of compromise, attribution insights, and any newly identified affected packages or infrastructure. August 4, 2026, 1345 UTC update: Many additional packages have been compromised, see the full list over on our GitHub . Wiz identified the user-agent Bun/1.3.13 performing malicious calls related to this activity, and added it to the IOCs section. August 4, 2026, 1500 UTC update: Added analysis of the malware's use of an Ethereum smart contract to dynamically retrieve C2 domains. August 4, 2026, 1525 UTC update: Added prevalence data on compromised packages (to date). What happened? Multiple npm packages in the keyv / cacheable ecosystem were compromised following the compromise of a GitHub maintainer account, resulting in the publication of malicious package versions. All versions shared a consistent payload. Starting at 9:00 UTC, the attacker first used a compromised identity to introduce IDE persistence payloads to the keyv repository, and then shortly after published a new version of keyv containing their payload. This worm has since propagated to over 400 distinct npm packages . Package prevalence Wiz analysis indicates the payload is a descendant of the "Mini" Shai-Hulud malware family , therefor sharing similarities with the TeamPCP and antv supply chain campaigns . The malware targets a broad range of sensitive data, including cloud credentials, infrastructure secrets, developer credentials, AI-related configuration files, and cryptocurrency wallets. It also attempts to harvest secrets from CI/CD environments, identify build runners, and enumerate cloud environments to facilitate credential theft and further compromise. Data is exfiltrated via GitHub repositories created under compromised identities, using the description Shai-Hulud: Here We Go Again , matching the Shai-Hulud code that was previously open-sourced. A new intimidation string is used in the initial commits, IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients . Wiz analysis found that the malware retrieves its command-and-control (C2) domains from an Ethereum smart contract ( StringListStore ) using an eth_call , rather than embedding them in the payload. This allows the operator to update C2 infrastructure without modifying the malware. On-chain history shows the contract was initially configured with three domains before being updated to return only npm-cache[.]com . The contract owner was funded by an address that has previously been flagged as associated with scam activity. What steps should security teams take? Identify and remove the affected package versions from development, build, and CI/CD environments. Treat affected systems as potentially compromised and rebuild them if the malicious packages were installed. Rotate exposed credentials, including cloud credentials, GitHub tokens, SSH keys, Kubernetes configurations, Terraform credentials, and other developer secrets. Review cloud and source code environments for unauthorized access or suspicious activity following package installation. Monitor for the published IOCs, including the identified domains, file artifacts, and other indicators associated with the campaign. Strengthen software supply chain defenses by enabling dependency allowlisting, package integrity verification, and provenance controls where available. Affected Packages Track the full list of impacted packages over on our GitHub . Package Malicious Version @cacheable/utils 2.5.1 @hubsync/web-sdk-react 6.3.7 @nebula.js/nucleus 0.5.1 @ornikar/babel-preset-base 6.0.3 @ornikar/babel-preset-kitt-universal 8.0.3 @ornikar/babel-preset-react 6.1.4 @ornikar/brows
+Wiz Pricing Get a demo Get a demo Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple npm packages in the Keyv / Cacheable ecosystem. This blog presents our initial findings based on the analysis completed so far. As our investigation continues, we will update this post with additional technical details, indicators of compromise, attribution insights, and any newly identified affected packages or infrastructure. August 4, 2026, 1345 UTC update: Many additional packages have been compromised, see the full list over on our GitHub . Wiz identified the user-agent Bun/1.3.13 performing malicious calls related to this activity, and added it to the IOCs section. August 4, 2026, 1500 UTC update: Added analysis of the malware's use of an Ethereum smart contract to dynamically retrieve C2 domains. August 4, 2026, 1525 UTC update: Added prevalence data on compromised packages (to date). August 4, 2026, 1950 UTC update: Added additional breakdown of the payload. What happened? Multiple npm packages in the keyv / cacheable ecosystem were compromised following the compromise of a GitHub maintainer account, resulting in the publication of malicious package versions. All versions shared a consistent payload. Starting at 9:00 UTC, the attacker first used a compromised identity to introduce IDE persistence payloads to the keyv repository, and then shortly after published a new version of keyv containing their payload. This worm has since propagated to over 400 distinct npm packages . Package prevalence Wiz analysis indicates the payload is a descendant of the "Mini" Shai-Hulud malware family , therefor sharing similarities with the TeamPCP and antv supply chain campaigns . Payload This is not an entirely novel payload. It is heavily based on the public "Mini" Shai-Hulud-Open-Source repositories published by TeamPCP, with a few crucial changes. As in the original open sourced code, the malware targets a broad range of sensitive data, including cloud credentials, infrastructure secrets, developer credentials, AI-related configuration files, and cryptocurrency wallets. It also attempts to harvest secrets from CI/CD environments, identify build runners, and enumerate cloud environments to facilitate credential theft and further compromise. Persistence is attempted via Claude Code hooks and VS Code tasks.json . Data is exfiltrated via GitHub repositories created under compromised identities, using the default description Shai-Hulud: Here We Go Again . The following changes and new features have been identified: A new intimidation string is used in the initial commits, IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients . On commits introducing IDE hooks to repositories for persistence, a minor change has been made to the commit message, which is now chore: update config . The operator has provided a new RSA key, used to encrypt exfiltrated data. However, the RSA key used to verify fallback C2s posted to GitHub has not been changed. The lock file used by the payload has been updated to tmp.dpkg_14527.lock . The dead-man's switch has been updated to be selectively armed based on response from the C2. The C2 can respond with a code value that can specify a command to arm the dead-man switch and specify the token that the switch should monitor for revocation. The revocation monitor is set up to look for a valid response from api.github.com/user , so any type of token that is valid there can be used. The malware added the feature of sending a unique value for each machine alongside the exfiltrated credentials. This value is a SHA256 hash of a concatenated list of system properties. We believe that this is likely to enable targeted delivery of customized dead-man switch values. The malware now retrieves its command-and-control (C2) domains from an Ethereum smart contract ( StringListStore ) using an eth_call , rather than embedding them in the payload. This allows the operator to upda
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (8)
 
 - **Wiz Research** (cloud_identity_infrastructure)
   - Title: keyv and cacheable npm Package Hijacked in Supply Chain Attack
@@ -1387,6 +1398,11 @@ Wiz Pricing Get a demo Get a demo Wiz Research is actively investigating an ongo
   - Published: 2026-07-29T21:00:12+00:00
   - Link: https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/
   - Summary: Amazon is sharing new findings about how a threat actor linked to the Democratic People’s Republic of Korea (DPRK) is targeting open source software libraries, the shared building blocks that companies around the world use to develop applications. Amazon Threat Intelligence has linked several recent compromises of popular Node Package Manager (NPM) libraries to the […]
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Keyv and friends compromised in npm supply chain attack
+  - Published: 2026-08-04T15:59:06+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1vfeftz/keyv_and_friends_compromised_in_npm_supply_chain/
+  - Summary: submitted by /u/sdp4n6 [link] [comments]
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Massive ChainDrop npm supply-chain attack infects hundreds of packages
   - Published: 2026-08-04T15:24:35+00:00
@@ -1467,16 +1483,16 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
   - Published: 2026-08-02T04:16:52+00:00
   - Link: https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
   - Summary: Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen's first ever tweet ), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI. It's clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over "safety" concerns - a reasonable consideration given what happened to Claude Fable 5 ! Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the ha
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues
-  - Published: 2026-08-03T20:31:12+00:00
-  - Link: https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps
-  - Summary: Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.
 - **Schneier on Security** (practitioner_analysis)
   - Title: Anthropic’s Opus 5 Is Better at Resisting Prompt Injection
   - Published: 2026-07-31T17:23:16+00:00
   - Link: https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html
   - Summary: The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 also outperformed all non-Claude models on this benchmark. The most robust non-Claude model was Muse Spark at 16.5% within 15 attempts—more than eight times Opus 5’s rate. The most capable GPT 5.6 variant, Sol, was comparable to its predecessor GPT 5.5 (20.0% versus 20.8% within 15 attempts), and was 10 times as likely to be successfully attacked as Claude Opus 5 at 2.0%. The other GPT 5.6 variants are less robust, at 30.4% (Terra) and 43.9% (Luna). A single attempt against GPT 5.6 Sol succeeded 3.1% of the time, higher than the 2.0% an attacker achieved against Opus 5 after fifteen attempts...
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues
+  - Published: 2026-08-03T20:31:12+00:00
+  - Link: https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps
+  - Summary: Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations
   - Published: 2026-07-31T06:41:44+00:00
@@ -1495,14 +1511,14 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
 - Published: 2026-08-04T12:00:12+00:00
 - Link: https://securelist.com/cloud-platforms-in-phishing/120832/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
 - threat_categories: credential_theft, mfa_bypass, phishing_social_eng
-- affected_products: GitHub
-- content_type: news_report
+- affected_products: Apple iOS/macOS, GitHub
+- content_type: incident_report, news_report
 - confidence_tier: tier_1_offensive_research, tier_1_primary_research, tier_4_news
 
 #### Primary article taxonomy
@@ -1523,7 +1539,7 @@ We cover a cloud-based AitM attack scenario leveraging service workers and Ultra
 Table of Contents The cloud as a safe haven for phishers Multi-stage AitM attack Stage 1. Contact harvesting and network monitoring evasion Stage 2. Initializing a transparent proxy Stage 3. Session hijacking and browser window spoofing Cloud platform phishing attack statistics Recommendations Authors Olga Altukhova Threat actors are increasingly exploiting legitimate cloud services to evade detection and streamline the deployment of their scam infrastructure. Cloud hosting services and decentralized networks have become primary platforms for hosting phishing pages and sites. Throughout 2025 and 2026, we have observed phishing operators steadily migrate toward platforms like Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS. This post analyzes the mechanics of a real-life adversary-in-the-middle (AitM) attack in a cloud environment and presents detailed statistics on the platforms and domains phishers abuse most frequently. The cloud as a safe haven for phishers Threat actors select platform-as-a-service (PaaS) offerings and distributed cloud environments to host phishing sites for much the same reasons legitimate software developers do: Inherent trust and reputation. Phishing pages hosted on reputable platforms appear trustworthy, reducing suspicion among potential victims. Most platforms offer generous free-tier developer plans. The onboarding process takes minutes and rarely requires Know Your Customer (KYC) identity verification. This enables a single operator to create hundreds of malicious accounts. Evasion and anonymity. Attackers leverage native security features to obscure their true origin server IP address behind a CDN, which complicates detection for security vendors. Additionally, these platforms allocate shared subdomains hosting millions of legitimate projects and websites. Security teams cannot simply block the parent domain or its subdomains without inflicting collateral damage on bona fide users – a limitation that malicious actors take advantage of. To counter this tactic, security vendors must advance content-based analysis methodologies. Multi-stage AitM attack Consider a modern AitM phishing campaign that leverages Cloudflare Workers, a widely adopted cloud platform. The attackers execute the operation through multiple HTML pages distributed across a compromised website and the cloud platform. Each page serves a specific function: harvesting target email addresses, initializing the reverse-proxy infrastructure, or spoofing the login form to capture multi-factor authentication (MFA) sessions. Stage 1. Contact harvesting and network monitoring evasion The attack typically begins with a phishing email that uses a plausible pretext – such as a request from a coworker to review documents – to entice the target into clicking a malicious link. Upon clicking the link, the user is redirected to a fake CAPTCHA landing page hosted on a compromised legitimate website. This specific campaign used the https://t[REDACTED]e.com website, but any other variations are possible. In this scenario, the compromised page served as a disposable relay — vendor detection mechanisms typically block phishing links delivered directly via email much faster — to prevent the early discovery of the core phishing content hosted on Cloudflare. If the user entered their email address and clicked Continue, the pseudo-CAPTCHA marked them as a human user and initiated a redirect. The primary objective of this stage is to harvest target email addresses, filter out bots, and route legitimate users to a subdomain of workers.dev . Such subdomains are generated automatically and free of charge by Cloudflare Workers. The victim’s email address was embedded in the URL hash (the part of the URL following the # character), allowing the page at [REDACTED].workers.dev to extract the email without issuing a request to the attacker’s server, thereby avoiding detection. Stage 2. Initializing a transparent proxy The user’s browser then loaded a [RED
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **Kaspersky Securelist** (threat_research_primary)
   - Title: How legitimate cloud platforms enable phishers to bypass MFA
@@ -1535,6 +1551,11 @@ Table of Contents The cloud as a safe haven for phishers Multi-stage AitM attack
   - Published: 2026-07-29T16:00:00+00:00
   - Link: https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/
   - Summary: Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project. The post Tame Dependabot: Group your updates, slow the cadence, keep security fast appeared first on The GitHub Blog .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: New XCSSET variant targets macOS devs via compromised Xcode projects
+  - Published: 2026-08-04T19:03:09+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/
+  - Summary: A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: AI developers targeted via trojanized GitHub repositories
   - Published: 2026-08-04T14:10:32+00:00
@@ -1865,6 +1886,49 @@ Threat Research Center Threat Research Malware Malware Almost Half of Malware Sa
   - Link: https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/
   - Summary: Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats. The post Almost Half of Malware Samples Communicate Direct to IP appeared first on Unit 42 .
 
+### Cluster b9f78fb1fa — score 12
+
+- Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-08-04T17:54:04+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Microsoft Defender
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ransomware_extortion
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
+  - Published: 2026-08-04T17:54:04+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+  - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+
 ### Cluster ef0ff97611 — score 12
 
 - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
@@ -2115,6 +2179,46 @@ By Angelah Liu, Linux Foundation TL;DR: OpenSSF Community Day Europe 2026 (Octob
   - Link: https://openssf.org/blog/2026/07/29/openssf-community-day-europe-2026-schedule-highlights-what-to-expect/
   - Summary: OpenSSF Community Day Europe 2026 (October 6 in Prague), focuses on open source software security, regulatory compliance like the EU CRA, and AI supply chain risks. The one-day event features technical sessions on tools like VEX, Gemara, and Sigstore, offering direct collaboration with maintainers and security experts.
 
+### Cluster 7789c3b55d — score 11
+
+- Title: Researchers altered a forensic DNA evidence file in 45 minutes and the analysis software raised no warning (CVE-2026-17583)
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-08-04T14:54:47+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1vfcnuo/researchers_altered_a_forensic_dna_evidence_file/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-17583
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-17583
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-17583
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+Disclosure: I write a daily security newsletter, this was today's issue. The substance is below, link at the end. Thermo Fisher's July 31 bulletin covers CVE-2026-17583 (CVSS v4.0 8.2). The .fsa and .hid files from Applied Biosystems human identification instruments can be modified between the instrument writing them and the analysis software loading them, and the change is nearly undetectable. Nothing in the file let the software confirm the bytes were the ones the instrument wrote. Nathan Adams of Forensic Bioinformatics told the WSJ his first successful modification took about 45 minutes, merging scans from two DNA profiles into one file that presented as untouched since 2015. The updates add digital signatures, which only protects files written after the upgrade. The bulletin does not address retroactive validation, the researchers found no way to detect prior tampering, and these file types have been produced since 1995. Three end-of-life product lines get no update at all. Full w
+```
+
+#### Corroborating sources (2)
+
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Researchers altered a forensic DNA evidence file in 45 minutes and the analysis software raised no warning (CVE-2026-17583)
+  - Published: 2026-08-04T14:54:47+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1vfcnuo/researchers_altered_a_forensic_dna_evidence_file/
+  - Summary: Disclosure: I write a daily security newsletter, this was today's issue. The substance is below, link at the end. Thermo Fisher's July 31 bulletin covers CVE-2026-17583 (CVSS v4.0 8.2). The .fsa and .hid files from Applied Biosystems human identification instruments can be modified between the instrument writing them and the analysis software loading them, and the change is nearly undetectable. Nothing in the file let the software confirm the bytes were the ones the instrument wrote. Nathan Adams of Forensic Bioinformatics told the WSJ his first successful modification took about 45 minutes, merging scans from two DNA profiles into one file that presented as untouched since 2015. The updates add digital signatures, which only protects files written after the upgrade. The bulletin does not address retroactive validation, the researchers found no way to detect prior tampering, and these file types have been produced since 1995. Three end-of-life product lines get no update at all. Full w
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable
+  - Published: 2026-08-03T08:05:30+00:00
+  - Link: https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html
+  - Summary: Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented. Thermo Fisher tracks the issue as CVE-2026-17583 and rates it
+
 ### Cluster d1c29125d3 — score 10
 
 - Title: Pass the Passkey: A Novel Attack Surface in Passwordless Authentication
@@ -2198,6 +2302,55 @@ Threat Research Center Threat Research Vulnerabilities Vulnerabilities Chinese-S
   - Published: 2026-07-30T10:00:52+00:00
   - Link: https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/
   - Summary: Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .
+
+### Cluster fe05850866 — score 10
+
+- Title: 3rd August – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-08-03T13:15:55+00:00
+- Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, VMware
+- cve_ids: CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-59726, CVE-2026-63077
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
+- affected_products: Anthropic/Claude, VMware
+- cve_ids: CVE-2026-59726, CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-63077
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 3rd August – Threat Intelligence Report
+  - Published: 2026-08-03T13:15:55+00:00
+  - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster b00983247a — score 10
 
@@ -2371,54 +2524,44 @@ Table of Contents Introduction Technical details Modus operandi Initial Access D
   - Link: https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/
   - Summary: Kaspersky experts dissect GenieLocker: new custom ransomware variants for Windows, Linux, and ESXi systems. We found this family in attacks by Toy Ghouls, a financially motivated extortion group.
 
-### Cluster fe05850866 — score 10
+### Cluster d2bbfb6b89 — score 10
 
-- Title: 3rd August – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-08-03T13:15:55+00:00
-- Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
+- Title: Black Hat special: Rewind and revisit
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-30T10:00:08+00:00
+- Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, VMware
-- cve_ids: CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-59726, CVE-2026-63077
-- urgency_signals: actively_exploited, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
-- affected_products: Anthropic/Claude, VMware
-- cve_ids: CVE-2026-59726, CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-63077
-- urgency_signals: actively_exploited, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
+Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
 ```
 
 #### Full body
 
 ```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not
+Black Hat special: Rewind and revisit By Amy Ciminnisi Thursday, July 30, 2026 06:00 Humans of Talos Cybersecurity is rarely a straight line. In this special Black Hat edition of Humans of Talos, Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. From forensic labs and newsrooms to the kitchen line, we’re revisiting the stories and lessons that define the people behind the threat intelligence. Heading to Black Hat? We have a presence within the Cisco and Splunk booth (2633) during Black Hat where you can chat to us about our latest threat research and incident response, and grab the newest Snorty. Check out our schedule here . Want more episodes? Watch the full episode , and don’t forget to subscribe to our YouTube channel for the next Humans of Talos. Share this post Related Content Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons. Breaking things to keep them safe with Philippe Laulheret May 13, 2026 06:00 Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: 3rd August – Threat Intelligence Report
-  - Published: 2026-08-03T13:15:55+00:00
-  - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
+- **Cisco Talos** (threat_research_primary)
+  - Title: Black Hat special: Rewind and revisit
+  - Published: 2026-07-30T10:00:08+00:00
+  - Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
+  - Summary: Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
 
 ### Cluster 432a5ea542 — score 10
 
@@ -2581,45 +2724,6 @@ Security Validation Should Begin Where Attackers Begin Stephen Gates July 29, 20
   - Published: 2026-07-29T13:15:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/web-application-security-validation/
   - Summary: Modern attacks increasingly begin with web applications. Learn why security validation must extend beyond finding vulnerabilities to validating attack paths and real business impact.
-
-### Cluster d2bbfb6b89 — score 10
-
-- Title: Black Hat special: Rewind and revisit
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-30T10:00:08+00:00
-- Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
-```
-
-#### Full body
-
-```
-Black Hat special: Rewind and revisit By Amy Ciminnisi Thursday, July 30, 2026 06:00 Humans of Talos Cybersecurity is rarely a straight line. In this special Black Hat edition of Humans of Talos, Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. From forensic labs and newsrooms to the kitchen line, we’re revisiting the stories and lessons that define the people behind the threat intelligence. Heading to Black Hat? We have a presence within the Cisco and Splunk booth (2633) during Black Hat where you can chat to us about our latest threat research and incident response, and grab the newest Snorty. Check out our schedule here . Want more episodes? Watch the full episode , and don’t forget to subscribe to our YouTube channel for the next Humans of Talos. Share this post Related Content Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons. Breaking things to keep them safe with Philippe Laulheret May 13, 2026 06:00 Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Black Hat special: Rewind and revisit
-  - Published: 2026-07-30T10:00:08+00:00
-  - Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
-  - Summary: Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
 
 ### Cluster d737a53686 — score 10
 
@@ -3015,47 +3119,6 @@ Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agen
   - Link: https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything
   - Summary: We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident
 
-### Cluster 602e22dfe4 — score 9
-
-- Title: Long-Lived Vulnerability in Microsoft Secure Boot
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-07-29T11:01:09+00:00
-- Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: critical_infrastructure
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
-```
-
-#### Full body
-
-```
-Long-Lived Vulnerability in Microsoft Secure Boot Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them. Tags: firmware , Microsoft , vulnerabilities Posted on July 29, 2026 at 7:01 AM • 7 Comments
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Long-Lived Vulnerability in Microsoft Secure Boot
-  - Published: 2026-07-29T11:01:09+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html
-  - Summary: Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway. The images are known as shims , which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them..
-
 ### Cluster b138851666 — score 9
 
 - Title: Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
@@ -3440,51 +3503,6 @@ ExfilSquad hackers leak info of over 100,000 UK police officers, staff By Bill T
   - Link: https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/
   - Summary: A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]
 
-### Cluster 77794ad638 — score 8
-
-- Title: Amgen says cloud data breach exposed patient health, proprietary info
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-07-31T22:16:42+00:00
-- Link: https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, healthcare, legal_professional, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare, financial_services, manufacturing_industrial, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]
-```
-
-#### Full body
-
-```
-Amgen says cloud data breach exposed patient health, proprietary info By Lawrence Abrams July 31, 2026 06:16 PM 0 Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. Amgen is a California-based biotechnology company that develops and manufactures medicines for serious illnesses, including cancer, cardiovascular disease, inflammation, and rare diseases. The company said it detected the unauthorized activity in July 2026 and responded by activating its cybersecurity response plan, implementing containment measures, and hiring independent forensic experts to investigate the incident. The investigation found that the attackers stole sensitive data from the cloud environments. "The Company has since learned that some of its data, including proprietary data, patient protected health information, and other information, has been exfiltrated from these cloud environments," Amgen said in a Form 8-K filing with the SEC. The company is still determining whether additional information was accessed or stolen, including confidential business information, intellectual property, research and development data, and other patient information. Amgen has not disclosed which third-party cloud providers were involved, how the environments were compromised, how many people may have been affected, or whether the attack was linked to a known threat actor. On July 29, the company determined that the incident was material after evaluating the volume of potentially impacted files and the possibility that they contained sensitive information. However, Amgen currently does not believe the incident is reasonably likely to materially affect its financial condition or operating results. The company said it is continuing to investigate the breach with the assistance of third-party cybersecurity experts. Amgen added that it is evaluating legal and regulatory notification requirements and will notify impacted patients where required. BleepingComputer contacted Amgen to ask whether the breach involved a vishing attack targeting an employee's single sign-on account, which cloud services were affected, and whether the company has been contacted or extorted by threat actors claiming to be ShinyHunters. A response was not immediately available. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare West Pharmaceutical says hackers stole data, encrypted systems Data breach at medical billing firm MCBS affects 1.26 million people DentaQuest data breach exposed info of 2.6 million accounts Medtronic notifies customers impacted by ShinyHunters data breach
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Amgen says cloud data breach exposed patient health, proprietary info
-  - Published: 2026-07-31T22:16:42+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/
-  - Summary: Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]
-
 ### Cluster 911abb5be6 — score 8
 
 - Title: When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted
@@ -3677,3 +3695,40 @@ IBM Cost of a Data Breach Report warns that the global average cost of a data br
   - Published: 2026-07-29T11:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/cost-of-a-data-breach-5m-ibm/
   - Summary: IBM Cost of a Data Breach Report warns that the global average cost of a data breach has reached a record high of $4.99m – and AI-backed attacks have played a role
+
+### Cluster 8525c5166f — score 8
+
+- Title: Exploiting Zero Touch Provisioning (ZTP)
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-08-04T13:14:57+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1vfa1no/exploiting_zero_touch_provisioning_ztp/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+Our team has just published new research about exploiting Zero Touch Provisioning (ZTP), specifically targeting TP-Link's Omada ecosystem: https://www.forescout.com/research-labs/zero-touch-provisioning-is-a-fleet-scale-attack-vector/ The research discloses 15 new vulnerabilities and some extend beyond Omada into other TP-link product lines. What led us to do this research was the fact that we see many attacks against edge devices exploiting remote code execution for individual assets, but we wondered if there were additional flaws that could extend to a whole ecosystem of devices. The vulnerabilities have been fixed by TP-link and the research will be presented at Black Hat and DEF CON this week: https://blackhat.com/us-26/briefings/schedule/index.html#zero-day-provisioning-chaining-tp-link-ztp-vulnerabilities-for-infiltrating-networks-51879 Please stop by if you are attending either conference and let us know if you have any questions about this research. submitted by /u/danielrs_ [l
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Exploiting Zero Touch Provisioning (ZTP)
+  - Published: 2026-08-04T13:14:57+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1vfa1no/exploiting_zero_touch_provisioning_ztp/
+  - Summary: Our team has just published new research about exploiting Zero Touch Provisioning (ZTP), specifically targeting TP-Link's Omada ecosystem: https://www.forescout.com/research-labs/zero-touch-provisioning-is-a-fleet-scale-attack-vector/ The research discloses 15 new vulnerabilities and some extend beyond Omada into other TP-link product lines. What led us to do this research was the fact that we see many attacks against edge devices exploiting remote code execution for individual assets, but we wondered if there were additional flaws that could extend to a whole ecosystem of devices. The vulnerabilities have been fixed by TP-link and the research will be presented at Black Hat and DEF CON this week: https://blackhat.com/us-26/briefings/schedule/index.html#zero-day-provisioning-chaining-tp-link-ztp-vulnerabilities-for-infiltrating-networks-51879 Please stop by if you are attending either conference and let us know if you have any questions about this research. submitted by /u/danielrs_ [l
