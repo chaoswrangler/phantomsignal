@@ -6,9 +6,29 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 03 Aug 2026 23:10:03 +0000</lastBuildDate>
+<lastBuildDate>Tue, 04 Aug 2026 03:17:41 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts</title>
+<link>https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/</link>
+<description><![CDATA[Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]<br/><br/><em>Tags: Microsoft 365 · APT29</em>]]></description>
+<pubDate>Tue, 04 Aug 2026 00:17:15 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft 365</category>
+<category>APT29</category>
+</item>
+<item>
+<title>New Pass-ta-key attacks let malware hijack Google-synced passkeys</title>
+<link>https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/</link>
+<description><![CDATA[Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager&apos;s synced passkeys to take over accounts, bypass user verification, and extract passkey private keys. [...]]]></description>
+<pubDate>Mon, 03 Aug 2026 23:58:01 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category</title>
 <link>https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/</link>
@@ -445,7 +465,7 @@
 <item>
 <title>Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks</title>
 <link>https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/</link>
-<description><![CDATA[The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement. The post Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: SonicWall · Azure · CVE-2026-15409 · CVE-2026-15410 · ransomware_extortion · data_breach · web_shell_backdoor · active_exploitation</em>]]></description>
+<description><![CDATA[The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement. The post Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: SonicWall · Azure · CVE-2026-15409 · CVE-2026-15410 · ransomware_extortion · data_breach · apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Mon, 03 Aug 2026 10:39:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
@@ -494,15 +514,6 @@
 <pubDate>Mon, 03 Aug 2026 09:13:56 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States</title>
-<link>https://www.securityweek.com/us-water-cyberattacks-extend-beyond-minnesota-to-at-least-6-other-states/</link>
-<description><![CDATA[Michigan, South Dakota, and Georgia are reportedly on the list of states whose water systems have been targeted by Iran-linked hackers. The post US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States appeared first on SecurityWeek .]]></description>
-<pubDate>Mon, 03 Aug 2026 08:48:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/us-water-cyberattacks-extend-beyond-minnesota-to-at-least-6-other-states/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -813,15 +824,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Hacker uses DeepSeek AI to autonomously attack vulnerable servers</title>
-<link>https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/</link>
-<description><![CDATA[A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]]]></description>
-<pubDate>Fri, 31 Jul 2026 17:35:35 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Anthropic’s Opus 5 Is Better at Resisting Prompt Injection</title>
 <link>https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html</link>
 <description><![CDATA[The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 also outperformed all non-Claude models on this benchmark. The most robust non-Claude model was Muse Spark at 16.5% within 15 attempts—more than eight times Opus 5’s rate. The most capable GPT 5.6 variant, Sol, was comparable to its predecessor GPT 5.5 (20.0% versus 20.8% within 15 attempts), and was 10 times as likely to be successfully attacked as Claude Opus 5 at 2.0%. The other GPT 5.6 variants are less robust, at 30.4% (Terra) and 43.9% (Luna). A single attempt against GPT 5.6 Sol succeeded 3.1% of the time, higher than the 2.0% an attacker achieved against Opus 5 after fifteen attempts...<br/><br/><em>Tags: Anthropic/Claude · ai_security</em>]]></description>
@@ -831,15 +833,6 @@
 <category>practitioner_analysis</category>
 <category>Anthropic/Claude</category>
 <category>ai_security</category>
-</item>
-<item>
-<title>CISA warns of cyberattacks disrupting U.S. water utilities</title>
-<link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector. [...]]]></description>
-<pubDate>Fri, 31 Jul 2026 16:49:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm</title>
@@ -1090,11 +1083,14 @@
 <item>
 <title>Max-severity Exchange server flaw under active exploitation by Kremlin hackers</title>
 <link>https://www.proofpoint.com/us/newsroom/news/max-severity-exchange-server-flaw-under-active-exploitation-kremlin-hackers</link>
-<description><![CDATA[]]></description>
+<description><![CDATA[<br/><br/><em>Tags: CVE-2026-42897 · zero_day · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 30 Jul 2026 19:01:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/max-severity-exchange-server-flaw-under-active-exploitation-kremlin-hackers</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
+<category>CVE-2026-42897</category>
+<category>zero_day</category>
+<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware</title>
@@ -1263,12 +1259,13 @@
 <item>
 <title>CosmosEscape: Taking Over Every Database in Azure Cosmos DB</title>
 <link>https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db</link>
-<description><![CDATA[A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.<br/><br/><em>Tags: Azure</em>]]></description>
+<description><![CDATA[A critical vulnerability chain in Azure Cosmos DB enabled full read and write access to every Cosmos DB database.<br/><br/><em>Tags: Azure · Microsoft/Copilot</em>]]></description>
 <pubDate>Thu, 30 Jul 2026 12:00:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
 <category>Azure</category>
+<category>Microsoft/Copilot</category>
 </item>
 <item>
 <title>Teams-Themed Phishing Campaign Abused Legitimate Microsoft Login Pages</title>
@@ -1810,7 +1807,7 @@
 <item>
 <title>Just 1% of AI-Discovered Vulnerabilities Exploited in the Wild, Research Shows</title>
 <link>https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/</link>
-<description><![CDATA[For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said<br/><br/><em>Tags: WordPress · OpenAI/ChatGPT · Anthropic/Claude · phishing_social_eng · zero_day · mfa_bypass · active_exploitation</em>]]></description>
+<description><![CDATA[For now, the use of AI benefits vulnerability research more than vulnerability exploitation, a VulnCheck researcher said<br/><br/><em>Tags: WordPress · OpenAI/ChatGPT · Anthropic/Claude · zero_day · active_exploitation</em>]]></description>
 <pubDate>Wed, 29 Jul 2026 10:15:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/one-percent-ai-vulnerabilities/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
@@ -1818,7 +1815,7 @@
 <category>WordPress</category>
 <category>OpenAI/ChatGPT</category>
 <category>Anthropic/Claude</category>
-<category>phishing_social_eng</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass</title>
@@ -1937,17 +1934,6 @@
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident</title>
-<link>https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything</link>
-<description><![CDATA[Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI&apos;s recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches. We&apos;re still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog&apos;s Artifactor, and JFrog and OpenAI Collaboration on Zero-Day Security Findings from JFrog links to the Artifactory 7.161.15 release notes which list 8 separate CVEs credited to OpenAI staff members. Having broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack: [...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permi<br/><br/><em>Tags: OpenAI/ChatGPT · zero_day</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 21:28:54 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-<category>OpenAI/ChatGPT</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Thousands of Data Center Controllers Open to Takeover</title>
@@ -2201,13 +2187,13 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>AutoIT Payload Injector , (Tue, Jul 28th)</title>
-<link>https://isc.sans.edu/diary/rss/33192</link>
-<description><![CDATA[For a long time, AutoIT[ 1 ] has been pretty common in the malware ecosystem. Threat actors still use it because it&apos;s easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you&apos;ll see below.]]></description>
-<pubDate>Tue, 28 Jul 2026 07:42:27 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33192</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
+<title>OFAC Sanctions Members of Hamas Financing Network</title>
+<link>https://www.chainalysis.com/blog/ofac-sanctions-hamas-facilitators-illicit-finance-july-2026/</link>
+<description><![CDATA[Summary OFAC designated Zaid Issam Ahmed al-Jebouri, an Iraqi national based in Istanbul, and two associates as Specially Designated Global… The post OFAC Sanctions Members of Hamas Financing Network appeared first on Chainalysis .]]></description>
+<pubDate>Tue, 28 Jul 2026 02:40:06 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/ofac-sanctions-hamas-facilitators-illicit-finance-july-2026/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>AI Agent Drives Espionage Attack on Thai Ministry of Finance</title>
@@ -2442,15 +2428,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
-<link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
-<description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
-<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Detection primitives for eBPF rootkits</title>
 <link>https://securitylabs.datadoghq.com/articles/detection-primitives-for-ebpf-rootkits/</link>
 <description><![CDATA[We analyze how VoidLink, LinkPro, and Atomic Arch abuse eBPF helpers to hide from defenders, and show how to detect them at load time, before they can act.]]></description>
@@ -2458,6 +2435,15 @@
 <guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/detection-primitives-for-ebpf-rootkits/</guid>
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
+<link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
+<description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
+<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Sponsored: How AI is putting pressure on EDR</title>
@@ -3121,16 +3107,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/trickbot-dns-tunneling-c2/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>I was reporter #11 for a WPForms PayPal webhook vulnerability (CVE-2026-4986)</title>
-<link>https://www.reddit.com/r/netsec/comments/1v3i9il/i_was_reporter_11_for_a_wpforms_paypal_webhook/</link>
-<description><![CDATA[I found and reported an authentication failure in the WPForms PayPal Commerce webhook, the webhook route being public was not the vulnerability as webhooks have to be publicly reachable so that PayPal can deliver events. The problem was what happened after the request arrived. In affected versions, the handler could process a supported event before establishing that PayPal was actually the sender. In my local lab, a forged event could change the state of a matching payment record. The expected order is: Authenticate the sender Validate the event Change payment state The affected flow effectively performed steps 2 and 3 without first completing step 1. The issue was fixed in WPForms 1.10.0.5 and is tracked as CVE-2026-4986. Then came the part I found more interesting: triage told me I was reporter #11. That number does not prove exploitation, and it does not tell us the total number of people who found the vulnerability. It does establish a lower bound: at least eleven researchers indep<br/><br/><em>Tags: CVE-2026-4986</em>]]></description>
-<pubDate>Wed, 22 Jul 2026 14:46:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v3i9il/i_was_reporter_11_for_a_wpforms_paypal_webhook/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-4986</category>
 </item>
 <item>
 <title>Opening the Black Box: Agentless Threat Detection for Virtual Appliances</title>
@@ -5245,15 +5221,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>ClickFix to Cash-Out: Anatomy of a Mexican Banking-Fraud Toolkit</title>
-<link>https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045</link>
-<description><![CDATA[Elastic Security Labs tracks REF6045, an active operator-assisted banking fraud operation targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges.]]></description>
-<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Coordinated GitHub API enumeration and access token abuse</title>
 <link>https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/</link>
 <description><![CDATA[Datadog Security Research has tracked multiple coordinated campaigns enumerating GitHub organizations, repositories, and users through the public GitHub API, abusing leaked access tokens, and cloning private repositories.]]></description>
@@ -5261,6 +5228,15 @@
 <guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/</guid>
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>ClickFix to Cash-Out: Anatomy of a Mexican Banking-Fraud Toolkit</title>
+<link>https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045</link>
+<description><![CDATA[Elastic Security Labs tracks REF6045, an active operator-assisted banking fraud operation targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges.]]></description>
+<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation</title>
@@ -8105,15 +8081,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence</title>
-<link>https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence</link>
-<description><![CDATA[Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.]]></description>
-<pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>The case for GitHub Actions security after recent supply chain attacks</title>
 <link>https://securitylabs.datadoghq.com/articles/case-for-github-actions-security/</link>
 <description><![CDATA[GitHub Actions workflows are vulnerable to pwn requests, script injection, and compromised credentials. Here&apos;s what&apos;s going wrong and what&apos;s changing.<br/><br/><em>Tags: GitHub · supply_chain</em>]]></description>
@@ -8123,6 +8090,15 @@
 <category>cloud_identity_infrastructure</category>
 <category>GitHub</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence</title>
+<link>https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence</link>
+<description><![CDATA[Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.]]></description>
+<pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Security briefing: May 2026</title>
@@ -13938,15 +13914,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>What we know about Iran’s Internet shutdown</title>
-<link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
-<description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
-<pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/iran-protests-internet-shutdown/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>How threat actors are using self-hosted GitHub Actions runners as backdoors</title>
 <link>https://webflow.sysdig.com/blog/how-threat-actors-are-using-self-hosted-github-actions-runners-as-backdoors</link>
 <description><![CDATA[Using Shai-Hulud as a case study, explore how attackers can abuse GitHub&apos;s self-hosted runner infrastructure to establish persistent remote access.<br/><br/><em>Tags: GitHub</em>]]></description>
@@ -13955,6 +13922,15 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>GitHub</category>
+</item>
+<item>
+<title>What we know about Iran’s Internet shutdown</title>
+<link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
+<description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
+<pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/iran-protests-internet-shutdown/</guid>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Filtering Noise in (Cyber)Space</title>
@@ -19255,7 +19231,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19264,7 +19240,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19273,7 +19249,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19282,7 +19258,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19291,7 +19267,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19300,7 +19276,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19309,7 +19285,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19318,7 +19294,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19327,7 +19303,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19337,7 +19313,7 @@
 <title>Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 03 Aug 2026 23:10:03 +0000</pubDate>
+<pubDate>Tue, 04 Aug 2026 03:17:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
