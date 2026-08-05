@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-04T22:18:26.896278+00:00",
+  "generated_at": "2026-08-05T00:10:21.990341+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 75,
-  "total_items_in_window": 365,
-  "total_clusters_raw": 150,
-  "total_clusters_in_packet": 60,
+  "total_items_in_window": 366,
+  "total_clusters_raw": 148,
+  "total_clusters_in_packet": 58,
   "dropped_low_score": 90,
   "dropped_overflow": 0,
   "cohort_metadata": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -95,19 +88,19 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 1
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -123,27 +116,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -151,33 +123,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -186,12 +137,75 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 2
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -214,27 +228,6 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -247,6 +240,20 @@
       "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -263,13 +270,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -282,7 +282,14 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 8
+      "in_window_count": 7
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -305,19 +312,12 @@
       "item_count": 20,
       "in_window_count": 11
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -326,19 +326,12 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -354,11 +347,11 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Sysdig": {
@@ -368,33 +361,19 @@
       "item_count": 100,
       "in_window_count": 5
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 8
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -403,11 +382,11 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 2
     },
     "Chainalysis": {
@@ -417,12 +396,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -431,6 +424,13 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -438,12 +438,12 @@
       "item_count": 20,
       "in_window_count": 20
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -452,12 +452,12 @@
       "item_count": 30,
       "in_window_count": 29
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 10
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -473,13 +473,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 25
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -487,12 +480,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 50,
+      "in_window_count": 25
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -508,6 +501,13 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -522,6 +522,20 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 25
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -529,8 +543,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -543,20 +557,6 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
@@ -564,8 +564,8 @@
       "item_count": 50,
       "in_window_count": 50
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -576,21 +576,21 @@
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 1
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 25
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 17
+      "in_window_count": 18
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -631,7 +631,7 @@
   "clusters": [
     {
       "cluster_id": "65ab16fa91",
-      "priority_score": 58,
+      "priority_score": 57,
       "member_count": 5,
       "corroborating_source_count": 4,
       "strong_signals": [
@@ -1985,8 +1985,8 @@
     {
       "cluster_id": "974cdece8d",
       "priority_score": 23,
-      "member_count": 11,
-      "corroborating_source_count": 7,
+      "member_count": 12,
+      "corroborating_source_count": 8,
       "strong_signals": [
         "OpenAI/ChatGPT"
       ],
@@ -2180,6 +2180,38 @@
           }
         },
         {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+          "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+          "published": "2026-08-04T23:39:59+00:00",
+          "summary": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people outside the intended testing boundaries. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
           "source": "Simon Willison",
           "cohort": "ai_security_agentic_risk",
           "title": "July 2026 newsletter",
@@ -2212,16 +2244,17 @@
         {
           "source": "CyberScoop",
           "cohort": "cyber_news_breach_reporting",
-          "title": "What the Hugging Face breach reveals about defense in the age of agentic AI",
-          "link": "https://cyberscoop.com/hugging-face-breach-agentic-ai-security-op-ed/",
-          "published": "2026-07-31T10:00:00+00:00",
-          "summary": "We almost never get both sides of an intrusion. This time we did. Last month, Hugging Face disclosed a breach into part of its production infrastructure, saying an autonomous AI agent system ran the attack from start to finish. Five days later, OpenAI revealed that its own models, including GPT-5.6 Sol along with an unreleased […] The post What the Hugging Face breach reveals about defense in the age of agentic AI appeared first on CyberScoop .",
+          "title": "AISI, OpenAI report more ‘unsanctioned’ model hacks",
+          "link": "https://cyberscoop.com/aisi-openai-report-unsanctioned-ai-model-hacks/",
+          "published": "2026-08-04T22:46:25+00:00",
+          "summary": "Following similar reports by OpenAI and Anthropic, the UK’s top AI testing lab and a private cybersecurity tester say their models exploited parts of the open internet. The post AISI, OpenAI report more ‘unsanctioned’ model hacks appeared first on CyberScoop .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "OpenAI/ChatGPT"
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
             ],
             "tools_used": [],
             "cve_ids": [],
@@ -2230,7 +2263,8 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "OpenAI/ChatGPT": "target"
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -2268,312 +2302,10 @@
       ]
     },
     {
-      "cluster_id": "b77a2db924",
-      "priority_score": 18,
-      "member_count": 8,
-      "corroborating_source_count": 7,
-      "strong_signals": [
-        "npm"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "phishing_social_eng",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "AWS",
-          "Anthropic/Claude",
-          "GitHub",
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_3_analysis",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Wiz Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "keyv and cacheable npm Package Hijacked in Supply Chain Attack",
-        "link": "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
-        "published": "2026-08-04T11:25:22+00:00",
-        "summary": "Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple keyv/cacheable npm packages.",
-        "full_body": "Wiz Pricing Get a demo Get a demo Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple npm packages in the Keyv / Cacheable ecosystem. This blog presents our initial findings based on the analysis completed so far. As our investigation continues, we will update this post with additional technical details, indicators of compromise, attribution insights, and any newly identified affected packages or infrastructure. August 4, 2026, 1345 UTC update: Many additional packages have been compromised, see the full list over on our GitHub . Wiz identified the user-agent Bun/1.3.13 performing malicious calls related to this activity, and added it to the IOCs section. August 4, 2026, 1500 UTC update: Added analysis of the malware's use of an Ethereum smart contract to dynamically retrieve C2 domains. August 4, 2026, 1525 UTC update: Added prevalence data on compromised packages (to date). August 4, 2026, 1950 UTC update: Added additional breakdown of the payload. What happened? Multiple npm packages in the keyv / cacheable ecosystem were compromised following the compromise of a GitHub maintainer account, resulting in the publication of malicious package versions. All versions shared a consistent payload. Starting at 9:00 UTC, the attacker first used a compromised identity to introduce IDE persistence payloads to the keyv repository, and then shortly after published a new version of keyv containing their payload. This worm has since propagated to over 400 distinct npm packages . Package prevalence Wiz analysis indicates the payload is a descendant of the \"Mini\" Shai-Hulud malware family , therefor sharing similarities with the TeamPCP and antv supply chain campaigns . Payload This is not an entirely novel payload. It is heavily based on the public \"Mini\" Shai-Hulud-Open-Source repositories published by TeamPCP, with a few crucial changes. As in the original open sourced code, the malware targets a broad range of sensitive data, including cloud credentials, infrastructure secrets, developer credentials, AI-related configuration files, and cryptocurrency wallets. It also attempts to harvest secrets from CI/CD environments, identify build runners, and enumerate cloud environments to facilitate credential theft and further compromise. Persistence is attempted via Claude Code hooks and VS Code tasks.json . Data is exfiltrated via GitHub repositories created under compromised identities, using the default description Shai-Hulud: Here We Go Again . The following changes and new features have been identified: A new intimidation string is used in the initial commits, IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients . On commits introducing IDE hooks to repositories for persistence, a minor change has been made to the commit message, which is now chore: update config . The operator has provided a new RSA key, used to encrypt exfiltrated data. However, the RSA key used to verify fallback C2s posted to GitHub has not been changed. The lock file used by the payload has been updated to tmp.dpkg_14527.lock . The dead-man's switch has been updated to be selectively armed based on response from the C2. The C2 can respond with a code value that can specify a command to arm the dead-man switch and specify the token that the switch should monitor for revocation. The revocation monitor is set up to look for a valid response from api.github.com/user , so any type of token that is valid there can be used. The malware added the feature of sending a unique value for each machine alongside the exfiltrated credentials. This value is a SHA256 hash of a concatenated list of system properties. We believe that this is likely to enable targeted delivery of customized dead-man switch values. The malware now retrieves its command-and-control (C2) domains from an Ethereum smart contract ( StringListStore ) using an eth_call , rather than embedding them in the payload. This allows the operator to upda",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "credential_theft"
-          ],
-          "actor_attribution": [
-            "TeamPCP"
-          ],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "npm",
-            "GitHub",
-            "Anthropic/Claude"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "npm": "target",
-            "GitHub": "target",
-            "Anthropic/Claude": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Wiz Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "keyv and cacheable npm Package Hijacked in Supply Chain Attack",
-          "link": "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
-          "published": "2026-08-04T11:25:22+00:00",
-          "summary": "Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple keyv/cacheable npm packages.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "credential_theft"
-            ],
-            "actor_attribution": [
-              "TeamPCP"
-            ],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "npm",
-              "GitHub",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "npm": "target",
-              "GitHub": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks",
-          "link": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
-          "published": "2026-07-29T21:00:12+00:00",
-          "summary": "Amazon is sharing new findings about how a threat actor linked to the Democratic People’s Republic of Korea (DPRK) is targeting open source software libraries, the shared building blocks that companies around the world use to develop applications. Amazon Threat Intelligence has linked several recent compromises of popular Node Package Manager (NPM) libraries to the […]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
-          "link": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
-          "published": "2026-08-04T15:24:35+00:00",
-          "summary": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Worm compromises hundreds of popular npm packages",
-          "link": "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
-          "published": "2026-08-04T00:00:00+00:00",
-          "summary": "On August 4, 2026, several popular npm packages, including 'keyv', were compromised to deliver malware.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-          "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-          "published": "2026-08-03T18:43:53+00:00",
-          "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is \"lib-mtop,\" an unscoped package with the same name as a private Alibaba package",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "AWS Blames North Korean Group for Axios and Other npm Supply Chain Attacks",
-          "link": "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
-          "published": "2026-07-31T09:50:00+00:00",
-          "summary": "AWS has linked North Korea to the axios campaign to other attacks on npm libraries",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm",
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "npm": "target",
-              "AWS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: Anthropic models also did the hacky-hacky",
-          "link": "https://risky.biz/RBNEWS595/",
-          "published": "2026-08-03T03:52:50+00:00",
-          "summary": "Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {
-              "npm": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b1e900a5a7",
       "priority_score": 18,
-      "member_count": 8,
-      "corroborating_source_count": 7,
+      "member_count": 9,
+      "corroborating_source_count": 8,
       "strong_signals": [
         "Anthropic/Claude",
         "CVE-2026-5674"
@@ -2588,7 +2320,8 @@
         ],
         "affected_products": [
           "Anthropic/Claude",
-          "GitHub"
+          "GitHub",
+          "npm"
         ],
         "tools_used": [],
         "cve_ids": [
@@ -2763,17 +2496,18 @@
           }
         },
         {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
-          "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
-          "published": "2026-08-03T20:31:12+00:00",
-          "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Anthropic models also did the hacky-hacky",
+          "link": "https://risky.biz/RBNEWS595/",
+          "published": "2026-08-03T03:52:50+00:00",
+          "summary": "Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
+              "npm",
               "Anthropic/Claude"
             ],
             "tools_used": [],
@@ -2781,8 +2515,9 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
+            "confidence_tier": "tier_3_analysis",
             "role_map": {
+              "npm": "target",
               "Anthropic/Claude": "target"
             },
             "weak_tags": {
@@ -2791,12 +2526,12 @@
           }
         },
         {
-          "source": "The Hacker News",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-          "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-          "published": "2026-07-31T06:41:44+00:00",
-          "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge. The AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a \"",
+          "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
+          "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
+          "published": "2026-08-03T20:31:12+00:00",
+          "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2845,12 +2580,40 @@
               "products": []
             }
           }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+          "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+          "published": "2026-07-31T06:41:44+00:00",
+          "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge. The AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a \"",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
         }
       ]
     },
     {
       "cluster_id": "d2343c3939",
-      "priority_score": 18,
+      "priority_score": 17,
       "member_count": 4,
       "corroborating_source_count": 4,
       "strong_signals": [
@@ -3351,8 +3114,366 @@
       ]
     },
     {
-      "cluster_id": "ad2bf1153f",
+      "cluster_id": "b77a2db924",
       "priority_score": 15,
+      "member_count": 7,
+      "corroborating_source_count": 6,
+      "strong_signals": [
+        "npm"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "phishing_social_eng",
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "TeamPCP"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "AWS",
+          "Anthropic/Claude",
+          "GitHub",
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Wiz Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "keyv and cacheable npm Package Hijacked in Supply Chain Attack",
+        "link": "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
+        "published": "2026-08-04T11:25:22+00:00",
+        "summary": "Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple keyv/cacheable npm packages.",
+        "full_body": "Wiz Pricing Get a demo Get a demo Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple npm packages in the Keyv / Cacheable ecosystem. This blog presents our initial findings based on the analysis completed so far. As our investigation continues, we will update this post with additional technical details, indicators of compromise, attribution insights, and any newly identified affected packages or infrastructure. August 4, 2026, 1345 UTC update: Many additional packages have been compromised, see the full list over on our GitHub . Wiz identified the user-agent Bun/1.3.13 performing malicious calls related to this activity, and added it to the IOCs section. August 4, 2026, 1500 UTC update: Added analysis of the malware's use of an Ethereum smart contract to dynamically retrieve C2 domains. August 4, 2026, 1525 UTC update: Added prevalence data on compromised packages (to date). August 4, 2026, 1950 UTC update: Added additional breakdown of the payload. What happened? Multiple npm packages in the keyv / cacheable ecosystem were compromised following the compromise of a GitHub maintainer account, resulting in the publication of malicious package versions. All versions shared a consistent payload. Starting at 9:00 UTC, the attacker first used a compromised identity to introduce IDE persistence payloads to the keyv repository, and then shortly after published a new version of keyv containing their payload. This worm has since propagated to over 400 distinct npm packages . Package prevalence Wiz analysis indicates the payload is a descendant of the \"Mini\" Shai-Hulud malware family , therefor sharing similarities with the TeamPCP and antv supply chain campaigns . Payload This is not an entirely novel payload. It is heavily based on the public \"Mini\" Shai-Hulud-Open-Source repositories published by TeamPCP, with a few crucial changes. As in the original open sourced code, the malware targets a broad range of sensitive data, including cloud credentials, infrastructure secrets, developer credentials, AI-related configuration files, and cryptocurrency wallets. It also attempts to harvest secrets from CI/CD environments, identify build runners, and enumerate cloud environments to facilitate credential theft and further compromise. Persistence is attempted via Claude Code hooks and VS Code tasks.json . Data is exfiltrated via GitHub repositories created under compromised identities, using the default description Shai-Hulud: Here We Go Again . The following changes and new features have been identified: A new intimidation string is used in the initial commits, IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients . On commits introducing IDE hooks to repositories for persistence, a minor change has been made to the commit message, which is now chore: update config . The operator has provided a new RSA key, used to encrypt exfiltrated data. However, the RSA key used to verify fallback C2s posted to GitHub has not been changed. The lock file used by the payload has been updated to tmp.dpkg_14527.lock . The dead-man's switch has been updated to be selectively armed based on response from the C2. The C2 can respond with a code value that can specify a command to arm the dead-man switch and specify the token that the switch should monitor for revocation. The revocation monitor is set up to look for a valid response from api.github.com/user , so any type of token that is valid there can be used. The malware added the feature of sending a unique value for each machine alongside the exfiltrated credentials. This value is a SHA256 hash of a concatenated list of system properties. We believe that this is likely to enable targeted delivery of customized dead-man switch values. The malware now retrieves its command-and-control (C2) domains from an Ethereum smart contract ( StringListStore ) using an eth_call , rather than embedding them in the payload. This allows the operator to upda",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "credential_theft"
+          ],
+          "actor_attribution": [
+            "TeamPCP"
+          ],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "npm",
+            "GitHub",
+            "Anthropic/Claude"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "npm": "target",
+            "GitHub": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Wiz Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "keyv and cacheable npm Package Hijacked in Supply Chain Attack",
+          "link": "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
+          "published": "2026-08-04T11:25:22+00:00",
+          "summary": "Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple keyv/cacheable npm packages.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "credential_theft"
+            ],
+            "actor_attribution": [
+              "TeamPCP"
+            ],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "npm",
+              "GitHub",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "npm": "target",
+              "GitHub": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "AWS Security Blog",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks",
+          "link": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
+          "published": "2026-07-29T21:00:12+00:00",
+          "summary": "Amazon is sharing new findings about how a threat actor linked to the Democratic People’s Republic of Korea (DPRK) is targeting open source software libraries, the shared building blocks that companies around the world use to develop applications. Amazon Threat Intelligence has linked several recent compromises of popular Node Package Manager (NPM) libraries to the […]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
+          "link": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+          "published": "2026-08-04T15:24:35+00:00",
+          "summary": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Worm compromises hundreds of popular npm packages",
+          "link": "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
+          "published": "2026-08-04T00:00:00+00:00",
+          "summary": "On August 4, 2026, several popular npm packages, including 'keyv', were compromised to deliver malware.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "AWS Blames North Korean Group for Axios and Other npm Supply Chain Attacks",
+          "link": "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
+          "published": "2026-07-31T09:50:00+00:00",
+          "summary": "AWS has linked North Korea to the axios campaign to other attacks on npm libraries",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm",
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "npm": "target",
+              "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+          "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+          "published": "2026-08-03T18:43:53+00:00",
+          "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is \"lib-mtop,\" an unscoped package with the same name as a private Alibaba package",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "854ba4d3df",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Dealing with AI-Generated Extortion",
+        "link": "https://www.recordedfuture.com/blog/ai-generated-extortion",
+        "published": "2026-07-30T00:00:00+00:00",
+        "summary": "Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.",
+        "full_body": "Dealing with AI-Generated Extortion Proving a Negative How do you prove a negative in cybersecurity? How do you prove that you weren’t attacked, or that there is no intruder in your network? These are questions that security teams have been forced to ask for a while, but there is a new question that is becoming increasingly common: How do you prove that files weren’t stolen from your network? Or, even more of a challenge, how do you prove that files weren’t stolen from your partners, vendors, or their partners or vendors? This is a surprisingly challenging question to answer. Finding the answer is also more difficult because data governance has not been the traditional purview of security teams. Data governance has long been thought of as a compliance problem, unfortunately that is no longer the case. Security teams are now, whether they want to be or not, need to consider data governance. This means they have to be able to confidently say whether leaked data is real or not. How do you do that? History of Ransomware What we call ransomware has evolved over the years. Ransomware has gone from largely focused on encryption to a combination of encryption and data theft to today’s reality where data theft alone is the most common version of a “ransomware” attack. Threat actors have figured out that managing encryption keys is challenging, stealing data and holding it hostage is significantly easier. They’ve also figured out that stealing the right data can be just as profitable as encryption and, as we’ve seen from ransomware trends, switching to data theft only allows groups to accelerate the number of attacks. Compare the number of victims from 2024 to 2025 in the Recorded Future® Ransomware dashboard with a noticeable rise in ransomware trends. Figure 1: Rise in ransomware trends increasing from 2024 to 2025 (Source: Recorded Future) Enter 0APT If data theft is easier than encryption, then just making up data using generative AI is even easier than that. Which is what we saw with “0APT” (their name, not a designation that Recorded Future provided), who created a list of victims that were completely made up, including fake leaked data. From Insikt Group® reporting at the time: In late January 2026, Insikt Group reported the launch of 0APT Blog, an extortion blog operated by 0APT Ransomware Group, which allegedly runs an affiliate program via its ransomware-as-a-service (RaaS) model. As of February 5, 2026, the extortion blog listed 61 breached victims, with operators stating they planned to leak an additional 115 victims located in multiple countries and operating across various sectors and industries. Insikt Group identified multiple reports regarding the functionality of 0APT ransomware and listed victims, indicating that the ransomware is fake and that all their victims listed on the blog were AI-generated. Among the primary reasons discussed include: Multiple uploaded files were empty. Low-programming practices, including a combination of AI-generated scripts and unprofessional web development. Source code analysis found that some comments were in Hindi and Urdu, which likely indicates that the operators of 0APT ransomware are based in Southern Asia, while the majority of top-tier ransomware groups primarily operate from Russia or a nation within the Commonwealth of Independent States (CIS). Such a large number of victims compromised within a very short period can be carried out by a well-established, organized ransomware group; however, 0APT Blog states that the threat group is currently recruiting penetration testers with network access to join their RaaS affiliate program. 0APT is not alone; other groups are starting to latch on to this trend (ransomware groups are really good at copying each other). ALP-001 is another threat group that surfaced in March with questionable data that may have been AI-generated. According to Reliaquest reporting at the time: The main significance of 0APT and ALP-001 is not that they’re estab",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Dealing with AI-Generated Extortion",
+          "link": "https://www.recordedfuture.com/blog/ai-generated-extortion",
+          "published": "2026-07-30T00:00:00+00:00",
+          "summary": "Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ad2bf1153f",
+      "priority_score": 14,
       "member_count": 2,
       "corroborating_source_count": 2,
       "strong_signals": [
@@ -3475,93 +3596,6 @@
             "role_map": {
               "Atlassian Jira": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "854ba4d3df",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Dealing with AI-Generated Extortion",
-        "link": "https://www.recordedfuture.com/blog/ai-generated-extortion",
-        "published": "2026-07-30T00:00:00+00:00",
-        "summary": "Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.",
-        "full_body": "Dealing with AI-Generated Extortion Proving a Negative How do you prove a negative in cybersecurity? How do you prove that you weren’t attacked, or that there is no intruder in your network? These are questions that security teams have been forced to ask for a while, but there is a new question that is becoming increasingly common: How do you prove that files weren’t stolen from your network? Or, even more of a challenge, how do you prove that files weren’t stolen from your partners, vendors, or their partners or vendors? This is a surprisingly challenging question to answer. Finding the answer is also more difficult because data governance has not been the traditional purview of security teams. Data governance has long been thought of as a compliance problem, unfortunately that is no longer the case. Security teams are now, whether they want to be or not, need to consider data governance. This means they have to be able to confidently say whether leaked data is real or not. How do you do that? History of Ransomware What we call ransomware has evolved over the years. Ransomware has gone from largely focused on encryption to a combination of encryption and data theft to today’s reality where data theft alone is the most common version of a “ransomware” attack. Threat actors have figured out that managing encryption keys is challenging, stealing data and holding it hostage is significantly easier. They’ve also figured out that stealing the right data can be just as profitable as encryption and, as we’ve seen from ransomware trends, switching to data theft only allows groups to accelerate the number of attacks. Compare the number of victims from 2024 to 2025 in the Recorded Future® Ransomware dashboard with a noticeable rise in ransomware trends. Figure 1: Rise in ransomware trends increasing from 2024 to 2025 (Source: Recorded Future) Enter 0APT If data theft is easier than encryption, then just making up data using generative AI is even easier than that. Which is what we saw with “0APT” (their name, not a designation that Recorded Future provided), who created a list of victims that were completely made up, including fake leaked data. From Insikt Group® reporting at the time: In late January 2026, Insikt Group reported the launch of 0APT Blog, an extortion blog operated by 0APT Ransomware Group, which allegedly runs an affiliate program via its ransomware-as-a-service (RaaS) model. As of February 5, 2026, the extortion blog listed 61 breached victims, with operators stating they planned to leak an additional 115 victims located in multiple countries and operating across various sectors and industries. Insikt Group identified multiple reports regarding the functionality of 0APT ransomware and listed victims, indicating that the ransomware is fake and that all their victims listed on the blog were AI-generated. Among the primary reasons discussed include: Multiple uploaded files were empty. Low-programming practices, including a combination of AI-generated scripts and unprofessional web development. Source code analysis found that some comments were in Hindi and Urdu, which likely indicates that the operators of 0APT ransomware are based in Southern Asia, while the majority of top-tier ransomware groups primarily operate from Russia or a nation within the Commonwealth of Independent States (CIS). Such a large number of victims compromised within a very short period can be carried out by a well-established, organized ransomware group; however, 0APT Blog states that the threat group is currently recruiting penetration testers with network access to join their RaaS affiliate program. 0APT is not alone; other groups are starting to latch on to this trend (ransomware groups are really good at copying each other). ALP-001 is another threat group that surfaced in March with questionable data that may have been AI-generated. According to Reliaquest reporting at the time: The main significance of 0APT and ALP-001 is not that they’re estab",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Dealing with AI-Generated Extortion",
-          "link": "https://www.recordedfuture.com/blog/ai-generated-extortion",
-          "published": "2026-07-30T00:00:00+00:00",
-          "summary": "Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4179,81 +4213,6 @@
       ]
     },
     {
-      "cluster_id": "5fb34094f6",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)",
-        "link": "https://isc.sans.edu/diary/rss/33214",
-        "published": "2026-08-04T12:46:19+00:00",
-        "summary": "This morning, I noticed specific sources \"hunting\" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)",
-          "link": "https://isc.sans.edu/diary/rss/33214",
-          "published": "2026-08-04T12:46:19+00:00",
-          "summary": "This morning, I noticed specific sources \"hunting\" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ef0ff97611",
       "priority_score": 11,
       "member_count": 1,
@@ -4337,6 +4296,81 @@
             "role_map": {
               "OpenAI/ChatGPT": "tool"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "5fb34094f6",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)",
+        "link": "https://isc.sans.edu/diary/rss/33214",
+        "published": "2026-08-04T12:46:19+00:00",
+        "summary": "This morning, I noticed specific sources \"hunting\" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)",
+          "link": "https://isc.sans.edu/diary/rss/33214",
+          "published": "2026-08-04T12:46:19+00:00",
+          "summary": "This morning, I noticed specific sources \"hunting\" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4560,7 +4594,7 @@
         "link": "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
         "published": "2026-08-04T22:07:35+00:00",
         "summary": "Researchers from multiple security firms observed a variant of Mini Shai-Hulud, self-replicating malware linked to TeamPCP, in all the affected packages. The post Massive supply-chain attack compromises 440 packages under four hours appeared first on CyberScoop .",
-        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close In less than four hours early Tuesday, an attacker compromised a GitHub maintainer account and unleashed a self-replicating piece of malware which injected malicious code into more than 440 distinct npm packages , according to multiple security firms. The worm, built on the open-source Mini Shai-Hulud repository that TeamPCP published in May, was initially let loose in keyv, a data management interface software package with more than 600 million monthly downloads. The attacker spent the next 30 minutes compromising additional packages controlled by the same maintainer, including cacheable, flat-cache, file-entry-cache. The attack spread to other maintainers, eventually compromising more than 860 packages with a “combined total of over 2 billion monthly installs,” Ilyas Makari, malware researcher at Aikido Security, wrote in a blog post . Wiz researchers told CyberScoop it hasn’t observed any new malicious packages since the initial wave moved through a massive footpoint of cloud and code environments in those first four hours. Advertisement “This is the most critical initial compromise, with over 155 million weekly downloads on the root packages,” Wiz Research said in an email. Some of the compromised packages, including keyv, flat-cache and file-entry-cache, are present in more than 46% of all cloud environments, according to Wiz. “By comparison, back in the Shai-Hulud 2.0 campaign the most prevalent packages were only in about 28% of environments,” the company said. “Time will tell whether the eventual cost and impact outpaces past attacks, or whether adoption of hardening mechanisms such as package aging, and the usage of the relatively less aggressive Mini Shai-Hulud code as basis, will defray the final toll here,” Wiz Research added. Researchers from multiple firms sprung into action to monitor the widening attack spree and published indicators of compromise to help potential victims hunt for malicious activity in their systems. The Mini Shai-Hulud variant used in these attacks scoops up a trove of sensitive data, including npm, GitHub, AWS and continuous integration credentials. It also steals AI-related configuration files and cryptocurrency wallets, researchers said. Advertisement Microsoft, Aikido, Socket and Wiz all said the same payload and pattern was observed across all affected packages, indicating a single attacker or threat cluster was behind the supply-chain attack and using multiple stolen tokens. The malware showcased a few pieces of new functionality, but retained the same core mechanisms that are hallmarks of Mini Shai-Hulud. “The evolution is consistent with what we’ve seen from them in past waves, however we don’t yet have the hard links” to confidently attribute the attacks to TeamPCP, Wiz Research said. The notorious threat actor, which Google previously told CyberScoop it attributes to one core operator that was located in South Africa during at least some of the attacks, compromised and injected malicious code into more than 1,000 software packages in less than four months earlier this year. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) PARIS, FRANCE – JUNE 04: In this photo illustration the GitHub logo is seen on the screen of an iPhone in front of a computer screen showing a Microsoft logo on June 04, 2018 in Paris, France. (Photo Illustration by Chesnot/Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race What the post-quantum executive order means for CISOs Government Senate set to debate package of bills on privacy, AI and kids safety Trump blames Minnesota for cyberattacks on water sector, drawing pushback from cyber world CISA issues recommendations to federal agencies on open-source softwa",
+        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close In less than four hours early Tuesday, an attacker compromised a GitHub maintainer account and unleashed a self-replicating piece of malware which injected malicious code into more than 440 distinct npm packages , according to multiple security firms. The worm, built on the open-source Mini Shai-Hulud repository that TeamPCP published in May, was initially let loose in keyv, a data management interface software package with more than 600 million monthly downloads. The attacker spent the next 30 minutes compromising additional packages controlled by the same maintainer, including cacheable, flat-cache, file-entry-cache. The attack spread to other maintainers, eventually compromising more than 860 packages with a “combined total of over 2 billion monthly installs,” Ilyas Makari, malware researcher at Aikido Security, wrote in a blog post . Wiz researchers told CyberScoop it hasn’t observed any new malicious packages since the initial wave moved through a massive footpoint of cloud and code environments in those first four hours. Advertisement “This is the most critical initial compromise, with over 155 million weekly downloads on the root packages,” Wiz Research said in an email. Some of the compromised packages, including keyv, flat-cache and file-entry-cache, are present in more than 46% of all cloud environments, according to Wiz. “By comparison, back in the Shai-Hulud 2.0 campaign the most prevalent packages were only in about 28% of environments,” the company said. “Time will tell whether the eventual cost and impact outpaces past attacks, or whether adoption of hardening mechanisms such as package aging, and the usage of the relatively less aggressive Mini Shai-Hulud code as basis, will defray the final toll here,” Wiz Research added. Researchers from multiple firms sprung into action to monitor the widening attack spree and published indicators of compromise to help potential victims hunt for malicious activity in their systems. The Mini Shai-Hulud variant used in these attacks scoops up a trove of sensitive data, including npm, GitHub, AWS and continuous integration credentials. It also steals AI-related configuration files and cryptocurrency wallets, researchers said. Advertisement Microsoft, Aikido, Socket and Wiz all said the same payload and pattern was observed across all affected packages, indicating a single attacker or threat cluster was behind the supply-chain attack and using multiple stolen tokens. The malware showcased a few pieces of new functionality, but retained the same core mechanisms that are hallmarks of Mini Shai-Hulud. “The evolution is consistent with what we’ve seen from them in past waves, however we don’t yet have the hard links” to confidently attribute the attacks to TeamPCP, Wiz Research said. The notorious threat actor, which Google previously told CyberScoop it attributes to one core operator that was located in South Africa during at least some of the attacks, compromised and injected malicious code into more than 1,000 software packages in less than four months earlier this year. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) PARIS, FRANCE – JUNE 04: In this photo illustration the GitHub logo is seen on the screen of an iPhone in front of a computer screen showing a Microsoft logo on June 04, 2018 in Paris, France. (Photo Illustration by Chesnot/Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race What the post-quantum executive order means for CISOs Government Dem senators criticize Trump administration decisionmaking on AI security risks Senate set to debate package of bills on privacy, AI and kids safety Trump blames Minnesota for cyberattacks on water sector, drawing pushback from c",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -4836,6 +4870,144 @@
                   0.26
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "fe05850866",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "VMware"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-20316",
+          "CVE-2026-59309",
+          "CVE-2026-59310",
+          "CVE-2026-59726",
+          "CVE-2026-63077"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "3rd August – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
+        "published": "2026-08-03T13:15:55+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Anthropic/Claude",
+            "VMware"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-59726",
+            "CVE-2026-20316",
+            "CVE-2026-59309",
+            "CVE-2026-59310",
+            "CVE-2026-63077"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Anthropic/Claude": "target",
+            "VMware": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "3rd August – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
+          "published": "2026-08-03T13:15:55+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Anthropic/Claude",
+              "VMware"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-59726",
+              "CVE-2026-20316",
+              "CVE-2026-59309",
+              "CVE-2026-59310",
+              "CVE-2026-63077"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "VMware": "target"
+            },
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -5200,144 +5372,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "fe05850866",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "VMware"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20316",
-          "CVE-2026-59309",
-          "CVE-2026-59310",
-          "CVE-2026-59726",
-          "CVE-2026-63077"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "3rd August – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-        "published": "2026-08-03T13:15:55+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Anthropic/Claude",
-            "VMware"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-59726",
-            "CVE-2026-20316",
-            "CVE-2026-59309",
-            "CVE-2026-59310",
-            "CVE-2026-63077"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Anthropic/Claude": "target",
-            "VMware": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "3rd August – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-          "published": "2026-08-03T13:15:55+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Anthropic/Claude",
-              "VMware"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-59726",
-              "CVE-2026-20316",
-              "CVE-2026-59309",
-              "CVE-2026-59310",
-              "CVE-2026-63077"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "VMware": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -5947,7 +5981,7 @@
         "link": "https://cyberscoop.com/inc-ransomware-sonicwall-zero-day-attacks/",
         "published": "2026-08-04T15:20:06+00:00",
         "summary": "INC ransomware wasn’t the first group to exploit the zero-days, but it’s been the most assertive and effective in chaining both vulnerabilities to steal and encrypt data for extortion. The post Prolific ransomware group behind SonicWall zero-day attacks appeared first on CyberScoop .",
-        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close Researchers said INC ransomware, one of the most active ransomware groups globally, has been the main attacker exploiting a pair of SonicWall zero-days soon after they were disclosed last month. The prolific ransomware-as-a-service operation wasn’t the first group to exploit the flaws, which were actively exploited for three weeks before the vendor disclosed and patched the defects July 14, but it has been the most assertive and concerning group to target and chain both vulnerabilities together for full access. “Since public disclosure, INC ransomware has emerged as the most commonly named threat actor actively weaponizing this vulnerability chain,” Brett Deroche, director of incident response at Rapid7, told CyberScoop. “While Inc is the name driving the post-disclosure wave, we can’t attribute the full body of exploitation to INC specifically.” SonicWall did not respond to a request for comment. Advertisement The SonicWall vulnerabilities — CVE-2026-15409 and CVE-2026-15410 — are the latest in a series of security issues confronting the vendor’s customers, including actively exploited zero-days, previously disclosed defects , and an attack last year that allowed a state-sponsored threat group to steal the firewall configurations of every SonicWall customer . Just last week, Huntress researchers spotted an attack spree that compromised 30 SonicWall customers in less than two days. Ransomware groups have taken a special interest in SonicWall. Ten of the 17 SonicWall defects added to the Cybersecurity and Infrastructure Security Agency’s known exploited vulnerabilities (KEV) catalog since late 2021 are known to be used in ransomware campaigns. INC ransomware, which has claimed nearly 900 victims across 71 countries since it was first discovered three years ago, is just the latest financially-motivated group to target SonicWall customers. Researchers haven’t determined how many organizations have been impacted by the latest SonicWall zero-days, including attacks linked to INC ransomware. Advertisement “Attribution here isn’t a single clean answer. The earliest exploitation we observed, beginning June 22, traced back to common hosted infrastructure, though those attacks were largely unsuccessful,” Deroche said. “INC’s confirmed activity that we’ve observed came after public disclosure, using different infrastructure and moving from initial access to ransomware deployment in short order. That’s a meaningfully different operational tempo and skill level than what we saw pre-disclosure,” he added. Deroche said Rapid7 has successfully prevented data theft and encryption in the majority of recent cases, yet noted ransomware was deployed in at least one case the security vendor observed. Yet, there could be other attacks outside the purview of Rapid7’s telemetry. INC ransomware has listed multiple new alleged victims on its data leak site, including organizations and government agencies in Australia, the United States, the United Arab Emirates, Colombia and Switzerland, Resecurity said in a blog post Saturday. The company said it has aided several victims with incident response, and learned multiple victims received emails and phone calls from alleged hackers who pressured them to engage in negotiations. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops SonicWall’s headquarters in Milpitas, California. (Getty Images) SonicWall’s headquarters in Milpitas, California. (Getty Images) Palo Alto Networks headquarters in Silicon Valley; Palo Alto Networks, Inc. is an American multinational cyber security company. (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race What the post-quantum executive order means for CISOs Government Trump blames Minnesota for cyberattacks on",
+        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close Researchers said INC ransomware, one of the most active ransomware groups globally, has been the main attacker exploiting a pair of SonicWall zero-days soon after they were disclosed last month. The prolific ransomware-as-a-service operation wasn’t the first group to exploit the flaws, which were actively exploited for three weeks before the vendor disclosed and patched the defects July 14, but it has been the most assertive and concerning group to target and chain both vulnerabilities together for full access. “Since public disclosure, INC ransomware has emerged as the most commonly named threat actor actively weaponizing this vulnerability chain,” Brett Deroche, director of incident response at Rapid7, told CyberScoop. “While Inc is the name driving the post-disclosure wave, we can’t attribute the full body of exploitation to INC specifically.” SonicWall did not respond to a request for comment. Advertisement The SonicWall vulnerabilities — CVE-2026-15409 and CVE-2026-15410 — are the latest in a series of security issues confronting the vendor’s customers, including actively exploited zero-days, previously disclosed defects , and an attack last year that allowed a state-sponsored threat group to steal the firewall configurations of every SonicWall customer . Just last week, Huntress researchers spotted an attack spree that compromised 30 SonicWall customers in less than two days. Ransomware groups have taken a special interest in SonicWall. Ten of the 17 SonicWall defects added to the Cybersecurity and Infrastructure Security Agency’s known exploited vulnerabilities (KEV) catalog since late 2021 are known to be used in ransomware campaigns. INC ransomware, which has claimed nearly 900 victims across 71 countries since it was first discovered three years ago, is just the latest financially-motivated group to target SonicWall customers. Researchers haven’t determined how many organizations have been impacted by the latest SonicWall zero-days, including attacks linked to INC ransomware. Advertisement “Attribution here isn’t a single clean answer. The earliest exploitation we observed, beginning June 22, traced back to common hosted infrastructure, though those attacks were largely unsuccessful,” Deroche said. “INC’s confirmed activity that we’ve observed came after public disclosure, using different infrastructure and moving from initial access to ransomware deployment in short order. That’s a meaningfully different operational tempo and skill level than what we saw pre-disclosure,” he added. Deroche said Rapid7 has successfully prevented data theft and encryption in the majority of recent cases, yet noted ransomware was deployed in at least one case the security vendor observed. Yet, there could be other attacks outside the purview of Rapid7’s telemetry. INC ransomware has listed multiple new alleged victims on its data leak site, including organizations and government agencies in Australia, the United States, the United Arab Emirates, Colombia and Switzerland, Resecurity said in a blog post Saturday. The company said it has aided several victims with incident response, and learned multiple victims received emails and phone calls from alleged hackers who pressured them to engage in negotiations. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops SonicWall’s headquarters in Milpitas, California. (Getty Images) SonicWall’s headquarters in Milpitas, California. (Getty Images) Palo Alto Networks headquarters in Silicon Valley; Palo Alto Networks, Inc. is an American multinational cyber security company. (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race What the post-quantum executive order means for CISOs Government Dem senators criticize Trump administratio",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -6061,7 +6095,7 @@
       ]
     },
     {
-      "cluster_id": "2654cf7196",
+      "cluster_id": "cf618761a2",
       "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -6072,24 +6106,32 @@
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2025-15544",
+          "CVE-2025-7850",
+          "CVE-2025-7851",
+          "CVE-2025-9289",
+          "CVE-2025-9293"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
         "content_type": [
           "news_report"
         ],
         "confidence_tier": [
-          "tier_2_operator"
+          "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Elastic Security Labs",
-        "cohort": "detection_response_operations",
-        "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
-        "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
-        "published": "2026-08-04T00:00:00+00:00",
-        "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
-        "full_body": "4 August 2026 • Ioannis Kakavas Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports 15 min read Generative AI , Internals Large language models (LLMs) made it trivially cheap to generate vulnerability reports. In the first half of 2026 alone, our HackerOne bug bounty program received over 1,390 reports, more than the full-year totals for 2024 and 2025 combined. Every one of them still requires human attention, so we decided to put agents against agents. If AI can generate reports at near-zero cost, AI should triage them at near-zero cost, too. The system we built agrees with human security engineers 85% of the time, validated against 764 known-outcome reports, with triage rules calibrated iteratively against our full corpus of over 3,300. A typical report costs roughly $2 to triage. It runs an eight-stage analysis pipeline, and then a separate adversarial review independently challenges every conclusion. When reproduction is warranted, findings are reproduced in sandboxed Elastic Stack environments on ephemeral virtual machines (VMs) that self-destruct after 30 minutes. A human still makes the final call on every report. HackerOne runs its own AI-assisted triage at submission time, and we use it as a first gate: Only reports that HackerOne's AI marks as send_to_validation reach our pipeline, so we're not paying to re-triage what HackerOne already handles well. The problem: Triage doesn't scale linearly Bug bounty programs have a structural scaling problem. The cost of submitting a report is near zero, but the cost of triaging one is not. A senior security engineer spends 30 to 60 minutes on a typical report: reading the submission, assessing validity against product-specific context, scoring severity, determining if reproduction is feasible, and often spinning up an environment to verify the claim. Multiply that across hundreds of reports per year, and triage becomes a significant operational cost. At Elastic, our bug bounty program on HackerOne has historically received 600 to 850 reports per year. That number is rising sharply: In the first half of 2026, we saw a huge increase in the number of AI generated reports we receive. The majority of analyst time goes toward reports that will ultimately be closed as informative or not applicable. That was already a challenge before LLMs entered the picture. The 2026 spike is the thesis made concrete: AI lowering the cost of report generation to near zero directly shows up in submission volume, while the signal-to-noise ratio drops. We set out to build an AI agent that could handle the mechanical parts of triage, flag the reports that genuinely need human judgment, and reproduce the rest automatically. AI triage architecture: Two VMs, two skills, one orchestrator The system breaks triage into two compute-isolated phases, each running on a separate ephemeral Google Cloud Platform (GCP) VM. This separation was a deliberate architectural choice, for cost (analysis needs a small machine; reproduction needs a larger one) and for security: The analysis VM never runs untrusted code, and the reproduction VM never needs access to the full report corpus or triage history. Phase 1: Analysis runs on an e2-standard-2 VM (2 vCPU, 8GB RAM). Claude processes the report through an eight-stage assessment pipeline, and then a separate adversarial review skill independently challenges the analysis. There are no Docker containers involved, and the system doesn’t execute any code. The VM shuts down after 30 minutes, regardless of state. Phase 2: Reproduction runs on an e2-standard-4 VM (4 vCPU, 16GB RAM) only when the analysis recommends it. This VM provisions an Elastic Stack via Docker Compose, executes researcher-described steps insi",
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+        "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+        "published": "2026-08-04T22:18:20+00:00",
+        "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
+        "full_body": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks By Bill Toulas August 4, 2026 06:18 PM 0 TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). The flaws were uncovered by Forescout’s Vedere Labs researchers, who published the full details at the Black Hat USA security conference earlier today. Omada is TP-Link’s business networking product line that includes Wi-Fi access points, Ethernet and PoE switches, internet gateways, and VPN routers. They are typically used by small to medium-sized businesses, although TP-Link also markets pro-grade deployments for enterprises. ZTP is a way to deploy network devices without manually configuring each one on-site, allowing an IT team or managed service provider (MSP) to prepare everything remotely based on a predetermined configuration. Omada deployment diagram Source: Forescout Some of the 15 flaws Forescout discovered also impact various TP-Link products and services, such as IP cameras, smart home IoT devices, mobile applications, and cloud accounts. The issues include hard-coded cryptographic keys, information disclosure, remote code execution, device hijacking and spoofing, client-side code execution, and interception or compromise of encrypted communications. Forescout says attackers could combine the new flaws with two previously disclosed command-injection vulnerabilities to compromise Omada’s chain of trust and infiltrate networks. “The vulnerabilities fall into four impact categories: client-side code execution, information disclosure, device hijacking and spoofing, and compromise of encrypted communications,” Forescout explains . “Combined with two previously disclosed CVEs (CVE-2025-7850 and CVE-2025-7851), these flaws enable concrete attacks that let attackers infiltrate networks through controllers and client devices.” TP-Link’s advisory lists 15 newly disclosed flaws, of which 11 received the following identifiers: CVE-2025-9289 through CVE-2025-9293 CVE-2025-15544 CVE-2025-15627 through CVE-2025-15631 The remaining four findings did not receive a tracking number. They concern device adoption based only on knowing the serial number, default credentials used during initial adoption, predictable serial numbers, and files made available via unauthenticated temporary download links. In one attack scenario Forescout described, a remote attacker could enumerate predictable device serial numbers to obtain MAC addresses and identify devices awaiting adoption. The attacker could then impersonate one of those devices, exploit a race condition during cloud adoption, and authenticate using default credentials. This would cause the controller to disclose the device configuration, including a cleartext username, an unsalted MD5 password hash, and potentially VPN keys. The attacker could also inject JavaScript into the controller’s administrative interface to phish an administrator and steal their cloud-controller credentials. Having stolen the credentials, the attacker can then reconfigure managed devices, create VPN tunnels into the internal network, and exploit previously disclosed command-injection flaws to compromise network equipment. Overview of the race condition attack Source: Forescout The flaws affect Omada Controllers, Gateways, Switches, Access Points, OLT platforms, Cloud services, and TP-Link mobile applications. Forescout reports identifying over 1,800 internet-accessible Omada controllers, despite such deployments generally not being intended for direct internet exposure. As for the Android applications, Omada and Omada Guard have 1.1 downloads on Google Play, while TP-Link apps collectively have 3 to 7 million active accounts. Users are advised to visit TP-Link’s Omada download portal to source the latest firmware images for their device model. Additionally, it is recommended to use strong, unique a",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
@@ -6097,11 +6139,19 @@
           "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2025-7850",
+            "CVE-2025-7851",
+            "CVE-2025-9289",
+            "CVE-2025-9293",
+            "CVE-2025-15544"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
           "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
+          "confidence_tier": "tier_4_news",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -6110,23 +6160,31 @@
       },
       "corroborating_sources": [
         {
-          "source": "Elastic Security Labs",
-          "cohort": "detection_response_operations",
-          "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
-          "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
-          "published": "2026-08-04T00:00:00+00:00",
-          "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+          "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+          "published": "2026-08-04T22:18:20+00:00",
+          "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2025-7850",
+              "CVE-2025-7851",
+              "CVE-2025-9289",
+              "CVE-2025-9293",
+              "CVE-2025-15544"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
             "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
+            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -6260,6 +6318,105 @@
               "SonicWall": "target",
               "Google/Gemini": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "02097b7a9a",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "government",
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "UK’s Police National Legal Database Reveals Data Breach",
+        "link": "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/",
+        "published": "2026-08-04T08:40:00+00:00",
+        "summary": "The UK’s Police National Legal Database and Ask the Police service have been breached",
+        "full_body": "Infosecurity Magazine Home » News » UK’s Police National Legal Database Reveals Data Breach UK’s Police National Legal Database Reveals Data Breach News 4 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A major database containing the work details of British police officers and criminal justice professionals has been compromised, it has emerged. The Police National Legal Database (PNLD) is managed by the West Yorkshire Police and contains information on officers from all 43 police forces in England and Wales, as well as the British Transport Police, the Crown Prosecution Service, the Independent Office for Police Conduct, and His Majesty's Courts and Tribunals Service. An August 3 statement from the PNLD revealed the service had suffered a “data security incident,” which was identified on July 26. “Information including the names, organizations and work email addresses of police officers, staff and other criminal justice professionals, government partners and customers has been compromised and published on the dark web. There is no evidence to suggest that passwords or other security credentials have been compromised,” it explained. “Since the incident was identified, we have been working with specialist cybersecurity organizations and the National Crime Agency to investigate the circumstances and take appropriate action.” Read more on police data breaches: PSNI Faces £750,000 Data Breach Fine After Spreadsheet Leak Also impacted was the Ask the Police service operated by the PNLD. “As a result, some names and email addresses of people who have previously submitted a question to Ask the Police have been published on the dark web,” the notice read. “If you have been affected, you will have already received an email from Ask the Police with more information and guidance.” The PNLD explained that it doesn’t hold any confidential information relating to victims, witnesses, or offenders. ExfilSquad Claims Responsibility for PNLD Hack ExfilSquad, the extortion group responsible for a recent data breach at the UK's Department for Education, claimed it was also behind the PNLD incident. According to screenshots of its leak site posted to X , the group claimed to have 1.9GB of data in its possession, including 135,000 records, some of which it leaked to prove it means business. “Once your company’s data is posted here it’s never leaving the public eye and will be passed around the internet forever,” a note by the group read. “The payment we request of you is simply a rounding error compared to the litigation costs of your data leaking. Be smart and just pay.” For PNLD to pay is highly unlikely given the UK government’s intention to introduce a de facto ban on public sector organizations paying extortion demands made by cyber adversaries. Any individuals named in the breach ought to be on the lookout for follow-on attacks if their data is leaked. Dray Agha, senior manager, security operations center EMEA at Huntress, said: \"While the absence of compromised passwords is a relief, exposing the names and work emails of UK police and justice staff on the dark web hands cybercriminals a readymade directory to launch highly targeted spear-phishing and social engineering attacks against the very people defending our justice system.\" You may also like Someone’s got to pay Magazine Feature 1 July 2008 Heartland takes US$12.6m hit for breach News 8 May 2009 Nine Million MCNA Dental Customers Hit by Breach News 30 May 2023 Lancaster University Confirms Data Breach, Applicants Targeted News 23 July 2019 Over 500K School Staff and Students Hit by Breach News 24 December 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Korea’s Largest Telco KT Fined $38m After Femtocell Campaign News 3 August 2026 1 Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked News 3 August 2026 2 The Average Cost of a Data Breach Rises to $5 Million News 29 July 2026 3 Holl",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "education",
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "UK’s Police National Legal Database Reveals Data Breach",
+          "link": "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/",
+          "published": "2026-08-04T08:40:00+00:00",
+          "summary": "The UK’s Police National Legal Database and Ask the Police service have been breached",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "education",
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6410,105 +6567,6 @@
               "cPanel": "target",
               "Anthropic/Claude": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "02097b7a9a",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "government",
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "UK’s Police National Legal Database Reveals Data Breach",
-        "link": "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/",
-        "published": "2026-08-04T08:40:00+00:00",
-        "summary": "The UK’s Police National Legal Database and Ask the Police service have been breached",
-        "full_body": "Infosecurity Magazine Home » News » UK’s Police National Legal Database Reveals Data Breach UK’s Police National Legal Database Reveals Data Breach News 4 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A major database containing the work details of British police officers and criminal justice professionals has been compromised, it has emerged. The Police National Legal Database (PNLD) is managed by the West Yorkshire Police and contains information on officers from all 43 police forces in England and Wales, as well as the British Transport Police, the Crown Prosecution Service, the Independent Office for Police Conduct, and His Majesty's Courts and Tribunals Service. An August 3 statement from the PNLD revealed the service had suffered a “data security incident,” which was identified on July 26. “Information including the names, organizations and work email addresses of police officers, staff and other criminal justice professionals, government partners and customers has been compromised and published on the dark web. There is no evidence to suggest that passwords or other security credentials have been compromised,” it explained. “Since the incident was identified, we have been working with specialist cybersecurity organizations and the National Crime Agency to investigate the circumstances and take appropriate action.” Read more on police data breaches: PSNI Faces £750,000 Data Breach Fine After Spreadsheet Leak Also impacted was the Ask the Police service operated by the PNLD. “As a result, some names and email addresses of people who have previously submitted a question to Ask the Police have been published on the dark web,” the notice read. “If you have been affected, you will have already received an email from Ask the Police with more information and guidance.” The PNLD explained that it doesn’t hold any confidential information relating to victims, witnesses, or offenders. ExfilSquad Claims Responsibility for PNLD Hack ExfilSquad, the extortion group responsible for a recent data breach at the UK's Department for Education, claimed it was also behind the PNLD incident. According to screenshots of its leak site posted to X , the group claimed to have 1.9GB of data in its possession, including 135,000 records, some of which it leaked to prove it means business. “Once your company’s data is posted here it’s never leaving the public eye and will be passed around the internet forever,” a note by the group read. “The payment we request of you is simply a rounding error compared to the litigation costs of your data leaking. Be smart and just pay.” For PNLD to pay is highly unlikely given the UK government’s intention to introduce a de facto ban on public sector organizations paying extortion demands made by cyber adversaries. Any individuals named in the breach ought to be on the lookout for follow-on attacks if their data is leaked. Dray Agha, senior manager, security operations center EMEA at Huntress, said: \"While the absence of compromised passwords is a relief, exposing the names and work emails of UK police and justice staff on the dark web hands cybercriminals a readymade directory to launch highly targeted spear-phishing and social engineering attacks against the very people defending our justice system.\" You may also like Someone’s got to pay Magazine Feature 1 July 2008 Heartland takes US$12.6m hit for breach News 8 May 2009 Nine Million MCNA Dental Customers Hit by Breach News 30 May 2023 Lancaster University Confirms Data Breach, Applicants Targeted News 23 July 2019 Over 500K School Staff and Students Hit by Breach News 24 December 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Korea’s Largest Telco KT Fined $38m After Femtocell Campaign News 3 August 2026 1 Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked News 3 August 2026 2 The Average Cost of a Data Breach Rises to $5 Million News 29 July 2026 3 Holl",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "education",
-            "legal_professional"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "UK’s Police National Legal Database Reveals Data Breach",
-          "link": "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/",
-          "published": "2026-08-04T08:40:00+00:00",
-          "summary": "The UK’s Police National Legal Database and Ask the Police service have been breached",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "education",
-              "legal_professional"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6875,6 +6933,81 @@
       ]
     },
     {
+      "cluster_id": "2654cf7196",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Elastic Security Labs",
+        "cohort": "detection_response_operations",
+        "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
+        "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
+        "published": "2026-08-04T00:00:00+00:00",
+        "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
+        "full_body": "4 August 2026 • Ioannis Kakavas Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports 15 min read Generative AI , Internals Large language models (LLMs) made it trivially cheap to generate vulnerability reports. In the first half of 2026 alone, our HackerOne bug bounty program received over 1,390 reports, more than the full-year totals for 2024 and 2025 combined. Every one of them still requires human attention, so we decided to put agents against agents. If AI can generate reports at near-zero cost, AI should triage them at near-zero cost, too. The system we built agrees with human security engineers 85% of the time, validated against 764 known-outcome reports, with triage rules calibrated iteratively against our full corpus of over 3,300. A typical report costs roughly $2 to triage. It runs an eight-stage analysis pipeline, and then a separate adversarial review independently challenges every conclusion. When reproduction is warranted, findings are reproduced in sandboxed Elastic Stack environments on ephemeral virtual machines (VMs) that self-destruct after 30 minutes. A human still makes the final call on every report. HackerOne runs its own AI-assisted triage at submission time, and we use it as a first gate: Only reports that HackerOne's AI marks as send_to_validation reach our pipeline, so we're not paying to re-triage what HackerOne already handles well. The problem: Triage doesn't scale linearly Bug bounty programs have a structural scaling problem. The cost of submitting a report is near zero, but the cost of triaging one is not. A senior security engineer spends 30 to 60 minutes on a typical report: reading the submission, assessing validity against product-specific context, scoring severity, determining if reproduction is feasible, and often spinning up an environment to verify the claim. Multiply that across hundreds of reports per year, and triage becomes a significant operational cost. At Elastic, our bug bounty program on HackerOne has historically received 600 to 850 reports per year. That number is rising sharply: In the first half of 2026, we saw a huge increase in the number of AI generated reports we receive. The majority of analyst time goes toward reports that will ultimately be closed as informative or not applicable. That was already a challenge before LLMs entered the picture. The 2026 spike is the thesis made concrete: AI lowering the cost of report generation to near zero directly shows up in submission volume, while the signal-to-noise ratio drops. We set out to build an AI agent that could handle the mechanical parts of triage, flag the reports that genuinely need human judgment, and reproduce the rest automatically. AI triage architecture: Two VMs, two skills, one orchestrator The system breaks triage into two compute-isolated phases, each running on a separate ephemeral Google Cloud Platform (GCP) VM. This separation was a deliberate architectural choice, for cost (analysis needs a small machine; reproduction needs a larger one) and for security: The analysis VM never runs untrusted code, and the reproduction VM never needs access to the full report corpus or triage history. Phase 1: Analysis runs on an e2-standard-2 VM (2 vCPU, 8GB RAM). Claude processes the report through an eight-stage assessment pipeline, and then a separate adversarial review skill independently challenges the analysis. There are no Docker containers involved, and the system doesn’t execute any code. The VM shuts down after 30 minutes, regardless of state. Phase 2: Reproduction runs on an e2-standard-4 VM (4 vCPU, 16GB RAM) only when the analysis recommends it. This VM provisions an Elastic Stack via Docker Compose, executes researcher-described steps insi",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Elastic Security Labs",
+          "cohort": "detection_response_operations",
+          "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
+          "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
+          "published": "2026-08-04T00:00:00+00:00",
+          "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "032b6e7e8b",
       "priority_score": 8,
       "member_count": 1,
@@ -7106,81 +7239,6 @@
       ]
     },
     {
-      "cluster_id": "1d3c72ca3a",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Elastic Security Labs",
-        "cohort": "detection_response_operations",
-        "title": "Stop rewriting detection rules by hand: automatic Sentinel-to-Elastic migration is here",
-        "link": "https://www.elastic.co/security-labs/sentinel-detection-rules-migration",
-        "published": "2026-07-29T00:00:00+00:00",
-        "summary": "Elastic's first automatic migration from a modern SIEM. Translate your Sentinel detection rules into Elastic Security without rebuilding them.",
-        "full_body": "29 July 2026 • Charles Davison Stop rewriting detection rules by hand: automatic Sentinel-to-Elastic migration is here Elastic's first automatic migration from a modern SIEM. Translate your Sentinel detection rules into Elastic Security without rebuilding them. 4 min read Detection Engineering , Product Updates Elastic automatically translates your Microsoft Sentinel detection rules into Elastic Security. Export your Scheduled and Near Real Time (NRT) analytics rules from Sentinel, upload them, and Elastic picks up the mapping and translation from there using an LLM you choose. Watchlists and severity mappings carry over. This is the first automatic migration path off a modern SIEM, available now in Tech Preview in 9.5, and it works across multiple cloud providers and regions so you can deploy closer to where your data lives. Which Microsoft Sentinel rule types can be migrated automatically? Automatic Migration focuses on the rules that carry your detection logic. In 9.5, it translates Scheduled and Near Real Time (NRT) analytics rules from Microsoft Sentinel, exported from your Sentinel workspace, and handles the translation for you. It uses the same mapping and translation as our existing rule migrations, now extended to Microsoft Sentinel. The following are supported: Integration identification with just rule export Support for the following rule types: Near-real-time (NRT) detection analytics rules Scheduled Analytic Rules Support for Watchlists to ES|QL Lookups Severity Mapping How to migrate Microsoft Sentinel detection rules to Elastic The migration runs in a few steps, from exporting your rules in Sentinel to reviewing the translated versions in Elastic. Once you've decided which rules and data to migrate, follow these steps: On the Security Launchpad, open Manage Automatic Migrations, select your AI provider, and expand Migrate your existing SIEM rules to Elastic. Select the drop-down on the top right for Microsoft Sentinel. Let Elastic guide you through exporting your rules from Sentinel and uploading them into Elastic Security. Elastic handles the finer details by scanning for watchlists and then prompts you to upload them when found. Once the rules are uploaded, you can view their status. Installed: Already added to Elastic SIEM. Click View to manage and enable it. Translated: Ready to install. This rule was mapped to an Elastic-authored rule, or translated by Automatic Import . Click Install to install it. Partially translated: Part of the query could not be translated. You may need to specify an index pattern for the rule query, upload missing files, or fix broken rule syntax. Not translated: None of the original query could be translated. Failed: Translation failed. Refer to the error for details. For more information, refer to the technical documentation . After clicking View Rules, you will have the ability to edit and install rules. Should you migrate rules first or data first? One of the first decisions in a migration is sequencing: data or rules first. Elastic supports both paths, so you can start wherever makes sense for your team. Path When to use What happens Rules first You do not know exactly which data sources to prioritise before moving any logs. Translate your Sentinel rules first. Elastic identifies which integrations those rules need, so you can plan data onboarding around what your detections actually require. Data first Your log sources are already being onboarded, or you want detections to work the moment they're installed. Onboarding data beforehand improves the translation quality. Onboard your log sources into Elastic, then migrate your Sentinel rules to match. Rules can be installed and enabled immediately against data that's already flowing. Custom data You have proprietary or non-standard log sources that don't map to a prebuilt Elastic integration. Use Automatic Import to ingest custom data sources in minutes, then migrate or write rules against them. By identifying exactly which integra",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Elastic Security Labs",
-          "cohort": "detection_response_operations",
-          "title": "Stop rewriting detection rules by hand: automatic Sentinel-to-Elastic migration is here",
-          "link": "https://www.elastic.co/security-labs/sentinel-detection-rules-migration",
-          "published": "2026-07-29T00:00:00+00:00",
-          "summary": "Elastic's first automatic migration from a modern SIEM. Translate your Sentinel detection rules into Elastic Security without rebuilding them.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a72f86573a",
       "priority_score": 8,
       "member_count": 1,
@@ -7272,307 +7330,6 @@
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "911abb5be6",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-        "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-        "published": "2026-08-04T11:30:00+00:00",
-        "summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as \"script kiddies,\" sat at the other end, running public",
-        "full_body": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted  The Hacker News  Aug 04, 2026 Enterprise Security / Threat Intelligence The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as \"script kiddies,\" sat at the other end, running public tools they didn't fully understand. Generative AI is collapsing that ranking. The next generation of attackers won't necessarily bring years of exploit development or reverse engineering experience. Instead, they'll use AI to close knowledge gaps by accelerating research, explaining unfamiliar concepts, generating code, troubleshooting errors, and adapting known techniques to new environments. The barrier to entry is dropping fast. The Economics of Cyberattacks Are Changing Every major technology shift changes economics as it changes the solutions we rely on. Cloud computing cut the cost of building infrastructure. Open-source software cut the cost of developing applications. LLMs are cutting the cost of offensive security knowledge. An attacker who once needed weeks to understand a newly disclosed vulnerability can now use AI to summarize technical documentation, explain exploit mechanics, identify affected technologies, and generate prototype code in minutes. That doesn't necessarily mean AI independently discovers sophisticated attack chains or replaces experienced operators. Complex intrusions still demand expert judgment, creativity, and persistence. What's changed is how much expertise it takes to get operational. The result is a larger population of more capable attackers. From Script Kiddies to AI Collaborators The term \"script kiddie\" no longer captures what's happening. Today's emerging attacker often works alongside an AI assistant, asking iterative questions, refining payloads, debugging code, and adapting techniques to a specific environment. The dynamic mirrors what developers now call \"vibe coding,\" where natural language replaces most of the manual effort behind working software. Offensive security is starting to see the same shift. Call it \"vibe hacking\" - the ability to translate intent into effective offensive activity through natural-language interaction with AI. Whether that label sticks matters less than the trend underneath it. For better or worse, expertise is becoming accessible on demand. Defense Can't Depend on Attacker Scarcity Many organizations built their security programs around an implicit assumption that highly capable attackers were relatively scarce. But today, that assumption deserves a second look. If AI lets more people perform offensive tasks that used to require specialized experience, defenders should expect more experimentation, faster adaptation, and higher attack volume. The question isn't whether attackers have advanced technical skills anymore. It's whether organizations can continuously prove their defenses still hold as attackers become more efficient at reconnaissance, exploit adaptation, and payload customization. Validation Matters More Than Discovery Most enterprises already have strong visibility in their environments. Security teams track vulnerabilities and monitor cloud configurations, endpoint telemetry, identities, and third-party risk, backed by attack surface management across dozens of specialized tools. Awareness was never the limiting factor. Knowing which weaknesses actually matter before an attacker finds them is. As AI compresses the time between vulnerability disclosure and exploitation, periodic penetration testing and vulnerability scanning stop being enough on their own. Organizations need continuous evidence that critical attack paths stay closed, that compensating controls keep functioning, and that security spending i",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage",
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-          "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-          "published": "2026-08-04T11:30:00+00:00",
-          "summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as \"script kiddies,\" sat at the other end, running public",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d612fb7039",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-58048",
-        "cPanel"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "cPanel"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-58047",
-          "CVE-2026-58048"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
-        "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
-        "published": "2026-08-04T10:36:27+00:00",
-        "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects",
-        "full_body": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root  Swati Khandelwal  Aug 04, 2026 Vulnerability / Database Security cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects all supported versions of cPanel & WHM, along with WP Squared. Reaching it requires a valid cPanel account and access to the MySQL/MariaDB feature. From there, the vendor says the account holder could execute arbitrary database commands with full administrative privileges. Depending on the operating system and database engine configuration, “this may extend to operating-system-level compromise.” cPanel patched CVE-2026-58048 in these builds: 11.110.0.137 11.118.0.71 11.126.0.78 11.134.0.48 11.136.0.32 138.1.6 for WP Squared Servers that cannot update immediately can temporarily revoke the MySQL feature from cPanel users. That leaves existing databases running but prevents users from adding or removing databases. Administrators can update from WHM or use the command documented by cPanel : /usr/local/cpanel/scripts/upcp --force CISA's August 4 enrichment recorded “Exploitation: none,” assessed the flaw as non-automatable, and rated its technical impact as total. That is a snapshot, and it says nothing about the days since. Under normal operation, cPanel supports database-level privileges that do not require SUPER access or allow global modifications. CVE-2026-58048 bypasses those limits by causing SQL to run in the database administrative context. The failure sits in cPanel's database-renaming process. The HackerOne CNA record says SQL mode is not preserved when a database is renamed, causing SQL to execute in root context. According to the company's database documentation , the system creates a replacement database, moves the original data, recreates grants and stored code, and then removes the old database and its grants. The vendor advisory titles the issue a privilege escalation and does not use the words SQL injection. The CNA classifies the same defect as CWE-89, SQL injection. The two records describe one bug from different angles. The advisory and CVE record do not identify the injected input, the affected SQL mode or the exact payload. Nor does it say whether Team User sub-accounts, the role-limited logins an account owner can create, meet its description of an authenticated account holder if they hold database access. A Critical rating is a severity measure. It does not say how many servers have somebody in a position to use the flaw, and here that population is set by who holds accounts on the box: a server whose accounts all belong to one company is a different proposition from one selling accounts to strangers. The line is not clean, since accounts can be phished or resold. And it narrows nothing about consequence, which CISA rated total. Two more in the same build CVE-2026-58047 (CVSS 4.0 score: 5.6) is an HTTP request-smuggling issue in cpsrvd , the daemon that serves the cPanel and WHM interfaces. Under limited conditions, an unauthenticated remote attacker may manipulate responses delivered to other users on the same server. The CNA record says credentials could leak as a result. Where patching has to wait, the workaround is to disable backend connection reuse by setting cpsrvd_keepalives_disabled=1 in /var/cpanel/cpanel.config and restarting cpsrvd . cPanel says the workaround forces a new TCP and TLS connection for each request on ports 2083, 2087 and 2096, increasing latency and CPU use on busy servers. cPanel credits Vincent55 Yang with reporting both CVEs. The third cPanel advisory covers GCVE-25-2026-07-45-3 in Exim. A local user's .forward file can trigger unsafe string ex",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "cPanel"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-58048",
-            "CVE-2026-58047"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "cPanel": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
-          "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
-          "published": "2026-08-04T10:36:27+00:00",
-          "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "cPanel"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-58048",
-              "CVE-2026-58047"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "cPanel": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "9a554b7f81",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "phishing_social_eng",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
-        "affected_products": [
-          "GitHub",
-          "Microsoft Defender"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-        "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-        "published": "2026-07-31T16:39:31+00:00",
-        "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
-        "full_body": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm  Ravie Lakshmanan  Jul 31, 2026 Endpoint Security / Malware Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka . According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that involves privilege escalation, weakening Microsoft Defender protections, and downloading additional payloads. While HollowFrame is launched via a DLL side-loading pair comprising the legitimate Python binary (\"python.exe\") and a rogue DLL (\"python311.dll\"), Matryoshka comes in two variants, one which supports HTTP-based communication and command execution, and another that uses GitHub for command-and-control (C2), including beaconing, tasking, reconnaissance, file transfer, and secondary payload delivery. \"Together, HollowFrame and Matryoshka gave the actor a persistent foothold for remote command execution, Active Directory reconnaissance, file transfer, and deployment of follow-on tooling,\" security researchers Nevan Beal and Sam Decker said . \"These capabilities could support credential theft, lateral movement, and broader domain compromise through additional tools delivered after initial access.\" The cybersecurity company said the multi-stage intrusion targeted two endpoints at an unspecified law firm, with the LNK file masquerading as \"Case Documents\" to trick the recipient into clicking it and activating a command sequence that employs PowerShell to fetch next-stage components from a remote server (\"2.26.252[.]84\"). HollowFrame operates as a modular loader and persistence framework that supports various methods to load auxiliary components, at the same time performing anti-analysis checks to avoid running within sandboxed environments. This is determined based on system uptime, installed memory, file count in the user profile, and cursor movement. Persistence is achieved by setting up a scheduled task. The Go loader comes embedded with an encrypted container, which is then unpacked to launch a second side-loading chain to deploy Matryoshka (\"version.dll\"), a Rust-based backdoor that communicates with its C2 server (\"45.158.196[.]184:8888\") over HTTP to spawn a shell and deliver additional tooling. A second DLL (\"wtsapi32.dll\") recovered in connection with the same activity has been flagged as a variant of Matryoshka that makes use of a private GitHub repository (\" adioziaete /memio\") to poll victim-specific commands, submit results, and fetch payloads. \"The repository functioned as a collection of per-host mailboxes, with each victim assigned a dedicated <computer>_<username> directory,\" Blackpoint explained. \"These directories contained beacon.json, cmd.json, result.json, and, in some cases, an upload/ tree for file delivery.\" \"This structure allowed the operator to manage tasking and results for individual endpoints through GitHub without maintaining a custom command server, while also leaving a versioned history of repository changes unless the associated commits or repository were removed.\" Querying the GitHub API with the username shows that the account was created on January 6, 2023, and that the profile information was updated as recently as June 7, 2026. It's currently not known who is behind the activity. \"Across the chain, each stage reduced the amount of malicious behavior visible in the stage before it,\" Blackpoint noted. \"That separation complicated attribution and detection because no single component contained the full infection logic or complete C2 picture.\" Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Active Directory , Command and Control , end",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "credential_theft",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "legal_professional"
-          ],
-          "affected_products": [
-            "GitHub",
-            "Microsoft Defender"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "GitHub": "target",
-            "Microsoft Defender": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-          "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-          "published": "2026-07-31T16:39:31+00:00",
-          "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "credential_theft",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "legal_professional"
-            ],
-            "affected_products": [
-              "GitHub",
-              "Microsoft Defender"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target",
-              "Microsoft Defender": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -7798,6 +7555,114 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "9a554b7f81",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "phishing_social_eng",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [
+          "GitHub",
+          "Microsoft Defender"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+        "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+        "published": "2026-07-31T16:39:31+00:00",
+        "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
+        "full_body": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm  Ravie Lakshmanan  Jul 31, 2026 Endpoint Security / Malware Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka . According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that involves privilege escalation, weakening Microsoft Defender protections, and downloading additional payloads. While HollowFrame is launched via a DLL side-loading pair comprising the legitimate Python binary (\"python.exe\") and a rogue DLL (\"python311.dll\"), Matryoshka comes in two variants, one which supports HTTP-based communication and command execution, and another that uses GitHub for command-and-control (C2), including beaconing, tasking, reconnaissance, file transfer, and secondary payload delivery. \"Together, HollowFrame and Matryoshka gave the actor a persistent foothold for remote command execution, Active Directory reconnaissance, file transfer, and deployment of follow-on tooling,\" security researchers Nevan Beal and Sam Decker said . \"These capabilities could support credential theft, lateral movement, and broader domain compromise through additional tools delivered after initial access.\" The cybersecurity company said the multi-stage intrusion targeted two endpoints at an unspecified law firm, with the LNK file masquerading as \"Case Documents\" to trick the recipient into clicking it and activating a command sequence that employs PowerShell to fetch next-stage components from a remote server (\"2.26.252[.]84\"). HollowFrame operates as a modular loader and persistence framework that supports various methods to load auxiliary components, at the same time performing anti-analysis checks to avoid running within sandboxed environments. This is determined based on system uptime, installed memory, file count in the user profile, and cursor movement. Persistence is achieved by setting up a scheduled task. The Go loader comes embedded with an encrypted container, which is then unpacked to launch a second side-loading chain to deploy Matryoshka (\"version.dll\"), a Rust-based backdoor that communicates with its C2 server (\"45.158.196[.]184:8888\") over HTTP to spawn a shell and deliver additional tooling. A second DLL (\"wtsapi32.dll\") recovered in connection with the same activity has been flagged as a variant of Matryoshka that makes use of a private GitHub repository (\" adioziaete /memio\") to poll victim-specific commands, submit results, and fetch payloads. \"The repository functioned as a collection of per-host mailboxes, with each victim assigned a dedicated <computer>_<username> directory,\" Blackpoint explained. \"These directories contained beacon.json, cmd.json, result.json, and, in some cases, an upload/ tree for file delivery.\" \"This structure allowed the operator to manage tasking and results for individual endpoints through GitHub without maintaining a custom command server, while also leaving a versioned history of repository changes unless the associated commits or repository were removed.\" Querying the GitHub API with the username shows that the account was created on January 6, 2023, and that the profile information was updated as recently as June 7, 2026. It's currently not known who is behind the activity. \"Across the chain, each stage reduced the amount of malicious behavior visible in the stage before it,\" Blackpoint noted. \"That separation complicated attribution and detection because no single component contained the full infection logic or complete C2 picture.\" Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Active Directory , Command and Control , end",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "credential_theft",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [
+            "GitHub",
+            "Microsoft Defender"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "GitHub": "target",
+            "Microsoft Defender": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+          "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+          "published": "2026-07-31T16:39:31+00:00",
+          "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "credential_theft",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [
+              "GitHub",
+              "Microsoft Defender"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target",
+              "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
@@ -7818,13 +7683,14 @@
         "affected_products": [
           "npm",
           "PyPI",
+          "Anthropic/Claude",
           "AWS",
           "GitHub"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 17,
-      "cohesion": 0.278,
+      "cluster_count": 5,
+      "article_count": 25,
+      "cohesion": 0.247,
       "shared_strong_signals": [
         "npm"
       ],
@@ -7832,6 +7698,7 @@
       "also_targets": [],
       "cluster_ids": [
         "4c8ed8c5fa",
+        "b1e900a5a7",
         "b77a2db924",
         "2675bb2bb6",
         "90c3c6eca1"
@@ -7842,13 +7709,20 @@
         "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
         "https://www.helpnetsecurity.com/2026/08/04/midnight-blizzard-hotel-wi-fi-networks-hacking/",
         "https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/",
+        "https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/",
+        "https://orca.security/resources/blog/introducing-ai-appgen-security/",
+        "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+        "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
+        "https://risky.biz/RBNEWS595/",
+        "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
+        "https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/",
+        "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
         "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
-        "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
-        "https://risky.biz/RBNEWS595/",
+        "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
         "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/",
         "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/"
       ]
@@ -7875,7 +7749,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 16,
+      "article_count": 15,
       "cohesion": 0.277,
       "shared_strong_signals": [
         "AWS"
@@ -7883,23 +7757,22 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "b77a2db924",
         "90d3c1c1e2",
+        "b77a2db924",
         "90c3c6eca1",
         "37a54c4646"
       ],
       "links": [
-        "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
-        "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
-        "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
-        "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
-        "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-        "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
-        "https://risky.biz/RBNEWS595/",
         "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
         "https://isc.sans.edu/diary/rss/33196",
         "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
         "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
+        "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
+        "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
+        "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+        "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
+        "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
+        "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
         "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
         "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
         "https://risky.biz/RBNEWSSI138/"
@@ -8237,7 +8110,38 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2025-15544",
+          "cluster_id": "cf618761a2",
+          "first_source": "BleepingComputer",
+          "first_published": "2026-08-04T22:18:20+00:00"
+        },
+        {
+          "value": "CVE-2025-7850",
+          "cluster_id": "cf618761a2",
+          "first_source": "BleepingComputer",
+          "first_published": "2026-08-04T22:18:20+00:00"
+        },
+        {
+          "value": "CVE-2025-7851",
+          "cluster_id": "cf618761a2",
+          "first_source": "BleepingComputer",
+          "first_published": "2026-08-04T22:18:20+00:00"
+        },
+        {
+          "value": "CVE-2025-9289",
+          "cluster_id": "cf618761a2",
+          "first_source": "BleepingComputer",
+          "first_published": "2026-08-04T22:18:20+00:00"
+        },
+        {
+          "value": "CVE-2025-9293",
+          "cluster_id": "cf618761a2",
+          "first_source": "BleepingComputer",
+          "first_published": "2026-08-04T22:18:20+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },

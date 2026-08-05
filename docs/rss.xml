@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 04 Aug 2026 22:18:27 +0000</lastBuildDate>
+<lastBuildDate>Wed, 05 Aug 2026 00:10:22 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -17,6 +17,42 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/llm-benchmarking-agentic-soc</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>OpenAI, Anthropic AI agents targeted real people and systems in cyber tests</title>
+<link>https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/</link>
+<description><![CDATA[OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people outside the intended testing boundaries. [...]<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT · phishing_social_eng</em>]]></description>
+<pubDate>Tue, 04 Aug 2026 23:39:59 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>AISI, OpenAI report more ‘unsanctioned’ model hacks</title>
+<link>https://cyberscoop.com/aisi-openai-report-unsanctioned-ai-model-hacks/</link>
+<description><![CDATA[Following similar reports by OpenAI and Anthropic, the UK’s top AI testing lab and a private cybersecurity tester say their models exploited parts of the open internet. The post AISI, OpenAI report more ‘unsanctioned’ model hacks appeared first on CyberScoop .<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude</em>]]></description>
+<pubDate>Tue, 04 Aug 2026 22:46:25 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/aisi-openai-report-unsanctioned-ai-model-hacks/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+<category>Anthropic/Claude</category>
+</item>
+<item>
+<title>TP-Link patches Omada ZTP flaws allowing hackers to breach networks</title>
+<link>https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/</link>
+<description><![CDATA[TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]<br/><br/><em>Tags: CVE-2025-7850 · CVE-2025-7851 · CVE-2025-9289 · CVE-2025-9293 · CVE-2025-15544</em>]]></description>
+<pubDate>Tue, 04 Aug 2026 22:18:20 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2025-7850</category>
+<category>CVE-2025-7851</category>
+<category>CVE-2025-9289</category>
+<category>CVE-2025-9293</category>
 </item>
 <item>
 <title>Massive supply-chain attack compromises 440 packages under four hours</title>
@@ -282,17 +318,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted</title>
-<link>https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html</link>
-<description><![CDATA[The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as &quot;script kiddies,&quot; sat at the other end, running public<br/><br/><em>Tags: apt_espionage · vulnerability_disclosure</em>]]></description>
-<pubDate>Tue, 04 Aug 2026 11:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>apt_espionage</category>
-<category>vulnerability_disclosure</category>
-</item>
-<item>
 <title>Cloud and SaaS Environments Now Top Targets for Attackers</title>
 <link>https://www.infosecurity-magazine.com/news/cloud-saas-targets-attackers/</link>
 <description><![CDATA[Cloud and SaaS are now the preferred operating environments for threat actors, amid a continued shift to identity attacks]]></description>
@@ -300,6 +325,16 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/cloud-saas-targets-attackers/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted</title>
+<link>https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html</link>
+<description><![CDATA[The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as &quot;script kiddies,&quot; sat at the other end, running public<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<pubDate>Tue, 04 Aug 2026 11:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>apt_espionage</category>
 </item>
 <item>
 <title>keyv and cacheable npm Package Hijacked in Supply Chain Attack</title>
@@ -350,15 +385,13 @@
 <item>
 <title>New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root</title>
 <link>https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html</link>
-<description><![CDATA[cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database&apos;s root context, crossing the privilege boundary between a cPanel account and the server&apos;s administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects<br/><br/><em>Tags: cPanel · CVE-2026-58048 · CVE-2026-58047 · phishing_social_eng</em>]]></description>
+<description><![CDATA[cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database&apos;s root context, crossing the privilege boundary between a cPanel account and the server&apos;s administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects<br/><br/><em>Tags: cPanel · CVE-2026-58048</em>]]></description>
 <pubDate>Tue, 04 Aug 2026 10:36:27 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>cPanel</category>
 <category>CVE-2026-58048</category>
-<category>CVE-2026-58047</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Indusface SwyftComply AI enables autonomous virtual patching for AI-discovered flaws</title>
@@ -954,15 +987,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft</title>
-<link>https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/</link>
-<description><![CDATA[A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number generator. [...]]]></description>
-<pubDate>Sun, 02 Aug 2026 21:14:29 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Open letters about AI development</title>
 <link>https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything</link>
 <description><![CDATA[Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I&apos;ve decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen&apos;s first ever tweet ), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI. It&apos;s clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over &quot;safety&quot; concerns - a reasonable consideration given what happened to Claude Fable 5 ! Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the ha<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
@@ -1254,16 +1278,6 @@
 <category>GitHub</category>
 <category>Palo Alto Networks</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>What the Hugging Face breach reveals about defense in the age of agentic AI</title>
-<link>https://cyberscoop.com/hugging-face-breach-agentic-ai-security-op-ed/</link>
-<description><![CDATA[We almost never get both sides of an intrusion. This time we did. Last month, Hugging Face disclosed a breach into part of its production infrastructure, saying an autonomous AI agent system ran the attack from start to finish. Five days later, OpenAI revealed that its own models, including GPT-5.6 Sol along with an unreleased […] The post What the Hugging Face breach reveals about defense in the age of agentic AI appeared first on CyberScoop .<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Fri, 31 Jul 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/hugging-face-breach-agentic-ai-security-op-ed/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>AWS Blames North Korean Group for Axios and Other npm Supply Chain Attacks</title>
@@ -2123,15 +2137,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Quoting Akshat Bubna</title>
-<link>https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything</link>
-<description><![CDATA[We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal&apos;s CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident]]></description>
-<pubDate>Tue, 28 Jul 2026 22:05:55 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Ghost Credentials Expose Cloud Systems to Hidden Identity Risks</title>
 <link>https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path</link>
 <description><![CDATA[Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who plans to release an open source tool next week at Black Hat USA 2026 that sniffs out trust paths.]]></description>
@@ -2416,16 +2421,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -2435,6 +2430,16 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
+</item>
+<item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -2943,15 +2948,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/agentic-soc-token-budget-architecture</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search</title>
-<link>https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/</link>
-<description><![CDATA[submitted by /u/fede_k [link] [comments]]]></description>
-<pubDate>Thu, 23 Jul 2026 22:11:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets</title>
@@ -17354,19 +17350,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>BadPilot Campaign</title>
-<link>https://www.intel471.com/blog/badpilot-campaign</link>
-<description><![CDATA[The subgroup conducting BadPilot has been observed to be exploiting known vulnerabilities, such as CVE-2024-1709 (ConnectWise ScreenConnect) and CVE-2023-48788 (Fortinet FortiClient EMS), as well as abusing remote access tools such as Atera Agent and Splashtop Remote Services to maintain access.<br/><br/><em>Tags: Fortinet · ScreenConnect · CVE-2024-1709 · CVE-2023-48788</em>]]></description>
-<pubDate>Wed, 26 Feb 2025 18:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/badpilot-campaign</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>Fortinet</category>
-<category>ScreenConnect</category>
-<category>CVE-2024-1709</category>
-<category>CVE-2023-48788</category>
-</item>
-<item>
 <title>GreyNoise Detects Active Exploitation of CVEs Mentioned in Black Basta’s Leaked Chat Logs</title>
 <link>https://www.greynoise.io/blog/greynoise-detects-active-exploitation-cves-black-bastas-leaked-chat-logs</link>
 <description><![CDATA[Ransomware group Black Basta’s chat logs were leaked, revealing 62 mentioned CVEs (Source: VulnCheck). GreyNoise identified 23 of these CVEs as actively exploited, with some targeted in the last 24 hours. Notably, CVE-2023-6875 is being exploited despite not appearing in CISA’s KEV catalog — reinforcing the need for real-time intelligence beyond static lists.<br/><br/><em>Tags: Black Basta · CVE-2023-6875 · ransomware_extortion · active_exploitation</em>]]></description>
@@ -19221,7 +19204,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19230,7 +19213,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19239,7 +19222,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19248,7 +19231,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19257,7 +19240,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19266,7 +19249,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19275,7 +19258,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19284,7 +19267,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19293,7 +19276,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19302,7 +19285,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 04 Aug 2026 22:18:27 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 00:10:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
